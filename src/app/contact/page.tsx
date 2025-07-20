@@ -37,10 +37,10 @@ export default function ContactPage() {
                   <div>
                     <p className="font-medium">Email Us</p>
                     <a 
-                      href="mailto:contact@metic.ai" 
+                      href="mailto:Hello@metic.ai" 
                       className="text-primary-orange hover:underline"
                     >
-                      contact@metic.ai
+                      Hello@metic.ai
                     </a>
                   </div>
                 </div>
@@ -52,10 +52,10 @@ export default function ContactPage() {
                   <div>
                     <p className="font-medium">Call Us</p>
                     <a 
-                      href="tel:+15551234567" 
+                      href="tel:+917892518414" 
                       className="text-primary-orange hover:underline"
                     >
-                      (555) 123-4567
+                      +91-78925-18414
                     </a>
                   </div>
                 </div>
@@ -65,11 +65,25 @@ export default function ContactPage() {
                     <MapPin className="h-5 w-5 text-primary-orange" />
                   </div>
                   <div>
-                    <p className="font-medium">Visit Our Office</p>
+                    <p className="font-medium">USA Office</p>
                     <p className="text-gray-600">
-                      123 AI Boulevard<br />
-                      Innovation District<br />
-                      San Francisco, CA 94103
+                      300 Quail Ridge Dr NE<br />
+                      ADA, MI 49301<br />
+                      USA
+                    </p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start">
+                  <div className="mr-3 bg-primary-orange/10 p-3 rounded-md">
+                    <MapPin className="h-5 w-5 text-primary-orange" />
+                  </div>
+                  <div>
+                    <p className="font-medium">India Office</p>
+                    <p className="text-gray-600">
+                      Behind Manyata Tech Park<br />
+                      Hebbal, Bangalore 560077<br />
+                      Karnataka, India
                     </p>
                   </div>
                 </div>
