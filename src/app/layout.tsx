@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import { Header } from "./components/ui/Header";
 import { Footer } from "./components/ui/Footer";
+import { Analytics } from "../components/Analytics";
 import "./globals.css";
 
 const inter = Inter({
@@ -22,6 +23,13 @@ export const metadata: Metadata = {
   keywords: "AI company Michigan, artificial intelligence Michigan, machine learning Michigan, AI services Michigan, custom AI development, AI integration, data engineering Michigan, generative AI services",
   authors: [{ name: "Metic AI" }],
   robots: "index, follow",
+  viewport: "width=device-width, initial-scale=1",
+  alternates: {
+    canonical: "https://metic.ai",
+  },
+  verification: {
+    google: "your-google-site-verification-code", // Add your actual verification code
+  },
   openGraph: {
     title: "Artificial Intelligence Company in Michigan | Top AI Company In Michigan - Metic AI",
     description: "Leading AI company in Michigan delivering intelligent solutions that transform businesses. Expert AI integration, custom development, machine learning, and data engineering services.",
@@ -29,11 +37,20 @@ export const metadata: Metadata = {
     siteName: "Metic AI",
     type: "website",
     locale: "en_US",
+    images: [
+      {
+        url: "https://metic.ai/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Metic AI - Leading AI Company in Michigan",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Artificial Intelligence Company in Michigan | Top AI Company In Michigan - Metic AI",
     description: "Leading AI company in Michigan delivering intelligent solutions that transform businesses.",
+    images: ["https://metic.ai/og-image.jpg"],
   },
 };
 
@@ -71,6 +88,11 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${jetbrainsMono.variable}`}>
       <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <meta name="theme-color" content="#F97316" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
@@ -79,6 +101,7 @@ export default function RootLayout({
       <body
         className="min-h-screen bg-white font-sans antialiased flex flex-col"
       >
+        <Analytics />
         <Header />
         <main className="flex-1">
           {children}

@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://metic.ai/sitemap.xml
+
+# Specific paths
+Allow: /about/
+Allow: /services/
+Allow: /contact/
+
+# Block admin areas (if any in future)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /_next/
+Disallow: /api/
+
+# Allow search engines to crawl images
+Allow: /public/
+Allow: /*.jpg
+Allow: /*.png
+Allow: /*.svg
+Allow: /*.gif
+Allow: /*.webp
