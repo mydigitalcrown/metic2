@@ -72,3 +72,105 @@ export const aboutPageSchema = {
     "@id": "https://metic.ai/#organization"
   }
 };
+
+export const aiIntegrationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "AI Integration and Deployment Services",
+  "description": "Professional AI integration and deployment services including cloud-based, on-premises, and hybrid AI solutions with comprehensive data infrastructure support.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Metic.ai",
+    "url": "https://metic.ai"
+  },
+  "serviceType": "AI Integration and Deployment",
+  "areaServed": [
+    {
+      "@type": "Country",
+      "name": "United States"
+    },
+    {
+      "@type": "Country",
+      "name": "India"
+    }
+  ],
+  "offers": [
+    {
+      "@type": "Offer",
+      "name": "Cloud-based AI Deployment",
+      "description": "Scalable and flexible AI solutions hosted on cloud platforms"
+    },
+    {
+      "@type": "Offer",
+      "name": "On-Premises AI Deployment", 
+      "description": "Secure AI solutions hosted within organization infrastructure"
+    },
+    {
+      "@type": "Offer",
+      "name": "Hybrid AI Deployment",
+      "description": "Combined cloud and on-premises AI deployment solutions"
+    }
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "AI Integration Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Data Infrastructure Setup",
+          "description": "Robust data infrastructure for AI applications"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "System Compatibility Assessment",
+          "description": "Evaluation of AI solution compatibility with existing systems"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Ethical AI Framework Implementation",
+          "description": "Implementation of ethical guidelines and legal compliance"
+        }
+      }
+    ]
+  }
+};
+
+export const aiIntegrationPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "AI Integration and Deployment Services | Expert AI Implementation - Metic.ai",
+  "description": "Professional AI integration and deployment services by Metic.ai experts. Cloud-based, on-premises, and hybrid AI deployment solutions.",
+  "url": "https://metic.ai/ai-integration-and-deployment/",
+  "mainEntity": {
+    "@id": "https://metic.ai/ai-integration-and-deployment/#service"
+  },
+  "about": {
+    "@type": "Service",
+    "@id": "https://metic.ai/ai-integration-and-deployment/#service"
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://metic.ai/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "AI Integration and Deployment",
+        "item": "https://metic.ai/ai-integration-and-deployment/"
+      }
+    ]
+  }
+};

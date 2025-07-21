@@ -1,10 +1,51 @@
 import Link from "next/link";
 import { ArrowRight, Brain, BarChart3, Code, Zap, CheckCircle, Star, MessageSquare, Shield, Users, TrendingUp, Award } from "lucide-react";
 import { Button } from "./components/ui/Button";
+import { organizationSchema } from "../lib/schemas";
+
+const homePageSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Artificial Intelligence Company in Michigan | Top AI Company In Michigan - Metic AI",
+  "description": "Leading AI company in Michigan delivering intelligent solutions that transform businesses. Expert AI integration, custom development, machine learning, and data engineering services.",
+  "url": "https://metic.ai/",
+  "mainEntity": {
+    "@id": "https://metic.ai/#organization"
+  },
+  "about": {
+    "@type": "Organization",
+    "@id": "https://metic.ai/#organization"
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://metic.ai/"
+      }
+    ]
+  }
+};
 
 export default function Home() {
   return (
     <>
+      {/* Structured Data for SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(organizationSchema),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(homePageSchema),
+        }}
+      />
+      
       {/* Hero Section */}
       <section className="relative bg-gradient-to-b from-white to-orange-50 py-20 md:py-28">
         <div className="container px-4 md:px-6">

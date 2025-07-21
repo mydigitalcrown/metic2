@@ -36,4 +36,12 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- AI Integration and Deployment Page -->
+  <url>
+    <loc>https://metic.ai/ai-integration-and-deployment/</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>

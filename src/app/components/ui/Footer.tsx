@@ -37,6 +37,11 @@ export function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/blog" className="hover:text-primary-orange transition-colors">
+                  Blog
+                </Link>
+              </li>
+              <li>
                 <Link href="/contact" className="hover:text-primary-orange transition-colors">
                   Contact Us
                 </Link>
@@ -48,28 +53,33 @@ export function Footer() {
             <h3 className="text-lg font-medium mb-4">Services</h3>
             <ul className="space-y-2 text-gray-400">
               <li>
-                <Link href="/services" className="hover:text-primary-orange transition-colors">
+                <Link href="/ai-integration-and-deployment" className="hover:text-primary-orange transition-colors">
                   AI Integration & Deployment
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="hover:text-primary-orange transition-colors">
+                <Link href="/generative-ai-services" className="hover:text-primary-orange transition-colors">
+                  Generative AI Services
+                </Link>
+              </li>
+              <li>
+                <Link href="/custom-ai-development" className="hover:text-primary-orange transition-colors">
                   Custom AI Development
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="hover:text-primary-orange transition-colors">
+                <Link href="/machine-learning" className="hover:text-primary-orange transition-colors">
                   Machine Learning
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="hover:text-primary-orange transition-colors">
-                  Data Engineering
+                <Link href="/data-insights" className="hover:text-primary-orange transition-colors">
+                  Data Insights
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="hover:text-primary-orange transition-colors">
-                  Generative AI Services
+                <Link href="/data-engineering" className="hover:text-primary-orange transition-colors">
+                  Data Engineering
                 </Link>
               </li>
             </ul>
