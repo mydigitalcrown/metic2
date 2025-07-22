@@ -24,14 +24,14 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services Montana | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in Montana. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your MT business with cutting-edge AI technology.",
-  keywords: "AI services Montana, artificial intelligence Montana, machine learning Montana, AI consulting MT, AI development Montana, data science Montana, AI solutions MT, AI companies Montana",
+  title: "AI Services Montana | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+  description: "Montana's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for MT businesses.",
+  keywords: "AI services Montana, artificial intelligence Montana, machine learning Montana, AI consulting MT, AI development Montana, custom AI solutions MT, AI automation Montana, enterprise AI Montana, Billings AI, Missoula AI",
   authors: [{ name: "Metic.ai Montana AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Montana | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-    description: "Leading AI services in Montana. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for MT businesses.",
+    title: "AI Services Montana | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "Montana's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for MT businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-montana/",
     type: "website",
     images: [
@@ -45,8 +45,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services Montana | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your Montana business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    title: "AI Services Montana | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "Montana's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
     images: ["https://metic.ai/og-ai-services-montana.jpg"],
   },
   alternates: {
@@ -131,7 +131,7 @@ export default function AIServicesMontanaPage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services Montana",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in Montana. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for MT businesses.",
+            "description": "Montana's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for MT businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "Montana",
@@ -195,22 +195,22 @@ export default function AIServicesMontanaPage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-white to-gray-50 py-20 md:py-28">
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-6">
               <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-gray-600">Serving Montana</span>
+              <span className="text-sm font-medium text-orange-300">Serving Montana</span>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              AI Services in <span className="text-primary-orange">Montana</span>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
+              AI Solutions for <span className="text-primary-orange">Montana</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your Montana business with cutting-edge artificial intelligence solutions. 
-              From Billings to Missoula, we deliver enterprise-grade AI services that drive innovation and growth 
-              across Big Sky Country.
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              Montana businesses appreciate straightforward solutions that work reliably. From Billings's energy 
+              sector to agricultural operations across Big Sky Country, we've helped 25+ Montana companies 
+              implement AI that delivers solid results without unnecessary complexity. Big Sky thinking meets smart technology.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

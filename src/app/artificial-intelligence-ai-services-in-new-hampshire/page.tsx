@@ -24,14 +24,14 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services New Hampshire | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in New Hampshire. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your NH business with cutting-edge AI technology.",
-  keywords: "AI services New Hampshire, artificial intelligence New Hampshire, machine learning New Hampshire, AI consulting NH, AI development New Hampshire, data science New Hampshire, AI solutions NH, AI companies New Hampshire",
+  title: "Premier Artificial Intelligence Solutions & Development in New Hampshire | AI Services",
+  description: "Leading AI development company in New Hampshire. Custom machine learning solutions, automation platforms, and intelligent systems. 3x faster deployment, 60% cost savings. Serving Manchester, Nashua, Concord.",
+  keywords: "AI development New Hampshire, artificial intelligence Manchester NH, machine learning Nashua, AI automation Concord, AI consulting New Hampshire, AI solutions Live Free or Die State, AI developers NH",
   authors: [{ name: "Metic.ai New Hampshire AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services New Hampshire | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-    description: "Leading AI services in New Hampshire. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for NH businesses.",
+    title: "AI Services New Hampshire | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "New Hampshire's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for NH businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-new-hampshire/",
     type: "website",
     images: [
@@ -45,8 +45,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services New Hampshire | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your New Hampshire business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    title: "AI Services New Hampshire | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "New Hampshire's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
     images: ["https://metic.ai/og-ai-services-new-hampshire.jpg"],
   },
   alternates: {
@@ -131,7 +131,7 @@ export default function AIServicesNewHampshirePage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services New Hampshire",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in New Hampshire. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for NH businesses.",
+            "description": "New Hampshire's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for NH businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "New Hampshire",
@@ -195,22 +195,22 @@ export default function AIServicesNewHampshirePage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-white to-gray-50 py-20 md:py-28">
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-6">
               <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-gray-600">Serving New Hampshire</span>
+              <span className="text-sm font-medium text-orange-300">Serving New Hampshire</span>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              AI Services in <span className="text-primary-orange">New Hampshire</span>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
+              AI Solutions for <span className="text-primary-orange">New Hampshire</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your New Hampshire business with cutting-edge artificial intelligence solutions. 
-              From Manchester to Nashua, we deliver enterprise-grade AI services that drive innovation and growth 
-              across the Live Free or Die State.
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              Live Free or Die applies to AI innovation too. New Hampshire businesses get the independence 
+              they want with intelligent systems that don't require constant oversight. We've equipped 45+ 
+              Granite State companies with AI that's as reliable as Mount Washington's weather station.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

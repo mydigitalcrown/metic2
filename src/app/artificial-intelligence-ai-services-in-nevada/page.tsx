@@ -24,14 +24,14 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services Nevada | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in Nevada. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your NV business with cutting-edge AI technology.",
-  keywords: "AI services Nevada, artificial intelligence Nevada, machine learning Nevada, AI consulting NV, AI development Nevada, data science Nevada, AI solutions NV, AI companies Nevada",
+  title: "AI Services Nevada | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+  description: "Nevada's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for NV businesses.",
+  keywords: "AI services Nevada, artificial intelligence Nevada, machine learning Nevada, AI consulting NV, AI development Nevada, custom AI solutions NV, AI automation Nevada, enterprise AI Nevada, Las Vegas AI, Reno AI",
   authors: [{ name: "Metic.ai Nevada AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Nevada | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-    description: "Leading AI services in Nevada. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for NV businesses.",
+    title: "AI Services Nevada | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "Nevada's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for NV businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-nevada/",
     type: "website",
     images: [
@@ -45,8 +45,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services Nevada | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your Nevada business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    title: "AI Services Nevada | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "Nevada's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
     images: ["https://metic.ai/og-ai-services-nevada.jpg"],
   },
   alternates: {
@@ -131,7 +131,7 @@ export default function AIServicesNevadaPage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services Nevada",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in Nevada. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for NV businesses.",
+            "description": "Nevada's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for NV businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "Nevada",
@@ -195,22 +195,23 @@ export default function AIServicesNevadaPage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-white to-gray-50 py-20 md:py-28">
+            {/* Hero Section */}
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-6">
               <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-gray-600">Serving Nevada</span>
+              <span className="text-sm font-medium text-orange-300">Serving Nevada</span>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              AI Services in <span className="text-primary-orange">Nevada</span>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
+              AI That Works in <span className="text-primary-orange">Nevada</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your Nevada business with cutting-edge artificial intelligence solutions. 
-              From Las Vegas to Reno, we deliver enterprise-grade AI services that drive innovation and growth 
-              across the Silver State.
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              Nevada businesses know how to take calculated risks that pay off. From Las Vegas's entertainment 
+              and hospitality sector to Reno's tech corridor, we've helped 80+ Nevada companies implement AI 
+              solutions that deliver real returns. What happens in Vegas... drives innovation across the Silver State.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

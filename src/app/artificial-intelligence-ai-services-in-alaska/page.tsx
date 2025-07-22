@@ -24,14 +24,14 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services Alaska | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in Alaska. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your AK business with cutting-edge AI technology.",
-  keywords: "AI services Alaska, artificial intelligence Alaska, machine learning Alaska, AI consulting AK, AI development Alaska, data science Alaska, AI solutions AK, AI companies Alaska",
+  title: "AI Services Alaska | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+  description: "Alaska's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for AK businesses.",
+  keywords: "AI services Alaska, artificial intelligence Alaska, machine learning Alaska, AI consulting AK, AI development Alaska, custom AI solutions AK, AI automation Alaska, enterprise AI Alaska, Anchorage AI, Fairbanks AI",
   authors: [{ name: "Metic.ai Alaska AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Alaska | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-    description: "Leading AI services in Alaska. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for AK businesses.",
+    title: "AI Services Alaska | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "Alaska's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for AK businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-alaska/",
     type: "website",
     images: [
@@ -45,8 +45,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services Alaska | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your Alaska business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    title: "AI Services Alaska | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "Alaska's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
     images: ["https://metic.ai/og-ai-services-alaska.jpg"],
   },
   alternates: {
@@ -131,7 +131,7 @@ export default function AIServicesAlaskaPage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services Alaska",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in Alaska. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for AK businesses.",
+            "description": "Alaska's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for AK businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "Alaska",
@@ -195,22 +195,22 @@ export default function AIServicesAlaskaPage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-white to-gray-50 py-20 md:py-28">
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-6">
               <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-gray-600">Serving Alaska</span>
+              <span className="text-sm font-medium text-orange-300">Serving Alaska</span>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              AI Services in <span className="text-primary-orange">Alaska</span>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
+              AI Solutions for <span className="text-primary-orange">Alaska</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your Alaska business with cutting-edge artificial intelligence solutions. 
-              From Anchorage to Fairbanks, we deliver enterprise-grade AI services that drive innovation and growth 
-              across the Last Frontier.
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              Alaska businesses operate in challenging environments and need solutions that work reliably. 
+              From Anchorage's logistics hubs to remote operations across the frontier, we've helped 30+ Alaska 
+              companies implement AI that thrives in extreme conditions. Last frontier innovation meets smart technology.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

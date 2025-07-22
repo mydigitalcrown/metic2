@@ -24,14 +24,14 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services North Carolina | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in North Carolina. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your NC business with cutting-edge AI technology.",
-  keywords: "AI services North Carolina, artificial intelligence North Carolina, machine learning North Carolina, AI consulting NC, AI development North Carolina, data science North Carolina, AI solutions NC, AI companies North Carolina",
+  title: "AI Services North Carolina | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+  description: "North Carolina's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for NC businesses.",
+  keywords: "AI services North Carolina, artificial intelligence North Carolina, machine learning North Carolina, AI consulting NC, AI development North Carolina, custom AI solutions NC, AI automation North Carolina, enterprise AI North Carolina, Charlotte AI, Raleigh AI",
   authors: [{ name: "Metic.ai North Carolina AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services North Carolina | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-    description: "Leading AI services in North Carolina. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for NC businesses.",
+    title: "AI Services North Carolina | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "North Carolina's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for NC businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-north-carolina/",
     type: "website",
     images: [
@@ -45,8 +45,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services North Carolina | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your North Carolina business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    title: "AI Services North Carolina | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "North Carolina's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
     images: ["https://metic.ai/og-ai-services-north-carolina.jpg"],
   },
   alternates: {
@@ -57,46 +57,46 @@ export const metadata = {
 export default function AIServicesNorthCarolinaPage() {
   const services = [
     {
-      title: "AI Integration & Deployment",
-      description: "Seamlessly integrate AI solutions into your North Carolina business operations with enterprise-grade deployment strategies.",
+      title: "Banking & Finance AI",
+      description: "Charlotte's banking sector needs reliable AI. We build systems that handle risk analysis, fraud detection, and customer service without the complexity.",
       icon: Zap,
       href: "/ai-integration-and-deployment",
-      color: "blue"
+      color: "orange" as const
     },
     {
-      title: "Machine Learning Solutions",
-      description: "Advanced ML algorithms and predictive analytics tailored for North Carolina businesses and industries.",
+      title: "Research & Development",
+      description: "The Research Triangle is full of innovation. We help NC companies use AI to accelerate R&D, analyze data, and bring products to market faster.",
       icon: Brain,
       href: "/machine-learning",
-      color: "purple"
+      color: "orange" as const
     },
     {
-      title: "Custom AI Development",
-      description: "Bespoke AI solutions designed specifically for your North Carolina business requirements and goals.",
+      title: "Manufacturing Intelligence",
+      description: "North Carolina makes things. We build AI that optimizes production lines, predicts maintenance needs, and reduces waste in your facilities.",
       icon: Code,
       href: "/custom-ai-development",
-      color: "green"
+      color: "orange" as const
     },
     {
-      title: "Data Analytics & BI",
-      description: "Transform your North Carolina business data into actionable insights with advanced analytics platforms.",
+      title: "Business Analytics",
+      description: "Stop guessing about your North Carolina business performance. We turn your data into clear insights that help you make better decisions.",
       icon: BarChart3,
       href: "/data-insights",
-      color: "orange"
+      color: "orange" as const
     },
     {
-      title: "Generative AI Services",
-      description: "Harness the power of ChatGPT and generative AI for content creation and automation in North Carolina.",
+      title: "Healthcare AI",
+      description: "NC's healthcare sector is growing fast. We build AI that helps with patient data, scheduling, and administrative tasks while staying compliant.",
       icon: Sparkles,
       href: "/generative-ai-services",
-      color: "indigo"
+      color: "orange" as const
     },
     {
-      title: "Data Engineering",
-      description: "Robust data infrastructure and ETL pipelines for North Carolina enterprises and growing businesses.",
+      title: "Data Organization",
+      description: "Messy data makes AI impossible. We help North Carolina businesses clean and organize their information so AI can actually work properly.",
       icon: Database,
       href: "/data-engineering",
-      color: "red"
+      color: "orange" as const
     }
   ];
 
@@ -131,7 +131,7 @@ export default function AIServicesNorthCarolinaPage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services North Carolina",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in North Carolina. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for NC businesses.",
+            "description": "North Carolina's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for NC businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "North Carolina",
@@ -195,22 +195,22 @@ export default function AIServicesNorthCarolinaPage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-white to-gray-50 py-20 md:py-28">
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-6">
               <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-gray-600">Serving North Carolina</span>
+              <span className="text-sm font-medium text-orange-300">Serving North Carolina</span>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              AI Services in <span className="text-primary-orange">North Carolina</span>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
+              AI Solutions for <span className="text-primary-orange">North Carolina</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your North Carolina business with cutting-edge artificial intelligence solutions. 
-              From Charlotte to Raleigh, we deliver enterprise-grade AI services that drive growth and innovation 
-              across the Tar Heel State.
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              North Carolina businesses are practical - they want AI that works, not hype. From Charlotte's 
+              banking sector to the Research Triangle's innovation hub, we've helped 120+ NC companies implement 
+              AI that actually improves their operations and bottom line.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

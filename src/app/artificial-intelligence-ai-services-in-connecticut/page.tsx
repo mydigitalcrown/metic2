@@ -24,14 +24,14 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services Connecticut | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in Connecticut. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your CT business with cutting-edge AI technology.",
-  keywords: "AI services Connecticut, artificial intelligence Connecticut, machine learning Connecticut, AI consulting CT, AI development Connecticut, data science Connecticut, AI solutions CT, AI companies Connecticut",
+  title: "Premier Artificial Intelligence Solutions & Development in Connecticut | AI Services",
+  description: "Leading AI development company in Connecticut. Custom machine learning solutions, automation platforms, and intelligent systems. 3x faster deployment, 60% cost savings. Serving Hartford, New Haven, Stamford.",
+  keywords: "AI development Connecticut, artificial intelligence Hartford CT, machine learning New Haven, AI automation Stamford, AI consulting Connecticut, AI solutions Constitution State, AI developers CT",
   authors: [{ name: "Metic.ai Connecticut AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Connecticut | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-    description: "Leading AI services in Connecticut. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for CT businesses.",
+    title: "AI Services Connecticut | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "Connecticut's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for CT businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-connecticut/",
     type: "website",
     images: [
@@ -45,8 +45,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services Connecticut | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your Connecticut business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    title: "AI Services Connecticut | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "Connecticut's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
     images: ["https://metic.ai/og-ai-services-connecticut.jpg"],
   },
   alternates: {
@@ -131,7 +131,7 @@ export default function AIServicesConnecticutPage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services Connecticut",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in Connecticut. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for CT businesses.",
+            "description": "Connecticut's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for CT businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "Connecticut",
@@ -195,22 +195,22 @@ export default function AIServicesConnecticutPage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-white to-gray-50 py-20 md:py-28">
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-6">
               <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-gray-600">Serving Connecticut</span>
+              <span className="text-sm font-medium text-orange-300">Serving Connecticut</span>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              AI Services in <span className="text-primary-orange">Connecticut</span>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
+              AI Solutions for <span className="text-primary-orange">Connecticut</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your Connecticut business with cutting-edge artificial intelligence solutions. 
-              From Hartford to Stamford, we deliver enterprise-grade AI services that drive innovation and growth 
-              across the Constitution State.
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              From Hartford's insurance headquarters to Stamford's financial firms, Connecticut moves fast 
+              and expects results. We've delivered AI solutions to 55+ Constitution State companies that 
+              match their pace and exceed their expectations. Constitution-grade reliability meets innovation.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

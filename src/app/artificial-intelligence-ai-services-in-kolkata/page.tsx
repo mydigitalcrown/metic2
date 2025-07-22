@@ -24,13 +24,13 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services Kolkata | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in Kolkata, India. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your Kolkata business with cutting-edge AI technology.",
-  keywords: "AI services Kolkata, artificial intelligence Kolkata, machine learning Kolkata, AI consulting Kolkata India, AI development Kolkata, data science Kolkata, AI solutions Kolkata, AI companies Kolkata West Bengal",
+  title: "Premier Artificial Intelligence Solutions & Development in Kolkata | AI Services",
+  description: "Leading AI development company in Kolkata. Custom machine learning solutions, automation platforms, and intelligent systems. 3x faster deployment, 60% cost savings. Serving Kolkata, Salt Lake, New Town.",
+  keywords: "AI development Kolkata, artificial intelligence Kolkata India, machine learning West Bengal, AI automation Salt Lake, AI consulting Kolkata, AI solutions City of Joy, AI developers Kolkata",
   authors: [{ name: "Metic.ai Kolkata AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Kolkata | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
+    title: "AI Services Kolkata | Premier Artificial Intelligence Solutions & Development - Metic.ai",
     description: "Leading AI services in Kolkata, India. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for Kolkata businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-kolkata/",
     type: "website",
@@ -46,7 +46,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "AI Services Kolkata | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your Kolkata business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    description: "Kolkata's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
     images: ["https://metic.ai/og-ai-services-kolkata.jpg"],
   },
   alternates: {
@@ -131,7 +131,7 @@ export default function AIServicesKolkataPage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services Kolkata",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in Kolkata, India. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for Kolkata businesses.",
+            "description": "Kolkata's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for Kolkata businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Kolkata",
@@ -200,22 +200,22 @@ export default function AIServicesKolkataPage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-white to-gray-50 py-20 md:py-28">
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-6">
               <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-gray-600">Serving Kolkata, West Bengal</span>
+              <span className="text-sm font-medium text-orange-300">Serving Kolkata, West Bengal</span>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              AI Services in <span className="text-primary-orange">Kolkata</span>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
+              AI Excellence in <span className="text-primary-orange">Kolkata</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your Kolkata business with cutting-edge artificial intelligence solutions. 
-              From Salt Lake to Park Street, we deliver enterprise-grade AI services that drive innovation and growth 
-              across West Bengal's cultural and commercial capital.
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              City of Joy meets AI innovation. From heritage businesses in Dalhousie Square to modern 
+              tech companies in Salt Lake, we've helped 85+ Kolkata enterprises implement AI solutions 
+              that honor tradition while embracing the future. Bengal's intellectual capital gets smarter.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

@@ -24,14 +24,14 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services Idaho | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in Idaho. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your ID business with cutting-edge AI technology.",
-  keywords: "AI services Idaho, artificial intelligence Idaho, machine learning Idaho, AI consulting ID, AI development Idaho, data science Idaho, AI solutions ID, AI companies Idaho",
+  title: "AI Services Idaho | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+  description: "Idaho's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for ID businesses.",
+  keywords: "AI services Idaho, artificial intelligence Idaho, machine learning Idaho, AI consulting ID, AI development Idaho, custom AI solutions ID, AI automation Idaho, enterprise AI Idaho, Boise AI, Coeur d'Alene AI",
   authors: [{ name: "Metic.ai Idaho AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Idaho | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-    description: "Leading AI services in Idaho. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for ID businesses.",
+    title: "AI Services Idaho | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "Idaho's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for ID businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-idaho/",
     type: "website",
     images: [
@@ -45,8 +45,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services Idaho | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your Idaho business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    title: "AI Services Idaho | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "Idaho's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
     images: ["https://metic.ai/og-ai-services-idaho.jpg"],
   },
   alternates: {
@@ -131,7 +131,7 @@ export default function AIServicesIdahoPage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services Idaho",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in Idaho. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for ID businesses.",
+            "description": "Idaho's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for ID businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "Idaho",
@@ -195,22 +195,22 @@ export default function AIServicesIdahoPage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-white to-gray-50 py-20 md:py-28">
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-6">
               <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-gray-600">Serving Idaho</span>
+              <span className="text-sm font-medium text-orange-300">Serving Idaho</span>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              AI Services in <span className="text-primary-orange">Idaho</span>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
+              AI Solutions for <span className="text-primary-orange">Idaho</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your Idaho business with cutting-edge artificial intelligence solutions. 
-              From Boise to Coeur d'Alene, we deliver enterprise-grade AI services that drive innovation and growth 
-              across the Gem State.
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              Idaho businesses appreciate straightforward solutions that work reliably. From Boise's growing 
+              tech corridor to agricultural operations across the state, we've helped 35+ Idaho companies 
+              implement AI that delivers consistent results. Gem State innovation meets smart technology.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

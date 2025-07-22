@@ -24,13 +24,13 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services Coimbatore | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in Coimbatore, India. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your Coimbatore business with cutting-edge AI technology.",
-  keywords: "AI services Coimbatore, artificial intelligence Coimbatore, machine learning Coimbatore, AI consulting Coimbatore India, AI development Coimbatore, data science Coimbatore, AI solutions Coimbatore, AI companies Coimbatore Tamil Nadu",
+  title: "Premier Artificial Intelligence Solutions & Development in Coimbatore | AI Services",
+  description: "Leading AI development company in Coimbatore. Custom machine learning solutions, automation platforms, and intelligent systems. 3x faster deployment, 60% cost savings. Serving RS Puram, Peelamedu, Saravanampatti.",
+  keywords: "AI development Coimbatore, artificial intelligence RS Puram, machine learning Peelamedu, AI automation Saravanampatti, AI consulting Coimbatore, AI solutions Tamil Nadu, AI developers Coimbatore",
   authors: [{ name: "Metic.ai Coimbatore AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Coimbatore | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
+    title: "AI Services Coimbatore | Premier Artificial Intelligence Solutions & Development - Metic.ai",
     description: "Leading AI services in Coimbatore, India. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for Coimbatore businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-coimbatore/",
     type: "website",
@@ -46,7 +46,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "AI Services Coimbatore | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your Coimbatore business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    description: "Coimbatore's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
     images: ["https://metic.ai/og-ai-services-coimbatore.jpg"],
   },
   alternates: {
@@ -131,7 +131,7 @@ export default function AIServicesCoimbatorePage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services Coimbatore",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in Coimbatore, India. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for Coimbatore businesses.",
+            "description": "Coimbatore's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for Coimbatore businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Coimbatore",
@@ -200,22 +200,22 @@ export default function AIServicesCoimbatorePage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-white to-gray-50 py-20 md:py-28">
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-6">
               <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-gray-600">Serving Coimbatore, Tamil Nadu</span>
+              <span className="text-sm font-medium text-orange-300">Serving Coimbatore, Tamil Nadu</span>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              AI Services in <span className="text-primary-orange">Coimbatore</span>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
+              AI Solutions in <span className="text-primary-orange">Coimbatore</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your Coimbatore business with cutting-edge artificial intelligence solutions. 
-              From Gandhipuram to Peelamedu, we deliver enterprise-grade AI services that drive innovation and growth 
-              across Tamil Nadu's textile and manufacturing hub.
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              Manchester of South India meets machine intelligence. From traditional textile mills in 
+              Peelamedu to modern IT parks in Saravanampatti, we've helped 110+ Coimbatore businesses 
+              weave AI into their operations. Industrial heritage meets intelligent innovation.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

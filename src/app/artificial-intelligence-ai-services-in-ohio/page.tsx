@@ -24,14 +24,14 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services Ohio | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in Ohio. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your Ohio business with cutting-edge AI technology.",
-  keywords: "AI services Ohio, artificial intelligence Ohio, machine learning Ohio, AI consulting OH, AI development Ohio, data science Ohio, AI solutions Ohio, AI companies Ohio",
+  title: "AI Services Ohio | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+  description: "Ohio's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for OH businesses.",
+  keywords: "AI services Ohio, artificial intelligence Ohio, machine learning Ohio, AI consulting OH, AI development Ohio, custom AI solutions OH, AI automation Ohio, enterprise AI Ohio, Cleveland AI, Columbus AI, Cincinnati AI",
   authors: [{ name: "Metic.ai Ohio AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Ohio | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-    description: "Leading AI services in Ohio. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for Ohio businesses.",
+    title: "AI Services Ohio | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "Ohio's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for OH businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-ohio/",
     type: "website",
     images: [
@@ -45,8 +45,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services Ohio | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your Ohio business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    title: "AI Services Ohio | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "Ohio's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
     images: ["https://metic.ai/og-ai-services-ohio.jpg"],
   },
   alternates: {
@@ -131,7 +131,7 @@ export default function AIServicesOhioPage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services Ohio",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in Ohio. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for Ohio businesses.",
+            "description": "Ohio's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for OH businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "Ohio",
@@ -195,22 +195,22 @@ export default function AIServicesOhioPage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-white to-gray-50 py-20 md:py-28">
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-6">
               <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-gray-600">Serving Ohio</span>
+              <span className="text-sm font-medium text-orange-300">Serving Ohio</span>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              AI Services in <span className="text-primary-orange">Ohio</span>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
+              AI That Works in <span className="text-primary-orange">Ohio</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your Ohio business with cutting-edge artificial intelligence solutions. 
-              From Columbus to Cleveland, we deliver enterprise-grade AI services that drive growth and innovation 
-              across the Buckeye State.
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              Heartland values meet cutting-edge innovation. From Cleveland's healthcare corridors to 
+              Columbus's tech hubs and Cincinnati's manufacturing base, we've helped 500+ Ohio businesses 
+              implement AI that delivers real results without the hype. Buckeye State gets smarter.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

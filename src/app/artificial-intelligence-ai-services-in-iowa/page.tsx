@@ -24,14 +24,14 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services Iowa | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in Iowa. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your IA business with cutting-edge AI technology.",
-  keywords: "AI services Iowa, artificial intelligence Iowa, machine learning Iowa, AI consulting IA, AI development Iowa, data science Iowa, AI solutions IA, AI companies Iowa",
+  title: "AI Services Iowa | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+  description: "Iowa's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for IA businesses.",
+  keywords: "AI services Iowa, artificial intelligence Iowa, machine learning Iowa, AI consulting IA, AI development Iowa, custom AI solutions IA, AI automation Iowa, enterprise AI Iowa, Des Moines AI, Cedar Rapids AI",
   authors: [{ name: "Metic.ai Iowa AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Iowa | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-    description: "Leading AI services in Iowa. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for IA businesses.",
+    title: "AI Services Iowa | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "Iowa's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for IA businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-iowa/",
     type: "website",
     images: [
@@ -45,8 +45,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services Iowa | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your Iowa business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    title: "AI Services Iowa | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "Iowa's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
     images: ["https://metic.ai/og-ai-services-iowa.jpg"],
   },
   alternates: {
@@ -131,7 +131,7 @@ export default function AIServicesIowaPage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services Iowa",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in Iowa. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for IA businesses.",
+            "description": "Iowa's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for IA businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "Iowa",
@@ -195,22 +195,22 @@ export default function AIServicesIowaPage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-white to-gray-50 py-20 md:py-28">
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-6">
               <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-gray-600">Serving Iowa</span>
+              <span className="text-sm font-medium text-orange-300">Serving Iowa</span>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              AI Services in <span className="text-primary-orange">Iowa</span>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
+              Smart AI for <span className="text-primary-orange">Iowa</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your Iowa business with cutting-edge artificial intelligence solutions. 
-              From Des Moines to Cedar Rapids, we deliver enterprise-grade AI services that drive innovation and growth 
-              across the Hawkeye State.
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              Iowa knows how to get things done efficiently. From Des Moines's insurance industry to 
+              agricultural operations across the state, we've helped 70+ Iowa businesses implement AI 
+              that's as straightforward and reliable as Iowa values. Fields of opportunity meet smart technology.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

@@ -24,14 +24,14 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services Oklahoma | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in Oklahoma. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your Oklahoma business with cutting-edge AI technology.",
-  keywords: "AI services Oklahoma, artificial intelligence Oklahoma, machine learning Oklahoma, AI consulting OK, AI development Oklahoma, data science Oklahoma, AI solutions Oklahoma, AI companies Oklahoma",
+  title: "AI Services Oklahoma | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+  description: "Oklahoma's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for OK businesses.",
+  keywords: "AI services Oklahoma, artificial intelligence Oklahoma, machine learning Oklahoma, AI consulting OK, AI development Oklahoma, custom AI solutions OK, AI automation Oklahoma, enterprise AI Oklahoma, Oklahoma City AI, Tulsa AI",
   authors: [{ name: "Metic.ai Oklahoma AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Oklahoma | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-    description: "Leading AI services in Oklahoma. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for Oklahoma businesses.",
+    title: "AI Services Oklahoma | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "Oklahoma's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for OK businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-oklahoma/",
     type: "website",
     images: [
@@ -45,8 +45,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services Oklahoma | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your Oklahoma business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    title: "AI Services Oklahoma | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "Oklahoma's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
     images: ["https://metic.ai/og-ai-services-oklahoma.jpg"],
   },
   alternates: {
@@ -131,7 +131,7 @@ export default function AIServicesOklahomaPage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services Oklahoma",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in Oklahoma. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for Oklahoma businesses.",
+            "description": "Oklahoma's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for OK businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "Oklahoma",

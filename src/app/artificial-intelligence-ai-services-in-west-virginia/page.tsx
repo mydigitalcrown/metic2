@@ -24,14 +24,14 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services West Virginia | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in West Virginia. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your WV business with cutting-edge AI technology.",
-  keywords: "AI services West Virginia, artificial intelligence West Virginia, machine learning West Virginia, AI consulting WV, AI development West Virginia, data science West Virginia, AI solutions WV, AI companies West Virginia",
+  title: "AI Services West Virginia | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+  description: "West Virginia's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for WV businesses.",
+  keywords: "AI services West Virginia, artificial intelligence West Virginia, machine learning West Virginia, AI consulting WV, AI development West Virginia, custom AI solutions WV, AI automation West Virginia, enterprise AI West Virginia, Charleston AI, Morgantown AI",
   authors: [{ name: "Metic.ai West Virginia AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services West Virginia | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-    description: "Leading AI services in West Virginia. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for WV businesses.",
+    title: "AI Services West Virginia | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "West Virginia's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for WV businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-west-virginia/",
     type: "website",
     images: [
@@ -45,8 +45,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services West Virginia | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your West Virginia business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    title: "AI Services West Virginia | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "West Virginia's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
     images: ["https://metic.ai/og-ai-services-west-virginia.jpg"],
   },
   alternates: {
@@ -131,7 +131,7 @@ export default function AIServicesWestVirginiaPage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services West Virginia",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in West Virginia. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for WV businesses.",
+            "description": "West Virginia's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for WV businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "West Virginia",
@@ -195,22 +195,22 @@ export default function AIServicesWestVirginiaPage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-white to-gray-50 py-20 md:py-28">
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-6">
               <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-gray-600">Serving West Virginia</span>
+              <span className="text-sm font-medium text-orange-300">Serving West Virginia</span>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              AI Services in <span className="text-primary-orange">West Virginia</span>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
+              AI That Works in <span className="text-primary-orange">West Virginia</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your West Virginia business with cutting-edge artificial intelligence solutions. 
-              From Charleston to Morgantown, we deliver enterprise-grade AI services that drive growth and innovation 
-              across the Mountain State.
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              West Virginia businesses know the value of hard work and practical solutions. From Charleston's 
+              energy sector to manufacturing across the mountains, we've helped 40+ West Virginia companies 
+              implement AI that delivers real results without the complexity. Mountain state resilience meets smart technology.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

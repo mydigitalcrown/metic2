@@ -24,14 +24,14 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services California | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in California. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your CA business with cutting-edge AI technology.",
-  keywords: "AI services California, artificial intelligence California, machine learning California, AI consulting CA, AI development California, data science California, AI solutions CA, AI companies California",
+  title: "AI Services California | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+  description: "California's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for CA businesses.",
+  keywords: "AI services California, artificial intelligence California, machine learning California, AI consulting CA, AI development California, custom AI solutions CA, AI automation California, enterprise AI California, Silicon Valley AI",
   authors: [{ name: "Metic.ai California AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services California | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-    description: "Leading AI services in California. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for CA businesses.",
+    title: "AI Services California | Premier Artificial Intelligence Solutions - Metic.ai",
+    description: "California's leading AI company with 500+ successful projects. Custom AI development, machine learning, and enterprise solutions with proven ROI.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-california/",
     type: "website",
     images: [
@@ -45,8 +45,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services California | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your California business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    title: "AI Services California | Custom AI Development - Metic.ai",
+    description: "Transform your California business with enterprise AI solutions. 3x faster development, 60% cost savings, 500+ successful projects.",
     images: ["https://metic.ai/og-ai-services-california.jpg"],
   },
   alternates: {
@@ -57,43 +57,43 @@ export const metadata = {
 export default function AIServicesCaliforniaPage() {
   const services = [
     {
-      title: "AI Integration & Deployment",
-      description: "Seamlessly integrate AI solutions into your California business operations with enterprise-grade deployment strategies.",
+      title: "AI That Automates Your Work",
+      description: "Stop doing repetitive tasks manually. We build AI that handles your routine work so your team can focus on what actually matters.",
       icon: Zap,
       href: "/ai-integration-and-deployment",
       color: "blue" as const
     },
     {
-      title: "Machine Learning Solutions",
-      description: "Advanced ML algorithms and predictive analytics tailored for California businesses and industries.",
+      title: "Smart Predictions",
+      description: "Know what's coming next. Our machine learning models predict customer behavior, market trends, and business outcomes with scary accuracy.",
       icon: Brain,
       href: "/machine-learning",
       color: "purple" as const
     },
     {
-      title: "Custom AI Development",
-      description: "Bespoke AI solutions designed specifically for your California business requirements and goals.",
+      title: "Custom AI Solutions",
+      description: "Your business is unique, so why use generic AI? We build exactly what you need, nothing more, nothing less.",
       icon: Code,
       href: "/custom-ai-development",
       color: "green" as const
     },
     {
-      title: "Data Analytics & BI",
-      description: "Transform your California business data into actionable insights with advanced analytics platforms.",
+      title: "Data That Actually Helps",
+      description: "Turn your messy data into clear insights. We make your numbers tell stories that help you make better decisions.",
       icon: BarChart3,
       href: "/data-insights",
       color: "orange" as const
     },
     {
-      title: "Generative AI Services",
-      description: "Harness the power of ChatGPT and generative AI for content creation and automation in California.",
+      title: "AI Content & Communication",
+      description: "Let AI handle your content creation, customer support, and communication while keeping your brand voice authentic.",
       icon: Sparkles,
       href: "/generative-ai-services",
       color: "indigo" as const
     },
     {
-      title: "Data Engineering",
-      description: "Robust data infrastructure and ETL pipelines for California enterprises and growing businesses.",
+      title: "Data Infrastructure",
+      description: "Build a solid foundation for your AI. We set up systems that grow with your business and actually work when you need them.",
       icon: Database,
       href: "/data-engineering",
       color: "red" as const
@@ -113,13 +113,6 @@ export default function AIServicesCaliforniaPage() {
     "Renewable Energy"
   ];
 
-  const stats = [
-    { number: "1,800+", label: "CA Businesses Served" },
-    { number: "98%", label: "Client Satisfaction" },
-    { number: "4.7x", label: "Average ROI Increase" },
-    { number: "24/7", label: "Support Available" }
-  ];
-
   return (
     <>
       {/* Structured Data for SEO */}
@@ -131,7 +124,7 @@ export default function AIServicesCaliforniaPage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services California",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in California. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for CA businesses.",
+            "description": "California's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for California businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "California",
@@ -195,90 +188,112 @@ export default function AIServicesCaliforniaPage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-white to-gray-50 py-20 md:py-28">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-4xl mx-auto text-center">
+      <section className="relative bg-gradient-to-br from-gray-900 via-orange-900 to-gray-800 py-20 md:py-28 overflow-hidden">
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(255,107,53,0.1),transparent_70%)]"></div>
+        <div className="container px-4 md:px-6 relative z-10">
+          <div className="max-w-5xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-6">
               <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-gray-600">Serving California</span>
+              <span className="text-sm font-medium text-orange-200 bg-orange-950/50 px-3 py-1 rounded-full">
+                Serving California's Innovation Ecosystem
+              </span>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              AI Services in <span className="text-primary-orange">California</span>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
+              AI That Actually Works for{' '}
+              <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">
+                California
+              </span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your California business with cutting-edge artificial intelligence solutions. 
-              From Los Angeles to San Francisco, we deliver enterprise-grade AI services that drive innovation and growth 
-              across the Golden State.
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
+              Look, everyone's talking about AI, but most companies are still figuring out how to make it work. 
+              We've built AI solutions that actually move the needle for California businesses - from tech startups in San Francisco 
+              to entertainment companies in LA. Real results, not just fancy demos.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Link href="/contact">
-                <Button variant="primary" size="lg" className="w-full sm:w-auto">
+                <Button variant="primary" size="lg" className="w-full sm:w-auto bg-gradient-to-r from-primary-orange to-secondary-orange hover:from-dark-orange hover:to-primary-orange text-white border-0">
                   Get Free AI Consultation
                 </Button>
               </Link>
               <Link href="tel:+17892518414">
-                <Button variant="outline" size="lg" className="w-full sm:w-auto">
+                <Button variant="outline" size="lg" className="w-full sm:w-auto border-primary-orange text-primary-orange hover:bg-orange-950/50">
                   <Phone className="w-4 h-4 mr-2" />
                   Call: +1-789-251-8414
                 </Button>
               </Link>
             </div>
 
-            {/* Quick Stats */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-2xl mx-auto">
-              {stats.map((stat, index) => (
-                <div key={index} className="text-center">
-                  <div className="text-2xl font-bold text-primary-orange mb-1">{stat.number}</div>
-                  <div className="text-sm text-gray-600">{stat.label}</div>
-                </div>
-              ))}
+            {/* California-Specific Stats */}
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto">
+              <div className="text-center p-6 bg-white/5 backdrop-blur-sm rounded-lg border border-white/10">
+                <div className="text-3xl font-bold text-primary-orange mb-2">$3.2T</div>
+                <div className="text-sm text-gray-300">CA GDP (5th largest globally)</div>
+              </div>
+              <div className="text-center p-6 bg-white/5 backdrop-blur-sm rounded-lg border border-white/10">
+                <div className="text-3xl font-bold text-secondary-orange mb-2">40%</div>
+                <div className="text-sm text-gray-300">US Tech Industry</div>
+              </div>
+              <div className="text-center p-6 bg-white/5 backdrop-blur-sm rounded-lg border border-white/10">
+                <div className="text-3xl font-bold text-primary-orange mb-2">500+</div>
+                <div className="text-sm text-gray-300">AI Projects Delivered</div>
+              </div>
+              <div className="text-center p-6 bg-white/5 backdrop-blur-sm rounded-lg border border-white/10">
+                <div className="text-3xl font-bold text-secondary-orange mb-2">24/7</div>
+                <div className="text-sm text-gray-300">Expert Support</div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Services Section */}
-      <section className="py-20 bg-white">
+      {/* Core AI Solutions */}
+      <section className="py-20 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
+              <div className="inline-flex items-center gap-2 bg-orange-100 text-orange-800 px-4 py-2 rounded-full text-sm font-medium mb-4">
+                <Sparkles className="w-4 h-4" />
+                What We Actually Do
+              </div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                AI Solutions for <span className="text-primary-orange">California</span> Businesses
+                AI Solutions That{' '}
+                <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">
+                  Make Business Sense
+                </span>
               </h2>
-              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Comprehensive artificial intelligence services designed to help California businesses 
-                compete in the digital economy and drive sustainable growth.
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Here's the thing - AI isn't magic. It's a tool that can automate your boring tasks, predict what your customers want, 
+                and help you make smarter decisions. We build the kind of AI that pays for itself.
               </p>
             </div>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {services.map((service, index) => {
                 const IconComponent = service.icon;
-                const colorClasses = {
-                  blue: "bg-blue-100 text-blue-600",
-                  purple: "bg-purple-100 text-purple-600", 
-                  green: "bg-green-100 text-green-600",
-                  orange: "bg-orange-100 text-orange-600",
-                  indigo: "bg-indigo-100 text-indigo-600",
-                  red: "bg-red-100 text-red-600"
+                const gradientClasses = {
+                  blue: "from-primary-orange to-secondary-orange",
+                  purple: "from-secondary-orange to-light-orange", 
+                  green: "from-dark-orange to-primary-orange",
+                  orange: "from-primary-orange to-light-orange",
+                  indigo: "from-dark-orange to-secondary-orange",
+                  red: "from-primary-orange to-dark-orange"
                 };
                 
                 return (
-                  <div key={index} className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100">
-                    <div className={`w-16 h-16 rounded-full flex items-center justify-center mb-6 ${colorClasses[service.color]}`}>
-                      <IconComponent className="w-8 h-8" />
+                  <div key={index} className="group bg-white rounded-2xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-gray-200">
+                    <div className={`w-16 h-16 rounded-xl bg-gradient-to-br ${gradientClasses[service.color]} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300`}>
+                      <IconComponent className="w-8 h-8 text-white" />
                     </div>
                     
-                    <h3 className="text-xl font-bold mb-4">{service.title}</h3>
+                    <h3 className="text-xl font-bold mb-4 group-hover:text-gray-900 transition-colors">{service.title}</h3>
                     <p className="text-gray-600 mb-6 leading-relaxed">{service.description}</p>
                     
-                    <Link href={service.href} className="inline-flex items-center text-primary-orange hover:text-primary-orange/80 font-medium">
+                    <Link href={service.href} className="inline-flex items-center text-primary-orange hover:text-dark-orange font-medium group-hover:gap-3 transition-all">
                       Learn More
-                      <ArrowRight className="w-4 h-4 ml-2" />
+                      <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                     </Link>
                   </div>
                 );
@@ -288,79 +303,150 @@ export default function AIServicesCaliforniaPage() {
         </div>
       </section>
 
-      {/* Industries Section */}
-      <section className="py-20 bg-gray-50">
+      {/* California Industries */}
+      <section className="py-20 bg-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
+              <div className="inline-flex items-center gap-2 bg-orange-100 text-orange-800 px-4 py-2 rounded-full text-sm font-medium mb-4">
+                <Target className="w-4 h-4" />
+                Who We Work With
+              </div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Industries We Serve in California
+                California Industries We{' '}
+                <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">
+                  Actually Understand
+                </span>
               </h2>
-              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Delivering specialized AI solutions across California's key industries and business sectors.
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                We're not trying to be everything to everyone. We focus on industries where we know how to make AI work 
+                because we've done it before and understand the real challenges.
               </p>
             </div>
-            
-            <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-4">
-              {industries.map((industry, index) => (
-                <div key={index} className="bg-white rounded-lg p-4 text-center shadow-sm hover:shadow-md transition-shadow">
-                  <div className="w-8 h-8 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
-                    <Target className="w-4 h-4 text-primary-orange" />
-                  </div>
-                  <h3 className="font-medium text-gray-800">{industry}</h3>
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="group p-8 bg-gradient-to-br from-orange-50 to-orange-100 rounded-2xl hover:shadow-lg transition-all duration-300">
+                <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center mb-6">
+                  <Code className="w-8 h-8 text-white" />
                 </div>
-              ))}
+                <h3 className="text-xl font-bold mb-4 text-gray-900">Tech Companies</h3>
+                <p className="text-gray-600 mb-4">We get it - you need AI that scales with your product and doesn't break when you hit traffic spikes. Built for Silicon Valley pace.</p>
+                <ul className="text-sm text-gray-600 space-y-2">
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-primary-orange" />
+                    Code review automation
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-primary-orange" />
+                    User behavior prediction
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-primary-orange" />
+                    Smart A/B testing
+                  </li>
+                </ul>
+              </div>
+
+              <div className="group p-8 bg-gradient-to-br from-orange-50 to-orange-100 rounded-2xl hover:shadow-lg transition-all duration-300">
+                <div className="w-16 h-16 bg-gradient-to-br from-secondary-orange to-light-orange rounded-xl flex items-center justify-center mb-6">
+                  <Sparkles className="w-8 h-8 text-white" />
+                </div>
+                <h3 className="text-xl font-bold mb-4 text-gray-900">Entertainment & Media</h3>
+                <p className="text-gray-600 mb-4">Hollywood moves fast. We build AI that helps you understand your audience and create content that connects.</p>
+                <ul className="text-sm text-gray-600 space-y-2">
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-secondary-orange" />
+                    Audience sentiment tracking
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-secondary-orange" />
+                    Content recommendation engines
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-secondary-orange" />
+                    Smart content personalization
+                  </li>
+                </ul>
+              </div>
+
+              <div className="group p-8 bg-gradient-to-br from-orange-50 to-orange-100 rounded-2xl hover:shadow-lg transition-all duration-300">
+                <div className="w-16 h-16 bg-gradient-to-br from-dark-orange to-primary-orange rounded-xl flex items-center justify-center mb-6">
+                  <TrendingUp className="w-8 h-8 text-white" />
+                </div>
+                <h3 className="text-xl font-bold mb-4 text-gray-900">Finance & FinTech</h3>
+                <p className="text-gray-600 mb-4">Money matters. We build AI that spots fraud, assesses risk, and helps you make smarter financial decisions with confidence.</p>
+                <ul className="text-sm text-gray-600 space-y-2">
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-dark-orange" />
+                    Real-time fraud detection
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-dark-orange" />
+                    Smart risk assessment
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-dark-orange" />
+                    Automated compliance monitoring
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       {/* Why Choose Us Section */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
+              <div className="inline-flex items-center gap-2 bg-orange-100 text-orange-800 px-4 py-2 rounded-full text-sm font-medium mb-4">
+                <Award className="w-4 h-4" />
+                Why Work With Us
+              </div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Why California Businesses Choose Metic.ai
+                What Makes{' '}
+                <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">
+                  Metic Different
+                </span>
               </h2>
-              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Trusted by businesses across California for our expertise, results, and commitment to success.
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                We're not the biggest AI company, but we might be the most practical. We focus on building AI that works, 
+                not AI that sounds impressive in meetings.
               </p>
             </div>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-              <div className="text-center">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6 mx-auto">
-                  <Award className="w-8 h-8 text-blue-600" />
+              <div className="text-center group">
+                <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center mb-6 mx-auto group-hover:scale-110 transition-transform duration-300">
+                  <Award className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="text-xl font-bold mb-4">Proven Expertise</h3>
-                <p className="text-gray-600">Years of experience delivering AI solutions for California businesses across all industries.</p>
+                <h3 className="text-xl font-bold mb-4">We Actually Get Business</h3>
+                <p className="text-gray-600">We don't just build cool tech - we solve real business problems. Every AI solution we create has to make financial sense.</p>
               </div>
               
-              <div className="text-center">
-                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6 mx-auto">
-                  <TrendingUp className="w-8 h-8 text-green-600" />
+              <div className="text-center group">
+                <div className="w-16 h-16 bg-gradient-to-br from-secondary-orange to-light-orange rounded-xl flex items-center justify-center mb-6 mx-auto group-hover:scale-110 transition-transform duration-300">
+                  <TrendingUp className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="text-xl font-bold mb-4">Measurable Results</h3>
-                <p className="text-gray-600">Data-driven AI solutions that deliver concrete ROI and business growth for CA companies.</p>
+                <h3 className="text-xl font-bold mb-4">Results You Can Measure</h3>
+                <p className="text-gray-600">No vague promises about transformation. We set clear metrics upfront and deliver AI that moves your bottom line.</p>
               </div>
               
-              <div className="text-center">
-                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6 mx-auto">
-                  <Users className="w-8 h-8 text-purple-600" />
+              <div className="text-center group">
+                <div className="w-16 h-16 bg-gradient-to-br from-dark-orange to-primary-orange rounded-xl flex items-center justify-center mb-6 mx-auto group-hover:scale-110 transition-transform duration-300">
+                  <Users className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="text-xl font-bold mb-4">Local Partnership</h3>
-                <p className="text-gray-600">Dedicated support and partnership with deep understanding of the California business landscape.</p>
+                <h3 className="text-xl font-bold mb-4">No BS Communication</h3>
+                <p className="text-gray-600">We explain things in plain English. No technical jargon, no buzzword bingo. Just clear communication about what we're building and why.</p>
               </div>
               
-              <div className="text-center">
-                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-6 mx-auto">
-                  <Shield className="w-8 h-8 text-orange-600" />
+              <div className="text-center group">
+                <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-dark-orange rounded-xl flex items-center justify-center mb-6 mx-auto group-hover:scale-110 transition-transform duration-300">
+                  <Shield className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="text-xl font-bold mb-4">Enterprise Security</h3>
-                <p className="text-gray-600">Bank-level security and compliance standards protecting your California business data.</p>
+                <h3 className="text-xl font-bold mb-4">Your Data Stays Yours</h3>
+                <p className="text-gray-600">We're not interested in your data for our own purposes. We build secure systems and keep your information exactly where it belongs - with you.</p>
               </div>
             </div>
           </div>
@@ -372,16 +458,16 @@ export default function AIServicesCaliforniaPage() {
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-              Ready to Transform Your California Business with AI?
+              Ready to Build AI That Actually Works?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join leading California companies that trust Metic.ai for their AI transformation. 
-              Get started with a free consultation and discover how AI can drive your business forward.
+              Stop wondering if AI can help your business. Let's have a real conversation about what's possible, 
+              what makes sense, and what it would actually cost.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
                 <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100">
-                  Start Your AI Journey
+                  Let's Talk About Your Business
                 </Button>
               </Link>
               <Link href="tel:+17892518414">
@@ -392,7 +478,7 @@ export default function AIServicesCaliforniaPage() {
             </div>
             
             <div className="mt-12 text-center">
-              <p className="text-orange-200 mb-4">Trusted by businesses across California</p>
+              <p className="text-orange-200 mb-4">Working with companies across California</p>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Los Angeles</span>
                 <span>•</span>

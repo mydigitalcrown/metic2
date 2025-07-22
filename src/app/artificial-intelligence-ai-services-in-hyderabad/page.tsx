@@ -1,5 +1,8 @@
-import Link from "next/link";
-import { Button } from "../components/ui/Button";
+import Link from "next/liexport const metadata = {
+  title: "AI Services Hyderabad | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+  description: "Hyderabad's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for Hyderabad businesses.",
+  keywords: "AI services Hyderabad, artificial intelligence Hyderabad, machine learning Hyderabad, AI consulting Hyderabad, AI development Hyderabad, custom AI solutions Hyderabad, AI automation Hyderabad, enterprise AI Hyderabad, Cyberabad AI",
+  authors: [{ name: "Metic.ai Hyderabad AI Team" }],import { Button } from "../components/ui/Button";
 import { 
   Brain, 
   Zap, 
@@ -24,13 +27,13 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services Hyderabad | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in Hyderabad, India. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your Cyberabad business with cutting-edge AI technology.",
-  keywords: "AI services Hyderabad, artificial intelligence Hyderabad, machine learning Hyderabad, AI consulting Hyderabad India, AI development Hyderabad, data science Hyderabad, AI solutions Hyderabad, AI companies Hyderabad Telangana",
+  title: "Premier Artificial Intelligence Solutions & Development in Hyderabad | AI Services",
+  description: "Leading AI development company in Hyderabad. Custom machine learning solutions, automation platforms, and intelligent systems. 3x faster deployment, 60% cost savings. Serving HITEC City, Gachibowli, Madhapur.",
+  keywords: "AI development Hyderabad, artificial intelligence HITEC City, machine learning Gachibowli, AI automation Madhapur, AI consulting Hyderabad, AI solutions Cyberabad, AI developers Telangana",
   authors: [{ name: "Metic.ai Hyderabad AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Hyderabad | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
+    title: "AI Services Hyderabad | Premier Artificial Intelligence Solutions & Development - Metic.ai",
     description: "Leading AI services in Hyderabad, India. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for Hyderabad businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-hyderabad/",
     type: "website",
@@ -46,7 +49,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "AI Services Hyderabad | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your Hyderabad business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    description: "Hyderabad's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
     images: ["https://metic.ai/og-ai-services-hyderabad.jpg"],
   },
   alternates: {
@@ -131,7 +134,7 @@ export default function AIServicesHyderabadPage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services Hyderabad",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in Hyderabad, India. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for Hyderabad businesses.",
+            "description": "Hyderabad's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for Hyderabad businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Hyderabad",
@@ -200,22 +203,22 @@ export default function AIServicesHyderabadPage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-white to-gray-50 py-20 md:py-28">
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-6">
               <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-gray-600">Serving Hyderabad, Telangana</span>
+              <span className="text-sm font-medium text-orange-300">Serving Hyderabad, Telangana</span>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              AI Services in <span className="text-primary-orange">Hyderabad</span>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
+              AI Innovation in <span className="text-primary-orange">Hyderabad</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your Hyderabad business with cutting-edge artificial intelligence solutions. 
-              From HITEC City to Gachibowli, we deliver enterprise-grade AI services that drive innovation and growth 
-              across India's IT capital and pharmaceutical hub.
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              Cyberabad leads, and so do we. From HITEC City's global tech giants to Gachibowli's 
+              emerging startups, we've powered 250+ Hyderabad companies with AI solutions that match 
+              the city's innovation pace. Where pearls meet algorithms, excellence emerges.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

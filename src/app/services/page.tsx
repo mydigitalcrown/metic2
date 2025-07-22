@@ -1,445 +1,790 @@
 import Link from "next/link";
 import { Button } from "../components/ui/Button";
 import { 
-  Brain, 
-  Code, 
-  Database, 
-  BarChart3,
+  Brain,
   Zap,
-  Cloud,
+  Database,
+  Code,
+  BarChart3,
+  Shield,
+  Globe,
   Users,
-  TrendingUp,
   CheckCircle,
   ArrowRight,
-  Shield,
+  Lightbulb,
   Target,
-  Settings,
-  Workflow,
-  Activity,
-  Cpu,
-  Sparkles,
-  FileText
+  TrendingUp,
+  Phone,
+  Mail,
+  Calendar,
+  Clock,
+  Award,
+  Sparkles
 } from "lucide-react";
+import type { Metadata } from "next";
 
-export const metadata = {
-  title: "AI Services & Solutions | Comprehensive Artificial Intelligence Consulting - Metic.ai",
-  description: "Complete AI and data science services including machine learning, generative AI, custom AI development, data engineering, and business intelligence solutions. Transform your business with expert AI consulting.",
-  keywords: "AI services, artificial intelligence solutions, machine learning consulting, AI development, data science services, AI consulting, business intelligence, data analytics, AI transformation",
-  authors: [{ name: "Metic.ai Services Team" }],
-  robots: "index, follow",
+export const metadata: Metadata = {
+  title: "AI Services & Custom Development | Michigan's Premier AI Company - Metic.ai",
+  description: "Complete AI services including custom AI development, machine learning, data engineering, automation, and enterprise AI solutions. 3x faster delivery with 60% cost savings. Michigan's leading AI experts.",
+  keywords: "AI services, custom AI development, machine learning services, data engineering, AI automation, enterprise AI, AI consulting, artificial intelligence development",
   openGraph: {
-    title: "AI Services & Solutions | Comprehensive Artificial Intelligence Consulting - Metic.ai",
-    description: "Complete AI and data science services to transform your business with cutting-edge artificial intelligence solutions.",
-    url: "https://metic.ai/services/",
-    type: "website",
-    images: [
-      {
-        url: "https://metic.ai/og-services.jpg",
-        width: 1200,
-        height: 630,
-        alt: "AI Services & Solutions by Metic.ai",
-      },
-    ],
-  },
-  alternates: {
-    canonical: "https://metic.ai/services/",
+    title: "AI Services & Custom Development - Metic.ai",
+    description: "Complete AI services with 3x faster delivery and 60% cost savings. Custom AI development, machine learning, and enterprise solutions.",
   },
 };
 
 export default function ServicesPage() {
-  const services = [
-    {
-      title: "AI Integration & Deployment",
-      description: "Seamlessly integrate AI solutions into your existing business processes with enterprise-grade deployment strategies.",
-      icon: Zap,
-      href: "/ai-integration-and-deployment",
-      features: ["Enterprise Integration", "API Development", "Cloud Deployment", "Performance Optimization"],
-      color: "blue"
-    },
-    {
-      title: "Generative AI Services",
-      description: "Harness the power of ChatGPT, GPT-4, and custom generative models for content creation and automation.",
-      icon: Sparkles,
-      href: "/generative-ai-services",
-      features: ["ChatGPT Integration", "Content Generation", "Image & Video AI", "Custom Models"],
-      color: "purple"
-    },
-    {
-      title: "Custom AI Development",
-      description: "Build bespoke AI solutions tailored to your unique business requirements and technical specifications.",
-      icon: Code,
-      href: "/custom-ai-development",
-      features: ["Custom Models", "Neural Networks", "AI Architecture", "Model Training"],
-      color: "green"
-    },
-    {
-      title: "Machine Learning",
-      description: "Advanced ML solutions including predictive analytics, classification, and deep learning applications.",
-      icon: Brain,
-      href: "/machine-learning",
-      features: ["Predictive Analytics", "Classification", "Deep Learning", "Time Series"],
-      color: "orange"
-    },
-    {
-      title: "Data Insights & Analytics",
-      description: "Transform raw data into actionable insights with advanced analytics and business intelligence solutions.",
-      icon: BarChart3,
-      href: "/data-insights",
-      features: ["Business Intelligence", "Data Visualization", "Performance Analytics", "Reporting"],
-      color: "indigo"
-    },
-    {
-      title: "Data Engineering",
-      description: "Build robust data infrastructure with modern ETL pipelines, data warehousing, and real-time processing.",
-      icon: Database,
-      href: "/data-engineering",
-      features: ["ETL Pipelines", "Data Warehousing", "Real-time Processing", "Cloud Architecture"],
-      color: "red"
-    }
-  ];
-
-  const industries = [
-    { name: "Financial Services", icon: TrendingUp, description: "Risk analytics, fraud detection, algorithmic trading" },
-    { name: "Healthcare", icon: Activity, description: "Medical AI, patient analytics, drug discovery" },
-    { name: "Retail & E-commerce", icon: Users, description: "Recommendation engines, inventory optimization" },
-    { name: "Manufacturing", icon: Settings, description: "Predictive maintenance, quality control" },
-    { name: "Technology", icon: Cpu, description: "Product analytics, user behavior, automation" },
-    { name: "Energy & Utilities", icon: Workflow, description: "Smart grids, demand forecasting" }
-  ];
-
-  const whyChooseUs = [
-    {
-      icon: Brain,
-      title: "AI Expertise",
-      description: "Deep expertise in machine learning, deep learning, and cutting-edge AI technologies with proven track record."
-    },
-    {
-      icon: Target,
-      title: "Business Results",
-      description: "Focus on measurable business outcomes and ROI with clear success metrics and performance indicators."
-    },
-    {
-      icon: Shield,
-      title: "Enterprise Grade",
-      description: "Production-ready solutions with enterprise security, scalability, and compliance requirements."
-    },
-    {
-      icon: Users,
-      title: "Full Partnership",
-      description: "End-to-end support from strategy to implementation with ongoing optimization and maintenance."
-    }
-  ];
-
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-white to-gray-50 py-20 md:py-28">
-        <div className="container px-4 md:px-6">
+      <section className="relative bg-gradient-to-br from-gray-900 via-primary-orange/20 to-secondary-orange/30 py-20 md:py-32 overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-r from-gray-900/80 to-gray-900/60"></div>
+        <div className="relative z-10 container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              AI <span className="text-primary-orange">Services</span> & Solutions
+            <div className="inline-flex items-center gap-2 bg-primary-orange/20 border border-primary-orange/30 rounded-full px-4 py-2 mb-6">
+              <Sparkles className="w-4 h-4 text-primary-orange" />
+              <span className="text-sm font-medium text-white">🚀 3x Faster Development • 💰 60% Cost Savings • 🎯 Custom Solutions</span>
+            </div>
+            
+            <h1 className="text-5xl md:text-7xl font-bold tracking-tighter text-white mb-6">
+              AI Services & <span className="text-primary-orange">Custom Development</span>
             </h1>
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Comprehensive artificial intelligence and data science services to transform your business. 
-              From strategy to implementation, we deliver AI solutions that drive growth and innovation.
+            
+            <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              Transform your business with custom AI solutions designed for your specific needs. We build enterprise applications, automation systems, and intelligent software with AI-accelerated development.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="#services">
-                <Button variant="primary" size="lg">
-                  Explore Our Services
-                </Button>
-              </Link>
-              <Link href="/contact">
-                <Button variant="outline" size="lg">
-                  Get Free Consultation
-                </Button>
-              </Link>
+
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+              <Button size="lg" className="bg-primary-orange hover:bg-primary-orange/90">
+                <Phone className="w-5 h-5 mr-2" />
+                Start AI Project
+              </Button>
+              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-gray-900">
+                <Mail className="w-5 h-5 mr-2" />
+                View AI Portfolio
+              </Button>
+            </div>
+
+            <div className="grid grid-cols-3 gap-6 max-w-2xl mx-auto">
+              <div className="text-center">
+                <div className="text-2xl font-bold text-primary-orange mb-1">3x</div>
+                <div className="text-sm text-gray-300">Faster Development</div>
+              </div>
+              <div className="text-center">
+                <div className="text-2xl font-bold text-primary-orange mb-1">60%</div>
+                <div className="text-sm text-gray-300">Cost Savings</div>
+              </div>
+              <div className="text-center">
+                <div className="text-2xl font-bold text-primary-orange mb-1">500+</div>
+                <div className="text-sm text-gray-300">AI Projects</div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Services Overview Section */}
-      <section id="services" className="py-20 bg-white">
+      {/* Complete AI Solutions */}
+      <section className="py-20 bg-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Our <span className="text-primary-orange">AI Services</span>
+              <h2 className="text-4xl md:text-5xl font-bold tracking-tighter mb-4">
+                Complete AI Solutions
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Complete AI and data science solutions covering every aspect of your digital transformation journey
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                From enterprise applications to business automation, we deliver tailored AI solutions that drive growth and efficiency.
               </p>
             </div>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {services.map((service, index) => {
-                const IconComponent = service.icon;
-                const colorClasses: Record<string, string> = {
-                  blue: "bg-blue-100 text-blue-600 group-hover:bg-blue-600 group-hover:text-white",
-                  purple: "bg-purple-100 text-purple-600 group-hover:bg-purple-600 group-hover:text-white",
-                  green: "bg-green-100 text-green-600 group-hover:bg-green-600 group-hover:text-white",
-                  orange: "bg-orange-100 text-orange-600 group-hover:bg-orange-600 group-hover:text-white",
-                  indigo: "bg-indigo-100 text-indigo-600 group-hover:bg-indigo-600 group-hover:text-white",
-                  red: "bg-red-100 text-red-600 group-hover:bg-red-600 group-hover:text-white"
-                };
+              {/* Enterprise AI Development */}
+              <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 hover:shadow-lg transition-all">
+                <Brain className="w-12 h-12 text-primary-orange mb-6" />
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Enterprise AI Development</h3>
+                <p className="text-gray-600 mb-6">Scalable enterprise AI software designed for complex business requirements and high-performance needs.</p>
                 
-                return (
-                  <Link key={index} href={service.href} className="group">
-                    <div className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 h-full">
-                      <div className={`w-16 h-16 rounded-full flex items-center justify-center mb-6 transition-all duration-300 ${colorClasses[service.color]}`}>
-                        <IconComponent className="w-8 h-8 transition-all duration-300" />
-                      </div>
-                      
-                      <h3 className="text-xl font-bold mb-4 group-hover:text-primary-orange transition-colors">
-                        {service.title}
-                      </h3>
-                      
-                      <p className="text-gray-600 mb-6 leading-relaxed">
-                        {service.description}
-                      </p>
-                      
-                      <div className="space-y-2 mb-6">
-                        {service.features.map((feature, idx) => (
-                          <div key={idx} className="flex items-center text-sm">
-                            <CheckCircle className="w-4 h-4 text-green-500 mr-2 flex-shrink-0" />
-                            <span className="text-gray-600">{feature}</span>
-                          </div>
-                        ))}
-                      </div>
-                      
-                      <div className="flex items-center text-primary-orange group-hover:text-primary-orange/80 font-medium">
-                        Learn More
-                        <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-                      </div>
+                <div className="space-y-4 mb-6">
+                  <div>
+                    <h4 className="font-semibold text-gray-800 mb-2">Key Features:</h4>
+                    <ul className="text-sm text-gray-600 space-y-1">
+                      <li>• Multi-user AI architecture</li>
+                      <li>• Advanced security & compliance</li>
+                      <li>• Integration capabilities</li>
+                      <li>• Scalable ML infrastructure</li>
+                    </ul>
+                  </div>
+                  
+                  <div>
+                    <h4 className="font-semibold text-gray-800 mb-2">Technologies:</h4>
+                    <div className="flex flex-wrap gap-2">
+                      <span className="bg-blue-200 text-blue-800 text-xs px-2 py-1 rounded">TensorFlow</span>
+                      <span className="bg-blue-200 text-blue-800 text-xs px-2 py-1 rounded">PyTorch</span>
+                      <span className="bg-blue-200 text-blue-800 text-xs px-2 py-1 rounded">Docker</span>
+                      <span className="bg-blue-200 text-blue-800 text-xs px-2 py-1 rounded">Kubernetes</span>
                     </div>
-                  </Link>
-                );
-              })}
+                  </div>
+                </div>
+                
+                <Link href="/custom-ai-development">
+                  <Button variant="outline" size="sm" className="w-full">
+                    Learn More <ArrowRight className="w-4 h-4 ml-2" />
+                  </Button>
+                </Link>
+              </div>
+
+              {/* Business Process Automation */}
+              <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-2xl p-8 hover:shadow-lg transition-all">
+                <Zap className="w-12 h-12 text-primary-orange mb-6" />
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Business Process Automation</h3>
+                <p className="text-gray-600 mb-6">AI-powered automation solutions that streamline workflows and eliminate manual processes.</p>
+                
+                <div className="space-y-4 mb-6">
+                  <div>
+                    <h4 className="font-semibold text-gray-800 mb-2">Key Features:</h4>
+                    <ul className="text-sm text-gray-600 space-y-1">
+                      <li>• Workflow automation</li>
+                      <li>• AI decision making</li>
+                      <li>• Process optimization</li>
+                      <li>• Cost reduction</li>
+                    </ul>
+                  </div>
+                  
+                  <div>
+                    <h4 className="font-semibold text-gray-800 mb-2">Technologies:</h4>
+                    <div className="flex flex-wrap gap-2">
+                      <span className="bg-green-200 text-green-800 text-xs px-2 py-1 rounded">Python</span>
+                      <span className="bg-green-200 text-green-800 text-xs px-2 py-1 rounded">RPA Tools</span>
+                      <span className="bg-green-200 text-green-800 text-xs px-2 py-1 rounded">AI APIs</span>
+                      <span className="bg-green-200 text-green-800 text-xs px-2 py-1 rounded">Workflows</span>
+                    </div>
+                  </div>
+                </div>
+                
+                <Link href="/generative-ai-services">
+                  <Button variant="outline" size="sm" className="w-full">
+                    Learn More <ArrowRight className="w-4 h-4 ml-2" />
+                  </Button>
+                </Link>
+              </div>
+
+              {/* Machine Learning Solutions */}
+              <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl p-8 hover:shadow-lg transition-all">
+                <BarChart3 className="w-12 h-12 text-primary-orange mb-6" />
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Machine Learning Solutions</h3>
+                <p className="text-gray-600 mb-6">Advanced ML models and predictive analytics for data-driven business insights and automation.</p>
+                
+                <div className="space-y-4 mb-6">
+                  <div>
+                    <h4 className="font-semibold text-gray-800 mb-2">Key Features:</h4>
+                    <ul className="text-sm text-gray-600 space-y-1">
+                      <li>• Predictive modeling</li>
+                      <li>• Neural networks</li>
+                      <li>• Real-time analytics</li>
+                      <li>• Pattern recognition</li>
+                    </ul>
+                  </div>
+                  
+                  <div>
+                    <h4 className="font-semibold text-gray-800 mb-2">Technologies:</h4>
+                    <div className="flex flex-wrap gap-2">
+                      <span className="bg-purple-200 text-purple-800 text-xs px-2 py-1 rounded">Scikit-learn</span>
+                      <span className="bg-purple-200 text-purple-800 text-xs px-2 py-1 rounded">Pandas</span>
+                      <span className="bg-purple-200 text-purple-800 text-xs px-2 py-1 rounded">NumPy</span>
+                      <span className="bg-purple-200 text-purple-800 text-xs px-2 py-1 rounded">MLflow</span>
+                    </div>
+                  </div>
+                </div>
+                
+                <Link href="/machine-learning">
+                  <Button variant="outline" size="sm" className="w-full">
+                    Learn More <ArrowRight className="w-4 h-4 ml-2" />
+                  </Button>
+                </Link>
+              </div>
+
+              {/* Data Engineering */}
+              <div className="bg-gradient-to-br from-orange-50 to-orange-100 rounded-2xl p-8 hover:shadow-lg transition-all">
+                <Database className="w-12 h-12 text-primary-orange mb-6" />
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Data Engineering Solutions</h3>
+                <p className="text-gray-600 mb-6">Custom data pipelines, warehousing, and analytics infrastructure for AI-powered insights.</p>
+                
+                <div className="space-y-4 mb-6">
+                  <div>
+                    <h4 className="font-semibold text-gray-800 mb-2">Key Features:</h4>
+                    <ul className="text-sm text-gray-600 space-y-1">
+                      <li>• Data pipeline design</li>
+                      <li>• Real-time processing</li>
+                      <li>• Data warehousing</li>
+                      <li>• Analytics setup</li>
+                    </ul>
+                  </div>
+                  
+                  <div>
+                    <h4 className="font-semibold text-gray-800 mb-2">Technologies:</h4>
+                    <div className="flex flex-wrap gap-2">
+                      <span className="bg-orange-200 text-orange-800 text-xs px-2 py-1 rounded">Apache Spark</span>
+                      <span className="bg-orange-200 text-orange-800 text-xs px-2 py-1 rounded">Kafka</span>
+                      <span className="bg-orange-200 text-orange-800 text-xs px-2 py-1 rounded">Snowflake</span>
+                      <span className="bg-orange-200 text-orange-800 text-xs px-2 py-1 rounded">AWS</span>
+                    </div>
+                  </div>
+                </div>
+                
+                <Link href="/data-engineering">
+                  <Button variant="outline" size="sm" className="w-full">
+                    Learn More <ArrowRight className="w-4 h-4 ml-2" />
+                  </Button>
+                </Link>
+              </div>
+
+              {/* AI Integration */}
+              <div className="bg-gradient-to-br from-teal-50 to-teal-100 rounded-2xl p-8 hover:shadow-lg transition-all">
+                <Globe className="w-12 h-12 text-primary-orange mb-6" />
+                <h3 className="text-xl font-bold text-gray-800 mb-4">AI Integration & Deployment</h3>
+                <p className="text-gray-600 mb-6">Seamless AI integration with existing systems and optimized deployment for production environments.</p>
+                
+                <div className="space-y-4 mb-6">
+                  <div>
+                    <h4 className="font-semibold text-gray-800 mb-2">Key Features:</h4>
+                    <ul className="text-sm text-gray-600 space-y-1">
+                      <li>• System integration</li>
+                      <li>• API development</li>
+                      <li>• Cloud deployment</li>
+                      <li>• Performance monitoring</li>
+                    </ul>
+                  </div>
+                  
+                  <div>
+                    <h4 className="font-semibold text-gray-800 mb-2">Technologies:</h4>
+                    <div className="flex flex-wrap gap-2">
+                      <span className="bg-teal-200 text-teal-800 text-xs px-2 py-1 rounded">FastAPI</span>
+                      <span className="bg-teal-200 text-teal-800 text-xs px-2 py-1 rounded">REST APIs</span>
+                      <span className="bg-teal-200 text-teal-800 text-xs px-2 py-1 rounded">GraphQL</span>
+                      <span className="bg-teal-200 text-teal-800 text-xs px-2 py-1 rounded">Microservices</span>
+                    </div>
+                  </div>
+                </div>
+                
+                <Link href="/ai-integration-and-deployment">
+                  <Button variant="outline" size="sm" className="w-full">
+                    Learn More <ArrowRight className="w-4 h-4 ml-2" />
+                  </Button>
+                </Link>
+              </div>
+
+              {/* Data Insights */}
+              <div className="bg-gradient-to-br from-pink-50 to-pink-100 rounded-2xl p-8 hover:shadow-lg transition-all">
+                <TrendingUp className="w-12 h-12 text-primary-orange mb-6" />
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Data Insights & Analytics</h3>
+                <p className="text-gray-600 mb-6">Transform raw data into actionable business insights with AI-powered analytics and visualization.</p>
+                
+                <div className="space-y-4 mb-6">
+                  <div>
+                    <h4 className="font-semibold text-gray-800 mb-2">Key Features:</h4>
+                    <ul className="text-sm text-gray-600 space-y-1">
+                      <li>• Advanced analytics</li>
+                      <li>• Data visualization</li>
+                      <li>• Business intelligence</li>
+                      <li>• Predictive insights</li>
+                    </ul>
+                  </div>
+                  
+                  <div>
+                    <h4 className="font-semibold text-gray-800 mb-2">Technologies:</h4>
+                    <div className="flex flex-wrap gap-2">
+                      <span className="bg-pink-200 text-pink-800 text-xs px-2 py-1 rounded">Tableau</span>
+                      <span className="bg-pink-200 text-pink-800 text-xs px-2 py-1 rounded">Power BI</span>
+                      <span className="bg-pink-200 text-pink-800 text-xs px-2 py-1 rounded">D3.js</span>
+                      <span className="bg-pink-200 text-pink-800 text-xs px-2 py-1 rounded">Plotly</span>
+                    </div>
+                  </div>
+                </div>
+                
+                <Link href="/data-insights">
+                  <Button variant="outline" size="sm" className="w-full">
+                    Learn More <ArrowRight className="w-4 h-4 ml-2" />
+                  </Button>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Process Section */}
+      {/* AI by Industry */}
       <section className="py-20 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Our AI Implementation Process
+              <h2 className="text-4xl md:text-5xl font-bold tracking-tighter mb-4">
+                AI Solutions by Industry
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Systematic approach to AI transformation ensuring successful outcomes and maximum ROI
-              </p>
-            </div>
-            
-            <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8">
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary-orange rounded-full flex items-center justify-center mb-6 mx-auto text-white font-bold text-lg">
-                  1
-                </div>
-                <h3 className="text-lg font-bold mb-4">Discovery & Strategy</h3>
-                <p className="text-gray-600 text-sm">
-                  Assess your business needs, data readiness, and define AI strategy aligned with business goals.
-                </p>
-              </div>
-              
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary-orange rounded-full flex items-center justify-center mb-6 mx-auto text-white font-bold text-lg">
-                  2
-                </div>
-                <h3 className="text-lg font-bold mb-4">Proof of Concept</h3>
-                <p className="text-gray-600 text-sm">
-                  Develop and validate AI prototypes to demonstrate feasibility and potential business impact.
-                </p>
-              </div>
-              
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary-orange rounded-full flex items-center justify-center mb-6 mx-auto text-white font-bold text-lg">
-                  3
-                </div>
-                <h3 className="text-lg font-bold mb-4">Development & Training</h3>
-                <p className="text-gray-600 text-sm">
-                  Build production-ready AI solutions with robust training, testing, and optimization processes.
-                </p>
-              </div>
-              
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary-orange rounded-full flex items-center justify-center mb-6 mx-auto text-white font-bold text-lg">
-                  4
-                </div>
-                <h3 className="text-lg font-bold mb-4">Integration & Deployment</h3>
-                <p className="text-gray-600 text-sm">
-                  Seamlessly integrate AI solutions into existing systems with minimal business disruption.
-                </p>
-              </div>
-              
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary-orange rounded-full flex items-center justify-center mb-6 mx-auto text-white font-bold text-lg">
-                  5
-                </div>
-                <h3 className="text-lg font-bold mb-4">Support & Optimization</h3>
-                <p className="text-gray-600 text-sm">
-                  Ongoing monitoring, maintenance, and continuous improvement to maximize AI performance.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Industries Section */}
-      <section className="py-20 bg-white">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Industries We Serve
-              </h2>
-              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Delivering AI solutions across diverse industries with domain-specific expertise
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Industry-specific AI solutions that solve unique business challenges and drive operational excellence.
               </p>
             </div>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {industries.map((industry, index) => {
-                const IconComponent = industry.icon;
-                return (
-                  <div key={index} className="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-shadow">
-                    <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mb-4">
-                      <IconComponent className="w-6 h-6 text-primary-orange" />
-                    </div>
-                    <h3 className="text-lg font-bold mb-3">{industry.name}</h3>
-                    <p className="text-gray-600 text-sm">{industry.description}</p>
+              {/* Healthcare */}
+              <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all">
+                <div className="text-4xl mb-4">🏥</div>
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Healthcare</h3>
+                
+                <div className="space-y-4">
+                  <div>
+                    <h4 className="font-semibold text-gray-800 mb-2">Applications:</h4>
+                    <ul className="text-sm text-gray-600 space-y-1">
+                      <li>• Patient management systems</li>
+                      <li>• AI diagnostics & imaging</li>
+                      <li>• Appointment scheduling</li>
+                      <li>• Medical inventory</li>
+                    </ul>
                   </div>
-                );
-              })}
+                  
+                  <div>
+                    <h4 className="font-semibold text-gray-800 mb-2">Business Benefits:</h4>
+                    <ul className="text-sm text-gray-600 space-y-1">
+                      <li>• HIPAA compliance</li>
+                      <li>• Enhanced patient care</li>
+                      <li>• Automated processes</li>
+                      <li>• Data security</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              {/* Finance & Banking */}
+              <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all">
+                <div className="text-4xl mb-4">🏦</div>
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Finance & Banking</h3>
+                
+                <div className="space-y-4">
+                  <div>
+                    <h4 className="font-semibold text-gray-800 mb-2">Applications:</h4>
+                    <ul className="text-sm text-gray-600 space-y-1">
+                      <li>• Fraud detection systems</li>
+                      <li>• Risk assessment</li>
+                      <li>• Algorithmic trading</li>
+                      <li>• Compliance reporting</li>
+                    </ul>
+                  </div>
+                  
+                  <div>
+                    <h4 className="font-semibold text-gray-800 mb-2">Business Benefits:</h4>
+                    <ul className="text-sm text-gray-600 space-y-1">
+                      <li>• Regulatory compliance</li>
+                      <li>• Risk reduction</li>
+                      <li>• Automated reporting</li>
+                      <li>• Real-time processing</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              {/* Manufacturing */}
+              <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all">
+                <div className="text-4xl mb-4">🏭</div>
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Manufacturing</h3>
+                
+                <div className="space-y-4">
+                  <div>
+                    <h4 className="font-semibold text-gray-800 mb-2">Applications:</h4>
+                    <ul className="text-sm text-gray-600 space-y-1">
+                      <li>• Predictive maintenance</li>
+                      <li>• Quality control AI</li>
+                      <li>• Supply chain optimization</li>
+                      <li>• Equipment monitoring</li>
+                    </ul>
+                  </div>
+                  
+                  <div>
+                    <h4 className="font-semibold text-gray-800 mb-2">Business Benefits:</h4>
+                    <ul className="text-sm text-gray-600 space-y-1">
+                      <li>• Operational efficiency</li>
+                      <li>• Quality improvement</li>
+                      <li>• Cost reduction</li>
+                      <li>• Predictive maintenance</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              {/* Retail & E-commerce */}
+              <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all">
+                <div className="text-4xl mb-4">🛒</div>
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Retail & E-commerce</h3>
+                
+                <div className="space-y-4">
+                  <div>
+                    <h4 className="font-semibold text-gray-800 mb-2">Applications:</h4>
+                    <ul className="text-sm text-gray-600 space-y-1">
+                      <li>• Recommendation engines</li>
+                      <li>• Inventory optimization</li>
+                      <li>• Customer analytics</li>
+                      <li>• Price optimization</li>
+                    </ul>
+                  </div>
+                  
+                  <div>
+                    <h4 className="font-semibold text-gray-800 mb-2">Business Benefits:</h4>
+                    <ul className="text-sm text-gray-600 space-y-1">
+                      <li>• Personalized shopping</li>
+                      <li>• Customer insights</li>
+                      <li>• Process automation</li>
+                      <li>• Sales growth</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              {/* Education */}
+              <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all">
+                <div className="text-4xl mb-4">🎓</div>
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Education</h3>
+                
+                <div className="space-y-4">
+                  <div>
+                    <h4 className="font-semibold text-gray-800 mb-2">Applications:</h4>
+                    <ul className="text-sm text-gray-600 space-y-1">
+                      <li>• Adaptive learning systems</li>
+                      <li>• Student performance analytics</li>
+                      <li>• Automated grading</li>
+                      <li>• Personalized curricula</li>
+                    </ul>
+                  </div>
+                  
+                  <div>
+                    <h4 className="font-semibold text-gray-800 mb-2">Business Benefits:</h4>
+                    <ul className="text-sm text-gray-600 space-y-1">
+                      <li>• Enhanced learning outcomes</li>
+                      <li>• Administrative efficiency</li>
+                      <li>• Data-driven insights</li>
+                      <li>• Scalable solutions</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              {/* Logistics & Transportation */}
+              <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all">
+                <div className="text-4xl mb-4">🚚</div>
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Logistics & Transportation</h3>
+                
+                <div className="space-y-4">
+                  <div>
+                    <h4 className="font-semibold text-gray-800 mb-2">Applications:</h4>
+                    <ul className="text-sm text-gray-600 space-y-1">
+                      <li>• Route optimization</li>
+                      <li>• Fleet management</li>
+                      <li>• Demand forecasting</li>
+                      <li>• Real-time tracking</li>
+                    </ul>
+                  </div>
+                  
+                  <div>
+                    <h4 className="font-semibold text-gray-800 mb-2">Business Benefits:</h4>
+                    <ul className="text-sm text-gray-600 space-y-1">
+                      <li>• Cost optimization</li>
+                      <li>• Efficiency improvement</li>
+                      <li>• Real-time visibility</li>
+                      <li>• Automated operations</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Why Choose Us Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Why Choose Metic.ai?
-              </h2>
-              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Partner with AI experts who understand both technology and business impact
-              </p>
-            </div>
-            
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {whyChooseUs.map((item, index) => {
-                const IconComponent = item.icon;
-                return (
-                  <div key={index} className="text-center">
-                    <div className="w-16 h-16 bg-primary-orange/10 rounded-full flex items-center justify-center mb-6 mx-auto">
-                      <IconComponent className="w-8 h-8 text-primary-orange" />
-                    </div>
-                    <h3 className="text-xl font-bold mb-4">{item.title}</h3>
-                    <p className="text-gray-600">{item.description}</p>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Success Metrics */}
+      {/* AI Development Process */}
       <section className="py-20 bg-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Proven Track Record
+              <h2 className="text-4xl md:text-5xl font-bold tracking-tighter mb-4">
+                Our AI Development Process
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Delivering measurable results across AI implementations
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                AI-accelerated development methodology that delivers high-quality AI solutions faster and more efficiently.
               </p>
             </div>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+              {/* Step 1 */}
               <div className="text-center">
-                <div className="text-4xl font-bold text-primary-orange mb-2">200+</div>
-                <p className="text-gray-600">AI Projects Delivered</p>
+                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <span className="text-2xl font-bold text-primary-orange">01</span>
+                </div>
+                <h3 className="text-xl font-bold text-gray-800 mb-3">Discovery & Analysis</h3>
+                <p className="text-sm text-gray-500 mb-3">1-2 weeks</p>
+                <p className="text-gray-600 mb-4">AI-powered requirements analysis and project planning for optimal solutions.</p>
+                
+                <div className="text-left">
+                  <h4 className="font-semibold text-gray-800 mb-2">Deliverables:</h4>
+                  <ul className="text-sm text-gray-600 space-y-1">
+                    <li>• Requirements document</li>
+                    <li>• Technical specification</li>
+                    <li>• Project roadmap</li>
+                    <li>• AI optimization plan</li>
+                  </ul>
+                </div>
               </div>
+
+              {/* Step 2 */}
               <div className="text-center">
-                <div className="text-4xl font-bold text-primary-orange mb-2">95%</div>
-                <p className="text-gray-600">Client Satisfaction Rate</p>
+                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <span className="text-2xl font-bold text-primary-orange">02</span>
+                </div>
+                <h3 className="text-xl font-bold text-gray-800 mb-3">Architecture & Design</h3>
+                <p className="text-sm text-gray-500 mb-3">1-2 weeks</p>
+                <p className="text-gray-600 mb-4">System architecture design with AI-enhanced UI/UX for maximum efficiency.</p>
+                
+                <div className="text-left">
+                  <h4 className="font-semibold text-gray-800 mb-2">Deliverables:</h4>
+                  <ul className="text-sm text-gray-600 space-y-1">
+                    <li>• System architecture</li>
+                    <li>• Database design</li>
+                    <li>• UI/UX mockups</li>
+                    <li>• Technical documentation</li>
+                  </ul>
+                </div>
               </div>
+
+              {/* Step 3 */}
               <div className="text-center">
-                <div className="text-4xl font-bold text-primary-orange mb-2">3x</div>
-                <p className="text-gray-600">Average ROI Improvement</p>
+                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <span className="text-2xl font-bold text-primary-orange">03</span>
+                </div>
+                <h3 className="text-xl font-bold text-gray-800 mb-3">AI-Accelerated Development</h3>
+                <p className="text-sm text-gray-500 mb-3">4-12 weeks</p>
+                <p className="text-gray-600 mb-4">Rapid development using AI tools and agile methodologies for faster delivery.</p>
+                
+                <div className="text-left">
+                  <h4 className="font-semibold text-gray-800 mb-2">Deliverables:</h4>
+                  <ul className="text-sm text-gray-600 space-y-1">
+                    <li>• Working AI software</li>
+                    <li>• AI integrations</li>
+                    <li>• Quality assurance</li>
+                    <li>• Performance optimization</li>
+                  </ul>
+                </div>
               </div>
+
+              {/* Step 4 */}
               <div className="text-center">
-                <div className="text-4xl font-bold text-primary-orange mb-2">50+</div>
-                <p className="text-gray-600">Enterprise Clients</p>
+                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <span className="text-2xl font-bold text-primary-orange">04</span>
+                </div>
+                <h3 className="text-xl font-bold text-gray-800 mb-3">Testing & Deployment</h3>
+                <p className="text-sm text-gray-500 mb-3">1-2 weeks</p>
+                <p className="text-gray-600 mb-4">Comprehensive testing and smooth deployment with AI-powered monitoring.</p>
+                
+                <div className="text-left">
+                  <h4 className="font-semibold text-gray-800 mb-2">Deliverables:</h4>
+                  <ul className="text-sm text-gray-600 space-y-1">
+                    <li>• Tested application</li>
+                    <li>• Deployment setup</li>
+                    <li>• Training materials</li>
+                    <li>• Support documentation</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Service Areas Grid */}
+      {/* Why Choose Our AI Expertise */}
       <section className="py-20 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Complete AI Service Spectrum
+              <h2 className="text-4xl md:text-5xl font-bold tracking-tighter mb-4">
+                Why Choose Our AI Expertise
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                From strategy to implementation, we cover every aspect of AI transformation
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Advanced development capabilities and proven expertise in delivering AI solutions that transform businesses.
               </p>
             </div>
             
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-              <div className="bg-white rounded-lg p-6 shadow-sm">
-                <FileText className="w-8 h-8 text-blue-600 mb-4" />
-                <h3 className="font-bold mb-2">AI Strategy & Consulting</h3>
-                <p className="text-gray-600 text-sm">Strategic planning and roadmap development</p>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all">
+                <Zap className="w-12 h-12 text-primary-orange mb-6" />
+                <h3 className="text-xl font-bold text-gray-800 mb-4">AI-Accelerated Development</h3>
+                <p className="text-gray-600">3x faster development using AI tools for code generation, testing, and optimization.</p>
               </div>
-              
-              <div className="bg-white rounded-lg p-6 shadow-sm">
-                <Brain className="w-8 h-8 text-purple-600 mb-4" />
-                <h3 className="font-bold mb-2">Machine Learning</h3>
-                <p className="text-gray-600 text-sm">Predictive models and intelligent algorithms</p>
+
+              <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all">
+                <Globe className="w-12 h-12 text-primary-orange mb-6" />
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Enterprise Architecture</h3>
+                <p className="text-gray-600">Scalable, secure architecture designed for complex business requirements and high performance.</p>
               </div>
-              
-              <div className="bg-white rounded-lg p-6 shadow-sm">
-                <Sparkles className="w-8 h-8 text-green-600 mb-4" />
-                <h3 className="font-bold mb-2">Generative AI</h3>
-                <p className="text-gray-600 text-sm">Content creation and automation solutions</p>
+
+              <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all">
+                <Shield className="w-12 h-12 text-primary-orange mb-6" />
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Security & Compliance</h3>
+                <p className="text-gray-600">Enterprise-grade security implementation with compliance for industry standards.</p>
               </div>
-              
-              <div className="bg-white rounded-lg p-6 shadow-sm">
-                <Database className="w-8 h-8 text-orange-600 mb-4" />
-                <h3 className="font-bold mb-2">Data Engineering</h3>
-                <p className="text-gray-600 text-sm">Robust data infrastructure and pipelines</p>
+
+              <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all">
+                <Target className="w-12 h-12 text-primary-orange mb-6" />
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Performance Optimization</h3>
+                <p className="text-gray-600">High-performance applications optimized for speed, scalability, and resource efficiency.</p>
               </div>
-              
-              <div className="bg-white rounded-lg p-6 shadow-sm">
-                <BarChart3 className="w-8 h-8 text-indigo-600 mb-4" />
-                <h3 className="font-bold mb-2">Business Intelligence</h3>
-                <p className="text-gray-600 text-sm">Data visualization and analytics platforms</p>
+
+              <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all">
+                <Users className="w-12 h-12 text-primary-orange mb-6" />
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Expert AI Team</h3>
+                <p className="text-gray-600">Dedicated team of AI experts with proven experience in enterprise AI implementations.</p>
               </div>
-              
-              <div className="bg-white rounded-lg p-6 shadow-sm">
-                <Cloud className="w-8 h-8 text-red-600 mb-4" />
-                <h3 className="font-bold mb-2">Cloud AI Solutions</h3>
-                <p className="text-gray-600 text-sm">Scalable cloud-based AI implementations</p>
+
+              <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all">
+                <Award className="w-12 h-12 text-primary-orange mb-6" />
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Proven Track Record</h3>
+                <p className="text-gray-600">500+ successful AI projects with measurable business impact and ROI.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* AI Investment Plans */}
+      <section className="py-20 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold tracking-tighter mb-4">
+                AI Investment Plans
+              </h2>
+              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Flexible AI development packages designed to deliver maximum value for your investment.
+              </p>
+            </div>
+            
+            <div className="grid md:grid-cols-3 gap-8">
+              {/* Startup Package */}
+              <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 hover:shadow-lg transition-all">
+                <div className="text-center mb-6">
+                  <h3 className="text-2xl font-bold text-gray-800 mb-2">Startup Package</h3>
+                  <div className="text-4xl font-bold text-primary-orange mb-2">$15,000 - $30,000</div>
+                  <p className="text-gray-600">4-8 weeks • Basic AI Solutions</p>
+                </div>
+                
+                <div className="space-y-4 mb-8">
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="w-5 h-5 text-green-500" />
+                    <span className="text-gray-600">Custom AI application</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="w-5 h-5 text-green-500" />
+                    <span className="text-gray-600">Basic ML integration</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="w-5 h-5 text-green-500" />
+                    <span className="text-gray-600">API development</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="w-5 h-5 text-green-500" />
+                    <span className="text-gray-600">3 months support</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="w-5 h-5 text-green-500" />
+                    <span className="text-gray-600">Documentation & training</span>
+                  </div>
+                </div>
+                
+                <Button className="w-full bg-primary-orange hover:bg-primary-orange/90">
+                  Get Started
+                </Button>
+              </div>
+
+              {/* Business Package */}
+              <div className="bg-primary-orange text-white border-2 border-primary-orange rounded-2xl p-8 transform scale-105 shadow-xl">
+                <div className="text-center mb-6">
+                  <div className="inline-block bg-white text-primary-orange px-3 py-1 rounded-full text-sm font-medium mb-4">
+                    Most Popular
+                  </div>
+                  <h3 className="text-2xl font-bold mb-2">Business Package</h3>
+                  <div className="text-4xl font-bold mb-2">$30,000 - $75,000</div>
+                  <p className="text-orange-100">8-16 weeks • Advanced AI Solutions</p>
+                </div>
+                
+                <div className="space-y-4 mb-8">
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="w-5 h-5 text-white" />
+                    <span className="text-orange-100">Advanced enterprise AI</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="w-5 h-5 text-white" />
+                    <span className="text-orange-100">AI-powered automation</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="w-5 h-5 text-white" />
+                    <span className="text-orange-100">Third-party integrations</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="w-5 h-5 text-white" />
+                    <span className="text-orange-100">Advanced analytics</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="w-5 h-5 text-white" />
+                    <span className="text-orange-100">6 months support</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="w-5 h-5 text-white" />
+                    <span className="text-orange-100">Performance optimization</span>
+                  </div>
+                </div>
+                
+                <Button variant="secondary" className="w-full bg-white text-primary-orange hover:bg-gray-100">
+                  Get Started
+                </Button>
+              </div>
+
+              {/* Enterprise Package */}
+              <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 hover:shadow-lg transition-all">
+                <div className="text-center mb-6">
+                  <h3 className="text-2xl font-bold text-gray-800 mb-2">Enterprise Package</h3>
+                  <div className="text-4xl font-bold text-primary-orange mb-2">$75,000+</div>
+                  <p className="text-gray-600">16+ weeks • Enterprise AI Solutions</p>
+                </div>
+                
+                <div className="space-y-4 mb-8">
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="w-5 h-5 text-green-500" />
+                    <span className="text-gray-600">Complex enterprise AI system</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="w-5 h-5 text-green-500" />
+                    <span className="text-gray-600">Advanced AI/ML integration</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="w-5 h-5 text-green-500" />
+                    <span className="text-gray-600">Microservices architecture</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="w-5 h-5 text-green-500" />
+                    <span className="text-gray-600">Advanced security features</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="w-5 h-5 text-green-500" />
+                    <span className="text-gray-600">12 months support</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="w-5 h-5 text-green-500" />
+                    <span className="text-gray-600">Dedicated project manager</span>
+                  </div>
+                </div>
+                
+                <Button className="w-full bg-primary-orange hover:bg-primary-orange/90">
+                  Get Started
+                </Button>
               </div>
             </div>
           </div>
@@ -450,36 +795,36 @@ export default function ServicesPage() {
       <section className="py-20 bg-primary-orange text-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-              Ready to Transform Your Business with AI?
+            <h2 className="text-4xl md:text-5xl font-bold tracking-tighter mb-6">
+              Ready to Build Your AI Solution?
             </h2>
-            <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Let our AI experts help you identify opportunities, develop solutions, and implement 
-              AI technologies that drive real business value and competitive advantage.
+            <p className="text-xl mb-8 text-orange-100">
+              Transform your business with AI development that's tailored to your specific needs. Get AI-accelerated development with 3x faster delivery and significant cost savings.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/contact">
-                <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100">
-                  Start Your AI Journey
-                </Button>
-              </Link>
-              <Link href="tel:+917892518414">
-                <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  Call: +91-78925-18414
-                </Button>
-              </Link>
-            </div>
             
-            <div className="mt-12 text-center">
-              <p className="text-orange-200 mb-4">Trusted by leading organizations worldwide</p>
-              <div className="flex flex-wrap justify-center gap-8 text-orange-100">
-                <span>Fortune 500 Companies</span>
-                <span>•</span>
-                <span>Healthcare Organizations</span>
-                <span>•</span>
-                <span>Financial Institutions</span>
-                <span>•</span>
-                <span>Technology Startups</span>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+              <Button size="lg" variant="secondary" className="bg-white text-primary-orange hover:bg-gray-100">
+                <Phone className="w-5 h-5 mr-2" />
+                Start AI Development
+              </Button>
+              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary-orange">
+                <Mail className="w-5 h-5 mr-2" />
+                Call AI Experts
+              </Button>
+            </div>
+
+            <div className="flex flex-wrap justify-center gap-6 text-orange-100">
+              <div className="flex items-center gap-2">
+                <CheckCircle className="w-5 h-5" />
+                <span>FREE Consultation</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Zap className="w-5 h-5" />
+                <span>3x Faster Development</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Target className="w-5 h-5" />
+                <span>60% Cost Savings</span>
               </div>
             </div>
           </div>

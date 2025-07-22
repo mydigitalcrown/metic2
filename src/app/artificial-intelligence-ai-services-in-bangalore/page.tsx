@@ -24,14 +24,14 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services Bangalore | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in Bangalore, India. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your Bangalore business with cutting-edge AI technology.",
-  keywords: "AI services Bangalore, artificial intelligence Bangalore, machine learning Bangalore, AI consulting Bangalore India, AI development Bangalore, data science Bangalore, AI solutions Bangalore, AI companies Bangalore Karnataka",
+  title: "AI Services Bangalore | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+  description: "Bangalore's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for Bangalore businesses.",
+  keywords: "AI services Bangalore, artificial intelligence Bangalore, machine learning Bangalore, AI consulting Bangalore, AI development Bangalore, custom AI solutions Bangalore, AI automation Bangalore, enterprise AI Bangalore, Bengaluru AI",
   authors: [{ name: "Metic.ai Bangalore AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Bangalore | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-    description: "Leading AI services in Bangalore, India. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for Bangalore businesses.",
+    title: "AI Services Bangalore | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "Bangalore's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for Bangalore businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-bangalore/",
     type: "website",
     images: [
@@ -45,8 +45,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services Bangalore | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your Bangalore business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    title: "AI Services Bangalore | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "Bangalore's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
     images: ["https://metic.ai/og-ai-services-bangalore.jpg"],
   },
   alternates: {
@@ -131,7 +131,7 @@ export default function AIServicesBangalorePage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services Bangalore",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in Bangalore, India. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for Bangalore businesses.",
+            "description": "Bangalore's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for Bangalore businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Bangalore",

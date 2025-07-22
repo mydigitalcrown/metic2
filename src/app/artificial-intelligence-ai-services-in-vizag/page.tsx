@@ -24,13 +24,13 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services Visakhapatnam | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in Visakhapatnam (Vizag), India. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your Vizag business with cutting-edge AI technology.",
-  keywords: "AI services Visakhapatnam, artificial intelligence Vizag, machine learning Visakhapatnam, AI consulting Vizag India, AI development Visakhapatnam, data science Vizag, AI solutions Visakhapatnam, AI companies Vizag Andhra Pradesh",
+  title: "Premier Artificial Intelligence Solutions & Development in Vizag | AI Services",
+  description: "Leading AI development company in Visakhapatnam (Vizag). Custom machine learning solutions, automation platforms, and intelligent systems. 3x faster deployment, 60% cost savings. Serving MVP Colony, Dwaraka Nagar, Gajuwaka.",
+  keywords: "AI development Vizag, artificial intelligence Visakhapatnam, machine learning MVP Colony, AI automation Dwaraka Nagar, AI consulting Vizag, AI solutions Andhra Pradesh, AI developers Visakhapatnam",
   authors: [{ name: "Metic.ai Visakhapatnam AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Visakhapatnam | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
+    title: "AI Services Visakhapatnam | Premier Artificial Intelligence Solutions & Development - Metic.ai",
     description: "Leading AI services in Visakhapatnam (Vizag), India. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for Vizag businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-vizag/",
     type: "website",
@@ -46,7 +46,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "AI Services Visakhapatnam | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your Visakhapatnam business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    description: "Visakhapatnam's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
     images: ["https://metic.ai/og-ai-services-vizag.jpg"],
   },
   alternates: {
@@ -131,7 +131,7 @@ export default function AIServicesVizagPage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services Visakhapatnam",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in Visakhapatnam (Vizag), India. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for Vizag businesses.",
+            "description": "Visakhapatnam's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for Vizag businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Visakhapatnam",
@@ -200,22 +200,22 @@ export default function AIServicesVizagPage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-white to-gray-50 py-20 md:py-28">
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-6">
               <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-gray-600">Serving Visakhapatnam, Andhra Pradesh</span>
+              <span className="text-sm font-medium text-orange-300">Serving Visakhapatnam, Andhra Pradesh</span>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              AI Services in <span className="text-primary-orange">Visakhapatnam</span>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
+              AI Excellence in <span className="text-primary-orange">Vizag</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your Visakhapatnam business with cutting-edge artificial intelligence solutions. 
-              From the port city to industrial corridors, we deliver enterprise-grade AI services that drive innovation and growth 
-              across Andhra Pradesh's industrial capital.
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              Where the Bay of Bengal meets cutting-edge technology. From the bustling port operations to 
+              the steel plants of Gajuwaka, we've helped 75+ Vizag businesses navigate digital transformation 
+              with AI that's as dependable as the coastal breeze. Jewel of the East Coast gets smarter.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

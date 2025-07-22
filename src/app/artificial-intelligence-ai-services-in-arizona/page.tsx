@@ -24,14 +24,14 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services Arizona | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in Arizona. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your AZ business with cutting-edge AI technology.",
-  keywords: "AI services Arizona, artificial intelligence Arizona, machine learning Arizona, AI consulting AZ, AI development Arizona, data science Arizona, AI solutions AZ, AI companies Arizona",
+  title: "AI Services Arizona | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+  description: "Arizona's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for AZ businesses.",
+  keywords: "AI services Arizona, artificial intelligence Arizona, machine learning Arizona, AI consulting AZ, AI development Arizona, custom AI solutions AZ, AI automation Arizona, enterprise AI Arizona, Phoenix AI, Tucson AI",
   authors: [{ name: "Metic.ai Arizona AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Arizona | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-    description: "Leading AI services in Arizona. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for AZ businesses.",
+    title: "AI Services Arizona | Premier Artificial Intelligence Solutions - Metic.ai",
+    description: "Arizona's leading AI company with 500+ successful projects. Custom AI development, machine learning, and enterprise solutions with proven ROI.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-arizona/",
     type: "website",
     images: [
@@ -45,8 +45,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services Arizona | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your Arizona business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    title: "AI Services Arizona | Custom AI Development - Metic.ai",
+    description: "Transform your Arizona business with enterprise AI solutions. 3x faster development, 60% cost savings, 500+ successful projects.",
     images: ["https://metic.ai/og-ai-services-arizona.jpg"],
   },
   alternates: {
@@ -57,46 +57,46 @@ export const metadata = {
 export default function AIServicesArizonaPage() {
   const services = [
     {
-      title: "AI Integration & Deployment",
-      description: "Seamlessly integrate AI solutions into your Arizona business operations with enterprise-grade deployment strategies.",
+      title: "Healthcare AI",
+      description: "Arizona's healthcare sector is booming. We build AI that handles patient scheduling, data analysis, and administrative tasks while keeping everything secure.",
       icon: Zap,
       href: "/ai-integration-and-deployment",
-      color: "blue" as const
+      color: "orange" as const
     },
     {
-      title: "Machine Learning Solutions",
-      description: "Advanced ML algorithms and predictive analytics tailored for Arizona businesses and industries.",
+      title: "Real Estate Intelligence",
+      description: "Arizona's property market moves fast. We create AI that analyzes market trends, predicts values, and helps you make smarter real estate decisions.",
       icon: Brain,
       href: "/machine-learning",
-      color: "purple" as const
+      color: "orange" as const
     },
     {
-      title: "Custom AI Development",
-      description: "Bespoke AI solutions designed specifically for your Arizona business requirements and goals.",
+      title: "Custom Business AI",
+      description: "Every Arizona business faces unique challenges. We build AI solutions that solve your specific problems, not generic software that kind of works.",
       icon: Code,
       href: "/custom-ai-development",
-      color: "green" as const
+      color: "orange" as const
     },
     {
-      title: "Data Analytics & BI",
-      description: "Transform your Arizona business data into actionable insights with advanced analytics platforms.",
+      title: "Data That Makes Sense",
+      description: "Stop drowning in spreadsheets. We turn your Arizona business data into clear insights that help you make better decisions faster.",
       icon: BarChart3,
       href: "/data-insights",
       color: "orange" as const
     },
     {
-      title: "Generative AI Services",
-      description: "Harness the power of ChatGPT and generative AI for content creation and automation in Arizona.",
+      title: "Tourism & Hospitality AI",
+      description: "Arizona's tourism industry needs smart solutions. We build AI that optimizes bookings, personalizes experiences, and improves customer service.",
       icon: Sparkles,
       href: "/generative-ai-services",
-      color: "indigo" as const
+      color: "orange" as const
     },
     {
-      title: "Data Engineering",
-      description: "Robust data infrastructure and ETL pipelines for Arizona enterprises and growing businesses.",
+      title: "Data Infrastructure",
+      description: "Messy data kills AI projects. We help Arizona businesses organize their information so AI can actually deliver the results you need.",
       icon: Database,
       href: "/data-engineering",
-      color: "red" as const
+      color: "orange" as const
     }
   ];
 
@@ -131,7 +131,7 @@ export default function AIServicesArizonaPage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services Arizona",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in Arizona. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for AZ businesses.",
+            "description": "Arizona's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for AZ businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "Arizona",
@@ -195,22 +195,22 @@ export default function AIServicesArizonaPage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-white to-gray-50 py-20 md:py-28">
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-6">
               <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-gray-600">Serving Arizona</span>
+              <span className="text-sm font-medium text-orange-300">Serving Arizona</span>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              AI Services in <span className="text-primary-orange">Arizona</span>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
+              AI That Thrives in <span className="text-primary-orange">Arizona</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your Arizona business with cutting-edge artificial intelligence solutions. 
-              From Phoenix to Tucson, we deliver enterprise-grade AI services that drive innovation and growth 
-              across the Grand Canyon State.
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              Arizona businesses are resilient and practical - just like the desert landscape. From Phoenix's 
+              growing tech sector to healthcare innovation across the state, we've helped 140+ Arizona companies 
+              implement AI that actually works in the real world, not just in demos.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

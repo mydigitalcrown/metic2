@@ -24,14 +24,14 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services Nebraska | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in Nebraska. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your NE business with cutting-edge AI technology.",
-  keywords: "AI services Nebraska, artificial intelligence Nebraska, machine learning Nebraska, AI consulting NE, AI development Nebraska, data science Nebraska, AI solutions NE, AI companies Nebraska",
+  title: "AI Services Nebraska | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+  description: "Nebraska's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for NE businesses.",
+  keywords: "AI services Nebraska, artificial intelligence Nebraska, machine learning Nebraska, AI consulting NE, AI development Nebraska, custom AI solutions NE, AI automation Nebraska, enterprise AI Nebraska, Omaha AI, Lincoln AI",
   authors: [{ name: "Metic.ai Nebraska AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Nebraska | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-    description: "Leading AI services in Nebraska. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for NE businesses.",
+    title: "AI Services Nebraska | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "Nebraska's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for NE businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-nebraska/",
     type: "website",
     images: [
@@ -45,8 +45,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services Nebraska | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your Nebraska business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    title: "AI Services Nebraska | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "Nebraska's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
     images: ["https://metic.ai/og-ai-services-nebraska.jpg"],
   },
   alternates: {
@@ -131,7 +131,7 @@ export default function AIServicesNebraskaPage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services Nebraska",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in Nebraska. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for NE businesses.",
+            "description": "Nebraska's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for NE businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "Nebraska",
@@ -195,22 +195,22 @@ export default function AIServicesNebraskaPage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-white to-gray-50 py-20 md:py-28">
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-6">
               <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-gray-600">Serving Nebraska</span>
+              <span className="text-sm font-medium text-orange-300">Serving Nebraska</span>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              AI Services in <span className="text-primary-orange">Nebraska</span>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
+              Smart AI for <span className="text-primary-orange">Nebraska</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your Nebraska business with cutting-edge artificial intelligence solutions. 
-              From Omaha to Lincoln, we deliver enterprise-grade AI services that drive innovation and growth 
-              across the Cornhusker State.
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              Nebraska businesses value practical solutions that work as hard as they do. From Omaha's financial 
+              and insurance sectors to agricultural operations across the state, we've helped 55+ Nebraska companies 
+              implement AI that delivers solid results. Cornhusker work ethic meets smart technology.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

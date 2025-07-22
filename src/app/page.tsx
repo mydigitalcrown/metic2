@@ -6,8 +6,8 @@ import { organizationSchema } from "../lib/schemas";
 const homePageSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Artificial Intelligence Company in Michigan | Top AI Company In Michigan - Metic AI",
-  "description": "Leading AI company in Michigan delivering intelligent solutions that transform businesses. Expert AI integration, custom development, machine learning, and data engineering services.",
+  "name": "Premier Artificial Intelligence Solutions & Development Company - Metic.ai",
+  "description": "Leading AI company delivering custom artificial intelligence solutions with 3x faster delivery and 60% cost savings. Expert AI development, machine learning, automation, and data analytics services.",
   "url": "https://metic.ai/",
   "mainEntity": {
     "@id": "https://metic.ai/#organization"
@@ -58,15 +58,15 @@ export default function Home() {
               </div>
               
               <h1 className="text-5xl md:text-7xl font-bold tracking-tighter text-white mb-6">
-                Build with <span className="text-primary-orange">AI Power</span>
+                AI Experts <span className="text-primary-orange">In Michigan</span>
                 <br />
                 Launch <span className="text-secondary-orange">3x Faster</span>
               </h1>
               
               <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-4xl mx-auto">
-                We're AI-driven engineers who leverage AI and cutting-edge tools to deliver exceptional software
+                Michigan's leading AI experts leveraging cutting-edge artificial intelligence and advanced tools to deliver exceptional software
                 solutions in record time. Get enterprise-quality results at startup speeds and
-                budget-friendly costs.
+                budget-friendly costs for Michigan businesses.
               </p>
             </div>
             
@@ -105,23 +105,23 @@ export default function Home() {
 
             {/* Feature Pills */}
             <div className="flex flex-wrap justify-center gap-4 text-sm">
-              <div className="flex items-center gap-2 bg-blue-500/20 border border-blue-400/30 rounded-full px-4 py-2">
-                <Zap className="w-4 h-4 text-blue-400" />
+              <div className="flex items-center gap-2 bg-primary-orange/20 border border-primary-orange/30 rounded-full px-4 py-2">
+                <Zap className="w-4 h-4 text-primary-orange" />
                 <span className="text-white">🚀 3x Faster Development</span>
-                <span className="text-blue-300 text-xs">AI-accelerated coding and testing</span>
+                <span className="text-orange-300 text-xs">AI-accelerated coding and testing</span>
               </div>
-              <div className="flex items-center gap-2 bg-green-500/20 border border-green-400/30 rounded-full px-4 py-2">
-                <TrendingUp className="w-4 h-4 text-green-400" />
+              <div className="flex items-center gap-2 bg-primary-orange/20 border border-primary-orange/30 rounded-full px-4 py-2">
+                <TrendingUp className="w-4 h-4 text-primary-orange" />
                 <span className="text-white">💰 60% Cost Reduction</span>
-                <span className="text-green-300 text-xs">Efficient AI-driven processes</span>
+                <span className="text-orange-300 text-xs">Efficient AI-driven processes</span>
               </div>
-              <div className="flex items-center gap-2 bg-purple-500/20 border border-purple-400/30 rounded-full px-4 py-2">
-                <Shield className="w-4 h-4 text-purple-400" />
+              <div className="flex items-center gap-2 bg-primary-orange/20 border border-primary-orange/30 rounded-full px-4 py-2">
+                <Shield className="w-4 h-4 text-primary-orange" />
                 <span className="text-white">⚡ 24/7 AI Monitoring</span>
-                <span className="text-purple-300 text-xs">Continuous optimization</span>
+                <span className="text-orange-300 text-xs">Continuous optimization</span>
               </div>
-              <div className="flex items-center gap-2 bg-orange-500/20 border border-orange-400/30 rounded-full px-4 py-2">
-                <Target className="w-4 h-4 text-orange-400" />
+              <div className="flex items-center gap-2 bg-primary-orange/20 border border-primary-orange/30 rounded-full px-4 py-2">
+                <Target className="w-4 h-4 text-primary-orange" />
                 <span className="text-white">🎯 99% Accuracy Rate</span>
                 <span className="text-orange-300 text-xs">AI-powered quality assurance</span>
               </div>
@@ -149,7 +149,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
             {/* AI Integration */}
             <div className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-primary-orange/30">
-              <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+              <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <Zap className="text-white h-8 w-8" />
               </div>
               <h3 className="font-bold text-xl mb-4">AI Integration & Deployment</h3>
@@ -174,7 +174,7 @@ export default function Home() {
 
             {/* Machine Learning */}
             <div className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-primary-orange/30">
-              <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+              <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <Brain className="text-white h-8 w-8" />
               </div>
               <h3 className="font-bold text-xl mb-4">Machine Learning Solutions</h3>
@@ -199,7 +199,7 @@ export default function Home() {
 
             {/* Custom AI Development */}
             <div className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-primary-orange/30">
-              <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+              <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <Code className="text-white h-8 w-8" />
               </div>
               <h3 className="font-bold text-xl mb-4">Custom AI Development</h3>
@@ -224,7 +224,7 @@ export default function Home() {
 
             {/* Data Analytics */}
             <div className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-primary-orange/30">
-              <div className="w-16 h-16 bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+              <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <BarChart3 className="text-white h-8 w-8" />
               </div>
               <h3 className="font-bold text-xl mb-4">Data Analytics & BI</h3>
@@ -249,7 +249,7 @@ export default function Home() {
 
             {/* Generative AI */}
             <div className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-primary-orange/30">
-              <div className="w-16 h-16 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+              <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <Sparkles className="text-white h-8 w-8" />
               </div>
               <h3 className="font-bold text-xl mb-4">Generative AI Services</h3>
@@ -274,7 +274,7 @@ export default function Home() {
 
             {/* Data Engineering */}
             <div className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-primary-orange/30">
-              <div className="w-16 h-16 bg-gradient-to-br from-red-500 to-red-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+              <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <Database className="text-white h-8 w-8" />
               </div>
               <h3 className="font-bold text-xl mb-4">Data Engineering</h3>
@@ -317,7 +317,7 @@ export default function Home() {
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
-                <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-6">
+                <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center mb-6">
                   <Zap className="text-white h-8 w-8" />
                 </div>
                 <h3 className="font-bold text-xl mb-4">AI-Driven Development</h3>
@@ -327,7 +327,7 @@ export default function Home() {
               </div>
               
               <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
-                <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-6">
+                <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center mb-6">
                   <TrendingUp className="text-white h-8 w-8" />
                 </div>
                 <h3 className="font-bold text-xl mb-4">Lightning-Fast Delivery</h3>
@@ -337,7 +337,7 @@ export default function Home() {
               </div>
               
               <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
-                <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mb-6">
+                <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center mb-6">
                   <Target className="text-white h-8 w-8" />
                 </div>
                 <h3 className="font-bold text-xl mb-4">Cost-Effective Solutions</h3>
@@ -347,7 +347,7 @@ export default function Home() {
               </div>
               
               <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
-                <div className="w-16 h-16 bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl flex items-center justify-center mb-6">
+                <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center mb-6">
                   <Lightbulb className="text-white h-8 w-8" />
                 </div>
                 <h3 className="font-bold text-xl mb-4">Agile AI Methodology</h3>
@@ -357,7 +357,7 @@ export default function Home() {
               </div>
               
               <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
-                <div className="w-16 h-16 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-2xl flex items-center justify-center mb-6">
+                <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center mb-6">
                   <Shield className="text-white h-8 w-8" />
                 </div>
                 <h3 className="font-bold text-xl mb-4">24/7 AI-Powered Support</h3>
@@ -367,7 +367,7 @@ export default function Home() {
               </div>
               
               <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
-                <div className="w-16 h-16 bg-gradient-to-br from-red-500 to-red-600 rounded-2xl flex items-center justify-center mb-6">
+                <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center mb-6">
                   <Award className="text-white h-8 w-8" />
                 </div>
                 <h3 className="font-bold text-xl mb-4">Future-Proof Architecture</h3>
@@ -426,7 +426,7 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="bg-gray-50 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
                 <div className="flex items-center gap-4 mb-6">
-                  <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center text-white font-bold text-lg">
+                  <div className="w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-full flex items-center justify-center text-white font-bold text-lg">
                     S
                   </div>
                   <div>
@@ -453,7 +453,7 @@ export default function Home() {
 
               <div className="bg-gray-50 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
                 <div className="flex items-center gap-4 mb-6">
-                  <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-full flex items-center justify-center text-white font-bold text-lg">
+                  <div className="w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-full flex items-center justify-center text-white font-bold text-lg">
                     M
                   </div>
                   <div>
@@ -479,7 +479,7 @@ export default function Home() {
 
               <div className="bg-gray-50 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
                 <div className="flex items-center gap-4 mb-6">
-                  <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-full flex items-center justify-center text-white font-bold text-lg">
+                  <div className="w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-full flex items-center justify-center text-white font-bold text-lg">
                     L
                   </div>
                   <div>
@@ -565,7 +565,7 @@ export default function Home() {
             </div>
 
             <div className="mt-12 text-center">
-              <p className="text-orange-200 mb-4">Trusted by Michigan businesses and beyond</p>
+              <p className="text-orange-200 mb-4">Trusted by businesses nationwide</p>
               <div className="flex flex-wrap justify-center gap-6 text-orange-100 text-sm">
                 <div className="flex items-center gap-2">
                   <Phone className="w-4 h-4" />
@@ -597,7 +597,7 @@ export default function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <article className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group">
-              <div className="h-48 bg-gradient-to-br from-blue-500/20 to-primary-orange/30 relative overflow-hidden">
+              <div className="h-48 bg-gradient-to-br from-primary-orange/20 to-secondary-orange/30 relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
                 <div className="absolute bottom-4 left-4">
                   <span className="bg-primary-orange text-white px-3 py-1 rounded-full text-xs font-medium">
@@ -607,7 +607,7 @@ export default function Home() {
               </div>
               <div className="p-8">
                 <h3 className="font-bold text-xl mb-4 group-hover:text-primary-orange transition-colors">
-                  How AI is Transforming Michigan Manufacturing
+                  How AI is Transforming Modern Manufacturing
                 </h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
                   Discover how local manufacturers are using AI to improve efficiency, reduce costs, and stay competitive in the global market.
@@ -620,10 +620,10 @@ export default function Home() {
             </article>
             
             <article className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group">
-              <div className="h-48 bg-gradient-to-br from-green-500/20 to-secondary-orange/30 relative overflow-hidden">
+              <div className="h-48 bg-gradient-to-br from-primary-orange/20 to-secondary-orange/30 relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
                 <div className="absolute bottom-4 left-4">
-                  <span className="bg-green-600 text-white px-3 py-1 rounded-full text-xs font-medium">
+                  <span className="bg-primary-orange text-white px-3 py-1 rounded-full text-xs font-medium">
                     Customer AI
                   </span>
                 </div>
@@ -643,10 +643,10 @@ export default function Home() {
             </article>
             
             <article className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group">
-              <div className="h-48 bg-gradient-to-br from-purple-500/20 to-light-orange/30 relative overflow-hidden">
+              <div className="h-48 bg-gradient-to-br from-primary-orange/20 to-secondary-orange/30 relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
                 <div className="absolute bottom-4 left-4">
-                  <span className="bg-purple-600 text-white px-3 py-1 rounded-full text-xs font-medium">
+                  <span className="bg-primary-orange text-white px-3 py-1 rounded-full text-xs font-medium">
                     AI Security
                   </span>
                 </div>
@@ -725,23 +725,23 @@ export default function Home() {
           <div className="max-w-4xl mx-auto space-y-12">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-4">
-                Understanding AI Implementation in Michigan
+                Understanding Enterprise AI Implementation
               </h2>
               <p className="text-gray-600 md:text-lg">
-                Let's break down what AI implementation really looks like for Michigan businesses.
+                Let's break down what AI implementation really looks like for modern businesses.
               </p>
             </div>
             
             <div className="prose prose-lg max-w-none">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                 <div>
-                  <h3 className="text-2xl font-bold mb-4">The Michigan AI Advantage</h3>
+                  <h3 className="text-2xl font-bold mb-4">The Enterprise AI Advantage</h3>
                   <p className="text-gray-600">
-                    Michigan has always been about innovation and manufacturing excellence. Now we're seeing the same 
-                    drive applied to artificial intelligence. Companies across the state are discovering that AI isn't 
-                    just for tech giants anymore. Small manufacturers in Grand Rapids are using predictive maintenance. 
-                    Healthcare systems in Ann Arbor are improving patient outcomes with AI diagnostics. Detroit startups 
-                    are building the next generation of intelligent automotive systems.
+                    Modern business has always been about innovation and operational excellence. Now we're seeing the same 
+                    drive applied to artificial intelligence. Companies across industries are discovering that AI isn't 
+                    just for tech giants anymore. Small manufacturers are using predictive maintenance. 
+                    Healthcare systems are improving patient outcomes with AI diagnostics. Startups 
+                    are building the next generation of intelligent systems.
                   </p>
                 </div>
                 
@@ -769,7 +769,7 @@ export default function Home() {
                 <div>
                   <h3 className="text-2xl font-bold mb-4">The Path Forward</h3>
                   <p className="text-gray-600">
-                    Michigan businesses are practical. They want solutions that work, not theories that might work someday. 
+                    Modern businesses are practical. They want solutions that work, not theories that might work someday. 
                     That's exactly how we approach AI development. We start with pilot projects that prove value quickly, 
                     then scale what works. Our clients appreciate this approach because it minimizes risk while maximizing 
                     the potential for real impact. Every successful AI implementation starts with understanding the business 
@@ -878,7 +878,7 @@ export default function Home() {
               What Our Clients Say
             </h2>
             <p className="text-gray-600 md:text-lg max-w-2xl mx-auto">
-              Real results from real Michigan businesses using our AI solutions.
+              Real results from real businesses using our AI solutions.
             </p>
           </div>
           

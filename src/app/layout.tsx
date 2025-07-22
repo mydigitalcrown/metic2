@@ -18,10 +18,10 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Artificial Intelligence Company in Michigan | Top AI Company In Michigan - Metic AI",
-  description: "Leading AI company in Michigan delivering intelligent solutions that transform businesses. Expert AI integration, custom development, machine learning, and data engineering services. Transform your business with Michigan's top AI experts.",
-  keywords: "AI company Michigan, artificial intelligence Michigan, machine learning Michigan, AI services Michigan, custom AI development, AI integration, data engineering Michigan, generative AI services",
-  authors: [{ name: "Metic AI" }],
+  title: "Premier Artificial Intelligence Solutions & Development Company - Metic.ai",
+  description: "Leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for businesses nationwide.",
+  keywords: "AI company, artificial intelligence, machine learning, AI services, custom AI development, AI integration, data engineering, generative AI services, AI consulting, enterprise AI solutions",
+  authors: [{ name: "Metic.ai" }],
   robots: "index, follow",
   viewport: "width=device-width, initial-scale=1",
   alternates: {
@@ -31,10 +31,10 @@ export const metadata: Metadata = {
     google: "your-google-site-verification-code", // Add your actual verification code
   },
   openGraph: {
-    title: "Artificial Intelligence Company in Michigan | Top AI Company In Michigan - Metic AI",
-    description: "Leading AI company in Michigan delivering intelligent solutions that transform businesses. Expert AI integration, custom development, machine learning, and data engineering services.",
+    title: "Premier Artificial Intelligence Solutions & Development Company - Metic.ai",
+    description: "Leading AI company delivering custom artificial intelligence solutions with 3x faster delivery and 60% cost savings. Expert AI development, machine learning, and automation services.",
     url: "https://metic.ai",
-    siteName: "Metic AI",
+    siteName: "Metic.ai",
     type: "website",
     locale: "en_US",
     images: [
@@ -42,14 +42,14 @@ export const metadata: Metadata = {
         url: "https://metic.ai/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Metic AI - Leading AI Company in Michigan",
+        alt: "Metic.ai - Premier AI Solutions & Development Company",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Artificial Intelligence Company in Michigan | Top AI Company In Michigan - Metic AI",
-    description: "Leading AI company in Michigan delivering intelligent solutions that transform businesses.",
+    title: "Premier AI Solutions & Development Company - Metic.ai",
+    description: "Transform your business with enterprise AI solutions. 3x faster development, 60% cost savings, 500+ successful projects nationwide.",
     images: ["https://metic.ai/og-image.jpg"],
   },
 };
@@ -62,13 +62,12 @@ export default function RootLayout({
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "Metic AI",
-    "description": "Leading AI company in Michigan delivering intelligent solutions that transform businesses",
+    "name": "Metic.ai",
+    "description": "Leading AI company delivering custom artificial intelligence solutions with 3x faster delivery and 60% cost savings",
     "url": "https://metic.ai",
     "logo": "https://metic.ai/logo.png",
     "address": {
       "@type": "PostalAddress",
-      "addressRegion": "Michigan",
       "addressCountry": "US"
     },
     "sameAs": [

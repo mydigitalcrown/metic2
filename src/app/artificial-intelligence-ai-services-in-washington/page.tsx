@@ -24,14 +24,14 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services Washington | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in Washington. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your WA business with cutting-edge AI technology.",
-  keywords: "AI services Washington, artificial intelligence Washington, machine learning Washington, AI consulting WA, AI development Washington, data science Washington, AI solutions WA, AI companies Washington",
+  title: "AI Services Washington | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+  description: "Washington's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for WA businesses.",
+  keywords: "AI services Washington, artificial intelligence Washington, machine learning Washington, AI consulting WA, AI development Washington, custom AI solutions WA, AI automation Washington, enterprise AI Washington, Seattle AI, Spokane AI",
   authors: [{ name: "Metic.ai Washington AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Washington | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-    description: "Leading AI services in Washington. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for WA businesses.",
+    title: "AI Services Washington | Premier Artificial Intelligence Solutions - Metic.ai",
+    description: "Washington's leading AI company with 500+ successful projects. Custom AI development, machine learning, and enterprise solutions with proven ROI.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-washington/",
     type: "website",
     images: [
@@ -45,8 +45,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services Washington | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your Washington business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    title: "AI Services Washington | Custom AI Development - Metic.ai",
+    description: "Transform your Washington business with enterprise AI solutions. 3x faster development, 60% cost savings, 500+ successful projects.",
     images: ["https://metic.ai/og-ai-services-washington.jpg"],
   },
   alternates: {
@@ -131,7 +131,7 @@ export default function AIServicesWashingtonPage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services Washington",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in Washington. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for WA businesses.",
+            "description": "Washington's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for WA businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "Washington",

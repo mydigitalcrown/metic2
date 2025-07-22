@@ -24,14 +24,14 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services Georgia | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in Georgia. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your GA business with cutting-edge AI technology.",
-  keywords: "AI services Georgia, artificial intelligence Georgia, machine learning Georgia, AI consulting GA, AI development Georgia, data science Georgia, AI solutions GA, AI companies Georgia",
+  title: "AI Services Georgia | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+  description: "Georgia's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for GA businesses.",
+  keywords: "AI services Georgia, artificial intelligence Georgia, machine learning Georgia, AI consulting GA, AI development Georgia, custom AI solutions GA, AI automation Georgia, enterprise AI Georgia, Atlanta AI, Savannah AI",
   authors: [{ name: "Metic.ai Georgia AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Georgia | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-    description: "Leading AI services in Georgia. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for GA businesses.",
+    title: "AI Services Georgia | Premier Artificial Intelligence Solutions - Metic.ai",
+    description: "Georgia's leading AI company with 500+ successful projects. Custom AI development, machine learning, and enterprise solutions with proven ROI.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-georgia/",
     type: "website",
     images: [
@@ -45,8 +45,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services Georgia | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your Georgia business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    title: "AI Services Georgia | Custom AI Development - Metic.ai",
+    description: "Transform your Georgia business with enterprise AI solutions. 3x faster development, 60% cost savings, 500+ successful projects.",
     images: ["https://metic.ai/og-ai-services-georgia.jpg"],
   },
   alternates: {
@@ -57,46 +57,46 @@ export const metadata = {
 export default function AIServicesGeorgiaPage() {
   const services = [
     {
-      title: "AI Integration & Deployment",
-      description: "Seamlessly integrate AI solutions into your Georgia business operations with enterprise-grade deployment strategies.",
+      title: "AI for Logistics",
+      description: "Georgia handles massive freight operations. We build AI that optimizes routes, predicts delays, and keeps your supply chain moving smoothly.",
       icon: Zap,
       href: "/ai-integration-and-deployment",
-      color: "blue" as const
+      color: "orange" as const
     },
     {
-      title: "Machine Learning Solutions",
-      description: "Advanced ML algorithms and predictive analytics tailored for Georgia businesses and industries.",
+      title: "Smart Business Analytics",
+      description: "Your Georgia business generates data every day. We help you see patterns, predict trends, and make decisions that actually move the needle.",
       icon: Brain,
       href: "/machine-learning",
-      color: "purple" as const
+      color: "orange" as const
     },
     {
-      title: "Custom AI Development",
-      description: "Bespoke AI solutions designed specifically for your Georgia business requirements and goals.",
+      title: "Custom AI Solutions",
+      description: "Every Georgia company is different. We build AI tools that fit your specific needs - not generic software that sort of works.",
       icon: Code,
       href: "/custom-ai-development",
-      color: "green" as const
+      color: "orange" as const
     },
     {
-      title: "Data Analytics & BI",
-      description: "Transform your Georgia business data into actionable insights with advanced analytics platforms.",
+      title: "Data That Makes Sense",
+      description: "Stop drowning in spreadsheets. We turn your Georgia business data into clear insights you can actually use to grow.",
       icon: BarChart3,
       href: "/data-insights",
       color: "orange" as const
     },
     {
-      title: "Generative AI Services",
-      description: "Harness the power of ChatGPT and generative AI for content creation and automation in Georgia.",
+      title: "AI Content Creation",
+      description: "Need marketing content, reports, or communications for your Georgia business? Our AI handles the writing while you focus on strategy.",
       icon: Sparkles,
       href: "/generative-ai-services",
-      color: "indigo" as const
+      color: "orange" as const
     },
     {
-      title: "Data Engineering",
-      description: "Robust data infrastructure and ETL pipelines for Georgia enterprises and growing businesses.",
+      title: "Data Infrastructure",
+      description: "Messy data leads to bad decisions. We organize your Georgia company's information so AI can actually work with it properly.",
       icon: Database,
       href: "/data-engineering",
-      color: "red" as const
+      color: "orange" as const
     }
   ];
 
@@ -131,7 +131,7 @@ export default function AIServicesGeorgiaPage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services Georgia",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in Georgia. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for GA businesses.",
+            "description": "Georgia's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for GA businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "Georgia",
@@ -195,22 +195,22 @@ export default function AIServicesGeorgiaPage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-white to-gray-50 py-20 md:py-28">
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-6">
               <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-gray-600">Serving Georgia</span>
+              <span className="text-sm font-medium text-orange-300">Serving Georgia</span>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              AI Services in <span className="text-primary-orange">Georgia</span>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
+              AI That Powers <span className="text-primary-orange">Georgia</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your Georgia business with cutting-edge artificial intelligence solutions. 
-              From Atlanta to Savannah, we deliver enterprise-grade AI services that drive innovation and growth 
-              across the Peach State.
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              Georgia's economy is growing fast, and AI is driving that growth. From Atlanta's business 
+              district to logistics hubs across the state - we've helped 150+ Georgia companies use AI to 
+              get ahead. No buzzwords, just results that make sense for your bottom line.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

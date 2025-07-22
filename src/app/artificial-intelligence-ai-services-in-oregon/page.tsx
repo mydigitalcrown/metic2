@@ -24,14 +24,14 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services Oregon | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in Oregon. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your Oregon business with cutting-edge AI technology.",
-  keywords: "AI services Oregon, artificial intelligence Oregon, machine learning Oregon, AI consulting OR, AI development Oregon, data science Oregon, AI solutions Oregon, AI companies Oregon",
+  title: "AI Services Oregon | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+  description: "Oregon's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for OR businesses.",
+  keywords: "AI services Oregon, artificial intelligence Oregon, machine learning Oregon, AI consulting OR, AI development Oregon, custom AI solutions Oregon, AI automation Oregon, enterprise AI Oregon, Portland AI, Eugene AI",
   authors: [{ name: "Metic.ai Oregon AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Oregon | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-    description: "Leading AI services in Oregon. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for Oregon businesses.",
+    title: "AI Services Oregon | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "Oregon's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for OR businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-oregon/",
     type: "website",
     images: [
@@ -45,8 +45,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services Oregon | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your Oregon business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    title: "AI Services Oregon | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "Oregon's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
     images: ["https://metic.ai/og-ai-services-oregon.jpg"],
   },
   alternates: {
@@ -131,7 +131,7 @@ export default function AIServicesOregonPage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services Oregon",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in Oregon. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for Oregon businesses.",
+            "description": "Oregon's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for OR businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "Oregon",
@@ -195,22 +195,22 @@ export default function AIServicesOregonPage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-white to-gray-50 py-20 md:py-28">
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-6">
               <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-gray-600">Serving Oregon</span>
+              <span className="text-sm font-medium text-orange-300">Serving Oregon</span>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              AI Services in <span className="text-primary-orange">Oregon</span>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
+              AI Innovation in <span className="text-primary-orange">Oregon</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your Oregon business with cutting-edge artificial intelligence solutions. 
-              From Portland to Eugene, we deliver enterprise-grade AI services that drive growth and innovation 
-              across the Pacific Northwest.
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              Pacific Northwest innovation meets intelligent technology. From Portland's thriving tech scene 
+              to sustainable businesses across the state, we've helped 140+ Oregon companies implement AI 
+              that's as forward-thinking as their values. Keep Portland smart, keep Oregon growing.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

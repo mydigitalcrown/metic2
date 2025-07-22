@@ -24,14 +24,14 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services Hawaii | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in Hawaii. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your HI business with cutting-edge AI technology.",
-  keywords: "AI services Hawaii, artificial intelligence Hawaii, machine learning Hawaii, AI consulting HI, AI development Hawaii, data science Hawaii, AI solutions HI, AI companies Hawaii",
+  title: "AI Services Hawaii | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+  description: "Hawaii's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for HI businesses.",
+  keywords: "AI services Hawaii, artificial intelligence Hawaii, machine learning Hawaii, AI consulting HI, AI development Hawaii, custom AI solutions HI, AI automation Hawaii, enterprise AI Hawaii, Honolulu AI, Maui AI",
   authors: [{ name: "Metic.ai Hawaii AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Hawaii | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-    description: "Leading AI services in Hawaii. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for HI businesses.",
+    title: "AI Services Hawaii | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "Hawaii's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for HI businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-hawaii/",
     type: "website",
     images: [
@@ -45,8 +45,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services Hawaii | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your Hawaii business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    title: "AI Services Hawaii | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "Hawaii's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
     images: ["https://metic.ai/og-ai-services-hawaii.jpg"],
   },
   alternates: {
@@ -61,21 +61,21 @@ export default function AIServicesHawaiiPage() {
       description: "Seamlessly integrate AI solutions into your Hawaii business operations with enterprise-grade deployment strategies.",
       icon: Zap,
       href: "/ai-integration-and-deployment",
-      color: "blue" as const
+      color: "orange" as const
     },
     {
       title: "Machine Learning Solutions",
       description: "Advanced ML algorithms and predictive analytics tailored for Hawaii businesses and industries.",
       icon: Brain,
       href: "/machine-learning",
-      color: "purple" as const
+      color: "orange" as const
     },
     {
       title: "Custom AI Development",
       description: "Bespoke AI solutions designed specifically for your Hawaii business requirements and goals.",
       icon: Code,
       href: "/custom-ai-development",
-      color: "green" as const
+      color: "orange" as const
     },
     {
       title: "Data Analytics & BI",
@@ -88,15 +88,15 @@ export default function AIServicesHawaiiPage() {
       title: "Generative AI Services",
       description: "Harness the power of ChatGPT and generative AI for content creation and automation in Hawaii.",
       icon: Sparkles,
-      href: "/generative-ai-services",
-      color: "indigo" as const
+      href: "/generative-ai",
+      color: "orange" as const
     },
     {
-      title: "Data Engineering",
-      description: "Robust data infrastructure and ETL pipelines for Hawaii enterprises and growing businesses.",
-      icon: Database,
-      href: "/data-engineering",
-      color: "red" as const
+      title: "AI Security & Compliance",
+      description: "Protect your Hawaii business with AI-powered security solutions and compliance frameworks.",
+      icon: Shield,
+      href: "/ai-security",
+      color: "orange" as const
     }
   ];
 
@@ -131,7 +131,7 @@ export default function AIServicesHawaiiPage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services Hawaii",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in Hawaii. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for HI businesses.",
+            "description": "Hawaii's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for HI businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "Hawaii",
@@ -195,22 +195,22 @@ export default function AIServicesHawaiiPage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-white to-gray-50 py-20 md:py-28">
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-6">
               <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-gray-600">Serving Hawaii</span>
+              <span className="text-sm font-medium text-orange-300">Serving Hawaii</span>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              AI Services in <span className="text-primary-orange">Hawaii</span>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
+              AI Solutions for <span className="text-primary-orange">Hawaii</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your Hawaii business with cutting-edge artificial intelligence solutions. 
-              From Honolulu to Hilo, we deliver enterprise-grade AI services that drive innovation and growth 
-              across the Aloha State.
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              Hawaii businesses understand the balance between innovation and sustainability. From Honolulu's 
+              tourism industry to agricultural operations across the islands, we've helped 35+ Hawaii companies 
+              implement AI that respects island values while driving growth. Aloha spirit meets smart technology.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

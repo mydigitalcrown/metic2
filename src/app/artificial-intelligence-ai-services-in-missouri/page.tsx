@@ -24,13 +24,13 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services Missouri | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in Missouri. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your MO business with cutting-edge AI technology.",
-  keywords: "AI services Missouri, artificial intelligence Missouri, machine learning Missouri, AI consulting MO, AI development Missouri, data science Missouri, AI solutions MO, AI companies Missouri",
+  title: "Premier Artificial Intelligence Solutions & Development in Missouri | AI Services",
+  description: "Leading AI development company in Missouri. Custom machine learning solutions, automation platforms, and intelligent systems. 3x faster deployment, 60% cost savings. Serving Kansas City, St. Louis, Springfield.",
+  keywords: "AI development Missouri, artificial intelligence Kansas City MO, machine learning St. Louis, AI automation Springfield, AI consulting Missouri, AI solutions Show Me State, AI developers MO",
   authors: [{ name: "Metic.ai Missouri AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Missouri | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
+    title: "AI Services Missouri | Premier Artificial Intelligence Solutions & Development - Metic.ai",
     description: "Leading AI services in Missouri. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for MO businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-missouri/",
     type: "website",
@@ -46,7 +46,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "AI Services Missouri | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your Missouri business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    description: "Missouri's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
     images: ["https://metic.ai/og-ai-services-missouri.jpg"],
   },
   alternates: {
@@ -131,7 +131,7 @@ export default function AIServicesMissouriPage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services Missouri",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in Missouri. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for MO businesses.",
+            "description": "Missouri's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for Missouri businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "Missouri",
@@ -195,22 +195,22 @@ export default function AIServicesMissouriPage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-white to-gray-50 py-20 md:py-28">
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-6">
               <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-gray-600">Serving Missouri</span>
+              <span className="text-sm font-medium text-orange-300">Serving Missouri</span>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              AI Services in <span className="text-primary-orange">Missouri</span>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
+              AI That Delivers in <span className="text-primary-orange">Missouri</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your Missouri business with cutting-edge artificial intelligence solutions. 
-              From Kansas City to Saint Louis, we deliver enterprise-grade AI services that drive innovation and growth 
-              across the Show-Me State.
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              Missouri businesses want to see results, not just promises. From Kansas City's logistics hubs to 
+              St. Louis's healthcare systems, we've helped 130+ Missouri companies implement AI that actually 
+              moves the needle. Show-Me State gets shown real results.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

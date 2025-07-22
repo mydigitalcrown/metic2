@@ -24,14 +24,14 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services South Carolina | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in South Carolina. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your SC business with cutting-edge AI technology.",
-  keywords: "AI services South Carolina, artificial intelligence South Carolina, machine learning South Carolina, AI consulting SC, AI development South Carolina, data science South Carolina, AI solutions SC, AI companies South Carolina",
+  title: "AI Services South Carolina | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+  description: "South Carolina's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for SC businesses.",
+  keywords: "AI services South Carolina, artificial intelligence South Carolina, machine learning South Carolina, AI consulting SC, AI development South Carolina, custom AI solutions SC, AI automation South Carolina, enterprise AI South Carolina, Charleston AI, Columbia AI",
   authors: [{ name: "Metic.ai South Carolina AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services South Carolina | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-    description: "Leading AI services in South Carolina. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for SC businesses.",
+    title: "AI Services South Carolina | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "South Carolina's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for SC businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-south-carolina/",
     type: "website",
     images: [
@@ -45,8 +45,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services South Carolina | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your South Carolina business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    title: "AI Services South Carolina | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "South Carolina's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
     images: ["https://metic.ai/og-ai-services-south-carolina.jpg"],
   },
   alternates: {
@@ -131,7 +131,7 @@ export default function AIServicesSouthCarolinaPage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services South Carolina",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in South Carolina. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for SC businesses.",
+            "description": "South Carolina's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for SC businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "South Carolina",
@@ -195,22 +195,22 @@ export default function AIServicesSouthCarolinaPage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-white to-gray-50 py-20 md:py-28">
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-6">
               <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-gray-600">Serving South Carolina</span>
+              <span className="text-sm font-medium text-orange-300">Serving South Carolina</span>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              AI Services in <span className="text-primary-orange">South Carolina</span>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
+              AI Solutions for <span className="text-primary-orange">South Carolina</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your South Carolina business with cutting-edge artificial intelligence solutions. 
-              From Charleston to Columbia, we deliver enterprise-grade AI services that drive growth and innovation 
-              across the Palmetto State.
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              South Carolina combines Southern hospitality with forward-thinking innovation. From Charleston's 
+              tech scene to manufacturing across the state, we've helped 75+ South Carolina companies implement 
+              AI solutions that drive real business growth. Palmetto pride meets smart technology.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

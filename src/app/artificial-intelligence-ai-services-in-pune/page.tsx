@@ -24,13 +24,13 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services Pune | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in Pune, India. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your Pune business with cutting-edge AI technology.",
-  keywords: "AI services Pune, artificial intelligence Pune, machine learning Pune, AI consulting Pune India, AI development Pune, data science Pune, AI solutions Pune, AI companies Pune Maharashtra",
+  title: "AI Services Pune | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+  description: "Pune's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for Pune businesses.",
+  keywords: "AI services Pune, artificial intelligence Pune, machine learning Pune, AI consulting Pune, AI development Pune, custom AI solutions Pune, AI automation Pune, enterprise AI Pune, Pune AI companies",
   authors: [{ name: "Metic.ai Pune AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Pune | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
+    title: "AI Services Pune | Premier Artificial Intelligence Solutions & Development - Metic.ai",
     description: "Leading AI services in Pune, India. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for Pune businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-pune/",
     type: "website",
@@ -46,7 +46,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "AI Services Pune | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your Pune business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    description: "Pune's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
     images: ["https://metic.ai/og-ai-services-pune.jpg"],
   },
   alternates: {
@@ -131,7 +131,7 @@ export default function AIServicesPunePage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services Pune",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in Pune, India. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for Pune businesses.",
+            "description": "Pune's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for Pune businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Pune",
@@ -200,22 +200,22 @@ export default function AIServicesPunePage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-white to-gray-50 py-20 md:py-28">
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-6">
               <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-gray-600">Serving Pune, Maharashtra</span>
+              <span className="text-sm font-medium text-orange-300">Serving Pune</span>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              AI Services in <span className="text-primary-orange">Pune</span>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
+              AI Solutions for <span className="text-primary-orange">Pune</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your Pune business with cutting-edge artificial intelligence solutions. 
-              From Hinjewadi to Magarpatta, we deliver enterprise-grade AI services that drive innovation and growth 
-              across Maharashtra's IT capital.
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              Pune's tech ecosystem demands solutions that scale globally. From automotive giants to emerging 
+              startups in Hinjewadi and Baner, we've helped 150+ Pune companies implement AI that drives 
+              innovation without the complexity. Oxford of the East meets tomorrow's technology.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

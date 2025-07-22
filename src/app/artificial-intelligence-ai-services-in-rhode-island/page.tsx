@@ -24,13 +24,13 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services Rhode Island | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in Rhode Island. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your RI business with cutting-edge AI technology.",
-  keywords: "AI services Rhode Island, artificial intelligence Rhode Island, machine learning Rhode Island, AI consulting RI, AI development Rhode Island, data science Rhode Island, AI solutions RI, AI companies Rhode Island",
+  title: "AI Services Rhode Island | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+  description: "Rhode Island's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for RI businesses.",
+  keywords: "AI services Rhode Island, artificial intelligence Rhode Island, machine learning Rhode Island, AI consulting RI, AI development Rhode Island, custom AI solutions RI, AI automation Rhode Island, enterprise AI Rhode Island, Providence AI, Newport AI",
   authors: [{ name: "Metic.ai Rhode Island AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Rhode Island | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
+    title: "AI Services Rhode Island | Premier Artificial Intelligence Solutions & Development - Metic.ai",
     description: "Leading AI services in Rhode Island. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for RI businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-rhode-island/",
     type: "website",
@@ -45,8 +45,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services Rhode Island | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your Rhode Island business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    title: "AI Services Rhode Island | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "Rhode Island's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
     images: ["https://metic.ai/og-ai-services-rhode-island.jpg"],
   },
   alternates: {
@@ -131,7 +131,7 @@ export default function AIServicesRhodeIslandPage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services Rhode Island",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in Rhode Island. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for RI businesses.",
+            "description": "Rhode Island's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for RI businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "Rhode Island",
@@ -195,22 +195,22 @@ export default function AIServicesRhodeIslandPage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-white to-gray-50 py-20 md:py-28">
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-6">
               <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-gray-600">Serving Rhode Island</span>
+              <span className="text-sm font-medium text-orange-300">Serving Rhode Island</span>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              AI Services in <span className="text-primary-orange">Rhode Island</span>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
+              AI Solutions for <span className="text-primary-orange">Rhode Island</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your Rhode Island business with cutting-edge artificial intelligence solutions. 
-              From Providence to Newport, we deliver enterprise-grade AI services that drive growth and innovation 
-              across the Ocean State.
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              Rhode Island businesses pack big innovation into a small space. From Providence's emerging tech 
+              scene to Newport's maritime industries, we've helped 30+ Rhode Island companies implement AI 
+              that maximizes impact efficiently. Ocean State efficiency meets smart technology.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

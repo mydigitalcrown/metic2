@@ -24,14 +24,14 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services Colorado | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in Colorado. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your CO business with cutting-edge AI technology.",
-  keywords: "AI services Colorado, artificial intelligence Colorado, machine learning Colorado, AI consulting CO, AI development Colorado, data science Colorado, AI solutions CO, AI companies Colorado",
+  title: "AI Services Colorado | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+  description: "Colorado's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for CO businesses.",
+  keywords: "AI services Colorado, artificial intelligence Colorado, machine learning Colorado, AI consulting CO, AI development Colorado, custom AI solutions CO, AI automation Colorado, enterprise AI Colorado, Denver AI, Boulder AI",
   authors: [{ name: "Metic.ai Colorado AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Colorado | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-    description: "Leading AI services in Colorado. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for CO businesses.",
+    title: "AI Services Colorado | Premier Artificial Intelligence Solutions - Metic.ai",
+    description: "Colorado's leading AI company with 500+ successful projects. Custom AI development, machine learning, and enterprise solutions with proven ROI.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-colorado/",
     type: "website",
     images: [
@@ -45,8 +45,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services Colorado | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your Colorado business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    title: "AI Services Colorado | Custom AI Development - Metic.ai",
+    description: "Transform your Colorado business with enterprise AI solutions. 3x faster development, 60% cost savings, 500+ successful projects.",
     images: ["https://metic.ai/og-ai-services-colorado.jpg"],
   },
   alternates: {
@@ -131,7 +131,7 @@ export default function AIServicesColoradoPage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services Colorado",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in Colorado. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for CO businesses.",
+            "description": "Colorado's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for CO businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "Colorado",
@@ -195,22 +195,22 @@ export default function AIServicesColoradoPage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-white to-gray-50 py-20 md:py-28">
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-6">
               <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-gray-600">Serving Colorado</span>
+              <span className="text-sm font-medium text-orange-300">Serving Colorado</span>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              AI Services in <span className="text-primary-orange">Colorado</span>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
+              AI Innovation in <span className="text-primary-orange">Colorado</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your Colorado business with cutting-edge artificial intelligence solutions. 
-              From Denver to Colorado Springs, we deliver enterprise-grade AI services that drive innovation and growth 
-              across the Centennial State.
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              Colorado has always been about innovation and getting things done. From Denver's tech scene to 
+              Boulder's startup culture, we've helped 160+ Colorado companies build AI that actually moves the 
+              needle. No mountain too high, no AI challenge too complex.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

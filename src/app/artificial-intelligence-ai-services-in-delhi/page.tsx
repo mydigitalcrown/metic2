@@ -24,14 +24,14 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services Delhi | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in Delhi, India. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your Delhi business with cutting-edge AI technology.",
-  keywords: "AI services Delhi, artificial intelligence Delhi, machine learning Delhi, AI consulting Delhi India, AI development Delhi, data science Delhi, AI solutions Delhi, AI companies Delhi NCR",
+  title: "AI Services Delhi | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+  description: "Delhi's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for Delhi businesses.",
+  keywords: "AI services Delhi, artificial intelligence Delhi, machine learning Delhi, AI consulting Delhi, AI development Delhi, custom AI solutions Delhi, AI automation Delhi, enterprise AI Delhi, New Delhi AI",
   authors: [{ name: "Metic.ai Delhi AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Delhi | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-    description: "Leading AI services in Delhi, India. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for Delhi businesses.",
+    title: "AI Services Delhi | Premier Artificial Intelligence Solutions - Metic.ai",
+    description: "Delhi's leading AI company with 500+ successful projects. Custom AI development, machine learning, and enterprise solutions with proven ROI.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-delhi/",
     type: "website",
     images: [
@@ -45,8 +45,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services Delhi | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your Delhi business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    title: "AI Services Delhi | Custom AI Development - Metic.ai",
+    description: "Transform your Delhi business with enterprise AI solutions. 3x faster development, 60% cost savings, 500+ successful projects.",
     images: ["https://metic.ai/og-ai-services-delhi.jpg"],
   },
   alternates: {
@@ -131,7 +131,7 @@ export default function AIServicesDelhiPage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services Delhi",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in Delhi, India. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for Delhi businesses.",
+            "description": "Delhi's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for Delhi businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Delhi",
@@ -200,22 +200,22 @@ export default function AIServicesDelhiPage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-white to-gray-50 py-20 md:py-28">
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-6">
               <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-gray-600">Serving Delhi, India</span>
+              <span className="text-sm font-medium text-orange-300">Serving Delhi, India</span>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              AI Services in <span className="text-primary-orange">Delhi</span>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
+              AI Solutions for <span className="text-primary-orange">Delhi</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your Delhi business with cutting-edge artificial intelligence solutions. 
-              From Connaught Place to Dwarka, we deliver enterprise-grade AI services that drive innovation and growth 
-              across India's national capital.
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              Delhi businesses move fast and expect results that matter. From Connaught Place startups to 
+              Gurgaon enterprises, we've helped 400+ Delhi companies implement AI that actually works. 
+              No complicated tech talk - just solutions that improve your business.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

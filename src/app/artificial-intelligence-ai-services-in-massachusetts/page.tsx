@@ -24,13 +24,13 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services Massachusetts | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in Massachusetts. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your MA business with cutting-edge AI technology.",
-  keywords: "AI services Massachusetts, artificial intelligence Massachusetts, machine learning Massachusetts, AI consulting MA, AI development Massachusetts, data science Massachusetts, AI solutions MA, AI companies Massachusetts",
+  title: "Premier Artificial Intelligence Solutions & Development in Massachusetts | AI Services",
+  description: "Leading AI development company in Massachusetts. Custom machine learning solutions, automation platforms, and intelligent systems. 3x faster deployment, 60% cost savings. Serving Boston, Cambridge, Worcester.",
+  keywords: "AI development Massachusetts, artificial intelligence Boston MA, machine learning Cambridge, AI automation Worcester, AI consulting Massachusetts, AI solutions Bay State, AI developers MA",
   authors: [{ name: "Metic.ai Massachusetts AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Massachusetts | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
+    title: "AI Services Massachusetts | Premier Artificial Intelligence Solutions & Development - Metic.ai",
     description: "Leading AI services in Massachusetts. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for MA businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-massachusetts/",
     type: "website",
@@ -46,7 +46,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "AI Services Massachusetts | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your Massachusetts business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    description: "Massachusetts's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
     images: ["https://metic.ai/og-ai-services-massachusetts.jpg"],
   },
   alternates: {
@@ -131,7 +131,7 @@ export default function AIServicesMassachusettsPage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services Massachusetts",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in Massachusetts. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for MA businesses.",
+            "description": "Massachusetts's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for Massachusetts businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "Massachusetts",
@@ -195,22 +195,22 @@ export default function AIServicesMassachusettsPage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-white to-gray-50 py-20 md:py-28">
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-6">
               <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-gray-600">Serving Massachusetts</span>
+              <span className="text-sm font-medium text-orange-300">Serving Massachusetts</span>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              AI Services in <span className="text-primary-orange">Massachusetts</span>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
+              AI Innovation in <span className="text-primary-orange">Massachusetts</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your Massachusetts business with cutting-edge artificial intelligence solutions. 
-              From Boston to Worcester, we deliver enterprise-grade AI services that drive innovation and growth 
-              across the Bay State.
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              From Cambridge's world-class universities to Boston's biotech corridor, Massachusetts leads 
+              innovation. We've helped 350+ Bay State companies implement AI that matches their intellectual 
+              rigor with practical business results. Where innovation meets implementation.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

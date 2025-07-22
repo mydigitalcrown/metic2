@@ -24,14 +24,14 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services Illinois | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in Illinois. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your IL business with cutting-edge AI technology.",
-  keywords: "AI services Illinois, artificial intelligence Illinois, machine learning Illinois, AI consulting IL, AI development Illinois, data science Illinois, AI solutions IL, AI companies Illinois",
+  title: "AI Services Illinois | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+  description: "Illinois's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for IL businesses.",
+  keywords: "AI services Illinois, artificial intelligence Illinois, machine learning Illinois, AI consulting IL, AI development Illinois, custom AI solutions IL, AI automation Illinois, enterprise AI Illinois, Chicago AI",
   authors: [{ name: "Metic.ai Illinois AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Illinois | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-    description: "Leading AI services in Illinois. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for IL businesses.",
+    title: "AI Services Illinois | Premier Artificial Intelligence Solutions - Metic.ai",
+    description: "Illinois's leading AI company with 500+ successful projects. Custom AI development, machine learning, and enterprise solutions with proven ROI.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-illinois/",
     type: "website",
     images: [
@@ -45,8 +45,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services Illinois | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your Illinois business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    title: "AI Services Illinois | Custom AI Development - Metic.ai",
+    description: "Transform your Illinois business with enterprise AI solutions. 3x faster development, 60% cost savings, 500+ successful projects.",
     images: ["https://metic.ai/og-ai-services-illinois.jpg"],
   },
   alternates: {
@@ -131,7 +131,7 @@ export default function AIServicesIllinoisPage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services Illinois",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in Illinois. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for IL businesses.",
+            "description": "Illinois's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for IL businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "Illinois",
@@ -195,22 +195,22 @@ export default function AIServicesIllinoisPage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-white to-gray-50 py-20 md:py-28">
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-6">
               <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-gray-600">Serving Illinois</span>
+              <span className="text-sm font-medium text-orange-300">Serving Illinois</span>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              AI Services in <span className="text-primary-orange">Illinois</span>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
+              AI That Works in <span className="text-primary-orange">Illinois</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your Illinois business with cutting-edge artificial intelligence solutions. 
-              From Chicago to Springfield, we deliver enterprise-grade AI services that drive innovation and growth 
-              across the Prairie State.
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              Illinois businesses don't have time for AI that doesn't deliver. From Chicago's finance sector to 
+              manufacturing across the state, we've helped 300+ Illinois companies implement AI that actually 
+              improves operations and drives growth. Real solutions, not tech theater.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

@@ -24,14 +24,14 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services New York | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in New York. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your NY business with cutting-edge AI technology.",
-  keywords: "AI services New York, artificial intelligence New York, machine learning New York, AI consulting NY, AI development New York, data science New York, AI solutions NY, AI companies New York",
+  title: "AI Services New York | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+  description: "New York's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for NY businesses.",
+  keywords: "AI services New York, artificial intelligence New York, machine learning New York, AI consulting NY, AI development New York, custom AI solutions NY, AI automation New York, enterprise AI New York, NYC AI, Manhattan AI",
   authors: [{ name: "Metic.ai New York AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services New York | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-    description: "Leading AI services in New York. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for NY businesses.",
+    title: "AI Services New York | Premier Artificial Intelligence Solutions - Metic.ai",
+    description: "New York's leading AI company with 500+ successful projects. Custom AI development, machine learning, and enterprise solutions with proven ROI.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-new-york/",
     type: "website",
     images: [
@@ -45,8 +45,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services New York | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your New York business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    title: "AI Services New York | Custom AI Development - Metic.ai",
+    description: "Transform your New York business with enterprise AI solutions. 3x faster development, 60% cost savings, 500+ successful projects.",
     images: ["https://metic.ai/og-ai-services-new-york.jpg"],
   },
   alternates: {
@@ -57,43 +57,43 @@ export const metadata = {
 export default function AIServicesNewYorkPage() {
   const services = [
     {
-      title: "AI Integration & Deployment",
-      description: "Seamlessly integrate AI solutions into your New York business operations with enterprise-grade deployment strategies.",
+      title: "AI That Automates Your Work",
+      description: "Stop doing repetitive tasks manually. We build AI that handles your routine work so your team can focus on what actually matters.",
       icon: Zap,
       href: "/ai-integration-and-deployment",
       color: "blue" as const
     },
     {
-      title: "Machine Learning Solutions",
-      description: "Advanced ML algorithms and predictive analytics tailored for New York businesses and industries.",
+      title: "Smart Predictions",
+      description: "Know what's coming next. Our machine learning models predict customer behavior, market trends, and business outcomes with scary accuracy.",
       icon: Brain,
       href: "/machine-learning",
       color: "purple" as const
     },
     {
-      title: "Custom AI Development",
-      description: "Bespoke AI solutions designed specifically for your New York business requirements and goals.",
+      title: "Custom AI Solutions",
+      description: "Your business is unique, so why use generic AI? We build exactly what you need, nothing more, nothing less.",
       icon: Code,
       href: "/custom-ai-development",
       color: "green" as const
     },
     {
-      title: "Data Analytics & BI",
-      description: "Transform your New York business data into actionable insights with advanced analytics platforms.",
+      title: "Data That Actually Helps",
+      description: "Turn your messy data into clear insights. We make your numbers tell stories that help you make better decisions.",
       icon: BarChart3,
       href: "/data-insights",
       color: "orange" as const
     },
     {
-      title: "Generative AI Services",
-      description: "Harness the power of ChatGPT and generative AI for content creation and automation in New York.",
+      title: "AI Content & Communication",
+      description: "Let AI handle your content creation, customer support, and communication while keeping your brand voice authentic.",
       icon: Sparkles,
       href: "/generative-ai-services",
       color: "indigo" as const
     },
     {
-      title: "Data Engineering",
-      description: "Robust data infrastructure and ETL pipelines for New York enterprises and growing businesses.",
+      title: "Data Infrastructure",
+      description: "Build a solid foundation for your AI. We set up systems that grow with your business and actually work when you need them.",
       icon: Database,
       href: "/data-engineering",
       color: "red" as const
@@ -113,13 +113,6 @@ export default function AIServicesNewYorkPage() {
     "Tourism"
   ];
 
-  const stats = [
-    { number: "500+", label: "NY Businesses Served" },
-    { number: "96%", label: "Client Satisfaction" },
-    { number: "4.5x", label: "Average ROI Increase" },
-    { number: "24/7", label: "Support Available" }
-  ];
-
   return (
     <>
       {/* Structured Data for SEO */}
@@ -131,7 +124,7 @@ export default function AIServicesNewYorkPage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services New York",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in New York. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for NY businesses.",
+            "description": "New York's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for New York businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "New York",
@@ -195,46 +188,62 @@ export default function AIServicesNewYorkPage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-white to-gray-50 py-20 md:py-28">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-4xl mx-auto text-center">
+      <section className="relative bg-gradient-to-br from-gray-900 via-orange-900 to-gray-800 py-20 md:py-28 overflow-hidden">
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(255,107,53,0.1),transparent_70%)]"></div>
+        <div className="container px-4 md:px-6 relative z-10">
+          <div className="max-w-5xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-6">
               <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-gray-600">Serving New York</span>
+              <span className="text-sm font-medium text-orange-200 bg-orange-950/50 px-3 py-1 rounded-full">
+                Serving the Empire State
+              </span>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              AI Services in <span className="text-primary-orange">New York</span>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
+              AI That Moves at{' '}
+              <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">
+                New York Speed
+              </span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your New York business with cutting-edge artificial intelligence solutions. 
-              From NYC to Buffalo, we deliver enterprise-grade AI services that drive growth and innovation 
-              across the Empire State.
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
+              New York doesn't wait for anyone, and neither should your AI. 
+              We build intelligent systems that keep pace with the city that never sleeps - from Wall Street trading floors 
+              to Manhattan startups and everything in between.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Link href="/contact">
-                <Button variant="primary" size="lg" className="w-full sm:w-auto">
+                <Button variant="primary" size="lg" className="w-full sm:w-auto bg-gradient-to-r from-primary-orange to-secondary-orange hover:from-dark-orange hover:to-primary-orange text-white border-0">
                   Get Free AI Consultation
                 </Button>
               </Link>
               <Link href="tel:+17892518414">
-                <Button variant="outline" size="lg" className="w-full sm:w-auto">
+                <Button variant="outline" size="lg" className="w-full sm:w-auto border-primary-orange text-primary-orange hover:bg-orange-950/50">
                   <Phone className="w-4 h-4 mr-2" />
                   Call: +1-789-251-8414
                 </Button>
               </Link>
             </div>
 
-            {/* Quick Stats */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-2xl mx-auto">
-              {stats.map((stat, index) => (
-                <div key={index} className="text-center">
-                  <div className="text-2xl font-bold text-primary-orange mb-1">{stat.number}</div>
-                  <div className="text-sm text-gray-600">{stat.label}</div>
-                </div>
-              ))}
+            {/* New York-Specific Stats */}
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto">
+              <div className="text-center p-6 bg-white/5 backdrop-blur-sm rounded-lg border border-white/10">
+                <div className="text-3xl font-bold text-primary-orange mb-2">$1.9T</div>
+                <div className="text-sm text-gray-300">NY GDP (3rd largest in US)</div>
+              </div>
+              <div className="text-center p-6 bg-white/5 backdrop-blur-sm rounded-lg border border-white/10">
+                <div className="text-3xl font-bold text-secondary-orange mb-2">500+</div>
+                <div className="text-sm text-gray-300">AI Projects Delivered</div>
+              </div>
+              <div className="text-center p-6 bg-white/5 backdrop-blur-sm rounded-lg border border-white/10">
+                <div className="text-3xl font-bold text-primary-orange mb-2">96%</div>
+                <div className="text-sm text-gray-300">Client Satisfaction</div>
+              </div>
+              <div className="text-center p-6 bg-white/5 backdrop-blur-sm rounded-lg border border-white/10">
+                <div className="text-3xl font-bold text-secondary-orange mb-2">24/7</div>
+                <div className="text-sm text-gray-300">Expert Support</div>
+              </div>
             </div>
           </div>
         </div>

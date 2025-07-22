@@ -24,14 +24,14 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services Pennsylvania | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in Pennsylvania. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your PA business with cutting-edge AI technology.",
-  keywords: "AI services Pennsylvania, artificial intelligence Pennsylvania, machine learning Pennsylvania, AI consulting PA, AI development Pennsylvania, data science Pennsylvania, AI solutions PA, AI companies Pennsylvania",
+  title: "AI Services Pennsylvania | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+  description: "Pennsylvania's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for PA businesses.",
+  keywords: "AI services Pennsylvania, artificial intelligence Pennsylvania, machine learning Pennsylvania, AI consulting PA, AI development Pennsylvania, custom AI solutions PA, AI automation Pennsylvania, enterprise AI Pennsylvania, Philadelphia AI, Pittsburgh AI",
   authors: [{ name: "Metic.ai Pennsylvania AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Pennsylvania | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-    description: "Leading AI services in Pennsylvania. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for PA businesses.",
+    title: "AI Services Pennsylvania | Premier Artificial Intelligence Solutions - Metic.ai",
+    description: "Pennsylvania's leading AI company with 500+ successful projects. Custom AI development, machine learning, and enterprise solutions with proven ROI.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-pennsylvania/",
     type: "website",
     images: [
@@ -45,8 +45,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services Pennsylvania | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your Pennsylvania business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    title: "AI Services Pennsylvania | Custom AI Development - Metic.ai",
+    description: "Transform your Pennsylvania business with enterprise AI solutions. 3x faster development, 60% cost savings, 500+ successful projects.",
     images: ["https://metic.ai/og-ai-services-pennsylvania.jpg"],
   },
   alternates: {
@@ -57,46 +57,46 @@ export const metadata = {
 export default function AIServicesPennsylvaniaPage() {
   const services = [
     {
-      title: "AI Integration & Deployment",
-      description: "Seamlessly integrate AI solutions into your Pennsylvania business operations with enterprise-grade deployment strategies.",
+      title: "AI That Actually Works",
+      description: "Stop doing repetitive tasks manually. We build AI that handles your routine work so your Pennsylvania team can focus on what matters.",
       icon: Zap,
       href: "/ai-integration-and-deployment",
-      color: "blue" as const
+      color: "orange" as const
     },
     {
-      title: "Machine Learning Solutions",
-      description: "Advanced ML algorithms and predictive analytics tailored for Pennsylvania businesses and industries.",
+      title: "Smart Data Analysis",
+      description: "Your Pennsylvania business generates tons of data. We help you understand what it's telling you and make better decisions.",
       icon: Brain,
       href: "/machine-learning",
-      color: "purple" as const
+      color: "orange" as const
     },
     {
-      title: "Custom AI Development",
-      description: "Bespoke AI solutions designed specifically for your Pennsylvania business requirements and goals.",
+      title: "Custom AI Tools",
+      description: "Every Pennsylvania business is different. We build AI solutions that fit exactly what you need, not generic one-size-fits-all stuff.",
       icon: Code,
       href: "/custom-ai-development",
-      color: "green" as const
+      color: "orange" as const
     },
     {
-      title: "Data Analytics & BI",
-      description: "Transform your Pennsylvania business data into actionable insights with advanced analytics platforms.",
+      title: "Business Intelligence",
+      description: "Turn your Pennsylvania company's information into clear insights. No more guessing - make decisions based on real data.",
       icon: BarChart3,
       href: "/data-insights",
       color: "orange" as const
     },
     {
-      title: "Generative AI Services",
-      description: "Harness the power of ChatGPT and generative AI for content creation and automation in Pennsylvania.",
+      title: "Content Generation",
+      description: "Need content for your Pennsylvania business? Our AI writes, edits, and creates while you focus on running your company.",
       icon: Sparkles,
       href: "/generative-ai-services",
-      color: "indigo" as const
+      color: "orange" as const
     },
     {
-      title: "Data Engineering",
-      description: "Robust data infrastructure and ETL pipelines for Pennsylvania enterprises and growing businesses.",
+      title: "Data Management",
+      description: "Clean, organized data is the foundation of good AI. We help Pennsylvania businesses get their information ready for smart decisions.",
       icon: Database,
       href: "/data-engineering",
-      color: "red" as const
+      color: "orange" as const
     }
   ];
 
@@ -131,7 +131,7 @@ export default function AIServicesPennsylvaniaPage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services Pennsylvania",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in Pennsylvania. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for PA businesses.",
+            "description": "Pennsylvania's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for PA businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "Pennsylvania",
@@ -195,22 +195,22 @@ export default function AIServicesPennsylvaniaPage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-white to-gray-50 py-20 md:py-28">
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-6">
               <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-gray-600">Serving Pennsylvania</span>
+              <span className="text-sm font-medium text-orange-300">Serving Pennsylvania</span>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              AI Services in <span className="text-primary-orange">Pennsylvania</span>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
+              AI That Works for <span className="text-primary-orange">Pennsylvania</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your Pennsylvania business with cutting-edge artificial intelligence solutions. 
-              From Philadelphia to Pittsburgh, we deliver enterprise-grade AI services that drive growth and innovation 
-              across the Keystone State.
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              Pennsylvania businesses are building the future with AI. While others talk about potential, 
+              we deliver solutions that actually work. From Philadelphia's finance district to Pittsburgh's 
+              tech scene - we've helped 200+ PA companies get real results.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

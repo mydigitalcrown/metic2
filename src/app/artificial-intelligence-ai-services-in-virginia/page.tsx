@@ -24,14 +24,14 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services Virginia | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in Virginia. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your VA business with cutting-edge AI technology.",
-  keywords: "AI services Virginia, artificial intelligence Virginia, machine learning Virginia, AI consulting VA, AI development Virginia, data science Virginia, AI solutions VA, AI companies Virginia",
+  title: "AI Services Virginia | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+  description: "Virginia's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for VA businesses.",
+  keywords: "AI services Virginia, artificial intelligence Virginia, machine learning Virginia, AI consulting VA, AI development Virginia, custom AI solutions VA, AI automation Virginia, enterprise AI Virginia, Richmond AI, Norfolk AI",
   authors: [{ name: "Metic.ai Virginia AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Virginia | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-    description: "Leading AI services in Virginia. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for VA businesses.",
+    title: "AI Services Virginia | Premier Artificial Intelligence Solutions - Metic.ai",
+    description: "Virginia's leading AI company with 500+ successful projects. Custom AI development, machine learning, and enterprise solutions with proven ROI.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-virginia/",
     type: "website",
     images: [
@@ -45,8 +45,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services Virginia | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your Virginia business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    title: "AI Services Virginia | Custom AI Development - Metic.ai",
+    description: "Transform your Virginia business with enterprise AI solutions. 3x faster development, 60% cost savings, 500+ successful projects.",
     images: ["https://metic.ai/og-ai-services-virginia.jpg"],
   },
   alternates: {
@@ -57,46 +57,46 @@ export const metadata = {
 export default function AIServicesVirginiaPage() {
   const services = [
     {
-      title: "AI Integration & Deployment",
-      description: "Seamlessly integrate AI solutions into your Virginia business operations with enterprise-grade deployment strategies.",
+      title: "Government & Defense AI",
+      description: "Virginia's government contractors need secure, compliant AI solutions. We build systems that meet strict requirements while delivering real value.",
       icon: Zap,
       href: "/ai-integration-and-deployment",
-      color: "blue" as const
+      color: "orange" as const
     },
     {
-      title: "Machine Learning Solutions",
-      description: "Advanced ML algorithms and predictive analytics tailored for Virginia businesses and industries.",
+      title: "Maritime & Logistics",
+      description: "Norfolk's ports handle massive cargo flows. We create AI that optimizes shipping routes, predicts delays, and streamlines operations.",
       icon: Brain,
       href: "/machine-learning",
-      color: "purple" as const
+      color: "orange" as const
     },
     {
-      title: "Custom AI Development",
-      description: "Bespoke AI solutions designed specifically for your Virginia business requirements and goals.",
+      title: "Custom Business AI",
+      description: "Every Virginia business has unique challenges. We build AI solutions that address your specific problems, not generic software.",
       icon: Code,
       href: "/custom-ai-development",
-      color: "green" as const
+      color: "orange" as const
     },
     {
-      title: "Data Analytics & BI",
-      description: "Transform your Virginia business data into actionable insights with advanced analytics platforms.",
+      title: "Financial Analysis",
+      description: "Virginia's financial sector needs accurate insights. We turn your data into clear reports that help you make smarter business decisions.",
       icon: BarChart3,
       href: "/data-insights",
       color: "orange" as const
     },
     {
-      title: "Generative AI Services",
-      description: "Harness the power of ChatGPT and generative AI for content creation and automation in Virginia.",
+      title: "Healthcare AI",
+      description: "Virginia's healthcare systems are complex. We build AI that handles patient data, scheduling, and administrative work while staying compliant.",
       icon: Sparkles,
       href: "/generative-ai-services",
-      color: "indigo" as const
+      color: "orange" as const
     },
     {
-      title: "Data Engineering",
-      description: "Robust data infrastructure and ETL pipelines for Virginia enterprises and growing businesses.",
+      title: "Data Infrastructure",
+      description: "Disorganized data kills AI projects. We help Virginia businesses structure their information so AI can actually deliver results.",
       icon: Database,
       href: "/data-engineering",
-      color: "red" as const
+      color: "orange" as const
     }
   ];
 
@@ -131,7 +131,7 @@ export default function AIServicesVirginiaPage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services Virginia",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in Virginia. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for VA businesses.",
+            "description": "Virginia's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for VA businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "Virginia",
@@ -195,22 +195,22 @@ export default function AIServicesVirginiaPage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-white to-gray-50 py-20 md:py-28">
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-6">
               <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-gray-600">Serving Virginia</span>
+              <span className="text-sm font-medium text-orange-300">Serving Virginia</span>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              AI Services in <span className="text-primary-orange">Virginia</span>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
+              AI That Delivers for <span className="text-primary-orange">Virginia</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your Virginia business with cutting-edge artificial intelligence solutions. 
-              From Richmond to Virginia Beach, we deliver enterprise-grade AI services that drive growth and innovation 
-              across the Old Dominion State.
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              Virginia businesses value efficiency and results. From DC area government contractors to Norfolk's 
+              maritime industry, we've helped 180+ Virginia companies implement AI that actually works. No fluff, 
+              just practical solutions that improve your operations.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

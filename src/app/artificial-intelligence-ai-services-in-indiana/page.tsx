@@ -24,14 +24,14 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services Indiana | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in Indiana. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your IN business with cutting-edge AI technology.",
-  keywords: "AI services Indiana, artificial intelligence Indiana, machine learning Indiana, AI consulting IN, AI development Indiana, data science Indiana, AI solutions IN, AI companies Indiana",
+  title: "AI Services Indiana | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+  description: "Indiana's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for IN businesses.",
+  keywords: "AI services Indiana, artificial intelligence Indiana, machine learning Indiana, AI consulting IN, AI development Indiana, custom AI solutions IN, AI automation Indiana, enterprise AI Indiana, Indianapolis AI, Fort Wayne AI",
   authors: [{ name: "Metic.ai Indiana AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Indiana | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-    description: "Leading AI services in Indiana. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for IN businesses.",
+    title: "AI Services Indiana | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "Indiana's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for IN businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-indiana/",
     type: "website",
     images: [
@@ -45,8 +45,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services Indiana | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your Indiana business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    title: "AI Services Indiana | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "Indiana's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
     images: ["https://metic.ai/og-ai-services-indiana.jpg"],
   },
   alternates: {
@@ -131,7 +131,7 @@ export default function AIServicesIndianaPage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services Indiana",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in Indiana. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for IN businesses.",
+            "description": "Indiana's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for IN businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "Indiana",
@@ -195,22 +195,22 @@ export default function AIServicesIndianaPage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-white to-gray-50 py-20 md:py-28">
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-6">
               <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-gray-600">Serving Indiana</span>
+              <span className="text-sm font-medium text-orange-300">Serving Indiana</span>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              AI Services in <span className="text-primary-orange">Indiana</span>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
+              AI That Works in <span className="text-primary-orange">Indiana</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your Indiana business with cutting-edge artificial intelligence solutions. 
-              From Indianapolis to Fort Wayne, we deliver enterprise-grade AI services that drive innovation and growth 
-              across the Hoosier State.
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              Indiana businesses are straightforward and results-focused. From Indianapolis's corporate headquarters 
+              to manufacturing plants across the state, we've helped 140+ Indiana companies implement AI that actually 
+              improves their operations. Hoosier hospitality meets smart technology.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

@@ -22,21 +22,42 @@ import {
   MapPin,
   Calendar
 } from "lucide-react";
-import type { Metadata } from "next";
+import { organizationSchema, aboutPageSchema } from "../../lib/schemas";
 
-export const metadata: Metadata = {
-  title: "About Metic.ai - Leading AI Development Company | Michigan's AI Experts",
-  description: "Meet Metic.ai, Michigan's premier AI development company. Since 2020, we've delivered 500+ AI-powered solutions with 3x faster delivery and 60% cost savings. Discover our AI-driven journey, expert team, and innovative approach to transforming businesses through artificial intelligence.",
-  keywords: "AI development company, artificial intelligence experts, machine learning services, AI consulting Michigan, enterprise AI solutions, AI-powered development",
+export const metadata = {
+  title: "About Metic.ai | AI-Driven Engineering Excellence Since 2020",
+  description: "Learn about Metic.ai's journey to becoming AI-driven development leaders. Discover our AI-first philosophy, delivering 3x faster solutions with 60% cost savings. Meet our AI visionaries and innovation team.",
+  keywords: "about Metic.ai, AI company Michigan, artificial intelligence team, machine learning experts, AI services company, AI-driven development",
+  authors: [{ name: "Metic.ai AI Team" }],
+  robots: "index, follow",
   openGraph: {
-    title: "About Metic.ai - Leading AI Development Company",
-    description: "Michigan's premier AI development company delivering enterprise AI solutions 3x faster with 60% cost savings.",
+    title: "About Metic.ai | AI-Driven Engineering Excellence Since 2020",
+    description: "Learn about Metic.ai's journey to becoming AI-driven development leaders. Discover our AI-first philosophy and meet our team of AI visionaries.",
+    url: "https://metic.ai/about/",
+    type: "website",
+  },
+  alternates: {
+    canonical: "https://metic.ai/about/",
   },
 };
 
 export default function AboutPage() {
   return (
     <>
+      {/* Structured Data for SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(organizationSchema),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(aboutPageSchema),
+        }}
+      />
+      
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-gray-900 via-primary-orange/20 to-secondary-orange/30 py-20 md:py-32 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-gray-900/80 to-gray-900/60"></div>
@@ -413,7 +434,18 @@ export default function AboutPage() {
             </div>
           </div>
         </div>
-      </section>
+              
+              <div className="text-center">
+                <div className="w-16 h-16 bg-primary-orange/10 rounded-full flex items-center justify-center mb-6 mx-auto">
+                  <Shield className="w-8 h-8 text-primary-orange" />
+                </div>
+                <h3 className="text-xl font-bold mb-4">Integrity & Ethics</h3>
+                <p className="text-gray-600">
+                  Operating with honesty, transparency, and fairness in all our business dealings
+                </p>
+              </div>
+              
+                    </section>
 
       {/* Technology Expertise */}
       <section className="py-20 bg-white">
@@ -500,11 +532,183 @@ export default function AboutPage() {
                 <h3 className="font-bold mb-2">Call Us</h3>
                 <p className="text-gray-600">+1 (555) AI-METIC</p>
               </div>
-              <div className="bg-white rounded-xl p-6 shadow-sm">
+                            <div className="bg-white rounded-xl p-6 shadow-sm">
                 <Mail className="w-8 h-8 text-primary-orange mx-auto mb-3" />
                 <h3 className="font-bold mb-2">Email Us</h3>
                 <p className="text-gray-600">hello@metic.ai</p>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
+            </div>
+          </div>
+        </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Customer Satisfaction Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                  Customer Satisfaction
+                </h2>
+                <div className="w-20 h-1 bg-primary-orange mb-8"></div>
+                
+                <div className="space-y-6">
+                  <p className="text-lg text-gray-600 leading-relaxed">
+                    Customer satisfaction is at the core of everything we do. We believe in building strong and 
+                    long-lasting relationships with our clients based on trust, transparency, and mutual success 
+                    on our <strong>machine learning solutions</strong>.
+                  </p>
+                  
+                  <p className="text-lg text-gray-600 leading-relaxed">
+                    We take the time to understand our clients' goals, challenges, and aspirations, allowing us 
+                    to develop customized solutions that drive real, measurable results. Our client-centric approach 
+                    has earned us a reputation for delivering excellence and has resulted in numerous successful partnerships.
+                  </p>
+                </div>
+              </div>
+              
+              <div className="space-y-6">
+                <div className="bg-white rounded-xl p-6 shadow-sm">
+                  <div className="flex items-center mb-4">
+                    <CheckCircle className="w-6 h-6 text-primary-orange mr-3" />
+                    <h3 className="text-lg font-semibold">Personalized Approach</h3>
+                  </div>
+                  <p className="text-gray-600">Tailored solutions designed specifically for your business needs</p>
+                </div>
+                
+                <div className="bg-white rounded-xl p-6 shadow-sm">
+                  <div className="flex items-center mb-4">
+                    <CheckCircle className="w-6 h-6 text-primary-orange mr-3" />
+                    <h3 className="text-lg font-semibold">Measurable Results</h3>
+                  </div>
+                  <p className="text-gray-600">Data-driven outcomes that demonstrate clear return on investment</p>
+                </div>
+                
+                <div className="bg-white rounded-xl p-6 shadow-sm">
+                  <div className="flex items-center mb-4">
+                    <CheckCircle className="w-6 h-6 text-primary-orange mr-3" />
+                    <h3 className="text-lg font-semibold">Long-term Partnerships</h3>
+                  </div>
+                  <p className="text-gray-600">Ongoing support and continuous improvement of your AI solutions</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Integrity & Ethics Section */}
+      <section className="py-20 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                Integrity and Ethical Business
+              </h2>
+              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
+            </div>
+            
+            <div className="grid md:grid-cols-2 gap-12">
+              <div className="space-y-6">
+                <p className="text-lg text-gray-600 leading-relaxed">
+                  At <strong>Metic.ai</strong>, we pride ourselves on our integrity and ethical business practices. 
+                  We adhere to the highest standards of professionalism and strive to operate with honesty, 
+                  transparency, and fairness in all our dealings.
+                </p>
+                
+                <p className="text-lg text-gray-600 leading-relaxed">
+                  Our clients can trust us to always act in their best interests and maintain the strictest 
+                  confidentiality. We understand that trust is earned through consistent actions and ethical 
+                  decision-making, which forms the foundation of every client relationship.
+                </p>
+              </div>
+              
+              <div className="space-y-6">
+                <p className="text-lg text-gray-600 leading-relaxed">
+                  In addition to our dedication to our clients, we are also committed to making a positive impact 
+                  on the communities we serve. We actively participate in various charitable initiatives and give 
+                  back to society in meaningful ways.
+                </p>
+                
+                <p className="text-lg text-gray-600 leading-relaxed">
+                  We believe in using our resources and expertise to contribute to the betterment of society and 
+                  create a sustainable future for generations to come. This commitment extends beyond business 
+                  success to meaningful social responsibility.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Statistics Section */}
+      <section className="py-20 bg-primary-orange text-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                Our Impact in Numbers
+              </h2>
+              <p className="text-lg text-orange-100 max-w-2xl mx-auto">
+                Measurable results that demonstrate our commitment to excellence
+              </p>
+            </div>
+            
+            <div className="grid md:grid-cols-4 gap-8 text-center">
+              <div>
+                <div className="text-4xl font-bold mb-2">500+</div>
+                <p className="text-orange-100">AI Projects Completed</p>
+              </div>
+              <div>
+                <div className="text-4xl font-bold mb-2">98%</div>
+                <p className="text-orange-100">Client Satisfaction Rate</p>
+              </div>
+              <div>
+                <div className="text-4xl font-bold mb-2">50+</div>
+                <p className="text-orange-100">Expert Team Members</p>
+              </div>
+              <div>
+                <div className="text-4xl font-bold mb-2">24/7</div>
+                <p className="text-orange-100">Support Available</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+              Ready to Transform Your Business?
+            </h2>
+            <p className="text-lg text-gray-600 mb-8">
+              Join the hundreds of businesses that trust Metic.ai for their AI transformation journey. 
+              Let's discuss how we can help you achieve your goals.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link href="/contact">
+                <Button variant="primary" size="lg">
+                  Get Started Today
+                </Button>
+              </Link>
+              <Link href="/services">
+                <Button variant="outline" size="lg">
+                  Explore Our Services
+                </Button>
+              </Link>
             </div>
           </div>
         </div>

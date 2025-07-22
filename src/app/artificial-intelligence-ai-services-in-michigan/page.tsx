@@ -20,18 +20,20 @@ import {
   BarChart3,
   Code,
   Database,
-  Sparkles
+  Sparkles,
+  Globe,
+  Calendar
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services Michigan | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in Michigan. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your MI business with cutting-edge AI technology.",
-  keywords: "AI services Michigan, artificial intelligence Michigan, machine learning Michigan, AI consulting MI, AI development Michigan, data science Michigan, AI solutions MI, AI companies Michigan",
+  title: "AI Services Michigan | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+  description: "Michigan's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for MI businesses.",
+  keywords: "AI services Michigan, artificial intelligence Michigan, machine learning Michigan, AI consulting MI, AI development Michigan, custom AI solutions MI, AI automation Michigan, enterprise AI Michigan",
   authors: [{ name: "Metic.ai Michigan AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Michigan | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-    description: "Leading AI services in Michigan. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for MI businesses.",
+    title: "AI Services Michigan | Premier Artificial Intelligence Solutions - Metic.ai",
+    description: "Michigan's leading AI company with 500+ successful projects. Custom AI development, machine learning, and enterprise solutions with proven ROI.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-michigan/",
     type: "website",
     images: [
@@ -45,8 +47,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services Michigan | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your Michigan business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    title: "AI Services Michigan | Custom AI Development - Metic.ai",
+    description: "Transform your Michigan business with enterprise AI solutions. 3x faster development, 60% cost savings, 500+ successful projects.",
     images: ["https://metic.ai/og-ai-services-michigan.jpg"],
   },
   alternates: {
@@ -131,7 +133,7 @@ export default function AIServicesMichiganPage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services Michigan",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in Michigan. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for MI businesses.",
+            "description": "Michigan's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for MI businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "Michigan",
@@ -195,94 +197,227 @@ export default function AIServicesMichiganPage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-white to-gray-50 py-20 md:py-28">
-        <div className="container px-4 md:px-6">
+      <section className="relative bg-gradient-to-br from-gray-900 via-primary-orange/20 to-secondary-orange/30 py-20 md:py-32 overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-r from-gray-900/80 to-gray-900/60"></div>
+        <div className="relative z-10 container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="flex items-center justify-center gap-2 mb-6">
-              <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-gray-600">Serving Michigan</span>
+            <div className="inline-flex items-center gap-2 bg-primary-orange/20 border border-primary-orange/30 rounded-full px-4 py-2 mb-6">
+              <MapPin className="w-4 h-4 text-primary-orange" />
+              <span className="text-sm font-medium text-white">🏭 Serving Michigan • 🚀 3x Faster • 💰 60% Savings</span>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
+            <h1 className="text-5xl md:text-7xl font-bold tracking-tighter text-white mb-6">
               AI Services in <span className="text-primary-orange">Michigan</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your Michigan business with cutting-edge artificial intelligence solutions. 
-              From Detroit to Grand Rapids, we deliver enterprise-grade AI services that drive innovation and growth 
-              across the Great Lakes State.
+            <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              Transform your Michigan business with enterprise AI solutions. From Detroit's automotive innovation to Grand Rapids' manufacturing excellence, we deliver cutting-edge AI that drives growth across the Great Lakes State.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-              <Link href="/contact">
-                <Button variant="primary" size="lg" className="w-full sm:w-auto">
-                  Get Free AI Consultation
-                </Button>
-              </Link>
-              <Link href="tel:+17892518414">
-                <Button variant="outline" size="lg" className="w-full sm:w-auto">
-                  <Phone className="w-4 h-4 mr-2" />
-                  Call: +1-789-251-8414
-                </Button>
-              </Link>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+              <Button size="lg" className="bg-primary-orange hover:bg-primary-orange/90">
+                <Phone className="w-5 h-5 mr-2" />
+                Get Free AI Consultation
+              </Button>
+              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-gray-900">
+                <Mail className="w-5 h-5 mr-2" />
+                View Michigan Portfolio
+              </Button>
             </div>
 
-            {/* Quick Stats */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-2xl mx-auto">
-              {stats.map((stat, index) => (
-                <div key={index} className="text-center">
-                  <div className="text-2xl font-bold text-primary-orange mb-1">{stat.number}</div>
-                  <div className="text-sm text-gray-600">{stat.label}</div>
-                </div>
-              ))}
+            {/* Michigan-specific stats */}
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto">
+              <div className="text-center">
+                <div className="text-2xl font-bold text-primary-orange mb-1">150+</div>
+                <div className="text-sm text-gray-300">Michigan Clients</div>
+              </div>
+              <div className="text-center">
+                <div className="text-2xl font-bold text-primary-orange mb-1">98%</div>
+                <div className="text-sm text-gray-300">Success Rate</div>
+              </div>
+              <div className="text-center">
+                <div className="text-2xl font-bold text-primary-orange mb-1">4.4x</div>
+                <div className="text-sm text-gray-300">ROI Increase</div>
+              </div>
+              <div className="text-center">
+                <div className="text-2xl font-bold text-primary-orange mb-1">24/7</div>
+                <div className="text-sm text-gray-300">MI Support</div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Services Section */}
+      {/* Michigan AI Impact Section */}
       <section className="py-20 bg-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                AI Solutions for <span className="text-primary-orange">Michigan</span> Businesses
+              <h2 className="text-4xl md:text-5xl font-bold tracking-tighter mb-4">
+                AI Solutions for <span className="text-primary-orange">Michigan</span> Industries
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Comprehensive artificial intelligence services designed to help Michigan businesses 
-                compete in the digital economy and drive sustainable growth.
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Powering Michigan's economic engine with AI solutions tailored for automotive, manufacturing, healthcare, agriculture, and technology sectors.
               </p>
             </div>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {services.map((service, index) => {
-                const IconComponent = service.icon;
-                const colorClasses = {
-                  blue: "bg-blue-100 text-blue-600",
-                  purple: "bg-purple-100 text-purple-600", 
-                  green: "bg-green-100 text-green-600",
-                  orange: "bg-orange-100 text-orange-600",
-                  indigo: "bg-indigo-100 text-indigo-600",
-                  red: "bg-red-100 text-red-600"
-                };
+              {/* Automotive AI */}
+              <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 hover:shadow-lg transition-all">
+                <div className="text-4xl mb-4">🚗</div>
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Automotive AI Solutions</h3>
+                <p className="text-gray-600 mb-6">Advanced AI for Detroit's automotive industry including predictive maintenance, quality control, and autonomous systems.</p>
                 
-                return (
-                  <div key={index} className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100">
-                    <div className={`w-16 h-16 rounded-full flex items-center justify-center mb-6 ${colorClasses[service.color]}`}>
-                      <IconComponent className="w-8 h-8" />
-                    </div>
-                    
-                    <h3 className="text-xl font-bold mb-4">{service.title}</h3>
-                    <p className="text-gray-600 mb-6 leading-relaxed">{service.description}</p>
-                    
-                    <Link href={service.href} className="inline-flex items-center text-primary-orange hover:text-primary-orange/80 font-medium">
-                      Learn More
-                      <ArrowRight className="w-4 h-4 ml-2" />
-                    </Link>
+                <div className="space-y-2 mb-6">
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-green-500" />
+                    <span className="text-sm text-gray-600">Predictive maintenance AI</span>
                   </div>
-                );
-              })}
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-green-500" />
+                    <span className="text-sm text-gray-600">Quality control automation</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-green-500" />
+                    <span className="text-sm text-gray-600">Supply chain optimization</span>
+                  </div>
+                </div>
+                
+                <Button variant="outline" size="sm" className="w-full">
+                  Learn More <ArrowRight className="w-4 h-4 ml-2" />
+                </Button>
+              </div>
+
+              {/* Manufacturing AI */}
+              <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-2xl p-8 hover:shadow-lg transition-all">
+                <div className="text-4xl mb-4">🏭</div>
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Manufacturing Intelligence</h3>
+                <p className="text-gray-600 mb-6">Smart manufacturing solutions for Grand Rapids and across Michigan's industrial corridor.</p>
+                
+                <div className="space-y-2 mb-6">
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-green-500" />
+                    <span className="text-sm text-gray-600">Production optimization</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-green-500" />
+                    <span className="text-sm text-gray-600">Equipment monitoring</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-green-500" />
+                    <span className="text-sm text-gray-600">Workforce analytics</span>
+                  </div>
+                </div>
+                
+                <Button variant="outline" size="sm" className="w-full">
+                  Learn More <ArrowRight className="w-4 h-4 ml-2" />
+                </Button>
+              </div>
+
+              {/* Healthcare AI */}
+              <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl p-8 hover:shadow-lg transition-all">
+                <div className="text-4xl mb-4">🏥</div>
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Healthcare AI Systems</h3>
+                <p className="text-gray-600 mb-6">AI-powered healthcare solutions for Michigan medical institutions and practices.</p>
+                
+                <div className="space-y-2 mb-6">
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-green-500" />
+                    <span className="text-sm text-gray-600">Diagnostic assistance</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-green-500" />
+                    <span className="text-sm text-gray-600">Patient management</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-green-500" />
+                    <span className="text-sm text-gray-600">Workflow automation</span>
+                  </div>
+                </div>
+                
+                <Button variant="outline" size="sm" className="w-full">
+                  Learn More <ArrowRight className="w-4 h-4 ml-2" />
+                </Button>
+              </div>
+
+              {/* Agriculture AI */}
+              <div className="bg-gradient-to-br from-orange-50 to-orange-100 rounded-2xl p-8 hover:shadow-lg transition-all">
+                <div className="text-4xl mb-4">🌱</div>
+                <h3 className="text-xl font-bold text-gray-800 mb-4">AgTech AI Solutions</h3>
+                <p className="text-gray-600 mb-6">Smart farming and agricultural AI for Michigan's agricultural communities.</p>
+                
+                <div className="space-y-2 mb-6">
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-green-500" />
+                    <span className="text-sm text-gray-600">Crop monitoring</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-green-500" />
+                    <span className="text-sm text-gray-600">Yield prediction</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-green-500" />
+                    <span className="text-sm text-gray-600">Resource optimization</span>
+                  </div>
+                </div>
+                
+                <Button variant="outline" size="sm" className="w-full">
+                  Learn More <ArrowRight className="w-4 h-4 ml-2" />
+                </Button>
+              </div>
+
+              {/* Technology AI */}
+              <div className="bg-gradient-to-br from-teal-50 to-teal-100 rounded-2xl p-8 hover:shadow-lg transition-all">
+                <div className="text-4xl mb-4">💻</div>
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Enterprise AI Development</h3>
+                <p className="text-gray-600 mb-6">Custom AI solutions for Michigan's growing tech sector and startups.</p>
+                
+                <div className="space-y-2 mb-6">
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-green-500" />
+                    <span className="text-sm text-gray-600">Custom AI platforms</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-green-500" />
+                    <span className="text-sm text-gray-600">Data analytics</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-green-500" />
+                    <span className="text-sm text-gray-600">ML integration</span>
+                  </div>
+                </div>
+                
+                <Button variant="outline" size="sm" className="w-full">
+                  Learn More <ArrowRight className="w-4 h-4 ml-2" />
+                </Button>
+              </div>
+
+              {/* Education AI */}
+              <div className="bg-gradient-to-br from-pink-50 to-pink-100 rounded-2xl p-8 hover:shadow-lg transition-all">
+                <div className="text-4xl mb-4">🎓</div>
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Educational AI Systems</h3>
+                <p className="text-gray-600 mb-6">AI solutions for Michigan universities, colleges, and K-12 institutions.</p>
+                
+                <div className="space-y-2 mb-6">
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-green-500" />
+                    <span className="text-sm text-gray-600">Personalized learning</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-green-500" />
+                    <span className="text-sm text-gray-600">Student analytics</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-green-500" />
+                    <span className="text-sm text-gray-600">Administrative automation</span>
+                  </div>
+                </div>
+                
+                <Button variant="outline" size="sm" className="w-full">
+                  Learn More <ArrowRight className="w-4 h-4 ml-2" />
+                </Button>
+              </div>
             </div>
           </div>
         </div>

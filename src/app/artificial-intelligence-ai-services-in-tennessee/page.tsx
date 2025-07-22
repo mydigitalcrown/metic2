@@ -24,13 +24,13 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services Tennessee | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in Tennessee. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your TN business with cutting-edge AI technology.",
-  keywords: "AI services Tennessee, artificial intelligence Tennessee, machine learning Tennessee, AI consulting TN, AI development Tennessee, data science Tennessee, AI solutions TN, AI companies Tennessee",
+  title: "Premier Artificial Intelligence Solutions & Development in Tennessee | AI Services",
+  description: "Leading AI development company in Tennessee. Custom machine learning solutions, automation platforms, and intelligent systems. 3x faster deployment, 60% cost savings. Serving Nashville, Memphis, Knoxville.",
+  keywords: "AI development Tennessee, artificial intelligence Nashville TN, machine learning Memphis, AI automation Knoxville, AI consulting Tennessee, AI solutions Volunteer State, AI developers TN",
   authors: [{ name: "Metic.ai Tennessee AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Tennessee | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
+    title: "AI Services Tennessee | Premier Artificial Intelligence Solutions & Development - Metic.ai",
     description: "Leading AI services in Tennessee. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for TN businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-tennessee/",
     type: "website",
@@ -46,7 +46,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "AI Services Tennessee | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your Tennessee business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    description: "Tennessee's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
     images: ["https://metic.ai/og-ai-services-tennessee.jpg"],
   },
   alternates: {
@@ -131,7 +131,7 @@ export default function AIServicesTennesseePage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services Tennessee",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in Tennessee. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for TN businesses.",
+            "description": "Tennessee's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for TN businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "Tennessee",
@@ -195,22 +195,22 @@ export default function AIServicesTennesseePage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-white to-gray-50 py-20 md:py-28">
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-6">
               <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-gray-600">Serving Tennessee</span>
+              <span className="text-sm font-medium text-orange-300">Serving Tennessee</span>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              AI Services in <span className="text-primary-orange">Tennessee</span>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
+              AI Solutions for <span className="text-primary-orange">Tennessee</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your Tennessee business with cutting-edge artificial intelligence solutions. 
-              From Nashville to Memphis, we deliver enterprise-grade AI services that drive growth and innovation 
-              across the Volunteer State.
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              Tennessee businesses move at their own pace and do things right. From Nashville's music industry 
+              to Memphis's logistics networks, we've helped 90+ Tennessee companies implement AI that actually 
+              fits their business. Southern hospitality meets smart technology.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

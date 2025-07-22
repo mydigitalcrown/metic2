@@ -24,14 +24,14 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services North Dakota | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in North Dakota. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your ND business with cutting-edge AI technology.",
-  keywords: "AI services North Dakota, artificial intelligence North Dakota, machine learning North Dakota, AI consulting ND, AI development North Dakota, data science North Dakota, AI solutions ND, AI companies North Dakota",
+  title: "AI Services North Dakota | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+  description: "North Dakota's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for ND businesses.",
+  keywords: "AI services North Dakota, artificial intelligence North Dakota, machine learning North Dakota, AI consulting ND, AI development North Dakota, custom AI solutions ND, AI automation North Dakota, enterprise AI North Dakota, Fargo AI, Bismarck AI",
   authors: [{ name: "Metic.ai North Dakota AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services North Dakota | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-    description: "Leading AI services in North Dakota. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for ND businesses.",
+    title: "AI Services North Dakota | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "North Dakota's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for ND businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-north-dakota/",
     type: "website",
     images: [
@@ -45,8 +45,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services North Dakota | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your North Dakota business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    title: "AI Services North Dakota | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "North Dakota's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
     images: ["https://metic.ai/og-ai-services-north-dakota.jpg"],
   },
   alternates: {
@@ -61,42 +61,42 @@ export default function AIServicesNorthDakotaPage() {
       description: "Seamlessly integrate AI solutions into your North Dakota business operations with enterprise-grade deployment strategies.",
       icon: Zap,
       href: "/ai-integration-and-deployment",
-      color: "blue"
+      color: "orange" as const
     },
     {
       title: "Machine Learning Solutions",
       description: "Advanced ML algorithms and predictive analytics tailored for North Dakota businesses and industries.",
       icon: Brain,
       href: "/machine-learning",
-      color: "purple"
+      color: "orange" as const
     },
     {
       title: "Custom AI Development",
       description: "Bespoke AI solutions designed specifically for your North Dakota business requirements and goals.",
       icon: Code,
       href: "/custom-ai-development",
-      color: "green"
+      color: "orange" as const
     },
     {
       title: "Data Analytics & BI",
       description: "Transform your North Dakota business data into actionable insights with advanced analytics platforms.",
       icon: BarChart3,
       href: "/data-insights",
-      color: "orange"
+      color: "orange" as const
     },
     {
       title: "Generative AI Services",
       description: "Harness the power of ChatGPT and generative AI for content creation and automation in North Dakota.",
       icon: Sparkles,
-      href: "/generative-ai-services",
-      color: "indigo"
+      href: "/generative-ai",
+      color: "orange" as const
     },
     {
-      title: "Data Engineering",
-      description: "Robust data infrastructure and ETL pipelines for North Dakota enterprises and growing businesses.",
-      icon: Database,
-      href: "/data-engineering",
-      color: "red"
+      title: "AI Security & Compliance",
+      description: "Protect your North Dakota business with AI-powered security solutions and compliance frameworks.",
+      icon: Shield,
+      href: "/ai-security",
+      color: "orange" as const
     }
   ];
 
@@ -131,7 +131,7 @@ export default function AIServicesNorthDakotaPage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services North Dakota",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in North Dakota. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for ND businesses.",
+            "description": "North Dakota's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for ND businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "North Dakota",
@@ -195,22 +195,22 @@ export default function AIServicesNorthDakotaPage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-white to-gray-50 py-20 md:py-28">
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-6">
               <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-gray-600">Serving North Dakota</span>
+              <span className="text-sm font-medium text-orange-300">Serving North Dakota</span>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              AI Services in <span className="text-primary-orange">North Dakota</span>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
+              AI Solutions for <span className="text-primary-orange">North Dakota</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your North Dakota business with cutting-edge artificial intelligence solutions. 
-              From Fargo to Bismarck, we deliver enterprise-grade AI services that drive growth and innovation 
-              across the Peace Garden State.
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              North Dakota businesses understand the value of steady progress and smart investments. From Fargo's 
+              growing tech sector to energy operations across the Bakken, we've helped 20+ North Dakota companies 
+              implement AI that delivers dependable results. Peace Garden State innovation meets smart technology.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

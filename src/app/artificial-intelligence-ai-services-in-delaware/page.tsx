@@ -24,14 +24,14 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services Delaware | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-  description: "Leading AI services in Delaware. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions. Transform your DE business with cutting-edge AI technology.",
-  keywords: "AI services Delaware, artificial intelligence Delaware, machine learning Delaware, AI consulting DE, AI development Delaware, data science Delaware, AI solutions DE, AI companies Delaware",
+  title: "AI Services Delaware | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+  description: "Delaware's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for DE businesses.",
+  keywords: "AI services Delaware, artificial intelligence Delaware, machine learning Delaware, AI consulting DE, AI development Delaware, custom AI solutions DE, AI automation Delaware, enterprise AI Delaware, Wilmington AI, Dover AI",
   authors: [{ name: "Metic.ai Delaware AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Delaware | Top Artificial Intelligence Solutions & Consulting - Metic.ai",
-    description: "Leading AI services in Delaware. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for DE businesses.",
+    title: "AI Services Delaware | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "Delaware's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for DE businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-delaware/",
     type: "website",
     images: [
@@ -45,8 +45,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services Delaware | Artificial Intelligence Solutions - Metic.ai",
-    description: "Transform your Delaware business with expert AI services. Machine learning, custom AI development, and data analytics solutions.",
+    title: "AI Services Delaware | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+    description: "Delaware's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
     images: ["https://metic.ai/og-ai-services-delaware.jpg"],
   },
   alternates: {
@@ -131,7 +131,7 @@ export default function AIServicesDelawarePage() {
             "@type": "ProfessionalService",
             "name": "Metic.ai - AI Services Delaware",
             "image": "https://metic.ai/logo.png",
-            "description": "Leading AI services in Delaware. Expert artificial intelligence consulting, machine learning, custom AI development, and data analytics solutions for DE businesses.",
+            "description": "Delaware's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for DE businesses.",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "Delaware",
@@ -195,22 +195,22 @@ export default function AIServicesDelawarePage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-white to-gray-50 py-20 md:py-28">
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-6">
               <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-gray-600">Serving Delaware</span>
+              <span className="text-sm font-medium text-orange-300">Serving Delaware</span>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              AI Services in <span className="text-primary-orange">Delaware</span>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
+              AI Solutions for <span className="text-primary-orange">Delaware</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your Delaware business with cutting-edge artificial intelligence solutions. 
-              From Wilmington to Dover, we deliver enterprise-grade AI services that drive innovation and growth 
-              across the First State.
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              Delaware businesses move fast and value efficiency. From Wilmington's financial sector to 
+              corporate headquarters across the First State, we've helped 50+ Delaware companies implement 
+              AI that streamlines operations and accelerates growth. First state innovation meets smart technology.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
