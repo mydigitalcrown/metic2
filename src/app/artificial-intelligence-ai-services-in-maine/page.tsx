@@ -26,7 +26,7 @@ import {
 export const metadata = {
   title: "Premier Artificial Intelligence Solutions & Development in Maine | AI Services",
   description: "Leading AI development company in Maine. Custom machine learning solutions, automation platforms, and intelligent systems. 3x faster deployment, 60% cost savings. Serving Portland, Bangor, Auburn.",
-  keywords: "AI development Maine, artificial intelligence Portland Maine, machine learning Bangor, AI automation Auburn, AI consulting Maine, AI solutions Pine Tree State, AI developers Maine",,
+  keywords: "AI development Maine, artificial intelligence Portland Maine, machine learning Bangor, AI automation Auburn, AI consulting Maine, AI solutions Pine Tree State, AI developers Maine",
   authors: [{ name: "Metic.ai Maine AI Team" }],
   robots: "index, follow",
   openGraph: {

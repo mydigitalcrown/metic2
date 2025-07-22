@@ -1,8 +1,5 @@
-import Link from "next/liexport const metadata = {
-  title: "AI Services Hyderabad | Premier Artificial Intelligence Solutions & Development - Metic.ai",
-  description: "Hyderabad's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for Hyderabad businesses.",
-  keywords: "AI services Hyderabad, artificial intelligence Hyderabad, machine learning Hyderabad, AI consulting Hyderabad, AI development Hyderabad, custom AI solutions Hyderabad, AI automation Hyderabad, enterprise AI Hyderabad, Cyberabad AI",
-  authors: [{ name: "Metic.ai Hyderabad AI Team" }],import { Button } from "../components/ui/Button";
+import Link from "next/link";
+import { Button } from "../components/ui/Button";
 import { 
   Brain, 
   Zap, 
@@ -27,14 +24,14 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Premier Artificial Intelligence Solutions & Development in Hyderabad | AI Services",
-  description: "Leading AI development company in Hyderabad. Custom machine learning solutions, automation platforms, and intelligent systems. 3x faster deployment, 60% cost savings. Serving HITEC City, Gachibowli, Madhapur.",
-  keywords: "AI development Hyderabad, artificial intelligence HITEC City, machine learning Gachibowli, AI automation Madhapur, AI consulting Hyderabad, AI solutions Cyberabad, AI developers Telangana",
+  title: "AI Services Hyderabad | Premier Artificial Intelligence Solutions & Development - Metic.ai",
+  description: "Hyderabad's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for Hyderabad businesses.",
+  keywords: "AI services Hyderabad, artificial intelligence Hyderabad, machine learning Hyderabad, AI consulting Hyderabad, AI development Hyderabad, custom AI solutions Hyderabad, AI automation Hyderabad, enterprise AI Hyderabad, Cyberabad AI",
   authors: [{ name: "Metic.ai Hyderabad AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Hyderabad | Premier Artificial Intelligence Solutions & Development - Metic.ai",
-    description: "Leading AI services in Hyderabad, India. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for Hyderabad businesses.",
+    title: "AI Services Hyderabad | Premier Artificial Intelligence Solutions - Metic.ai",
+    description: "Hyderabad's leading AI company with 500+ successful projects. Custom AI development, machine learning, and enterprise solutions with proven ROI.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-hyderabad/",
     type: "website",
     images: [
@@ -48,8 +45,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services Hyderabad | Artificial Intelligence Solutions - Metic.ai",
-    description: "Hyderabad's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
+    title: "AI Services Hyderabad | Custom AI Development - Metic.ai",
+    description: "Transform your Hyderabad business with enterprise AI solutions. 3x faster development, 60% cost savings, 500+ successful projects.",
     images: ["https://metic.ai/og-ai-services-hyderabad.jpg"],
   },
   alternates: {
@@ -58,317 +55,127 @@ export const metadata = {
 };
 
 export default function AIServicesHyderabadPage() {
-  const services = [
-    {
-      title: "AI Integration & Deployment",
-      description: "Seamlessly integrate AI solutions into your Hyderabad business operations with enterprise-grade deployment strategies.",
-      icon: Zap,
-      href: "/ai-integration-and-deployment",
-      color: "blue" as const
-    },
-    {
-      title: "Machine Learning Solutions",
-      description: "Advanced ML algorithms and predictive analytics tailored for Hyderabad's IT, pharma, and biotech industries.",
-      icon: Brain,
-      href: "/machine-learning",
-      color: "purple" as const
-    },
-    {
-      title: "Custom AI Development",
-      description: "Bespoke AI solutions designed specifically for your Hyderabad business requirements and goals.",
-      icon: Code,
-      href: "/custom-ai-development",
-      color: "green" as const
-    },
-    {
-      title: "Data Analytics & BI",
-      description: "Transform your Hyderabad business data into actionable insights with advanced analytics platforms.",
-      icon: BarChart3,
-      href: "/data-insights",
-      color: "orange" as const
-    },
-    {
-      title: "Generative AI Services",
-      description: "Harness the power of ChatGPT and generative AI for content creation and automation in Cyberabad.",
-      icon: Sparkles,
-      href: "/generative-ai-services",
-      color: "indigo" as const
-    },
-    {
-      title: "Data Engineering",
-      description: "Robust data infrastructure and ETL pipelines for Hyderabad enterprises and IT companies.",
-      icon: Database,
-      href: "/data-engineering",
-      color: "red" as const
-    }
-  ];
-
-  const industries = [
-    "Information Technology",
-    "Pharmaceuticals",
-    "Biotechnology",
-    "Aerospace & Defense",
-    "Financial Services",
-    "Healthcare",
-    "E-commerce",
-    "Manufacturing",
-    "Telecommunications",
-    "Government & Public Sector"
-  ];
-
-  const stats = [
-    { number: "3,200+", label: "Hyderabad Businesses Served" },
-    { number: "98%", label: "Client Satisfaction" },
-    { number: "5.2x", label: "Average ROI Increase" },
-    { number: "24/7", label: "Support Available" }
-  ];
-
   return (
     <>
-      {/* Structured Data for SEO */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "ProfessionalService",
-            "name": "Metic.ai - AI Services Hyderabad",
-            "image": "https://metic.ai/logo.png",
-            "description": "Hyderabad's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for Hyderabad businesses.",
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": "Hyderabad",
-              "addressRegion": "Telangana",
-              "addressCountry": "IN"
-            },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": "17.3850",
-              "longitude": "78.4867"
-            },
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-hyderabad/",
-            "telephone": "+1-789-251-8414",
-            "email": "info@metic.ai",
-            "priceRange": "$$",
-            "serviceArea": {
-              "@type": "City",
-              "name": "Hyderabad",
-              "containedInPlace": {
-                "@type": "State",
-                "name": "Telangana"
-              }
-            },
-            "hasOfferCatalog": {
-              "@type": "OfferCatalog",
-              "name": "AI Services",
-              "itemListElement": [
-                {
-                  "@type": "Offer",
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": "AI Integration & Deployment",
-                    "description": "Enterprise AI integration services"
-                  }
-                },
-                {
-                  "@type": "Offer", 
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": "Machine Learning Solutions",
-                    "description": "Custom ML algorithms and predictive analytics"
-                  }
-                },
-                {
-                  "@type": "Offer",
-                  "itemOffered": {
-                    "@type": "Service", 
-                    "name": "Custom AI Development",
-                    "description": "Bespoke AI solutions for businesses"
-                  }
-                }
-              ]
-            },
-            "areaServed": [
-              "Hyderabad", "HITEC City", "Gachibowli", "Madhapur", "Kondapur", 
-              "Banjara Hills", "Jubilee Hills", "Secunderabad", "Begumpet", "Ameerpet",
-              "Kukatpally", "Miyapur", "Uppal", "LB Nagar", "Financial District"
-            ],
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "4.9",
-              "reviewCount": "3200"
-            }
-          })
-        }}
-      />
-
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
-        <div className="container px-4 md:px-6">
+      <section className="relative bg-gradient-to-br from-blue-50 via-white to-purple-50 py-20 md:py-28 overflow-hidden">
+        <div className="container relative px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="flex items-center justify-center gap-2 mb-6">
-              <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-orange-300">Serving Hyderabad, Telangana</span>
+            <div className="inline-flex items-center px-4 py-2 bg-primary-orange/10 rounded-full text-primary-orange text-sm font-medium mb-6">
+              <Sparkles className="w-4 h-4 mr-2" />
+              #1 AI Development Company in Hyderabad
             </div>
-            
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
-              AI Innovation in <span className="text-primary-orange">Hyderabad</span>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
+              <span className="text-primary-orange">AI Services</span> in Hyderabad
             </h1>
-            
-            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              Cyberabad leads, and so do we. From HITEC City's global tech giants to Gachibowli's 
-              emerging startups, we've powered 250+ Hyderabad companies with AI solutions that match 
-              the city's innovation pace. Where pearls meet algorithms, excellence emerges.
+            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+              Leading AI development company in Hyderabad delivering custom artificial intelligence solutions. 
+              Expert AI development, machine learning, automation, and data analytics with 3x faster delivery 
+              and 60% cost savings for Hyderabad businesses.
             </p>
-            
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-              <Link href="/contact">
-                <Button variant="primary" size="lg" className="w-full sm:w-auto">
+              <Link href="#consultation">
+                <Button variant="primary" size="lg" className="group">
                   Get Free AI Consultation
+                  <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </Link>
-              <Link href="tel:+17892518414">
-                <Button variant="outline" size="lg" className="w-full sm:w-auto">
-                  <Phone className="w-4 h-4 mr-2" />
-                  Call: +1-789-251-8414
+              <Link href="#services">
+                <Button variant="outline" size="lg">
+                  Explore AI Solutions
                 </Button>
               </Link>
-            </div>
-
-            {/* Quick Stats */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-2xl mx-auto">
-              {stats.map((stat, index) => (
-                <div key={index} className="text-center">
-                  <div className="text-2xl font-bold text-primary-orange mb-1">{stat.number}</div>
-                  <div className="text-sm text-gray-600">{stat.label}</div>
-                </div>
-              ))}
             </div>
           </div>
         </div>
       </section>
 
       {/* Services Section */}
-      <section className="py-20 bg-white">
+      <section id="services" className="py-20 bg-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                AI Solutions for <span className="text-primary-orange">Hyderabad</span> Businesses
+                Comprehensive <span className="text-primary-orange">AI Solutions</span> for Hyderabad
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Comprehensive artificial intelligence services designed to help Hyderabad businesses 
-                leverage Cyberabad's tech ecosystem and drive digital transformation.
+                From custom AI development to enterprise automation, we deliver cutting-edge solutions 
+                that drive growth and efficiency for Hyderabad businesses.
               </p>
             </div>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {services.map((service, index) => {
-                const IconComponent = service.icon;
-                const colorClasses = {
-                  blue: "bg-blue-100 text-blue-600",
-                  purple: "bg-purple-100 text-purple-600", 
-                  green: "bg-green-100 text-green-600",
-                  orange: "bg-orange-100 text-orange-600",
-                  indigo: "bg-indigo-100 text-indigo-600",
-                  red: "bg-red-100 text-red-600"
-                };
-                
-                return (
-                  <div key={index} className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100">
-                    <div className={`w-16 h-16 rounded-full flex items-center justify-center mb-6 ${colorClasses[service.color]}`}>
-                      <IconComponent className="w-8 h-8" />
-                    </div>
-                    
-                    <h3 className="text-xl font-bold mb-4">{service.title}</h3>
-                    <p className="text-gray-600 mb-6 leading-relaxed">{service.description}</p>
-                    
-                    <Link href={service.href} className="inline-flex items-center text-primary-orange hover:text-primary-orange/80 font-medium">
-                      Learn More
-                      <ArrowRight className="w-4 h-4 ml-2" />
-                    </Link>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-        </div>
-      </section>
+              <div className="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition-shadow">
+                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
+                  <Code className="w-8 h-8 text-blue-600" />
+                </div>
+                <h3 className="text-xl font-bold mb-4">Custom AI Development</h3>
+                <p className="text-gray-600 leading-relaxed mb-6">
+                  End-to-end artificial intelligence solution development tailored for Hyderabad businesses
+                </p>
+                <ul className="space-y-2">
+                  <li className="flex items-center text-sm">
+                    <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
+                    Machine Learning Models
+                  </li>
+                  <li className="flex items-center text-sm">
+                    <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
+                    Neural Network Development
+                  </li>
+                  <li className="flex items-center text-sm">
+                    <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
+                    AI Algorithm Optimization
+                  </li>
+                </ul>
+              </div>
 
-      {/* Industries Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Industries We Serve in Hyderabad
-              </h2>
-              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Delivering specialized AI solutions across Hyderabad's key industries and business sectors.
-              </p>
-            </div>
-            
-            <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-4">
-              {industries.map((industry, index) => (
-                <div key={index} className="bg-white rounded-lg p-4 text-center shadow-sm hover:shadow-md transition-shadow">
-                  <div className="w-8 h-8 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
-                    <Target className="w-4 h-4 text-primary-orange" />
-                  </div>
-                  <h3 className="font-medium text-gray-800">{industry}</h3>
+              <div className="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition-shadow">
+                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6">
+                  <BarChart3 className="w-8 h-8 text-purple-600" />
                 </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+                <h3 className="text-xl font-bold mb-4">Data Analytics & Intelligence</h3>
+                <p className="text-gray-600 leading-relaxed mb-6">
+                  Transform Hyderabad business data into actionable insights with advanced analytics
+                </p>
+                <ul className="space-y-2">
+                  <li className="flex items-center text-sm">
+                    <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
+                    Predictive Analytics
+                  </li>
+                  <li className="flex items-center text-sm">
+                    <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
+                    Business Intelligence
+                  </li>
+                  <li className="flex items-center text-sm">
+                    <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
+                    Data Visualization
+                  </li>
+                </ul>
+              </div>
 
-      {/* Why Choose Us Section */}
-      <section className="py-20 bg-white">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Why Hyderabad Businesses Choose Metic.ai
-              </h2>
-              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Trusted by businesses across Hyderabad for our expertise, results, and commitment to success.
-              </p>
-            </div>
-            
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-              <div className="text-center">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6 mx-auto">
-                  <Award className="w-8 h-8 text-blue-600" />
+              <div className="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition-shadow">
+                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-6">
+                  <Sparkles className="w-8 h-8 text-orange-600" />
                 </div>
-                <h3 className="text-xl font-bold mb-4">Proven Expertise</h3>
-                <p className="text-gray-600">Years of experience delivering AI solutions for Hyderabad businesses across all industries.</p>
-              </div>
-              
-              <div className="text-center">
-                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6 mx-auto">
-                  <TrendingUp className="w-8 h-8 text-green-600" />
-                </div>
-                <h3 className="text-xl font-bold mb-4">Measurable Results</h3>
-                <p className="text-gray-600">Data-driven AI solutions that deliver concrete ROI and business growth for Hyderabad companies.</p>
-              </div>
-              
-              <div className="text-center">
-                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6 mx-auto">
-                  <Users className="w-8 h-8 text-purple-600" />
-                </div>
-                <h3 className="text-xl font-bold mb-4">Local Partnership</h3>
-                <p className="text-gray-600">Dedicated support and partnership with deep understanding of the Hyderabad business landscape.</p>
-              </div>
-              
-              <div className="text-center">
-                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-6 mx-auto">
-                  <Shield className="w-8 h-8 text-orange-600" />
-                </div>
-                <h3 className="text-xl font-bold mb-4">Enterprise Security</h3>
-                <p className="text-gray-600">Bank-level security and compliance standards protecting your Hyderabad business data.</p>
+                <h3 className="text-xl font-bold mb-4">AI-Powered Automation</h3>
+                <p className="text-gray-600 leading-relaxed mb-6">
+                  Streamline Hyderabad operations with intelligent automation solutions
+                </p>
+                <ul className="space-y-2">
+                  <li className="flex items-center text-sm">
+                    <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
+                    Process Automation
+                  </li>
+                  <li className="flex items-center text-sm">
+                    <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
+                    Intelligent Workflows
+                  </li>
+                  <li className="flex items-center text-sm">
+                    <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
+                    RPA Integration
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -376,44 +183,27 @@ export default function AIServicesHyderabadPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-primary-orange text-white">
+      <section id="consultation" className="py-20 bg-primary-orange text-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
               Ready to Transform Your Hyderabad Business with AI?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join leading Hyderabad companies that trust Metic.ai for their AI transformation. 
-              Get started with a free consultation and discover how AI can drive your business forward.
+              Join 150+ successful Hyderabad companies who've revolutionized their operations 
+              with our AI solutions. Get your free consultation today.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
                 <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100">
-                  Start Your AI Journey
+                  Get Free Consultation
                 </Button>
               </Link>
-              <Link href="tel:+17892518414">
+              <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  Call: +1-789-251-8414
+                  Call: +91-78925-18414
                 </Button>
               </Link>
-            </div>
-            
-            <div className="mt-12 text-center">
-              <p className="text-orange-200 mb-4">Trusted by businesses across Hyderabad</p>
-              <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
-                <span>HITEC City</span>
-                <span>•</span>
-                <span>Gachibowli</span>
-                <span>•</span>
-                <span>Madhapur</span>
-                <span>•</span>
-                <span>Kondapur</span>
-                <span>•</span>
-                <span>Banjara Hills</span>
-                <span>•</span>
-                <span>Financial District</span>
-              </div>
             </div>
           </div>
         </div>
