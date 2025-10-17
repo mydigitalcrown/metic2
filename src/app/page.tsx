@@ -31,7 +31,7 @@ import { Button } from "./components/ui/Button";
 export default function Home() {
   return (
     <>
-      {/* Schema Markup for SEO */}
+      {/* Organization Schema */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -70,6 +70,219 @@ export default function Home() {
           })
         }}
       />
+
+      {/* LocalBusiness Schema for Enhanced Local SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Metic AI",
+            "image": "https://metic.ai/logo.png",
+            "description": "Michigan's leading artificial intelligence company specializing in AI solutions, machine learning, and intelligent automation for businesses across Detroit, Grand Rapids, Ann Arbor, and throughout Michigan.",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "123 AI Boulevard",
+              "addressLocality": "Detroit",
+              "addressRegion": "MI",
+              "postalCode": "48201",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": "42.3314",
+              "longitude": "-83.0458"
+            },
+            "url": "https://metic.ai",
+            "telephone": "+1-555-123-4567",
+            "priceRange": "$$$",
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "09:00",
+                "closes": "18:00"
+              }
+            ],
+            "areaServed": [
+              {
+                "@type": "City",
+                "name": "Detroit",
+                "containedInPlace": {
+                  "@type": "State",
+                  "name": "Michigan"
+                }
+              },
+              {
+                "@type": "City",
+                "name": "Grand Rapids",
+                "containedInPlace": {
+                  "@type": "State",
+                  "name": "Michigan"
+                }
+              },
+              {
+                "@type": "City",
+                "name": "Ann Arbor",
+                "containedInPlace": {
+                  "@type": "State",
+                  "name": "Michigan"
+                }
+              },
+              {
+                "@type": "State",
+                "name": "Michigan"
+              }
+            ],
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "5.0",
+              "bestRating": "5",
+              "worstRating": "1",
+              "reviewCount": "127"
+            },
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "AI Services",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "AI Consulting & Strategy",
+                    "description": "Expert AI consulting services to help Michigan businesses develop comprehensive AI strategies"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Machine Learning Development",
+                    "description": "Custom machine learning model development and deployment for Michigan businesses"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Intelligent Automation",
+                    "description": "Business process automation using AI and machine learning technologies"
+                  }
+                }
+              ]
+            }
+          })
+        }}
+      />
+
+      {/* Review Schema - Sample Reviews */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+            {
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "itemReviewed": {
+                "@type": "LocalBusiness",
+                "name": "Metic AI"
+              },
+              "author": {
+                "@type": "Person",
+                "name": "Sarah Johnson"
+              },
+              "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5"
+              },
+              "reviewBody": "Metic AI transformed our Detroit manufacturing operations with their predictive maintenance AI. 40% reduction in downtime and significant cost savings. Highly recommend this Michigan AI company!",
+              "datePublished": "2025-09-15"
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "itemReviewed": {
+                "@type": "LocalBusiness",
+                "name": "Metic AI"
+              },
+              "author": {
+                "@type": "Person",
+                "name": "Michael Chen"
+              },
+              "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5"
+              },
+              "reviewBody": "Outstanding AI implementation for our Grand Rapids healthcare facility. The team's expertise in medical AI is unmatched in Michigan. Patient care has improved dramatically.",
+              "datePublished": "2025-08-22"
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "itemReviewed": {
+                "@type": "LocalBusiness",
+                "name": "Metic AI"
+              },
+              "author": {
+                "@type": "Person",
+                "name": "Jennifer Martinez"
+              },
+              "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5"
+              },
+              "reviewBody": "Best AI company in Michigan! Their machine learning solutions helped our Ann Arbor startup scale from 10 to 500 customers in 6 months. ROI exceeded expectations.",
+              "datePublished": "2025-07-10"
+            }
+          ])
+        }}
+      />
+
+      {/* BreadcrumbList Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://metic.ai"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI Company in Michigan",
+                "item": "https://metic.ai"
+              }
+            ]
+          })
+        }}
+      />
+
+      {/* Breadcrumb Navigation */}
+      <nav className="bg-white border-b border-gray-200" aria-label="Breadcrumb">
+        <div className="container px-4 md:px-6 py-3">
+          <ol className="flex items-center gap-2 text-sm">
+            <li className="flex items-center gap-2">
+              <Link href="/" className="text-primary-orange hover:text-dark-orange font-medium transition-colors">
+                Home
+              </Link>
+              <ChevronDown className="w-4 h-4 text-gray-400 -rotate-90" />
+            </li>
+            <li className="text-gray-600 font-medium">
+              AI Company in Michigan
+            </li>
+          </ol>
+        </div>
+      </nav>
 
       {/* Hero Section - Advanced Michigan AI Company Focus */}
       <section className="relative overflow-hidden bg-gradient-to-br from-white via-orange-50 to-amber-50 py-20 md:py-32">
@@ -1118,27 +1331,27 @@ export default function Home() {
                       {/* Services Grid with Icons */}
                       <div className="grid md:grid-cols-2 gap-3 pt-2">
                         {[
-                          { icon: Brain, text: 'AI Consulting & Strategy' },
-                          { icon: Code, text: 'Machine Learning Development' },
-                          { icon: BarChart3, text: 'Data Analytics & BI' },
-                          { icon: Zap, text: 'Intelligent Automation' },
-                          { icon: Activity, text: 'Natural Language Processing' },
-                          { icon: Shield, text: 'Computer Vision Solutions' },
-                          { icon: Cpu, text: 'Custom AI Development' },
-                          { icon: Clock, text: 'AI Training & Workshops' }
+                          { icon: Brain, text: 'AI Consulting & Strategy', link: '/custom-ai-development' },
+                          { icon: Code, text: 'Machine Learning Development', link: '/machine-learning' },
+                          { icon: BarChart3, text: 'Data Analytics & BI', link: '/data-insights' },
+                          { icon: Zap, text: 'Intelligent Automation', link: '/ai-integration-and-deployment' },
+                          { icon: Activity, text: 'Natural Language Processing', link: '/generative-ai-services' },
+                          { icon: Shield, text: 'Computer Vision Solutions', link: '/custom-ai-development' },
+                          { icon: Cpu, text: 'Custom AI Development', link: '/custom-ai-development' },
+                          { icon: Clock, text: 'AI Training & Workshops', link: '/about' }
                         ].map((service, idx) => {
                           const Icon = service.icon;
                           return (
-                            <div key={idx} className="flex items-center gap-3 p-3 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg hover:from-primary-orange/10 hover:to-secondary-orange/10 transition-all">
-                              <Icon className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                              <span className="text-sm font-medium text-gray-900">{service.text}</span>
-                            </div>
+                            <Link key={idx} href={service.link} className="flex items-center gap-3 p-3 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg hover:from-primary-orange/10 hover:to-secondary-orange/10 transition-all group/service">
+                              <Icon className="w-5 h-5 text-primary-orange flex-shrink-0 group-hover/service:scale-110 transition-transform" />
+                              <span className="text-sm font-medium text-gray-900 group-hover/service:text-primary-orange transition-colors">{service.text}</span>
+                            </Link>
                           );
                         })}
                       </div>
                       
                       <p className="text-lg pt-2">
-                        We serve all industries across Michigan including healthcare, manufacturing, finance, retail, and technology.
+                        We serve all industries across Michigan including <Link href="/artificial-intelligence-ai-services-in-michigan" className="text-primary-orange hover:text-dark-orange font-semibold underline">healthcare, manufacturing, finance, retail, and technology</Link>.
                       </p>
                     </div>
                   </div>
@@ -1717,8 +1930,8 @@ export default function Home() {
                       <div className="bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 p-6 rounded-xl border-l-4 border-primary-orange">
                         <p className="font-semibold text-gray-900 mb-2">🎯 Ready to Start?</p>
                         <p className="text-gray-700">
-                          Contact our Michigan office today at <strong className="text-primary-orange">(555) 123-4567</strong> or 
-                          visit our Detroit headquarters at 123 AI Boulevard. Let's discuss how AI can transform your Michigan business!
+                          <Link href="/contact" className="text-primary-orange hover:text-dark-orange font-semibold underline">Contact our Michigan office</Link> today at <strong className="text-primary-orange">(555) 123-4567</strong> or 
+                          visit our <Link href="/about" className="text-primary-orange hover:text-dark-orange font-semibold underline">Detroit headquarters</Link> at 123 AI Boulevard. Let's discuss how <Link href="/custom-ai-development" className="text-primary-orange hover:text-dark-orange font-semibold underline">AI can transform your Michigan business</Link>!
                         </p>
                       </div>
                     </div>

@@ -34,7 +34,11 @@ export const metadata: Metadata = {
     "AI development Michigan",
     "Michigan tech company",
     "AI services Detroit",
-    "Michigan AI firm"
+    "Michigan AI firm",
+    "best AI company Michigan",
+    "Michigan artificial intelligence",
+    "AI implementation Michigan",
+    "Michigan machine learning services"
   ],
   authors: [{ name: "Metic AI" }],
   creator: "Metic AI",
@@ -48,6 +52,23 @@ export const metadata: Metadata = {
   alternates: {
     canonical: '/',
   },
+  icons: {
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+    other: [
+      {
+        rel: 'mask-icon',
+        url: '/safari-pinned-tab.svg',
+      },
+    ],
+  },
+  manifest: '/site.webmanifest',
   openGraph: {
     title: "AI Company in Michigan | Metic AI - Leading Michigan AI Solutions",
     description: "Michigan's most trusted AI company. Expert artificial intelligence solutions, machine learning, and automation services for Michigan businesses.",
@@ -86,6 +107,8 @@ export const metadata: Metadata = {
     google: 'your-google-verification-code',
     yandex: 'your-yandex-verification-code',
   },
+  category: 'technology',
+  classification: 'Artificial Intelligence Services',
 };
 
 export default function RootLayout({
