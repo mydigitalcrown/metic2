@@ -37,15 +37,43 @@
 
 ---
 
-### ✅ Step 3: Create Google Business Profile (5 minutes)
+### ✅ Step 3: Use IndexNow (Instant Indexing!)
 
-1. **Open:** https://business.google.com
-2. **Add Your Business:** "Metic AI - AI Company in Michigan"
-3. **Add Location:** Your Michigan address
-4. **Verify:** By phone or postcard
-5. **Add Website:** `https://metic.ai`
+**What is IndexNow?**
+- Protocol supported by Bing, Yandex, Seznam, Naver
+- Notifies search engines INSTANTLY when content changes
+- Reduces crawl delay from days to minutes
 
-**Why:** Local SEO boost + appears in Google Maps + faster discovery!
+**How to Use:**
+
+1. **Visit the IndexNow submission page:**
+   ```
+   https://metic.ai/submit-to-indexnow.html
+   ```
+
+2. **Enter your URLs** (one per line):
+   ```
+   https://metic.ai
+   https://metic.ai/about
+   https://metic.ai/services
+   https://metic.ai/contact
+   ```
+
+3. **Click "Submit to Search Engines"** - Done! ✅
+
+**Or use the API directly:**
+```bash
+curl -X POST "https://metic.ai/api/indexnow" \
+  -H "Content-Type: application/json" \
+  -d '{"urls": ["https://metic.ai/"]}'
+```
+
+**Auto-submission:**
+- ✅ GitHub Action runs daily at 9 AM UTC
+- ✅ Auto-submits your top pages
+- ✅ Already configured in `.github/workflows/submit-to-search-engines.yml`
+
+**Expected Result:** Bing indexes within 15-60 minutes!
 
 ---
 

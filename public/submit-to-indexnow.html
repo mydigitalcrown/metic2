@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit URLs to IndexNow - Metic AI</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 600px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+        
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+        
+        .info-box {
+            background: #f0f7ff;
+            border-left: 4px solid #3b82f6;
+            padding: 15px;
+            margin-bottom: 25px;
+            border-radius: 5px;
+        }
+        
+        .info-box strong {
+            color: #1d4ed8;
+        }
+        
+        textarea {
+            width: 100%;
+            min-height: 150px;
+            padding: 15px;
+            border: 2px solid #e5e7eb;
+            border-radius: 10px;
+            font-family: monospace;
+            font-size: 14px;
+            resize: vertical;
+            margin-bottom: 20px;
+            transition: border-color 0.3s;
+        }
+        
+        textarea:focus {
+            outline: none;
+            border-color: #3b82f6;
+        }
+        
+        button {
+            background: linear-gradient(135deg, #FF6B35 0%, #FF8C42 100%);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(255, 107, 53, 0.3);
+        }
+        
+        button:active {
+            transform: translateY(0);
+        }
+        
+        button:disabled {
+            background: #9ca3af;
+            cursor: not-allowed;
+            transform: none;
+        }
+        
+        .result {
+            margin-top: 25px;
+            padding: 20px;
+            border-radius: 10px;
+            display: none;
+        }
+        
+        .result.success {
+            background: #ecfdf5;
+            border: 2px solid #10b981;
+            color: #047857;
+            display: block;
+        }
+        
+        .result.error {
+            background: #fef2f2;
+            border: 2px solid #ef4444;
+            color: #dc2626;
+            display: block;
+        }
+        
+        .result h3 {
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        
+        .loader {
+            display: none;
+            width: 20px;
+            height: 20px;
+            border: 3px solid #ffffff;
+            border-top-color: transparent;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin: 0 auto;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        .example {
+            background: #f9fafb;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: monospace;
+            font-size: 12px;
+            margin-top: 10px;
+            color: #6b7280;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .stat-box {
+            background: #f3f4f6;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 32px;
+            font-weight: bold;
+            color: #FF6B35;
+        }
+        
+        .stat-label {
+            font-size: 12px;
+            color: #6b7280;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Submit to IndexNow</h1>
+        <p class="subtitle">Instantly notify search engines about your URLs</p>
+        
+        <div class="info-box">
+            <strong>What is IndexNow?</strong><br>
+            A protocol that notifies Bing, Yandex, Seznam, and Naver about new or updated URLs. 
+            Get indexed in minutes instead of days!
+        </div>
+        
+        <label for="urls" style="display: block; margin-bottom: 10px; font-weight: 600; color: #333;">
+            Enter URLs (one per line):
+        </label>
+        
+        <textarea 
+            id="urls" 
+            placeholder="https://metic.ai&#10;https://metic.ai/about&#10;https://metic.ai/services"
+        ></textarea>
+        
+        <div class="example">
+            💡 Example: Enter each URL on a new line. Up to 10,000 URLs per submission.
+        </div>
+        
+        <button id="submitBtn" onclick="submitToIndexNow()">
+            Submit to Search Engines
+        </button>
+        
+        <div class="loader" id="loader"></div>
+        
+        <div id="result" class="result"></div>
+        
+        <div class="stats">
+            <div class="stat-box">
+                <div class="stat-number" id="urlCount">0</div>
+                <div class="stat-label">URLs Ready</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number" id="submitted">0</div>
+                <div class="stat-label">Submitted Today</div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Load submission count from localStorage
+        let submittedCount = parseInt(localStorage.getItem('indexnow_submitted') || '0');
+        document.getElementById('submitted').textContent = submittedCount;
+        
+        // Update URL count as user types
+        document.getElementById('urls').addEventListener('input', function() {
+            const urls = this.value.trim().split('\n').filter(url => url.trim());
+            document.getElementById('urlCount').textContent = urls.length;
+        });
+        
+        async function submitToIndexNow() {
+            const textarea = document.getElementById('urls');
+            const submitBtn = document.getElementById('submitBtn');
+            const loader = document.getElementById('loader');
+            const result = document.getElementById('result');
+            
+            // Get and validate URLs
+            const urls = textarea.value
+                .trim()
+                .split('\n')
+                .map(url => url.trim())
+                .filter(url => url.startsWith('http'));
+            
+            if (urls.length === 0) {
+                result.className = 'result error';
+                result.innerHTML = '<h3>❌ Error</h3><p>Please enter at least one valid URL starting with http:// or https://</p>';
+                return;
+            }
+            
+            // Show loading state
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Submitting...';
+            loader.style.display = 'block';
+            result.style.display = 'none';
+            
+            try {
+                // Submit to our API endpoint
+                const response = await fetch('/api/indexnow', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ urls })
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    // Success!
+                    result.className = 'result success';
+                    result.innerHTML = `
+                        <h3>✅ Success!</h3>
+                        <p><strong>${urls.length}</strong> URLs submitted to IndexNow.</p>
+                        <p style="margin-top: 10px; font-size: 14px;">
+                            Search engines (Bing, Yandex, Seznam, Naver) have been notified and will crawl these URLs soon!
+                        </p>
+                        <p style="margin-top: 10px; font-size: 12px; opacity: 0.8;">
+                            Note: It may take 15-60 minutes for indexing to complete.
+                        </p>
+                    `;
+                    
+                    // Update submitted count
+                    submittedCount += urls.length;
+                    localStorage.setItem('indexnow_submitted', submittedCount);
+                    document.getElementById('submitted').textContent = submittedCount;
+                    
+                    // Clear textarea
+                    textarea.value = '';
+                    document.getElementById('urlCount').textContent = '0';
+                } else {
+                    // Error from API
+                    result.className = 'result error';
+                    result.innerHTML = `
+                        <h3>❌ Submission Failed</h3>
+                        <p>${data.error || 'Unknown error occurred'}</p>
+                        <p style="margin-top: 10px; font-size: 14px;">
+                            This might be temporary. Please try again in a few minutes.
+                        </p>
+                    `;
+                }
+            } catch (error) {
+                // Network or other error
+                result.className = 'result error';
+                result.innerHTML = `
+                    <h3>❌ Error</h3>
+                    <p>Failed to submit URLs: ${error.message}</p>
+                    <p style="margin-top: 10px; font-size: 14px;">
+                        Please check your internet connection and try again.
+                    </p>
+                `;
+            } finally {
+                // Reset button state
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Submit to Search Engines';
+                loader.style.display = 'none';
+            }
+        }
+        
+        // Allow Enter key to submit (Ctrl/Cmd + Enter)
+        document.getElementById('urls').addEventListener('keydown', function(e) {
+            if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) {
+                submitToIndexNow();
+            }
+        });
+    </script>
+</body>
+</html>
