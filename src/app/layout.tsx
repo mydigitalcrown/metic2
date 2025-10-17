@@ -119,6 +119,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${jetbrainsMono.variable}`}>
+      <head>
+        <link 
+          rel="alternate" 
+          type="application/rss+xml" 
+          title="Metic AI RSS Feed" 
+          href="https://metic.ai/rss.xml" 
+        />
+        <link 
+          rel="canonical" 
+          href="https://metic.ai" 
+        />
+      </head>
       <body
         className="min-h-screen bg-white font-sans antialiased flex flex-col"
       >

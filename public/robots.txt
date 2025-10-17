@@ -50,9 +50,12 @@ Allow: /
 User-agent: YandexBot
 Allow: /
 
-# Sitemaps
+# Sitemaps (helps search engines discover all pages)
 Sitemap: https://metic.ai/sitemap.xml
 Sitemap: https://metic.ai/sitemap-0.xml
+
+# RSS Feed for content discovery
+Sitemap: https://metic.ai/rss.xml
 
 # Host (optional, helps with canonicalization)
 Host: https://metic.ai

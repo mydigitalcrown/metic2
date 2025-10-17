@@ -1,0 +1,63 @@
+name: Submit URLs to Search Engines
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    # Run daily at 9 AM UTC
+    - cron: '0 9 * * *'
+
+jobs:
+  submit-to-indexnow:
+    runs-on: ubuntu-latest
+    name: Submit URLs via IndexNow
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Submit to IndexNow (Bing, Yandex, Seznam, Naver)
+        run: |
+          echo "🚀 Submitting URLs to IndexNow API..."
+          
+          # Submit top priority URLs
+          curl -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json" \
+            -d '{
+              "host": "metic.ai",
+              "key": "4d8c7e9f2a1b3c5e6d7f8a9b0c1d2e3f",
+              "keyLocation": "https://metic.ai/4d8c7e9f2a1b3c5e6d7f8a9b0c1d2e3f.txt",
+              "urlList": [
+                "https://metic.ai",
+                "https://metic.ai/about",
+                "https://metic.ai/services",
+                "https://metic.ai/contact",
+                "https://metic.ai/artificial-intelligence-ai-services-in-michigan",
+                "https://metic.ai/machine-learning-services-in-michigan",
+                "https://metic.ai/ai-integration-and-deployment",
+                "https://metic.ai/generative-ai-services",
+                "https://metic.ai/custom-ai-development",
+                "https://metic.ai/data-engineering"
+              ]
+            }'
+          
+          echo "✅ IndexNow submission complete!"
+
+      - name: Ping XML Sitemap to Search Engines
+        run: |
+          echo "📍 Pinging sitemap to search engines..."
+          
+          # Ping Google
+          curl "https://www.google.com/ping?sitemap=https://metic.ai/sitemap.xml" || true
+          
+          # Ping Bing
+          curl "https://www.bing.com/ping?sitemap=https://metic.ai/sitemap.xml" || true
+          
+          echo "✅ Sitemap pings complete!"
+
+      - name: Submit to Internet Archive
+        run: |
+          echo "📚 Archiving homepage on Wayback Machine..."
+          curl "https://web.archive.org/save/https://metic.ai" || true
+          echo "✅ Archive submission complete!"
