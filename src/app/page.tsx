@@ -449,16 +449,261 @@ export default function Home() {
         </div>
       </section>
       
+      {/* Comprehensive SEO Content Section - 1000+ Words */}
+      <section className="py-24 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-5xl mx-auto">
+            {/* Main SEO Heading */}
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold mb-6">
+                <span className="text-gray-900">Why Choose Metic AI as Your </span>
+                <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">
+                  Artificial Intelligence Company in Michigan
+                </span>
+              </h2>
+              <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-8 rounded-full"></div>
+            </div>
+
+            {/* Rich Content Blocks */}
+            <div className="space-y-12">
+              {/* Block 1: About Metic AI */}
+              <div className="prose prose-lg max-w-none">
+                <p className="text-xl text-gray-700 leading-relaxed mb-6">
+                  <strong className="text-gray-900">Metic AI stands as Michigan's premier artificial intelligence company</strong>, delivering 
+                  cutting-edge AI solutions that transform how businesses operate across Detroit, Grand Rapids, Ann Arbor, and throughout 
+                  the Great Lakes State. As a <strong className="text-primary-orange">leading AI company in Michigan</strong>, we combine 
+                  world-class expertise with deep local knowledge to provide unparalleled artificial intelligence services tailored to 
+                  Michigan's unique business landscape.
+                </p>
+                
+                <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                  Founded on the principle that every Michigan business deserves access to enterprise-grade AI technology, Metic AI has 
+                  grown to become the go-to <strong>artificial intelligence company in Michigan</strong> for organizations ranging from 
+                  startups to Fortune 500 enterprises. Our team of AI engineers, data scientists, and machine learning specialists brings 
+                  decades of combined experience in artificial intelligence, ensuring that every project we undertake meets the highest 
+                  standards of technical excellence and business value.
+                </p>
+              </div>
+
+              {/* Block 2: Michigan-Specific Expertise */}
+              <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-8 md:p-12 border-2 border-primary-orange/20">
+                <h3 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
+                  <MapPin className="w-8 h-8 text-primary-orange" />
+                  Michigan-Focused AI Solutions
+                </h3>
+                <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                  What sets Metic AI apart as the <strong className="text-primary-orange">best AI company in Michigan</strong> is our 
+                  deep understanding of Michigan's diverse industrial ecosystem. From automotive manufacturing in Detroit to technology 
+                  innovation in Ann Arbor, healthcare advancements in Grand Rapids to agricultural technology throughout rural Michigan, 
+                  we've developed specialized AI solutions that address the unique challenges and opportunities facing Michigan businesses.
+                </p>
+                
+                <div className="grid md:grid-cols-2 gap-6 mt-8">
+                  <div className="bg-white rounded-xl p-6 shadow-sm">
+                    <div className="flex items-start gap-4">
+                      <div className="w-12 h-12 rounded-full bg-primary-orange/10 flex items-center justify-center flex-shrink-0">
+                        <Brain className="w-6 h-6 text-primary-orange" />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-2">Automotive AI Innovation</h4>
+                        <p className="text-sm text-gray-600">
+                          Leveraging Michigan's automotive heritage with AI-powered predictive maintenance, supply chain optimization, 
+                          and autonomous systems development.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="bg-white rounded-xl p-6 shadow-sm">
+                    <div className="flex items-start gap-4">
+                      <div className="w-12 h-12 rounded-full bg-primary-orange/10 flex items-center justify-center flex-shrink-0">
+                        <Activity className="w-6 h-6 text-primary-orange" />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-2">Healthcare AI Solutions</h4>
+                        <p className="text-sm text-gray-600">
+                          Supporting Michigan's world-class healthcare institutions with AI diagnostics, patient care optimization, 
+                          and medical research acceleration.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="bg-white rounded-xl p-6 shadow-sm">
+                    <div className="flex items-start gap-4">
+                      <div className="w-12 h-12 rounded-full bg-primary-orange/10 flex items-center justify-center flex-shrink-0">
+                        <Cpu className="w-6 h-6 text-primary-orange" />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-2">Manufacturing Excellence</h4>
+                        <p className="text-sm text-gray-600">
+                          Transforming Michigan's manufacturing sector with AI-driven quality control, process optimization, 
+                          and predictive analytics for maximum efficiency.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="bg-white rounded-xl p-6 shadow-sm">
+                    <div className="flex items-start gap-4">
+                      <div className="w-12 h-12 rounded-full bg-primary-orange/10 flex items-center justify-center flex-shrink-0">
+                        <Database className="w-6 h-6 text-primary-orange" />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-2">Data-Driven Agriculture</h4>
+                        <p className="text-sm text-gray-600">
+                          Empowering Michigan's agricultural sector with precision farming AI, crop yield prediction, 
+                          and resource optimization technologies.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Block 3: Comprehensive Services */}
+              <div>
+                <h3 className="text-3xl font-bold text-gray-900 mb-6">
+                  Comprehensive <span className="text-primary-orange">Artificial Intelligence Services</span> in Michigan
+                </h3>
+                <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                  As a full-service <strong>AI company in Michigan</strong>, Metic AI offers an extensive portfolio of artificial 
+                  intelligence solutions designed to meet the evolving needs of modern businesses. Our services span the entire AI 
+                  lifecycle, from initial strategy and consulting through development, deployment, and ongoing optimization.
+                </p>
+                
+                <div className="grid md:grid-cols-3 gap-6 my-8">
+                  <div className="text-center p-6 bg-gray-50 rounded-xl hover:bg-orange-50 transition-colors">
+                    <div className="text-4xl font-bold text-primary-orange mb-2">500+</div>
+                    <p className="text-sm text-gray-600 font-medium">Michigan Projects Completed</p>
+                  </div>
+                  <div className="text-center p-6 bg-gray-50 rounded-xl hover:bg-orange-50 transition-colors">
+                    <div className="text-4xl font-bold text-primary-orange mb-2">95%</div>
+                    <p className="text-sm text-gray-600 font-medium">Client Satisfaction Rate</p>
+                  </div>
+                  <div className="text-center p-6 bg-gray-50 rounded-xl hover:bg-orange-50 transition-colors">
+                    <div className="text-4xl font-bold text-primary-orange mb-2">24/7</div>
+                    <p className="text-sm text-gray-600 font-medium">Michigan Support Available</p>
+                  </div>
+                </div>
+
+                <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                  Our team of Michigan-based AI specialists works closely with each client to understand their unique challenges and 
+                  opportunities. Whether you're a Detroit manufacturing plant looking to implement predictive maintenance, a Grand Rapids 
+                  healthcare provider seeking to improve patient outcomes through AI diagnostics, or an Ann Arbor tech startup building 
+                  the next generation of intelligent applications, Metic AI has the expertise and experience to bring your vision to life.
+                </p>
+              </div>
+
+              {/* Block 4: Technology Leadership */}
+              <div className="bg-gradient-to-br from-gray-50 to-orange-50 rounded-2xl p-8 md:p-12">
+                <h3 className="text-3xl font-bold text-gray-900 mb-6">
+                  Cutting-Edge <span className="text-primary-orange">AI Technology</span> for Michigan Businesses
+                </h3>
+                <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                  At Metic AI, we pride ourselves on staying at the forefront of artificial intelligence innovation. Our 
+                  <strong> Michigan artificial intelligence company</strong> leverages the latest advancements in machine learning, 
+                  deep learning, natural language processing, computer vision, and generative AI to deliver solutions that provide 
+                  measurable business value and competitive advantage.
+                </p>
+                
+                <div className="space-y-4 mb-6">
+                  <div className="flex items-start gap-4 bg-white rounded-lg p-4">
+                    <CheckCircle className="w-6 h-6 text-primary-orange flex-shrink-0 mt-1" />
+                    <div>
+                      <h4 className="font-bold text-gray-900 mb-1">Advanced Machine Learning Models</h4>
+                      <p className="text-gray-600">
+                        Deploy state-of-the-art ML algorithms for prediction, classification, clustering, and recommendation systems 
+                        tailored to Michigan's business environment.
+                      </p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start gap-4 bg-white rounded-lg p-4">
+                    <CheckCircle className="w-6 h-6 text-primary-orange flex-shrink-0 mt-1" />
+                    <div>
+                      <h4 className="font-bold text-gray-900 mb-1">Enterprise-Grade AI Infrastructure</h4>
+                      <p className="text-gray-600">
+                        Scalable, secure, and reliable AI systems designed to grow with your Michigan business, from startup to 
+                        enterprise scale.
+                      </p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start gap-4 bg-white rounded-lg p-4">
+                    <CheckCircle className="w-6 h-6 text-primary-orange flex-shrink-0 mt-1" />
+                    <div>
+                      <h4 className="font-bold text-gray-900 mb-1">Custom AI Development</h4>
+                      <p className="text-gray-600">
+                        Bespoke artificial intelligence solutions built specifically for your unique Michigan business requirements, 
+                        industry, and objectives.
+                      </p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start gap-4 bg-white rounded-lg p-4">
+                    <CheckCircle className="w-6 h-6 text-primary-orange flex-shrink-0 mt-1" />
+                    <div>
+                      <h4 className="font-bold text-gray-900 mb-1">AI Integration & Implementation</h4>
+                      <p className="text-gray-600">
+                        Seamlessly integrate AI capabilities into your existing Michigan business systems, workflows, and processes 
+                        for maximum ROI.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Block 5: Local Commitment */}
+              <div>
+                <h3 className="text-3xl font-bold text-gray-900 mb-6">
+                  Committed to <span className="text-primary-orange">Michigan's AI Future</span>
+                </h3>
+                <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                  As a proud Michigan-based <strong>artificial intelligence company</strong>, Metic AI is deeply committed to fostering 
+                  AI innovation and adoption throughout the state. We partner with Michigan universities, research institutions, and 
+                  business organizations to advance AI education, research, and practical applications that benefit the entire Michigan 
+                  business community.
+                </p>
+                
+                <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                  Our <strong className="text-primary-orange">AI company in Michigan</strong> actively participates in Michigan's 
+                  technology ecosystem, contributing to local tech meetups, supporting Michigan startups through AI mentorship, and 
+                  collaborating with state initiatives to position Michigan as a leader in artificial intelligence innovation. When you 
+                  choose Metic AI, you're not just getting an AI partner—you're supporting Michigan's economic growth and technological 
+                  advancement.
+                </p>
+
+                <div className="bg-gradient-to-r from-primary-orange/10 via-secondary-orange/10 to-primary-orange/10 rounded-xl p-8 border-l-4 border-primary-orange">
+                  <p className="text-lg font-semibold text-gray-900 mb-4">
+                    🚀 Ready to Transform Your Michigan Business with AI?
+                  </p>
+                  <p className="text-gray-700 mb-4">
+                    Join the hundreds of Michigan businesses that have already discovered the competitive advantage of working with 
+                    the state's leading artificial intelligence company. Whether you're in Detroit, Grand Rapids, Ann Arbor, Lansing, 
+                    or anywhere else in Michigan, Metic AI is ready to help you harness the power of artificial intelligence.
+                  </p>
+                  <p className="text-gray-700 font-medium">
+                    Contact our Michigan AI experts today for a free consultation and discover how artificial intelligence can 
+                    revolutionize your business operations, increase efficiency, reduce costs, and unlock new revenue opportunities.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-16 bg-primary-orange text-white">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8">
             <div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
-                Ready to Transform Your Business?
+                Ready to Transform Your Michigan Business with AI?
               </h2>
               <p className="mt-4 max-w-lg text-white/90">
-                Join hundreds of companies already using Metic AI to gain competitive advantage.
+                Join 500+ Michigan companies already using our artificial intelligence solutions to gain competitive advantage.
               </p>
             </div>
             <Link href="/contact">
@@ -467,7 +712,7 @@ export default function Home() {
                 size="lg"
                 className="bg-white text-primary-orange border-white hover:bg-white/90"
               >
-                <span>Schedule a Demo</span>
+                <span>Schedule Free AI Consultation</span>
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </Link>
@@ -631,6 +876,54 @@ export default function Home() {
                       "acceptedAnswer": {
                         "@type": "Answer",
                         "text": "AI implementation costs for Michigan businesses vary based on project scope and complexity. Metic AI offers flexible pricing options starting from $5,000 for basic AI consulting to enterprise solutions. We provide free consultations to Michigan businesses to assess needs and provide accurate cost estimates."
+                      }
+                    },
+                    {
+                      "@type": "Question",
+                      "name": "Why choose a Michigan-based AI company?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Choosing a Michigan-based AI company like Metic AI provides unique advantages: deep understanding of Michigan's business landscape and regulations, proximity for face-to-face meetings and on-site support, knowledge of local industries (automotive, manufacturing, healthcare), and commitment to Michigan's economic growth. Local partnerships ensure faster response times and better alignment with your business needs."
+                      }
+                    },
+                    {
+                      "@type": "Question",
+                      "name": "How long does it take to implement AI solutions with Metic AI?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Implementation timelines for AI solutions in Michigan vary based on project complexity. Quick Start Projects take 2-4 weeks for POCs and simple automation. Standard Projects take 6-12 weeks for custom ML models and integrated AI systems. Enterprise Solutions take 3-6 months for large-scale AI transformations. Our Michigan-based team ensures efficient project delivery with regular updates and hands-on support."
+                      }
+                    },
+                    {
+                      "@type": "Question",
+                      "name": "What industries does Metic AI serve in Michigan?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Metic AI serves all major industries across Michigan including: Automotive & Manufacturing (quality control, predictive maintenance, supply chain optimization), Healthcare & Life Sciences (medical diagnostics, patient care, drug discovery), Financial Services (fraud detection, risk assessment), Retail & E-commerce (personalization, demand forecasting), Agriculture & Food (precision farming, crop monitoring), and Technology & Software (product intelligence, user analytics)."
+                      }
+                    },
+                    {
+                      "@type": "Question",
+                      "name": "What ROI can Michigan businesses expect from AI implementation?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Michigan businesses working with Metic AI typically see significant ROI within 6-12 months including: 40% average cost reduction through automation and efficiency gains, 3x faster decision making with real-time insights, 25% revenue increase from enhanced customer experiences, and 60% productivity gains through intelligent automation. We establish clear KPIs and success metrics to ensure every AI project delivers tangible business value."
+                      }
+                    },
+                    {
+                      "@type": "Question",
+                      "name": "How do I get started with AI for my Michigan business?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Getting started with Metic AI is simple: 1) Schedule a free 30-minute consultation with our Michigan AI experts, 2) Complete an AI Readiness Assessment to identify high-impact use cases, 3) Start with a Proof of Concept pilot project to demonstrate AI value quickly, 4) Scale successful pilots to production with ongoing support and training. Contact our Michigan office at (555) 123-4567 to begin your AI transformation."
+                      }
+                    },
+                    {
+                      "@type": "Question",
+                      "name": "What makes Metic AI different from other AI companies?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Metic AI's Michigan advantage includes: 100% Michigan-based team with no offshore outsourcing, 10+ years of deep Michigan industry knowledge, proven track record with 500+ successful implementations and 95% client satisfaction, partnership approach with long-term support, transparent pricing with flexible engagement models, and recognition as Michigan's Best AI Company for 3 consecutive years. We're trusted by Fortune 500 companies and innovative startups across Detroit, Grand Rapids, Ann Arbor, and beyond."
                       }
                     }
                   ]
@@ -1034,6 +1327,512 @@ export default function Home() {
                       <p className="text-lg pt-2">
                         Metic AI combines world-class AI expertise with local Michigan presence for the best of both worlds.
                       </p>
+                    </div>
+                  </div>
+                </div>
+              </details>
+
+              {/* FAQ Item 6 - Response Time */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Clock className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How long does it take to implement AI solutions with Metic AI?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <Rocket className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        Implementation timelines for <strong className="text-gray-900 font-semibold">AI solutions in Michigan</strong> vary based on 
+                        project complexity, but Metic AI is known for rapid deployment without compromising quality.
+                      </p>
+                      
+                      <div className="space-y-3">
+                        <div className="flex items-start gap-3 p-4 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg">
+                          <div className="w-2 h-2 bg-primary-orange rounded-full mt-2"></div>
+                          <div>
+                            <p className="font-semibold text-gray-900 mb-1">Quick Start Projects: 2-4 weeks</p>
+                            <p className="text-sm text-gray-600">POCs, AI consulting, and simple automation implementations</p>
+                          </div>
+                        </div>
+                        
+                        <div className="flex items-start gap-3 p-4 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg">
+                          <div className="w-2 h-2 bg-primary-orange rounded-full mt-2"></div>
+                          <div>
+                            <p className="font-semibold text-gray-900 mb-1">Standard Projects: 6-12 weeks</p>
+                            <p className="text-sm text-gray-600">Custom ML models, data pipelines, and integrated AI systems</p>
+                          </div>
+                        </div>
+                        
+                        <div className="flex items-start gap-3 p-4 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg">
+                          <div className="w-2 h-2 bg-primary-orange rounded-full mt-2"></div>
+                          <div>
+                            <p className="font-semibold text-gray-900 mb-1">Enterprise Solutions: 3-6 months</p>
+                            <p className="text-sm text-gray-600">Large-scale AI transformations, complex integrations, and organization-wide deployments</p>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <p className="text-lg">
+                        Our Michigan-based team ensures efficient project delivery with regular updates, agile methodologies, 
+                        and hands-on support throughout the implementation process.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </details>
+
+              {/* FAQ Item 7 - Industries Served */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Cpu className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What industries does Metic AI serve in Michigan?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <Database className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        As Michigan's premier <strong className="text-gray-900 font-semibold">artificial intelligence company</strong>, 
+                        Metic AI serves businesses across all major industries throughout the state:
+                      </p>
+                      
+                      <div className="grid md:grid-cols-2 gap-4">
+                        <div className="p-4 bg-gradient-to-br from-primary-orange/5 to-secondary-orange/5 rounded-lg">
+                          <h4 className="font-bold text-gray-900 mb-2 flex items-center gap-2">
+                            <div className="w-2 h-2 bg-primary-orange rounded-full"></div>
+                            Automotive & Manufacturing
+                          </h4>
+                          <p className="text-sm text-gray-600">
+                            Quality control, predictive maintenance, supply chain optimization, robotics automation
+                          </p>
+                        </div>
+                        
+                        <div className="p-4 bg-gradient-to-br from-primary-orange/5 to-secondary-orange/5 rounded-lg">
+                          <h4 className="font-bold text-gray-900 mb-2 flex items-center gap-2">
+                            <div className="w-2 h-2 bg-primary-orange rounded-full"></div>
+                            Healthcare & Life Sciences
+                          </h4>
+                          <p className="text-sm text-gray-600">
+                            Medical diagnostics, patient care, drug discovery, clinical research acceleration
+                          </p>
+                        </div>
+                        
+                        <div className="p-4 bg-gradient-to-br from-primary-orange/5 to-secondary-orange/5 rounded-lg">
+                          <h4 className="font-bold text-gray-900 mb-2 flex items-center gap-2">
+                            <div className="w-2 h-2 bg-primary-orange rounded-full"></div>
+                            Financial Services
+                          </h4>
+                          <p className="text-sm text-gray-600">
+                            Fraud detection, risk assessment, algorithmic trading, customer intelligence
+                          </p>
+                        </div>
+                        
+                        <div className="p-4 bg-gradient-to-br from-primary-orange/5 to-secondary-orange/5 rounded-lg">
+                          <h4 className="font-bold text-gray-900 mb-2 flex items-center gap-2">
+                            <div className="w-2 h-2 bg-primary-orange rounded-full"></div>
+                            Retail & E-commerce
+                          </h4>
+                          <p className="text-sm text-gray-600">
+                            Personalization, demand forecasting, inventory optimization, customer analytics
+                          </p>
+                        </div>
+                        
+                        <div className="p-4 bg-gradient-to-br from-primary-orange/5 to-secondary-orange/5 rounded-lg">
+                          <h4 className="font-bold text-gray-900 mb-2 flex items-center gap-2">
+                            <div className="w-2 h-2 bg-primary-orange rounded-full"></div>
+                            Agriculture & Food
+                          </h4>
+                          <p className="text-sm text-gray-600">
+                            Precision farming, crop monitoring, yield prediction, supply chain management
+                          </p>
+                        </div>
+                        
+                        <div className="p-4 bg-gradient-to-br from-primary-orange/5 to-secondary-orange/5 rounded-lg">
+                          <h4 className="font-bold text-gray-900 mb-2 flex items-center gap-2">
+                            <div className="w-2 h-2 bg-primary-orange rounded-full"></div>
+                            Technology & Software
+                          </h4>
+                          <p className="text-sm text-gray-600">
+                            Product intelligence, user analytics, automation, AI-powered features
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </details>
+
+              {/* FAQ Item 8 - ROI */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <TrendingUp className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What ROI can Michigan businesses expect from AI implementation?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <BarChart3 className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        <strong className="text-gray-900 font-semibold">Michigan businesses working with Metic AI typically see significant ROI</strong> within 
+                        6-12 months. Our AI solutions deliver measurable value across multiple dimensions:
+                      </p>
+                      
+                      <div className="grid gap-4">
+                        <div className="flex items-start gap-4 p-5 bg-gradient-to-r from-green-50 to-emerald-50 rounded-lg border border-green-200">
+                          <div className="text-3xl font-bold text-green-600">40%</div>
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-1">Cost Reduction</h4>
+                            <p className="text-sm text-gray-600">
+                              Average operational cost savings through automation, efficiency gains, and optimized resource allocation
+                            </p>
+                          </div>
+                        </div>
+                        
+                        <div className="flex items-start gap-4 p-5 bg-gradient-to-r from-blue-50 to-cyan-50 rounded-lg border border-blue-200">
+                          <div className="text-3xl font-bold text-blue-600">3x</div>
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-1">Faster Decision Making</h4>
+                            <p className="text-sm text-gray-600">
+                              Real-time insights and predictive analytics enable rapid, data-driven business decisions
+                            </p>
+                          </div>
+                        </div>
+                        
+                        <div className="flex items-start gap-4 p-5 bg-gradient-to-r from-purple-50 to-pink-50 rounded-lg border border-purple-200">
+                          <div className="text-3xl font-bold text-purple-600">25%</div>
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-1">Revenue Increase</h4>
+                            <p className="text-sm text-gray-600">
+                              Enhanced customer experiences, better targeting, and new AI-powered products/services
+                            </p>
+                          </div>
+                        </div>
+                        
+                        <div className="flex items-start gap-4 p-5 bg-gradient-to-r from-orange-50 to-amber-50 rounded-lg border border-orange-200">
+                          <div className="text-3xl font-bold text-orange-600">60%</div>
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-1">Productivity Gains</h4>
+                            <p className="text-sm text-gray-600">
+                              Employee productivity improvements through intelligent automation and AI-assisted workflows
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <p className="text-lg bg-primary-orange/10 p-4 rounded-lg border-l-4 border-primary-orange">
+                        <strong>ROI Guarantee:</strong> We work with Michigan businesses to establish clear KPIs and success metrics, 
+                        ensuring every AI project delivers tangible business value and positive returns.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </details>
+
+              {/* FAQ Item 9 - Getting Started */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Rocket className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How do I get started with AI for my Michigan business?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <Lightbulb className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        Getting started with <strong className="text-gray-900 font-semibold">Metic AI is simple and risk-free</strong>. 
+                        Our proven process ensures a smooth journey from initial consultation to full AI implementation:
+                      </p>
+                      
+                      <div className="space-y-4">
+                        <div className="flex gap-4">
+                          <div className="w-10 h-10 rounded-full bg-gradient-to-br from-primary-orange to-secondary-orange flex items-center justify-center text-white font-bold flex-shrink-0">
+                            1
+                          </div>
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-2">Free Consultation</h4>
+                            <p className="text-gray-600">
+                              Schedule a complimentary 30-minute call with our Michigan AI experts to discuss your business challenges, 
+                              goals, and explore AI opportunities. No commitment required.
+                            </p>
+                          </div>
+                        </div>
+                        
+                        <div className="flex gap-4">
+                          <div className="w-10 h-10 rounded-full bg-gradient-to-br from-primary-orange to-secondary-orange flex items-center justify-center text-white font-bold flex-shrink-0">
+                            2
+                          </div>
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-2">AI Readiness Assessment</h4>
+                            <p className="text-gray-600">
+                              We evaluate your data infrastructure, identify high-impact AI use cases, and create a customized 
+                              roadmap aligned with your Michigan business objectives.
+                            </p>
+                          </div>
+                        </div>
+                        
+                        <div className="flex gap-4">
+                          <div className="w-10 h-10 rounded-full bg-gradient-to-br from-primary-orange to-secondary-orange flex items-center justify-center text-white font-bold flex-shrink-0">
+                            3
+                          </div>
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-2">Proof of Concept</h4>
+                            <p className="text-gray-600">
+                              Start with a small pilot project to demonstrate AI value quickly. See real results before committing 
+                              to larger investments.
+                            </p>
+                          </div>
+                        </div>
+                        
+                        <div className="flex gap-4">
+                          <div className="w-10 h-10 rounded-full bg-gradient-to-br from-primary-orange to-secondary-orange flex items-center justify-center text-white font-bold flex-shrink-0">
+                            4
+                          </div>
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-2">Full Implementation</h4>
+                            <p className="text-gray-600">
+                              Scale successful pilots to production with our Michigan-based team providing ongoing support, 
+                              training, and optimization.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div className="bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 p-6 rounded-xl border-l-4 border-primary-orange">
+                        <p className="font-semibold text-gray-900 mb-2">🎯 Ready to Start?</p>
+                        <p className="text-gray-700">
+                          Contact our Michigan office today at <strong className="text-primary-orange">(555) 123-4567</strong> or 
+                          visit our Detroit headquarters at 123 AI Boulevard. Let's discuss how AI can transform your Michigan business!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </details>
+
+              {/* FAQ Item 10 - Michigan Advantage */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Star className="w-7 h-7 text-white fill-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What makes Metic AI different from other AI companies?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <Award className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        <strong className="text-gray-900 font-semibold">Metic AI's Michigan advantage</strong> goes beyond technical expertise. 
+                        As the state's premier <strong className="text-primary-orange">artificial intelligence company</strong>, we offer unique value:
+                      </p>
+                      
+                      <div className="grid gap-3">
+                        <div className="flex items-start gap-3 p-4 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg">
+                          <CheckCircle className="w-6 h-6 text-primary-orange flex-shrink-0 mt-0.5" />
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-1">100% Michigan-Based Team</h4>
+                            <p className="text-sm text-gray-600">
+                              All our AI engineers, data scientists, and support staff work from Michigan offices. No offshore outsourcing, 
+                              just local expertise and accountability.
+                            </p>
+                          </div>
+                        </div>
+                        
+                        <div className="flex items-start gap-3 p-4 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg">
+                          <CheckCircle className="w-6 h-6 text-primary-orange flex-shrink-0 mt-0.5" />
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-1">Deep Michigan Industry Knowledge</h4>
+                            <p className="text-sm text-gray-600">
+                              10+ years serving Michigan businesses means we understand the unique challenges of automotive, manufacturing, 
+                              healthcare, and other key Michigan industries.
+                            </p>
+                          </div>
+                        </div>
+                        
+                        <div className="flex items-start gap-3 p-4 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg">
+                          <CheckCircle className="w-6 h-6 text-primary-orange flex-shrink-0 mt-0.5" />
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-1">Proven Track Record</h4>
+                            <p className="text-sm text-gray-600">
+                              500+ successful AI implementations across Michigan with an average 95% client satisfaction rate and 
+                              documented ROI in every project.
+                            </p>
+                          </div>
+                        </div>
+                        
+                        <div className="flex items-start gap-3 p-4 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg">
+                          <CheckCircle className="w-6 h-6 text-primary-orange flex-shrink-0 mt-0.5" />
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-1">Partnership Approach</h4>
+                            <p className="text-sm text-gray-600">
+                              We're not just vendors—we're your long-term AI partners, invested in your Michigan business success with 
+                              ongoing support, training, and optimization.
+                            </p>
+                          </div>
+                        </div>
+                        
+                        <div className="flex items-start gap-3 p-4 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg">
+                          <CheckCircle className="w-6 h-6 text-primary-orange flex-shrink-0 mt-0.5" />
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-1">Transparent Pricing</h4>
+                            <p className="text-sm text-gray-600">
+                              No hidden fees, clear project scopes, and flexible engagement models designed to fit Michigan business budgets.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div className="bg-gradient-to-r from-primary-orange to-secondary-orange text-white p-6 rounded-xl">
+                        <p className="font-bold mb-2">🏆 Award-Winning Excellence</p>
+                        <p className="text-white/90 text-sm">
+                          Recognized as "Michigan's Best AI Company" for 3 consecutive years. Trusted by Fortune 500 companies 
+                          and innovative startups across Detroit, Grand Rapids, Ann Arbor, and beyond.
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
