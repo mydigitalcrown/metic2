@@ -284,25 +284,38 @@ export default function Home() {
         </div>
       </nav>
 
-      {/* Hero Section - Advanced Michigan AI Company Focus */}
+      {/* Hero Section - Ultra Creative Michigan AI Company Focus */}
       <section className="relative overflow-hidden bg-gradient-to-br from-white via-orange-50 to-amber-50 py-20 md:py-32">
-        {/* Advanced Animated Background with Geometric Patterns */}
+        {/* Ultra Advanced Animated Background */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          {/* Floating Orbs with Advanced Animation */}
+          {/* Multiple Floating Orbs with Staggered Animations */}
           <div className="absolute top-20 left-10 w-72 h-72 bg-primary-orange/10 rounded-full blur-3xl animate-pulse"></div>
           <div className="absolute bottom-20 right-10 w-96 h-96 bg-secondary-orange/10 rounded-full blur-3xl animate-pulse" style={{animationDelay: '1s'}}></div>
           <div className="absolute top-1/2 left-1/2 w-64 h-64 bg-light-orange/10 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
+          <div className="absolute top-40 right-1/4 w-48 h-48 bg-primary-orange/5 rounded-full blur-2xl animate-float" style={{animationDelay: '0.5s'}}></div>
+          <div className="absolute bottom-40 left-1/4 w-56 h-56 bg-secondary-orange/5 rounded-full blur-2xl animate-float" style={{animationDelay: '1.5s'}}></div>
           
-          {/* Grid Pattern Overlay */}
+          {/* Animated Grid Pattern with Gradient */}
           <div className="absolute inset-0 opacity-[0.03]" style={{
             backgroundImage: `linear-gradient(#FF6B35 1px, transparent 1px), linear-gradient(90deg, #FF6B35 1px, transparent 1px)`,
             backgroundSize: '50px 50px'
           }}></div>
           
-          {/* Floating Particles */}
+          {/* Diagonal Lines Pattern */}
+          <div className="absolute inset-0 opacity-[0.02]" style={{
+            backgroundImage: `repeating-linear-gradient(45deg, #FF6B35 0px, #FF6B35 1px, transparent 1px, transparent 60px)`,
+          }}></div>
+          
+          {/* Enhanced Floating Particles System */}
           <div className="absolute top-1/4 left-1/4 w-2 h-2 bg-primary-orange/40 rounded-full animate-bounce" style={{animationDuration: '3s'}}></div>
           <div className="absolute top-1/3 right-1/3 w-3 h-3 bg-secondary-orange/30 rounded-full animate-bounce" style={{animationDuration: '4s', animationDelay: '0.5s'}}></div>
           <div className="absolute bottom-1/4 left-1/3 w-2 h-2 bg-light-orange/40 rounded-full animate-bounce" style={{animationDuration: '5s', animationDelay: '1s'}}></div>
+          <div className="absolute top-1/2 right-1/4 w-1.5 h-1.5 bg-primary-orange/30 rounded-full animate-bounce" style={{animationDuration: '3.5s', animationDelay: '0.3s'}}></div>
+          <div className="absolute bottom-1/3 left-1/2 w-2.5 h-2.5 bg-secondary-orange/25 rounded-full animate-bounce" style={{animationDuration: '4.5s', animationDelay: '0.8s'}}></div>
+          
+          {/* Rotating Geometric Shapes */}
+          <div className="absolute top-20 right-20 w-24 h-24 border-2 border-primary-orange/10 rotate-45 animate-spin" style={{animationDuration: '20s'}}></div>
+          <div className="absolute bottom-20 left-20 w-32 h-32 border-2 border-secondary-orange/10 rotate-12 animate-spin" style={{animationDuration: '25s', animationDirection: 'reverse'}}></div>
         </div>
 
         <div className="container px-4 md:px-6 relative z-10">
@@ -416,44 +429,73 @@ export default function Home() {
               </div>
             </div>
             
-            {/* Enhanced Visual Element with 3D-like Effects */}
+            {/* Ultra Creative Visual Element with 3D Effects and Animations */}
             <div className="flex-1 flex justify-center items-center">
               <div className="relative w-full max-w-lg group">
-                {/* Outer Animated Glow */}
+                {/* Multi-Layer Animated Glow */}
                 <div className="absolute inset-0 bg-gradient-to-r from-primary-orange/30 via-secondary-orange/30 to-primary-orange/30 rounded-full blur-3xl animate-pulse group-hover:blur-[100px] transition-all duration-500"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-secondary-orange/20 via-primary-orange/20 to-secondary-orange/20 rounded-full blur-2xl animate-pulse" style={{animationDelay: '0.5s'}}></div>
                 
-                {/* Rotating Border Effect */}
-                <div className="absolute inset-0 rounded-3xl bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange opacity-20 blur-xl group-hover:opacity-40 transition-opacity"></div>
+                {/* Rotating Border Rings */}
+                <div className="absolute inset-0 rounded-3xl bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange opacity-20 blur-xl group-hover:opacity-40 transition-opacity animate-spin" style={{animationDuration: '15s'}}></div>
+                <div className="absolute inset-4 rounded-3xl bg-gradient-to-l from-primary-orange via-secondary-orange to-primary-orange opacity-10 blur-lg animate-spin" style={{animationDuration: '20s', animationDirection: 'reverse'}}></div>
                 
-                {/* Main Card with Glass Effect */}
-                <div className="relative bg-white/90 backdrop-blur-xl rounded-3xl p-10 shadow-2xl border border-primary-orange/30 group-hover:shadow-primary-orange/20 group-hover:scale-105 transition-all duration-500">
-                  {/* Floating Icon Ring */}
-                  <div className="absolute -top-6 left-1/2 transform -translate-x-1/2">
-                    <div className="w-16 h-16 rounded-full bg-gradient-to-br from-primary-orange to-secondary-orange shadow-xl flex items-center justify-center group-hover:rotate-180 transition-transform duration-700">
-                      <MapPin className="w-8 h-8 text-white" />
+                {/* Main Card with Advanced Glass Morphism */}
+                <div className="relative bg-white/95 backdrop-blur-2xl rounded-3xl p-10 shadow-2xl border-2 border-primary-orange/20 group-hover:shadow-primary-orange/30 group-hover:scale-[1.02] transition-all duration-500 overflow-hidden">
+                  {/* Shimmer Effect Overlay */}
+                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
+                  
+                  {/* Floating Badge with Pulse */}
+                  <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 z-10">
+                    <div className="relative">
+                      <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-full blur-lg opacity-60 animate-ping"></div>
+                      <div className="relative w-16 h-16 rounded-full bg-gradient-to-br from-primary-orange to-secondary-orange shadow-2xl flex items-center justify-center group-hover:rotate-180 transition-transform duration-700">
+                        <Sparkles className="w-8 h-8 text-white animate-pulse" />
+                      </div>
                     </div>
                   </div>
                   
-                  <div className="text-center space-y-6 pt-8">
-                    {/* Central Brain Icon with Pulse */}
+                  <div className="text-center space-y-6 pt-8 relative z-10">
+                    {/* Central AI Brain with Advanced Animation */}
                     <div className="relative inline-flex items-center justify-center">
-                      <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-full blur-2xl opacity-50 animate-pulse"></div>
-                      <div className="relative w-40 h-40 rounded-full bg-gradient-to-br from-primary-orange to-secondary-orange flex items-center justify-center shadow-2xl group-hover:rotate-12 transition-transform duration-500">
-                        <Brain className="w-20 h-20 text-white" />
+                      {/* Multiple Pulsing Rings */}
+                      <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-full blur-3xl opacity-50 animate-pulse"></div>
+                      <div className="absolute inset-4 bg-gradient-to-tl from-secondary-orange to-primary-orange rounded-full blur-2xl opacity-40 animate-pulse" style={{animationDelay: '0.3s'}}></div>
+                      
+                      {/* Main Brain Icon */}
+                      <div className="relative w-44 h-44 rounded-full bg-gradient-to-br from-primary-orange via-secondary-orange to-primary-orange flex items-center justify-center shadow-2xl group-hover:rotate-12 group-hover:scale-110 transition-all duration-500">
+                        <div className="absolute inset-2 rounded-full bg-gradient-to-tl from-primary-orange/50 to-secondary-orange/50 blur-xl"></div>
+                        <Brain className="w-24 h-24 text-white relative z-10 drop-shadow-lg" />
                       </div>
-                      {/* Orbiting Elements */}
-                      <div className="absolute top-0 right-0 w-8 h-8 rounded-full bg-white shadow-lg flex items-center justify-center animate-bounce" style={{animationDuration: '2s'}}>
-                        <Cpu className="w-4 h-4 text-primary-orange" />
+                      
+                      {/* Orbiting Tech Icons with Advanced Paths */}
+                      <div className="absolute top-0 right-0 w-10 h-10 rounded-full bg-white shadow-xl border-2 border-primary-orange/30 flex items-center justify-center animate-bounce hover:scale-125 transition-transform" style={{animationDuration: '2s'}}>
+                        <Cpu className="w-5 h-5 text-primary-orange" />
                       </div>
-                      <div className="absolute bottom-0 left-0 w-8 h-8 rounded-full bg-white shadow-lg flex items-center justify-center animate-bounce" style={{animationDuration: '2.5s', animationDelay: '0.5s'}}>
-                        <Database className="w-4 h-4 text-primary-orange" />
+                      <div className="absolute bottom-0 left-0 w-10 h-10 rounded-full bg-white shadow-xl border-2 border-secondary-orange/30 flex items-center justify-center animate-bounce hover:scale-125 transition-transform" style={{animationDuration: '2.5s', animationDelay: '0.5s'}}>
+                        <Database className="w-5 h-5 text-secondary-orange" />
+                      </div>
+                      <div className="absolute top-1/2 -right-2 w-9 h-9 rounded-full bg-gradient-to-br from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm border border-primary-orange/40 flex items-center justify-center animate-bounce hover:scale-125 transition-transform" style={{animationDuration: '2.2s', animationDelay: '0.2s'}}>
+                        <Code className="w-4 h-4 text-primary-orange" />
+                      </div>
+                      <div className="absolute top-1/2 -left-2 w-9 h-9 rounded-full bg-gradient-to-br from-secondary-orange/20 to-primary-orange/20 backdrop-blur-sm border border-secondary-orange/40 flex items-center justify-center animate-bounce hover:scale-125 transition-transform" style={{animationDuration: '2.8s', animationDelay: '0.7s'}}>
+                        <Zap className="w-4 h-4 text-secondary-orange" />
+                      </div>
+                      <div className="absolute top-4 left-1/2 transform -translate-x-1/2 w-8 h-8 rounded-full bg-gradient-to-br from-primary-orange/30 to-secondary-orange/30 backdrop-blur-sm border border-primary-orange/50 flex items-center justify-center animate-bounce hover:scale-125 transition-transform" style={{animationDuration: '2.4s', animationDelay: '0.4s'}}>
+                        <BarChart3 className="w-4 h-4 text-primary-orange" />
                       </div>
                     </div>
                     
-                    <h3 className="text-2xl font-bold text-gray-900">Michigan AI Hub</h3>
-                    <p className="text-base text-gray-600 font-medium">Serving Detroit, Grand Rapids, Ann Arbor & Beyond</p>
+                    <div className="space-y-3">
+                      <h3 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-gray-900 via-primary-orange to-gray-900 bg-clip-text text-transparent">
+                        Michigan AI Innovation Hub
+                      </h3>
+                      <p className="text-base md:text-lg text-gray-700 font-medium leading-relaxed">
+                        Powering the Future of <span className="text-primary-orange font-bold">Detroit</span>, <span className="text-primary-orange font-bold">Grand Rapids</span>, <span className="text-primary-orange font-bold">Ann Arbor</span> & Beyond
+                      </p>
+                    </div>
                     
-                    {/* Enhanced Tags with Animation */}
+                    {/* Animated Technology Tags */}
                     <div className="flex flex-wrap justify-center gap-3 pt-4">
                       <span className="px-4 py-2 bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 hover:from-primary-orange/20 hover:to-secondary-orange/20 text-primary-orange text-sm font-semibold rounded-full border border-primary-orange/20 hover:border-primary-orange/40 transition-all cursor-pointer hover:scale-105">
                         AI Development
@@ -468,7 +510,7 @@ export default function Home() {
                   </div>
                 </div>
 
-                {/* Enhanced Floating Elements */}
+                {/* Enhanced Floating Decorative Elements */}
                 <div className="absolute -top-6 -right-6 w-24 h-24 bg-primary-orange/20 rounded-full blur-2xl animate-bounce" style={{animationDuration: '3s'}}></div>
                 <div className="absolute -bottom-6 -left-6 w-20 h-20 bg-secondary-orange/20 rounded-full blur-2xl animate-bounce" style={{animationDuration: '4s', animationDelay: '1s'}}></div>
               </div>
