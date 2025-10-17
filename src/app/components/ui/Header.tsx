@@ -12,13 +12,6 @@ export function Header() {
     { title: "Home", href: "/" },
     { title: "About", href: "/about" },
     { title: "Services", href: "/services" },
-    { title: "AI Integration & Deployment", href: "/ai-integration-and-deployment" },
-    { title: "Generative AI Services", href: "/generative-ai-services" },
-    { title: "Custom AI Development", href: "/custom-ai-development" },
-    { title: "Machine Learning", href: "/machine-learning" },
-    { title: "Data Insights", href: "/data-insights" },
-    { title: "Data Engineering", href: "/data-engineering" },
-    { title: "Blog", href: "/blog" },
     { title: "Contact", href: "/contact" },
   ];
 

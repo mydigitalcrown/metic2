@@ -4,53 +4,47 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://metic.ai'
   const lastModified = new Date()
 
-  // Static pages
+  // Static pages with optimized priorities
   const staticPages = [
     {
       url: baseUrl,
       lastModified,
-      changeFrequency: 'weekly' as const,
+      changeFrequency: 'daily' as const,
       priority: 1.0,
     },
     {
       url: `${baseUrl}/about`,
       lastModified,
-      changeFrequency: 'monthly' as const,
+      changeFrequency: 'weekly' as const,
       priority: 0.8,
     },
     {
       url: `${baseUrl}/services`,
       lastModified,
-      changeFrequency: 'monthly' as const,
-      priority: 0.9,
+      changeFrequency: 'weekly' as const,
+      priority: 0.95,
     },
     {
       url: `${baseUrl}/contact`,
       lastModified,
       changeFrequency: 'monthly' as const,
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/blog`,
-      lastModified,
-      changeFrequency: 'weekly' as const,
-      priority: 0.6,
+      priority: 0.85,
     },
   ]
 
-  // Service pages
+  // Service pages with optimized priorities
   const servicePages = [
-    'ai-integration-and-deployment',
-    'generative-ai-services',
-    'custom-ai-development',
-    'data-engineering',
-    'data-insights',
-    'machine-learning',
+    { slug: 'ai-integration-and-deployment', priority: 0.85 },
+    { slug: 'generative-ai-services', priority: 0.85 },
+    { slug: 'custom-ai-development', priority: 0.85 },
+    { slug: 'data-engineering', priority: 0.8 },
+    { slug: 'data-insights', priority: 0.8 },
+    { slug: 'machine-learning', priority: 0.85 },
   ].map(page => ({
-    url: `${baseUrl}/${page}`,
+    url: `${baseUrl}/${page.slug}`,
     lastModified,
-    changeFrequency: 'monthly' as const,
-    priority: 0.8,
+    changeFrequency: 'weekly' as const,
+    priority: page.priority,
   }))
 
   // US states for AI services
@@ -71,42 +65,74 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'pune', 'noida', 'gurugram', 'coimbatore', 'vizag'
   ]
 
-  // AI location pages
+  // AI location pages with Michigan prioritized
   const aiLocationPages = [
-    ...usStates.map(state => ({
+    // Michigan gets highest priority for "AI Company in Michigan"
+    {
+      url: `${baseUrl}/artificial-intelligence-ai-services-in-michigan`,
+      lastModified,
+      changeFrequency: 'daily' as const,
+      priority: 0.99,
+    },
+    // Other US states
+    ...usStates.filter(state => state !== 'michigan').map(state => ({
       url: `${baseUrl}/artificial-intelligence-ai-services-in-${state}`,
       lastModified,
-      changeFrequency: 'monthly' as const,
-      priority: 0.7,
+      changeFrequency: 'weekly' as const,
+      priority: state === 'california' || state === 'new-york' || state === 'texas' ? 0.75 : 0.7,
     })),
+    // Indian cities
     ...indianCities.map(city => ({
       url: `${baseUrl}/artificial-intelligence-ai-services-in-${city}`,
       lastModified,
       changeFrequency: 'monthly' as const,
-      priority: 0.7,
+      priority: city === 'bangalore' || city === 'mumbai' ? 0.72 : 0.68,
     }))
   ]
 
-  // ML location pages
+  // ML location pages with Michigan prioritized
   const mlLocationPages = [
-    ...usStates.map(state => ({
+    // Michigan gets highest priority
+    {
+      url: `${baseUrl}/machine-learning-services-in-michigan`,
+      lastModified,
+      changeFrequency: 'daily' as const,
+      priority: 0.95,
+    },
+    // Other US states
+    ...usStates.filter(state => state !== 'michigan').map(state => ({
       url: `${baseUrl}/machine-learning-services-in-${state}`,
       lastModified,
-      changeFrequency: 'monthly' as const,
-      priority: 0.7,
+      changeFrequency: 'weekly' as const,
+      priority: state === 'california' || state === 'new-york' || state === 'texas' ? 0.72 : 0.68,
     })),
+    // Indian cities
     ...indianCities.map(city => ({
       url: `${baseUrl}/machine-learning-services-in-${city}`,
       lastModified,
       changeFrequency: 'monthly' as const,
-      priority: 0.7,
+      priority: city === 'bangalore' || city === 'mumbai' ? 0.7 : 0.65,
     }))
   ]
+
+  // Michigan-specific city pages (bonus for local SEO)
+  const michiganCities = [
+    'detroit', 'grand-rapids', 'ann-arbor', 'lansing', 'dearborn', 
+    'troy', 'warren', 'sterling-heights', 'flint', 'rochester-hills'
+  ]
+
+  const michiganCityPages = michiganCities.map(city => ({
+    url: `${baseUrl}/ai-company-${city}-michigan`,
+    lastModified,
+    changeFrequency: 'weekly' as const,
+    priority: city === 'detroit' || city === 'ann-arbor' ? 0.92 : 0.88,
+  }))
 
   return [
     ...staticPages,
     ...servicePages,
     ...aiLocationPages,
     ...mlLocationPages,
+    ...michiganCityPages,
   ]
 }
