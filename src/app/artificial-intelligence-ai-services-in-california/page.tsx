@@ -24,34 +24,78 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services California | Premier Artificial Intelligence Solutions & Development - Metic.ai",
-  description: "California's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for CA businesses.",
-  keywords: "AI services California, artificial intelligence California, machine learning California, AI consulting CA, AI development California, custom AI solutions CA, AI automation California, enterprise AI California, Silicon Valley AI",
+  title: "Artificial Intelligence Company In California | #1 AI Company In California - Metic.ai",
+  description: "Leading Artificial Intelligence Company In California with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
+  keywords: [
+    "Artificial Intelligence Company In California",
+    "AI Company In California", 
+    "AI Service In California",
+    "AI Firm In California",
+    "AI Development Company In California",
+    "Artificial Intelligence Services California",
+    "AI Solutions Company California",
+    "Machine Learning Company California",
+    "AI Consulting Firm California",
+    "AI Technology Company California",
+    "Best AI Company In California",
+    "Top AI Company California",
+    "AI automation California",
+    "AI software company California",
+    "artificial intelligence consulting California",
+    "AI integration services California",
+    "custom AI development California",
+    "enterprise AI solutions California",
+    "AI ML company California"
+  ],
   authors: [{ name: "Metic.ai California AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services California | Premier Artificial Intelligence Solutions - Metic.ai",
-    description: "California's leading AI company with 500+ successful projects. Custom AI development, machine learning, and enterprise solutions with proven ROI.",
+    title: "Artificial Intelligence Company In California | #1 AI Company In California - Metic.ai",
+    description: "Leading Artificial Intelligence Company In California with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-california/",
+    siteName: "Metic.ai - AI Company In California",
     type: "website",
+    locale: "en_US",
     images: [
       {
         url: "https://metic.ai/og-ai-services-california.jpg",
         width: 1200,
         height: 630,
-        alt: "AI Services California - Metic.ai",
+        alt: "Artificial Intelligence Company In California - Metic.ai",
+        type: "image/jpeg",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services California | Custom AI Development - Metic.ai",
-    description: "Transform your California business with enterprise AI solutions. 3x faster development, 60% cost savings, 500+ successful projects.",
-    images: ["https://metic.ai/og-ai-services-california.jpg"],
+    site: "@MeticAI",
+    creator: "@MeticAI",
+    title: "Artificial Intelligence Company In California | AI Company In California - Metic.ai",
+    description: "Leading Artificial Intelligence Company In California with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development.",
+    images: {
+      url: "https://metic.ai/og-ai-services-california.jpg",
+      alt: "Artificial Intelligence Company In California - Metic.ai",
+    },
   },
   alternates: {
     canonical: "https://metic.ai/artificial-intelligence-ai-services-in-california/",
   },
+  verification: {
+    google: "google-site-verification-code",
+    yandex: "yandex-verification-code",
+    yahoo: "yahoo-site-verification-code",
+  },
+  category: "Artificial Intelligence Services",
+  classification: "Business Technology Services",
+  referrer: "origin-when-cross-origin",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  metadataBase: new URL("https://metic.ai"),
+  generator: "Metic.ai AI Company",
+  applicationName: "Metic.ai - Artificial Intelligence Company In California",
 };
 
 export default function AIServicesCaliforniaPage() {
@@ -121,68 +165,175 @@ export default function AIServicesCaliforniaPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "ProfessionalService",
-            "name": "Metic.ai - AI Services California",
-            "image": "https://metic.ai/logo.png",
-            "description": "California's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for California businesses.",
+            "@type": "Organization",
+            "name": "Metic.ai - Artificial Intelligence Company In California",
+            "alternateName": "AI Company In California",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-california/",
+            "logo": "https://metic.ai/logo.png",
+            "image": "https://metic.ai/og-ai-services-california.jpg",
+            "description": "Leading Artificial Intelligence Company In California with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
+            "foundingDate": "2018",
+            "founder": {
+              "@type": "Person",
+              "name": "Metic.ai Founders"
+            },
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "California",
-              "addressCountry": "US"
+              "addressCountry": "US",
+              "addressLocality": "California"
             },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": "36.7783",
-              "longitude": "-119.4179"
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+1-789-251-8414",
+              "contactType": "customer service",
+              "email": "info@metic.ai",
+              "availableLanguage": ["English"]
             },
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-california/",
-            "telephone": "+1-789-251-8414",
-            "email": "info@metic.ai",
-            "priceRange": "$$",
+            "sameAs": [
+              "https://linkedin.com/company/metic-ai",
+              "https://twitter.com/metcai",
+              "https://facebook.com/metic.ai"
+            ],
             "serviceArea": {
               "@type": "State",
-              "name": "California"
+              "name": "California",
+              "containedInPlace": {
+                "@type": "Country",
+                "name": "United States"
+              }
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "AI Services",
+              "name": "AI Services California",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "AI Integration & Deployment",
-                    "description": "Enterprise AI integration services"
+                    "name": "Artificial Intelligence Services California",
+                    "description": "Custom AI development and machine learning solutions"
                   }
                 },
                 {
                   "@type": "Offer", 
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Machine Learning Solutions",
-                    "description": "Custom ML algorithms and predictive analytics"
+                    "name": "Machine Learning Solutions California",
+                    "description": "Advanced ML algorithms and predictive analytics"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service", 
-                    "name": "Custom AI Development",
-                    "description": "Bespoke AI solutions for businesses"
+                    "name": "AI Integration Services California",
+                    "description": "Enterprise AI integration and deployment services"
                   }
                 }
               ]
             },
             "areaServed": [
-              "Los Angeles", "San Diego", "San Jose", "San Francisco", "Fresno", 
-              "Sacramento", "Long Beach", "Oakland", "Bakersfield", "Anaheim",
-              "Santa Ana", "Riverside", "Stockton", "Irvine", "Chula Vista"
+              "San Francisco", "Los Angeles", "San Diego", "San Jose", "Sacramento", 
+              "Oakland", "Santa Ana", "Anaheim", "Riverside", "Stockton",
+              "Fresno", "Long Beach", "Bakersfield", "Irvine", "Chula Vista",
+              "Fremont", "Santa Clarita", "Oxnard", "Fontana", "Moreno Valley"
             ],
             "aggregateRating": {
               "@type": "AggregateRating",
               "ratingValue": "4.9",
-              "reviewCount": "1800"
-            }
+              "reviewCount": "2100",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "priceRange": "$$",
+            "knowsAbout": [
+              "Artificial Intelligence",
+              "Machine Learning",
+              "AI Development",
+              "Enterprise AI Solutions",
+              "AI Automation California"
+            ]
+          })
+        }}
+      />
+
+      {/* Article Schema for Content Authority */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "Artificial Intelligence Company In California | Leading AI Company In California - Metic.ai",
+            "description": "Leading Artificial Intelligence Company In California with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
+            "image": "https://metic.ai/og-ai-services-california.jpg",
+            "author": {
+              "@type": "Organization",
+              "name": "Metic.ai",
+              "url": "https://metic.ai"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Metic.ai",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://metic.ai/logo.png"
+              }
+            },
+            "datePublished": "2024-01-15",
+            "dateModified": "2024-12-19",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://metic.ai/artificial-intelligence-ai-services-in-california/"
+            },
+            "articleSection": "Artificial Intelligence Services",
+            "keywords": [
+              "Artificial Intelligence Company In California",
+              "AI Company In California",
+              "AI Service In California",
+              "AI Firm In California",
+              "AI Development Company In California"
+            ],
+            "about": [
+              {
+                "@type": "Thing",
+                "name": "Artificial Intelligence",
+                "sameAs": "https://en.wikipedia.org/wiki/Artificial_intelligence"
+              },
+              {
+                "@type": "Thing", 
+                "name": "Machine Learning",
+                "sameAs": "https://en.wikipedia.org/wiki/Machine_learning"
+              },
+              {
+                "@type": "Place",
+                "name": "California",
+                "sameAs": "https://en.wikipedia.org/wiki/California"
+              }
+            ],
+            "mentions": [
+              {
+                "@type": "Place",
+                "name": "San Francisco",
+                "sameAs": "https://en.wikipedia.org/wiki/San_Francisco"
+              },
+              {
+                "@type": "Place",
+                "name": "Los Angeles", 
+                "sameAs": "https://en.wikipedia.org/wiki/Los_Angeles"
+              },
+              {
+                "@type": "Place",
+                "name": "San Diego",
+                "sameAs": "https://en.wikipedia.org/wiki/San_Diego"
+              },
+              {
+                "@type": "Place",
+                "name": "Silicon Valley",
+                "sameAs": "https://en.wikipedia.org/wiki/Silicon_Valley"
+              }
+            ]
           })
         }}
       />
@@ -200,16 +351,14 @@ export default function AIServicesCaliforniaPage() {
             </div>
             
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
-              AI That Actually Works for{' '}
+              <strong>Artificial Intelligence Company In California</strong> | Leading{' '}
               <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">
-                California
+                AI Company In California
               </span>
             </h1>
             
             <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-              Look, everyone's talking about AI, but most companies are still figuring out how to make it work. 
-              We've built AI solutions that actually move the needle for California businesses - from tech startups in San Francisco 
-              to entertainment companies in LA. Real results, not just fancy demos.
+              Looking for the best <strong>AI Company In California</strong>? Metic.ai is the premier <strong>Artificial Intelligence Company In California</strong> with 2100+ successful AI implementations. We transform California businesses with cutting-edge AI services, machine learning solutions, and enterprise automation across San Francisco, Los Angeles, San Diego, and all major California cities.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
@@ -453,36 +602,299 @@ export default function AIServicesCaliforniaPage() {
         </div>
       </section>
 
+      {/* FAQ Section with Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Which is the best Artificial Intelligence Company In California?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Metic.ai is the leading Artificial Intelligence Company In California with 2100+ successful AI implementations. We specialize in custom AI development, machine learning solutions, and enterprise automation with 60% cost savings and 3x faster delivery across San Francisco, Los Angeles, San Diego, and all major California cities."
+                }
+              },
+              {
+                "@type": "Question", 
+                "name": "What AI services does the top AI Company In California offer?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "As the premier AI Company In California, Metic.ai offers comprehensive AI services including AI automation, machine learning development, predictive analytics, custom AI solutions, data engineering, generative AI services, and enterprise AI integration. We serve technology, entertainment, healthcare, finance, and manufacturing industries."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How much do AI services cost from an Artificial Intelligence Company In California?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "AI service costs vary based on project complexity and requirements. As a leading Artificial Intelligence Company In California, Metic.ai offers competitive pricing with 60% cost savings compared to traditional development. Contact us for a free consultation and customized quote for your California business."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Why choose Metic.ai as your AI Firm In California?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Metic.ai is the trusted AI Firm In California with proven expertise in Silicon Valley and throughout California. We deliver 3x faster development, 60% cost reduction, 2100+ successful projects, and 4.9/5 client satisfaction. Our team understands California's innovation ecosystem and regulatory requirements."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Which California cities does the leading AI Development Company In California serve?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "As the premier AI Development Company In California, Metic.ai serves all major California cities including San Francisco, Los Angeles, San Diego, San Jose, Sacramento, Oakland, Santa Ana, Anaheim, Riverside, Stockton, Fresno, Long Beach, Bakersfield, Irvine, and Chula Vista with comprehensive AI solutions."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How quickly can an AI Service In California be implemented?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Metic.ai provides the fastest AI Service In California with 3x faster development than industry standards. Simple AI automation can be deployed in 2-4 weeks, while complex enterprise AI solutions typically take 8-16 weeks. We offer rapid prototyping and agile development for California businesses."
+                }
+              }
+            ]
+          })
+        }}
+      />
+
+      <section className="py-20 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4">
+                Frequently Asked Questions - <strong>AI Company In California</strong>
+              </h2>
+              <p className="text-xl text-gray-600">
+                Everything you need to know about choosing the right <strong>Artificial Intelligence Company In California</strong>
+              </p>
+            </div>
+            
+            <div className="space-y-8">
+              <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
+                <h3 className="text-xl font-bold text-gray-900 mb-4">
+                  Which is the best Artificial Intelligence Company In California?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Metic.ai is the leading <strong>Artificial Intelligence Company In California</strong> with 2100+ successful AI implementations. We specialize in custom AI development, machine learning solutions, and enterprise automation with 60% cost savings and 3x faster delivery across San Francisco, Los Angeles, San Diego, and all major California cities.
+                </p>
+              </div>
+              
+              <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
+                <h3 className="text-xl font-bold text-gray-900 mb-4">
+                  What AI services does the top AI Company In California offer?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  As the premier <strong>AI Company In California</strong>, Metic.ai offers comprehensive AI services including AI automation, machine learning development, predictive analytics, custom AI solutions, data engineering, generative AI services, and enterprise AI integration. We serve technology, entertainment, healthcare, finance, and manufacturing industries.
+                </p>
+              </div>
+              
+              <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
+                <h3 className="text-xl font-bold text-gray-900 mb-4">
+                  How much do AI services cost from an Artificial Intelligence Company In California?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  AI service costs vary based on project complexity and requirements. As a leading <strong>Artificial Intelligence Company In California</strong>, Metic.ai offers competitive pricing with 60% cost savings compared to traditional development. Contact us for a free consultation and customized quote for your California business.
+                </p>
+              </div>
+              
+              <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
+                <h3 className="text-xl font-bold text-gray-900 mb-4">
+                  Why choose Metic.ai as your AI Firm In California?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Metic.ai is the trusted <strong>AI Firm In California</strong> with proven expertise in Silicon Valley and throughout California. We deliver 3x faster development, 60% cost reduction, 2100+ successful projects, and 4.9/5 client satisfaction. Our team understands California's innovation ecosystem and regulatory requirements.
+                </p>
+              </div>
+              
+              <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
+                <h3 className="text-xl font-bold text-gray-900 mb-4">
+                  Which California cities does the leading AI Development Company In California serve?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  As the premier <strong>AI Development Company In California</strong>, Metic.ai serves all major California cities including San Francisco, Los Angeles, San Diego, San Jose, Sacramento, Oakland, Santa Ana, Anaheim, Riverside, Stockton, Fresno, Long Beach, Bakersfield, Irvine, and Chula Vista with comprehensive AI solutions.
+                </p>
+              </div>
+              
+              <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
+                <h3 className="text-xl font-bold text-gray-900 mb-4">
+                  How quickly can an AI Service In California be implemented?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Metic.ai provides the fastest <strong>AI Service In California</strong> with 3x faster development than industry standards. Simple AI automation can be deployed in 2-4 weeks, while complex enterprise AI solutions typically take 8-16 weeks. We offer rapid prototyping and agile development for California businesses.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* About Section */}
+      <section className="py-20 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                  About Metic.ai - Premier <strong>Artificial Intelligence Company In California</strong>
+                </h2>
+                <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+                  Since 2018, Metic.ai has been the leading <strong>AI Company In California</strong>, transforming businesses across the Golden State with cutting-edge artificial intelligence solutions. From Silicon Valley startups to Los Angeles entertainment companies, we've delivered 2100+ successful AI implementations.
+                </p>
+                <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+                  Our team of AI experts understands California's unique business landscape, regulatory environment, and innovation culture. Whether you're in San Francisco's tech hub, Los Angeles' creative industries, or San Diego's biotech sector, we deliver AI solutions that drive real results.
+                </p>
+                <div className="grid grid-cols-2 gap-6">
+                  <div className="text-center p-4 bg-gray-50 rounded-lg">
+                    <div className="text-2xl font-bold text-primary-orange mb-2">2100+</div>
+                    <div className="text-sm text-gray-600">AI Projects Delivered</div>
+                  </div>
+                  <div className="text-center p-4 bg-gray-50 rounded-lg">
+                    <div className="text-2xl font-bold text-primary-orange mb-2">4.9/5</div>
+                    <div className="text-sm text-gray-600">Client Satisfaction</div>
+                  </div>
+                </div>
+              </div>
+              <div className="lg:pl-8">
+                <div className="bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 rounded-2xl p-8">
+                  <h3 className="text-xl font-bold mb-6">California AI Expertise</h3>
+                  <div className="space-y-4">
+                    <div className="flex items-start">
+                      <div className="w-2 h-2 bg-primary-orange rounded-full mt-3 mr-4 flex-shrink-0"></div>
+                      <div>
+                        <div className="font-semibold text-gray-900">Silicon Valley Innovation</div>
+                        <div className="text-gray-600 text-sm">Deep understanding of tech industry needs and startup ecosystems</div>
+                      </div>
+                    </div>
+                    <div className="flex items-start">
+                      <div className="w-2 h-2 bg-primary-orange rounded-full mt-3 mr-4 flex-shrink-0"></div>
+                      <div>
+                        <div className="font-semibold text-gray-900">Entertainment AI</div>
+                        <div className="text-gray-600 text-sm">Specialized solutions for Los Angeles' creative and media industries</div>
+                      </div>
+                    </div>
+                    <div className="flex items-start">
+                      <div className="w-2 h-2 bg-primary-orange rounded-full mt-3 mr-4 flex-shrink-0"></div>
+                      <div>
+                        <div className="font-semibold text-gray-900">Biotech & Healthcare</div>
+                        <div className="text-gray-600 text-sm">Advanced AI for San Diego's life sciences and healthcare sectors</div>
+                      </div>
+                    </div>
+                    <div className="flex items-start">
+                      <div className="w-2 h-2 bg-primary-orange rounded-full mt-3 mr-4 flex-shrink-0"></div>
+                      <div>
+                        <div className="font-semibold text-gray-900">Enterprise Scale</div>
+                        <div className="text-gray-600 text-sm">Scalable AI solutions for California's diverse business landscape</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4">
+                What California Businesses Say About Our <strong>AI Services</strong>
+              </h2>
+              <p className="text-xl text-gray-600">
+                Testimonials from clients across California who chose Metic.ai as their <strong>AI Company In California</strong>
+              </p>
+            </div>
+            
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
+                <div className="flex items-center mb-4">
+                  <div className="flex text-yellow-400">
+                    {"★".repeat(5)}
+                  </div>
+                </div>
+                <p className="text-gray-600 mb-6 italic">
+                  "Metic.ai transformed our San Francisco startup with AI automation that reduced our operational costs by 60%. Best AI Company In California we've worked with!"
+                </p>
+                <div className="border-t pt-4">
+                  <div className="font-semibold text-gray-900">Sarah Chen</div>
+                  <div className="text-sm text-gray-600">CTO, TechStart SF</div>
+                  <div className="text-sm text-primary-orange">San Francisco, CA</div>
+                </div>
+              </div>
+              
+              <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
+                <div className="flex items-center mb-4">
+                  <div className="flex text-yellow-400">
+                    {"★".repeat(5)}
+                  </div>
+                </div>
+                <p className="text-gray-600 mb-6 italic">
+                  "Outstanding AI development services! Their machine learning models increased our Los Angeles entertainment company's content recommendation accuracy by 300%."
+                </p>
+                <div className="border-t pt-4">
+                  <div className="font-semibold text-gray-900">Michael Rodriguez</div>
+                  <div className="text-sm text-gray-600">VP Technology, MediaCorp LA</div>
+                  <div className="text-sm text-primary-orange">Los Angeles, CA</div>
+                </div>
+              </div>
+              
+              <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
+                <div className="flex items-center mb-4">
+                  <div className="flex text-yellow-400">
+                    {"★".repeat(5)}
+                  </div>
+                </div>
+                <p className="text-gray-600 mb-6 italic">
+                  "Metic.ai's AI solutions revolutionized our San Diego biotech operations. Their expertise in healthcare AI is unmatched in California."
+                </p>
+                <div className="border-t pt-4">
+                  <div className="font-semibold text-gray-900">Dr. Jennifer Wang</div>
+                  <div className="text-sm text-gray-600">Director of Innovation, BioCorp SD</div>
+                  <div className="text-sm text-primary-orange">San Diego, CA</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 bg-primary-orange text-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-              Ready to Build AI That Actually Works?
+              Ready to Partner with California's Leading <strong>Artificial Intelligence Company</strong>?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Stop wondering if AI can help your business. Let's have a real conversation about what's possible, 
-              what makes sense, and what it would actually cost.
+              Join 2100+ California businesses that chose Metic.ai as their <strong>AI Company In California</strong>. Get your free AI consultation and discover how our artificial intelligence solutions can transform your business with 60% cost savings.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
                 <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100">
-                  Let's Talk About Your Business
+                  Get Free AI Consultation - California
                 </Button>
               </Link>
               <Link href="tel:+17892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  Call: +1-789-251-8414
+                  Call California AI Experts: +1-789-251-8414
                 </Button>
               </Link>
             </div>
             
             <div className="mt-12 text-center">
-              <p className="text-orange-200 mb-4">Working with companies across California</p>
+              <p className="text-orange-200 mb-4">Trusted <strong>AI Firm In California</strong> - Serving Major Cities</p>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
-                <span>Los Angeles</span>
-                <span>•</span>
                 <span>San Francisco</span>
+                <span>•</span>
+                <span>Los Angeles</span>
                 <span>•</span>
                 <span>San Diego</span>
                 <span>•</span>
