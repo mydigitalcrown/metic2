@@ -37,6 +37,54 @@ Purpose: help an AI coding agent be immediately productive in this repo by calli
 - Target keyword in H1 and first paragraph. Use `<strong>` for emphasis when appropriate.
 - FAQ sections must include JSON-LD FAQ schema when present.
 
+## COMPLETE SEO OPTIMIZATION FRAMEWORK (based on Ahmedabad page)
+
+For 100% on-page SEO, VSO, ASO, and GEO optimization:
+
+**Metadata Template (copy exactly):**
+```ts
+export const metadata = {
+  title: "Artificial Intelligence Company In {LOCATION} | #1 AI Company In {STATE/REGION} - Metic.ai",
+  description: "Leading Artificial Intelligence Company In {LOCATION} with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
+  keywords: [
+    "Artificial Intelligence Company In {LOCATION}",
+    "AI Company In {LOCATION}",
+    "AI Service In {LOCATION}", 
+    "AI Firm In {LOCATION}",
+    "AI Development Company In {LOCATION}",
+    "Best AI Company In {LOCATION}",
+    "Top AI Company {STATE/REGION}",
+    // Add 12 more supporting keywords
+  ],
+  openGraph: {
+    title: "Artificial Intelligence Company In {LOCATION} | #1 AI Company In {STATE/REGION} - Metic.ai",
+    siteName: "Metic.ai - AI Company In {LOCATION}",
+    // Enhanced OG metadata
+  }
+}
+```
+
+**Required Content Sections:**
+1. **Hero H1:** `<strong>Artificial Intelligence Company In {LOCATION}</strong> | Leading AI Company In {STATE/REGION}`
+2. **Hero Description:** Must include "Looking for the best AI Company In {LOCATION}? Metic.ai is the premier Artificial Intelligence Company In {LOCATION}"
+3. **FAQ Section:** 6 questions with JSON-LD schema (see Ahmedabad page for exact format)
+4. **About Section:** Company authority with local focus
+5. **Testimonials:** Client reviews mentioning location
+6. **Enhanced CTA:** Keywords in headlines
+
+**Triple Schema Implementation:**
+- Organization schema with location data
+- FAQ schema (6 strategic questions)  
+- Article schema for content authority
+
+**VSO Keywords in Content:**
+- "Looking for the best..."
+- "Which is the leading..."
+- Natural language throughout
+- Supporting keywords in badges/tags
+
+Reference `src/app/artificial-intelligence-ai-services-in-ahmedabad/page.tsx` as the complete optimization template.
+
 7) Small gotchas
 - If Tailwind classes don’t apply, run `npm run build` to regenerate CSS and check `content` globs in `tailwind.config.js`.
 - For missing icons, verify `lucide-react` import names and casing.
