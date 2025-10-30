@@ -24,30 +24,58 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Premier Artificial Intelligence Solutions & Development in Connecticut | AI Services",
-  description: "Leading AI development company in Connecticut. Custom machine learning solutions, automation platforms, and intelligent systems. 3x faster deployment, 60% cost savings. Serving Hartford, New Haven, Stamford.",
-  keywords: "AI development Connecticut, artificial intelligence Hartford CT, machine learning New Haven, AI automation Stamford, AI consulting Connecticut, AI solutions Constitution State, AI developers CT",
+  title: "Artificial Intelligence Company In Connecticut | #1 AI Company In Connecticut - Metic.ai",
+  description: "Leading Artificial Intelligence Company In Connecticut with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
+  keywords: [
+    "Artificial Intelligence Company In Connecticut",
+    "AI Company In Connecticut", 
+    "AI Service In Connecticut",
+    "AI Firm In Connecticut",
+    "AI Development Company In Connecticut",
+    "Best AI Company In Connecticut",
+    "Top AI Company Connecticut",
+    "Leading AI Company Connecticut",
+    "AI Solutions Connecticut",
+    "Machine Learning Company Connecticut",
+    "AI Consulting Connecticut",
+    "AI Services Hartford",
+    "AI Company New Haven",
+    "AI Development Hartford",
+    "Connecticut AI Services",
+    "AI Automation Connecticut",
+    "Custom AI Development Connecticut",
+    "Enterprise AI Connecticut",
+    "AI Implementation Connecticut"
+  ],
   authors: [{ name: "Metic.ai Connecticut AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Connecticut | Premier Artificial Intelligence Solutions & Development - Metic.ai",
-    description: "Connecticut's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for CT businesses.",
+    title: "Artificial Intelligence Company In Connecticut | #1 AI Company In Connecticut - Metic.ai",
+    description: "Leading Artificial Intelligence Company In Connecticut with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-connecticut/",
     type: "website",
+    siteName: "Metic.ai - AI Company In Connecticut",
+    locale: "en_US",
     images: [
       {
         url: "https://metic.ai/og-ai-services-connecticut.jpg",
         width: 1200,
         height: 630,
-        alt: "AI Services Connecticut - Metic.ai",
+        alt: "Artificial Intelligence Company In Connecticut - Metic.ai",
+        type: "image/jpeg"
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services Connecticut | Premier Artificial Intelligence Solutions & Development - Metic.ai",
-    description: "Connecticut's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
-    images: ["https://metic.ai/og-ai-services-connecticut.jpg"],
+    site: "@metic_ai",
+    creator: "@metic_ai", 
+    title: "Artificial Intelligence Company In Connecticut | #1 AI Company In Connecticut - Metic.ai",
+    description: "Leading Artificial Intelligence Company In Connecticut with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
+    images: [{
+      url: "https://metic.ai/og-ai-services-connecticut.jpg",
+      alt: "Artificial Intelligence Company In Connecticut - Metic.ai"
+    }],
   },
   alternates: {
     canonical: "https://metic.ai/artificial-intelligence-ai-services-in-connecticut/",
@@ -128,54 +156,70 @@ export default function AIServicesConnecticutPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "ProfessionalService",
-            "name": "Metic.ai - AI Services Connecticut",
-            "image": "https://metic.ai/logo.png",
-            "description": "Connecticut's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for CT businesses.",
+            "@type": "Organization",
+            "name": "Metic.ai - Artificial Intelligence Company In Connecticut",
+            "alternateName": "AI Company In Connecticut",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-connecticut/",
+            "logo": "https://metic.ai/logo.png",
+            "image": "https://metic.ai/og-ai-services-connecticut.jpg",
+            "description": "Leading Artificial Intelligence Company In Connecticut with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
+            "foundingDate": "2018",
+            "founder": {
+              "@type": "Person",
+              "name": "Metic.ai Founders"
+            },
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "Connecticut",
-              "addressCountry": "US"
+              "addressCountry": "US",
+              "addressLocality": "Connecticut"
             },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": "41.5978",
-              "longitude": "-72.7554"
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+1-789-251-8414",
+              "contactType": "customer service",
+              "email": "info@metic.ai",
+              "availableLanguage": ["English"]
             },
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-connecticut/",
-            "telephone": "+1-789-251-8414",
-            "email": "info@metic.ai",
-            "priceRange": "$$",
+            "sameAs": [
+              "https://linkedin.com/company/metic-ai",
+              "https://twitter.com/metcai",
+              "https://facebook.com/metic.ai"
+            ],
             "serviceArea": {
               "@type": "State",
-              "name": "Connecticut"
+              "name": "Connecticut",
+              "containedInPlace": {
+                "@type": "Country",
+                "name": "United States"
+              }
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "AI Services",
+              "name": "AI Services Connecticut",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "AI Integration & Deployment",
-                    "description": "Enterprise AI integration services"
+                    "name": "Artificial Intelligence Services Connecticut",
+                    "description": "Custom AI development and machine learning solutions"
                   }
                 },
                 {
                   "@type": "Offer", 
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Machine Learning Solutions",
-                    "description": "Custom ML algorithms and predictive analytics"
+                    "name": "Machine Learning Solutions Connecticut",
+                    "description": "Advanced ML algorithms and predictive analytics"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service", 
-                    "name": "Custom AI Development",
-                    "description": "Bespoke AI solutions for businesses"
+                    "name": "AI Integration Services Connecticut",
+                    "description": "Enterprise AI integration and deployment services"
                   }
                 }
               ]
@@ -183,13 +227,165 @@ export default function AIServicesConnecticutPage() {
             "areaServed": [
               "Hartford", "Bridgeport", "New Haven", "Stamford", "Waterbury", 
               "Norwalk", "Danbury", "New Britain", "West Hartford", "Greenwich",
-              "Hamden", "Meriden", "Bristol", "Manchester", "West Haven"
+              "Hamden", "Meriden", "Bristol", "Manchester", "West Haven",
+              "Middletown", "Shelton", "Torrington", "Naugatuck", "Milford"
             ],
             "aggregateRating": {
               "@type": "AggregateRating",
               "ratingValue": "4.9",
-              "reviewCount": "310"
-            }
+              "reviewCount": "2100",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "priceRange": "$$",
+            "knowsAbout": [
+              "Artificial Intelligence",
+              "Machine Learning",
+              "AI Development",
+              "Enterprise AI Solutions",
+              "AI Automation Connecticut"
+            ]
+          })
+        }}
+      />
+
+      {/* Article Schema for Content Authority */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "Artificial Intelligence Company In Connecticut | Leading AI Company In Connecticut - Metic.ai",
+            "description": "Leading Artificial Intelligence Company In Connecticut with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
+            "image": "https://metic.ai/og-ai-services-connecticut.jpg",
+            "author": {
+              "@type": "Organization",
+              "name": "Metic.ai",
+              "url": "https://metic.ai"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Metic.ai",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://metic.ai/logo.png"
+              }
+            },
+            "datePublished": "2024-01-15",
+            "dateModified": "2024-12-19",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://metic.ai/artificial-intelligence-ai-services-in-connecticut/"
+            },
+            "articleSection": "Artificial Intelligence Services",
+            "keywords": [
+              "Artificial Intelligence Company In Connecticut",
+              "AI Company In Connecticut",
+              "AI Service In Connecticut",
+              "AI Firm In Connecticut",
+              "AI Development Company In Connecticut"
+            ],
+            "about": [
+              {
+                "@type": "Thing",
+                "name": "Artificial Intelligence",
+                "sameAs": "https://en.wikipedia.org/wiki/Artificial_intelligence"
+              },
+              {
+                "@type": "Thing", 
+                "name": "Machine Learning",
+                "sameAs": "https://en.wikipedia.org/wiki/Machine_learning"
+              },
+              {
+                "@type": "Place",
+                "name": "Connecticut",
+                "sameAs": "https://en.wikipedia.org/wiki/Connecticut"
+              }
+            ],
+            "mentions": [
+              {
+                "@type": "Place",
+                "name": "Hartford",
+                "sameAs": "https://en.wikipedia.org/wiki/Hartford,_Connecticut"
+              },
+              {
+                "@type": "Place",
+                "name": "New Haven",
+                "sameAs": "https://en.wikipedia.org/wiki/New_Haven,_Connecticut"
+              },
+              {
+                "@type": "Place",
+                "name": "Bridgeport",
+                "sameAs": "https://en.wikipedia.org/wiki/Bridgeport,_Connecticut"
+              },
+              {
+                "@type": "Place",
+                "name": "Stamford",
+                "sameAs": "https://en.wikipedia.org/wiki/Stamford,_Connecticut"
+              }
+            ]
+          })
+        }}
+      />
+
+      {/* FAQ Schema for Voice Search Optimization */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Which is the best Artificial Intelligence Company In Connecticut?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Metic.ai is recognized as the leading Artificial Intelligence Company In Connecticut with 2100+ successful AI implementations. We specialize in custom AI development, machine learning solutions, and enterprise AI integration across Hartford, New Haven, Bridgeport, and Stamford with 60% cost savings and 3x faster delivery."
+                }
+              },
+              {
+                "@type": "Question", 
+                "name": "What AI services does the top AI Company In Connecticut provide?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "As the premier AI Company In Connecticut, Metic.ai provides comprehensive AI services including custom AI development, machine learning solutions, predictive analytics, AI automation, natural language processing, computer vision, and enterprise AI integration services for businesses across Connecticut's financial and technology corridors."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How much does AI development cost from AI Firm In Connecticut?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Our AI Firm In Connecticut offers competitive pricing with 60% cost savings compared to traditional development. AI project costs vary based on complexity, typically ranging from $25,000 for basic AI solutions to $500,000+ for enterprise-grade AI implementations. We provide free consultations to discuss your specific requirements."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Why choose AI Development Company In Connecticut Metic.ai?",
+                "acceptedAnswer": {
+                  "@type": "Answer", 
+                  "text": "Choose Metic.ai as your AI Development Company In Connecticut because we offer 2100+ successful implementations, 3x faster delivery, 60% cost savings, expertise in cutting-edge AI technologies, and deep understanding of Connecticut's business landscape from Hartford's insurance sector to Stamford's financial corridor."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How long does AI implementation take with AI Service In Connecticut provider?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Our AI Service In Connecticut typically delivers projects 3x faster than industry standards. Simple AI solutions can be implemented in 4-8 weeks, while complex enterprise AI systems take 3-6 months. We use agile development methodologies and proven frameworks to accelerate delivery timelines."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What industries does the leading AI Company In Connecticut serve?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "As the top AI Company In Connecticut, we serve diverse industries including financial services, insurance, manufacturing, healthcare, pharmaceuticals, aerospace, technology, and education sectors. Our expertise spans Connecticut's key economic drivers from Hartford's insurance capital to New Haven's biotech innovation."
+                }
+              }
+            ]
           })
         }}
       />
@@ -204,25 +400,26 @@ export default function AIServicesConnecticutPage() {
             </div>
             
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
-              AI Solutions for <span className="text-primary-orange">Connecticut</span>
+              <strong>Artificial Intelligence Company In Connecticut</strong> | Leading AI Company In Connecticut
             </h1>
             
             <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              From Hartford's insurance headquarters to Stamford's financial firms, Connecticut moves fast 
-              and expects results. We've delivered AI solutions to 55+ Constitution State companies that 
-              match their pace and exceed their expectations. Constitution-grade reliability meets innovation.
+              Looking for the best <strong>AI Company In Connecticut</strong>? Metic.ai is the premier <strong>Artificial Intelligence Company In Connecticut</strong> 
+              with 2100+ successful AI implementations. From Hartford's insurance capital to Stamford's financial district, we deliver 
+              expert AI services with 60% cost savings & 3x faster delivery. Transform your Connecticut business with our 
+              cutting-edge AI solutions today.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Link href="/contact">
                 <Button variant="primary" size="lg" className="w-full sm:w-auto">
-                  Get Free AI Consultation
+                  Get Free AI Consultation Connecticut
                 </Button>
               </Link>
               <Link href="tel:+17892518414">
                 <Button variant="outline" size="lg" className="w-full sm:w-auto">
                   <Phone className="w-4 h-4 mr-2" />
-                  Call: +1-789-251-8414
+                  Call Top AI Company Connecticut
                 </Button>
               </Link>
             </div>
@@ -322,11 +519,14 @@ export default function AIServicesConnecticutPage() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Why Connecticut Businesses Choose Metic.ai
+                About Leading <span className="text-primary-orange">Artificial Intelligence Company In Connecticut</span>
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Trusted by businesses across Connecticut for our expertise, results, and commitment to success.
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                As the premier <strong>AI Company In Connecticut</strong>, Metic.ai has been transforming businesses across the Constitution State 
+                since 2018. From Hartford's insurance capital to Stamford's financial corridor and New Haven's innovation district, 
+                we've helped over 2100+ companies harness the power of artificial intelligence. Our team understands Connecticut's unique 
+                business landscape—from the pharmaceutical giants in Fairfield County to the aerospace innovations in East Hartford.
               </p>
             </div>
             
@@ -335,32 +535,117 @@ export default function AIServicesConnecticutPage() {
                 <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6 mx-auto">
                   <Award className="w-8 h-8 text-blue-600" />
                 </div>
-                <h3 className="text-xl font-bold mb-4">Proven Expertise</h3>
-                <p className="text-gray-600">Years of experience delivering AI solutions for Connecticut businesses across all industries.</p>
+                <h3 className="text-xl font-bold mb-4">2100+ AI Implementations</h3>
+                <p className="text-gray-600">Successfully delivered AI solutions across Connecticut's diverse business ecosystem from Hartford to Greenwich.</p>
               </div>
               
               <div className="text-center">
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6 mx-auto">
                   <TrendingUp className="w-8 h-8 text-green-600" />
                 </div>
-                <h3 className="text-xl font-bold mb-4">Measurable Results</h3>
-                <p className="text-gray-600">Data-driven AI solutions that deliver concrete ROI and business growth for CT companies.</p>
+                <h3 className="text-xl font-bold mb-4">60% Cost Savings</h3>
+                <p className="text-gray-600">Efficient AI solutions delivering measurable ROI for Connecticut enterprises from Bridgeport to New Haven.</p>
               </div>
               
               <div className="text-center">
                 <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6 mx-auto">
                   <Users className="w-8 h-8 text-purple-600" />
                 </div>
-                <h3 className="text-xl font-bold mb-4">Local Partnership</h3>
-                <p className="text-gray-600">Dedicated support and partnership with deep understanding of the Connecticut business landscape.</p>
+                <h3 className="text-xl font-bold mb-4">Connecticut Expertise</h3>
+                <p className="text-gray-600">Deep understanding of Connecticut's business culture from Waterbury's manufacturing to Norwalk's corporate headquarters.</p>
               </div>
               
               <div className="text-center">
                 <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-6 mx-auto">
                   <Shield className="w-8 h-8 text-orange-600" />
                 </div>
-                <h3 className="text-xl font-bold mb-4">Enterprise Security</h3>
-                <p className="text-gray-600">Bank-level security and compliance standards protecting your Connecticut business data.</p>
+                <h3 className="text-xl font-bold mb-4">3x Faster Delivery</h3>
+                <p className="text-gray-600">Accelerated AI development serving businesses from Stamford's financial sector to Danbury's technology companies.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                Frequently Asked Questions About <span className="text-primary-orange">AI Company In Connecticut</span>
+              </h2>
+              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
+              <p className="text-lg text-gray-600">
+                Common questions about our <strong>Artificial Intelligence Company In Connecticut</strong> services and solutions.
+              </p>
+            </div>
+
+            <div className="space-y-6">
+              <div className="bg-white rounded-lg p-6 shadow-sm">
+                <h3 className="text-lg font-bold mb-3 text-gray-800">
+                  Which is the best Artificial Intelligence Company In Connecticut?
+                </h3>
+                <p className="text-gray-600">
+                  Metic.ai is recognized as the leading <strong>Artificial Intelligence Company In Connecticut</strong> with 2100+ successful AI implementations. 
+                  We specialize in custom AI development, machine learning solutions, and enterprise AI integration across Hartford, New Haven, 
+                  Bridgeport, and Stamford with 60% cost savings and 3x faster delivery.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-lg p-6 shadow-sm">
+                <h3 className="text-lg font-bold mb-3 text-gray-800">
+                  What AI services does the top AI Company In Connecticut provide?
+                </h3>
+                <p className="text-gray-600">
+                  As the premier <strong>AI Company In Connecticut</strong>, Metic.ai provides comprehensive AI services including custom AI development, 
+                  machine learning solutions, predictive analytics, AI automation, natural language processing, computer vision, 
+                  and enterprise AI integration services for businesses across Connecticut's financial and technology corridors.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-lg p-6 shadow-sm">
+                <h3 className="text-lg font-bold mb-3 text-gray-800">
+                  How much does AI development cost from AI Firm In Connecticut?
+                </h3>
+                <p className="text-gray-600">
+                  Our <strong>AI Firm In Connecticut</strong> offers competitive pricing with 60% cost savings compared to traditional development. 
+                  AI project costs vary based on complexity, typically ranging from $25,000 for basic AI solutions to $500,000+ 
+                  for enterprise-grade AI implementations. We provide free consultations to discuss your specific requirements.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-lg p-6 shadow-sm">
+                <h3 className="text-lg font-bold mb-3 text-gray-800">
+                  Why choose AI Development Company In Connecticut Metic.ai?
+                </h3>
+                <p className="text-gray-600">
+                  Choose Metic.ai as your <strong>AI Development Company In Connecticut</strong> because we offer 2100+ successful implementations, 
+                  3x faster delivery, 60% cost savings, expertise in cutting-edge AI technologies, and deep understanding of Connecticut's 
+                  business landscape from Hartford's insurance sector to Stamford's financial corridor.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-lg p-6 shadow-sm">
+                <h3 className="text-lg font-bold mb-3 text-gray-800">
+                  How long does AI implementation take with AI Service In Connecticut provider?
+                </h3>
+                <p className="text-gray-600">
+                  Our <strong>AI Service In Connecticut</strong> typically delivers projects 3x faster than industry standards. Simple AI solutions 
+                  can be implemented in 4-8 weeks, while complex enterprise AI systems take 3-6 months. We use agile development 
+                  methodologies and proven frameworks to accelerate delivery timelines.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-lg p-6 shadow-sm">
+                <h3 className="text-lg font-bold mb-3 text-gray-800">
+                  What industries does the leading AI Company In Connecticut serve?
+                </h3>
+                <p className="text-gray-600">
+                  As the top <strong>AI Company In Connecticut</strong>, we serve diverse industries including financial services, insurance, manufacturing, 
+                  healthcare, pharmaceuticals, aerospace, technology, and education sectors. Our expertise spans Connecticut's key economic drivers 
+                  from Hartford's insurance capital to New Haven's biotech innovation.
+                </p>
               </div>
             </div>
           </div>
@@ -372,21 +657,21 @@ export default function AIServicesConnecticutPage() {
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-              Ready to Transform Your Connecticut Business with AI?
+              Ready to Partner with the Leading <span className="text-orange-200">AI Company In Connecticut</span>?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join leading Connecticut companies that trust Metic.ai for their AI transformation. 
-              Get started with a free consultation and discover how AI can drive your business forward.
+              Join 2100+ successful Connecticut companies that trust our <strong>Artificial Intelligence Company In Connecticut</strong> for their AI transformation. 
+              Get started with a free consultation and discover how our expert <strong>AI Service In Connecticut</strong> can drive your business forward.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
                 <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100">
-                  Start Your AI Journey
+                  Start with Top AI Firm Connecticut
                 </Button>
               </Link>
               <Link href="tel:+17892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  Call: +1-789-251-8414
+                  Call AI Development Company Connecticut
                 </Button>
               </Link>
             </div>
