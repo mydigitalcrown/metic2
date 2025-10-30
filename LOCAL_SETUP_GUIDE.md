@@ -82,7 +82,29 @@ npm run build
 npm run start
 ```
 
-## Step 5: Making Changes and Pushing to Git
+**Note**: If you encounter font-loading errors during offline builds, see the [Offline Mode Guide](./OFFLINE_MODE.md) for instructions on using system fonts.
+
+## Step 5: VS Code Setup (Automatic)
+
+This project includes pre-configured VS Code settings:
+
+When you first open the project in VS Code, you'll see a prompt to install recommended extensions. Click **"Install All"** to get:
+- Prettier (code formatting)
+- ESLint (code quality)
+- Tailwind CSS IntelliSense
+- React snippets
+- GitLens (enhanced Git)
+- And more!
+
+These extensions will automatically:
+- Format your code on save
+- Highlight errors in real-time
+- Provide autocomplete for Tailwind classes
+- Show Git blame information
+
+See [.vscode/README.md](./.vscode/README.md) for more details.
+
+## Step 6: Making Changes and Pushing to Git
 
 ### 1. Check What Files Changed:
 ```bash
