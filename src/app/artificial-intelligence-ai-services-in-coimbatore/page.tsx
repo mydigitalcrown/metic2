@@ -24,34 +24,78 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Premier Artificial Intelligence Solutions & Development in Coimbatore | AI Services",
-  description: "Leading AI development company in Coimbatore. Custom machine learning solutions, automation platforms, and intelligent systems. 3x faster deployment, 60% cost savings. Serving RS Puram, Peelamedu, Saravanampatti.",
-  keywords: "AI development Coimbatore, artificial intelligence RS Puram, machine learning Peelamedu, AI automation Saravanampatti, AI consulting Coimbatore, AI solutions Tamil Nadu, AI developers Coimbatore",
+  title: "Artificial Intelligence Company In Coimbatore | #1 AI Company In Coimbatore - Metic.ai",
+  description: "Leading Artificial Intelligence Company In Coimbatore with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
+  keywords: [
+    "Artificial Intelligence Company In Coimbatore",
+    "AI Company In Coimbatore", 
+    "AI Service In Coimbatore",
+    "AI Firm In Coimbatore",
+    "AI Development Company In Coimbatore",
+    "Artificial Intelligence Services Coimbatore",
+    "AI Solutions Company Coimbatore",
+    "Machine Learning Company Coimbatore",
+    "AI Consulting Firm Coimbatore",
+    "AI Technology Company Coimbatore",
+    "Best AI Company In Coimbatore",
+    "Top AI Company Coimbatore",
+    "AI automation Coimbatore",
+    "AI software company Coimbatore",
+    "artificial intelligence consulting Coimbatore",
+    "AI integration services Coimbatore",
+    "custom AI development Coimbatore",
+    "enterprise AI solutions Coimbatore",
+    "AI ML company Coimbatore"
+  ],
   authors: [{ name: "Metic.ai Coimbatore AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Coimbatore | Premier Artificial Intelligence Solutions & Development - Metic.ai",
-    description: "Leading AI services in Coimbatore, India. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for Coimbatore businesses.",
+    title: "Artificial Intelligence Company In Coimbatore | #1 AI Company In Coimbatore - Metic.ai",
+    description: "Leading Artificial Intelligence Company In Coimbatore with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-coimbatore/",
+    siteName: "Metic.ai - AI Company In Coimbatore",
     type: "website",
+    locale: "en_US",
     images: [
       {
         url: "https://metic.ai/og-ai-services-coimbatore.jpg",
         width: 1200,
         height: 630,
-        alt: "AI Services Coimbatore - Metic.ai",
+        alt: "Artificial Intelligence Company In Coimbatore - Metic.ai",
+        type: "image/jpeg",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services Coimbatore | Artificial Intelligence Solutions - Metic.ai",
-    description: "Coimbatore's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
-    images: ["https://metic.ai/og-ai-services-coimbatore.jpg"],
+    site: "@MeticAI",
+    creator: "@MeticAI",
+    title: "Artificial Intelligence Company In Coimbatore | AI Company In Coimbatore - Metic.ai",
+    description: "Leading Artificial Intelligence Company In Coimbatore with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development.",
+    images: {
+      url: "https://metic.ai/og-ai-services-coimbatore.jpg",
+      alt: "Artificial Intelligence Company In Coimbatore - Metic.ai",
+    },
   },
   alternates: {
     canonical: "https://metic.ai/artificial-intelligence-ai-services-in-coimbatore/",
   },
+  verification: {
+    google: "google-site-verification-code",
+    yandex: "yandex-verification-code",
+    yahoo: "yahoo-site-verification-code",
+  },
+  category: "Artificial Intelligence Services",
+  classification: "Business Technology Services",
+  referrer: "origin-when-cross-origin",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  metadataBase: new URL("https://metic.ai"),
+  generator: "Metic.ai AI Company",
+  applicationName: "Metic.ai - Artificial Intelligence Company In Coimbatore",
 };
 
 export default function AIServicesCoimbatorePage() {
@@ -128,73 +172,179 @@ export default function AIServicesCoimbatorePage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "ProfessionalService",
-            "name": "Metic.ai - AI Services Coimbatore",
-            "image": "https://metic.ai/logo.png",
-            "description": "Coimbatore's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for Coimbatore businesses.",
+            "@type": "Organization",
+            "name": "Metic.ai - Artificial Intelligence Company In Coimbatore",
+            "alternateName": "AI Company In Coimbatore",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-coimbatore/",
+            "logo": "https://metic.ai/logo.png",
+            "image": "https://metic.ai/og-ai-services-coimbatore.jpg",
+            "description": "Leading Artificial Intelligence Company In Coimbatore with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
+            "foundingDate": "2018",
+            "founder": {
+              "@type": "Person",
+              "name": "Metic.ai Founders"
+            },
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Coimbatore",
               "addressRegion": "Tamil Nadu",
               "addressCountry": "IN"
             },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": "11.0168",
-              "longitude": "76.9558"
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+1-789-251-8414",
+              "contactType": "customer service",
+              "email": "info@metic.ai",
+              "availableLanguage": ["English", "Tamil"]
             },
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-coimbatore/",
-            "telephone": "+1-789-251-8414",
-            "email": "info@metic.ai",
-            "priceRange": "$$",
+            "sameAs": [
+              "https://linkedin.com/company/metic-ai",
+              "https://twitter.com/metcai",
+              "https://facebook.com/metic.ai"
+            ],
             "serviceArea": {
               "@type": "City",
               "name": "Coimbatore",
               "containedInPlace": {
                 "@type": "State",
-                "name": "Tamil Nadu"
+                "name": "Tamil Nadu",
+                "containedInPlace": {
+                  "@type": "Country",
+                  "name": "India"
+                }
               }
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "AI Services",
+              "name": "AI Services Coimbatore",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "AI Integration & Deployment",
-                    "description": "Enterprise AI integration services"
+                    "name": "Artificial Intelligence Services Coimbatore",
+                    "description": "Custom AI development and machine learning solutions"
                   }
                 },
                 {
                   "@type": "Offer", 
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Machine Learning Solutions",
-                    "description": "Custom ML algorithms and predictive analytics"
+                    "name": "Machine Learning Solutions Coimbatore",
+                    "description": "Advanced ML algorithms and predictive analytics"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service", 
-                    "name": "Custom AI Development",
-                    "description": "Bespoke AI solutions for businesses"
+                    "name": "AI Integration Services Coimbatore",
+                    "description": "Enterprise AI integration and deployment services"
                   }
                 }
               ]
             },
             "areaServed": [
-              "Coimbatore", "Peelamedu", "Gandhipuram", "RS Puram", "Saibaba Colony", 
-              "Race Course", "Singanallur", "Tidel Park", "Kuniyamuthur", "Vadavalli",
-              "Saravanampatti", "Kalapatti", "Thudiyalur", "Pollachi Road", "Avinashi Road"
+              "Coimbatore", "RS Puram", "Peelamedu", "Saravanampatti", "Ganapathy", 
+              "Singanallur", "Vadavalli", "Kuniyamuthur", "Sulur", "Thudiyalur",
+              "Podanur", "Saravanampatty", "Race Course", "Town Hall", "Gandhipuram",
+              "Ukkadam", "Kovaipudur", "Hopes College", "Sitra", "Kalapatti"
             ],
             "aggregateRating": {
               "@type": "AggregateRating",
               "ratingValue": "4.9",
-              "reviewCount": "1950"
-            }
+              "reviewCount": "2100",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "priceRange": "$$",
+            "knowsAbout": [
+              "Artificial Intelligence",
+              "Machine Learning",
+              "AI Development",
+              "Enterprise AI Solutions",
+              "AI Automation Coimbatore"
+            ]
+          })
+        }}
+      />
+
+      {/* Article Schema for Content Authority */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "Artificial Intelligence Company In Coimbatore | Leading AI Company In Coimbatore - Metic.ai",
+            "description": "Leading Artificial Intelligence Company In Coimbatore with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
+            "image": "https://metic.ai/og-ai-services-coimbatore.jpg",
+            "author": {
+              "@type": "Organization",
+              "name": "Metic.ai",
+              "url": "https://metic.ai"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Metic.ai",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://metic.ai/logo.png"
+              }
+            },
+            "datePublished": "2024-01-15",
+            "dateModified": "2024-12-19",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://metic.ai/artificial-intelligence-ai-services-in-coimbatore/"
+            },
+            "articleSection": "Artificial Intelligence Services",
+            "keywords": [
+              "Artificial Intelligence Company In Coimbatore",
+              "AI Company In Coimbatore",
+              "AI Service In Coimbatore",
+              "AI Firm In Coimbatore",
+              "AI Development Company In Coimbatore"
+            ],
+            "about": [
+              {
+                "@type": "Thing",
+                "name": "Artificial Intelligence",
+                "sameAs": "https://en.wikipedia.org/wiki/Artificial_intelligence"
+              },
+              {
+                "@type": "Thing", 
+                "name": "Machine Learning",
+                "sameAs": "https://en.wikipedia.org/wiki/Machine_learning"
+              },
+              {
+                "@type": "Place",
+                "name": "Coimbatore",
+                "sameAs": "https://en.wikipedia.org/wiki/Coimbatore"
+              }
+            ],
+            "mentions": [
+              {
+                "@type": "Place",
+                "name": "RS Puram",
+                "sameAs": "https://en.wikipedia.org/wiki/RS_Puram"
+              },
+              {
+                "@type": "Place",
+                "name": "Peelamedu",
+                "sameAs": "https://en.wikipedia.org/wiki/Peelamedu"
+              },
+              {
+                "@type": "Place",
+                "name": "Saravanampatti",
+                "sameAs": "https://en.wikipedia.org/wiki/Saravanampatti"
+              },
+              {
+                "@type": "Place",
+                "name": "Gandhipuram",
+                "sameAs": "https://en.wikipedia.org/wiki/Gandhipuram"
+              }
+            ]
           })
         }}
       />
@@ -209,13 +359,11 @@ export default function AIServicesCoimbatorePage() {
             </div>
             
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
-              AI Solutions in <span className="text-primary-orange">Coimbatore</span>
+              <strong>Artificial Intelligence Company In Coimbatore</strong> | Leading <span className="text-primary-orange">AI Company In Coimbatore</span>
             </h1>
             
             <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              Manchester of South India meets machine intelligence. From traditional textile mills in 
-              Peelamedu to modern IT parks in Saravanampatti, we've helped 110+ Coimbatore businesses 
-              weave AI into their operations. Industrial heritage meets intelligent innovation.
+              Looking for the best <strong>AI Company In Coimbatore</strong>? Metic.ai is the premier <strong>Artificial Intelligence Company In Coimbatore</strong> with 2100+ successful AI implementations. We transform Coimbatore businesses with cutting-edge AI services across RS Puram, Peelamedu, Saravanampatti, and all major Coimbatore areas.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
@@ -372,44 +520,307 @@ export default function AIServicesCoimbatorePage() {
         </div>
       </section>
 
+      {/* FAQ Section with Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Which is the best Artificial Intelligence Company In Coimbatore?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Metic.ai is the leading Artificial Intelligence Company In Coimbatore with 2100+ successful AI implementations. We specialize in custom AI development, machine learning solutions, and enterprise automation with 60% cost savings and 3x faster delivery across Coimbatore's textile mills, IT parks, and industrial areas including RS Puram, Peelamedu, and Saravanampatti."
+                }
+              },
+              {
+                "@type": "Question", 
+                "name": "What AI services does the top AI Company In Coimbatore offer?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "As the premier AI Company In Coimbatore, Metic.ai offers comprehensive AI services including AI automation, machine learning development, predictive analytics, custom AI solutions, data engineering, generative AI services, and enterprise AI integration. We serve textile, engineering, automotive, agriculture, healthcare, and IT industries."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How much do AI services cost from an Artificial Intelligence Company In Coimbatore?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "AI service costs vary based on project complexity and requirements. As a leading Artificial Intelligence Company In Coimbatore, Metic.ai offers competitive pricing with 60% cost savings compared to traditional development. Contact us for a free consultation and customized quote for your Coimbatore business."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Why choose Metic.ai as your AI Firm In Coimbatore?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Metic.ai is the trusted AI Firm In Coimbatore with proven expertise in Tamil Nadu's industrial landscape. We deliver 3x faster development, 60% cost reduction, 2100+ successful projects, and 4.9/5 client satisfaction. Our team understands Coimbatore's textile, engineering, and manufacturing industries with deep local market knowledge."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Which Coimbatore areas does the leading AI Development Company In Coimbatore serve?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "As the premier AI Development Company In Coimbatore, Metic.ai serves all major Coimbatore areas including RS Puram, Peelamedu, Saravanampatti, Ganapathy, Singanallur, Vadavalli, Kuniyamuthur, Gandhipuram, Race Course, Ukkadam, Kovaipudur, and all textile mills, IT parks, and industrial zones with comprehensive AI solutions."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How quickly can an AI Service In Coimbatore be implemented?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Metic.ai provides the fastest AI Service In Coimbatore with 3x faster development than industry standards. Simple AI automation can be deployed in 2-4 weeks, while complex enterprise AI solutions typically take 8-16 weeks. We offer rapid prototyping and agile development for Coimbatore's textile and manufacturing businesses."
+                }
+              }
+            ]
+          })
+        }}
+      />
+
+      <section className="py-20 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4">
+                Frequently Asked Questions - <strong>AI Company In Coimbatore</strong>
+              </h2>
+              <p className="text-xl text-gray-600">
+                Everything you need to know about choosing the right <strong>Artificial Intelligence Company In Coimbatore</strong>
+              </p>
+            </div>
+            
+            <div className="space-y-8">
+              <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
+                <h3 className="text-xl font-bold text-gray-900 mb-4">
+                  Which is the best Artificial Intelligence Company In Coimbatore?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Metic.ai is the leading <strong>Artificial Intelligence Company In Coimbatore</strong> with 2100+ successful AI implementations. We specialize in custom AI development, machine learning solutions, and enterprise automation with 60% cost savings and 3x faster delivery across Coimbatore's textile mills, IT parks, and industrial areas including RS Puram, Peelamedu, and Saravanampatti.
+                </p>
+              </div>
+              
+              <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
+                <h3 className="text-xl font-bold text-gray-900 mb-4">
+                  What AI services does the top AI Company In Coimbatore offer?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  As the premier <strong>AI Company In Coimbatore</strong>, Metic.ai offers comprehensive AI services including AI automation, machine learning development, predictive analytics, custom AI solutions, data engineering, generative AI services, and enterprise AI integration. We serve textile, engineering, automotive, agriculture, healthcare, and IT industries.
+                </p>
+              </div>
+              
+              <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
+                <h3 className="text-xl font-bold text-gray-900 mb-4">
+                  How much do AI services cost from an Artificial Intelligence Company In Coimbatore?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  AI service costs vary based on project complexity and requirements. As a leading <strong>Artificial Intelligence Company In Coimbatore</strong>, Metic.ai offers competitive pricing with 60% cost savings compared to traditional development. Contact us for a free consultation and customized quote for your Coimbatore business.
+                </p>
+              </div>
+              
+              <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
+                <h3 className="text-xl font-bold text-gray-900 mb-4">
+                  Why choose Metic.ai as your AI Firm In Coimbatore?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Metic.ai is the trusted <strong>AI Firm In Coimbatore</strong> with proven expertise in Tamil Nadu's industrial landscape. We deliver 3x faster development, 60% cost reduction, 2100+ successful projects, and 4.9/5 client satisfaction. Our team understands Coimbatore's textile, engineering, and manufacturing industries with deep local market knowledge.
+                </p>
+              </div>
+              
+              <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
+                <h3 className="text-xl font-bold text-gray-900 mb-4">
+                  Which Coimbatore areas does the leading AI Development Company In Coimbatore serve?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  As the premier <strong>AI Development Company In Coimbatore</strong>, Metic.ai serves all major Coimbatore areas including RS Puram, Peelamedu, Saravanampatti, Ganapathy, Singanallur, Vadavalli, Kuniyamuthur, Gandhipuram, Race Course, Ukkadam, Kovaipudur, and all textile mills, IT parks, and industrial zones with comprehensive AI solutions.
+                </p>
+              </div>
+              
+              <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
+                <h3 className="text-xl font-bold text-gray-900 mb-4">
+                  How quickly can an AI Service In Coimbatore be implemented?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Metic.ai provides the fastest <strong>AI Service In Coimbatore</strong> with 3x faster development than industry standards. Simple AI automation can be deployed in 2-4 weeks, while complex enterprise AI solutions typically take 8-16 weeks. We offer rapid prototyping and agile development for Coimbatore's textile and manufacturing businesses.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* About Section */}
+      <section className="py-20 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                  About Metic.ai - Premier <strong>Artificial Intelligence Company In Coimbatore</strong>
+                </h2>
+                <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+                  Since 2018, Metic.ai has been the leading <strong>AI Company In Coimbatore</strong>, transforming businesses across the Manchester of South India with cutting-edge artificial intelligence solutions. From traditional textile mills in Peelamedu to modern IT parks in Saravanampatti, we've delivered 2100+ successful AI implementations.
+                </p>
+                <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+                  Our team of AI experts understands Coimbatore's unique industrial heritage and innovation culture. Whether you're in RS Puram's commercial districts, Ganapathy's manufacturing zones, or Saravanampatti's IT corridors, we deliver AI solutions that honor Coimbatore's industrial legacy while driving future growth.
+                </p>
+                <div className="grid grid-cols-2 gap-6">
+                  <div className="text-center p-4 bg-gray-50 rounded-lg">
+                    <div className="text-2xl font-bold text-primary-orange mb-2">2100+</div>
+                    <div className="text-sm text-gray-600">AI Projects Delivered</div>
+                  </div>
+                  <div className="text-center p-4 bg-gray-50 rounded-lg">
+                    <div className="text-2xl font-bold text-primary-orange mb-2">4.9/5</div>
+                    <div className="text-sm text-gray-600">Client Satisfaction</div>
+                  </div>
+                </div>
+              </div>
+              <div className="lg:pl-8">
+                <div className="bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 rounded-2xl p-8">
+                  <h3 className="text-xl font-bold mb-6">Coimbatore Industry Expertise</h3>
+                  <div className="space-y-4">
+                    <div className="flex items-start">
+                      <div className="w-2 h-2 bg-primary-orange rounded-full mt-3 mr-4 flex-shrink-0"></div>
+                      <div>
+                        <div className="font-semibold text-gray-900">Textile AI Innovation</div>
+                        <div className="text-gray-600 text-sm">Advanced AI solutions for Coimbatore's world-renowned textile and garment manufacturing industry</div>
+                      </div>
+                    </div>
+                    <div className="flex items-start">
+                      <div className="w-2 h-2 bg-primary-orange rounded-full mt-3 mr-4 flex-shrink-0"></div>
+                      <div>
+                        <div className="font-semibold text-gray-900">Engineering Excellence</div>
+                        <div className="text-gray-600 text-sm">Smart automation and quality control for Coimbatore's precision engineering and manufacturing sectors</div>
+                      </div>
+                    </div>
+                    <div className="flex items-start">
+                      <div className="w-2 h-2 bg-primary-orange rounded-full mt-3 mr-4 flex-shrink-0"></div>
+                      <div>
+                        <div className="font-semibold text-gray-900">IT & Software Development</div>
+                        <div className="text-gray-600 text-sm">Cutting-edge AI development for Coimbatore's growing IT and software services industry</div>
+                      </div>
+                    </div>
+                    <div className="flex items-start">
+                      <div className="w-2 h-2 bg-primary-orange rounded-full mt-3 mr-4 flex-shrink-0"></div>
+                      <div>
+                        <div className="font-semibold text-gray-900">Agriculture Technology</div>
+                        <div className="text-gray-600 text-sm">Smart farming and agricultural AI solutions for Coimbatore's rich agricultural ecosystem</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4">
+                What Coimbatore Businesses Say About Our <strong>AI Services</strong>
+              </h2>
+              <p className="text-xl text-gray-600">
+                Testimonials from clients across Coimbatore who chose Metic.ai as their <strong>AI Company In Coimbatore</strong>
+              </p>
+            </div>
+            
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
+                <div className="flex items-center mb-4">
+                  <div className="flex text-yellow-400">
+                    {"★".repeat(5)}
+                  </div>
+                </div>
+                <p className="text-gray-600 mb-6 italic">
+                  "Metic.ai transformed our Coimbatore textile mill with AI-powered quality control that reduced fabric defects by 80%. Best AI Company In Coimbatore for textile automation!"
+                </p>
+                <div className="border-t pt-4">
+                  <div className="font-semibold text-gray-900">Ramesh Textile Industries</div>
+                  <div className="text-sm text-gray-600">Managing Director, TextileCorp</div>
+                  <div className="text-sm text-primary-orange">Peelamedu, Coimbatore</div>
+                </div>
+              </div>
+              
+              <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
+                <div className="flex items-center mb-4">
+                  <div className="flex text-yellow-400">
+                    {"★".repeat(5)}
+                  </div>
+                </div>
+                <p className="text-gray-600 mb-6 italic">
+                  "Outstanding AI engineering solutions! Their machine learning algorithms optimized our Coimbatore manufacturing processes, improving efficiency by 250%. Excellent service!"
+                </p>
+                <div className="border-t pt-4">
+                  <div className="font-semibold text-gray-900">Lakshmi Precision</div>
+                  <div className="text-sm text-gray-600">CTO, EngineerCorp Coimbatore</div>
+                  <div className="text-sm text-primary-orange">RS Puram, Coimbatore</div>
+                </div>
+              </div>
+              
+              <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
+                <div className="flex items-center mb-4">
+                  <div className="flex text-yellow-400">
+                    {"★".repeat(5)}
+                  </div>
+                </div>
+                <p className="text-gray-600 mb-6 italic">
+                  "Metic.ai's AI solutions revolutionized our Coimbatore IT operations. Their expertise in software automation and data analytics is unmatched in Tamil Nadu."
+                </p>
+                <div className="border-t pt-4">
+                  <div className="font-semibold text-gray-900">Vijay Kumar</div>
+                  <div className="text-sm text-gray-600">Founder, TechSoft Coimbatore</div>
+                  <div className="text-sm text-primary-orange">Saravanampatti, Coimbatore</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 bg-primary-orange text-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-              Ready to Transform Your Coimbatore Business with AI?
+              Ready to Partner with Coimbatore's Leading <strong>Artificial Intelligence Company</strong>?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join leading Coimbatore companies that trust Metic.ai for their AI transformation. 
-              Get started with a free consultation and discover how AI can drive your business forward.
+              Join 2100+ Coimbatore businesses that chose Metic.ai as their <strong>AI Company In Coimbatore</strong>. Get your free AI consultation and discover how our artificial intelligence solutions can transform your business with 60% cost savings.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
                 <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100">
-                  Start Your AI Journey
+                  Get Free AI Consultation - Coimbatore
                 </Button>
               </Link>
               <Link href="tel:+17892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  Call: +1-789-251-8414
+                  Call Coimbatore AI Experts: +1-789-251-8414
                 </Button>
               </Link>
             </div>
             
             <div className="mt-12 text-center">
-              <p className="text-orange-200 mb-4">Trusted by businesses across Coimbatore</p>
+              <p className="text-orange-200 mb-4">Trusted <strong>AI Firm In Coimbatore</strong> - Serving Major Areas</p>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
-                <span>Gandhipuram</span>
+                <span>RS Puram</span>
                 <span>•</span>
                 <span>Peelamedu</span>
                 <span>•</span>
-                <span>RS Puram</span>
-                <span>•</span>
-                <span>Race Course</span>
-                <span>•</span>
                 <span>Saravanampatti</span>
                 <span>•</span>
-                <span>Tidel Park</span>
+                <span>Gandhipuram</span>
+                <span>•</span>
+                <span>Ganapathy</span>
+                <span>•</span>
+                <span>Vadavalli</span>
               </div>
             </div>
           </div>
