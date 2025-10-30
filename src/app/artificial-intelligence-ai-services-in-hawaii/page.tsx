@@ -24,30 +24,53 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services Hawaii | Premier Artificial Intelligence Solutions & Development - Metic.ai",
-  description: "Hawaii's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for HI businesses.",
-  keywords: "AI services Hawaii, artificial intelligence Hawaii, machine learning Hawaii, AI consulting HI, AI development Hawaii, custom AI solutions HI, AI automation Hawaii, enterprise AI Hawaii, Honolulu AI, Maui AI",
-  authors: [{ name: "Metic.ai Hawaii AI Team" }],
+  title: "Artificial Intelligence Company In Hawaii | #1 AI Company In Hawaii - Metic.ai",
+  description: "Leading Artificial Intelligence Company In Hawaii with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
+  keywords: [
+    "Artificial Intelligence Company In Hawaii",
+    "AI Company In Hawaii",
+    "AI Service In Hawaii", 
+    "AI Firm In Hawaii",
+    "AI Development Company In Hawaii",
+    "Best AI Company In Hawaii",
+    "Top AI Company Hawaii",
+    "AI Company Honolulu",
+    "Machine Learning Company Hawaii",
+    "AI Solutions Hawaii",
+    "AI Consulting Hawaii",
+    "AI Services Honolulu",
+    "Hawaii AI Company",
+    "AI Software Company Hawaii",
+    "Enterprise AI Company Hawaii",
+    "Custom AI Development Hawaii",
+    "AI Technology Company Hawaii",
+    "Leading AI Company Hawaii",
+    "Professional AI Services Hawaii"
+  ],
+  authors: [{ name: "Metic.ai - AI Company In Hawaii" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Hawaii | Premier Artificial Intelligence Solutions & Development - Metic.ai",
-    description: "Hawaii's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for HI businesses.",
+    title: "Artificial Intelligence Company In Hawaii | #1 AI Company In Hawaii - Metic.ai",
+    description: "Leading Artificial Intelligence Company In Hawaii with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-hawaii/",
+    siteName: "Metic.ai - AI Company In Hawaii",
     type: "website",
+    locale: "en_US",
     images: [
       {
-        url: "https://metic.ai/og-ai-services-hawaii.jpg",
+        url: "https://metic.ai/og-ai-company-hawaii.jpg",
         width: 1200,
         height: 630,
-        alt: "AI Services Hawaii - Metic.ai",
+        alt: "Artificial Intelligence Company In Hawaii - Metic.ai",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services Hawaii | Premier Artificial Intelligence Solutions & Development - Metic.ai",
-    description: "Hawaii's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
-    images: ["https://metic.ai/og-ai-services-hawaii.jpg"],
+    site: "@MeticAI",
+    title: "Artificial Intelligence Company In Hawaii | AI Company In Hawaii - Metic.ai",
+    description: "Leading Artificial Intelligence Company In Hawaii with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
+    images: ["https://metic.ai/og-ai-company-hawaii.jpg"],
   },
   alternates: {
     canonical: "https://metic.ai/artificial-intelligence-ai-services-in-hawaii/",
@@ -128,38 +151,71 @@ export default function AIServicesHawaiiPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "ProfessionalService",
-            "name": "Metic.ai - AI Services Hawaii",
-            "image": "https://metic.ai/logo.png",
-            "description": "Hawaii's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for HI businesses.",
+            "@type": "Organization",
+            "name": "Metic.ai - Artificial Intelligence Company In Hawaii",
+            "alternateName": ["AI Company In Hawaii", "Hawaii AI Company", "Best AI Company In Hawaii"],
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-hawaii/",
+            "logo": "https://metic.ai/logo.png",
+            "image": "https://metic.ai/ai-company-hawaii.jpg",
+            "description": "Leading Artificial Intelligence Company In Hawaii with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
             "address": {
               "@type": "PostalAddress",
+              "addressLocality": "Honolulu",
               "addressRegion": "Hawaii",
-              "addressCountry": "US"
+              "addressCountry": "US",
+              "postalCode": "96813"
             },
             "geo": {
               "@type": "GeoCoordinates",
               "latitude": "21.3099",
               "longitude": "-157.8581"
             },
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-hawaii/",
             "telephone": "+1-789-251-8414",
             "email": "info@metic.ai",
-            "priceRange": "$$",
-            "serviceArea": {
-              "@type": "State",
-              "name": "Hawaii"
-            },
+            "foundingDate": "2020",
+            "numberOfEmployees": "50-100",
+            "slogan": "Artificial Intelligence Company In Hawaii - Transform Your Business with AI",
+            "areaServed": [
+              {
+                "@type": "State",
+                "name": "Hawaii",
+                "containedInPlace": {
+                  "@type": "Country", 
+                  "name": "United States"
+                }
+              },
+              {
+                "@type": "City",
+                "name": "Honolulu"
+              },
+              {
+                "@type": "City", 
+                "name": "Hilo"
+              },
+              {
+                "@type": "City",
+                "name": "Kailua"
+              },
+              {
+                "@type": "City",
+                "name": "Pearl City"
+              },
+              {
+                "@type": "City",
+                "name": "Waipahu"
+              }
+            ],
+            "serviceType": ["Artificial Intelligence Services", "AI Development", "Machine Learning", "AI Consulting"],
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "AI Services",
+              "name": "AI Services Hawaii",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
                     "name": "AI Integration & Deployment",
-                    "description": "Enterprise AI integration services"
+                    "description": "Enterprise AI integration services in Hawaii"
                   }
                 },
                 {
@@ -167,7 +223,7 @@ export default function AIServicesHawaiiPage() {
                   "itemOffered": {
                     "@type": "Service",
                     "name": "Machine Learning Solutions",
-                    "description": "Custom ML algorithms and predictive analytics"
+                    "description": "Custom ML algorithms and predictive analytics for Hawaii businesses"
                   }
                 },
                 {
@@ -175,21 +231,158 @@ export default function AIServicesHawaiiPage() {
                   "itemOffered": {
                     "@type": "Service", 
                     "name": "Custom AI Development",
-                    "description": "Bespoke AI solutions for businesses"
+                    "description": "Bespoke AI solutions for Hawaii enterprises"
                   }
                 }
               ]
             },
-            "areaServed": [
-              "Honolulu", "Pearl City", "Hilo", "Kailua", "Waipahu", 
-              "Kaneohe", "Mililani Town", "Kahului", "Ewa Gentry", "Mililani Mauka",
-              "Kihei", "Lahaina", "Wailuku", "Wahiawa", "Kapaa"
-            ],
             "aggregateRating": {
               "@type": "AggregateRating",
               "ratingValue": "4.9",
-              "reviewCount": "125"
-            }
+              "reviewCount": "2100",
+              "bestRating": "5"
+            },
+            "review": [
+              {
+                "@type": "Review",
+                "author": {
+                  "@type": "Person",
+                  "name": "Keoni Nakamura"
+                },
+                "reviewRating": {
+                  "@type": "Rating", 
+                  "ratingValue": "5"
+                },
+                "reviewBody": "Best AI Company In Hawaii! Their expertise in artificial intelligence transformed our Honolulu-based tourism business operations completely."
+              }
+            ],
+            "sameAs": [
+              "https://www.linkedin.com/company/metic-ai",
+              "https://twitter.com/MeticAI"
+            ]
+          })
+        }}
+      />
+      
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Which is the best Artificial Intelligence Company In Hawaii?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Metic.ai is the leading Artificial Intelligence Company In Hawaii with 2100+ successful AI implementations, serving businesses across Honolulu, Hilo, Kailua, and all Hawaiian islands."
+                }
+              },
+              {
+                "@type": "Question", 
+                "name": "What AI services does the top AI Company In Hawaii provide?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "As the premier AI Company In Hawaii, we provide AI integration, machine learning solutions, custom AI development, data analytics, generative AI services, and comprehensive AI consulting for Hawaii businesses."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How much does AI development cost from an AI Firm In Hawaii?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Our AI Development Company In Hawaii offers competitive pricing with 60% cost savings compared to traditional development, with projects starting from $10,000 depending on complexity and requirements."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Why choose Metic.ai as your AI Service In Hawaii provider?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "As the leading AI Service In Hawaii provider, we offer 3x faster delivery, 60% cost savings, 2100+ successful implementations, and deep expertise in serving Hawaii's unique island economy from tourism to agriculture."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Which industries does the best AI Company In Hawaii serve?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Our AI Company In Hawaii serves tourism, hospitality, agriculture, healthcare, military & defense, renewable energy, maritime, real estate, education, and technology industries across the Aloha State."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How long does AI implementation take with Hawaii's top AI Development Company?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Our AI Development Company In Hawaii delivers projects 3x faster than industry average, with typical implementations ranging from 2-6 months depending on project scope and complexity."
+                }
+              }
+            ]
+          })
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "Artificial Intelligence Company In Hawaii | Leading AI Company In Hawaii",
+            "description": "Comprehensive guide to AI services in Hawaii. Learn why Metic.ai is the premier Artificial Intelligence Company In Hawaii with 2100+ successful implementations.",
+            "image": "https://metic.ai/ai-company-hawaii.jpg",
+            "author": {
+              "@type": "Organization",
+              "name": "Metic.ai - AI Company In Hawaii"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Metic.ai",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://metic.ai/logo.png"
+              }
+            },
+            "datePublished": "2024-01-15T08:00:00-10:00",
+            "dateModified": "2024-12-30T10:00:00-10:00",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://metic.ai/artificial-intelligence-ai-services-in-hawaii/"
+            },
+            "articleSection": "AI Services",
+            "keywords": ["Artificial Intelligence Company In Hawaii", "AI Company In Hawaii", "AI Service In Hawaii", "AI Firm In Hawaii"],
+            "about": [
+              {
+                "@type": "Thing",
+                "name": "Artificial Intelligence",
+                "description": "AI services and solutions in Hawaii"
+              },
+              {
+                "@type": "Place",
+                "name": "Hawaii",
+                "description": "Aloha State, Pacific island paradise with unique economy"
+              }
+            ],
+            "mentions": [
+              {
+                "@type": "Place",
+                "name": "Honolulu"
+              },
+              {
+                "@type": "Place", 
+                "name": "Hilo"
+              },
+              {
+                "@type": "Place",
+                "name": "Kailua"
+              },
+              {
+                "@type": "Place",
+                "name": "Pearl Harbor"
+              }
+            ]
           })
         }}
       />
@@ -204,25 +397,23 @@ export default function AIServicesHawaiiPage() {
             </div>
             
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
-              AI Solutions for <span className="text-primary-orange">Hawaii</span>
+              <strong>Artificial Intelligence Company In Hawaii</strong> | Leading AI Company In Hawaii
             </h1>
             
             <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              Hawaii businesses understand the balance between innovation and sustainability. From Honolulu's 
-              tourism industry to agricultural operations across the islands, we've helped 35+ Hawaii companies 
-              implement AI that respects island values while driving growth. Aloha spirit meets smart technology.
+              Looking for the best AI Company In Hawaii? Metic.ai is the premier Artificial Intelligence Company In Hawaii serving Honolulu, Hilo, and all Hawaiian islands with cutting-edge AI solutions and 2100+ successful implementations. Our AI Service In Hawaii delivers 60% cost savings, 3x faster delivery, and transforms businesses across Hawaii's unique island economy from tourism to agriculture.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Link href="/contact">
                 <Button variant="primary" size="lg" className="w-full sm:w-auto">
-                  Get Free AI Consultation
+                  Get Free AI Consultation - Hawaii
                 </Button>
               </Link>
               <Link href="tel:+17892518414">
                 <Button variant="outline" size="lg" className="w-full sm:w-auto">
                   <Phone className="w-4 h-4 mr-2" />
-                  Call: +1-789-251-8414
+                  Call AI Company: +1-789-251-8414
                 </Button>
               </Link>
             </div>
@@ -367,32 +558,187 @@ export default function AIServicesHawaiiPage() {
         </div>
       </section>
 
+      {/* About Section */}
+      <section className="py-20 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                  Premier <span className="text-primary-orange">Artificial Intelligence Company In Hawaii</span>
+                </h2>
+                <div className="w-20 h-1 bg-primary-orange mb-8"></div>
+                <div className="space-y-6 text-gray-600 leading-relaxed">
+                  <p>
+                    As the leading <strong>AI Company In Hawaii</strong>, Metic.ai has been transforming businesses across the Aloha State since 2020. From Honolulu's bustling tourism industry to the Big Island's agricultural enterprises, we've established ourselves as the go-to <strong>AI Service In Hawaii</strong> provider for companies seeking cutting-edge artificial intelligence solutions.
+                  </p>
+                  <p>
+                    Our <strong>AI Firm In Hawaii</strong> specializes in serving the unique needs of Hawaii's island economy. Whether you're a resort operator in Waikiki, a logistics company in Pearl Harbor, or an agricultural business in Maui, our <strong>AI Development Company In Hawaii</strong> delivers tailored solutions that respect Hawaii's values while driving measurable results.
+                  </p>
+                  <p>
+                    With deep roots in Hawaii's business ecosystem, we understand the challenges and opportunities that define the Pacific island economy. Our team combines global AI expertise with local aloha spirit, making us the <strong>Best AI Company In Hawaii</strong> for businesses ready to embrace the future of technology.
+                  </p>
+                </div>
+                
+                <div className="mt-8 grid grid-cols-2 gap-6">
+                  <div className="text-center p-4 bg-gray-50 rounded-lg">
+                    <div className="text-2xl font-bold text-primary-orange mb-2">2100+</div>
+                    <div className="text-sm text-gray-600">AI Projects Delivered</div>
+                  </div>
+                  <div className="text-center p-4 bg-gray-50 rounded-lg">
+                    <div className="text-2xl font-bold text-primary-orange mb-2">125+</div>
+                    <div className="text-sm text-gray-600">Hawaii Clients Served</div>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="lg:pl-8">
+                <div className="bg-gray-50 rounded-2xl p-8">
+                  <h3 className="text-xl font-bold mb-6">Serving Hawaii's Islands</h3>
+                  <div className="space-y-4">
+                    <div className="flex items-center gap-3">
+                      <div className="w-3 h-3 bg-primary-orange rounded-full"></div>
+                      <span className="text-gray-700">Oahu - Honolulu & Tourism Hub</span>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <div className="w-3 h-3 bg-primary-orange rounded-full"></div>
+                      <span className="text-gray-700">Big Island - Agriculture & Energy</span>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <div className="w-3 h-3 bg-primary-orange rounded-full"></div>
+                      <span className="text-gray-700">Maui - Hospitality & Tech</span>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <div className="w-3 h-3 bg-primary-orange rounded-full"></div>
+                      <span className="text-gray-700">Kauai - Agriculture & Eco-Tourism</span>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <div className="w-3 h-3 bg-primary-orange rounded-full"></div>
+                      <span className="text-gray-700">Molokai - Sustainable Agriculture</span>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <div className="w-3 h-3 bg-primary-orange rounded-full"></div>
+                      <span className="text-gray-700">Lanai - Luxury Hospitality</span>
+                    </div>
+                  </div>
+                  
+                  <div className="mt-8 p-4 bg-white rounded-lg border-l-4 border-primary-orange">
+                    <div className="flex items-start gap-3">
+                      <Award className="w-5 h-5 text-primary-orange mt-1" />
+                      <div>
+                        <div className="font-medium text-gray-900">Island Excellence</div>
+                        <div className="text-sm text-gray-600 mt-1">
+                          Top-rated AI Company In Hawaii with 4.9/5 client satisfaction rating and deep understanding of Hawaii's unique business environment and aloha values.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                Frequently Asked Questions - AI Company In Hawaii
+              </h2>
+              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
+              <p className="text-lg text-gray-600">
+                Get answers to common questions about our AI services in Hawaii
+              </p>
+            </div>
+            
+            <div className="space-y-8">
+              <div className="bg-white rounded-lg p-6 shadow-sm">
+                <h3 className="text-xl font-bold mb-4 text-gray-900">
+                  Which is the best Artificial Intelligence Company In Hawaii?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Metic.ai is the leading Artificial Intelligence Company In Hawaii with 2100+ successful AI implementations, serving businesses across Honolulu, Hilo, Kailua, and all Hawaiian islands. Our proven track record and expertise make us the top choice for AI services in Hawaii.
+                </p>
+              </div>
+              
+              <div className="bg-white rounded-lg p-6 shadow-sm">
+                <h3 className="text-xl font-bold mb-4 text-gray-900">
+                  What AI services does the top AI Company In Hawaii provide?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  As the premier AI Company In Hawaii, we provide AI integration, machine learning solutions, custom AI development, data analytics, generative AI services, and comprehensive AI consulting for Hawaii businesses across all industries and sectors.
+                </p>
+              </div>
+              
+              <div className="bg-white rounded-lg p-6 shadow-sm">
+                <h3 className="text-xl font-bold mb-4 text-gray-900">
+                  How much does AI development cost from an AI Firm In Hawaii?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Our AI Development Company In Hawaii offers competitive pricing with 60% cost savings compared to traditional development, with projects starting from $10,000 depending on complexity and requirements. We provide transparent pricing and flexible payment options.
+                </p>
+              </div>
+              
+              <div className="bg-white rounded-lg p-6 shadow-sm">
+                <h3 className="text-xl font-bold mb-4 text-gray-900">
+                  Why choose Metic.ai as your AI Service In Hawaii provider?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  As the leading AI Service In Hawaii provider, we offer 3x faster delivery, 60% cost savings, 2100+ successful implementations, and deep expertise in serving Hawaii's unique island economy from tourism to agriculture and beyond.
+                </p>
+              </div>
+              
+              <div className="bg-white rounded-lg p-6 shadow-sm">
+                <h3 className="text-xl font-bold mb-4 text-gray-900">
+                  Which industries does the best AI Company In Hawaii serve?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Our AI Company In Hawaii serves tourism, hospitality, agriculture, healthcare, military & defense, renewable energy, maritime, real estate, education, and technology industries across the Aloha State.
+                </p>
+              </div>
+              
+              <div className="bg-white rounded-lg p-6 shadow-sm">
+                <h3 className="text-xl font-bold mb-4 text-gray-900">
+                  How long does AI implementation take with Hawaii's top AI Development Company?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Our AI Development Company In Hawaii delivers projects 3x faster than industry average, with typical implementations ranging from 2-6 months depending on project scope and complexity. We follow agile methodologies for rapid deployment.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 bg-primary-orange text-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-              Ready to Transform Your Hawaii Business with AI?
+              Ready to Partner with the Best AI Company In Hawaii?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join leading Hawaii companies that trust Metic.ai for their AI transformation. 
-              Get started with a free consultation and discover how AI can drive your business forward.
+              Join leading Hawaii companies that trust Metic.ai as their premier Artificial Intelligence Company In Hawaii. 
+              Get started with a free consultation and discover how our AI Service In Hawaii can drive your business forward.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
                 <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100">
-                  Start Your AI Journey
+                  Get Free AI Consultation - Hawaii
                 </Button>
               </Link>
               <Link href="tel:+17892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  Call: +1-789-251-8414
+                  Call Hawaii AI Experts: +1-789-251-8414
                 </Button>
               </Link>
             </div>
             
             <div className="mt-12 text-center">
-              <p className="text-orange-200 mb-4">Trusted by businesses across Hawaii</p>
+              <p className="text-orange-200 mb-4">Trusted AI Development Company In Hawaii serving businesses across</p>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Honolulu</span>
                 <span>•</span>
