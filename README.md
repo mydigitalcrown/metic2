@@ -23,6 +23,12 @@ A modern, responsive website for Metic AI, showcasing advanced artificial intell
 
 ## 📦 Installation
 
+### Quick Start (For Local Development)
+
+**New to the project?** See our [Local Setup Guide](./LOCAL_SETUP_GUIDE.md) for detailed instructions on setting up the project in Visual Studio Code on your local machine.
+
+**Working Offline?** Check the [Offline Mode Guide](./OFFLINE_MODE.md) for instructions on building without internet access.
+
 1. **Clone the repository**
    ```bash
    git clone https://github.com/mydigitalcrown/metic2.git
