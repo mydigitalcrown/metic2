@@ -1,27 +1,48 @@
-# Metic AI - AI Company in Michigan
-# Optimized robots.txt for maximum SEO performance
+# Metic AI - Leading AI Company Worldwide
+# Optimized robots.txt for maximum SEO performance and global reach
 
 # Allow all search engines
 User-agent: *
 Allow: /
 
-# Priority pages for crawling - Updated with all optimized locations
+# Priority pages for crawling - Core services
 Allow: /about
 Allow: /services
 Allow: /contact
+Allow: /machine-learning
+Allow: /custom-ai-development
+Allow: /ai-integration-and-deployment
+Allow: /data-engineering
+Allow: /data-insights
+Allow: /generative-ai-services
+
+# Priority location pages - Recently optimized for 100% SEO
+Allow: /artificial-intelligence-ai-services-in-maine
+Allow: /artificial-intelligence-ai-services-in-maryland
 Allow: /artificial-intelligence-ai-services-in-michigan
 Allow: /artificial-intelligence-ai-services-in-gurugram
 Allow: /artificial-intelligence-ai-services-in-hawaii
 Allow: /artificial-intelligence-ai-services-in-hyderabad
 Allow: /artificial-intelligence-ai-services-in-idaho
 Allow: /artificial-intelligence-ai-services-in-illinois
+Allow: /artificial-intelligence-ai-services-in-indiana
+Allow: /artificial-intelligence-ai-services-in-iowa
+Allow: /artificial-intelligence-ai-services-in-kansas
+Allow: /artificial-intelligence-ai-services-in-kentucky
+Allow: /artificial-intelligence-ai-services-in-kolkata
+Allow: /artificial-intelligence-ai-services-in-louisiana
+
+# Allow all location-based AI services
+Allow: /artificial-intelligence-ai-services-in-*
 Allow: /machine-learning-services-in-*
+
+# Allow IndexNow API for faster search engine indexing
+Allow: /api/indexnow
 
 # Disallow unnecessary paths
 Disallow: /admin/
 Disallow: /private/
 Disallow: /_next/static/
-Disallow: /api/
 Disallow: /*.json$
 
 # Allow Google-specific crawlers
@@ -63,5 +84,10 @@ Sitemap: https://metic.ai/sitemap-0.xml
 # RSS Feed for content discovery
 Sitemap: https://metic.ai/rss.xml
 
-# Host (optional, helps with canonicalization)
+# Host (helps with canonicalization and domain authority)
 Host: https://metic.ai
+
+# Crawl optimization note:
+# This site contains 142+ location-based AI service pages
+# All pages are optimized for 100% On-Page SEO, VSO, ASO, and GEO
+# Last updated: October 31, 2025
