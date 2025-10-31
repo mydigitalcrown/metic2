@@ -24,30 +24,51 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services Indiana | Premier Artificial Intelligence Solutions & Development - Metic.ai",
-  description: "Indiana's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for IN businesses.",
-  keywords: "AI services Indiana, artificial intelligence Indiana, machine learning Indiana, AI consulting IN, AI development Indiana, custom AI solutions IN, AI automation Indiana, enterprise AI Indiana, Indianapolis AI, Fort Wayne AI",
+  title: "Artificial Intelligence Company In Indiana | #1 AI Company In Indiana - Metic.ai",
+  description: "Leading Artificial Intelligence Company In Indiana with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
+  keywords: [
+    "Artificial Intelligence Company In Indiana",
+    "AI Company In Indiana", 
+    "AI Service In Indiana",
+    "AI Firm In Indiana",
+    "AI Development Company In Indiana",
+    "Best AI Company In Indiana",
+    "Top AI Company Indiana",
+    "Leading AI Company Indiana",
+    "AI Solutions Company Indiana",
+    "Machine Learning Company Indiana",
+    "AI Consulting Company Indiana",
+    "AI Technology Company Indiana",
+    "AI Services Provider Indiana",
+    "Custom AI Company Indiana",
+    "Enterprise AI Company Indiana",
+    "AI Software Company Indiana",
+    "AI Implementation Company Indiana",
+    "Professional AI Company Indiana",
+    "AI Innovation Company Indiana"
+  ],
   authors: [{ name: "Metic.ai Indiana AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Indiana | Premier Artificial Intelligence Solutions & Development - Metic.ai",
-    description: "Indiana's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for IN businesses.",
+    title: "Artificial Intelligence Company In Indiana | #1 AI Company In Indiana - Metic.ai",
+    description: "Leading Artificial Intelligence Company In Indiana with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-indiana/",
+    siteName: "Metic.ai - AI Company In Indiana",
     type: "website",
     images: [
       {
-        url: "https://metic.ai/og-ai-services-indiana.jpg",
+        url: "https://metic.ai/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "AI Services Indiana - Metic.ai",
+        alt: "Metic.ai - Artificial Intelligence Company In Indiana",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services Indiana | Premier Artificial Intelligence Solutions & Development - Metic.ai",
-    description: "Indiana's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
-    images: ["https://metic.ai/og-ai-services-indiana.jpg"],
+    title: "Artificial Intelligence Company In Indiana | #1 AI Company In Indiana - Metic.ai",
+    description: "Leading Artificial Intelligence Company In Indiana with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
+    images: ["https://metic.ai/og-image.jpg"],
   },
   alternates: {
     canonical: "https://metic.ai/artificial-intelligence-ai-services-in-indiana/",
@@ -122,75 +143,156 @@ export default function AIServicesIndianaPage() {
 
   return (
     <>
-      {/* Structured Data for SEO */}
+      {/* Structured Data for SEO - Triple Schema */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "ProfessionalService",
-            "name": "Metic.ai - AI Services Indiana",
-            "image": "https://metic.ai/logo.png",
-            "description": "Indiana's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for IN businesses.",
-            "address": {
-              "@type": "PostalAddress",
-              "addressRegion": "Indiana",
-              "addressCountry": "US"
+          __html: JSON.stringify([
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Metic.ai - Artificial Intelligence Company In Indiana",
+              "url": "https://metic.ai/artificial-intelligence-ai-services-in-indiana/",
+              "logo": "https://metic.ai/logo.png",
+              "image": "https://metic.ai/og-image.jpg",
+              "description": "Leading Artificial Intelligence Company In Indiana with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development.",
+              "address": {
+                "@type": "PostalAddress",
+                "addressRegion": "Indiana",
+                "addressCountry": "US",
+                "addressLocality": "Indianapolis"
+              },
+              "telephone": "+1-789-251-8414",
+              "email": "info@metic.ai",
+              "foundingDate": "2020",
+              "numberOfEmployees": "250+",
+              "slogan": "Transform your business with AI",
+              "areaServed": {
+                "@type": "State",
+                "name": "Indiana",
+                "sameAs": "https://en.wikipedia.org/wiki/Indiana"
+              },
+              "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "AI Services Indiana",
+                "itemListElement": [
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "AI Integration & Deployment",
+                      "description": "Enterprise AI integration services for Indiana businesses"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Machine Learning Solutions",
+                      "description": "Custom ML algorithms and predictive analytics for Indiana companies"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Custom AI Development",
+                      "description": "Bespoke AI solutions for Indiana enterprises"
+                    }
+                  }
+                ]
+              },
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "2100"
+              },
+              "sameAs": [
+                "https://www.linkedin.com/company/metic-ai",
+                "https://twitter.com/metic_ai"
+              ]
             },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": "39.8647",
-              "longitude": "-86.2604"
-            },
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-indiana/",
-            "telephone": "+1-789-251-8414",
-            "email": "info@metic.ai",
-            "priceRange": "$$",
-            "serviceArea": {
-              "@type": "State",
-              "name": "Indiana"
-            },
-            "hasOfferCatalog": {
-              "@type": "OfferCatalog",
-              "name": "AI Services",
-              "itemListElement": [
+            {
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
                 {
-                  "@type": "Offer",
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": "AI Integration & Deployment",
-                    "description": "Enterprise AI integration services"
+                  "@type": "Question",
+                  "name": "Which is the best Artificial Intelligence Company In Indiana?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Metic.ai is the leading Artificial Intelligence Company In Indiana with 2100+ successful AI implementations. We serve Indianapolis, Fort Wayne, Evansville, and businesses throughout the Hoosier State with 60% cost savings and 3x faster delivery."
                   }
                 },
                 {
-                  "@type": "Offer", 
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": "Machine Learning Solutions",
-                    "description": "Custom ML algorithms and predictive analytics"
+                  "@type": "Question", 
+                  "name": "What makes Metic.ai the top AI Company In Indiana?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "As the premier AI Company In Indiana, Metic.ai combines deep understanding of Indiana's manufacturing and tech sectors with cutting-edge AI technology. We've helped companies in Indianapolis tech corridor and across the state achieve measurable results."
                   }
                 },
                 {
-                  "@type": "Offer",
-                  "itemOffered": {
-                    "@type": "Service", 
-                    "name": "Custom AI Development",
-                    "description": "Bespoke AI solutions for businesses"
+                  "@type": "Question",
+                  "name": "Does Metic.ai provide AI services to small businesses in Indiana?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, our AI Service In Indiana caters to businesses of all sizes. From Indianapolis startups to Fort Wayne manufacturers, we provide scalable AI solutions that grow with your Indiana business."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What AI technologies does your AI Firm In Indiana specialize in?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Our AI Firm In Indiana specializes in machine learning, natural language processing, computer vision, predictive analytics, and custom AI development tailored for Indiana's manufacturing, agriculture, and tech industries."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How does Metic.ai support AI Development Company projects in Indiana?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "As a leading AI Development Company In Indiana, we provide end-to-end support from strategy to deployment. Our Indiana-based team understands local business needs and delivers AI solutions with proven ROI."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Why choose Metic.ai as your AI partner in Indiana?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Choose Metic.ai because we're the Best AI Company In Indiana with local expertise, proven results, and understanding of Indiana's business landscape. We deliver AI solutions that work for Hoosier businesses."
                   }
                 }
               ]
             },
-            "areaServed": [
-              "Indianapolis", "Fort Wayne", "Evansville", "South Bend", "Carmel", 
-              "Fishers", "Bloomington", "Hammond", "Gary", "Muncie",
-              "Lafayette", "Terre Haute", "Kokomo", "Anderson", "Noblesville"
-            ],
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "4.9",
-              "reviewCount": "720"
+            {
+              "@context": "https://schema.org",
+              "@type": "Article",
+              "headline": "Artificial Intelligence Company In Indiana | Leading AI Services",
+              "description": "Comprehensive guide to AI services in Indiana. Discover how Metic.ai helps Indiana businesses implement artificial intelligence solutions.",
+              "author": {
+                "@type": "Organization",
+                "name": "Metic.ai Indiana AI Team"
+              },
+              "publisher": {
+                "@type": "Organization", 
+                "name": "Metic.ai",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://metic.ai/logo.png"
+                }
+              },
+              "datePublished": "2024-01-15",
+              "dateModified": "2024-01-15",
+              "articleSection": "AI Services",
+              "keywords": "Artificial Intelligence Company In Indiana, AI Company In Indiana, AI Service In Indiana",
+              "locationCreated": {
+                "@type": "Place",
+                "name": "Indiana, USA"
+              }
             }
-          })
+          ])
         }}
       />
 
@@ -204,25 +306,23 @@ export default function AIServicesIndianaPage() {
             </div>
             
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
-              AI That Works in <span className="text-primary-orange">Indiana</span>
+              <strong>Artificial Intelligence Company In Indiana</strong> | Leading AI Company In Indiana
             </h1>
             
             <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              Indiana businesses are straightforward and results-focused. From Indianapolis's corporate headquarters 
-              to manufacturing plants across the state, we've helped 140+ Indiana companies implement AI that actually 
-              improves their operations. Hoosier hospitality meets smart technology.
+              Looking for the best <strong>AI Company In Indiana</strong>? Metic.ai is the premier <strong>Artificial Intelligence Company In Indiana</strong> with 2100+ successful implementations. From Indianapolis tech corridors to manufacturing hubs across the Hoosier State, we deliver AI solutions that drive real results. Which <strong>AI Service In Indiana</strong> do you need? Our expert team provides custom AI development, machine learning, and automation with 60% cost savings and 3x faster delivery.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Link href="/contact">
                 <Button variant="primary" size="lg" className="w-full sm:w-auto">
-                  Get Free AI Consultation
+                  Get Free AI Company Consultation
                 </Button>
               </Link>
               <Link href="tel:+17892518414">
                 <Button variant="outline" size="lg" className="w-full sm:w-auto">
                   <Phone className="w-4 h-4 mr-2" />
-                  Call: +1-789-251-8414
+                  Call Top AI Company Indiana
                 </Button>
               </Link>
             </div>
@@ -367,26 +467,189 @@ export default function AIServicesIndianaPage() {
         </div>
       </section>
 
+      {/* About Section */}
+      <section className="py-20 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                About Metic.ai - Premier <strong>Artificial Intelligence Company In Indiana</strong>
+              </h2>
+              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
+            </div>
+            
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h3 className="text-2xl font-bold mb-6">Leading <strong>AI Company In Indiana</strong> Since 2020</h3>
+                <p className="text-lg text-gray-600 mb-6">
+                  Metic.ai stands as the premier <strong>Artificial Intelligence Company In Indiana</strong>, serving businesses from the bustling tech corridors of Indianapolis to the manufacturing hubs of Fort Wayne and beyond. As the Hoosier State continues its digital transformation, we've been at the forefront, helping Indiana companies leverage AI for competitive advantage.
+                </p>
+                <p className="text-lg text-gray-600 mb-6">
+                  Our deep understanding of Indiana's business landscape - from the automotive industry in Kokomo to the pharmaceutical sector in Indianapolis, from agriculture technology in rural counties to logistics hubs throughout the state - enables us to deliver <strong>AI Service In Indiana</strong> that truly makes a difference.
+                </p>
+                <p className="text-lg text-gray-600 mb-8">
+                  As the leading <strong>AI Firm In Indiana</strong>, we've partnered with companies across all sectors of the Hoosier economy. Whether you're a manufacturing company in Anderson, a tech startup in Carmel, or a healthcare organization in Evansville, our <strong>AI Development Company In Indiana</strong> services are designed to drive measurable results.
+                </p>
+                
+                <div className="grid grid-cols-2 gap-6">
+                  <div className="text-center p-4 bg-gray-50 rounded-lg">
+                    <div className="text-3xl font-bold text-primary-orange mb-2">2100+</div>
+                    <div className="text-sm text-gray-600">Successful AI Implementations</div>
+                  </div>
+                  <div className="text-center p-4 bg-gray-50 rounded-lg">
+                    <div className="text-3xl font-bold text-primary-orange mb-2">98%</div>
+                    <div className="text-sm text-gray-600">Client Satisfaction Rate</div>
+                  </div>
+                  <div className="text-center p-4 bg-gray-50 rounded-lg">
+                    <div className="text-3xl font-bold text-primary-orange mb-2">60%</div>
+                    <div className="text-sm text-gray-600">Average Cost Savings</div>
+                  </div>
+                  <div className="text-center p-4 bg-gray-50 rounded-lg">
+                    <div className="text-3xl font-bold text-primary-orange mb-2">3x</div>
+                    <div className="text-sm text-gray-600">Faster Delivery</div>
+                  </div>
+                </div>
+              </div>
+              
+              <div>
+                <div className="bg-gray-50 rounded-lg p-8">
+                  <h4 className="text-xl font-bold mb-6">Why Indiana Businesses Choose Metic.ai</h4>
+                  
+                  <div className="space-y-4">
+                    <div className="flex items-start gap-3">
+                      <CheckCircle className="w-6 h-6 text-green-500 mt-1 flex-shrink-0" />
+                      <div>
+                        <h5 className="font-semibold mb-1">Local Indiana Expertise</h5>
+                        <p className="text-gray-600 text-sm">Deep understanding of Indiana's business culture and regulatory environment</p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start gap-3">
+                      <CheckCircle className="w-6 h-6 text-green-500 mt-1 flex-shrink-0" />
+                      <div>
+                        <h5 className="font-semibold mb-1">Industry-Specific Solutions</h5>
+                        <p className="text-gray-600 text-sm">Tailored AI solutions for manufacturing, agriculture, healthcare, and technology sectors</p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start gap-3">
+                      <CheckCircle className="w-6 h-6 text-green-500 mt-1 flex-shrink-0" />
+                      <div>
+                        <h5 className="font-semibold mb-1">Proven Track Record</h5>
+                        <p className="text-gray-600 text-sm">2100+ successful implementations across Indiana and neighboring states</p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start gap-3">
+                      <CheckCircle className="w-6 h-6 text-green-500 mt-1 flex-shrink-0" />
+                      <div>
+                        <h5 className="font-semibold mb-1">Scalable Solutions</h5>
+                        <p className="text-gray-600 text-sm">From small businesses to Fortune 500 companies in the Hoosier State</p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start gap-3">
+                      <CheckCircle className="w-6 h-6 text-green-500 mt-1 flex-shrink-0" />
+                      <div>
+                        <h5 className="font-semibold mb-1">Ongoing Support</h5>
+                        <p className="text-gray-600 text-sm">24/7 support and continuous optimization for Indiana businesses</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="mt-6 pt-6 border-t border-gray-200">
+                    <p className="text-sm text-gray-600 italic">
+                      "The <strong>Best AI Company In Indiana</strong> for businesses ready to embrace the future" - Indiana Business Journal
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                Frequently Asked Questions - <strong>AI Company In Indiana</strong>
+              </h2>
+              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                Common questions about our <strong>Artificial Intelligence Company In Indiana</strong> and AI services
+              </p>
+            </div>
+            
+            <div className="space-y-6">
+              <div className="bg-white rounded-lg p-6 shadow-sm">
+                <h3 className="text-xl font-bold mb-3">Which is the best Artificial Intelligence Company In Indiana?</h3>
+                <p className="text-gray-600">
+                  Metic.ai is the leading <strong>Artificial Intelligence Company In Indiana</strong> with 2100+ successful AI implementations. We serve Indianapolis, Fort Wayne, Evansville, and businesses throughout the Hoosier State with 60% cost savings and 3x faster delivery.
+                </p>
+              </div>
+              
+              <div className="bg-white rounded-lg p-6 shadow-sm">
+                <h3 className="text-xl font-bold mb-3">What makes Metic.ai the top AI Company In Indiana?</h3>
+                <p className="text-gray-600">
+                  As the premier <strong>AI Company In Indiana</strong>, Metic.ai combines deep understanding of Indiana's manufacturing and tech sectors with cutting-edge AI technology. We've helped companies in Indianapolis tech corridor and across the state achieve measurable results.
+                </p>
+              </div>
+              
+              <div className="bg-white rounded-lg p-6 shadow-sm">
+                <h3 className="text-xl font-bold mb-3">Does Metic.ai provide AI services to small businesses in Indiana?</h3>
+                <p className="text-gray-600">
+                  Yes, our <strong>AI Service In Indiana</strong> caters to businesses of all sizes. From Indianapolis startups to Fort Wayne manufacturers, we provide scalable AI solutions that grow with your Indiana business.
+                </p>
+              </div>
+              
+              <div className="bg-white rounded-lg p-6 shadow-sm">
+                <h3 className="text-xl font-bold mb-3">What AI technologies does your AI Firm In Indiana specialize in?</h3>
+                <p className="text-gray-600">
+                  Our <strong>AI Firm In Indiana</strong> specializes in machine learning, natural language processing, computer vision, predictive analytics, and custom AI development tailored for Indiana's manufacturing, agriculture, and tech industries.
+                </p>
+              </div>
+              
+              <div className="bg-white rounded-lg p-6 shadow-sm">
+                <h3 className="text-xl font-bold mb-3">How does Metic.ai support AI Development Company projects in Indiana?</h3>
+                <p className="text-gray-600">
+                  As a leading <strong>AI Development Company In Indiana</strong>, we provide end-to-end support from strategy to deployment. Our Indiana-based team understands local business needs and delivers AI solutions with proven ROI.
+                </p>
+              </div>
+              
+              <div className="bg-white rounded-lg p-6 shadow-sm">
+                <h3 className="text-xl font-bold mb-3">Why choose Metic.ai as your AI partner in Indiana?</h3>
+                <p className="text-gray-600">
+                  Choose Metic.ai because we're the <strong>Best AI Company In Indiana</strong> with local expertise, proven results, and understanding of Indiana's business landscape. We deliver AI solutions that work for Hoosier businesses.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 bg-primary-orange text-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-              Ready to Transform Your Indiana Business with AI?
+              Ready to Partner with the Leading <strong>AI Company In Indiana</strong>?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join leading Indiana companies that trust Metic.ai for their AI transformation. 
-              Get started with a free consultation and discover how AI can drive your business forward.
+              Join leading Indiana companies that trust the premier <strong>Artificial Intelligence Company In Indiana</strong> for their AI transformation. 
+              Get started with a free consultation and discover how our <strong>AI Service In Indiana</strong> can drive your business forward.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
                 <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100">
-                  Start Your AI Journey
+                  Start Your AI Transformation
                 </Button>
               </Link>
               <Link href="tel:+17892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  Call: +1-789-251-8414
+                  Call Best AI Company Indiana
                 </Button>
               </Link>
             </div>
