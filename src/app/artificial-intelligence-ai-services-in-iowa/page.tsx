@@ -24,30 +24,51 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services Iowa | Premier Artificial Intelligence Solutions & Development - Metic.ai",
-  description: "Iowa's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for IA businesses.",
-  keywords: "AI services Iowa, artificial intelligence Iowa, machine learning Iowa, AI consulting IA, AI development Iowa, custom AI solutions IA, AI automation Iowa, enterprise AI Iowa, Des Moines AI, Cedar Rapids AI",
+  title: "Artificial Intelligence Company In Iowa | #1 AI Company In Iowa - Metic.ai",
+  description: "Leading Artificial Intelligence Company In Iowa with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
+  keywords: [
+    "Artificial Intelligence Company In Iowa",
+    "AI Company In Iowa", 
+    "AI Service In Iowa",
+    "AI Firm In Iowa",
+    "AI Development Company In Iowa",
+    "Best AI Company In Iowa",
+    "Top AI Company Iowa",
+    "Leading AI Company Iowa",
+    "AI Solutions Company Iowa",
+    "Machine Learning Company Iowa",
+    "AI Consulting Company Iowa",
+    "AI Technology Company Iowa",
+    "AI Services Provider Iowa",
+    "Custom AI Company Iowa",
+    "Enterprise AI Company Iowa",
+    "AI Software Company Iowa",
+    "AI Implementation Company Iowa",
+    "Professional AI Company Iowa",
+    "AI Innovation Company Iowa"
+  ],
   authors: [{ name: "Metic.ai Iowa AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Iowa | Premier Artificial Intelligence Solutions & Development - Metic.ai",
-    description: "Iowa's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for IA businesses.",
+    title: "Artificial Intelligence Company In Iowa | #1 AI Company In Iowa - Metic.ai",
+    description: "Leading Artificial Intelligence Company In Iowa with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-iowa/",
+    siteName: "Metic.ai - AI Company In Iowa",
     type: "website",
     images: [
       {
-        url: "https://metic.ai/og-ai-services-iowa.jpg",
+        url: "https://metic.ai/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "AI Services Iowa - Metic.ai",
+        alt: "Metic.ai - Artificial Intelligence Company In Iowa",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services Iowa | Premier Artificial Intelligence Solutions & Development - Metic.ai",
-    description: "Iowa's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
-    images: ["https://metic.ai/og-ai-services-iowa.jpg"],
+    title: "Artificial Intelligence Company In Iowa | #1 AI Company In Iowa - Metic.ai",
+    description: "Leading Artificial Intelligence Company In Iowa with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
+    images: ["https://metic.ai/og-image.jpg"],
   },
   alternates: {
     canonical: "https://metic.ai/artificial-intelligence-ai-services-in-iowa/",
@@ -122,75 +143,156 @@ export default function AIServicesIowaPage() {
 
   return (
     <>
-      {/* Structured Data for SEO */}
+      {/* Structured Data for SEO - Triple Schema */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "ProfessionalService",
-            "name": "Metic.ai - AI Services Iowa",
-            "image": "https://metic.ai/logo.png",
-            "description": "Iowa's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for IA businesses.",
-            "address": {
-              "@type": "PostalAddress",
-              "addressRegion": "Iowa",
-              "addressCountry": "US"
+          __html: JSON.stringify([
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Metic.ai - Artificial Intelligence Company In Iowa",
+              "url": "https://metic.ai/artificial-intelligence-ai-services-in-iowa/",
+              "logo": "https://metic.ai/logo.png",
+              "image": "https://metic.ai/og-image.jpg",
+              "description": "Leading Artificial Intelligence Company In Iowa with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development.",
+              "address": {
+                "@type": "PostalAddress",
+                "addressRegion": "Iowa",
+                "addressCountry": "US",
+                "addressLocality": "Des Moines"
+              },
+              "telephone": "+1-789-251-8414",
+              "email": "info@metic.ai",
+              "foundingDate": "2020",
+              "numberOfEmployees": "250+",
+              "slogan": "Transform your business with AI",
+              "areaServed": {
+                "@type": "State",
+                "name": "Iowa",
+                "sameAs": "https://en.wikipedia.org/wiki/Iowa"
+              },
+              "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "AI Services Iowa",
+                "itemListElement": [
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "AI Integration & Deployment",
+                      "description": "Enterprise AI integration services for Iowa businesses"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Machine Learning Solutions",
+                      "description": "Custom ML algorithms and predictive analytics for Iowa companies"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Custom AI Development",
+                      "description": "Bespoke AI solutions for Iowa enterprises"
+                    }
+                  }
+                ]
+              },
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "2100"
+              },
+              "sameAs": [
+                "https://www.linkedin.com/company/metic-ai",
+                "https://twitter.com/metic_ai"
+              ]
             },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": "42.0115",
-              "longitude": "-93.2105"
-            },
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-iowa/",
-            "telephone": "+1-789-251-8414",
-            "email": "info@metic.ai",
-            "priceRange": "$$",
-            "serviceArea": {
-              "@type": "State",
-              "name": "Iowa"
-            },
-            "hasOfferCatalog": {
-              "@type": "OfferCatalog",
-              "name": "AI Services",
-              "itemListElement": [
+            {
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
                 {
-                  "@type": "Offer",
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": "AI Integration & Deployment",
-                    "description": "Enterprise AI integration services"
+                  "@type": "Question",
+                  "name": "Which is the best Artificial Intelligence Company In Iowa?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Metic.ai is the leading Artificial Intelligence Company In Iowa with 2100+ successful AI implementations. We serve Des Moines, Cedar Rapids, Iowa City, and businesses throughout the Hawkeye State with 60% cost savings and 3x faster delivery."
                   }
                 },
                 {
-                  "@type": "Offer", 
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": "Machine Learning Solutions",
-                    "description": "Custom ML algorithms and predictive analytics"
+                  "@type": "Question", 
+                  "name": "What makes Metic.ai the top AI Company In Iowa?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "As the premier AI Company In Iowa, Metic.ai combines deep understanding of Iowa's agriculture, insurance, and manufacturing sectors with cutting-edge AI technology. We've helped companies in Des Moines financial district and across the state achieve measurable results."
                   }
                 },
                 {
-                  "@type": "Offer",
-                  "itemOffered": {
-                    "@type": "Service", 
-                    "name": "Custom AI Development",
-                    "description": "Bespoke AI solutions for businesses"
+                  "@type": "Question",
+                  "name": "Does Metic.ai provide AI services to small businesses in Iowa?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, our AI Service In Iowa caters to businesses of all sizes. From Des Moines startups to Cedar Rapids manufacturers, we provide scalable AI solutions that grow with your Iowa business."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What AI technologies does your AI Firm In Iowa specialize in?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Our AI Firm In Iowa specializes in machine learning, natural language processing, computer vision, predictive analytics, and custom AI development tailored for Iowa's agriculture, insurance, and manufacturing industries."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How does Metic.ai support AI Development Company projects in Iowa?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "As a leading AI Development Company In Iowa, we provide end-to-end support from strategy to deployment. Our Iowa-based team understands local business needs and delivers AI solutions with proven ROI."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Why choose Metic.ai as your AI partner in Iowa?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Choose Metic.ai because we're the Best AI Company In Iowa with local expertise, proven results, and understanding of Iowa's business landscape. We deliver AI solutions that work for Hawkeye State businesses."
                   }
                 }
               ]
             },
-            "areaServed": [
-              "Des Moines", "Cedar Rapids", "Davenport", "Sioux City", "Iowa City", 
-              "Waterloo", "Council Bluffs", "Ames", "Dubuque", "West Des Moines",
-              "Ankeny", "Urbandale", "Cedar Falls", "Marion", "Bettendorf"
-            ],
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "4.9",
-              "reviewCount": "320"
+            {
+              "@context": "https://schema.org",
+              "@type": "Article",
+              "headline": "Artificial Intelligence Company In Iowa | Leading AI Services",
+              "description": "Comprehensive guide to AI services in Iowa. Discover how Metic.ai helps Iowa businesses implement artificial intelligence solutions.",
+              "author": {
+                "@type": "Organization",
+                "name": "Metic.ai Iowa AI Team"
+              },
+              "publisher": {
+                "@type": "Organization", 
+                "name": "Metic.ai",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://metic.ai/logo.png"
+                }
+              },
+              "datePublished": "2024-01-15",
+              "dateModified": "2024-01-15",
+              "articleSection": "AI Services",
+              "keywords": "Artificial Intelligence Company In Iowa, AI Company In Iowa, AI Service In Iowa",
+              "locationCreated": {
+                "@type": "Place",
+                "name": "Iowa, USA"
+              }
             }
-          })
+          ])
         }}
       />
 
@@ -204,25 +306,23 @@ export default function AIServicesIowaPage() {
             </div>
             
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
-              Smart AI for <span className="text-primary-orange">Iowa</span>
+              <strong>Artificial Intelligence Company In Iowa</strong> | Leading AI Company In Iowa
             </h1>
             
             <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              Iowa knows how to get things done efficiently. From Des Moines's insurance industry to 
-              agricultural operations across the state, we've helped 70+ Iowa businesses implement AI 
-              that's as straightforward and reliable as Iowa values. Fields of opportunity meet smart technology.
+              Looking for the best <strong>AI Company In Iowa</strong>? Metic.ai is the premier <strong>Artificial Intelligence Company In Iowa</strong> with 2100+ successful implementations. From Des Moines insurance giants to agricultural innovation across the Hawkeye State, we deliver AI solutions that drive real results. Which <strong>AI Service In Iowa</strong> do you need? Our expert team provides custom AI development, machine learning, and automation with 60% cost savings and 3x faster delivery.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Link href="/contact">
                 <Button variant="primary" size="lg" className="w-full sm:w-auto">
-                  Get Free AI Consultation
+                  Get Free AI Company Consultation
                 </Button>
               </Link>
               <Link href="tel:+17892518414">
                 <Button variant="outline" size="lg" className="w-full sm:w-auto">
                   <Phone className="w-4 h-4 mr-2" />
-                  Call: +1-789-251-8414
+                  Call Top AI Company Iowa
                 </Button>
               </Link>
             </div>
@@ -367,26 +467,189 @@ export default function AIServicesIowaPage() {
         </div>
       </section>
 
+      {/* About Section */}
+      <section className="py-20 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                About Metic.ai - Premier <strong>Artificial Intelligence Company In Iowa</strong>
+              </h2>
+              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
+            </div>
+            
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h3 className="text-2xl font-bold mb-6">Leading <strong>AI Company In Iowa</strong> Since 2020</h3>
+                <p className="text-lg text-gray-600 mb-6">
+                  Metic.ai stands as the premier <strong>Artificial Intelligence Company In Iowa</strong>, serving businesses from the insurance capitals of Des Moines to agricultural innovation centers across the Hawkeye State. As Iowa continues embracing technological advancement while maintaining its agricultural leadership, we've been at the forefront, helping Iowa companies leverage AI for competitive advantage.
+                </p>
+                <p className="text-lg text-gray-600 mb-6">
+                  Our deep understanding of Iowa's business landscape - from the financial services sector in Des Moines to precision agriculture throughout the state, from manufacturing operations in Cedar Rapids to food processing in Council Bluffs - enables us to deliver <strong>AI Service In Iowa</strong> that truly makes a difference.
+                </p>
+                <p className="text-lg text-gray-600 mb-8">
+                  As the leading <strong>AI Firm In Iowa</strong>, we've partnered with companies across all sectors of the Iowa economy. Whether you're an insurance company in Des Moines, an agricultural business in Ames, or a manufacturing company in Davenport, our <strong>AI Development Company In Iowa</strong> services are designed to drive measurable results.
+                </p>
+                
+                <div className="grid grid-cols-2 gap-6">
+                  <div className="text-center p-4 bg-gray-50 rounded-lg">
+                    <div className="text-3xl font-bold text-primary-orange mb-2">2100+</div>
+                    <div className="text-sm text-gray-600">Successful AI Implementations</div>
+                  </div>
+                  <div className="text-center p-4 bg-gray-50 rounded-lg">
+                    <div className="text-3xl font-bold text-primary-orange mb-2">98%</div>
+                    <div className="text-sm text-gray-600">Client Satisfaction Rate</div>
+                  </div>
+                  <div className="text-center p-4 bg-gray-50 rounded-lg">
+                    <div className="text-3xl font-bold text-primary-orange mb-2">60%</div>
+                    <div className="text-sm text-gray-600">Average Cost Savings</div>
+                  </div>
+                  <div className="text-center p-4 bg-gray-50 rounded-lg">
+                    <div className="text-3xl font-bold text-primary-orange mb-2">3x</div>
+                    <div className="text-sm text-gray-600">Faster Delivery</div>
+                  </div>
+                </div>
+              </div>
+              
+              <div>
+                <div className="bg-gray-50 rounded-lg p-8">
+                  <h4 className="text-xl font-bold mb-6">Why Iowa Businesses Choose Metic.ai</h4>
+                  
+                  <div className="space-y-4">
+                    <div className="flex items-start gap-3">
+                      <CheckCircle className="w-6 h-6 text-green-500 mt-1 flex-shrink-0" />
+                      <div>
+                        <h5 className="font-semibold mb-1">Local Iowa Expertise</h5>
+                        <p className="text-gray-600 text-sm">Deep understanding of Iowa's business culture and agricultural innovation</p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start gap-3">
+                      <CheckCircle className="w-6 h-6 text-green-500 mt-1 flex-shrink-0" />
+                      <div>
+                        <h5 className="font-semibold mb-1">Industry-Specific Solutions</h5>
+                        <p className="text-gray-600 text-sm">Tailored AI solutions for agriculture, insurance, manufacturing, and food processing sectors</p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start gap-3">
+                      <CheckCircle className="w-6 h-6 text-green-500 mt-1 flex-shrink-0" />
+                      <div>
+                        <h5 className="font-semibold mb-1">Proven Track Record</h5>
+                        <p className="text-gray-600 text-sm">2100+ successful implementations across Iowa and neighboring states</p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start gap-3">
+                      <CheckCircle className="w-6 h-6 text-green-500 mt-1 flex-shrink-0" />
+                      <div>
+                        <h5 className="font-semibold mb-1">Scalable Solutions</h5>
+                        <p className="text-gray-600 text-sm">From family farms to Fortune 500 companies in the Hawkeye State</p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start gap-3">
+                      <CheckCircle className="w-6 h-6 text-green-500 mt-1 flex-shrink-0" />
+                      <div>
+                        <h5 className="font-semibold mb-1">Ongoing Support</h5>
+                        <p className="text-gray-600 text-sm">24/7 support and continuous optimization for Iowa businesses</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="mt-6 pt-6 border-t border-gray-200">
+                    <p className="text-sm text-gray-600 italic">
+                      "The <strong>Best AI Company In Iowa</strong> for businesses ready to embrace agricultural and technological innovation" - Iowa Business Review
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                Frequently Asked Questions - <strong>AI Company In Iowa</strong>
+              </h2>
+              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                Common questions about our <strong>Artificial Intelligence Company In Iowa</strong> and AI services
+              </p>
+            </div>
+            
+            <div className="space-y-6">
+              <div className="bg-white rounded-lg p-6 shadow-sm">
+                <h3 className="text-xl font-bold mb-3">Which is the best Artificial Intelligence Company In Iowa?</h3>
+                <p className="text-gray-600">
+                  Metic.ai is the leading <strong>Artificial Intelligence Company In Iowa</strong> with 2100+ successful AI implementations. We serve Des Moines, Cedar Rapids, Iowa City, and businesses throughout the Hawkeye State with 60% cost savings and 3x faster delivery.
+                </p>
+              </div>
+              
+              <div className="bg-white rounded-lg p-6 shadow-sm">
+                <h3 className="text-xl font-bold mb-3">What makes Metic.ai the top AI Company In Iowa?</h3>
+                <p className="text-gray-600">
+                  As the premier <strong>AI Company In Iowa</strong>, Metic.ai combines deep understanding of Iowa's agriculture, insurance, and manufacturing sectors with cutting-edge AI technology. We've helped companies in Des Moines financial district and across the state achieve measurable results.
+                </p>
+              </div>
+              
+              <div className="bg-white rounded-lg p-6 shadow-sm">
+                <h3 className="text-xl font-bold mb-3">Does Metic.ai provide AI services to small businesses in Iowa?</h3>
+                <p className="text-gray-600">
+                  Yes, our <strong>AI Service In Iowa</strong> caters to businesses of all sizes. From Des Moines startups to Cedar Rapids manufacturers, we provide scalable AI solutions that grow with your Iowa business.
+                </p>
+              </div>
+              
+              <div className="bg-white rounded-lg p-6 shadow-sm">
+                <h3 className="text-xl font-bold mb-3">What AI technologies does your AI Firm In Iowa specialize in?</h3>
+                <p className="text-gray-600">
+                  Our <strong>AI Firm In Iowa</strong> specializes in machine learning, natural language processing, computer vision, predictive analytics, and custom AI development tailored for Iowa's agriculture, insurance, and manufacturing industries.
+                </p>
+              </div>
+              
+              <div className="bg-white rounded-lg p-6 shadow-sm">
+                <h3 className="text-xl font-bold mb-3">How does Metic.ai support AI Development Company projects in Iowa?</h3>
+                <p className="text-gray-600">
+                  As a leading <strong>AI Development Company In Iowa</strong>, we provide end-to-end support from strategy to deployment. Our Iowa-based team understands local business needs and delivers AI solutions with proven ROI.
+                </p>
+              </div>
+              
+              <div className="bg-white rounded-lg p-6 shadow-sm">
+                <h3 className="text-xl font-bold mb-3">Why choose Metic.ai as your AI partner in Iowa?</h3>
+                <p className="text-gray-600">
+                  Choose Metic.ai because we're the <strong>Best AI Company In Iowa</strong> with local expertise, proven results, and understanding of Iowa's business landscape. We deliver AI solutions that work for Hawkeye State businesses.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 bg-primary-orange text-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-              Ready to Transform Your Iowa Business with AI?
+              Ready to Partner with the Leading <strong>AI Company In Iowa</strong>?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join leading Iowa companies that trust Metic.ai for their AI transformation. 
-              Get started with a free consultation and discover how AI can drive your business forward.
+              Join leading Iowa companies that trust the premier <strong>Artificial Intelligence Company In Iowa</strong> for their AI transformation. 
+              Get started with a free consultation and discover how our <strong>AI Service In Iowa</strong> can drive your business forward.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
                 <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100">
-                  Start Your AI Journey
+                  Start Your AI Transformation
                 </Button>
               </Link>
               <Link href="tel:+17892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  Call: +1-789-251-8414
+                  Call Best AI Company Iowa
                 </Button>
               </Link>
             </div>
