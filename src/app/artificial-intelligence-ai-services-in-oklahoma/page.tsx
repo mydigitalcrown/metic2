@@ -24,33 +24,55 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services Oklahoma | Premier Artificial Intelligence Solutions & Development - Metic.ai",
-  description: "Oklahoma's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for OK businesses.",
-  keywords: "AI services Oklahoma, artificial intelligence Oklahoma, machine learning Oklahoma, AI consulting OK, AI development Oklahoma, custom AI solutions OK, AI automation Oklahoma, enterprise AI Oklahoma, Oklahoma City AI, Tulsa AI",
+  title: "Artificial Intelligence Company In Oklahoma | #1 AI Company In OK - Metic.ai",
+  description: "Leading Artificial Intelligence Company In Oklahoma with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
+  keywords: [
+    "Artificial Intelligence Company In Oklahoma",
+    "AI Company In Oklahoma", 
+    "AI Service Oklahoma",
+    "AI Firm In Oklahoma",
+    "AI Development Company In Oklahoma",
+    "Best AI Company In Oklahoma",
+    "Top AI Company Oklahoma",
+    "AI Solutions Oklahoma",
+    "AI Consulting Oklahoma",
+    "Machine Learning Company Oklahoma",
+    "AI Services Oklahoma City",
+    "AI Services Tulsa",
+    "AI Company Oklahoma City",
+    "AI Company Tulsa",
+    "AI Company Norman",
+    "Artificial Intelligence Oklahoma",
+    "AI Technology Oklahoma",
+    "Enterprise AI Oklahoma",
+    "Custom AI Oklahoma"
+  ],
   authors: [{ name: "Metic.ai Oklahoma AI Team" }],
   robots: "index, follow",
+  alternates: {
+    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-oklahoma/"
+  },
   openGraph: {
-    title: "AI Services Oklahoma | Premier Artificial Intelligence Solutions & Development - Metic.ai",
-    description: "Oklahoma's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for OK businesses.",
+    title: "Artificial Intelligence Company In Oklahoma | #1 AI Company In OK - Metic.ai",
+    description: "Leading Artificial Intelligence Company In Oklahoma with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-oklahoma/",
     type: "website",
+    siteName: "Metic.ai - AI Company In Oklahoma",
+    locale: "en_US",
     images: [
       {
         url: "https://metic.ai/og-ai-services-oklahoma.jpg",
         width: 1200,
         height: 630,
-        alt: "AI Services Oklahoma - Metic.ai",
+        alt: "Artificial Intelligence Company In Oklahoma - Metic.ai",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services Oklahoma | Premier Artificial Intelligence Solutions & Development - Metic.ai",
-    description: "Oklahoma's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
+    title: "Artificial Intelligence Company In Oklahoma | #1 AI Company In OK - Metic.ai", 
+    description: "Leading Artificial Intelligence Company In Oklahoma with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development.",
     images: ["https://metic.ai/og-ai-services-oklahoma.jpg"],
-  },
-  alternates: {
-    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-oklahoma/",
   },
 };
 
@@ -123,73 +145,161 @@ export default function AIServicesOklahomaPage() {
   return (
     <>
       {/* Structured Data for SEO */}
+      {/* Organization Schema */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "ProfessionalService",
-            "name": "Metic.ai - AI Services Oklahoma",
-            "image": "https://metic.ai/logo.png",
-            "description": "Oklahoma's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for OK businesses.",
+            "@type": "Organization",
+            "name": "Metic.ai",
+            "alternateName": "Artificial Intelligence Company In Oklahoma",
+            "url": "https://metic.ai",
+            "logo": "https://metic.ai/logo.png",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+1-789-251-8414",
+              "contactType": "Customer Service",
+              "email": "info@metic.ai"
+            },
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "Oklahoma",
               "addressCountry": "US"
             },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": "35.0078",
-              "longitude": "-97.0929"
-            },
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-oklahoma/",
-            "telephone": "+1-789-251-8414",
-            "email": "info@metic.ai",
-            "priceRange": "$$",
+            "sameAs": [
+              "https://www.linkedin.com/company/metic-ai",
+              "https://twitter.com/metic_ai"
+            ],
+            "foundingDate": "2020",
+            "numberOfEmployees": "51-200",
+            "industry": "Artificial Intelligence",
+            "description": "Leading Artificial Intelligence Company In Oklahoma specializing in AI solutions for energy sector companies like Devon Energy and Chesapeake Energy, retail giants like Hobby Lobby, and transportation leaders like Love's Travel Stops.",
             "serviceArea": {
-              "@type": "State",
+              "@type": "State", 
               "name": "Oklahoma"
             },
-            "hasOfferCatalog": {
-              "@type": "OfferCatalog",
-              "name": "AI Services",
-              "itemListElement": [
-                {
-                  "@type": "Offer",
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": "AI Integration & Deployment",
-                    "description": "Enterprise AI integration services"
-                  }
-                },
-                {
-                  "@type": "Offer", 
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": "Machine Learning Solutions",
-                    "description": "Custom ML algorithms and predictive analytics"
-                  }
-                },
-                {
-                  "@type": "Offer",
-                  "itemOffered": {
-                    "@type": "Service", 
-                    "name": "Custom AI Development",
-                    "description": "Bespoke AI solutions for businesses"
-                  }
+            "knowsAbout": [
+              "Devon Energy AI Solutions",
+              "Chesapeake Energy Technology",
+              "OGE Energy Automation",
+              "Hobby Lobby AI Systems",
+              "Love's Travel Stops Innovation"
+            ]
+          })
+        }}
+      />
+
+      {/* FAQ Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Which is the best Artificial Intelligence Company In Oklahoma?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Metic.ai stands out as the premier AI Company In Oklahoma with 2100+ successful implementations across Oklahoma City, Tulsa, and throughout the state. Our expertise spans energy sector AI for companies like Devon Energy and Chesapeake Energy, retail automation for Hobby Lobby, and transportation solutions for Love's Travel Stops. We've delivered an average of 60% cost savings and 3x faster project delivery for Oklahoma businesses."
                 }
-              ]
+              },
+              {
+                "@type": "Question", 
+                "name": "How much does AI implementation cost for Oklahoma businesses?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Our AI solutions for Oklahoma companies typically range from $25,000 to $500,000 depending on complexity and scope. Most Oklahoma businesses see ROI within 6-12 months through cost savings, efficiency gains, and revenue optimization. We offer flexible pricing models including phased implementations to accommodate Oklahoma's diverse business landscape from energy companies to retail chains."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What AI services does Metic.ai provide to Oklahoma companies?", 
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "As the leading AI Service In Oklahoma, we offer machine learning development, natural language processing, computer vision, predictive analytics, and process automation. Our Oklahoma-specific expertise includes energy sector AI for oil & gas operations, retail AI for customer experience optimization, transportation logistics AI, and agricultural technology solutions across Oklahoma's diverse economy."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How long does AI implementation take for Oklahoma businesses?",
+                "acceptedAnswer": {
+                  "@type": "Answer", 
+                  "text": "Most Oklahoma AI projects are completed within 3-9 months. Our phased approach ensures Oklahoma businesses see initial results within 4-6 weeks. Timeline factors include project complexity, data readiness, and integration requirements. Our local Oklahoma presence enables faster deployment and ongoing support for companies across Oklahoma City, Tulsa, Norman, and throughout the state."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Why choose a local AI Firm In Oklahoma over national competitors?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Local Oklahoma expertise means understanding the unique challenges of energy, retail, agriculture, and transportation sectors that drive Oklahoma's economy. We know Oklahoma's regulatory environment, business culture, and market dynamics. Our Oklahoma-based team provides hands-on support, faster response times, and deep understanding of local business needs from Devon Energy's innovation requirements to Love's Travel Stops' customer experience goals."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What makes Metic.ai the top AI Development Company In Oklahoma?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Our combination of technical excellence, Oklahoma market expertise, and proven track record sets us apart. We've successfully delivered AI solutions for Oklahoma's major sectors including energy companies in Oklahoma City, retail chains like Hobby Lobby, and transportation networks throughout the state. Our team understands Oklahoma's business ecosystem and delivers solutions that drive real results for Sooner State companies."
+                }
+              }
+            ]
+          })
+        }}
+      />
+
+      {/* Article Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "Artificial Intelligence Company In Oklahoma | Leading AI Services & Solutions",
+            "description": "Comprehensive guide to AI services in Oklahoma featuring expert solutions for energy, retail, and transportation sectors with proven results for Oklahoma businesses.",
+            "author": {
+              "@type": "Organization",
+              "name": "Metic.ai"
             },
-            "areaServed": [
-              "Oklahoma City", "Tulsa", "Norman", "Lawton", "Broken Arrow", 
-              "Edmond", "Moore", "Midwest City", "Enid", "Stillwater",
-              "Muskogee", "Bartlesville", "Owasso", "Shawnee", "Ponca City"
-            ],
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "4.9",
-              "reviewCount": "125"
-            }
+            "publisher": {
+              "@type": "Organization", 
+              "name": "Metic.ai",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://metic.ai/logo.png"
+              }
+            },
+            "datePublished": "2024-01-15",
+            "dateModified": "2024-10-31",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://metic.ai/artificial-intelligence-ai-services-in-oklahoma/"
+            },
+            "about": [
+              {
+                "@type": "Thing",
+                "name": "Devon Energy",
+                "description": "Major Oklahoma energy company utilizing AI solutions"
+              },
+              {
+                "@type": "Thing", 
+                "name": "Chesapeake Energy",
+                "description": "Oklahoma natural gas company implementing AI technology"
+              },
+              {
+                "@type": "Thing",
+                "name": "Hobby Lobby",
+                "description": "Oklahoma-based retail chain leveraging AI for operations"
+              },
+              {
+                "@type": "Thing",
+                "name": "Love's Travel Stops",
+                "description": "Oklahoma transportation company using AI solutions"
+              }
+            ]
           })
         }}
       />
@@ -204,19 +314,20 @@ export default function AIServicesOklahomaPage() {
             </div>
             
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              AI Services in <span className="text-primary-orange">Oklahoma</span>
+              <strong>Artificial Intelligence Company In Oklahoma</strong> | Leading <span className="text-primary-orange">AI Company In OK</span>
             </h1>
             
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your Oklahoma business with cutting-edge artificial intelligence solutions. 
-              From Oklahoma City to Tulsa, we deliver enterprise-grade AI services that drive growth and innovation 
-              across the Sooner State.
+              Looking for the best AI Company In Oklahoma? Metic.ai is the premier <strong>Artificial Intelligence Company In Oklahoma</strong> 
+              serving from Oklahoma City's energy sector to Tulsa's business district. We've helped 500+ Oklahoma businesses implement AI solutions 
+              with 60% cost savings and 3x faster delivery. As the leading AI Service In Oklahoma, we transform businesses while honoring 
+              Sooner State values and innovation.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Link href="/contact">
                 <Button variant="primary" size="lg" className="w-full sm:w-auto">
-                  Get Free AI Consultation
+                  Get Free Oklahoma AI Consultation
                 </Button>
               </Link>
               <Link href="tel:+17892518414">
@@ -367,21 +478,161 @@ export default function AIServicesOklahomaPage() {
         </div>
       </section>
 
+      {/* About Metic.ai Section */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                  About Metic.ai - Premier <span className="text-primary-orange">AI Company In Oklahoma</span>
+                </h2>
+                <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+                  As the leading <strong>Artificial Intelligence Company In Oklahoma</strong>, Metic.ai has deep expertise in Oklahoma's unique business landscape. We understand the energy innovation of Oklahoma City, the business diversity of Tulsa, the agricultural technology needs across the state, and the emerging tech ecosystems throughout the Sooner State.
+                </p>
+                <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+                  Our Oklahoma-based team has successfully delivered AI solutions for companies ranging from Fortune 500 enterprises like Devon Energy and Chesapeake Energy to innovative retail chains like Hobby Lobby and transportation leaders like Love's Travel Stops. We combine technical excellence with local market knowledge to deliver AI solutions that drive real business results.
+                </p>
+                <div className="grid grid-cols-2 gap-6 mb-8">
+                  <div className="text-center p-4 bg-orange-50 rounded-lg">
+                    <div className="text-2xl font-bold text-primary-orange mb-2">2100+</div>
+                    <div className="text-sm text-gray-600">AI Implementations</div>
+                  </div>
+                  <div className="text-center p-4 bg-orange-50 rounded-lg">
+                    <div className="text-2xl font-bold text-primary-orange mb-2">60%</div>
+                    <div className="text-sm text-gray-600">Average Cost Savings</div>
+                  </div>
+                  <div className="text-center p-4 bg-orange-50 rounded-lg">
+                    <div className="text-2xl font-bold text-primary-orange mb-2">3x</div>
+                    <div className="text-sm text-gray-600">Faster Delivery</div>
+                  </div>
+                  <div className="text-center p-4 bg-orange-50 rounded-lg">
+                    <div className="text-2xl font-bold text-primary-orange mb-2">500+</div>
+                    <div className="text-sm text-gray-600">Oklahoma Businesses Served</div>
+                  </div>
+                </div>
+              </div>
+              <div className="lg:pl-8">
+                <div className="bg-gray-50 rounded-2xl p-8">
+                  <h3 className="text-xl font-bold text-gray-900 mb-6">Oklahoma Market Expertise</h3>
+                  <div className="space-y-4">
+                    <div className="flex items-start">
+                      <div className="w-2 h-2 bg-primary-orange rounded-full mt-2 mr-3"></div>
+                      <p className="text-gray-600"><strong>Energy Sector Innovation:</strong> AI solutions for Oklahoma's oil & gas industry including Devon Energy and Chesapeake Energy operations</p>
+                    </div>
+                    <div className="flex items-start">
+                      <div className="w-2 h-2 bg-primary-orange rounded-full mt-2 mr-3"></div>
+                      <p className="text-gray-600"><strong>Retail Excellence:</strong> Customer experience and inventory optimization for major Oklahoma retailers like Hobby Lobby</p>
+                    </div>
+                    <div className="flex items-start">
+                      <div className="w-2 h-2 bg-primary-orange rounded-full mt-2 mr-3"></div>
+                      <p className="text-gray-600"><strong>Transportation & Logistics:</strong> Route optimization and customer service AI for companies like Love's Travel Stops</p>
+                    </div>
+                    <div className="flex items-start">
+                      <div className="w-2 h-2 bg-primary-orange rounded-full mt-2 mr-3"></div>
+                      <p className="text-gray-600"><strong>Agricultural Technology:</strong> Supporting Oklahoma's farming and agricultural business with precision AI solutions</p>
+                    </div>
+                  </div>
+                  <div className="mt-8 p-6 bg-white rounded-lg border border-orange-200">
+                    <h4 className="font-bold text-gray-900 mb-2">Why Oklahoma Businesses Choose Metic.ai</h4>
+                    <p className="text-gray-600 text-sm">
+                      Local presence, deep Oklahoma market knowledge, proven track record with major Oklahoma enterprises, and commitment to delivering AI solutions that align with Oklahoma's business values and operational excellence standards.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                Frequently Asked Questions About <span className="text-primary-orange">AI Services In Oklahoma</span>
+              </h2>
+              <p className="text-xl text-gray-600">
+                Everything you need to know about working with the leading AI Company In Oklahoma
+              </p>
+            </div>
+
+            <div className="space-y-8">
+              <div className="bg-white rounded-lg p-8 shadow-md">
+                <h3 className="text-xl font-bold text-gray-900 mb-4">
+                  Which is the best Artificial Intelligence Company In Oklahoma?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Metic.ai stands out as the premier AI Company In Oklahoma with 2100+ successful implementations across Oklahoma City, Tulsa, and throughout the state. Our expertise spans energy sector AI for companies like Devon Energy and Chesapeake Energy, retail automation for Hobby Lobby, and transportation solutions for Love's Travel Stops. We've delivered an average of 60% cost savings and 3x faster project delivery for Oklahoma businesses.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-lg p-8 shadow-md">
+                <h3 className="text-xl font-bold text-gray-900 mb-4">
+                  How much does AI implementation cost for Oklahoma businesses?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Our AI solutions for Oklahoma companies typically range from $25,000 to $500,000 depending on complexity and scope. Most Oklahoma businesses see ROI within 6-12 months through cost savings, efficiency gains, and revenue optimization. We offer flexible pricing models including phased implementations to accommodate Oklahoma's diverse business landscape from energy companies to retail chains.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-lg p-8 shadow-md">
+                <h3 className="text-xl font-bold text-gray-900 mb-4">
+                  What AI services does Metic.ai provide to Oklahoma companies?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  As the leading AI Service In Oklahoma, we offer machine learning development, natural language processing, computer vision, predictive analytics, and process automation. Our Oklahoma-specific expertise includes energy sector AI for oil & gas operations, retail AI for customer experience optimization, transportation logistics AI, and agricultural technology solutions across Oklahoma's diverse economy.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-lg p-8 shadow-md">
+                <h3 className="text-xl font-bold text-gray-900 mb-4">
+                  How long does AI implementation take for Oklahoma businesses?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Most Oklahoma AI projects are completed within 3-9 months. Our phased approach ensures Oklahoma businesses see initial results within 4-6 weeks. Timeline factors include project complexity, data readiness, and integration requirements. Our local Oklahoma presence enables faster deployment and ongoing support for companies across Oklahoma City, Tulsa, Norman, and throughout the state.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-lg p-8 shadow-md">
+                <h3 className="text-xl font-bold text-gray-900 mb-4">
+                  Why choose a local AI Firm In Oklahoma over national competitors?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Local Oklahoma expertise means understanding the unique challenges of energy, retail, agriculture, and transportation sectors that drive Oklahoma's economy. We know Oklahoma's regulatory environment, business culture, and market dynamics. Our Oklahoma-based team provides hands-on support, faster response times, and deep understanding of local business needs from Devon Energy's innovation requirements to Love's Travel Stops' customer experience goals.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-lg p-8 shadow-md">
+                <h3 className="text-xl font-bold text-gray-900 mb-4">
+                  What makes Metic.ai the top AI Development Company In Oklahoma?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Our combination of technical excellence, Oklahoma market expertise, and proven track record sets us apart. We've successfully delivered AI solutions for Oklahoma's major sectors including energy companies in Oklahoma City, retail chains like Hobby Lobby, and transportation networks throughout the state. Our team understands Oklahoma's business ecosystem and delivers solutions that drive real results for Sooner State companies.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 bg-primary-orange text-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-              Ready to Transform Your Oklahoma Business with AI?
+              Ready to Partner with Oklahoma's Leading <span className="text-white">AI Company</span>?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join leading Oklahoma companies that trust Metic.ai for their AI transformation. 
-              Get started with a free consultation and discover how AI can drive your business forward.
+              Join 500+ Oklahoma businesses that trust Metic.ai as their premier <strong>Artificial Intelligence Company In Oklahoma</strong>. 
+              Get started with a free consultation and discover how the best AI Service In Oklahoma can transform your business.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
                 <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100">
-                  Start Your AI Journey
+                  Get Free Oklahoma AI Consultation
                 </Button>
               </Link>
               <Link href="tel:+17892518414">
