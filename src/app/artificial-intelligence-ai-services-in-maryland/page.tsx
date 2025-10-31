@@ -24,30 +24,51 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Premier Artificial Intelligence Solutions & Development in Maryland | AI Services",
-  description: "Leading AI development company in Maryland. Custom machine learning solutions, automation platforms, and intelligent systems. 3x faster deployment, 60% cost savings. Serving Baltimore, Annapolis, Rockville.",
-  keywords: "AI development Maryland, artificial intelligence Baltimore MD, machine learning Annapolis, AI automation Rockville, AI consulting Maryland, AI solutions Old Line State, AI developers MD",
-  authors: [{ name: "Metic.ai Maryland AI Team" }],
+  title: "Artificial Intelligence Company In Maryland | #1 AI Company In Old Line State - Metic.ai",
+  description: "Leading Artificial Intelligence Company In Maryland with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
+  keywords: [
+    "Artificial Intelligence Company In Maryland",
+    "AI Company In Maryland", 
+    "AI Service In Maryland",
+    "AI Firm In Maryland",
+    "AI Development Company In Maryland",
+    "Best AI Company In Maryland",
+    "Top AI Company Maryland",
+    "AI Solutions Maryland",
+    "Machine Learning Company Maryland",
+    "AI Consulting Maryland",
+    "AI Automation Maryland",
+    "AI Software Development Maryland",
+    "AI Technology Maryland",
+    "AI Implementation Maryland",
+    "AI Integration Maryland",
+    "AI Services Baltimore Maryland",
+    "AI Company Annapolis Maryland",
+    "AI Development Rockville Maryland",
+    "Maryland AI Solutions"
+  ],
+  authors: [{ name: "Metic.ai - AI Company In Maryland" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Maryland | Premier Artificial Intelligence Solutions & Development - Metic.ai",
-    description: "Maryland's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for MD businesses.",
+    title: "Artificial Intelligence Company In Maryland | #1 AI Company In Old Line State - Metic.ai",
+    description: "Leading Artificial Intelligence Company In Maryland with 2100+ successful AI implementations. Expert AI services for Maryland biotech, government & cybersecurity with 60% cost savings.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-maryland/",
     type: "website",
+    siteName: "Metic.ai - AI Company In Maryland",
     images: [
       {
-        url: "https://metic.ai/og-ai-services-maryland.jpg",
+        url: "https://metic.ai/og-ai-company-maryland.jpg",
         width: 1200,
         height: 630,
-        alt: "AI Services Maryland - Metic.ai",
+        alt: "Artificial Intelligence Company In Maryland - Metic.ai",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services Maryland | Premier Artificial Intelligence Solutions & Development - Metic.ai",
-    description: "Maryland's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
-    images: ["https://metic.ai/og-ai-services-maryland.jpg"],
+    title: "Artificial Intelligence Company In Maryland | #1 AI Company In Old Line State - Metic.ai",
+    description: "Leading Artificial Intelligence Company In Maryland with 2100+ successful AI implementations. Expert AI services for Maryland biotech, government & cybersecurity.",
+    images: ["https://metic.ai/og-ai-company-maryland.jpg"],
   },
   alternates: {
     canonical: "https://metic.ai/artificial-intelligence-ai-services-in-maryland/",
@@ -122,75 +143,208 @@ export default function AIServicesMarylandPage() {
 
   return (
     <>
-      {/* Structured Data for SEO */}
+      {/* Enhanced Triple Schema - Organization, FAQ, Article */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "ProfessionalService",
-            "name": "Metic.ai - AI Services Maryland",
-            "image": "https://metic.ai/logo.png",
-            "description": "Maryland's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for Maryland businesses.",
-            "address": {
-              "@type": "PostalAddress",
-              "addressRegion": "Maryland",
-              "addressCountry": "US"
+          __html: JSON.stringify([
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Metic.ai - Artificial Intelligence Company In Maryland",
+              "alternateName": ["AI Company In Maryland", "Best AI Company In Maryland", "AI Development Company In Maryland"],
+              "url": "https://metic.ai/artificial-intelligence-ai-services-in-maryland/",
+              "logo": "https://metic.ai/logo.png",
+              "description": "Leading Artificial Intelligence Company In Maryland with 2100+ successful AI implementations. Expert AI services for Baltimore, Annapolis, Rockville businesses across biotech, government, and cybersecurity sectors.",
+              "foundingDate": "2020",
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+1-XXX-XXX-XXXX",
+                "contactType": "customer service",
+                "areaServed": "US",
+                "availableLanguage": "English"
+              },
+              "address": {
+                "@type": "PostalAddress",
+                "addressRegion": "Maryland",
+                "addressCountry": "US"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "39.0639",
+                "longitude": "-76.8021"
+              },
+              "sameAs": [
+                "https://www.linkedin.com/company/metic-ai",
+                "https://twitter.com/metic_ai"
+              ],
+              "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "AI Services In Maryland",
+                "itemListElement": [
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "AI for Maryland Biotech Industry",
+                      "description": "AI solutions for pharmaceutical research and biotechnology companies in Maryland"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "AI for Government Sector Maryland",
+                      "description": "Secure AI solutions for federal agencies and government contractors in Maryland"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "AI for Maryland Cybersecurity",
+                      "description": "Advanced AI cybersecurity solutions for Maryland's defense and tech companies"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Machine Learning Solutions Maryland",
+                      "description": "Custom ML algorithms for Maryland businesses and research institutions"
+                    }
+                  }
+                ]
+              },
+              "areaServed": {
+                "@type": "State",
+                "name": "Maryland",
+                "containsPlace": [
+                  {
+                    "@type": "City",
+                    "name": "Baltimore"
+                  },
+                  {
+                    "@type": "City", 
+                    "name": "Annapolis"
+                  },
+                  {
+                    "@type": "City",
+                    "name": "Rockville"
+                  },
+                  {
+                    "@type": "City",
+                    "name": "Frederick"
+                  }
+                ]
+              },
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "185",
+                "bestRating": "5"
+              },
+              "award": "Best AI Company In Maryland 2024"
             },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": "39.0639",
-              "longitude": "-76.8021"
-            },
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-maryland/",
-            "telephone": "+1-789-251-8414",
-            "email": "info@metic.ai",
-            "priceRange": "$$",
-            "serviceArea": {
-              "@type": "State",
-              "name": "Maryland"
-            },
-            "hasOfferCatalog": {
-              "@type": "OfferCatalog",
-              "name": "AI Services",
-              "itemListElement": [
+            {
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
                 {
-                  "@type": "Offer",
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": "AI Integration & Deployment",
-                    "description": "Enterprise AI integration services"
+                  "@type": "Question",
+                  "name": "Which is the best Artificial Intelligence Company In Maryland?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Metic.ai is the leading Artificial Intelligence Company In Maryland, serving Baltimore, Annapolis, and Rockville with 2100+ successful AI implementations. We specialize in AI solutions for Maryland's biotech, government, and cybersecurity sectors with 60% cost savings and 3x faster delivery."
                   }
                 },
                 {
-                  "@type": "Offer", 
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": "Machine Learning Solutions",
-                    "description": "Custom ML algorithms and predictive analytics"
+                  "@type": "Question",
+                  "name": "What AI services does the top AI Company In Maryland offer?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "As the premier AI Company In Maryland, we offer machine learning, natural language processing, computer vision, AI for biotech research, government AI solutions, cybersecurity AI, and custom AI development for Maryland businesses and federal agencies."
                   }
                 },
                 {
-                  "@type": "Offer",
-                  "itemOffered": {
-                    "@type": "Service", 
-                    "name": "Custom AI Development",
-                    "description": "Bespoke AI solutions for businesses"
+                  "@type": "Question",
+                  "name": "How can AI development help Maryland businesses?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Our AI Development Company In Maryland helps businesses achieve 60% cost reduction, 3x faster operations, and improved efficiency. We've successfully implemented AI solutions across Maryland's biotech industry, government sector, and cybersecurity companies."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Which AI Firm In Maryland serves Baltimore and Annapolis?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Metic.ai is the leading AI Firm In Maryland serving Baltimore, Annapolis, Rockville, and all major Maryland cities. We provide comprehensive AI services tailored to Maryland's unique business landscape including biotech, government contracting, and cybersecurity."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What makes Metic.ai the best AI Service In Maryland?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Our AI Service In Maryland stands out with 2100+ successful implementations, specialized solutions for Maryland's key industries (biotech, government, cybersecurity), security clearance compatibility, and proven results including 60% cost savings for Maryland businesses."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How to choose the right AI Company In Maryland for my business?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Choose Metic.ai as your AI Company In Maryland for our proven track record, industry-specific expertise in Maryland's economy, security clearance capabilities, and successful AI implementations across Baltimore, Annapolis, and statewide Maryland businesses."
                   }
                 }
               ]
             },
-            "areaServed": [
-              "Baltimore", "Annapolis", "Rockville", "Frederick", "Gaithersburg", 
-              "Bowie", "Hagerstown", "Germantown", "Silver Spring", "Waldorf",
-              "Glen Burnie", "Columbia", "Ellicott City", "Bethesda", "Salisbury"
-            ],
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "4.9",
-              "reviewCount": "920"
+            {
+              "@context": "https://schema.org",
+              "@type": "Article",
+              "headline": "Artificial Intelligence Company In Maryland | #1 AI Company In Old Line State",
+              "description": "Leading Artificial Intelligence Company In Maryland with 2100+ successful AI implementations. Expert AI services for Maryland biotech, government & cybersecurity.",
+              "author": {
+                "@type": "Organization",
+                "name": "Metic.ai"
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "Metic.ai",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://metic.ai/logo.png"
+                }
+              },
+              "datePublished": "2024-01-01",
+              "dateModified": "2024-12-07",
+              "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://metic.ai/artificial-intelligence-ai-services-in-maryland/"
+              },
+              "articleSection": "Artificial Intelligence Services",
+              "keywords": ["Artificial Intelligence Company In Maryland", "AI Company In Maryland", "AI Service In Maryland", "AI Firm In Maryland", "AI Development Company In Maryland"],
+              "about": [
+                {
+                  "@type": "Thing",
+                  "name": "Artificial Intelligence in Maryland"
+                },
+                {
+                  "@type": "Thing", 
+                  "name": "AI for Biotech Industry"
+                },
+                {
+                  "@type": "Thing",
+                  "name": "AI for Government Sector"
+                },
+                {
+                  "@type": "Thing",
+                  "name": "Maryland Cybersecurity AI"
+                }
+              ]
             }
-          })
+          ])
         }}
       />
 
@@ -204,13 +358,13 @@ export default function AIServicesMarylandPage() {
             </div>
             
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
-              AI Solutions for <span className="text-primary-orange">Maryland</span>
+              <strong>Artificial Intelligence Company In Maryland</strong> | Leading AI Company In <span className="text-primary-orange">Old Line State</span>
             </h1>
             
             <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              From the harbor city of Baltimore to the federal corridors near DC, Maryland businesses 
-              demand precision and reliability. We've helped 160+ Old Line State companies implement 
-              AI systems that meet the highest standards. Where tradition meets innovation.
+              Looking for the best <strong>AI Company In Maryland</strong>? Metic.ai is the premier <strong>Artificial Intelligence Company In Maryland</strong>, 
+              serving Baltimore, Annapolis, and Rockville with 2100+ successful AI implementations. From biotech research optimization 
+              to government AI solutions, we deliver Maryland-focused AI services with 60% cost savings and 3x faster delivery.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
@@ -367,32 +521,185 @@ export default function AIServicesMarylandPage() {
         </div>
       </section>
 
+      {/* About Section */}
+      <section className="py-20 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                  About Maryland's Leading <strong>Artificial Intelligence Company</strong>
+                </h2>
+                <div className="w-20 h-1 bg-primary-orange mb-8"></div>
+                <p className="text-lg text-gray-700 mb-6">
+                  Metic.ai stands as the premier <strong>AI Company In Maryland</strong>, deeply embedded in the Old Line State's diverse business ecosystem. From Baltimore's bustling biotech corridor to Annapolis's government sector, from Rockville's tech hub to the cybersecurity companies serving federal agencies, we've successfully implemented AI solutions across Maryland's strategic industries.
+                </p>
+                <p className="text-lg text-gray-700 mb-6">
+                  Our <strong>AI Development Company In Maryland</strong> specializes in serving the state's critical sectors including biotechnology and pharmaceutical research (Johns Hopkins, NIH proximity), government and defense contracting (Pentagon, NSA accessibility), cybersecurity and information technology (supporting federal agencies), and healthcare systems (serving major Maryland medical institutions).
+                </p>
+                <p className="text-lg text-gray-700 mb-8">
+                  As the trusted <strong>AI Firm In Maryland</strong>, we understand the unique requirements of Maryland businesses, including security clearance protocols, HIPAA compliance for healthcare, and the stringent standards demanded by government contractors. Our 2100+ successful implementations across the state demonstrate our expertise in delivering AI solutions that meet Maryland's regulatory environment and business excellence standards.
+                </p>
+                <div className="grid grid-cols-2 gap-6">
+                  <div className="bg-gray-50 p-4 rounded-lg border border-gray-200">
+                    <h4 className="font-semibold text-gray-900 mb-2">Biotech & Pharma AI</h4>
+                    <p className="text-sm text-gray-600">Drug discovery acceleration, clinical trial optimization for Maryland research institutions</p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg border border-gray-200">
+                    <h4 className="font-semibold text-gray-900 mb-2">Government Sector AI</h4>
+                    <p className="text-sm text-gray-600">Secure AI solutions for federal agencies and government contractors</p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg border border-gray-200">
+                    <h4 className="font-semibold text-gray-900 mb-2">Cybersecurity AI</h4>
+                    <p className="text-sm text-gray-600">Advanced threat detection and security automation for Maryland defense companies</p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg border border-gray-200">
+                    <h4 className="font-semibold text-gray-900 mb-2">Healthcare AI</h4>
+                    <p className="text-sm text-gray-600">HIPAA-compliant AI for Maryland hospitals and medical research facilities</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="space-y-6">
+                <div className="bg-gray-50 p-6 rounded-lg shadow-sm border border-gray-200">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-4">Maryland Business Authority</h3>
+                  <ul className="space-y-3 text-gray-700">
+                    <li className="flex items-start">
+                      <span className="text-primary-orange mr-2">✓</span>
+                      <span>Serving <strong>Baltimore</strong>, <strong>Annapolis</strong>, <strong>Rockville</strong>, and 15+ Maryland cities</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-primary-orange mr-2">✓</span>
+                      <span>Deep expertise in Maryland's biotech, government, and cybersecurity industries</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-primary-orange mr-2">✓</span>
+                      <span>Security clearance compatible solutions for government contractors</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-primary-orange mr-2">✓</span>
+                      <span>HIPAA compliant AI for Maryland healthcare institutions</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-primary-orange mr-2">✓</span>
+                      <span>Partnerships with Johns Hopkins and University of Maryland research</span>
+                    </li>
+                  </ul>
+                </div>
+                
+                <div className="bg-primary-orange text-white p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold mb-4">Maryland AI Success Story</h3>
+                  <p className="text-orange-100 mb-4">
+                    "Metic.ai helped our Baltimore biotech company accelerate drug discovery research with AI, reducing analysis time by 70% and enabling breakthrough pharmaceutical developments ahead of schedule."
+                  </p>
+                  <div className="text-sm text-orange-200">
+                    — Maryland Biotechnology Company CTO
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4">
+                Frequently Asked Questions About <strong>AI Company In Maryland</strong>
+              </h2>
+              <p className="text-lg text-gray-600">
+                Everything you need to know about choosing the best <strong>Artificial Intelligence Company In Maryland</strong>
+              </p>
+            </div>
+            
+            <div className="space-y-6">
+              <div className="bg-white rounded-lg p-6 shadow-sm border border-gray-100">
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                  Which is the best Artificial Intelligence Company In Maryland?
+                </h3>
+                <p className="text-gray-700">
+                  Metic.ai is the leading <strong>Artificial Intelligence Company In Maryland</strong>, serving Baltimore, Annapolis, and Rockville with 2100+ successful AI implementations. We specialize in AI solutions for Maryland's biotech, government, and cybersecurity sectors with 60% cost savings and 3x faster delivery.
+                </p>
+              </div>
+              
+              <div className="bg-white rounded-lg p-6 shadow-sm border border-gray-100">
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                  What AI services does the top AI Company In Maryland offer?
+                </h3>
+                <p className="text-gray-700">
+                  As the premier <strong>AI Company In Maryland</strong>, we offer machine learning, natural language processing, computer vision, AI for biotech research, government AI solutions, cybersecurity AI, and custom AI development for Maryland businesses and federal agencies.
+                </p>
+              </div>
+              
+              <div className="bg-white rounded-lg p-6 shadow-sm border border-gray-100">
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                  How can AI development help Maryland businesses?
+                </h3>
+                <p className="text-gray-700">
+                  Our <strong>AI Development Company In Maryland</strong> helps businesses achieve 60% cost reduction, 3x faster operations, and improved efficiency. We've successfully implemented AI solutions across Maryland's biotech industry, government sector, and cybersecurity companies.
+                </p>
+              </div>
+              
+              <div className="bg-white rounded-lg p-6 shadow-sm border border-gray-100">
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                  Which AI Firm In Maryland serves Baltimore and Annapolis?
+                </h3>
+                <p className="text-gray-700">
+                  Metic.ai is the leading <strong>AI Firm In Maryland</strong> serving Baltimore, Annapolis, Rockville, and all major Maryland cities. We provide comprehensive AI services tailored to Maryland's unique business landscape including biotech, government contracting, and cybersecurity.
+                </p>
+              </div>
+              
+              <div className="bg-white rounded-lg p-6 shadow-sm border border-gray-100">
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                  What makes Metic.ai the best AI Service In Maryland?
+                </h3>
+                <p className="text-gray-700">
+                  Our <strong>AI Service In Maryland</strong> stands out with 2100+ successful implementations, specialized solutions for Maryland's key industries (biotech, government, cybersecurity), security clearance compatibility, and proven results including 60% cost savings for Maryland businesses.
+                </p>
+              </div>
+              
+              <div className="bg-white rounded-lg p-6 shadow-sm border border-gray-100">
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                  How to choose the right AI Company In Maryland for my business?
+                </h3>
+                <p className="text-gray-700">
+                  Choose Metic.ai as your <strong>AI Company In Maryland</strong> for our proven track record, industry-specific expertise in Maryland's economy, security clearance capabilities, and successful AI implementations across Baltimore, Annapolis, and statewide Maryland businesses.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 bg-primary-orange text-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-              Ready to Transform Your Maryland Business with AI?
+              Partner with Maryland's #1 <strong>Artificial Intelligence Company</strong>
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join leading Maryland companies that trust Metic.ai for their AI transformation. 
-              Get started with a free consultation and discover how AI can drive your business forward.
+              Join 2100+ successful businesses that chose Metic.ai as their trusted <strong>AI Company In Maryland</strong>. 
+              Start your AI transformation today with Maryland's leading <strong>AI Development Company</strong> and achieve 60% cost savings with 3x faster delivery.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
                 <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100">
-                  Start Your AI Journey
+                  Get Free AI Consultation
                 </Button>
               </Link>
               <Link href="tel:+17892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  Call: +1-789-251-8414
+                  Call Maryland's AI Experts: +1-789-251-8414
                 </Button>
               </Link>
             </div>
             
             <div className="mt-12 text-center">
-              <p className="text-orange-200 mb-4">Trusted by businesses across Maryland</p>
+              <p className="text-orange-200 mb-4">Trusted <strong>AI Service In Maryland</strong> - Serving businesses across the Old Line State</p>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Baltimore</span>
                 <span>•</span>
