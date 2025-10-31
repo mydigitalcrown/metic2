@@ -5,11 +5,17 @@
 User-agent: *
 Allow: /
 
-# Priority pages for crawling
+# Priority pages for crawling - Updated with all optimized locations
 Allow: /about
 Allow: /services
 Allow: /contact
 Allow: /artificial-intelligence-ai-services-in-michigan
+Allow: /artificial-intelligence-ai-services-in-gurugram
+Allow: /artificial-intelligence-ai-services-in-hawaii
+Allow: /artificial-intelligence-ai-services-in-hyderabad
+Allow: /artificial-intelligence-ai-services-in-idaho
+Allow: /artificial-intelligence-ai-services-in-illinois
+Allow: /machine-learning-services-in-*
 
 # Disallow unnecessary paths
 Disallow: /admin/

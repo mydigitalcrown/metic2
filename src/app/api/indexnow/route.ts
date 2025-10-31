@@ -71,6 +71,12 @@ export async function GET() {
     'https://metic.ai/contact',
     'https://metic.ai/artificial-intelligence-ai-services-in-michigan',
     'https://metic.ai/machine-learning-services-in-michigan',
+    // Recently optimized pages
+    'https://metic.ai/artificial-intelligence-ai-services-in-gurugram',
+    'https://metic.ai/artificial-intelligence-ai-services-in-hawaii',
+    'https://metic.ai/artificial-intelligence-ai-services-in-hyderabad',
+    'https://metic.ai/artificial-intelligence-ai-services-in-idaho',
+    'https://metic.ai/artificial-intelligence-ai-services-in-illinois',
   ]
 
   try {
