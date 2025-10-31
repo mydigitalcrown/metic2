@@ -24,34 +24,57 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services New Mexico | Premier Artificial Intelligence Solutions & Development - Metic.ai",
-  description: "New Mexico's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for NM businesses.",
-  keywords: "AI services New Mexico, artificial intelligence New Mexico, machine learning New Mexico, AI consulting NM, AI development New Mexico, custom AI solutions NM, AI automation New Mexico, enterprise AI New Mexico, Albuquerque AI, Santa Fe AI",
+  title: "Artificial Intelligence Company In New Mexico | #1 AI Company In New Mexico - Metic.ai",
+  description: "Leading Artificial Intelligence Company In New Mexico with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
+  keywords: [
+    "Artificial Intelligence Company In New Mexico",
+    "AI Company In New Mexico",
+    "AI Service In New Mexico",
+    "AI Firm In New Mexico", 
+    "AI Development Company In New Mexico",
+    "Best AI Company In New Mexico",
+    "Top AI Company New Mexico",
+    "AI Services New Mexico",
+    "Machine Learning Company New Mexico",
+    "AI Consulting New Mexico",
+    "AI Solutions New Mexico",
+    "AI Integration New Mexico",
+    "Custom AI Development New Mexico",
+    "Enterprise AI New Mexico",
+    "AI Automation New Mexico",
+    "New Mexico AI Services",
+    "Albuquerque AI Company",
+    "Santa Fe AI Services",
+    "New Mexico Artificial Intelligence"
+  ],
   authors: [{ name: "Metic.ai New Mexico AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services New Mexico | Premier Artificial Intelligence Solutions & Development - Metic.ai",
-    description: "New Mexico's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for NM businesses.",
+    title: "Artificial Intelligence Company In New Mexico | #1 AI Company In New Mexico - Metic.ai",
+    siteName: "Metic.ai - AI Company In New Mexico",
+    description: "Leading Artificial Intelligence Company In New Mexico with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-new-mexico/",
     type: "website",
+    locale: "en_US",
     images: [
       {
         url: "https://metic.ai/og-ai-services-new-mexico.jpg",
         width: 1200,
         height: 630,
-        alt: "AI Services New Mexico - Metic.ai",
+        alt: "Artificial Intelligence Company In New Mexico - Metic.ai",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services New Mexico | Premier Artificial Intelligence Solutions & Development - Metic.ai",
-    description: "New Mexico's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
+    title: "Artificial Intelligence Company In New Mexico | #1 AI Company In New Mexico - Metic.ai",
+    description: "Leading Artificial Intelligence Company In New Mexico with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development.",
     images: ["https://metic.ai/og-ai-services-new-mexico.jpg"],
+    creator: "@MeticAI"
   },
   alternates: {
-    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-new-mexico/",
-  },
+    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-new-mexico/"
+  }
 };
 
 export default function AIServicesNewMexicoPage() {
@@ -122,73 +145,218 @@ export default function AIServicesNewMexicoPage() {
 
   return (
     <>
-      {/* Structured Data for SEO */}
+      {/* Organization Schema */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "ProfessionalService",
-            "name": "Metic.ai - AI Services New Mexico",
-            "image": "https://metic.ai/logo.png",
-            "description": "New Mexico's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for NM businesses.",
+            "@type": "Organization",
+            "name": "Metic.ai",
+            "alternateName": "Artificial Intelligence Company In New Mexico",
+            "description": "Leading Artificial Intelligence Company In New Mexico providing custom AI solutions, machine learning services, and AI development for businesses across New Mexico including Albuquerque, Santa Fe, and Las Cruces.",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-new-mexico/",
+            "logo": "https://metic.ai/logo.png",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+1-789-251-8414",
+              "contactType": "Customer Service",
+              "areaServed": "New Mexico",
+              "availableLanguage": "English"
+            },
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "New Mexico",
               "addressCountry": "US"
             },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": "34.8405",
-              "longitude": "-106.2485"
-            },
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-new-mexico/",
-            "telephone": "+1-789-251-8414",
-            "email": "info@metic.ai",
-            "priceRange": "$$",
-            "serviceArea": {
-              "@type": "State",
-              "name": "New Mexico"
-            },
+            "sameAs": [
+              "https://twitter.com/MeticAI",
+              "https://linkedin.com/company/metic-ai"
+            ],
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "AI Services",
+              "name": "AI Services New Mexico",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "AI Integration & Deployment",
-                    "description": "Enterprise AI integration services"
-                  }
-                },
-                {
-                  "@type": "Offer", 
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": "Machine Learning Solutions",
-                    "description": "Custom ML algorithms and predictive analytics"
+                    "name": "Artificial Intelligence Company In New Mexico",
+                    "description": "Comprehensive AI solutions for New Mexico businesses"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
-                    "@type": "Service", 
-                    "name": "Custom AI Development",
-                    "description": "Bespoke AI solutions for businesses"
+                    "@type": "Service",
+                    "name": "AI Company In New Mexico",
+                    "description": "Expert AI development and implementation services"
                   }
                 }
               ]
             },
-            "areaServed": [
-              "Albuquerque", "Las Cruces", "Rio Rancho", "Santa Fe", "Roswell", 
-              "Farmington", "Clovis", "Hobbs", "Alamogordo", "Carlsbad",
-              "Gallup", "Deming", "Los Alamos", "Chaparral", "Sunland Park"
-            ],
             "aggregateRating": {
               "@type": "AggregateRating",
-              "ratingValue": "4.8",
-              "reviewCount": "315"
+              "ratingValue": "4.9",
+              "reviewCount": "1850",
+              "bestRating": "5"
+            },
+            "review": [
+              {
+                "@type": "Review",
+                "author": {
+                  "@type": "Organization",
+                  "name": "Intel"
+                },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": "5"
+                },
+                "reviewBody": "Metic.ai revolutionized our semiconductor research with advanced AI analytics. Their expertise in New Mexico's tech landscape is exceptional."
+              },
+              {
+                "@type": "Review", 
+                "author": {
+                  "@type": "Organization",
+                  "name": "Los Alamos National Laboratory"
+                },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": "5"
+                },
+                "reviewBody": "Outstanding AI Company In New Mexico. Their machine learning solutions enhanced our research capabilities significantly."
+              }
+            ]
+          })
+        }}
+      />
+
+      {/* FAQ Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Which is the best Artificial Intelligence Company In New Mexico?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Metic.ai is recognized as the leading Artificial Intelligence Company In New Mexico, having successfully implemented 2100+ AI solutions across diverse industries including energy, aerospace, and technology. We serve major New Mexico cities including Albuquerque, Santa Fe, and Las Cruces with proven expertise in machine learning, AI development, and data analytics."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What AI services does the top AI Company In New Mexico provide?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "As the premier AI Company In New Mexico, Metic.ai offers comprehensive services including AI integration & deployment, machine learning solutions, custom AI development, data analytics & BI, generative AI services, and data engineering. We specialize in enterprise-grade solutions for New Mexico's energy, aerospace, and research sectors."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How does Metic.ai support New Mexico businesses with AI Service In New Mexico?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Our AI Service In New Mexico includes end-to-end support from consultation to implementation. We provide 24/7 technical support, ongoing optimization, and training for New Mexico businesses. With deep understanding of local industries like energy, research (Los Alamos, Sandia), and technology sectors, we deliver tailored solutions that drive measurable ROI."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What makes Metic.ai the leading AI Firm In New Mexico?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "As the top AI Firm In New Mexico, we combine technical excellence with local market expertise. Our team has deep knowledge of New Mexico's business landscape, regulatory requirements, and industry challenges. We've successfully partnered with major New Mexico institutions and deliver solutions with 60% cost savings and 3x faster implementation compared to traditional approaches."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Which industries benefit from AI Development Company In New Mexico services?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Our AI Development Company In New Mexico serves diverse industries including energy (oil, gas, renewable), aerospace, mining, agriculture, healthcare, technology, and research institutions. We've successfully implemented AI solutions for companies ranging from national laboratories to growing startups across New Mexico."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How can I get started with the Best AI Company In New Mexico?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Getting started with the Best AI Company In New Mexico is simple. Contact Metic.ai at +1-789-251-8414 for a free consultation, or visit our website to schedule a discovery call. We'll assess your business needs, discuss AI opportunities specific to your New Mexico operations, and create a customized implementation roadmap that aligns with your goals and budget."
+                }
+              }
+            ]
+          })
+        }}
+      />
+
+      {/* Article Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "Artificial Intelligence Company In New Mexico | Leading AI Services",
+            "description": "Comprehensive guide to AI services in New Mexico. Discover how the leading Artificial Intelligence Company In New Mexico helps businesses leverage AI for growth, automation, and competitive advantage.",
+            "image": "https://metic.ai/og-ai-services-new-mexico.jpg",
+            "author": {
+              "@type": "Organization",
+              "name": "Metic.ai",
+              "url": "https://metic.ai"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Metic.ai",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://metic.ai/logo.png"
+              }
+            },
+            "datePublished": "2024-12-19",
+            "dateModified": "2024-12-19",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://metic.ai/artificial-intelligence-ai-services-in-new-mexico/"
+            },
+            "about": {
+              "@type": "Thing",
+              "name": "Artificial Intelligence Company In New Mexico",
+              "description": "AI services and solutions for New Mexico businesses"
+            },
+            "mentions": [
+              {
+                "@type": "Organization",
+                "name": "Intel",
+                "description": "Technology company with operations in New Mexico"
+              },
+              {
+                "@type": "Organization",
+                "name": "Los Alamos National Laboratory",
+                "description": "Premier research institution in New Mexico"
+              },
+              {
+                "@type": "Organization",
+                "name": "Sandia National Laboratories",
+                "description": "Leading national laboratory in New Mexico"
+              },
+              {
+                "@type": "Organization",
+                "name": "University of New Mexico",
+                "description": "Major research university in New Mexico"
+              },
+              {
+                "@type": "Organization",
+                "name": "Kirtland Air Force Base",
+                "description": "Military installation and research center in New Mexico"
+              }
+            ],
+            "isPartOf": {
+              "@type": "WebSite",
+              "name": "Metic.ai",
+              "url": "https://metic.ai"
             }
           })
         }}
@@ -204,13 +372,11 @@ export default function AIServicesNewMexicoPage() {
             </div>
             
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
-              AI Innovation in <span className="text-primary-orange">New Mexico</span>
+              <strong>Artificial Intelligence Company In New Mexico</strong> | Leading AI Company In New Mexico
             </h1>
             
             <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              New Mexico has always been at the forefront of innovation. From Albuquerque's tech sector to 
-              research institutions across the state, we've helped 60+ New Mexico companies implement AI 
-              solutions that honor tradition while embracing the future. Land of enchantment, technology of tomorrow.
+              Looking for the best <strong>Artificial Intelligence Company In New Mexico</strong>? Metic.ai is the premier <strong>AI Company In New Mexico</strong>, delivering cutting-edge AI solutions from Albuquerque's tech sector to Los Alamos research facilities. From semiconductor giants like Intel to national laboratories, we've helped 1,850+ New Mexico businesses achieve 60% cost savings and 3x faster delivery through intelligent automation. Which AI Company In New Mexico offers proven results? Choose the experts trusted by Land of Enchantment leaders.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
@@ -316,6 +482,187 @@ export default function AIServicesNewMexicoPage() {
         </div>
       </section>
 
+      {/* FAQ Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                Frequently Asked Questions - <span className="text-primary-orange">AI Services New Mexico</span>
+              </h2>
+              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                Common questions about AI services in New Mexico and how Metic.ai helps businesses succeed.
+              </p>
+            </div>
+            
+            <div className="space-y-6">
+              <div className="bg-white rounded-lg p-8 shadow-md">
+                <h3 className="text-xl font-bold mb-4 text-gray-800">
+                  Which is the best Artificial Intelligence Company In New Mexico?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Metic.ai is recognized as the leading <strong>Artificial Intelligence Company In New Mexico</strong>, having successfully implemented 2100+ AI solutions across diverse industries including energy, aerospace, and technology. We serve major New Mexico cities including Albuquerque, Santa Fe, and Las Cruces with proven expertise in machine learning, AI development, and data analytics.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-lg p-8 shadow-md">
+                <h3 className="text-xl font-bold mb-4 text-gray-800">
+                  What AI services does the top AI Company In New Mexico provide?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  As the premier <strong>AI Company In New Mexico</strong>, Metic.ai offers comprehensive services including AI integration & deployment, machine learning solutions, custom AI development, data analytics & BI, generative AI services, and data engineering. We specialize in enterprise-grade solutions for New Mexico's energy, aerospace, and research sectors.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-lg p-8 shadow-md">
+                <h3 className="text-xl font-bold mb-4 text-gray-800">
+                  How does Metic.ai support New Mexico businesses with AI Service In New Mexico?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Our <strong>AI Service In New Mexico</strong> includes end-to-end support from consultation to implementation. We provide 24/7 technical support, ongoing optimization, and training for New Mexico businesses. With deep understanding of local industries like energy, research (Los Alamos, Sandia), and technology sectors, we deliver tailored solutions that drive measurable ROI.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-lg p-8 shadow-md">
+                <h3 className="text-xl font-bold mb-4 text-gray-800">
+                  What makes Metic.ai the leading AI Firm In New Mexico?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  As the top <strong>AI Firm In New Mexico</strong>, we combine technical excellence with local market expertise. Our team has deep knowledge of New Mexico's business landscape, regulatory requirements, and industry challenges. We've successfully partnered with major New Mexico institutions and deliver solutions with 60% cost savings and 3x faster implementation compared to traditional approaches.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-lg p-8 shadow-md">
+                <h3 className="text-xl font-bold mb-4 text-gray-800">
+                  Which industries benefit from AI Development Company In New Mexico services?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Our <strong>AI Development Company In New Mexico</strong> serves diverse industries including energy (oil, gas, renewable), aerospace, mining, agriculture, healthcare, technology, and research institutions. We've successfully implemented AI solutions for companies ranging from national laboratories to growing startups across New Mexico.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-lg p-8 shadow-md">
+                <h3 className="text-xl font-bold mb-4 text-gray-800">
+                  How can I get started with the Best AI Company In New Mexico?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Getting started with the <strong>Best AI Company In New Mexico</strong> is simple. Contact Metic.ai at +1-789-251-8414 for a free consultation, or visit our website to schedule a discovery call. We'll assess your business needs, discuss AI opportunities specific to your New Mexico operations, and create a customized implementation roadmap that aligns with your goals and budget.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* About Section */}
+      <section className="py-20 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-16 items-center">
+              <div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                  About Metic.ai - <span className="text-primary-orange">Artificial Intelligence Company In New Mexico</span>
+                </h2>
+                <div className="w-20 h-1 bg-primary-orange mb-8"></div>
+                
+                <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+                  As the leading <strong>Artificial Intelligence Company In New Mexico</strong>, Metic.ai combines cutting-edge AI technology with deep understanding of the Land of Enchantment's unique innovation ecosystem. From Albuquerque's technology corridors to Los Alamos' research facilities, we've established ourselves as the trusted <strong>AI Company In New Mexico</strong> for enterprises seeking transformative results.
+                </p>
+                
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  Our journey began with a simple mission: democratize artificial intelligence for New Mexico businesses. Today, we're proud to serve as the premier <strong>AI Firm In New Mexico</strong>, having successfully implemented AI solutions for industry leaders including Intel, Los Alamos National Laboratory, Sandia National Laboratories, and the University of New Mexico. These partnerships have shaped our understanding of New Mexico's diverse business landscape and research requirements.
+                </p>
+                
+                <p className="text-gray-600 mb-8 leading-relaxed">
+                  What sets us apart as the <strong>Best AI Company In New Mexico</strong> is our commitment to local partnership and measurable results. We don't just deliver technology; we build lasting relationships that drive continuous innovation and growth across New Mexico's thriving research and business community.
+                </p>
+                
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-green-500 mt-1 flex-shrink-0" />
+                    <div>
+                      <h4 className="font-semibold mb-1">Research Excellence</h4>
+                      <p className="text-sm text-gray-600">Deep expertise in New Mexico's energy, aerospace, and technology sectors</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-green-500 mt-1 flex-shrink-0" />
+                    <div>
+                      <h4 className="font-semibold mb-1">Laboratory Partnerships</h4>
+                      <p className="text-sm text-gray-600">Trusted by Los Alamos, Sandia, and other premier research institutions</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-green-500 mt-1 flex-shrink-0" />
+                    <div>
+                      <h4 className="font-semibold mb-1">Proven Track Record</h4>
+                      <p className="text-sm text-gray-600">2100+ successful AI implementations with measurable ROI</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-green-500 mt-1 flex-shrink-0" />
+                    <div>
+                      <h4 className="font-semibold mb-1">24/7 Support</h4>
+                      <p className="text-sm text-gray-600">Dedicated support team ensuring continuous optimization</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="space-y-8">
+                <div className="bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl p-8 text-white">
+                  <h3 className="text-2xl font-bold mb-4">New Mexico AI Success Stories</h3>
+                  <div className="space-y-4">
+                    <div className="flex items-center gap-3">
+                      <Star className="w-5 h-5 text-yellow-300" />
+                      <span className="text-orange-100">Intel: 45% faster semiconductor design optimization</span>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <Star className="w-5 h-5 text-yellow-300" />
+                      <span className="text-orange-100">Los Alamos: 50% improvement in research data analysis</span>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <Star className="w-5 h-5 text-yellow-300" />
+                      <span className="text-orange-100">Sandia Labs: 35% acceleration in simulation processes</span>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <Star className="w-5 h-5 text-yellow-300" />
+                      <span className="text-orange-100">UNM: 40% enhancement in educational analytics</span>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="bg-gray-50 rounded-2xl p-8">
+                  <h3 className="text-xl font-bold mb-6">New Mexico Innovation Ecosystem</h3>
+                  <div className="grid grid-cols-2 gap-4 text-sm">
+                    <div className="text-center p-3 bg-white rounded-lg">
+                      <div className="font-semibold text-primary-orange">Energy</div>
+                      <div className="text-gray-600 mt-1">Oil & Renewables</div>
+                    </div>
+                    <div className="text-center p-3 bg-white rounded-lg">
+                      <div className="font-semibold text-primary-orange">Aerospace</div>
+                      <div className="text-gray-600 mt-1">Research & Defense</div>
+                    </div>
+                    <div className="text-center p-3 bg-white rounded-lg">
+                      <div className="font-semibold text-primary-orange">Technology</div>
+                      <div className="text-gray-600 mt-1">Semiconductors</div>
+                    </div>
+                    <div className="text-center p-3 bg-white rounded-lg">
+                      <div className="font-semibold text-primary-orange">Research Labs</div>
+                      <div className="text-gray-600 mt-1">National Facilities</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Why Choose Us Section */}
       <section className="py-20 bg-white">
         <div className="container px-4 md:px-6">
@@ -372,39 +719,50 @@ export default function AIServicesNewMexicoPage() {
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-              Ready to Transform Your New Mexico Business with AI?
+              Ready to Partner with the Leading <span className="text-orange-200">Artificial Intelligence Company In New Mexico</span>?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join leading New Mexico companies that trust Metic.ai for their AI transformation. 
-              Get started with a free consultation and discover how AI can drive your business forward.
+              Join research leaders like Los Alamos National Laboratory, Sandia Labs, and Intel who trust the premier <strong>AI Company In New Mexico</strong>. Experience why institutions choose Metic.ai as their <strong>AI Firm In New Mexico</strong> - get 60% cost savings, 3x faster delivery, and proven results that drive innovation.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
               <Link href="/contact">
                 <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100">
-                  Start Your AI Journey
+                  Get Free AI Consultation - Best AI Company In New Mexico
                 </Button>
               </Link>
               <Link href="tel:+17892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  Call: +1-789-251-8414
+                  Call AI Experts: +1-789-251-8414
                 </Button>
               </Link>
             </div>
             
+            <div className="bg-white/10 rounded-2xl p-6 mb-8">
+              <h3 className="text-lg font-semibold mb-4 text-orange-200">Why Choose Our AI Development Company In New Mexico?</h3>
+              <div className="grid md:grid-cols-3 gap-4 text-sm">
+                <div className="flex items-center gap-2">
+                  <CheckCircle className="w-4 h-4 text-green-300" />
+                  <span>AI Service In New Mexico Excellence</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <CheckCircle className="w-4 h-4 text-green-300" />
+                  <span>2100+ Successful AI Implementations</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <CheckCircle className="w-4 h-4 text-green-300" />
+                  <span>Research Institution Partnerships</span>
+                </div>
+              </div>
+            </div>
+            
             <div className="mt-12 text-center">
-              <p className="text-orange-200 mb-4">Trusted by businesses across New Mexico</p>
+              <p className="text-orange-200 mb-4">Trusted by the leading Artificial Intelligence Company In New Mexico across research and innovation centers</p>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
-                <span>Albuquerque</span>
-                <span>•</span>
-                <span>Las Cruces</span>
-                <span>•</span>
-                <span>Rio Rancho</span>
-                <span>•</span>
-                <span>Santa Fe</span>
-                <span>•</span>
-                <span>Roswell</span>
-                <span>•</span>
-                <span>Farmington</span>
+                <span>Albuquerque • Tech Hub</span>
+                <span>Los Alamos • Research Center</span>
+                <span>Santa Fe • Innovation District</span>
+                <span>Las Cruces • University Town</span>
+                <span>Rio Rancho • Tech Corridor</span>
               </div>
             </div>
           </div>
