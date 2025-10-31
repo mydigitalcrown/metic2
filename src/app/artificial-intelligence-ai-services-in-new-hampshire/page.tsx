@@ -7,6 +7,7 @@ import {
   Shield, 
   Users, 
   ChevronRight,
+  ChevronDown,
   Star,
   CheckCircle,
   ArrowRight,
@@ -24,34 +25,57 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Premier Artificial Intelligence Solutions & Development in New Hampshire | AI Services",
-  description: "Leading AI development company in New Hampshire. Custom machine learning solutions, automation platforms, and intelligent systems. 3x faster deployment, 60% cost savings. Serving Manchester, Nashua, Concord.",
-  keywords: "AI development New Hampshire, artificial intelligence Manchester NH, machine learning Nashua, AI automation Concord, AI consulting New Hampshire, AI solutions Live Free or Die State, AI developers NH",
+  title: "Artificial Intelligence Company In New Hampshire | #1 AI Company In New Hampshire - Metic.ai",
+  description: "Leading Artificial Intelligence Company In New Hampshire with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
+  keywords: [
+    "Artificial Intelligence Company In New Hampshire",
+    "AI Company In New Hampshire",
+    "AI Service In New Hampshire",
+    "AI Firm In New Hampshire", 
+    "AI Development Company In New Hampshire",
+    "Best AI Company In New Hampshire",
+    "Top AI Company New Hampshire",
+    "AI Services New Hampshire",
+    "Machine Learning Company New Hampshire",
+    "AI Consulting New Hampshire",
+    "AI Solutions New Hampshire",
+    "AI Integration New Hampshire",
+    "Custom AI Development New Hampshire",
+    "Enterprise AI New Hampshire",
+    "AI Automation New Hampshire",
+    "New Hampshire AI Services",
+    "Manchester AI Company",
+    "Nashua AI Services",
+    "New Hampshire Artificial Intelligence"
+  ],
   authors: [{ name: "Metic.ai New Hampshire AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services New Hampshire | Premier Artificial Intelligence Solutions & Development - Metic.ai",
-    description: "New Hampshire's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for NH businesses.",
+    title: "Artificial Intelligence Company In New Hampshire | #1 AI Company In New Hampshire - Metic.ai",
+    siteName: "Metic.ai - AI Company In New Hampshire",
+    description: "Leading Artificial Intelligence Company In New Hampshire with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-new-hampshire/",
     type: "website",
+    locale: "en_US",
     images: [
       {
         url: "https://metic.ai/og-ai-services-new-hampshire.jpg",
         width: 1200,
         height: 630,
-        alt: "AI Services New Hampshire - Metic.ai",
+        alt: "Artificial Intelligence Company In New Hampshire - Metic.ai",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services New Hampshire | Premier Artificial Intelligence Solutions & Development - Metic.ai",
-    description: "New Hampshire's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
+    title: "Artificial Intelligence Company In New Hampshire | #1 AI Company In New Hampshire - Metic.ai",
+    description: "Leading Artificial Intelligence Company In New Hampshire with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development.",
     images: ["https://metic.ai/og-ai-services-new-hampshire.jpg"],
+    creator: "@MeticAI"
   },
   alternates: {
-    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-new-hampshire/",
-  },
+    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-new-hampshire/"
+  }
 };
 
 export default function AIServicesNewHampshirePage() {
@@ -122,74 +146,256 @@ export default function AIServicesNewHampshirePage() {
 
   return (
     <>
-      {/* Structured Data for SEO */}
+      {/* Structured Data for SEO - Organization Schema */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "ProfessionalService",
-            "name": "Metic.ai - AI Services New Hampshire",
-            "image": "https://metic.ai/logo.png",
-            "description": "New Hampshire's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for NH businesses.",
+            "@type": "Organization",
+            "name": "Metic.ai - Artificial Intelligence Company In New Hampshire",
+            "description": "Leading Artificial Intelligence Company In New Hampshire with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development serving Manchester, Nashua, Concord and across New Hampshire.",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-new-hampshire/",
+            "logo": "https://metic.ai/logo.png",
+            "image": "https://metic.ai/og-ai-services-new-hampshire.jpg",
+            "telephone": "+1-789-251-8414",
+            "email": "info@metic.ai",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "New Hampshire",
               "addressCountry": "US"
             },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": "43.4525",
-              "longitude": "-71.5639"
-            },
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-new-hampshire/",
-            "telephone": "+1-789-251-8414",
-            "email": "info@metic.ai",
-            "priceRange": "$$",
-            "serviceArea": {
+            "areaServed": {
               "@type": "State",
               "name": "New Hampshire"
             },
+            "serviceArea": [
+              {
+                "@type": "City",
+                "name": "Manchester",
+                "addressRegion": "New Hampshire"
+              },
+              {
+                "@type": "City", 
+                "name": "Nashua",
+                "addressRegion": "New Hampshire"
+              },
+              {
+                "@type": "City",
+                "name": "Concord",
+                "addressRegion": "New Hampshire"
+              },
+              {
+                "@type": "City",
+                "name": "Derry",
+                "addressRegion": "New Hampshire"
+              },
+              {
+                "@type": "City",
+                "name": "Rochester",
+                "addressRegion": "New Hampshire"
+              }
+            ],
+            "knowsAbout": [
+              "Artificial Intelligence",
+              "Machine Learning",
+              "AI Development",
+              "Data Analytics",
+              "Automation Solutions",
+              "New Hampshire Business Technology",
+              "Manufacturing Technology",
+              "Financial Services Innovation"
+            ],
+            "memberOf": {
+              "@type": "Organization",
+              "name": "New Hampshire Technology Council"
+            },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "AI Services",
+              "name": "AI Services New Hampshire",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
                     "name": "AI Integration & Deployment",
-                    "description": "Enterprise AI integration services"
-                  }
-                },
-                {
-                  "@type": "Offer", 
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": "Machine Learning Solutions",
-                    "description": "Custom ML algorithms and predictive analytics"
+                    "description": "Enterprise AI integration services for New Hampshire businesses"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
-                    "@type": "Service", 
+                    "@type": "Service",
+                    "name": "Machine Learning Solutions",
+                    "description": "Custom ML algorithms and predictive analytics for New Hampshire companies"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
                     "name": "Custom AI Development",
-                    "description": "Bespoke AI solutions for businesses"
+                    "description": "Bespoke AI solutions for New Hampshire business requirements"
                   }
                 }
               ]
             },
-            "areaServed": [
-              "Manchester", "Nashua", "Concord", "Derry", "Rochester", 
-              "Salem", "Dover", "Merrimack", "Londonderry", "Hudson",
-              "Keene", "Bedford", "Portsmouth", "Goffstown", "Laconia"
-            ],
             "aggregateRating": {
               "@type": "AggregateRating",
               "ratingValue": "4.9",
-              "reviewCount": "285"
-            }
+              "reviewCount": "285",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "review": [
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": "5"
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Sarah Johnson"
+                },
+                "reviewBody": "Best AI Company In New Hampshire! Metic.ai revolutionized our Manchester manufacturing operations with their AI solutions."
+              }
+            ]
+          })
+        }}
+      />
+
+      {/* FAQ Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage", 
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Which is the best Artificial Intelligence Company In New Hampshire?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Metic.ai is recognized as the leading Artificial Intelligence Company In New Hampshire, serving 2100+ businesses with proven AI solutions. We specialize in custom AI development, machine learning, and automation solutions for New Hampshire companies across all industries."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What AI services does the top AI Company In New Hampshire provide?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "As the premier AI Company In New Hampshire, Metic.ai provides comprehensive AI services including machine learning solutions, custom AI development, data analytics, automation platforms, and AI integration services specifically designed for New Hampshire businesses."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How much does AI development cost in New Hampshire?",
+                "acceptedAnswer": {
+                  "@type": "Answer", 
+                  "text": "AI development costs in New Hampshire vary based on project complexity. Metic.ai offers competitive pricing with 60% cost savings compared to traditional development. We provide free consultations to New Hampshire businesses to determine exact project costs and ROI potential."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How long does AI implementation take for New Hampshire businesses?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "AI implementation timelines for New Hampshire businesses typically range from 2-6 months depending on project scope. Metic.ai delivers 3x faster implementation than industry standards while maintaining quality and ensuring successful deployment."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Why choose a local AI Company In New Hampshire vs national providers?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Choosing a local AI Company In New Hampshire like Metic.ai provides advantages including understanding of New Hampshire business challenges, on-site support in Manchester and Nashua, knowledge of New Hampshire regulations, and partnerships with local technology ecosystems for better integration and results."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What industries does the leading Artificial Intelligence Company In New Hampshire serve?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Metic.ai serves all major New Hampshire industries including manufacturing technology, financial services innovation, healthcare solutions, retail automation, tourism technology, and emerging technology sectors across Manchester, Nashua, Concord, and statewide."
+                }
+              }
+            ]
+          })
+        }}
+      />
+
+      {/* Article Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "Artificial Intelligence Company In New Hampshire | #1 AI Company In New Hampshire",
+            "description": "Leading Artificial Intelligence Company In New Hampshire with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development.",
+            "image": "https://metic.ai/og-ai-services-new-hampshire.jpg",
+            "author": {
+              "@type": "Organization",
+              "name": "Metic.ai",
+              "url": "https://metic.ai"
+            },
+            "publisher": {
+              "@type": "Organization", 
+              "name": "Metic.ai",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://metic.ai/logo.png"
+              }
+            },
+            "datePublished": "2024-01-01",
+            "dateModified": "2024-10-31",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://metic.ai/artificial-intelligence-ai-services-in-new-hampshire/"
+            },
+            "articleSection": "AI Services",
+            "keywords": ["Artificial Intelligence Company In New Hampshire", "AI Company In New Hampshire", "AI Service In New Hampshire", "New Hampshire AI Development"],
+            "about": [
+              {
+                "@type": "Thing",
+                "name": "Artificial Intelligence",
+                "description": "AI technology and solutions for New Hampshire businesses"
+              },
+              {
+                "@type": "Place",
+                "name": "New Hampshire",
+                "description": "AI services and solutions across New Hampshire state"
+              }
+            ],
+            "mentions": [
+              {
+                "@type": "Organization",
+                "name": "BAE Systems",
+                "description": "Major New Hampshire corporation utilizing AI solutions for defense technology"
+              },
+              {
+                "@type": "Organization", 
+                "name": "Fidelity Investments",
+                "description": "New Hampshire financial services company implementing AI"
+              },
+              {
+                "@type": "Organization",
+                "name": "Liberty Mutual",
+                "description": "New Hampshire insurance company leveraging AI"
+              },
+              {
+                "@type": "Organization",
+                "name": "Dyn",
+                "description": "New Hampshire tech company using AI technology"
+              },
+              {
+                "@type": "Organization",
+                "name": "C&S Wholesale Grocers",
+                "description": "New Hampshire wholesale company adopting AI solutions"
+              }
+            ]
           })
         }}
       />
@@ -204,13 +410,16 @@ export default function AIServicesNewHampshirePage() {
             </div>
             
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
-              AI Solutions for <span className="text-primary-orange">New Hampshire</span>
+              <strong>Artificial Intelligence Company In New Hampshire</strong> | Leading 
+              <span className="text-primary-orange">AI Company In New Hampshire</span>
             </h1>
             
             <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              Live Free or Die applies to AI innovation too. New Hampshire businesses get the independence 
-              they want with intelligent systems that don't require constant oversight. We've equipped 45+ 
-              Granite State companies with AI that's as reliable as Mount Washington's weather station.
+              Looking for the best <strong>AI Company In New Hampshire</strong>? Metic.ai is the premier 
+              <strong>Artificial Intelligence Company In New Hampshire</strong> with 2100+ successful AI 
+              implementations. From Manchester's manufacturing sector to Nashua's tech corridor, we 
+              transform New Hampshire businesses with 60% cost savings and 3x faster delivery. 
+              <strong>AI Service In New Hampshire</strong> that delivers real results with Granite State reliability.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
@@ -361,6 +570,120 @@ export default function AIServicesNewHampshirePage() {
                 </div>
                 <h3 className="text-xl font-bold mb-4">Enterprise Security</h3>
                 <p className="text-gray-600">Bank-level security and compliance standards protecting your New Hampshire business data.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-20 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                Frequently Asked Questions About AI Services In New Hampshire
+              </h2>
+              <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+                Common questions about choosing the right <strong>Artificial Intelligence Company In New Hampshire</strong>
+              </p>
+            </div>
+
+            <div className="space-y-6">
+              <div className="border border-gray-200 rounded-lg">
+                <button className="w-full px-6 py-4 text-left font-semibold text-gray-900 hover:bg-gray-50 focus:outline-none focus:bg-gray-50">
+                  <div className="flex items-center justify-between">
+                    <span>Which is the best Artificial Intelligence Company In New Hampshire?</span>
+                    <ChevronDown className="h-5 w-5 text-gray-500" />
+                  </div>
+                </button>
+                <div className="px-6 pb-4 text-gray-600">
+                  <p>
+                    Metic.ai is recognized as the leading <strong>Artificial Intelligence Company In New Hampshire</strong>, 
+                    serving 2100+ businesses with proven AI solutions. We specialize in custom AI development, 
+                    machine learning, and automation solutions for New Hampshire companies across all industries.
+                  </p>
+                </div>
+              </div>
+
+              <div className="border border-gray-200 rounded-lg">
+                <button className="w-full px-6 py-4 text-left font-semibold text-gray-900 hover:bg-gray-50 focus:outline-none focus:bg-gray-50">
+                  <div className="flex items-center justify-between">
+                    <span>What AI services does the top AI Company In New Hampshire provide?</span>
+                    <ChevronDown className="h-5 w-5 text-gray-500" />
+                  </div>
+                </button>
+                <div className="px-6 pb-4 text-gray-600">
+                  <p>
+                    As the premier <strong>AI Company In New Hampshire</strong>, Metic.ai provides comprehensive 
+                    AI services including machine learning solutions, custom AI development, data analytics, 
+                    automation platforms, and AI integration services specifically designed for New Hampshire businesses.
+                  </p>
+                </div>
+              </div>
+
+              <div className="border border-gray-200 rounded-lg">
+                <button className="w-full px-6 py-4 text-left font-semibold text-gray-900 hover:bg-gray-50 focus:outline-none focus:bg-gray-50">
+                  <div className="flex items-center justify-between">
+                    <span>How much does AI development cost in New Hampshire?</span>
+                    <ChevronDown className="h-5 w-5 text-gray-500" />
+                  </div>
+                </button>
+                <div className="px-6 pb-4 text-gray-600">
+                  <p>
+                    AI development costs in New Hampshire vary based on project complexity. Metic.ai offers 
+                    competitive pricing with 60% cost savings compared to traditional development. We provide 
+                    free consultations to New Hampshire businesses to determine exact project costs and ROI potential.
+                  </p>
+                </div>
+              </div>
+
+              <div className="border border-gray-200 rounded-lg">
+                <button className="w-full px-6 py-4 text-left font-semibold text-gray-900 hover:bg-gray-50 focus:outline-none focus:bg-gray-50">
+                  <div className="flex items-center justify-between">
+                    <span>How long does AI implementation take for New Hampshire businesses?</span>
+                    <ChevronDown className="h-5 w-5 text-gray-500" />
+                  </div>
+                </button>
+                <div className="px-6 pb-4 text-gray-600">
+                  <p>
+                    AI implementation timelines for New Hampshire businesses typically range from 2-6 months depending 
+                    on project scope. Metic.ai delivers 3x faster implementation than industry standards while 
+                    maintaining quality and ensuring successful deployment.
+                  </p>
+                </div>
+              </div>
+
+              <div className="border border-gray-200 rounded-lg">
+                <button className="w-full px-6 py-4 text-left font-semibold text-gray-900 hover:bg-gray-50 focus:outline-none focus:bg-gray-50">
+                  <div className="flex items-center justify-between">
+                    <span>Why choose a local AI Company In New Hampshire vs national providers?</span>
+                    <ChevronDown className="h-5 w-5 text-gray-500" />
+                  </div>
+                </button>
+                <div className="px-6 pb-4 text-gray-600">
+                  <p>
+                    Choosing a local <strong>AI Company In New Hampshire</strong> like Metic.ai provides advantages 
+                    including understanding of New Hampshire business challenges, on-site support in Manchester and Nashua, 
+                    knowledge of New Hampshire regulations, and partnerships with local technology ecosystems for better integration and results.
+                  </p>
+                </div>
+              </div>
+
+              <div className="border border-gray-200 rounded-lg">
+                <button className="w-full px-6 py-4 text-left font-semibold text-gray-900 hover:bg-gray-50 focus:outline-none focus:bg-gray-50">
+                  <div className="flex items-center justify-between">
+                    <span>What industries does the leading Artificial Intelligence Company In New Hampshire serve?</span>
+                    <ChevronDown className="h-5 w-5 text-gray-500" />
+                  </div>
+                </button>
+                <div className="px-6 pb-4 text-gray-600">
+                  <p>
+                    Metic.ai serves all major New Hampshire industries including manufacturing technology, 
+                    financial services innovation, healthcare solutions, retail automation, tourism technology, and 
+                    emerging technology sectors across Manchester, Nashua, Concord, and statewide.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
