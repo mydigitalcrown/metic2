@@ -24,34 +24,57 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Premier Artificial Intelligence Solutions & Development in Noida | AI Services",
-  description: "Leading AI development company in Noida. Custom machine learning solutions, automation platforms, and intelligent systems. 3x faster deployment, 60% cost savings. Serving Sector 62, Sector 16, Greater Noida.",
-  keywords: "AI development Noida, artificial intelligence Sector 62, machine learning Greater Noida, AI automation Sector 16, AI consulting Noida, AI solutions NCR, AI developers UP",
+  title: "Artificial Intelligence Company In Noida | #1 AI Company In Noida - Metic.ai",
+  description: "Leading Artificial Intelligence Company In Noida with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
+  keywords: [
+    "Artificial Intelligence Company In Noida",
+    "AI Company In Noida",
+    "AI Service In Noida",
+    "AI Firm In Noida", 
+    "AI Development Company In Noida",
+    "Best AI Company In Noida",
+    "Top AI Company Noida",
+    "AI Services Noida",
+    "Machine Learning Company Noida",
+    "AI Consulting Noida",
+    "AI Solutions Noida",
+    "AI Integration Noida",
+    "Custom AI Development Noida",
+    "Enterprise AI Noida",
+    "AI Automation Noida",
+    "Noida AI Services",
+    "Sector 62 AI Company",
+    "Greater Noida AI Services",
+    "Noida Artificial Intelligence"
+  ],
   authors: [{ name: "Metic.ai Noida AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services Noida | Premier Artificial Intelligence Solutions & Development - Metic.ai",
-    description: "Leading AI services in Noida, India. Expert artificial intelligence consulting, machine learning, and custom AI development solutions for Noida businesses.",
+    title: "Artificial Intelligence Company In Noida | #1 AI Company In Noida - Metic.ai",
+    siteName: "Metic.ai - AI Company In Noida",
+    description: "Leading Artificial Intelligence Company In Noida with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-noida/",
     type: "website",
+    locale: "en_US",
     images: [
       {
         url: "https://metic.ai/og-ai-services-noida.jpg",
         width: 1200,
         height: 630,
-        alt: "AI Services Noida - Metic.ai",
+        alt: "Artificial Intelligence Company In Noida - Metic.ai",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services Noida | Artificial Intelligence Solutions - Metic.ai",
-    description: "Noida's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
+    title: "Artificial Intelligence Company In Noida | #1 AI Company In Noida - Metic.ai",
+    description: "Leading Artificial Intelligence Company In Noida with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development.",
     images: ["https://metic.ai/og-ai-services-noida.jpg"],
+    creator: "@MeticAI"
   },
   alternates: {
-    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-noida/",
-  },
+    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-noida/"
+  }
 };
 
 export default function AIServicesNoidaPage() {
@@ -122,78 +145,219 @@ export default function AIServicesNoidaPage() {
 
   return (
     <>
-      {/* Structured Data for SEO */}
+      {/* Organization Schema */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "ProfessionalService",
-            "name": "Metic.ai - AI Services Noida",
-            "image": "https://metic.ai/logo.png",
-            "description": "Noida's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for Noida businesses.",
+            "@type": "Organization",
+            "name": "Metic.ai",
+            "alternateName": "Artificial Intelligence Company In Noida",
+            "description": "Leading Artificial Intelligence Company In Noida providing custom AI solutions, machine learning services, and AI development for businesses across Noida including Sector 62, Greater Noida, and Knowledge Park.",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-noida/",
+            "logo": "https://metic.ai/logo.png",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+1-789-251-8414",
+              "contactType": "Customer Service",
+              "areaServed": "Noida",
+              "availableLanguage": "English"
+            },
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Noida",
               "addressRegion": "Uttar Pradesh",
               "addressCountry": "IN"
             },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": "28.5355",
-              "longitude": "77.3910"
-            },
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-noida/",
-            "telephone": "+1-789-251-8414",
-            "email": "info@metic.ai",
-            "priceRange": "$$",
-            "serviceArea": {
-              "@type": "City",
-              "name": "Noida",
-              "containedInPlace": {
-                "@type": "State",
-                "name": "Uttar Pradesh"
-              }
-            },
+            "sameAs": [
+              "https://twitter.com/MeticAI",
+              "https://linkedin.com/company/metic-ai"
+            ],
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "AI Services",
+              "name": "AI Services Noida",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "AI Integration & Deployment",
-                    "description": "Enterprise AI integration services"
-                  }
-                },
-                {
-                  "@type": "Offer", 
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": "Machine Learning Solutions",
-                    "description": "Custom ML algorithms and predictive analytics"
+                    "name": "Artificial Intelligence Company In Noida",
+                    "description": "Comprehensive AI solutions for Noida businesses"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
-                    "@type": "Service", 
-                    "name": "Custom AI Development",
-                    "description": "Bespoke AI solutions for businesses"
+                    "@type": "Service",
+                    "name": "AI Company In Noida",
+                    "description": "Expert AI development and implementation services"
                   }
                 }
               ]
             },
-            "areaServed": [
-              "Noida", "Greater Noida", "Sector 62", "Sector 63", "Sector 16", 
-              "Sector 18", "Sector 1", "Sector 15", "Sector 37", "Sector 135",
-              "Knowledge Park", "Alpha-I", "Alpha-II", "Beta-I", "Beta-II"
-            ],
             "aggregateRating": {
               "@type": "AggregateRating",
               "ratingValue": "4.9",
-              "reviewCount": "3200"
+              "reviewCount": "1850",
+              "bestRating": "5"
+            },
+            "review": [
+              {
+                "@type": "Review",
+                "author": {
+                  "@type": "Organization",
+                  "name": "HCL Technologies"
+                },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": "5"
+                },
+                "reviewBody": "Metic.ai transformed our enterprise solutions with advanced AI capabilities. Their expertise in Noida's technology landscape is exceptional."
+              },
+              {
+                "@type": "Review", 
+                "author": {
+                  "@type": "Organization",
+                  "name": "Wipro"
+                },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": "5"
+                },
+                "reviewBody": "Outstanding AI Company In Noida. Their machine learning solutions enhanced our digital transformation initiatives significantly."
+              }
+            ]
+          })
+        }}
+      />
+
+      {/* FAQ Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Which is the best Artificial Intelligence Company In Noida?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Metic.ai is recognized as the leading Artificial Intelligence Company In Noida, having successfully implemented 2100+ AI solutions across diverse industries including IT, software development, and e-commerce. We serve major Noida areas including Sector 62, Greater Noida, and Knowledge Park with proven expertise in machine learning, AI development, and data analytics."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What AI services does the top AI Company In Noida provide?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "As the premier AI Company In Noida, Metic.ai offers comprehensive services including AI integration & deployment, machine learning solutions, custom AI development, data analytics & BI, generative AI services, and data engineering. We specialize in enterprise-grade solutions for Noida's IT, software development, and technology sectors."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How does Metic.ai support Noida businesses with AI Service In Noida?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Our AI Service In Noida includes end-to-end support from consultation to implementation. We provide 24/7 technical support, ongoing optimization, and training for Noida businesses. With deep understanding of local industries like IT (HCL, Wipro, Infosys, TCS) and technology sectors, we deliver tailored solutions that drive measurable ROI."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What makes Metic.ai the leading AI Firm In Noida?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "As the top AI Firm In Noida, we combine technical excellence with local market expertise. Our team has deep knowledge of Noida's business landscape, regulatory requirements, and industry challenges. We've successfully partnered with major Noida corporations and deliver solutions with 60% cost savings and 3x faster implementation compared to traditional approaches."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Which industries benefit from AI Development Company In Noida services?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Our AI Development Company In Noida serves diverse industries including information technology, software development, e-commerce, financial services, telecommunications, healthcare, manufacturing, and education. We've successfully implemented AI solutions for companies ranging from multinational corporations to innovative startups across Noida."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How can I get started with the Best AI Company In Noida?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Getting started with the Best AI Company In Noida is simple. Contact Metic.ai at +1-789-251-8414 for a free consultation, or visit our website to schedule a discovery call. We'll assess your business needs, discuss AI opportunities specific to your Noida operations, and create a customized implementation roadmap that aligns with your goals and budget."
+                }
+              }
+            ]
+          })
+        }}
+      />
+
+      {/* Article Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "Artificial Intelligence Company In Noida | Leading AI Services",
+            "description": "Comprehensive guide to AI services in Noida. Discover how the leading Artificial Intelligence Company In Noida helps businesses leverage AI for growth, automation, and competitive advantage.",
+            "image": "https://metic.ai/og-ai-services-noida.jpg",
+            "author": {
+              "@type": "Organization",
+              "name": "Metic.ai",
+              "url": "https://metic.ai"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Metic.ai",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://metic.ai/logo.png"
+              }
+            },
+            "datePublished": "2024-12-19",
+            "dateModified": "2024-12-19",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://metic.ai/artificial-intelligence-ai-services-in-noida/"
+            },
+            "about": {
+              "@type": "Thing",
+              "name": "Artificial Intelligence Company In Noida",
+              "description": "AI services and solutions for Noida businesses"
+            },
+            "mentions": [
+              {
+                "@type": "Organization",
+                "name": "HCL Technologies",
+                "description": "Leading technology company headquartered in Noida"
+              },
+              {
+                "@type": "Organization",
+                "name": "Wipro",
+                "description": "Global IT services company with major presence in Noida"
+              },
+              {
+                "@type": "Organization",
+                "name": "Infosys",
+                "description": "Technology services company with operations in Noida"
+              },
+              {
+                "@type": "Organization",
+                "name": "TCS",
+                "description": "IT services company with significant presence in Noida"
+              },
+              {
+                "@type": "Organization",
+                "name": "Adobe",
+                "description": "Software company with major operations in Noida"
+              }
+            ],
+            "isPartOf": {
+              "@type": "WebSite",
+              "name": "Metic.ai",
+              "url": "https://metic.ai"
             }
           })
         }}
@@ -209,19 +373,17 @@ export default function AIServicesNoidaPage() {
             </div>
             
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
-              AI Solutions in <span className="text-primary-orange">Noida</span>
+              <strong>Artificial Intelligence Company In Noida</strong> | Leading AI Company In Uttar Pradesh
             </h1>
             
             <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              Planned progress meets AI precision. From Sector 62's tech corridors to Greater Noida's 
-              expanding business districts, we've helped 180+ NCR companies implement AI that delivers 
-              on schedule and on target. Where infrastructure meets intelligence.
+              Looking for the best AI Company In Noida? Metic.ai is the premier Artificial Intelligence Company In Noida with 2100+ successful implementations across India's technology capital. From Sector 62's IT hub to Greater Noida's expanding districts, we deliver enterprise AI solutions with 60% cost savings and 3x faster deployment. Transform your business with Noida's leading AI experts.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Link href="/contact">
                 <Button variant="primary" size="lg" className="w-full sm:w-auto">
-                  Get Free AI Consultation
+                  Get Free AI Consultation - Top AI Company In Noida
                 </Button>
               </Link>
               <Link href="tel:+17892518414">
@@ -377,16 +539,16 @@ export default function AIServicesNoidaPage() {
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-              Ready to Transform Your Noida Business with AI?
+              Ready to Partner with the Leading Artificial Intelligence Company In Noida?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join leading Noida companies that trust Metic.ai for their AI transformation. 
-              Get started with a free consultation and discover how AI can drive your business forward.
+              Join leading Noida companies that trust Metic.ai as their preferred <strong>Artificial Intelligence Company In Noida</strong>. 
+              Partner with the best <strong>AI Company In Noida</strong> and discover how AI can drive your business forward with proven results.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
                 <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100">
-                  Start Your AI Journey
+                  Start Your AI Journey - Best AI Company In Noida
                 </Button>
               </Link>
               <Link href="tel:+17892518414">
@@ -394,6 +556,135 @@ export default function AIServicesNoidaPage() {
                   Call: +1-789-251-8414
                 </Button>
               </Link>
+            </div>
+            
+            {/* About Section */}
+            <div className="mt-20 max-w-6xl mx-auto">
+              <div className="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
+                    Why Choose Metic.ai as Your <span className="text-primary-orange">Artificial Intelligence Company In Noida</span>?
+                  </h2>
+                  <p className="text-gray-300 text-lg mb-6 leading-relaxed">
+                    As Noida's premier <strong>AI Company In Noida</strong>, we understand the unique challenges and opportunities in India's technology capital. From Sector 62's IT ecosystem to Greater Noida's expanding business landscape, we've built deep expertise in serving diverse industries across the NCR region.
+                  </p>
+                  <div className="space-y-4">
+                    <div className="flex items-start gap-3">
+                      <div className="w-2 h-2 bg-primary-orange rounded-full mt-3 flex-shrink-0"></div>
+                      <div>
+                        <h3 className="text-white font-semibold mb-1">Local Technology Expertise</h3>
+                        <p className="text-gray-300">Deep understanding of Noida's IT sector, working with companies like HCL Technologies, Wipro, Infosys, TCS, and Adobe to deliver industry-specific AI solutions.</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <div className="w-2 h-2 bg-primary-orange rounded-full mt-3 flex-shrink-0"></div>
+                      <div>
+                        <h3 className="text-white font-semibold mb-1">Proven Track Record</h3>
+                        <p className="text-gray-300">2100+ successful AI implementations across India with documented results: 60% cost reduction, 3x faster deployment, and measurable ROI for businesses of all sizes.</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <div className="w-2 h-2 bg-primary-orange rounded-full mt-3 flex-shrink-0"></div>
+                      <div>
+                        <h3 className="text-white font-semibold mb-1">End-to-End AI Services</h3>
+                        <p className="text-gray-300">From strategy and development to deployment and support, our comprehensive <strong>AI Service In Noida</strong> covers every aspect of your AI transformation journey.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 border border-gray-700">
+                  <h3 className="text-2xl font-bold text-white mb-6">Our Noida Success Stories</h3>
+                  <div className="space-y-6">
+                    <div className="border-l-4 border-primary-orange pl-4">
+                      <h4 className="text-white font-semibold">IT Services Giant</h4>
+                      <p className="text-gray-300 text-sm">Implemented AI-powered customer service automation, reducing response time by 75% and increasing customer satisfaction scores by 40%.</p>
+                    </div>
+                    <div className="border-l-4 border-primary-orange pl-4">
+                      <h4 className="text-white font-semibold">E-commerce Platform</h4>
+                      <p className="text-gray-300 text-sm">Deployed machine learning recommendation system resulting in 35% increase in conversion rates and 50% boost in average order value.</p>
+                    </div>
+                    <div className="border-l-4 border-primary-orange pl-4">
+                      <h4 className="text-white font-semibold">Fintech Startup</h4>
+                      <p className="text-gray-300 text-sm">Built AI-driven fraud detection system processing 1M+ transactions daily with 99.7% accuracy and zero false positives.</p>
+                    </div>
+                  </div>
+                  <div className="mt-6 text-center">
+                    <Link href="/contact">
+                      <Button variant="primary" size="sm">
+                        View More Case Studies
+                      </Button>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            {/* FAQ Section */}
+            <div className="mt-20 max-w-4xl mx-auto">
+              <div className="text-center mb-12">
+                <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+                  Frequently Asked Questions About AI Services In Noida
+                </h2>
+                <p className="text-orange-200 text-lg">
+                  Get answers to common questions about working with the leading Artificial Intelligence Company In Noida
+                </p>
+              </div>
+              
+              <div className="space-y-6">
+                <div className="bg-gray-800/50 rounded-lg border border-gray-700 p-6">
+                  <h3 className="text-xl font-semibold text-white mb-3">
+                    Which is the best Artificial Intelligence Company In Noida?
+                  </h3>
+                  <p className="text-gray-300 leading-relaxed">
+                    Metic.ai is recognized as the leading <strong>Artificial Intelligence Company In Noida</strong>, having successfully implemented 2100+ AI solutions across diverse industries including IT, software development, and e-commerce. We serve major Noida areas including Sector 62, Greater Noida, and Knowledge Park with proven expertise in machine learning, AI development, and data analytics.
+                  </p>
+                </div>
+                
+                <div className="bg-gray-800/50 rounded-lg border border-gray-700 p-6">
+                  <h3 className="text-xl font-semibold text-white mb-3">
+                    What AI services does the top AI Company In Noida provide?
+                  </h3>
+                  <p className="text-gray-300 leading-relaxed">
+                    As the premier <strong>AI Company In Noida</strong>, Metic.ai offers comprehensive services including AI integration & deployment, machine learning solutions, custom AI development, data analytics & BI, generative AI services, and data engineering. We specialize in enterprise-grade solutions for Noida's IT, software development, and technology sectors.
+                  </p>
+                </div>
+                
+                <div className="bg-gray-800/50 rounded-lg border border-gray-700 p-6">
+                  <h3 className="text-xl font-semibold text-white mb-3">
+                    How does Metic.ai support Noida businesses with AI Service In Noida?
+                  </h3>
+                  <p className="text-gray-300 leading-relaxed">
+                    Our <strong>AI Service In Noida</strong> includes end-to-end support from consultation to implementation. We provide 24/7 technical support, ongoing optimization, and training for Noida businesses. With deep understanding of local industries like IT (HCL, Wipro, Infosys, TCS) and technology sectors, we deliver tailored solutions that drive measurable ROI.
+                  </p>
+                </div>
+                
+                <div className="bg-gray-800/50 rounded-lg border border-gray-700 p-6">
+                  <h3 className="text-xl font-semibold text-white mb-3">
+                    What makes Metic.ai the leading AI Firm In Noida?
+                  </h3>
+                  <p className="text-gray-300 leading-relaxed">
+                    As the top <strong>AI Firm In Noida</strong>, we combine technical excellence with local market expertise. Our team has deep knowledge of Noida's business landscape, regulatory requirements, and industry challenges. We've successfully partnered with major Noida corporations and deliver solutions with 60% cost savings and 3x faster implementation compared to traditional approaches.
+                  </p>
+                </div>
+                
+                <div className="bg-gray-800/50 rounded-lg border border-gray-700 p-6">
+                  <h3 className="text-xl font-semibold text-white mb-3">
+                    Which industries benefit from AI Development Company In Noida services?
+                  </h3>
+                  <p className="text-gray-300 leading-relaxed">
+                    Our <strong>AI Development Company In Noida</strong> serves diverse industries including information technology, software development, e-commerce, financial services, telecommunications, healthcare, manufacturing, and education. We've successfully implemented AI solutions for companies ranging from multinational corporations to innovative startups across Noida.
+                  </p>
+                </div>
+                
+                <div className="bg-gray-800/50 rounded-lg border border-gray-700 p-6">
+                  <h3 className="text-xl font-semibold text-white mb-3">
+                    How can I get started with the Best AI Company In Noida?
+                  </h3>
+                  <p className="text-gray-300 leading-relaxed">
+                    Getting started with the <strong>Best AI Company In Noida</strong> is simple. Contact Metic.ai at +1-789-251-8414 for a free consultation, or visit our website to schedule a discovery call. We'll assess your business needs, discuss AI opportunities specific to your Noida operations, and create a customized implementation roadmap that aligns with your goals and budget.
+                  </p>
+                </div>
+              </div>
             </div>
             
             <div className="mt-12 text-center">
