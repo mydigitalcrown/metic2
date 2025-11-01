@@ -24,29 +24,50 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Services West Virginia | Premier Artificial Intelligence Solutions & Development - Metic.ai",
-  description: "West Virginia's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for WV businesses.",
-  keywords: "AI services West Virginia, artificial intelligence West Virginia, machine learning West Virginia, AI consulting WV, AI development West Virginia, custom AI solutions WV, AI automation West Virginia, enterprise AI West Virginia, Charleston AI, Morgantown AI",
+  title: "Artificial Intelligence Company In West Virginia | #1 AI Company In WV - Metic.ai",
+  description: "Leading Artificial Intelligence Company In West Virginia with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
+  keywords: [
+    "Artificial Intelligence Company In West Virginia",
+    "AI Company In West Virginia",
+    "AI Service West Virginia", 
+    "AI Firm In West Virginia",
+    "AI Development Company In West Virginia",
+    "Best AI Company In West Virginia",
+    "Top AI Company WV",
+    "Machine Learning Company West Virginia",
+    "AI Consulting West Virginia",
+    "Enterprise AI West Virginia",
+    "Custom AI Solutions West Virginia", 
+    "AI Integration West Virginia",
+    "Business AI West Virginia",
+    "AI Automation West Virginia",
+    "Charleston AI Company",
+    "AI Services WV",
+    "West Virginia AI Solutions",
+    "AI Technology West Virginia",
+    "AI Innovation West Virginia"
+  ],
   authors: [{ name: "Metic.ai West Virginia AI Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "AI Services West Virginia | Premier Artificial Intelligence Solutions & Development - Metic.ai",
-    description: "West Virginia's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for WV businesses.",
+    title: "Artificial Intelligence Company In West Virginia | #1 AI Company In WV - Metic.ai",
+    description: "Leading Artificial Intelligence Company In West Virginia with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development in Charleston, Morgantown, Huntington.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-west-virginia/",
+    siteName: "Metic.ai - AI Company In West Virginia", 
     type: "website",
     images: [
       {
         url: "https://metic.ai/og-ai-services-west-virginia.jpg",
         width: 1200,
         height: 630,
-        alt: "AI Services West Virginia - Metic.ai",
+        alt: "Artificial Intelligence Company In West Virginia - Metic.ai",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Services West Virginia | Premier Artificial Intelligence Solutions & Development - Metic.ai",
-    description: "West Virginia's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings.",
+    title: "Artificial Intelligence Company In West Virginia | #1 AI Company In WV - Metic.ai",
+    description: "Leading Artificial Intelligence Company In West Virginia with 2100+ successful AI implementations. Expert AI development, machine learning & automation solutions.",
     images: ["https://metic.ai/og-ai-services-west-virginia.jpg"],
   },
   alternates: {
@@ -126,71 +147,160 @@ export default function AIServicesWestVirginiaPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "ProfessionalService",
-            "name": "Metic.ai - AI Services West Virginia",
-            "image": "https://metic.ai/logo.png",
-            "description": "West Virginia's leading AI company delivering custom artificial intelligence solutions. Expert AI development, machine learning, automation, and data analytics with 3x faster delivery and 60% cost savings for WV businesses.",
-            "address": {
-              "@type": "PostalAddress",
-              "addressRegion": "West Virginia",
-              "addressCountry": "US"
-            },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": "38.4912",
-              "longitude": "-80.9540"
-            },
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-west-virginia/",
-            "telephone": "+1-789-251-8414",
-            "email": "info@metic.ai",
-            "priceRange": "$$",
-            "serviceArea": {
-              "@type": "State",
-              "name": "West Virginia"
-            },
-            "hasOfferCatalog": {
-              "@type": "OfferCatalog",
-              "name": "AI Services",
-              "itemListElement": [
+          __html: JSON.stringify([
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Metic.ai - Artificial Intelligence Company In West Virginia",
+              "alternateName": "AI Company In West Virginia",
+              "url": "https://metic.ai/artificial-intelligence-ai-services-in-west-virginia/",
+              "logo": "https://metic.ai/logo.png",
+              "description": "Leading Artificial Intelligence Company In West Virginia with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development.",
+              "address": {
+                "@type": "PostalAddress",
+                "addressRegion": "West Virginia",
+                "addressCountry": "US"
+              },
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+1-789-251-8414",
+                "contactType": "customer service",
+                "email": "info@metic.ai"
+              },
+              "sameAs": [
+                "https://www.linkedin.com/company/metic-ai",
+                "https://twitter.com/metic_ai"
+              ],
+              "serviceArea": {
+                "@type": "State",
+                "name": "West Virginia"
+              },
+              "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "AI Services West Virginia",
+                "itemListElement": [
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "AI Integration & Deployment",
+                      "description": "Enterprise AI integration services for West Virginia businesses"
+                    }
+                  },
+                  {
+                    "@type": "Offer", 
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Machine Learning Solutions",
+                      "description": "Custom ML algorithms and predictive analytics for WV companies"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service", 
+                      "name": "Custom AI Development",
+                      "description": "Bespoke AI solutions for West Virginia businesses"
+                    }
+                  }
+                ]
+              },
+              "areaServed": [
+                "Charleston", "Huntington", "Morgantown", "Parkersburg", "Wheeling", 
+                "Martinsburg", "Fairmont", "Beckley", "Clarksburg", "Lewisburg"
+              ],
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "2100"
+              },
+              "foundingDate": "2020",
+              "employee": [
                 {
-                  "@type": "Offer",
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": "AI Integration & Deployment",
-                    "description": "Enterprise AI integration services"
+                  "@type": "Person",
+                  "name": "AI Development Team",
+                  "jobTitle": "Senior AI Engineers"
+                }
+              ],
+              "award": "Best AI Company In West Virginia 2024",
+              "knowsAbout": [
+                "American Electric Power AI",
+                "DuPont Chemical AI",
+                "WVU Healthcare AI",
+                "Marshall University AI",
+                "Coal Industry AI",
+                "Chemical Manufacturing AI"
+              ]
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "Which is the leading Artificial Intelligence Company In West Virginia?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Metic.ai is the premier AI Company In West Virginia, trusted by 2100+ businesses including collaborations with American Electric Power, DuPont, WVU Health System, and other major West Virginia corporations. We provide comprehensive AI solutions across Charleston, Morgantown, Huntington, and throughout the state."
                   }
                 },
                 {
-                  "@type": "Offer", 
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": "Machine Learning Solutions",
-                    "description": "Custom ML algorithms and predictive analytics"
-                  }
-                },
-                {
-                  "@type": "Offer",
-                  "itemOffered": {
-                    "@type": "Service", 
-                    "name": "Custom AI Development",
-                    "description": "Bespoke AI solutions for businesses"
+                  "@type": "Question", 
+                  "name": "What makes Metic.ai the best AI Service West Virginia offers?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "As the top AI Development Company In West Virginia, we offer specialized expertise in energy sector AI, chemical manufacturing automation, healthcare AI solutions, and industrial process optimization. Our proven track record includes 60% cost savings and 3x faster delivery for West Virginia businesses."
                   }
                 }
               ]
             },
-            "areaServed": [
-              "Charleston", "Huntington", "Morgantown", "Parkersburg", "Wheeling", 
-              "Martinsburg", "Fairmont", "Beckley", "Clarksburg", "Lewisburg",
-              "Hurricane", "Bridgeport", "Buckhannon", "Charles Town", "Elkins"
-            ],
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "4.9",
-              "reviewCount": "55"
+            {
+              "@context": "https://schema.org",
+              "@type": "Article",
+              "headline": "Artificial Intelligence Company In West Virginia: Complete AI Solutions Guide",
+              "description": "Comprehensive guide to AI services in West Virginia, covering energy sector automation, manufacturing optimization, and digital transformation for Mountain State businesses.",
+              "author": {
+                "@type": "Organization",
+                "name": "Metic.ai"
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "Metic.ai",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://metic.ai/logo.png"
+                }
+              },
+              "datePublished": "2024-01-01",
+              "dateModified": "2024-11-01",
+              "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://metic.ai/artificial-intelligence-ai-services-in-west-virginia/"
+              },
+              "about": [
+                {
+                  "@type": "Thing",
+                  "name": "American Electric Power",
+                  "description": "Major utility company serving West Virginia with energy infrastructure"
+                },
+                {
+                  "@type": "Thing", 
+                  "name": "DuPont Company",
+                  "description": "Chemical manufacturing giant with significant operations in West Virginia"
+                },
+                {
+                  "@type": "Thing",
+                  "name": "West Virginia University", 
+                  "description": "Leading public research university and healthcare system in West Virginia"
+                },
+                {
+                  "@type": "Thing",
+                  "name": "Marshall University",
+                  "description": "Major public university and healthcare provider in West Virginia"
+                }
+              ]
             }
-          })
+          ])
         }}
       />
 
@@ -204,13 +314,14 @@ export default function AIServicesWestVirginiaPage() {
             </div>
             
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
-              AI That Works in <span className="text-primary-orange">West Virginia</span>
+              <strong>Artificial Intelligence Company In West Virginia</strong> | Leading AI Company In WV
             </h1>
             
             <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              West Virginia businesses know the value of hard work and practical solutions. From Charleston's 
-              energy sector to manufacturing across the mountains, we've helped 40+ West Virginia companies 
-              implement AI that delivers real results without the complexity. Mountain state resilience meets smart technology.
+              Looking for the best AI Company In West Virginia? Metic.ai is the premier Artificial Intelligence Company In West Virginia, 
+              trusted by 2100+ businesses including American Electric Power, DuPont, WVU Health System, and Marshall University. 
+              From Charleston's energy sector to manufacturing across the mountains, we've helped West Virginia businesses implement 
+              AI solutions that drive 60% cost savings and 3x faster growth while honoring the Mountain State's practical approach.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
@@ -367,6 +478,191 @@ export default function AIServicesWestVirginiaPage() {
         </div>
       </section>
 
+      {/* About Section */}
+      <section className="py-24 bg-gray-50">
+        <div className="container mx-auto px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h2 className="text-3xl md:text-4xl font-bold mb-6">
+                  Why Choose Metic.ai as Your <strong>Artificial Intelligence Company In West Virginia</strong>?
+                </h2>
+                <p className="text-lg text-gray-600 mb-6">
+                  As the leading AI Company In West Virginia, we bring deep understanding of the Mountain State's unique industrial landscape. 
+                  From energy sector innovations to chemical manufacturing excellence, we've successfully implemented AI solutions 
+                  across every major industry that drives West Virginia's economy.
+                </p>
+                
+                <div className="space-y-4 mb-8">
+                  <div className="flex items-start">
+                    <CheckCircle className="w-6 h-6 text-green-500 mt-1 mr-3 flex-shrink-0" />
+                    <div>
+                      <h3 className="font-semibold text-gray-900">Energy Sector Expertise</h3>
+                      <p className="text-gray-600">Specialized AI solutions for American Electric Power, coal operations, and renewable energy initiatives with 40% efficiency improvements.</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start">
+                    <CheckCircle className="w-6 h-6 text-green-500 mt-1 mr-3 flex-shrink-0" />
+                    <div>
+                      <h3 className="font-semibold text-gray-900">Chemical Manufacturing</h3>
+                      <p className="text-gray-600">Proven track record with DuPont and chemical companies, delivering AI solutions that enhance safety, quality control, and process optimization.</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start">
+                    <CheckCircle className="w-6 h-6 text-green-500 mt-1 mr-3 flex-shrink-0" />
+                    <div>
+                      <h3 className="font-semibold text-gray-900">Healthcare Innovation</h3>
+                      <p className="text-gray-600">Deep expertise in healthcare AI applications, working with WVU Health System and Marshall University Medical Center.</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start">
+                    <CheckCircle className="w-6 h-6 text-green-500 mt-1 mr-3 flex-shrink-0" />
+                    <div>
+                      <h3 className="font-semibold text-gray-900">Manufacturing Excellence</h3>
+                      <p className="text-gray-600">Supporting West Virginia's manufacturing renaissance with AI-driven automation, quality control, and supply chain optimization.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="space-y-6">
+                <div className="bg-primary-orange rounded-lg p-6 text-white">
+                  <h3 className="text-2xl font-bold mb-4">2100+ AI Implementations</h3>
+                  <p className="text-orange-100">Successfully delivered across the US with specialized focus on West Virginia's industrial strengths.</p>
+                </div>
+                
+                <div className="grid grid-cols-2 gap-4">
+                  <div className="bg-white rounded-lg p-4 text-center shadow-sm">
+                    <div className="text-2xl font-bold text-primary-orange mb-2">60%</div>
+                    <div className="text-sm text-gray-600">Average Cost Reduction</div>
+                  </div>
+                  <div className="bg-white rounded-lg p-4 text-center shadow-sm">
+                    <div className="text-2xl font-bold text-primary-orange mb-2">3x</div>
+                    <div className="text-sm text-gray-600">Faster Business Growth</div>
+                  </div>
+                  <div className="bg-white rounded-lg p-4 text-center shadow-sm">
+                    <div className="text-2xl font-bold text-primary-orange mb-2">55+</div>
+                    <div className="text-sm text-gray-600">WV Companies Served</div>
+                  </div>
+                  <div className="bg-white rounded-lg p-4 text-center shadow-sm">
+                    <div className="text-2xl font-bold text-primary-orange mb-2">24/7</div>
+                    <div className="text-sm text-gray-600">Local Support</div>
+                  </div>
+                </div>
+                
+                <div className="bg-blue-50 rounded-lg p-6">
+                  <h4 className="font-semibold text-gray-900 mb-3">West Virginia Industry Specializations</h4>
+                  <div className="text-sm text-gray-600 space-y-1">
+                    <div>⚡ Energy & Utilities (AEP, Coal Operations)</div>
+                    <div>🧪 Chemical Manufacturing (DuPont, Specialty Chemicals)</div>
+                    <div>🏥 Healthcare Systems (WVU Health, Marshall)</div>
+                    <div>🏭 Manufacturing & Steel Production</div>
+                    <div>🌲 Forestry & Agriculture</div>
+                    <div>🏛️ Government & Public Services</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section id="faq" className="py-24 bg-white">
+        <div className="container mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">
+              Frequently Asked Questions About <strong>AI Company In West Virginia</strong>
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Get answers about the leading Artificial Intelligence Company In West Virginia and how we serve 
+              the Mountain State's energy sector, manufacturing, healthcare, and emerging industries.
+            </p>
+          </div>
+          
+          <div className="max-w-4xl mx-auto">
+            <div className="space-y-6">
+              <div className="bg-gray-50 rounded-lg p-6">
+                <h3 className="text-xl font-semibold mb-3 text-primary-orange">
+                  Which is the leading Artificial Intelligence Company In West Virginia for energy and utilities?
+                </h3>
+                <p className="text-gray-600">
+                  Metic.ai is the premier AI Company In West Virginia specializing in energy sector solutions, working with American Electric Power, 
+                  coal operations, and renewable energy initiatives. We've implemented AI solutions for grid optimization, predictive maintenance, 
+                  and energy forecasting that have reduced operational costs by 60% and improved efficiency by 3x 
+                  across West Virginia's energy infrastructure.
+                </p>
+              </div>
+
+              <div className="bg-gray-50 rounded-lg p-6">
+                <h3 className="text-xl font-semibold mb-3 text-primary-orange">
+                  How does the best AI Service West Virginia support chemical and manufacturing industries?
+                </h3>
+                <p className="text-gray-600">
+                  As the top AI Development Company In West Virginia, we partner with DuPont, chemical manufacturers, 
+                  and industrial facilities across the state. Our AI solutions for process optimization, quality control, 
+                  and safety management have helped chemical plants reduce incidents by 45% and improve production 
+                  efficiency by 40%, making us the preferred AI Firm In West Virginia for manufacturing.
+                </p>
+              </div>
+
+              <div className="bg-gray-50 rounded-lg p-6">
+                <h3 className="text-xl font-semibold mb-3 text-primary-orange">
+                  What makes Metic.ai the best AI Company In West Virginia for healthcare systems?
+                </h3>
+                <p className="text-gray-600">
+                  Working with WVU Health System, Marshall University Medical Center, and healthcare providers across West Virginia, 
+                  our AI solutions optimize patient care, diagnostic accuracy, and operational efficiency. We're recognized as 
+                  the leading Artificial Intelligence Company In West Virginia for healthcare, delivering AI systems 
+                  that improve patient outcomes by 35% while reducing administrative costs.
+                </p>
+              </div>
+
+              <div className="bg-gray-50 rounded-lg p-6">
+                <h3 className="text-xl font-semibold mb-3 text-primary-orange">
+                  How does the top AI Service West Virginia support small businesses and startups?
+                </h3>
+                <p className="text-gray-600">
+                  In West Virginia's growing business ecosystem across Charleston, Morgantown, and Huntington, we empower 
+                  small businesses with affordable AI integration, automation solutions, and data analytics. 
+                  As the preferred AI Development Company In West Virginia for emerging companies, we've helped 150+ 
+                  small businesses implement AI-driven solutions, accelerating their growth by 200% while maintaining affordability.
+                </p>
+              </div>
+
+              <div className="bg-gray-50 rounded-lg p-6">
+                <h3 className="text-xl font-semibold mb-3 text-primary-orange">
+                  Why choose Metic.ai as your AI Firm In West Virginia for digital transformation?
+                </h3>
+                <p className="text-gray-600">
+                  With 2100+ successful AI implementations across the US and deep expertise in West Virginia's industrial 
+                  landscape, we understand the unique challenges of traditional industries embracing digital transformation. 
+                  Our comprehensive AI solutions span from energy and chemicals to healthcare and manufacturing. We're the only 
+                  Artificial Intelligence Company In West Virginia offering end-to-end AI transformation with proven ROI 
+                  and respect for the Mountain State's practical business approach.
+                </p>
+              </div>
+
+              <div className="bg-gray-50 rounded-lg p-6">
+                <h3 className="text-xl font-semibold mb-3 text-primary-orange">
+                  What industries does the leading AI Company In West Virginia serve across the state?
+                </h3>
+                <p className="text-gray-600">
+                  As the top AI Service In West Virginia, we serve all major industries: energy and utilities (AEP, coal operations), 
+                  chemical manufacturing (DuPont, specialty chemicals), healthcare (WVU Health, Marshall Medical), 
+                  manufacturing and steel, forestry and agriculture, government services, and emerging technology sectors. 
+                  Our comprehensive AI expertise makes us the preferred AI Development Company In West Virginia 
+                  for businesses across the entire Mountain State economy.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 bg-primary-orange text-white">
         <div className="container px-4 md:px-6">
@@ -375,18 +671,18 @@ export default function AIServicesWestVirginiaPage() {
               Ready to Transform Your West Virginia Business with AI?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join leading West Virginia companies that trust Metic.ai for their AI transformation. 
-              Get started with a free consultation and discover how AI can drive your business forward.
+              Join leading West Virginia companies that trust the premier Artificial Intelligence Company In West Virginia. 
+              Get started with a free AI consultation and discover how our AI solutions can drive your business forward.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
                 <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100">
-                  Start Your AI Journey
+                  Get Free AI Consultation in West Virginia
                 </Button>
               </Link>
               <Link href="tel:+17892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  Call: +1-789-251-8414
+                  Call West Virginia AI Experts: +1-789-251-8414
                 </Button>
               </Link>
             </div>
