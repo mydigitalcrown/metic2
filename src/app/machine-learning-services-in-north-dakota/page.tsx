@@ -24,45 +24,243 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Machine Learning Services in North Dakota | ML Solutions & Model Development - Metic.ai",
-  description: "Professional machine learning services in North Dakota including predictive analytics, classification models, regression analysis, clustering, neural networks, and enterprise ML solutions. 3x faster delivery and 60% cost savings.",
-  keywords: "machine learning services North Dakota, predictive analytics North Dakota, classification models North Dakota, regression analysis North Dakota, neural networks North Dakota, ML model development North Dakota, data science North Dakota, artificial intelligence North Dakota, predictive modeling North Dakota, supervised learning North Dakota, unsupervised learning North Dakota",
-  authors: [{ name: "Metic.ai Machine Learning Team" }],
-  robots: "index, follow",
+  title: "Machine Learning Company In North Dakota | #1 ML Company In Peace Garden State - Metic.ai",
+  description: "Leading Machine Learning Company In North Dakota with 2100+ successful ML implementations. Expert ML services, AI solutions & data science. Transform your business with 60% cost savings & 3x faster delivery in Fargo, Bismarck.",
+  keywords: [
+    "Machine Learning Company In North Dakota",
+    "ML Company In North Dakota", 
+    "Machine Learning Services In North Dakota",
+    "ML Services In North Dakota",
+    "AI Company In North Dakota",
+    "Data Science Company In North Dakota",
+    "ML Development Company In North Dakota",
+    "Best Machine Learning Company In North Dakota",
+    "Top ML Company North Dakota",
+    "Machine Learning Firm In North Dakota",
+    "ML Consultant In North Dakota",
+    "Machine Learning Solutions In North Dakota",
+    "AI ML Company In North Dakota",
+    "Machine Learning Agency In North Dakota",
+    "ML Expert In North Dakota",
+    "Data Analytics Company In North Dakota",
+    "Machine Learning Developer In North Dakota",
+    "ML Implementation In North Dakota",
+    "Machine Learning Company Fargo Bismarck"
+  ],
+  authors: [{ name: "Metic.ai" }],
+  publisher: "Metic.ai",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  metadataBase: new URL("https://metic.ai"),
+  alternates: {
+    canonical: "https://metic.ai/machine-learning-services-in-north-dakota/"
+  },
   openGraph: {
-    title: "Machine Learning Services in North Dakota | ML Solutions & Model Development - Metic.ai",
-    description: "Professional machine learning services in North Dakota including predictive analytics, classification models, and enterprise ML solutions. 3x faster delivery and 60% cost savings.",
+    title: "Machine Learning Company In North Dakota | #1 ML Company In Peace Garden State - Metic.ai",
+    description: "Leading Machine Learning Company In North Dakota with 2100+ successful ML implementations. Expert ML services, AI solutions & data science. Transform your business with 60% cost savings & 3x faster delivery in Fargo, Bismarck.",
     url: "https://metic.ai/machine-learning-services-in-north-dakota/",
+    siteName: "Metic.ai - Machine Learning Company In North Dakota",
+    locale: "en_US",
     type: "website",
+    publishedTime: "2024-01-01T00:00:00.000Z",
+    authors: ["Metic.ai"],
     images: [
       {
-        url: "https://metic.ai/og-machine-learning-north-dakota.jpg",
+        url: "https://metic.ai/og-image-machine-learning-north-dakota.jpg",
         width: 1200,
         height: 630,
-        alt: "Machine Learning Services in North Dakota by Metic.ai",
-      },
-    ],
+        alt: "Machine Learning Company In North Dakota - Metic.ai"
+      }
+    ]
   },
-  alternates: {
-    canonical: "https://metic.ai/machine-learning-services-in-north-dakota/",
+  twitter: {
+    card: "summary_large_image",
+    site: "@meticai",
+    creator: "@meticai", 
+    title: "Machine Learning Company In North Dakota | #1 ML Company In Peace Garden State - Metic.ai",
+    description: "Leading Machine Learning Company In North Dakota with 2100+ successful ML implementations. Expert ML services, AI solutions & data science. Transform your business with 60% cost savings & 3x faster delivery in Fargo, Bismarck.",
+    images: ["https://metic.ai/twitter-image-machine-learning-north-dakota.jpg"],
   },
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    maximumScale: 1,
+  },
+  robots: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+    "max-video-preview": -1,
+    googleBot: "index,follow"
+  },
+  verification: {
+    google: "your-google-verification-code",
+    yandex: "your-yandex-verification-code",
+    other: {
+      "msvalidate.01": "your-bing-verification-code"
+    }
+  }
 };
 
 export default function MachineLearningNorthDakotaPage() {
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Metic.ai - Machine Learning Company In North Dakota",
+    "description": "Leading Machine Learning Company In North Dakota specializing in AI solutions, data science, and ML development for Peace Garden State businesses across energy, agriculture, and technology sectors.",
+    "url": "https://metic.ai/machine-learning-services-in-north-dakota/",
+    "logo": "https://metic.ai/logo.png",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+91-78925-18414",
+      "contactType": "customer service",
+      "areaServed": "North Dakota",
+      "availableLanguage": "English"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Fargo",
+      "addressRegion": "North Dakota",
+      "addressCountry": "US"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/company/metic-ai",
+      "https://twitter.com/meticai"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "127"
+    }
+  };
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Which is the best Machine Learning Company In North Dakota?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Metic.ai is the leading Machine Learning Company In North Dakota with 2100+ successful ML implementations, serving businesses across Fargo, Bismarck, Grand Forks, and statewide with 60% cost savings and 3x faster delivery."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What machine learning services does Metic.ai provide in North Dakota?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "As a top Machine Learning Company In North Dakota, we provide predictive analytics, classification models, deep learning, clustering, recommendation systems, time series analysis, and custom ML solutions for energy, agriculture, and technology businesses."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much do machine learning services cost in North Dakota?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Our Machine Learning Company In North Dakota offers competitive pricing with 60% cost savings compared to traditional solutions. Contact us for a customized quote based on your specific ML requirements and Peace Garden State business needs."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does Metic.ai serve businesses across North Dakota?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, as the premier Machine Learning Company In North Dakota, we serve businesses statewide including Fargo, Bismarck, Grand Forks, Minot, West Fargo, and all major ND cities across the Peace Garden State."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What industries does your Machine Learning Company serve in North Dakota?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Our Machine Learning Company In North Dakota serves diverse industries including energy & oil, agriculture, technology, manufacturing, healthcare, financial services, and logistics, leveraging our understanding of North Dakota's unique business landscape."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How quickly can Metic.ai implement ML solutions in North Dakota?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "As an expert Machine Learning Company In North Dakota, we deliver ML solutions 3x faster than industry average, with typical implementation timelines of 4-12 weeks depending on project complexity and Peace Garden State requirements."
+        }
+      }
+    ]
+  };
+
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Machine Learning Company In North Dakota | #1 ML Company In Peace Garden State",
+    "description": "Leading Machine Learning Company In North Dakota with 2100+ successful ML implementations. Expert ML services, AI solutions & data science.",
+    "author": {
+      "@type": "Organization",
+      "name": "Metic.ai"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Metic.ai",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://metic.ai/logo.png"
+      }
+    },
+    "datePublished": "2024-01-01",
+    "dateModified": "2024-01-01",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://metic.ai/machine-learning-services-in-north-dakota/"
+    }
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-white to-green-50 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              <span className="text-primary-orange">Machine Learning Services</span> in North Dakota
+              <strong className="text-primary-orange">Machine Learning Company In North Dakota</strong> | Leading ML Company In Peace Garden State
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your North Dakota business with advanced machine learning solutions. From predictive 
-              analytics to intelligent automation, we build ML models that drive growth and efficiency 
-              with 3x faster delivery and 60% cost savings.
+              Looking for the best <strong>Machine Learning Company In North Dakota</strong>? Metic.ai is the premier Machine Learning Company In North Dakota with 2100+ successful ML implementations across Fargo, Bismarck, Grand Forks, and statewide. Transform your business with advanced AI solutions, predictive analytics, and custom ML models designed for the Peace Garden State's unique energy, agriculture, and technology landscape.
             </p>
+            
+            <div className="flex flex-wrap justify-center gap-6 mb-8 text-sm">
+              <div className="flex items-center bg-green-100 px-4 py-2 rounded-full">
+                <CheckCircle className="w-4 h-4 text-green-600 mr-2" />
+                <span className="font-semibold text-green-800">2100+ ML Models Deployed</span>
+              </div>
+              <div className="flex items-center bg-blue-100 px-4 py-2 rounded-full">
+                <CheckCircle className="w-4 h-4 text-blue-600 mr-2" />
+                <span className="font-semibold text-blue-800">60% Cost Reduction</span>
+              </div>
+              <div className="flex items-center bg-purple-100 px-4 py-2 rounded-full">
+                <CheckCircle className="w-4 h-4 text-purple-600 mr-2" />
+                <span className="font-semibold text-purple-800">3x Faster Delivery</span>
+              </div>
+              <div className="flex items-center bg-orange-100 px-4 py-2 rounded-full">
+                <CheckCircle className="w-4 h-4 text-orange-600 mr-2" />
+                <span className="font-semibold text-orange-800">Peace Garden State Expertise</span>
+              </div>
+            </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="#consultation">
                 <Button variant="primary" size="lg">
@@ -317,6 +515,75 @@ export default function MachineLearningNorthDakotaPage() {
         </div>
       </section>
 
+      {/* About Section */}
+      <section className="py-20 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                  Leading <span className="text-primary-orange">Machine Learning Company In North Dakota</span>
+                </h2>
+                <div className="w-20 h-1 bg-primary-orange mb-8"></div>
+                <div className="space-y-6 text-gray-600 leading-relaxed">
+                  <p>
+                    <strong>Metic.ai stands as the premier Machine Learning Company In North Dakota</strong>, serving businesses across Fargo, Bismarck, Grand Forks, and the entire Peace Garden State with cutting-edge AI solutions and data science expertise.
+                  </p>
+                  <p>
+                    Our <strong>Machine Learning Company In North Dakota</strong> specializes in transforming businesses through advanced predictive analytics, deep learning models, and intelligent automation systems. With deep expertise in North Dakota's key industries including energy & oil, agriculture, technology, and manufacturing, we deliver ML solutions that drive measurable business outcomes.
+                  </p>
+                  <p>
+                    As a trusted <strong>Machine Learning Company In North Dakota</strong>, we've partnered with leading organizations across the state, leveraging our understanding of the Peace Garden State's unique business landscape to deliver innovative ML solutions that combine cutting-edge technology with practical business applications.
+                  </p>
+                </div>
+
+                <div className="mt-8 grid grid-cols-2 gap-6">
+                  <div className="bg-gray-50 p-6 rounded-lg">
+                    <div className="text-2xl font-bold text-primary-orange mb-2">2100+</div>
+                    <p className="text-sm text-gray-600">ML Models Deployed</p>
+                  </div>
+                  <div className="bg-gray-50 p-6 rounded-lg">
+                    <div className="text-2xl font-bold text-primary-orange mb-2">95%</div>
+                    <p className="text-sm text-gray-600">Client Satisfaction Rate</p>
+                  </div>
+                  <div className="bg-gray-50 p-6 rounded-lg">
+                    <div className="text-2xl font-bold text-primary-orange mb-2">120+</div>
+                    <p className="text-sm text-gray-600">ND Businesses Served</p>
+                  </div>
+                  <div className="bg-gray-50 p-6 rounded-lg">
+                    <div className="text-2xl font-bold text-primary-orange mb-2">3x</div>
+                    <p className="text-sm text-gray-600">Faster Implementation</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="space-y-6">
+                <div className="bg-gradient-to-br from-primary-orange/10 to-primary-orange/5 p-8 rounded-xl">
+                  <h3 className="text-xl font-bold mb-4 text-primary-orange">Energy & Oil Industry Expertise</h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    Our <strong>Machine Learning Company In North Dakota</strong> leverages deep understanding of the state's energy sector, delivering ML solutions for oil production optimization, energy forecasting, and resource management across the Bakken Formation.
+                  </p>
+                </div>
+
+                <div className="bg-gradient-to-br from-blue-50 to-blue-25 p-8 rounded-xl">
+                  <h3 className="text-xl font-bold mb-4 text-blue-700">Agriculture Technology Solutions</h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    From precision farming to crop yield prediction, our Machine Learning Company In North Dakota understands the unique challenges and opportunities across the Peace Garden State's agricultural landscape and provides tailored ML solutions.
+                  </p>
+                </div>
+
+                <div className="bg-gradient-to-br from-green-50 to-green-25 p-8 rounded-xl">
+                  <h3 className="text-xl font-bold mb-4 text-green-700">Statewide Business Partnership</h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    Our Machine Learning Company In North Dakota has established partnerships with major ND corporations, educational institutions, and technology companies, ensuring access to the latest ML innovations and best practices tailored for local business needs.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ML Process Section */}
       <section className="py-20 bg-white">
         <div className="container px-4 md:px-6">
@@ -386,21 +653,128 @@ export default function MachineLearningNorthDakotaPage() {
         </div>
       </section>
 
+      {/* FAQ Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                Frequently Asked Questions About Our <span className="text-primary-orange">Machine Learning Company In North Dakota</span>
+              </h2>
+              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
+              <p className="text-lg text-gray-600">
+                Get answers to common questions about our Machine Learning Company In North Dakota and our comprehensive ML services
+              </p>
+            </div>
+
+            <div className="space-y-6">
+              <div className="bg-white rounded-xl p-8 shadow-sm">
+                <h3 className="text-xl font-bold mb-4 text-gray-900">
+                  Which is the best Machine Learning Company In North Dakota?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  <strong>Metic.ai is the leading Machine Learning Company In North Dakota</strong> with 2100+ successful ML implementations, serving businesses across Fargo, Bismarck, Grand Forks, and statewide with 60% cost savings and 3x faster delivery. Our expertise in North Dakota's energy, agriculture, and technology industries makes us the top choice for ML solutions in the Peace Garden State.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-xl p-8 shadow-sm">
+                <h3 className="text-xl font-bold mb-4 text-gray-900">
+                  What machine learning services does Metic.ai provide in North Dakota?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  As a top <strong>Machine Learning Company In North Dakota</strong>, we provide comprehensive ML services including predictive analytics, classification models, deep learning, clustering, recommendation systems, time series analysis, and custom ML solutions specifically designed for energy, agriculture, and technology businesses across the Peace Garden State.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-xl p-8 shadow-sm">
+                <h3 className="text-xl font-bold mb-4 text-gray-900">
+                  How much do machine learning services cost in North Dakota?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Our <strong>Machine Learning Company In North Dakota</strong> offers competitive pricing with 60% cost savings compared to traditional solutions. Project costs vary based on complexity, data requirements, and implementation scope. Contact our ND team for a customized quote tailored to your specific ML requirements and Peace Garden State business needs.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-xl p-8 shadow-sm">
+                <h3 className="text-xl font-bold mb-4 text-gray-900">
+                  Does Metic.ai serve businesses across North Dakota?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Yes, as the premier <strong>Machine Learning Company In North Dakota</strong>, we serve businesses statewide including Fargo, Bismarck, Grand Forks, Minot, West Fargo, Williston, Dickinson, Jamestown, and all major ND cities. Our statewide presence ensures local support and understanding of regional business needs across the Peace Garden State.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-xl p-8 shadow-sm">
+                <h3 className="text-xl font-bold mb-4 text-gray-900">
+                  What industries does your Machine Learning Company serve in North Dakota?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Our <strong>Machine Learning Company In North Dakota</strong> serves diverse industries including energy & oil (Bakken Formation), agriculture, technology, manufacturing, healthcare, financial services, and logistics. We leverage our understanding of North Dakota's unique business landscape to deliver industry-specific ML solutions tailored for the Peace Garden State.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-xl p-8 shadow-sm">
+                <h3 className="text-xl font-bold mb-4 text-gray-900">
+                  How quickly can Metic.ai implement ML solutions in North Dakota?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  As an expert <strong>Machine Learning Company In North Dakota</strong>, we deliver ML solutions 3x faster than industry average, with typical implementation timelines of 4-12 weeks depending on project complexity. Our local presence and streamlined processes ensure rapid deployment while maintaining quality and accuracy for Peace Garden State businesses.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section id="consultation" className="py-20 bg-primary-orange text-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-              Ready to Transform Your North Dakota Business with Machine Learning?
+              Ready to Partner with the Leading <span className="text-orange-100">Machine Learning Company In North Dakota?</span>
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join leading North Dakota companies leveraging our advanced machine learning solutions. 
-              Start your ML transformation today with 3x faster delivery and 60% cost savings.
+              Join 120+ successful North Dakota businesses leveraging our advanced ML solutions across Fargo, Bismarck, Grand Forks, and statewide. Transform your Peace Garden State business today with the premier <strong>Machine Learning Company In North Dakota</strong> - delivering 3x faster implementation and 60% cost savings.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 mb-8">
+              <h3 className="text-xl font-bold mb-6">Why Choose Our Machine Learning Company In North Dakota?</h3>
+              <div className="grid md:grid-cols-2 gap-6 text-left">
+                <div className="flex items-start space-x-3">
+                  <CheckCircle className="w-5 h-5 text-orange-200 mt-1 flex-shrink-0" />
+                  <div>
+                    <h4 className="font-semibold mb-1">Energy & Agriculture Expertise</h4>
+                    <p className="text-sm text-orange-100">Deep ND market knowledge and industry specialization</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <CheckCircle className="w-5 h-5 text-orange-200 mt-1 flex-shrink-0" />
+                  <div>
+                    <h4 className="font-semibold mb-1">2100+ Successful Implementations</h4>
+                    <p className="text-sm text-orange-100">Proven track record across North Dakota</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <CheckCircle className="w-5 h-5 text-orange-200 mt-1 flex-shrink-0" />
+                  <div>
+                    <h4 className="font-semibold mb-1">60% Cost Reduction</h4>
+                    <p className="text-sm text-orange-100">Significant savings for ND businesses</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <CheckCircle className="w-5 h-5 text-orange-200 mt-1 flex-shrink-0" />
+                  <div>
+                    <h4 className="font-semibold mb-1">3x Faster Delivery</h4>
+                    <p className="text-sm text-orange-100">Rapid implementation and deployment</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Link href="/contact">
                 <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100">
-                  Start ML Project
+                  Start Your ML Project Today
                 </Button>
               </Link>
               <Link href="tel:+917892518414">
@@ -410,19 +784,29 @@ export default function MachineLearningNorthDakotaPage() {
               </Link>
             </div>
             
-            <div className="mt-12 grid md:grid-cols-3 gap-8 text-center">
+            <div className="grid md:grid-cols-4 gap-8 text-center">
               <div>
-                <div className="text-2xl font-bold mb-2">300+</div>
+                <div className="text-3xl font-bold mb-2">2100+</div>
                 <p className="text-orange-100">ML Models Deployed</p>
               </div>
               <div>
-                <div className="text-2xl font-bold mb-2">95%</div>
-                <p className="text-orange-100">Model Accuracy Rate</p>
+                <div className="text-3xl font-bold mb-2">120+</div>
+                <p className="text-orange-100">ND Businesses Served</p>
               </div>
               <div>
-                <div className="text-2xl font-bold mb-2">3x</div>
+                <div className="text-3xl font-bold mb-2">95%</div>
+                <p className="text-orange-100">Success Rate</p>
+              </div>
+              <div>
+                <div className="text-3xl font-bold mb-2">3x</div>
                 <p className="text-orange-100">Faster Delivery</p>
               </div>
+            </div>
+
+            <div className="mt-8 text-center">
+              <p className="text-sm text-orange-200">
+                🏆 Rated #1 Machine Learning Company In North Dakota by our clients across Fargo, Bismarck, Grand Forks, and statewide
+              </p>
             </div>
           </div>
         </div>
