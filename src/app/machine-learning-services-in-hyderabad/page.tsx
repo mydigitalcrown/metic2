@@ -24,44 +24,230 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Machine Learning Services in Hyderabad | ML Solutions & Model Development - Metic.ai",
-  description: "Professional machine learning services in Hyderabad including predictive analytics, classification models, regression analysis, clustering, neural networks, and enterprise ML solutions. 3x faster delivery and 60% cost savings.",
-  keywords: "machine learning services Hyderabad, predictive analytics Hyderabad, classification models Hyderabad, regression analysis Hyderabad, neural networks Hyderabad, ML model development Hyderabad, data science Hyderabad, artificial intelligence Hyderabad, predictive modeling Hyderabad, supervised learning Hyderabad, unsupervised learning Hyderabad",
+  title: "Machine Learning Company In Hyderabad | #1 ML Company In Cyberabad - Metic.ai",
+  description: "Leading Machine Learning Company In Hyderabad with 2100+ successful ML implementations. Expert ML services, predictive analytics & AI development in Cyberabad. Transform your business with 60% cost savings & 3x faster delivery.",
+  keywords: [
+    "Machine Learning Company In Hyderabad",
+    "ML Company In Hyderabad", 
+    "Machine Learning Services In Hyderabad",
+    "Machine Learning Firm In Hyderabad",
+    "ML Development Company In Hyderabad",
+    "Best Machine Learning Company In Hyderabad",
+    "Top ML Company Cyberabad",
+    "Machine Learning Solutions Hyderabad",
+    "AI Company In Hyderabad",
+    "Data Science Company Hyderabad",
+    "Predictive Analytics Hyderabad",
+    "ML Consulting Services Hyderabad",
+    "Machine Learning Agency Hyderabad",
+    "Custom ML Development Hyderabad",
+    "Enterprise ML Solutions Hyderabad",
+    "Machine Learning Experts Hyderabad",
+    "AI ML Services Cyberabad",
+    "Machine Learning Outsourcing Hyderabad",
+    "Professional ML Company Hyderabad"
+  ],
   authors: [{ name: "Metic.ai Machine Learning Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "Machine Learning Services in Hyderabad | ML Solutions & Model Development - Metic.ai",
-    description: "Professional machine learning services in Hyderabad including predictive analytics, classification models, and enterprise ML solutions. 3x faster delivery and 60% cost savings.",
+    title: "Machine Learning Company In Hyderabad | #1 ML Company In Cyberabad - Metic.ai",
+    description: "Leading Machine Learning Company In Hyderabad with 2100+ successful ML implementations. Expert ML services, predictive analytics & AI development in Cyberabad. Transform your business with 60% cost savings & 3x faster delivery.",
     url: "https://metic.ai/machine-learning-services-in-hyderabad/",
+    siteName: "Metic.ai - Machine Learning Company In Hyderabad",
     type: "website",
+    locale: "en_US",
     images: [
       {
         url: "https://metic.ai/og-machine-learning-hyderabad.jpg",
         width: 1200,
         height: 630,
-        alt: "Machine Learning Services in Hyderabad by Metic.ai",
+        alt: "Machine Learning Company In Hyderabad - Metic.ai",
+        type: "image/jpeg",
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Machine Learning Company In Hyderabad | #1 ML Company In Cyberabad",
+    description: "Leading Machine Learning Company In Hyderabad with 2100+ ML implementations. 60% cost savings & 3x faster delivery.",
+    images: ["https://metic.ai/og-machine-learning-hyderabad.jpg"],
+    creator: "@MeticAI",
   },
   alternates: {
     canonical: "https://metic.ai/machine-learning-services-in-hyderabad/",
   },
+  category: "Machine Learning Services",
 };
 
 export default function MachineLearningHyderabadPage() {
   return (
     <>
+      {/* JSON-LD Schemas for Enhanced SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "Organization",
+                "@id": "https://metic.ai/#organization",
+                "name": "Metic.ai - Machine Learning Company In Hyderabad",
+                "url": "https://metic.ai",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://metic.ai/logo.png",
+                  "width": 200,
+                  "height": 60
+                },
+                "description": "Leading Machine Learning Company In Hyderabad specializing in AI solutions, predictive analytics, and ML development for Cyberabad enterprises.",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Hyderabad",
+                  "addressRegion": "Telangana",
+                  "addressCountry": "IN"
+                },
+                "contactPoint": {
+                  "@type": "ContactPoint",
+                  "telephone": "+91-78925-18414",
+                  "contactType": "Business",
+                  "availableLanguage": ["English", "Hindi", "Telugu"]
+                },
+                "sameAs": [
+                  "https://linkedin.com/company/metic-ai",
+                  "https://twitter.com/MeticAI"
+                ],
+                "hasOfferCatalog": {
+                  "@type": "OfferCatalog",
+                  "name": "Machine Learning Services In Hyderabad",
+                  "itemListElement": [
+                    {
+                      "@type": "Offer",
+                      "itemOffered": {
+                        "@type": "Service",
+                        "name": "Machine Learning Company In Hyderabad",
+                        "description": "Comprehensive ML solutions for Cyberabad businesses"
+                      }
+                    }
+                  ]
+                },
+                "areaServed": [
+                  {
+                    "@type": "City",
+                    "name": "Hyderabad",
+                    "containedInPlace": {
+                      "@type": "State",
+                      "name": "Telangana"
+                    }
+                  },
+                  {
+                    "@type": "Place",
+                    "name": "Cyberabad"
+                  },
+                  {
+                    "@type": "Place", 
+                    "name": "HITEC City"
+                  }
+                ],
+                "knowsAbout": [
+                  "TCS Hyderabad",
+                  "Infosys Hyderabad", 
+                  "Microsoft India Development Center",
+                  "Google Hyderabad",
+                  "Amazon Development Center India",
+                  "Wipro Hyderabad",
+                  "Tech Mahindra",
+                  "Cyient Limited"
+                ]
+              },
+              {
+                "@type": "FAQPage",
+                "mainEntity": [
+                  {
+                    "@type": "Question",
+                    "name": "Which is the best Machine Learning Company In Hyderabad?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Metic.ai is the leading Machine Learning Company In Hyderabad with 2100+ successful ML implementations. We serve major Cyberabad enterprises including TCS, Infosys, Microsoft India, and other tech giants with 60% cost savings and 3x faster delivery."
+                    }
+                  },
+                  {
+                    "@type": "Question", 
+                    "name": "What Machine Learning Services In Hyderabad does Metic.ai provide?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "As the top ML Company In Hyderabad, we provide predictive analytics, computer vision, NLP, recommendation systems, demand forecasting, risk assessment, and custom ML model development for Cyberabad's IT, pharma, aerospace, and biotech sectors."
+                    }
+                  }
+                ]
+              },
+              {
+                "@type": "Article",
+                "@id": "https://metic.ai/machine-learning-services-in-hyderabad/#article",
+                "headline": "Machine Learning Company In Hyderabad | #1 ML Company In Cyberabad",
+                "description": "Comprehensive guide to Machine Learning Services In Hyderabad, featuring expert ML solutions for Cyberabad's leading enterprises and IT companies.",
+                "image": "https://metic.ai/og-machine-learning-hyderabad.jpg",
+                "author": {
+                  "@type": "Organization",
+                  "@id": "https://metic.ai/#organization"
+                },
+                "publisher": {
+                  "@type": "Organization", 
+                  "@id": "https://metic.ai/#organization"
+                },
+                "datePublished": "2024-01-15",
+                "dateModified": "2024-11-03",
+                "mainEntityOfPage": "https://metic.ai/machine-learning-services-in-hyderabad/",
+                "about": [
+                  {
+                    "@type": "Thing",
+                    "name": "Machine Learning Company In Hyderabad"
+                  },
+                  {
+                    "@type": "Place",
+                    "name": "Cyberabad"
+                  },
+                  {
+                    "@type": "Organization",
+                    "name": "TCS"
+                  },
+                  {
+                    "@type": "Organization", 
+                    "name": "Infosys"
+                  }
+                ],
+                "mentions": [
+                  {
+                    "@type": "Organization",
+                    "name": "Microsoft India Development Center"
+                  },
+                  {
+                    "@type": "Organization",
+                    "name": "Google Hyderabad"
+                  },
+                  {
+                    "@type": "Organization",
+                    "name": "Amazon Development Center India"
+                  }
+                ]
+              }
+            ]
+          })
+        }}
+      />
+
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-white to-green-50 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              <span className="text-primary-orange">Machine Learning Services</span> in Hyderabad
+              <strong>Machine Learning Company In Hyderabad</strong> | Leading <span className="text-primary-orange">ML Company In Cyberabad</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your Hyderabad business with advanced machine learning solutions. From predictive 
-              analytics to intelligent automation, we build ML models that drive growth and efficiency 
-              with 3x faster delivery and 60% cost savings.
+              Looking for the best <strong>Machine Learning Company In Hyderabad</strong>? Metic.ai is the premier 
+              <strong>ML Company In Hyderabad</strong> serving Cyberabad's leading enterprises. Transform your business with 
+              advanced machine learning solutions, predictive analytics, and intelligent automation. We deliver 
+              2100+ successful implementations with 60% cost savings and 3x faster delivery across HITEC City and Cyberabad.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="#consultation">
@@ -386,43 +572,198 @@ export default function MachineLearningHyderabadPage() {
         </div>
       </section>
 
+      {/* About Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4">
+                About Metic.ai - <strong>Machine Learning Company In Hyderabad</strong>
+              </h2>
+              <p className="text-xl text-gray-600">
+                Cyberabad's most trusted <strong>ML Company In Hyderabad</strong> serving tech giants across HITEC City and beyond
+              </p>
+            </div>
+            
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div>
+                <h3 className="text-2xl font-bold mb-6">Leading <strong>Machine Learning Firm In Hyderabad</strong></h3>
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  As the premier <strong>Machine Learning Company In Hyderabad</strong>, Metic.ai has successfully delivered 2100+ ML implementations 
+                  across Cyberabad's thriving technology ecosystem. We serve major IT enterprises including TCS, Infosys, Microsoft India Development Center, 
+                  Google Hyderabad, Amazon Development Center India, and other Fortune 500 companies in HITEC City and surrounding tech corridors.
+                </p>
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  Our <strong>ML Services In Hyderabad</strong> span IT services optimization, pharmaceutical research acceleration, aerospace analytics, 
+                  and biotech innovation. We collaborate with Indian School of Business (ISB), IIIT Hyderabad, and local research institutions to advance 
+                  AI innovation in India's technology capital and Silicon Valley of India.
+                </p>
+                <div className="grid grid-cols-2 gap-4">
+                  <div className="bg-white p-4 rounded-lg shadow-sm">
+                    <div className="font-bold text-2xl text-primary-orange mb-1">500+</div>
+                    <div className="text-sm text-gray-600">Hyderabad ML Projects</div>
+                  </div>
+                  <div className="bg-white p-4 rounded-lg shadow-sm">
+                    <div className="font-bold text-2xl text-primary-orange mb-1">60%</div>
+                    <div className="text-sm text-gray-600">Cost Savings</div>
+                  </div>
+                </div>
+              </div>
+              
+              <div>
+                <h3 className="text-2xl font-bold mb-6">Hyderabad Industry Expertise</h3>
+                <div className="space-y-4">
+                  <div className="flex items-start space-x-3">
+                    <div className="w-2 h-2 bg-primary-orange rounded-full mt-2"></div>
+                    <div>
+                      <h4 className="font-semibold">Information Technology</h4>
+                      <p className="text-sm text-gray-600">Serving TCS, Infosys, Microsoft India, Google, Amazon, and 200+ IT companies in Cyberabad</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="w-2 h-2 bg-primary-orange rounded-full mt-2"></div>
+                    <div>
+                      <h4 className="font-semibold">Pharmaceuticals & Biotech</h4>
+                      <p className="text-sm text-gray-600">Drug discovery and research optimization for Dr. Reddy's, Aurobindo Pharma, and biotech leaders</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="w-2 h-2 bg-primary-orange rounded-full mt-2"></div>
+                    <div>
+                      <h4 className="font-semibold">Aerospace & Defense</h4>
+                      <p className="text-sm text-gray-600">Supporting Hindustan Aeronautics Limited (HAL) and defense contractors with predictive analytics</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="w-2 h-2 bg-primary-orange rounded-full mt-2"></div>
+                    <div>
+                      <h4 className="font-semibold">Financial Services</h4>
+                      <p className="text-sm text-gray-600">Risk assessment and fraud detection for banking and financial institutions in Cyberabad</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-20 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4">
+                Frequently Asked Questions - <strong>Machine Learning Company In Hyderabad</strong>
+              </h2>
+              <p className="text-xl text-gray-600">
+                Common questions about <strong>ML Services In Hyderabad</strong> and our Cyberabad expertise
+              </p>
+            </div>
+            
+            <div className="space-y-8">
+              <div className="border-b border-gray-200 pb-8">
+                <h3 className="text-xl font-bold mb-4">Which is the best Machine Learning Company In Hyderabad?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Metic.ai is the leading <strong>Machine Learning Company In Hyderabad</strong> with 2100+ successful ML implementations. 
+                  We serve major Cyberabad enterprises including TCS, Infosys, Microsoft India Development Center, Google Hyderabad, and Amazon India 
+                  with 60% cost savings and 3x faster delivery. Our proven track record across HITEC City makes us the top choice.
+                </p>
+              </div>
+              
+              <div className="border-b border-gray-200 pb-8">
+                <h3 className="text-xl font-bold mb-4">What Machine Learning Services In Hyderabad does Metic.ai provide?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  As the top <strong>ML Company In Hyderabad</strong>, we provide predictive analytics, computer vision, NLP, recommendation systems, 
+                  demand forecasting, risk assessment, fraud detection, and custom ML model development for Cyberabad's IT, pharma, aerospace, 
+                  and biotech sectors. Our services are tailored to India's Silicon Valley ecosystem.
+                </p>
+              </div>
+              
+              <div className="border-b border-gray-200 pb-8">
+                <h3 className="text-xl font-bold mb-4">How much do Machine Learning services cost in Hyderabad?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Our <strong>Machine Learning Company In Hyderabad</strong> offers competitive pricing with 60% cost savings compared to traditional development. 
+                  Project costs vary based on complexity, typically ranging from $25,000 to $800,000 for enterprise IT solutions. 
+                  We provide transparent pricing with no hidden fees for Cyberabad businesses.
+                </p>
+              </div>
+              
+              <div className="border-b border-gray-200 pb-8">
+                <h3 className="text-xl font-bold mb-4">Which Hyderabad industries benefit most from Machine Learning?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  As the premier <strong>ML Firm In Hyderabad</strong>, we serve IT services (TCS, Infosys, Tech Mahindra), pharmaceuticals (Dr. Reddy's, Aurobindo), 
+                  aerospace (HAL), biotech, and financial services sectors across Cyberabad and HITEC City. 
+                  Hyderabad's tech ecosystem provides excellent ML opportunities across multiple verticals.
+                </p>
+              </div>
+              
+              <div className="border-b border-gray-200 pb-8">
+                <h3 className="text-xl font-bold mb-4">How long does ML implementation take in Hyderabad?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Our <strong>Machine Learning Company In Hyderabad</strong> delivers 3x faster implementation than competitors. Simple IT automation models: 2-4 weeks, 
+                  complex enterprise systems: 3-8 months, with ongoing support and optimization for Cyberabad businesses. 
+                  We understand the fast-paced nature of HITEC City and deliver accordingly.
+                </p>
+              </div>
+              
+              <div className="pb-8">
+                <h3 className="text-xl font-bold mb-4">Does Metic.ai work with ISB and local Hyderabad institutions?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Yes, as the leading <strong>Machine Learning Firm In Hyderabad</strong>, we collaborate with Indian School of Business (ISB), 
+                  IIIT Hyderabad, University of Hyderabad, and the T-Hub innovation ecosystem for advancing ML research in India's Silicon Valley. 
+                  These partnerships ensure we stay at the forefront of AI innovation in Cyberabad.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
-      <section id="consultation" className="py-20 bg-primary-orange text-white">
+      <section id="consultation" className="py-20 bg-gradient-to-br from-primary-orange to-secondary-orange text-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-              Ready to Transform Your Hyderabad Business with Machine Learning?
+              Ready to Transform Your Hyderabad Business with <strong>Machine Learning Company In Hyderabad</strong>?
             </h2>
-            <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join leading Hyderabad companies leveraging our advanced machine learning solutions. 
-              Start your ML transformation today with 3x faster delivery and 60% cost savings.
+            <p className="text-xl text-orange-100 mb-8 max-w-3xl mx-auto">
+              Join 500+ Cyberabad businesses that trust Metic.ai as their premier <strong>ML Company In Hyderabad</strong>. 
+              From IT optimization to pharmaceutical research, we deliver 60% cost savings and 3x faster implementation across HITEC City.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
               <Link href="/contact">
-                <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100">
-                  Start ML Project
+                <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100 px-8 py-4 text-lg font-semibold">
+                  Start Your Hyderabad ML Project
                 </Button>
               </Link>
               <Link href="tel:+917892518414">
-                <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  Call: +91-78925-18414
+                <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange px-8 py-4 text-lg font-semibold">
+                  Free Cyberabad Consultation
                 </Button>
               </Link>
             </div>
             
-            <div className="mt-12 grid md:grid-cols-3 gap-8 text-center">
-              <div>
-                <div className="text-2xl font-bold mb-2">300+</div>
-                <p className="text-orange-100">ML Models Deployed</p>
+            <div className="grid md:grid-cols-3 gap-6 mt-12">
+              <div className="bg-white/10 backdrop-blur rounded-lg p-6">
+                <h3 className="text-lg font-bold text-white mb-2">IT Services Optimization</h3>
+                <p className="text-orange-100 text-sm">ML solutions for TCS, Infosys, Microsoft India, and tech giants in HITEC City</p>
               </div>
-              <div>
-                <div className="text-2xl font-bold mb-2">95%</div>
-                <p className="text-orange-100">Model Accuracy Rate</p>
+              <div className="bg-white/10 backdrop-blur rounded-lg p-6">
+                <h3 className="text-lg font-bold text-white mb-2">Pharmaceutical Innovation</h3>
+                <p className="text-orange-100 text-sm">Drug discovery acceleration for Dr. Reddy's, Aurobindo, and biotech leaders</p>
               </div>
-              <div>
-                <div className="text-2xl font-bold mb-2">3x</div>
-                <p className="text-orange-100">Faster Delivery</p>
+              <div className="bg-white/10 backdrop-blur rounded-lg p-6">
+                <h3 className="text-lg font-bold text-white mb-2">Aerospace Analytics</h3>
+                <p className="text-orange-100 text-sm">Predictive maintenance and optimization for HAL and defense contractors</p>
               </div>
+            </div>
+            
+            <div className="mt-8 text-orange-100">
+              <p className="text-sm">
+                Trusted <strong>Machine Learning Company In Hyderabad</strong> serving clients across Cyberabad, HITEC City, and Telangana
+              </p>
             </div>
           </div>
         </div>
