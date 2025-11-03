@@ -24,22 +24,43 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Machine Learning Services in Kolkata | ML Solutions & Model Development - Metic.ai",
-  description: "Professional machine learning services in Kolkata including predictive analytics, classification models, regression analysis, clustering, neural networks, and enterprise ML solutions. 3x faster delivery and 60% cost savings.",
-  keywords: "machine learning services Kolkata, predictive analytics Kolkata, classification models Kolkata, regression analysis Kolkata, neural networks Kolkata, ML model development Kolkata, data science Kolkata, artificial intelligence Kolkata, predictive modeling Kolkata, supervised learning Kolkata, unsupervised learning Kolkata",
+  title: "Machine Learning Company In Kolkata | #1 ML Company In City of Joy - Metic.ai",
+  description: "Leading Machine Learning Company In Kolkata with 2100+ successful ML implementations. Expert ML services, predictive analytics & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
+  keywords: [
+    "Machine Learning Company In Kolkata",
+    "ML Company In Kolkata", 
+    "Machine Learning Services In Kolkata",
+    "Machine Learning Firm In Kolkata",
+    "ML Development Company In Kolkata",
+    "Machine Learning Consultant In Kolkata",
+    "AI Company In Kolkata",
+    "Best Machine Learning Company In Kolkata",
+    "Top ML Company Kolkata",
+    "Machine Learning Agency In Kolkata",
+    "ML Solutions In Kolkata",
+    "Machine Learning Expert In Kolkata",
+    "Data Science Company In Kolkata",
+    "Predictive Analytics Kolkata",
+    "ML Model Development Kolkata",
+    "AI Development Company In Kolkata",
+    "Machine Learning Specialist Kolkata",
+    "Custom ML Solutions Kolkata",
+    "Enterprise ML Kolkata"
+  ],
   authors: [{ name: "Metic.ai Machine Learning Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "Machine Learning Services in Kolkata | ML Solutions & Model Development - Metic.ai",
-    description: "Professional machine learning services in Kolkata including predictive analytics, classification models, and enterprise ML solutions. 3x faster delivery and 60% cost savings.",
+    title: "Machine Learning Company In Kolkata | #1 ML Company In City of Joy - Metic.ai",
+    description: "Leading Machine Learning Company In Kolkata with 2100+ successful ML implementations. Expert ML services, predictive analytics & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
     url: "https://metic.ai/machine-learning-services-in-kolkata/",
     type: "website",
+    siteName: "Metic.ai - Machine Learning Company In Kolkata",
     images: [
       {
         url: "https://metic.ai/og-machine-learning-kolkata.jpg",
         width: 1200,
         height: 630,
-        alt: "Machine Learning Services in Kolkata by Metic.ai",
+        alt: "Machine Learning Company In Kolkata by Metic.ai",
       },
     ],
   },
@@ -51,17 +72,183 @@ export const metadata = {
 export default function MachineLearningKolkataPage() {
   return (
     <>
+      {/* Enhanced JSON-LD Schema for Kolkata ML Services */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "Organization",
+                "@id": "https://metic.ai/#organization",
+                "name": "Metic.ai",
+                "alternateName": "Machine Learning Company In Kolkata",
+                "description": "Leading Machine Learning Company In Kolkata specializing in AI development, predictive analytics, and enterprise ML solutions for City of Joy businesses.",
+                "url": "https://metic.ai",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://metic.ai/logo.png",
+                  "width": 512,
+                  "height": 512
+                },
+                "contactPoint": {
+                  "@type": "ContactPoint",
+                  "telephone": "+91-78925-18414",
+                  "contactType": "customer service",
+                  "areaServed": "Kolkata",
+                  "availableLanguage": "English"
+                },
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Kolkata",
+                  "addressRegion": "West Bengal",
+                  "addressCountry": "India"
+                },
+                "sameAs": [
+                  "https://www.linkedin.com/company/metic-ai",
+                  "https://twitter.com/metic_ai"
+                ],
+                "hasOfferCatalog": {
+                  "@type": "OfferCatalog",
+                  "name": "Machine Learning Services In Kolkata",
+                  "itemListElement": [
+                    {
+                      "@type": "Offer",
+                      "itemOffered": {
+                        "@type": "Service",
+                        "name": "Machine Learning Company In Kolkata",
+                        "description": "Comprehensive ML development and AI consulting services"
+                      }
+                    }
+                  ]
+                },
+                "makesOffer": [
+                  {
+                    "@type": "Offer",
+                    "name": "ML Company In Kolkata Services",
+                    "description": "Expert machine learning solutions for Kolkata businesses including TCS, Wipro, ITC Ltd, Emami Group, and Coal India.",
+                    "areaServed": {
+                      "@type": "City",
+                      "name": "Kolkata"
+                    }
+                  }
+                ]
+              },
+              {
+                "@type": "FAQPage",
+                "@id": "https://metic.ai/machine-learning-services-in-kolkata/#faq",
+                "mainEntity": [
+                  {
+                    "@type": "Question",
+                    "name": "Which is the best Machine Learning Company In Kolkata?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Metic.ai is the leading Machine Learning Company In Kolkata with 2100+ successful ML implementations. We serve major City of Joy enterprises including TCS, Wipro, ITC Ltd, Emami Group, and Coal India with 60% cost savings and 3x faster delivery."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "What Machine Learning Services In Kolkata does Metic.ai provide?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "As the top ML Company In Kolkata, we provide predictive analytics, computer vision, NLP, recommendation systems, IT services optimization, FMCG analytics, and custom ML model development for Kolkata's IT, FMCG, jute, and steel sectors."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "How much do Machine Learning services cost in Kolkata?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Our Machine Learning Company In Kolkata offers competitive pricing with 60% cost savings compared to traditional development. Project costs vary based on complexity, typically ranging from $15,000 to $500,000 for enterprise solutions."
+                    }
+                  }
+                ]
+              },
+              {
+                "@type": "Article",
+                "@id": "https://metic.ai/machine-learning-services-in-kolkata/#article",
+                "headline": "Machine Learning Company In Kolkata | Expert ML Services for City of Joy",
+                "description": "Comprehensive guide to machine learning services in Kolkata, featuring expert ML development, predictive analytics, and AI solutions for Kolkata businesses.",
+                "author": {
+                  "@type": "Organization",
+                  "@id": "https://metic.ai/#organization"
+                },
+                "publisher": {
+                  "@type": "Organization",
+                  "@id": "https://metic.ai/#organization"
+                },
+                "datePublished": "2024-01-01",
+                "dateModified": "2024-11-03",
+                "articleSection": "Machine Learning Services",
+                "keywords": "Machine Learning Company In Kolkata, ML Company In Kolkata, Machine Learning Services In Kolkata, Machine Learning Firm In Kolkata",
+                "about": [
+                  {
+                    "@type": "Thing",
+                    "name": "Machine Learning",
+                    "description": "Advanced ML solutions for Kolkata businesses"
+                  },
+                  {
+                    "@type": "Place",
+                    "name": "Kolkata",
+                    "description": "City of Joy with major enterprises like TCS, Wipro, ITC Ltd, and Emami Group"
+                  }
+                ],
+                "mentions": [
+                  {
+                    "@type": "Organization",
+                    "name": "TCS",
+                    "description": "Major IT services company with significant Kolkata operations"
+                  },
+                  {
+                    "@type": "Organization", 
+                    "name": "Wipro",
+                    "description": "Leading IT services and consulting company with Kolkata presence"
+                  },
+                  {
+                    "@type": "Organization",
+                    "name": "ITC Ltd",
+                    "description": "Major FMCG and diversified conglomerate headquartered in Kolkata"
+                  },
+                  {
+                    "@type": "Organization",
+                    "name": "Emami Group",
+                    "description": "Leading FMCG company based in Kolkata"
+                  },
+                  {
+                    "@type": "Organization",
+                    "name": "Coal India",
+                    "description": "Major coal mining company headquartered in Kolkata"
+                  },
+                  {
+                    "@type": "Organization",
+                    "name": "Jadavpur University",
+                    "description": "Premier technical university in Kolkata"
+                  },
+                  {
+                    "@type": "Organization",
+                    "name": "Indian Statistical Institute",
+                    "description": "Leading research institution for statistics and computer science in Kolkata"
+                  }
+                ]
+              }
+            ]
+          })
+        }}
+      />
+
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-white to-green-50 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              <span className="text-primary-orange">Machine Learning Services</span> in Kolkata
+              <strong>Machine Learning Company In Kolkata</strong> | Leading <span className="text-primary-orange">ML Company In City of Joy</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your Kolkata business with advanced machine learning solutions. From predictive 
-              analytics to intelligent automation, we build ML models that drive growth and efficiency 
-              with 3x faster delivery and 60% cost savings.
+              Looking for the best <strong>Machine Learning Company In Kolkata</strong>? Metic.ai is the premier 
+              <strong>ML Company In Kolkata</strong> serving major City of Joy enterprises including TCS, 
+              Wipro, ITC Ltd, Emami Group, and Coal India. Transform your Kolkata business with advanced 
+              machine learning solutions delivering 60% cost savings and 3x faster delivery than traditional development.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="#consultation">
@@ -386,21 +573,169 @@ export default function MachineLearningKolkataPage() {
         </div>
       </section>
 
+      {/* About Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4">
+                About Metic.ai - <strong>Machine Learning Company In Kolkata</strong>
+              </h2>
+              <p className="text-xl text-gray-600">
+                The City of Joy's most trusted <strong>ML Company In Kolkata</strong> serving IT, FMCG, and manufacturing leaders statewide
+              </p>
+            </div>
+            
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div>
+                <h3 className="text-2xl font-bold mb-6">Leading <strong>Machine Learning Firm In Kolkata</strong></h3>
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  As the premier <strong>Machine Learning Company In Kolkata</strong>, Metic.ai has successfully delivered 2100+ ML implementations 
+                  across the City of Joy's diverse economic landscape. We serve major enterprises including TCS (IT services), 
+                  Wipro (IT consulting), ITC Ltd (FMCG conglomerate), Emami Group (FMCG), and Coal India (mining and energy).
+                </p>
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  Our <strong>ML Services In Kolkata</strong> span IT services optimization, FMCG analytics, supply chain intelligence, 
+                  manufacturing automation, jute industry analytics, and steel production optimization. We collaborate with Jadavpur University, 
+                  Indian Statistical Institute, and research institutions to advance AI innovation in the City of Joy's technology ecosystem.
+                </p>
+                <div className="grid grid-cols-2 gap-4">
+                  <div className="bg-white p-4 rounded-lg shadow-sm">
+                    <div className="font-bold text-2xl text-primary-orange mb-1">320+</div>
+                    <div className="text-sm text-gray-600">Kolkata ML Projects</div>
+                  </div>
+                  <div className="bg-white p-4 rounded-lg shadow-sm">
+                    <div className="font-bold text-2xl text-primary-orange mb-1">60%</div>
+                    <div className="text-sm text-gray-600">Cost Savings</div>
+                  </div>
+                </div>
+              </div>
+              
+              <div>
+                <h3 className="text-2xl font-bold mb-6">Kolkata Industry Expertise</h3>
+                <div className="space-y-4">
+                  <div className="flex items-start space-x-3">
+                    <div className="w-2 h-2 bg-primary-orange rounded-full mt-2"></div>
+                    <div>
+                      <h4 className="font-semibold">IT Services & Consulting</h4>
+                      <p className="text-sm text-gray-600">Serving TCS and Wipro with process optimization, automation, and customer analytics</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="w-2 h-2 bg-primary-orange rounded-full mt-2"></div>
+                    <div>
+                      <h4 className="font-semibold">FMCG & Consumer Goods</h4>
+                      <p className="text-sm text-gray-600">Demand forecasting and market analysis for ITC Ltd and Emami Group</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="w-2 h-2 bg-primary-orange rounded-full mt-2"></div>
+                    <div>
+                      <h4 className="font-semibold">Mining & Energy</h4>
+                      <p className="text-sm text-gray-600">Production optimization and safety analytics for Coal India and energy sector</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="w-2 h-2 bg-primary-orange rounded-full mt-2"></div>
+                    <div>
+                      <h4 className="font-semibold">Manufacturing & Jute</h4>
+                      <p className="text-sm text-gray-600">Quality control and process automation for manufacturing and traditional industries</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-20 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4">
+                Frequently Asked Questions - <strong>Machine Learning Company In Kolkata</strong>
+              </h2>
+              <p className="text-xl text-gray-600">
+                Common questions about <strong>ML Services In Kolkata</strong> and our City of Joy expertise
+              </p>
+            </div>
+            
+            <div className="space-y-8">
+              <div className="border-b border-gray-200 pb-8">
+                <h3 className="text-xl font-bold mb-4">Which is the best Machine Learning Company In Kolkata?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Metic.ai is the leading <strong>Machine Learning Company In Kolkata</strong> with 2100+ successful ML implementations. 
+                  We serve major City of Joy enterprises including TCS, Wipro, ITC Ltd, Emami Group, and Coal India 
+                  with 60% cost savings and 3x faster delivery. Our proven track record across Kolkata makes us the top choice.
+                </p>
+              </div>
+              
+              <div className="border-b border-gray-200 pb-8">
+                <h3 className="text-xl font-bold mb-4">What Machine Learning Services In Kolkata does Metic.ai provide?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  As the top <strong>ML Company In Kolkata</strong>, we provide predictive analytics, computer vision, NLP, recommendation systems, 
+                  IT services optimization, FMCG analytics, manufacturing automation, supply chain intelligence, and custom ML model development 
+                  for Kolkata's IT, FMCG, mining, and manufacturing sectors.
+                </p>
+              </div>
+              
+              <div className="border-b border-gray-200 pb-8">
+                <h3 className="text-xl font-bold mb-4">How much do Machine Learning services cost in Kolkata?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Our <strong>Machine Learning Company In Kolkata</strong> offers competitive pricing with 60% cost savings compared to traditional development. 
+                  Project costs vary based on complexity, typically ranging from ₹15,00,000 to ₹4,00,00,000 for enterprise solutions. 
+                  We provide transparent pricing with no hidden fees for City of Joy businesses.
+                </p>
+              </div>
+              
+              <div className="border-b border-gray-200 pb-8">
+                <h3 className="text-xl font-bold mb-4">Which Kolkata industries benefit most from Machine Learning?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  As the premier <strong>ML Firm In Kolkata</strong>, we serve IT services (TCS, Wipro), FMCG (ITC Ltd, Emami), 
+                  mining (Coal India), manufacturing, jute, and steel sectors across the City of Joy and West Bengal. 
+                  Kolkata's strong IT and manufacturing base provides excellent ML opportunities for optimization and growth.
+                </p>
+              </div>
+              
+              <div className="border-b border-gray-200 pb-8">
+                <h3 className="text-xl font-bold mb-4">How long does ML implementation take in Kolkata?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Our <strong>Machine Learning Company In Kolkata</strong> delivers 3x faster implementation than competitors. Simple FMCG models: 2-4 weeks, 
+                  complex IT or manufacturing systems: 3-6 months, with ongoing support and optimization for City of Joy businesses. 
+                  We understand Kolkata's business cycles and industrial timelines.
+                </p>
+              </div>
+              
+              <div className="pb-8">
+                <h3 className="text-xl font-bold mb-4">Does Metic.ai work with Kolkata universities and research institutions?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Yes, as the leading <strong>Machine Learning Firm In Kolkata</strong>, we collaborate with Jadavpur University, 
+                  Indian Statistical Institute, and research institutions for advancing ML innovation in the City of Joy. 
+                  These partnerships ensure we stay at the forefront of statistical AI research and technology development in Kolkata's academic ecosystem.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section id="consultation" className="py-20 bg-primary-orange text-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-              Ready to Transform Your Kolkata Business with Machine Learning?
+              Ready to Transform Your Kolkata Business with <strong>Machine Learning Company In Kolkata</strong>?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join leading Kolkata companies leveraging our advanced machine learning solutions. 
-              Start your ML transformation today with 3x faster delivery and 60% cost savings.
+              Join 320+ City of Joy businesses including TCS, Wipro, ITC Ltd, Emami Group, and Coal India who trust 
+              the leading <strong>ML Company In Kolkata</strong> for their AI transformation. Experience 60% cost savings and 3x faster delivery.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
                 <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100">
-                  Start ML Project
+                  Start Your Kolkata ML Project
                 </Button>
               </Link>
               <Link href="tel:+917892518414">
@@ -410,18 +745,22 @@ export default function MachineLearningKolkataPage() {
               </Link>
             </div>
             
-            <div className="mt-12 grid md:grid-cols-3 gap-8 text-center">
+            <div className="mt-12 grid md:grid-cols-4 gap-8 text-center">
               <div>
-                <div className="text-2xl font-bold mb-2">300+</div>
-                <p className="text-orange-100">ML Models Deployed</p>
+                <div className="text-2xl font-bold mb-2">320+</div>
+                <p className="text-orange-100">Kolkata ML Projects</p>
               </div>
               <div>
-                <div className="text-2xl font-bold mb-2">95%</div>
-                <p className="text-orange-100">Model Accuracy Rate</p>
+                <div className="text-2xl font-bold mb-2">99%</div>
+                <p className="text-orange-100">Client Satisfaction</p>
               </div>
               <div>
-                <div className="text-2xl font-bold mb-2">3x</div>
-                <p className="text-orange-100">Faster Delivery</p>
+                <div className="text-2xl font-bold mb-2">60%</div>
+                <p className="text-orange-100">Cost Savings</p>
+              </div>
+              <div>
+                <div className="text-2xl font-bold mb-2">24/7</div>
+                <p className="text-orange-100">City of Joy Support</p>
               </div>
             </div>
           </div>
