@@ -81,8 +81,8 @@ export const metadata = {
   other: {
     "geo.region": "US-NH",
     "geo.placename": "New Hampshire",
-    "geo.position": "43.452492;-71.563896",
-    "ICBM": "43.452492, -71.563896"
+    "geo.position": "43.193852;-71.549180",
+    "ICBM": "43.193852, -71.549180"
   }
 };
 
@@ -104,8 +104,8 @@ export default function MachineLearningNewHampshirePage() {
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": "43.452492",
-      "longitude": "-71.563896"
+      "latitude": "43.193852",
+      "longitude": "-71.549180"
     },
     "areaServed": {
       "@type": "Place",
@@ -119,10 +119,10 @@ export default function MachineLearningNewHampshirePage() {
       "@type": "GeoCircle",
       "geoMidpoint": {
         "@type": "GeoCoordinates",
-        "latitude": "43.452492",
-        "longitude": "-71.563896"
+        "latitude": "43.193852",
+        "longitude": "-71.549180"
       },
-      "geoRadius": "300"
+      "geoRadius": "500"
     },
     "foundingDate": "2019",
     "knowsAbout": [
@@ -135,7 +135,7 @@ export default function MachineLearningNewHampshirePage() {
       "Natural Language Processing",
       "Computer Vision",
       "Manufacturing Technology",
-      "Financial Technology",
+      "Defense Technology",
       "Healthcare Analytics"
     ],
     "memberOf": {
@@ -169,7 +169,7 @@ export default function MachineLearningNewHampshirePage() {
       {
         "@type": "Offer", 
         "name": "Manufacturing AI New Hampshire",
-        "description": "AI solutions for New Hampshire's manufacturing sector"
+        "description": "AI solutions for New Hampshire's manufacturing and technology sector"
       }
     ],
     "slogan": "Leading Machine Learning Company In New Hampshire",
@@ -191,7 +191,7 @@ export default function MachineLearningNewHampshirePage() {
         "name": "Which is the best Machine Learning Company In New Hampshire?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Metic.ai is the leading Machine Learning Company In New Hampshire with 2100+ successful ML implementations. We provide comprehensive machine learning services including predictive analytics, neural networks, and custom ML model development for New Hampshire's technology, manufacturing, and financial services sectors."
+          "text": "Metic.ai is the leading Machine Learning Company In New Hampshire with 2100+ successful ML implementations. We provide comprehensive machine learning services including predictive analytics, neural networks, and custom ML model development for New Hampshire's technology, manufacturing, healthcare, and defense sectors."
         }
       },
       {
@@ -199,7 +199,7 @@ export default function MachineLearningNewHampshirePage() {
         "name": "What machine learning services does Metic.ai offer in New Hampshire?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "As the premier Machine Learning Company In New Hampshire, we offer predictive analytics, classification models, regression analysis, clustering algorithms, neural networks, deep learning, computer vision, NLP, and custom ML model development. Our services are tailored for New Hampshire's technology, manufacturing, healthcare, and financial industries."
+          "text": "As the premier Machine Learning Company In New Hampshire, we offer predictive analytics, classification models, regression analysis, clustering algorithms, neural networks, deep learning, computer vision, NLP, and custom ML model development. Our services are tailored for New Hampshire's manufacturing, technology, healthcare, and defense industries."
         }
       },
       {
@@ -207,7 +207,7 @@ export default function MachineLearningNewHampshirePage() {
         "name": "How does machine learning benefit New Hampshire's manufacturing sector?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Machine learning transforms New Hampshire's manufacturing sector through predictive maintenance, quality control automation, supply chain optimization, production planning, and defect detection. Our ML solutions help manufacturers achieve 60% cost savings and 3x faster production optimization for operational excellence."
+          "text": "Machine learning transforms New Hampshire's manufacturing sector through predictive maintenance, quality control automation, supply chain optimization, production forecasting, and process optimization. Our ML solutions help manufacturers achieve 60% cost savings and 3x faster decision-making for manufacturing operations."
         }
       },
       {
@@ -223,7 +223,7 @@ export default function MachineLearningNewHampshirePage() {
         "name": "What industries does Metic.ai serve in New Hampshire?", 
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "As New Hampshire's leading Machine Learning Company, we serve technology (software, fintech), manufacturing (precision manufacturing, electronics), healthcare (medical devices, biotech), financial services, tourism, and education. Our ML solutions are customized for each industry's specific needs in New Hampshire's economy."
+          "text": "As New Hampshire's leading Machine Learning Company, we serve manufacturing (electronics, machinery), technology (software, defense), healthcare (hospitals, biotech), education (universities, research), tourism, and financial services. Our ML solutions are customized for each industry's specific needs in New Hampshire's economy."
         }
       },
       {
@@ -273,13 +273,13 @@ export default function MachineLearningNewHampshirePage() {
     "mentions": [
       {
         "@type": "Organization",
-        "name": "Fidelity Investments",
-        "sameAs": "https://en.wikipedia.org/wiki/Fidelity_Investments"
+        "name": "BAE Systems",
+        "sameAs": "https://en.wikipedia.org/wiki/BAE_Systems"
       },
       {
         "@type": "Organization", 
-        "name": "C&S Wholesale Grocers",
-        "sameAs": "https://en.wikipedia.org/wiki/C%26S_Wholesale_Grocers"
+        "name": "Public Service Company of New Hampshire",
+        "sameAs": "https://en.wikipedia.org/wiki/Public_Service_Company_of_New_Hampshire"
       },
       {
         "@type": "EducationalOrganization",
@@ -287,9 +287,9 @@ export default function MachineLearningNewHampshirePage() {
         "sameAs": "https://en.wikipedia.org/wiki/University_of_New_Hampshire"
       },
       {
-        "@type": "Organization",
-        "name": "BAE Systems", 
-        "sameAs": "https://en.wikipedia.org/wiki/BAE_Systems"
+        "@type": "EducationalOrganization",
+        "name": "Dartmouth College", 
+        "sameAs": "https://en.wikipedia.org/wiki/Dartmouth_College"
       }
     ],
     "mainEntityOfPage": {
@@ -316,8 +316,8 @@ export default function MachineLearningNewHampshirePage() {
               Looking for the best <strong>Machine Learning Company In New Hampshire</strong>? Metic.ai is the premier 
               Machine Learning Company In New Hampshire, delivering cutting-edge ML solutions to the Live Free or Die State. 
               With 2100+ successful implementations, we transform New Hampshire businesses through advanced machine learning, 
-              predictive analytics, and AI-driven innovations tailored for technology, manufacturing, healthcare, 
-              and financial services sectors.
+              predictive analytics, and AI-driven innovations tailored for manufacturing, technology, healthcare, defense, 
+              and education sectors.
             </p>
             
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
@@ -541,8 +541,8 @@ export default function MachineLearningNewHampshirePage() {
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                 As the premier <strong>Machine Learning Company In New Hampshire</strong>, we're not just another tech vendor - 
                 we're New Hampshire's trusted ML innovation partner. Serving the Live Free or Die State since 2019, our expert team 
-                understands New Hampshire's unique business ecosystem from Manchester's financial district to advanced manufacturing. We've delivered transformative 
-                ML solutions to Fidelity Investments, BAE Systems, and leading technology companies, establishing ourselves 
+                understands New Hampshire's unique business ecosystem from advanced manufacturing to defense technology. We've delivered transformative 
+                ML solutions to BAE Systems, Public Service Company, and leading healthcare organizations, establishing ourselves 
                 as the go-to <strong>Machine Learning Company In New Hampshire</strong> for businesses seeking competitive advantage.
               </p>
             </div>
@@ -554,8 +554,8 @@ export default function MachineLearningNewHampshirePage() {
                 </div>
                 <h3 className="text-xl font-bold mb-4">New Hampshire Business Expertise</h3>
                 <p className="text-gray-600">
-                  Deep understanding of New Hampshire's technology, manufacturing, and financial services sectors. 
-                  Specialized ML solutions for precision manufacturing, fintech innovation, and healthcare technology.
+                  Deep understanding of New Hampshire's manufacturing, technology, healthcare, and defense sectors. 
+                  Specialized ML solutions for precision manufacturing, defense systems, and healthcare innovation.
                 </p>
               </div>
               
@@ -563,10 +563,10 @@ export default function MachineLearningNewHampshirePage() {
                 <div className="w-16 h-16 bg-primary-orange/10 rounded-full flex items-center justify-center mb-6 mx-auto">
                   <Zap className="w-8 h-8 text-primary-orange" />
                 </div>
-                <h3 className="text-xl font-bold mb-4">Innovation Hub Focus</h3>
+                <h3 className="text-xl font-bold mb-4">Technology Innovation Focus</h3>
                 <p className="text-gray-600">
-                  Tailored ML algorithms for New Hampshire's tech innovation centers. Advanced manufacturing automation, 
-                  financial technology solutions, and healthcare analytics for the state's growing technology sector.
+                  Tailored ML algorithms for New Hampshire's tech-forward economy. Advanced manufacturing optimization, 
+                  defense technology enhancement, and healthcare analytics for the state's innovation leaders.
                 </p>
               </div>
               
@@ -577,7 +577,7 @@ export default function MachineLearningNewHampshirePage() {
                 <h3 className="text-xl font-bold mb-4">Industry Leadership</h3>
                 <p className="text-gray-600">
                   Recognized as the top Machine Learning Company In New Hampshire by industry leaders. 
-                  Strategic partnerships with University of New Hampshire and New Hampshire's innovation ecosystem.
+                  Strategic partnerships with University of New Hampshire and Dartmouth College innovation ecosystem.
                 </p>
               </div>
               
@@ -687,7 +687,7 @@ export default function MachineLearningNewHampshirePage() {
                 <p className="text-gray-600 leading-relaxed">
                   Metic.ai is the leading Machine Learning Company In New Hampshire with 2100+ successful ML implementations. 
                   We provide comprehensive machine learning services including predictive analytics, neural networks, 
-                  and custom ML model development for New Hampshire's technology, manufacturing, and financial services sectors.
+                  and custom ML model development for New Hampshire's technology, manufacturing, healthcare, and defense sectors.
                 </p>
               </div>
               
@@ -698,8 +698,8 @@ export default function MachineLearningNewHampshirePage() {
                 <p className="text-gray-600 leading-relaxed">
                   As the premier Machine Learning Company In New Hampshire, we offer predictive analytics, classification models, 
                   regression analysis, clustering algorithms, neural networks, deep learning, computer vision, NLP, and 
-                  custom ML model development. Our services are tailored for New Hampshire's technology, manufacturing, 
-                  healthcare, and financial industries.
+                  custom ML model development. Our services are tailored for New Hampshire's manufacturing, technology, 
+                  healthcare, and defense industries.
                 </p>
               </div>
               
@@ -709,8 +709,8 @@ export default function MachineLearningNewHampshirePage() {
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
                   Machine learning transforms New Hampshire's manufacturing sector through predictive maintenance, quality control automation, 
-                  supply chain optimization, production planning, and defect detection. Our ML solutions help manufacturers 
-                  achieve 60% cost savings and 3x faster production optimization for operational excellence.
+                  supply chain optimization, production forecasting, and process optimization. Our ML solutions help manufacturers 
+                  achieve 60% cost savings and 3x faster decision-making for manufacturing operations.
                 </p>
               </div>
               
@@ -731,9 +731,9 @@ export default function MachineLearningNewHampshirePage() {
                   What industries does Metic.ai serve in New Hampshire?
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
-                  As New Hampshire's leading Machine Learning Company, we serve technology (software, fintech), 
-                  manufacturing (precision manufacturing, electronics), healthcare (medical devices, biotech), financial services, 
-                  tourism, and education. Our ML solutions are customized for each industry's specific needs in New Hampshire's economy.
+                  As New Hampshire's leading Machine Learning Company, we serve manufacturing (electronics, machinery), 
+                  technology (software, defense), healthcare (hospitals, biotech), education (universities, research), 
+                  tourism, and financial services. Our ML solutions are customized for each industry's specific needs in New Hampshire's economy.
                 </p>
               </div>
               
