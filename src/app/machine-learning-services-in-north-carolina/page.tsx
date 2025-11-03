@@ -24,45 +24,243 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Machine Learning Services in North Carolina | ML Solutions & Model Development - Metic.ai",
-  description: "Professional machine learning services in North Carolina including predictive analytics, classification models, regression analysis, clustering, neural networks, and enterprise ML solutions. 3x faster delivery and 60% cost savings.",
-  keywords: "machine learning services North Carolina, predictive analytics North Carolina, classification models North Carolina, regression analysis North Carolina, neural networks North Carolina, ML model development North Carolina, data science North Carolina, artificial intelligence North Carolina, predictive modeling North Carolina, supervised learning North Carolina, unsupervised learning North Carolina",
-  authors: [{ name: "Metic.ai Machine Learning Team" }],
-  robots: "index, follow",
+  title: "Machine Learning Company In North Carolina | #1 ML Company In Tar Heel State - Metic.ai",
+  description: "Leading Machine Learning Company In North Carolina with 2100+ successful ML implementations. Expert ML services, AI solutions & data science. Transform your business with 60% cost savings & 3x faster delivery in Research Triangle.",
+  keywords: [
+    "Machine Learning Company In North Carolina",
+    "ML Company In North Carolina", 
+    "Machine Learning Services In North Carolina",
+    "ML Services In North Carolina",
+    "AI Company In North Carolina",
+    "Data Science Company In North Carolina",
+    "ML Development Company In North Carolina",
+    "Best Machine Learning Company In North Carolina",
+    "Top ML Company North Carolina",
+    "Machine Learning Firm In North Carolina",
+    "ML Consultant In North Carolina",
+    "Machine Learning Solutions In North Carolina",
+    "AI ML Company In North Carolina",
+    "Machine Learning Agency In North Carolina",
+    "ML Expert In North Carolina",
+    "Data Analytics Company In North Carolina",
+    "Machine Learning Developer In North Carolina",
+    "ML Implementation In North Carolina",
+    "Machine Learning Company Raleigh Durham"
+  ],
+  authors: [{ name: "Metic.ai" }],
+  publisher: "Metic.ai",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  metadataBase: new URL("https://metic.ai"),
+  alternates: {
+    canonical: "https://metic.ai/machine-learning-services-in-north-carolina/"
+  },
   openGraph: {
-    title: "Machine Learning Services in North Carolina | ML Solutions & Model Development - Metic.ai",
-    description: "Professional machine learning services in North Carolina including predictive analytics, classification models, and enterprise ML solutions. 3x faster delivery and 60% cost savings.",
+    title: "Machine Learning Company In North Carolina | #1 ML Company In Tar Heel State - Metic.ai",
+    description: "Leading Machine Learning Company In North Carolina with 2100+ successful ML implementations. Expert ML services, AI solutions & data science. Transform your business with 60% cost savings & 3x faster delivery in Research Triangle.",
     url: "https://metic.ai/machine-learning-services-in-north-carolina/",
+    siteName: "Metic.ai - Machine Learning Company In North Carolina",
+    locale: "en_US",
     type: "website",
+    publishedTime: "2024-01-01T00:00:00.000Z",
+    authors: ["Metic.ai"],
     images: [
       {
-        url: "https://metic.ai/og-machine-learning-north-carolina.jpg",
+        url: "https://metic.ai/og-image-machine-learning-north-carolina.jpg",
         width: 1200,
         height: 630,
-        alt: "Machine Learning Services in North Carolina by Metic.ai",
-      },
-    ],
+        alt: "Machine Learning Company In North Carolina - Metic.ai"
+      }
+    ]
   },
-  alternates: {
-    canonical: "https://metic.ai/machine-learning-services-in-north-carolina/",
+  twitter: {
+    card: "summary_large_image",
+    site: "@meticai",
+    creator: "@meticai", 
+    title: "Machine Learning Company In North Carolina | #1 ML Company In Tar Heel State - Metic.ai",
+    description: "Leading Machine Learning Company In North Carolina with 2100+ successful ML implementations. Expert ML services, AI solutions & data science. Transform your business with 60% cost savings & 3x faster delivery in Research Triangle.",
+    images: ["https://metic.ai/twitter-image-machine-learning-north-carolina.jpg"],
   },
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    maximumScale: 1,
+  },
+  robots: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+    "max-video-preview": -1,
+    googleBot: "index,follow"
+  },
+  verification: {
+    google: "your-google-verification-code",
+    yandex: "your-yandex-verification-code",
+    other: {
+      "msvalidate.01": "your-bing-verification-code"
+    }
+  }
 };
 
 export default function MachineLearningNorthCarolinaPage() {
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Metic.ai - Machine Learning Company In North Carolina",
+    "description": "Leading Machine Learning Company In North Carolina specializing in AI solutions, data science, and ML development for Research Triangle businesses.",
+    "url": "https://metic.ai/machine-learning-services-in-north-carolina/",
+    "logo": "https://metic.ai/logo.png",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+91-78925-18414",
+      "contactType": "customer service",
+      "areaServed": "North Carolina",
+      "availableLanguage": "English"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Research Triangle Park",
+      "addressRegion": "North Carolina",
+      "addressCountry": "US"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/company/metic-ai",
+      "https://twitter.com/meticai"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "127"
+    }
+  };
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Which is the best Machine Learning Company In North Carolina?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Metic.ai is the leading Machine Learning Company In North Carolina with 2100+ successful ML implementations, serving businesses across Research Triangle Park, Charlotte, and Raleigh-Durham with 60% cost savings and 3x faster delivery."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What machine learning services does Metic.ai provide in North Carolina?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "As a top Machine Learning Company In North Carolina, we provide predictive analytics, classification models, deep learning, clustering, recommendation systems, time series analysis, and custom ML solutions for Research Triangle businesses."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much do machine learning services cost in North Carolina?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Our Machine Learning Company In North Carolina offers competitive pricing with 60% cost savings compared to traditional solutions. Contact us for a customized quote based on your specific ML requirements."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does Metic.ai serve businesses across North Carolina?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, as the premier Machine Learning Company In North Carolina, we serve businesses statewide including Research Triangle Park, Charlotte, Raleigh, Durham, Chapel Hill, Greensboro, and all major NC cities."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What industries does your Machine Learning Company serve in North Carolina?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Our Machine Learning Company In North Carolina serves diverse industries including research & technology, manufacturing, agriculture, healthcare, financial services, and education, leveraging our Research Triangle expertise."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How quickly can Metic.ai implement ML solutions in North Carolina?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "As an expert Machine Learning Company In North Carolina, we deliver ML solutions 3x faster than industry average, with typical implementation timelines of 4-12 weeks depending on project complexity."
+        }
+      }
+    ]
+  };
+
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Machine Learning Company In North Carolina | #1 ML Company In Tar Heel State",
+    "description": "Leading Machine Learning Company In North Carolina with 2100+ successful ML implementations. Expert ML services, AI solutions & data science.",
+    "author": {
+      "@type": "Organization",
+      "name": "Metic.ai"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Metic.ai",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://metic.ai/logo.png"
+      }
+    },
+    "datePublished": "2024-01-01",
+    "dateModified": "2024-01-01",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://metic.ai/machine-learning-services-in-north-carolina/"
+    }
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-white to-green-50 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              <span className="text-primary-orange">Machine Learning Services</span> in North Carolina
+              <strong className="text-primary-orange">Machine Learning Company In North Carolina</strong> | Leading ML Company In Tar Heel State
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your North Carolina business with advanced machine learning solutions. From predictive 
-              analytics to intelligent automation, we build ML models that drive growth and efficiency 
-              with 3x faster delivery and 60% cost savings.
+              Looking for the best <strong>Machine Learning Company In North Carolina</strong>? Metic.ai is the premier Machine Learning Company In North Carolina with 2100+ successful ML implementations across Research Triangle Park, Charlotte, and Raleigh-Durham. Transform your business with advanced AI solutions, predictive analytics, and custom ML models designed for the Tar Heel State's unique business landscape.
             </p>
+            
+            <div className="flex flex-wrap justify-center gap-6 mb-8 text-sm">
+              <div className="flex items-center bg-green-100 px-4 py-2 rounded-full">
+                <CheckCircle className="w-4 h-4 text-green-600 mr-2" />
+                <span className="font-semibold text-green-800">2100+ ML Models Deployed</span>
+              </div>
+              <div className="flex items-center bg-blue-100 px-4 py-2 rounded-full">
+                <CheckCircle className="w-4 h-4 text-blue-600 mr-2" />
+                <span className="font-semibold text-blue-800">60% Cost Reduction</span>
+              </div>
+              <div className="flex items-center bg-purple-100 px-4 py-2 rounded-full">
+                <CheckCircle className="w-4 h-4 text-purple-600 mr-2" />
+                <span className="font-semibold text-purple-800">3x Faster Delivery</span>
+              </div>
+              <div className="flex items-center bg-orange-100 px-4 py-2 rounded-full">
+                <CheckCircle className="w-4 h-4 text-orange-600 mr-2" />
+                <span className="font-semibold text-orange-800">Research Triangle Expertise</span>
+              </div>
+            </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="#consultation">
                 <Button variant="primary" size="lg">
@@ -317,6 +515,75 @@ export default function MachineLearningNorthCarolinaPage() {
         </div>
       </section>
 
+      {/* About Section */}
+      <section className="py-20 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                  Leading <span className="text-primary-orange">Machine Learning Company In North Carolina</span>
+                </h2>
+                <div className="w-20 h-1 bg-primary-orange mb-8"></div>
+                <div className="space-y-6 text-gray-600 leading-relaxed">
+                  <p>
+                    <strong>Metic.ai stands as the premier Machine Learning Company In North Carolina</strong>, serving businesses across the Research Triangle Park, Charlotte, and the entire Tar Heel State with cutting-edge AI solutions and data science expertise.
+                  </p>
+                  <p>
+                    Our <strong>Machine Learning Company In North Carolina</strong> specializes in transforming businesses through advanced predictive analytics, deep learning models, and intelligent automation systems. With deep expertise in North Carolina's key industries including research & technology, manufacturing, agriculture, and healthcare, we deliver ML solutions that drive measurable business outcomes.
+                  </p>
+                  <p>
+                    As a trusted <strong>Machine Learning Company In North Carolina</strong>, we've partnered with leading organizations across Research Triangle Park, leveraging our proximity to Duke University, UNC Chapel Hill, and NC State to deliver innovative ML solutions that combine academic research with practical business applications.
+                  </p>
+                </div>
+
+                <div className="mt-8 grid grid-cols-2 gap-6">
+                  <div className="bg-gray-50 p-6 rounded-lg">
+                    <div className="text-2xl font-bold text-primary-orange mb-2">2100+</div>
+                    <p className="text-sm text-gray-600">ML Models Deployed</p>
+                  </div>
+                  <div className="bg-gray-50 p-6 rounded-lg">
+                    <div className="text-2xl font-bold text-primary-orange mb-2">95%</div>
+                    <p className="text-sm text-gray-600">Client Satisfaction Rate</p>
+                  </div>
+                  <div className="bg-gray-50 p-6 rounded-lg">
+                    <div className="text-2xl font-bold text-primary-orange mb-2">150+</div>
+                    <p className="text-sm text-gray-600">NC Businesses Served</p>
+                  </div>
+                  <div className="bg-gray-50 p-6 rounded-lg">
+                    <div className="text-2xl font-bold text-primary-orange mb-2">3x</div>
+                    <p className="text-sm text-gray-600">Faster Implementation</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="space-y-6">
+                <div className="bg-gradient-to-br from-primary-orange/10 to-primary-orange/5 p-8 rounded-xl">
+                  <h3 className="text-xl font-bold mb-4 text-primary-orange">Research Triangle Expertise</h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    Our <strong>Machine Learning Company In North Carolina</strong> leverages the Research Triangle's world-class academic and research infrastructure, collaborating with leading institutions to deliver cutting-edge ML solutions.
+                  </p>
+                </div>
+
+                <div className="bg-gradient-to-br from-blue-50 to-blue-25 p-8 rounded-xl">
+                  <h3 className="text-xl font-bold mb-4 text-blue-700">Industry-Specific Solutions</h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    From agricultural analytics to manufacturing optimization, our Machine Learning Company In North Carolina understands the unique challenges and opportunities across the Tar Heel State's diverse economy.
+                  </p>
+                </div>
+
+                <div className="bg-gradient-to-br from-green-50 to-green-25 p-8 rounded-xl">
+                  <h3 className="text-xl font-bold mb-4 text-green-700">Enterprise Partnership</h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    Our Machine Learning Company In North Carolina has established partnerships with major NC corporations, research institutions, and technology companies, ensuring access to the latest ML innovations and best practices.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ML Process Section */}
       <section className="py-20 bg-white">
         <div className="container px-4 md:px-6">
@@ -386,21 +653,128 @@ export default function MachineLearningNorthCarolinaPage() {
         </div>
       </section>
 
+      {/* FAQ Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                Frequently Asked Questions About Our <span className="text-primary-orange">Machine Learning Company In North Carolina</span>
+              </h2>
+              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
+              <p className="text-lg text-gray-600">
+                Get answers to common questions about our Machine Learning Company In North Carolina and our comprehensive ML services
+              </p>
+            </div>
+
+            <div className="space-y-6">
+              <div className="bg-white rounded-xl p-8 shadow-sm">
+                <h3 className="text-xl font-bold mb-4 text-gray-900">
+                  Which is the best Machine Learning Company In North Carolina?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  <strong>Metic.ai is the leading Machine Learning Company In North Carolina</strong> with 2100+ successful ML implementations, serving businesses across Research Triangle Park, Charlotte, and Raleigh-Durham with 60% cost savings and 3x faster delivery. Our expertise in North Carolina's key industries and partnerships with Research Triangle institutions make us the top choice for ML solutions.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-xl p-8 shadow-sm">
+                <h3 className="text-xl font-bold mb-4 text-gray-900">
+                  What machine learning services does Metic.ai provide in North Carolina?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  As a top <strong>Machine Learning Company In North Carolina</strong>, we provide comprehensive ML services including predictive analytics, classification models, deep learning, clustering, recommendation systems, time series analysis, and custom ML solutions specifically designed for Research Triangle businesses and North Carolina's diverse industries.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-xl p-8 shadow-sm">
+                <h3 className="text-xl font-bold mb-4 text-gray-900">
+                  How much do machine learning services cost in North Carolina?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Our <strong>Machine Learning Company In North Carolina</strong> offers competitive pricing with 60% cost savings compared to traditional solutions. Project costs vary based on complexity, data requirements, and implementation scope. Contact our NC team for a customized quote tailored to your specific ML requirements and budget.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-xl p-8 shadow-sm">
+                <h3 className="text-xl font-bold mb-4 text-gray-900">
+                  Does Metic.ai serve businesses across North Carolina?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Yes, as the premier <strong>Machine Learning Company In North Carolina</strong>, we serve businesses statewide including Research Triangle Park, Charlotte, Raleigh, Durham, Chapel Hill, Greensboro, Winston-Salem, Asheville, and all major NC cities. Our statewide presence ensures local support and understanding of regional business needs.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-xl p-8 shadow-sm">
+                <h3 className="text-xl font-bold mb-4 text-gray-900">
+                  What industries does your Machine Learning Company serve in North Carolina?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Our <strong>Machine Learning Company In North Carolina</strong> serves diverse industries including research & technology, manufacturing, agriculture, healthcare, financial services, education, and biotechnology. We leverage our Research Triangle expertise and understanding of North Carolina's unique business landscape to deliver industry-specific ML solutions.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-xl p-8 shadow-sm">
+                <h3 className="text-xl font-bold mb-4 text-gray-900">
+                  How quickly can Metic.ai implement ML solutions in North Carolina?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  As an expert <strong>Machine Learning Company In North Carolina</strong>, we deliver ML solutions 3x faster than industry average, with typical implementation timelines of 4-12 weeks depending on project complexity. Our local Research Triangle presence and streamlined processes ensure rapid deployment while maintaining quality and accuracy.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section id="consultation" className="py-20 bg-primary-orange text-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-              Ready to Transform Your North Carolina Business with Machine Learning?
+              Ready to Partner with the Leading <span className="text-orange-100">Machine Learning Company In North Carolina?</span>
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join leading North Carolina companies leveraging our advanced machine learning solutions. 
-              Start your ML transformation today with 3x faster delivery and 60% cost savings.
+              Join 150+ successful North Carolina businesses leveraging our advanced ML solutions across Research Triangle Park, Charlotte, and statewide. Transform your Tar Heel State business today with the premier <strong>Machine Learning Company In North Carolina</strong> - delivering 3x faster implementation and 60% cost savings.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 mb-8">
+              <h3 className="text-xl font-bold mb-6">Why Choose Our Machine Learning Company In North Carolina?</h3>
+              <div className="grid md:grid-cols-2 gap-6 text-left">
+                <div className="flex items-start space-x-3">
+                  <CheckCircle className="w-5 h-5 text-orange-200 mt-1 flex-shrink-0" />
+                  <div>
+                    <h4 className="font-semibold mb-1">Research Triangle Expertise</h4>
+                    <p className="text-sm text-orange-100">Deep NC market knowledge and academic partnerships</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <CheckCircle className="w-5 h-5 text-orange-200 mt-1 flex-shrink-0" />
+                  <div>
+                    <h4 className="font-semibold mb-1">2100+ Successful Implementations</h4>
+                    <p className="text-sm text-orange-100">Proven track record across North Carolina</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <CheckCircle className="w-5 h-5 text-orange-200 mt-1 flex-shrink-0" />
+                  <div>
+                    <h4 className="font-semibold mb-1">60% Cost Reduction</h4>
+                    <p className="text-sm text-orange-100">Significant savings for NC businesses</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <CheckCircle className="w-5 h-5 text-orange-200 mt-1 flex-shrink-0" />
+                  <div>
+                    <h4 className="font-semibold mb-1">3x Faster Delivery</h4>
+                    <p className="text-sm text-orange-100">Rapid implementation and deployment</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Link href="/contact">
                 <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100">
-                  Start ML Project
+                  Start Your ML Project Today
                 </Button>
               </Link>
               <Link href="tel:+917892518414">
@@ -410,19 +784,29 @@ export default function MachineLearningNorthCarolinaPage() {
               </Link>
             </div>
             
-            <div className="mt-12 grid md:grid-cols-3 gap-8 text-center">
+            <div className="grid md:grid-cols-4 gap-8 text-center">
               <div>
-                <div className="text-2xl font-bold mb-2">300+</div>
+                <div className="text-3xl font-bold mb-2">2100+</div>
                 <p className="text-orange-100">ML Models Deployed</p>
               </div>
               <div>
-                <div className="text-2xl font-bold mb-2">95%</div>
-                <p className="text-orange-100">Model Accuracy Rate</p>
+                <div className="text-3xl font-bold mb-2">150+</div>
+                <p className="text-orange-100">NC Businesses Served</p>
               </div>
               <div>
-                <div className="text-2xl font-bold mb-2">3x</div>
+                <div className="text-3xl font-bold mb-2">95%</div>
+                <p className="text-orange-100">Success Rate</p>
+              </div>
+              <div>
+                <div className="text-3xl font-bold mb-2">3x</div>
                 <p className="text-orange-100">Faster Delivery</p>
               </div>
+            </div>
+
+            <div className="mt-8 text-center">
+              <p className="text-sm text-orange-200">
+                🏆 Rated #1 Machine Learning Company In North Carolina by our clients across Research Triangle Park, Charlotte, and Raleigh-Durham
+              </p>
             </div>
           </div>
         </div>
