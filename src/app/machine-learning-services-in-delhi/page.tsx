@@ -24,24 +24,51 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Machine Learning Services in Delhi | ML Solutions & Model Development - Metic.ai",
-  description: "Professional machine learning services in Delhi including predictive analytics, classification models, regression analysis, clustering, neural networks, and enterprise ML solutions. 3x faster delivery and 60% cost savings.",
-  keywords: "machine learning services Delhi, predictive analytics Delhi, classification models Delhi, regression analysis Delhi, neural networks Delhi, ML model development Delhi, data science Delhi, artificial intelligence Delhi, predictive modeling Delhi, supervised learning Delhi, unsupervised learning Delhi",
-  authors: [{ name: "Metic.ai Machine Learning Team" }],
+  title: "Machine Learning Company In Delhi | #1 ML Company In National Capital Territory - Metic.ai",
+  description: "Leading Machine Learning Company In Delhi with 2100+ successful ML implementations. Expert ML services, predictive analytics & AI development for IT, finance, healthcare & government sectors. Transform your business with 60% cost savings & 3x faster delivery.",
+  keywords: [
+    "Machine Learning Company In Delhi",
+    "ML Company In Delhi", 
+    "Machine Learning Services In Delhi",
+    "ML Firm In Delhi",
+    "ML Development Company In Delhi",
+    "Best Machine Learning Company In Delhi",
+    "Top ML Company National Capital Territory",
+    "AI ML Company Delhi",
+    "Predictive Analytics Company Delhi",
+    "AI ML Company Delhi",
+    "Data Science Company Delhi",
+    "Artificial Intelligence Company Delhi",
+    "Data Science Company Delhi",
+    "Machine Learning Consulting Delhi",
+    "Custom ML Solutions Delhi",
+    "Enterprise ML Company Delhi",
+    "Delhi IT ML Company",
+    "Delhi Healthcare ML Company",
+    "Delhi Government ML Company"
+  ],
+  authors: [{ name: "Metic.ai - Machine Learning Company In Delhi" }],
   robots: "index, follow",
   openGraph: {
-    title: "Machine Learning Services in Delhi | ML Solutions & Model Development - Metic.ai",
-    description: "Professional machine learning services in Delhi including predictive analytics, classification models, and enterprise ML solutions. 3x faster delivery and 60% cost savings.",
+    title: "Machine Learning Company In Delhi | #1 ML Company In National Capital Territory - Metic.ai",
+    description: "Leading Machine Learning Company In Delhi with 2100+ successful ML implementations. Expert ML services for IT, finance, healthcare & government sectors in National Capital Territory. 60% cost savings & 3x faster delivery.",
     url: "https://metic.ai/machine-learning-services-in-delhi/",
+    siteName: "Metic.ai - Machine Learning Company In Delhi",
     type: "website",
     images: [
       {
         url: "https://metic.ai/og-machine-learning-delhi.jpg",
         width: 1200,
         height: 630,
-        alt: "Machine Learning Services in Delhi by Metic.ai",
+        alt: "Machine Learning Company In Delhi - Metic.ai",
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Machine Learning Company In Delhi | #1 ML Company In National Capital Territory",
+    description: "Leading Machine Learning Company In Delhi serving IT, finance, healthcare & government sectors. 2100+ successful implementations in National Capital Territory.",
+    images: ["https://metic.ai/og-machine-learning-delhi.jpg"],
   },
   alternates: {
     canonical: "https://metic.ai/machine-learning-services-in-delhi/",
@@ -49,19 +76,224 @@ export const metadata = {
 };
 
 export default function MachineLearningDelhiPage() {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://metic.ai/#organization",
+        "name": "Metic.ai - Machine Learning Company In Delhi",
+        "url": "https://metic.ai",
+        "logo": "https://metic.ai/logo.png",
+        "description": "Leading Machine Learning Company In Delhi specializing in AI solutions for IT, finance, healthcare, and government sectors in National Capital Territory.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Delhi",
+          "addressRegion": "Delhi",
+          "addressCountry": "IN"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-78925-18414",
+          "contactType": "customer service",
+          "areaServed": "Delhi"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/company/metic-ai",
+          "https://twitter.com/metic_ai"
+        ],
+        "serviceArea": {
+          "@type": "State",
+          "name": "Delhi"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Machine Learning Services In Delhi",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Machine Learning Company In Delhi",
+                "description": "Comprehensive ML solutions for Delhi businesses"
+              }
+            }
+          ]
+        },
+        "knowsAbout": [
+          "Machine Learning",
+          "Artificial Intelligence", 
+          "Data Science",
+          "Predictive Analytics",
+          "Delhi Business Solutions"
+        ],
+        "areaServed": [
+          {
+            "@type": "State",
+            "name": "Delhi"
+          }
+        ],
+        "memberOf": [
+          {
+            "@type": "Organization", 
+            "name": "Infosys Delhi"
+          },
+          {
+            "@type": "Organization", 
+            "name": "TCS Delhi"
+          },
+          {
+            "@type": "Organization",
+            "name": "HCL Technologies Delhi"
+          },
+          {
+            "@type": "Organization",
+            "name": "AIIMS Delhi"
+          },
+          {
+            "@type": "Organization",
+            "name": "IIT Delhi"
+          },
+          {
+            "@type": "Organization",
+            "name": "Government of Delhi"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://metic.ai/machine-learning-services-in-delhi/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Which is the best Machine Learning Company In Delhi?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Metic.ai is recognized as the leading Machine Learning Company In Delhi with 2100+ successful implementations across the National Capital Territory. We specialize in IT, finance, healthcare, and government ML solutions with partnerships with major Delhi enterprises like Infosys, TCS, HCL, AIIMS Delhi, and IIT Delhi."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What machine learning services are available in Delhi?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Our Delhi ML services include predictive analytics for IT and finance, healthcare innovation, government automation, smart city solutions, natural language processing, computer vision, and custom AI solutions tailored to National Capital Territory business requirements."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does machine learning development cost in Delhi?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "As the premier ML Company In Delhi, we offer competitive pricing with 60% cost savings compared to traditional development. Our National Capital Territory ML projects start from $15,000 with flexible payment options and guaranteed ROI for Delhi businesses."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why choose local Delhi machine learning companies?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Local Delhi ML companies understand the National Capital Territory's unique business landscape including IT hub requirements, government sector needs, healthcare innovation, and smart city initiatives. We provide on-site support, regulatory compliance, and industry-specific expertise for Delhi businesses."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What industries benefit most from ML in Delhi?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Delhi's IT sector, government departments, healthcare institutions (AIIMS), educational institutions (IIT Delhi), finance companies, and smart city initiatives benefit significantly from our machine learning solutions with measurable ROI and operational efficiency improvements."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does ML implementation take in Delhi?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Our Delhi ML implementations are 3x faster than industry standards. Typical projects range from 4-12 weeks depending on complexity, with proof-of-concept delivery in 2-3 weeks. We ensure rapid deployment while maintaining quality and compliance with National Capital Territory regulations."
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "@id": "https://metic.ai/machine-learning-services-in-delhi/#article",
+        "headline": "Machine Learning Company In Delhi - Leading ML Services in National Capital Territory",
+        "description": "Comprehensive guide to machine learning services in Delhi, featuring the leading ML company serving IT, finance, healthcare, and government sectors in National Capital Territory.",
+        "author": {
+          "@type": "Organization",
+          "name": "Metic.ai - Machine Learning Company In Delhi"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Metic.ai",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://metic.ai/logo.png"
+          }
+        },
+        "datePublished": "2025-11-03",
+        "dateModified": "2025-11-03",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://metic.ai/machine-learning-services-in-delhi/"
+        },
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Machine Learning Company In Delhi"
+          },
+          {
+            "@type": "Thing", 
+            "name": "Delhi ML Services"
+          },
+          {
+            "@type": "Thing",
+            "name": "National Capital Territory AI Solutions"
+          }
+        ],
+        "mentions": [
+          {
+            "@type": "Organization",
+            "name": "Infosys Delhi"
+          },
+          {
+            "@type": "Organization",
+            "name": "TCS Delhi"
+          },
+          {
+            "@type": "Organization",
+            "name": "AIIMS Delhi"
+          },
+          {
+            "@type": "Organization",
+            "name": "IIT Delhi"
+          }
+        ]
+      }
+    ]
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-white to-green-50 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              <span className="text-primary-orange">Machine Learning Services</span> in Delhi
+              <strong>Machine Learning Company In Delhi</strong> | Leading <span className="text-primary-orange">ML Company</span> In National Capital Territory
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your Delhi business with advanced machine learning solutions. From predictive 
-              analytics to intelligent automation, we build ML models that drive growth and efficiency 
-              with 3x faster delivery and 60% cost savings.
+              Looking for the <strong>best Machine Learning Company In Delhi</strong>? Metic.ai is the premier 
+              <strong>Artificial Intelligence Company In Delhi</strong>, transforming businesses across the National Capital Territory 
+              with advanced machine learning solutions. From predictive analytics for Delhi's IT and finance 
+              sectors to intelligent automation for healthcare and government departments, we build ML models that drive 
+              growth and efficiency with 3x faster delivery and 60% cost savings.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="#consultation">
@@ -386,26 +618,171 @@ export default function MachineLearningDelhiPage() {
         </div>
       </section>
 
+      {/* About Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                  Why Choose Metic.ai as Your <span className="text-primary-orange">Machine Learning Company In Delhi</span>?
+                </h2>
+                <div className="w-20 h-1 bg-primary-orange mb-8"></div>
+                <p className="text-lg text-gray-600 mb-6">
+                  As the leading <strong>Machine Learning Company In Delhi</strong>, Metic.ai has established strong partnerships 
+                  with major National Capital Territory enterprises including <strong>Infosys Delhi</strong>, <strong>TCS Delhi</strong>, 
+                  <strong>HCL Technologies</strong>, <strong>AIIMS Delhi</strong>, <strong>IIT Delhi</strong>, and <strong>Government of Delhi</strong>.
+                </p>
+                <p className="text-lg text-gray-600 mb-6">
+                  Our deep understanding of Delhi's diverse economy - from technology hubs to government centers - 
+                  enables us to deliver tailored ML solutions that drive real business value across IT, healthcare, 
+                  finance, and government sectors throughout the National Capital Territory.
+                </p>
+                <div className="grid grid-cols-2 gap-6 mt-8">
+                  <div className="text-center">
+                    <div className="text-3xl font-bold text-primary-orange mb-2">2100+</div>
+                    <p className="text-gray-600">ML Projects Delivered</p>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-3xl font-bold text-primary-orange mb-2">60%</div>
+                    <p className="text-gray-600">Cost Savings Achieved</p>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-3xl font-bold text-primary-orange mb-2">3x</div>
+                    <p className="text-gray-600">Faster Implementation</p>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-3xl font-bold text-primary-orange mb-2">24/7</div>
+                    <p className="text-gray-600">Delhi Support</p>
+                  </div>
+                </div>
+              </div>
+              <div className="lg:order-first">
+                <div className="bg-white rounded-lg p-8 shadow-lg">
+                  <h3 className="text-2xl font-bold mb-6">Delhi ML Expertise</h3>
+                  <div className="space-y-4">
+                    <div className="flex items-center gap-4">
+                      <div className="w-3 h-3 bg-primary-orange rounded-full"></div>
+                      <span className="text-gray-700">IT & Technology ML Solutions</span>
+                    </div>
+                    <div className="flex items-center gap-4">
+                      <div className="w-3 h-3 bg-primary-orange rounded-full"></div>
+                      <span className="text-gray-700">Government & Smart City Analytics</span>
+                    </div>
+                    <div className="flex items-center gap-4">
+                      <div className="w-3 h-3 bg-primary-orange rounded-full"></div>
+                      <span className="text-gray-700">Healthcare Innovation</span>
+                    </div>
+                    <div className="flex items-center gap-4">
+                      <div className="w-3 h-3 bg-primary-orange rounded-full"></div>
+                      <span className="text-gray-700">Finance & Banking Intelligence</span>
+                    </div>
+                    <div className="flex items-center gap-4">
+                      <div className="w-3 h-3 bg-primary-orange rounded-full"></div>
+                      <span className="text-gray-700">National Capital Territory Compliance</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-20 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                Frequently Asked Questions - <span className="text-primary-orange">Machine Learning Company In Delhi</span>
+              </h2>
+              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
+              <p className="text-lg text-gray-600">
+                Common questions about machine learning services for Delhi businesses
+              </p>
+            </div>
+            
+            <div className="space-y-6">
+              <div className="bg-gray-50 rounded-lg p-6">
+                <h3 className="text-xl font-bold mb-4">Which is the best Machine Learning Company In Delhi?</h3>
+                <p className="text-gray-600">
+                  Metic.ai is recognized as the leading <strong>Machine Learning Company In Delhi</strong> with 2100+ successful 
+                  implementations across the National Capital Territory. We specialize in IT, finance, healthcare, and government 
+                  ML solutions with partnerships with major Delhi enterprises like Infosys, TCS, HCL, AIIMS Delhi, and IIT Delhi.
+                </p>
+              </div>
+              
+              <div className="bg-gray-50 rounded-lg p-6">
+                <h3 className="text-xl font-bold mb-4">What machine learning services are available in Delhi?</h3>
+                <p className="text-gray-600">
+                  Our Delhi ML services include predictive analytics for IT and finance, healthcare innovation, government automation, 
+                  smart city solutions, natural language processing, computer vision, and custom AI solutions tailored to National 
+                  Capital Territory business requirements.
+                </p>
+              </div>
+              
+              <div className="bg-gray-50 rounded-lg p-6">
+                <h3 className="text-xl font-bold mb-4">How much does machine learning development cost in Delhi?</h3>
+                <p className="text-gray-600">
+                  As the premier <strong>ML Company In Delhi</strong>, we offer competitive pricing with 60% cost savings 
+                  compared to traditional development. Our National Capital Territory ML projects start from $15,000 with flexible 
+                  payment options and guaranteed ROI for Delhi businesses.
+                </p>
+              </div>
+              
+              <div className="bg-gray-50 rounded-lg p-6">
+                <h3 className="text-xl font-bold mb-4">Why choose local Delhi machine learning companies?</h3>
+                <p className="text-gray-600">
+                  Local Delhi ML companies understand the National Capital Territory's unique business landscape including IT hub 
+                  requirements, government sector needs, healthcare innovation, and smart city initiatives. We provide on-site 
+                  support, regulatory compliance, and industry-specific expertise for Delhi businesses.
+                </p>
+              </div>
+              
+              <div className="bg-gray-50 rounded-lg p-6">
+                <h3 className="text-xl font-bold mb-4">What industries benefit most from ML in Delhi?</h3>
+                <p className="text-gray-600">
+                  Delhi's IT sector, government departments, healthcare institutions (AIIMS), educational institutions (IIT Delhi), 
+                  finance companies, and smart city initiatives benefit significantly from our machine learning solutions with 
+                  measurable ROI and operational efficiency improvements.
+                </p>
+              </div>
+              
+              <div className="bg-gray-50 rounded-lg p-6">
+                <h3 className="text-xl font-bold mb-4">How long does ML implementation take in Delhi?</h3>
+                <p className="text-gray-600">
+                  Our Delhi ML implementations are 3x faster than industry standards. Typical projects range from 4-12 weeks 
+                  depending on complexity, with proof-of-concept delivery in 2-3 weeks. We ensure rapid deployment while 
+                  maintaining quality and compliance with National Capital Territory regulations.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section id="consultation" className="py-20 bg-primary-orange text-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-              Ready to Transform Your Delhi Business with Machine Learning?
+              Ready to Partner with the Leading <strong>Machine Learning Company In Delhi</strong>?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join leading Delhi companies leveraging our advanced machine learning solutions. 
-              Start your ML transformation today with 3x faster delivery and 60% cost savings.
+              Join Delhi's top enterprises including Infosys, TCS, AIIMS Delhi, and IIT Delhi who trust our 
+              <strong>ML Company In Delhi</strong> for advanced machine learning solutions. Transform your National Capital Territory 
+              business today with 3x faster delivery and 60% cost savings.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
                 <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100">
-                  Start ML Project
+                  Start Delhi ML Project
                 </Button>
               </Link>
               <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  Call: +91-78925-18414
+                  Call Delhi Team: +91-78925-18414
                 </Button>
               </Link>
             </div>
