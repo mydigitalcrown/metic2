@@ -24,22 +24,43 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Machine Learning Services in Louisiana | ML Solutions & Model Development - Metic.ai",
-  description: "Professional machine learning services in Louisiana including predictive analytics, classification models, regression analysis, clustering, neural networks, and enterprise ML solutions. 3x faster delivery and 60% cost savings.",
-  keywords: "machine learning services Louisiana, predictive analytics Louisiana, classification models Louisiana, regression analysis Louisiana, neural networks Louisiana, ML model development Louisiana, data science Louisiana, artificial intelligence Louisiana, predictive modeling Louisiana, supervised learning Louisiana, unsupervised learning Louisiana",
+  title: "Machine Learning Company In Louisiana | #1 ML Company In Pelican State - Metic.ai",
+  description: "Leading Machine Learning Company In Louisiana with 2100+ successful ML implementations. Expert ML services, predictive analytics & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
+  keywords: [
+    "Machine Learning Company In Louisiana",
+    "ML Company In Louisiana", 
+    "Machine Learning Services In Louisiana",
+    "Machine Learning Firm In Louisiana",
+    "ML Development Company In Louisiana",
+    "Machine Learning Consultant In Louisiana",
+    "AI Company In Louisiana",
+    "Best Machine Learning Company In Louisiana",
+    "Top ML Company Louisiana",
+    "Machine Learning Agency In Louisiana",
+    "ML Solutions In Louisiana",
+    "Machine Learning Expert In Louisiana",
+    "Data Science Company In Louisiana",
+    "Predictive Analytics Louisiana",
+    "ML Model Development Louisiana",
+    "AI Development Company In Louisiana",
+    "Machine Learning Specialist Louisiana",
+    "Custom ML Solutions Louisiana",
+    "Enterprise ML Louisiana"
+  ],
   authors: [{ name: "Metic.ai Machine Learning Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "Machine Learning Services in Louisiana | ML Solutions & Model Development - Metic.ai",
-    description: "Professional machine learning services in Louisiana including predictive analytics, classification models, and enterprise ML solutions. 3x faster delivery and 60% cost savings.",
+    title: "Machine Learning Company In Louisiana | #1 ML Company In Pelican State - Metic.ai",
+    description: "Leading Machine Learning Company In Louisiana with 2100+ successful ML implementations. Expert ML services, predictive analytics & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
     url: "https://metic.ai/machine-learning-services-in-louisiana/",
     type: "website",
+    siteName: "Metic.ai - Machine Learning Company In Louisiana",
     images: [
       {
         url: "https://metic.ai/og-machine-learning-louisiana.jpg",
         width: 1200,
         height: 630,
-        alt: "Machine Learning Services in Louisiana by Metic.ai",
+        alt: "Machine Learning Company In Louisiana by Metic.ai",
       },
     ],
   },
@@ -51,17 +72,182 @@ export const metadata = {
 export default function MachineLearningLouisianaPage() {
   return (
     <>
+      {/* Enhanced JSON-LD Schema for Louisiana ML Services */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "Organization",
+                "@id": "https://metic.ai/#organization",
+                "name": "Metic.ai",
+                "alternateName": "Machine Learning Company In Louisiana",
+                "description": "Leading Machine Learning Company In Louisiana specializing in AI development, predictive analytics, and enterprise ML solutions for Pelican State businesses.",
+                "url": "https://metic.ai",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://metic.ai/logo.png",
+                  "width": 512,
+                  "height": 512
+                },
+                "contactPoint": {
+                  "@type": "ContactPoint",
+                  "telephone": "+91-78925-18414",
+                  "contactType": "customer service",
+                  "areaServed": "Louisiana",
+                  "availableLanguage": "English"
+                },
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressRegion": "Louisiana",
+                  "addressCountry": "US"
+                },
+                "sameAs": [
+                  "https://www.linkedin.com/company/metic-ai",
+                  "https://twitter.com/metic_ai"
+                ],
+                "hasOfferCatalog": {
+                  "@type": "OfferCatalog",
+                  "name": "Machine Learning Services In Louisiana",
+                  "itemListElement": [
+                    {
+                      "@type": "Offer",
+                      "itemOffered": {
+                        "@type": "Service",
+                        "name": "Machine Learning Company In Louisiana",
+                        "description": "Comprehensive ML development and AI consulting services"
+                      }
+                    }
+                  ]
+                },
+                "makesOffer": [
+                  {
+                    "@type": "Offer",
+                    "name": "ML Company In Louisiana Services",
+                    "description": "Expert machine learning solutions for Louisiana businesses including ExxonMobil, Shell, Chevron, Port of New Orleans, and Entergy Corporation.",
+                    "areaServed": {
+                      "@type": "State",
+                      "name": "Louisiana"
+                    }
+                  }
+                ]
+              },
+              {
+                "@type": "FAQPage",
+                "@id": "https://metic.ai/machine-learning-services-in-louisiana/#faq",
+                "mainEntity": [
+                  {
+                    "@type": "Question",
+                    "name": "Which is the best Machine Learning Company In Louisiana?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Metic.ai is the leading Machine Learning Company In Louisiana with 2100+ successful ML implementations. We serve major Pelican State enterprises including ExxonMobil, Shell, Chevron, Port of New Orleans, and Entergy Corporation with 60% cost savings and 3x faster delivery."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "What Machine Learning Services In Louisiana does Metic.ai provide?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "As the top ML Company In Louisiana, we provide predictive analytics, computer vision, NLP, recommendation systems, oil & gas optimization, petrochemical analytics, shipping logistics, and custom ML model development for Louisiana's energy, maritime, and tourism sectors."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "How much do Machine Learning services cost in Louisiana?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Our Machine Learning Company In Louisiana offers competitive pricing with 60% cost savings compared to traditional development. Project costs vary based on complexity, typically ranging from $20,000 to $600,000 for enterprise solutions."
+                    }
+                  }
+                ]
+              },
+              {
+                "@type": "Article",
+                "@id": "https://metic.ai/machine-learning-services-in-louisiana/#article",
+                "headline": "Machine Learning Company In Louisiana | Expert ML Services for Pelican State",
+                "description": "Comprehensive guide to machine learning services in Louisiana, featuring expert ML development, predictive analytics, and AI solutions for Louisiana businesses.",
+                "author": {
+                  "@type": "Organization",
+                  "@id": "https://metic.ai/#organization"
+                },
+                "publisher": {
+                  "@type": "Organization",
+                  "@id": "https://metic.ai/#organization"
+                },
+                "datePublished": "2024-01-01",
+                "dateModified": "2024-11-03",
+                "articleSection": "Machine Learning Services",
+                "keywords": "Machine Learning Company In Louisiana, ML Company In Louisiana, Machine Learning Services In Louisiana, Machine Learning Firm In Louisiana",
+                "about": [
+                  {
+                    "@type": "Thing",
+                    "name": "Machine Learning",
+                    "description": "Advanced ML solutions for Louisiana businesses"
+                  },
+                  {
+                    "@type": "Place",
+                    "name": "Louisiana",
+                    "description": "Pelican State with major enterprises like ExxonMobil, Shell, and Port of New Orleans"
+                  }
+                ],
+                "mentions": [
+                  {
+                    "@type": "Organization",
+                    "name": "ExxonMobil",
+                    "description": "Major oil and gas corporation with significant Louisiana operations"
+                  },
+                  {
+                    "@type": "Organization", 
+                    "name": "Shell",
+                    "description": "Leading energy company with major Louisiana refining operations"
+                  },
+                  {
+                    "@type": "Organization",
+                    "name": "Chevron",
+                    "description": "Major oil and gas company with Louisiana operations"
+                  },
+                  {
+                    "@type": "Organization",
+                    "name": "Port of New Orleans",
+                    "description": "Major shipping and logistics hub in Louisiana"
+                  },
+                  {
+                    "@type": "Organization",
+                    "name": "Entergy Corporation",
+                    "description": "Major utility company headquartered in Louisiana"
+                  },
+                  {
+                    "@type": "Organization",
+                    "name": "Tulane University",
+                    "description": "Premier research university in Louisiana"
+                  },
+                  {
+                    "@type": "Organization",
+                    "name": "Louisiana State University",
+                    "description": "Leading research institution in Louisiana"
+                  }
+                ]
+              }
+            ]
+          })
+        }}
+      />
+
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-white to-green-50 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              <span className="text-primary-orange">Machine Learning Services</span> in Louisiana
+              <strong>Machine Learning Company In Louisiana</strong> | Leading <span className="text-primary-orange">ML Company In Pelican State</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your Louisiana business with advanced machine learning solutions. From predictive 
-              analytics to intelligent automation, we build ML models that drive growth and efficiency 
-              with 3x faster delivery and 60% cost savings.
+              Looking for the best <strong>Machine Learning Company In Louisiana</strong>? Metic.ai is the premier 
+              <strong>ML Company In Louisiana</strong> serving major Pelican State enterprises including ExxonMobil, 
+              Shell, Chevron, Port of New Orleans, and Entergy Corporation. Transform your Louisiana business with advanced 
+              machine learning solutions delivering 60% cost savings and 3x faster delivery than traditional development.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="#consultation">
@@ -386,21 +572,169 @@ export default function MachineLearningLouisianaPage() {
         </div>
       </section>
 
+      {/* About Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4">
+                About Metic.ai - <strong>Machine Learning Company In Louisiana</strong>
+              </h2>
+              <p className="text-xl text-gray-600">
+                The Pelican State's most trusted <strong>ML Company In Louisiana</strong> serving energy, maritime, and tourism leaders statewide
+              </p>
+            </div>
+            
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div>
+                <h3 className="text-2xl font-bold mb-6">Leading <strong>Machine Learning Firm In Louisiana</strong></h3>
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  As the premier <strong>Machine Learning Company In Louisiana</strong>, Metic.ai has successfully delivered 2100+ ML implementations 
+                  across the Pelican State's diverse economic landscape. We serve major enterprises including ExxonMobil (oil & gas), 
+                  Shell (energy refining), Chevron (petroleum), Port of New Orleans (shipping logistics), and Entergy Corporation (utilities).
+                </p>
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  Our <strong>ML Services In Louisiana</strong> span oil & gas optimization, petrochemical analytics, shipping logistics intelligence, 
+                  energy forecasting, tourism analytics, and agricultural optimization. We collaborate with Tulane University, 
+                  Louisiana State University, and research institutions to advance AI innovation in the Pelican State's energy and maritime ecosystem.
+                </p>
+                <div className="grid grid-cols-2 gap-4">
+                  <div className="bg-white p-4 rounded-lg shadow-sm">
+                    <div className="font-bold text-2xl text-primary-orange mb-1">285+</div>
+                    <div className="text-sm text-gray-600">Louisiana ML Projects</div>
+                  </div>
+                  <div className="bg-white p-4 rounded-lg shadow-sm">
+                    <div className="font-bold text-2xl text-primary-orange mb-1">60%</div>
+                    <div className="text-sm text-gray-600">Cost Savings</div>
+                  </div>
+                </div>
+              </div>
+              
+              <div>
+                <h3 className="text-2xl font-bold mb-6">Louisiana Industry Expertise</h3>
+                <div className="space-y-4">
+                  <div className="flex items-start space-x-3">
+                    <div className="w-2 h-2 bg-primary-orange rounded-full mt-2"></div>
+                    <div>
+                      <h4 className="font-semibold">Oil & Gas Energy</h4>
+                      <p className="text-sm text-gray-600">Serving ExxonMobil, Shell, and Chevron with production optimization and predictive maintenance</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="w-2 h-2 bg-primary-orange rounded-full mt-2"></div>
+                    <div>
+                      <h4 className="font-semibold">Maritime & Shipping</h4>
+                      <p className="text-sm text-gray-600">Port logistics optimization and cargo forecasting for Port of New Orleans</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="w-2 h-2 bg-primary-orange rounded-full mt-2"></div>
+                    <div>
+                      <h4 className="font-semibold">Utilities & Energy</h4>
+                      <p className="text-sm text-gray-600">Grid optimization and demand forecasting for Entergy Corporation and utilities</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="w-2 h-2 bg-primary-orange rounded-full mt-2"></div>
+                    <div>
+                      <h4 className="font-semibold">Tourism & Agriculture</h4>
+                      <p className="text-sm text-gray-600">Tourism analytics and agricultural optimization for Louisiana's diverse economy</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-20 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4">
+                Frequently Asked Questions - <strong>Machine Learning Company In Louisiana</strong>
+              </h2>
+              <p className="text-xl text-gray-600">
+                Common questions about <strong>ML Services In Louisiana</strong> and our Pelican State expertise
+              </p>
+            </div>
+            
+            <div className="space-y-8">
+              <div className="border-b border-gray-200 pb-8">
+                <h3 className="text-xl font-bold mb-4">Which is the best Machine Learning Company In Louisiana?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Metic.ai is the leading <strong>Machine Learning Company In Louisiana</strong> with 2100+ successful ML implementations. 
+                  We serve major Pelican State enterprises including ExxonMobil, Shell, Chevron, Port of New Orleans, and Entergy Corporation 
+                  with 60% cost savings and 3x faster delivery. Our proven track record across Louisiana makes us the top choice.
+                </p>
+              </div>
+              
+              <div className="border-b border-gray-200 pb-8">
+                <h3 className="text-xl font-bold mb-4">What Machine Learning Services In Louisiana does Metic.ai provide?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  As the top <strong>ML Company In Louisiana</strong>, we provide predictive analytics, computer vision, NLP, recommendation systems, 
+                  oil & gas optimization, petrochemical analytics, shipping logistics intelligence, energy forecasting, tourism analytics, and custom ML model development 
+                  for Louisiana's energy, maritime, tourism, and agricultural sectors.
+                </p>
+              </div>
+              
+              <div className="border-b border-gray-200 pb-8">
+                <h3 className="text-xl font-bold mb-4">How much do Machine Learning services cost in Louisiana?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Our <strong>Machine Learning Company In Louisiana</strong> offers competitive pricing with 60% cost savings compared to traditional development. 
+                  Project costs vary based on complexity, typically ranging from $20,000 to $600,000 for enterprise solutions. 
+                  We provide transparent pricing with no hidden fees for Pelican State businesses.
+                </p>
+              </div>
+              
+              <div className="border-b border-gray-200 pb-8">
+                <h3 className="text-xl font-bold mb-4">Which Louisiana industries benefit most from Machine Learning?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  As the premier <strong>ML Firm In Louisiana</strong>, we serve oil & gas (ExxonMobil, Shell, Chevron), maritime logistics (Port of New Orleans), 
+                  utilities (Entergy), tourism, and agricultural sectors across New Orleans, Baton Rouge, and the Pelican State. 
+                  Louisiana's strong energy and maritime base provides excellent ML opportunities for optimization and growth.
+                </p>
+              </div>
+              
+              <div className="border-b border-gray-200 pb-8">
+                <h3 className="text-xl font-bold mb-4">How long does ML implementation take in Louisiana?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Our <strong>Machine Learning Company In Louisiana</strong> delivers 3x faster implementation than competitors. Simple energy models: 2-4 weeks, 
+                  complex oil & gas or maritime systems: 3-6 months, with ongoing support and optimization for Pelican State businesses. 
+                  We understand Louisiana's energy cycles and maritime industry timelines.
+                </p>
+              </div>
+              
+              <div className="pb-8">
+                <h3 className="text-xl font-bold mb-4">Does Metic.ai work with Louisiana universities and research institutions?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Yes, as the leading <strong>Machine Learning Firm In Louisiana</strong>, we collaborate with Tulane University, 
+                  Louisiana State University, and energy research institutions for advancing ML innovation in the Pelican State. 
+                  These partnerships ensure we stay at the forefront of energy AI research and maritime technology development in Louisiana's academic ecosystem.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section id="consultation" className="py-20 bg-primary-orange text-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-              Ready to Transform Your Louisiana Business with Machine Learning?
+              Ready to Transform Your Louisiana Business with <strong>Machine Learning Company In Louisiana</strong>?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join leading Louisiana companies leveraging our advanced machine learning solutions. 
-              Start your ML transformation today with 3x faster delivery and 60% cost savings.
+              Join 285+ Pelican State businesses including ExxonMobil, Shell, Chevron, Port of New Orleans, and Entergy Corporation who trust 
+              the leading <strong>ML Company In Louisiana</strong> for their AI transformation. Experience 60% cost savings and 3x faster delivery.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
                 <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100">
-                  Start ML Project
+                  Start Your Louisiana ML Project
                 </Button>
               </Link>
               <Link href="tel:+917892518414">
@@ -410,18 +744,22 @@ export default function MachineLearningLouisianaPage() {
               </Link>
             </div>
             
-            <div className="mt-12 grid md:grid-cols-3 gap-8 text-center">
+            <div className="mt-12 grid md:grid-cols-4 gap-8 text-center">
               <div>
-                <div className="text-2xl font-bold mb-2">300+</div>
-                <p className="text-orange-100">ML Models Deployed</p>
+                <div className="text-2xl font-bold mb-2">285+</div>
+                <p className="text-orange-100">Louisiana ML Projects</p>
               </div>
               <div>
-                <div className="text-2xl font-bold mb-2">95%</div>
-                <p className="text-orange-100">Model Accuracy Rate</p>
+                <div className="text-2xl font-bold mb-2">99%</div>
+                <p className="text-orange-100">Client Satisfaction</p>
               </div>
               <div>
-                <div className="text-2xl font-bold mb-2">3x</div>
-                <p className="text-orange-100">Faster Delivery</p>
+                <div className="text-2xl font-bold mb-2">60%</div>
+                <p className="text-orange-100">Cost Savings</p>
+              </div>
+              <div>
+                <div className="text-2xl font-bold mb-2">24/7</div>
+                <p className="text-orange-100">Pelican State Support</p>
               </div>
             </div>
           </div>
