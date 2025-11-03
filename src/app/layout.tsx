@@ -105,8 +105,10 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: 'your-google-verification-code',
-    yandex: 'your-yandex-verification-code',
+    google: 'ABC123XYZ...',
+    other: {
+      'msvalidate.01': 'DEF456UVW...',
+    },
   },
   category: 'technology',
   classification: 'Artificial Intelligence Services',
