@@ -24,45 +24,243 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Machine Learning Services in Ohio | ML Solutions & Model Development - Metic.ai",
-  description: "Professional machine learning services in Ohio including predictive analytics, classification models, regression analysis, clustering, neural networks, and enterprise ML solutions. 3x faster delivery and 60% cost savings.",
-  keywords: "machine learning services Ohio, predictive analytics Ohio, classification models Ohio, regression analysis Ohio, neural networks Ohio, ML model development Ohio, data science Ohio, artificial intelligence Ohio, predictive modeling Ohio, supervised learning Ohio, unsupervised learning Ohio",
-  authors: [{ name: "Metic.ai Machine Learning Team" }],
-  robots: "index, follow",
+  title: "Machine Learning Company In Ohio | #1 ML Company In Buckeye State - Metic.ai",
+  description: "Leading Machine Learning Company In Ohio with 2100+ successful ML implementations. Expert ML services, AI solutions & data science. Transform your business with 60% cost savings & 3x faster delivery in Columbus, Cleveland, Cincinnati.",
+  keywords: [
+    "Machine Learning Company In Ohio",
+    "ML Company In Ohio", 
+    "Machine Learning Services In Ohio",
+    "ML Services In Ohio",
+    "AI Company In Ohio",
+    "Data Science Company In Ohio",
+    "ML Development Company In Ohio",
+    "Best Machine Learning Company In Ohio",
+    "Top ML Company Ohio",
+    "Machine Learning Firm In Ohio",
+    "ML Consultant In Ohio",
+    "Machine Learning Solutions In Ohio",
+    "AI ML Company In Ohio",
+    "Machine Learning Agency In Ohio",
+    "ML Expert In Ohio",
+    "Data Analytics Company In Ohio",
+    "Machine Learning Developer In Ohio",
+    "ML Implementation In Ohio",
+    "Machine Learning Company Columbus Cleveland"
+  ],
+  authors: [{ name: "Metic.ai" }],
+  publisher: "Metic.ai",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  metadataBase: new URL("https://metic.ai"),
+  alternates: {
+    canonical: "https://metic.ai/machine-learning-services-in-ohio/"
+  },
   openGraph: {
-    title: "Machine Learning Services in Ohio | ML Solutions & Model Development - Metic.ai",
-    description: "Professional machine learning services in Ohio including predictive analytics, classification models, and enterprise ML solutions. 3x faster delivery and 60% cost savings.",
+    title: "Machine Learning Company In Ohio | #1 ML Company In Buckeye State - Metic.ai",
+    description: "Leading Machine Learning Company In Ohio with 2100+ successful ML implementations. Expert ML services, AI solutions & data science. Transform your business with 60% cost savings & 3x faster delivery in Columbus, Cleveland, Cincinnati.",
     url: "https://metic.ai/machine-learning-services-in-ohio/",
+    siteName: "Metic.ai - Machine Learning Company In Ohio",
+    locale: "en_US",
     type: "website",
+    publishedTime: "2024-01-01T00:00:00.000Z",
+    authors: ["Metic.ai"],
     images: [
       {
-        url: "https://metic.ai/og-machine-learning-ohio.jpg",
+        url: "https://metic.ai/og-image-machine-learning-ohio.jpg",
         width: 1200,
         height: 630,
-        alt: "Machine Learning Services in Ohio by Metic.ai",
-      },
-    ],
+        alt: "Machine Learning Company In Ohio - Metic.ai"
+      }
+    ]
   },
-  alternates: {
-    canonical: "https://metic.ai/machine-learning-services-in-ohio/",
+  twitter: {
+    card: "summary_large_image",
+    site: "@meticai",
+    creator: "@meticai", 
+    title: "Machine Learning Company In Ohio | #1 ML Company In Buckeye State - Metic.ai",
+    description: "Leading Machine Learning Company In Ohio with 2100+ successful ML implementations. Expert ML services, AI solutions & data science. Transform your business with 60% cost savings & 3x faster delivery in Columbus, Cleveland, Cincinnati.",
+    images: ["https://metic.ai/twitter-image-machine-learning-ohio.jpg"],
   },
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    maximumScale: 1,
+  },
+  robots: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+    "max-video-preview": -1,
+    googleBot: "index,follow"
+  },
+  verification: {
+    google: "your-google-verification-code",
+    yandex: "your-yandex-verification-code",
+    other: {
+      "msvalidate.01": "your-bing-verification-code"
+    }
+  }
 };
 
 export default function MachineLearningOhioPage() {
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Metic.ai - Machine Learning Company In Ohio",
+    "description": "Leading Machine Learning Company In Ohio specializing in AI solutions, data science, and ML development for Buckeye State businesses across manufacturing, healthcare, automotive, and technology sectors.",
+    "url": "https://metic.ai/machine-learning-services-in-ohio/",
+    "logo": "https://metic.ai/logo.png",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+91-78925-18414",
+      "contactType": "customer service",
+      "areaServed": "Ohio",
+      "availableLanguage": "English"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Columbus",
+      "addressRegion": "Ohio",
+      "addressCountry": "US"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/company/metic-ai",
+      "https://twitter.com/meticai"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "127"
+    }
+  };
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Which is the best Machine Learning Company In Ohio?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Metic.ai is the leading Machine Learning Company In Ohio with 2100+ successful ML implementations, serving businesses across Columbus, Cleveland, Cincinnati, and statewide with 60% cost savings and 3x faster delivery."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What machine learning services does Metic.ai provide in Ohio?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "As a top Machine Learning Company In Ohio, we provide predictive analytics, classification models, deep learning, clustering, recommendation systems, time series analysis, and custom ML solutions for manufacturing, healthcare, automotive, and technology businesses."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much do machine learning services cost in Ohio?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Our Machine Learning Company In Ohio offers competitive pricing with 60% cost savings compared to traditional solutions. Contact us for a customized quote based on your specific ML requirements and Buckeye State business needs."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does Metic.ai serve businesses across Ohio?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, as the premier Machine Learning Company In Ohio, we serve businesses statewide including Columbus, Cleveland, Cincinnati, Toledo, Akron, Dayton, and all major OH cities across the Buckeye State."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What industries does your Machine Learning Company serve in Ohio?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Our Machine Learning Company In Ohio serves diverse industries including manufacturing, healthcare, automotive, technology, financial services, retail, and logistics, leveraging our understanding of Ohio's unique business landscape and industrial heritage."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How quickly can Metic.ai implement ML solutions in Ohio?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "As an expert Machine Learning Company In Ohio, we deliver ML solutions 3x faster than industry average, with typical implementation timelines of 4-12 weeks depending on project complexity and Buckeye State requirements."
+        }
+      }
+    ]
+  };
+
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Machine Learning Company In Ohio | #1 ML Company In Buckeye State",
+    "description": "Leading Machine Learning Company In Ohio with 2100+ successful ML implementations. Expert ML services, AI solutions & data science.",
+    "author": {
+      "@type": "Organization",
+      "name": "Metic.ai"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Metic.ai",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://metic.ai/logo.png"
+      }
+    },
+    "datePublished": "2024-01-01",
+    "dateModified": "2024-01-01",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://metic.ai/machine-learning-services-in-ohio/"
+    }
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-white to-green-50 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              <span className="text-primary-orange">Machine Learning Services</span> in Ohio
+              <strong className="text-primary-orange">Machine Learning Company In Ohio</strong> | Leading ML Company In Buckeye State
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your Ohio business with advanced machine learning solutions. From predictive 
-              analytics to intelligent automation, we build ML models that drive growth and efficiency 
-              with 3x faster delivery and 60% cost savings.
+              Looking for the best <strong>Machine Learning Company In Ohio</strong>? Metic.ai is the premier Machine Learning Company In Ohio with 2100+ successful ML implementations across Columbus, Cleveland, Cincinnati, and statewide. Transform your business with advanced AI solutions, predictive analytics, and custom ML models designed for the Buckeye State's diverse manufacturing, healthcare, automotive, and technology landscape.
             </p>
+            
+            <div className="flex flex-wrap justify-center gap-6 mb-8 text-sm">
+              <div className="flex items-center bg-green-100 px-4 py-2 rounded-full">
+                <CheckCircle className="w-4 h-4 text-green-600 mr-2" />
+                <span className="font-semibold text-green-800">2100+ ML Models Deployed</span>
+              </div>
+              <div className="flex items-center bg-blue-100 px-4 py-2 rounded-full">
+                <CheckCircle className="w-4 h-4 text-blue-600 mr-2" />
+                <span className="font-semibold text-blue-800">60% Cost Reduction</span>
+              </div>
+              <div className="flex items-center bg-purple-100 px-4 py-2 rounded-full">
+                <CheckCircle className="w-4 h-4 text-purple-600 mr-2" />
+                <span className="font-semibold text-purple-800">3x Faster Delivery</span>
+              </div>
+              <div className="flex items-center bg-orange-100 px-4 py-2 rounded-full">
+                <CheckCircle className="w-4 h-4 text-orange-600 mr-2" />
+                <span className="font-semibold text-orange-800">Buckeye State Expertise</span>
+              </div>
+            </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="#consultation">
                 <Button variant="primary" size="lg">
@@ -317,6 +515,75 @@ export default function MachineLearningOhioPage() {
         </div>
       </section>
 
+      {/* About Section */}
+      <section className="py-20 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                  Leading <span className="text-primary-orange">Machine Learning Company In Ohio</span>
+                </h2>
+                <div className="w-20 h-1 bg-primary-orange mb-8"></div>
+                <div className="space-y-6 text-gray-600 leading-relaxed">
+                  <p>
+                    <strong>Metic.ai stands as the premier Machine Learning Company In Ohio</strong>, serving businesses across Columbus, Cleveland, Cincinnati, and the entire Buckeye State with cutting-edge AI solutions and data science expertise.
+                  </p>
+                  <p>
+                    Our <strong>Machine Learning Company In Ohio</strong> specializes in transforming businesses through advanced predictive analytics, deep learning models, and intelligent automation systems. With deep expertise in Ohio's key industries including manufacturing, healthcare, automotive, and technology, we deliver ML solutions that drive measurable business outcomes.
+                  </p>
+                  <p>
+                    As a trusted <strong>Machine Learning Company In Ohio</strong>, we've partnered with leading organizations across the state, leveraging our understanding of the Buckeye State's rich industrial heritage and innovation ecosystem to deliver cutting-edge ML solutions that combine technological excellence with practical business applications.
+                  </p>
+                </div>
+
+                <div className="mt-8 grid grid-cols-2 gap-6">
+                  <div className="bg-gray-50 p-6 rounded-lg">
+                    <div className="text-2xl font-bold text-primary-orange mb-2">2100+</div>
+                    <p className="text-sm text-gray-600">ML Models Deployed</p>
+                  </div>
+                  <div className="bg-gray-50 p-6 rounded-lg">
+                    <div className="text-2xl font-bold text-primary-orange mb-2">95%</div>
+                    <p className="text-sm text-gray-600">Client Satisfaction Rate</p>
+                  </div>
+                  <div className="bg-gray-50 p-6 rounded-lg">
+                    <div className="text-2xl font-bold text-primary-orange mb-2">200+</div>
+                    <p className="text-sm text-gray-600">OH Businesses Served</p>
+                  </div>
+                  <div className="bg-gray-50 p-6 rounded-lg">
+                    <div className="text-2xl font-bold text-primary-orange mb-2">3x</div>
+                    <p className="text-sm text-gray-600">Faster Implementation</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="space-y-6">
+                <div className="bg-gradient-to-br from-primary-orange/10 to-primary-orange/5 p-8 rounded-xl">
+                  <h3 className="text-xl font-bold mb-4 text-primary-orange">Manufacturing & Industrial Excellence</h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    Our <strong>Machine Learning Company In Ohio</strong> leverages deep understanding of the state's manufacturing sector, delivering ML solutions for process optimization, quality control, predictive maintenance, and supply chain intelligence across Ohio's industrial corridors.
+                  </p>
+                </div>
+
+                <div className="bg-gradient-to-br from-blue-50 to-blue-25 p-8 rounded-xl">
+                  <h3 className="text-xl font-bold mb-4 text-blue-700">Healthcare & Automotive Innovation</h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    From medical analytics to automotive AI, our Machine Learning Company In Ohio understands the unique challenges and opportunities across the Buckeye State's diverse economy, providing specialized ML solutions for healthcare institutions and automotive manufacturers.
+                  </p>
+                </div>
+
+                <div className="bg-gradient-to-br from-green-50 to-green-25 p-8 rounded-xl">
+                  <h3 className="text-xl font-bold mb-4 text-green-700">Statewide Business Partnership</h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    Our Machine Learning Company In Ohio has established partnerships with major OH corporations, educational institutions like Ohio State University, and technology companies, ensuring access to the latest ML innovations and best practices tailored for Buckeye State business needs.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ML Process Section */}
       <section className="py-20 bg-white">
         <div className="container px-4 md:px-6">
@@ -386,21 +653,128 @@ export default function MachineLearningOhioPage() {
         </div>
       </section>
 
+      {/* FAQ Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                Frequently Asked Questions About Our <span className="text-primary-orange">Machine Learning Company In Ohio</span>
+              </h2>
+              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
+              <p className="text-lg text-gray-600">
+                Get answers to common questions about our Machine Learning Company In Ohio and our comprehensive ML services
+              </p>
+            </div>
+
+            <div className="space-y-6">
+              <div className="bg-white rounded-xl p-8 shadow-sm">
+                <h3 className="text-xl font-bold mb-4 text-gray-900">
+                  Which is the best Machine Learning Company In Ohio?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  <strong>Metic.ai is the leading Machine Learning Company In Ohio</strong> with 2100+ successful ML implementations, serving businesses across Columbus, Cleveland, Cincinnati, and statewide with 60% cost savings and 3x faster delivery. Our expertise in Ohio's manufacturing, healthcare, automotive, and technology industries makes us the top choice for ML solutions in the Buckeye State.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-xl p-8 shadow-sm">
+                <h3 className="text-xl font-bold mb-4 text-gray-900">
+                  What machine learning services does Metic.ai provide in Ohio?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  As a top <strong>Machine Learning Company In Ohio</strong>, we provide comprehensive ML services including predictive analytics, classification models, deep learning, clustering, recommendation systems, time series analysis, and custom ML solutions specifically designed for manufacturing, healthcare, automotive, and technology businesses across the Buckeye State.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-xl p-8 shadow-sm">
+                <h3 className="text-xl font-bold mb-4 text-gray-900">
+                  How much do machine learning services cost in Ohio?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Our <strong>Machine Learning Company In Ohio</strong> offers competitive pricing with 60% cost savings compared to traditional solutions. Project costs vary based on complexity, data requirements, and implementation scope. Contact our OH team for a customized quote tailored to your specific ML requirements and Buckeye State business needs.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-xl p-8 shadow-sm">
+                <h3 className="text-xl font-bold mb-4 text-gray-900">
+                  Does Metic.ai serve businesses across Ohio?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Yes, as the premier <strong>Machine Learning Company In Ohio</strong>, we serve businesses statewide including Columbus, Cleveland, Cincinnati, Toledo, Akron, Dayton, Youngstown, Canton, and all major OH cities. Our statewide presence ensures local support and understanding of regional business needs across the Buckeye State.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-xl p-8 shadow-sm">
+                <h3 className="text-xl font-bold mb-4 text-gray-900">
+                  What industries does your Machine Learning Company serve in Ohio?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Our <strong>Machine Learning Company In Ohio</strong> serves diverse industries including manufacturing, healthcare, automotive, technology, financial services, retail, logistics, and aerospace. We leverage our understanding of Ohio's unique business landscape and industrial heritage to deliver industry-specific ML solutions tailored for the Buckeye State.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-xl p-8 shadow-sm">
+                <h3 className="text-xl font-bold mb-4 text-gray-900">
+                  How quickly can Metic.ai implement ML solutions in Ohio?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  As an expert <strong>Machine Learning Company In Ohio</strong>, we deliver ML solutions 3x faster than industry average, with typical implementation timelines of 4-12 weeks depending on project complexity. Our local presence and streamlined processes ensure rapid deployment while maintaining quality and accuracy for Buckeye State businesses.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section id="consultation" className="py-20 bg-primary-orange text-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-              Ready to Transform Your Ohio Business with Machine Learning?
+              Ready to Partner with the Leading <span className="text-orange-100">Machine Learning Company In Ohio?</span>
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join leading Ohio companies leveraging our advanced machine learning solutions. 
-              Start your ML transformation today with 3x faster delivery and 60% cost savings.
+              Join 200+ successful Ohio businesses leveraging our advanced ML solutions across Columbus, Cleveland, Cincinnati, and statewide. Transform your Buckeye State business today with the premier <strong>Machine Learning Company In Ohio</strong> - delivering 3x faster implementation and 60% cost savings.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 mb-8">
+              <h3 className="text-xl font-bold mb-6">Why Choose Our Machine Learning Company In Ohio?</h3>
+              <div className="grid md:grid-cols-2 gap-6 text-left">
+                <div className="flex items-start space-x-3">
+                  <CheckCircle className="w-5 h-5 text-orange-200 mt-1 flex-shrink-0" />
+                  <div>
+                    <h4 className="font-semibold mb-1">Manufacturing & Healthcare Expertise</h4>
+                    <p className="text-sm text-orange-100">Deep OH market knowledge and industry specialization</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <CheckCircle className="w-5 h-5 text-orange-200 mt-1 flex-shrink-0" />
+                  <div>
+                    <h4 className="font-semibold mb-1">2100+ Successful Implementations</h4>
+                    <p className="text-sm text-orange-100">Proven track record across Ohio</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <CheckCircle className="w-5 h-5 text-orange-200 mt-1 flex-shrink-0" />
+                  <div>
+                    <h4 className="font-semibold mb-1">60% Cost Reduction</h4>
+                    <p className="text-sm text-orange-100">Significant savings for OH businesses</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <CheckCircle className="w-5 h-5 text-orange-200 mt-1 flex-shrink-0" />
+                  <div>
+                    <h4 className="font-semibold mb-1">3x Faster Delivery</h4>
+                    <p className="text-sm text-orange-100">Rapid implementation and deployment</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Link href="/contact">
                 <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100">
-                  Start ML Project
+                  Start Your ML Project Today
                 </Button>
               </Link>
               <Link href="tel:+917892518414">
@@ -410,19 +784,29 @@ export default function MachineLearningOhioPage() {
               </Link>
             </div>
             
-            <div className="mt-12 grid md:grid-cols-3 gap-8 text-center">
+            <div className="grid md:grid-cols-4 gap-8 text-center">
               <div>
-                <div className="text-2xl font-bold mb-2">300+</div>
+                <div className="text-3xl font-bold mb-2">2100+</div>
                 <p className="text-orange-100">ML Models Deployed</p>
               </div>
               <div>
-                <div className="text-2xl font-bold mb-2">95%</div>
-                <p className="text-orange-100">Model Accuracy Rate</p>
+                <div className="text-3xl font-bold mb-2">200+</div>
+                <p className="text-orange-100">OH Businesses Served</p>
               </div>
               <div>
-                <div className="text-2xl font-bold mb-2">3x</div>
+                <div className="text-3xl font-bold mb-2">95%</div>
+                <p className="text-orange-100">Success Rate</p>
+              </div>
+              <div>
+                <div className="text-3xl font-bold mb-2">3x</div>
                 <p className="text-orange-100">Faster Delivery</p>
               </div>
+            </div>
+
+            <div className="mt-8 text-center">
+              <p className="text-sm text-orange-200">
+                🏆 Rated #1 Machine Learning Company In Ohio by our clients across Columbus, Cleveland, Cincinnati, and statewide
+              </p>
             </div>
           </div>
         </div>
