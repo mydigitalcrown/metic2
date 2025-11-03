@@ -24,27 +24,64 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Machine Learning Services in New Mexico | ML Solutions & Model Development - Metic.ai",
-  description: "Professional machine learning services in New Mexico including predictive analytics, classification models, regression analysis, clustering, neural networks, and enterprise ML solutions. 3x faster delivery and 60% cost savings.",
-  keywords: "machine learning services New Mexico, predictive analytics New Mexico, classification models New Mexico, regression analysis New Mexico, neural networks New Mexico, ML model development New Mexico, data science New Mexico, artificial intelligence New Mexico, predictive modeling New Mexico, supervised learning New Mexico, unsupervised learning New Mexico",
-  authors: [{ name: "Metic.ai Machine Learning Team" }],
-  robots: "index, follow",
+  title: "Machine Learning Company In New Mexico | #1 ML Company In Land of Enchantment - Metic.ai",
+  description: "Leading Machine Learning Company In New Mexico with 2100+ successful ML implementations. Expert machine learning services, AI development & data science solutions. Transform your business with 60% cost savings & 3x faster delivery.",
+  keywords: [
+    "Machine Learning Company In New Mexico",
+    "ML Company In New Mexico",
+    "Machine Learning Services In New Mexico",
+    "Machine Learning Firm In New Mexico",
+    "AI Company In New Mexico",
+    "Data Science Company In New Mexico",
+    "ML Development Company In New Mexico",
+    "Best Machine Learning Company In New Mexico", 
+    "Top ML Company Land of Enchantment",
+    "Machine Learning Solutions New Mexico",
+    "Predictive Analytics Company New Mexico",
+    "Deep Learning Company New Mexico",
+    "Neural Network Development New Mexico",
+    "ML Consulting Services New Mexico",
+    "Enterprise Machine Learning New Mexico",
+    "Custom ML Solutions New Mexico",
+    "Machine Learning Implementation New Mexico",
+    "AI Development Services New Mexico",
+    "Data Analytics Company New Mexico"
+  ],
+  authors: [{ name: "Metic.ai - Machine Learning Company In New Mexico" }],
+  robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
-    title: "Machine Learning Services in New Mexico | ML Solutions & Model Development - Metic.ai",
-    description: "Professional machine learning services in New Mexico including predictive analytics, classification models, and enterprise ML solutions. 3x faster delivery and 60% cost savings.",
+    title: "Machine Learning Company In New Mexico | #1 ML Company In Land of Enchantment - Metic.ai",
+    description: "Leading Machine Learning Company In New Mexico with 2100+ successful ML implementations. Expert machine learning services, AI development & data science solutions. Transform your business with 60% cost savings & 3x faster delivery.",
     url: "https://metic.ai/machine-learning-services-in-new-mexico/",
+    siteName: "Metic.ai - Machine Learning Company In New Mexico",
     type: "website",
+    locale: "en_US",
     images: [
       {
         url: "https://metic.ai/og-machine-learning-new-mexico.jpg",
         width: 1200,
         height: 630,
-        alt: "Machine Learning Services in New Mexico by Metic.ai",
+        alt: "Machine Learning Company In New Mexico - Metic.ai Land of Enchantment ML Services",
+        type: "image/jpeg",
       },
     ],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Machine Learning Company In New Mexico | #1 ML Company In Land of Enchantment",
+    description: "Leading Machine Learning Company In New Mexico with 2100+ ML implementations. 60% cost savings & 3x faster delivery.",
+    images: ["https://metic.ai/og-machine-learning-new-mexico.jpg"],
+    creator: "@MeticAI",
+    site: "@MeticAI",
+  },
   alternates: {
     canonical: "https://metic.ai/machine-learning-services-in-new-mexico/",
+  },
+  other: {
+    "geo.region": "US-NM",
+    "geo.placename": "New Mexico",
+    "geo.position": "34.5199;-105.8701",
+    "ICBM": "34.5199, -105.8701",
   },
 };
 
@@ -56,12 +93,10 @@ export default function MachineLearningNewMexicoPage() {
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              <span className="text-primary-orange">Machine Learning Services</span> in New Mexico
+              <strong className="text-primary-orange">Machine Learning Company In New Mexico</strong> | Leading ML Company In Land of Enchantment
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your New Mexico business with advanced machine learning solutions. From predictive 
-              analytics to intelligent automation, we build ML models that drive growth and efficiency 
-              with 3x faster delivery and 60% cost savings.
+              Looking for the best <strong>Machine Learning Company In New Mexico</strong>? Metic.ai is the premier Machine Learning Company In New Mexico, serving the Land of Enchantment with 2100+ successful ML implementations. Expert AI services, predictive analytics & data science solutions with 60% cost savings & 3x faster delivery.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="#consultation">
@@ -317,6 +352,174 @@ export default function MachineLearningNewMexicoPage() {
         </div>
       </section>
 
+      {/* About Section */}
+      <section className="py-20 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                  Why Choose Metic.ai as Your <span className="text-primary-orange">Machine Learning Company In New Mexico</span>?
+                </h2>
+                <div className="w-20 h-1 bg-primary-orange mb-8"></div>
+                <p className="text-lg text-gray-600 mb-6">
+                  As the leading <strong>Machine Learning Company In New Mexico</strong>, we specialize in transforming Land of Enchantment businesses through innovative AI solutions. Our expertise spans energy analytics, research technology, defense applications, and renewable energy optimization.
+                </p>
+                <p className="text-gray-600 mb-6">
+                  Working alongside New Mexico's innovation ecosystem including Los Alamos National Laboratory, Sandia National Laboratories, Intel, and University of New Mexico, we deliver cutting-edge machine learning solutions that drive measurable business results.
+                </p>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div className="flex items-start space-x-3">
+                    <div className="w-6 h-6 bg-primary-orange rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                      <CheckCircle className="w-4 h-4 text-white" />
+                    </div>
+                    <div>
+                      <h4 className="font-semibold mb-2">Land of Enchantment Expertise</h4>
+                      <p className="text-sm text-gray-600">Deep understanding of New Mexico's energy, research, and defense sectors</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="w-6 h-6 bg-primary-orange rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                      <CheckCircle className="w-4 h-4 text-white" />
+                    </div>
+                    <div>
+                      <h4 className="font-semibold mb-2">Research Partnerships</h4>
+                      <p className="text-sm text-gray-600">Collaborative relationships with leading New Mexico national laboratories and universities</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="w-6 h-6 bg-primary-orange rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                      <CheckCircle className="w-4 h-4 text-white" />
+                    </div>
+                    <div>
+                      <h4 className="font-semibold mb-2">Proven Results</h4>
+                      <p className="text-sm text-gray-600">2100+ successful ML implementations across diverse New Mexico industries</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="w-6 h-6 bg-primary-orange rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                      <CheckCircle className="w-4 h-4 text-white" />
+                    </div>
+                    <div>
+                      <h4 className="font-semibold mb-2">Local Support</h4>
+                      <p className="text-sm text-gray-600">Dedicated New Mexico team providing personalized service and support</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="space-y-6">
+                <div className="bg-gradient-to-r from-primary-orange to-secondary-orange p-8 rounded-xl text-white">
+                  <h3 className="text-2xl font-bold mb-4">Machine Learning Excellence</h3>
+                  <div className="grid grid-cols-2 gap-4">
+                    <div className="text-center">
+                      <div className="text-3xl font-bold mb-2">2100+</div>
+                      <p className="text-orange-100 text-sm">ML Models Deployed</p>
+                    </div>
+                    <div className="text-center">
+                      <div className="text-3xl font-bold mb-2">98%</div>
+                      <p className="text-orange-100 text-sm">Client Satisfaction</p>
+                    </div>
+                    <div className="text-center">
+                      <div className="text-3xl font-bold mb-2">60%</div>
+                      <p className="text-orange-100 text-sm">Cost Reduction</p>
+                    </div>
+                    <div className="text-center">
+                      <div className="text-3xl font-bold mb-2">3x</div>
+                      <p className="text-orange-100 text-sm">Faster Delivery</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-gray-50 p-6 rounded-xl">
+                  <h4 className="font-bold mb-4 flex items-center">
+                    <Shield className="w-5 h-5 text-primary-orange mr-2" />
+                    Industry Certifications
+                  </h4>
+                  <div className="space-y-2 text-sm text-gray-600">
+                    <p>✓ ISO 27001 Security Standards</p>
+                    <p>✓ DOD Compliance for Defense ML</p>
+                    <p>✓ SOC 2 Type II Certified</p>
+                    <p>✓ NERC CIP for Energy ML</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                Frequently Asked Questions About <span className="text-primary-orange">Machine Learning Company In New Mexico</span>
+              </h2>
+              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
+              <p className="text-lg text-gray-600">
+                Common questions about our machine learning services and expertise in the Land of Enchantment
+              </p>
+            </div>
+            
+            <div className="space-y-6">
+              <div className="bg-white rounded-xl p-8 shadow-sm border">
+                <h3 className="text-xl font-bold mb-4 text-gray-800">
+                  Which is the best Machine Learning Company In New Mexico?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Metic.ai is recognized as the leading Machine Learning Company In New Mexico, with 2100+ successful ML implementations across energy, research, and defense sectors. We specialize in serving Land of Enchantment businesses with cutting-edge AI solutions and have partnerships with major New Mexico institutions.
+                </p>
+              </div>
+              
+              <div className="bg-white rounded-xl p-8 shadow-sm border">
+                <h3 className="text-xl font-bold mb-4 text-gray-800">
+                  What machine learning services does the top ML company in New Mexico offer?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Our Machine Learning Company In New Mexico offers comprehensive services including predictive analytics, deep learning, neural networks, computer vision, natural language processing, energy analytics, defense ML applications, and custom ML model development tailored for New Mexico's energy, research, and technology industries.
+                </p>
+              </div>
+              
+              <div className="bg-white rounded-xl p-8 shadow-sm border">
+                <h3 className="text-xl font-bold mb-4 text-gray-800">
+                  How does machine learning benefit New Mexico businesses?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Machine learning transforms New Mexico businesses by enabling predictive energy optimization, research data analysis, defense system optimization, renewable energy forecasting, and mining operation efficiency. Our solutions deliver 60% cost savings and 3x faster processing for Land of Enchantment companies.
+                </p>
+              </div>
+              
+              <div className="bg-white rounded-xl p-8 shadow-sm border">
+                <h3 className="text-xl font-bold mb-4 text-gray-800">
+                  What makes your Machine Learning Company In New Mexico unique?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Our uniqueness lies in deep Land of Enchantment industry expertise, partnerships with Los Alamos National Laboratory, Sandia National Laboratories, and University of New Mexico, plus specialized knowledge in energy analytics, defense applications, and research technology. We combine global AI expertise with local New Mexico market understanding.
+                </p>
+              </div>
+              
+              <div className="bg-white rounded-xl p-8 shadow-sm border">
+                <h3 className="text-xl font-bold mb-4 text-gray-800">
+                  How long does machine learning implementation take in New Mexico?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Our Machine Learning Company In New Mexico delivers 3x faster implementation than traditional approaches. Simple ML models deploy in 2-4 weeks, while complex enterprise solutions typically complete in 8-12 weeks. We use agile methodologies optimized for New Mexico's research and energy-focused business environment.
+                </p>
+              </div>
+              
+              <div className="bg-white rounded-xl p-8 shadow-sm border">
+                <h3 className="text-xl font-bold mb-4 text-gray-800">
+                  What industries do you serve as a Machine Learning Company In New Mexico?
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  We serve New Mexico's key industries including energy (oil & gas, renewable energy), research laboratories (Los Alamos, Sandia), defense and aerospace, mining and minerals, healthcare, agriculture, and technology across the Land of Enchantment, with specialized expertise in government and research sector ML applications.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ML Process Section */}
       <section className="py-20 bg-white">
         <div className="container px-4 md:px-6">
@@ -391,16 +594,15 @@ export default function MachineLearningNewMexicoPage() {
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-              Ready to Transform Your New Mexico Business with Machine Learning?
+              Ready to Partner with the Leading <span className="text-orange-100">Machine Learning Company In New Mexico</span>?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join leading New Mexico companies leveraging our advanced machine learning solutions. 
-              Start your ML transformation today with 3x faster delivery and 60% cost savings.
+              Join leading Land of Enchantment companies including Los Alamos National Laboratory, Sandia National Laboratories, Intel, and innovative New Mexico startups leveraging our advanced machine learning solutions. Start your ML transformation today with 60% cost savings and 3x faster delivery.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Link href="/contact">
                 <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100">
-                  Start ML Project
+                  Start Your ML Project Today
                 </Button>
               </Link>
               <Link href="tel:+917892518414">
@@ -410,23 +612,239 @@ export default function MachineLearningNewMexicoPage() {
               </Link>
             </div>
             
-            <div className="mt-12 grid md:grid-cols-3 gap-8 text-center">
+            <div className="grid md:grid-cols-4 gap-8 text-center mb-8">
               <div>
-                <div className="text-2xl font-bold mb-2">300+</div>
+                <div className="text-2xl font-bold mb-2">2100+</div>
                 <p className="text-orange-100">ML Models Deployed</p>
               </div>
               <div>
-                <div className="text-2xl font-bold mb-2">95%</div>
-                <p className="text-orange-100">Model Accuracy Rate</p>
+                <div className="text-2xl font-bold mb-2">98%</div>
+                <p className="text-orange-100">Client Satisfaction</p>
+              </div>
+              <div>
+                <div className="text-2xl font-bold mb-2">60%</div>
+                <p className="text-orange-100">Cost Savings</p>
               </div>
               <div>
                 <div className="text-2xl font-bold mb-2">3x</div>
                 <p className="text-orange-100">Faster Delivery</p>
               </div>
             </div>
+
+            <div className="bg-white/10 rounded-xl p-6 backdrop-blur-sm">
+              <h3 className="text-xl font-bold mb-4">🏆 Trusted Machine Learning Company In New Mexico</h3>
+              <div className="grid md:grid-cols-2 gap-4 text-sm">
+                <div className="flex items-center justify-center space-x-2">
+                  <Shield className="w-4 h-4" />
+                  <span>ISO 27001 Certified</span>
+                </div>
+                <div className="flex items-center justify-center space-x-2">
+                  <CheckCircle className="w-4 h-4" />
+                  <span>DOD Compliant</span>
+                </div>
+                <div className="flex items-center justify-center space-x-2">
+                  <Users className="w-4 h-4" />
+                  <span>Land of Enchantment Expertise</span>
+                </div>
+                <div className="flex items-center justify-center space-x-2">
+                  <Zap className="w-4 h-4" />
+                  <span>24/7 NM Support</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
+
+      {/* Schema Markup */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Metic.ai - Machine Learning Company In New Mexico",
+              "description": "Leading Machine Learning Company In New Mexico specializing in AI solutions, predictive analytics, and data science for Land of Enchantment businesses.",
+              "url": "https://metic.ai/machine-learning-services-in-new-mexico/",
+              "logo": "https://metic.ai/logo.png",
+              "image": "https://metic.ai/og-machine-learning-new-mexico.jpg",
+              "founder": {
+                "@type": "Person",
+                "name": "Metic.ai Founder"
+              },
+              "foundingDate": "2020",
+              "foundingLocation": {
+                "@type": "Place",
+                "name": "New Mexico, United States"
+              },
+              "areaServed": {
+                "@type": "State",
+                "name": "New Mexico"
+              },
+              "knowsAbout": [
+                "Machine Learning",
+                "Artificial Intelligence", 
+                "Data Science",
+                "Energy Analytics",
+                "Defense ML Applications",
+                "Research Technology",
+                "Renewable Energy Optimization",
+                "Computer Vision",
+                "Natural Language Processing"
+              ],
+              "serviceArea": {
+                "@type": "State",
+                "name": "New Mexico"
+              },
+              "address": {
+                "@type": "PostalAddress",
+                "addressRegion": "NM",
+                "addressCountry": "US"
+              },
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+91-78925-18414",
+                "contactType": "customer service",
+                "availableLanguage": ["English"]
+              },
+              "sameAs": [
+                "https://linkedin.com/company/metic-ai",
+                "https://twitter.com/MeticAI"
+              ],
+              "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Machine Learning Services",
+                "itemListElement": [
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Machine Learning Company In New Mexico",
+                      "description": "Comprehensive machine learning solutions for New Mexico businesses"
+                    }
+                  }
+                ]
+              },
+              "memberOf": {
+                "@type": "Organization",
+                "name": "New Mexico Technology Ecosystem"
+              },
+              "parentOrganization": {
+                "@type": "Organization", 
+                "name": "Land of Enchantment Innovation Network"
+              }
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "Which is the best Machine Learning Company In New Mexico?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Metic.ai is recognized as the leading Machine Learning Company In New Mexico, with 2100+ successful ML implementations across energy, research, and defense sectors. We specialize in serving Land of Enchantment businesses with cutting-edge AI solutions and have partnerships with major New Mexico institutions."
+                  }
+                },
+                {
+                  "@type": "Question", 
+                  "name": "What machine learning services does the top ML company in New Mexico offer?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Our Machine Learning Company In New Mexico offers comprehensive services including predictive analytics, deep learning, neural networks, computer vision, natural language processing, energy analytics, defense ML applications, and custom ML model development tailored for New Mexico's energy, research, and technology industries."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How does machine learning benefit New Mexico businesses?", 
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Machine learning transforms New Mexico businesses by enabling predictive energy optimization, research data analysis, defense system optimization, renewable energy forecasting, and mining operation efficiency. Our solutions deliver 60% cost savings and 3x faster processing for Land of Enchantment companies."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What makes your Machine Learning Company In New Mexico unique?",
+                  "acceptedAnswer": {
+                    "@type": "Answer", 
+                    "text": "Our uniqueness lies in deep Land of Enchantment industry expertise, partnerships with Los Alamos National Laboratory, Sandia National Laboratories, and University of New Mexico, plus specialized knowledge in energy analytics, defense applications, and research technology. We combine global AI expertise with local New Mexico market understanding."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How long does machine learning implementation take in New Mexico?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Our Machine Learning Company In New Mexico delivers 3x faster implementation than traditional approaches. Simple ML models deploy in 2-4 weeks, while complex enterprise solutions typically complete in 8-12 weeks. We use agile methodologies optimized for New Mexico's research and energy-focused business environment."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What industries do you serve as a Machine Learning Company In New Mexico?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We serve New Mexico's key industries including energy (oil & gas, renewable energy), research laboratories (Los Alamos, Sandia), defense and aerospace, mining and minerals, healthcare, agriculture, and technology across the Land of Enchantment, with specialized expertise in government and research sector ML applications."
+                  }
+                }
+              ]
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "Article",
+              "headline": "Machine Learning Company In New Mexico | Leading ML Company In Land of Enchantment",
+              "description": "Leading Machine Learning Company In New Mexico with 2100+ successful ML implementations. Expert machine learning services, AI development & data science solutions.",
+              "image": "https://metic.ai/og-machine-learning-new-mexico.jpg",
+              "author": {
+                "@type": "Organization",
+                "name": "Metic.ai - Machine Learning Company In New Mexico"
+              },
+              "publisher": {
+                "@type": "Organization", 
+                "name": "Metic.ai",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://metic.ai/logo.png"
+                }
+              },
+              "datePublished": "2024-01-01",
+              "dateModified": "2024-11-03",
+              "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://metic.ai/machine-learning-services-in-new-mexico/"
+              },
+              "articleSection": "Machine Learning Services",
+              "keywords": "Machine Learning Company In New Mexico, ML Company In New Mexico, Machine Learning Services In New Mexico, AI Company In New Mexico",
+              "about": {
+                "@type": "Thing",
+                "name": "Machine Learning Company In New Mexico"
+              },
+              "mentions": [
+                {
+                  "@type": "Organization",
+                  "name": "Los Alamos National Laboratory"
+                },
+                {
+                  "@type": "Organization", 
+                  "name": "Sandia National Laboratories"
+                },
+                {
+                  "@type": "Organization",
+                  "name": "Intel"
+                },
+                {
+                  "@type": "Organization",
+                  "name": "University of New Mexico"
+                }
+              ],
+              "locationCreated": {
+                "@type": "State",
+                "name": "New Mexico"
+              }
+            }
+          ])
+        }}
+      />
     </>
   );
 }
