@@ -99,8 +99,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'daily' as const,
       priority: 0.95,
     },
+    // Florida gets high priority (recently optimized)
+    {
+      url: `${baseUrl}/machine-learning-services-in-florida`,
+      lastModified,
+      changeFrequency: 'weekly' as const,
+      priority: 0.85,
+    },
     // Other US states
-    ...usStates.filter(state => state !== 'michigan').map(state => ({
+    ...usStates.filter(state => state !== 'michigan' && state !== 'florida').map(state => ({
       url: `${baseUrl}/machine-learning-services-in-${state}`,
       lastModified,
       changeFrequency: 'weekly' as const,
