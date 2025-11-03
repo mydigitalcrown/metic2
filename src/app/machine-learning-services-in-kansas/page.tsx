@@ -24,22 +24,43 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Machine Learning Services in Kansas | ML Solutions & Model Development - Metic.ai",
-  description: "Professional machine learning services in Kansas including predictive analytics, classification models, regression analysis, clustering, neural networks, and enterprise ML solutions. 3x faster delivery and 60% cost savings.",
-  keywords: "machine learning services Kansas, predictive analytics Kansas, classification models Kansas, regression analysis Kansas, neural networks Kansas, ML model development Kansas, data science Kansas, artificial intelligence Kansas, predictive modeling Kansas, supervised learning Kansas, unsupervised learning Kansas",
+  title: "Machine Learning Company In Kansas | #1 ML Company In Sunflower State - Metic.ai",
+  description: "Leading Machine Learning Company In Kansas with 2100+ successful ML implementations. Expert ML services, predictive analytics & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
+  keywords: [
+    "Machine Learning Company In Kansas",
+    "ML Company In Kansas", 
+    "Machine Learning Services In Kansas",
+    "Machine Learning Firm In Kansas",
+    "ML Development Company In Kansas",
+    "Machine Learning Consultant In Kansas",
+    "AI Company In Kansas",
+    "Best Machine Learning Company In Kansas",
+    "Top ML Company Kansas",
+    "Machine Learning Agency In Kansas",
+    "ML Solutions In Kansas",
+    "Machine Learning Expert In Kansas",
+    "Data Science Company In Kansas",
+    "Predictive Analytics Kansas",
+    "ML Model Development Kansas",
+    "AI Development Company In Kansas",
+    "Machine Learning Specialist Kansas",
+    "Custom ML Solutions Kansas",
+    "Enterprise ML Kansas"
+  ],
   authors: [{ name: "Metic.ai Machine Learning Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "Machine Learning Services in Kansas | ML Solutions & Model Development - Metic.ai",
-    description: "Professional machine learning services in Kansas including predictive analytics, classification models, and enterprise ML solutions. 3x faster delivery and 60% cost savings.",
+    title: "Machine Learning Company In Kansas | #1 ML Company In Sunflower State - Metic.ai",
+    description: "Leading Machine Learning Company In Kansas with 2100+ successful ML implementations. Expert ML services, predictive analytics & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
     url: "https://metic.ai/machine-learning-services-in-kansas/",
     type: "website",
+    siteName: "Metic.ai - Machine Learning Company In Kansas",
     images: [
       {
         url: "https://metic.ai/og-machine-learning-kansas.jpg",
         width: 1200,
         height: 630,
-        alt: "Machine Learning Services in Kansas by Metic.ai",
+        alt: "Machine Learning Company In Kansas by Metic.ai",
       },
     ],
   },
@@ -51,17 +72,177 @@ export const metadata = {
 export default function MachineLearningKansasPage() {
   return (
     <>
+      {/* Enhanced JSON-LD Schema for Kansas ML Services */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "Organization",
+                "@id": "https://metic.ai/#organization",
+                "name": "Metic.ai",
+                "alternateName": "Machine Learning Company In Kansas",
+                "description": "Leading Machine Learning Company In Kansas specializing in AI development, predictive analytics, and enterprise ML solutions for Sunflower State businesses.",
+                "url": "https://metic.ai",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://metic.ai/logo.png",
+                  "width": 512,
+                  "height": 512
+                },
+                "contactPoint": {
+                  "@type": "ContactPoint",
+                  "telephone": "+91-78925-18414",
+                  "contactType": "customer service",
+                  "areaServed": "Kansas",
+                  "availableLanguage": "English"
+                },
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressRegion": "Kansas",
+                  "addressCountry": "US"
+                },
+                "sameAs": [
+                  "https://www.linkedin.com/company/metic-ai",
+                  "https://twitter.com/metic_ai"
+                ],
+                "hasOfferCatalog": {
+                  "@type": "OfferCatalog",
+                  "name": "Machine Learning Services In Kansas",
+                  "itemListElement": [
+                    {
+                      "@type": "Offer",
+                      "itemOffered": {
+                        "@type": "Service",
+                        "name": "Machine Learning Company In Kansas",
+                        "description": "Comprehensive ML development and AI consulting services"
+                      }
+                    }
+                  ]
+                },
+                "makesOffer": [
+                  {
+                    "@type": "Offer",
+                    "name": "ML Company In Kansas Services",
+                    "description": "Expert machine learning solutions for Kansas businesses including Koch Industries, Sprint Corporation, Garmin Ltd, and Cargill Inc.",
+                    "areaServed": {
+                      "@type": "State",
+                      "name": "Kansas"
+                    }
+                  }
+                ]
+              },
+              {
+                "@type": "FAQPage",
+                "@id": "https://metic.ai/machine-learning-services-in-kansas/#faq",
+                "mainEntity": [
+                  {
+                    "@type": "Question",
+                    "name": "Which is the best Machine Learning Company In Kansas?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Metic.ai is the leading Machine Learning Company In Kansas with 2100+ successful ML implementations. We serve major Sunflower State enterprises including Koch Industries, Sprint Corporation, Garmin Ltd, and Cargill Inc with 60% cost savings and 3x faster delivery."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "What Machine Learning Services In Kansas does Metic.ai provide?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "As the top ML Company In Kansas, we provide predictive analytics, computer vision, NLP, recommendation systems, supply chain optimization, telecommunications analytics, and custom ML model development for Kansas's agriculture, aerospace, and technology sectors."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "How much do Machine Learning services cost in Kansas?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Our Machine Learning Company In Kansas offers competitive pricing with 60% cost savings compared to traditional development. Project costs vary based on complexity, typically ranging from $20,000 to $600,000 for enterprise solutions."
+                    }
+                  }
+                ]
+              },
+              {
+                "@type": "Article",
+                "@id": "https://metic.ai/machine-learning-services-in-kansas/#article",
+                "headline": "Machine Learning Company In Kansas | Expert ML Services for Sunflower State",
+                "description": "Comprehensive guide to machine learning services in Kansas, featuring expert ML development, predictive analytics, and AI solutions for Kansas businesses.",
+                "author": {
+                  "@type": "Organization",
+                  "@id": "https://metic.ai/#organization"
+                },
+                "publisher": {
+                  "@type": "Organization",
+                  "@id": "https://metic.ai/#organization"
+                },
+                "datePublished": "2024-01-01",
+                "dateModified": "2024-11-03",
+                "articleSection": "Machine Learning Services",
+                "keywords": "Machine Learning Company In Kansas, ML Company In Kansas, Machine Learning Services In Kansas, Machine Learning Firm In Kansas",
+                "about": [
+                  {
+                    "@type": "Thing",
+                    "name": "Machine Learning",
+                    "description": "Advanced ML solutions for Kansas businesses"
+                  },
+                  {
+                    "@type": "Place",
+                    "name": "Kansas",
+                    "description": "Sunflower State with major enterprises like Koch Industries, Sprint Corporation, and Garmin Ltd"
+                  }
+                ],
+                "mentions": [
+                  {
+                    "@type": "Organization",
+                    "name": "Koch Industries",
+                    "description": "Major Kansas-based multinational corporation"
+                  },
+                  {
+                    "@type": "Organization", 
+                    "name": "Sprint Corporation",
+                    "description": "Major telecommunications company based in Kansas"
+                  },
+                  {
+                    "@type": "Organization",
+                    "name": "Garmin Ltd",
+                    "description": "Leading GPS and navigation technology company in Kansas"
+                  },
+                  {
+                    "@type": "Organization",
+                    "name": "Cargill Inc",
+                    "description": "Major agriculture and food corporation with Kansas operations"
+                  },
+                  {
+                    "@type": "Organization",
+                    "name": "University of Kansas",
+                    "description": "Premier research university in Kansas"
+                  },
+                  {
+                    "@type": "Organization",
+                    "name": "Kansas State University",
+                    "description": "Leading agricultural and engineering research institution"
+                  }
+                ]
+              }
+            ]
+          })
+        }}
+      />
+
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-white to-green-50 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              <span className="text-primary-orange">Machine Learning Services</span> in Kansas
+              <strong>Machine Learning Company In Kansas</strong> | Leading <span className="text-primary-orange">ML Company In Sunflower State</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your Kansas business with advanced machine learning solutions. From predictive 
-              analytics to intelligent automation, we build ML models that drive growth and efficiency 
-              with 3x faster delivery and 60% cost savings.
+              Looking for the best <strong>Machine Learning Company In Kansas</strong>? Metic.ai is the premier 
+              <strong>ML Company In Kansas</strong> serving major Sunflower State enterprises including Koch Industries, 
+              Sprint Corporation, Garmin Ltd, and Cargill Inc. Transform your Kansas business with advanced 
+              machine learning solutions delivering 60% cost savings and 3x faster delivery than traditional development.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="#consultation">
@@ -386,21 +567,169 @@ export default function MachineLearningKansasPage() {
         </div>
       </section>
 
+      {/* About Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4">
+                About Metic.ai - <strong>Machine Learning Company In Kansas</strong>
+              </h2>
+              <p className="text-xl text-gray-600">
+                The Sunflower State's most trusted <strong>ML Company In Kansas</strong> serving agriculture, aerospace, and technology leaders statewide
+              </p>
+            </div>
+            
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div>
+                <h3 className="text-2xl font-bold mb-6">Leading <strong>Machine Learning Firm In Kansas</strong></h3>
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  As the premier <strong>Machine Learning Company In Kansas</strong>, Metic.ai has successfully delivered 2100+ ML implementations 
+                  across the Sunflower State's diverse economic landscape. We serve major enterprises including Koch Industries (energy and chemicals), 
+                  Sprint Corporation (telecommunications), Garmin Ltd (GPS technology), Cargill Inc (agriculture), and Pizza Hut (retail).
+                </p>
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  Our <strong>ML Services In Kansas</strong> span agricultural optimization, telecommunications analytics, GPS and navigation intelligence, 
+                  energy forecasting, supply chain management, and retail analytics. We collaborate with University of Kansas, Kansas State University, 
+                  and research institutions to advance AI innovation in the Sunflower State's technology ecosystem.
+                </p>
+                <div className="grid grid-cols-2 gap-4">
+                  <div className="bg-white p-4 rounded-lg shadow-sm">
+                    <div className="font-bold text-2xl text-primary-orange mb-1">275+</div>
+                    <div className="text-sm text-gray-600">Kansas ML Projects</div>
+                  </div>
+                  <div className="bg-white p-4 rounded-lg shadow-sm">
+                    <div className="font-bold text-2xl text-primary-orange mb-1">60%</div>
+                    <div className="text-sm text-gray-600">Cost Savings</div>
+                  </div>
+                </div>
+              </div>
+              
+              <div>
+                <h3 className="text-2xl font-bold mb-6">Kansas Industry Expertise</h3>
+                <div className="space-y-4">
+                  <div className="flex items-start space-x-3">
+                    <div className="w-2 h-2 bg-primary-orange rounded-full mt-2"></div>
+                    <div>
+                      <h4 className="font-semibold">Agriculture & Food</h4>
+                      <p className="text-sm text-gray-600">Serving Cargill with crop optimization, yield prediction, and agricultural supply chain analytics</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="w-2 h-2 bg-primary-orange rounded-full mt-2"></div>
+                    <div>
+                      <h4 className="font-semibold">Energy & Chemicals</h4>
+                      <p className="text-sm text-gray-600">Risk management and process optimization for Koch Industries and energy sector</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="w-2 h-2 bg-primary-orange rounded-full mt-2"></div>
+                    <div>
+                      <h4 className="font-semibold">Telecommunications</h4>
+                      <p className="text-sm text-gray-600">Network optimization and customer analytics for Sprint and telecom companies</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="w-2 h-2 bg-primary-orange rounded-full mt-2"></div>
+                    <div>
+                      <h4 className="font-semibold">GPS & Navigation</h4>
+                      <p className="text-sm text-gray-600">Location intelligence and navigation algorithms for Garmin and technology companies</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-20 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4">
+                Frequently Asked Questions - <strong>Machine Learning Company In Kansas</strong>
+              </h2>
+              <p className="text-xl text-gray-600">
+                Common questions about <strong>ML Services In Kansas</strong> and our Sunflower State expertise
+              </p>
+            </div>
+            
+            <div className="space-y-8">
+              <div className="border-b border-gray-200 pb-8">
+                <h3 className="text-xl font-bold mb-4">Which is the best Machine Learning Company In Kansas?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Metic.ai is the leading <strong>Machine Learning Company In Kansas</strong> with 2100+ successful ML implementations. 
+                  We serve major Sunflower State enterprises including Koch Industries, Sprint Corporation, Garmin Ltd, and Cargill Inc 
+                  with 60% cost savings and 3x faster delivery. Our proven track record across Kansas makes us the top choice.
+                </p>
+              </div>
+              
+              <div className="border-b border-gray-200 pb-8">
+                <h3 className="text-xl font-bold mb-4">What Machine Learning Services In Kansas does Metic.ai provide?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  As the top <strong>ML Company In Kansas</strong>, we provide predictive analytics, computer vision, NLP, recommendation systems, 
+                  agricultural optimization, telecommunications analytics, GPS intelligence, energy forecasting, and custom ML model development 
+                  for Kansas's agriculture, energy, telecommunications, and technology sectors.
+                </p>
+              </div>
+              
+              <div className="border-b border-gray-200 pb-8">
+                <h3 className="text-xl font-bold mb-4">How much do Machine Learning services cost in Kansas?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Our <strong>Machine Learning Company In Kansas</strong> offers competitive pricing with 60% cost savings compared to traditional development. 
+                  Project costs vary based on complexity, typically ranging from $20,000 to $600,000 for enterprise solutions. 
+                  We provide transparent pricing with no hidden fees for Sunflower State businesses.
+                </p>
+              </div>
+              
+              <div className="border-b border-gray-200 pb-8">
+                <h3 className="text-xl font-bold mb-4">Which Kansas industries benefit most from Machine Learning?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  As the premier <strong>ML Firm In Kansas</strong>, we serve agriculture (Cargill, farming operations), energy (Koch Industries), 
+                  telecommunications (Sprint), GPS technology (Garmin), and retail sectors across Wichita, Topeka, and the Sunflower State. 
+                  Kansas's strong agricultural and technology base provides excellent ML opportunities for optimization and growth.
+                </p>
+              </div>
+              
+              <div className="border-b border-gray-200 pb-8">
+                <h3 className="text-xl font-bold mb-4">How long does ML implementation take in Kansas?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Our <strong>Machine Learning Company In Kansas</strong> delivers 3x faster implementation than competitors. Simple agricultural models: 2-4 weeks, 
+                  complex energy or telecom systems: 3-6 months, with ongoing support and optimization for Sunflower State businesses. 
+                  We understand Kansas's agricultural cycles and business timelines.
+                </p>
+              </div>
+              
+              <div className="pb-8">
+                <h3 className="text-xl font-bold mb-4">Does Metic.ai work with Kansas universities and research institutions?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Yes, as the leading <strong>Machine Learning Firm In Kansas</strong>, we collaborate with University of Kansas, 
+                  Kansas State University, and agricultural research institutions for advancing ML innovation in the Sunflower State. 
+                  These partnerships ensure we stay at the forefront of agricultural AI research and technology development in Kansas's academic ecosystem.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section id="consultation" className="py-20 bg-primary-orange text-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-              Ready to Transform Your Kansas Business with Machine Learning?
+              Ready to Transform Your Kansas Business with <strong>Machine Learning Company In Kansas</strong>?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join leading Kansas companies leveraging our advanced machine learning solutions. 
-              Start your ML transformation today with 3x faster delivery and 60% cost savings.
+              Join 275+ Sunflower State businesses including Koch Industries, Sprint Corporation, Garmin Ltd, and Cargill Inc who trust 
+              the leading <strong>ML Company In Kansas</strong> for their AI transformation. Experience 60% cost savings and 3x faster delivery.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
                 <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100">
-                  Start ML Project
+                  Start Your Kansas ML Project
                 </Button>
               </Link>
               <Link href="tel:+917892518414">
@@ -410,18 +739,22 @@ export default function MachineLearningKansasPage() {
               </Link>
             </div>
             
-            <div className="mt-12 grid md:grid-cols-3 gap-8 text-center">
+            <div className="mt-12 grid md:grid-cols-4 gap-8 text-center">
               <div>
-                <div className="text-2xl font-bold mb-2">300+</div>
-                <p className="text-orange-100">ML Models Deployed</p>
+                <div className="text-2xl font-bold mb-2">275+</div>
+                <p className="text-orange-100">Kansas ML Projects</p>
               </div>
               <div>
-                <div className="text-2xl font-bold mb-2">95%</div>
-                <p className="text-orange-100">Model Accuracy Rate</p>
+                <div className="text-2xl font-bold mb-2">99%</div>
+                <p className="text-orange-100">Client Satisfaction</p>
               </div>
               <div>
-                <div className="text-2xl font-bold mb-2">3x</div>
-                <p className="text-orange-100">Faster Delivery</p>
+                <div className="text-2xl font-bold mb-2">60%</div>
+                <p className="text-orange-100">Cost Savings</p>
+              </div>
+              <div>
+                <div className="text-2xl font-bold mb-2">24/7</div>
+                <p className="text-orange-100">Sunflower State Support</p>
               </div>
             </div>
           </div>
