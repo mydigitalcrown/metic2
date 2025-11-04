@@ -54,7 +54,7 @@ export default function ContactLeadForm({ className = '' }: ContactFormProps) {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          access_key: 'YOUR_ACCESS_KEY_HERE', // Replace with your W3Forms access key
+          access_key: '8f0556d8-66c3-4e2d-810e-5de948aff5ce',
           name: `${formData.firstName} ${formData.lastName}`,
           email: formData.email,
           company: formData.company,

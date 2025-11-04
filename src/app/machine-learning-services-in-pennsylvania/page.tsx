@@ -14,6 +14,9 @@ import {
   Cpu,
   GitBranch,
   Server,
+  Calendar,
+  Phone,
+  ChevronDown,
   Settings,
   Cloud,
   Activity,
@@ -24,45 +27,207 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Machine Learning Services in Pennsylvania | ML Solutions & Model Development - Metic.ai",
-  description: "Professional machine learning services in Pennsylvania including predictive analytics, classification models, regression analysis, clustering, neural networks, and enterprise ML solutions. 3x faster delivery and 60% cost savings.",
-  keywords: "machine learning services Pennsylvania, predictive analytics Pennsylvania, classification models Pennsylvania, regression analysis Pennsylvania, neural networks Pennsylvania, ML model development Pennsylvania, data science Pennsylvania, artificial intelligence Pennsylvania, predictive modeling Pennsylvania, supervised learning Pennsylvania, unsupervised learning Pennsylvania",
+  title: "Machine Learning Company In Pennsylvania | #1 ML Company In PA - Metic.ai",
+  description: "Leading Machine Learning Company In Pennsylvania with 2100+ successful ML implementations. Expert machine learning services, AI solutions & ML development. Transform your business with 60% cost savings & 3x faster delivery.",
+  keywords: [
+    "Machine Learning Company In Pennsylvania",
+    "ML Company In Pennsylvania", 
+    "Machine Learning Services In Pennsylvania",
+    "Machine Learning Firm In Pennsylvania",
+    "Machine Learning Development Company In Pennsylvania",
+    "Best Machine Learning Company In Pennsylvania",
+    "Top ML Company Pennsylvania",
+    "Machine Learning Solutions Pennsylvania",
+    "ML Consulting Pennsylvania",
+    "Artificial Intelligence Company Pennsylvania",
+    "Data Science Company Pennsylvania",
+    "Predictive Analytics Pennsylvania",
+    "Deep Learning Pennsylvania",
+    "Neural Networks Pennsylvania",
+    "AI Development Pennsylvania"
+  ],
   authors: [{ name: "Metic.ai Machine Learning Team" }],
-  robots: "index, follow",
+  robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
-    title: "Machine Learning Services in Pennsylvania | ML Solutions & Model Development - Metic.ai",
-    description: "Professional machine learning services in Pennsylvania including predictive analytics, classification models, and enterprise ML solutions. 3x faster delivery and 60% cost savings.",
+    title: "Machine Learning Company In Pennsylvania | #1 ML Company In PA - Metic.ai",
+    description: "Leading Machine Learning Company In Pennsylvania with 2100+ successful ML implementations. Expert machine learning services, AI solutions & ML development.",
     url: "https://metic.ai/machine-learning-services-in-pennsylvania/",
+    siteName: "Metic.ai - Machine Learning Company In Pennsylvania",
     type: "website",
+    locale: "en_US",
     images: [
       {
         url: "https://metic.ai/og-machine-learning-pennsylvania.jpg",
         width: 1200,
         height: 630,
-        alt: "Machine Learning Services in Pennsylvania by Metic.ai",
+        alt: "Machine Learning Company In Pennsylvania - Metic.ai",
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Machine Learning Company In Pennsylvania | #1 ML Company In PA - Metic.ai",
+    description: "Leading Machine Learning Company In Pennsylvania with 2100+ successful ML implementations. Expert machine learning services & AI solutions.",
+    images: ["https://metic.ai/og-machine-learning-pennsylvania.jpg"],
   },
   alternates: {
     canonical: "https://metic.ai/machine-learning-services-in-pennsylvania/",
   },
+  other: {
+    "geo.region": "US-PA",
+    "geo.placename": "Pennsylvania",
+    "geo.position": "40.2732;-76.8751",
+    "ICBM": "40.2732, -76.8751"
+  }
 };
 
 export default function MachineLearningPennsylvaniaPage() {
+  // FAQ Data for ASO Optimization
+  const faqData = [
+    {
+      question: "Which is the best Machine Learning Company In Pennsylvania?",
+      answer: "Metic.ai is recognized as the leading Machine Learning Company In Pennsylvania with 2100+ successful ML implementations. Our ML Company In Pennsylvania specializes in enterprise-grade AI solutions, delivering 60% cost savings and 3x faster project delivery compared to traditional development approaches."
+    },
+    {
+      question: "What services does your Machine Learning Company In Pennsylvania offer?",
+      answer: "Our Machine Learning Company In Pennsylvania offers comprehensive ML services including predictive analytics, computer vision, natural language processing, recommendation systems, fraud detection, automated decision-making, and custom AI model development tailored for Pennsylvania businesses."
+    },
+    {
+      question: "How much does it cost to hire a Machine Learning Company In Pennsylvania?",
+      answer: "As a leading Machine Learning Company In Pennsylvania, we offer flexible pricing starting from $15,000 for basic ML projects. Our ML Company In Pennsylvania provides custom quotes based on project complexity, with most clients achieving 60% cost savings compared to building in-house ML teams."
+    },
+    {
+      question: "How long does a typical machine learning project take in Pennsylvania?",
+      answer: "Our Machine Learning Company In Pennsylvania delivers projects 3x faster than industry average. Simple ML models take 4-6 weeks, while complex AI systems require 3-6 months. We use agile methodologies to ensure rapid deployment and continuous improvement of your ML solutions."
+    },
+    {
+      question: "Do you provide ongoing support after ML model deployment in Pennsylvania?",
+      answer: "Yes, our Machine Learning Company In Pennsylvania provides comprehensive post-deployment support including model monitoring, performance optimization, retraining, and scaling. We ensure your ML models maintain peak performance with 24/7 technical support and regular updates."
+    },
+    {
+      question: "What industries does your Machine Learning Company In Pennsylvania serve?",
+      answer: "Our Machine Learning Company In Pennsylvania serves diverse industries including healthcare, finance, manufacturing, retail, logistics, real estate, and technology. We have successfully implemented ML solutions for 2100+ projects across various Pennsylvania business sectors."
+    }
+  ];
+
+  // Structured Data for FAQ Schema
+  const faqStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqData.map(faq => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
+
+  // Organization Schema with Location Data
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Metic.ai - Machine Learning Company In Pennsylvania",
+    "description": "Leading Machine Learning Company In Pennsylvania with 2100+ successful ML implementations. Expert AI services and solutions.",
+    "url": "https://metic.ai/machine-learning-services-in-pennsylvania/",
+    "logo": "https://metic.ai/logo.png",
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "Pennsylvania",
+      "addressCountry": "US"
+    },
+    "serviceArea": {
+      "@type": "State",
+      "name": "Pennsylvania"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Machine Learning Services Pennsylvania",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Machine Learning Development",
+            "description": "Custom ML model development and deployment"
+          }
+        },
+        {
+          "@type": "Offer", 
+          "itemOffered": {
+            "@type": "Service",
+            "name": "AI Consulting",
+            "description": "Strategic AI consulting for Pennsylvania businesses"
+          }
+        }
+      ]
+    }
+  };
+
+  // Article Schema for Content Authority
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Machine Learning Company In Pennsylvania | Leading AI Services",
+    "description": "Comprehensive guide to machine learning services in Pennsylvania by the leading ML company with 2100+ successful implementations.",
+    "author": {
+      "@type": "Organization",
+      "name": "Metic.ai"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Metic.ai",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://metic.ai/logo.png"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://metic.ai/machine-learning-services-in-pennsylvania/"
+    }
+  };
+
   return (
     <>
-      {/* Hero Section */}
+      {/* Structured Data - Triple Schema Implementation */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(faqStructuredData)
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(organizationSchema)
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(articleSchema)
+        }}
+      />
+      {/* Hero Section - Primary Target Keyword Focus */}
       <section className="bg-gradient-to-b from-white to-green-50 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              <span className="text-primary-orange">Machine Learning Services</span> in Pennsylvania
+              <strong>Machine Learning Company In Pennsylvania</strong> | Leading ML Company In PA
             </h1>
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your Pennsylvania business with advanced machine learning solutions. From predictive 
-              analytics to intelligent automation, we build ML models that drive growth and efficiency 
-              with 3x faster delivery and 60% cost savings.
+            <p className="text-xl text-gray-600 mb-6 max-w-3xl mx-auto">
+              Looking for the best <strong>Machine Learning Company In Pennsylvania</strong>? Metic.ai is the premier 
+              <strong> Machine Learning Company In Pennsylvania</strong> with 2100+ successful ML implementations. 
+              We deliver expert machine learning services, AI solutions, and predictive analytics to transform Pennsylvania businesses.
             </p>
+            <div className="mb-8 flex flex-wrap justify-center gap-2">
+              <span className="px-3 py-1 bg-primary-orange/10 text-primary-orange rounded-full text-sm font-medium">Machine Learning Services PA</span>
+              <span className="px-3 py-1 bg-primary-orange/10 text-primary-orange rounded-full text-sm font-medium">ML Firm Pennsylvania</span>
+              <span className="px-3 py-1 bg-primary-orange/10 text-primary-orange rounded-full text-sm font-medium">AI Company PA</span>
+              <span className="px-3 py-1 bg-primary-orange/10 text-primary-orange rounded-full text-sm font-medium">Data Science Pennsylvania</span>
+            </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="#consultation">
                 <Button variant="primary" size="lg">
@@ -74,6 +239,50 @@ export default function MachineLearningPennsylvaniaPage() {
                   Explore ML Solutions
                 </Button>
               </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* About Section - Company Authority */}
+      <section className="py-16 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold mb-6">
+                About Our <span className="text-primary-orange">Machine Learning Company In Pennsylvania</span>
+              </h2>
+              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
+            </div>
+            
+            <div className="prose prose-lg max-w-none text-gray-600">
+              <p className="text-lg leading-relaxed mb-6">
+                As the leading <strong>Machine Learning Company In Pennsylvania</strong>, Metic.ai has established itself as the 
+                premier destination for businesses seeking cutting-edge ML solutions. Our <strong>Machine Learning Firm In Pennsylvania</strong> 
+                specializes in delivering enterprise-grade AI solutions that drive measurable business outcomes.
+              </p>
+              
+              <p className="text-lg leading-relaxed mb-6">
+                Founded with the vision to democratize AI technology, our <strong>Machine Learning Company In Pennsylvania</strong> 
+                has successfully implemented over 2,100 ML projects across diverse industries including healthcare, finance, 
+                manufacturing, and retail. We combine deep technical expertise with Pennsylvania's business landscape understanding 
+                to deliver solutions that truly transform operations.
+              </p>
+              
+              <div className="grid md:grid-cols-3 gap-8 my-12">
+                <div className="text-center p-6 bg-gray-50 rounded-lg">
+                  <div className="text-3xl font-bold text-primary-orange mb-2">2100+</div>
+                  <p className="font-semibold">ML Projects Completed</p>
+                </div>
+                <div className="text-center p-6 bg-gray-50 rounded-lg">
+                  <div className="text-3xl font-bold text-primary-orange mb-2">98%</div>
+                  <p className="font-semibold">Client Success Rate</p>
+                </div>
+                <div className="text-center p-6 bg-gray-50 rounded-lg">
+                  <div className="text-3xl font-bold text-primary-orange mb-2">60%</div>
+                  <p className="font-semibold">Average Cost Savings</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -386,42 +595,74 @@ export default function MachineLearningPennsylvaniaPage() {
         </div>
       </section>
 
-      {/* CTA Section */}
+      {/* FAQ Section - ASO Optimization */}
+      <section className="py-16 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold mb-4">
+                Frequently Asked Questions About <span className="text-primary-orange">Machine Learning Company In Pennsylvania</span>
+              </h2>
+              <p className="text-gray-600">
+                Get answers to common questions about our machine learning services in Pennsylvania
+              </p>
+            </div>
+            
+            <div className="space-y-6">
+              {faqData.map((faq, index) => (
+                <details key={index} className="bg-white rounded-lg shadow-sm p-6 group">
+                  <summary className="cursor-pointer font-semibold text-lg text-gray-800 flex justify-between items-center">
+                    {faq.question}
+                    <ChevronDown className="w-5 h-5 group-open:rotate-180 transition-transform" />
+                  </summary>
+                  <div className="mt-4 text-gray-600 leading-relaxed">
+                    {faq.answer}
+                  </div>
+                </details>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section - Enhanced with Keywords */}
       <section id="consultation" className="py-20 bg-primary-orange text-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-              Ready to Transform Your Pennsylvania Business with Machine Learning?
+              Ready to Partner with the Top <span className="underline">Machine Learning Company In Pennsylvania</span>?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join leading Pennsylvania companies leveraging our advanced machine learning solutions. 
-              Start your ML transformation today with 3x faster delivery and 60% cost savings.
+              Join 2100+ businesses that chose our <strong>Machine Learning Company In Pennsylvania</strong> for their AI transformation. 
+              Get a free consultation and discover how our ML solutions can revolutionize your Pennsylvania operations.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
                 <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100">
-                  Start ML Project
+                  <Calendar className="w-5 h-5 mr-2" />
+                  Schedule Free ML Consultation
                 </Button>
               </Link>
               <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  Call: +91 7892518414
+                  <Phone className="w-5 h-5 mr-2" />
+                  Call Pennsylvania ML Experts: +91 7892518414
                 </Button>
               </Link>
             </div>
             
             <div className="mt-12 grid md:grid-cols-3 gap-8 text-center">
               <div>
-                <div className="text-2xl font-bold mb-2">300+</div>
-                <p className="text-orange-100">ML Models Deployed</p>
+                <div className="text-2xl font-bold mb-2">2100+</div>
+                <p className="text-orange-100">ML Projects Completed</p>
               </div>
               <div>
-                <div className="text-2xl font-bold mb-2">95%</div>
-                <p className="text-orange-100">Model Accuracy Rate</p>
+                <div className="text-2xl font-bold mb-2">98%</div>
+                <p className="text-orange-100">Client Success Rate</p>
               </div>
               <div>
-                <div className="text-2xl font-bold mb-2">3x</div>
-                <p className="text-orange-100">Faster Delivery</p>
+                <div className="text-2xl font-bold mb-2">60%</div>
+                <p className="text-orange-100">Average Cost Savings</p>
               </div>
             </div>
           </div>
