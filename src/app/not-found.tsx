@@ -31,10 +31,10 @@ export default function NotFound() {
           <p className="text-sm text-gray-500">
             Need help? Email us at{' '}
             <a 
-              href="mailto:Hello@metic.ai" 
+              href="mailto:hello@matic.ai" 
               className="text-primary-orange hover:underline"
             >
-              Hello@metic.ai
+              hello@matic.ai
             </a>
           </p>
         </div>

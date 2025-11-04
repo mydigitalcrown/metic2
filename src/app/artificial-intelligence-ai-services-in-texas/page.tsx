@@ -167,7 +167,7 @@ export default function AIServicesTexasPage() {
                   "@type": "ContactPoint",
                   "telephone": "+1-789-251-8414",
                   "contactType": "customer service",
-                  "email": "info@metic.ai",
+                  "email": "hello@matic.ai",
                   "availableLanguage": ["English"],
                   "areaServed": ["Texas", "US"]
                 }
@@ -747,3 +747,4 @@ export default function AIServicesTexasPage() {
     </>
   );
 }
+

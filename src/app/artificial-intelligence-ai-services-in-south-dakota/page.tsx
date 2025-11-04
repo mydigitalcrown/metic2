@@ -174,7 +174,7 @@ export default function AIServicesSouthDakotaPage() {
                   "@type": "ContactPoint",
                   "telephone": "+1-789-251-8414",
                   "contactType": "customer service",
-                  "email": "info@metic.ai",
+                  "email": "hello@matic.ai",
                   "availableLanguage": ["English"],
                   "areaServed": ["South Dakota", "US"]
                 }
@@ -736,3 +736,4 @@ export default function AIServicesSouthDakotaPage() {
     </>
   );
 }
+

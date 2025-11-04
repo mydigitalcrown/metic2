@@ -160,7 +160,7 @@ export default function AIServicesMontanaPage() {
             "logo": "https://metic.ai/logo.png",
             "image": "https://metic.ai/og-ai-services-montana.jpg",
             "telephone": "+1-789-251-8414",
-            "email": "info@metic.ai",
+            "email": "hello@matic.ai",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "Montana",
@@ -827,3 +827,4 @@ export default function AIServicesMontanaPage() {
     </>
   );
 }
+

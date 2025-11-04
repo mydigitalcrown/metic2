@@ -165,7 +165,7 @@ export default function AIServicesWisconsinPage() {
                 "@type": "ContactPoint",
                 "telephone": "+1-789-251-8414",
                 "contactType": "customer service",
-                "email": "info@metic.ai"
+                "email": "hello@matic.ai"
               },
               "sameAs": [
                 "https://www.linkedin.com/company/metic-ai",
@@ -708,3 +708,4 @@ export default function AIServicesWisconsinPage() {
     </>
   );
 }
+

@@ -164,7 +164,7 @@ export default function AIServicesAhmedabadPage() {
             "logo": "https://metic.ai/logo.png",
             "image": ["https://metic.ai/ai-company-ahmedabad.jpg"],
             "telephone": "+91 7892518414",
-            "email": "contact@metic.ai",
+            "email": "hello@matic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
             "vatID": "IN123456789",
@@ -858,3 +858,4 @@ export default function AIServicesAhmedabadPage() {
     </>
   );
 }
+

@@ -167,7 +167,7 @@ export default function AIServicesVermontPage() {
               "longitude": "-72.7107"
             },
             "telephone": "+1-789-251-8414",
-            "email": "info@metic.ai",
+            "email": "hello@matic.ai",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai"
@@ -698,3 +698,4 @@ export default function AIServicesVermontPage() {
     </>
   );
 }
+

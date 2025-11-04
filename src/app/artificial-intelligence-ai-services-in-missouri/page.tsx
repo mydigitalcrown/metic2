@@ -160,7 +160,7 @@ export default function AIServicesMissouriPage() {
             "logo": "https://metic.ai/logo.png",
             "image": "https://metic.ai/og-ai-services-missouri.jpg",
             "telephone": "+1-789-251-8414",
-            "email": "info@metic.ai",
+            "email": "hello@matic.ai",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "Missouri",
@@ -827,3 +827,4 @@ export default function AIServicesMissouriPage() {
     </>
   );
 }
+

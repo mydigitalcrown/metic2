@@ -160,7 +160,7 @@ export default function AIServicesOklahomaPage() {
               "@type": "ContactPoint",
               "telephone": "+1-789-251-8414",
               "contactType": "Customer Service",
-              "email": "info@metic.ai"
+              "email": "hello@matic.ai"
             },
             "address": {
               "@type": "PostalAddress",
@@ -664,3 +664,4 @@ export default function AIServicesOklahomaPage() {
     </>
   );
 }
+

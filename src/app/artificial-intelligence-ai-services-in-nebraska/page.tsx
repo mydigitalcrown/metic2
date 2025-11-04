@@ -161,7 +161,7 @@ export default function AIServicesNebraskaPage() {
             "logo": "https://metic.ai/logo.png",
             "image": "https://metic.ai/og-ai-services-nebraska.jpg",
             "telephone": "+1-789-251-8414",
-            "email": "info@metic.ai",
+            "email": "hello@matic.ai",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "Nebraska",
@@ -744,3 +744,4 @@ export default function AIServicesNebraskaPage() {
     </>
   );
 }
+

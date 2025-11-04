@@ -157,7 +157,7 @@ export default function AIServicesPunePage() {
             "logo": "https://metic.ai/logo.png",
             "image": "https://metic.ai/logo.png",
             "telephone": "+1-789-251-8414",
-            "email": "info@metic.ai",
+            "email": "hello@matic.ai",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Bengaluru",
@@ -173,7 +173,7 @@ export default function AIServicesPunePage() {
               "@type": "ContactPoint",
               "telephone": "+1-789-251-8414",
               "contactType": "Customer Service",
-              "email": "info@metic.ai",
+              "email": "hello@matic.ai",
               "availableLanguage": ["English", "Hindi", "Marathi"]
             },
             "sameAs": [
@@ -678,3 +678,4 @@ export default function AIServicesPunePage() {
     </>
   );
 }
+

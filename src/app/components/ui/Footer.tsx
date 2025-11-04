@@ -75,7 +75,7 @@ export function Footer() {
             <ul className="space-y-2 text-gray-400">
               <li>Padmamba Nilaya, 250, 7th C Main Rd</li>
               <li>Basaveshwar Nagar, Bengaluru</li>
-              <li>contact@metic.ai</li>
+              <li>hello@matic.ai</li>
               <li>+91 7892518414</li>
             </ul>
           </div>

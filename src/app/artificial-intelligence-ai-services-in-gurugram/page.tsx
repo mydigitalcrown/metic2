@@ -171,7 +171,7 @@ export default function AIServicesGurugramPage() {
               "longitude": "77.0266"
             },
             "telephone": "+1-789-251-8414",
-            "email": "info@metic.ai",
+            "email": "hello@matic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
             "slogan": "Artificial Intelligence Company In Gurgaon - Transform Your Business with AI",
@@ -759,3 +759,4 @@ export default function AIServicesGurugramPage() {
     </>
   );
 }
+

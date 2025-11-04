@@ -160,7 +160,7 @@ export default function AIServicesMinnesotaPage() {
               "logo": "https://metic.ai/logo.png",
               "image": "https://metic.ai/og-ai-services-minnesota.jpg",
               "telephone": "+1-789-251-8414",
-              "email": "info@metic.ai",
+              "email": "hello@matic.ai",
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "Padmamba Nilaya, 250, 7th C Main Rd, 3rd Stage 4th Block, West of Chord Road 1st Stage, Basaveshwar Nagar",
@@ -724,3 +724,4 @@ export default function AIServicesMinnesotaPage() {
     </>
   );
 }
+

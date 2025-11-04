@@ -163,7 +163,7 @@ export default function AIServicesKentuckyPage() {
                 "addressLocality": "Louisville"
               },
               "telephone": "+1-789-251-8414",
-              "email": "info@metic.ai",
+              "email": "hello@matic.ai",
               "foundingDate": "2020",
               "numberOfEmployees": "250+",
               "slogan": "Transform your business with AI",
@@ -677,3 +677,4 @@ export default function AIServicesKentuckyPage() {
     </>
   );
 }
+

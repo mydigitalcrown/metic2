@@ -37,10 +37,10 @@ export default function ContactPage() {
                   <div>
                     <p className="font-medium">Email Us</p>
                     <a 
-                      href="mailto:contact@metic.ai" 
+                      href="mailto:hello@matic.ai" 
                       className="text-primary-orange hover:underline"
                     >
-                      contact@metic.ai
+                      hello@matic.ai
                     </a>
                   </div>
                 </div>
@@ -111,7 +111,7 @@ export default function ContactPage() {
             
             <div>
               <h2 className="text-2xl font-bold mb-6">Send Us a Message</h2>
-              <form className="space-y-6">
+              <form action="mailto:hello@matic.ai" method="post" encType="text/plain" className="space-y-6">
                 <div className="grid sm:grid-cols-2 gap-4">
                   <div className="space-y-2">
                     <label htmlFor="first-name" className="text-sm font-medium">
@@ -119,6 +119,7 @@ export default function ContactPage() {
                     </label>
                     <input
                       id="first-name"
+                      name="first-name"
                       type="text"
                       className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-orange"
                       required
@@ -130,6 +131,7 @@ export default function ContactPage() {
                     </label>
                     <input
                       id="last-name"
+                      name="last-name"
                       type="text"
                       className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-orange"
                       required
@@ -143,6 +145,7 @@ export default function ContactPage() {
                   </label>
                   <input
                     id="email"
+                    name="email"
                     type="email"
                     className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-orange"
                     required
@@ -155,6 +158,7 @@ export default function ContactPage() {
                   </label>
                   <input
                     id="company"
+                    name="company"
                     type="text"
                     className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-orange"
                   />
@@ -166,15 +170,16 @@ export default function ContactPage() {
                   </label>
                   <select
                     id="subject"
+                    name="subject"
                     className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-orange"
                     required
                   >
                     <option value="">Select a topic</option>
-                    <option value="general">General Inquiry</option>
-                    <option value="sales">Sales</option>
-                    <option value="support">Support</option>
-                    <option value="partnership">Partnership</option>
-                    <option value="careers">Careers</option>
+                    <option value="General Inquiry">General Inquiry</option>
+                    <option value="Sales">Sales</option>
+                    <option value="Support">Support</option>
+                    <option value="Partnership">Partnership</option>
+                    <option value="Careers">Careers</option>
                   </select>
                 </div>
                 
@@ -184,16 +189,36 @@ export default function ContactPage() {
                   </label>
                   <textarea
                     id="message"
+                    name="message"
                     rows={5}
                     className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-orange"
                     required
                   ></textarea>
                 </div>
                 
-                <Button type="submit" variant="primary" size="lg" className="w-full">
-                  Send Message
-                </Button>
+                <div className="flex flex-col sm:flex-row gap-4">
+                  <Button type="submit" variant="primary" size="lg" className="flex-1">
+                    Send Message via Email
+                  </Button>
+                  <a 
+                    href="mailto:hello@matic.ai?subject=Contact Form Inquiry&body=Hello Metic.ai Team,%0A%0AI am interested in your AI services.%0A%0APlease contact me at your earliest convenience.%0A%0AThank you!"
+                    className="flex-1"
+                  >
+                    <Button type="button" variant="outline" size="lg" className="w-full">
+                      Quick Email
+                    </Button>
+                  </a>
+                </div>
               </form>
+              
+              <div className="mt-8 p-6 bg-gray-50 rounded-lg">
+                <h3 className="text-lg font-semibold mb-3">Alternative Contact Methods</h3>
+                <div className="space-y-2 text-sm text-gray-600">
+                  <p>• <strong>Direct Email:</strong> <a href="mailto:hello@matic.ai" className="text-primary-orange hover:underline">hello@matic.ai</a></p>
+                  <p>• <strong>Phone:</strong> <a href="tel:+917892518414" className="text-primary-orange hover:underline">+91 7892518414</a></p>
+                  <p>• <strong>Response Time:</strong> We typically respond within 24 hours</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

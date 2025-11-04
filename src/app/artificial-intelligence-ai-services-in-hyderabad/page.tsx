@@ -106,7 +106,7 @@ export default function AIServicesHyderabadPage() {
               "longitude": "78.4867"
             },
             "telephone": "+1-789-251-8414",
-            "email": "info@metic.ai",
+            "email": "hello@matic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
             "slogan": "Artificial Intelligence Company In Hyderabad - Transform Your Business with AI",
@@ -629,3 +629,4 @@ export default function AIServicesHyderabadPage() {
     </>
   );
 }
+

@@ -157,7 +157,7 @@ export default function AIServicesIdahoPage() {
             "logo": "https://metic.ai/logo.png",
             "image": "https://metic.ai/og-ai-services-idaho.jpg",
             "telephone": "+1-789-251-8414",
-            "email": "info@metic.ai",
+            "email": "hello@matic.ai",
             "slogan": "Artificial Intelligence Company In Idaho - Transform Your Business with AI",
             "foundingDate": "2020",
             "address": {
@@ -718,3 +718,4 @@ export default function AIServicesIdahoPage() {
     </>
   );
 }
+

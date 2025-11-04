@@ -163,7 +163,7 @@ export default function AIServicesFloridaPage() {
               "longitude": "-81.6868"
             },
             "telephone": "+1-789-251-8414",
-            "email": "info@metic.ai",
+            "email": "hello@matic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
             "slogan": "Artificial Intelligence Company In Florida - Transform Your Business with AI",
@@ -811,3 +811,4 @@ export default function AIServicesFloridaPage() {
     </>
   );
 }
+

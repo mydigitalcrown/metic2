@@ -159,7 +159,7 @@ export default function AIServicesNevadaPage() {
             "logo": "https://metic.ai/logo.png",
             "image": "https://metic.ai/og-ai-services-nevada.jpg",
             "telephone": "+1-789-251-8414",
-            "email": "info@metic.ai",
+            "email": "hello@matic.ai",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "Nevada",
@@ -743,3 +743,4 @@ export default function AIServicesNevadaPage() {
     </>
   );
 }
+

@@ -187,7 +187,7 @@ export default function AIServicesCaliforniaPage() {
               "@type": "ContactPoint",
               "telephone": "+1-789-251-8414",
               "contactType": "customer service",
-              "email": "info@metic.ai",
+              "email": "hello@matic.ai",
               "availableLanguage": ["English"]
             },
             "sameAs": [
@@ -911,3 +911,4 @@ export default function AIServicesCaliforniaPage() {
     </>
   );
 }
+

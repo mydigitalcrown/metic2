@@ -164,7 +164,7 @@ export default function AIServicesAlabamaPage() {
             "logo": "https://metic.ai/logo.png",
             "image": ["https://metic.ai/ai-company-alabama.jpg"],
             "telephone": "+1-789-251-8414",
-            "email": "contact@metic.ai",
+            "email": "hello@matic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
             "vatID": "US123456789",
@@ -852,3 +852,4 @@ export default function AIServicesAlabamaPage() {
     </>
   );
 }
+

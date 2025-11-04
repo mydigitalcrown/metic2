@@ -157,7 +157,7 @@ export default function AIServicesRhodeIslandPage() {
             "logo": "https://metic.ai/logo.png",
             "image": "https://metic.ai/logo.png",
             "telephone": "+1-789-251-8414",
-            "email": "info@metic.ai",
+            "email": "hello@matic.ai",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "Rhode Island",
@@ -172,7 +172,7 @@ export default function AIServicesRhodeIslandPage() {
               "@type": "ContactPoint",
               "telephone": "+1-789-251-8414",
               "contactType": "Customer Service",
-              "email": "info@metic.ai",
+              "email": "hello@matic.ai",
               "availableLanguage": ["English"]
             },
             "sameAs": [
@@ -673,3 +673,4 @@ export default function AIServicesRhodeIslandPage() {
     </>
   );
 }
+
