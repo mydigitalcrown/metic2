@@ -296,20 +296,23 @@ export default function ContactPage() {
                       if (response.ok) {
                         // Show success message
                         formStatus.className = 'p-4 rounded-md bg-green-50 border border-green-200';
-                        formStatus.innerHTML = '<div class="text-green-800"><strong>Thank you!</strong> ' + result.message + 
-                          (result.note ? '<br><small class="text-green-600">' + result.note + ' Please email us directly at <a href="mailto:hello@metic.ai" class="text-primary-orange hover:underline">hello@metic.ai</a></small>' : '') + '</div>';
+                        formStatus.innerHTML = '<div class="text-green-800"><strong>Success!</strong> ' + result.message + '</div>';
                         
                         // Reset form on success
                         this.reset();
                       } else {
                         // Show error message
                         formStatus.className = 'p-4 rounded-md bg-red-50 border border-red-200';
-                        formStatus.innerHTML = '<div class="text-red-800"><strong>Error:</strong> ' + (result.error || 'Something went wrong. Please try again or email us directly at <a href="mailto:hello@metic.ai" class="text-primary-orange hover:underline">hello@metic.ai</a>') + '</div>';
+                        if (result.fallback) {
+                          formStatus.innerHTML = '<div class="text-red-800"><strong>Service Unavailable:</strong> ' + result.error + '<br><br>Please email us directly at <a href="mailto:hello@metic.ai?subject=' + encodeURIComponent('Contact Form: ' + data.subject) + '" class="text-primary-orange hover:underline font-medium">hello@metic.ai</a> or call <a href="tel:+917892518414" class="text-primary-orange hover:underline font-medium">+91 7892518414</a></div>';
+                        } else {
+                          formStatus.innerHTML = '<div class="text-red-800"><strong>Error:</strong> ' + (result.error || 'Something went wrong. Please try again.') + '</div>';
+                        }
                       }
                     } catch (error) {
                       // Show network error
                       formStatus.className = 'p-4 rounded-md bg-red-50 border border-red-200';
-                      formStatus.innerHTML = '<div class="text-red-800"><strong>Network Error:</strong> Please check your connection and try again, or email us directly at <a href="mailto:hello@metic.ai" class="text-primary-orange hover:underline">hello@metic.ai</a></div>';
+                      formStatus.innerHTML = '<div class="text-red-800"><strong>Connection Error:</strong> Unable to submit form. Please check your internet connection and try again, or contact us directly:<br><br>📧 <a href="mailto:hello@metic.ai?subject=' + encodeURIComponent('Contact Form: ' + data.subject) + '" class="text-primary-orange hover:underline font-medium">hello@metic.ai</a><br>📞 <a href="tel:+917892518414" class="text-primary-orange hover:underline font-medium">+91 7892518414</a></div>';
                     }
                     
                     // Reset button state
