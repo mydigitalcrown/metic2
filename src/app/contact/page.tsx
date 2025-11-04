@@ -111,29 +111,31 @@ export default function ContactPage() {
             
             <div>
               <h2 className="text-2xl font-bold mb-6">Send Us a Message</h2>
-              <form action="mailto:hello@matic.ai" method="post" encType="text/plain" className="space-y-6">
+              <form className="space-y-6" id="contact-form">
                 <div className="grid sm:grid-cols-2 gap-4">
                   <div className="space-y-2">
                     <label htmlFor="first-name" className="text-sm font-medium">
-                      First Name
+                      First Name *
                     </label>
                     <input
                       id="first-name"
-                      name="first-name"
+                      name="firstName"
                       type="text"
-                      className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-orange"
+                      autoComplete="given-name"
+                      className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-orange focus:border-primary-orange"
                       required
                     />
                   </div>
                   <div className="space-y-2">
                     <label htmlFor="last-name" className="text-sm font-medium">
-                      Last Name
+                      Last Name *
                     </label>
                     <input
                       id="last-name"
-                      name="last-name"
+                      name="lastName"
                       type="text"
-                      className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-orange"
+                      autoComplete="family-name"
+                      className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-orange focus:border-primary-orange"
                       required
                     />
                   </div>
@@ -141,13 +143,15 @@ export default function ContactPage() {
                 
                 <div className="space-y-2">
                   <label htmlFor="email" className="text-sm font-medium">
-                    Email
+                    Email Address *
                   </label>
                   <input
                     id="email"
                     name="email"
                     type="email"
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-orange"
+                    autoComplete="email"
+                    placeholder="your.email@example.com"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-orange focus:border-primary-orange"
                     required
                   />
                 </div>
@@ -160,65 +164,152 @@ export default function ContactPage() {
                     id="company"
                     name="company"
                     type="text"
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-orange"
+                    autoComplete="organization"
+                    placeholder="Your Company Name"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-orange focus:border-primary-orange"
+                  />
+                </div>
+                
+                <div className="space-y-2">
+                  <label htmlFor="phone" className="text-sm font-medium">
+                    Phone Number
+                  </label>
+                  <input
+                    id="phone"
+                    name="phone"
+                    type="tel"
+                    autoComplete="tel"
+                    placeholder="+1 (555) 123-4567"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-orange focus:border-primary-orange"
                   />
                 </div>
                 
                 <div className="space-y-2">
                   <label htmlFor="subject" className="text-sm font-medium">
-                    Subject
+                    Subject *
                   </label>
                   <select
                     id="subject"
                     name="subject"
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-orange"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-orange focus:border-primary-orange"
                     required
                   >
                     <option value="">Select a topic</option>
                     <option value="General Inquiry">General Inquiry</option>
-                    <option value="Sales">Sales</option>
-                    <option value="Support">Support</option>
+                    <option value="AI Consulting">AI Consulting</option>
+                    <option value="Machine Learning Services">Machine Learning Services</option>
+                    <option value="Custom AI Development">Custom AI Development</option>
                     <option value="Partnership">Partnership</option>
+                    <option value="Support">Technical Support</option>
                     <option value="Careers">Careers</option>
                   </select>
                 </div>
                 
                 <div className="space-y-2">
                   <label htmlFor="message" className="text-sm font-medium">
-                    Message
+                    Message *
                   </label>
                   <textarea
                     id="message"
                     name="message"
                     rows={5}
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-orange"
+                    placeholder="Tell us about your project and requirements..."
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-orange focus:border-primary-orange resize-vertical"
                     required
                   ></textarea>
                 </div>
                 
-                <div className="flex flex-col sm:flex-row gap-4">
-                  <Button type="submit" variant="primary" size="lg" className="flex-1">
-                    Send Message via Email
-                  </Button>
-                  <a 
-                    href="mailto:hello@matic.ai?subject=Contact Form Inquiry&body=Hello Metic.ai Team,%0A%0AI am interested in your AI services.%0A%0APlease contact me at your earliest convenience.%0A%0AThank you!"
-                    className="flex-1"
+                <div className="space-y-4">
+                  <div className="flex items-start space-x-2">
+                    <input
+                      id="privacy"
+                      name="privacy"
+                      type="checkbox"
+                      className="mt-1 h-4 w-4 text-primary-orange border-gray-300 rounded focus:ring-primary-orange"
+                      required
+                    />
+                    <label htmlFor="privacy" className="text-sm text-gray-600">
+                      I agree to the processing of my personal data in accordance with the{" "}
+                      <a href="/privacy-policy" className="text-primary-orange hover:underline">
+                        Privacy Policy
+                      </a>
+                      *
+                    </label>
+                  </div>
+                  
+                  <Button 
+                    type="submit" 
+                    variant="primary" 
+                    size="lg" 
+                    className="w-full"
+                    id="submit-btn"
                   >
-                    <Button type="button" variant="outline" size="lg" className="w-full">
-                      Quick Email
-                    </Button>
-                  </a>
+                    Send Message
+                  </Button>
+                  
+                  <div id="form-status" className="hidden p-4 rounded-md"></div>
                 </div>
               </form>
               
               <div className="mt-8 p-6 bg-gray-50 rounded-lg">
                 <h3 className="text-lg font-semibold mb-3">Alternative Contact Methods</h3>
                 <div className="space-y-2 text-sm text-gray-600">
-                  <p>• <strong>Direct Email:</strong> <a href="mailto:hello@matic.ai" className="text-primary-orange hover:underline">hello@matic.ai</a></p>
+                  <p>• <strong>Direct Email:</strong> <a href="mailto:hello@matic.ai?subject=Website Contact" className="text-primary-orange hover:underline">hello@matic.ai</a></p>
                   <p>• <strong>Phone:</strong> <a href="tel:+917892518414" className="text-primary-orange hover:underline">+91 7892518414</a></p>
                   <p>• <strong>Response Time:</strong> We typically respond within 24 hours</p>
+                  <p>• <strong>Business Hours:</strong> Monday-Friday, 9:00 AM - 6:00 PM IST</p>
                 </div>
               </div>
+              
+              <script dangerouslySetInnerHTML={{
+                __html: `
+                  document.getElementById('contact-form').addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    const submitBtn = document.getElementById('submit-btn');
+                    const formStatus = document.getElementById('form-status');
+                    const formData = new FormData(this);
+                    
+                    // Show loading state
+                    submitBtn.textContent = 'Sending...';
+                    submitBtn.disabled = true;
+                    
+                    // Collect form data
+                    const data = {};
+                    for (let [key, value] of formData.entries()) {
+                      data[key] = value;
+                    }
+                    
+                    // Create email content
+                    const subject = encodeURIComponent('Contact Form: ' + data.subject);
+                    const body = encodeURIComponent(
+                      'New contact form submission:\\n\\n' +
+                      'Name: ' + data.firstName + ' ' + data.lastName + '\\n' +
+                      'Email: ' + data.email + '\\n' +
+                      'Company: ' + (data.company || 'Not provided') + '\\n' +
+                      'Phone: ' + (data.phone || 'Not provided') + '\\n' +
+                      'Subject: ' + data.subject + '\\n\\n' +
+                      'Message:\\n' + data.message + '\\n\\n' +
+                      'Sent from: metic.ai contact form'
+                    );
+                    
+                    // Open email client
+                    window.location.href = 'mailto:hello@matic.ai?subject=' + subject + '&body=' + body;
+                    
+                    // Show success message
+                    setTimeout(function() {
+                      formStatus.className = 'p-4 rounded-md bg-green-50 border border-green-200';
+                      formStatus.innerHTML = '<div class="text-green-800"><strong>Thank you!</strong> Your email client should have opened. If not, please email us directly at <a href="mailto:hello@matic.ai" class="text-primary-orange hover:underline">hello@matic.ai</a></div>';
+                      
+                      submitBtn.textContent = 'Send Message';
+                      submitBtn.disabled = false;
+                      
+                      // Reset form
+                      document.getElementById('contact-form').reset();
+                    }, 1000);
+                  });
+                `
+              }} />
             </div>
           </div>
         </div>
