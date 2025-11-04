@@ -38,8 +38,14 @@ export async function POST(request: NextRequest) {
     }
 
     // Check if SendGrid is configured
+    console.log('🔍 Debug - API Key Check:', {
+      hasApiKey: !!process.env.SENDGRID_API_KEY,
+      keyStartsWith: process.env.SENDGRID_API_KEY?.substring(0, 10),
+      fromEmail: process.env.SENDGRID_FROM_EMAIL
+    });
+    
     if (!process.env.SENDGRID_API_KEY) {
-      console.log('SendGrid API key not configured. Form data:', {
+      console.log('❌ SendGrid API key not configured. Form data:', {
         firstName, lastName, email, company, phone, subject, message
       });
       return NextResponse.json(
