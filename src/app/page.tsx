@@ -327,7 +327,7 @@ export default function Home() {
               {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "AI Company in Michigan",
+                "name": "Artificial Intelligence Company Near Me",
                 "item": "https://metic.ai"
               }
             ]
@@ -346,7 +346,7 @@ export default function Home() {
               <ChevronDown className="w-4 h-4 text-gray-400 -rotate-90" />
             </li>
             <li className="text-gray-600 font-medium">
-              AI Company in Michigan
+              Artificial Intelligence Company Near Me
             </li>
           </ol>
         </div>
@@ -466,7 +466,7 @@ export default function Home() {
                 </Link>
                 <Link href="/services">
                   <Button variant="outline" size="lg" className="group border-2 border-primary-orange text-primary-orange hover:bg-primary-orange hover:text-white shadow-lg hover:shadow-xl">
-                    <span>View Michigan AI Services</span>
+                    <span>View AI Services Near You</span>
                     <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-2 transition-transform" />
                   </Button>
                 </Link>
@@ -478,7 +478,7 @@ export default function Home() {
                   <div className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent group-hover:scale-110 transition-transform">
                     500+
                   </div>
-                  <div className="text-sm md:text-base text-gray-600 font-medium">MI Businesses</div>
+                  <div className="text-sm md:text-base text-gray-600 font-medium">Global Clients</div>
                   <div className="w-12 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mt-2 opacity-0 group-hover:opacity-100 transition-opacity"></div>
                 </div>
                 <div className="text-center group cursor-pointer">
@@ -492,7 +492,7 @@ export default function Home() {
                   <div className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent group-hover:scale-110 transition-transform">
                     24/7
                   </div>
-                  <div className="text-sm md:text-base text-gray-600 font-medium">MI Support</div>
+                  <div className="text-sm md:text-base text-gray-600 font-medium">Global Support</div>
                   <div className="w-12 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mt-2 opacity-0 group-hover:opacity-100 transition-opacity"></div>
                 </div>
               </div>
@@ -557,10 +557,10 @@ export default function Home() {
                     
                     <div className="space-y-3">
                       <h3 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-gray-900 via-primary-orange to-gray-900 bg-clip-text text-transparent">
-                        Michigan AI Innovation Hub
+                        Global AI Innovation Hub
                       </h3>
                       <p className="text-base md:text-lg text-gray-700 font-medium leading-relaxed">
-                        Powering the Future of <span className="text-primary-orange font-bold">Detroit</span>, <span className="text-primary-orange font-bold">Grand Rapids</span>, <span className="text-primary-orange font-bold">Ann Arbor</span> & Beyond
+                        Powering the Future of <span className="text-primary-orange font-bold">Businesses Worldwide</span> with <span className="text-primary-orange font-bold">Advanced AI Solutions</span>
                       </p>
                     </div>
                     
@@ -588,7 +588,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Michigan AI Services Section - Advanced Interactive Cards */}
+      {/* AI Services Near You Section - Advanced Interactive Cards */}
       <section className="py-24 bg-gradient-to-b from-white via-gray-50 to-white relative overflow-hidden">
         {/* Animated Background Pattern */}
         <div className="absolute inset-0 opacity-[0.03]">
@@ -604,18 +604,18 @@ export default function Home() {
           <div className="text-center mb-16">
             <div className="inline-block mb-6 animate-fade-in">
               <span className="px-5 py-2.5 bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 text-primary-orange text-sm font-bold rounded-full border border-primary-orange/20 shadow-sm">
-                ⚡ Why Choose Metic AI in Michigan?
+                ⚡ Why Choose Our AI Company Near You?
               </span>
             </div>
             <h2 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl mb-6">
-              <span className="text-gray-900">Michigan's Most Trusted </span>
+              <span className="text-gray-900">World's Most Trusted </span>
               <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">AI Company</span>
             </h2>
             <div className="w-24 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-8 rounded-full"></div>
             <p className="mt-6 text-gray-600 md:text-xl max-w-3xl mx-auto leading-relaxed">
-              As a <strong className="text-gray-900">leading artificial intelligence company in Michigan</strong>, we specialize in delivering 
-              AI solutions that drive real business results for Michigan companies. From Detroit to Grand Rapids, 
-              we're transforming how Michigan businesses leverage AI technology.
+              As a <strong className="text-gray-900">leading artificial intelligence company near you</strong>, we specialize in delivering 
+              AI solutions that drive real business results for companies worldwide. From startups to enterprises, 
+              we're transforming how businesses leverage AI technology globally.
             </p>
           </div>
           
@@ -639,10 +639,10 @@ export default function Home() {
                 </div>
                 
                 <h3 className="font-bold text-xl mb-3 text-gray-900 group-hover:text-primary-orange transition-colors">
-                  AI Consulting Michigan
+                  AI Consulting Services
                 </h3>
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  Expert AI consulting services for Michigan businesses. Strategic guidance to implement cutting-edge AI solutions.
+                  Expert AI consulting services for businesses worldwide. Strategic guidance to implement cutting-edge AI solutions.
                 </p>
                 
                 {/* Hover CTA */}
@@ -673,7 +673,7 @@ export default function Home() {
                   AI Data Analytics
                 </h3>
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  Transform Michigan business data into actionable insights with advanced AI analytics and predictive modeling.
+                  Transform business data into actionable insights with advanced AI analytics and predictive modeling.
                 </p>
                 
                 <div className="flex items-center text-primary-orange text-sm font-semibold opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300">
@@ -702,7 +702,7 @@ export default function Home() {
                   Machine Learning MI
                 </h3>
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  Custom machine learning models for Michigan enterprises. Build AI systems that learn and adapt to your business.
+                  Custom machine learning models for enterprises. Build AI systems that learn and adapt to your business.
                 </p>
                 
                 <div className="flex items-center text-primary-orange text-sm font-semibold opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300">
@@ -731,7 +731,7 @@ export default function Home() {
                   AI Automation
                 </h3>
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  Intelligent automation for Michigan businesses. Streamline operations with AI-powered workflow automation.
+                  Intelligent automation for businesses. Streamline operations with AI-powered workflow automation.
                 </p>
                 
                 <div className="flex items-center text-primary-orange text-sm font-semibold opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300">
@@ -746,27 +746,27 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Michigan Cities We Serve - Local SEO */}
+      {/* Global Service Areas - Near Me SEO */}
       <section className="py-16 bg-gradient-to-br from-gray-50 to-orange-50">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">
-              <span className="text-gray-900">AI Services Across </span>
-              <span className="text-primary-orange">Michigan</span>
+              <span className="text-gray-900">AI Services </span>
+              <span className="text-primary-orange">Worldwide</span>
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Proudly serving businesses throughout Michigan with world-class AI solutions
+              Proudly serving businesses globally with world-class AI solutions
             </p>
           </div>
           
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
             {[
-              'Detroit', 'Grand Rapids', 'Ann Arbor', 'Lansing', 'Flint', 'Dearborn',
-              'Troy', 'Kalamazoo', 'Sterling Heights', 'Warren', 'Livonia', 'Clinton Township'
-            ].map((city, index) => (
+              'USA', 'Canada', 'UK', 'Australia', 'India', 'Germany',
+              'France', 'Japan', 'Singapore', 'UAE', 'Netherlands', 'Brazil'
+            ].map((location, index) => (
               <div key={index} className="bg-white p-4 rounded-lg shadow-sm border border-gray-200 hover:border-primary-orange hover:shadow-md transition-all text-center group">
                 <MapPin className="w-5 h-5 text-primary-orange mx-auto mb-2 group-hover:scale-110 transition-transform" />
-                <p className="text-sm font-medium text-gray-800">{city}</p>
+                <p className="text-sm font-medium text-gray-800">{location}</p>
               </div>
             ))}
           </div>
@@ -782,7 +782,7 @@ export default function Home() {
               <h2 className="text-4xl md:text-5xl font-bold mb-6">
                 <span className="text-gray-900">Why Choose Metic AI as Your </span>
                 <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">
-                  Artificial Intelligence Company in Michigan
+                  Artificial Intelligence Company Near Me
                 </span>
               </h2>
               <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-8 rounded-full"></div>
@@ -793,33 +793,32 @@ export default function Home() {
               {/* Block 1: About Metic AI */}
               <div className="prose prose-lg max-w-none">
                 <p className="text-xl text-gray-700 leading-relaxed mb-6">
-                  <strong className="text-gray-900">Metic AI stands as Michigan's premier artificial intelligence company</strong>, delivering 
-                  cutting-edge AI solutions that transform how businesses operate across Detroit, Grand Rapids, Ann Arbor, and throughout 
-                  the Great Lakes State. As a <strong className="text-primary-orange">leading AI company in Michigan</strong>, we combine 
-                  world-class expertise with deep local knowledge to provide unparalleled artificial intelligence services tailored to 
-                  Michigan's unique business landscape.
+                  <strong className="text-gray-900">Metic.ai stands as a premier artificial intelligence company</strong>, delivering 
+                  cutting-edge AI solutions that transform how businesses operate globally. As a <strong className="text-primary-orange">leading AI company near you</strong>, we combine 
+                  world-class expertise with deep technical knowledge to provide unparalleled artificial intelligence services tailored to 
+                  diverse business landscapes worldwide.
                 </p>
                 
                 <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                  Founded on the principle that every Michigan business deserves access to enterprise-grade AI technology, Metic AI has 
-                  grown to become the go-to <strong>artificial intelligence company in Michigan</strong> for organizations ranging from 
+                  Founded on the principle that every business deserves access to enterprise-grade AI technology, Metic.ai has 
+                  grown to become the go-to <strong>artificial intelligence company</strong> for organizations ranging from 
                   startups to Fortune 500 enterprises. Our team of AI engineers, data scientists, and machine learning specialists brings 
                   decades of combined experience in artificial intelligence, ensuring that every project we undertake meets the highest 
                   standards of technical excellence and business value.
                 </p>
               </div>
 
-              {/* Block 2: Michigan-Specific Expertise */}
+              {/* Block 2: Global AI Expertise */}
               <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-8 md:p-12 border-2 border-primary-orange/20">
                 <h3 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                   <MapPin className="w-8 h-8 text-primary-orange" />
-                  Michigan-Focused AI Solutions
+                  Global AI Solutions
                 </h3>
                 <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                  What sets Metic AI apart as the <strong className="text-primary-orange">best AI company in Michigan</strong> is our 
-                  deep understanding of Michigan's diverse industrial ecosystem. From automotive manufacturing in Detroit to technology 
-                  innovation in Ann Arbor, healthcare advancements in Grand Rapids to agricultural technology throughout rural Michigan, 
-                  we've developed specialized AI solutions that address the unique challenges and opportunities facing Michigan businesses.
+                  What sets Metic.ai apart as the <strong className="text-primary-orange">best AI company near you</strong> is our 
+                  deep understanding of diverse industrial ecosystems worldwide. From automotive manufacturing to technology 
+                  innovation, healthcare advancements to agricultural technology, 
+                  we've developed specialized AI solutions that address the unique challenges and opportunities facing businesses worldwide.
                 </p>
                 
                 <div className="grid md:grid-cols-2 gap-6 mt-8">
@@ -831,7 +830,7 @@ export default function Home() {
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2">Automotive AI Innovation</h4>
                         <p className="text-sm text-gray-600">
-                          Leveraging Michigan's automotive heritage with AI-powered predictive maintenance, supply chain optimization, 
+                          Leveraging automotive industry expertise with AI-powered predictive maintenance, supply chain optimization, 
                           and autonomous systems development.
                         </p>
                       </div>
@@ -846,7 +845,7 @@ export default function Home() {
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2">Healthcare AI Solutions</h4>
                         <p className="text-sm text-gray-600">
-                          Supporting Michigan's world-class healthcare institutions with AI diagnostics, patient care optimization, 
+                          Supporting world-class healthcare institutions with AI diagnostics, patient care optimization, 
                           and medical research acceleration.
                         </p>
                       </div>
@@ -861,7 +860,7 @@ export default function Home() {
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2">Manufacturing Excellence</h4>
                         <p className="text-sm text-gray-600">
-                          Transforming Michigan's manufacturing sector with AI-driven quality control, process optimization, 
+                          Transforming global manufacturing with AI-driven quality control, process optimization, 
                           and predictive analytics for maximum efficiency.
                         </p>
                       </div>
@@ -876,7 +875,7 @@ export default function Home() {
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2">Data-Driven Agriculture</h4>
                         <p className="text-sm text-gray-600">
-                          Empowering Michigan's agricultural sector with precision farming AI, crop yield prediction, 
+                          Empowering global agriculture with precision farming AI, crop yield prediction, 
                           and resource optimization technologies.
                         </p>
                       </div>
@@ -888,10 +887,10 @@ export default function Home() {
               {/* Block 3: Comprehensive Services */}
               <div>
                 <h3 className="text-3xl font-bold text-gray-900 mb-6">
-                  Comprehensive <span className="text-primary-orange">Artificial Intelligence Services</span> in Michigan
+                  Comprehensive <span className="text-primary-orange">Artificial Intelligence Services</span> Worldwide
                 </h3>
                 <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                  As a full-service <strong>AI company in Michigan</strong>, Metic AI offers an extensive portfolio of artificial 
+                  As a full-service <strong>AI company</strong>, Metic.ai offers an extensive portfolio of artificial 
                   intelligence solutions designed to meet the evolving needs of modern businesses. Our services span the entire AI 
                   lifecycle, from initial strategy and consulting through development, deployment, and ongoing optimization.
                 </p>
@@ -899,7 +898,7 @@ export default function Home() {
                 <div className="grid md:grid-cols-3 gap-6 my-8">
                   <div className="text-center p-6 bg-gray-50 rounded-xl hover:bg-orange-50 transition-colors">
                     <div className="text-4xl font-bold text-primary-orange mb-2">500+</div>
-                    <p className="text-sm text-gray-600 font-medium">Michigan Projects Completed</p>
+                    <p className="text-sm text-gray-600 font-medium">Global Projects Completed</p>
                   </div>
                   <div className="text-center p-6 bg-gray-50 rounded-xl hover:bg-orange-50 transition-colors">
                     <div className="text-4xl font-bold text-primary-orange mb-2">95%</div>
@@ -907,7 +906,7 @@ export default function Home() {
                   </div>
                   <div className="text-center p-6 bg-gray-50 rounded-xl hover:bg-orange-50 transition-colors">
                     <div className="text-4xl font-bold text-primary-orange mb-2">24/7</div>
-                    <p className="text-sm text-gray-600 font-medium">Michigan Support Available</p>
+                    <p className="text-sm text-gray-600 font-medium">Global Support Available</p>
                   </div>
                 </div>
 
@@ -938,7 +937,7 @@ export default function Home() {
                       <h4 className="font-bold text-gray-900 mb-1">Advanced Machine Learning Models</h4>
                       <p className="text-gray-600">
                         Deploy state-of-the-art ML algorithms for prediction, classification, clustering, and recommendation systems 
-                        tailored to Michigan's business environment.
+                        tailored to your business environment.
                       </p>
                     </div>
                   </div>
@@ -948,7 +947,7 @@ export default function Home() {
                     <div>
                       <h4 className="font-bold text-gray-900 mb-1">Enterprise-Grade AI Infrastructure</h4>
                       <p className="text-gray-600">
-                        Scalable, secure, and reliable AI systems designed to grow with your Michigan business, from startup to 
+                        Scalable, secure, and reliable AI systems designed to grow with your business, from startup to 
                         enterprise scale.
                       </p>
                     </div>
@@ -959,7 +958,7 @@ export default function Home() {
                     <div>
                       <h4 className="font-bold text-gray-900 mb-1">Custom AI Development</h4>
                       <p className="text-gray-600">
-                        Bespoke artificial intelligence solutions built specifically for your unique Michigan business requirements, 
+                        Bespoke artificial intelligence solutions built specifically for your unique business requirements, 
                         industry, and objectives.
                       </p>
                     </div>
@@ -970,7 +969,7 @@ export default function Home() {
                     <div>
                       <h4 className="font-bold text-gray-900 mb-1">AI Integration & Implementation</h4>
                       <p className="text-gray-600">
-                        Seamlessly integrate AI capabilities into your existing Michigan business systems, workflows, and processes 
+                        Seamlessly integrate AI capabilities into your existing business systems, workflows, and processes 
                         for maximum ROI.
                       </p>
                     </div>
@@ -978,37 +977,37 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Block 5: Local Commitment */}
+              {/* Block 5: Global Commitment */}
               <div>
                 <h3 className="text-3xl font-bold text-gray-900 mb-6">
-                  Committed to <span className="text-primary-orange">Michigan's AI Future</span>
+                  Committed to <span className="text-primary-orange">Global AI Innovation</span>
                 </h3>
                 <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                  As a proud Michigan-based <strong>artificial intelligence company</strong>, Metic AI is deeply committed to fostering 
-                  AI innovation and adoption throughout the state. We partner with Michigan universities, research institutions, and 
-                  business organizations to advance AI education, research, and practical applications that benefit the entire Michigan 
+                  As a leading <strong>artificial intelligence company</strong>, Metic AI is deeply committed to fostering 
+                  AI innovation and adoption worldwide. We partner with universities, research institutions, and 
+                  business organizations globally to advance AI education, research, and practical applications that benefit the entire 
                   business community.
                 </p>
                 
                 <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                  Our <strong className="text-primary-orange">AI company in Michigan</strong> actively participates in Michigan's 
-                  technology ecosystem, contributing to local tech meetups, supporting Michigan startups through AI mentorship, and 
-                  collaborating with state initiatives to position Michigan as a leader in artificial intelligence innovation. When you 
-                  choose Metic AI, you're not just getting an AI partner—you're supporting Michigan's economic growth and technological 
-                  advancement.
+                  Our <strong className="text-primary-orange">AI company</strong> actively participates in global 
+                  technology ecosystems, contributing to tech meetups, supporting startups through AI mentorship, and 
+                  collaborating with initiatives to position artificial intelligence as a leader in innovation. When you 
+                  choose Metic.ai, you're not just getting an AI partner—you're supporting technological 
+                  advancement worldwide.
                 </p>
 
                 <div className="bg-gradient-to-r from-primary-orange/10 via-secondary-orange/10 to-primary-orange/10 rounded-xl p-8 border-l-4 border-primary-orange">
                   <p className="text-lg font-semibold text-gray-900 mb-4">
-                    🚀 Ready to Transform Your Michigan Business with AI?
+                    🚀 Ready to Transform Your Business with AI?
                   </p>
                   <p className="text-gray-700 mb-4">
-                    Join the hundreds of Michigan businesses that have already discovered the competitive advantage of working with 
-                    the state's leading artificial intelligence company. Whether you're in Detroit, Grand Rapids, Ann Arbor, Lansing, 
-                    or anywhere else in Michigan, Metic AI is ready to help you harness the power of artificial intelligence.
+                    Join the thousands of businesses worldwide that have already discovered the competitive advantage of working with 
+                    a leading artificial intelligence company. Whether you're a startup or enterprise, 
+                    Metic.ai is ready to help you harness the power of artificial intelligence.
                   </p>
                   <p className="text-gray-700 font-medium">
-                    Contact our Michigan AI experts today for a free consultation and discover how artificial intelligence can 
+                    Contact our AI experts today for a free consultation and discover how artificial intelligence can 
                     revolutionize your business operations, increase efficiency, reduce costs, and unlock new revenue opportunities.
                   </p>
                 </div>
@@ -1024,10 +1023,10 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8">
             <div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
-                Ready to Transform Your Michigan Business with AI?
+                Ready to Transform Your Business with AI?
               </h2>
               <p className="mt-4 max-w-lg text-white/90">
-                Join 500+ Michigan companies already using our artificial intelligence solutions to gain competitive advantage.
+                Join 2100+ companies worldwide already using our artificial intelligence solutions to gain competitive advantage.
               </p>
             </div>
             <Link href="/contact">
@@ -1049,10 +1048,10 @@ export default function Home() {
         <div className="container px-4 md:px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
-              What Michigan Businesses Say About Us
+              What Global Businesses Say About Us
             </h2>
             <p className="mt-4 text-gray-600 md:text-lg max-w-2xl mx-auto">
-              See why Michigan companies trust Metic AI for their artificial intelligence needs
+              See why companies worldwide trust Metic AI for their artificial intelligence needs
             </p>
           </div>
           
@@ -1066,15 +1065,15 @@ export default function Home() {
                 </div>
                 <div>
                   <p className="font-medium">Taylor Chen</p>
-                  <p className="text-sm text-gray-500">CTO, Detroit TechCorp</p>
+                  <p className="text-sm text-gray-500">CTO, Global TechCorp</p>
                   <div className="flex text-primary-orange text-xs mt-1">
                     ★★★★★
                   </div>
                 </div>
               </div>
               <p className="text-gray-600">
-                "Best AI company in Michigan! Metic AI transformed our data analytics capabilities. 
-                We've seen a 40% increase in operational efficiency across our Detroit operations."
+                "Best AI company I've worked with! Metic.ai transformed our data analytics capabilities. 
+                We've seen a 40% increase in operational efficiency across our operations."
               </p>
             </div>
             
@@ -1087,15 +1086,15 @@ export default function Home() {
                 </div>
                 <div>
                   <p className="font-medium">Aria Johnson</p>
-                  <p className="text-sm text-gray-500">CEO, Grand Rapids InnovateCo</p>
+                  <p className="text-sm text-gray-500">CEO, InnovateCo</p>
                   <div className="flex text-primary-orange text-xs mt-1">
                     ★★★★★
                   </div>
                 </div>
               </div>
               <p className="text-gray-600">
-                "The most knowledgeable AI company in Michigan. Metic AI helped us build a custom solution 
-                that perfectly matched our Grand Rapids business needs. Their expertise is unmatched."
+                "The most knowledgeable AI company globally. Metic.ai helped us build a custom solution 
+                that perfectly matched our business needs. Their expertise is unmatched."
               </p>
             </div>
             
@@ -1108,14 +1107,14 @@ export default function Home() {
                 </div>
                 <div>
                   <p className="font-medium">Marcus Rodriguez</p>
-                  <p className="text-sm text-gray-500">Director, Ann Arbor Finance</p>
+                  <p className="text-sm text-gray-500">Director, Finance Solutions</p>
                   <div className="flex text-primary-orange text-xs mt-1">
                     ★★★★★
                   </div>
                 </div>
               </div>
               <p className="text-gray-600">
-                "Highly recommend this AI company in Michigan! Their machine learning models have dramatically 
+                "Highly recommend this AI company! Their machine learning models have dramatically 
                 improved our forecasting. We make better decisions faster."
               </p>
             </div>
@@ -1153,12 +1152,12 @@ export default function Home() {
                 <span className="text-gray-900">Frequently Asked Questions</span>
                 <br />
                 <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
-                  About AI in Michigan
+                  About AI Services Near You
                 </span>
               </h2>
               <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-8 rounded-full"></div>
               <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                Common questions about working with Michigan's leading AI company
+                Common questions about working with a leading AI company near you
               </p>
             </div>
 
@@ -1278,7 +1277,7 @@ export default function Home() {
                         {/* Question */}
                         <div className="flex-1 pt-2">
                           <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            What is the best AI company in Michigan?
+                            Which is the best Artificial Intelligence Company Near Me?
                           </h3>
                         </div>
                       </div>
@@ -1304,12 +1303,12 @@ export default function Home() {
                     </div>
                     <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
                       <p className="text-lg">
-                        <strong className="text-gray-900 font-semibold">Metic AI is recognized as Michigan's leading AI company</strong>, providing cutting-edge 
-                        artificial intelligence solutions to businesses across Detroit, Grand Rapids, Ann Arbor, and throughout Michigan.
+                        <strong className="text-gray-900 font-semibold">Metic AI is recognized as a leading AI company globally</strong>, providing cutting-edge 
+                        artificial intelligence solutions to businesses worldwide.
                       </p>
                       <p className="text-lg">
-                        With over 10 years of experience and 500+ successful Michigan client projects, we specialize in AI consulting, 
-                        machine learning, intelligent automation, and data analytics. Our Michigan-based team delivers world-class 
+                        With over 10 years of experience and 2100+ successful global client projects, we specialize in AI consulting, 
+                        machine learning, intelligent automation, and data analytics. Our global team delivers world-class 
                         AI solutions with local expertise and support.
                       </p>
                       
@@ -1350,7 +1349,7 @@ export default function Home() {
                         
                         <div className="flex-1 pt-2">
                           <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Where is Metic AI located in Michigan?
+                            Where is Metic AI located?
                           </h3>
                         </div>
                       </div>
@@ -1374,20 +1373,19 @@ export default function Home() {
                     <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
                       <p className="text-lg">
                         <strong className="text-gray-900 font-semibold">Metic AI has offices in both the United States and India</strong>, with our USA office at 300 Quail Ridge Dr NE, Ada, MI 49301 and our India office behind Manyata Tech Park, Hebbal, Bangalore 560077. 
-                        We serve businesses throughout Michigan including Grand Rapids, Ann Arbor, Lansing, Flint, Dearborn, 
-                        Troy, Sterling Heights, and all major Michigan cities.
+                        We serve businesses globally including companies in North America, Europe, Asia, and beyond.
                       </p>
                       <p className="text-lg">
-                        We provide both on-site and remote AI consulting services across Michigan, ensuring Michigan businesses 
+                        We provide both on-site and remote AI consulting services globally, ensuring businesses 
                         have access to expert AI solutions regardless of location.
                       </p>
                       
                       {/* Cities Grid */}
                       <div className="grid grid-cols-2 md:grid-cols-3 gap-3 pt-4">
-                        {['Detroit', 'Grand Rapids', 'Ann Arbor', 'Lansing', 'Dearborn', 'Troy'].map((city, idx) => (
+                        {['USA', 'Canada', 'UK', 'India', 'Australia', 'Germany'].map((location, idx) => (
                           <div key={idx} className="flex items-center gap-2 px-3 py-2 bg-primary-orange/5 rounded-lg">
                             <div className="w-2 h-2 bg-primary-orange rounded-full"></div>
-                            <span className="text-sm font-medium text-gray-900">{city}</span>
+                            <span className="text-sm font-medium text-gray-900">{location}</span>
                           </div>
                         ))}
                       </div>
@@ -1413,7 +1411,7 @@ export default function Home() {
                         
                         <div className="flex-1 pt-2">
                           <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            What AI services does Metic AI provide in Michigan?
+                            What AI services does Metic AI provide?
                           </h3>
                         </div>
                       </div>
@@ -1436,7 +1434,7 @@ export default function Home() {
                     </div>
                     <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
                       <p className="text-lg">
-                        <strong className="text-gray-900 font-semibold">Metic AI offers comprehensive AI services in Michigan</strong> including:
+                        <strong className="text-gray-900 font-semibold">Metic AI offers comprehensive AI services globally</strong> including:
                       </p>
                       
                       {/* Services Grid with Icons */}
@@ -1462,7 +1460,7 @@ export default function Home() {
                       </div>
                       
                       <p className="text-lg pt-2">
-                        We serve all industries across Michigan including <Link href="/artificial-intelligence-ai-services-in-michigan" className="text-primary-orange hover:text-dark-orange font-semibold underline">healthcare, manufacturing, finance, retail, and technology</Link>.
+                        We serve all industries globally including <Link href="/about" className="text-primary-orange hover:text-dark-orange font-semibold underline">healthcare, manufacturing, finance, retail, and technology</Link>.
                       </p>
                     </div>
                   </div>
@@ -1486,7 +1484,7 @@ export default function Home() {
                         
                         <div className="flex-1 pt-2">
                           <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            How much does AI implementation cost for Michigan businesses?
+                            How much does AI implementation cost for businesses?
                           </h3>
                         </div>
                       </div>
@@ -1509,7 +1507,7 @@ export default function Home() {
                     </div>
                     <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
                       <p className="text-lg">
-                        AI implementation costs for Michigan businesses vary based on project scope, complexity, and specific requirements. 
+                        AI implementation costs for businesses vary based on project scope, complexity, and specific requirements. 
                         <strong className="text-gray-900 font-semibold"> Metic AI offers flexible pricing options</strong> designed to fit businesses of all sizes.
                       </p>
                       
@@ -1571,7 +1569,7 @@ export default function Home() {
                       <div className="flex items-start gap-3 p-4 bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-lg mt-4">
                         <Rocket className="w-5 h-5 text-primary-orange flex-shrink-0 mt-0.5" />
                         <p className="text-sm font-medium text-gray-900">
-                          We provide <strong>free consultations to Michigan businesses</strong> to assess needs and provide accurate cost estimates. 
+                          We provide <strong>free consultations to businesses worldwide</strong> to assess needs and provide accurate cost estimates. 
                           Contact us today for a personalized quote.
                         </p>
                       </div>
@@ -1597,7 +1595,7 @@ export default function Home() {
                         
                         <div className="flex-1 pt-2">
                           <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Why choose a Michigan-based AI company?
+                            Why choose Metic AI as your AI company?
                           </h3>
                         </div>
                       </div>
@@ -1620,18 +1618,18 @@ export default function Home() {
                     </div>
                     <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
                       <p className="text-lg">
-                        Choosing a <strong className="text-gray-900 font-semibold">Michigan-based AI company like Metic AI</strong> offers several advantages:
+                        Choosing <strong className="text-gray-900 font-semibold">Metic AI as your AI company</strong> offers several advantages:
                       </p>
                       
                       {/* Benefits Grid */}
                       <div className="grid gap-3 pt-2">
                         {[
-                          { icon: Target, title: 'Local Expertise', desc: 'Deep understanding of Michigan business landscape and regulations' },
-                          { icon: Users, title: 'On-Site Support', desc: 'Face-to-face meetings and on-location implementation across Michigan' },
-                          { icon: GitBranch, title: 'Michigan Network', desc: 'Strong connections with local businesses, universities, and tech ecosystem' },
-                          { icon: Clock, title: 'Time Zone Alignment', desc: 'Same business hours for real-time collaboration' },
-                          { icon: Award, title: 'Community Investment', desc: "Supporting Michigan's economy and tech growth" },
-                          { icon: Shield, title: 'Industry Knowledge', desc: "Expertise in Michigan's key industries (automotive, manufacturing, healthcare)" }
+                          { icon: Target, title: 'Global Expertise', desc: 'Deep understanding of diverse business landscapes and international regulations' },
+                          { icon: Users, title: 'Flexible Support', desc: 'Remote and on-site implementation services available worldwide' },
+                          { icon: GitBranch, title: 'Global Network', desc: 'Strong connections with international businesses, universities, and tech ecosystems' },
+                          { icon: Clock, title: 'Multi-Timezone', desc: 'Global coverage for real-time collaboration across time zones' },
+                          { icon: Award, title: 'Innovation Focus', desc: "Supporting global economy and technological advancement" },
+                          { icon: Shield, title: 'Industry Knowledge', desc: "Expertise across key industries (automotive, manufacturing, healthcare, fintech)" }
                         ].map((benefit, idx) => {
                           const Icon = benefit.icon;
                           return (
@@ -1649,7 +1647,7 @@ export default function Home() {
                       </div>
                       
                       <p className="text-lg pt-2">
-                        Metic AI combines world-class AI expertise with local Michigan presence for the best of both worlds.
+                        Metic AI combines world-class AI expertise with global presence for the best of both worlds.
                       </p>
                     </div>
                   </div>
@@ -1696,7 +1694,7 @@ export default function Home() {
                     </div>
                     <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
                       <p className="text-lg">
-                        Implementation timelines for <strong className="text-gray-900 font-semibold">AI solutions in Michigan</strong> vary based on 
+                        Implementation timelines for <strong className="text-gray-900 font-semibold">AI solutions</strong> vary based on 
                         project complexity, but Metic AI is known for rapid deployment without compromising quality.
                       </p>
                       
@@ -1727,7 +1725,7 @@ export default function Home() {
                       </div>
                       
                       <p className="text-lg">
-                        Our Michigan-based team ensures efficient project delivery with regular updates, agile methodologies, 
+                        Our global team ensures efficient project delivery with regular updates, agile methodologies, 
                         and hands-on support throughout the implementation process.
                       </p>
                     </div>
@@ -1752,7 +1750,7 @@ export default function Home() {
                         
                         <div className="flex-1 pt-2">
                           <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            What industries does Metic AI serve in Michigan?
+                            What industries does Metic AI serve?
                           </h3>
                         </div>
                       </div>
@@ -1775,7 +1773,7 @@ export default function Home() {
                     </div>
                     <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
                       <p className="text-lg">
-                        As Michigan's premier <strong className="text-gray-900 font-semibold">artificial intelligence company</strong>, 
+                        As a premier <strong className="text-gray-900 font-semibold">artificial intelligence company</strong>, 
                         Metic AI serves businesses across all major industries throughout the state:
                       </p>
                       
@@ -1862,7 +1860,7 @@ export default function Home() {
                         
                         <div className="flex-1 pt-2">
                           <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            What ROI can Michigan businesses expect from AI implementation?
+                            What ROI can businesses expect from AI implementation?
                           </h3>
                         </div>
                       </div>
@@ -1885,7 +1883,7 @@ export default function Home() {
                     </div>
                     <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
                       <p className="text-lg">
-                        <strong className="text-gray-900 font-semibold">Michigan businesses working with Metic AI typically see significant ROI</strong> within 
+                        <strong className="text-gray-900 font-semibold">Businesses working with Metic AI typically see significant ROI</strong> within 
                         6-12 months. Our AI solutions deliver measurable value across multiple dimensions:
                       </p>
                       
@@ -1932,7 +1930,7 @@ export default function Home() {
                       </div>
                       
                       <p className="text-lg bg-primary-orange/10 p-4 rounded-lg border-l-4 border-primary-orange">
-                        <strong>ROI Guarantee:</strong> We work with Michigan businesses to establish clear KPIs and success metrics, 
+                        <strong>ROI Guarantee:</strong> We work with businesses worldwide to establish clear KPIs and success metrics, 
                         ensuring every AI project delivers tangible business value and positive returns.
                       </p>
                     </div>
@@ -1957,7 +1955,7 @@ export default function Home() {
                         
                         <div className="flex-1 pt-2">
                           <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            How do I get started with AI for my Michigan business?
+                            How do I get started with AI for my business?
                           </h3>
                         </div>
                       </div>
@@ -1992,7 +1990,7 @@ export default function Home() {
                           <div>
                             <h4 className="font-bold text-gray-900 mb-2">Free Consultation</h4>
                             <p className="text-gray-600">
-                              Schedule a complimentary 30-minute call with our Michigan AI experts to discuss your business challenges, 
+                              Schedule a complimentary 30-minute call with our AI experts to discuss your business challenges, 
                               goals, and explore AI opportunities. No commitment required.
                             </p>
                           </div>
@@ -2006,7 +2004,7 @@ export default function Home() {
                             <h4 className="font-bold text-gray-900 mb-2">AI Readiness Assessment</h4>
                             <p className="text-gray-600">
                               We evaluate your data infrastructure, identify high-impact AI use cases, and create a customized 
-                              roadmap aligned with your Michigan business objectives.
+                              roadmap aligned with your business objectives.
                             </p>
                           </div>
                         </div>
@@ -2031,7 +2029,7 @@ export default function Home() {
                           <div>
                             <h4 className="font-bold text-gray-900 mb-2">Full Implementation</h4>
                             <p className="text-gray-600">
-                              Scale successful pilots to production with our Michigan-based team providing ongoing support, 
+                              Scale successful pilots to production with our global team providing ongoing support, 
                               training, and optimization.
                             </p>
                           </div>
@@ -2050,7 +2048,7 @@ export default function Home() {
                 </div>
               </details>
 
-              {/* FAQ Item 10 - Michigan Advantage */}
+              {/* FAQ Item 10 - Global Excellence */}
               <details className="group relative">
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
@@ -2090,18 +2088,18 @@ export default function Home() {
                     </div>
                     <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
                       <p className="text-lg">
-                        <strong className="text-gray-900 font-semibold">Metic AI's Michigan advantage</strong> goes beyond technical expertise. 
-                        As the state's premier <strong className="text-primary-orange">artificial intelligence company</strong>, we offer unique value:
+                        <strong className="text-gray-900 font-semibold">Metic AI's global excellence</strong> sets us apart as the premier 
+                        <strong className="text-primary-orange"> artificial intelligence company near you</strong>:
                       </p>
                       
                       <div className="grid gap-3">
                         <div className="flex items-start gap-3 p-4 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg">
                           <CheckCircle className="w-6 h-6 text-primary-orange flex-shrink-0 mt-0.5" />
                           <div>
-                            <h4 className="font-bold text-gray-900 mb-1">100% Michigan-Based Team</h4>
+                            <h4 className="font-bold text-gray-900 mb-1">Global Expert Team</h4>
                             <p className="text-sm text-gray-600">
-                              All our AI engineers, data scientists, and support staff work from Michigan offices. No offshore outsourcing, 
-                              just local expertise and accountability.
+                              Our AI engineers, data scientists, and support staff operate globally with expertise 
+                              across multiple time zones and industries.
                             </p>
                           </div>
                         </div>
@@ -2109,10 +2107,10 @@ export default function Home() {
                         <div className="flex items-start gap-3 p-4 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg">
                           <CheckCircle className="w-6 h-6 text-primary-orange flex-shrink-0 mt-0.5" />
                           <div>
-                            <h4 className="font-bold text-gray-900 mb-1">Deep Michigan Industry Knowledge</h4>
+                            <h4 className="font-bold text-gray-900 mb-1">Cross-Industry Excellence</h4>
                             <p className="text-sm text-gray-600">
-                              10+ years serving Michigan businesses means we understand the unique challenges of automotive, manufacturing, 
-                              healthcare, and other key Michigan industries.
+                              10+ years serving businesses globally across automotive, manufacturing, healthcare, fintech, 
+                              and emerging technology sectors.
                             </p>
                           </div>
                         </div>
@@ -2120,9 +2118,9 @@ export default function Home() {
                         <div className="flex items-start gap-3 p-4 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg">
                           <CheckCircle className="w-6 h-6 text-primary-orange flex-shrink-0 mt-0.5" />
                           <div>
-                            <h4 className="font-bold text-gray-900 mb-1">Proven Track Record</h4>
+                            <h4 className="font-bold text-gray-900 mb-1">Proven Global Track Record</h4>
                             <p className="text-sm text-gray-600">
-                              500+ successful AI implementations across Michigan with an average 95% client satisfaction rate and 
+                              2100+ successful AI implementations worldwide with an average 95% client satisfaction rate and 
                               documented ROI in every project.
                             </p>
                           </div>
@@ -2131,9 +2129,9 @@ export default function Home() {
                         <div className="flex items-start gap-3 p-4 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg">
                           <CheckCircle className="w-6 h-6 text-primary-orange flex-shrink-0 mt-0.5" />
                           <div>
-                            <h4 className="font-bold text-gray-900 mb-1">Partnership Approach</h4>
+                            <h4 className="font-bold text-gray-900 mb-1">Long-term Partnership Approach</h4>
                             <p className="text-sm text-gray-600">
-                              We're not just vendors—we're your long-term AI partners, invested in your Michigan business success with 
+                              We're not just vendors—we're your long-term AI partners, invested in your business success with 
                               ongoing support, training, and optimization.
                             </p>
                           </div>
@@ -2142,19 +2140,19 @@ export default function Home() {
                         <div className="flex items-start gap-3 p-4 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg">
                           <CheckCircle className="w-6 h-6 text-primary-orange flex-shrink-0 mt-0.5" />
                           <div>
-                            <h4 className="font-bold text-gray-900 mb-1">Transparent Pricing</h4>
+                            <h4 className="font-bold text-gray-900 mb-1">Transparent Global Pricing</h4>
                             <p className="text-sm text-gray-600">
-                              No hidden fees, clear project scopes, and flexible engagement models designed to fit Michigan business budgets.
+                              No hidden fees, clear project scopes, and flexible engagement models designed to fit diverse business budgets.
                             </p>
                           </div>
                         </div>
                       </div>
                       
                       <div className="bg-gradient-to-r from-primary-orange to-secondary-orange text-white p-6 rounded-xl">
-                        <p className="font-bold mb-2">🏆 Award-Winning Excellence</p>
+                        <p className="font-bold mb-2">🏆 Award-Winning Global Excellence</p>
                         <p className="text-white/90 text-sm">
-                          Recognized as "Michigan's Best AI Company" for 3 consecutive years. Trusted by Fortune 500 companies 
-                          and innovative startups across Detroit, Grand Rapids, Ann Arbor, and beyond.
+                          Recognized as a leading AI company for 3 consecutive years. Trusted by Fortune 500 companies 
+                          and innovative startups across multiple continents.
                         </p>
                       </div>
                     </div>
@@ -2169,7 +2167,7 @@ export default function Home() {
                 <Lightbulb className="w-12 h-12 text-primary-orange animate-pulse" />
                 <h3 className="text-2xl font-bold text-gray-900">Still Have Questions?</h3>
                 <p className="text-gray-600 max-w-md">
-                  Our Michigan AI experts are here to help. Get personalized answers and a free consultation.
+                  Our AI experts are here to help. Get personalized answers and a free consultation.
                 </p>
                 <Link href="/contact">
                   <Button variant="primary" size="lg" className="group shadow-xl">
@@ -2193,10 +2191,10 @@ export default function Home() {
         <div className="container px-4 md:px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl md:text-5xl font-bold mb-6">
-              Ready to Transform Your Michigan Business with AI?
+              Ready to Transform Your Business with AI?
             </h2>
             <p className="text-xl mb-8 text-white/90">
-              Join 500+ Michigan companies already leveraging Metic AI to gain competitive advantage. 
+              Join 2100+ companies worldwide already leveraging Metic AI to gain competitive advantage. 
               Get your <strong>free AI consultation</strong> today.
             </p>
             
@@ -2229,7 +2227,7 @@ export default function Home() {
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-5 h-5" />
-                <span>Michigan-Based Team</span>
+                <span>Global Expert Team</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-5 h-5" />
