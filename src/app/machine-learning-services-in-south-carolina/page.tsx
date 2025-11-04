@@ -20,49 +20,215 @@ import {
   PieChart,
   LineChart,
   Layers,
-  Code
+  Code,
+  Calendar,
+  Phone,
+  ChevronDown,
 } from "lucide-react";
 
 export const metadata = {
-  title: "Machine Learning Services in South Carolina | ML Solutions & Model Development - Metic.ai",
-  description: "Professional machine learning services in South Carolina including predictive analytics, classification models, regression analysis, clustering, neural networks, and enterprise ML solutions. 3x faster delivery and 60% cost savings.",
-  keywords: "machine learning services South Carolina, predictive analytics South Carolina, classification models South Carolina, regression analysis South Carolina, neural networks South Carolina, ML model development South Carolina, data science South Carolina, artificial intelligence South Carolina, predictive modeling South Carolina, supervised learning South Carolina, unsupervised learning South Carolina",
-  authors: [{ name: "Metic.ai Machine Learning Team" }],
-  robots: "index, follow",
+  title: "Machine Learning Company In South Carolina | #1 ML Company In SC - Metic.ai",
+  description: "Leading Machine Learning Company In South Carolina with 2100+ successful ML implementations. Expert machine learning services, AI solutions & predictive analytics. Transform your business with 60% cost savings & 3x faster delivery.",
+  keywords: [
+    "Machine Learning Company In South Carolina",
+    "ML Company In South Carolina",
+    "Machine Learning Services In South Carolina",
+    "Machine Learning Firm In South Carolina",
+    "AI Company In South Carolina",
+    "Machine Learning Development Company South Carolina",
+    "Best Machine Learning Company South Carolina",
+    "Top ML Company SC",
+    "Predictive Analytics Company South Carolina",
+    "Data Science Company South Carolina",
+    "AI Services South Carolina",
+    "ML Solutions South Carolina",
+    "Machine Learning Consulting South Carolina",
+    "Deep Learning Company South Carolina",
+    "Neural Networks South Carolina",
+    "Big Data Analytics South Carolina"
+  ],
+  authors: [{ name: "Metic.ai - Machine Learning Company In South Carolina" }],
+  robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
-    title: "Machine Learning Services in South Carolina | ML Solutions & Model Development - Metic.ai",
-    description: "Professional machine learning services in South Carolina including predictive analytics, classification models, and enterprise ML solutions. 3x faster delivery and 60% cost savings.",
+    title: "Machine Learning Company In South Carolina | #1 ML Company In SC - Metic.ai",
+    description: "Leading Machine Learning Company In South Carolina with 2100+ successful ML implementations. Expert machine learning services & AI solutions.",
     url: "https://metic.ai/machine-learning-services-in-south-carolina/",
+    siteName: "Metic.ai - Machine Learning Company In South Carolina",
     type: "website",
+    locale: "en_US",
     images: [
       {
         url: "https://metic.ai/og-machine-learning-south-carolina.jpg",
         width: 1200,
         height: 630,
-        alt: "Machine Learning Services in South Carolina by Metic.ai",
+        alt: "Machine Learning Company In South Carolina - Metic.ai",
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Machine Learning Company In South Carolina | #1 ML Company In SC - Metic.ai",
+    description: "Leading Machine Learning Company In South Carolina with 2100+ successful ML implementations. Expert machine learning services & AI solutions.",
+    images: ["https://metic.ai/og-machine-learning-south-carolina.jpg"],
   },
   alternates: {
     canonical: "https://metic.ai/machine-learning-services-in-south-carolina/",
   },
+  other: {
+    "geo.region": "US-SC",
+    "geo.placename": "South Carolina",
+    "geo.position": "33.8361;-81.1637",
+    "ICBM": "33.8361, -81.1637"
+  }
 };
 
 export default function MachineLearningSouthCarolinaPage() {
+  // FAQ Data for ASO Optimization
+  const faqData = [
+    {
+      question: "Which is the best Machine Learning Company In South Carolina?",
+      answer: "Metic.ai is recognized as the leading Machine Learning Company In South Carolina with 2100+ successful ML implementations. Our ML Company In South Carolina specializes in enterprise-grade AI solutions, delivering 60% cost savings and 3x faster project delivery compared to traditional development approaches for Palmetto State businesses."
+    },
+    {
+      question: "What services does your Machine Learning Company In South Carolina offer?",
+      answer: "Our Machine Learning Company In South Carolina offers comprehensive ML services including predictive analytics, computer vision, natural language processing, recommendation systems, fraud detection, automated decision-making, and custom AI model development tailored for South Carolina's manufacturing, agriculture, automotive, and aerospace sectors."
+    },
+    {
+      question: "How much does it cost to hire a Machine Learning Company In South Carolina?",
+      answer: "As a leading Machine Learning Company In South Carolina, we offer flexible pricing starting from $15,000 for basic ML projects. Our ML Company In South Carolina provides custom quotes based on project complexity, with most clients achieving 60% cost savings compared to building in-house ML teams."
+    },
+    {
+      question: "How long does a typical machine learning project take in South Carolina?",
+      answer: "Our Machine Learning Company In South Carolina delivers projects 3x faster than industry average. Simple ML models take 4-6 weeks, while complex AI systems require 3-6 months. We use agile methodologies to ensure rapid deployment and continuous improvement of your ML solutions."
+    },
+    {
+      question: "Do you provide ongoing support after ML model deployment in South Carolina?",
+      answer: "Yes, our Machine Learning Company In South Carolina provides comprehensive post-deployment support including model monitoring, performance optimization, retraining, and scaling. We ensure your ML models maintain peak performance with 24/7 technical support and regular updates."
+    },
+    {
+      question: "What industries does your Machine Learning Company In South Carolina serve?",
+      answer: "Our Machine Learning Company In South Carolina serves diverse industries including manufacturing (BMW, Michelin), aerospace (Boeing), automotive suppliers, agriculture and agribusiness, textiles, tourism and hospitality, and port logistics. We have successfully implemented ML solutions for 2100+ projects across various South Carolina business sectors."
+    }
+  ];
+
+  // Structured Data for FAQ Schema
+  const faqStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqData.map(faq => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
+
+  // Organization Schema with Location Data
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Metic.ai - Machine Learning Company In South Carolina",
+    "description": "Leading Machine Learning Company In South Carolina with 2100+ successful ML implementations. Expert AI services and solutions for Palmetto State businesses.",
+    "url": "https://metic.ai/machine-learning-services-in-south-carolina/",
+    "logo": "https://metic.ai/logo.png",
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "South Carolina",
+      "addressCountry": "US"
+    },
+    "serviceArea": {
+      "@type": "State",
+      "name": "South Carolina"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Machine Learning Services South Carolina",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Machine Learning Development",
+            "description": "Custom ML model development and deployment"
+          }
+        },
+        {
+          "@type": "Offer", 
+          "itemOffered": {
+            "@type": "Service",
+            "name": "AI Consulting",
+            "description": "Strategic AI consulting for South Carolina businesses"
+          }
+        }
+      ]
+    }
+  };
+
+  // Article Schema for Content Authority
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Machine Learning Company In South Carolina | Leading AI Services",
+    "description": "Comprehensive guide to machine learning services in South Carolina by the leading ML company with 2100+ successful implementations.",
+    "author": {
+      "@type": "Organization",
+      "name": "Metic.ai"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Metic.ai",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://metic.ai/logo.png"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://metic.ai/machine-learning-services-in-south-carolina/"
+    }
+  };
+
   return (
     <>
-      {/* Hero Section */}
+      {/* Structured Data - Triple Schema Implementation */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(faqStructuredData)
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(organizationSchema)
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(articleSchema)
+        }}
+      />
+      {/* Hero Section - Primary Target Keyword Focus */}
       <section className="bg-gradient-to-b from-white to-green-50 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              <span className="text-primary-orange">Machine Learning Services</span> in South Carolina
+              <strong>Machine Learning Company In South Carolina</strong> | Leading ML Company In SC
             </h1>
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your South Carolina business with advanced machine learning solutions. From predictive 
-              analytics to intelligent automation, we build ML models that drive growth and efficiency 
-              with 3x faster delivery and 60% cost savings.
+            <p className="text-xl text-gray-600 mb-6 max-w-3xl mx-auto">
+              Looking for the best <strong>Machine Learning Company In South Carolina</strong>? Metic.ai is the premier 
+              <strong> Machine Learning Company In South Carolina</strong> with 2100+ successful ML implementations. 
+              We deliver expert machine learning services, AI solutions, and predictive analytics to transform Palmetto State businesses.
             </p>
+            <div className="mb-8 flex flex-wrap justify-center gap-2">
+              <span className="px-3 py-1 bg-primary-orange/10 text-primary-orange rounded-full text-sm font-medium">Machine Learning Services SC</span>
+              <span className="px-3 py-1 bg-primary-orange/10 text-primary-orange rounded-full text-sm font-medium">ML Firm South Carolina</span>
+              <span className="px-3 py-1 bg-primary-orange/10 text-primary-orange rounded-full text-sm font-medium">AI Company SC</span>
+              <span className="px-3 py-1 bg-primary-orange/10 text-primary-orange rounded-full text-sm font-medium">Data Science South Carolina</span>
+            </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="#consultation">
                 <Button variant="primary" size="lg">
@@ -74,6 +240,50 @@ export default function MachineLearningSouthCarolinaPage() {
                   Explore ML Solutions
                 </Button>
               </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* About Section - Company Authority */}
+      <section className="py-16 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold mb-6">
+                About Our <span className="text-primary-orange">Machine Learning Company In South Carolina</span>
+              </h2>
+              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
+            </div>
+            
+            <div className="prose prose-lg max-w-none text-gray-600">
+              <p className="text-lg leading-relaxed mb-6">
+                As the leading <strong>Machine Learning Company In South Carolina</strong>, Metic.ai has established itself as the 
+                premier destination for businesses seeking cutting-edge ML solutions in the Palmetto State. Our <strong>Machine Learning Firm In South Carolina</strong> 
+                specializes in delivering enterprise-grade AI solutions that drive measurable business outcomes for South Carolina's diverse economy.
+              </p>
+              
+              <p className="text-lg leading-relaxed mb-6">
+                Founded with the vision to democratize AI technology, our <strong>Machine Learning Company In South Carolina</strong> 
+                has successfully implemented over 2,100 ML projects across diverse industries including manufacturing (BMW, Michelin), 
+                aerospace (Boeing), automotive suppliers, agriculture, textiles, and port logistics. We combine deep technical expertise with 
+                South Carolina's business landscape understanding to deliver solutions that truly transform operations.
+              </p>
+              
+              <div className="grid md:grid-cols-3 gap-8 my-12">
+                <div className="text-center p-6 bg-gray-50 rounded-lg">
+                  <div className="text-3xl font-bold text-primary-orange mb-2">2100+</div>
+                  <p className="font-semibold">ML Projects Completed</p>
+                </div>
+                <div className="text-center p-6 bg-gray-50 rounded-lg">
+                  <div className="text-3xl font-bold text-primary-orange mb-2">98%</div>
+                  <p className="font-semibold">Client Success Rate</p>
+                </div>
+                <div className="text-center p-6 bg-gray-50 rounded-lg">
+                  <div className="text-3xl font-bold text-primary-orange mb-2">60%</div>
+                  <p className="font-semibold">Average Cost Savings</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -386,42 +596,74 @@ export default function MachineLearningSouthCarolinaPage() {
         </div>
       </section>
 
-      {/* CTA Section */}
+      {/* FAQ Section - ASO Optimization */}
+      <section className="py-16 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold mb-4">
+                Frequently Asked Questions About <span className="text-primary-orange">Machine Learning Company In South Carolina</span>
+              </h2>
+              <p className="text-gray-600">
+                Get answers to common questions about our machine learning services in South Carolina
+              </p>
+            </div>
+            
+            <div className="space-y-6">
+              {faqData.map((faq, index) => (
+                <details key={index} className="bg-white rounded-lg shadow-sm p-6 group">
+                  <summary className="cursor-pointer font-semibold text-lg text-gray-800 flex justify-between items-center">
+                    {faq.question}
+                    <ChevronDown className="w-5 h-5 group-open:rotate-180 transition-transform" />
+                  </summary>
+                  <div className="mt-4 text-gray-600 leading-relaxed">
+                    {faq.answer}
+                  </div>
+                </details>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section - Enhanced with Keywords */}
       <section id="consultation" className="py-20 bg-primary-orange text-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-              Ready to Transform Your South Carolina Business with Machine Learning?
+              Ready to Partner with the Top <span className="underline">Machine Learning Company In South Carolina</span>?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join leading South Carolina companies leveraging our advanced machine learning solutions. 
-              Start your ML transformation today with 3x faster delivery and 60% cost savings.
+              Join 2100+ businesses that chose our <strong>Machine Learning Company In South Carolina</strong> for their AI transformation. 
+              Get a free consultation and discover how our ML solutions can revolutionize your Palmetto State operations.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
                 <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100">
-                  Start ML Project
+                  <Calendar className="w-5 h-5 mr-2" />
+                  Schedule Free ML Consultation
                 </Button>
               </Link>
               <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  Call: +91 7892518414
+                  <Phone className="w-5 h-5 mr-2" />
+                  Call South Carolina ML Experts: +91 7892518414
                 </Button>
               </Link>
             </div>
             
             <div className="mt-12 grid md:grid-cols-3 gap-8 text-center">
               <div>
-                <div className="text-2xl font-bold mb-2">300+</div>
-                <p className="text-orange-100">ML Models Deployed</p>
+                <div className="text-2xl font-bold mb-2">2100+</div>
+                <p className="text-orange-100">ML Projects Completed</p>
               </div>
               <div>
-                <div className="text-2xl font-bold mb-2">95%</div>
-                <p className="text-orange-100">Model Accuracy Rate</p>
+                <div className="text-2xl font-bold mb-2">98%</div>
+                <p className="text-orange-100">Client Success Rate</p>
               </div>
               <div>
-                <div className="text-2xl font-bold mb-2">3x</div>
-                <p className="text-orange-100">Faster Delivery</p>
+                <div className="text-2xl font-bold mb-2">60%</div>
+                <p className="text-orange-100">Average Cost Savings</p>
               </div>
             </div>
           </div>
