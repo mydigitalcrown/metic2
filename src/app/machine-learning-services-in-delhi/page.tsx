@@ -94,7 +94,7 @@ export default function MachineLearningDelhiPage() {
         },
         "contactPoint": {
           "@type": "ContactPoint",
-          "telephone": "+91-78925-18414",
+          "telephone": "+91 7892518414",
           "contactType": "customer service",
           "areaServed": "Delhi"
         },
@@ -782,7 +782,7 @@ export default function MachineLearningDelhiPage() {
               </Link>
               <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  Call Delhi Team: +91-78925-18414
+                  Call Delhi Team: +91 7892518414
                 </Button>
               </Link>
             </div>

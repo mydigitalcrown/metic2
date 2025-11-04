@@ -109,7 +109,7 @@ export default function MachineLearningIllinoisPage() {
                 },
                 "contactPoint": {
                   "@type": "ContactPoint",
-                  "telephone": "+91-78925-18414",
+                  "telephone": "+91 7892518414",
                   "contactType": "Business",
                   "availableLanguage": ["English"]
                 },

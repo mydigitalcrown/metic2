@@ -13,20 +13,16 @@ export const organizationSchema = {
   "address": [
     {
       "@type": "PostalAddress",
-      "streetAddress": "ADA",
-      "addressLocality": "Michigan",
-      "addressCountry": "USA"
-    },
-    {
-      "@type": "PostalAddress",
-      "streetAddress": "Bangalore",
-      "addressLocality": "Karnataka",
+      "streetAddress": "Padmamba Nilaya, 250, 7th C Main Rd, 3rd Stage 4th Block, West of Chord Road 1st Stage, Basaveshwar Nagar",
+      "addressLocality": "Bengaluru",
+      "addressRegion": "Karnataka",
+      "postalCode": "560079",
       "addressCountry": "India"
     }
   ],
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+91-78925-18414",
+    "telephone": "+91 7892518414",
     "email": "Hello@metic.ai",
     "contactType": "customer service"
   },

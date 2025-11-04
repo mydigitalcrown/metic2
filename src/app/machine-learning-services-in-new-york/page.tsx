@@ -607,7 +607,7 @@ export default function MachineLearningNewYorkPage() {
               </Link>
               <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  Call: +91-78925-18414
+                  Call: +91 7892518414
                 </Button>
               </Link>
             </div>
@@ -705,7 +705,7 @@ export default function MachineLearningNewYorkPage() {
               },
               "contactPoint": {
                 "@type": "ContactPoint",
-                "telephone": "+91-78925-18414",
+                "telephone": "+91 7892518414",
                 "contactType": "customer service",
                 "availableLanguage": ["English"]
               },

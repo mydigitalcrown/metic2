@@ -163,7 +163,7 @@ export default function AIServicesAhmedabadPage() {
             ],
             "logo": "https://metic.ai/logo.png",
             "image": ["https://metic.ai/ai-company-ahmedabad.jpg"],
-            "telephone": "+91-78925-18414",
+            "telephone": "+91 7892518414",
             "email": "contact@metic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
@@ -266,7 +266,7 @@ export default function AIServicesAhmedabadPage() {
             "openingHours": "Mo-Fr 09:00-18:00",
             "contactPoint": {
               "@type": "ContactPoint",
-              "telephone": "+91-78925-18414",
+              "telephone": "+91 7892518414",
               "contactType": "Customer Service",
               "areaServed": "IN",
               "availableLanguage": ["English", "Hindi", "Gujarati"]
@@ -378,7 +378,7 @@ export default function AIServicesAhmedabadPage() {
               <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="w-full sm:w-auto">
                   <Phone className="w-4 h-4 mr-2" />
-                  Call: +91-78925-18414
+                  Call: +91 7892518414
                 </Button>
               </Link>
             </div>
@@ -815,7 +815,7 @@ export default function AIServicesAhmedabadPage() {
               </Link>
               <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  Call: +91-78925-18414
+                  Call: +91 7892518414
                 </Button>
               </Link>
             </div>

@@ -44,10 +44,11 @@ export default function Home() {
             "logo": "https://metic.ai/logo.png",
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "Detroit",
-              "addressRegion": "MI",
-              "addressCountry": "US",
-              "streetAddress": "123 AI Boulevard"
+              "streetAddress": "Padmamba Nilaya, 250, 7th C Main Rd, 3rd Stage 4th Block, West of Chord Road 1st Stage, Basaveshwar Nagar",
+              "addressLocality": "Bengaluru",
+              "addressRegion": "Karnataka",
+              "postalCode": "560079",
+              "addressCountry": "India"
             },
             "geo": {
               "@type": "GeoCoordinates",
@@ -83,11 +84,11 @@ export default function Home() {
             "description": "Michigan's leading artificial intelligence company specializing in AI solutions, machine learning, and intelligent automation for businesses across Detroit, Grand Rapids, Ann Arbor, and throughout Michigan.",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "123 AI Boulevard",
-              "addressLocality": "Detroit",
-              "addressRegion": "MI",
-              "postalCode": "48201",
-              "addressCountry": "US"
+              "streetAddress": "Padmamba Nilaya, 250, 7th C Main Rd, 3rd Stage 4th Block, West of Chord Road 1st Stage, Basaveshwar Nagar",
+              "addressLocality": "Bengaluru",
+              "addressRegion": "Karnataka",
+              "postalCode": "560079",
+              "addressCountry": "India"
             },
             "geo": {
               "@type": "GeoCoordinates",
@@ -95,7 +96,7 @@ export default function Home() {
               "longitude": "-83.0458"
             },
             "url": "https://metic.ai",
-            "telephone": "+1-555-123-4567",
+            "telephone": "+91 7892518414",
             "priceRange": "$$$",
             "openingHoursSpecification": [
               {

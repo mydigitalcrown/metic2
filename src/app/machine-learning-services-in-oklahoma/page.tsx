@@ -589,7 +589,7 @@ export default function MachineLearningOklahomaPage() {
               </Link>
               <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  Call Oklahoma ML Experts: +91-78925-18414
+                  Call Oklahoma ML Experts: +91 7892518414
                 </Button>
               </Link>
             </div>
@@ -632,15 +632,18 @@ export default function MachineLearningOklahomaPage() {
                 },
                 "contactPoint": {
                   "@type": "ContactPoint",
-                  "telephone": "+91-78925-18414",
+                  "telephone": "+91 7892518414",
                   "contactType": "customer service",
                   "areaServed": ["Oklahoma", "Oklahoma City", "Tulsa", "Norman", "United States"],
                   "availableLanguage": "English"
                 },
                 "address": {
                   "@type": "PostalAddress",
-                  "addressRegion": "Oklahoma",
-                  "addressCountry": "US"
+                  "streetAddress": "Padmamba Nilaya, 250, 7th C Main Rd, 3rd Stage 4th Block, West of Chord Road 1st Stage, Basaveshwar Nagar",
+                  "addressLocality": "Bengaluru",
+                  "addressRegion": "Karnataka",
+                  "postalCode": "560079",
+                  "addressCountry": "India"
                 },
                 "sameAs": [
                   "https://www.linkedin.com/company/metic-ai/",

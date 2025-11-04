@@ -95,7 +95,7 @@ export default function MachineLearningMinnesotaPage() {
     "logo": "https://metic.ai/logo.png",
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "+91-78925-18414",
+      "telephone": "+91 7892518414",
       "contactType": "customer service",
       "areaServed": "Minnesota",
       "availableLanguage": "English"
@@ -827,7 +827,7 @@ export default function MachineLearningMinnesotaPage() {
               </Link>
               <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  Call Minnesota ML Experts: +91-78925-18414
+                  Call Minnesota ML Experts: +91 7892518414
                 </Button>
               </Link>
             </div>

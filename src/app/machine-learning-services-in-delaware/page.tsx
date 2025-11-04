@@ -94,7 +94,7 @@ export default function MachineLearningDelawarePage() {
         },
         "contactPoint": {
           "@type": "ContactPoint",
-          "telephone": "+91-78925-18414",
+          "telephone": "+91 7892518414",
           "contactType": "customer service",
           "areaServed": "Delaware"
         },
@@ -782,7 +782,7 @@ export default function MachineLearningDelawarePage() {
               </Link>
               <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  Call Delaware Team: +91-78925-18414
+                  Call Delaware Team: +91 7892518414
                 </Button>
               </Link>
             </div>
