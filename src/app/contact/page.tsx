@@ -52,10 +52,10 @@ export default function ContactPage() {
                   <div>
                     <p className="font-medium">Call Us</p>
                     <a 
-                      href="tel:+15551234567" 
+                      href="tel:+917892518414" 
                       className="text-primary-orange hover:underline"
                     >
-                      (555) 123-4567
+                      +91 7892518414
                     </a>
                   </div>
                 </div>
@@ -67,9 +67,9 @@ export default function ContactPage() {
                   <div>
                     <p className="font-medium">Visit Our Office</p>
                     <p className="text-gray-600">
-                      123 AI Boulevard<br />
-                      Innovation District<br />
-                      San Francisco, CA 94103
+                      Padmamba Nilaya, 250, 7th C Main Rd<br />
+                      3rd Stage 4th Block, West of Chord Road 1st Stage<br />
+                      Basaveshwar Nagar, Bengaluru, Karnataka 560079
                     </p>
                   </div>
                 </div>

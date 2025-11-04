@@ -23,7 +23,7 @@ Starting from **95/100**, we've implemented **8 critical SEO enhancements** to a
   "@type": "LocalBusiness",
   "name": "Metic AI",
   "address": {
-    "streetAddress": "123 AI Boulevard",
+    "streetAddress": "Padmamba Nilaya, 250, 7th C Main Rd, 3rd Stage 4th Block, West of Chord Road 1st Stage, Basaveshwar Nagar",
     "addressLocality": "Detroit",
     "addressRegion": "MI",
     "postalCode": "48201",
@@ -33,7 +33,7 @@ Starting from **95/100**, we've implemented **8 critical SEO enhancements** to a
     "latitude": "42.3314",
     "longitude": "-83.0458"
   },
-  "telephone": "+1-555-123-4567",
+  "telephone": "+91 7892518414",
   "priceRange": "$$$",
   "openingHoursSpecification": "Mon-Fri 9AM-6PM",
   "areaServed": ["Detroit", "Grand Rapids", "Ann Arbor", "Michigan"],

@@ -73,10 +73,10 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-medium mb-4">Contact</h3>
             <ul className="space-y-2 text-gray-400">
-              <li>123 AI Boulevard</li>
-              <li>Innovation District</li>
+              <li>Padmamba Nilaya, 250, 7th C Main Rd</li>
+              <li>Basaveshwar Nagar, Bengaluru</li>
               <li>contact@metic.ai</li>
-              <li>(555) 123-4567</li>
+              <li>+91 7892518414</li>
             </ul>
           </div>
         </div>

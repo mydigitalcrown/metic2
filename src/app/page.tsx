@@ -1171,7 +1171,7 @@ export default function Home() {
                       "name": "How do I get started with AI for my Michigan business?",
                       "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Getting started with Metic AI is simple: 1) Schedule a free 30-minute consultation with our Michigan AI experts, 2) Complete an AI Readiness Assessment to identify high-impact use cases, 3) Start with a Proof of Concept pilot project to demonstrate AI value quickly, 4) Scale successful pilots to production with ongoing support and training. Contact our Michigan office at (555) 123-4567 to begin your AI transformation."
+                        "text": "Getting started with Metic AI is simple: 1) Schedule a free 30-minute consultation with our AI experts, 2) Complete an AI Readiness Assessment to identify high-impact use cases, 3) Start with a Proof of Concept pilot project to demonstrate AI value quickly, 4) Scale successful pilots to production with ongoing support and training. Contact our office at +91 7892518414 to begin your AI transformation."
                       }
                     },
                     {
@@ -1973,7 +1973,7 @@ export default function Home() {
                       <div className="bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 p-6 rounded-xl border-l-4 border-primary-orange">
                         <p className="font-semibold text-gray-900 mb-2">🎯 Ready to Start?</p>
                         <p className="text-gray-700">
-                          <Link href="/contact" className="text-primary-orange hover:text-dark-orange font-semibold underline">Contact our Michigan office</Link> today at <strong className="text-primary-orange">(555) 123-4567</strong> or 
+                          <Link href="/contact" className="text-primary-orange hover:text-dark-orange font-semibold underline">Contact our office</Link> today at <strong className="text-primary-orange">+91 7892518414</strong> or 
                           visit our <Link href="/about" className="text-primary-orange hover:text-dark-orange font-semibold underline">Bengaluru headquarters</Link> at Padmamba Nilaya. Let's discuss how <Link href="/custom-ai-development" className="text-primary-orange hover:text-dark-orange font-semibold underline">AI can transform your business</Link>!
                         </p>
                       </div>
@@ -2143,13 +2143,13 @@ export default function Home() {
                   <span>Schedule Free Consultation</span>
                 </Button>
               </Link>
-              <Link href="tel:555-123-4567">
+              <Link href="tel:+917892518414">
                 <Button
                   variant="ghost"
                   size="lg"
                   className="bg-transparent border-2 border-white text-white hover:bg-white/10 font-semibold text-lg px-8 py-6"
                 >
-                  📞 Call (555) 123-4567
+                  📞 Call +91 7892518414
                 </Button>
               </Link>
             </div>
