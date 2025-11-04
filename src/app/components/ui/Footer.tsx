@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { Logo } from "../layout/Logo";
+import { Mail, Phone, MapPin } from "lucide-react";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -72,12 +73,33 @@ export function Footer() {
           
           <div>
             <h3 className="text-lg font-medium mb-4">Contact</h3>
-            <ul className="space-y-2 text-gray-400">
-              <li>Padmamba Nilaya, 250, 7th C Main Rd</li>
-              <li>Basaveshwar Nagar, Bengaluru</li>
-              <li>hello@matic.ai</li>
-              <li>+91 7892518414</li>
-            </ul>
+            <div className="space-y-3 text-gray-400">
+              <div className="flex items-start space-x-2">
+                <MapPin className="w-4 h-4 mt-0.5 text-primary-orange flex-shrink-0" />
+                <div className="text-sm">
+                  <div>Padmamba Nilaya, 250, 7th C Main Rd</div>
+                  <div>Basaveshwar Nagar, Bengaluru</div>
+                </div>
+              </div>
+              <div className="flex items-center space-x-2">
+                <Mail className="w-4 h-4 text-primary-orange flex-shrink-0" />
+                <a 
+                  href="mailto:hello@matic.ai?subject=Contact from Metic.ai Website" 
+                  className="hover:text-primary-orange transition-colors text-sm"
+                >
+                  hello@matic.ai
+                </a>
+              </div>
+              <div className="flex items-center space-x-2">
+                <Phone className="w-4 h-4 text-primary-orange flex-shrink-0" />
+                <a 
+                  href="tel:+917892518414" 
+                  className="hover:text-primary-orange transition-colors text-sm"
+                >
+                  +91 7892518414
+                </a>
+              </div>
+            </div>
           </div>
         </div>
         
