@@ -88,9 +88,9 @@ export default function MachineLearningDelhiPage() {
         "description": "Leading Machine Learning Company In Delhi specializing in AI solutions for IT, finance, healthcare, and government sectors in National Capital Territory.",
         "address": {
           "@type": "PostalAddress",
-          "addressLocality": "Delhi",
-          "addressRegion": "Delhi",
-          "addressCountry": "IN"
+          "addressLocality": "Bengaluru",
+          "addressRegion": "Karnataka",
+          "addressCountry": "India"
         },
         "contactPoint": {
           "@type": "ContactPoint",
@@ -782,7 +782,7 @@ export default function MachineLearningDelhiPage() {
               </Link>
               <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  Call Delhi Team: +91 7892518414
+                  Call: +91 7892518414
                 </Button>
               </Link>
             </div>

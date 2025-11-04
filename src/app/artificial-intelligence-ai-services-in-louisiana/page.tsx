@@ -159,7 +159,7 @@ export default function AIServicesLouisianaPage() {
               "description": "Leading Artificial Intelligence Company In Louisiana with 2100+ successful AI implementations. Expert AI services serving New Orleans, Baton Rouge, Shreveport, and across the Pelican State.",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Business District, French Quarter",
+                "streetAddress": "Padmamba Nilaya, 250, 7th C Main Rd, 3rd Stage 4th Block, West of Chord Road 1st Stage, Basaveshwar Nagar",
                 "addressLocality": "New Orleans",
                 "addressRegion": "Louisiana", 
                 "postalCode": "70112",
@@ -348,7 +348,7 @@ export default function AIServicesLouisianaPage() {
                   Get Free Louisiana AI Consultation
                 </Button>
               </Link>
-              <Link href="tel:+17892518414">
+              <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="w-full sm:w-auto">
                   <Phone className="w-4 h-4 mr-2" />
                   Call Louisiana AI Team: +1-789-251-8414
@@ -616,7 +616,7 @@ export default function AIServicesLouisianaPage() {
                   Get Free AI Consultation - Louisiana
                 </Button>
               </Link>
-              <Link href="tel:+17892518414">
+              <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
                   Call Louisiana AI Experts: +1-789-251-8414
                 </Button>

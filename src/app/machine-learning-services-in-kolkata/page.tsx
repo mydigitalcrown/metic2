@@ -101,8 +101,8 @@ export default function MachineLearningKolkataPage() {
                 },
                 "address": {
                   "@type": "PostalAddress",
-                  "addressLocality": "Kolkata",
-                  "addressRegion": "West Bengal",
+                  "addressLocality": "Bengaluru",
+                  "addressRegion": "Karnataka",
                   "addressCountry": "India"
                 },
                 "sameAs": [

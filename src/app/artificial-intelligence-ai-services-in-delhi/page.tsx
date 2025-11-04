@@ -160,10 +160,10 @@ export default function AIServicesDelhiPage() {
             "description": "Leading Artificial Intelligence Company In Delhi with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "New Delhi",
-              "addressRegion": "Delhi",
-              "addressCountry": "IN",
-              "postalCode": "110001"
+              "addressLocality": "Bengaluru",
+              "addressRegion": "Karnataka",
+              "addressCountry": "India",
+              "postalCode": "560079"
             },
             "geo": {
               "@type": "GeoCoordinates",
@@ -414,7 +414,7 @@ export default function AIServicesDelhiPage() {
                   Start with Top AI Company Delhi
                 </Button>
               </Link>
-              <Link href="tel:+17892518414">
+              <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="w-full sm:w-auto">
                   <Phone className="w-4 h-4 mr-2" />
                   Call AI Development Company Delhi
@@ -777,7 +777,7 @@ export default function AIServicesDelhiPage() {
                   Partner with AI Firm Delhi
                 </Button>
               </Link>
-              <Link href="tel:+17892518414">
+              <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
                   Call AI Company Delhi Now
                 </Button>

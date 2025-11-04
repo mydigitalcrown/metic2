@@ -94,10 +94,10 @@ export default function MachineLearningGurugramPage() {
                 },
                 "address": {
                   "@type": "PostalAddress",
-                  "addressLocality": "Gurugram",
-                  "addressRegion": "Haryana",
-                  "addressCountry": "IN",
-                  "postalCode": "122001"
+                  "addressLocality": "Bengaluru",
+                  "addressRegion": "Karnataka",
+                  "addressCountry": "India",
+                  "postalCode": "560079"
                 },
                 "contactPoint": {
                   "@type": "ContactPoint",
@@ -780,7 +780,7 @@ export default function MachineLearningGurugramPage() {
               </Link>
               <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  Call Gurugram ML Experts: +91 7892518414
+                  Call: +91 7892518414
                 </Button>
               </Link>
             </div>

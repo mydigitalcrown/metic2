@@ -93,8 +93,8 @@ export default function MachineLearningCoimbatorePage() {
               "description": "Leading Machine Learning Company In Coimbatore serving Manchester of South India's textile and manufacturing industries with 2100+ successful ML implementations.",
               "address": {
                 "@type": "PostalAddress",
-                "addressLocality": "Coimbatore",
-                "addressRegion": "Tamil Nadu",
+                "addressLocality": "Bengaluru",
+                "addressRegion": "Karnataka",
                 "addressCountry": "India"
               },
               "contactPoint": {
@@ -765,7 +765,7 @@ export default function MachineLearningCoimbatorePage() {
               </Link>
               <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange font-semibold px-8 py-4">
-                  Call Coimbatore Experts: +91 7892518414
+                  Call: +91 7892518414
                 </Button>
               </Link>
             </div>

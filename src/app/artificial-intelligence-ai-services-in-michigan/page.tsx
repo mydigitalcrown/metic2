@@ -165,7 +165,7 @@ export default function AIServicesMichiganPage() {
               "email": "info@metic.ai",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "123 AI Innovation Drive",
+                "streetAddress": "Padmamba Nilaya, 250, 7th C Main Rd, 3rd Stage 4th Block, West of Chord Road 1st Stage, Basaveshwar Nagar",
                 "addressLocality": "Detroit",
                 "addressRegion": "Michigan",
                 "postalCode": "48201",
@@ -832,7 +832,7 @@ export default function AIServicesMichiganPage() {
                   Get Free Michigan AI Consultation
                 </Button>
               </Link>
-              <Link href="tel:+17892518414">
+              <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
                   Call Michigan AI Experts: +1-789-251-8414
                 </Button>

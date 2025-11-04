@@ -95,10 +95,10 @@ export default function AIServicesHyderabadPage() {
             "description": "Leading Artificial Intelligence Company In Hyderabad with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "Hyderabad",
-              "addressRegion": "Telangana",
-              "addressCountry": "IN",
-              "postalCode": "500081"
+              "addressLocality": "Bengaluru",
+              "addressRegion": "Karnataka",
+              "addressCountry": "India",
+              "postalCode": "560079"
             },
             "geo": {
               "@type": "GeoCoordinates",
@@ -619,7 +619,7 @@ export default function AIServicesHyderabadPage() {
               </Link>
               <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  Call AI Company In Hyderabad: +91 7892518414
+                  Call: +91 7892518414
                 </Button>
               </Link>
             </div>

@@ -186,9 +186,9 @@ export default function AIServicesChennaiPage() {
             },
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "Chennai",
-              "addressRegion": "Tamil Nadu",
-              "addressCountry": "IN"
+              "addressLocality": "Bengaluru",
+              "addressRegion": "Karnataka",
+              "addressCountry": "India"
             },
             "contactPoint": {
               "@type": "ContactPoint",
@@ -374,7 +374,7 @@ export default function AIServicesChennaiPage() {
                   Get Free AI Consultation
                 </Button>
               </Link>
-              <Link href="tel:+17892518414">
+              <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="w-full sm:w-auto">
                   <Phone className="w-4 h-4 mr-2" />
                   Call: +1-789-251-8414
@@ -802,7 +802,7 @@ export default function AIServicesChennaiPage() {
                   Get Free AI Consultation - Chennai
                 </Button>
               </Link>
-              <Link href="tel:+17892518414">
+              <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
                   Call Chennai AI Experts: +1-789-251-8414
                 </Button>

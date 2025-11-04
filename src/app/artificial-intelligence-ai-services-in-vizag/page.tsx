@@ -157,9 +157,9 @@ export default function AIServicesVizagPage() {
             "description": "Leading Artificial Intelligence Company In Vizag with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Vizag businesses including Visakhapatnam Port Trust, RINL Steel Plant, Hindustan Shipyard, NTPC Simhadri, and HPCL Refinery.",
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "Visakhapatnam",
-              "addressRegion": "Andhra Pradesh",
-              "addressCountry": "IN"
+              "addressLocality": "Bengaluru",
+              "addressRegion": "Karnataka",
+              "addressCountry": "India"
             },
             "geo": {
               "@type": "GeoCoordinates",
@@ -365,7 +365,7 @@ export default function AIServicesVizagPage() {
                   Get Free AI Consultation
                 </Button>
               </Link>
-              <Link href="tel:+17892518414">
+              <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="w-full sm:w-auto">
                   <Phone className="w-4 h-4 mr-2" />
                   Call: +1-789-251-8414
@@ -715,7 +715,7 @@ export default function AIServicesVizagPage() {
                   Get Free AI Consultation in Vizag
                 </Button>
               </Link>
-              <Link href="tel:+17892518414">
+              <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
                   Call Vizag AI Experts: +1-789-251-8414
                 </Button>

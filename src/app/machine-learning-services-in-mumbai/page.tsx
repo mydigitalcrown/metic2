@@ -98,9 +98,9 @@ export default function MumbaiMLServicesPage() {
     "description": "Leading Machine Learning Company In Mumbai with 2100+ successful ML implementations. Expert machine learning services, AI development & ML solutions.",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Mumbai",
-      "addressRegion": "Maharashtra",
-      "addressCountry": "IN"
+      "addressLocality": "Bengaluru",
+      "addressRegion": "Karnataka",
+      "addressCountry": "India"
     },
     "geo": {
       "@type": "GeoCoordinates",

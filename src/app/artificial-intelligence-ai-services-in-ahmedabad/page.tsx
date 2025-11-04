@@ -170,11 +170,11 @@ export default function AIServicesAhmedabadPage() {
             "vatID": "IN123456789",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "SG Highway",
-              "addressLocality": "Ahmedabad",
-              "addressRegion": "Gujarat", 
-              "postalCode": "380015",
-              "addressCountry": "IN"
+              "streetAddress": "Padmamba Nilaya, 250, 7th C Main Rd, 3rd Stage 4th Block, West of Chord Road 1st Stage, Basaveshwar Nagar",
+              "addressLocality": "Bengaluru",
+              "addressRegion": "Karnataka", 
+              "postalCode": "560079",
+              "addressCountry": "India"
             },
             "geo": {
               "@type": "GeoCoordinates",

@@ -224,40 +224,40 @@ export default function AIServicesMumbaiPage() {
             "email": "info@metic.ai",
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "Mumbai",
-              "addressRegion": "Maharashtra",
-              "addressCountry": "IN"
+              "addressLocality": "Bengaluru",
+              "addressRegion": "Karnataka",
+              "addressCountry": "India"
             },
             "areaServed": {
               "@type": "City",
               "name": "Mumbai",
-              "addressRegion": "Maharashtra"
+              "addressRegion": "Karnataka"
             },
             "serviceArea": [
               {
                 "@type": "Place",
                 "name": "Bandra-Kurla Complex",
-                "addressLocality": "Mumbai"
+                "addressLocality": "Bengaluru"
               },
               {
                 "@type": "Place", 
                 "name": "Lower Parel",
-                "addressLocality": "Mumbai"
+                "addressLocality": "Bengaluru"
               },
               {
                 "@type": "Place",
                 "name": "Andheri",
-                "addressLocality": "Mumbai"
+                "addressLocality": "Bengaluru"
               },
               {
                 "@type": "Place",
                 "name": "Nariman Point",
-                "addressLocality": "Mumbai"
+                "addressLocality": "Bengaluru"
               },
               {
                 "@type": "Place",
                 "name": "Powai",
-                "addressLocality": "Mumbai"
+                "addressLocality": "Bengaluru"
               }
             ],
             "knowsAbout": [
@@ -490,7 +490,7 @@ export default function AIServicesMumbaiPage() {
                   Get Free AI Consultation
                 </Button>
               </Link>
-              <Link href="tel:+17892518414">
+              <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="w-full sm:w-auto border-orange-300 text-orange-300 hover:bg-orange-300 hover:text-gray-900">
                   <Phone className="w-4 h-4 mr-2" />
                   Call: +1-789-251-8414
@@ -883,7 +883,7 @@ export default function AIServicesMumbaiPage() {
                   Get Free AI Consultation
                 </Button>
               </Link>
-              <Link href="tel:+17892518414">
+              <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="w-full sm:w-auto border-orange-300 text-orange-300 hover:bg-orange-300 hover:text-gray-900">
                   Call: +1-789-251-8414
                 </Button>

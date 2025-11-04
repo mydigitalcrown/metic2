@@ -777,7 +777,7 @@ export default function MachineLearningColoradoPage() {
               </Link>
               <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange font-semibold px-8 py-4">
-                  Call Colorado Experts: +91 7892518414
+                  Call: +91 7892518414
                 </Button>
               </Link>
             </div>

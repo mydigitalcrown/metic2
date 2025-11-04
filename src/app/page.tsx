@@ -1305,7 +1305,7 @@ export default function Home() {
                     </div>
                     <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
                       <p className="text-lg">
-                        <strong className="text-gray-900 font-semibold">Metic AI is headquartered in Detroit, Michigan</strong>, at 123 AI Boulevard, Innovation District. 
+                        <strong className="text-gray-900 font-semibold">Metic AI is headquartered in Bengaluru, Karnataka</strong>, at Padmamba Nilaya, 250, 7th C Main Rd, 3rd Stage 4th Block, West of Chord Road 1st Stage, Basaveshwar Nagar. 
                         We serve businesses throughout the entire state including Grand Rapids, Ann Arbor, Lansing, Flint, Dearborn, 
                         Troy, Sterling Heights, and all major Michigan cities.
                       </p>
@@ -1974,7 +1974,7 @@ export default function Home() {
                         <p className="font-semibold text-gray-900 mb-2">🎯 Ready to Start?</p>
                         <p className="text-gray-700">
                           <Link href="/contact" className="text-primary-orange hover:text-dark-orange font-semibold underline">Contact our Michigan office</Link> today at <strong className="text-primary-orange">(555) 123-4567</strong> or 
-                          visit our <Link href="/about" className="text-primary-orange hover:text-dark-orange font-semibold underline">Detroit headquarters</Link> at 123 AI Boulevard. Let's discuss how <Link href="/custom-ai-development" className="text-primary-orange hover:text-dark-orange font-semibold underline">AI can transform your Michigan business</Link>!
+                          visit our <Link href="/about" className="text-primary-orange hover:text-dark-orange font-semibold underline">Bengaluru headquarters</Link> at Padmamba Nilaya. Let's discuss how <Link href="/custom-ai-development" className="text-primary-orange hover:text-dark-orange font-semibold underline">AI can transform your business</Link>!
                         </p>
                       </div>
                     </div>

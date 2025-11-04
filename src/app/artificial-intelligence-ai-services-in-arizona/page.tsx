@@ -187,7 +187,7 @@ export default function AIServicesArizonaPage() {
             "numberOfEmployees": "100-500",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Arizona AI Innovation Center",
+              "streetAddress": "Padmamba Nilaya, 250, 7th C Main Rd, 3rd Stage 4th Block, West of Chord Road 1st Stage, Basaveshwar Nagar",
               "addressLocality": "Phoenix",
               "addressRegion": "Arizona", 
               "postalCode": "85001",
@@ -459,7 +459,7 @@ export default function AIServicesArizonaPage() {
                   Get Free AI Consultation in Arizona
                 </Button>
               </Link>
-              <Link href="tel:+17892518414">
+              <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="w-full sm:w-auto">
                   <Phone className="w-4 h-4 mr-2" />
                   Call Arizona AI Experts: +1-789-251-8414
@@ -849,7 +849,7 @@ export default function AIServicesArizonaPage() {
                   Start Your Arizona AI Transformation
                 </Button>
               </Link>
-              <Link href="tel:+17892518414">
+              <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
                   <Phone className="w-4 h-4 mr-2" />
                   Call Arizona AI Experts: +1-789-251-8414

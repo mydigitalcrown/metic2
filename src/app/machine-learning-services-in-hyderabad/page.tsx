@@ -103,9 +103,9 @@ export default function MachineLearningHyderabadPage() {
                 "description": "Leading Machine Learning Company In Hyderabad specializing in AI solutions, predictive analytics, and ML development for Cyberabad enterprises.",
                 "address": {
                   "@type": "PostalAddress",
-                  "addressLocality": "Hyderabad",
-                  "addressRegion": "Telangana",
-                  "addressCountry": "IN"
+                  "addressLocality": "Bengaluru",
+                  "addressRegion": "Karnataka",
+                  "addressCountry": "India"
                 },
                 "contactPoint": {
                   "@type": "ContactPoint",

@@ -727,7 +727,7 @@ export default function MachineLearningBangalorePage() {
               </Link>
               <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  Call Bangalore ML Experts: +91 7892518414
+                  Call: +91 7892518414
                 </Button>
               </Link>
             </div>

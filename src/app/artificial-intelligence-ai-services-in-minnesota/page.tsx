@@ -163,7 +163,7 @@ export default function AIServicesMinnesotaPage() {
               "email": "info@metic.ai",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "123 AI Innovation Drive",
+                "streetAddress": "Padmamba Nilaya, 250, 7th C Main Rd, 3rd Stage 4th Block, West of Chord Road 1st Stage, Basaveshwar Nagar",
                 "addressLocality": "Minneapolis",
                 "addressRegion": "Minnesota",
                 "postalCode": "55401",
@@ -394,7 +394,7 @@ export default function AIServicesMinnesotaPage() {
                   Get Free AI Consultation
                 </Button>
               </Link>
-              <Link href="tel:+17892518414">
+              <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="w-full sm:w-auto">
                   <Phone className="w-4 h-4 mr-2" />
                   Call: +1-789-251-8414
@@ -695,7 +695,7 @@ export default function AIServicesMinnesotaPage() {
                   Get Free Minnesota AI Consultation
                 </Button>
               </Link>
-              <Link href="tel:+17892518414">
+              <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
                   Call Minnesota AI Experts: +1-789-251-8414
                 </Button>

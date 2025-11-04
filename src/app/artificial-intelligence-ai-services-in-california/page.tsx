@@ -367,7 +367,7 @@ export default function AIServicesCaliforniaPage() {
                   Get Free AI Consultation
                 </Button>
               </Link>
-              <Link href="tel:+17892518414">
+              <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="w-full sm:w-auto border-primary-orange text-primary-orange hover:bg-orange-950/50">
                   <Phone className="w-4 h-4 mr-2" />
                   Call: +1-789-251-8414
@@ -882,7 +882,7 @@ export default function AIServicesCaliforniaPage() {
                   Get Free AI Consultation - California
                 </Button>
               </Link>
-              <Link href="tel:+17892518414">
+              <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
                   Call California AI Experts: +1-789-251-8414
                 </Button>

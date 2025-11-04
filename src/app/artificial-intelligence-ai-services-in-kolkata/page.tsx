@@ -159,11 +159,11 @@ export default function AIServicesKolkataPage() {
               "description": "Leading Artificial Intelligence Company In Kolkata with 2100+ successful AI implementations. Expert AI services serving Salt Lake, New Town, Park Street, and across West Bengal.",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Tech Hub, Salt Lake City",
-                "addressLocality": "Kolkata",
-                "addressRegion": "West Bengal", 
-                "postalCode": "700091",
-                "addressCountry": "IN"
+                "streetAddress": "Padmamba Nilaya, 250, 7th C Main Rd, 3rd Stage 4th Block, West of Chord Road 1st Stage, Basaveshwar Nagar",
+                "addressLocality": "Bengaluru",
+                "addressRegion": "Karnataka", 
+                "postalCode": "560079",
+                "addressCountry": "India"
               },
               "geo": {
                 "@type": "GeoCoordinates",
@@ -348,7 +348,7 @@ export default function AIServicesKolkataPage() {
                   Get Free Kolkata AI Consultation
                 </Button>
               </Link>
-              <Link href="tel:+17892518414">
+              <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="w-full sm:w-auto">
                   <Phone className="w-4 h-4 mr-2" />
                   Call Kolkata AI Team: +1-789-251-8414
@@ -616,7 +616,7 @@ export default function AIServicesKolkataPage() {
                   Get Free AI Consultation - Kolkata
                 </Button>
               </Link>
-              <Link href="tel:+17892518414">
+              <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
                   Call Kolkata AI Experts: +1-789-251-8414
                 </Button>

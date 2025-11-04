@@ -160,10 +160,10 @@ export default function AIServicesGurugramPage() {
             "description": "Leading Artificial Intelligence Company In Gurgaon with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "Gurgaon",
-              "addressRegion": "Haryana",
-              "addressCountry": "IN",
-              "postalCode": "122001"
+              "addressLocality": "Bengaluru",
+              "addressRegion": "Karnataka",
+              "addressCountry": "India",
+              "postalCode": "560079"
             },
             "geo": {
               "@type": "GeoCoordinates",
@@ -410,7 +410,7 @@ export default function AIServicesGurugramPage() {
                   Get Free AI Consultation - Gurgaon
                 </Button>
               </Link>
-              <Link href="tel:+17892518414">
+              <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="w-full sm:w-auto">
                   <Phone className="w-4 h-4 mr-2" />
                   Call AI Company: +1-789-251-8414
@@ -730,7 +730,7 @@ export default function AIServicesGurugramPage() {
                   Get Free AI Consultation - Gurgaon
                 </Button>
               </Link>
-              <Link href="tel:+17892518414">
+              <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
                   Call Gurgaon AI Experts: +1-789-251-8414
                 </Button>

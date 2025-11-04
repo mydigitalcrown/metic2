@@ -414,7 +414,7 @@ export default function AIServicesGeorgiaPage() {
                   Start with Top AI Company Georgia
                 </Button>
               </Link>
-              <Link href="tel:+17892518414">
+              <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="w-full sm:w-auto">
                   <Phone className="w-4 h-4 mr-2" />
                   Call AI Development Company Georgia
@@ -777,7 +777,7 @@ export default function AIServicesGeorgiaPage() {
                   Partner with AI Firm Georgia
                 </Button>
               </Link>
-              <Link href="tel:+17892518414">
+              <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
                   Call AI Company Georgia Now
                 </Button>

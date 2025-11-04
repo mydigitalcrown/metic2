@@ -700,9 +700,9 @@ export default function MachineLearningNoidaPage() {
               },
               "address": {
                 "@type": "PostalAddress",
-                "addressLocality": "Noida",
-                "addressRegion": "Uttar Pradesh",
-                "addressCountry": "IN"
+                "addressLocality": "Bengaluru",
+                "addressRegion": "Karnataka",
+                "addressCountry": "India"
               },
               "contactPoint": {
                 "@type": "ContactPoint",

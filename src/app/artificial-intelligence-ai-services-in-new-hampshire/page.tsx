@@ -428,7 +428,7 @@ export default function AIServicesNewHampshirePage() {
                   Get Free AI Consultation
                 </Button>
               </Link>
-              <Link href="tel:+17892518414">
+              <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="w-full sm:w-auto">
                   <Phone className="w-4 h-4 mr-2" />
                   Call: +1-789-251-8414
@@ -713,7 +713,7 @@ export default function AIServicesNewHampshirePage() {
                   Get Your Free AI Consultation
                 </Button>
               </Link>
-              <Link href="tel:+17892518414">
+              <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
                   Call New Hampshire's Top AI Firm: +1-789-251-8414
                 </Button>
