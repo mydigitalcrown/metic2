@@ -130,13 +130,20 @@ export default function ContactLeadForm({ className = '' }: ContactFormProps) {
             </div>
           </div>
           
-          <div className="flex items-center space-x-3">
+          <div className="flex items-start space-x-3">
             <div className="w-10 h-10 bg-primary-orange/10 rounded-lg flex items-center justify-center">
               <MapPin className="w-5 h-5 text-primary-orange" />
             </div>
             <div>
-              <p className="text-sm font-medium text-gray-900">Office</p>
-              <p className="text-gray-600 text-sm">Bengaluru, India</p>
+              <p className="text-sm font-medium text-gray-900">Offices</p>
+              <div className="text-gray-600 text-sm space-y-1">
+                <div className="font-medium text-primary-orange">USA:</div>
+                <div>300 Quail Ridge Dr NE</div>
+                <div>ADA, MI 49301</div>
+                <div className="font-medium text-primary-orange mt-2">India:</div>
+                <div>Behind Manyata Tech Park</div>
+                <div>Hebbal, Bangalore 560077</div>
+              </div>
             </div>
           </div>
         </div>
