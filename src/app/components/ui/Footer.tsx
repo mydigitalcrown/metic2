@@ -77,17 +77,21 @@ export function Footer() {
               <div className="flex items-start space-x-2">
                 <MapPin className="w-4 h-4 mt-0.5 text-primary-orange flex-shrink-0" />
                 <div className="text-sm">
-                  <div>Padmamba Nilaya, 250, 7th C Main Rd</div>
-                  <div>Basaveshwar Nagar, Bengaluru</div>
+                  <div className="font-medium text-primary-orange mb-1">USA Office:</div>
+                  <div>300 Quail Ridge Dr NE</div>
+                  <div>ADA, MI 49301</div>
+                  <div className="font-medium text-primary-orange mb-1 mt-2">India Office:</div>
+                  <div>Behind Manyata Tech Park</div>
+                  <div>Hebbal, Bangalore 560077</div>
                 </div>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4 text-primary-orange flex-shrink-0" />
                 <a 
-                  href="mailto:hello@metic.ai?subject=Contact from Metic.ai Website" 
+                  href="mailto:hello@matic.ai?subject=Contact from Metic.ai Website" 
                   className="hover:text-primary-orange transition-colors text-sm"
                 >
-                  hello@metic.ai
+                  hello@matic.ai
                 </a>
               </div>
               <div className="flex items-center space-x-2">

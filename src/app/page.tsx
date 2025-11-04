@@ -1325,8 +1325,8 @@ export default function Home() {
                     </div>
                     <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
                       <p className="text-lg">
-                        <strong className="text-gray-900 font-semibold">Metic AI is headquartered in Bengaluru, Karnataka</strong>, at Padmamba Nilaya, 250, 7th C Main Rd, 3rd Stage 4th Block, West of Chord Road 1st Stage, Basaveshwar Nagar. 
-                        We serve businesses throughout the entire state including Grand Rapids, Ann Arbor, Lansing, Flint, Dearborn, 
+                        <strong className="text-gray-900 font-semibold">Metic AI has offices in both the United States and India</strong>, with our USA office at 300 Quail Ridge Dr NE, Ada, MI 49301 and our India office behind Manyata Tech Park, Hebbal, Bangalore 560077. 
+                        We serve businesses throughout Michigan including Grand Rapids, Ann Arbor, Lansing, Flint, Dearborn, 
                         Troy, Sterling Heights, and all major Michigan cities.
                       </p>
                       <p className="text-lg">
@@ -1994,7 +1994,7 @@ export default function Home() {
                         <p className="font-semibold text-gray-900 mb-2">🎯 Ready to Start?</p>
                         <p className="text-gray-700">
                           <Link href="/contact" className="text-primary-orange hover:text-dark-orange font-semibold underline">Contact our office</Link> today at <strong className="text-primary-orange">+91 7892518414</strong> or 
-                          visit our <Link href="/about" className="text-primary-orange hover:text-dark-orange font-semibold underline">Bengaluru headquarters</Link> at Padmamba Nilaya. Let's discuss how <Link href="/custom-ai-development" className="text-primary-orange hover:text-dark-orange font-semibold underline">AI can transform your business</Link>!
+                          visit our <Link href="/about" className="text-primary-orange hover:text-dark-orange font-semibold underline">offices</Link> in Ada, Michigan or Bangalore, India. Let's discuss how <Link href="/custom-ai-development" className="text-primary-orange hover:text-dark-orange font-semibold underline">AI can transform your business</Link>!
                         </p>
                       </div>
                     </div>

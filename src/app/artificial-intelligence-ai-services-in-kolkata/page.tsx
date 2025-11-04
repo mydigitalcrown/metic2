@@ -159,10 +159,10 @@ export default function AIServicesKolkataPage() {
               "description": "Leading Artificial Intelligence Company In Kolkata with 2100+ successful AI implementations. Expert AI services serving Salt Lake, New Town, Park Street, and across West Bengal.",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Padmamba Nilaya, 250, 7th C Main Rd, 3rd Stage 4th Block, West of Chord Road 1st Stage, Basaveshwar Nagar",
-                "addressLocality": "Bengaluru",
+                "streetAddress": "Behind Manyata Tech Park",
+                "addressLocality": "Hebbal, Bangalore",
                 "addressRegion": "Karnataka", 
-                "postalCode": "560079",
+                "postalCode": "560077",
                 "addressCountry": "India"
               },
               "geo": {

@@ -724,11 +724,11 @@ export default function MachineLearningOregonPage() {
               "description": "Leading Machine Learning Company In Oregon with 2100+ successful ML implementations. Expert ML services, predictive analytics & AI development.",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Padmamba Nilaya, 250, 7th C Main Rd, 3rd Stage 4th Block, West of Chord Road 1st Stage, Basaveshwar Nagar",
-                "addressLocality": "Bengaluru",
-                "addressRegion": "Karnataka",
-                "postalCode": "560079",
-                "addressCountry": "IN"
+                "streetAddress": "300 Quail Ridge Dr NE",
+                "addressLocality": "ADA",
+                "addressRegion": "MI",
+                "postalCode": "49301",
+                "addressCountry": "US"
               },
               "contactPoint": {
                 "@type": "ContactPoint",

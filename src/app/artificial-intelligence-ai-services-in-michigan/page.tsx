@@ -165,10 +165,10 @@ export default function AIServicesMichiganPage() {
               "email": "hello@matic.ai",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Padmamba Nilaya, 250, 7th C Main Rd, 3rd Stage 4th Block, West of Chord Road 1st Stage, Basaveshwar Nagar",
-                "addressLocality": "Detroit",
-                "addressRegion": "Michigan",
-                "postalCode": "48201",
+                "streetAddress": "300 Quail Ridge Dr NE",
+                "addressLocality": "ADA",
+                "addressRegion": "MI",
+                "postalCode": "49301",
                 "addressCountry": "US"
               },
               "geo": {

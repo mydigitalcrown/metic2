@@ -170,10 +170,10 @@ export default function AIServicesAhmedabadPage() {
             "vatID": "IN123456789",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Padmamba Nilaya, 250, 7th C Main Rd, 3rd Stage 4th Block, West of Chord Road 1st Stage, Basaveshwar Nagar",
-              "addressLocality": "Bengaluru",
+              "streetAddress": "Behind Manyata Tech Park",
+              "addressLocality": "Hebbal, Bangalore",
               "addressRegion": "Karnataka", 
-              "postalCode": "560079",
+              "postalCode": "560077",
               "addressCountry": "India"
             },
             "geo": {

@@ -159,10 +159,10 @@ export default function AIServicesLouisianaPage() {
               "description": "Leading Artificial Intelligence Company In Louisiana with 2100+ successful AI implementations. Expert AI services serving New Orleans, Baton Rouge, Shreveport, and across the Pelican State.",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Padmamba Nilaya, 250, 7th C Main Rd, 3rd Stage 4th Block, West of Chord Road 1st Stage, Basaveshwar Nagar",
-                "addressLocality": "New Orleans",
-                "addressRegion": "Louisiana", 
-                "postalCode": "70112",
+                "streetAddress": "300 Quail Ridge Dr NE",
+                "addressLocality": "ADA",
+                "addressRegion": "MI", 
+                "postalCode": "49301",
                 "addressCountry": "US"
               },
               "geo": {
