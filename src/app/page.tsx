@@ -42,14 +42,24 @@ export default function Home() {
             "description": "Premier artificial intelligence company in Michigan providing AI solutions, machine learning services, and automation technology for Michigan businesses.",
             "url": "https://metic.ai",
             "logo": "https://metic.ai/logo.png",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "Padmamba Nilaya, 250, 7th C Main Rd, 3rd Stage 4th Block, West of Chord Road 1st Stage, Basaveshwar Nagar",
-              "addressLocality": "Bengaluru",
-              "addressRegion": "Karnataka",
-              "postalCode": "560079",
-              "addressCountry": "India"
-            },
+            "address": [
+              {
+                "@type": "PostalAddress",
+                "streetAddress": "300 Quail Ridge Dr NE",
+                "addressLocality": "Ada",
+                "addressRegion": "MI",
+                "postalCode": "49301",
+                "addressCountry": "US"
+              },
+              {
+                "@type": "PostalAddress",
+                "streetAddress": "Behind Manyata Tech Park, Hebbal",
+                "addressLocality": "Bangalore",
+                "addressRegion": "Karnataka",
+                "postalCode": "560077",
+                "addressCountry": "India"
+              }
+            ],
             "geo": {
               "@type": "GeoCoordinates",
               "latitude": "42.3314",
@@ -82,14 +92,24 @@ export default function Home() {
             "name": "Metic AI",
             "image": "https://metic.ai/logo.png",
             "description": "Michigan's leading artificial intelligence company specializing in AI solutions, machine learning, and intelligent automation for businesses across Detroit, Grand Rapids, Ann Arbor, and throughout Michigan.",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "Padmamba Nilaya, 250, 7th C Main Rd, 3rd Stage 4th Block, West of Chord Road 1st Stage, Basaveshwar Nagar",
-              "addressLocality": "Bengaluru",
-              "addressRegion": "Karnataka",
-              "postalCode": "560079",
-              "addressCountry": "India"
-            },
+            "address": [
+              {
+                "@type": "PostalAddress",
+                "streetAddress": "300 Quail Ridge Dr NE",
+                "addressLocality": "Ada",
+                "addressRegion": "MI",
+                "postalCode": "49301",
+                "addressCountry": "US"
+              },
+              {
+                "@type": "PostalAddress",
+                "streetAddress": "Behind Manyata Tech Park, Hebbal",
+                "addressLocality": "Bangalore",
+                "addressRegion": "Karnataka",
+                "postalCode": "560077",
+                "addressCountry": "India"
+              }
+            ],
             "geo": {
               "@type": "GeoCoordinates",
               "latitude": "42.3314",

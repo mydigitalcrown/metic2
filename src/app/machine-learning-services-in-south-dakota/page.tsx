@@ -714,11 +714,24 @@ export default function MachineLearningSouthDakotaPage() {
             "url": "https://metic.ai/machine-learning-services-in-south-dakota/",
             "logo": "https://metic.ai/logo.png",
             "description": "Leading Machine Learning Company In South Dakota with 2100+ successful ML implementations. Expert AI and ML services for businesses across Sioux Falls, Rapid City, Aberdeen, and the Mount Rushmore State.",
-            "address": {
-              "@type": "PostalAddress",
-              "addressRegion": "South Dakota",
-              "addressCountry": "US"
-            },
+            "address": [
+              {
+                "@type": "PostalAddress",
+                "streetAddress": "300 Quail Ridge Dr NE",
+                "addressLocality": "Ada",
+                "addressRegion": "MI",
+                "postalCode": "49301",
+                "addressCountry": "US"
+              },
+              {
+                "@type": "PostalAddress",
+                "streetAddress": "Behind Manyata Tech Park, Hebbal",
+                "addressLocality": "Bangalore",
+                "addressRegion": "Karnataka",
+                "postalCode": "560077",
+                "addressCountry": "India"
+              }
+            ],
             "geo": {
               "@type": "GeoCoordinates",
               "latitude": "43.9695",

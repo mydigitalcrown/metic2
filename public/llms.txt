@@ -4,9 +4,11 @@
 Metic AI is a premier artificial intelligence solutions provider based in Michigan, USA. We specialize in delivering cutting-edge AI, machine learning, and automation solutions to businesses across Michigan and the United States.
 
 ## Location
-- **Primary Location**: Michigan, United States
+- **Primary Location**: Michigan, United States (300 Quail Ridge Dr NE, Ada, MI 49301)
+- **India Office**: Behind Manyata Tech Park, Hebbal, Bangalore 560077
 - **Service Area**: Michigan, Detroit Metro Area, Ann Arbor, Grand Rapids, Lansing, and nationwide
-- **Office Address**: Padmamba Nilaya, 250, 7th C Main Rd, 3rd Stage 4th Block, West of Chord Road 1st Stage, Basaveshwar Nagar, Bengaluru, Karnataka 560079
+- **USA Office Address**: 300 Quail Ridge Dr NE, Ada, MI 49301
+- **India Office Address**: Behind Manyata Tech Park, Hebbal, Bangalore 560077
 
 ## Core Services
 1. **AI Consulting**: Strategic AI implementation and roadmap development

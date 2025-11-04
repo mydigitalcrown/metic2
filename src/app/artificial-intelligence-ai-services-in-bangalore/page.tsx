@@ -185,14 +185,24 @@ export default function AIServicesBangalorePage() {
             },
             "foundingDate": "2020",
             "numberOfEmployees": "100-500",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "Padmamba Nilaya, 250, 7th C Main Rd, 3rd Stage 4th Block, West of Chord Road 1st Stage, Basaveshwar Nagar",
-              "addressLocality": "Bengaluru",
-              "addressRegion": "Karnataka", 
-              "postalCode": "560079",
-              "addressCountry": "India"
-            },
+            "address": [
+              {
+                "@type": "PostalAddress",
+                "streetAddress": "300 Quail Ridge Dr NE",
+                "addressLocality": "Ada",
+                "addressRegion": "MI",
+                "postalCode": "49301",
+                "addressCountry": "US"
+              },
+              {
+                "@type": "PostalAddress",
+                "streetAddress": "Behind Manyata Tech Park, Hebbal",
+                "addressLocality": "Bangalore",
+                "addressRegion": "Karnataka",
+                "postalCode": "560077",
+                "addressCountry": "India"
+              }
+            ],
             "contactPoint": {
               "@type": "ContactPoint",
               "telephone": "+1-789-251-8414",

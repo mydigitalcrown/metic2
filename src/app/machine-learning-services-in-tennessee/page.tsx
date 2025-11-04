@@ -718,11 +718,24 @@ export default function MachineLearningTennesseePage() {
             "url": "https://metic.ai/machine-learning-services-in-tennessee/",
             "logo": "https://metic.ai/logo.png",
             "description": "Leading Machine Learning Company In Tennessee with 2100+ successful ML implementations. Expert AI and ML services for businesses across Nashville, Memphis, Knoxville, and the Volunteer State.",
-            "address": {
-              "@type": "PostalAddress",
-              "addressRegion": "Tennessee",
-              "addressCountry": "US"
-            },
+            "address": [
+              {
+                "@type": "PostalAddress",
+                "streetAddress": "300 Quail Ridge Dr NE",
+                "addressLocality": "Ada",
+                "addressRegion": "MI",
+                "postalCode": "49301",
+                "addressCountry": "US"
+              },
+              {
+                "@type": "PostalAddress",
+                "streetAddress": "Behind Manyata Tech Park, Hebbal",
+                "addressLocality": "Bangalore",
+                "addressRegion": "Karnataka",
+                "postalCode": "560077",
+                "addressCountry": "India"
+              }
+            ],
             "geo": {
               "@type": "GeoCoordinates",
               "latitude": "35.7478",
