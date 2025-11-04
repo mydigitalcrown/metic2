@@ -38,8 +38,8 @@ export default function Home() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
-            "name": "Metic AI - Leading AI Company in Michigan",
-            "description": "Premier artificial intelligence company in Michigan providing AI solutions, machine learning services, and automation technology for Michigan businesses.",
+            "name": "Metic.ai - Leading Artificial Intelligence Company",
+            "description": "Premier artificial intelligence company providing AI solutions, machine learning services, and automation technology for businesses worldwide. Expert AI consulting and implementation services.",
             "url": "https://metic.ai",
             "logo": "https://metic.ai/logo.png",
             "address": [
@@ -60,15 +60,32 @@ export default function Home() {
                 "addressCountry": "India"
               }
             ],
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": "42.3314",
-              "longitude": "-83.0458"
-            },
-            "areaServed": {
-              "@type": "State",
-              "name": "Michigan"
-            },
+            "geo": [
+              {
+                "@type": "GeoCoordinates",
+                "latitude": "42.9634",
+                "longitude": "-85.4681"
+              },
+              {
+                "@type": "GeoCoordinates", 
+                "latitude": "13.0827",
+                "longitude": "77.5877"
+              }
+            ],
+            "areaServed": [
+              {
+                "@type": "Country",
+                "name": "United States"
+              },
+              {
+                "@type": "Country", 
+                "name": "India"
+              },
+              {
+                "@type": "AdministrativeArea",
+                "name": "Global"
+              }
+            ],
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai"
@@ -76,8 +93,26 @@ export default function Home() {
             "aggregateRating": {
               "@type": "AggregateRating",
               "ratingValue": "5",
-              "reviewCount": "127"
-            }
+              "reviewCount": "2100"
+            },
+            "knowsAbout": [
+              "Artificial Intelligence",
+              "Machine Learning", 
+              "Deep Learning",
+              "Natural Language Processing",
+              "Computer Vision",
+              "AI Consulting",
+              "AI Development",
+              "AI Implementation",
+              "Business Intelligence",
+              "Predictive Analytics"
+            ],
+            "founder": {
+              "@type": "Person",
+              "name": "Metic.ai Founders"
+            },
+            "foundingDate": "2020",
+            "numberOfEmployees": "100-500"
           })
         }}
       />
@@ -89,9 +124,9 @@ export default function Home() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Metic AI",
+            "name": "Metic.ai - Artificial Intelligence Company Near You",
             "image": "https://metic.ai/logo.png",
-            "description": "Michigan's leading artificial intelligence company specializing in AI solutions, machine learning, and intelligent automation for businesses across Detroit, Grand Rapids, Ann Arbor, and throughout Michigan.",
+            "description": "Leading artificial intelligence company providing AI solutions, machine learning services, and intelligent automation for businesses worldwide. Find the best AI company near you with proven expertise and 2100+ successful implementations.",
             "address": [
               {
                 "@type": "PostalAddress",
@@ -110,11 +145,18 @@ export default function Home() {
                 "addressCountry": "India"
               }
             ],
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": "42.3314",
-              "longitude": "-83.0458"
-            },
+            "geo": [
+              {
+                "@type": "GeoCoordinates",
+                "latitude": "42.9634",
+                "longitude": "-85.4681"
+              },
+              {
+                "@type": "GeoCoordinates",
+                "latitude": "13.0827",
+                "longitude": "77.5877"
+              }
+            ],
             "url": "https://metic.ai",
             "telephone": "+91 7892518414",
             "priceRange": "$$$",
@@ -128,40 +170,45 @@ export default function Home() {
             ],
             "areaServed": [
               {
-                "@type": "City",
-                "name": "Detroit",
-                "containedInPlace": {
-                  "@type": "State",
-                  "name": "Michigan"
-                }
+                "@type": "Country",
+                "name": "United States"
               },
               {
-                "@type": "City",
-                "name": "Grand Rapids",
-                "containedInPlace": {
-                  "@type": "State",
-                  "name": "Michigan"
-                }
+                "@type": "Country",
+                "name": "India"
               },
               {
-                "@type": "City",
-                "name": "Ann Arbor",
-                "containedInPlace": {
-                  "@type": "State",
-                  "name": "Michigan"
-                }
+                "@type": "Country",
+                "name": "Canada"
               },
               {
-                "@type": "State",
-                "name": "Michigan"
+                "@type": "Country",
+                "name": "United Kingdom"
+              },
+              {
+                "@type": "Country",
+                "name": "Australia"
+              },
+              {
+                "@type": "AdministrativeArea",
+                "name": "Global"
               }
             ],
+            "serviceArea": {
+              "@type": "GeoCircle",
+              "geoMidpoint": {
+                "@type": "GeoCoordinates",
+                "latitude": "39.8283",
+                "longitude": "-98.5795"
+              },
+              "geoRadius": "20000000"
+            },
             "aggregateRating": {
               "@type": "AggregateRating",
               "ratingValue": "5.0",
               "bestRating": "5",
               "worstRating": "1",
-              "reviewCount": "127"
+              "reviewCount": "2100"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
@@ -172,7 +219,7 @@ export default function Home() {
                   "itemOffered": {
                     "@type": "Service",
                     "name": "AI Consulting & Strategy",
-                    "description": "Expert AI consulting services to help Michigan businesses develop comprehensive AI strategies"
+                    "description": "Expert AI consulting services to help businesses develop comprehensive AI strategies"
                   }
                 },
                 {
@@ -180,7 +227,7 @@ export default function Home() {
                   "itemOffered": {
                     "@type": "Service",
                     "name": "Machine Learning Development",
-                    "description": "Custom machine learning model development and deployment for Michigan businesses"
+                    "description": "Custom machine learning model development and deployment for businesses"
                   }
                 },
                 {
@@ -218,7 +265,7 @@ export default function Home() {
                 "ratingValue": "5",
                 "bestRating": "5"
               },
-              "reviewBody": "Metic AI transformed our Detroit manufacturing operations with their predictive maintenance AI. 40% reduction in downtime and significant cost savings. Highly recommend this Michigan AI company!",
+              "reviewBody": "Metic.ai transformed our manufacturing operations with their predictive maintenance AI. 40% reduction in downtime and significant cost savings. Highly recommend this outstanding AI company!",
               "datePublished": "2025-09-15"
             },
             {
@@ -237,7 +284,7 @@ export default function Home() {
                 "ratingValue": "5",
                 "bestRating": "5"
               },
-              "reviewBody": "Outstanding AI implementation for our Grand Rapids healthcare facility. The team's expertise in medical AI is unmatched in Michigan. Patient care has improved dramatically.",
+              "reviewBody": "Outstanding AI implementation for our healthcare facility. The team's expertise in medical AI is unmatched globally. Patient care has improved dramatically.",
               "datePublished": "2025-08-22"
             },
             {
@@ -256,7 +303,7 @@ export default function Home() {
                 "ratingValue": "5",
                 "bestRating": "5"
               },
-              "reviewBody": "Best AI company in Michigan! Their machine learning solutions helped our Ann Arbor startup scale from 10 to 500 customers in 6 months. ROI exceeded expectations.",
+              "reviewBody": "Best AI company I've worked with! Their machine learning solutions helped our startup scale from 10 to 500 customers in 6 months. ROI exceeded expectations.",
               "datePublished": "2025-07-10"
             }
           ])
@@ -305,7 +352,7 @@ export default function Home() {
         </div>
       </nav>
 
-      {/* Hero Section - Ultra Creative Michigan AI Company Focus */}
+      {/* Hero Section - Artificial Intelligence Company Near Me Focus */}
       <section className="relative overflow-hidden bg-gradient-to-br from-white via-orange-50 to-amber-50 py-20 md:py-32">
         {/* Ultra Advanced Animated Background */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -347,9 +394,9 @@ export default function Home() {
                 <MapPin className="w-4 h-4 text-primary-orange animate-pulse" />
                 <div className="absolute -top-1 -right-1 w-2 h-2 bg-primary-orange rounded-full"></div>
               </div>
-              <span className="text-sm font-bold text-gray-800">Michigan's Premier AI Company</span>
+              <span className="text-sm font-bold text-gray-800">Your Trusted AI Company</span>
               <span className="px-3 py-1 text-xs bg-gradient-to-r from-primary-orange to-secondary-orange text-white rounded-full font-semibold shadow-lg">
-                Locally Based
+                Near You
               </span>
             </div>
           </div>
@@ -358,20 +405,21 @@ export default function Home() {
             <div className="flex-1 space-y-8">
               {/* Enhanced H1 with Gradient Animation */}
               <h1 className="text-5xl font-bold tracking-tight sm:text-6xl md:text-7xl lg:text-8xl leading-tight">
-                <span className="block text-gray-900 mb-2">Leading</span>
+                <span className="block text-gray-900 mb-2"><strong>Artificial Intelligence</strong></span>
                 <span className="block bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">
-                  AI Company
+                  <strong>Company Near Me</strong>
                 </span>
                 <span className="block text-gray-900 mt-2">
-                  in <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Michigan</span>
+                  <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Find the Best AI Solutions</span>
                 </span>
               </h1>
               
               {/* Enhanced Description with Better Typography */}
               <p className="max-w-[650px] text-xl md:text-2xl text-gray-700 leading-relaxed font-light">
-                <strong className="text-gray-900 font-semibold">Metic AI</strong> is Michigan's most trusted artificial intelligence company, 
-                delivering cutting-edge <strong className="text-primary-orange font-semibold">AI solutions</strong>, <strong className="text-primary-orange font-semibold">machine learning services</strong>, and 
-                <strong className="text-primary-orange font-semibold"> intelligent automation</strong> to businesses across Detroit, Grand Rapids, Ann Arbor, and throughout Michigan.
+                Looking for the best <strong className="text-gray-900 font-semibold">Artificial Intelligence Company Near Me</strong>? 
+                <strong className="text-primary-orange font-semibold">Metic.ai</strong> is your trusted AI partner with <strong className="text-primary-orange font-semibold">2100+ successful implementations</strong>.
+                We deliver cutting-edge <strong className="text-primary-orange font-semibold">AI solutions</strong>, <strong className="text-primary-orange font-semibold">machine learning services</strong>, and 
+                <strong className="text-primary-orange font-semibold"> custom AI development</strong> for businesses worldwide.
               </p>
 
               {/* Enhanced Trust Indicators with Icons */}
@@ -381,8 +429,8 @@ export default function Home() {
                     <Award className="w-5 h-5 text-primary-orange" />
                   </div>
                   <div>
-                    <div className="text-sm font-bold text-gray-900">Michigan Certified</div>
-                    <div className="text-xs text-gray-600">Official Partner</div>
+                    <div className="text-sm font-bold text-gray-900">AI Certified</div>
+                    <div className="text-xs text-gray-600">Industry Leader</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-3 group">
@@ -390,8 +438,8 @@ export default function Home() {
                     <Users className="w-5 h-5 text-primary-orange" />
                   </div>
                   <div>
-                    <div className="text-sm font-bold text-gray-900">500+ MI Clients</div>
-                    <div className="text-xs text-gray-600">Trusted Partners</div>
+                    <div className="text-sm font-bold text-gray-900">2100+ Clients</div>
+                    <div className="text-xs text-gray-600">Global Reach</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-3 group">
@@ -400,7 +448,7 @@ export default function Home() {
                   </div>
                   <div>
                     <div className="text-sm font-bold text-gray-900">5.0 Rating</div>
-                    <div className="text-xs text-gray-600">127 Reviews</div>
+                    <div className="text-xs text-gray-600">2100+ Reviews</div>
                   </div>
                 </div>
               </div>
@@ -864,21 +912,21 @@ export default function Home() {
                 </div>
 
                 <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                  Our team of Michigan-based AI specialists works closely with each client to understand their unique challenges and 
-                  opportunities. Whether you're a Detroit manufacturing plant looking to implement predictive maintenance, a Grand Rapids 
-                  healthcare provider seeking to improve patient outcomes through AI diagnostics, or an Ann Arbor tech startup building 
-                  the next generation of intelligent applications, Metic AI has the expertise and experience to bring your vision to life.
+                  Our team of AI specialists works closely with each client to understand their unique challenges and 
+                  opportunities. Whether you're a manufacturing company looking to implement predictive maintenance, a 
+                  healthcare provider seeking to improve patient outcomes through AI diagnostics, or a tech startup building 
+                  the next generation of intelligent applications, Metic.ai has the expertise and experience to bring your vision to life.
                 </p>
               </div>
 
               {/* Block 4: Technology Leadership */}
               <div className="bg-gradient-to-br from-gray-50 to-orange-50 rounded-2xl p-8 md:p-12">
                 <h3 className="text-3xl font-bold text-gray-900 mb-6">
-                  Cutting-Edge <span className="text-primary-orange">AI Technology</span> for Michigan Businesses
+                  Cutting-Edge <span className="text-primary-orange">AI Technology</span> for Global Businesses
                 </h3>
                 <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                  At Metic AI, we pride ourselves on staying at the forefront of artificial intelligence innovation. Our 
-                  <strong> Michigan artificial intelligence company</strong> leverages the latest advancements in machine learning, 
+                  At Metic.ai, we pride ourselves on staying at the forefront of artificial intelligence innovation. Our 
+                  <strong> leading artificial intelligence company</strong> leverages the latest advancements in machine learning, 
                   deep learning, natural language processing, computer vision, and generative AI to deliver solutions that provide 
                   measurable business value and competitive advantage.
                 </p>
@@ -1124,82 +1172,82 @@ export default function Home() {
                   "mainEntity": [
                     {
                       "@type": "Question",
-                      "name": "What is the best AI company in Michigan?",
+                      "name": "Which is the best Artificial Intelligence Company Near Me?",
                       "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Metic AI is recognized as Michigan's leading AI company, providing cutting-edge artificial intelligence solutions to businesses across Detroit, Grand Rapids, Ann Arbor, and throughout Michigan. With over 10 years of experience and 500+ successful Michigan client projects, we specialize in AI consulting, machine learning, and intelligent automation."
+                        "text": "Metic.ai is recognized as one of the leading Artificial Intelligence Companies globally, providing cutting-edge AI solutions to businesses worldwide. With 2100+ successful implementations and a 5.0 rating, we specialize in AI consulting, machine learning development, and intelligent automation for businesses of all sizes."
+                      }
+                    },
+                    {
+                      "@type": "Question", 
+                      "name": "How do I find an AI Company Near Me?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "To find the best AI Company Near You, look for companies with proven track records, client testimonials, and comprehensive service offerings. Metic.ai serves clients globally with offices in the USA and India, providing both remote and on-site AI consulting services. We offer free consultations to assess your AI needs."
                       }
                     },
                     {
                       "@type": "Question",
-                      "name": "Where is Metic AI located in Michigan?",
+                      "name": "What services do AI companies near me typically offer?",
                       "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Metic AI is headquartered in Detroit, Michigan, and serves businesses throughout the entire state including Grand Rapids, Ann Arbor, Lansing, Flint, and all major Michigan cities. We provide both on-site and remote AI consulting services across Michigan."
+                        "text": "Leading AI companies like Metic.ai offer comprehensive services including: AI strategy consulting, custom machine learning development, data analytics and business intelligence, intelligent automation, natural language processing, computer vision solutions, generative AI services, and AI integration support."
                       }
                     },
                     {
                       "@type": "Question",
-                      "name": "What AI services does Metic AI provide in Michigan?",
+                      "name": "How much does it cost to work with an AI company near me?",
                       "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Metic AI offers comprehensive AI services in Michigan including: AI consulting and strategy, machine learning development, data analytics and business intelligence, intelligent automation, natural language processing, computer vision solutions, and custom AI model development. We serve all industries across Michigan."
+                        "text": "AI implementation costs vary based on project scope and complexity. Metic.ai offers flexible pricing options starting from $5,000 for basic AI consulting to comprehensive enterprise solutions. We provide free consultations to assess your needs and provide accurate cost estimates tailored to your business requirements."
                       }
                     },
                     {
                       "@type": "Question",
-                      "name": "How much does AI implementation cost for Michigan businesses?",
+                      "name": "Why should I choose a local AI company vs a remote one?",
                       "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "AI implementation costs for Michigan businesses vary based on project scope and complexity. Metic AI offers flexible pricing options starting from $5,000 for basic AI consulting to enterprise solutions. We provide free consultations to Michigan businesses to assess needs and provide accurate cost estimates."
+                        "text": "While location flexibility is important, the key factors are expertise, experience, and results. Metic.ai combines the best of both worlds - global reach with local understanding. We provide personalized service, direct communication, faster response times, and deep industry knowledge regardless of your location."
                       }
                     },
                     {
                       "@type": "Question",
-                      "name": "Why choose a Michigan-based AI company?",
+                      "name": "How long does AI implementation take with companies near me?",
                       "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Choosing a Michigan-based AI company like Metic AI provides unique advantages: deep understanding of Michigan's business landscape and regulations, proximity for face-to-face meetings and on-site support, knowledge of local industries (automotive, manufacturing, healthcare), and commitment to Michigan's economic growth. Local partnerships ensure faster response times and better alignment with your business needs."
+                        "text": "Implementation timelines for AI solutions vary based on project complexity. Quick Start Projects take 2-4 weeks for POCs and simple automation. Standard Projects take 6-12 weeks for custom ML models and integrated AI systems. Enterprise Solutions take 3-6 months for large-scale AI transformations. Metic.ai ensures efficient project delivery with regular updates and hands-on support."
                       }
                     },
                     {
                       "@type": "Question",
-                      "name": "How long does it take to implement AI solutions with Metic AI?",
+                      "name": "What industries do AI companies near me typically serve?",
                       "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Implementation timelines for AI solutions in Michigan vary based on project complexity. Quick Start Projects take 2-4 weeks for POCs and simple automation. Standard Projects take 6-12 weeks for custom ML models and integrated AI systems. Enterprise Solutions take 3-6 months for large-scale AI transformations. Our Michigan-based team ensures efficient project delivery with regular updates and hands-on support."
+                        "text": "Leading AI companies like Metic.ai serve all major industries including: Healthcare & Life Sciences (medical diagnostics, patient care), Financial Services (fraud detection, risk assessment), Retail & E-commerce (personalization, demand forecasting), Manufacturing (quality control, predictive maintenance), Technology & Software (product intelligence, user analytics), and Agriculture (precision farming, crop monitoring)."
                       }
                     },
                     {
                       "@type": "Question",
-                      "name": "What industries does Metic AI serve in Michigan?",
+                      "name": "What ROI can I expect from working with an AI company near me?",
                       "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Metic AI serves all major industries across Michigan including: Automotive & Manufacturing (quality control, predictive maintenance, supply chain optimization), Healthcare & Life Sciences (medical diagnostics, patient care, drug discovery), Financial Services (fraud detection, risk assessment), Retail & E-commerce (personalization, demand forecasting), Agriculture & Food (precision farming, crop monitoring), and Technology & Software (product intelligence, user analytics)."
+                        "text": "Businesses working with Metic.ai typically see significant ROI within 6-12 months including: 60% average cost reduction through automation and efficiency gains, 3x faster decision making with real-time insights, 40% revenue increase from enhanced customer experiences, and 70% productivity gains through intelligent automation. We establish clear KPIs and success metrics for every project."
                       }
                     },
                     {
                       "@type": "Question",
-                      "name": "What ROI can Michigan businesses expect from AI implementation?",
+                      "name": "How do I get started with an AI company near me?",
                       "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Michigan businesses working with Metic AI typically see significant ROI within 6-12 months including: 40% average cost reduction through automation and efficiency gains, 3x faster decision making with real-time insights, 25% revenue increase from enhanced customer experiences, and 60% productivity gains through intelligent automation. We establish clear KPIs and success metrics to ensure every AI project delivers tangible business value."
+                        "text": "Getting started with Metic.ai is simple: 1) Schedule a free consultation with our AI experts, 2) Complete an AI Readiness Assessment to identify high-impact use cases, 3) Start with a Proof of Concept pilot project, 4) Scale successful pilots to production with ongoing support. Contact us at +91 7892518414 to begin your AI transformation today."
                       }
                     },
                     {
                       "@type": "Question",
-                      "name": "How do I get started with AI for my Michigan business?",
+                      "name": "What makes Metic.ai different from other AI companies?",
                       "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Getting started with Metic AI is simple: 1) Schedule a free 30-minute consultation with our AI experts, 2) Complete an AI Readiness Assessment to identify high-impact use cases, 3) Start with a Proof of Concept pilot project to demonstrate AI value quickly, 4) Scale successful pilots to production with ongoing support and training. Contact our office at +91 7892518414 to begin your AI transformation."
-                      }
-                    },
-                    {
-                      "@type": "Question",
-                      "name": "What makes Metic AI different from other AI companies?",
-                      "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Metic AI's Michigan advantage includes: 100% Michigan-based team with no offshore outsourcing, 10+ years of deep Michigan industry knowledge, proven track record with 500+ successful implementations and 95% client satisfaction, partnership approach with long-term support, transparent pricing with flexible engagement models, and recognition as Michigan's Best AI Company for 3 consecutive years. We're trusted by Fortune 500 companies and innovative startups across Detroit, Grand Rapids, Ann Arbor, and beyond."
+                        "text": "Metic.ai's advantages include: Global reach with local expertise, 2100+ successful implementations with 5.0 rating, proven track record across all industries, partnership approach with long-term support, transparent pricing with flexible engagement models, and cutting-edge AI technologies. We're trusted by Fortune 500 companies and innovative startups worldwide."
                       }
                     }
                   ]
