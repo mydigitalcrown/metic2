@@ -20,49 +20,215 @@ import {
   PieChart,
   LineChart,
   Layers,
-  Code
+  Code,
+  Calendar,
+  Phone,
+  ChevronDown,
 } from "lucide-react";
 
 export const metadata = {
-  title: "Machine Learning Services in Rhode Island | ML Solutions & Model Development - Metic.ai",
-  description: "Professional machine learning services in Rhode Island including predictive analytics, classification models, regression analysis, clustering, neural networks, and enterprise ML solutions. 3x faster delivery and 60% cost savings.",
-  keywords: "machine learning services Rhode Island, predictive analytics Rhode Island, classification models Rhode Island, regression analysis Rhode Island, neural networks Rhode Island, ML model development Rhode Island, data science Rhode Island, artificial intelligence Rhode Island, predictive modeling Rhode Island, supervised learning Rhode Island, unsupervised learning Rhode Island",
-  authors: [{ name: "Metic.ai Machine Learning Team" }],
-  robots: "index, follow",
+  title: "Machine Learning Company In Rhode Island | #1 ML Company In RI - Metic.ai",
+  description: "Leading Machine Learning Company In Rhode Island with 2100+ successful ML implementations. Expert machine learning services, AI solutions & predictive analytics. Transform your business with 60% cost savings & 3x faster delivery.",
+  keywords: [
+    "Machine Learning Company In Rhode Island",
+    "ML Company In Rhode Island",
+    "Machine Learning Services In Rhode Island", 
+    "Machine Learning Firm In Rhode Island",
+    "AI Company In Rhode Island",
+    "Machine Learning Development Company Rhode Island",
+    "Best Machine Learning Company Rhode Island",
+    "Top ML Company RI",
+    "Predictive Analytics Company Rhode Island",
+    "Data Science Company Rhode Island",
+    "AI Services Rhode Island",
+    "ML Solutions Rhode Island",
+    "Machine Learning Consulting Rhode Island",
+    "Deep Learning Company Rhode Island",
+    "Neural Networks Rhode Island",
+    "Big Data Analytics Rhode Island"
+  ],
+  authors: [{ name: "Metic.ai - Machine Learning Company In Rhode Island" }],
+  robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
-    title: "Machine Learning Services in Rhode Island | ML Solutions & Model Development - Metic.ai",
-    description: "Professional machine learning services in Rhode Island including predictive analytics, classification models, and enterprise ML solutions. 3x faster delivery and 60% cost savings.",
+    title: "Machine Learning Company In Rhode Island | #1 ML Company In RI - Metic.ai",
+    description: "Leading Machine Learning Company In Rhode Island with 2100+ successful ML implementations. Expert machine learning services & AI solutions.",
     url: "https://metic.ai/machine-learning-services-in-rhode-island/",
+    siteName: "Metic.ai - Machine Learning Company In Rhode Island",
     type: "website",
+    locale: "en_US",
     images: [
       {
         url: "https://metic.ai/og-machine-learning-rhode-island.jpg",
         width: 1200,
         height: 630,
-        alt: "Machine Learning Services in Rhode Island by Metic.ai",
+        alt: "Machine Learning Company In Rhode Island - Metic.ai",
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Machine Learning Company In Rhode Island | #1 ML Company In RI - Metic.ai",
+    description: "Leading Machine Learning Company In Rhode Island with 2100+ successful ML implementations. Expert machine learning services & AI solutions.",
+    images: ["https://metic.ai/og-machine-learning-rhode-island.jpg"],
   },
   alternates: {
     canonical: "https://metic.ai/machine-learning-services-in-rhode-island/",
   },
+  other: {
+    "geo.region": "US-RI",
+    "geo.placename": "Rhode Island",
+    "geo.position": "41.5801;-71.4774",
+    "ICBM": "41.5801, -71.4774"
+  }
 };
 
 export default function MachineLearningRhodeIslandPage() {
+  // FAQ Data for ASO Optimization
+  const faqData = [
+    {
+      question: "Which is the best Machine Learning Company In Rhode Island?",
+      answer: "Metic.ai is recognized as the leading Machine Learning Company In Rhode Island with 2100+ successful ML implementations. Our ML Company In Rhode Island specializes in enterprise-grade AI solutions, delivering 60% cost savings and 3x faster project delivery compared to traditional development approaches for New England businesses."
+    },
+    {
+      question: "What services does your Machine Learning Company In Rhode Island offer?",
+      answer: "Our Machine Learning Company In Rhode Island offers comprehensive ML services including predictive analytics, computer vision, natural language processing, recommendation systems, fraud detection, automated decision-making, and custom AI model development tailored for Rhode Island's manufacturing, healthcare, and technology sectors."
+    },
+    {
+      question: "How much does it cost to hire a Machine Learning Company In Rhode Island?",
+      answer: "As a leading Machine Learning Company In Rhode Island, we offer flexible pricing starting from $15,000 for basic ML projects. Our ML Company In Rhode Island provides custom quotes based on project complexity, with most clients achieving 60% cost savings compared to building in-house ML teams."
+    },
+    {
+      question: "How long does a typical machine learning project take in Rhode Island?",
+      answer: "Our Machine Learning Company In Rhode Island delivers projects 3x faster than industry average. Simple ML models take 4-6 weeks, while complex AI systems require 3-6 months. We use agile methodologies to ensure rapid deployment and continuous improvement of your ML solutions."
+    },
+    {
+      question: "Do you provide ongoing support after ML model deployment in Rhode Island?",
+      answer: "Yes, our Machine Learning Company In Rhode Island provides comprehensive post-deployment support including model monitoring, performance optimization, retraining, and scaling. We ensure your ML models maintain peak performance with 24/7 technical support and regular updates."
+    },
+    {
+      question: "What industries does your Machine Learning Company In Rhode Island serve?",
+      answer: "Our Machine Learning Company In Rhode Island serves diverse industries including manufacturing, healthcare innovation, marine technology, defense contractors, jewelry and precious metals, tourism, and financial services. We have successfully implemented ML solutions for 2100+ projects across various Rhode Island business sectors."
+    }
+  ];
+
+  // Structured Data for FAQ Schema
+  const faqStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqData.map(faq => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
+
+  // Organization Schema with Location Data
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Metic.ai - Machine Learning Company In Rhode Island",
+    "description": "Leading Machine Learning Company In Rhode Island with 2100+ successful ML implementations. Expert AI services and solutions for New England businesses.",
+    "url": "https://metic.ai/machine-learning-services-in-rhode-island/",
+    "logo": "https://metic.ai/logo.png",
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "Rhode Island",
+      "addressCountry": "US"
+    },
+    "serviceArea": {
+      "@type": "State",
+      "name": "Rhode Island"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Machine Learning Services Rhode Island",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Machine Learning Development",
+            "description": "Custom ML model development and deployment"
+          }
+        },
+        {
+          "@type": "Offer", 
+          "itemOffered": {
+            "@type": "Service",
+            "name": "AI Consulting",
+            "description": "Strategic AI consulting for Rhode Island businesses"
+          }
+        }
+      ]
+    }
+  };
+
+  // Article Schema for Content Authority
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Machine Learning Company In Rhode Island | Leading AI Services",
+    "description": "Comprehensive guide to machine learning services in Rhode Island by the leading ML company with 2100+ successful implementations.",
+    "author": {
+      "@type": "Organization",
+      "name": "Metic.ai"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Metic.ai",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://metic.ai/logo.png"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://metic.ai/machine-learning-services-in-rhode-island/"
+    }
+  };
+
   return (
     <>
-      {/* Hero Section */}
+      {/* Structured Data - Triple Schema Implementation */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(faqStructuredData)
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(organizationSchema)
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(articleSchema)
+        }}
+      />
+      {/* Hero Section - Primary Target Keyword Focus */}
       <section className="bg-gradient-to-b from-white to-green-50 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              <span className="text-primary-orange">Machine Learning Services</span> in Rhode Island
+              <strong>Machine Learning Company In Rhode Island</strong> | Leading ML Company In RI
             </h1>
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your Rhode Island business with advanced machine learning solutions. From predictive 
-              analytics to intelligent automation, we build ML models that drive growth and efficiency 
-              with 3x faster delivery and 60% cost savings.
+            <p className="text-xl text-gray-600 mb-6 max-w-3xl mx-auto">
+              Looking for the best <strong>Machine Learning Company In Rhode Island</strong>? Metic.ai is the premier 
+              <strong> Machine Learning Company In Rhode Island</strong> with 2100+ successful ML implementations. 
+              We deliver expert machine learning services, AI solutions, and predictive analytics to transform Rhode Island businesses.
             </p>
+            <div className="mb-8 flex flex-wrap justify-center gap-2">
+              <span className="px-3 py-1 bg-primary-orange/10 text-primary-orange rounded-full text-sm font-medium">Machine Learning Services RI</span>
+              <span className="px-3 py-1 bg-primary-orange/10 text-primary-orange rounded-full text-sm font-medium">ML Firm Rhode Island</span>
+              <span className="px-3 py-1 bg-primary-orange/10 text-primary-orange rounded-full text-sm font-medium">AI Company RI</span>
+              <span className="px-3 py-1 bg-primary-orange/10 text-primary-orange rounded-full text-sm font-medium">Data Science Rhode Island</span>
+            </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="#consultation">
                 <Button variant="primary" size="lg">
@@ -74,6 +240,50 @@ export default function MachineLearningRhodeIslandPage() {
                   Explore ML Solutions
                 </Button>
               </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* About Section - Company Authority */}
+      <section className="py-16 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold mb-6">
+                About Our <span className="text-primary-orange">Machine Learning Company In Rhode Island</span>
+              </h2>
+              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
+            </div>
+            
+            <div className="prose prose-lg max-w-none text-gray-600">
+              <p className="text-lg leading-relaxed mb-6">
+                As the leading <strong>Machine Learning Company In Rhode Island</strong>, Metic.ai has established itself as the 
+                premier destination for businesses seeking cutting-edge ML solutions in the Ocean State. Our <strong>Machine Learning Firm In Rhode Island</strong> 
+                specializes in delivering enterprise-grade AI solutions that drive measurable business outcomes for Rhode Island's diverse economy.
+              </p>
+              
+              <p className="text-lg leading-relaxed mb-6">
+                Founded with the vision to democratize AI technology, our <strong>Machine Learning Company In Rhode Island</strong> 
+                has successfully implemented over 2,100 ML projects across diverse industries including manufacturing, healthcare innovation, 
+                marine technology, defense contracting, and tourism. We combine deep technical expertise with Rhode Island's unique 
+                business landscape understanding to deliver solutions that truly transform operations.
+              </p>
+              
+              <div className="grid md:grid-cols-3 gap-8 my-12">
+                <div className="text-center p-6 bg-gray-50 rounded-lg">
+                  <div className="text-3xl font-bold text-primary-orange mb-2">2100+</div>
+                  <p className="font-semibold">ML Projects Completed</p>
+                </div>
+                <div className="text-center p-6 bg-gray-50 rounded-lg">
+                  <div className="text-3xl font-bold text-primary-orange mb-2">98%</div>
+                  <p className="font-semibold">Client Success Rate</p>
+                </div>
+                <div className="text-center p-6 bg-gray-50 rounded-lg">
+                  <div className="text-3xl font-bold text-primary-orange mb-2">60%</div>
+                  <p className="font-semibold">Average Cost Savings</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -386,42 +596,74 @@ export default function MachineLearningRhodeIslandPage() {
         </div>
       </section>
 
-      {/* CTA Section */}
+      {/* FAQ Section - ASO Optimization */}
+      <section className="py-16 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold mb-4">
+                Frequently Asked Questions About <span className="text-primary-orange">Machine Learning Company In Rhode Island</span>
+              </h2>
+              <p className="text-gray-600">
+                Get answers to common questions about our machine learning services in Rhode Island
+              </p>
+            </div>
+            
+            <div className="space-y-6">
+              {faqData.map((faq, index) => (
+                <details key={index} className="bg-white rounded-lg shadow-sm p-6 group">
+                  <summary className="cursor-pointer font-semibold text-lg text-gray-800 flex justify-between items-center">
+                    {faq.question}
+                    <ChevronDown className="w-5 h-5 group-open:rotate-180 transition-transform" />
+                  </summary>
+                  <div className="mt-4 text-gray-600 leading-relaxed">
+                    {faq.answer}
+                  </div>
+                </details>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section - Enhanced with Keywords */}
       <section id="consultation" className="py-20 bg-primary-orange text-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-              Ready to Transform Your Rhode Island Business with Machine Learning?
+              Ready to Partner with the Top <span className="underline">Machine Learning Company In Rhode Island</span>?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join leading Rhode Island companies leveraging our advanced machine learning solutions. 
-              Start your ML transformation today with 3x faster delivery and 60% cost savings.
+              Join 2100+ businesses that chose our <strong>Machine Learning Company In Rhode Island</strong> for their AI transformation. 
+              Get a free consultation and discover how our ML solutions can revolutionize your Rhode Island operations.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
                 <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100">
-                  Start ML Project
+                  <Calendar className="w-5 h-5 mr-2" />
+                  Schedule Free ML Consultation
                 </Button>
               </Link>
               <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  Call: +91 7892518414
+                  <Phone className="w-5 h-5 mr-2" />
+                  Call Rhode Island ML Experts: +91 7892518414
                 </Button>
               </Link>
             </div>
             
             <div className="mt-12 grid md:grid-cols-3 gap-8 text-center">
               <div>
-                <div className="text-2xl font-bold mb-2">300+</div>
-                <p className="text-orange-100">ML Models Deployed</p>
+                <div className="text-2xl font-bold mb-2">2100+</div>
+                <p className="text-orange-100">ML Projects Completed</p>
               </div>
               <div>
-                <div className="text-2xl font-bold mb-2">95%</div>
-                <p className="text-orange-100">Model Accuracy Rate</p>
+                <div className="text-2xl font-bold mb-2">98%</div>
+                <p className="text-orange-100">Client Success Rate</p>
               </div>
               <div>
-                <div className="text-2xl font-bold mb-2">3x</div>
-                <p className="text-orange-100">Faster Delivery</p>
+                <div className="text-2xl font-bold mb-2">60%</div>
+                <p className="text-orange-100">Average Cost Savings</p>
               </div>
             </div>
           </div>
