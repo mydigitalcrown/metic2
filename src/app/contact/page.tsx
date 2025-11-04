@@ -37,10 +37,10 @@ export default function ContactPage() {
                   <div>
                     <p className="font-medium">Email Us</p>
                     <a 
-                      href="mailto:hello@matic.ai" 
+                      href="mailto:hello@metic.ai" 
                       className="text-primary-orange hover:underline"
                     >
-                      hello@matic.ai
+                      hello@metic.ai
                     </a>
                   </div>
                 </div>
@@ -254,7 +254,7 @@ export default function ContactPage() {
               <div className="mt-8 p-6 bg-gray-50 rounded-lg">
                 <h3 className="text-lg font-semibold mb-3">Alternative Contact Methods</h3>
                 <div className="space-y-2 text-sm text-gray-600">
-                  <p>• <strong>Direct Email:</strong> <a href="mailto:hello@matic.ai?subject=Website Contact" className="text-primary-orange hover:underline">hello@matic.ai</a></p>
+                  <p>• <strong>Direct Email:</strong> <a href="mailto:hello@metic.ai?subject=Website Contact" className="text-primary-orange hover:underline">hello@metic.ai</a></p>
                   <p>• <strong>Phone:</strong> <a href="tel:+917892518414" className="text-primary-orange hover:underline">+91 7892518414</a></p>
                   <p>• <strong>Response Time:</strong> We typically respond within 24 hours</p>
                   <p>• <strong>Business Hours:</strong> Monday-Friday, 9:00 AM - 6:00 PM IST</p>
@@ -263,7 +263,7 @@ export default function ContactPage() {
               
               <script dangerouslySetInnerHTML={{
                 __html: `
-                  document.getElementById('contact-form').addEventListener('submit', function(e) {
+                  document.getElementById('contact-form').addEventListener('submit', async function(e) {
                     e.preventDefault();
                     
                     const submitBtn = document.getElementById('submit-btn');
@@ -273,6 +273,7 @@ export default function ContactPage() {
                     // Show loading state
                     submitBtn.textContent = 'Sending...';
                     submitBtn.disabled = true;
+                    formStatus.className = 'hidden';
                     
                     // Collect form data
                     const data = {};
@@ -280,33 +281,40 @@ export default function ContactPage() {
                       data[key] = value;
                     }
                     
-                    // Create email content
-                    const subject = encodeURIComponent('Contact Form: ' + data.subject);
-                    const body = encodeURIComponent(
-                      'New contact form submission:\\n\\n' +
-                      'Name: ' + data.firstName + ' ' + data.lastName + '\\n' +
-                      'Email: ' + data.email + '\\n' +
-                      'Company: ' + (data.company || 'Not provided') + '\\n' +
-                      'Phone: ' + (data.phone || 'Not provided') + '\\n' +
-                      'Subject: ' + data.subject + '\\n\\n' +
-                      'Message:\\n' + data.message + '\\n\\n' +
-                      'Sent from: metic.ai contact form'
-                    );
-                    
-                    // Open email client
-                    window.location.href = 'mailto:hello@matic.ai?subject=' + subject + '&body=' + body;
-                    
-                    // Show success message
-                    setTimeout(function() {
-                      formStatus.className = 'p-4 rounded-md bg-green-50 border border-green-200';
-                      formStatus.innerHTML = '<div class="text-green-800"><strong>Thank you!</strong> Your email client should have opened. If not, please email us directly at <a href="mailto:hello@matic.ai" class="text-primary-orange hover:underline">hello@matic.ai</a></div>';
+                    try {
+                      // Send to API endpoint
+                      const response = await fetch('/api/contact', {
+                        method: 'POST',
+                        headers: {
+                          'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify(data)
+                      });
                       
-                      submitBtn.textContent = 'Send Message';
-                      submitBtn.disabled = false;
+                      const result = await response.json();
                       
-                      // Reset form
-                      document.getElementById('contact-form').reset();
-                    }, 1000);
+                      if (response.ok) {
+                        // Show success message
+                        formStatus.className = 'p-4 rounded-md bg-green-50 border border-green-200';
+                        formStatus.innerHTML = '<div class="text-green-800"><strong>Thank you!</strong> ' + result.message + 
+                          (result.note ? '<br><small class="text-green-600">' + result.note + ' Please email us directly at <a href="mailto:hello@metic.ai" class="text-primary-orange hover:underline">hello@metic.ai</a></small>' : '') + '</div>';
+                        
+                        // Reset form on success
+                        this.reset();
+                      } else {
+                        // Show error message
+                        formStatus.className = 'p-4 rounded-md bg-red-50 border border-red-200';
+                        formStatus.innerHTML = '<div class="text-red-800"><strong>Error:</strong> ' + (result.error || 'Something went wrong. Please try again or email us directly at <a href="mailto:hello@metic.ai" class="text-primary-orange hover:underline">hello@metic.ai</a>') + '</div>';
+                      }
+                    } catch (error) {
+                      // Show network error
+                      formStatus.className = 'p-4 rounded-md bg-red-50 border border-red-200';
+                      formStatus.innerHTML = '<div class="text-red-800"><strong>Network Error:</strong> Please check your connection and try again, or email us directly at <a href="mailto:hello@metic.ai" class="text-primary-orange hover:underline">hello@metic.ai</a></div>';
+                    }
+                    
+                    // Reset button state
+                    submitBtn.textContent = 'Send Message';
+                    submitBtn.disabled = false;
                   });
                 `
               }} />

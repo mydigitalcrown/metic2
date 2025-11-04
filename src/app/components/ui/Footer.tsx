@@ -84,10 +84,10 @@ export function Footer() {
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4 text-primary-orange flex-shrink-0" />
                 <a 
-                  href="mailto:hello@matic.ai?subject=Contact from Metic.ai Website" 
+                  href="mailto:hello@metic.ai?subject=Contact from Metic.ai Website" 
                   className="hover:text-primary-orange transition-colors text-sm"
                 >
-                  hello@matic.ai
+                  hello@metic.ai
                 </a>
               </div>
               <div className="flex items-center space-x-2">
