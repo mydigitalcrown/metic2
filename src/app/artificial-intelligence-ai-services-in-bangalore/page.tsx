@@ -21,6 +21,7 @@ import {
   Code,
   Database,
   Sparkles,
+  Quote,
   ChevronDown
 } from "lucide-react";
 
@@ -1186,62 +1187,71 @@ export default function AIServicesBangalorePage() {
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-gray-900">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6 text-white">
                 What Bangalore Businesses Say About Our <span className="text-primary-orange">AI Company</span>
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              <p className="text-lg text-gray-300 max-w-2xl mx-auto">
                 Real testimonials from Bangalore businesses that transformed their operations with our AI solutions.
               </p>
             </div>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div className="bg-white rounded-xl p-8 shadow-md">
-                <div className="flex items-center mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
-                  ))}
+              <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-8 border border-gray-700/50 hover:bg-gray-800/80 transition-all duration-300 group">
+                <div className="mb-6">
+                  <Quote className="w-8 h-8 text-primary-orange mb-4" />
+                  <div className="flex items-center mb-4">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
+                    ))}
+                  </div>
                 </div>
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  "Outstanding <strong>AI Company In Bangalore</strong>. Metic.ai transformed our software development process with intelligent automation that increased productivity by 50% across our Electronic City offices."
+                <p className="text-gray-300 mb-6 leading-relaxed group-hover:text-white transition-colors">
+                  "Outstanding <strong className="text-primary-orange">AI Company In Bangalore</strong>. Metic.ai transformed our software development process with intelligent automation that increased productivity by 50% across our Electronic City offices."
                 </p>
-                <div className="text-sm">
-                  <div className="font-semibold text-gray-900">Rajesh Kumar</div>
-                  <div className="text-gray-500">Infosys Bangalore</div>
+                <div className="text-sm border-t border-gray-700 pt-4">
+                  <div className="font-semibold text-white">Rajesh Kumar</div>
+                  <div className="text-primary-orange">Infosys Bangalore</div>
                 </div>
               </div>
 
-              <div className="bg-white rounded-xl p-8 shadow-md">
-                <div className="flex items-center mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
-                  ))}
+              <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-8 border border-gray-700/50 hover:bg-gray-800/80 transition-all duration-300 group">
+                <div className="mb-6">
+                  <Quote className="w-8 h-8 text-primary-orange mb-4" />
+                  <div className="flex items-center mb-4">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
+                    ))}
+                  </div>
                 </div>
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  "Best <strong>AI Development Company In Bangalore</strong>. Their fintech AI solution revolutionized our payment processing with machine learning algorithms that reduced fraud by 80% in our Koramangala operations."
+                <p className="text-gray-300 mb-6 leading-relaxed group-hover:text-white transition-colors">
+                  "Best <strong className="text-primary-orange">AI Development Company In Bangalore</strong>. Their fintech AI solution revolutionized our payment processing with machine learning algorithms that reduced fraud by 80% in our Koramangala operations."
                 </p>
-                <div className="text-sm">
-                  <div className="font-semibold text-gray-900">Priya Sharma</div>
-                  <div className="text-gray-500">Razorpay Bangalore</div>
+                <div className="text-sm border-t border-gray-700 pt-4">
+                  <div className="font-semibold text-white">Priya Sharma</div>
+                  <div className="text-primary-orange">Razorpay Bangalore</div>
                 </div>
               </div>
 
-              <div className="bg-white rounded-xl p-8 shadow-md">
-                <div className="flex items-center mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
-                  ))}
+              <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-8 border border-gray-700/50 hover:bg-gray-800/80 transition-all duration-300 group">
+                <div className="mb-6">
+                  <Quote className="w-8 h-8 text-primary-orange mb-4" />
+                  <div className="flex items-center mb-4">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
+                    ))}
+                  </div>
                 </div>
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  "Exceptional <strong>AI Service In Bangalore</strong>. Metic.ai's e-commerce AI platform boosted our customer personalization by 65% and increased sales conversion rates at our Whitefield headquarters."
+                <p className="text-gray-300 mb-6 leading-relaxed group-hover:text-white transition-colors">
+                  "Exceptional <strong className="text-primary-orange">AI Service In Bangalore</strong>. Metic.ai's e-commerce AI platform boosted our customer personalization by 65% and increased sales conversion rates at our Whitefield headquarters."
                 </p>
-                <div className="text-sm">
-                  <div className="font-semibold text-gray-900">Amit Patel</div>
-                  <div className="text-gray-500">Flipkart Bangalore</div>
+                <div className="text-sm border-t border-gray-700 pt-4">
+                  <div className="font-semibold text-white">Amit Patel</div>
+                  <div className="text-primary-orange">Flipkart Bangalore</div>
                 </div>
               </div>
             </div>
