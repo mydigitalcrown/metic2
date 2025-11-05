@@ -22,7 +22,10 @@ import {
   Database,
   Sparkles,
   ChevronDown,
-  Rocket
+  Rocket,
+  Globe,
+  Play,
+  Quote
 } from "lucide-react";
 
 export const metadata = {
@@ -361,56 +364,151 @@ export default function AIServicesAhmedabadPage() {
         }}
       />
 
-      {/* Hero Section - VSO & Target Keyword Optimized */}
-      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
-        <div className="container px-4 md:px-6">
+      {/* Enhanced Creative Hero Section - VSO & Target Keyword Optimized */}
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28 relative overflow-hidden">
+        {/* Creative Background Elements */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          {/* Animated Circuit Pattern */}
+          <div className="absolute inset-0 opacity-[0.03]" style={{
+            backgroundImage: `linear-gradient(#FF6B35 1px, transparent 1px), linear-gradient(90deg, #FF6B35 1px, transparent 1px)`,
+            backgroundSize: '50px 50px'
+          }}></div>
+          
+          {/* Floating AI Elements */}
+          <div className="absolute top-20 left-10 w-32 h-32 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-20 right-10 w-40 h-40 bg-primary-orange/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
+          
+          {/* Geometric Shapes */}
+          <div className="absolute top-1/4 left-1/4 w-2 h-2 bg-primary-orange/30 rounded-full animate-bounce" style={{animationDelay: '1s'}}></div>
+          <div className="absolute top-1/3 right-1/3 w-1.5 h-1.5 bg-orange-400/30 rounded-full animate-bounce" style={{animationDelay: '3s'}}></div>
+          <div className="absolute bottom-1/4 left-1/3 w-2.5 h-2.5 bg-primary-orange/20 rounded-full animate-bounce" style={{animationDelay: '2.5s'}}></div>
+        </div>
+
+        <div className="container px-4 md:px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="flex items-center justify-center gap-2 mb-6">
-              <MapPin className="w-5 h-5 text-primary-orange" />
+            {/* Enhanced Location Badge */}
+            <div className="inline-flex items-center gap-3 mb-8 bg-gray-800/50 backdrop-blur-sm rounded-full px-6 py-3 border border-primary-orange/20">
+              <div className="relative">
+                <MapPin className="w-5 h-5 text-primary-orange" />
+                <div className="absolute -top-1 -right-1 w-3 h-3 bg-primary-orange rounded-full animate-ping"></div>
+              </div>
               <span className="text-sm font-medium text-orange-300">Serving Ahmedabad, Gujarat, India</span>
+              <div className="w-2 h-2 bg-primary-orange rounded-full animate-pulse"></div>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
-              <strong>Artificial Intelligence Company In Ahmedabad</strong> | Leading <span className="text-primary-orange">AI Company In Gujarat</span>
-            </h1>
+            {/* Enhanced Title with Animation */}
+            <div className="relative mb-8">
+              <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white relative z-10">
+                <strong className="relative">
+                  Artificial Intelligence Company In Ahmedabad
+                  <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange opacity-30 rounded-full"></div>
+                </strong>
+                <br />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange">
+                  Leading AI Company In Gujarat
+                </span>
+              </h1>
+              
+              {/* Floating Icons */}
+              <div className="absolute -top-6 -left-6 w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center hidden md:flex" style={{animation: 'bounce 2s infinite'}}>
+                <Brain className="w-6 h-6 text-primary-orange" />
+              </div>
+              <div className="absolute -top-4 -right-8 w-10 h-10 bg-orange-400/10 rounded-full flex items-center justify-center hidden md:flex" style={{animation: 'bounce 2s infinite', animationDelay: '1s'}}>
+                <Rocket className="w-5 h-5 text-orange-400" />
+              </div>
+            </div>
             
-            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              Looking for the best <strong>AI Company In Ahmedabad</strong>? Metic.ai is the premier <strong>Artificial Intelligence Company In Ahmedabad</strong> 
-              with 2100+ successful AI implementations. We help businesses across Gujarat transform with cutting-edge AI solutions, 
-              delivering 60% cost savings and 3x faster results than traditional development.
-            </p>
+            {/* Enhanced Description */}
+            <div className="relative mb-10">
+              <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
+                Looking for the best <strong className="text-white">AI Company In Ahmedabad</strong>? Metic.ai is the premier 
+                <strong className="text-primary-orange"> Artificial Intelligence Company In Ahmedabad</strong> 
+                with 2100+ successful AI implementations. We help businesses across Gujarat transform with cutting-edge AI solutions, 
+                delivering <span className="text-primary-orange font-semibold">60% cost savings</span> and 
+                <span className="text-primary-orange font-semibold">3x faster results</span> than traditional development.
+              </p>
+              
+              {/* Trust Indicators */}
+              <div className="flex items-center justify-center gap-6 mb-8">
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
+                    <Shield className="w-4 h-4 text-primary-orange" />
+                  </div>
+                  <span className="text-sm text-gray-400">ISO Certified</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
+                    <Award className="w-4 h-4 text-primary-orange" />
+                  </div>
+                  <span className="text-sm text-gray-400">Award Winning</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
+                    <Users className="w-4 h-4 text-primary-orange" />
+                  </div>
+                  <span className="text-sm text-gray-400">2100+ Clients</span>
+                </div>
+              </div>
+            </div>
             
+            {/* Enhanced CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Link href="/contact">
-                <Button variant="primary" size="lg" className="w-full sm:w-auto">
+                <Button 
+                  variant="primary" 
+                  size="lg" 
+                  className="w-full sm:w-auto bg-gradient-to-r from-primary-orange to-orange-500 hover:from-primary-orange/90 hover:to-orange-500/90 transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl group"
+                >
+                  <Rocket className="w-5 h-5 mr-2 group-hover:animate-pulse" />
                   Get Free AI Consultation
                 </Button>
               </Link>
               <Link href="tel:+917892518414">
-                <Button variant="outline" size="lg" className="w-full sm:w-auto">
-                  <Phone className="w-4 h-4 mr-2" />
+                <Button 
+                  variant="outline" 
+                  size="lg" 
+                  className="w-full sm:w-auto border-primary-orange text-primary-orange hover:bg-primary-orange/10 transform hover:scale-105 transition-all duration-300 group"
+                >
+                  <Phone className="w-4 h-4 mr-2 group-hover:animate-pulse" />
                   Call: +91 7892518414
                 </Button>
               </Link>
             </div>
 
-            {/* Voice Search Optimized Stats */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-2xl mx-auto">
+            {/* Enhanced Stats with Creative Design */}
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto mb-12">
               {stats.map((stat, index) => (
-                <div key={index} className="text-center">
-                  <div className="text-2xl font-bold text-primary-orange mb-1">{stat.number}</div>
-                  <div className="text-sm text-gray-400">{stat.label}</div>
+                <div key={index} className="relative group">
+                  <div className="bg-gray-800/30 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:border-primary-orange/50 transition-all duration-300 group-hover:transform group-hover:scale-105">
+                    <div className="text-3xl font-bold text-primary-orange mb-2 group-hover:animate-pulse">{stat.number}</div>
+                    <div className="text-sm text-gray-400">{stat.label}</div>
+                    
+                    {/* Hover Effect */}
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/5 to-orange-400/5 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  </div>
                 </div>
               ))}
             </div>
 
-            {/* VSO Keywords Section */}
-            <div className="mt-12 text-center">
-              <p className="text-gray-400 text-sm mb-4">Trusted as the top AI Service In Ahmedabad</p>
-              <div className="flex flex-wrap justify-center gap-4 text-gray-500 text-xs">
-                <span className="bg-gray-800/50 px-3 py-1 rounded-full">AI Firm In Ahmedabad</span>
-                <span className="bg-gray-800/50 px-3 py-1 rounded-full">AI Development Company In Ahmedabad</span>
-                <span className="bg-gray-800/50 px-3 py-1 rounded-full">Best AI Company Gujarat</span>
+            {/* Enhanced VSO Keywords Section */}
+            <div className="text-center">
+              <p className="text-gray-400 text-sm mb-6 flex items-center justify-center gap-2">
+                <Globe className="w-4 h-4 text-primary-orange" />
+                Trusted as the top AI Service In Ahmedabad
+              </p>
+              <div className="flex flex-wrap justify-center gap-3">
+                {[
+                  "AI Firm In Ahmedabad",
+                  "AI Development Company In Ahmedabad", 
+                  "Best AI Company Gujarat"
+                ].map((tag, index) => (
+                  <span 
+                    key={index}
+                    className="bg-gray-800/50 backdrop-blur-sm px-4 py-2 rounded-full text-gray-400 text-xs border border-gray-700/50 hover:border-primary-orange/50 hover:text-primary-orange transition-all duration-300 cursor-default"
+                  >
+                    {tag}
+                  </span>
+                ))}
               </div>
             </div>
           </div>
@@ -643,73 +741,194 @@ export default function AIServicesAhmedabadPage() {
         </div>
       </section>
 
-      {/* Client Testimonials for Entity Recognition & Trust */}
-      <section className="py-20 bg-white">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                What Ahmedabad Businesses Say About Our <span className="text-primary-orange">AI Services</span>
+      {/* Enhanced Creative Client Testimonials for Entity Recognition & Trust */}
+      <section className="py-24 bg-gradient-to-br from-white via-orange-50/30 to-white relative overflow-hidden">
+        {/* Creative Background Elements */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          {/* Subtle Pattern */}
+          <div className="absolute inset-0 opacity-[0.02]" style={{
+            backgroundImage: `radial-gradient(circle at 25px 25px, #FF6B35 2px, transparent 2px)`,
+            backgroundSize: '50px 50px'
+          }}></div>
+          
+          {/* Floating Elements */}
+          <div className="absolute top-20 left-10 w-32 h-32 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-20 right-10 w-40 h-40 bg-orange-400/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '3s'}}></div>
+        </div>
+
+        <div className="container px-4 md:px-6 relative z-10">
+          <div className="max-w-7xl mx-auto">
+            {/* Enhanced Section Header */}
+            <div className="text-center mb-20">
+              {/* Badge */}
+              <div className="inline-flex items-center gap-2 px-6 py-3 bg-white rounded-full shadow-lg border-2 border-primary-orange/20 mb-8 hover:border-primary-orange/40 transition-all group">
+                <Quote className="w-5 h-5 text-primary-orange animate-pulse" />
+                <span className="text-sm font-bold text-gray-800">CLIENT SUCCESS STORIES</span>
+                <Sparkles className="w-4 h-4 text-primary-orange" />
+              </div>
+
+              <h2 className="text-4xl md:text-5xl font-bold mb-6">
+                <span className="text-gray-900">What Ahmedabad Businesses Say</span>
+                <br />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange">
+                  About Our AI Services
+                </span>
               </h2>
-              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Real results from real businesses across Ahmedabad who chose Metic.ai as their <strong>AI Development Company In Ahmedabad</strong>.
+              <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange mx-auto mb-8 rounded-full"></div>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Real results from real businesses across Ahmedabad who chose Metic.ai as their 
+                <strong> AI Development Company In Ahmedabad</strong>.
               </p>
             </div>
             
-            <div className="grid md:grid-cols-3 gap-8">
-              <div className="bg-gray-50 rounded-xl p-8 text-center">
-                <div className="flex justify-center mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
-                  ))}
+            {/* Enhanced Creative Testimonial Cards */}
+            <div className="grid md:grid-cols-3 gap-8 mb-16">
+              {/* Testimonial 1 - Enhanced */}
+              <div className="group relative">
+                <div className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/30 transition-all duration-500 relative overflow-hidden h-full">
+                  {/* Background Gradient */}
+                  <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-orange-400/0 group-hover:from-primary-orange/5 group-hover:to-orange-400/5 transition-all duration-500"></div>
+                  
+                  {/* Quote Icon */}
+                  <div className="relative mb-6">
+                    <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-orange-400 rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                      <Quote className="w-8 h-8 text-white" />
+                    </div>
+                    
+                    {/* Stars */}
+                    <div className="flex gap-1 mb-4">
+                      {[...Array(5)].map((_, i) => (
+                        <Star key={i} className="w-5 h-5 text-yellow-400 fill-current group-hover:animate-pulse" style={{animationDelay: `${i * 0.1}s`}} />
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Content */}
+                  <div className="relative z-10">
+                    <p className="text-gray-700 mb-6 italic text-lg leading-relaxed">
+                      "Metic.ai transformed our textile manufacturing with AI-powered quality control. As the best 
+                      <strong className="text-primary-orange"> AI Company In Ahmedabad</strong>, 
+                      they delivered beyond our expectations with <span className="text-primary-orange font-semibold">40% reduction in defects</span>."
+                    </p>
+                    
+                    {/* Author */}
+                    <div className="flex items-center gap-4">
+                      <div className="w-12 h-12 bg-gradient-to-br from-primary-orange/20 to-orange-400/20 rounded-full flex items-center justify-center">
+                        <Users className="w-6 h-6 text-primary-orange" />
+                      </div>
+                      <div>
+                        <div className="font-bold text-gray-900">Rajesh Patel</div>
+                        <div className="text-sm text-gray-600">CEO, Patel Textiles, Ahmedabad</div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Bottom Accent */}
+                  <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-orange-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                 </div>
-                <p className="text-gray-700 mb-6 italic">
-                  "Metic.ai transformed our textile manufacturing with AI-powered quality control. As the best <strong>AI Company In Ahmedabad</strong>, 
-                  they delivered beyond our expectations with 40% reduction in defects."
-                </p>
-                <div className="font-semibold text-gray-900">Rajesh Patel</div>
-                <div className="text-sm text-gray-600">CEO, Patel Textiles, Ahmedabad</div>
               </div>
 
-              <div className="bg-gray-50 rounded-xl p-8 text-center">
-                <div className="flex justify-center mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
-                  ))}
+              {/* Testimonial 2 - Enhanced */}
+              <div className="group relative">
+                <div className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/30 transition-all duration-500 relative overflow-hidden h-full">
+                  <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-orange-400/0 group-hover:from-primary-orange/5 group-hover:to-orange-400/5 transition-all duration-500"></div>
+                  
+                  <div className="relative mb-6">
+                    <div className="w-16 h-16 bg-gradient-to-br from-orange-400 to-primary-orange rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                      <BarChart3 className="w-8 h-8 text-white" />
+                    </div>
+                    
+                    <div className="flex gap-1 mb-4">
+                      {[...Array(5)].map((_, i) => (
+                        <Star key={i} className="w-5 h-5 text-yellow-400 fill-current group-hover:animate-pulse" style={{animationDelay: `${i * 0.1}s`}} />
+                      ))}
+                    </div>
+                  </div>
+
+                  <div className="relative z-10">
+                    <p className="text-gray-700 mb-6 italic text-lg leading-relaxed">
+                      "Outstanding <strong className="text-primary-orange">AI Service In Ahmedabad</strong>! Their machine learning solutions optimized our chemical production processes. 
+                      <span className="text-primary-orange font-semibold">ROI was achieved within 6 months</span> of implementation."
+                    </p>
+                    
+                    <div className="flex items-center gap-4">
+                      <div className="w-12 h-12 bg-gradient-to-br from-primary-orange/20 to-orange-400/20 rounded-full flex items-center justify-center">
+                        <Users className="w-6 h-6 text-primary-orange" />
+                      </div>
+                      <div>
+                        <div className="font-bold text-gray-900">Dr. Meera Shah</div>
+                        <div className="text-sm text-gray-600">CTO, Gujarat Chemicals Ltd</div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-orange-400 to-primary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                 </div>
-                <p className="text-gray-700 mb-6 italic">
-                  "Outstanding <strong>AI Service In Ahmedabad</strong>! Their machine learning solutions optimized our chemical production processes. 
-                  ROI was achieved within 6 months of implementation."
-                </p>
-                <div className="font-semibold text-gray-900">Dr. Meera Shah</div>
-                <div className="text-sm text-gray-600">CTO, Gujarat Chemicals Ltd</div>
               </div>
 
-              <div className="bg-gray-50 rounded-xl p-8 text-center">
-                <div className="flex justify-center mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
-                  ))}
+              {/* Testimonial 3 - Enhanced */}
+              <div className="group relative">
+                <div className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/30 transition-all duration-500 relative overflow-hidden h-full">
+                  <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-orange-400/0 group-hover:from-primary-orange/5 group-hover:to-orange-400/5 transition-all duration-500"></div>
+                  
+                  <div className="relative mb-6">
+                    <div className="w-16 h-16 bg-gradient-to-br from-primary-orange via-orange-400 to-primary-orange rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                      <TrendingUp className="w-8 h-8 text-white" />
+                    </div>
+                    
+                    <div className="flex gap-1 mb-4">
+                      {[...Array(5)].map((_, i) => (
+                        <Star key={i} className="w-5 h-5 text-yellow-400 fill-current group-hover:animate-pulse" style={{animationDelay: `${i * 0.1}s`}} />
+                      ))}
+                    </div>
+                  </div>
+
+                  <div className="relative z-10">
+                    <p className="text-gray-700 mb-6 italic text-lg leading-relaxed">
+                      "Exceptional <strong className="text-primary-orange">AI Firm In Ahmedabad</strong>. Their custom AI development for our pharmaceutical operations 
+                      <span className="text-primary-orange font-semibold">increased efficiency by 50%</span>. Highly recommend for any AI project."
+                    </p>
+                    
+                    <div className="flex items-center gap-4">
+                      <div className="w-12 h-12 bg-gradient-to-br from-primary-orange/20 to-orange-400/20 rounded-full flex items-center justify-center">
+                        <Users className="w-6 h-6 text-primary-orange" />
+                      </div>
+                      <div>
+                        <div className="font-bold text-gray-900">Amit Desai</div>
+                        <div className="text-sm text-gray-600">Director, Desai Pharma, SG Highway</div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                 </div>
-                <p className="text-gray-700 mb-6 italic">
-                  "Exceptional <strong>AI Firm In Ahmedabad</strong>. Their custom AI development for our pharmaceutical operations increased 
-                  efficiency by 50%. Highly recommend for any AI project."
-                </p>
-                <div className="font-semibold text-gray-900">Amit Desai</div>
-                <div className="text-sm text-gray-600">Director, Desai Pharma, SG Highway</div>
               </div>
             </div>
 
-            {/* Company Logos for Entity Recognition */}
-            <div className="mt-16 text-center">
-              <p className="text-gray-600 mb-8">Trusted by leading companies across Ahmedabad, Gujarat</p>
-              <div className="flex flex-wrap justify-center items-center gap-8 text-gray-400">
-                <div className="bg-gray-100 px-6 py-3 rounded-lg">Adani Group</div>
-                <div className="bg-gray-100 px-6 py-3 rounded-lg">Torrent Group</div>
-                <div className="bg-gray-100 px-6 py-3 rounded-lg">Nirma Limited</div>
-                <div className="bg-gray-100 px-6 py-3 rounded-lg">Cadila Healthcare</div>
-                <div className="bg-gray-100 px-6 py-3 rounded-lg">Gujarat Gas</div>
+            {/* Enhanced Overall Stats Section */}
+            <div className="bg-white rounded-3xl p-8 md:p-12 shadow-xl border-2 border-primary-orange/20 max-w-4xl mx-auto">
+              <div className="text-center mb-8">
+                <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+                  Trusted by <span className="text-primary-orange">2100+ Businesses</span> Across Gujarat
+                </h3>
+                <p className="text-gray-600">Join the growing community of successful AI transformations</p>
+              </div>
+              
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+                {[
+                  { number: "98%", label: "Client Satisfaction", icon: Star },
+                  { number: "2100+", label: "Projects Completed", icon: Award },
+                  { number: "60%", label: "Average Cost Savings", icon: TrendingUp },
+                  { number: "3x", label: "Faster Delivery", icon: Rocket }
+                ].map((stat, index) => (
+                  <div key={index} className="text-center group">
+                    <div className="w-16 h-16 bg-gradient-to-br from-primary-orange/10 to-orange-400/10 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                      <stat.icon className="w-8 h-8 text-primary-orange group-hover:animate-pulse" />
+                    </div>
+                    <div className="text-3xl font-bold text-primary-orange mb-2">{stat.number}</div>
+                    <div className="text-sm text-gray-600">{stat.label}</div>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
