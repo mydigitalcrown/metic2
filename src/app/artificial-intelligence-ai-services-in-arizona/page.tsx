@@ -436,18 +436,18 @@ export default function AIServicesArizonaPage() {
         }}
       />
 
-      {/* Ultra-Creative Hero Section - Premium Arizona AI Design */}
-      <section className="relative min-h-screen bg-gradient-to-br from-white via-orange-50 to-red-50 overflow-hidden">
+      {/* Ultra-Creative Hero Section - Premium Arizona AI Design with Orange/White Theme */}
+      <section className="relative min-h-screen bg-gradient-to-br from-white via-orange-50 to-gray-50 overflow-hidden">
         {/* Advanced Background Effects */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          {/* Arizona-Themed Gradient Orbs */}
+          {/* Orange/White Gradient Orbs */}
           <div className="absolute top-20 left-20 w-96 h-96 bg-primary-orange/20 rounded-full blur-3xl animate-pulse opacity-60"></div>
-          <div className="absolute bottom-20 right-20 w-80 h-80 bg-red-400/20 rounded-full blur-3xl animate-pulse opacity-60" style={{animationDelay: '2s'}}></div>
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-secondary-orange/15 rounded-full blur-2xl animate-pulse opacity-40" style={{animationDelay: '4s'}}></div>
+          <div className="absolute bottom-20 right-20 w-80 h-80 bg-secondary-orange/20 rounded-full blur-3xl animate-pulse opacity-60" style={{animationDelay: '2s'}}></div>
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-primary-orange/15 rounded-full blur-2xl animate-pulse opacity-40" style={{animationDelay: '4s'}}></div>
           
-          {/* Desert-Inspired Floating Elements */}
-          <div className="absolute top-40 right-40 w-32 h-32 bg-gradient-to-br from-red-300/20 to-orange-300/20 rounded-3xl rotate-45 animate-bounce opacity-60" style={{animationDelay: '1s'}}></div>
-          <div className="absolute bottom-40 left-40 w-24 h-24 bg-gradient-to-br from-primary-orange/15 to-red-400/15 rounded-full animate-pulse opacity-50" style={{animationDelay: '3s'}}></div>
+          {/* Orange Floating Elements */}
+          <div className="absolute top-40 right-40 w-32 h-32 bg-gradient-to-br from-primary-orange/20 to-secondary-orange/20 rounded-3xl rotate-45 animate-bounce opacity-60" style={{animationDelay: '1s'}}></div>
+          <div className="absolute bottom-40 left-40 w-24 h-24 bg-gradient-to-br from-secondary-orange/15 to-primary-orange/15 rounded-full animate-pulse opacity-50" style={{animationDelay: '3s'}}></div>
           
           {/* Subtle Grid Pattern */}
           <div className="absolute inset-0 opacity-[0.03]" style={{
@@ -464,10 +464,10 @@ export default function AIServicesArizonaPage() {
                 {/* Left Content */}
                 <div className="space-y-8">
                   {/* Arizona Location Badge */}
-                  <div className="inline-flex items-center gap-3 px-6 py-3 bg-white rounded-full shadow-xl border-2 border-red-300/30 hover:border-primary-orange/40 transition-all group">
-                    <MapPin className="w-5 h-5 text-red-500 animate-pulse" />
+                  <div className="inline-flex items-center gap-3 px-6 py-3 bg-white rounded-full shadow-xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all group">
+                    <MapPin className="w-5 h-5 text-primary-orange animate-pulse" />
                     <span className="text-lg font-bold text-gray-800">Serving Arizona Businesses</span>
-                    <div className="w-2 h-2 bg-red-500 rounded-full animate-ping"></div>
+                    <div className="w-2 h-2 bg-primary-orange rounded-full animate-ping"></div>
                   </div>
                   
                   {/* Main Headline */}
@@ -476,43 +476,43 @@ export default function AIServicesArizonaPage() {
                       <span className="block text-gray-900 mb-2">
                         <strong>Artificial Intelligence</strong>
                       </span>
-                      <span className="block bg-gradient-to-r from-red-500 via-primary-orange to-red-600 bg-clip-text text-transparent mb-2">
+                      <span className="block bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent mb-2">
                         Company In Arizona
                       </span>
                       <span className="block text-2xl md:text-3xl lg:text-4xl text-gray-700 font-semibold">
-                        Leading <span className="text-red-500">AI Company In Arizona</span>
+                        Leading <span className="text-primary-orange">AI Company In Arizona</span>
                       </span>
                     </h1>
                     
-                    {/* Arizona-Themed Decorative Line */}
-                    <div className="w-32 h-1.5 bg-gradient-to-r from-red-500 via-primary-orange to-red-600 rounded-full"></div>
+                    {/* Orange Decorative Line */}
+                    <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange rounded-full"></div>
                   </div>
                   
                   {/* Hero Description */}
                   <div className="space-y-6">
                     <p className="text-xl md:text-2xl text-gray-600 leading-relaxed max-w-2xl">
-                      Looking for the best <strong className="text-red-500 font-semibold">AI Company In Arizona</strong>? 
-                      Metic.ai is the premier <strong className="text-primary-orange font-semibold">Artificial Intelligence Company In Arizona</strong> 
-                      with <span className="bg-gradient-to-r from-red-100 to-orange-100 px-2 py-1 rounded-lg font-bold">2100+ successful AI implementations</span>.
+                      Looking for the best <strong className="text-primary-orange font-semibold">AI Company In Arizona</strong>? 
+                      Metic.ai is the premier <strong className="text-secondary-orange font-semibold">Artificial Intelligence Company In Arizona</strong> 
+                      with <span className="bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 px-2 py-1 rounded-lg font-bold">2100+ successful AI implementations</span>.
                     </p>
                     
                     <p className="text-lg text-gray-600 leading-relaxed">
                       From Phoenix's tech corridors to Tucson's innovation hubs, we transform Arizona businesses 
-                      with cutting-edge AI solutions, delivering <strong className="text-red-500">60% cost savings</strong> and 
-                      <strong className="text-primary-orange">3x faster delivery</strong>.
+                      with cutting-edge AI solutions, delivering <strong className="text-primary-orange">60% cost savings</strong> and 
+                      <strong className="text-secondary-orange">3x faster delivery</strong>.
                     </p>
                   </div>
                   
                   {/* Enhanced CTA Buttons */}
                   <div className="flex flex-col sm:flex-row gap-4 pt-6">
                     <Link href="/contact">
-                      <Button size="lg" className="bg-gradient-to-r from-red-500 to-primary-orange hover:from-red-600 hover:to-orange-600 text-white px-8 py-4 text-lg font-semibold shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all group">
+                      <Button size="lg" className="bg-gradient-to-r from-primary-orange to-secondary-orange hover:from-primary-orange/90 hover:to-secondary-orange/90 text-white px-8 py-4 text-lg font-semibold shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all group">
                         Get Free AI Consultation in Arizona
                         <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                       </Button>
                     </Link>
                     <Link href="tel:+917892518414">
-                      <Button variant="outline" size="lg" className="border-2 border-red-500 text-red-500 hover:bg-red-500 hover:text-white px-8 py-4 text-lg font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all group">
+                      <Button variant="outline" size="lg" className="border-2 border-primary-orange text-primary-orange hover:bg-primary-orange hover:text-white px-8 py-4 text-lg font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all group">
                         <Phone className="w-5 h-5 mr-2 group-hover:animate-bounce" />
                         Call Arizona AI Experts
                       </Button>
@@ -522,15 +522,15 @@ export default function AIServicesArizonaPage() {
                   {/* Trust Indicators */}
                   <div className="flex flex-wrap items-center gap-6 pt-8">
                     <div className="flex items-center gap-2">
-                      <CheckCircle className="w-5 h-5 text-red-500" />
+                      <CheckCircle className="w-5 h-5 text-primary-orange" />
                       <span className="text-sm font-semibold text-gray-700">2100+ Arizona AI Projects</span>
                     </div>
                     <div className="flex items-center gap-2">
-                      <CheckCircle className="w-5 h-5 text-primary-orange" />
+                      <CheckCircle className="w-5 h-5 text-secondary-orange" />
                       <span className="text-sm font-semibold text-gray-700">4.9/5 Rating</span>
                     </div>
                     <div className="flex items-center gap-2">
-                      <CheckCircle className="w-5 h-5 text-red-500" />
+                      <CheckCircle className="w-5 h-5 text-primary-orange" />
                       <span className="text-sm font-semibold text-gray-700">24/7 Support</span>
                     </div>
                   </div>
@@ -539,9 +539,9 @@ export default function AIServicesArizonaPage() {
                 {/* Right Visual Elements */}
                 <div className="relative">
                   {/* Main Stats Card */}
-                  <div className="relative bg-white rounded-3xl p-8 shadow-2xl border-2 border-red-300/30 hover:border-primary-orange/40 transition-all">
+                  <div className="relative bg-white rounded-3xl p-8 shadow-2xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all">
                     {/* Arizona Badge */}
-                    <div className="absolute -top-6 left-8 bg-gradient-to-r from-red-500 to-primary-orange text-white px-6 py-3 rounded-full shadow-lg">
+                    <div className="absolute -top-6 left-8 bg-gradient-to-r from-primary-orange to-secondary-orange text-white px-6 py-3 rounded-full shadow-lg">
                       <span className="font-bold text-lg">#1 AI Company Arizona</span>
                     </div>
                     
@@ -549,9 +549,9 @@ export default function AIServicesArizonaPage() {
                     <div className="grid grid-cols-2 gap-8 mt-8">
                       <div className="text-center group">
                         <div className="relative">
-                          <div className="absolute inset-0 bg-gradient-to-br from-red-100/50 to-orange-100/50 rounded-2xl group-hover:from-red-200/50 group-hover:to-orange-200/50 transition-all"></div>
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/5 to-secondary-orange/5 rounded-2xl group-hover:from-primary-orange/10 group-hover:to-secondary-orange/10 transition-all"></div>
                           <div className="relative p-6 rounded-2xl">
-                            <div className="text-3xl md:text-4xl font-bold text-red-500 mb-2 group-hover:scale-110 transition-transform">
+                            <div className="text-3xl md:text-4xl font-bold text-primary-orange mb-2 group-hover:scale-110 transition-transform">
                               2100+
                             </div>
                             <div className="text-sm font-semibold text-gray-600">
@@ -563,9 +563,9 @@ export default function AIServicesArizonaPage() {
                       
                       <div className="text-center group">
                         <div className="relative">
-                          <div className="absolute inset-0 bg-gradient-to-br from-orange-100/50 to-red-100/50 rounded-2xl group-hover:from-orange-200/50 group-hover:to-red-200/50 transition-all"></div>
+                          <div className="absolute inset-0 bg-gradient-to-br from-secondary-orange/5 to-primary-orange/5 rounded-2xl group-hover:from-secondary-orange/10 group-hover:to-primary-orange/10 transition-all"></div>
                           <div className="relative p-6 rounded-2xl">
-                            <div className="text-3xl md:text-4xl font-bold text-primary-orange mb-2 group-hover:scale-110 transition-transform">
+                            <div className="text-3xl md:text-4xl font-bold text-secondary-orange mb-2 group-hover:scale-110 transition-transform">
                               4.9/5
                             </div>
                             <div className="text-sm font-semibold text-gray-600">
@@ -577,9 +577,9 @@ export default function AIServicesArizonaPage() {
                       
                       <div className="text-center group">
                         <div className="relative">
-                          <div className="absolute inset-0 bg-gradient-to-br from-red-100/50 to-orange-100/50 rounded-2xl group-hover:from-red-200/50 group-hover:to-orange-200/50 transition-all"></div>
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/5 to-secondary-orange/5 rounded-2xl group-hover:from-primary-orange/10 group-hover:to-secondary-orange/10 transition-all"></div>
                           <div className="relative p-6 rounded-2xl">
-                            <div className="text-3xl md:text-4xl font-bold text-red-500 mb-2 group-hover:scale-110 transition-transform">
+                            <div className="text-3xl md:text-4xl font-bold text-primary-orange mb-2 group-hover:scale-110 transition-transform">
                               60%
                             </div>
                             <div className="text-sm font-semibold text-gray-600">
@@ -591,9 +591,9 @@ export default function AIServicesArizonaPage() {
                       
                       <div className="text-center group">
                         <div className="relative">
-                          <div className="absolute inset-0 bg-gradient-to-br from-orange-100/50 to-red-100/50 rounded-2xl group-hover:from-orange-200/50 group-hover:to-red-200/50 transition-all"></div>
+                          <div className="absolute inset-0 bg-gradient-to-br from-secondary-orange/5 to-primary-orange/5 rounded-2xl group-hover:from-secondary-orange/10 group-hover:to-primary-orange/10 transition-all"></div>
                           <div className="relative p-6 rounded-2xl">
-                            <div className="text-3xl md:text-4xl font-bold text-primary-orange mb-2 group-hover:scale-110 transition-transform">
+                            <div className="text-3xl md:text-4xl font-bold text-secondary-orange mb-2 group-hover:scale-110 transition-transform">
                               3x
                             </div>
                             <div className="text-sm font-semibold text-gray-600">
@@ -607,16 +607,16 @@ export default function AIServicesArizonaPage() {
                     {/* Keywords Section */}
                     <div className="mt-8 pt-6 border-t border-gray-200">
                       <p className="text-center text-lg font-semibold text-gray-700 mb-4">
-                        Trusted as the top <span className="text-red-500">AI Service In Arizona</span>
+                        Trusted as the top <span className="text-primary-orange">AI Service In Arizona</span>
                       </p>
                       <div className="flex flex-wrap justify-center gap-2">
-                        <span className="bg-gradient-to-r from-red-100 to-orange-100 text-gray-700 px-4 py-2 rounded-full text-sm font-semibold border border-red-300">
+                        <span className="bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 text-gray-700 px-4 py-2 rounded-full text-sm font-semibold border border-primary-orange/20">
                           AI Firm In Arizona
                         </span>
-                        <span className="bg-gradient-to-r from-orange-100 to-red-100 text-gray-700 px-4 py-2 rounded-full text-sm font-semibold border border-orange-300">
+                        <span className="bg-gradient-to-r from-secondary-orange/10 to-primary-orange/10 text-gray-700 px-4 py-2 rounded-full text-sm font-semibold border border-secondary-orange/20">
                           AI Development Company
                         </span>
-                        <span className="bg-gradient-to-r from-red-100 to-orange-100 text-gray-700 px-4 py-2 rounded-full text-sm font-semibold border border-red-300">
+                        <span className="bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 text-gray-700 px-4 py-2 rounded-full text-sm font-semibold border border-primary-orange/20">
                           Best AI Company Arizona
                         </span>
                       </div>
@@ -624,9 +624,9 @@ export default function AIServicesArizonaPage() {
                   </div>
                   
                   {/* Floating Achievement Cards */}
-                  <div className="absolute -top-8 -right-8 bg-white rounded-2xl p-4 shadow-xl border-2 border-orange-300 transform rotate-6 hover:rotate-3 transition-transform">
+                  <div className="absolute -top-8 -right-8 bg-white rounded-2xl p-4 shadow-xl border-2 border-secondary-orange/20 transform rotate-6 hover:rotate-3 transition-transform">
                     <div className="flex items-center gap-3">
-                      <div className="w-12 h-12 bg-gradient-to-br from-red-500 to-primary-orange rounded-full flex items-center justify-center">
+                      <div className="w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-full flex items-center justify-center">
                         <Award className="w-6 h-6 text-white" />
                       </div>
                       <div>
@@ -636,9 +636,9 @@ export default function AIServicesArizonaPage() {
                     </div>
                   </div>
                   
-                  <div className="absolute -bottom-8 -left-8 bg-white rounded-2xl p-4 shadow-xl border-2 border-red-300 transform -rotate-6 hover:-rotate-3 transition-transform">
+                  <div className="absolute -bottom-8 -left-8 bg-white rounded-2xl p-4 shadow-xl border-2 border-primary-orange/20 transform -rotate-6 hover:-rotate-3 transition-transform">
                     <div className="flex items-center gap-3">
-                      <div className="w-12 h-12 bg-gradient-to-br from-primary-orange to-red-500 rounded-full flex items-center justify-center">
+                      <div className="w-12 h-12 bg-gradient-to-br from-secondary-orange to-primary-orange rounded-full flex items-center justify-center">
                         <Zap className="w-6 h-6 text-white" />
                       </div>
                       <div>
@@ -653,10 +653,10 @@ export default function AIServicesArizonaPage() {
           </div>
         </div>
         
-        {/* Arizona-Themed Scroll Indicator */}
+        {/* Orange Scroll Indicator */}
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <div className="w-6 h-10 border-2 border-red-500 rounded-full flex justify-center">
-            <div className="w-1 h-3 bg-red-500 rounded-full mt-2 animate-pulse"></div>
+          <div className="w-6 h-10 border-2 border-primary-orange rounded-full flex justify-center">
+            <div className="w-1 h-3 bg-primary-orange rounded-full mt-2 animate-pulse"></div>
           </div>
         </div>
       </section>
