@@ -20,7 +20,12 @@ import {
   PieChart,
   LineChart,
   Layers,
-  Code
+  Code,
+  Sparkles,
+  ChevronDown,
+  Award,
+  Clock,
+  Rocket
 } from "lucide-react";
 
 export const metadata = {
@@ -670,98 +675,465 @@ export default function MachineLearningWyomingPage() {
         </div>
       </section>
 
-      {/* FAQ Section for Voice Search Optimization */}
-      <section className="py-20 bg-gray-50">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-4xl mx-auto">
+      {/* FAQ Section for Voice Search Optimization - Enhanced Design */}
+      <section className="py-24 bg-gradient-to-br from-gray-50 via-white to-orange-50 relative overflow-hidden">
+        {/* Advanced Background Effects */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          {/* Animated Gradient Orbs */}
+          <div className="absolute top-10 left-10 w-96 h-96 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-10 right-10 w-96 h-96 bg-secondary-orange/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
+          
+          {/* Grid Pattern */}
+          <div className="absolute inset-0 opacity-[0.02]" style={{
+            backgroundImage: `linear-gradient(#FF6B35 1.5px, transparent 1.5px), linear-gradient(90deg, #FF6B35 1.5px, transparent 1.5px)`,
+            backgroundSize: '60px 60px'
+          }}></div>
+        </div>
+
+        <div className="container px-4 md:px-6 relative z-10">
+          <div className="max-w-5xl mx-auto">
+            {/* Enhanced Section Header */}
             <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Frequently Asked Questions About <span className="text-primary-orange">Machine Learning Company In Wyoming</span>
+              {/* Badge */}
+              <div className="inline-flex items-center gap-2 px-6 py-3 bg-white rounded-full shadow-xl border-2 border-primary-orange/20 mb-8 hover:border-primary-orange/40 transition-all group">
+                <Lightbulb className="w-5 h-5 text-primary-orange animate-pulse" />
+                <span className="text-sm font-bold text-gray-800">Got Questions? We Have Answers!</span>
+                <Sparkles className="w-4 h-4 text-primary-orange" />
+              </div>
+              
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+                <span className="text-gray-900">Frequently Asked Questions</span>
+                <br />
+                <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
+                  About Machine Learning Company In Wyoming
+                </span>
               </h2>
-              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
-              <p className="text-lg text-gray-600">
+              <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-8 rounded-full"></div>
+              <p className="text-xl text-gray-600 max-w-2xl mx-auto">
                 Get answers about our <strong>ML Company Services In Wyoming</strong> and how we can transform your business
               </p>
             </div>
             
-            <div className="space-y-8">
-              {/* FAQ 1 */}
-              <div className="bg-white rounded-lg p-8 shadow-sm border">
-                <h3 className="text-xl font-bold mb-4 text-gray-900">
-                  Which is the best Machine Learning Company In Wyoming?
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  Metic.ai is the leading <strong>Machine Learning Company In Wyoming</strong> with over 2100+ successful 
-                  ML implementations. We provide comprehensive <strong>ML Services In Wyoming</strong> including predictive 
-                  analytics, AI development, and machine learning solutions with 60% cost savings and 3x faster delivery 
-                  for Wyoming businesses across energy, mining, agriculture, tourism, and healthcare sectors.
-                </p>
-              </div>
+            {/* Advanced Creative FAQ Cards */}
+            <div className="space-y-5">
+              {/* FAQ Item 1 - Enhanced Design */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    {/* Gradient Overlay */}
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    {/* Content */}
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        {/* Icon Circle */}
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Sparkles className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        {/* Question */}
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Which is the best Machine Learning Company In Wyoming?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      {/* Toggle Icon */}
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    {/* Bottom Accent Bar */}
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                {/* Answer with Animation */}
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <CheckCircle className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        <strong className="text-gray-900 font-semibold">Metic.ai is the leading Machine Learning Company In Wyoming</strong> with over 2100+ successful 
+                        ML implementations. We provide comprehensive <strong>ML Services In Wyoming</strong> including predictive 
+                        analytics, AI development, and machine learning solutions with 60% cost savings and 3x faster delivery 
+                        for Wyoming businesses across energy, mining, agriculture, tourism, and healthcare sectors.
+                      </p>
+                      
+                      {/* Stats Highlight */}
+                      <div className="flex flex-wrap gap-4 pt-4">
+                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
+                          <Award className="w-4 h-4 text-primary-orange" />
+                          <span className="text-sm font-semibold text-gray-900">2100+ Projects</span>
+                        </div>
+                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
+                          <TrendingUp className="w-4 h-4 text-primary-orange" />
+                          <span className="text-sm font-semibold text-gray-900">60% Cost Savings</span>
+                        </div>
+                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
+                          <Zap className="w-4 h-4 text-primary-orange" />
+                          <span className="text-sm font-semibold text-gray-900">3x Faster</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </details>
 
-              {/* FAQ 2 */}
-              <div className="bg-white rounded-lg p-8 shadow-sm border">
-                <h3 className="text-xl font-bold mb-4 text-gray-900">
-                  What Machine Learning Services are available in Wyoming?
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  Our <strong>Wyoming ML services</strong> include predictive analytics, classification models, deep learning, 
-                  clustering & segmentation, recommendation systems, time series analysis, energy & mining analytics, 
-                  agriculture technology, tourism optimization, and healthcare AI specifically designed for Wyoming 
-                  businesses. We're the premier <strong>AI Company In Wyoming</strong> serving all major industries.
-                </p>
-              </div>
+              {/* FAQ Item 2 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Brain className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What Machine Learning Services are available in Wyoming?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <BarChart3 className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        Our <strong>Wyoming ML services</strong> include predictive analytics, classification models, deep learning, 
+                        clustering & segmentation, recommendation systems, time series analysis, energy & mining analytics, 
+                        agriculture technology, tourism optimization, and healthcare AI specifically designed for Wyoming 
+                        businesses. We're the premier <strong>AI Company In Wyoming</strong> serving all major industries.
+                      </p>
+                      
+                      {/* Services Grid */}
+                      <div className="grid grid-cols-2 md:grid-cols-3 gap-3 pt-4">
+                        {['Predictive Analytics', 'Deep Learning', 'Time Series', 'Energy Analytics', 'Agriculture AI', 'Tourism Tech'].map((service, idx) => (
+                          <div key={idx} className="flex items-center gap-2 px-3 py-2 bg-primary-orange/5 rounded-lg">
+                            <div className="w-2 h-2 bg-primary-orange rounded-full"></div>
+                            <span className="text-sm font-medium text-gray-900">{service}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </details>
 
-              {/* FAQ 3 */}
-              <div className="bg-white rounded-lg p-8 shadow-sm border">
-                <h3 className="text-xl font-bold mb-4 text-gray-900">
-                  How much do Machine Learning services cost in Wyoming?
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  Our <strong>Machine Learning Company In Wyoming</strong> offers competitive pricing with up to 60% cost 
-                  savings compared to traditional development. We provide transparent pricing models and custom quotes 
-                  based on your specific ML requirements and project scope. Contact our <strong>ML Firm In Wyoming</strong> 
-                  for a detailed cost analysis tailored to your business needs.
-                </p>
-              </div>
+              {/* FAQ Item 3 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <TrendingUp className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How much do Machine Learning services cost in Wyoming?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <Target className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        Our <strong>Machine Learning Company In Wyoming</strong> offers competitive pricing with up to 60% cost 
+                        savings compared to traditional development. We provide transparent pricing models and custom quotes 
+                        based on your specific ML requirements and project scope. Contact our <strong>ML Firm In Wyoming</strong> 
+                        for a detailed cost analysis tailored to your business needs.
+                      </p>
+                      
+                      {/* Pricing Cards */}
+                      <div className="grid md:grid-cols-2 gap-4 pt-4">
+                        <div className="p-4 bg-gradient-to-br from-primary-orange/5 to-secondary-orange/5 rounded-xl border border-primary-orange/20">
+                          <div className="flex items-center gap-3 mb-2">
+                            <div className="w-8 h-8 rounded-full bg-primary-orange/20 flex items-center justify-center">
+                              <span className="text-sm font-bold text-primary-orange">$</span>
+                            </div>
+                            <div>
+                              <div className="font-bold text-gray-900 text-sm">Starting Projects</div>
+                              <div className="text-xs text-gray-600">$10K - $50K</div>
+                            </div>
+                          </div>
+                          <p className="text-xs text-gray-600">Basic ML solutions and consulting</p>
+                        </div>
+                        
+                        <div className="p-4 bg-gradient-to-br from-primary-orange/5 to-secondary-orange/5 rounded-xl border border-primary-orange/20">
+                          <div className="flex items-center gap-3 mb-2">
+                            <div className="w-8 h-8 rounded-full bg-primary-orange/20 flex items-center justify-center">
+                              <span className="text-sm font-bold text-primary-orange">$$</span>
+                            </div>
+                            <div>
+                              <div className="font-bold text-gray-900 text-sm">Enterprise Solutions</div>
+                              <div className="text-xs text-gray-600">$50K+</div>
+                            </div>
+                          </div>
+                          <p className="text-xs text-gray-600">Complex ML systems and integration</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </details>
 
-              {/* FAQ 4 */}
-              <div className="bg-white rounded-lg p-8 shadow-sm border">
-                <h3 className="text-xl font-bold mb-4 text-gray-900">
-                  Why choose Metic.ai as your Machine Learning Company In Wyoming?
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  Choose Metic.ai as your <strong>ML Company In Wyoming</strong> for our proven track record of 2100+ 
-                  successful implementations, 60% cost savings, 3x faster delivery, industry expertise in energy, 
-                  mining, agriculture, and tourism sectors, plus comprehensive support throughout your ML journey. 
-                  We're the top-rated <strong>AI Development Company In Wyoming</strong> with unmatched experience.
-                </p>
-              </div>
+              {/* FAQ Item 4 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <CheckCircle className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Why choose Metic.ai as your Machine Learning Company In Wyoming?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <Shield className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        Choose Metic.ai as your <strong>ML Company In Wyoming</strong> for our proven track record of 2100+ 
+                        successful implementations, 60% cost savings, 3x faster delivery, industry expertise in energy, 
+                        mining, agriculture, and tourism sectors, plus comprehensive support throughout your ML journey. 
+                        We're the top-rated <strong>AI Development Company In Wyoming</strong> with unmatched experience.
+                      </p>
+                      
+                      {/* Benefits Grid */}
+                      <div className="grid gap-3 pt-4">
+                        {[
+                          { icon: Award, title: 'Proven Track Record', desc: '2100+ successful ML implementations globally' },
+                          { icon: Zap, title: 'Industry Expertise', desc: 'Energy, mining, agriculture, tourism specialists' },
+                          { icon: Users, title: 'Comprehensive Support', desc: 'End-to-end ML journey assistance' }
+                        ].map((benefit, idx) => {
+                          const Icon = benefit.icon;
+                          return (
+                            <div key={idx} className="flex items-start gap-3 p-3 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg">
+                              <Icon className="w-5 h-5 text-primary-orange flex-shrink-0 mt-0.5" />
+                              <div>
+                                <div className="font-bold text-gray-900 text-sm mb-1">{benefit.title}</div>
+                                <div className="text-xs text-gray-600">{benefit.desc}</div>
+                              </div>
+                            </div>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </details>
 
-              {/* FAQ 5 */}
-              <div className="bg-white rounded-lg p-8 shadow-sm border">
-                <h3 className="text-xl font-bold mb-4 text-gray-900">
-                  What industries does your Machine Learning Company serve in Wyoming?
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  Our <strong>Machine Learning Company In Wyoming</strong> specializes in Energy & Mining ML Analytics, 
-                  Agriculture & Livestock Technology, Tourism & Recreation Analytics, Healthcare & Telemedicine AI, 
-                  and various other sectors across Wyoming's diverse business landscape. We provide tailored 
-                  <strong> ML Solutions Wyoming</strong> businesses need to succeed in their respective industries.
-                </p>
-              </div>
+              {/* FAQ Item 5 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Users className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What industries does your Machine Learning Company serve in Wyoming?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <Database className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        Our <strong>Machine Learning Company In Wyoming</strong> specializes in Energy & Mining ML Analytics, 
+                        Agriculture & Livestock Technology, Tourism & Recreation Analytics, Healthcare & Telemedicine AI, 
+                        and various other sectors across Wyoming's diverse business landscape. We provide tailored 
+                        <strong> ML Solutions Wyoming</strong> businesses need to succeed in their respective industries.
+                      </p>
+                      
+                      {/* Industries Grid */}
+                      <div className="grid md:grid-cols-2 gap-3 pt-4">
+                        {[
+                          { name: 'Energy & Mining', desc: 'Coal, oil, gas, wind energy analytics' },
+                          { name: 'Agriculture & Livestock', desc: 'Cattle monitoring, crop prediction' },
+                          { name: 'Tourism & Recreation', desc: 'Visitor analytics, seasonal trends' },
+                          { name: 'Healthcare & Telemedicine', desc: 'Rural healthcare, patient analytics' }
+                        ].map((industry, idx) => (
+                          <div key={idx} className="p-4 bg-gradient-to-br from-primary-orange/5 to-secondary-orange/5 rounded-lg">
+                            <h4 className="font-bold text-gray-900 mb-2 flex items-center gap-2">
+                              <div className="w-2 h-2 bg-primary-orange rounded-full"></div>
+                              {industry.name}
+                            </h4>
+                            <p className="text-sm text-gray-600">{industry.desc}</p>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </details>
 
-              {/* FAQ 6 */}
-              <div className="bg-white rounded-lg p-8 shadow-sm border">
-                <h3 className="text-xl font-bold mb-4 text-gray-900">
-                  How long does Machine Learning implementation take in Wyoming?
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  Our <strong>Machine Learning Company In Wyoming</strong> delivers projects 3x faster than industry 
-                  standards. Typical ML implementations range from 2-8 weeks depending on complexity, with our 
-                  streamlined process ensuring rapid deployment and immediate business value. As the leading 
-                  <strong> AI Company In Wyoming</strong>, we prioritize efficient delivery without compromising quality.
-                </p>
-              </div>
+              {/* FAQ Item 6 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Clock className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How long does Machine Learning implementation take in Wyoming?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <Rocket className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        Our <strong>Machine Learning Company In Wyoming</strong> delivers projects 3x faster than industry 
+                        standards. Typical ML implementations range from 2-8 weeks depending on complexity, with our 
+                        streamlined process ensuring rapid deployment and immediate business value. As the leading 
+                        <strong> AI Company In Wyoming</strong>, we prioritize efficient delivery without compromising quality.
+                      </p>
+                      
+                      {/* Timeline Grid */}
+                      <div className="space-y-3 pt-4">
+                        <div className="flex items-start gap-3 p-4 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg">
+                          <div className="w-2 h-2 bg-primary-orange rounded-full mt-2"></div>
+                          <div>
+                            <p className="font-semibold text-gray-900 mb-1">Quick Projects: 2-4 weeks</p>
+                            <p className="text-sm text-gray-600">POCs, consulting, simple automation</p>
+                          </div>
+                        </div>
+                        
+                        <div className="flex items-start gap-3 p-4 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg">
+                          <div className="w-2 h-2 bg-primary-orange rounded-full mt-2"></div>
+                          <div>
+                            <p className="font-semibold text-gray-900 mb-1">Standard Projects: 4-8 weeks</p>
+                            <p className="text-sm text-gray-600">Custom ML models, data pipelines</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </details>
             </div>
           </div>
         </div>

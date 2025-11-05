@@ -7,6 +7,7 @@ import {
   Shield, 
   Users, 
   ChevronRight,
+  ChevronDown,
   Star,
   CheckCircle,
   ArrowRight,
@@ -20,7 +21,8 @@ import {
   BarChart3,
   Code,
   Database,
-  Sparkles
+  Sparkles,
+  Rocket
 } from "lucide-react";
 
 export const metadata = {
@@ -520,73 +522,415 @@ export default function AIServicesTexasPage() {
         </div>
       </section>
 
-      {/* FAQ Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-4xl mx-auto">
+      {/* FAQ Section for Voice Search Optimization - Enhanced Design */}
+      <section className="py-24 bg-gradient-to-br from-gray-50 via-white to-orange-50 relative overflow-hidden">
+        {/* Advanced Background Effects */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          {/* Animated Gradient Orbs */}
+          <div className="absolute top-10 left-10 w-96 h-96 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-10 right-10 w-96 h-96 bg-secondary-orange/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
+          
+          {/* Grid Pattern */}
+          <div className="absolute inset-0 opacity-[0.02]" style={{
+            backgroundImage: `linear-gradient(#FF6B35 1.5px, transparent 1.5px), linear-gradient(90deg, #FF6B35 1.5px, transparent 1.5px)`,
+            backgroundSize: '60px 60px'
+          }}></div>
+        </div>
+
+        <div className="container px-4 md:px-6 relative z-10">
+          <div className="max-w-5xl mx-auto">
+            {/* Enhanced Section Header */}
             <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Frequently Asked Questions About <strong>AI Services In Texas</strong>
+              {/* Badge */}
+              <div className="inline-flex items-center gap-2 px-6 py-3 bg-white rounded-full shadow-xl border-2 border-primary-orange/20 mb-8 hover:border-primary-orange/40 transition-all group">
+                <Lightbulb className="w-5 h-5 text-primary-orange animate-pulse" />
+                <span className="text-sm font-bold text-gray-800">Got Questions? We Have Answers!</span>
+                <Sparkles className="w-4 h-4 text-primary-orange" />
+              </div>
+              
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+                <span className="text-gray-900">Frequently Asked Questions</span>
+                <br />
+                <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
+                  AI Services In Texas
+                </span>
               </h2>
-              <p className="text-xl text-gray-600">
-                Get answers to common questions about implementing AI solutions for Texas businesses
+              <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-8 rounded-full"></div>
+              <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+                Get answers to common questions about implementing <strong>AI solutions for Texas businesses</strong>
               </p>
             </div>
+            
+            {/* Advanced Creative FAQ Cards */}
+            <div className="space-y-5">
+              {/* FAQ Item 1 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Sparkles className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Which is the leading AI Company In Texas for energy and technology?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <CheckCircle className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        <strong className="text-gray-900 font-semibold">Metic.ai is the premier Artificial Intelligence Company In Texas</strong> specializing in energy and technology AI solutions. We've worked with major Texas companies similar to ExxonMobil, AT&T, and Dell Technologies, implementing AI for predictive maintenance, network optimization, and automated operations. Our Texas AI solutions have delivered 60% cost savings across the Lone Star State.
+                      </p>
+                      
+                      <div className="flex flex-wrap gap-4 pt-4">
+                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
+                          <Award className="w-4 h-4 text-primary-orange" />
+                          <span className="text-sm font-semibold text-gray-900">Energy AI Specialist</span>
+                        </div>
+                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
+                          <TrendingUp className="w-4 h-4 text-primary-orange" />
+                          <span className="text-sm font-semibold text-gray-900">60% Cost Savings</span>
+                        </div>
+                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
+                          <Zap className="w-4 h-4 text-primary-orange" />
+                          <span className="text-sm font-semibold text-gray-900">Texas Focused</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </details>
 
-            <div className="space-y-8">
-              <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
-                <h3 className="text-xl font-bold mb-4 text-gray-900">
-                  Which is the leading AI Company In Texas for energy and technology?
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  Metic.ai is the premier <strong>Artificial Intelligence Company In Texas</strong> specializing in energy and technology AI solutions. We've worked with major Texas companies similar to ExxonMobil, AT&T, and Dell Technologies, implementing AI for predictive maintenance, network optimization, and automated operations. Our Texas AI solutions have delivered 60% cost savings across the Lone Star State.
-                </p>
-              </div>
+              {/* FAQ Item 2 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <TrendingUp className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How much does AI implementation cost for Texas businesses?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <Target className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        As the top <strong>AI Firm In Texas</strong>, we offer flexible pricing starting from $15,000 for basic AI automation projects. Our Texas clients typically see ROI within 3-6 months, with average cost savings of 60% on operational expenses. We provide customized quotes based on your specific business needs, whether you're in Dallas' tech corridor or Houston's energy hub.
+                      </p>
+                      
+                      <div className="grid md:grid-cols-2 gap-4 pt-4">
+                        <div className="p-4 bg-gradient-to-br from-primary-orange/5 to-secondary-orange/5 rounded-xl border border-primary-orange/20">
+                          <div className="flex items-center gap-3 mb-2">
+                            <div className="w-8 h-8 rounded-full bg-primary-orange/20 flex items-center justify-center">
+                              <span className="text-sm font-bold text-primary-orange">$</span>
+                            </div>
+                            <div>
+                              <div className="font-bold text-gray-900 text-sm">Starting Projects</div>
+                              <div className="text-xs text-gray-600">$15K - $75K</div>
+                            </div>
+                          </div>
+                          <p className="text-xs text-gray-600">Basic AI automation and consulting</p>
+                        </div>
+                        
+                        <div className="p-4 bg-gradient-to-br from-primary-orange/5 to-secondary-orange/5 rounded-xl border border-primary-orange/20">
+                          <div className="flex items-center gap-3 mb-2">
+                            <div className="w-8 h-8 rounded-full bg-primary-orange/20 flex items-center justify-center">
+                              <span className="text-sm font-bold text-primary-orange">$$</span>
+                            </div>
+                            <div>
+                              <div className="font-bold text-gray-900 text-sm">Enterprise Solutions</div>
+                              <div className="text-xs text-gray-600">$75K+</div>
+                            </div>
+                          </div>
+                          <p className="text-xs text-gray-600">Complex energy & tech AI systems</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </details>
 
-              <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
-                <h3 className="text-xl font-bold mb-4 text-gray-900">
-                  How much does AI implementation cost for Texas businesses?
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  As the top <strong>AI Firm In Texas</strong>, we offer flexible pricing starting from $15,000 for basic AI automation projects. Our Texas clients typically see ROI within 3-6 months, with average cost savings of 60% on operational expenses. We provide customized quotes based on your specific business needs, whether you're in Dallas' tech corridor or Houston's energy hub.
-                </p>
-              </div>
+              {/* FAQ Item 3 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Brain className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What AI services does the best AI Development Company In Texas offer?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <BarChart3 className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        Metic.ai, the leading <strong>AI Development Company In Texas</strong>, offers comprehensive AI services including machine learning development, natural language processing, computer vision, predictive analytics, and process automation. We specialize in Texas industry sectors: energy AI, telecommunications solutions, technology AI, semiconductor intelligence, and aerospace solutions.
+                      </p>
+                      
+                      <div className="grid grid-cols-2 md:grid-cols-3 gap-3 pt-4">
+                        {['Machine Learning', 'Computer Vision', 'Predictive Analytics', 'Energy AI', 'Telecom Solutions', 'Process Automation'].map((service, idx) => (
+                          <div key={idx} className="flex items-center gap-2 px-3 py-2 bg-primary-orange/5 rounded-lg">
+                            <div className="w-2 h-2 bg-primary-orange rounded-full"></div>
+                            <span className="text-sm font-medium text-gray-900">{service}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </details>
 
-              <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
-                <h3 className="text-xl font-bold mb-4 text-gray-900">
-                  What AI services does the best AI Development Company In Texas offer?
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  Metic.ai, the leading <strong>AI Development Company In Texas</strong>, offers comprehensive AI services including machine learning development, natural language processing, computer vision, predictive analytics, and process automation. We specialize in Texas industry sectors: energy AI for ExxonMobil-style operations, telecommunications solutions for AT&T-type networks, technology AI for Dell Technologies-scale enterprises, semiconductor intelligence for Texas Instruments-style manufacturing, and aerospace solutions for American Airlines-type operations.
-                </p>
-              </div>
+              {/* Continue with remaining FAQ items (4-6) using the same pattern... */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Clock className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How long does AI project implementation take for Texas companies?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <Rocket className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        Our <strong>AI Service Texas</strong> delivers projects 3x faster than traditional methods. Simple automation projects take 4-6 weeks, while complex AI systems require 3-6 months. We've completed 2100+ successful implementations across the Southwest, from Dallas startups to established enterprises throughout Texas, with our proven methodology ensuring faster delivery and guaranteed results.
+                      </p>
+                      
+                      <div className="space-y-3 pt-4">
+                        <div className="flex items-start gap-3 p-4 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg">
+                          <div className="w-2 h-2 bg-primary-orange rounded-full mt-2"></div>
+                          <div>
+                            <p className="font-semibold text-gray-900 mb-1">Quick Projects: 4-6 weeks</p>
+                            <p className="text-sm text-gray-600">Simple automation, POCs, consulting</p>
+                          </div>
+                        </div>
+                        
+                        <div className="flex items-start gap-3 p-4 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg">
+                          <div className="w-2 h-2 bg-primary-orange rounded-full mt-2"></div>
+                          <div>
+                            <p className="font-semibold text-gray-900 mb-1">Enterprise Systems: 3-6 months</p>
+                            <p className="text-sm text-gray-600">Complex AI systems, integration</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </details>
 
-              <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
-                <h3 className="text-xl font-bold mb-4 text-gray-900">
-                  How long does AI project implementation take for Texas companies?
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  Our <strong>AI Service Texas</strong> delivers projects 3x faster than traditional methods. Simple automation projects take 4-6 weeks, while complex AI systems require 3-6 months. We've completed 2100+ successful implementations across the Southwest, from Dallas startups to established enterprises throughout Texas, with our proven methodology ensuring faster delivery and guaranteed results.
-                </p>
-              </div>
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Award className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Which AI Company In Texas provides the best ROI for businesses?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <TrendingUp className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed">
+                      <p className="text-lg">
+                        <strong>Metic.ai stands out as the Best AI Company In Texas</strong> with proven ROI results. Our Texas clients achieve average cost savings of 60% and productivity increases of 3x. We've delivered successful AI implementations for energy, technology, aerospace, telecommunications, and financial sectors throughout Texas, with case studies showing significant ROI across Houston, Dallas, Austin, San Antonio, and other major business centers.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </details>
 
-              <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
-                <h3 className="text-xl font-bold mb-4 text-gray-900">
-                  Which AI Company In Texas provides the best ROI for businesses?
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  Metic.ai stands out as the <strong>Best AI Company In Texas</strong> with proven ROI results. Our Texas clients achieve average cost savings of 60% and productivity increases of 3x. We've delivered successful AI implementations for energy, technology, aerospace, telecommunications, and financial sectors throughout Texas, with case studies showing significant ROI across Houston, Dallas, Austin, San Antonio, and other major business centers.
-                </p>
-              </div>
-
-              <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
-                <h3 className="text-xl font-bold mb-4 text-gray-900">
-                  How do I choose the right AI Company In Texas for my business?
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  When selecting an <strong>Artificial Intelligence Company In Texas</strong>, consider experience (we have 2100+ implementations), industry expertise (energy, technology, aerospace, telecommunications), local presence (Texas offices), proven results (60% cost savings average), and comprehensive services. Metic.ai offers all these advantages plus dedicated Texas business support, Lone Star State market knowledge, and enterprise-grade security for your peace of mind.
-                </p>
-              </div>
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Shield className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How do I choose the right AI Company In Texas for my business?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <Users className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        When selecting an <strong>Artificial Intelligence Company In Texas</strong>, consider experience (we have 2100+ implementations), industry expertise (energy, technology, aerospace, telecommunications), local presence (Texas offices), proven results (60% cost savings average), and comprehensive services. Metic.ai offers all these advantages plus dedicated Texas business support, Lone Star State market knowledge, and enterprise-grade security for your peace of mind.
+                      </p>
+                      
+                      <div className="grid gap-3 pt-4">
+                        {[
+                          { icon: Award, title: '2100+ Implementations', desc: 'Proven track record across Texas industries' },
+                          { icon: MapPin, title: 'Texas Market Knowledge', desc: 'Deep understanding of Lone Star State business landscape' },
+                          { icon: Shield, title: 'Enterprise Security', desc: 'Bank-grade security for your peace of mind' }
+                        ].map((benefit, idx) => {
+                          const Icon = benefit.icon;
+                          return (
+                            <div key={idx} className="flex items-start gap-3 p-3 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg">
+                              <Icon className="w-5 h-5 text-primary-orange flex-shrink-0 mt-0.5" />
+                              <div>
+                                <div className="font-bold text-gray-900 text-sm mb-1">{benefit.title}</div>
+                                <div className="text-xs text-gray-600">{benefit.desc}</div>
+                              </div>
+                            </div>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </details>
             </div>
           </div>
         </div>

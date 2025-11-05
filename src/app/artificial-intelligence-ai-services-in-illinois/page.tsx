@@ -7,6 +7,7 @@ import {
   Shield, 
   Users, 
   ChevronRight,
+  ChevronDown,
   Star,
   CheckCircle,
   ArrowRight,
@@ -20,7 +21,8 @@ import {
   BarChart3,
   Code,
   Database,
-  Sparkles
+  Sparkles,
+  Rocket
 } from "lucide-react";
 
 export const metadata = {
