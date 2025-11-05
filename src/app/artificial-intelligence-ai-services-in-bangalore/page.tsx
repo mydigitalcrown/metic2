@@ -22,9 +22,6 @@ import {
   Database,
   Sparkles,
   Quote,
-  Rocket,
-  Globe,
-  Heart,
   ChevronDown
 } from "lucide-react";
 
@@ -487,9 +484,9 @@ export default function AIServicesBangalorePage() {
                 {/* Left Content */}
                 <div className="space-y-8">
                   {/* Bangalore Location Badge */}
-                  <div className="inline-flex items-center gap-3 px-6 py-3 bg-gray-800/50 backdrop-blur-sm rounded-full border border-gray-700/50 hover:border-primary-orange/50 transition-all group">
+                  <div className="inline-flex items-center gap-3 px-6 py-3 bg-white rounded-full shadow-xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all group">
                     <MapPin className="w-5 h-5 text-primary-orange animate-pulse" />
-                    <span className="text-lg font-bold text-white">Silicon Valley of India</span>
+                    <span className="text-lg font-bold text-gray-800">Silicon Valley of India</span>
                     <div className="w-2 h-2 bg-primary-orange rounded-full animate-ping"></div>
                   </div>
                   
