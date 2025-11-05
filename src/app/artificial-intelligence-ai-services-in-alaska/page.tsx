@@ -356,58 +356,187 @@ export default function AIServicesAlaskaPage() {
         }}
       />
 
-      {/* Hero Section - VSO & Target Keyword Optimized */}
-      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-4xl mx-auto text-center">
-            <div className="flex items-center justify-center gap-2 mb-6">
-              <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-orange-300">Serving Alaska, United States</span>
-            </div>
-            
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
-              <strong>Artificial Intelligence Company In Alaska</strong> | Leading <span className="text-primary-orange">AI Company In Alaska</span>
-            </h1>
-            
-            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              Looking for the best <strong>AI Company In Alaska</strong>? Metic.ai is the premier <strong>Artificial Intelligence Company In Alaska</strong> 
-              with 2100+ successful AI implementations. From Anchorage's logistics hubs to remote operations across the frontier, 
-              we help Alaska businesses transform with cutting-edge AI solutions, delivering 60% cost savings and 3x faster results.
-            </p>
-            
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-              <Link href="/contact">
-                <Button variant="primary" size="lg" className="w-full sm:w-auto">
-                  Get Free AI Consultation
-                </Button>
-              </Link>
-              <Link href="tel:+917892518414">
-                <Button variant="outline" size="lg" className="w-full sm:w-auto">
-                  <Phone className="w-4 h-4 mr-2" />
-                  Call: +1-789-251-8414
-                </Button>
-              </Link>
-            </div>
-
-            {/* Voice Search Optimized Stats */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-2xl mx-auto">
-              {stats.map((stat, index) => (
-                <div key={index} className="text-center">
-                  <div className="text-2xl font-bold text-primary-orange mb-1">{stat.number}</div>
-                  <div className="text-sm text-gray-400">{stat.label}</div>
+      {/* Ultra-Creative Hero Section - Premium Design with Orange/White Theme */}
+      <section className="relative min-h-screen bg-gradient-to-br from-white via-orange-50 to-gray-50 overflow-hidden">
+        {/* Advanced Background Effects */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          {/* Animated Gradient Orbs */}
+          <div className="absolute top-20 left-20 w-96 h-96 bg-primary-orange/20 rounded-full blur-3xl animate-pulse opacity-60"></div>
+          <div className="absolute bottom-20 right-20 w-80 h-80 bg-secondary-orange/20 rounded-full blur-3xl animate-pulse opacity-60" style={{animationDelay: '2s'}}></div>
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-primary-orange/10 rounded-full blur-2xl animate-pulse opacity-40" style={{animationDelay: '4s'}}></div>
+          
+          {/* Floating Elements */}
+          <div className="absolute top-40 right-40 w-32 h-32 bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 rounded-2xl rotate-45 animate-bounce opacity-60" style={{animationDelay: '1s'}}></div>
+          <div className="absolute bottom-40 left-40 w-24 h-24 bg-gradient-to-br from-secondary-orange/10 to-primary-orange/10 rounded-full animate-pulse opacity-50" style={{animationDelay: '3s'}}></div>
+          
+          {/* Grid Pattern */}
+          <div className="absolute inset-0 opacity-[0.03]" style={{
+            backgroundImage: `linear-gradient(#FF6B35 1.5px, transparent 1.5px), linear-gradient(90deg, #FF6B35 1.5px, transparent 1.5px)`,
+            backgroundSize: '60px 60px'
+          }}></div>
+        </div>
+        
+        <div className="container px-4 md:px-6 relative z-10">
+          <div className="max-w-7xl mx-auto">
+            <div className="flex items-center min-h-screen py-20">
+              <div className="grid lg:grid-cols-2 gap-16 items-center w-full">
+                
+                {/* Left Content */}
+                <div className="space-y-8">
+                  {/* Location Badge */}
+                  <div className="inline-flex items-center gap-3 px-6 py-3 bg-white rounded-full shadow-xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all group">
+                    <MapPin className="w-5 h-5 text-primary-orange animate-pulse" />
+                    <span className="text-lg font-bold text-gray-800">Serving Alaska, United States</span>
+                    <div className="w-2 h-2 bg-primary-orange rounded-full animate-ping"></div>
+                  </div>
+                  
+                  {/* Main Headline */}
+                  <div className="space-y-6">
+                    <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-tight">
+                      <span className="block text-gray-900 mb-2">
+                        <strong>Artificial Intelligence</strong>
+                      </span>
+                      <span className="block bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent mb-2">
+                        Company In Alaska
+                      </span>
+                      <span className="block text-2xl md:text-3xl lg:text-4xl text-gray-700 font-semibold">
+                        Leading <span className="text-primary-orange">AI Company In Alaska</span>
+                      </span>
+                    </h1>
+                    
+                    {/* Decorative Line */}
+                    <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange rounded-full"></div>
+                  </div>
+                  
+                  {/* Hero Description */}
+                  <div className="space-y-6">
+                    <p className="text-xl md:text-2xl text-gray-600 leading-relaxed max-w-2xl">
+                      Looking for the best <strong className="text-primary-orange font-semibold">AI Company In Alaska</strong>? 
+                      Metic.ai is the premier <strong className="text-primary-orange font-semibold">Artificial Intelligence Company In Alaska</strong> 
+                      with <span className="bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 px-2 py-1 rounded-lg font-bold">2100+ successful AI implementations</span>.
+                    </p>
+                    
+                    <p className="text-lg text-gray-600 leading-relaxed">
+                      From Anchorage's logistics hubs to remote operations across the Last Frontier, we help Alaska businesses 
+                      transform with cutting-edge AI solutions, delivering <strong className="text-secondary-orange">60% cost savings</strong> and 
+                      <strong className="text-primary-orange">3x faster results</strong>.
+                    </p>
+                  </div>
+                  
+                  {/* CTA Buttons */}
+                  <div className="flex flex-col sm:flex-row gap-4 pt-6">
+                    <Link href="/contact">
+                      <Button size="lg" className="bg-gradient-to-r from-primary-orange to-secondary-orange hover:from-primary-orange/90 hover:to-secondary-orange/90 text-white px-8 py-4 text-lg font-semibold shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all group">
+                        Get Free AI Consultation
+                        <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                      </Button>
+                    </Link>
+                    <Link href="tel:+917892518414">
+                      <Button variant="outline" size="lg" className="border-2 border-primary-orange text-primary-orange hover:bg-primary-orange hover:text-white px-8 py-4 text-lg font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all group">
+                        <Phone className="w-5 h-5 mr-2 group-hover:animate-bounce" />
+                        Call: +1-789-251-8414
+                      </Button>
+                    </Link>
+                  </div>
+                  
+                  {/* Trust Indicators */}
+                  <div className="flex flex-wrap items-center gap-6 pt-8">
+                    <div className="flex items-center gap-2">
+                      <CheckCircle className="w-5 h-5 text-primary-orange" />
+                      <span className="text-sm font-semibold text-gray-700">2100+ AI Projects</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <CheckCircle className="w-5 h-5 text-secondary-orange" />
+                      <span className="text-sm font-semibold text-gray-700">98% Success Rate</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <CheckCircle className="w-5 h-5 text-primary-orange" />
+                      <span className="text-sm font-semibold text-gray-700">24/7 Support</span>
+                    </div>
+                  </div>
                 </div>
-              ))}
-            </div>
-
-            {/* VSO Keywords Section */}
-            <div className="mt-12 text-center">
-              <p className="text-gray-400 text-sm mb-4">Trusted as the top AI Service In Alaska</p>
-              <div className="flex flex-wrap justify-center gap-4 text-gray-500 text-xs">
-                <span className="bg-gray-800/50 px-3 py-1 rounded-full">AI Firm In Alaska</span>
-                <span className="bg-gray-800/50 px-3 py-1 rounded-full">AI Development Company In Alaska</span>
-                <span className="bg-gray-800/50 px-3 py-1 rounded-full">Best AI Company Alaska</span>
+                
+                {/* Right Visual Elements */}
+                <div className="relative">
+                  {/* Main Stats Card */}
+                  <div className="relative bg-white rounded-3xl p-8 shadow-2xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all">
+                    {/* Floating Badge */}
+                    <div className="absolute -top-6 left-8 bg-gradient-to-r from-primary-orange to-secondary-orange text-white px-6 py-3 rounded-full shadow-lg">
+                      <span className="font-bold text-lg">#1 AI Company Alaska</span>
+                    </div>
+                    
+                    {/* Stats Grid */}
+                    <div className="grid grid-cols-2 gap-8 mt-8">
+                      {stats.map((stat, index) => (
+                        <div key={index} className="text-center group">
+                          <div className="relative">
+                            <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/5 to-secondary-orange/5 rounded-2xl group-hover:from-primary-orange/10 group-hover:to-secondary-orange/10 transition-all"></div>
+                            <div className="relative p-6 rounded-2xl">
+                              <div className="text-3xl md:text-4xl font-bold text-primary-orange mb-2 group-hover:scale-110 transition-transform">
+                                {stat.number}
+                              </div>
+                              <div className="text-sm font-semibold text-gray-600">
+                                {stat.label}
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                    
+                    {/* Bottom Section */}
+                    <div className="mt-8 pt-6 border-t border-gray-200">
+                      <p className="text-center text-lg font-semibold text-gray-700 mb-4">
+                        Trusted as the top <span className="text-primary-orange">AI Service In Alaska</span>
+                      </p>
+                      <div className="flex flex-wrap justify-center gap-2">
+                        <span className="bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 text-gray-700 px-4 py-2 rounded-full text-sm font-semibold border border-primary-orange/20">
+                          AI Firm In Alaska
+                        </span>
+                        <span className="bg-gradient-to-r from-secondary-orange/10 to-primary-orange/10 text-gray-700 px-4 py-2 rounded-full text-sm font-semibold border border-secondary-orange/20">
+                          AI Development Company
+                        </span>
+                        <span className="bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 text-gray-700 px-4 py-2 rounded-full text-sm font-semibold border border-primary-orange/20">
+                          Best AI Company Alaska
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Floating Achievement Cards */}
+                  <div className="absolute -top-8 -right-8 bg-white rounded-2xl p-4 shadow-xl border-2 border-secondary-orange/20 transform rotate-6 hover:rotate-3 transition-transform">
+                    <div className="flex items-center gap-3">
+                      <div className="w-12 h-12 bg-gradient-to-br from-secondary-orange to-primary-orange rounded-full flex items-center justify-center">
+                        <Award className="w-6 h-6 text-white" />
+                      </div>
+                      <div>
+                        <div className="font-bold text-gray-900">Top Rated</div>
+                        <div className="text-sm text-gray-600">AI Company</div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="absolute -bottom-8 -left-8 bg-white rounded-2xl p-4 shadow-xl border-2 border-primary-orange/20 transform -rotate-6 hover:-rotate-3 transition-transform">
+                    <div className="flex items-center gap-3">
+                      <div className="w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-full flex items-center justify-center">
+                        <Zap className="w-6 h-6 text-white" />
+                      </div>
+                      <div>
+                        <div className="font-bold text-gray-900">Fast Delivery</div>
+                        <div className="text-sm text-gray-600">3x Faster</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
+          </div>
+        </div>
+        
+        {/* Scroll Indicator */}
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+          <div className="w-6 h-10 border-2 border-primary-orange rounded-full flex justify-center">
+            <div className="w-1 h-3 bg-primary-orange rounded-full mt-2 animate-pulse"></div>
           </div>
         </div>
       </section>
