@@ -20,7 +20,9 @@ import {
   BarChart3,
   Code,
   Database,
-  Sparkles
+  Sparkles,
+  ChevronDown,
+  Rocket
 } from "lucide-react";
 
 export const metadata = {
@@ -573,102 +575,274 @@ export default function AIServicesMissouriPage() {
         </div>
       </section>
 
-      {/* FAQ Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-4xl mx-auto">
+      {/* Enhanced FAQ Section - Homepage Style */}
+      <section className="py-24 bg-gradient-to-br from-gray-50 via-white to-orange-50 relative overflow-hidden">
+        {/* Advanced Background Effects */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          {/* Animated Gradient Orbs */}
+          <div className="absolute top-10 left-10 w-96 h-96 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-10 right-10 w-96 h-96 bg-secondary-orange/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
+          
+          {/* Grid Pattern */}
+          <div className="absolute inset-0 opacity-[0.02]" style={{
+            backgroundImage: `linear-gradient(#FF6B35 1.5px, transparent 1.5px), linear-gradient(90deg, #FF6B35 1.5px, transparent 1.5px)`,
+            backgroundSize: '60px 60px'
+          }}></div>
+        </div>
+        
+        <div className="container px-4 md:px-6 relative z-10">
+          <div className="max-w-5xl mx-auto">
+            {/* Enhanced Section Header */}
             <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Frequently Asked Questions About <span className="text-primary-orange">AI Company In Missouri</span>
+              {/* Badge */}
+              <div className="inline-flex items-center gap-2 px-6 py-3 bg-white rounded-full shadow-xl border-2 border-primary-orange/20 mb-8 hover:border-primary-orange/40 transition-all group">
+                <Lightbulb className="w-5 h-5 text-primary-orange animate-pulse" />
+                <span className="text-sm font-bold text-gray-800">Got Questions? We Have Answers!</span>
+                <Sparkles className="w-4 h-4 text-primary-orange" />
+              </div>
+              
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+                <span className="text-gray-900">Frequently Asked Questions</span>
+                <br />
+                <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
+                  About AI Company In Missouri
+                </span>
               </h2>
-              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Common questions about choosing the right Artificial Intelligence Company In Missouri for your business needs.
+              <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-8 rounded-full"></div>
+              <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+                Common questions about Missouri's leading AI company in the Show-Me State
               </p>
             </div>
-            
-            <div className="space-y-8">
-              <div className="bg-white rounded-xl p-8 shadow-md">
-                <h3 className="text-xl font-bold mb-4 flex items-start gap-3">
-                  <div className="w-8 h-8 bg-primary-orange text-white rounded-full flex items-center justify-center text-sm font-bold mt-1">Q</div>
-                  Which is the best Artificial Intelligence Company In Missouri?
-                </h3>
-                <div className="ml-11">
-                  <p className="text-gray-600 leading-relaxed">
-                    Metic.ai is recognized as the leading <strong>Artificial Intelligence Company In Missouri</strong>, serving 2100+ businesses with proven AI solutions. 
-                    We specialize in custom AI development, machine learning, and automation solutions for Missouri companies across all industries. Our track record 
-                    includes successful implementations for major Missouri corporations and growing businesses statewide.
-                  </p>
-                </div>
-              </div>
 
-              <div className="bg-white rounded-xl p-8 shadow-md">
-                <h3 className="text-xl font-bold mb-4 flex items-start gap-3">
-                  <div className="w-8 h-8 bg-primary-orange text-white rounded-full flex items-center justify-center text-sm font-bold mt-1">Q</div>
-                  What AI services does the top AI Company In Missouri provide?
-                </h3>
-                <div className="ml-11">
-                  <p className="text-gray-600 leading-relaxed">
-                    As the premier <strong>AI Company In Missouri</strong>, Metic.ai provides comprehensive AI services including machine learning solutions, 
-                    custom AI development, data analytics, automation platforms, and AI integration services specifically designed for Missouri businesses. 
-                    We serve industries from agriculture and manufacturing to healthcare and financial services across Kansas City, St. Louis, and statewide.
-                  </p>
+            {/* Advanced Creative FAQ Cards */}
+            <div className="space-y-5">
+              {/* FAQ Item 1 - Enhanced Design */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    {/* Gradient Overlay */}
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    {/* Content */}
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        {/* Icon Circle */}
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Sparkles className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        {/* Question */}
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Which is the best Artificial Intelligence Company In Missouri?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      {/* Toggle Icon */}
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    {/* Bottom Accent Bar */}
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                {/* Answer with Animation */}
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <CheckCircle className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        <strong className="text-gray-900 font-semibold">Metic.ai is recognized as the leading Artificial Intelligence Company In Missouri</strong> with 2100+ successful implementations across Kansas City, St. Louis, and statewide. 
+                        We specialize in agriculture technology, manufacturing automation, and enterprise solutions.
+                      </p>
+                      <p className="text-lg">
+                        Our expertise in Missouri's agricultural innovation and aerospace manufacturing sectors delivers tailored solutions for the Show-Me State's unique business landscape.
+                      </p>
+                      
+                      {/* Stats Highlight */}
+                      <div className="flex flex-wrap gap-4 pt-4">
+                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
+                          <Award className="w-4 h-4 text-primary-orange" />
+                          <span className="text-sm font-semibold text-gray-900">2100+ Projects</span>
+                        </div>
+                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
+                          <MapPin className="w-4 h-4 text-primary-orange" />
+                          <span className="text-sm font-semibold text-gray-900">Show-Me State Expert</span>
+                        </div>
+                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
+                          <TrendingUp className="w-4 h-4 text-primary-orange" />
+                          <span className="text-sm font-semibold text-gray-900">Agriculture AI Leader</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              </details>
 
-              <div className="bg-white rounded-xl p-8 shadow-md">
-                <h3 className="text-xl font-bold mb-4 flex items-start gap-3">
-                  <div className="w-8 h-8 bg-primary-orange text-white rounded-full flex items-center justify-center text-sm font-bold mt-1">Q</div>
-                  How much does AI development cost in Missouri?
-                </h3>
-                <div className="ml-11">
-                  <p className="text-gray-600 leading-relaxed">
-                    AI development costs in Missouri vary based on project complexity. Metic.ai offers competitive pricing with 60% cost savings compared to 
-                    traditional development. We provide free consultations to Missouri businesses to determine exact project costs and ROI potential. 
-                    Our transparent pricing and proven delivery methods ensure maximum value for your AI investment.
-                  </p>
+              {/* FAQ Item 2 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Code className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What AI services does the top AI Company In Missouri offer?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <BarChart3 className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        Our <strong className="text-gray-900 font-semibold">AI Company In Missouri</strong> offers comprehensive services including custom AI development, machine learning solutions, 
+                        automation systems, data analytics, generative AI, and AI integration.
+                      </p>
+                      <p className="text-lg">
+                        We specialize in solutions for Missouri's agriculture, manufacturing, and aerospace industries, serving Kansas City, St. Louis, and businesses across the Show-Me State.
+                      </p>
+
+                      {/* Service Grid */}
+                      <div className="grid md:grid-cols-2 gap-4 pt-4">
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <Brain className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">Agriculture AI</span>
+                        </div>
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <Database className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">Manufacturing ML</span>
+                        </div>
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <Zap className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">Aerospace Systems</span>
+                        </div>
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <Shield className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">Enterprise Solutions</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              </details>
 
-              <div className="bg-white rounded-xl p-8 shadow-md">
-                <h3 className="text-xl font-bold mb-4 flex items-start gap-3">
-                  <div className="w-8 h-8 bg-primary-orange text-white rounded-full flex items-center justify-center text-sm font-bold mt-1">Q</div>
-                  How long does AI implementation take for Missouri businesses?
-                </h3>
-                <div className="ml-11">
-                  <p className="text-gray-600 leading-relaxed">
-                    AI implementation timelines for Missouri businesses typically range from 2-6 months depending on project scope. Metic.ai delivers 
-                    3x faster implementation than industry standards while maintaining quality and ensuring successful deployment. Our agile methodology 
-                    and experienced Missouri-based team accelerate delivery without compromising on results.
-                  </p>
+              {/* FAQ Item 3 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <TrendingUp className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How much does AI development cost from an AI Development Company In Missouri?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <Target className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        AI development costs vary by project scope. As a leading <strong className="text-gray-900 font-semibold">AI Development Company In Missouri</strong>, we offer 60% cost savings compared to traditional development, 
+                        with projects ranging from $10K for basic automation to $500K+ for enterprise AI systems.
+                      </p>
+                      <p className="text-lg">
+                        Our Missouri-based team ensures competitive pricing for agriculture and manufacturing AI solutions with maximum ROI for Show-Me State businesses.
+                      </p>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              </details>
 
-              <div className="bg-white rounded-xl p-8 shadow-md">
-                <h3 className="text-xl font-bold mb-4 flex items-start gap-3">
-                  <div className="w-8 h-8 bg-primary-orange text-white rounded-full flex items-center justify-center text-sm font-bold mt-1">Q</div>
-                  Why choose a local AI Company In Missouri vs national providers?
-                </h3>
-                <div className="ml-11">
-                  <p className="text-gray-600 leading-relaxed">
-                    Choosing a local <strong>AI Company In Missouri</strong> like Metic.ai provides advantages including understanding of local business challenges, 
-                    on-site support, knowledge of Missouri regulations, and partnerships with local technology ecosystems for better integration and results. 
-                    We understand Missouri's unique business landscape from agriculture innovation to aerospace manufacturing.
-                  </p>
-                </div>
-              </div>
+            </div>
 
-              <div className="bg-white rounded-xl p-8 shadow-md">
-                <h3 className="text-xl font-bold mb-4 flex items-start gap-3">
-                  <div className="w-8 h-8 bg-primary-orange text-white rounded-full flex items-center justify-center text-sm font-bold mt-1">Q</div>
-                  What industries does the leading Artificial Intelligence Company In Missouri serve?
-                </h3>
-                <div className="ml-11">
-                  <p className="text-gray-600 leading-relaxed">
-                    Metic.ai serves all major Missouri industries including agriculture technology, manufacturing automation, healthcare systems, 
-                    financial services, logistics, aerospace, energy, and emerging technology sectors across Kansas City, St. Louis, and statewide. 
-                    Our expertise spans from traditional Missouri industries to cutting-edge tech companies driving the state's digital transformation.
+            {/* Enhanced CTA at Bottom of FAQ */}
+            <div className="mt-16 text-center">
+              <div className="bg-gradient-to-br from-primary-orange to-secondary-orange rounded-3xl p-12 text-white relative overflow-hidden">
+                <div className="absolute inset-0 bg-black/10"></div>
+                <div className="relative z-10">
+                  <div className="flex justify-center mb-6">
+                    <div className="relative">
+                      <div className="absolute inset-0 bg-white/20 rounded-full blur-lg animate-pulse"></div>
+                      <div className="relative w-20 h-20 bg-white/10 rounded-full flex items-center justify-center backdrop-blur-sm border border-white/20">
+                        <Rocket className="w-10 h-10 text-white" />
+                      </div>
+                    </div>
+                  </div>
+                  <h3 className="text-3xl md:text-4xl font-bold mb-4">Ready to Transform Your Missouri Business with AI?</h3>
+                  <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+                    Join leading Missouri companies that trust Metic.ai for their AI transformation in the Show-Me State!
                   </p>
+                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                    <Link href="/contact">
+                      <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100 shadow-xl">
+                        Partner with AI Firm Missouri
+                      </Button>
+                    </Link>
+                    <Link href="tel:+917892518414">
+                      <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
+                        Call AI Company Missouri Now
+                      </Button>
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>

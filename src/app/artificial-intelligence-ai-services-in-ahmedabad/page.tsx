@@ -20,7 +20,9 @@ import {
   BarChart3,
   Code,
   Database,
-  Sparkles
+  Sparkles,
+  ChevronDown,
+  Rocket
 } from "lucide-react";
 
 export const metadata = {
@@ -705,90 +707,330 @@ export default function AIServicesAhmedabadPage() {
         </div>
       </section>
 
-      {/* FAQ Section for ASO & VSO */}
-      <section className="py-20 bg-gray-50">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-4xl mx-auto">
+      {/* Enhanced FAQ Section - Homepage Style */}
+      <section className="py-24 bg-gradient-to-br from-gray-50 via-white to-orange-50 relative overflow-hidden">
+        {/* Advanced Background Effects */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          {/* Animated Gradient Orbs */}
+          <div className="absolute top-10 left-10 w-96 h-96 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-10 right-10 w-96 h-96 bg-secondary-orange/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
+          
+          {/* Grid Pattern */}
+          <div className="absolute inset-0 opacity-[0.02]" style={{
+            backgroundImage: `linear-gradient(#FF6B35 1.5px, transparent 1.5px), linear-gradient(90deg, #FF6B35 1.5px, transparent 1.5px)`,
+            backgroundSize: '60px 60px'
+          }}></div>
+        </div>
+        
+        <div className="container px-4 md:px-6 relative z-10">
+          <div className="max-w-5xl mx-auto">
+            {/* Enhanced Section Header */}
             <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Frequently Asked Questions About <span className="text-primary-orange">AI Company In Ahmedabad</span>
+              {/* Badge */}
+              <div className="inline-flex items-center gap-2 px-6 py-3 bg-white rounded-full shadow-xl border-2 border-primary-orange/20 mb-8 hover:border-primary-orange/40 transition-all group">
+                <Lightbulb className="w-5 h-5 text-primary-orange animate-pulse" />
+                <span className="text-sm font-bold text-gray-800">Got Questions? We Have Answers!</span>
+                <Sparkles className="w-4 h-4 text-primary-orange" />
+              </div>
+              
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+                <span className="text-gray-900">Frequently Asked Questions</span>
+                <br />
+                <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
+                  About AI Company In Ahmedabad
+                </span>
               </h2>
-              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Common questions about choosing the right Artificial Intelligence Company In Ahmedabad for your business needs.
+              <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-8 rounded-full"></div>
+              <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+                Common questions about choosing the right AI company in Gujarat's commercial capital
               </p>
             </div>
-            
-            <div className="space-y-8">
-              <div className="bg-white rounded-xl p-8 shadow-sm">
-                <h3 className="text-xl font-bold mb-4 text-gray-900">
-                  Which is the best Artificial Intelligence Company In Ahmedabad?
-                </h3>
-                <p className="text-gray-700 leading-relaxed">
-                  <strong>Metic.ai is the leading Artificial Intelligence Company In Ahmedabad</strong> with over 2100 successful AI implementations. 
-                  We're recognized as the top AI Company In Ahmedabad for our proven expertise in machine learning, custom AI development, 
-                  and enterprise AI solutions. Our clients achieve an average of 60% cost savings and 3x faster delivery compared to traditional development approaches.
-                </p>
-              </div>
 
-              <div className="bg-white rounded-xl p-8 shadow-sm">
-                <h3 className="text-xl font-bold mb-4 text-gray-900">
-                  What services does the top AI Company In Ahmedabad provide?
-                </h3>
-                <p className="text-gray-700 leading-relaxed">
-                  As the premier <strong>AI Company In Ahmedabad</strong>, Metic.ai provides comprehensive artificial intelligence services including:
-                  AI integration & deployment, machine learning solutions, custom AI development, data analytics & business intelligence, 
-                  generative AI services, computer vision, natural language processing, and enterprise AI automation. We specialize in 
-                  serving Ahmedabad's textile, chemical, pharmaceutical, and engineering industries.
-                </p>
-              </div>
+            {/* Advanced Creative FAQ Cards */}
+            <div className="space-y-5">
+              {/* FAQ Item 1 - Enhanced Design */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    {/* Gradient Overlay */}
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    {/* Content */}
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        {/* Icon Circle */}
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Sparkles className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        {/* Question */}
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Which is the best Artificial Intelligence Company In Ahmedabad?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      {/* Toggle Icon */}
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    {/* Bottom Accent Bar */}
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                {/* Answer with Animation */}
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <CheckCircle className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        <strong className="text-gray-900 font-semibold">Metic.ai is the leading Artificial Intelligence Company In Ahmedabad</strong> with over 2100 successful AI implementations. 
+                        We're recognized as the top AI Company In Ahmedabad for our proven expertise in machine learning, custom AI development, and enterprise AI solutions.
+                      </p>
+                      <p className="text-lg">
+                        Our clients achieve an average of 60% cost savings and 3x faster delivery compared to traditional development approaches, 
+                        making us Gujarat's most trusted AI development partner.
+                      </p>
+                      
+                      {/* Stats Highlight */}
+                      <div className="flex flex-wrap gap-4 pt-4">
+                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
+                          <Award className="w-4 h-4 text-primary-orange" />
+                          <span className="text-sm font-semibold text-gray-900">2100+ Projects</span>
+                        </div>
+                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
+                          <MapPin className="w-4 h-4 text-primary-orange" />
+                          <span className="text-sm font-semibold text-gray-900">Gujarat Expert</span>
+                        </div>
+                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
+                          <TrendingUp className="w-4 h-4 text-primary-orange" />
+                          <span className="text-sm font-semibold text-gray-900">60% Cost Savings</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </details>
 
-              <div className="bg-white rounded-xl p-8 shadow-sm">
-                <h3 className="text-xl font-bold mb-4 text-gray-900">
-                  How to choose the right AI Development Company In Ahmedabad?
-                </h3>
-                <p className="text-gray-700 leading-relaxed">
-                  When selecting an <strong>AI Development Company In Ahmedabad</strong>, look for proven experience, successful project portfolio, 
-                  industry expertise, local market understanding, and ongoing support. Metic.ai offers all these qualities with 2100+ completed projects, 
-                  98% client satisfaction rate, and deep knowledge of Ahmedabad's business landscape. We provide 24/7 support and maintain long-term 
-                  partnerships with our clients.
-                </p>
-              </div>
+              {/* FAQ Item 2 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Code className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What services does the top AI Company In Ahmedabad provide?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <BarChart3 className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        As the premier <strong className="text-gray-900 font-semibold">AI Company In Ahmedabad</strong>, Metic.ai provides comprehensive artificial intelligence services including:
+                        AI integration & deployment, machine learning solutions, custom AI development, and data analytics & business intelligence.
+                      </p>
+                      <p className="text-lg">
+                        We specialize in serving Ahmedabad's textile, chemical, pharmaceutical, and engineering industries with 
+                        generative AI services, computer vision, natural language processing, and enterprise AI automation.
+                      </p>
 
-              <div className="bg-white rounded-xl p-8 shadow-sm">
-                <h3 className="text-xl font-bold mb-4 text-gray-900">
-                  What makes Metic.ai the best AI Firm In Ahmedabad?
-                </h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Metic.ai stands out as the best <strong>AI Firm In Ahmedabad</strong> due to our unique combination of technical expertise, 
-                  business acumen, and local market knowledge. We deliver measurable results with an average 4.5x ROI increase for our clients. 
-                  Our team includes AI specialists, machine learning engineers, and data scientists who understand both global AI trends and 
-                  local Ahmedabad business requirements.
-                </p>
-              </div>
+                      {/* Service Grid */}
+                      <div className="grid md:grid-cols-2 gap-4 pt-4">
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <Brain className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">Textile AI</span>
+                        </div>
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <Database className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">Chemical Analytics</span>
+                        </div>
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <Zap className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">Pharma AI</span>
+                        </div>
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <Shield className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">Engineering AI</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </details>
 
-              <div className="bg-white rounded-xl p-8 shadow-sm">
-                <h3 className="text-xl font-bold mb-4 text-gray-900">
-                  How much does AI implementation cost with an AI Service In Ahmedabad?
-                </h3>
-                <p className="text-gray-700 leading-relaxed">
-                  AI implementation costs vary based on project complexity and requirements. As a leading <strong>AI Service In Ahmedabad</strong>, 
-                  Metic.ai offers competitive pricing with transparent cost structures. Our clients typically save 60% compared to international 
-                  AI development costs while receiving enterprise-grade solutions. We provide free consultations to assess your needs and 
-                  provide accurate project estimates.
-                </p>
-              </div>
+              {/* FAQ Item 3 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Target className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How to choose the right AI Development Company In Ahmedabad?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <CheckCircle className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        When selecting an <strong className="text-gray-900 font-semibold">AI Development Company In Ahmedabad</strong>, look for proven experience, successful project portfolio, 
+                        industry expertise, local market understanding, and ongoing support.
+                      </p>
+                      <p className="text-lg">
+                        Metic.ai offers all these qualities with 2100+ completed projects, 98% client satisfaction rate, and deep knowledge of Gujarat's business landscape. 
+                        We provide 24/7 support and maintain long-term partnerships with our clients.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </details>
 
-              <div className="bg-white rounded-xl p-8 shadow-sm">
-                <h3 className="text-xl font-bold mb-4 text-gray-900">
-                  Which industries benefit most from AI solutions in Ahmedabad?
-                </h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Ahmedabad's key industries including textiles, chemicals, pharmaceuticals, engineering, automotive, jewelry, and IT services 
-                  all benefit significantly from AI implementation. Our <strong>Artificial Intelligence Company In Ahmedabad</strong> has successfully 
-                  deployed AI solutions across these sectors, helping businesses optimize operations, reduce costs, improve quality control, 
-                  and enhance customer experiences.
-                </p>
+              {/* FAQ Item 4 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <TrendingUp className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How much does AI implementation cost with an AI Service In Ahmedabad?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <Clock className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        AI implementation costs vary based on project complexity and requirements. As a leading <strong className="text-gray-900 font-semibold">AI Service In Ahmedabad</strong>, 
+                        Metic.ai offers competitive pricing with transparent cost structures.
+                      </p>
+                      <p className="text-lg">
+                        Our clients typically save 60% compared to international AI development costs while receiving enterprise-grade solutions. 
+                        We provide free consultations to assess your needs and provide accurate project estimates.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </details>
+
+            </div>
+
+            {/* Enhanced CTA at Bottom of FAQ */}
+            <div className="mt-16 text-center">
+              <div className="bg-gradient-to-br from-primary-orange to-secondary-orange rounded-3xl p-12 text-white relative overflow-hidden">
+                <div className="absolute inset-0 bg-black/10"></div>
+                <div className="relative z-10">
+                  <div className="flex justify-center mb-6">
+                    <div className="relative">
+                      <div className="absolute inset-0 bg-white/20 rounded-full blur-lg animate-pulse"></div>
+                      <div className="relative w-20 h-20 bg-white/10 rounded-full flex items-center justify-center backdrop-blur-sm border border-white/20">
+                        <Rocket className="w-10 h-10 text-white" />
+                      </div>
+                    </div>
+                  </div>
+                  <h3 className="text-3xl md:text-4xl font-bold mb-4">Ready to Transform Your Ahmedabad Business with AI?</h3>
+                  <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+                    Join Gujarat's leading businesses who trust Metic.ai for their AI transformation in the commercial capital!
+                  </p>
+                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                    <Link href="/contact">
+                      <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100 shadow-xl">
+                        Partner with AI Firm Ahmedabad
+                      </Button>
+                    </Link>
+                    <Link href="tel:+917892518414">
+                      <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
+                        Call AI Company Ahmedabad Now
+                      </Button>
+                    </Link>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

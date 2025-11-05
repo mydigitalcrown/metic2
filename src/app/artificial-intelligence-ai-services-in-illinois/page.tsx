@@ -602,72 +602,275 @@ export default function AIServicesIllinoisPage() {
         </div>
       </section>
 
-      {/* FAQ Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-4xl mx-auto">
+      {/* Enhanced FAQ Section - Homepage Style */}
+      <section className="py-24 bg-gradient-to-br from-gray-50 via-white to-orange-50 relative overflow-hidden">
+        {/* Advanced Background Effects */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          {/* Animated Gradient Orbs */}
+          <div className="absolute top-10 left-10 w-96 h-96 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-10 right-10 w-96 h-96 bg-secondary-orange/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
+          
+          {/* Grid Pattern */}
+          <div className="absolute inset-0 opacity-[0.02]" style={{
+            backgroundImage: `linear-gradient(#FF6B35 1.5px, transparent 1.5px), linear-gradient(90deg, #FF6B35 1.5px, transparent 1.5px)`,
+            backgroundSize: '60px 60px'
+          }}></div>
+        </div>
+        
+        <div className="container px-4 md:px-6 relative z-10">
+          <div className="max-w-5xl mx-auto">
+            {/* Enhanced Section Header */}
             <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Frequently Asked Questions - AI Company In Illinois
+              {/* Badge */}
+              <div className="inline-flex items-center gap-2 px-6 py-3 bg-white rounded-full shadow-xl border-2 border-primary-orange/20 mb-8 hover:border-primary-orange/40 transition-all group">
+                <Lightbulb className="w-5 h-5 text-primary-orange animate-pulse" />
+                <span className="text-sm font-bold text-gray-800">Got Questions? We Have Answers!</span>
+                <Sparkles className="w-4 h-4 text-primary-orange" />
+              </div>
+              
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+                <span className="text-gray-900">Frequently Asked Questions</span>
+                <br />
+                <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
+                  About AI Company In Illinois
+                </span>
               </h2>
+              <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-8 rounded-full"></div>
               <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                Get answers to common questions about our AI services for Illinois businesses
+                Get answers to common questions about AI services for Prairie State businesses
               </p>
             </div>
-            
-            <div className="space-y-8">
-              <div className="bg-white rounded-xl p-8 shadow-sm">
-                <h3 className="text-xl font-bold mb-4 text-gray-900">
-                  Which is the best AI Company In Illinois?
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  Metic.ai is the leading Artificial Intelligence Company In Illinois with 2100+ successful AI implementations. We specialize in custom AI development, machine learning solutions, and AI consulting for Illinois businesses with 60% cost savings and 3x faster delivery.
-                </p>
-              </div>
 
-              <div className="bg-white rounded-xl p-8 shadow-sm">
-                <h3 className="text-xl font-bold mb-4 text-gray-900">
-                  What AI services does this AI Service In Illinois provide?
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  As the premier AI Company In Illinois, we provide AI integration, machine learning solutions, custom AI development, data analytics, generative AI services, and comprehensive AI consulting for Illinois businesses across all industries and sectors.
-                </p>
-              </div>
+            {/* Advanced Creative FAQ Cards */}
+            <div className="space-y-5">
+              {/* FAQ Item 1 - Enhanced Design */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    {/* Gradient Overlay */}
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    {/* Content */}
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        {/* Icon Circle */}
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Sparkles className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        {/* Question */}
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Which is the best AI Company In Illinois?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      {/* Toggle Icon */}
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    {/* Bottom Accent Bar */}
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                {/* Answer with Animation */}
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <CheckCircle className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        <strong className="text-gray-900 font-semibold">Metic.ai is the leading Artificial Intelligence Company In Illinois</strong> with 2100+ successful AI implementations. 
+                        We specialize in custom AI development, machine learning solutions, and AI consulting for Illinois businesses.
+                      </p>
+                      <p className="text-lg">
+                        Our Prairie State expertise delivers 60% cost savings and 3x faster delivery for businesses across Chicago, Springfield, and throughout Illinois.
+                      </p>
+                      
+                      {/* Stats Highlight */}
+                      <div className="flex flex-wrap gap-4 pt-4">
+                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
+                          <Award className="w-4 h-4 text-primary-orange" />
+                          <span className="text-sm font-semibold text-gray-900">2100+ Projects</span>
+                        </div>
+                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
+                          <MapPin className="w-4 h-4 text-primary-orange" />
+                          <span className="text-sm font-semibold text-gray-900">Prairie State Expert</span>
+                        </div>
+                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
+                          <TrendingUp className="w-4 h-4 text-primary-orange" />
+                          <span className="text-sm font-semibold text-gray-900">60% Cost Savings</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </details>
 
-              <div className="bg-white rounded-xl p-8 shadow-sm">
-                <h3 className="text-xl font-bold mb-4 text-gray-900">
-                  How much does AI development cost from an AI Development Company In Illinois?
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  Our AI Development Company In Illinois offers competitive pricing with 60% cost savings compared to traditional development, with projects starting from $10,000 depending on complexity and requirements. We provide transparent pricing and flexible payment options.
-                </p>
-              </div>
+              {/* FAQ Item 2 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Code className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What AI services does this AI Service In Illinois provide?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <BarChart3 className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        As the premier <strong className="text-gray-900 font-semibold">AI Company In Illinois</strong>, we provide AI integration, machine learning solutions, 
+                        custom AI development, data analytics, generative AI services, and comprehensive AI consulting.
+                      </p>
+                      <p className="text-lg">
+                        Our services cover Illinois businesses across all industries and sectors, from Chicago's financial district to manufacturing throughout the state.
+                      </p>
 
-              <div className="bg-white rounded-xl p-8 shadow-sm">
-                <h3 className="text-xl font-bold mb-4 text-gray-900">
-                  Why choose Metic.ai as your AI Service In Illinois provider?
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  As the Top AI Company Illinois, we offer 2100+ successful projects, 60% cost savings, 3x faster delivery, dedicated Illinois team, 24/7 support, and cutting-edge AI solutions tailored for Illinois's diverse economy including finance, manufacturing, and agriculture.
-                </p>
-              </div>
+                      {/* Service Grid */}
+                      <div className="grid md:grid-cols-2 gap-4 pt-4">
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <Brain className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">Financial AI</span>
+                        </div>
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <Database className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">Manufacturing ML</span>
+                        </div>
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <Zap className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">AgTech AI</span>
+                        </div>
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <Shield className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">Enterprise Solutions</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </details>
 
-              <div className="bg-white rounded-xl p-8 shadow-sm">
-                <h3 className="text-xl font-bold mb-4 text-gray-900">
-                  How long does AI implementation take with your AI Firm In Illinois?
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  Our AI Firm In Illinois delivers projects 3x faster than industry average. Simple AI integrations take 2-4 weeks, while complex custom AI development projects typically take 8-16 weeks depending on scope and requirements. We provide regular updates throughout the process.
-                </p>
-              </div>
+              {/* FAQ Item 3 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <TrendingUp className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How much does AI development cost from an AI Development Company In Illinois?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <Target className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        Our <strong className="text-gray-900 font-semibold">AI Development Company In Illinois</strong> offers competitive pricing with 60% cost savings compared to 
+                        traditional development, with projects starting from $10,000 depending on complexity and requirements.
+                      </p>
+                      <p className="text-lg">
+                        We provide transparent pricing and flexible payment options for Illinois businesses, ensuring maximum ROI and value.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </details>
 
-              <div className="bg-white rounded-xl p-8 shadow-sm">
-                <h3 className="text-xl font-bold mb-4 text-gray-900">
-                  Do you provide AI consulting services for Illinois businesses?
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  Yes, our Best AI Company In Illinois provides comprehensive AI consulting including strategy development, technology assessment, implementation roadmaps, and ongoing optimization for businesses across Chicago, Springfield, and all of Illinois. We understand the unique needs of the Prairie State's economy.
-                </p>
+            </div>
+
+            {/* Enhanced CTA at Bottom of FAQ */}
+            <div className="mt-16 text-center">
+              <div className="bg-gradient-to-br from-primary-orange to-secondary-orange rounded-3xl p-12 text-white relative overflow-hidden">
+                <div className="absolute inset-0 bg-black/10"></div>
+                <div className="relative z-10">
+                  <div className="flex justify-center mb-6">
+                    <div className="relative">
+                      <div className="absolute inset-0 bg-white/20 rounded-full blur-lg animate-pulse"></div>
+                      <div className="relative w-20 h-20 bg-white/10 rounded-full flex items-center justify-center backdrop-blur-sm border border-white/20">
+                        <Rocket className="w-10 h-10 text-white" />
+                      </div>
+                    </div>
+                  </div>
+                  <h3 className="text-3xl md:text-4xl font-bold mb-4">Ready to Transform Your Illinois Business with AI?</h3>
+                  <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+                    Join leading Illinois companies that trust Metic.ai for their AI transformation in the Prairie State!
+                  </p>
+                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                    <Link href="/contact">
+                      <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100 shadow-xl">
+                        Start Your AI Journey
+                      </Button>
+                    </Link>
+                    <Link href="tel:+917892518414">
+                      <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
+                        Call Now: +1-789-251-8414
+                      </Button>
+                    </Link>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

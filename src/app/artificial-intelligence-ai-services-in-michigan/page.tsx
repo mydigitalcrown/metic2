@@ -22,7 +22,9 @@ import {
   Database,
   Sparkles,
   Globe,
-  Calendar
+  Calendar,
+  ChevronDown,
+  Rocket
 } from "lucide-react";
 
 export const metadata = {
@@ -749,66 +751,275 @@ export default function AIServicesMichiganPage() {
         </div>
       </section>
 
-      {/* FAQ Section */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-              Frequently Asked Questions - <strong>AI Company In Michigan</strong>
-            </h2>
-            <div className="space-y-8">
-              <div className="border border-gray-200 rounded-lg p-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-900">
-                  Which is the best Artificial Intelligence Company In Michigan?
-                </h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Metic.ai is recognized as the leading <strong>Artificial Intelligence Company In Michigan</strong> with 2100+ successful implementations across Detroit, Grand Rapids, and Ann Arbor. We specialize in automotive AI, manufacturing automation, and enterprise solutions tailored for Michigan's unique business landscape including the automotive industry and manufacturing sector.
-                </p>
+      {/* Enhanced FAQ Section - Homepage Style */}
+      <section className="py-24 bg-gradient-to-br from-gray-50 via-white to-orange-50 relative overflow-hidden">
+        {/* Advanced Background Effects */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          {/* Animated Gradient Orbs */}
+          <div className="absolute top-10 left-10 w-96 h-96 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-10 right-10 w-96 h-96 bg-secondary-orange/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
+          
+          {/* Grid Pattern */}
+          <div className="absolute inset-0 opacity-[0.02]" style={{
+            backgroundImage: `linear-gradient(#FF6B35 1.5px, transparent 1.5px), linear-gradient(90deg, #FF6B35 1.5px, transparent 1.5px)`,
+            backgroundSize: '60px 60px'
+          }}></div>
+        </div>
+        
+        <div className="container px-4 md:px-6 relative z-10">
+          <div className="max-w-5xl mx-auto">
+            {/* Enhanced Section Header */}
+            <div className="text-center mb-16">
+              {/* Badge */}
+              <div className="inline-flex items-center gap-2 px-6 py-3 bg-white rounded-full shadow-xl border-2 border-primary-orange/20 mb-8 hover:border-primary-orange/40 transition-all group">
+                <Lightbulb className="w-5 h-5 text-primary-orange animate-pulse" />
+                <span className="text-sm font-bold text-gray-800">Got Questions? We Have Answers!</span>
+                <Sparkles className="w-4 h-4 text-primary-orange" />
               </div>
               
-              <div className="border border-gray-200 rounded-lg p-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-900">
-                  What AI services does the top AI Company In Michigan offer?
-                </h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Our <strong>AI Company In Michigan</strong> offers comprehensive services including custom AI development, machine learning solutions, automation systems, data analytics, generative AI, and AI integration specifically designed for Michigan's automotive and manufacturing industries. We serve Detroit's automotive sector, Grand Rapids' manufacturing hub, and Ann Arbor's tech corridor.
-                </p>
-              </div>
-              
-              <div className="border border-gray-200 rounded-lg p-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-900">
-                  How much does AI development cost from an AI Development Company In Michigan?
-                </h3>
-                <p className="text-gray-700 leading-relaxed">
-                  AI development costs vary by project scope. As a leading <strong>AI Development Company In Michigan</strong>, we offer 60% cost savings compared to traditional development, with projects ranging from $10K for basic automation to $500K+ for enterprise AI systems. Our Michigan-based team ensures competitive pricing for automotive and manufacturing AI solutions.
-                </p>
-              </div>
-              
-              <div className="border border-gray-200 rounded-lg p-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-900">
-                  Why choose Metic.ai as your AI Firm In Michigan?
-                </h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Metic.ai stands out as the premier <strong>AI Firm In Michigan</strong> due to our deep understanding of Michigan's automotive and manufacturing sectors, partnerships with University of Michigan research, 3x faster delivery, 60% cost savings, and proven track record with 2100+ successful AI implementations across Detroit, Grand Rapids, and the Great Lakes State.
-                </p>
-              </div>
-              
-              <div className="border border-gray-200 rounded-lg p-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-900">
-                  What industries does your AI Service In Michigan cover?
-                </h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Our <strong>AI Service In Michigan</strong> covers automotive manufacturing, healthcare, finance, retail, logistics, and advanced manufacturing - all key industries in Michigan's economy. We provide specialized AI solutions for Detroit's automotive sector, Grand Rapids' manufacturing hub, Flint's industrial base, and Ann Arbor's research and technology corridor.
-                </p>
-              </div>
-              
-              <div className="border border-gray-200 rounded-lg p-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-900">
-                  How long does AI implementation take with your Artificial Intelligence Company In Michigan?
-                </h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Our <strong>Artificial Intelligence Company In Michigan</strong> delivers 3x faster implementation than traditional development. Basic AI solutions deploy in 2-4 weeks, while enterprise automotive and manufacturing systems typically complete in 3-6 months. We leverage Michigan's tech talent and University of Michigan partnerships for accelerated development cycles.
-                </p>
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+                <span className="text-gray-900">Frequently Asked Questions</span>
+                <br />
+                <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
+                  About AI Company In Michigan
+                </span>
+              </h2>
+              <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-8 rounded-full"></div>
+              <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+                Common questions about Michigan's leading AI company in the Great Lakes State
+              </p>
+            </div>
+
+            {/* Advanced Creative FAQ Cards */}
+            <div className="space-y-5">
+              {/* FAQ Item 1 - Enhanced Design */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    {/* Gradient Overlay */}
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    {/* Content */}
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        {/* Icon Circle */}
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Sparkles className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        {/* Question */}
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Which is the best Artificial Intelligence Company In Michigan?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      {/* Toggle Icon */}
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    {/* Bottom Accent Bar */}
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                {/* Answer with Animation */}
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <CheckCircle className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        <strong className="text-gray-900 font-semibold">Metic.ai is recognized as the leading Artificial Intelligence Company In Michigan</strong> with 2100+ successful implementations across Detroit, Grand Rapids, and Ann Arbor. 
+                        We specialize in automotive AI, manufacturing automation, and enterprise solutions.
+                      </p>
+                      <p className="text-lg">
+                        Our expertise in Michigan's automotive industry and manufacturing sector delivers tailored solutions for the Great Lakes State's unique business landscape.
+                      </p>
+                      
+                      {/* Stats Highlight */}
+                      <div className="flex flex-wrap gap-4 pt-4">
+                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
+                          <Award className="w-4 h-4 text-primary-orange" />
+                          <span className="text-sm font-semibold text-gray-900">2100+ Projects</span>
+                        </div>
+                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
+                          <MapPin className="w-4 h-4 text-primary-orange" />
+                          <span className="text-sm font-semibold text-gray-900">Great Lakes Expert</span>
+                        </div>
+                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
+                          <TrendingUp className="w-4 h-4 text-primary-orange" />
+                          <span className="text-sm font-semibold text-gray-900">Automotive AI Leader</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </details>
+
+              {/* FAQ Item 2 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Code className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What AI services does the top AI Company In Michigan offer?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <BarChart3 className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        Our <strong className="text-gray-900 font-semibold">AI Company In Michigan</strong> offers comprehensive services including custom AI development, machine learning solutions, 
+                        automation systems, data analytics, generative AI, and AI integration.
+                      </p>
+                      <p className="text-lg">
+                        We specialize in solutions for Michigan's automotive and manufacturing industries, serving Detroit's automotive sector, Grand Rapids' manufacturing hub, and Ann Arbor's tech corridor.
+                      </p>
+
+                      {/* Service Grid */}
+                      <div className="grid md:grid-cols-2 gap-4 pt-4">
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <Brain className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">Automotive AI</span>
+                        </div>
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <Database className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">Manufacturing ML</span>
+                        </div>
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <Zap className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">Industrial Automation</span>
+                        </div>
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <Shield className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">Enterprise Solutions</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </details>
+
+              {/* FAQ Item 3 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <TrendingUp className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How much does AI development cost from an AI Development Company In Michigan?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <Target className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        AI development costs vary by project scope. As a leading <strong className="text-gray-900 font-semibold">AI Development Company In Michigan</strong>, we offer 60% cost savings compared to traditional development, 
+                        with projects ranging from $10K for basic automation to $500K+ for enterprise AI systems.
+                      </p>
+                      <p className="text-lg">
+                        Our Michigan-based team ensures competitive pricing for automotive and manufacturing AI solutions with maximum ROI for Great Lakes businesses.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </details>
+
+            </div>
+
+            {/* Enhanced CTA at Bottom of FAQ */}
+            <div className="mt-16 text-center">
+              <div className="bg-gradient-to-br from-primary-orange to-secondary-orange rounded-3xl p-12 text-white relative overflow-hidden">
+                <div className="absolute inset-0 bg-black/10"></div>
+                <div className="relative z-10">
+                  <div className="flex justify-center mb-6">
+                    <div className="relative">
+                      <div className="absolute inset-0 bg-white/20 rounded-full blur-lg animate-pulse"></div>
+                      <div className="relative w-20 h-20 bg-white/10 rounded-full flex items-center justify-center backdrop-blur-sm border border-white/20">
+                        <Rocket className="w-10 h-10 text-white" />
+                      </div>
+                    </div>
+                  </div>
+                  <h3 className="text-3xl md:text-4xl font-bold mb-4">Ready to Transform Your Michigan Business with AI?</h3>
+                  <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+                    Join leading Michigan companies that trust Metic.ai for their AI transformation in the Great Lakes State!
+                  </p>
+                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                    <Link href="/contact">
+                      <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100 shadow-xl">
+                        Partner with AI Firm Michigan
+                      </Button>
+                    </Link>
+                    <Link href="tel:+917892518414">
+                      <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
+                        Call AI Company Michigan Now
+                      </Button>
+                    </Link>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
