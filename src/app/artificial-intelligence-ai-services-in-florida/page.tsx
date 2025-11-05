@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Button } from "../components/ui/Button";
 import { 
+  Activity,
   Brain, 
   Zap, 
   TrendingUp, 
@@ -672,6 +673,431 @@ export default function AIServicesFloridaPage() {
                       <div className="flex items-center gap-2">
                         <MapPin className="w-3 h-3 text-primary-orange" />
                         <span>St. Petersburg</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Comprehensive AI Services Florida Content - SEO Optimized */}
+      <section className="py-24 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            {/* Florida AI Market Leadership */}
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold mb-6">
+                <span className="text-gray-900">Premier </span>
+                <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">
+                  Artificial Intelligence Company In Florida
+                </span>
+              </h2>
+              <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-8 rounded-full"></div>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Powering the Sunshine State's diverse economy from Miami's financial hub to Orlando's tech corridor
+              </p>
+            </div>
+
+            <div className="space-y-16">
+              {/* Florida AI Innovation Hub */}
+              <div className="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                  <h3 className="text-3xl font-bold text-gray-900 mb-6">
+                    Florida's <span className="text-primary-orange">Leading AI Technology Provider</span>
+                  </h3>
+                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                    As the premier <strong className="text-gray-900">Artificial Intelligence Company In Florida</strong>, Metic.ai 
+                    serves the nation's third-largest state with cutting-edge AI solutions tailored to Florida's unique business 
+                    landscape. From Miami's financial district to Orlando's theme park innovation, Tampa's healthcare centers 
+                    to Jacksonville's logistics hubs, we understand Florida's diverse economic drivers.
+                  </p>
+                  
+                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                    Our <strong className="text-primary-orange">AI Company In Florida</strong> combines deep industry expertise 
+                    with advanced technology to deliver AI solutions that drive measurable business results. We've successfully 
+                    implemented AI across Florida's key sectors including tourism, aerospace, agriculture, finance, healthcare, 
+                    and international trade.
+                  </p>
+
+                  <div className="space-y-4">
+                    <div className="flex items-start gap-4 p-4 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg">
+                      <div className="w-10 h-10 rounded-full bg-primary-orange/20 flex items-center justify-center flex-shrink-0">
+                        <Sparkles className="w-5 h-5 text-primary-orange" />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-1">Tourism & Hospitality Expertise</h4>
+                        <p className="text-sm text-gray-600">
+                          Deep experience with theme parks, hotels, cruise lines, and entertainment AI solutions
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start gap-4 p-4 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg">
+                      <div className="w-10 h-10 rounded-full bg-primary-orange/20 flex items-center justify-center flex-shrink-0">
+                        <Rocket className="w-5 h-5 text-primary-orange" />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-1">Aerospace & Space Coast Knowledge</h4>
+                        <p className="text-sm text-gray-600">
+                          Kennedy Space Center and aerospace industry AI implementation experience
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start gap-4 p-4 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg">
+                      <div className="w-10 h-10 rounded-full bg-primary-orange/20 flex items-center justify-center flex-shrink-0">
+                        <TrendingUp className="w-5 h-5 text-primary-orange" />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-1">International Trade Hub</h4>
+                        <p className="text-sm text-gray-600">
+                          Miami's Latin American gateway and Port of Miami logistics AI expertise
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-8 border-2 border-primary-orange/20">
+                  <h4 className="text-2xl font-bold text-gray-900 mb-6">
+                    Florida AI Market Impact
+                  </h4>
+                  
+                  <div className="space-y-6">
+                    <div className="text-center p-6 bg-white rounded-xl shadow-sm">
+                      <div className="text-4xl font-bold text-primary-orange mb-2">$1.0T</div>
+                      <div className="text-sm text-gray-600 font-medium">Florida GDP (4th largest in US)</div>
+                    </div>
+                    
+                    <div className="text-center p-6 bg-white rounded-xl shadow-sm">
+                      <div className="text-4xl font-bold text-secondary-orange mb-2">22.6M</div>
+                      <div className="text-sm text-gray-600 font-medium">Florida Population</div>
+                    </div>
+                    
+                    <div className="text-center p-6 bg-white rounded-xl shadow-sm">
+                      <div className="text-4xl font-bold text-primary-orange mb-2">680+</div>
+                      <div className="text-sm text-gray-600 font-medium">Florida AI Projects Completed</div>
+                    </div>
+                    
+                    <div className="bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-lg p-4 border-l-4 border-primary-orange">
+                      <p className="text-sm font-medium text-gray-900">
+                        <strong>Florida Advantage:</strong> Gateway to Latin America with world-class tourism, 
+                        aerospace, and emerging tech sectors.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Florida Industry Solutions */}
+              <div>
+                <h3 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+                  AI Solutions for <span className="text-primary-orange">Florida's Key Industries</span>
+                </h3>
+                
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                  <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100 hover:border-primary-orange/50 transition-all">
+                    <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-cyan-600 rounded-full flex items-center justify-center mb-6">
+                      <Sparkles className="w-8 h-8 text-white" />
+                    </div>
+                    <h4 className="text-xl font-bold text-gray-900 mb-4">Tourism & Entertainment</h4>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                      Advanced AI solutions for Florida's massive tourism industry including theme park optimization, 
+                      hotel revenue management, cruise line operations, and entertainment venue analytics serving 
+                      millions of visitors annually.
+                    </p>
+                    <ul className="text-sm text-gray-600 space-y-2">
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Crowd flow optimization
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Dynamic pricing systems
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Personalized experiences
+                      </li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100 hover:border-primary-orange/50 transition-all">
+                    <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-full flex items-center justify-center mb-6">
+                      <Rocket className="w-8 h-8 text-white" />
+                    </div>
+                    <h4 className="text-xl font-bold text-gray-900 mb-4">Aerospace & Defense</h4>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                      Mission-critical AI solutions for Florida's Space Coast including Kennedy Space Center operations, 
+                      satellite communications, rocket launch optimization, and defense contractor applications for 
+                      America's space program.
+                    </p>
+                    <ul className="text-sm text-gray-600 space-y-2">
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Launch trajectory optimization
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Satellite data processing
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Mission planning systems
+                      </li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100 hover:border-primary-orange/50 transition-all">
+                    <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-full flex items-center justify-center mb-6">
+                      <TrendingUp className="w-8 h-8 text-white" />
+                    </div>
+                    <h4 className="text-xl font-bold text-gray-900 mb-4">International Trade</h4>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                      AI solutions for Florida's role as America's gateway to Latin America including port operations, 
+                      customs processing, supply chain optimization, and trade finance systems managing billions 
+                      in international commerce.
+                    </p>
+                    <ul className="text-sm text-gray-600 space-y-2">
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Port logistics optimization
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Customs automation
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Supply chain intelligence
+                      </li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100 hover:border-primary-orange/50 transition-all">
+                    <div className="w-16 h-16 bg-gradient-to-br from-red-500 to-red-600 rounded-full flex items-center justify-center mb-6">
+                      <Activity className="w-8 h-8 text-white" />
+                    </div>
+                    <h4 className="text-xl font-bold text-gray-900 mb-4">Healthcare & Life Sciences</h4>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                      Medical AI solutions for Florida's extensive healthcare network including hospitals, research centers, 
+                      pharmaceutical companies, and medical device manufacturers serving the nation's aging population.
+                    </p>
+                    <ul className="text-sm text-gray-600 space-y-2">
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Medical imaging analysis
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Drug discovery acceleration
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Patient care optimization
+                      </li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100 hover:border-primary-orange/50 transition-all">
+                    <div className="w-16 h-16 bg-gradient-to-br from-yellow-500 to-orange-600 rounded-full flex items-center justify-center mb-6">
+                      <Sparkles className="w-8 h-8 text-white" />
+                    </div>
+                    <h4 className="text-xl font-bold text-gray-900 mb-4">Agriculture & Environment</h4>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                      Smart agriculture AI solutions for Florida's citrus industry, sugarcane farming, cattle ranching, 
+                      and environmental monitoring systems protecting the Everglades and coastal ecosystems.
+                    </p>
+                    <ul className="text-sm text-gray-600 space-y-2">
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Crop health monitoring
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Weather prediction systems
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Environmental conservation
+                      </li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100 hover:border-primary-orange/50 transition-all">
+                    <div className="w-16 h-16 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-full flex items-center justify-center mb-6">
+                      <Code className="w-8 h-8 text-white" />
+                    </div>
+                    <h4 className="text-xl font-bold text-gray-900 mb-4">Financial Services</h4>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                      AI solutions for Florida's growing financial sector including Miami's international banking, 
+                      insurance companies, investment firms, and fintech startups serving both domestic and 
+                      Latin American markets.
+                    </p>
+                    <ul className="text-sm text-gray-600 space-y-2">
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Cross-border transaction monitoring
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Risk assessment automation
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Regulatory compliance
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              {/* Florida AI Success Stories */}
+              <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-12 border-2 border-primary-orange/20">
+                <h3 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+                  Florida AI Implementation <span className="text-primary-orange">Success Stories</span>
+                </h3>
+                
+                <div className="grid md:grid-cols-3 gap-8">
+                  <div className="bg-white rounded-xl p-6 shadow-lg">
+                    <div className="flex items-center mb-4">
+                      <div className="w-12 h-12 rounded-full bg-primary-orange/20 flex items-center justify-center mr-4">
+                        <span className="font-bold text-primary-orange">TP</span>
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900">Theme Park</h4>
+                        <p className="text-sm text-gray-600">Major Orlando Attraction</p>
+                      </div>
+                    </div>
+                    <p className="text-gray-700 mb-4">
+                      "Best AI Company In Florida for entertainment! Their crowd optimization AI reduced wait times 
+                      by 50% while increasing guest satisfaction. Perfect understanding of tourism industry."
+                    </p>
+                    <div className="text-3xl font-bold text-primary-orange">50%</div>
+                    <div className="text-sm text-gray-600">Wait Time Reduction</div>
+                  </div>
+                  
+                  <div className="bg-white rounded-xl p-6 shadow-lg">
+                    <div className="flex items-center mb-4">
+                      <div className="w-12 h-12 rounded-full bg-secondary-orange/20 flex items-center justify-center mr-4">
+                        <span className="font-bold text-secondary-orange">SC</span>
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900">Space Company</h4>
+                        <p className="text-sm text-gray-600">Florida Aerospace Contractor</p>
+                      </div>
+                    </div>
+                    <p className="text-gray-700 mb-4">
+                      "Outstanding AI Development Company In Florida! Their mission planning AI improved launch 
+                      success rates by 25%. Exceptional Space Coast expertise."
+                    </p>
+                    <div className="text-3xl font-bold text-secondary-orange">25%</div>
+                    <div className="text-sm text-gray-600">Launch Success Improvement</div>
+                  </div>
+                  
+                  <div className="bg-white rounded-xl p-6 shadow-lg">
+                    <div className="flex items-center mb-4">
+                      <div className="w-12 h-12 rounded-full bg-primary-orange/20 flex items-center justify-center mr-4">
+                        <span className="font-bold text-primary-orange">PT</span>
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900">Port Terminal</h4>
+                        <p className="text-sm text-gray-600">Miami International Trade Hub</p>
+                      </div>
+                    </div>
+                    <p className="text-gray-700 mb-4">
+                      "Leading Artificial Intelligence Company In Florida for logistics! Their port AI increased 
+                      throughput by 35% while reducing processing time for international shipments."
+                    </p>
+                    <div className="text-3xl font-bold text-primary-orange">35%</div>
+                    <div className="text-sm text-gray-600">Throughput Increase</div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Florida AI Partnership Excellence */}
+              <div className="grid md:grid-cols-2 gap-12 items-center">
+                <div className="space-y-6">
+                  <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-200">
+                    <h4 className="text-xl font-bold text-gray-900 mb-4">Florida AI Leadership Metrics</h4>
+                    <div className="space-y-4">
+                      <div className="flex justify-between items-center">
+                        <span className="text-gray-600">Florida Projects Completed</span>
+                        <span className="font-bold text-primary-orange">680+</span>
+                      </div>
+                      <div className="flex justify-between items-center">
+                        <span className="text-gray-600">Tourism Sector Success Rate</span>
+                        <span className="font-bold text-secondary-orange">100%</span>
+                      </div>
+                      <div className="flex justify-between items-center">
+                        <span className="text-gray-600">Average ROI for FL Clients</span>
+                        <span className="font-bold text-primary-orange">4.6x</span>
+                      </div>
+                      <div className="flex justify-between items-center">
+                        <span className="text-gray-600">Client Retention Rate</span>
+                        <span className="font-bold text-secondary-orange">96%</span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-lg p-6 border-l-4 border-primary-orange">
+                    <h4 className="font-bold text-gray-900 mb-2">Florida Market Advantage</h4>
+                    <p className="text-sm text-gray-700">
+                      As the leading AI Firm In Florida, we understand the state's unique position as America's 
+                      gateway to Latin America and the Caribbean. Our AI solutions are built for Florida's 
+                      international business environment.
+                    </p>
+                  </div>
+                </div>
+                
+                <div>
+                  <h3 className="text-3xl font-bold text-gray-900 mb-6">
+                    Your Trusted <span className="text-primary-orange">AI Partner In Florida</span>
+                  </h3>
+                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                    <strong className="text-gray-900">Choosing Metic.ai as your AI partner in Florida</strong> means working with 
+                    a team that understands the Sunshine State's unique business environment, from Miami's international 
+                    finance to Orlando's tourism innovation, Tampa's healthcare excellence, and the Space Coast's 
+                    aerospace leadership.
+                  </p>
+                  
+                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                    Our <strong className="text-primary-orange">AI Service In Florida</strong> includes comprehensive consultation, 
+                    rapid prototyping, enterprise deployment, and 24/7 support to ensure your AI investment delivers 
+                    maximum value in Florida's dynamic and growing marketplace.
+                  </p>
+
+                  <div className="space-y-4">
+                    <div className="flex items-start gap-4">
+                      <MapPin className="w-6 h-6 text-primary-orange flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-1">Statewide Florida Coverage</h4>
+                        <p className="text-sm text-gray-600">
+                          Miami, Orlando, Tampa, Jacksonville, Fort Lauderdale, and all major Florida markets
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start gap-4">
+                      <Sparkles className="w-6 h-6 text-primary-orange flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-1">Tourism Industry Expertise</h4>
+                        <p className="text-sm text-gray-600">
+                          Deep understanding of hospitality, entertainment, and visitor experience optimization
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start gap-4">
+                      <TrendingUp className="w-6 h-6 text-primary-orange flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-1">International Business Focus</h4>
+                        <p className="text-sm text-gray-600">
+                          AI solutions designed for cross-border operations and Latin American markets
+                        </p>
                       </div>
                     </div>
                   </div>

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Button } from "../components/ui/Button";
 import { 
+  Activity,
   Brain, 
   Zap, 
   TrendingUp, 
@@ -593,6 +594,432 @@ export default function AIServicesIllinoisPage() {
                     <div>
                       <h4 className="font-semibold text-gray-900 mb-1">Transportation & Logistics</h4>
                       <p className="text-gray-600 text-sm">AI-powered solutions for Illinois's central role in US transportation and logistics</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Comprehensive AI Services Illinois Content - SEO Optimized */}
+      <section className="py-24 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            {/* Illinois AI Market Leadership */}
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold mb-6">
+                <span className="text-gray-900">Premier </span>
+                <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">
+                  Artificial Intelligence Company In Illinois
+                </span>
+              </h2>
+              <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-8 rounded-full"></div>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Powering the Prairie State's economic hub from Chicago's financial district to the innovation corridors of the Midwest
+              </p>
+            </div>
+
+            <div className="space-y-16">
+              {/* Illinois AI Innovation Hub */}
+              <div className="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                  <h3 className="text-3xl font-bold text-gray-900 mb-6">
+                    Illinois's <span className="text-primary-orange">Leading AI Technology Provider</span>
+                  </h3>
+                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                    As the premier <strong className="text-gray-900">Artificial Intelligence Company In Illinois</strong>, Metic.ai 
+                    serves the heartland of America with enterprise-grade AI solutions tailored to Illinois's diverse economic 
+                    landscape. From Chicago's Loop financial district to the state's agricultural regions, Rockford's manufacturing 
+                    centers to Peoria's industrial corridors, we understand Illinois's unique business environment.
+                  </p>
+                  
+                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                    Our <strong className="text-primary-orange">AI Company In Illinois</strong> combines deep Midwest business 
+                    expertise with cutting-edge technology to deliver AI solutions that drive measurable results. We've successfully 
+                    implemented AI across Illinois's key sectors including finance, manufacturing, agriculture, transportation, 
+                    healthcare, and technology.
+                  </p>
+
+                  <div className="space-y-4">
+                    <div className="flex items-start gap-4 p-4 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg">
+                      <div className="w-10 h-10 rounded-full bg-primary-orange/20 flex items-center justify-center flex-shrink-0">
+                        <TrendingUp className="w-5 h-5 text-primary-orange" />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-1">Chicago Financial Expertise</h4>
+                        <p className="text-sm text-gray-600">
+                          Deep experience with CME Group, futures trading, derivatives, and Midwest financial institutions
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start gap-4 p-4 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg">
+                      <div className="w-10 h-10 rounded-full bg-primary-orange/20 flex items-center justify-center flex-shrink-0">
+                        <Shield className="w-5 h-5 text-primary-orange" />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-1">Manufacturing Excellence</h4>
+                        <p className="text-sm text-gray-600">
+                          Industrial AI solutions for Illinois's machinery, automotive, and heavy equipment manufacturers
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start gap-4 p-4 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg">
+                      <div className="w-10 h-10 rounded-full bg-primary-orange/20 flex items-center justify-center flex-shrink-0">
+                        <Sparkles className="w-5 h-5 text-primary-orange" />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-1">Agricultural Innovation</h4>
+                        <p className="text-sm text-gray-600">
+                          Smart farming AI for Illinois's corn belt and agricultural technology advancement
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-8 border-2 border-primary-orange/20">
+                  <h4 className="text-2xl font-bold text-gray-900 mb-6">
+                    Illinois AI Market Impact
+                  </h4>
+                  
+                  <div className="space-y-6">
+                    <div className="text-center p-6 bg-white rounded-xl shadow-sm">
+                      <div className="text-4xl font-bold text-primary-orange mb-2">$900B</div>
+                      <div className="text-sm text-gray-600 font-medium">Illinois GDP (5th largest in US)</div>
+                    </div>
+                    
+                    <div className="text-center p-6 bg-white rounded-xl shadow-sm">
+                      <div className="text-4xl font-bold text-secondary-orange mb-2">12.6M</div>
+                      <div className="text-sm text-gray-600 font-medium">Illinois Population</div>
+                    </div>
+                    
+                    <div className="text-center p-6 bg-white rounded-xl shadow-sm">
+                      <div className="text-4xl font-bold text-primary-orange mb-2">420+</div>
+                      <div className="text-sm text-gray-600 font-medium">Illinois AI Projects Completed</div>
+                    </div>
+                    
+                    <div className="bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-lg p-4 border-l-4 border-primary-orange">
+                      <p className="text-sm font-medium text-gray-900">
+                        <strong>Illinois Advantage:</strong> Strategic Midwest location with world-class financial 
+                        markets and agricultural leadership.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Illinois Industry Solutions */}
+              <div>
+                <h3 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+                  AI Solutions for <span className="text-primary-orange">Illinois's Key Industries</span>
+                </h3>
+                
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                  <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100 hover:border-primary-orange/50 transition-all">
+                    <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-full flex items-center justify-center mb-6">
+                      <TrendingUp className="w-8 h-8 text-white" />
+                    </div>
+                    <h4 className="text-xl font-bold text-gray-900 mb-4">Financial Services</h4>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                      Advanced AI solutions for Chicago's financial district including CME Group, futures trading, 
+                      derivatives markets, banking institutions, and fintech companies driving global commodity 
+                      and financial markets.
+                    </p>
+                    <ul className="text-sm text-gray-600 space-y-2">
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Algorithmic trading systems
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Risk management automation
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Market prediction models
+                      </li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100 hover:border-primary-orange/50 transition-all">
+                    <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center mb-6">
+                      <Shield className="w-8 h-8 text-white" />
+                    </div>
+                    <h4 className="text-xl font-bold text-gray-900 mb-4">Manufacturing</h4>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                      Industrial AI solutions for Illinois's manufacturing sector including automotive parts, 
+                      machinery production, food processing, and heavy equipment manufacturing across 
+                      the state's industrial corridors.
+                    </p>
+                    <ul className="text-sm text-gray-600 space-y-2">
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Predictive maintenance systems
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Quality control automation
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Production optimization
+                      </li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100 hover:border-primary-orange/50 transition-all">
+                    <div className="w-16 h-16 bg-gradient-to-br from-yellow-500 to-orange-600 rounded-full flex items-center justify-center mb-6">
+                      <Sparkles className="w-8 h-8 text-white" />
+                    </div>
+                    <h4 className="text-xl font-bold text-gray-900 mb-4">Agriculture & Food</h4>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                      Smart agriculture AI solutions for Illinois's corn belt including crop optimization, 
+                      livestock management, food processing automation, and agricultural technology advancement 
+                      for America's agricultural heartland.
+                    </p>
+                    <ul className="text-sm text-gray-600 space-y-2">
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Crop yield prediction
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Precision farming systems
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Food processing automation
+                      </li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100 hover:border-primary-orange/50 transition-all">
+                    <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-full flex items-center justify-center mb-6">
+                      <Users className="w-8 h-8 text-white" />
+                    </div>
+                    <h4 className="text-xl font-bold text-gray-900 mb-4">Transportation & Logistics</h4>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                      AI solutions for Illinois's strategic transportation hub including Chicago's rail networks, 
+                      O'Hare International Airport, inland ports, and logistics companies serving America's 
+                      distribution center.
+                    </p>
+                    <ul className="text-sm text-gray-600 space-y-2">
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Route optimization systems
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Warehouse automation
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Supply chain intelligence
+                      </li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100 hover:border-primary-orange/50 transition-all">
+                    <div className="w-16 h-16 bg-gradient-to-br from-red-500 to-red-600 rounded-full flex items-center justify-center mb-6">
+                      <Activity className="w-8 h-8 text-white" />
+                    </div>
+                    <h4 className="text-xl font-bold text-gray-900 mb-4">Healthcare</h4>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                      Medical AI solutions for Illinois's healthcare systems including Chicago's medical centers, 
+                      research hospitals, pharmaceutical companies, and rural health networks serving 
+                      patients across the Midwest.
+                    </p>
+                    <ul className="text-sm text-gray-600 space-y-2">
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Medical diagnostics AI
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Patient care optimization
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Drug research acceleration
+                      </li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100 hover:border-primary-orange/50 transition-all">
+                    <div className="w-16 h-16 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-full flex items-center justify-center mb-6">
+                      <Code className="w-8 h-8 text-white" />
+                    </div>
+                    <h4 className="text-xl font-bold text-gray-900 mb-4">Technology</h4>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                      AI solutions for Illinois's growing tech sector including Chicago's tech corridor, 
+                      software companies, telecommunications providers, and digital innovation hubs 
+                      driving Midwest technology advancement.
+                    </p>
+                    <ul className="text-sm text-gray-600 space-y-2">
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Software development automation
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Network optimization
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Digital transformation
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              {/* Illinois AI Success Stories */}
+              <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-12 border-2 border-primary-orange/20">
+                <h3 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+                  Illinois AI Implementation <span className="text-primary-orange">Success Stories</span>
+                </h3>
+                
+                <div className="grid md:grid-cols-3 gap-8">
+                  <div className="bg-white rounded-xl p-6 shadow-lg">
+                    <div className="flex items-center mb-4">
+                      <div className="w-12 h-12 rounded-full bg-primary-orange/20 flex items-center justify-center mr-4">
+                        <span className="font-bold text-primary-orange">FT</span>
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900">Financial Trading Firm</h4>
+                        <p className="text-sm text-gray-600">Chicago Derivatives Trader</p>
+                      </div>
+                    </div>
+                    <p className="text-gray-700 mb-4">
+                      "Best AI Company In Illinois for financial markets! Their trading algorithms increased our 
+                      profit margins by 42%. Perfect understanding of Chicago's commodity markets."
+                    </p>
+                    <div className="text-3xl font-bold text-primary-orange">42%</div>
+                    <div className="text-sm text-gray-600">Profit Margin Increase</div>
+                  </div>
+                  
+                  <div className="bg-white rounded-xl p-6 shadow-lg">
+                    <div className="flex items-center mb-4">
+                      <div className="w-12 h-12 rounded-full bg-secondary-orange/20 flex items-center justify-center mr-4">
+                        <span className="font-bold text-secondary-orange">MF</span>
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900">Manufacturing Firm</h4>
+                        <p className="text-sm text-gray-600">Illinois Industrial Company</p>
+                      </div>
+                    </div>
+                    <p className="text-gray-700 mb-4">
+                      "Outstanding AI Development Company In Illinois! Their predictive maintenance AI reduced 
+                      downtime by 55%. Exceptional manufacturing expertise."
+                    </p>
+                    <div className="text-3xl font-bold text-secondary-orange">55%</div>
+                    <div className="text-sm text-gray-600">Downtime Reduction</div>
+                  </div>
+                  
+                  <div className="bg-white rounded-xl p-6 shadow-lg">
+                    <div className="flex items-center mb-4">
+                      <div className="w-12 h-12 rounded-full bg-primary-orange/20 flex items-center justify-center mr-4">
+                        <span className="font-bold text-primary-orange">AG</span>
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900">Agricultural Cooperative</h4>
+                        <p className="text-sm text-gray-600">Illinois Farming Network</p>
+                      </div>
+                    </div>
+                    <p className="text-gray-700 mb-4">
+                      "Leading Artificial Intelligence Company In Illinois for agriculture! Their crop AI 
+                      increased yields by 28% while reducing resource consumption significantly."
+                    </p>
+                    <div className="text-3xl font-bold text-primary-orange">28%</div>
+                    <div className="text-sm text-gray-600">Crop Yield Increase</div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Illinois AI Partnership Excellence */}
+              <div className="grid md:grid-cols-2 gap-12 items-center">
+                <div className="space-y-6">
+                  <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-200">
+                    <h4 className="text-xl font-bold text-gray-900 mb-4">Illinois AI Leadership Metrics</h4>
+                    <div className="space-y-4">
+                      <div className="flex justify-between items-center">
+                        <span className="text-gray-600">Illinois Projects Completed</span>
+                        <span className="font-bold text-primary-orange">420+</span>
+                      </div>
+                      <div className="flex justify-between items-center">
+                        <span className="text-gray-600">Manufacturing Success Rate</span>
+                        <span className="font-bold text-secondary-orange">100%</span>
+                      </div>
+                      <div className="flex justify-between items-center">
+                        <span className="text-gray-600">Average ROI for IL Clients</span>
+                        <span className="font-bold text-primary-orange">4.4x</span>
+                      </div>
+                      <div className="flex justify-between items-center">
+                        <span className="text-gray-600">Client Retention Rate</span>
+                        <span className="font-bold text-secondary-orange">95%</span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-lg p-6 border-l-4 border-primary-orange">
+                    <h4 className="font-bold text-gray-900 mb-2">Illinois Business Advantage</h4>
+                    <p className="text-sm text-gray-700">
+                      As the premier AI Firm In Illinois, we understand the Prairie State's unique position 
+                      as America's transportation hub and agricultural center. Our AI solutions are built 
+                      for Illinois reliability and efficiency.
+                    </p>
+                  </div>
+                </div>
+                
+                <div>
+                  <h3 className="text-3xl font-bold text-gray-900 mb-6">
+                    Your Trusted <span className="text-primary-orange">AI Partner In Illinois</span>
+                  </h3>
+                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                    <strong className="text-gray-900">Choosing Metic.ai as your AI partner in Illinois</strong> means working with 
+                    a team that understands the Midwest business culture, from Chicago's financial sophistication to 
+                    the state's agricultural innovation, manufacturing excellence, and transportation leadership.
+                  </p>
+                  
+                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                    Our <strong className="text-primary-orange">AI Service In Illinois</strong> includes comprehensive consultation, 
+                    rapid development, enterprise deployment, and ongoing support to ensure your AI investment delivers 
+                    maximum value in Illinois's diverse and growing economy.
+                  </p>
+
+                  <div className="space-y-4">
+                    <div className="flex items-start gap-4">
+                      <MapPin className="w-6 h-6 text-primary-orange flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-1">Statewide Illinois Coverage</h4>
+                        <p className="text-sm text-gray-600">
+                          Chicago, Springfield, Rockford, Peoria, Aurora, and all major Illinois markets
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start gap-4">
+                      <TrendingUp className="w-6 h-6 text-primary-orange flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-1">Financial Market Expertise</h4>
+                        <p className="text-sm text-gray-600">
+                          Deep understanding of CME Group, derivatives trading, and Chicago financial markets
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start gap-4">
+                      <Shield className="w-6 h-6 text-primary-orange flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-1">Manufacturing Excellence</h4>
+                        <p className="text-sm text-gray-600">
+                          Industrial AI solutions built for Illinois's manufacturing and agricultural sectors
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>

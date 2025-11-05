@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Button } from "../components/ui/Button";
 import { 
+  Activity,
   Brain, 
   Zap, 
   TrendingUp, 
@@ -600,6 +601,253 @@ export default function AIServicesOhioPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-4">Enterprise Security</h3>
                 <p className="text-gray-600">Bank-level security and compliance standards protecting your Ohio business data.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Comprehensive AI Services Ohio Content - SEO Optimized */}
+      <section className="py-24 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold mb-6">
+                <span className="text-gray-900">Leading </span>
+                <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">
+                  Artificial Intelligence Company In Ohio
+                </span>
+              </h2>
+              <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-8 rounded-full"></div>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Powering the Buckeye State's innovation from Columbus's tech corridor to Cleveland's healthcare revolution
+              </p>
+            </div>
+
+            <div className="space-y-16">
+              <div className="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                  <h3 className="text-3xl font-bold text-gray-900 mb-6">
+                    Ohio's <span className="text-primary-orange">Premier AI Technology Partner</span>
+                  </h3>
+                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                    As the leading <strong className="text-gray-900">Artificial Intelligence Company In Ohio</strong>, Metic.ai 
+                    serves America's heartland with enterprise-grade AI solutions. From Columbus's emerging tech scene to 
+                    Cleveland's world-class medical institutions, Cincinnati's corporate headquarters to Akron's manufacturing 
+                    excellence, we understand Ohio's diverse economic landscape.
+                  </p>
+                  
+                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                    Our <strong className="text-primary-orange">AI Company In Ohio</strong> delivers measurable results across 
+                    healthcare, manufacturing, finance, agriculture, and technology sectors throughout the Buckeye State.
+                  </p>
+                </div>
+                
+                <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-8 border-2 border-primary-orange/20">
+                  <h4 className="text-2xl font-bold text-gray-900 mb-6">Ohio AI Impact</h4>
+                  <div className="space-y-6">
+                    <div className="text-center p-6 bg-white rounded-xl shadow-sm">
+                      <div className="text-4xl font-bold text-primary-orange mb-2">$800B</div>
+                      <div className="text-sm text-gray-600 font-medium">Ohio GDP (7th largest in US)</div>
+                    </div>
+                    <div className="text-center p-6 bg-white rounded-xl shadow-sm">
+                      <div className="text-4xl font-bold text-primary-orange mb-2">340+</div>
+                      <div className="text-sm text-gray-600 font-medium">Ohio AI Projects Completed</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <h3 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+                  AI Solutions for <span className="text-primary-orange">Ohio's Key Industries</span>
+                </h3>
+                
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                  <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100 hover:border-primary-orange/50 transition-all">
+                    <div className="w-16 h-16 bg-gradient-to-br from-red-500 to-red-600 rounded-full flex items-center justify-center mb-6">
+                      <Activity className="w-8 h-8 text-white" />
+                    </div>
+                    <h4 className="text-xl font-bold text-gray-900 mb-4">Healthcare</h4>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                      Advanced AI solutions for Ohio's world-renowned healthcare systems including Cleveland Clinic, 
+                      Cincinnati Children's Hospital, and Ohio State medical centers leading medical innovation.
+                    </p>
+                    <ul className="text-sm text-gray-600 space-y-2">
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Medical diagnostics AI
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Patient care optimization
+                      </li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100 hover:border-primary-orange/50 transition-all">
+                    <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center mb-6">
+                      <Shield className="w-8 h-8 text-white" />
+                    </div>
+                    <h4 className="text-xl font-bold text-gray-900 mb-4">Manufacturing</h4>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                      Industrial AI solutions for Ohio's manufacturing sector including automotive, steel, and 
+                      advanced materials production driving industrial excellence across the state.
+                    </p>
+                    <ul className="text-sm text-gray-600 space-y-2">
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Predictive maintenance
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Quality control automation
+                      </li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100 hover:border-primary-orange/50 transition-all">
+                    <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-full flex items-center justify-center mb-6">
+                      <TrendingUp className="w-8 h-8 text-white" />
+                    </div>
+                    <h4 className="text-xl font-bold text-gray-900 mb-4">Financial Services</h4>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                      AI solutions for Ohio's financial institutions and insurance companies driving innovation 
+                      in risk management, customer service, and operational efficiency.
+                    </p>
+                    <ul className="text-sm text-gray-600 space-y-2">
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Fraud detection systems
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Risk assessment
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-12 border-2 border-primary-orange/20">
+                <h3 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+                  Ohio AI <span className="text-primary-orange">Success Stories</span>
+                </h3>
+                
+                <div className="grid md:grid-cols-3 gap-8">
+                  <div className="bg-white rounded-xl p-6 shadow-lg">
+                    <div className="flex items-center mb-4">
+                      <div className="w-12 h-12 rounded-full bg-primary-orange/20 flex items-center justify-center mr-4">
+                        <span className="font-bold text-primary-orange">HC</span>
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900">Healthcare Center</h4>
+                        <p className="text-sm text-gray-600">Cleveland Medical Institution</p>
+                      </div>
+                    </div>
+                    <p className="text-gray-700 mb-4">
+                      "Best AI Company In Ohio for healthcare! Their diagnostic AI improved accuracy by 40%. 
+                      Exceptional medical industry expertise."
+                    </p>
+                    <div className="text-3xl font-bold text-primary-orange">40%</div>
+                    <div className="text-sm text-gray-600">Diagnostic Accuracy Improvement</div>
+                  </div>
+                  
+                  <div className="bg-white rounded-xl p-6 shadow-lg">
+                    <div className="flex items-center mb-4">
+                      <div className="w-12 h-12 rounded-full bg-secondary-orange/20 flex items-center justify-center mr-4">
+                        <span className="font-bold text-secondary-orange">MF</span>
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900">Manufacturing Firm</h4>
+                        <p className="text-sm text-gray-600">Ohio Industrial Leader</p>
+                      </div>
+                    </div>
+                    <p className="text-gray-700 mb-4">
+                      "Outstanding AI Development Company In Ohio! Their predictive maintenance AI reduced 
+                      downtime by 48%. Perfect manufacturing expertise."
+                    </p>
+                    <div className="text-3xl font-bold text-secondary-orange">48%</div>
+                    <div className="text-sm text-gray-600">Downtime Reduction</div>
+                  </div>
+                  
+                  <div className="bg-white rounded-xl p-6 shadow-lg">
+                    <div className="flex items-center mb-4">
+                      <div className="w-12 h-12 rounded-full bg-primary-orange/20 flex items-center justify-center mr-4">
+                        <span className="font-bold text-primary-orange">FS</span>
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900">Financial Services</h4>
+                        <p className="text-sm text-gray-600">Ohio Banking Leader</p>
+                      </div>
+                    </div>
+                    <p className="text-gray-700 mb-4">
+                      "Leading Artificial Intelligence Company In Ohio for finance! Their fraud detection AI 
+                      prevented millions in losses while improving customer experience."
+                    </p>
+                    <div className="text-3xl font-bold text-primary-orange">95%</div>
+                    <div className="text-sm text-gray-600">Fraud Detection Accuracy</div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="grid md:grid-cols-2 gap-12 items-center">
+                <div className="space-y-6">
+                  <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-200">
+                    <h4 className="text-xl font-bold text-gray-900 mb-4">Ohio AI Leadership Metrics</h4>
+                    <div className="space-y-4">
+                      <div className="flex justify-between items-center">
+                        <span className="text-gray-600">Ohio Projects Completed</span>
+                        <span className="font-bold text-primary-orange">340+</span>
+                      </div>
+                      <div className="flex justify-between items-center">
+                        <span className="text-gray-600">Healthcare Success Rate</span>
+                        <span className="font-bold text-secondary-orange">100%</span>
+                      </div>
+                      <div className="flex justify-between items-center">
+                        <span className="text-gray-600">Average ROI for OH Clients</span>
+                        <span className="font-bold text-primary-orange">4.3x</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div>
+                  <h3 className="text-3xl font-bold text-gray-900 mb-6">
+                    Your Trusted <span className="text-primary-orange">AI Partner In Ohio</span>
+                  </h3>
+                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                    <strong className="text-gray-900">Choosing Metic.ai as your AI partner in Ohio</strong> means working with 
+                    a team that understands the Buckeye State's business culture and industrial excellence.
+                  </p>
+                  
+                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                    Our <strong className="text-primary-orange">AI Service In Ohio</strong> delivers comprehensive solutions 
+                    designed for Ohio's diverse economy and growing technology sector.
+                  </p>
+
+                  <div className="space-y-4">
+                    <div className="flex items-start gap-4">
+                      <MapPin className="w-6 h-6 text-primary-orange flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-1">Statewide Ohio Coverage</h4>
+                        <p className="text-sm text-gray-600">
+                          Columbus, Cleveland, Cincinnati, Toledo, Akron, and all major Ohio markets
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start gap-4">
+                      <Activity className="w-6 h-6 text-primary-orange flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-1">Healthcare Excellence</h4>
+                        <p className="text-sm text-gray-600">
+                          Deep understanding of Ohio's world-class medical institutions and healthcare innovation
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

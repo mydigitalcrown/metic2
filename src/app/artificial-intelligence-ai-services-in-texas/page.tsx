@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Button } from "../components/ui/Button";
 import { 
+  Activity,
   Brain, 
   Zap, 
   TrendingUp, 
@@ -516,6 +517,431 @@ export default function AIServicesTexasPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-4">Enterprise Security</h3>
                 <p className="text-gray-600">Bank-level security and compliance standards protecting your Texas business data.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Comprehensive AI Services Texas Content - SEO Optimized */}
+      <section className="py-24 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            {/* Texas AI Market Leadership */}
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold mb-6">
+                <span className="text-gray-900">Leading </span>
+                <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">
+                  Artificial Intelligence Company In Texas
+                </span>
+              </h2>
+              <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-8 rounded-full"></div>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Powering the Lone Star State's innovation economy from Austin's tech corridor to Houston's energy sector
+              </p>
+            </div>
+
+            <div className="space-y-16">
+              {/* Texas AI Innovation Hub */}
+              <div className="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                  <h3 className="text-3xl font-bold text-gray-900 mb-6">
+                    Texas's <span className="text-primary-orange">Premier AI Technology Partner</span>
+                  </h3>
+                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                    As the leading <strong className="text-gray-900">Artificial Intelligence Company In Texas</strong>, Metic.ai 
+                    serves the nation's second-largest state with enterprise-grade AI solutions tailored to Texas's unique 
+                    business landscape. From Austin's Silicon Hills to Houston's Energy Corridor, Dallas's financial district 
+                    to San Antonio's military technology sector, we understand Texas's diverse economy.
+                  </p>
+                  
+                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                    Our <strong className="text-primary-orange">AI Company In Texas</strong> combines deep industry expertise 
+                    with cutting-edge technology to deliver AI solutions that drive real business outcomes. We've successfully 
+                    implemented AI across Texas's key sectors including energy, technology, healthcare, aerospace, agriculture, 
+                    and financial services.
+                  </p>
+
+                  <div className="space-y-4">
+                    <div className="flex items-start gap-4 p-4 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg">
+                      <div className="w-10 h-10 rounded-full bg-primary-orange/20 flex items-center justify-center flex-shrink-0">
+                        <Zap className="w-5 h-5 text-primary-orange" />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-1">Energy Sector Expertise</h4>
+                        <p className="text-sm text-gray-600">
+                          Deep expertise in oil & gas, renewable energy, and power grid optimization AI solutions
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start gap-4 p-4 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg">
+                      <div className="w-10 h-10 rounded-full bg-primary-orange/20 flex items-center justify-center flex-shrink-0">
+                        <Code className="w-5 h-5 text-primary-orange" />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-1">Austin Tech Hub Knowledge</h4>
+                        <p className="text-sm text-gray-600">
+                          Silicon Hills expertise serving Dell, IBM, Oracle, and hundreds of Texas tech companies
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start gap-4 p-4 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg">
+                      <div className="w-10 h-10 rounded-full bg-primary-orange/20 flex items-center justify-center flex-shrink-0">
+                        <Target className="w-5 h-5 text-primary-orange" />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-1">Dallas-Fort Worth Business Acumen</h4>
+                        <p className="text-sm text-gray-600">
+                          Major corporate headquarters and financial services AI implementation experience
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-8 border-2 border-primary-orange/20">
+                  <h4 className="text-2xl font-bold text-gray-900 mb-6">
+                    Texas AI Market Leadership
+                  </h4>
+                  
+                  <div className="space-y-6">
+                    <div className="text-center p-6 bg-white rounded-xl shadow-sm">
+                      <div className="text-4xl font-bold text-primary-orange mb-2">$2.4T</div>
+                      <div className="text-sm text-gray-600 font-medium">Texas GDP (2nd largest in US)</div>
+                    </div>
+                    
+                    <div className="text-center p-6 bg-white rounded-xl shadow-sm">
+                      <div className="text-4xl font-bold text-secondary-orange mb-2">30M</div>
+                      <div className="text-sm text-gray-600 font-medium">Texas Population</div>
+                    </div>
+                    
+                    <div className="text-center p-6 bg-white rounded-xl shadow-sm">
+                      <div className="text-4xl font-bold text-primary-orange mb-2">750+</div>
+                      <div className="text-sm text-gray-600 font-medium">Texas AI Projects Completed</div>
+                    </div>
+                    
+                    <div className="bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-lg p-4 border-l-4 border-primary-orange">
+                      <p className="text-sm font-medium text-gray-900">
+                        <strong>Texas Advantage:</strong> Nation's #2 economy with leading positions in energy, 
+                        technology, aerospace, and agriculture.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Texas Industry Solutions */}
+              <div>
+                <h3 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+                  AI Solutions for <span className="text-primary-orange">Texas's Major Industries</span>
+                </h3>
+                
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                  <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100 hover:border-primary-orange/50 transition-all">
+                    <div className="w-16 h-16 bg-gradient-to-br from-amber-500 to-orange-600 rounded-full flex items-center justify-center mb-6">
+                      <Zap className="w-8 h-8 text-white" />
+                    </div>
+                    <h4 className="text-xl font-bold text-gray-900 mb-4">Energy & Oil Sector</h4>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                      Advanced AI solutions for Texas's massive energy sector including oil & gas exploration, 
+                      renewable energy optimization, smart grid management, and predictive maintenance for 
+                      refineries and power plants across the state.
+                    </p>
+                    <ul className="text-sm text-gray-600 space-y-2">
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Drilling optimization algorithms
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Wind/solar energy forecasting
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Pipeline monitoring systems
+                      </li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100 hover:border-primary-orange/50 transition-all">
+                    <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center mb-6">
+                      <Code className="w-8 h-8 text-white" />
+                    </div>
+                    <h4 className="text-xl font-bold text-gray-900 mb-4">Austin Technology</h4>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                      Silicon Hills AI solutions for Austin's thriving tech ecosystem including semiconductors, 
+                      software companies, gaming studios, and hardware manufacturers driving innovation in 
+                      America's fastest-growing tech hub.
+                    </p>
+                    <ul className="text-sm text-gray-600 space-y-2">
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Chip design optimization
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Software testing automation
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Game AI development
+                      </li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100 hover:border-primary-orange/50 transition-all">
+                    <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-full flex items-center justify-center mb-6">
+                      <TrendingUp className="w-8 h-8 text-white" />
+                    </div>
+                    <h4 className="text-xl font-bold text-gray-900 mb-4">Financial Services</h4>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                      AI solutions for Dallas-Fort Worth's major financial institutions including banks, 
+                      insurance companies, investment firms, and fintech startups revolutionizing Texas's 
+                      financial services landscape.
+                    </p>
+                    <ul className="text-sm text-gray-600 space-y-2">
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Fraud detection systems
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Credit risk assessment
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Insurance claims processing
+                      </li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100 hover:border-primary-orange/50 transition-all">
+                    <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-full flex items-center justify-center mb-6">
+                      <Rocket className="w-8 h-8 text-white" />
+                    </div>
+                    <h4 className="text-xl font-bold text-gray-900 mb-4">Aerospace & Defense</h4>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                      Mission-critical AI solutions for Texas's aerospace and defense contractors including 
+                      NASA Johnson Space Center, military contractors, and private space companies leading 
+                      America's space exploration efforts.
+                    </p>
+                    <ul className="text-sm text-gray-600 space-y-2">
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Flight path optimization
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Satellite data analysis
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Predictive maintenance
+                      </li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100 hover:border-primary-orange/50 transition-all">
+                    <div className="w-16 h-16 bg-gradient-to-br from-red-500 to-red-600 rounded-full flex items-center justify-center mb-6">
+                      <Activity className="w-8 h-8 text-white" />
+                    </div>
+                    <h4 className="text-xl font-bold text-gray-900 mb-4">Healthcare</h4>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                      Medical AI solutions for Texas's world-class medical centers including Houston's Medical Center, 
+                      Dallas healthcare systems, and rural health networks improving patient outcomes across the state.
+                    </p>
+                    <ul className="text-sm text-gray-600 space-y-2">
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Medical imaging analysis
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Drug discovery acceleration
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Patient care optimization
+                      </li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100 hover:border-primary-orange/50 transition-all">
+                    <div className="w-16 h-16 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-full flex items-center justify-center mb-6">
+                      <Sparkles className="w-8 h-8 text-white" />
+                    </div>
+                    <h4 className="text-xl font-bold text-gray-900 mb-4">Agriculture & Livestock</h4>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                      Smart agriculture AI solutions for Texas's vast agricultural sector including crop optimization, 
+                      livestock monitoring, weather prediction, and precision farming technologies driving efficiency 
+                      across millions of acres.
+                    </p>
+                    <ul className="text-sm text-gray-600 space-y-2">
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Crop yield prediction
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Livestock health monitoring
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Precision irrigation systems
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              {/* Texas AI Success Stories */}
+              <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-12 border-2 border-primary-orange/20">
+                <h3 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+                  Texas AI Implementation <span className="text-primary-orange">Success Stories</span>
+                </h3>
+                
+                <div className="grid md:grid-cols-3 gap-8">
+                  <div className="bg-white rounded-xl p-6 shadow-lg">
+                    <div className="flex items-center mb-4">
+                      <div className="w-12 h-12 rounded-full bg-primary-orange/20 flex items-center justify-center mr-4">
+                        <span className="font-bold text-primary-orange">EC</span>
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900">Energy Company</h4>
+                        <p className="text-sm text-gray-600">Major Texas Oil Producer</p>
+                      </div>
+                    </div>
+                    <p className="text-gray-700 mb-4">
+                      "Outstanding AI Development Company In Texas! Their drilling optimization AI increased our 
+                      production efficiency by 40%. Perfect partner for energy sector AI."
+                    </p>
+                    <div className="text-3xl font-bold text-primary-orange">40%</div>
+                    <div className="text-sm text-gray-600">Production Efficiency Boost</div>
+                  </div>
+                  
+                  <div className="bg-white rounded-xl p-6 shadow-lg">
+                    <div className="flex items-center mb-4">
+                      <div className="w-12 h-12 rounded-full bg-secondary-orange/20 flex items-center justify-center mr-4">
+                        <span className="font-bold text-secondary-orange">AT</span>
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900">Austin Tech Firm</h4>
+                        <p className="text-sm text-gray-600">Silicon Hills Software Company</p>
+                      </div>
+                    </div>
+                    <p className="text-gray-700 mb-4">
+                      "Best AI Company In Texas for tech startups! Their product AI features increased user 
+                      engagement by 65%. Exceptional Austin market knowledge."
+                    </p>
+                    <div className="text-3xl font-bold text-secondary-orange">65%</div>
+                    <div className="text-sm text-gray-600">User Engagement Increase</div>
+                  </div>
+                  
+                  <div className="bg-white rounded-xl p-6 shadow-lg">
+                    <div className="flex items-center mb-4">
+                      <div className="w-12 h-12 rounded-full bg-primary-orange/20 flex items-center justify-center mr-4">
+                        <span className="font-bold text-primary-orange">HS</span>
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900">Healthcare System</h4>
+                        <p className="text-sm text-gray-600">Houston Medical Center</p>
+                      </div>
+                    </div>
+                    <p className="text-gray-700 mb-4">
+                      "Leading Artificial Intelligence Company In Texas for healthcare! Their diagnostic AI 
+                      improved accuracy by 30% while reducing diagnosis time significantly."
+                    </p>
+                    <div className="text-3xl font-bold text-primary-orange">30%</div>
+                    <div className="text-sm text-gray-600">Diagnostic Accuracy Improvement</div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Texas AI Partnership Excellence */}
+              <div className="grid md:grid-cols-2 gap-12 items-center">
+                <div className="space-y-6">
+                  <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-200">
+                    <h4 className="text-xl font-bold text-gray-900 mb-4">Texas AI Leadership Metrics</h4>
+                    <div className="space-y-4">
+                      <div className="flex justify-between items-center">
+                        <span className="text-gray-600">Texas Projects Completed</span>
+                        <span className="font-bold text-primary-orange">750+</span>
+                      </div>
+                      <div className="flex justify-between items-center">
+                        <span className="text-gray-600">Energy Sector Success Rate</span>
+                        <span className="font-bold text-secondary-orange">100%</span>
+                      </div>
+                      <div className="flex justify-between items-center">
+                        <span className="text-gray-600">Average ROI for TX Clients</span>
+                        <span className="font-bold text-primary-orange">4.8x</span>
+                      </div>
+                      <div className="flex justify-between items-center">
+                        <span className="text-gray-600">Client Retention Rate</span>
+                        <span className="font-bold text-secondary-orange">97%</span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-lg p-6 border-l-4 border-primary-orange">
+                    <h4 className="font-bold text-gray-900 mb-2">Texas Business Advantage</h4>
+                    <p className="text-sm text-gray-700">
+                      As the premier AI Firm In Texas, we understand the unique opportunities and challenges 
+                      of the Lone Star State's diverse economy. Our AI solutions are built for Texas scale 
+                      and Texas ambition.
+                    </p>
+                  </div>
+                </div>
+                
+                <div>
+                  <h3 className="text-3xl font-bold text-gray-900 mb-6">
+                    Your Trusted <span className="text-primary-orange">AI Partner In Texas</span>
+                  </h3>
+                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                    <strong className="text-gray-900">Choosing Metic.ai as your AI partner in Texas</strong> means working with 
+                    a team that understands the state's unique business culture, from Austin's innovative spirit to Houston's 
+                    engineering excellence, Dallas's corporate leadership, and San Antonio's military precision.
+                  </p>
+                  
+                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                    Our <strong className="text-primary-orange">AI Service In Texas</strong> includes comprehensive consultation, 
+                    rapid prototype development, enterprise-scale deployment, and ongoing optimization to ensure your AI 
+                    investment delivers maximum value across Texas's competitive landscape.
+                  </p>
+
+                  <div className="space-y-4">
+                    <div className="flex items-start gap-4">
+                      <MapPin className="w-6 h-6 text-primary-orange flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-1">Statewide Texas Coverage</h4>
+                        <p className="text-sm text-gray-600">
+                          Austin, Houston, Dallas, San Antonio, Fort Worth, El Paso, and all major Texas markets
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start gap-4">
+                      <Zap className="w-6 h-6 text-primary-orange flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-1">Energy Sector Expertise</h4>
+                        <p className="text-sm text-gray-600">
+                          Deep understanding of oil & gas, renewable energy, and power generation AI requirements
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start gap-4">
+                      <Target className="w-6 h-6 text-primary-orange flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-1">Texas Scale Solutions</h4>
+                        <p className="text-sm text-gray-600">
+                          AI solutions built for Texas-sized operations and ambitious growth targets
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

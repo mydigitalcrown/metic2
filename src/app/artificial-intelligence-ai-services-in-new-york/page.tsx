@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Button } from "../components/ui/Button";
 import { 
+  Activity,
   Brain, 
   Zap, 
   TrendingUp, 
@@ -485,6 +486,425 @@ export default function AIServicesNewYorkPage() {
                   <h3 className="font-medium text-gray-800">{industry}</h3>
                 </div>
               ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Comprehensive AI Services New York Content - SEO Optimized */}
+      <section className="py-24 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            {/* New York AI Market Leadership */}
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold mb-6">
+                <span className="text-gray-900">Premier </span>
+                <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">
+                  Artificial Intelligence Company In New York
+                </span>
+              </h2>
+              <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-8 rounded-full"></div>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Powering New York's financial capital and innovation hub with cutting-edge AI solutions from Wall Street to Silicon Alley
+              </p>
+            </div>
+
+            <div className="space-y-16">
+              {/* New York AI Innovation Hub */}
+              <div className="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                  <h3 className="text-3xl font-bold text-gray-900 mb-6">
+                    New York's <span className="text-primary-orange">AI Technology Leader</span>
+                  </h3>
+                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                    As the premier <strong className="text-gray-900">Artificial Intelligence Company In New York</strong>, Metic.ai 
+                    serves the financial capital of the world with enterprise-grade AI solutions. From Wall Street trading floors 
+                    to Manhattan startups, Brooklyn tech hubs to Albany government offices, we understand New York's unique 
+                    business environment and regulatory requirements.
+                  </p>
+                  
+                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                    Our <strong className="text-primary-orange">AI Company In New York</strong> combines deep financial industry 
+                    expertise with cutting-edge technology to deliver AI solutions that drive measurable results. We've successfully 
+                    implemented AI across New York's diverse sectors including finance, media, real estate, healthcare, and technology.
+                  </p>
+
+                  <div className="space-y-4">
+                    <div className="flex items-start gap-4 p-4 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg">
+                      <div className="w-10 h-10 rounded-full bg-primary-orange/20 flex items-center justify-center flex-shrink-0">
+                        <TrendingUp className="w-5 h-5 text-primary-orange" />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-1">Wall Street Expertise</h4>
+                        <p className="text-sm text-gray-600">
+                          Deep financial AI experience with trading algorithms, risk management, and regulatory compliance
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start gap-4 p-4 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg">
+                      <div className="w-10 h-10 rounded-full bg-primary-orange/20 flex items-center justify-center flex-shrink-0">
+                        <Users className="w-5 h-5 text-primary-orange" />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-1">NYC Market Knowledge</h4>
+                        <p className="text-sm text-gray-600">
+                          Manhattan, Brooklyn, Queens, Bronx, and Staten Island business ecosystem expertise
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start gap-4 p-4 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg">
+                      <div className="w-10 h-10 rounded-full bg-primary-orange/20 flex items-center justify-center flex-shrink-0">
+                        <Shield className="w-5 h-5 text-primary-orange" />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-1">Financial Compliance</h4>
+                        <p className="text-sm text-gray-600">
+                          Expert understanding of SEC, FINRA, and New York State financial regulations
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-8 border-2 border-primary-orange/20">
+                  <h4 className="text-2xl font-bold text-gray-900 mb-6">
+                    New York AI Market Impact
+                  </h4>
+                  
+                  <div className="space-y-6">
+                    <div className="text-center p-6 bg-white rounded-xl shadow-sm">
+                      <div className="text-4xl font-bold text-primary-orange mb-2">$2.4T</div>
+                      <div className="text-sm text-gray-600 font-medium">NY State GDP (3rd largest in US)</div>
+                    </div>
+                    
+                    <div className="text-center p-6 bg-white rounded-xl shadow-sm">
+                      <div className="text-4xl font-bold text-secondary-orange mb-2">8.3M</div>
+                      <div className="text-sm text-gray-600 font-medium">NYC Population</div>
+                    </div>
+                    
+                    <div className="text-center p-6 bg-white rounded-xl shadow-sm">
+                      <div className="text-4xl font-bold text-primary-orange mb-2">500+</div>
+                      <div className="text-sm text-gray-600 font-medium">NY AI Projects Completed</div>
+                    </div>
+                    
+                    <div className="bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-lg p-4 border-l-4 border-primary-orange">
+                      <p className="text-sm font-medium text-gray-900">
+                        <strong>New York Advantage:</strong> Access to world's largest financial markets and 
+                        concentration of Fortune 500 headquarters.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* New York Industry Solutions */}
+              <div>
+                <h3 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+                  AI Solutions for <span className="text-primary-orange">New York's Key Industries</span>
+                </h3>
+                
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                  <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100 hover:border-primary-orange/50 transition-all">
+                    <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-full flex items-center justify-center mb-6">
+                      <TrendingUp className="w-8 h-8 text-white" />
+                    </div>
+                    <h4 className="text-xl font-bold text-gray-900 mb-4">Wall Street Finance</h4>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                      Advanced AI solutions for New York's financial district including algorithmic trading, risk assessment, 
+                      fraud detection, and regulatory compliance for banks, hedge funds, and investment firms.
+                    </p>
+                    <ul className="text-sm text-gray-600 space-y-2">
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        High-frequency trading algorithms
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Real-time fraud detection
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Portfolio optimization
+                      </li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100 hover:border-primary-orange/50 transition-all">
+                    <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center mb-6">
+                      <Sparkles className="w-8 h-8 text-white" />
+                    </div>
+                    <h4 className="text-xl font-bold text-gray-900 mb-4">Media & Entertainment</h4>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                      AI-powered content creation, audience analytics, and distribution optimization for New York's 
+                      media giants, streaming platforms, advertising agencies, and content creators.
+                    </p>
+                    <ul className="text-sm text-gray-600 space-y-2">
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Content recommendation systems
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Automated video editing
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Audience sentiment analysis
+                      </li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100 hover:border-primary-orange/50 transition-all">
+                    <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-full flex items-center justify-center mb-6">
+                      <Code className="w-8 h-8 text-white" />
+                    </div>
+                    <h4 className="text-xl font-bold text-gray-900 mb-4">NYC Technology</h4>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                      Silicon Alley AI solutions for New York's thriving tech scene including startups, scale-ups, 
+                      and established technology companies building the future of digital innovation.
+                    </p>
+                    <ul className="text-sm text-gray-600 space-y-2">
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Product intelligence platforms
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        User behavior analytics
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        AI-powered features
+                      </li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100 hover:border-primary-orange/50 transition-all">
+                    <div className="w-16 h-16 bg-gradient-to-br from-red-500 to-red-600 rounded-full flex items-center justify-center mb-6">
+                      <Target className="w-8 h-8 text-white" />
+                    </div>
+                    <h4 className="text-xl font-bold text-gray-900 mb-4">Real Estate</h4>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                      AI solutions for New York's massive real estate market including property valuation, 
+                      market analysis, customer matching, and investment optimization for the most complex market in the world.
+                    </p>
+                    <ul className="text-sm text-gray-600 space-y-2">
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Automated property valuation
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Market trend prediction
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Investment opportunity analysis
+                      </li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100 hover:border-primary-orange/50 transition-all">
+                    <div className="w-16 h-16 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-full flex items-center justify-center mb-6">
+                      <Activity className="w-8 h-8 text-white" />
+                    </div>
+                    <h4 className="text-xl font-bold text-gray-900 mb-4">Healthcare</h4>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                      Medical AI solutions for New York's world-renowned hospitals and healthcare systems including 
+                      diagnostic assistance, patient care optimization, and medical research acceleration.
+                    </p>
+                    <ul className="text-sm text-gray-600 space-y-2">
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Medical image analysis
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Patient outcome prediction
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Drug discovery support
+                      </li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100 hover:border-primary-orange/50 transition-all">
+                    <div className="w-16 h-16 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-full flex items-center justify-center mb-6">
+                      <Users className="w-8 h-8 text-white" />
+                    </div>
+                    <h4 className="text-xl font-bold text-gray-900 mb-4">Retail & E-commerce</h4>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                      AI-powered retail solutions for New York's fashion, luxury goods, and e-commerce sectors including 
+                      personalization, inventory optimization, and customer experience enhancement.
+                    </p>
+                    <ul className="text-sm text-gray-600 space-y-2">
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Personalized recommendations
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Dynamic pricing optimization
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary-orange" />
+                        Customer journey mapping
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              {/* New York AI Success Stories */}
+              <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-12 border-2 border-primary-orange/20">
+                <h3 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+                  New York AI Implementation <span className="text-primary-orange">Success Stories</span>
+                </h3>
+                
+                <div className="grid md:grid-cols-3 gap-8">
+                  <div className="bg-white rounded-xl p-6 shadow-lg">
+                    <div className="flex items-center mb-4">
+                      <div className="w-12 h-12 rounded-full bg-primary-orange/20 flex items-center justify-center mr-4">
+                        <span className="font-bold text-primary-orange">WS</span>
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900">Wall Street Bank</h4>
+                        <p className="text-sm text-gray-600">Major Investment Bank</p>
+                      </div>
+                    </div>
+                    <p className="text-gray-700 mb-4">
+                      "Metic.ai's AI trading algorithms increased our alpha generation by 35%. Best AI Company In New York 
+                      for financial services. Their Wall Street expertise is unmatched."
+                    </p>
+                    <div className="text-3xl font-bold text-primary-orange">35%</div>
+                    <div className="text-sm text-gray-600">Alpha Generation Increase</div>
+                  </div>
+                  
+                  <div className="bg-white rounded-xl p-6 shadow-lg">
+                    <div className="flex items-center mb-4">
+                      <div className="w-12 h-12 rounded-full bg-secondary-orange/20 flex items-center justify-center mr-4">
+                        <span className="font-bold text-secondary-orange">ME</span>
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900">Media Giant</h4>
+                        <p className="text-sm text-gray-600">Global Entertainment Company</p>
+                      </div>
+                    </div>
+                    <p className="text-gray-700 mb-4">
+                      "This Artificial Intelligence Company In New York revolutionized our content strategy. 
+                      45% increase in viewer engagement across all our streaming platforms."
+                    </p>
+                    <div className="text-3xl font-bold text-secondary-orange">45%</div>
+                    <div className="text-sm text-gray-600">Viewer Engagement Boost</div>
+                  </div>
+                  
+                  <div className="bg-white rounded-xl p-6 shadow-lg">
+                    <div className="flex items-center mb-4">
+                      <div className="w-12 h-12 rounded-full bg-primary-orange/20 flex items-center justify-center mr-4">
+                        <span className="font-bold text-primary-orange">RE</span>
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900">Real Estate Firm</h4>
+                        <p className="text-sm text-gray-600">Manhattan Property Leader</p>
+                      </div>
+                    </div>
+                    <p className="text-gray-700 mb-4">
+                      "Outstanding AI Development Company In New York! Their property valuation AI reduced 
+                      appraisal time by 70% while improving accuracy significantly."
+                    </p>
+                    <div className="text-3xl font-bold text-primary-orange">70%</div>
+                    <div className="text-sm text-gray-600">Faster Valuations</div>
+                  </div>
+                </div>
+              </div>
+
+              {/* New York AI Partnership Excellence */}
+              <div className="grid md:grid-cols-2 gap-12 items-center">
+                <div className="space-y-6">
+                  <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-200">
+                    <h4 className="text-xl font-bold text-gray-900 mb-4">New York AI Leadership</h4>
+                    <div className="space-y-4">
+                      <div className="flex justify-between items-center">
+                        <span className="text-gray-600">NYC Projects Completed</span>
+                        <span className="font-bold text-primary-orange">500+</span>
+                      </div>
+                      <div className="flex justify-between items-center">
+                        <span className="text-gray-600">Wall Street Success Rate</span>
+                        <span className="font-bold text-secondary-orange">100%</span>
+                      </div>
+                      <div className="flex justify-between items-center">
+                        <span className="text-gray-600">Average ROI for NY Clients</span>
+                        <span className="font-bold text-primary-orange">5.2x</span>
+                      </div>
+                      <div className="flex justify-between items-center">
+                        <span className="text-gray-600">Client Retention Rate</span>
+                        <span className="font-bold text-secondary-orange">98%</span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-lg p-6 border-l-4 border-primary-orange">
+                    <h4 className="font-bold text-gray-900 mb-2">New York Advantage</h4>
+                    <p className="text-sm text-gray-700">
+                      As the leading AI Firm In New York, we understand the fast-paced, high-stakes environment 
+                      of NYC business. Our AI solutions are built for the speed and scale required in America's 
+                      most competitive market.
+                    </p>
+                  </div>
+                </div>
+                
+                <div>
+                  <h3 className="text-3xl font-bold text-gray-900 mb-6">
+                    Your Trusted <span className="text-primary-orange">AI Partner In New York</span>
+                  </h3>
+                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                    <strong className="text-gray-900">Choosing Metic.ai as your AI partner in New York</strong> means working with 
+                    a team that understands both the opportunities and challenges of the nation's most demanding business environment. 
+                    We deliver AI solutions that perform under pressure and scale with your ambitions.
+                  </p>
+                  
+                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                    Our <strong className="text-primary-orange">AI Service In New York</strong> includes white-glove consultation, 
+                    rapid development, enterprise deployment, and 24/7 support to ensure your AI investment delivers maximum 
+                    value in New York's competitive marketplace.
+                  </p>
+
+                  <div className="space-y-4">
+                    <div className="flex items-start gap-4">
+                      <MapPin className="w-6 h-6 text-primary-orange flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-1">Statewide Coverage</h4>
+                        <p className="text-sm text-gray-600">
+                          NYC, Manhattan, Brooklyn, Albany, Buffalo, Rochester, Syracuse, and all major New York markets
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start gap-4">
+                      <Award className="w-6 h-6 text-primary-orange flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-1">Financial Expertise</h4>
+                        <p className="text-sm text-gray-600">
+                          Deep understanding of Wall Street requirements and financial industry regulations
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start gap-4">
+                      <Clock className="w-6 h-6 text-primary-orange flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-1">NYC Speed</h4>
+                        <p className="text-sm text-gray-600">
+                          Rapid deployment and implementation built for New York's fast-paced business environment
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
