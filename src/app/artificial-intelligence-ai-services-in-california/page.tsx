@@ -23,7 +23,8 @@ import {
   Database,
   Sparkles,
   Rocket,
-  Activity
+  Activity,
+  Globe
 } from "lucide-react";
 
 export const metadata = {
@@ -145,6 +146,13 @@ export default function AIServicesCaliforniaPage() {
       href: "/data-engineering",
       color: "red" as const
     }
+  ];
+
+  const stats = [
+    { number: "2,100+", label: "California Businesses Served" },
+    { number: "98%", label: "Client Satisfaction" },
+    { number: "4.5x", label: "Average ROI Increase" },
+    { number: "24/7", label: "Support Available" }
   ];
 
   const industries = [
@@ -341,112 +349,156 @@ export default function AIServicesCaliforniaPage() {
         }}
       />
 
-      {/* Ultra-Creative Hero Section - Premium California AI Design with Orange/White Theme */}
-      <section className="relative min-h-screen bg-gradient-to-br from-white via-orange-50 to-gray-50 overflow-hidden">
-        {/* Advanced Background Effects */}
+      {/* Enhanced Creative Hero Section - VSO & Target Keyword Optimized */}
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28 relative overflow-hidden">
+        {/* Creative Background Elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          {/* Orange/White Gradient Orbs */}
-          <div className="absolute top-20 left-20 w-96 h-96 bg-primary-orange/20 rounded-full blur-3xl animate-pulse opacity-60"></div>
-          <div className="absolute bottom-20 right-20 w-80 h-80 bg-secondary-orange/20 rounded-full blur-3xl animate-pulse opacity-60" style={{animationDelay: '2s'}}></div>
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-primary-orange/15 rounded-full blur-2xl animate-pulse opacity-40" style={{animationDelay: '4s'}}></div>
-          
-          {/* Orange Floating Elements */}
-          <div className="absolute top-40 right-40 w-32 h-32 bg-gradient-to-br from-primary-orange/20 to-secondary-orange/20 rounded-3xl rotate-45 animate-bounce opacity-60" style={{animationDelay: '1s'}}></div>
-          <div className="absolute bottom-40 left-40 w-24 h-24 bg-gradient-to-br from-secondary-orange/15 to-primary-orange/15 rounded-full animate-pulse opacity-50" style={{animationDelay: '3s'}}></div>
-          
-          {/* Subtle Grid Pattern */}
+          {/* Animated Circuit Pattern */}
           <div className="absolute inset-0 opacity-[0.03]" style={{
-            backgroundImage: `linear-gradient(#FF6B35 1.5px, transparent 1.5px), linear-gradient(90deg, #FF6B35 1.5px, transparent 1.5px)`,
-            backgroundSize: '60px 60px'
+            backgroundImage: `linear-gradient(#FF6B35 1px, transparent 1px), linear-gradient(90deg, #FF6B35 1px, transparent 1px)`,
+            backgroundSize: '50px 50px'
           }}></div>
+          
+          {/* Floating AI Elements */}
+          <div className="absolute top-20 left-10 w-32 h-32 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-20 right-10 w-40 h-40 bg-primary-orange/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
+          
+          {/* Geometric Shapes */}
+          <div className="absolute top-1/4 left-1/4 w-2 h-2 bg-primary-orange/30 rounded-full animate-bounce" style={{animationDelay: '1s'}}></div>
+          <div className="absolute top-1/3 right-1/3 w-1.5 h-1.5 bg-orange-400/30 rounded-full animate-bounce" style={{animationDelay: '3s'}}></div>
+          <div className="absolute bottom-1/4 left-1/3 w-2.5 h-2.5 bg-primary-orange/20 rounded-full animate-bounce" style={{animationDelay: '2.5s'}}></div>
         </div>
         
         <div className="container px-4 md:px-6 relative z-10">
-          <div className="max-w-7xl mx-auto">
-            <div className="flex items-center min-h-screen py-20">
-              <div className="grid lg:grid-cols-2 gap-16 items-center w-full">
-                
-                {/* Left Content */}
-                <div className="space-y-8">
-                  {/* California Location Badge */}
-                  <div className="inline-flex items-center gap-3 px-6 py-3 bg-white rounded-full shadow-xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all group">
-                    <MapPin className="w-5 h-5 text-primary-orange animate-pulse" />
-                    <span className="text-lg font-bold text-gray-800">California Innovation Ecosystem</span>
-                    <div className="w-2 h-2 bg-primary-orange rounded-full animate-ping"></div>
+          <div className="max-w-4xl mx-auto text-center">
+            {/* Enhanced Location Badge */}
+            <div className="inline-flex items-center gap-3 mb-8 bg-gray-800/50 backdrop-blur-sm rounded-full px-6 py-3 border border-primary-orange/20">
+              <div className="relative">
+                <MapPin className="w-5 h-5 text-primary-orange" />
+                <div className="absolute -top-1 -right-1 w-3 h-3 bg-primary-orange rounded-full animate-ping"></div>
+              </div>
+              <span className="text-sm font-medium text-orange-300">Serving California, United States</span>
+              <div className="w-2 h-2 bg-primary-orange rounded-full animate-pulse"></div>
+            </div>
+            
+            {/* Enhanced Title with Animation */}
+            <div className="relative mb-8">
+              <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white relative z-10">
+                <strong>
+                  Artificial Intelligence Company In California
+                </strong>
+                <br />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange">
+                  Leading AI Company In California
+                </span>
+              </h1>
+            </div>
+            
+            {/* Enhanced Description */}
+            <div className="relative mb-10">
+              <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
+                Looking for the best <strong className="text-white">AI Company In California</strong>? Metic.ai is the premier 
+                <strong className="text-primary-orange"> Artificial Intelligence Company In California</strong> 
+                with 2100+ successful AI implementations. From Silicon Valley to LA, we help businesses across California transform with cutting-edge AI solutions, 
+                delivering <span className="text-primary-orange font-semibold">60% cost savings</span> and 
+                <span className="text-primary-orange font-semibold">3x faster results</span> than traditional development.
+              </p>
+              
+              {/* Trust Indicators */}
+              <div className="flex items-center justify-center gap-6 mb-8">
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
+                    <Shield className="w-4 h-4 text-primary-orange" />
                   </div>
-                  
-                  {/* Main Headline */}
-                  <div className="space-y-6">
-                    <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-tight">
-                      <span className="block text-gray-900 mb-2">
-                        <strong>Artificial Intelligence</strong>
-                      </span>
-                      <span className="block bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent mb-2">
-                        Company In California
-                      </span>
-                      <span className="block text-2xl md:text-3xl lg:text-4xl text-gray-700 font-semibold">
-                        Leading <span className="text-primary-orange">AI Company In California</span>
-                      </span>
-                    </h1>
+                  <span className="text-sm text-gray-400">ISO Certified</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
+                    <Award className="w-4 h-4 text-primary-orange" />
+                  </div>
+                  <span className="text-sm text-gray-400">Award Winning</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
+                    <Users className="w-4 h-4 text-primary-orange" />
+                  </div>
+                  <span className="text-sm text-gray-400">2100+ Clients</span>
+                </div>
+              </div>
+            
+            {/* Enhanced CTA Buttons */}
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+              <Link href="/contact">
+                <Button 
+                  variant="primary" 
+                  size="lg" 
+                  className="w-full sm:w-auto bg-gradient-to-r from-primary-orange to-orange-500 hover:from-primary-orange/90 hover:to-orange-500/90 transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl group"
+                >
+                  <Rocket className="w-5 h-5 mr-2 group-hover:animate-pulse" />
+                  Get Free AI Consultation
+                </Button>
+              </Link>
+              <Link href="tel:+917892518414">
+                <Button 
+                  variant="outline" 
+                  size="lg" 
+                  className="w-full sm:w-auto border-primary-orange text-primary-orange hover:bg-primary-orange/10 transform hover:scale-105 transition-all duration-300 group"
+                >
+                  <Phone className="w-4 h-4 mr-2 group-hover:animate-pulse" />
+                  Call: +1 789-251-8414
+                </Button>
+              </Link>
+            </div>
+
+            {/* Enhanced Stats with Creative Design */}
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto mb-12">
+              {stats.map((stat, index) => (
+                <div key={index} className="relative group">
+                  <div className="bg-gray-800/30 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:border-primary-orange/50 transition-all duration-300 group-hover:transform group-hover:scale-105">
+                    <div className="text-3xl font-bold text-primary-orange mb-2 group-hover:animate-pulse">{stat.number}</div>
+                    <div className="text-sm text-gray-400">{stat.label}</div>
                     
-                    {/* Orange Decorative Line */}
-                    <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange rounded-full"></div>
-                  </div>
-                  
-                  {/* Hero Description */}
-                  <div className="space-y-6">
-                    <p className="text-xl md:text-2xl text-gray-600 leading-relaxed max-w-2xl">
-                      Looking for the best <strong className="text-primary-orange font-semibold">AI Company In California</strong>? 
-                      Metic.ai is the premier <strong className="text-secondary-orange font-semibold">Artificial Intelligence Company In California</strong> 
-                      with <span className="bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 px-2 py-1 rounded-lg font-bold">2100+ successful AI implementations</span>.
-                    </p>
-                    
-                    <p className="text-lg text-gray-600 leading-relaxed">
-                      From Silicon Valley's tech giants to LA's entertainment studios and San Diego's biotech corridors, we transform California businesses 
-                      with cutting-edge AI solutions, delivering <strong className="text-primary-orange">60% cost savings</strong> and 
-                      <strong className="text-secondary-orange">3x faster delivery</strong>.
-                    </p>
-                  </div>
-                  
-                  {/* Enhanced CTA Buttons */}
-                  <div className="flex flex-col sm:flex-row gap-4 pt-6">
-                    <Link href="/contact">
-                      <Button size="lg" className="bg-gradient-to-r from-primary-orange to-secondary-orange hover:from-primary-orange/90 hover:to-secondary-orange/90 text-white px-8 py-4 text-lg font-semibold shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all group">
-                        Get Free AI Consultation
-                        <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-                      </Button>
-                    </Link>
-                    <Link href="tel:+917892518414">
-                      <Button variant="outline" size="lg" className="border-2 border-primary-orange text-primary-orange hover:bg-primary-orange hover:text-white px-8 py-4 text-lg font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all group">
-                        <Phone className="w-5 h-5 mr-2 group-hover:animate-bounce" />
-                        Call: +1-789-251-8414
-                      </Button>
-                    </Link>
-                  </div>
-                  
-                  {/* Trust Indicators */}
-                  <div className="flex flex-wrap items-center gap-6 pt-8">
-                    <div className="flex items-center gap-2">
-                      <CheckCircle className="w-5 h-5 text-primary-orange" />
-                      <span className="text-sm font-semibold text-gray-700">2100+ California AI Projects</span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <CheckCircle className="w-5 h-5 text-secondary-orange" />
-                      <span className="text-sm font-semibold text-gray-700">Silicon Valley Partner</span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <CheckCircle className="w-5 h-5 text-primary-orange" />
-                      <span className="text-sm font-semibold text-gray-700">24/7 Support</span>
-                    </div>
+                    {/* Hover Effect */}
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/5 to-orange-400/5 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   </div>
                 </div>
-                
-                {/* Right Visual Elements */}
-                <div className="relative">
-                  {/* Main Stats Card */}
-                  <div className="relative bg-white rounded-3xl p-8 shadow-2xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all">
-                    {/* California Badge */}
-                    <div className="absolute -top-6 left-8 bg-gradient-to-r from-primary-orange to-secondary-orange text-white px-6 py-3 rounded-full shadow-lg">
+              ))}
+            </div>
+
+            {/* Enhanced VSO Keywords Section */}
+            <div className="text-center">
+              <p className="text-gray-400 text-sm mb-6 flex items-center justify-center gap-2">
+                <Globe className="w-4 h-4 text-primary-orange" />
+                Trusted as the top AI Service In California
+              </p>
+              <div className="flex flex-wrap justify-center gap-3">
+                {[
+                  "AI Firm In California",
+                  "AI Development Company In California", 
+                  "Best AI Company California"
+                ].map((tag, index) => (
+                  <span 
+                    key={index}
+                    className="bg-gray-800/50 backdrop-blur-sm px-4 py-2 rounded-full text-gray-400 text-xs border border-gray-700/50 hover:border-primary-orange/50 hover:text-primary-orange transition-all duration-300 cursor-default"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Core AI Solutions */}
+      <section className="py-20 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-16">
+              <div className="inline-flex items-center gap-2 bg-orange-100 text-orange-800 px-4 py-2 rounded-full text-sm font-medium mb-4">
+                <Sparkles className="w-4 h-4" />
+                What We Actually Do
+              </div>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
                       <span className="font-bold text-lg">#1 AI Company California</span>
                     </div>
                     
