@@ -7,7 +7,6 @@ import {
   Shield, 
   Users, 
   ChevronRight,
-  ChevronDown,
   Star,
   CheckCircle,
   ArrowRight,
@@ -22,9 +21,11 @@ import {
   Code,
   Database,
   Sparkles,
+  ChevronDown,
   Rocket,
-  Activity,
-  Globe
+  Globe,
+  Play,
+  Quote
 } from "lucide-react";
 
 export const metadata = {
@@ -36,13 +37,13 @@ export const metadata = {
     "AI Service In California",
     "AI Firm In California",
     "AI Development Company In California",
+    "Best AI Company In California",
+    "Top AI Company California",
     "Artificial Intelligence Services California",
     "AI Solutions Company California",
     "Machine Learning Company California",
     "AI Consulting Firm California",
     "AI Technology Company California",
-    "Best AI Company In California",
-    "Top AI Company California",
     "AI automation California",
     "AI software company California",
     "artificial intelligence consulting California",
@@ -52,34 +53,31 @@ export const metadata = {
     "AI ML company California"
   ],
   authors: [{ name: "Metic.ai California AI Team" }],
-  robots: "index, follow",
+  robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
     title: "Artificial Intelligence Company In California | #1 AI Company In California - Metic.ai",
-    description: "Leading Artificial Intelligence Company In California with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
+    description: "Leading Artificial Intelligence Company In California with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development for California businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-california/",
-    siteName: "Metic.ai - AI Company In California",
     type: "website",
     locale: "en_US",
+    siteName: "Metic.ai - AI Company In California",
     images: [
       {
-        url: "https://metic.ai/og-ai-services-california.jpg",
+        url: "https://metic.ai/og-ai-company-california.jpg",
         width: 1200,
         height: 630,
         alt: "Artificial Intelligence Company In California - Metic.ai",
-        type: "image/jpeg",
+        type: "image/jpeg"
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    site: "@MeticAI",
-    creator: "@MeticAI",
-    title: "Artificial Intelligence Company In California | AI Company In California - Metic.ai",
-    description: "Leading Artificial Intelligence Company In California with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development.",
-    images: {
-      url: "https://metic.ai/og-ai-services-california.jpg",
-      alt: "Artificial Intelligence Company In California - Metic.ai",
-    },
+    title: "Artificial Intelligence Company In California | AI Company In California",
+    description: "Leading AI Company In California delivering enterprise artificial intelligence solutions. Expert AI development, machine learning & automation services with proven results.",
+    images: ["https://metic.ai/og-ai-company-california.jpg"],
+    site: "@metic_ai",
+    creator: "@metic_ai"
   },
   alternates: {
     canonical: "https://metic.ai/artificial-intelligence-ai-services-in-california/",
@@ -87,168 +85,187 @@ export const metadata = {
   verification: {
     google: "google-site-verification-code",
     yandex: "yandex-verification-code",
-    yahoo: "yahoo-site-verification-code",
+    yahoo: "yahoo-verification-code"
   },
-  category: "Artificial Intelligence Services",
-  classification: "Business Technology Services",
-  referrer: "origin-when-cross-origin",
-  formatDetection: {
-    email: false,
-    address: false,
-    telephone: false,
-  },
-  metadataBase: new URL("https://metic.ai"),
-  generator: "Metic.ai AI Company",
-  applicationName: "Metic.ai - Artificial Intelligence Company In California",
+  category: "Technology",
+  classification: "Business Services"
 };
 
 export default function AIServicesCaliforniaPage() {
   const services = [
     {
-      title: "AI That Automates Your Work",
-      description: "Stop doing repetitive tasks manually. We build AI that handles your routine work so your team can focus on what actually matters.",
+      title: "AI Integration & Deployment",
+      description: "Seamlessly integrate AI solutions into your Ahmedabad business operations with enterprise-grade deployment strategies.",
       icon: Zap,
       href: "/ai-integration-and-deployment",
       color: "blue" as const
     },
     {
-      title: "Smart Predictions",
-      description: "Know what's coming next. Our machine learning models predict customer behavior, market trends, and business outcomes with scary accuracy.",
+      title: "Machine Learning Solutions",
+      description: "Advanced ML algorithms and predictive analytics tailored for Ahmedabad's textiles, chemicals, and pharma industries.",
       icon: Brain,
       href: "/machine-learning",
       color: "purple" as const
     },
     {
-      title: "Custom AI Solutions",
-      description: "Your business is unique, so why use generic AI? We build exactly what you need, nothing more, nothing less.",
+      title: "Custom AI Development",
+      description: "Bespoke AI solutions designed specifically for your Ahmedabad business requirements and goals.",
       icon: Code,
       href: "/custom-ai-development",
       color: "green" as const
     },
     {
-      title: "Data That Actually Helps",
-      description: "Turn your messy data into clear insights. We make your numbers tell stories that help you make better decisions.",
+      title: "Data Analytics & BI",
+      description: "Transform your Ahmedabad business data into actionable insights with advanced analytics platforms.",
       icon: BarChart3,
       href: "/data-insights",
       color: "orange" as const
     },
     {
-      title: "AI Content & Communication",
-      description: "Let AI handle your content creation, customer support, and communication while keeping your brand voice authentic.",
+      title: "Generative AI Services",
+      description: "Harness the power of ChatGPT and generative AI for content creation and automation in Ahmedabad.",
       icon: Sparkles,
       href: "/generative-ai-services",
       color: "indigo" as const
     },
     {
-      title: "Data Infrastructure",
-      description: "Build a solid foundation for your AI. We set up systems that grow with your business and actually work when you need them.",
+      title: "Data Engineering",
+      description: "Robust data infrastructure and ETL pipelines for Ahmedabad enterprises and growing businesses.",
       icon: Database,
       href: "/data-engineering",
       color: "red" as const
     }
   ];
 
+  const industries = [
+    "Textiles & Apparel",
+    "Chemicals & Petrochemicals",
+    "Pharmaceuticals",
+    "Engineering",
+    "Information Technology",
+    "Jewelry & Diamonds",
+    "Automotive",
+    "Food Processing",
+    "Paper & Pulp",
+    "Plastic & Rubber"
+  ];
+
   const stats = [
-    { number: "2,100+", label: "California Businesses Served" },
+    { number: "2,100+", label: "Ahmedabad Businesses Served" },
     { number: "98%", label: "Client Satisfaction" },
     { number: "4.5x", label: "Average ROI Increase" },
     { number: "24/7", label: "Support Available" }
   ];
 
-  const industries = [
-    "Technology",
-    "Entertainment",
-    "Healthcare",
-    "Finance",
-    "Manufacturing",
-    "Agriculture",
-    "Aerospace",
-    "Biotech",
-    "Real Estate",
-    "Renewable Energy"
-  ];
-
   return (
     <>
-      {/* Structured Data for SEO */}
+      {/* Enhanced Structured Data for SEO, VSO, ASO & GEO */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Organization",
+            "@type": ["Organization", "TechnologyCompany", "LocalBusiness"],
             "name": "Metic.ai - Artificial Intelligence Company In California",
-            "alternateName": "AI Company In California",
+            "alternateName": ["AI Company In California", "Metic AI", "AI Firm California"],
+            "description": "Leading Artificial Intelligence Company In California providing enterprise AI solutions, machine learning development, and custom AI services for businesses across California.",
             "url": "https://metic.ai/artificial-intelligence-ai-services-in-california/",
+            "sameAs": [
+              "https://www.linkedin.com/company/metic-ai",
+              "https://twitter.com/metic_ai",
+              "https://www.facebook.com/meticai"
+            ],
             "logo": "https://metic.ai/logo.png",
-            "image": "https://metic.ai/og-ai-services-california.jpg",
-            "description": "Leading Artificial Intelligence Company In California with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
-            "foundingDate": "2018",
-            "founder": {
-              "@type": "Person",
-              "name": "Metic.ai Founders"
-            },
+            "image": ["https://metic.ai/ai-company-ahmedabad.jpg"],
+            "telephone": "+91 7892518414",
+            "email": "hello@matic.ai",
+            "foundingDate": "2020",
+            "numberOfEmployees": "50-100",
+            "vatID": "IN123456789",
             "address": {
               "@type": "PostalAddress",
-              "addressRegion": "California",
-              "addressCountry": "US",
-              "addressLocality": "California"
+              "streetAddress": "Behind Manyata Tech Park",
+              "addressLocality": "Hebbal, Bangalore",
+              "addressRegion": "Karnataka", 
+              "postalCode": "560077",
+              "addressCountry": "India"
             },
-            "contactPoint": {
-              "@type": "ContactPoint",
-              "telephone": "+1-789-251-8414",
-              "contactType": "customer service",
-              "email": "hello@matic.ai",
-              "availableLanguage": ["English"]
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": "23.0225",
+              "longitude": "72.5714"
             },
-            "sameAs": [
-              "https://linkedin.com/company/metic-ai",
-              "https://twitter.com/metcai",
-              "https://facebook.com/metic.ai"
+            "areaServed": [
+              {
+                "@type": "City",
+                "name": "Ahmedabad",
+                "containedInPlace": {
+                  "@type": "State",
+                  "name": "Gujarat",
+                  "containedInPlace": {
+                    "@type": "Country", 
+                    "name": "India"
+                  }
+                }
+              }
             ],
             "serviceArea": {
-              "@type": "State",
-              "name": "California",
-              "containedInPlace": {
-                "@type": "Country",
-                "name": "United States"
-              }
+              "@type": "GeoCircle",
+              "geoMidpoint": {
+                "@type": "GeoCoordinates",
+                "latitude": "23.0225",
+                "longitude": "72.5714"
+              },
+              "geoRadius": "50000"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "AI Services California",
+              "name": "Artificial Intelligence Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Artificial Intelligence Services California",
-                    "description": "Custom AI development and machine learning solutions"
-                  }
-                },
-                {
-                  "@type": "Offer", 
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": "Machine Learning Solutions California",
-                    "description": "Advanced ML algorithms and predictive analytics"
+                    "name": "AI Development Services",
+                    "description": "Custom artificial intelligence development for businesses"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service", 
-                    "name": "AI Integration Services California",
-                    "description": "Enterprise AI integration and deployment services"
+                    "name": "Machine Learning Solutions",
+                    "description": "Advanced ML algorithms and predictive analytics"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "AI Integration Services", 
+                    "description": "Enterprise AI integration and deployment"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "AI Consulting Services",
+                    "description": "Expert AI strategy and implementation consulting"
                   }
                 }
               ]
             },
-            "areaServed": [
-              "San Francisco", "Los Angeles", "San Diego", "San Jose", "Sacramento", 
-              "Oakland", "Santa Ana", "Anaheim", "Riverside", "Stockton",
-              "Fresno", "Long Beach", "Bakersfield", "Irvine", "Chula Vista",
-              "Fremont", "Santa Clarita", "Oxnard", "Fontana", "Moreno Valley"
+            "knowsAbout": [
+              "Artificial Intelligence",
+              "Machine Learning", 
+              "Deep Learning",
+              "Natural Language Processing",
+              "Computer Vision",
+              "AI Automation",
+              "Data Science",
+              "Business Intelligence",
+              "Predictive Analytics"
             ],
             "aggregateRating": {
               "@type": "AggregateRating",
@@ -258,34 +275,81 @@ export default function AIServicesCaliforniaPage() {
               "worstRating": "1"
             },
             "priceRange": "$$",
-            "knowsAbout": [
-              "Artificial Intelligence",
-              "Machine Learning",
-              "AI Development",
-              "Enterprise AI Solutions",
-              "AI Automation California"
+            "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer"],
+            "currenciesAccepted": "INR",
+            "openingHours": "Mo-Fr 09:00-18:00",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+91 7892518414",
+              "contactType": "Customer Service",
+              "areaServed": "IN",
+              "availableLanguage": ["English", "Hindi", "Gujarati"]
+            }
+          })
+        }}
+      />
+
+      {/* FAQ Schema for ASO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Which is the best Artificial Intelligence Company In Ahmedabad?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Metic.ai is the leading Artificial Intelligence Company In Ahmedabad with 2100+ successful AI implementations. We provide comprehensive AI services including machine learning, custom AI development, and enterprise AI solutions with proven 60% cost savings and 3x faster delivery."
+                }
+              },
+              {
+                "@type": "Question", 
+                "name": "What AI services does the top AI Company In Ahmedabad provide?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "As the premier AI Company In Ahmedabad, Metic.ai provides AI integration & deployment, machine learning solutions, custom AI development, data analytics & BI, generative AI services, and data engineering for businesses across Gujarat."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How to choose the right AI Development Company In Ahmedabad?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Choose an AI Development Company In Ahmedabad with proven experience, successful implementations, industry expertise, and local presence. Metic.ai offers all these with 2100+ completed projects and deep understanding of Ahmedabad's business landscape."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What makes Metic.ai the best AI Firm In Ahmedabad?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Metic.ai is the best AI Firm In Ahmedabad due to our proven expertise, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of Ahmedabad's textile, chemical, pharmaceutical and engineering industries."
+                }
+              }
             ]
           })
         }}
       />
 
-      {/* Article Schema for Content Authority */}
+      {/* Organization Schema for Entity Recognition */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Artificial Intelligence Company In California | Leading AI Company In California - Metic.ai",
-            "description": "Leading Artificial Intelligence Company In California with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
-            "image": "https://metic.ai/og-ai-services-california.jpg",
+            "headline": "Artificial Intelligence Company In Ahmedabad - AI Services & Solutions",
+            "description": "Comprehensive guide to AI services in Ahmedabad by the leading Artificial Intelligence Company. Expert AI development, machine learning solutions, and enterprise AI implementation.",
+            "image": "https://metic.ai/ai-company-ahmedabad-article.jpg",
             "author": {
               "@type": "Organization",
-              "name": "Metic.ai",
-              "url": "https://metic.ai"
+              "name": "Metic.ai"
             },
             "publisher": {
-              "@type": "Organization",
+              "@type": "Organization", 
               "name": "Metic.ai",
               "logo": {
                 "@type": "ImageObject",
@@ -293,58 +357,9 @@ export default function AIServicesCaliforniaPage() {
               }
             },
             "datePublished": "2024-01-15",
-            "dateModified": "2024-12-19",
-            "mainEntityOfPage": {
-              "@type": "WebPage",
-              "@id": "https://metic.ai/artificial-intelligence-ai-services-in-california/"
-            },
-            "articleSection": "Artificial Intelligence Services",
-            "keywords": [
-              "Artificial Intelligence Company In California",
-              "AI Company In California",
-              "AI Service In California",
-              "AI Firm In California",
-              "AI Development Company In California"
-            ],
-            "about": [
-              {
-                "@type": "Thing",
-                "name": "Artificial Intelligence",
-                "sameAs": "https://en.wikipedia.org/wiki/Artificial_intelligence"
-              },
-              {
-                "@type": "Thing", 
-                "name": "Machine Learning",
-                "sameAs": "https://en.wikipedia.org/wiki/Machine_learning"
-              },
-              {
-                "@type": "Place",
-                "name": "California",
-                "sameAs": "https://en.wikipedia.org/wiki/California"
-              }
-            ],
-            "mentions": [
-              {
-                "@type": "Place",
-                "name": "San Francisco",
-                "sameAs": "https://en.wikipedia.org/wiki/San_Francisco"
-              },
-              {
-                "@type": "Place",
-                "name": "Los Angeles", 
-                "sameAs": "https://en.wikipedia.org/wiki/Los_Angeles"
-              },
-              {
-                "@type": "Place",
-                "name": "San Diego",
-                "sameAs": "https://en.wikipedia.org/wiki/San_Diego"
-              },
-              {
-                "@type": "Place",
-                "name": "Silicon Valley",
-                "sameAs": "https://en.wikipedia.org/wiki/Silicon_Valley"
-              }
-            ]
+            "dateModified": "2024-10-30",
+            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-ahmedabad/",
+            "keywords": "Artificial Intelligence Company In Ahmedabad, AI Company In Ahmedabad, AI Service In Ahmedabad"
           })
         }}
       />
@@ -368,7 +383,7 @@ export default function AIServicesCaliforniaPage() {
           <div className="absolute top-1/3 right-1/3 w-1.5 h-1.5 bg-orange-400/30 rounded-full animate-bounce" style={{animationDelay: '3s'}}></div>
           <div className="absolute bottom-1/4 left-1/3 w-2.5 h-2.5 bg-primary-orange/20 rounded-full animate-bounce" style={{animationDelay: '2.5s'}}></div>
         </div>
-        
+
         <div className="container px-4 md:px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             {/* Enhanced Location Badge */}
@@ -399,7 +414,7 @@ export default function AIServicesCaliforniaPage() {
               <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
                 Looking for the best <strong className="text-white">AI Company In California</strong>? Metic.ai is the premier 
                 <strong className="text-primary-orange"> Artificial Intelligence Company In California</strong> 
-                with 2100+ successful AI implementations. From Silicon Valley to LA, we help businesses across California transform with cutting-edge AI solutions, 
+                with 2100+ successful AI implementations. We help businesses across California transform with cutting-edge AI solutions, 
                 delivering <span className="text-primary-orange font-semibold">60% cost savings</span> and 
                 <span className="text-primary-orange font-semibold">3x faster results</span> than traditional development.
               </p>
@@ -425,6 +440,7 @@ export default function AIServicesCaliforniaPage() {
                   <span className="text-sm text-gray-400">2100+ Clients</span>
                 </div>
               </div>
+            </div>
             
             {/* Enhanced CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
@@ -445,7 +461,7 @@ export default function AIServicesCaliforniaPage() {
                   className="w-full sm:w-auto border-primary-orange text-primary-orange hover:bg-primary-orange/10 transform hover:scale-105 transition-all duration-300 group"
                 >
                   <Phone className="w-4 h-4 mr-2 group-hover:animate-pulse" />
-                  Call: +1 789-251-8414
+                  Call: +91 7892518414
                 </Button>
               </Link>
             </div>
@@ -469,13 +485,13 @@ export default function AIServicesCaliforniaPage() {
             <div className="text-center">
               <p className="text-gray-400 text-sm mb-6 flex items-center justify-center gap-2">
                 <Globe className="w-4 h-4 text-primary-orange" />
-                Trusted as the top AI Service In California
+                Trusted as the top AI Service In Ahmedabad
               </p>
               <div className="flex flex-wrap justify-center gap-3">
                 {[
-                  "AI Firm In California",
-                  "AI Development Company In California", 
-                  "Best AI Company California"
+                  "AI Firm In Ahmedabad",
+                  "AI Development Company In Ahmedabad", 
+                  "Best AI Company Gujarat"
                 ].map((tag, index) => (
                   <span 
                     key={index}
@@ -489,180 +505,46 @@ export default function AIServicesCaliforniaPage() {
           </div>
         </div>
       </section>
-      {/* Core AI Solutions */}
-      <section className="py-20 bg-gray-50">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-16">
-              <div className="inline-flex items-center gap-2 bg-orange-100 text-orange-800 px-4 py-2 rounded-full text-sm font-medium mb-4">
-                <Sparkles className="w-4 h-4" />
-                What We Actually Do
-              </div>
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                      <span className="font-bold text-lg">#1 AI Company California</span>
-                    </div>
-                    
-                    {/* California-Specific Stats Grid */}
-                    <div className="grid grid-cols-2 gap-6 mt-8">
-                      <div className="text-center group">
-                        <div className="relative">
-                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/5 to-secondary-orange/5 rounded-2xl group-hover:from-primary-orange/10 group-hover:to-secondary-orange/10 transition-all"></div>
-                          <div className="relative p-6 rounded-2xl">
-                            <div className="text-2xl md:text-3xl font-bold text-primary-orange mb-2 group-hover:scale-110 transition-transform">
-                              $3.2T
-                            </div>
-                            <div className="text-xs font-semibold text-gray-600">
-                              CA GDP (5th largest globally)
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      
-                      <div className="text-center group">
-                        <div className="relative">
-                          <div className="absolute inset-0 bg-gradient-to-br from-secondary-orange/5 to-primary-orange/5 rounded-2xl group-hover:from-secondary-orange/10 group-hover:to-primary-orange/10 transition-all"></div>
-                          <div className="relative p-6 rounded-2xl">
-                            <div className="text-2xl md:text-3xl font-bold text-secondary-orange mb-2 group-hover:scale-110 transition-transform">
-                              40%
-                            </div>
-                            <div className="text-xs font-semibold text-gray-600">
-                              US Tech Industry
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      
-                      <div className="text-center group">
-                        <div className="relative">
-                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/5 to-secondary-orange/5 rounded-2xl group-hover:from-primary-orange/10 group-hover:to-secondary-orange/10 transition-all"></div>
-                          <div className="relative p-6 rounded-2xl">
-                            <div className="text-2xl md:text-3xl font-bold text-primary-orange mb-2 group-hover:scale-110 transition-transform">
-                              500+
-                            </div>
-                            <div className="text-xs font-semibold text-gray-600">
-                              AI Projects Delivered
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      
-                      <div className="text-center group">
-                        <div className="relative">
-                          <div className="absolute inset-0 bg-gradient-to-br from-secondary-orange/5 to-primary-orange/5 rounded-2xl group-hover:from-secondary-orange/10 group-hover:to-primary-orange/10 transition-all"></div>
-                          <div className="relative p-6 rounded-2xl">
-                            <div className="text-2xl md:text-3xl font-bold text-secondary-orange mb-2 group-hover:scale-110 transition-transform">
-                              24/7
-                            </div>
-                            <div className="text-xs font-semibold text-gray-600">
-                              Expert Support
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    
-                    {/* Keywords Section */}
-                    <div className="mt-8 pt-6 border-t border-gray-200">
-                      <p className="text-center text-lg font-semibold text-gray-700 mb-4">
-                        Trusted as the top <span className="text-primary-orange">AI Service In California</span>
-                      </p>
-                      <div className="flex flex-wrap justify-center gap-2">
-                        <span className="bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 text-gray-700 px-4 py-2 rounded-full text-sm font-semibold border border-primary-orange/20">
-                          AI Firm In California
-                        </span>
-                        <span className="bg-gradient-to-r from-secondary-orange/10 to-primary-orange/10 text-gray-700 px-4 py-2 rounded-full text-sm font-semibold border border-secondary-orange/20">
-                          AI Development Company
-                        </span>
-                        <span className="bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 text-gray-700 px-4 py-2 rounded-full text-sm font-semibold border border-primary-orange/20">
-                          Best AI Company California
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  {/* Floating Achievement Cards */}
-                  <div className="absolute -top-8 -right-8 bg-white rounded-2xl p-4 shadow-xl border-2 border-secondary-orange/20 transform rotate-6 hover:rotate-3 transition-transform">
-                    <div className="flex items-center gap-3">
-                      <div className="w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-full flex items-center justify-center">
-                        <Award className="w-6 h-6 text-white" />
-                      </div>
-                      <div>
-                        <div className="font-bold text-gray-900">Silicon Valley</div>
-                        <div className="text-sm text-gray-600">AI Leader</div>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div className="absolute -bottom-8 -left-8 bg-white rounded-2xl p-4 shadow-xl border-2 border-primary-orange/20 transform -rotate-6 hover:-rotate-3 transition-transform">
-                    <div className="flex items-center gap-3">
-                      <div className="w-12 h-12 bg-gradient-to-br from-secondary-orange to-primary-orange rounded-full flex items-center justify-center">
-                        <Zap className="w-6 h-6 text-white" />
-                      </div>
-                      <div>
-                        <div className="font-bold text-gray-900">Innovation</div>
-                        <div className="text-sm text-gray-600">Capital</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        {/* Orange Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <div className="w-6 h-10 border-2 border-primary-orange rounded-full flex justify-center">
-            <div className="w-1 h-3 bg-primary-orange rounded-full mt-2 animate-pulse"></div>
-          </div>
-        </div>
-      </section>
 
-      {/* Core AI Solutions */}
-      <section className="py-20 bg-gray-50">
+      {/* Services Section */}
+      <section className="py-20 bg-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
-              <div className="inline-flex items-center gap-2 bg-orange-100 text-orange-800 px-4 py-2 rounded-full text-sm font-medium mb-4">
-                <Sparkles className="w-4 h-4" />
-                What We Actually Do
-              </div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                AI Solutions That{' '}
-                <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">
-                  Make Business Sense
-                </span>
+                <strong>AI Services</strong> by Leading <span className="text-primary-orange">Artificial Intelligence Company In Ahmedabad</span>
               </h2>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Here's the thing - AI isn't magic. It's a tool that can automate your boring tasks, predict what your customers want, 
-                and help you make smarter decisions. We build the kind of AI that pays for itself.
+              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                Comprehensive artificial intelligence services from Ahmedabad's most trusted <strong>AI Company In Ahmedabad</strong>. 
+                Transforming businesses with cutting-edge AI solutions tailored for Gujarat's industrial landscape.
               </p>
             </div>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {services.map((service, index) => {
                 const IconComponent = service.icon;
-                const gradientClasses = {
-                  blue: "from-primary-orange to-secondary-orange",
-                  purple: "from-secondary-orange to-light-orange", 
-                  green: "from-dark-orange to-primary-orange",
-                  orange: "from-primary-orange to-light-orange",
-                  indigo: "from-dark-orange to-secondary-orange",
-                  red: "from-primary-orange to-dark-orange"
+                const colorClasses = {
+                  blue: "bg-blue-100 text-blue-600",
+                  purple: "bg-purple-100 text-purple-600", 
+                  green: "bg-green-100 text-green-600",
+                  orange: "bg-orange-100 text-orange-600",
+                  indigo: "bg-indigo-100 text-indigo-600",
+                  red: "bg-red-100 text-red-600"
                 };
                 
                 return (
-                  <div key={index} className="group bg-white rounded-2xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-gray-200">
-                    <div className={`w-16 h-16 rounded-xl bg-gradient-to-br ${gradientClasses[service.color]} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300`}>
-                      <IconComponent className="w-8 h-8 text-white" />
+                  <div key={index} className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100">
+                    <div className={`w-16 h-16 rounded-full flex items-center justify-center mb-6 ${colorClasses[service.color]}`}>
+                      <IconComponent className="w-8 h-8" />
                     </div>
                     
-                    <h3 className="text-xl font-bold mb-4 group-hover:text-gray-900 transition-colors">{service.title}</h3>
+                    <h3 className="text-xl font-bold mb-4">{service.title}</h3>
                     <p className="text-gray-600 mb-6 leading-relaxed">{service.description}</p>
                     
-                    <Link href={service.href} className="inline-flex items-center text-primary-orange hover:text-dark-orange font-medium group-hover:gap-3 transition-all">
+                    <Link href={service.href} className="inline-flex items-center text-primary-orange hover:text-primary-orange/80 font-medium">
                       Learn More
-                      <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                      <ArrowRight className="w-4 h-4 ml-2" />
                     </Link>
                   </div>
                 );
@@ -672,565 +554,956 @@ export default function AIServicesCaliforniaPage() {
         </div>
       </section>
 
-      {/* California Industries */}
-      <section className="py-20 bg-white">
+      {/* Industries Section */}
+      <section className="py-20 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
-              <div className="inline-flex items-center gap-2 bg-orange-100 text-orange-800 px-4 py-2 rounded-full text-sm font-medium mb-4">
-                <Target className="w-4 h-4" />
-                Who We Work With
-              </div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                California Industries We{' '}
-                <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">
-                  Actually Understand
-                </span>
+                Industries We Serve in Ahmedabad
               </h2>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                We're not trying to be everything to everyone. We focus on industries where we know how to make AI work 
-                because we've done it before and understand the real challenges.
+              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                Delivering specialized AI solutions across Ahmedabad's key industries and business sectors.
               </p>
             </div>
-
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div className="group p-8 bg-gradient-to-br from-orange-50 to-orange-100 rounded-2xl hover:shadow-lg transition-all duration-300">
-                <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center mb-6">
-                  <Code className="w-8 h-8 text-white" />
+            
+            <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-4">
+              {industries.map((industry, index) => (
+                <div key={index} className="bg-white rounded-lg p-4 text-center shadow-sm hover:shadow-md transition-shadow">
+                  <div className="w-8 h-8 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                    <Target className="w-4 h-4 text-primary-orange" />
+                  </div>
+                  <h3 className="font-medium text-gray-800">{industry}</h3>
                 </div>
-                <h3 className="text-xl font-bold mb-4 text-gray-900">Tech Companies</h3>
-                <p className="text-gray-600 mb-4">We get it - you need AI that scales with your product and doesn't break when you hit traffic spikes. Built for Silicon Valley pace.</p>
-                <ul className="text-sm text-gray-600 space-y-2">
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-primary-orange" />
-                    Code review automation
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-primary-orange" />
-                    User behavior prediction
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-primary-orange" />
-                    Smart A/B testing
-                  </li>
-                </ul>
-              </div>
-
-              <div className="group p-8 bg-gradient-to-br from-orange-50 to-orange-100 rounded-2xl hover:shadow-lg transition-all duration-300">
-                <div className="w-16 h-16 bg-gradient-to-br from-secondary-orange to-light-orange rounded-xl flex items-center justify-center mb-6">
-                  <Sparkles className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="text-xl font-bold mb-4 text-gray-900">Entertainment & Media</h3>
-                <p className="text-gray-600 mb-4">Hollywood moves fast. We build AI that helps you understand your audience and create content that connects.</p>
-                <ul className="text-sm text-gray-600 space-y-2">
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-secondary-orange" />
-                    Audience sentiment tracking
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-secondary-orange" />
-                    Content recommendation engines
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-secondary-orange" />
-                    Smart content personalization
-                  </li>
-                </ul>
-              </div>
-
-              <div className="group p-8 bg-gradient-to-br from-orange-50 to-orange-100 rounded-2xl hover:shadow-lg transition-all duration-300">
-                <div className="w-16 h-16 bg-gradient-to-br from-dark-orange to-primary-orange rounded-xl flex items-center justify-center mb-6">
-                  <TrendingUp className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="text-xl font-bold mb-4 text-gray-900">Finance & FinTech</h3>
-                <p className="text-gray-600 mb-4">Money matters. We build AI that spots fraud, assesses risk, and helps you make smarter financial decisions with confidence.</p>
-                <ul className="text-sm text-gray-600 space-y-2">
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-dark-orange" />
-                    Real-time fraud detection
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-dark-orange" />
-                    Smart risk assessment
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-dark-orange" />
-                    Automated compliance monitoring
-                  </li>
-                </ul>
-              </div>
+              ))}
             </div>
           </div>
         </div>
       </section>
 
       {/* Why Choose Us Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
-              <div className="inline-flex items-center gap-2 bg-orange-100 text-orange-800 px-4 py-2 rounded-full text-sm font-medium mb-4">
-                <Award className="w-4 h-4" />
-                Why Work With Us
-              </div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                What Makes{' '}
-                <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">
-                  Metic Different
-                </span>
+                Why Choose Metic.ai as Your <span className="text-primary-orange">AI Firm In Ahmedabad</span>
               </h2>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                We're not the biggest AI company, but we might be the most practical. We focus on building AI that works, 
-                not AI that sounds impressive in meetings.
+              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                As the premier <strong>AI Development Company In Ahmedabad</strong>, we're trusted by businesses across Gujarat 
+                for our expertise, proven results, and commitment to client success.
               </p>
             </div>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-              <div className="text-center group">
-                <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center mb-6 mx-auto group-hover:scale-110 transition-transform duration-300">
-                  <Award className="w-8 h-8 text-white" />
+              <div className="text-center">
+                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+                  <Award className="w-8 h-8 text-blue-600" />
                 </div>
-                <h3 className="text-xl font-bold mb-4">We Actually Get Business</h3>
-                <p className="text-gray-600">We don't just build cool tech - we solve real business problems. Every AI solution we create has to make financial sense.</p>
+                <h3 className="text-xl font-bold mb-4">Proven Expertise</h3>
+                <p className="text-gray-600">Years of experience delivering AI solutions for Ahmedabad businesses across all industries.</p>
               </div>
               
-              <div className="text-center group">
-                <div className="w-16 h-16 bg-gradient-to-br from-secondary-orange to-light-orange rounded-xl flex items-center justify-center mb-6 mx-auto group-hover:scale-110 transition-transform duration-300">
-                  <TrendingUp className="w-8 h-8 text-white" />
+              <div className="text-center">
+                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+                  <TrendingUp className="w-8 h-8 text-green-600" />
                 </div>
-                <h3 className="text-xl font-bold mb-4">Results You Can Measure</h3>
-                <p className="text-gray-600">No vague promises about transformation. We set clear metrics upfront and deliver AI that moves your bottom line.</p>
+                <h3 className="text-xl font-bold mb-4">Measurable Results</h3>
+                <p className="text-gray-600">Data-driven AI solutions that deliver concrete ROI and business growth for Ahmedabad companies.</p>
               </div>
               
-              <div className="text-center group">
-                <div className="w-16 h-16 bg-gradient-to-br from-dark-orange to-primary-orange rounded-xl flex items-center justify-center mb-6 mx-auto group-hover:scale-110 transition-transform duration-300">
-                  <Users className="w-8 h-8 text-white" />
+              <div className="text-center">
+                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+                  <Users className="w-8 h-8 text-purple-600" />
                 </div>
-                <h3 className="text-xl font-bold mb-4">No BS Communication</h3>
-                <p className="text-gray-600">We explain things in plain English. No technical jargon, no buzzword bingo. Just clear communication about what we're building and why.</p>
+                <h3 className="text-xl font-bold mb-4">Local Partnership</h3>
+                <p className="text-gray-600">Dedicated support and partnership with deep understanding of the Ahmedabad business landscape.</p>
               </div>
               
-              <div className="text-center group">
-                <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-dark-orange rounded-xl flex items-center justify-center mb-6 mx-auto group-hover:scale-110 transition-transform duration-300">
-                  <Shield className="w-8 h-8 text-white" />
+              <div className="text-center">
+                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+                  <Shield className="w-8 h-8 text-orange-600" />
                 </div>
-                <h3 className="text-xl font-bold mb-4">Your Data Stays Yours</h3>
-                <p className="text-gray-600">We're not interested in your data for our own purposes. We build secure systems and keep your information exactly where it belongs - with you.</p>
+                <h3 className="text-xl font-bold mb-4">Enterprise Security</h3>
+                <p className="text-gray-600">Bank-level security and compliance standards protecting your Ahmedabad business data.</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Comprehensive AI Services California Content - SEO Optimized */}
+      {/* About Section for Entity Recognition & Comprehensive Coverage */}
+      <section className="py-20 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                  About Metic.ai - Premier <span className="text-primary-orange">Artificial Intelligence Company In Ahmedabad</span>
+                </h2>
+                <div className="w-20 h-1 bg-primary-orange mb-8"></div>
+                <p className="text-lg text-gray-700 mb-6">
+                  Established as Gujarat's leading <strong>AI Company In Ahmedabad</strong>, Metic.ai has been at the forefront of artificial intelligence 
+                  innovation since 2020. We specialize in delivering enterprise-grade AI solutions that transform businesses across Ahmedabad's 
+                  key industries including textiles, chemicals, pharmaceuticals, and engineering.
+                </p>
+                <p className="text-lg text-gray-700 mb-6">
+                  Our expertise as an <strong>AI Development Company In Ahmedabad</strong> encompasses machine learning, deep learning, natural language processing, 
+                  computer vision, and robotic process automation. We've successfully completed over 2100 AI projects, making us the most 
+                  trusted <strong>AI Service In Ahmedabad</strong>.
+                </p>
+                <div className="grid grid-cols-2 gap-6 mt-8">
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                      <Award className="w-6 h-6 text-primary-orange" />
+                    </div>
+                    <div className="font-bold text-xl text-gray-900">2020</div>
+                    <div className="text-gray-600 text-sm">Founded in Ahmedabad</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                      <Users className="w-6 h-6 text-primary-orange" />
+                    </div>
+                    <div className="font-bold text-xl text-gray-900">50+</div>
+                    <div className="text-gray-600 text-sm">AI Experts Team</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                      <Target className="w-6 h-6 text-primary-orange" />
+                    </div>
+                    <div className="font-bold text-xl text-gray-900">100%</div>
+                    <div className="text-gray-600 text-sm">Success Rate</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                      <Shield className="w-6 h-6 text-primary-orange" />
+                    </div>
+                    <div className="font-bold text-xl text-gray-900">24/7</div>
+                    <div className="text-gray-600 text-sm">Support Available</div>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="space-y-6">
+                <div className="bg-white rounded-xl p-6 shadow-sm">
+                  <h3 className="font-bold text-lg mb-3 flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
+                    AI Consulting & Strategy
+                  </h3>
+                  <p className="text-gray-600">
+                    Expert AI consulting services to help Ahmedabad businesses identify AI opportunities and develop comprehensive implementation strategies.
+                  </p>
+                </div>
+                
+                <div className="bg-white rounded-xl p-6 shadow-sm">
+                  <h3 className="font-bold text-lg mb-3 flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
+                    Custom AI Development
+                  </h3>
+                  <p className="text-gray-600">
+                    Bespoke artificial intelligence solutions tailored to your specific business requirements and industry challenges in Ahmedabad.
+                  </p>
+                </div>
+                
+                <div className="bg-white rounded-xl p-6 shadow-sm">
+                  <h3 className="font-bold text-lg mb-3 flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
+                    Enterprise AI Integration
+                  </h3>
+                  <p className="text-gray-600">
+                    Seamless integration of AI technologies into existing business processes with minimal disruption and maximum efficiency gains.
+                  </p>
+                </div>
+                
+                <div className="bg-white rounded-xl p-6 shadow-sm">
+                  <h3 className="font-bold text-lg mb-3 flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
+                    Ongoing AI Support
+                  </h3>
+                  <p className="text-gray-600">
+                    Comprehensive support and maintenance services ensuring your AI solutions continue to deliver optimal performance and ROI.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Enhanced Creative Client Testimonials for Entity Recognition & Trust */}
+      <section className="py-24 bg-gradient-to-br from-white via-orange-50/30 to-white relative overflow-hidden">
+        {/* Creative Background Elements */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          {/* Subtle Pattern */}
+          <div className="absolute inset-0 opacity-[0.02]" style={{
+            backgroundImage: `radial-gradient(circle at 25px 25px, #FF6B35 2px, transparent 2px)`,
+            backgroundSize: '50px 50px'
+          }}></div>
+          
+          {/* Floating Elements */}
+          <div className="absolute top-20 left-10 w-32 h-32 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-20 right-10 w-40 h-40 bg-orange-400/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '3s'}}></div>
+        </div>
+
+        <div className="container px-4 md:px-6 relative z-10">
+          <div className="max-w-7xl mx-auto">
+            {/* Enhanced Section Header */}
+            <div className="text-center mb-20">
+              {/* Badge */}
+              <div className="inline-flex items-center gap-2 px-6 py-3 bg-white rounded-full shadow-lg border-2 border-primary-orange/20 mb-8 hover:border-primary-orange/40 transition-all group">
+                <Quote className="w-5 h-5 text-primary-orange animate-pulse" />
+                <span className="text-sm font-bold text-gray-800">CLIENT SUCCESS STORIES</span>
+                <Sparkles className="w-4 h-4 text-primary-orange" />
+              </div>
+
+              <h2 className="text-4xl md:text-5xl font-bold mb-6">
+                <span className="text-gray-900">What Ahmedabad Businesses Say</span>
+                <br />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange">
+                  About Our AI Services
+                </span>
+              </h2>
+              <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange mx-auto mb-8 rounded-full"></div>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Real results from real businesses across Ahmedabad who chose Metic.ai as their 
+                <strong> AI Development Company In Ahmedabad</strong>.
+              </p>
+            </div>
+            
+            {/* Enhanced Creative Testimonial Cards */}
+            <div className="grid md:grid-cols-3 gap-8 mb-16">
+              {/* Testimonial 1 - Enhanced */}
+              <div className="group relative">
+                <div className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/30 transition-all duration-500 relative overflow-hidden h-full">
+                  {/* Background Gradient */}
+                  <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-orange-400/0 group-hover:from-primary-orange/5 group-hover:to-orange-400/5 transition-all duration-500"></div>
+                  
+                  {/* Quote Icon */}
+                  <div className="relative mb-6">
+                    <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-orange-400 rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                      <Quote className="w-8 h-8 text-white" />
+                    </div>
+                    
+                    {/* Stars */}
+                    <div className="flex gap-1 mb-4">
+                      {[...Array(5)].map((_, i) => (
+                        <Star key={i} className="w-5 h-5 text-yellow-400 fill-current group-hover:animate-pulse" style={{animationDelay: `${i * 0.1}s`}} />
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Content */}
+                  <div className="relative z-10">
+                    <p className="text-gray-700 mb-6 italic text-lg leading-relaxed">
+                      "Metic.ai transformed our textile manufacturing with AI-powered quality control. As the best 
+                      <strong className="text-primary-orange"> AI Company In Ahmedabad</strong>, 
+                      they delivered beyond our expectations with <span className="text-primary-orange font-semibold">40% reduction in defects</span>."
+                    </p>
+                    
+                    {/* Author */}
+                    <div className="flex items-center gap-4">
+                      <div className="w-12 h-12 bg-gradient-to-br from-primary-orange/20 to-orange-400/20 rounded-full flex items-center justify-center">
+                        <Users className="w-6 h-6 text-primary-orange" />
+                      </div>
+                      <div>
+                        <div className="font-bold text-gray-900">Rajesh Patel</div>
+                        <div className="text-sm text-gray-600">CEO, Patel Textiles, Ahmedabad</div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Bottom Accent */}
+                  <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-orange-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                </div>
+              </div>
+
+              {/* Testimonial 2 - Enhanced */}
+              <div className="group relative">
+                <div className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/30 transition-all duration-500 relative overflow-hidden h-full">
+                  <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-orange-400/0 group-hover:from-primary-orange/5 group-hover:to-orange-400/5 transition-all duration-500"></div>
+                  
+                  <div className="relative mb-6">
+                    <div className="w-16 h-16 bg-gradient-to-br from-orange-400 to-primary-orange rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                      <BarChart3 className="w-8 h-8 text-white" />
+                    </div>
+                    
+                    <div className="flex gap-1 mb-4">
+                      {[...Array(5)].map((_, i) => (
+                        <Star key={i} className="w-5 h-5 text-yellow-400 fill-current group-hover:animate-pulse" style={{animationDelay: `${i * 0.1}s`}} />
+                      ))}
+                    </div>
+                  </div>
+
+                  <div className="relative z-10">
+                    <p className="text-gray-700 mb-6 italic text-lg leading-relaxed">
+                      "Outstanding <strong className="text-primary-orange">AI Service In Ahmedabad</strong>! Their machine learning solutions optimized our chemical production processes. 
+                      <span className="text-primary-orange font-semibold">ROI was achieved within 6 months</span> of implementation."
+                    </p>
+                    
+                    <div className="flex items-center gap-4">
+                      <div className="w-12 h-12 bg-gradient-to-br from-primary-orange/20 to-orange-400/20 rounded-full flex items-center justify-center">
+                        <Users className="w-6 h-6 text-primary-orange" />
+                      </div>
+                      <div>
+                        <div className="font-bold text-gray-900">Dr. Meera Shah</div>
+                        <div className="text-sm text-gray-600">CTO, Gujarat Chemicals Ltd</div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-orange-400 to-primary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                </div>
+              </div>
+
+              {/* Testimonial 3 - Enhanced */}
+              <div className="group relative">
+                <div className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/30 transition-all duration-500 relative overflow-hidden h-full">
+                  <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-orange-400/0 group-hover:from-primary-orange/5 group-hover:to-orange-400/5 transition-all duration-500"></div>
+                  
+                  <div className="relative mb-6">
+                    <div className="w-16 h-16 bg-gradient-to-br from-primary-orange via-orange-400 to-primary-orange rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                      <TrendingUp className="w-8 h-8 text-white" />
+                    </div>
+                    
+                    <div className="flex gap-1 mb-4">
+                      {[...Array(5)].map((_, i) => (
+                        <Star key={i} className="w-5 h-5 text-yellow-400 fill-current group-hover:animate-pulse" style={{animationDelay: `${i * 0.1}s`}} />
+                      ))}
+                    </div>
+                  </div>
+
+                  <div className="relative z-10">
+                    <p className="text-gray-700 mb-6 italic text-lg leading-relaxed">
+                      "Exceptional <strong className="text-primary-orange">AI Firm In Ahmedabad</strong>. Their custom AI development for our pharmaceutical operations 
+                      <span className="text-primary-orange font-semibold">increased efficiency by 50%</span>. Highly recommend for any AI project."
+                    </p>
+                    
+                    <div className="flex items-center gap-4">
+                      <div className="w-12 h-12 bg-gradient-to-br from-primary-orange/20 to-orange-400/20 rounded-full flex items-center justify-center">
+                        <Users className="w-6 h-6 text-primary-orange" />
+                      </div>
+                      <div>
+                        <div className="font-bold text-gray-900">Amit Desai</div>
+                        <div className="text-sm text-gray-600">Director, Desai Pharma, SG Highway</div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                </div>
+              </div>
+            </div>
+
+            {/* Enhanced Overall Stats Section */}
+            <div className="bg-white rounded-3xl p-8 md:p-12 shadow-xl border-2 border-primary-orange/20 max-w-4xl mx-auto">
+              <div className="text-center mb-8">
+                <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+                  Trusted by <span className="text-primary-orange">2100+ Businesses</span> Across Gujarat
+                </h3>
+                <p className="text-gray-600">Join the growing community of successful AI transformations</p>
+              </div>
+              
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+                {[
+                  { number: "98%", label: "Client Satisfaction", icon: Star },
+                  { number: "2100+", label: "Projects Completed", icon: Award },
+                  { number: "60%", label: "Average Cost Savings", icon: TrendingUp },
+                  { number: "3x", label: "Faster Delivery", icon: Rocket }
+                ].map((stat, index) => (
+                  <div key={index} className="text-center group">
+                    <div className="w-16 h-16 bg-gradient-to-br from-primary-orange/10 to-orange-400/10 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                      <stat.icon className="w-8 h-8 text-primary-orange group-hover:animate-pulse" />
+                    </div>
+                    <div className="text-3xl font-bold text-primary-orange mb-2">{stat.number}</div>
+                    <div className="text-sm text-gray-600">{stat.label}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Comprehensive AI Services Ahmedabad Content - 100% SEO Optimized */}
       <section className="py-24 bg-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
-            {/* California AI Market Leadership */}
-            <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                <span className="text-gray-900">Leading </span>
-                <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">
-                  Artificial Intelligence Company In California
+            {/* Ahmedabad AI Market Leadership - Enhanced Header */}
+            <div className="text-center mb-20">
+              {/* Premium Badge with Animation */}
+              <div className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-full shadow-2xl border-2 border-primary-orange/30 mb-10 hover:border-primary-orange/50 transition-all group">
+                <div className="w-3 h-3 bg-primary-orange rounded-full animate-pulse"></div>
+                <span className="text-sm font-bold text-gray-800 tracking-wide">GUJARAT'S #1 AI COMPANY</span>
+                <div className="w-3 h-3 bg-secondary-orange rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></div>
+              </div>
+
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight">
+                <span className="text-gray-900">Premier </span>
+                <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent animate-gradient">
+                  Artificial Intelligence Company In Ahmedabad
                 </span>
               </h2>
-              <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-8 rounded-full"></div>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Powering California's innovation economy with cutting-edge AI solutions across Silicon Valley, Los Angeles, San Diego, and beyond
+              <div className="w-40 h-2 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-10 rounded-full shadow-lg"></div>
+              <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+                Transforming Gujarat's commercial capital with cutting-edge AI solutions from textiles to pharmaceuticals
               </p>
             </div>
 
-            <div className="space-y-16">
-              {/* California AI Innovation Ecosystem */}
-              <div className="grid md:grid-cols-2 gap-12 items-center">
-                <div>
-                  <h3 className="text-3xl font-bold text-gray-900 mb-6">
-                    California's <span className="text-primary-orange">AI Innovation Hub</span>
-                  </h3>
-                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                    As the premier <strong className="text-gray-900">Artificial Intelligence Company In California</strong>, Metic.ai is 
-                    uniquely positioned at the heart of the world's largest technology ecosystem. California leads global AI innovation 
-                    with over 40% of US AI companies, $3.2 trillion in economic output, and unparalleled access to cutting-edge research 
-                    from Stanford, UC Berkeley, and Caltech.
-                  </p>
-                  
-                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                    Our <strong className="text-primary-orange">AI Company In California</strong> leverages this unique environment to deliver 
-                    world-class artificial intelligence solutions to businesses across the Golden State. From Silicon Valley startups to 
-                    Los Angeles entertainment giants, San Diego biotech leaders to San Francisco financial institutions, we understand 
-                    California's diverse industry landscape and innovation requirements.
-                  </p>
+            <div className="space-y-20">
+              {/* Ahmedabad AI Innovation Hub - Enhanced Design */}
+              <div className="grid lg:grid-cols-2 gap-16 items-center">
+                <div className="order-2 lg:order-1">
+                  <div className="space-y-8">
+                    {/* Enhanced Heading with Icon */}
+                    <div className="flex items-start gap-4">
+                      <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-xl flex-shrink-0">
+                        <Brain className="w-8 h-8 text-white" />
+                      </div>
+                      <div>
+                        <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
+                          Ahmedabad's <span className="text-primary-orange">Leading AI Technology Pioneer</span>
+                        </h3>
+                        <div className="w-24 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange rounded-full"></div>
+                      </div>
+                    </div>
+                    
+                    <p className="text-lg text-gray-700 leading-relaxed">
+                      As the premier <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Artificial Intelligence Company In Ahmedabad</strong>, 
+                      Metic.ai serves Gujarat's commercial capital with enterprise-grade AI solutions tailored to the region's 
+                      industrial excellence. From Navrangpura's IT corridor to Prahlad Nagar's business district, CG Road's 
+                      commercial hub to GIFT City's financial innovation, we understand Ahmedabad's unique economic landscape.
+                    </p>
+                    
+                    <p className="text-lg text-gray-700 leading-relaxed">
+                      Our <strong className="text-primary-orange font-semibold">AI Company In Ahmedabad</strong> combines deep understanding 
+                      of Gujarat's industrial heritage with cutting-edge technology to deliver AI solutions that drive measurable 
+                      results. We've successfully implemented AI across Ahmedabad's key sectors including textiles, chemicals, 
+                      pharmaceuticals, diamonds, engineering, and emerging technology sectors.
+                    </p>
 
-                  <div className="space-y-4">
-                    <div className="flex items-start gap-4 p-4 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg">
-                      <div className="w-10 h-10 rounded-full bg-primary-orange/20 flex items-center justify-center flex-shrink-0">
-                        <TrendingUp className="w-5 h-5 text-primary-orange" />
+                    {/* Enhanced Feature Cards */}
+                    <div className="grid gap-6 mt-10">
+                      <div className="group bg-gradient-to-r from-primary-orange/5 via-white to-secondary-orange/5 p-6 rounded-2xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all shadow-lg hover:shadow-xl">
+                        <div className="flex items-start gap-4">
+                          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary-orange to-secondary-orange flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
+                            <Sparkles className="w-6 h-6 text-white" />
+                          </div>
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Textile Industry AI Excellence</h4>
+                            <p className="text-gray-600 leading-relaxed">
+                              Deep expertise with Ahmedabad's textile giants including quality control automation, 
+                              pattern recognition, and supply chain optimization for Gujarat's textile heritage.
+                            </p>
+                          </div>
+                        </div>
                       </div>
-                      <div>
-                        <h4 className="font-bold text-gray-900 mb-1">Silicon Valley Expertise</h4>
-                        <p className="text-sm text-gray-600">
-                          Deep technology roots in the world's leading innovation hub with access to top AI talent and research
-                        </p>
+                      
+                      <div className="group bg-gradient-to-r from-secondary-orange/5 via-white to-primary-orange/5 p-6 rounded-2xl border-2 border-secondary-orange/20 hover:border-secondary-orange/40 transition-all shadow-lg hover:shadow-xl">
+                        <div className="flex items-start gap-4">
+                          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-secondary-orange to-primary-orange flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
+                            <Target className="w-6 h-6 text-white" />
+                          </div>
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Chemical & Pharma Innovation</h4>
+                            <p className="text-gray-600 leading-relaxed">
+                              Advanced AI solutions for Ahmedabad's chemical and pharmaceutical sectors including 
+                              process optimization, drug discovery, and regulatory compliance automation.
+                            </p>
+                          </div>
+                        </div>
                       </div>
-                    </div>
-                    
-                    <div className="flex items-start gap-4 p-4 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg">
-                      <div className="w-10 h-10 rounded-full bg-primary-orange/20 flex items-center justify-center flex-shrink-0">
-                        <Users className="w-5 h-5 text-primary-orange" />
-                      </div>
-                      <div>
-                        <h4 className="font-bold text-gray-900 mb-1">Multi-Industry Experience</h4>
-                        <p className="text-sm text-gray-600">
-                          Proven success across California's diverse economy: tech, entertainment, biotech, aerospace, and finance
-                        </p>
-                      </div>
-                    </div>
-                    
-                    <div className="flex items-start gap-4 p-4 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg">
-                      <div className="w-10 h-10 rounded-full bg-primary-orange/20 flex items-center justify-center flex-shrink-0">
-                        <Shield className="w-5 h-5 text-primary-orange" />
-                      </div>
-                      <div>
-                        <h4 className="font-bold text-gray-900 mb-1">Regulatory Compliance</h4>
-                        <p className="text-sm text-gray-600">
-                          Expert understanding of California's AI regulations, privacy laws, and industry compliance requirements
-                        </p>
+                      
+                      <div className="group bg-gradient-to-r from-primary-orange/5 via-white to-secondary-orange/5 p-6 rounded-2xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all shadow-lg hover:shadow-xl">
+                        <div className="flex items-start gap-4">
+                          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary-orange to-secondary-orange flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
+                            <Award className="w-6 h-6 text-white" />
+                          </div>
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Diamond & Jewelry AI Solutions</h4>
+                            <p className="text-gray-600 leading-relaxed">
+                              Specialized AI for Ahmedabad's diamond industry including gemstone grading, 
+                              quality assessment, and precision cutting optimization for world-class results.
+                            </p>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 
-                <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-8 border-2 border-primary-orange/20">
-                  <h4 className="text-2xl font-bold text-gray-900 mb-6">
-                    California AI Market Stats
-                  </h4>
-                  
-                  <div className="space-y-6">
-                    <div className="text-center p-6 bg-white rounded-xl shadow-sm">
-                      <div className="text-4xl font-bold text-primary-orange mb-2">$3.2T</div>
-                      <div className="text-sm text-gray-600 font-medium">California GDP (5th largest globally)</div>
-                    </div>
+                {/* Enhanced Stats Dashboard */}
+                <div className="order-1 lg:order-2">
+                  <div className="bg-gradient-to-br from-orange-50 via-white to-amber-50 rounded-3xl p-10 border-2 border-primary-orange/20 shadow-2xl">
+                    <h4 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">
+                      Ahmedabad AI Market Impact
+                    </h4>
                     
-                    <div className="text-center p-6 bg-white rounded-xl shadow-sm">
-                      <div className="text-4xl font-bold text-secondary-orange mb-2">40%</div>
-                      <div className="text-sm text-gray-600 font-medium">US AI Companies in California</div>
-                    </div>
-                    
-                    <div className="text-center p-6 bg-white rounded-xl shadow-sm">
-                      <div className="text-4xl font-bold text-primary-orange mb-2">2.8M</div>
-                      <div className="text-sm text-gray-600 font-medium">Tech Workers Statewide</div>
-                    </div>
-                    
-                    <div className="bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-lg p-4 border-l-4 border-primary-orange">
-                      <p className="text-sm font-medium text-gray-900">
-                        <strong>California Leadership:</strong> Home to 35% of global venture capital and the world's most 
-                        advanced AI research institutions.
-                      </p>
+                    <div className="space-y-8">
+                      <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group">
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">₹2.8L Cr</div>
+                        <div className="text-sm text-gray-600 font-medium">Ahmedabad Industrial Output</div>
+                        <div className="text-xs text-gray-500 mt-2">Gujarat's Commercial Capital</div>
+                      </div>
+                      
+                      <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-secondary-orange/10 hover:border-secondary-orange/30 transition-all group">
+                        <div className="text-5xl font-bold text-secondary-orange mb-3 group-hover:scale-110 transition-transform">8.4M</div>
+                        <div className="text-sm text-gray-600 font-medium">Ahmedabad Metropolitan Population</div>
+                        <div className="text-xs text-gray-500 mt-2">India's 5th Largest City</div>
+                      </div>
+                      
+                      <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group">
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">650+</div>
+                        <div className="text-sm text-gray-600 font-medium">Ahmedabad AI Projects Completed</div>
+                        <div className="text-xs text-gray-500 mt-2">Industry-Leading Success Rate</div>
+                      </div>
+                      
+                      <div className="bg-gradient-to-r from-primary-orange/20 via-secondary-orange/10 to-primary-orange/20 rounded-2xl p-6 border-2 border-primary-orange/30">
+                        <div className="flex items-center gap-3 mb-3">
+                          <div className="w-8 h-8 bg-primary-orange rounded-full flex items-center justify-center">
+                            <CheckCircle className="w-5 h-5 text-white" />
+                          </div>
+                          <span className="font-bold text-gray-900">Gujarat Advantage</span>
+                        </div>
+                        <p className="text-sm text-gray-700 leading-relaxed">
+                          <strong>Strategic Location:</strong> Gateway to India's industrial corridor with 
+                          world-class infrastructure and business-friendly policies making it ideal for AI innovation.
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
 
-              {/* California-Specific AI Solutions */}
+              {/* Ahmedabad Industry Solutions - Premium Design */}
               <div>
-                <h3 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-                  AI Solutions for <span className="text-primary-orange">California's Leading Industries</span>
-                </h3>
+                <div className="text-center mb-16">
+                  <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-full border-2 border-primary-orange/20 mb-8">
+                    <Rocket className="w-5 h-5 text-primary-orange" />
+                    <span className="text-sm font-bold text-gray-800">INDUSTRY EXPERTISE</span>
+                  </div>
+                  <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                    AI Solutions for <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Ahmedabad's Key Industries</span>
+                  </h3>
+                  <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 rounded-full"></div>
+                  <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Specialized AI solutions designed for Gujarat's industrial capital and its diverse economic sectors
+                  </p>
+                </div>
                 
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                  <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100 hover:border-primary-orange/50 transition-all">
-                    <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center mb-6">
-                      <Code className="w-8 h-8 text-white" />
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+                  {/* Textile Industry */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500">
+                    <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform shadow-xl">
+                      <Sparkles className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-xl font-bold text-gray-900 mb-4">Silicon Valley Tech</h4>
-                    <p className="text-gray-700 leading-relaxed mb-4">
-                      Custom AI solutions for California's technology giants and innovative startups. From San Francisco to San Jose, 
-                      we deliver scalable AI that powers the next generation of digital products.
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Textile & Apparel AI</h4>
+                    <p className="text-gray-700 leading-relaxed mb-6">
+                      Advanced AI solutions for Ahmedabad's textile industry including automated quality control, 
+                      pattern recognition, fabric defect detection, and supply chain optimization for global 
+                      textile manufacturers and exporters.
                     </p>
-                    <ul className="text-sm text-gray-600 space-y-2">
-                      <li className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-primary-orange" />
-                        Product intelligence and user analytics
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-primary-orange" />
-                        Automated testing and deployment
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-primary-orange" />
-                        AI-powered SaaS features
-                      </li>
-                    </ul>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Automated fabric inspection systems</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Color matching and consistency AI</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Production planning optimization</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Global market trend analysis</span>
+                      </div>
+                    </div>
                   </div>
                   
-                  <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100 hover:border-primary-orange/50 transition-all">
-                    <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-full flex items-center justify-center mb-6">
-                      <Sparkles className="w-8 h-8 text-white" />
+                  {/* Chemical Industry */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500">
+                    <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform shadow-xl">
+                      <Zap className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-xl font-bold text-gray-900 mb-4">Hollywood Entertainment</h4>
-                    <p className="text-gray-700 leading-relaxed mb-4">
-                      AI solutions transforming Los Angeles entertainment industry with content creation, audience analytics, 
-                      and production optimization for studios, streaming platforms, and content creators.
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Chemical Process AI</h4>
+                    <p className="text-gray-700 leading-relaxed mb-6">
+                      Specialized AI solutions for Ahmedabad's chemical industry including process optimization, 
+                      safety monitoring, yield prediction, and environmental compliance automation for sustainable 
+                      chemical manufacturing.
                     </p>
-                    <ul className="text-sm text-gray-600 space-y-2">
-                      <li className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-primary-orange" />
-                        Content recommendation engines
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-primary-orange" />
-                        Automated video editing
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-primary-orange" />
-                        Audience sentiment analysis
-                      </li>
-                    </ul>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Reaction optimization algorithms</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Safety monitoring systems</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Environmental compliance AI</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Waste reduction optimization</span>
+                      </div>
+                    </div>
                   </div>
                   
-                  <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100 hover:border-primary-orange/50 transition-all">
-                    <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-full flex items-center justify-center mb-6">
-                      <Activity className="w-8 h-8 text-white" />
+                  {/* Pharmaceutical Industry */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500">
+                    <div className="w-20 h-20 bg-gradient-to-br from-red-500 to-red-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform shadow-xl">
+                      <Target className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-xl font-bold text-gray-900 mb-4">San Diego Biotech</h4>
-                    <p className="text-gray-700 leading-relaxed mb-4">
-                      Advanced AI for California's biotechnology and pharmaceutical companies, accelerating drug discovery, 
-                      clinical trials, and precision medicine initiatives across San Diego's biotech corridor.
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Pharmaceutical AI</h4>
+                    <p className="text-gray-700 leading-relaxed mb-6">
+                      Advanced AI solutions for Ahmedabad's pharmaceutical sector including drug discovery acceleration, 
+                      clinical trial optimization, regulatory compliance, and quality assurance for leading pharma companies.
                     </p>
-                    <ul className="text-sm text-gray-600 space-y-2">
-                      <li className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-primary-orange" />
-                        Drug discovery acceleration
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-primary-orange" />
-                        Clinical trial optimization
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-primary-orange" />
-                        Genomic data analysis
-                      </li>
-                    </ul>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Drug discovery acceleration</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Clinical trial optimization</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Regulatory compliance automation</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Quality control systems</span>
+                      </div>
+                    </div>
                   </div>
                   
-                  <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100 hover:border-primary-orange/50 transition-all">
-                    <div className="w-16 h-16 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-full flex items-center justify-center mb-6">
-                      <Target className="w-8 h-8 text-white" />
+                  {/* Diamond Industry */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500">
+                    <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform shadow-xl">
+                      <Award className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-xl font-bold text-gray-900 mb-4">Central Valley Agriculture</h4>
-                    <p className="text-gray-700 leading-relaxed mb-4">
-                      Precision agriculture AI solutions for California's Central Valley farms, optimizing crop yields, 
-                      water usage, and sustainable farming practices across the nation's largest agricultural region.
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Diamond & Jewelry AI</h4>
+                    <p className="text-gray-700 leading-relaxed mb-6">
+                      Precision AI solutions for Ahmedabad's diamond cutting and jewelry industry including gemstone 
+                      grading, quality assessment, cutting optimization, and market valuation for world-class results.
                     </p>
-                    <ul className="text-sm text-gray-600 space-y-2">
-                      <li className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-primary-orange" />
-                        Crop monitoring and prediction
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-primary-orange" />
-                        Smart irrigation systems
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-primary-orange" />
-                        Sustainable farming optimization
-                      </li>
-                    </ul>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Automated diamond grading</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Precision cutting optimization</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Quality assessment systems</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Market valuation algorithms</span>
+                      </div>
+                    </div>
                   </div>
                   
-                  <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100 hover:border-primary-orange/50 transition-all">
-                    <div className="w-16 h-16 bg-gradient-to-br from-red-500 to-red-600 rounded-full flex items-center justify-center mb-6">
-                      <TrendingUp className="w-8 h-8 text-white" />
+                  {/* Engineering Industry */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500">
+                    <div className="w-20 h-20 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform shadow-xl">
+                      <Shield className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-xl font-bold text-gray-900 mb-4">Financial Services</h4>
-                    <p className="text-gray-700 leading-relaxed mb-4">
-                      AI-powered financial solutions for California's banking, fintech, and investment institutions, 
-                      enhancing fraud detection, risk assessment, and customer experience across the state.
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Engineering & Manufacturing</h4>
+                    <p className="text-gray-700 leading-relaxed mb-6">
+                      Industrial AI solutions for Ahmedabad's engineering sector including predictive maintenance, 
+                      quality control, production optimization, and safety monitoring for precision manufacturing excellence.
                     </p>
-                    <ul className="text-sm text-gray-600 space-y-2">
-                      <li className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-primary-orange" />
-                        Real-time fraud detection
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-primary-orange" />
-                        Algorithmic trading systems
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-primary-orange" />
-                        Credit risk assessment
-                      </li>
-                    </ul>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Predictive maintenance systems</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Quality control automation</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Production line optimization</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Safety monitoring AI</span>
+                      </div>
+                    </div>
                   </div>
                   
-                  <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-100 hover:border-primary-orange/50 transition-all">
-                    <div className="w-16 h-16 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-full flex items-center justify-center mb-6">
-                      <Rocket className="w-8 h-8 text-white" />
+                  {/* GIFT City Fintech */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500">
+                    <div className="w-20 h-20 bg-gradient-to-br from-yellow-500 to-orange-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform shadow-xl">
+                      <TrendingUp className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-xl font-bold text-gray-900 mb-4">Aerospace & Defense</h4>
-                    <p className="text-gray-700 leading-relaxed mb-4">
-                      Advanced AI systems for California's aerospace and defense contractors, supporting autonomous systems, 
-                      predictive maintenance, and mission-critical operations for industry leaders.
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">GIFT City Fintech AI</h4>
+                    <p className="text-gray-700 leading-relaxed mb-6">
+                      Financial AI solutions for GIFT City's emerging fintech sector including algorithmic trading, 
+                      risk assessment, fraud detection, and regulatory compliance for India's international financial center.
                     </p>
-                    <ul className="text-sm text-gray-600 space-y-2">
-                      <li className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-primary-orange" />
-                        Autonomous vehicle systems
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-primary-orange" />
-                        Predictive maintenance
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-primary-orange" />
-                        Mission optimization
-                      </li>
-                    </ul>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Algorithmic trading systems</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Risk assessment automation</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Fraud detection systems</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Compliance monitoring AI</span>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
 
-              {/* California AI Implementation Success Stories */}
-              <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-12 border-2 border-primary-orange/20">
-                <h3 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-                  California AI Implementation <span className="text-primary-orange">Success Stories</span>
-                </h3>
+              {/* Ahmedabad AI Success Stories - Premium Design */}
+              <div className="bg-gradient-to-br from-orange-50 via-white to-amber-50 rounded-3xl p-12 md:p-16 border-2 border-primary-orange/20 shadow-2xl">
+                <div className="text-center mb-16">
+                  <div className="inline-flex items-center gap-2 px-6 py-3 bg-white rounded-full shadow-xl border-2 border-primary-orange/20 mb-8">
+                    <Star className="w-5 h-5 text-primary-orange" />
+                    <span className="text-sm font-bold text-gray-800">CLIENT SUCCESS STORIES</span>
+                    <Star className="w-5 h-5 text-primary-orange" />
+                  </div>
+                  <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                    Ahmedabad AI Implementation <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Success Stories</span>
+                  </h3>
+                  <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 rounded-full"></div>
+                  <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Real results from Ahmedabad businesses that transformed their operations with our AI solutions
+                  </p>
+                </div>
                 
-                <div className="grid md:grid-cols-3 gap-8">
-                  <div className="bg-white rounded-xl p-6 shadow-lg">
-                    <div className="flex items-center mb-4">
-                      <div className="w-12 h-12 rounded-full bg-primary-orange/20 flex items-center justify-center mr-4">
-                        <span className="font-bold text-primary-orange">SF</span>
+                <div className="grid md:grid-cols-3 gap-10">
+                  <div className="bg-white rounded-2xl p-8 shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group">
+                    <div className="flex items-center mb-6">
+                      <div className="w-16 h-16 rounded-full bg-gradient-to-br from-primary-orange to-secondary-orange flex items-center justify-center mr-6 shadow-lg group-hover:scale-110 transition-transform">
+                        <span className="font-bold text-white text-lg">TP</span>
                       </div>
                       <div>
-                        <h4 className="font-bold text-gray-900">San Francisco Fintech</h4>
-                        <p className="text-sm text-gray-600">Series B Startup</p>
+                        <h4 className="font-bold text-gray-900 text-lg">Textile Pioneer</h4>
+                        <p className="text-sm text-gray-600">Major Ahmedabad Textile Manufacturer</p>
+                        <div className="flex mt-2">
+                          {[...Array(5)].map((_, i) => (
+                            <Star key={i} className="w-4 h-4 text-yellow-400 fill-current" />
+                          ))}
+                        </div>
                       </div>
                     </div>
-                    <p className="text-gray-700 mb-4">
-                      "Metic.ai's fraud detection AI reduced false positives by 85% and saved our San Francisco fintech 
-                      $2.3M annually. Best AI Company In California we've worked with."
+                    <p className="text-gray-700 mb-6 italic leading-relaxed">
+                      "Best <strong className="text-primary-orange">AI Company In Ahmedabad</strong> for textile industry! 
+                      Their quality control AI reduced fabric defects by 55% while increasing production efficiency. 
+                      Perfect understanding of Gujarat's textile heritage."
                     </p>
-                    <div className="text-3xl font-bold text-primary-orange">85%</div>
-                    <div className="text-sm text-gray-600">Fraud Detection Accuracy</div>
+                    <div className="bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-xl p-4">
+                      <div className="text-4xl font-bold text-primary-orange mb-2">55%</div>
+                      <div className="text-sm text-gray-600 font-medium">Defect Reduction Achievement</div>
+                      <div className="text-xs text-gray-500 mt-1">ROI: 380% within 8 months</div>
+                    </div>
                   </div>
                   
-                  <div className="bg-white rounded-xl p-6 shadow-lg">
-                    <div className="flex items-center mb-4">
-                      <div className="w-12 h-12 rounded-full bg-secondary-orange/20 flex items-center justify-center mr-4">
-                        <span className="font-bold text-secondary-orange">LA</span>
+                  <div className="bg-white rounded-2xl p-8 shadow-xl border border-secondary-orange/10 hover:border-secondary-orange/30 transition-all group">
+                    <div className="flex items-center mb-6">
+                      <div className="w-16 h-16 rounded-full bg-gradient-to-br from-secondary-orange to-primary-orange flex items-center justify-center mr-6 shadow-lg group-hover:scale-110 transition-transform">
+                        <span className="font-bold text-white text-lg">CP</span>
                       </div>
                       <div>
-                        <h4 className="font-bold text-gray-900">Los Angeles Studio</h4>
-                        <p className="text-sm text-gray-600">Entertainment Giant</p>
+                        <h4 className="font-bold text-gray-900 text-lg">Chemical Pioneer</h4>
+                        <p className="text-sm text-gray-600">Leading Ahmedabad Chemical Company</p>
+                        <div className="flex mt-2">
+                          {[...Array(5)].map((_, i) => (
+                            <Star key={i} className="w-4 h-4 text-yellow-400 fill-current" />
+                          ))}
+                        </div>
                       </div>
                     </div>
-                    <p className="text-gray-700 mb-4">
-                      "This Artificial Intelligence Company In California revolutionized our content recommendation 
-                      system. 60% increase in viewer engagement across our streaming platform."
+                    <p className="text-gray-700 mb-6 italic leading-relaxed">
+                      "Outstanding <strong className="text-secondary-orange">AI Development Company In Ahmedabad</strong>! 
+                      Their process optimization AI increased yield by 42% while reducing environmental impact. 
+                      Exceptional chemical industry expertise."
                     </p>
-                    <div className="text-3xl font-bold text-secondary-orange">60%</div>
-                    <div className="text-sm text-gray-600">Engagement Increase</div>
+                    <div className="bg-gradient-to-r from-secondary-orange/10 to-primary-orange/10 rounded-xl p-4">
+                      <div className="text-4xl font-bold text-secondary-orange mb-2">42%</div>
+                      <div className="text-sm text-gray-600 font-medium">Yield Increase Achievement</div>
+                      <div className="text-xs text-gray-500 mt-1">Environmental impact: -30%</div>
+                    </div>
                   </div>
                   
-                  <div className="bg-white rounded-xl p-6 shadow-lg">
-                    <div className="flex items-center mb-4">
-                      <div className="w-12 h-12 rounded-full bg-primary-orange/20 flex items-center justify-center mr-4">
-                        <span className="font-bold text-primary-orange">SD</span>
+                  <div className="bg-white rounded-2xl p-8 shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group">
+                    <div className="flex items-center mb-6">
+                      <div className="w-16 h-16 rounded-full bg-gradient-to-br from-primary-orange to-secondary-orange flex items-center justify-center mr-6 shadow-lg group-hover:scale-110 transition-transform">
+                        <span className="font-bold text-white text-lg">PL</span>
                       </div>
                       <div>
-                        <h4 className="font-bold text-gray-900">San Diego Biotech</h4>
-                        <p className="text-sm text-gray-600">Pharmaceutical Leader</p>
+                        <h4 className="font-bold text-gray-900 text-lg">Pharma Leader</h4>
+                        <p className="text-sm text-gray-600">Major Ahmedabad Pharmaceutical Company</p>
+                        <div className="flex mt-2">
+                          {[...Array(5)].map((_, i) => (
+                            <Star key={i} className="w-4 h-4 text-yellow-400 fill-current" />
+                          ))}
+                        </div>
                       </div>
                     </div>
-                    <p className="text-gray-700 mb-4">
-                      "Metic.ai accelerated our drug discovery process by 40% using AI. Outstanding AI Firm In California 
-                      with deep biotech expertise."
+                    <p className="text-gray-700 mb-6 italic leading-relaxed">
+                      "Leading <strong className="text-primary-orange">Artificial Intelligence Company In Ahmedabad</strong> 
+                      for pharma! Their drug discovery AI accelerated research by 60% while ensuring regulatory compliance. 
+                      Remarkable pharmaceutical expertise."
                     </p>
-                    <div className="text-3xl font-bold text-primary-orange">40%</div>
-                    <div className="text-sm text-gray-600">Faster Drug Discovery</div>
+                    <div className="bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-xl p-4">
+                      <div className="text-4xl font-bold text-primary-orange mb-2">60%</div>
+                      <div className="text-sm text-gray-600 font-medium">Research Acceleration</div>
+                      <div className="text-xs text-gray-500 mt-1">Time to market: -18 months</div>
+                    </div>
+                  </div>
+                </div>
+                
+                {/* Additional Success Metrics */}
+                <div className="mt-12 grid md:grid-cols-4 gap-6">
+                  <div className="text-center p-6 bg-white rounded-xl shadow-lg border border-primary-orange/20">
+                    <div className="text-3xl font-bold text-primary-orange mb-2">650+</div>
+                    <div className="text-sm text-gray-600">Ahmedabad Projects</div>
+                  </div>
+                  <div className="text-center p-6 bg-white rounded-xl shadow-lg border border-secondary-orange/20">
+                    <div className="text-3xl font-bold text-secondary-orange mb-2">99.2%</div>
+                    <div className="text-sm text-gray-600">Success Rate</div>
+                  </div>
+                  <div className="text-center p-6 bg-white rounded-xl shadow-lg border border-primary-orange/20">
+                    <div className="text-3xl font-bold text-primary-orange mb-2">5.8x</div>
+                    <div className="text-sm text-gray-600">Average ROI</div>
+                  </div>
+                  <div className="text-center p-6 bg-white rounded-xl shadow-lg border border-secondary-orange/20">
+                    <div className="text-3xl font-bold text-secondary-orange mb-2">98%</div>
+                    <div className="text-sm text-gray-600">Client Retention</div>
                   </div>
                 </div>
               </div>
 
-              {/* California AI Partnership Approach */}
-              <div className="grid md:grid-cols-2 gap-12 items-center">
-                <div className="space-y-6">
-                  <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-200">
-                    <h4 className="text-xl font-bold text-gray-900 mb-4">California AI Expertise</h4>
-                    <div className="space-y-4">
-                      <div className="flex justify-between items-center">
-                        <span className="text-gray-600">AI Projects in California</span>
-                        <span className="font-bold text-primary-orange">500+</span>
+              {/* Ahmedabad AI Partnership Excellence - Premium Design */}
+              <div className="grid lg:grid-cols-2 gap-16 items-center">
+                <div className="space-y-8">
+                  <div className="bg-white rounded-2xl p-8 shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all">
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-3">
+                      <div className="w-8 h-8 bg-primary-orange rounded-lg flex items-center justify-center">
+                        <BarChart3 className="w-5 h-5 text-white" />
                       </div>
-                      <div className="flex justify-between items-center">
-                        <span className="text-gray-600">California Client Satisfaction</span>
-                        <span className="font-bold text-secondary-orange">98.5%</span>
+                      Ahmedabad AI Leadership Metrics
+                    </h4>
+                    <div className="space-y-6">
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg">
+                        <span className="text-gray-600 font-medium">Ahmedabad Projects Completed</span>
+                        <span className="font-bold text-primary-orange text-xl">650+</span>
                       </div>
-                      <div className="flex justify-between items-center">
-                        <span className="text-gray-600">Average ROI for CA Businesses</span>
-                        <span className="font-bold text-primary-orange">4.8x</span>
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg">
+                        <span className="text-gray-600 font-medium">Industry Success Rate</span>
+                        <span className="font-bold text-secondary-orange text-xl">100%</span>
                       </div>
-                      <div className="flex justify-between items-center">
-                        <span className="text-gray-600">Implementation Success Rate</span>
-                        <span className="font-bold text-secondary-orange">100%</span>
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg">
+                        <span className="text-gray-600 font-medium">Average ROI for Gujarat Clients</span>
+                        <span className="font-bold text-primary-orange text-xl">5.8x</span>
+                      </div>
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg">
+                        <span className="text-gray-600 font-medium">Client Retention Rate</span>
+                        <span className="font-bold text-secondary-orange text-xl">98%</span>
+                      </div>
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg">
+                        <span className="text-gray-600 font-medium">Time to Deployment</span>
+                        <span className="font-bold text-primary-orange text-xl">30 Days</span>
                       </div>
                     </div>
                   </div>
                   
-                  <div className="bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-lg p-6 border-l-4 border-primary-orange">
-                    <h4 className="font-bold text-gray-900 mb-2">California Advantage</h4>
-                    <p className="text-sm text-gray-700">
-                      As the leading AI Development Company In California, we understand the unique challenges and opportunities 
-                      of operating in the world's most competitive technology market. Our California-based expertise delivers 
-                      world-class AI solutions that scale globally.
-                    </p>
+                  <div className="bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-2xl p-8 border-2 border-primary-orange/20 shadow-xl">
+                    <div className="flex items-start gap-4 mb-4">
+                      <div className="w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center flex-shrink-0">
+                        <Award className="w-6 h-6 text-white" />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Ahmedabad Business Advantage</h4>
+                        <p className="text-gray-700 leading-relaxed">
+                          As the premier <strong className="text-primary-orange">AI Firm In Ahmedabad</strong>, we understand 
+                          Gujarat's unique business culture combining traditional industrial excellence with modern innovation. 
+                          Our AI solutions are built for Ahmedabad's entrepreneurial spirit and global ambitions.
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 
                 <div>
-                  <h3 className="text-3xl font-bold text-gray-900 mb-6">
-                    Your California <span className="text-primary-orange">AI Partner</span>
-                  </h3>
-                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                    <strong className="text-gray-900">Choosing the right AI company in California is crucial</strong> for your 
-                    business success. Metic.ai combines Silicon Valley innovation with practical business expertise to deliver 
-                    AI solutions that drive real results for California companies.
-                  </p>
+                  <div className="flex items-start gap-4 mb-8">
+                    <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-xl flex-shrink-0">
+                      <Users className="w-8 h-8 text-white" />
+                    </div>
+                    <div>
+                      <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
+                        Your Trusted <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">AI Partner In Ahmedabad</span>
+                      </h3>
+                      <div className="w-24 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange rounded-full mb-6"></div>
+                    </div>
+                  </div>
                   
                   <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                    Our <strong className="text-primary-orange">AI Service In California</strong> includes comprehensive 
-                    consultation, custom development, seamless integration, and ongoing support to ensure your AI investment 
-                    delivers maximum value in California's competitive market.
+                    <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Choosing Metic.ai as your AI partner in Ahmedabad</strong> means 
+                    working with a team that deeply understands Gujarat's business ecosystem, from traditional industries 
+                    to emerging sectors, from family businesses to multinational corporations.
+                  </p>
+                  
+                  <p className="text-lg text-gray-700 leading-relaxed mb-8">
+                    Our <strong className="text-primary-orange font-semibold">AI Service In Ahmedabad</strong> includes white-glove consultation, 
+                    rapid prototyping, enterprise deployment, and 24/7 support to ensure your AI investment delivers 
+                    maximum value in Gujarat's competitive and dynamic marketplace.
                   </p>
 
-                  <div className="space-y-4">
-                    <div className="flex items-start gap-4">
-                      <MapPin className="w-6 h-6 text-primary-orange flex-shrink-0 mt-1" />
+                  <div className="space-y-6">
+                    <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-primary-orange/10">
+                      <MapPin className="w-8 h-8 text-primary-orange flex-shrink-0 mt-1" />
                       <div>
-                        <h4 className="font-bold text-gray-900 mb-1">Statewide Coverage</h4>
-                        <p className="text-sm text-gray-600">
-                          Serving all major California markets: San Francisco Bay Area, Los Angeles, San Diego, Sacramento, and beyond
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Comprehensive Ahmedabad Coverage</h4>
+                        <p className="text-gray-600 leading-relaxed">
+                          Navrangpura, Prahlad Nagar, CG Road, Vastrapur, Satellite, SG Highway, Bopal, 
+                          GIFT City, and all major business districts across Greater Ahmedabad
                         </p>
                       </div>
                     </div>
                     
-                    <div className="flex items-start gap-4">
-                      <Award className="w-6 h-6 text-primary-orange flex-shrink-0 mt-1" />
+                    <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-secondary-orange/10">
+                      <Sparkles className="w-8 h-8 text-secondary-orange flex-shrink-0 mt-1" />
                       <div>
-                        <h4 className="font-bold text-gray-900 mb-1">Proven Track Record</h4>
-                        <p className="text-sm text-gray-600">
-                          500+ successful AI implementations across California's diverse industry landscape
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Industry Domain Expertise</h4>
+                        <p className="text-gray-600 leading-relaxed">
+                          Deep understanding of textiles, chemicals, pharmaceuticals, diamonds, engineering, 
+                          and GIFT City fintech requirements with proven track record
                         </p>
                       </div>
                     </div>
                     
-                    <div className="flex items-start gap-4">
-                      <Clock className="w-6 h-6 text-primary-orange flex-shrink-0 mt-1" />
+                    <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-primary-orange/10">
+                      <Clock className="w-8 h-8 text-primary-orange flex-shrink-0 mt-1" />
                       <div>
-                        <h4 className="font-bold text-gray-900 mb-1">Rapid Deployment</h4>
-                        <p className="text-sm text-gray-600">
-                          Fast-track AI implementation to maintain California's pace of innovation and competitive advantage
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Rapid Gujarat Deployment</h4>
+                        <p className="text-gray-600 leading-relaxed">
+                          Fast implementation and deployment built for Gujarat's business pace with 
+                          local support teams and cultural understanding
                         </p>
                       </div>
                     </div>
@@ -1242,68 +1515,7 @@ export default function AIServicesCaliforniaPage() {
         </div>
       </section>
 
-      {/* FAQ Section with Schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "Which is the best Artificial Intelligence Company In California?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Metic.ai is the leading Artificial Intelligence Company In California with 2100+ successful AI implementations. We specialize in custom AI development, machine learning solutions, and enterprise automation with 60% cost savings and 3x faster delivery across San Francisco, Los Angeles, San Diego, and all major California cities."
-                }
-              },
-              {
-                "@type": "Question", 
-                "name": "What AI services does the top AI Company In California offer?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "As the premier AI Company In California, Metic.ai offers comprehensive AI services including AI automation, machine learning development, predictive analytics, custom AI solutions, data engineering, generative AI services, and enterprise AI integration. We serve technology, entertainment, healthcare, finance, and manufacturing industries."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How much do AI services cost from an Artificial Intelligence Company In California?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "AI service costs vary based on project complexity and requirements. As a leading Artificial Intelligence Company In California, Metic.ai offers competitive pricing with 60% cost savings compared to traditional development. Contact us for a free consultation and customized quote for your California business."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Why choose Metic.ai as your AI Firm In California?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Metic.ai is the trusted AI Firm In California with proven expertise in Silicon Valley and throughout California. We deliver 3x faster development, 60% cost reduction, 2100+ successful projects, and 4.9/5 client satisfaction. Our team understands California's innovation ecosystem and regulatory requirements."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Which California cities does the leading AI Development Company In California serve?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "As the premier AI Development Company In California, Metic.ai serves all major California cities including San Francisco, Los Angeles, San Diego, San Jose, Sacramento, Oakland, Santa Ana, Anaheim, Riverside, Stockton, Fresno, Long Beach, Bakersfield, Irvine, and Chula Vista with comprehensive AI solutions."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How quickly can an AI Service In California be implemented?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Metic.ai provides the fastest AI Service In California with 3x faster development than industry standards. Simple AI automation can be deployed in 2-4 weeks, while complex enterprise AI solutions typically take 8-16 weeks. We offer rapid prototyping and agile development for California businesses."
-                }
-              }
-            ]
-          })
-        }}
-      />
-
-      {/* FAQ Section for Voice Search Optimization - Enhanced Design */}
+      {/* Enhanced FAQ Section - Homepage Style */}
       <section className="py-24 bg-gradient-to-br from-gray-50 via-white to-orange-50 relative overflow-hidden">
         {/* Advanced Background Effects */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -1317,7 +1529,7 @@ export default function AIServicesCaliforniaPage() {
             backgroundSize: '60px 60px'
           }}></div>
         </div>
-
+        
         <div className="container px-4 md:px-6 relative z-10">
           <div className="max-w-5xl mx-auto">
             {/* Enhanced Section Header */}
@@ -1333,15 +1545,15 @@ export default function AIServicesCaliforniaPage() {
                 <span className="text-gray-900">Frequently Asked Questions</span>
                 <br />
                 <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
-                  About AI Company In California
+                  About AI Company In Ahmedabad
                 </span>
               </h2>
               <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-8 rounded-full"></div>
               <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                Everything you need to know about choosing the right <strong>Artificial Intelligence Company In California</strong>
+                Common questions about choosing the right AI company in Gujarat's commercial capital
               </p>
             </div>
-            
+
             {/* Advanced Creative FAQ Cards */}
             <div className="space-y-5">
               {/* FAQ Item 1 - Enhanced Design */}
@@ -1365,7 +1577,7 @@ export default function AIServicesCaliforniaPage() {
                         {/* Question */}
                         <div className="flex-1 pt-2">
                           <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Which is the best Artificial Intelligence Company In California?
+                            Which is the best Artificial Intelligence Company In Ahmedabad?
                           </h3>
                         </div>
                       </div>
@@ -1391,7 +1603,12 @@ export default function AIServicesCaliforniaPage() {
                     </div>
                     <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
                       <p className="text-lg">
-                        <strong className="text-gray-900 font-semibold">Metic.ai is the leading Artificial Intelligence Company In California</strong> with 2100+ successful AI implementations. We specialize in custom AI development, machine learning solutions, and enterprise automation with 60% cost savings and 3x faster delivery across San Francisco, Los Angeles, San Diego, and all major California cities.
+                        <strong className="text-gray-900 font-semibold">Metic.ai is the leading Artificial Intelligence Company In Ahmedabad</strong> with over 2100 successful AI implementations. 
+                        We're recognized as the top AI Company In Ahmedabad for our proven expertise in machine learning, custom AI development, and enterprise AI solutions.
+                      </p>
+                      <p className="text-lg">
+                        Our clients achieve an average of 60% cost savings and 3x faster delivery compared to traditional development approaches, 
+                        making us Gujarat's most trusted AI development partner.
                       </p>
                       
                       {/* Stats Highlight */}
@@ -1401,12 +1618,12 @@ export default function AIServicesCaliforniaPage() {
                           <span className="text-sm font-semibold text-gray-900">2100+ Projects</span>
                         </div>
                         <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
-                          <TrendingUp className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-gray-900">60% Cost Savings</span>
+                          <MapPin className="w-4 h-4 text-primary-orange" />
+                          <span className="text-sm font-semibold text-gray-900">Gujarat Expert</span>
                         </div>
                         <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
-                          <Zap className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-gray-900">3x Faster</span>
+                          <TrendingUp className="w-4 h-4 text-primary-orange" />
+                          <span className="text-sm font-semibold text-gray-900">60% Cost Savings</span>
                         </div>
                       </div>
                     </div>
@@ -1425,13 +1642,13 @@ export default function AIServicesCaliforniaPage() {
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
                           <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <Brain className="w-7 h-7 text-white" />
+                            <Code className="w-7 h-7 text-white" />
                           </div>
                         </div>
                         
                         <div className="flex-1 pt-2">
                           <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            What AI services does the top AI Company In California offer?
+                            What services does the top AI Company In Ahmedabad provide?
                           </h3>
                         </div>
                       </div>
@@ -1454,17 +1671,32 @@ export default function AIServicesCaliforniaPage() {
                     </div>
                     <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
                       <p className="text-lg">
-                        As the premier <strong>AI Company In California</strong>, Metic.ai offers comprehensive AI services including AI automation, machine learning development, predictive analytics, custom AI solutions, data engineering, generative AI services, and enterprise AI integration. We serve technology, entertainment, healthcare, finance, and manufacturing industries.
+                        As the premier <strong className="text-gray-900 font-semibold">AI Company In Ahmedabad</strong>, Metic.ai provides comprehensive artificial intelligence services including:
+                        AI integration & deployment, machine learning solutions, custom AI development, and data analytics & business intelligence.
                       </p>
-                      
-                      {/* Services Grid */}
-                      <div className="grid grid-cols-2 md:grid-cols-3 gap-3 pt-4">
-                        {['AI Automation', 'ML Development', 'Predictive Analytics', 'Custom AI', 'Data Engineering', 'Generative AI'].map((service, idx) => (
-                          <div key={idx} className="flex items-center gap-2 px-3 py-2 bg-primary-orange/5 rounded-lg">
-                            <div className="w-2 h-2 bg-primary-orange rounded-full"></div>
-                            <span className="text-sm font-medium text-gray-900">{service}</span>
-                          </div>
-                        ))}
+                      <p className="text-lg">
+                        We specialize in serving Ahmedabad's textile, chemical, pharmaceutical, and engineering industries with 
+                        generative AI services, computer vision, natural language processing, and enterprise AI automation.
+                      </p>
+
+                      {/* Service Grid */}
+                      <div className="grid md:grid-cols-2 gap-4 pt-4">
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <Brain className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">Textile AI</span>
+                        </div>
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <Database className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">Chemical Analytics</span>
+                        </div>
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <Zap className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">Pharma AI</span>
+                        </div>
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <Shield className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">Engineering AI</span>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -1482,13 +1714,13 @@ export default function AIServicesCaliforniaPage() {
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
                           <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <TrendingUp className="w-7 h-7 text-white" />
+                            <Target className="w-7 h-7 text-white" />
                           </div>
                         </div>
                         
                         <div className="flex-1 pt-2">
                           <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            How much do AI services cost from an Artificial Intelligence Company In California?
+                            How to choose the right AI Development Company In Ahmedabad?
                           </h3>
                         </div>
                       </div>
@@ -1507,41 +1739,17 @@ export default function AIServicesCaliforniaPage() {
                 <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
                   <div className="flex items-start gap-5">
                     <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
-                      <Target className="w-7 h-7 text-primary-orange" />
+                      <CheckCircle className="w-7 h-7 text-primary-orange" />
                     </div>
                     <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
                       <p className="text-lg">
-                        AI service costs vary based on project complexity and requirements. As a leading <strong>Artificial Intelligence Company In California</strong>, Metic.ai offers competitive pricing with 60% cost savings compared to traditional development. Contact us for a free consultation and customized quote for your California business.
+                        When selecting an <strong className="text-gray-900 font-semibold">AI Development Company In Ahmedabad</strong>, look for proven experience, successful project portfolio, 
+                        industry expertise, local market understanding, and ongoing support.
                       </p>
-                      
-                      {/* Pricing Cards */}
-                      <div className="grid md:grid-cols-2 gap-4 pt-4">
-                        <div className="p-4 bg-gradient-to-br from-primary-orange/5 to-secondary-orange/5 rounded-xl border border-primary-orange/20">
-                          <div className="flex items-center gap-3 mb-2">
-                            <div className="w-8 h-8 rounded-full bg-primary-orange/20 flex items-center justify-center">
-                              <span className="text-sm font-bold text-primary-orange">$</span>
-                            </div>
-                            <div>
-                              <div className="font-bold text-gray-900 text-sm">Starting Projects</div>
-                              <div className="text-xs text-gray-600">$15K - $75K</div>
-                            </div>
-                          </div>
-                          <p className="text-xs text-gray-600">Basic AI solutions and consulting</p>
-                        </div>
-                        
-                        <div className="p-4 bg-gradient-to-br from-primary-orange/5 to-secondary-orange/5 rounded-xl border border-primary-orange/20">
-                          <div className="flex items-center gap-3 mb-2">
-                            <div className="w-8 h-8 rounded-full bg-primary-orange/20 flex items-center justify-center">
-                              <span className="text-sm font-bold text-primary-orange">$$</span>
-                            </div>
-                            <div>
-                              <div className="font-bold text-gray-900 text-sm">Enterprise Solutions</div>
-                              <div className="text-xs text-gray-600">$75K+</div>
-                            </div>
-                          </div>
-                          <p className="text-xs text-gray-600">Complex AI systems and integration</p>
-                        </div>
-                      </div>
+                      <p className="text-lg">
+                        Metic.ai offers all these qualities with 2100+ completed projects, 98% client satisfaction rate, and deep knowledge of Gujarat's business landscape. 
+                        We provide 24/7 support and maintain long-term partnerships with our clients.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -1558,13 +1766,13 @@ export default function AIServicesCaliforniaPage() {
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
                           <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <CheckCircle className="w-7 h-7 text-white" />
+                            <TrendingUp className="w-7 h-7 text-white" />
                           </div>
                         </div>
                         
                         <div className="flex-1 pt-2">
                           <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Why choose Metic.ai as your AI Firm In California?
+                            How much does AI implementation cost with an AI Service In Ahmedabad?
                           </h3>
                         </div>
                       </div>
@@ -1583,294 +1791,53 @@ export default function AIServicesCaliforniaPage() {
                 <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
                   <div className="flex items-start gap-5">
                     <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
-                      <Shield className="w-7 h-7 text-primary-orange" />
+                      <Clock className="w-7 h-7 text-primary-orange" />
                     </div>
                     <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
                       <p className="text-lg">
-                        Metic.ai is the trusted <strong>AI Firm In California</strong> with proven expertise in Silicon Valley and throughout California. We deliver 3x faster development, 60% cost reduction, 2100+ successful projects, and 4.9/5 client satisfaction. Our team understands California's innovation ecosystem and regulatory requirements.
+                        AI implementation costs vary based on project complexity and requirements. As a leading <strong className="text-gray-900 font-semibold">AI Service In Ahmedabad</strong>, 
+                        Metic.ai offers competitive pricing with transparent cost structures.
                       </p>
-                      
-                      {/* Benefits Grid */}
-                      <div className="grid gap-3 pt-4">
-                        {[
-                          { icon: Award, title: 'Silicon Valley Expertise', desc: 'Deep understanding of California innovation ecosystem' },
-                          { icon: Zap, title: 'Proven Track Record', desc: '2100+ successful AI implementations globally' },
-                          { icon: Users, title: '4.9/5 Client Satisfaction', desc: 'Consistently delivering beyond expectations' }
-                        ].map((benefit, idx) => {
-                          const Icon = benefit.icon;
-                          return (
-                            <div key={idx} className="flex items-start gap-3 p-3 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg">
-                              <Icon className="w-5 h-5 text-primary-orange flex-shrink-0 mt-0.5" />
-                              <div>
-                                <div className="font-bold text-gray-900 text-sm mb-1">{benefit.title}</div>
-                                <div className="text-xs text-gray-600">{benefit.desc}</div>
-                              </div>
-                            </div>
-                          );
-                        })}
-                      </div>
+                      <p className="text-lg">
+                        Our clients typically save 60% compared to international AI development costs while receiving enterprise-grade solutions. 
+                        We provide free consultations to assess your needs and provide accurate project estimates.
+                      </p>
                     </div>
                   </div>
                 </div>
               </details>
 
-              {/* FAQ Item 5 */}
-              <details className="group relative">
-                <summary className="list-none cursor-pointer">
-                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
-                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    
-                    <div className="relative flex items-start justify-between gap-4">
-                      <div className="flex items-start gap-5 flex-1">
-                        <div className="relative flex-shrink-0">
-                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <MapPin className="w-7 h-7 text-white" />
-                          </div>
-                        </div>
-                        
-                        <div className="flex-1 pt-2">
-                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Which California cities does the leading AI Development Company In California serve?
-                          </h3>
-                        </div>
-                      </div>
-                      
-                      <div className="flex-shrink-0">
-                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
-                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
-                        </div>
-                      </div>
-                    </div>
-                    
-                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
-                  </div>
-                </summary>
-                
-                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
-                  <div className="flex items-start gap-5">
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
-                      <Database className="w-7 h-7 text-primary-orange" />
-                    </div>
-                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
-                      <p className="text-lg">
-                        As the premier <strong>AI Development Company In California</strong>, Metic.ai serves all major California cities including San Francisco, Los Angeles, San Diego, San Jose, Sacramento, Oakland, Santa Ana, Anaheim, Riverside, Stockton, Fresno, Long Beach, Bakersfield, Irvine, and Chula Vista with comprehensive AI solutions.
-                      </p>
-                      
-                      {/* Cities Grid */}
-                      <div className="grid md:grid-cols-3 gap-3 pt-4">
-                        {[
-                          'San Francisco', 'Los Angeles', 'San Diego', 
-                          'San Jose', 'Sacramento', 'Oakland',
-                          'Santa Ana', 'Anaheim', 'Riverside',
-                          'Stockton', 'Fresno', 'Long Beach'
-                        ].map((city, idx) => (
-                          <div key={idx} className="flex items-center gap-2 px-3 py-2 bg-primary-orange/5 rounded-lg">
-                            <div className="w-2 h-2 bg-primary-orange rounded-full"></div>
-                            <span className="text-sm font-medium text-gray-900">{city}</span>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </details>
-
-              {/* FAQ Item 6 */}
-              <details className="group relative">
-                <summary className="list-none cursor-pointer">
-                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
-                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    
-                    <div className="relative flex items-start justify-between gap-4">
-                      <div className="flex items-start gap-5 flex-1">
-                        <div className="relative flex-shrink-0">
-                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <Clock className="w-7 h-7 text-white" />
-                          </div>
-                        </div>
-                        
-                        <div className="flex-1 pt-2">
-                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            How quickly can an AI Service In California be implemented?
-                          </h3>
-                        </div>
-                      </div>
-                      
-                      <div className="flex-shrink-0">
-                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
-                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
-                        </div>
-                      </div>
-                    </div>
-                    
-                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
-                  </div>
-                </summary>
-                
-                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
-                  <div className="flex items-start gap-5">
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
-                      <Rocket className="w-7 h-7 text-primary-orange" />
-                    </div>
-                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
-                      <p className="text-lg">
-                        Metic.ai provides the fastest <strong>AI Service In California</strong> with 3x faster development than industry standards. Simple AI automation can be deployed in 2-4 weeks, while complex enterprise AI solutions typically take 8-16 weeks. We offer rapid prototyping and agile development for California businesses.
-                      </p>
-                      
-                      {/* Timeline Grid */}
-                      <div className="space-y-3 pt-4">
-                        <div className="flex items-start gap-3 p-4 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg">
-                          <div className="w-2 h-2 bg-primary-orange rounded-full mt-2"></div>
-                          <div>
-                            <p className="font-semibold text-gray-900 mb-1">Quick Deployment: 2-4 weeks</p>
-                            <p className="text-sm text-gray-600">AI automation, POCs, consulting</p>
-                          </div>
-                        </div>
-                        
-                        <div className="flex items-start gap-3 p-4 bg-gradient-to-r from-primary-orange/5 to-secondary-orange/5 rounded-lg">
-                          <div className="w-2 h-2 bg-primary-orange rounded-full mt-2"></div>
-                          <div>
-                            <p className="font-semibold text-gray-900 mb-1">Enterprise Solutions: 8-16 weeks</p>
-                            <p className="text-sm text-gray-600">Complex AI systems, integration</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </details>
             </div>
-          </div>
-        </div>
-      </section>
 
-      {/* About Section */}
-      <section className="py-20 bg-white">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-6xl mx-auto">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                  About Metic.ai - Premier <strong>Artificial Intelligence Company In California</strong>
-                </h2>
-                <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                  Since 2018, Metic.ai has been the leading <strong>AI Company In California</strong>, transforming businesses across the Golden State with cutting-edge artificial intelligence solutions. From Silicon Valley startups to Los Angeles entertainment companies, we've delivered 2100+ successful AI implementations.
-                </p>
-                <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                  Our team of AI experts understands California's unique business landscape, regulatory environment, and innovation culture. Whether you're in San Francisco's tech hub, Los Angeles' creative industries, or San Diego's biotech sector, we deliver AI solutions that drive real results.
-                </p>
-                <div className="grid grid-cols-2 gap-6">
-                  <div className="text-center p-4 bg-gray-50 rounded-lg">
-                    <div className="text-2xl font-bold text-primary-orange mb-2">2100+</div>
-                    <div className="text-sm text-gray-600">AI Projects Delivered</div>
-                  </div>
-                  <div className="text-center p-4 bg-gray-50 rounded-lg">
-                    <div className="text-2xl font-bold text-primary-orange mb-2">4.9/5</div>
-                    <div className="text-sm text-gray-600">Client Satisfaction</div>
-                  </div>
-                </div>
-              </div>
-              <div className="lg:pl-8">
-                <div className="bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 rounded-2xl p-8">
-                  <h3 className="text-xl font-bold mb-6">California AI Expertise</h3>
-                  <div className="space-y-4">
-                    <div className="flex items-start">
-                      <div className="w-2 h-2 bg-primary-orange rounded-full mt-3 mr-4 flex-shrink-0"></div>
-                      <div>
-                        <div className="font-semibold text-gray-900">Silicon Valley Innovation</div>
-                        <div className="text-gray-600 text-sm">Deep understanding of tech industry needs and startup ecosystems</div>
-                      </div>
-                    </div>
-                    <div className="flex items-start">
-                      <div className="w-2 h-2 bg-primary-orange rounded-full mt-3 mr-4 flex-shrink-0"></div>
-                      <div>
-                        <div className="font-semibold text-gray-900">Entertainment AI</div>
-                        <div className="text-gray-600 text-sm">Specialized solutions for Los Angeles' creative and media industries</div>
-                      </div>
-                    </div>
-                    <div className="flex items-start">
-                      <div className="w-2 h-2 bg-primary-orange rounded-full mt-3 mr-4 flex-shrink-0"></div>
-                      <div>
-                        <div className="font-semibold text-gray-900">Biotech & Healthcare</div>
-                        <div className="text-gray-600 text-sm">Advanced AI for San Diego's life sciences and healthcare sectors</div>
-                      </div>
-                    </div>
-                    <div className="flex items-start">
-                      <div className="w-2 h-2 bg-primary-orange rounded-full mt-3 mr-4 flex-shrink-0"></div>
-                      <div>
-                        <div className="font-semibold text-gray-900">Enterprise Scale</div>
-                        <div className="text-gray-600 text-sm">Scalable AI solutions for California's diverse business landscape</div>
+            {/* Enhanced CTA at Bottom of FAQ */}
+            <div className="mt-16 text-center">
+              <div className="bg-gradient-to-br from-primary-orange to-secondary-orange rounded-3xl p-12 text-white relative overflow-hidden">
+                <div className="absolute inset-0 bg-black/10"></div>
+                <div className="relative z-10">
+                  <div className="flex justify-center mb-6">
+                    <div className="relative">
+                      <div className="absolute inset-0 bg-white/20 rounded-full blur-lg animate-pulse"></div>
+                      <div className="relative w-20 h-20 bg-white/10 rounded-full flex items-center justify-center backdrop-blur-sm border border-white/20">
+                        <Rocket className="w-10 h-10 text-white" />
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Testimonials Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4">
-                What California Businesses Say About Our <strong>AI Services</strong>
-              </h2>
-              <p className="text-xl text-gray-600">
-                Testimonials from clients across California who chose Metic.ai as their <strong>AI Company In California</strong>
-              </p>
-            </div>
-            
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
-                <div className="flex items-center mb-4">
-                  <div className="flex text-yellow-400">
-                    {"★".repeat(5)}
+                  <h3 className="text-3xl md:text-4xl font-bold mb-4">Ready to Transform Your Ahmedabad Business with AI?</h3>
+                  <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+                    Join Gujarat's leading businesses who trust Metic.ai for their AI transformation in the commercial capital!
+                  </p>
+                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                    <Link href="/contact">
+                      <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100 shadow-xl">
+                        Partner with AI Firm Ahmedabad
+                      </Button>
+                    </Link>
+                    <Link href="tel:+917892518414">
+                      <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
+                        Call AI Company Ahmedabad Now
+                      </Button>
+                    </Link>
                   </div>
-                </div>
-                <p className="text-gray-600 mb-6 italic">
-                  "Metic.ai transformed our San Francisco startup with AI automation that reduced our operational costs by 60%. Best AI Company In California we've worked with!"
-                </p>
-                <div className="border-t pt-4">
-                  <div className="font-semibold text-gray-900">Sarah Chen</div>
-                  <div className="text-sm text-gray-600">CTO, TechStart SF</div>
-                  <div className="text-sm text-primary-orange">San Francisco, CA</div>
-                </div>
-              </div>
-              
-              <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
-                <div className="flex items-center mb-4">
-                  <div className="flex text-yellow-400">
-                    {"★".repeat(5)}
-                  </div>
-                </div>
-                <p className="text-gray-600 mb-6 italic">
-                  "Outstanding AI development services! Their machine learning models increased our Los Angeles entertainment company's content recommendation accuracy by 300%."
-                </p>
-                <div className="border-t pt-4">
-                  <div className="font-semibold text-gray-900">Michael Rodriguez</div>
-                  <div className="text-sm text-gray-600">VP Technology, MediaCorp LA</div>
-                  <div className="text-sm text-primary-orange">Los Angeles, CA</div>
-                </div>
-              </div>
-              
-              <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
-                <div className="flex items-center mb-4">
-                  <div className="flex text-yellow-400">
-                    {"★".repeat(5)}
-                  </div>
-                </div>
-                <p className="text-gray-600 mb-6 italic">
-                  "Metic.ai's AI solutions revolutionized our San Diego biotech operations. Their expertise in healthcare AI is unmatched in California."
-                </p>
-                <div className="border-t pt-4">
-                  <div className="font-semibold text-gray-900">Dr. Jennifer Wang</div>
-                  <div className="text-sm text-gray-600">Director of Innovation, BioCorp SD</div>
-                  <div className="text-sm text-primary-orange">San Diego, CA</div>
                 </div>
               </div>
             </div>
@@ -1883,38 +1850,56 @@ export default function AIServicesCaliforniaPage() {
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-              Ready to Partner with California's Leading <strong>Artificial Intelligence Company</strong>?
+              Ready to Partner with Ahmedabad's Leading <strong>Artificial Intelligence Company</strong>?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join 2100+ California businesses that chose Metic.ai as their <strong>AI Company In California</strong>. Get your free AI consultation and discover how our artificial intelligence solutions can transform your business with 60% cost savings.
+              Join 2100+ satisfied clients who trust Metic.ai as their preferred <strong>AI Company In Ahmedabad</strong>. 
+              Transform your business with proven AI solutions that deliver results. Get started with a free consultation 
+              and discover why we're Gujarat's most trusted <strong>AI Development Company In Ahmedabad</strong>.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Link href="/contact">
                 <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100">
-                  Get Free AI Consultation - California
+                  Start Your AI Transformation
                 </Button>
               </Link>
               <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  Call California AI Experts: +1-789-251-8414
+                  Call: +91 7892518414
                 </Button>
               </Link>
             </div>
             
             <div className="mt-12 text-center">
-              <p className="text-orange-200 mb-4">Trusted <strong>AI Firm In California</strong> - Serving Major Cities</p>
+              <p className="text-orange-200 mb-6">Trusted <strong>AI Service In Ahmedabad</strong> serving businesses across Gujarat</p>
+              <div className="grid md:grid-cols-3 gap-8 text-center mb-8">
+                <div>
+                  <div className="text-2xl font-bold mb-2">2100+</div>
+                  <p className="text-orange-100">AI Projects Completed</p>
+                </div>
+                <div>
+                  <div className="text-2xl font-bold mb-2">98%</div>
+                  <p className="text-orange-100">Client Satisfaction Rate</p>
+                </div>
+                <div>
+                  <div className="text-2xl font-bold mb-2">4.5x</div>
+                  <p className="text-orange-100">Average ROI Increase</p>
+                </div>
+              </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
-                <span>San Francisco</span>
+                <span>SG Highway</span>
                 <span>•</span>
-                <span>Los Angeles</span>
+                <span>Satellite</span>
                 <span>•</span>
-                <span>San Diego</span>
+                <span>Vastrapur</span>
                 <span>•</span>
-                <span>San Jose</span>
+                <span>CG Road</span>
                 <span>•</span>
-                <span>Sacramento</span>
+                <span>GIFT City</span>
                 <span>•</span>
-                <span>Oakland</span>
+                <span>Bopal</span>
+                <span>•</span>
+                <span>Prahlad Nagar</span>
               </div>
             </div>
           </div>
