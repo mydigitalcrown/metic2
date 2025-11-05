@@ -95,42 +95,42 @@ export default function AIServicesCaliforniaPage() {
   const services = [
     {
       title: "AI Integration & Deployment",
-      description: "Seamlessly integrate AI solutions into your Ahmedabad business operations with enterprise-grade deployment strategies.",
+      description: "Seamlessly integrate AI solutions into your California business operations with enterprise-grade deployment strategies.",
       icon: Zap,
       href: "/ai-integration-and-deployment",
       color: "blue" as const
     },
     {
       title: "Machine Learning Solutions",
-      description: "Advanced ML algorithms and predictive analytics tailored for Ahmedabad's textiles, chemicals, and pharma industries.",
+      description: "Advanced ML algorithms and predictive analytics tailored for California's tech, entertainment, and agriculture industries.",
       icon: Brain,
       href: "/machine-learning",
       color: "purple" as const
     },
     {
       title: "Custom AI Development",
-      description: "Bespoke AI solutions designed specifically for your Ahmedabad business requirements and goals.",
+      description: "Bespoke AI solutions designed specifically for your California business requirements and goals.",
       icon: Code,
       href: "/custom-ai-development",
       color: "green" as const
     },
     {
       title: "Data Analytics & BI",
-      description: "Transform your Ahmedabad business data into actionable insights with advanced analytics platforms.",
+      description: "Transform your California business data into actionable insights with advanced analytics platforms.",
       icon: BarChart3,
       href: "/data-insights",
       color: "orange" as const
     },
     {
       title: "Generative AI Services",
-      description: "Harness the power of ChatGPT and generative AI for content creation and automation in Ahmedabad.",
+      description: "Harness the power of ChatGPT and generative AI for content creation and automation in California.",
       icon: Sparkles,
       href: "/generative-ai-services",
       color: "indigo" as const
     },
     {
       title: "Data Engineering",
-      description: "Robust data infrastructure and ETL pipelines for Ahmedabad enterprises and growing businesses.",
+      description: "Robust data infrastructure and ETL pipelines for California enterprises and growing businesses.",
       icon: Database,
       href: "/data-engineering",
       color: "red" as const
@@ -151,7 +151,7 @@ export default function AIServicesCaliforniaPage() {
   ];
 
   const stats = [
-    { number: "2,100+", label: "Ahmedabad Businesses Served" },
+    { number: "2,100+", label: "California Businesses Served" },
     { number: "98%", label: "Client Satisfaction" },
     { number: "4.5x", label: "Average ROI Increase" },
     { number: "24/7", label: "Support Available" }
@@ -176,7 +176,7 @@ export default function AIServicesCaliforniaPage() {
               "https://www.facebook.com/meticai"
             ],
             "logo": "https://metic.ai/logo.png",
-            "image": ["https://metic.ai/ai-company-ahmedabad.jpg"],
+            "image": ["https://metic.ai/ai-company-california.jpg"],
             "telephone": "+91 7892518414",
             "email": "hello@matic.ai",
             "foundingDate": "2020",
@@ -192,20 +192,16 @@ export default function AIServicesCaliforniaPage() {
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "23.0225",
-              "longitude": "72.5714"
+              "latitude": "36.7783",
+              "longitude": "-119.4179"
             },
             "areaServed": [
               {
-                "@type": "City",
-                "name": "Ahmedabad",
+                "@type": "State",
+                "name": "California",
                 "containedInPlace": {
-                  "@type": "State",
-                  "name": "Gujarat",
-                  "containedInPlace": {
-                    "@type": "Country", 
-                    "name": "India"
-                  }
+                  "@type": "Country", 
+                  "name": "United States"
                 }
               }
             ],
@@ -283,7 +279,7 @@ export default function AIServicesCaliforniaPage() {
               "telephone": "+91 7892518414",
               "contactType": "Customer Service",
               "areaServed": "IN",
-              "availableLanguage": ["English", "Hindi", "Gujarati"]
+              "availableLanguage": ["English", "Spanish"]
             }
           })
         }}
@@ -299,34 +295,34 @@ export default function AIServicesCaliforniaPage() {
             "mainEntity": [
               {
                 "@type": "Question",
-                "name": "Which is the best Artificial Intelligence Company In Ahmedabad?",
+                "name": "Which is the best Artificial Intelligence Company In California?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Metic.ai is the leading Artificial Intelligence Company In Ahmedabad with 2100+ successful AI implementations. We provide comprehensive AI services including machine learning, custom AI development, and enterprise AI solutions with proven 60% cost savings and 3x faster delivery."
+                  "text": "Metic.ai is the leading Artificial Intelligence Company In California with 2100+ successful AI implementations. We provide comprehensive AI services including machine learning, custom AI development, and enterprise AI solutions with proven 60% cost savings and 3x faster delivery."
                 }
               },
               {
                 "@type": "Question", 
-                "name": "What AI services does the top AI Company In Ahmedabad provide?",
+                "name": "What AI services does the top AI Company In California provide?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "As the premier AI Company In Ahmedabad, Metic.ai provides AI integration & deployment, machine learning solutions, custom AI development, data analytics & BI, generative AI services, and data engineering for businesses across Gujarat."
+                  "text": "As the premier AI Company In California, Metic.ai provides AI integration & deployment, machine learning solutions, custom AI development, data analytics & BI, generative AI services, and data engineering for businesses across California."
                 }
               },
               {
                 "@type": "Question",
-                "name": "How to choose the right AI Development Company In Ahmedabad?",
+                "name": "How to choose the right AI Development Company In California?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Choose an AI Development Company In Ahmedabad with proven experience, successful implementations, industry expertise, and local presence. Metic.ai offers all these with 2100+ completed projects and deep understanding of Ahmedabad's business landscape."
+                  "text": "Choose an AI Development Company In California with proven experience, successful implementations, industry expertise, and local presence. Metic.ai offers all these with 2100+ completed projects and deep understanding of California's business landscape."
                 }
               },
               {
                 "@type": "Question",
-                "name": "What makes Metic.ai the best AI Firm In Ahmedabad?",
+                "name": "What makes Metic.ai the best AI Firm In California?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Metic.ai is the best AI Firm In Ahmedabad due to our proven expertise, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of Ahmedabad's textile, chemical, pharmaceutical and engineering industries."
+                  "text": "Metic.ai is the best AI Firm In California due to our proven expertise, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of California's tech, entertainment, healthcare, and agriculture industries."
                 }
               }
             ]
@@ -341,9 +337,9 @@ export default function AIServicesCaliforniaPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Artificial Intelligence Company In Ahmedabad - AI Services & Solutions",
-            "description": "Comprehensive guide to AI services in Ahmedabad by the leading Artificial Intelligence Company. Expert AI development, machine learning solutions, and enterprise AI implementation.",
-            "image": "https://metic.ai/ai-company-ahmedabad-article.jpg",
+            "headline": "Artificial Intelligence Company In California - AI Services & Solutions",
+            "description": "Comprehensive guide to AI services in California by the leading Artificial Intelligence Company. Expert AI development, machine learning solutions, and enterprise AI implementation.",
+            "image": "https://metic.ai/ai-company-california-article.jpg",
             "author": {
               "@type": "Organization",
               "name": "Metic.ai"
@@ -358,8 +354,8 @@ export default function AIServicesCaliforniaPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-ahmedabad/",
-            "keywords": "Artificial Intelligence Company In Ahmedabad, AI Company In Ahmedabad, AI Service In Ahmedabad"
+            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-california/",
+            "keywords": "Artificial Intelligence Company In California, AI Company In California, AI Service In California"
           })
         }}
       />
@@ -485,13 +481,13 @@ export default function AIServicesCaliforniaPage() {
             <div className="text-center">
               <p className="text-gray-400 text-sm mb-6 flex items-center justify-center gap-2">
                 <Globe className="w-4 h-4 text-primary-orange" />
-                Trusted as the top AI Service In Ahmedabad
+                Trusted as the top AI Service In California
               </p>
               <div className="flex flex-wrap justify-center gap-3">
                 {[
-                  "AI Firm In Ahmedabad",
-                  "AI Development Company In Ahmedabad", 
-                  "Best AI Company Gujarat"
+                  "AI Firm In California",
+                  "AI Development Company In California", 
+                  "Best AI Company California"
                 ].map((tag, index) => (
                   <span 
                     key={index}
@@ -512,12 +508,12 @@ export default function AIServicesCaliforniaPage() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                <strong>AI Services</strong> by Leading <span className="text-primary-orange">Artificial Intelligence Company In Ahmedabad</span>
+                <strong>AI Services</strong> by Leading <span className="text-primary-orange">Artificial Intelligence Company In California</span>
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Comprehensive artificial intelligence services from Ahmedabad's most trusted <strong>AI Company In Ahmedabad</strong>. 
-                Transforming businesses with cutting-edge AI solutions tailored for Gujarat's industrial landscape.
+                Comprehensive artificial intelligence services from California's most trusted <strong>AI Company In California</strong>. 
+                Transforming businesses with cutting-edge AI solutions tailored for California's technology landscape.
               </p>
             </div>
             
@@ -560,11 +556,11 @@ export default function AIServicesCaliforniaPage() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Industries We Serve in Ahmedabad
+                Industries We Serve in California
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Delivering specialized AI solutions across Ahmedabad's key industries and business sectors.
+                Delivering specialized AI solutions across California's key industries and business sectors.
               </p>
             </div>
             
@@ -588,11 +584,11 @@ export default function AIServicesCaliforniaPage() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Why Choose Metic.ai as Your <span className="text-primary-orange">AI Firm In Ahmedabad</span>
+                Why Choose Metic.ai as Your <span className="text-primary-orange">AI Firm In California</span>
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                As the premier <strong>AI Development Company In Ahmedabad</strong>, we're trusted by businesses across Gujarat 
+                As the premier <strong>AI Development Company In California</strong>, we're trusted by businesses across California 
                 for our expertise, proven results, and commitment to client success.
               </p>
             </div>
@@ -603,7 +599,7 @@ export default function AIServicesCaliforniaPage() {
                   <Award className="w-8 h-8 text-blue-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Proven Expertise</h3>
-                <p className="text-gray-600">Years of experience delivering AI solutions for Ahmedabad businesses across all industries.</p>
+                <p className="text-gray-600">Years of experience delivering AI solutions for California businesses across all industries.</p>
               </div>
               
               <div className="text-center">
@@ -611,7 +607,7 @@ export default function AIServicesCaliforniaPage() {
                   <TrendingUp className="w-8 h-8 text-green-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Measurable Results</h3>
-                <p className="text-gray-600">Data-driven AI solutions that deliver concrete ROI and business growth for Ahmedabad companies.</p>
+                <p className="text-gray-600">Data-driven AI solutions that deliver concrete ROI and business growth for California companies.</p>
               </div>
               
               <div className="text-center">
@@ -619,7 +615,7 @@ export default function AIServicesCaliforniaPage() {
                   <Users className="w-8 h-8 text-purple-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Local Partnership</h3>
-                <p className="text-gray-600">Dedicated support and partnership with deep understanding of the Ahmedabad business landscape.</p>
+                <p className="text-gray-600">Dedicated support and partnership with deep understanding of the California business landscape.</p>
               </div>
               
               <div className="text-center">
@@ -627,7 +623,7 @@ export default function AIServicesCaliforniaPage() {
                   <Shield className="w-8 h-8 text-orange-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Enterprise Security</h3>
-                <p className="text-gray-600">Bank-level security and compliance standards protecting your Ahmedabad business data.</p>
+                <p className="text-gray-600">Bank-level security and compliance standards protecting your California business data.</p>
               </div>
             </div>
           </div>
@@ -641,18 +637,18 @@ export default function AIServicesCaliforniaPage() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                  About Metic.ai - Premier <span className="text-primary-orange">Artificial Intelligence Company In Ahmedabad</span>
+                  About Metic.ai - Premier <span className="text-primary-orange">Artificial Intelligence Company In California</span>
                 </h2>
                 <div className="w-20 h-1 bg-primary-orange mb-8"></div>
                 <p className="text-lg text-gray-700 mb-6">
-                  Established as Gujarat's leading <strong>AI Company In Ahmedabad</strong>, Metic.ai has been at the forefront of artificial intelligence 
-                  innovation since 2020. We specialize in delivering enterprise-grade AI solutions that transform businesses across Ahmedabad's 
+                  Established as California's leading <strong>AI Company In California</strong>, Metic.ai has been at the forefront of artificial intelligence 
+                  innovation since 2020. We specialize in delivering enterprise-grade AI solutions that transform businesses across California's 
                   key industries including textiles, chemicals, pharmaceuticals, and engineering.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  Our expertise as an <strong>AI Development Company In Ahmedabad</strong> encompasses machine learning, deep learning, natural language processing, 
+                  Our expertise as an <strong>AI Development Company In California</strong> encompasses machine learning, deep learning, natural language processing, 
                   computer vision, and robotic process automation. We've successfully completed over 2100 AI projects, making us the most 
-                  trusted <strong>AI Service In Ahmedabad</strong>.
+                  trusted <strong>AI Service In California</strong>.
                 </p>
                 <div className="grid grid-cols-2 gap-6 mt-8">
                   <div className="text-center">
@@ -848,7 +844,7 @@ export default function AIServicesCaliforniaPage() {
                       </div>
                       <div>
                         <div className="font-bold text-gray-900">Dr. Meera Shah</div>
-                        <div className="text-sm text-gray-600">CTO, Gujarat Chemicals Ltd</div>
+                        <div className="text-sm text-gray-600">CTO, California Tech Corp</div>
                       </div>
                     </div>
                   </div>
@@ -900,7 +896,7 @@ export default function AIServicesCaliforniaPage() {
             <div className="bg-white rounded-3xl p-8 md:p-12 shadow-xl border-2 border-primary-orange/20 max-w-4xl mx-auto">
               <div className="text-center mb-8">
                 <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-                  Trusted by <span className="text-primary-orange">2100+ Businesses</span> Across Gujarat
+                  Trusted by <span className="text-primary-orange">2100+ Businesses</span> Across California
                 </h3>
                 <p className="text-gray-600">Join the growing community of successful AI transformations</p>
               </div>
