@@ -436,72 +436,227 @@ export default function AIServicesArkansasPage() {
         }}
       />
 
-      {/* Hero Section */}
-      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-4xl mx-auto text-center">
-            <div className="flex items-center justify-center gap-2 mb-6">
-              <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-orange-300">Serving Arkansas Businesses</span>
-            </div>
-            
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
-              <strong>Artificial Intelligence Company In Arkansas</strong> | Leading AI Company In Arkansas
-            </h1>
-            
-            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              Looking for the best <strong>AI Company In Arkansas</strong>? Metic.ai is the premier <strong>Artificial Intelligence Company In Arkansas</strong> with 2100+ successful AI implementations. From Little Rock to Bentonville, we transform Arkansas businesses with expert AI services, machine learning solutions, and custom AI development delivering 60% cost savings and 3x faster delivery.
-            </p>
-            
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-              <Link href="/contact">
-                <Button variant="primary" size="lg" className="w-full sm:w-auto">
-                  Get Free AI Consultation in Arkansas
-                </Button>
-              </Link>
-              <Link href="tel:+917892518414">
-                <Button variant="outline" size="lg" className="w-full sm:w-auto">
-                  <Phone className="w-4 h-4 mr-2" />
-                  Call Arkansas AI Experts: +1-789-251-8414
-                </Button>
-              </Link>
-            </div>
-
-            {/* Enhanced Stats with Keywords */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-2xl mx-auto">
-              <div className="text-center">
-                <div className="text-2xl font-bold text-primary-orange mb-1">2100+</div>
-                <div className="text-sm text-gray-400">Arkansas AI Projects</div>
+      {/* Ultra-Creative Hero Section - Premium Arkansas AI Design */}
+      <section className="relative min-h-screen bg-gradient-to-br from-white via-green-50 to-orange-50 overflow-hidden">
+        {/* Advanced Background Effects */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          {/* Arkansas Natural State Gradient Orbs */}
+          <div className="absolute top-20 left-20 w-96 h-96 bg-green-400/20 rounded-full blur-3xl animate-pulse opacity-60"></div>
+          <div className="absolute bottom-20 right-20 w-80 h-80 bg-primary-orange/20 rounded-full blur-3xl animate-pulse opacity-60" style={{animationDelay: '2s'}}></div>
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-emerald-400/15 rounded-full blur-2xl animate-pulse opacity-40" style={{animationDelay: '4s'}}></div>
+          
+          {/* Natural State Floating Elements */}
+          <div className="absolute top-40 right-40 w-32 h-32 bg-gradient-to-br from-green-300/20 to-emerald-300/20 rounded-3xl rotate-45 animate-bounce opacity-60" style={{animationDelay: '1s'}}></div>
+          <div className="absolute bottom-40 left-40 w-24 h-24 bg-gradient-to-br from-primary-orange/15 to-green-400/15 rounded-full animate-pulse opacity-50" style={{animationDelay: '3s'}}></div>
+          
+          {/* Subtle Grid Pattern */}
+          <div className="absolute inset-0 opacity-[0.03]" style={{
+            backgroundImage: `linear-gradient(#10B981 1.5px, transparent 1.5px), linear-gradient(90deg, #10B981 1.5px, transparent 1.5px)`,
+            backgroundSize: '60px 60px'
+          }}></div>
+        </div>
+        
+        <div className="container px-4 md:px-6 relative z-10">
+          <div className="max-w-7xl mx-auto">
+            <div className="flex items-center min-h-screen py-20">
+              <div className="grid lg:grid-cols-2 gap-16 items-center w-full">
+                
+                {/* Left Content */}
+                <div className="space-y-8">
+                  {/* Arkansas Location Badge */}
+                  <div className="inline-flex items-center gap-3 px-6 py-3 bg-white rounded-full shadow-xl border-2 border-green-300/30 hover:border-emerald-400/40 transition-all group">
+                    <MapPin className="w-5 h-5 text-emerald-500 animate-pulse" />
+                    <span className="text-lg font-bold text-gray-800">Serving The Natural State</span>
+                    <div className="w-2 h-2 bg-emerald-500 rounded-full animate-ping"></div>
+                  </div>
+                  
+                  {/* Main Headline */}
+                  <div className="space-y-6">
+                    <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-tight">
+                      <span className="block text-gray-900 mb-2">
+                        <strong>Artificial Intelligence</strong>
+                      </span>
+                      <span className="block bg-gradient-to-r from-emerald-500 via-green-500 to-primary-orange bg-clip-text text-transparent mb-2">
+                        Company In Arkansas
+                      </span>
+                      <span className="block text-2xl md:text-3xl lg:text-4xl text-gray-700 font-semibold">
+                        Leading <span className="text-emerald-500">AI Company In Arkansas</span>
+                      </span>
+                    </h1>
+                    
+                    {/* Arkansas-Themed Decorative Line */}
+                    <div className="w-32 h-1.5 bg-gradient-to-r from-emerald-500 via-green-500 to-primary-orange rounded-full"></div>
+                  </div>
+                  
+                  {/* Hero Description */}
+                  <div className="space-y-6">
+                    <p className="text-xl md:text-2xl text-gray-600 leading-relaxed max-w-2xl">
+                      Looking for the best <strong className="text-emerald-500 font-semibold">AI Company In Arkansas</strong>? 
+                      Metic.ai is the premier <strong className="text-green-600 font-semibold">Artificial Intelligence Company In Arkansas</strong> 
+                      with <span className="bg-gradient-to-r from-emerald-100 to-green-100 px-2 py-1 rounded-lg font-bold">2100+ successful AI implementations</span>.
+                    </p>
+                    
+                    <p className="text-lg text-gray-600 leading-relaxed">
+                      From Little Rock's business districts to Bentonville's corporate headquarters, we transform Arkansas businesses 
+                      with cutting-edge AI solutions, delivering <strong className="text-emerald-500">60% cost savings</strong> and 
+                      <strong className="text-green-600">3x faster delivery</strong>.
+                    </p>
+                  </div>
+                  
+                  {/* Enhanced CTA Buttons */}
+                  <div className="flex flex-col sm:flex-row gap-4 pt-6">
+                    <Link href="/contact">
+                      <Button size="lg" className="bg-gradient-to-r from-emerald-500 to-green-600 hover:from-emerald-600 hover:to-green-700 text-white px-8 py-4 text-lg font-semibold shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all group">
+                        Get Free AI Consultation in Arkansas
+                        <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                      </Button>
+                    </Link>
+                    <Link href="tel:+917892518414">
+                      <Button variant="outline" size="lg" className="border-2 border-emerald-500 text-emerald-500 hover:bg-emerald-500 hover:text-white px-8 py-4 text-lg font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all group">
+                        <Phone className="w-5 h-5 mr-2 group-hover:animate-bounce" />
+                        Call Arkansas AI Experts
+                      </Button>
+                    </Link>
+                  </div>
+                  
+                  {/* Trust Indicators */}
+                  <div className="flex flex-wrap items-center gap-6 pt-8">
+                    <div className="flex items-center gap-2">
+                      <CheckCircle className="w-5 h-5 text-emerald-500" />
+                      <span className="text-sm font-semibold text-gray-700">2100+ Arkansas AI Projects</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <CheckCircle className="w-5 h-5 text-green-600" />
+                      <span className="text-sm font-semibold text-gray-700">4.9/5 Rating</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <CheckCircle className="w-5 h-5 text-emerald-500" />
+                      <span className="text-sm font-semibold text-gray-700">24/7 Support</span>
+                    </div>
+                  </div>
+                </div>
+                
+                {/* Right Visual Elements */}
+                <div className="relative">
+                  {/* Main Stats Card */}
+                  <div className="relative bg-white rounded-3xl p-8 shadow-2xl border-2 border-emerald-300/30 hover:border-green-400/40 transition-all">
+                    {/* Arkansas Badge */}
+                    <div className="absolute -top-6 left-8 bg-gradient-to-r from-emerald-500 to-green-600 text-white px-6 py-3 rounded-full shadow-lg">
+                      <span className="font-bold text-lg">#1 AI Company Arkansas</span>
+                    </div>
+                    
+                    {/* Stats Grid */}
+                    <div className="grid grid-cols-2 gap-8 mt-8">
+                      <div className="text-center group">
+                        <div className="relative">
+                          <div className="absolute inset-0 bg-gradient-to-br from-emerald-100/50 to-green-100/50 rounded-2xl group-hover:from-emerald-200/50 group-hover:to-green-200/50 transition-all"></div>
+                          <div className="relative p-6 rounded-2xl">
+                            <div className="text-3xl md:text-4xl font-bold text-emerald-500 mb-2 group-hover:scale-110 transition-transform">
+                              2100+
+                            </div>
+                            <div className="text-sm font-semibold text-gray-600">
+                              Arkansas AI Projects
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div className="text-center group">
+                        <div className="relative">
+                          <div className="absolute inset-0 bg-gradient-to-br from-green-100/50 to-emerald-100/50 rounded-2xl group-hover:from-green-200/50 group-hover:to-emerald-200/50 transition-all"></div>
+                          <div className="relative p-6 rounded-2xl">
+                            <div className="text-3xl md:text-4xl font-bold text-green-600 mb-2 group-hover:scale-110 transition-transform">
+                              4.9/5
+                            </div>
+                            <div className="text-sm font-semibold text-gray-600">
+                              Client Satisfaction
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div className="text-center group">
+                        <div className="relative">
+                          <div className="absolute inset-0 bg-gradient-to-br from-emerald-100/50 to-green-100/50 rounded-2xl group-hover:from-emerald-200/50 group-hover:to-green-200/50 transition-all"></div>
+                          <div className="relative p-6 rounded-2xl">
+                            <div className="text-3xl md:text-4xl font-bold text-emerald-500 mb-2 group-hover:scale-110 transition-transform">
+                              60%
+                            </div>
+                            <div className="text-sm font-semibold text-gray-600">
+                              Cost Savings
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div className="text-center group">
+                        <div className="relative">
+                          <div className="absolute inset-0 bg-gradient-to-br from-green-100/50 to-emerald-100/50 rounded-2xl group-hover:from-green-200/50 group-hover:to-emerald-200/50 transition-all"></div>
+                          <div className="relative p-6 rounded-2xl">
+                            <div className="text-3xl md:text-4xl font-bold text-green-600 mb-2 group-hover:scale-110 transition-transform">
+                              3x
+                            </div>
+                            <div className="text-sm font-semibold text-gray-600">
+                              Faster Delivery
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    {/* Keywords Section */}
+                    <div className="mt-8 pt-6 border-t border-gray-200">
+                      <p className="text-center text-lg font-semibold text-gray-700 mb-4">
+                        Trusted as the top <span className="text-emerald-500">AI Service In Arkansas</span>
+                      </p>
+                      <div className="flex flex-wrap justify-center gap-2">
+                        <span className="bg-gradient-to-r from-emerald-100 to-green-100 text-gray-700 px-4 py-2 rounded-full text-sm font-semibold border border-emerald-300">
+                          AI Firm In Arkansas
+                        </span>
+                        <span className="bg-gradient-to-r from-green-100 to-emerald-100 text-gray-700 px-4 py-2 rounded-full text-sm font-semibold border border-green-300">
+                          AI Development Company
+                        </span>
+                        <span className="bg-gradient-to-r from-emerald-100 to-green-100 text-gray-700 px-4 py-2 rounded-full text-sm font-semibold border border-emerald-300">
+                          Best AI Company Arkansas
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Floating Achievement Cards */}
+                  <div className="absolute -top-8 -right-8 bg-white rounded-2xl p-4 shadow-xl border-2 border-green-300 transform rotate-6 hover:rotate-3 transition-transform">
+                    <div className="flex items-center gap-3">
+                      <div className="w-12 h-12 bg-gradient-to-br from-emerald-500 to-green-600 rounded-full flex items-center justify-center">
+                        <Award className="w-6 h-6 text-white" />
+                      </div>
+                      <div>
+                        <div className="font-bold text-gray-900">Natural State</div>
+                        <div className="text-sm text-gray-600">AI Leader</div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="absolute -bottom-8 -left-8 bg-white rounded-2xl p-4 shadow-xl border-2 border-emerald-300 transform -rotate-6 hover:-rotate-3 transition-transform">
+                    <div className="flex items-center gap-3">
+                      <div className="w-12 h-12 bg-gradient-to-br from-green-600 to-emerald-500 rounded-full flex items-center justify-center">
+                        <Zap className="w-6 h-6 text-white" />
+                      </div>
+                      <div>
+                        <div className="font-bold text-gray-900">Walmart Tech</div>
+                        <div className="text-sm text-gray-600">Hub Partner</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div className="text-center">
-                <div className="text-2xl font-bold text-primary-orange mb-1">4.9/5</div>
-                <div className="text-sm text-gray-400">Client Satisfaction</div>
-              </div>
-              <div className="text-center">
-                <div className="text-2xl font-bold text-primary-orange mb-1">60%</div>
-                <div className="text-sm text-gray-400">Cost Savings</div>
-              </div>
-              <div className="text-center">
-                <div className="text-2xl font-bold text-primary-orange mb-1">3x</div>
-                <div className="text-sm text-gray-400">Faster Delivery</div>
-              </div>
             </div>
-
-            {/* Keywords Badges */}
-            <div className="mt-8 flex flex-wrap justify-center gap-2 max-w-3xl mx-auto">
-              <span className="bg-primary-orange/10 text-primary-orange px-3 py-1 rounded-full text-sm font-medium">
-                AI Service In Arkansas
-              </span>
-              <span className="bg-primary-orange/10 text-primary-orange px-3 py-1 rounded-full text-sm font-medium">
-                AI Firm In Arkansas
-              </span>
-              <span className="bg-primary-orange/10 text-primary-orange px-3 py-1 rounded-full text-sm font-medium">
-                AI Development Company In Arkansas
-              </span>
-              <span className="bg-primary-orange/10 text-primary-orange px-3 py-1 rounded-full text-sm font-medium">
-                Best AI Company In Arkansas
-              </span>
-            </div>
+          </div>
+        </div>
+        
+        {/* Arkansas-Themed Scroll Indicator */}
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+          <div className="w-6 h-10 border-2 border-emerald-500 rounded-full flex justify-center">
+            <div className="w-1 h-3 bg-emerald-500 rounded-full mt-2 animate-pulse"></div>
           </div>
         </div>
       </section>

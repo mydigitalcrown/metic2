@@ -454,72 +454,227 @@ export default function AIServicesBangalorePage() {
         }}
       />
 
-      {/* Hero Section */}
-      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-4xl mx-auto text-center">
-            <div className="flex items-center justify-center gap-2 mb-6">
-              <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-orange-300">Serving Bangalore Businesses</span>
-            </div>
-            
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
-              <strong>Artificial Intelligence Company In Bangalore</strong> | Leading AI Company In Bangalore
-            </h1>
-            
-            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              Looking for the best <strong>AI Company In Bangalore</strong>? Metic.ai is the premier <strong>Artificial Intelligence Company In Bangalore</strong> with 2100+ successful AI implementations. From Electronic City to Whitefield, we transform Bangalore businesses with expert AI services, machine learning solutions, and custom AI development delivering 60% cost savings and 3x faster delivery.
-            </p>
-            
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-              <Link href="/contact">
-                <Button variant="primary" size="lg" className="w-full sm:w-auto">
-                  Get Free AI Consultation in Bangalore
-                </Button>
-              </Link>
-              <Link href="tel:+917892518414">
-                <Button variant="outline" size="lg" className="w-full sm:w-auto">
-                  <Phone className="w-4 h-4 mr-2" />
-                  Call Bangalore AI Experts: +1-789-251-8414
-                </Button>
-              </Link>
-            </div>
-
-            {/* Enhanced Stats with Keywords */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-2xl mx-auto">
-              <div className="text-center">
-                <div className="text-2xl font-bold text-primary-orange mb-1">2100+</div>
-                <div className="text-sm text-gray-400">Bangalore AI Projects</div>
+      {/* Ultra-Creative Hero Section - Premium Bangalore Tech Capital Design */}
+      <section className="relative min-h-screen bg-gradient-to-br from-white via-blue-50 to-purple-50 overflow-hidden">
+        {/* Advanced Background Effects */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          {/* Silicon Valley of India Gradient Orbs */}
+          <div className="absolute top-20 left-20 w-96 h-96 bg-blue-400/20 rounded-full blur-3xl animate-pulse opacity-60"></div>
+          <div className="absolute bottom-20 right-20 w-80 h-80 bg-primary-orange/20 rounded-full blur-3xl animate-pulse opacity-60" style={{animationDelay: '2s'}}></div>
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-purple-400/15 rounded-full blur-2xl animate-pulse opacity-40" style={{animationDelay: '4s'}}></div>
+          
+          {/* Tech Hub Floating Elements */}
+          <div className="absolute top-40 right-40 w-32 h-32 bg-gradient-to-br from-blue-300/20 to-purple-300/20 rounded-3xl rotate-45 animate-bounce opacity-60" style={{animationDelay: '1s'}}></div>
+          <div className="absolute bottom-40 left-40 w-24 h-24 bg-gradient-to-br from-primary-orange/15 to-blue-400/15 rounded-full animate-pulse opacity-50" style={{animationDelay: '3s'}}></div>
+          
+          {/* Tech Pattern */}
+          <div className="absolute inset-0 opacity-[0.03]" style={{
+            backgroundImage: `linear-gradient(#3B82F6 1.5px, transparent 1.5px), linear-gradient(90deg, #3B82F6 1.5px, transparent 1.5px)`,
+            backgroundSize: '60px 60px'
+          }}></div>
+        </div>
+        
+        <div className="container px-4 md:px-6 relative z-10">
+          <div className="max-w-7xl mx-auto">
+            <div className="flex items-center min-h-screen py-20">
+              <div className="grid lg:grid-cols-2 gap-16 items-center w-full">
+                
+                {/* Left Content */}
+                <div className="space-y-8">
+                  {/* Bangalore Tech Capital Badge */}
+                  <div className="inline-flex items-center gap-3 px-6 py-3 bg-white rounded-full shadow-xl border-2 border-blue-300/30 hover:border-purple-400/40 transition-all group">
+                    <MapPin className="w-5 h-5 text-blue-500 animate-pulse" />
+                    <span className="text-lg font-bold text-gray-800">Silicon Valley of India</span>
+                    <div className="w-2 h-2 bg-blue-500 rounded-full animate-ping"></div>
+                  </div>
+                  
+                  {/* Main Headline */}
+                  <div className="space-y-6">
+                    <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-tight">
+                      <span className="block text-gray-900 mb-2">
+                        <strong>Artificial Intelligence</strong>
+                      </span>
+                      <span className="block bg-gradient-to-r from-blue-500 via-purple-500 to-primary-orange bg-clip-text text-transparent mb-2">
+                        Company In Bangalore
+                      </span>
+                      <span className="block text-2xl md:text-3xl lg:text-4xl text-gray-700 font-semibold">
+                        Leading <span className="text-blue-500">AI Company In Bangalore</span>
+                      </span>
+                    </h1>
+                    
+                    {/* Tech Capital Decorative Line */}
+                    <div className="w-32 h-1.5 bg-gradient-to-r from-blue-500 via-purple-500 to-primary-orange rounded-full"></div>
+                  </div>
+                  
+                  {/* Hero Description */}
+                  <div className="space-y-6">
+                    <p className="text-xl md:text-2xl text-gray-600 leading-relaxed max-w-2xl">
+                      Looking for the best <strong className="text-blue-500 font-semibold">AI Company In Bangalore</strong>? 
+                      Metic.ai is the premier <strong className="text-purple-600 font-semibold">Artificial Intelligence Company In Bangalore</strong> 
+                      with <span className="bg-gradient-to-r from-blue-100 to-purple-100 px-2 py-1 rounded-lg font-bold">2100+ successful AI implementations</span>.
+                    </p>
+                    
+                    <p className="text-lg text-gray-600 leading-relaxed">
+                      From Electronic City's IT corridors to Whitefield's tech parks, we transform Bangalore businesses 
+                      with cutting-edge AI solutions, delivering <strong className="text-blue-500">60% cost savings</strong> and 
+                      <strong className="text-purple-600">3x faster delivery</strong>.
+                    </p>
+                  </div>
+                  
+                  {/* Enhanced CTA Buttons */}
+                  <div className="flex flex-col sm:flex-row gap-4 pt-6">
+                    <Link href="/contact">
+                      <Button size="lg" className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-8 py-4 text-lg font-semibold shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all group">
+                        Get Free AI Consultation in Bangalore
+                        <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                      </Button>
+                    </Link>
+                    <Link href="tel:+917892518414">
+                      <Button variant="outline" size="lg" className="border-2 border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white px-8 py-4 text-lg font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all group">
+                        <Phone className="w-5 h-5 mr-2 group-hover:animate-bounce" />
+                        Call Bangalore AI Experts
+                      </Button>
+                    </Link>
+                  </div>
+                  
+                  {/* Trust Indicators */}
+                  <div className="flex flex-wrap items-center gap-6 pt-8">
+                    <div className="flex items-center gap-2">
+                      <CheckCircle className="w-5 h-5 text-blue-500" />
+                      <span className="text-sm font-semibold text-gray-700">2100+ Bangalore AI Projects</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <CheckCircle className="w-5 h-5 text-purple-600" />
+                      <span className="text-sm font-semibold text-gray-700">4.9/5 Rating</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <CheckCircle className="w-5 h-5 text-blue-500" />
+                      <span className="text-sm font-semibold text-gray-700">24/7 Support</span>
+                    </div>
+                  </div>
+                </div>
+                
+                {/* Right Visual Elements */}
+                <div className="relative">
+                  {/* Main Stats Card */}
+                  <div className="relative bg-white rounded-3xl p-8 shadow-2xl border-2 border-blue-300/30 hover:border-purple-400/40 transition-all">
+                    {/* Tech Capital Badge */}
+                    <div className="absolute -top-6 left-8 bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-3 rounded-full shadow-lg">
+                      <span className="font-bold text-lg">#1 AI Company Bangalore</span>
+                    </div>
+                    
+                    {/* Stats Grid */}
+                    <div className="grid grid-cols-2 gap-8 mt-8">
+                      <div className="text-center group">
+                        <div className="relative">
+                          <div className="absolute inset-0 bg-gradient-to-br from-blue-100/50 to-purple-100/50 rounded-2xl group-hover:from-blue-200/50 group-hover:to-purple-200/50 transition-all"></div>
+                          <div className="relative p-6 rounded-2xl">
+                            <div className="text-3xl md:text-4xl font-bold text-blue-500 mb-2 group-hover:scale-110 transition-transform">
+                              2100+
+                            </div>
+                            <div className="text-sm font-semibold text-gray-600">
+                              Bangalore AI Projects
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div className="text-center group">
+                        <div className="relative">
+                          <div className="absolute inset-0 bg-gradient-to-br from-purple-100/50 to-blue-100/50 rounded-2xl group-hover:from-purple-200/50 group-hover:to-blue-200/50 transition-all"></div>
+                          <div className="relative p-6 rounded-2xl">
+                            <div className="text-3xl md:text-4xl font-bold text-purple-600 mb-2 group-hover:scale-110 transition-transform">
+                              4.9/5
+                            </div>
+                            <div className="text-sm font-semibold text-gray-600">
+                              Client Satisfaction
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div className="text-center group">
+                        <div className="relative">
+                          <div className="absolute inset-0 bg-gradient-to-br from-blue-100/50 to-purple-100/50 rounded-2xl group-hover:from-blue-200/50 group-hover:to-purple-200/50 transition-all"></div>
+                          <div className="relative p-6 rounded-2xl">
+                            <div className="text-3xl md:text-4xl font-bold text-blue-500 mb-2 group-hover:scale-110 transition-transform">
+                              60%
+                            </div>
+                            <div className="text-sm font-semibold text-gray-600">
+                              Cost Savings
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div className="text-center group">
+                        <div className="relative">
+                          <div className="absolute inset-0 bg-gradient-to-br from-purple-100/50 to-blue-100/50 rounded-2xl group-hover:from-purple-200/50 group-hover:to-blue-200/50 transition-all"></div>
+                          <div className="relative p-6 rounded-2xl">
+                            <div className="text-3xl md:text-4xl font-bold text-purple-600 mb-2 group-hover:scale-110 transition-transform">
+                              3x
+                            </div>
+                            <div className="text-sm font-semibold text-gray-600">
+                              Faster Delivery
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    {/* Keywords Section */}
+                    <div className="mt-8 pt-6 border-t border-gray-200">
+                      <p className="text-center text-lg font-semibold text-gray-700 mb-4">
+                        Trusted as the top <span className="text-blue-500">AI Service In Bangalore</span>
+                      </p>
+                      <div className="flex flex-wrap justify-center gap-2">
+                        <span className="bg-gradient-to-r from-blue-100 to-purple-100 text-gray-700 px-4 py-2 rounded-full text-sm font-semibold border border-blue-300">
+                          AI Firm In Bangalore
+                        </span>
+                        <span className="bg-gradient-to-r from-purple-100 to-blue-100 text-gray-700 px-4 py-2 rounded-full text-sm font-semibold border border-purple-300">
+                          AI Development Company
+                        </span>
+                        <span className="bg-gradient-to-r from-blue-100 to-purple-100 text-gray-700 px-4 py-2 rounded-full text-sm font-semibold border border-blue-300">
+                          Best AI Company Bangalore
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Floating Achievement Cards */}
+                  <div className="absolute -top-8 -right-8 bg-white rounded-2xl p-4 shadow-xl border-2 border-purple-300 transform rotate-6 hover:rotate-3 transition-transform">
+                    <div className="flex items-center gap-3">
+                      <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center">
+                        <Award className="w-6 h-6 text-white" />
+                      </div>
+                      <div>
+                        <div className="font-bold text-gray-900">Tech Capital</div>
+                        <div className="text-sm text-gray-600">AI Leader</div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="absolute -bottom-8 -left-8 bg-white rounded-2xl p-4 shadow-xl border-2 border-blue-300 transform -rotate-6 hover:-rotate-3 transition-transform">
+                    <div className="flex items-center gap-3">
+                      <div className="w-12 h-12 bg-gradient-to-br from-purple-600 to-blue-500 rounded-full flex items-center justify-center">
+                        <Zap className="w-6 h-6 text-white" />
+                      </div>
+                      <div>
+                        <div className="font-bold text-gray-900">IT Hub</div>
+                        <div className="text-sm text-gray-600">Innovation</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div className="text-center">
-                <div className="text-2xl font-bold text-primary-orange mb-1">4.9/5</div>
-                <div className="text-sm text-gray-400">Client Satisfaction</div>
-              </div>
-              <div className="text-center">
-                <div className="text-2xl font-bold text-primary-orange mb-1">60%</div>
-                <div className="text-sm text-gray-400">Cost Savings</div>
-              </div>
-              <div className="text-center">
-                <div className="text-2xl font-bold text-primary-orange mb-1">3x</div>
-                <div className="text-sm text-gray-400">Faster Delivery</div>
-              </div>
             </div>
-
-            {/* Keywords Badges */}
-            <div className="mt-8 flex flex-wrap justify-center gap-2 max-w-3xl mx-auto">
-              <span className="bg-primary-orange/10 text-primary-orange px-3 py-1 rounded-full text-sm font-medium">
-                AI Service In Bangalore
-              </span>
-              <span className="bg-primary-orange/10 text-primary-orange px-3 py-1 rounded-full text-sm font-medium">
-                AI Firm In Bangalore
-              </span>
-              <span className="bg-primary-orange/10 text-primary-orange px-3 py-1 rounded-full text-sm font-medium">
-                AI Development Company In Bangalore
-              </span>
-              <span className="bg-primary-orange/10 text-primary-orange px-3 py-1 rounded-full text-sm font-medium">
-                Best AI Company In Bangalore
-              </span>
-            </div>
+          </div>
+        </div>
+        
+        {/* Tech Capital Scroll Indicator */}
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+          <div className="w-6 h-10 border-2 border-blue-500 rounded-full flex justify-center">
+            <div className="w-1 h-3 bg-blue-500 rounded-full mt-2 animate-pulse"></div>
           </div>
         </div>
       </section>
