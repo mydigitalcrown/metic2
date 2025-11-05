@@ -22,6 +22,8 @@ import {
   Database,
   Sparkles,
   Quote,
+  Rocket,
+  Globe,
   ChevronDown
 } from "lucide-react";
 
