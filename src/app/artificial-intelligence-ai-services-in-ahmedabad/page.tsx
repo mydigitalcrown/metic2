@@ -408,14 +408,6 @@ export default function AIServicesAhmedabadPage() {
                   Leading AI Company In Gujarat
                 </span>
               </h1>
-              
-              {/* Floating Icons */}
-              <div className="absolute -top-6 -left-6 w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center hidden md:flex" style={{animation: 'bounce 2s infinite'}}>
-                <Brain className="w-6 h-6 text-primary-orange" />
-              </div>
-              <div className="absolute -top-4 -right-8 w-10 h-10 bg-orange-400/10 rounded-full flex items-center justify-center hidden md:flex" style={{animation: 'bounce 2s infinite', animationDelay: '1s'}}>
-                <Rocket className="w-5 h-5 text-orange-400" />
-              </div>
             </div>
             
             {/* Enhanced Description */}
