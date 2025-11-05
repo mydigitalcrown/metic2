@@ -399,9 +399,8 @@ export default function AIServicesAhmedabadPage() {
             {/* Enhanced Title with Animation */}
             <div className="relative mb-8">
               <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white relative z-10">
-                <strong className="relative">
+                <strong>
                   Artificial Intelligence Company In Ahmedabad
-                  <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange opacity-30 rounded-full"></div>
                 </strong>
                 <br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange">
