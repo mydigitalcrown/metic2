@@ -7,6 +7,7 @@ import {
   Shield, 
   Users, 
   ChevronRight,
+  ChevronDown,
   Star,
   CheckCircle,
   ArrowRight,
@@ -737,97 +738,342 @@ export default function AIServicesArizonaPage() {
         </div>
       </section>
 
-      {/* FAQ Section for ASO */}
-      <section className="py-20 bg-gray-50">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-4xl mx-auto">
+      {/* Ultra-Creative FAQ Section - Arizona AI Services */}
+      <section className="py-24 bg-gradient-to-br from-gray-50 via-white to-orange-50 relative overflow-hidden">
+        {/* Advanced Background Effects */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          {/* Animated Gradient Orbs */}
+          <div className="absolute top-10 left-10 w-96 h-96 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-10 right-10 w-96 h-96 bg-secondary-orange/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
+          
+          {/* Grid Pattern */}
+          <div className="absolute inset-0 opacity-[0.02]" style={{
+            backgroundImage: `linear-gradient(#FF6B35 1.5px, transparent 1.5px), linear-gradient(90deg, #FF6B35 1.5px, transparent 1.5px)`,
+            backgroundSize: '60px 60px'
+          }}></div>
+        </div>
+        
+        <div className="container px-4 md:px-6 relative z-10">
+          <div className="max-w-5xl mx-auto">
+            {/* Enhanced Section Header */}
             <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Frequently Asked Questions About <span className="text-primary-orange">AI Company In Arizona</span>
+              {/* Badge */}
+              <div className="inline-flex items-center gap-2 px-6 py-3 bg-white rounded-full shadow-xl border-2 border-primary-orange/20 mb-8 hover:border-primary-orange/40 transition-all group">
+                <Lightbulb className="w-5 h-5 text-primary-orange animate-pulse" />
+                <span className="text-sm font-bold text-gray-800">Arizona AI Questions? We Have Answers!</span>
+                <Sparkles className="w-4 h-4 text-primary-orange" />
+              </div>
+              
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+                <span className="text-gray-900">Frequently Asked Questions</span>
+                <br />
+                <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
+                  AI Company In Arizona
+                </span>
               </h2>
-              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Get answers to common questions about choosing the right Artificial Intelligence Company In Arizona for your business needs.
+              <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-8 rounded-full"></div>
+              <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+                Common questions about working with the leading Artificial Intelligence Company In Arizona
               </p>
             </div>
-            
-            <div className="space-y-6">
-              <div className="bg-white rounded-lg shadow-md overflow-hidden">
-                <div className="p-6">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-3">
-                    Which is the best Artificial Intelligence Company In Arizona?
-                  </h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    Metic.ai is recognized as the leading <strong>Artificial Intelligence Company In Arizona</strong> with 2100+ successful AI implementations. We serve businesses across Phoenix, Tucson, Mesa, and all Arizona cities with expert AI services, machine learning solutions, and custom AI development. Our proven track record includes 4.9/5 client satisfaction rating and 60% cost savings for Arizona businesses.
-                  </p>
-                </div>
-              </div>
 
-              <div className="bg-white rounded-lg shadow-md overflow-hidden">
-                <div className="p-6">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-3">
-                    What AI services does the top AI Company In Arizona provide?
-                  </h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    As the premier <strong>AI Company In Arizona</strong>, Metic.ai provides comprehensive AI services including custom AI development, machine learning solutions, AI integration, automation services, data analytics, natural language processing, and computer vision solutions. We specialize in healthcare AI, real estate intelligence, tourism AI, and custom business solutions specifically designed for Arizona's diverse industries.
-                  </p>
+            {/* Advanced Creative FAQ Cards */}
+            <div className="space-y-5">
+              {/* FAQ Item 1 - Enhanced Design */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    {/* Gradient Overlay */}
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    {/* Content */}
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        {/* Icon Circle */}
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Sparkles className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        {/* Question */}
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Which is the best Artificial Intelligence Company In Arizona?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      {/* Toggle Icon */}
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    {/* Bottom Accent Bar */}
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                {/* Answer with Animation */}
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <CheckCircle className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        <strong className="text-gray-900 font-semibold">Metic.ai is recognized as the leading Artificial Intelligence Company In Arizona</strong> with 2100+ successful AI implementations. We serve businesses across Phoenix, Tucson, Mesa, and all Arizona cities with expert AI services, machine learning solutions, and custom AI development.
+                      </p>
+                      <p className="text-lg">
+                        Our proven track record includes 4.9/5 client satisfaction rating, 60% cost savings for Arizona businesses, and 3x faster delivery compared to other AI companies. We specialize in Arizona's key industries including healthcare, technology, manufacturing, aerospace, and tourism.
+                      </p>
+                      
+                      {/* Stats Highlight */}
+                      <div className="flex flex-wrap gap-4 pt-4">
+                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
+                          <Award className="w-4 h-4 text-primary-orange" />
+                          <span className="text-sm font-semibold text-gray-900">2100+ Projects</span>
+                        </div>
+                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
+                          <Users className="w-4 h-4 text-primary-orange" />
+                          <span className="text-sm font-semibold text-gray-900">Arizona Businesses</span>
+                        </div>
+                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
+                          <Star className="w-4 h-4 text-primary-orange fill-primary-orange" />
+                          <span className="text-sm font-semibold text-gray-900">4.9/5 Rating</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              </details>
 
-              <div className="bg-white rounded-lg shadow-md overflow-hidden">
-                <div className="p-6">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-3">
-                    How much does AI development cost from an AI Company In Arizona?
-                  </h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    AI development costs vary based on project complexity and scope. As a leading <strong>AI Company In Arizona</strong>, Metic.ai offers competitive pricing with 60% cost savings compared to traditional development approaches. We provide free consultations to Arizona businesses to determine exact project costs, ROI projections, and implementation timelines tailored to your specific requirements.
-                  </p>
+              {/* FAQ Item 2 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Code className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What AI services does the top AI Company In Arizona provide?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <CheckCircle className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        As the premier <strong className="text-gray-900 font-semibold">AI Company In Arizona</strong>, Metic.ai provides comprehensive AI services including custom AI development, machine learning solutions, AI integration, automation services, data analytics, natural language processing, and computer vision solutions.
+                      </p>
+                      <p className="text-lg">
+                        We specialize in healthcare AI, real estate intelligence, tourism AI, and custom business solutions specifically designed for Arizona's diverse industries across Phoenix, Tucson, Mesa, Chandler, and Scottsdale.
+                      </p>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              </details>
 
-              <div className="bg-white rounded-lg shadow-md overflow-hidden">
-                <div className="p-6">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-3">
-                    Why choose Metic.ai as your Artificial Intelligence Company In Arizona?
-                  </h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    Metic.ai stands out as the top <strong>Artificial Intelligence Company In Arizona</strong> because of our 2100+ successful implementations, 4.9/5 client satisfaction rating, 3x faster delivery, 60% cost savings, and deep understanding of Arizona's business landscape. We serve all major Arizona cities including Phoenix, Tucson, Mesa, Chandler, Scottsdale, and specialize in healthcare, technology, manufacturing, and tourism sectors.
-                  </p>
+              {/* FAQ Item 3 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <TrendingUp className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How much does AI development cost from an AI Company In Arizona?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <CheckCircle className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        AI development costs vary based on project complexity and scope. As a leading <strong className="text-gray-900 font-semibold">AI Company In Arizona</strong>, Metic.ai offers competitive pricing with 60% cost savings compared to traditional development approaches.
+                      </p>
+                      <p className="text-lg">
+                        We provide free consultations to Arizona businesses to determine exact project costs, ROI projections, and implementation timelines tailored to your specific requirements in Phoenix, Tucson, or anywhere in Arizona.
+                      </p>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              </details>
 
-              <div className="bg-white rounded-lg shadow-md overflow-hidden">
-                <div className="p-6">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-3">
-                    Which industries does the leading AI Company In Arizona serve?
-                  </h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    As Arizona's premier <strong>AI Company</strong>, Metic.ai serves diverse industries including healthcare, technology, manufacturing, aerospace, tourism, real estate, mining, agriculture, financial services, and renewable energy. We have extensive experience working with businesses across all Arizona regions, from Phoenix's tech corridor to Tucson's aerospace industry and Flagstaff's tourism sector.
-                  </p>
+              {/* FAQ Item 4 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Award className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Why choose Metic.ai as your Artificial Intelligence Company In Arizona?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <CheckCircle className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        Metic.ai stands out as the top <strong className="text-gray-900 font-semibold">Artificial Intelligence Company In Arizona</strong> because of our 2100+ successful implementations, 4.9/5 client satisfaction rating, 3x faster delivery, 60% cost savings, and deep understanding of Arizona's business landscape.
+                      </p>
+                      <p className="text-lg">
+                        We serve all major Arizona cities including Phoenix, Tucson, Mesa, Chandler, Scottsdale, and specialize in healthcare, technology, manufacturing, aerospace, and tourism sectors that drive Arizona's economy.
+                      </p>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              </details>
 
-              <div className="bg-white rounded-lg shadow-md overflow-hidden">
-                <div className="p-6">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-3">
-                    How quickly can an AI Company In Arizona implement AI solutions?
-                  </h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    Metic.ai, the leading <strong>AI Company In Arizona</strong>, delivers AI solutions 3x faster than industry average. Simple AI implementations can be deployed in 2-4 weeks, while complex enterprise AI solutions typically take 3-6 months, depending on Arizona business requirements and integration complexity. We provide realistic timelines during our free consultation process.
-                  </p>
+              {/* FAQ Item 5 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Clock className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How quickly can an AI Company In Arizona implement AI solutions?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <CheckCircle className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        Metic.ai, the leading <strong className="text-gray-900 font-semibold">AI Company In Arizona</strong>, delivers AI solutions 3x faster than industry average. Simple AI implementations can be deployed in 2-4 weeks, while complex enterprise AI solutions typically take 3-6 months.
+                      </p>
+                      <p className="text-lg">
+                        Implementation timelines depend on Arizona business requirements and integration complexity. We provide realistic timelines during our free consultation process for Phoenix, Tucson, Mesa, and all Arizona businesses.
+                      </p>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              </details>
             </div>
 
-            <div className="text-center mt-12">
-              <p className="text-gray-600 mb-6">
-                Have more questions about AI services in Arizona?
-              </p>
-              <Link href="/contact">
-                <Button variant="primary" size="lg">
-                  Speak with Arizona AI Experts
-                </Button>
-              </Link>
+            {/* Enhanced CTA Section */}
+            <div className="text-center mt-16">
+              <div className="bg-white rounded-3xl p-8 shadow-xl border-2 border-primary-orange/20 max-w-2xl mx-auto">
+                <div className="flex justify-center mb-4">
+                  <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-full flex items-center justify-center">
+                    <Phone className="w-8 h-8 text-white" />
+                  </div>
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                  Have more questions about AI services in Arizona?
+                </h3>
+                <p className="text-gray-600 mb-6">
+                  Get answers from our Arizona AI experts and discover how we can transform your business
+                </p>
+                <Link href="/contact">
+                  <Button size="lg" className="bg-gradient-to-r from-primary-orange to-secondary-orange hover:from-primary-orange/90 hover:to-secondary-orange/90 text-white px-8 py-4 text-lg font-semibold shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all">
+                    Speak with Arizona AI Experts
+                    <ArrowRight className="ml-2 h-5 w-5" />
+                  </Button>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
