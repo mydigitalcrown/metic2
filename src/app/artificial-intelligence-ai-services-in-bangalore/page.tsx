@@ -457,7 +457,7 @@ export default function AIServicesBangalorePage() {
       />
 
       {/* Ultra-Creative Hero Section - Premium Bangalore AI Design with Orange/White Theme */}
-      <section className="relative min-h-screen bg-gradient-to-br from-white via-orange-50 to-gray-50 overflow-hidden">
+      <section className="relative min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black overflow-hidden">
         {/* Advanced Background Effects */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           {/* Orange/White Gradient Orbs */}
