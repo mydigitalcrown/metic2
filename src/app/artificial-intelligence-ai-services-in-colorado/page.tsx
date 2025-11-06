@@ -20,7 +20,15 @@ import {
   BarChart3,
   Code,
   Database,
-  Sparkles
+  Sparkles,
+  Rocket,
+  Globe,
+  ChevronDown,
+  Cpu,
+  Bot,
+  Cog,
+  DollarSign,
+  Factory
 } from "lucide-react";
 
 export const metadata = {
@@ -406,48 +414,143 @@ export default function AIServicesColoradoPage() {
         }}
       />
 
-      {/* Hero Section */}
-      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
-        <div className="container px-4 md:px-6">
+      {/* Enhanced Creative Hero Section - VSO & Target Keyword Optimized */}
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28 relative overflow-hidden">
+        {/* Creative Background Elements */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          {/* Animated Circuit Pattern */}
+          <div className="absolute inset-0 opacity-[0.03]" style={{
+            backgroundImage: `linear-gradient(#FF6B35 1px, transparent 1px), linear-gradient(90deg, #FF6B35 1px, transparent 1px)`,
+            backgroundSize: '50px 50px'
+          }}></div>
+          
+          {/* Floating AI Elements */}
+          <div className="absolute top-20 left-10 w-32 h-32 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-20 right-10 w-40 h-40 bg-primary-orange/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
+          
+          {/* Geometric Shapes */}
+          <div className="absolute top-1/4 left-1/4 w-2 h-2 bg-primary-orange/30 rounded-full animate-bounce" style={{animationDelay: '1s'}}></div>
+          <div className="absolute top-1/3 right-1/3 w-1.5 h-1.5 bg-orange-400/30 rounded-full animate-bounce" style={{animationDelay: '3s'}}></div>
+          <div className="absolute bottom-1/4 left-1/3 w-2.5 h-2.5 bg-primary-orange/20 rounded-full animate-bounce" style={{animationDelay: '2.5s'}}></div>
+        </div>
+
+        <div className="container px-4 md:px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="flex items-center justify-center gap-2 mb-6">
-              <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-orange-300">Serving Colorado</span>
+            {/* Enhanced Location Badge */}
+            <div className="inline-flex items-center gap-3 mb-8 bg-gray-800/50 backdrop-blur-sm rounded-full px-6 py-3 border border-primary-orange/20">
+              <div className="relative">
+                <MapPin className="w-5 h-5 text-primary-orange" />
+                <div className="absolute -top-1 -right-1 w-3 h-3 bg-primary-orange rounded-full animate-ping"></div>
+              </div>
+              <span className="text-sm font-medium text-orange-300">Serving Colorado, United States</span>
+              <div className="w-2 h-2 bg-primary-orange rounded-full animate-pulse"></div>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
-              <strong>Artificial Intelligence Company In Colorado</strong> | Leading AI Company In Colorado
-            </h1>
+            {/* Enhanced Title with Animation */}
+            <div className="relative mb-8">
+              <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white relative z-10">
+                <strong>
+                  Artificial Intelligence Company In Colorado
+                </strong>
+                <br />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange">
+                  Leading AI Company In Colorado
+                </span>
+              </h1>
+            </div>
             
-            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              Looking for the best <strong>AI Company In Colorado</strong>? Metic.ai is the premier <strong>Artificial Intelligence Company In Colorado</strong> 
-              with 2100+ successful AI implementations. From Denver's financial district to Boulder's tech corridor, we deliver 
-              expert AI services with 60% cost savings & 3x faster delivery. Transform your Colorado business with our 
-              cutting-edge AI solutions today.
-            </p>
+            {/* Enhanced Description */}
+            <div className="relative mb-10">
+              <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
+                Looking for the best <strong className="text-white">AI Company In Colorado</strong>? Metic.ai is the premier 
+                <strong className="text-primary-orange"> Artificial Intelligence Company In Colorado</strong> 
+                with 2100+ successful AI implementations. From Denver's financial district to Boulder's tech corridor, we deliver 
+                expert AI services with <span className="text-primary-orange font-semibold">60% cost savings</span> and 
+                <span className="text-primary-orange font-semibold">3x faster delivery</span>.
+              </p>
+              
+              {/* Trust Indicators */}
+              <div className="flex items-center justify-center gap-6 mb-8">
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
+                    <Shield className="w-4 h-4 text-primary-orange" />
+                  </div>
+                  <span className="text-sm text-gray-400">ISO Certified</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
+                    <Award className="w-4 h-4 text-primary-orange" />
+                  </div>
+                  <span className="text-sm text-gray-400">Award Winning</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
+                    <Users className="w-4 h-4 text-primary-orange" />
+                  </div>
+                  <span className="text-sm text-gray-400">2100+ Clients</span>
+                </div>
+              </div>
+            </div>
             
+            {/* Enhanced CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Link href="/contact">
-                <Button variant="primary" size="lg" className="w-full sm:w-auto">
-                  Get Free AI Consultation Colorado
+                <Button 
+                  variant="primary" 
+                  size="lg" 
+                  className="w-full sm:w-auto bg-gradient-to-r from-primary-orange to-orange-500 hover:from-primary-orange/90 hover:to-orange-500/90 transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl group"
+                >
+                  <Rocket className="w-5 h-5 mr-2 group-hover:animate-pulse" />
+                  Get Free AI Consultation
                 </Button>
               </Link>
               <Link href="tel:+917892518414">
-                <Button variant="outline" size="lg" className="w-full sm:w-auto">
-                  <Phone className="w-4 h-4 mr-2" />
-                  Call Top AI Company Colorado
+                <Button 
+                  variant="outline" 
+                  size="lg" 
+                  className="w-full sm:w-auto border-primary-orange text-primary-orange hover:bg-primary-orange/10 transform hover:scale-105 transition-all duration-300 group"
+                >
+                  <Phone className="w-4 h-4 mr-2 group-hover:animate-pulse" />
+                  Call: +1-789-251-8414
                 </Button>
               </Link>
             </div>
 
-            {/* Quick Stats */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-2xl mx-auto">
+            {/* Enhanced Stats with Creative Design */}
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto mb-12">
               {stats.map((stat, index) => (
-                <div key={index} className="text-center">
-                  <div className="text-2xl font-bold text-primary-orange mb-1">{stat.number}</div>
-                  <div className="text-sm text-gray-600">{stat.label}</div>
+                <div key={index} className="relative group">
+                  <div className="bg-gray-800/30 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:border-primary-orange/50 transition-all duration-300 group-hover:transform group-hover:scale-105">
+                    <div className="text-3xl font-bold text-primary-orange mb-2 group-hover:animate-pulse">{stat.number}</div>
+                    <div className="text-sm text-gray-400">{stat.label}</div>
+                    
+                    {/* Hover Effect */}
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/5 to-orange-400/5 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  </div>
                 </div>
               ))}
+            </div>
+
+            {/* Enhanced VSO Keywords Section */}
+            <div className="text-center">
+              <p className="text-gray-400 text-sm mb-6 flex items-center justify-center gap-2">
+                <Globe className="w-4 h-4 text-primary-orange" />
+                Trusted as the top AI Service In Colorado
+              </p>
+              <div className="flex flex-wrap justify-center gap-3">
+                {[
+                  "AI Firm In Colorado",
+                  "AI Development Company In Colorado", 
+                  "Best AI Company Colorado"
+                ].map((tag, index) => (
+                  <span 
+                    key={index}
+                    className="bg-gray-800/50 backdrop-blur-sm px-4 py-2 rounded-full text-gray-400 text-xs border border-gray-700/50 hover:border-primary-orange/50 hover:text-primary-orange transition-all duration-300 cursor-default"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
             </div>
           </div>
         </div>
@@ -459,12 +562,12 @@ export default function AIServicesColoradoPage() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                AI Solutions for <span className="text-primary-orange">Colorado</span> Businesses
+                <strong>AI Services</strong> by Leading <span className="text-primary-orange">Artificial Intelligence Company In Colorado</span>
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Comprehensive artificial intelligence services designed to help Colorado businesses 
-                compete in the digital economy and drive sustainable growth.
+                Comprehensive artificial intelligence services from Colorado's most trusted <strong>AI Company In Colorado</strong>. 
+                Transforming businesses with cutting-edge AI solutions tailored for Colorado's diverse industrial landscape.
               </p>
             </div>
             
@@ -535,14 +638,12 @@ export default function AIServicesColoradoPage() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                About Leading <span className="text-primary-orange">Artificial Intelligence Company In Colorado</span>
+                Why Choose Metic.ai as Your <span className="text-primary-orange">AI Firm In Colorado</span>
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                As the premier <strong>AI Company In Colorado</strong>, Metic.ai has been transforming businesses across the Centennial State 
-                since 2018. From the bustling tech corridors of Denver and Boulder to the aerospace innovation hubs of Colorado Springs, 
-                we've helped over 2100+ companies harness the power of artificial intelligence. Our team understands Colorado's unique 
-                business landscape—from the energy sectors in Greeley to the biotech innovations in Fort Collins.
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                As the premier <strong>AI Development Company In Colorado</strong>, we're trusted by businesses across Colorado 
+                for our expertise, proven results, and commitment to client success.
               </p>
             </div>
             
@@ -583,86 +684,825 @@ export default function AIServicesColoradoPage() {
         </div>
       </section>
 
+      {/* Comprehensive SEO Content Section - 2000+ Words */}
+      <section className="py-20 bg-gray-50 relative overflow-hidden">
+        {/* Background Elements */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <div className="absolute top-20 left-10 w-64 h-64 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-20 right-10 w-80 h-80 bg-primary-orange/3 rounded-full blur-3xl animate-pulse delay-1000"></div>
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-primary-orange/2 rounded-full blur-3xl animate-pulse delay-2000"></div>
+        </div>
+
+        <div className="container px-4 md:px-6 relative z-10">
+          <div className="max-w-6xl mx-auto">
+            {/* Section Header */}
+            <div className="text-center mb-16">
+              <div className="inline-flex items-center gap-3 mb-6 bg-white/80 backdrop-blur-sm rounded-full px-6 py-3 border border-primary-orange/20">
+                <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
+                  <Brain className="w-4 h-4 text-primary-orange" />
+                </div>
+                <span className="text-sm font-medium text-gray-600">Comprehensive AI Insights</span>
+              </div>
+              <h2 className="text-4xl font-bold mb-4 text-gray-900">
+                Deep Dive: <span className="text-primary-orange">AI Transformation</span> in Colorado
+              </h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Exploring how artificial intelligence is revolutionizing the Centennial State's diverse industries
+              </p>
+            </div>
+
+            <div className="space-y-16">
+              {/* Main Content Block 1: Company Overview */}
+              <div className="relative">
+                <div className="bg-white rounded-3xl p-8 md:p-12 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-300">
+                  <div className="flex items-start gap-6 mb-8">
+                    <div className="flex-shrink-0">
+                      <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-orange-400 rounded-2xl flex items-center justify-center shadow-lg">
+                        <MapPin className="w-8 h-8 text-white" />
+                      </div>
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-3xl font-bold mb-4 text-gray-900">
+                        <strong>Artificial Intelligence Company In Colorado</strong> - Leading the Rocky Mountain Innovation
+                      </h3>
+                      <div className="w-24 h-1 bg-primary-orange rounded-full mb-6"></div>
+                    </div>
+                  </div>
+                  
+                  <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
+                    <p className="border-l-4 border-primary-orange pl-6 bg-primary-orange/5 p-4 rounded-r-lg">
+                      As the leading <strong className="text-primary-orange">AI Company In Colorado</strong>, Metic.ai stands at the forefront of technological innovation in the Centennial State. Colorado has always been synonymous with pioneering spirit, from gold rush pioneers to aerospace innovators, and today we're continuing that legacy in artificial intelligence.
+                    </p>
+                    <p>
+                      Our <strong>Artificial Intelligence Company In Colorado</strong> serves as a bridge between cutting-edge AI technology and Colorado's diverse business ecosystem. With over 2100+ successful AI implementations across the United States and beyond, we understand the unique opportunities that Colorado businesses face in today's digital-first economy.
+                    </p>
+                    <p className="bg-white border-2 border-primary-orange/20 p-6 rounded-xl">
+                      The journey of becoming Colorado's most trusted <strong className="text-primary-orange">AI Service In Colorado</strong> began with our commitment to understanding the state's entrepreneurial culture. From Denver's financial district to Boulder's tech corridor, our AI solutions enhance Colorado's innovation strengths.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Main Content Block 2: Colorado Market Understanding */}
+              <div className="relative">
+                <div className="grid lg:grid-cols-2 gap-8 items-center">
+                  <div className="bg-white rounded-3xl p-8 md:p-10 shadow-xl border border-gray-100">
+                    <div className="flex items-center gap-4 mb-6">
+                      <div className="w-14 h-14 bg-gradient-to-br from-primary-orange to-orange-400 rounded-xl flex items-center justify-center">
+                        <TrendingUp className="w-7 h-7 text-white" />
+                      </div>
+                      <h3 className="text-2xl font-bold text-gray-900">Colorado Market Dynamics</h3>
+                    </div>
+                    <div className="w-20 h-1 bg-primary-orange rounded-full mb-6"></div>
+                    
+                    <div className="space-y-4 text-gray-700">
+                      <p className="leading-relaxed">
+                        Colorado's business ecosystem is uniquely diverse, spanning from traditional industries to cutting-edge technology sectors. As an <strong className="text-primary-orange">AI Firm In Colorado</strong>, we've spent years understanding the interconnected relationships that drive the state's economy.
+                      </p>
+                      <div className="bg-primary-orange/10 p-4 rounded-xl border-l-4 border-primary-orange">
+                        <p className="font-semibold text-gray-800">Key Colorado Industries We Serve:</p>
+                        <ul className="mt-2 space-y-1 text-sm">
+                          <li>• Energy & Renewable Resources</li>
+                          <li>• Aerospace & Defense</li>
+                          <li>• Technology & Software</li>
+                          <li>• Healthcare & Biotechnology</li>
+                          <li>• Tourism & Hospitality</li>
+                          <li>• Agriculture & Food Processing</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="space-y-6">
+                    <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow">
+                      <div className="flex items-center gap-3 mb-4">
+                        <div className="w-10 h-10 bg-primary-orange/20 rounded-lg flex items-center justify-center">
+                          <Factory className="w-5 h-5 text-primary-orange" />
+                        </div>
+                        <h4 className="font-bold text-gray-900">Denver Metro Area</h4>
+                      </div>
+                      <p className="text-gray-600 text-sm">Financial services, technology companies, and startups requiring sophisticated AI solutions for competitive advantage.</p>
+                    </div>
+                    
+                    <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow">
+                      <div className="flex items-center gap-3 mb-4">
+                        <div className="w-10 h-10 bg-primary-orange/20 rounded-lg flex items-center justify-center">
+                          <Rocket className="w-5 h-5 text-primary-orange" />
+                        </div>
+                        <h4 className="font-bold text-gray-900">Boulder Tech Corridor</h4>
+                      </div>
+                      <p className="text-gray-600 text-sm">Innovation hubs and research institutions needing AI integration for breakthrough technologies and scientific advancement.</p>
+                    </div>
+                    
+                    <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow">
+                      <div className="flex items-center gap-3 mb-4">
+                        <div className="w-10 h-10 bg-primary-orange/20 rounded-lg flex items-center justify-center">
+                          <Target className="w-5 h-5 text-primary-orange" />
+                        </div>
+                        <h4 className="font-bold text-gray-900">Colorado Springs</h4>
+                      </div>
+                      <p className="text-gray-600 text-sm">Aerospace and defense contractors requiring AI solutions for complex mission-critical applications and national security.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Main Content Block 3: Technology and Innovation */}
+              <div className="relative">
+                <div className="bg-gradient-to-br from-white to-primary-orange/5 rounded-3xl p-8 md:p-12 shadow-xl border border-primary-orange/20">
+                  <div className="flex items-center justify-center mb-8">
+                    <div className="w-20 h-20 bg-gradient-to-br from-primary-orange to-orange-400 rounded-3xl flex items-center justify-center shadow-xl">
+                      <Brain className="w-10 h-10 text-white" />
+                    </div>
+                  </div>
+                  
+                  <h3 className="text-3xl font-bold text-center mb-6 text-gray-900">
+                    Advanced AI Technologies Driving Colorado's Innovation Economy
+                  </h3>
+                  <div className="w-32 h-1 bg-primary-orange rounded-full mx-auto mb-8"></div>
+                  
+                  <div className="grid md:grid-cols-2 gap-8">
+                    <div className="space-y-6">
+                      <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100">
+                        <div className="flex items-center gap-3 mb-4">
+                          <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center">
+                            <Database className="w-6 h-6 text-blue-600" />
+                          </div>
+                          <h4 className="text-xl font-bold text-gray-900">Machine Learning Platforms</h4>
+                        </div>
+                        <p className="text-gray-700 leading-relaxed">
+                          Sophisticated algorithms including deep learning, reinforcement learning, and ensemble methods that solve complex Colorado business challenges with unprecedented accuracy.
+                        </p>
+                      </div>
+                      
+                      <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100">
+                        <div className="flex items-center gap-3 mb-4">
+                          <div className="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center">
+                            <Sparkles className="w-6 h-6 text-green-600" />
+                          </div>
+                          <h4 className="text-xl font-bold text-gray-900">Computer Vision Systems</h4>
+                        </div>
+                        <p className="text-gray-700 leading-relaxed">
+                          Advanced image recognition and analysis systems perfect for Colorado's aerospace, manufacturing, and energy sectors requiring precision visual inspection.
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div className="space-y-6">
+                      <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100">
+                        <div className="flex items-center gap-3 mb-4">
+                          <div className="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center">
+                            <Globe className="w-6 h-6 text-purple-600" />
+                          </div>
+                          <h4 className="text-xl font-bold text-gray-900">Natural Language Processing</h4>
+                        </div>
+                        <p className="text-gray-700 leading-relaxed">
+                          Intelligent communication systems that handle multi-language support for Colorado's diverse population and international business connections.
+                        </p>
+                      </div>
+                      
+                      <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100">
+                        <div className="flex items-center gap-3 mb-4">
+                          <div className="w-12 h-12 bg-orange-100 rounded-xl flex items-center justify-center">
+                            <TrendingUp className="w-6 h-6 text-orange-600" />
+                          </div>
+                          <h4 className="text-xl font-bold text-gray-900">Predictive Analytics</h4>
+                        </div>
+                        <p className="text-gray-700 leading-relaxed">
+                          Advanced forecasting systems critical for Colorado's energy sector, weather-dependent agriculture, and seasonal tourism industries.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="mt-8 bg-white/80 backdrop-blur-sm rounded-2xl p-6 border border-primary-orange/30">
+                    <p className="text-center text-gray-700 leading-relaxed">
+                      The technological capabilities that make us the premier <strong className="text-primary-orange">Artificial Intelligence Company In Colorado</strong> span cutting-edge AI and machine learning technologies, delivering measurable business outcomes across diverse Colorado industries.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Main Content Block 4: Industry Applications */}
+              <div className="relative">
+                <div className="bg-white rounded-3xl p-8 md:p-12 shadow-xl border border-gray-100">
+                  <div className="text-center mb-10">
+                    <h3 className="text-3xl font-bold mb-4 text-gray-900">
+                      Industry-Specific AI Solutions: Tailored for Colorado's Key Sectors
+                    </h3>
+                    <div className="w-32 h-1 bg-primary-orange rounded-full mx-auto"></div>
+                  </div>
+                  
+                  <div className="space-y-10">
+                    {/* Energy & Renewable */}
+                    <div className="relative">
+                      <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-primary-orange to-orange-400 rounded-full"></div>
+                      <div className="pl-8">
+                        <div className="flex items-center gap-4 mb-6">
+                          <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-orange-400 rounded-2xl flex items-center justify-center shadow-lg">
+                            <Zap className="w-8 h-8 text-white" />
+                          </div>
+                          <h4 className="text-2xl font-bold text-gray-900">Energy & Renewable Resources AI Solutions</h4>
+                        </div>
+                        
+                        <div className="grid md:grid-cols-2 gap-6">
+                          <div className="bg-primary-orange/5 rounded-2xl p-6 border border-primary-orange/20">
+                            <p className="text-gray-700 leading-relaxed mb-4">
+                              Colorado's energy sector benefits immensely from our AI expertise as an <strong className="text-primary-orange">AI Service In Colorado</strong>. We've developed sophisticated systems for renewable energy optimization and traditional energy management.
+                            </p>
+                            <div className="space-y-3">
+                              <div className="flex items-center gap-3">
+                                <div className="w-6 h-6 bg-primary-orange/20 rounded-full flex items-center justify-center">
+                                  <CheckCircle className="w-3 h-3 text-primary-orange" />
+                                </div>
+                                <span className="text-sm text-gray-600">Smart grid optimization</span>
+                              </div>
+                              <div className="flex items-center gap-3">
+                                <div className="w-6 h-6 bg-primary-orange/20 rounded-full flex items-center justify-center">
+                                  <CheckCircle className="w-3 h-3 text-primary-orange" />
+                                </div>
+                                <span className="text-sm text-gray-600">Solar and wind forecasting</span>
+                              </div>
+                              <div className="flex items-center gap-3">
+                                <div className="w-6 h-6 bg-primary-orange/20 rounded-full flex items-center justify-center">
+                                  <CheckCircle className="w-3 h-3 text-primary-orange" />
+                                </div>
+                                <span className="text-sm text-gray-600">Energy consumption analytics</span>
+                              </div>
+                            </div>
+                          </div>
+                          
+                          <div className="bg-white rounded-2xl p-6 border-2 border-primary-orange/10">
+                            <div className="text-center mb-4">
+                              <div className="text-3xl font-bold text-primary-orange">35%</div>
+                              <div className="text-sm text-gray-600">Energy Efficiency Improvement</div>
+                            </div>
+                            <p className="text-gray-700 text-sm leading-relaxed">
+                              Our AI systems optimize renewable energy production by predicting weather patterns and automatically adjusting grid distribution for maximum efficiency.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    {/* Aerospace & Defense */}
+                    <div className="relative">
+                      <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-blue-500 to-blue-600 rounded-full"></div>
+                      <div className="pl-8">
+                        <div className="flex items-center gap-4 mb-6">
+                          <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center shadow-lg">
+                            <Rocket className="w-8 h-8 text-white" />
+                          </div>
+                          <h4 className="text-2xl font-bold text-gray-900">Aerospace & Defense AI Applications</h4>
+                        </div>
+                        
+                        <div className="grid md:grid-cols-3 gap-4">
+                          <div className="bg-blue-50 rounded-xl p-4 border border-blue-200">
+                            <h5 className="font-bold text-gray-900 mb-2">Mission Planning</h5>
+                            <p className="text-sm text-gray-600">AI-powered trajectory optimization and mission success prediction systems</p>
+                          </div>
+                          <div className="bg-blue-50 rounded-xl p-4 border border-blue-200">
+                            <h5 className="font-bold text-gray-900 mb-2">Predictive Maintenance</h5>
+                            <p className="text-sm text-gray-600">Critical system monitoring for aircraft and satellite components</p>
+                          </div>
+                          <div className="bg-blue-50 rounded-xl p-4 border border-blue-200">
+                            <h5 className="font-bold text-gray-900 mb-2">Data Analysis</h5>
+                            <p className="text-sm text-gray-600">Advanced analytics for defense intelligence and space exploration</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    {/* Tourism & Healthcare */}
+                    <div className="relative">
+                      <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-green-500 to-green-600 rounded-full"></div>
+                      <div className="pl-8">
+                        <div className="flex items-center gap-4 mb-6">
+                          <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center shadow-lg">
+                            <Users className="w-8 h-8 text-white" />
+                          </div>
+                          <h4 className="text-2xl font-bold text-gray-900">Tourism & Healthcare Innovation</h4>
+                        </div>
+                        
+                        <div className="bg-green-50 rounded-2xl p-6 border border-green-200">
+                          <p className="text-gray-700 leading-relaxed">
+                            Colorado's tourism industry and healthcare sector benefit from our AI solutions in visitor experience optimization, medical diagnostics, and personalized service delivery. Our systems enhance both outdoor recreation planning and clinical decision support.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Main Content Block 5: Economic Impact and Future */}
+              <div className="relative">
+                <div className="bg-gradient-to-br from-white via-primary-orange/5 to-white rounded-3xl p-8 md:p-12 shadow-xl border border-primary-orange/20">
+                  <div className="text-center mb-10">
+                    <div className="inline-flex items-center gap-3 mb-6 bg-white/80 backdrop-blur-sm rounded-full px-6 py-3 border border-primary-orange/30">
+                      <TrendingUp className="w-6 h-6 text-primary-orange" />
+                      <span className="font-medium text-gray-700">Future Vision</span>
+                    </div>
+                    <h3 className="text-3xl font-bold mb-4 text-gray-900">
+                      Economic Impact and AI Future in Colorado
+                    </h3>
+                    <div className="w-32 h-1 bg-primary-orange rounded-full mx-auto"></div>
+                  </div>
+                  
+                  <div className="grid lg:grid-cols-2 gap-8">
+                    <div className="space-y-6">
+                      <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100">
+                        <h4 className="text-xl font-bold text-gray-900 mb-4">Economic Transformation</h4>
+                        <p className="text-gray-700 leading-relaxed">
+                          As the leading <strong className="text-primary-orange">AI Development Company In Colorado</strong>, we've contributed to positioning Colorado as a major AI innovation hub, attracting talent and investment to the region.
+                        </p>
+                      </div>
+                      
+                      <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100">
+                        <h4 className="text-xl font-bold text-gray-900 mb-4">Workforce Development</h4>
+                        <p className="text-gray-700 leading-relaxed">
+                          Our training partnerships with Colorado universities and technical schools prepare the next generation of AI professionals for the state's growing technology sector.
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div className="space-y-6">
+                      <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100">
+                        <h4 className="text-xl font-bold text-gray-900 mb-4">Innovation Ecosystems</h4>
+                        <p className="text-gray-700 leading-relaxed">
+                          Colorado's collaborative business environment and research institutions create ideal conditions for AI advancement across multiple industry verticals.
+                        </p>
+                      </div>
+                      
+                      <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100">
+                        <h4 className="text-xl font-bold text-gray-900 mb-4">Emerging Opportunities</h4>
+                        <div className="flex flex-wrap gap-2 mt-3">
+                          {["Quantum Computing", "Space Technology", "Clean Energy", "Biotechnology"].map((sector, index) => (
+                            <span key={index} className="bg-primary-orange/10 text-primary-orange px-3 py-1 rounded-full text-sm font-medium">
+                              {sector}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Main Content Block 6: Success Stories */}
+              <div className="relative">
+                <div className="bg-white rounded-3xl p-8 md:p-12 shadow-xl border border-gray-100">
+                  <div className="text-center mb-10">
+                    <div className="inline-flex items-center gap-3 mb-6 bg-primary-orange/10 rounded-full px-6 py-3 border border-primary-orange/20">
+                      <Award className="w-6 h-6 text-primary-orange" />
+                      <span className="font-medium text-primary-orange">Success Stories</span>
+                    </div>
+                    <h3 className="text-3xl font-bold mb-4 text-gray-900">
+                      How Colorado Businesses Are Thriving with AI
+                    </h3>
+                    <div className="w-32 h-1 bg-primary-orange rounded-full mx-auto mb-6"></div>
+                    <p className="text-gray-600 max-w-2xl mx-auto">
+                      Real results from our AI implementations across Colorado's diverse business landscape
+                    </p>
+                  </div>
+                  
+                  <div className="grid md:grid-cols-2 gap-8">
+                    {/* Case Study 1 */}
+                    <div className="relative group">
+                      <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/10 to-orange-200/10 rounded-2xl transform group-hover:scale-105 transition-transform duration-300"></div>
+                      <div className="relative bg-white rounded-2xl p-6 shadow-lg border border-gray-100 group-hover:shadow-2xl transition-shadow duration-300">
+                        <div className="flex items-center gap-3 mb-4">
+                          <div className="w-12 h-12 bg-gradient-to-br from-primary-orange to-orange-400 rounded-xl flex items-center justify-center">
+                            <Zap className="w-6 h-6 text-white" />
+                          </div>
+                          <div>
+                            <h4 className="text-lg font-bold text-gray-900">Energy Company</h4>
+                            <p className="text-sm text-gray-500">Renewable Energy Optimization</p>
+                          </div>
+                        </div>
+                        
+                        <div className="space-y-4">
+                          <div className="flex justify-between items-center p-3 bg-green-50 rounded-lg border border-green-200">
+                            <span className="text-sm text-gray-700">Energy Efficiency Gain</span>
+                            <span className="text-xl font-bold text-green-600">42%</span>
+                          </div>
+                          <div className="flex justify-between items-center p-3 bg-blue-50 rounded-lg border border-blue-200">
+                            <span className="text-sm text-gray-700">Cost Reduction</span>
+                            <span className="text-xl font-bold text-blue-600">28%</span>
+                          </div>
+                          <div className="flex justify-between items-center p-3 bg-primary-orange/10 rounded-lg border border-primary-orange/20">
+                            <span className="text-sm text-gray-700">ROI Achievement</span>
+                            <span className="text-xl font-bold text-primary-orange">6 Months</span>
+                          </div>
+                        </div>
+                        
+                        <p className="text-gray-700 text-sm mt-4 leading-relaxed">
+                          Major Colorado energy company implemented our AI-powered grid optimization system, achieving remarkable improvements in renewable energy distribution.
+                        </p>
+                      </div>
+                    </div>
+                    
+                    {/* Case Study 2 */}
+                    <div className="relative group">
+                      <div className="absolute inset-0 bg-gradient-to-br from-blue-100/10 to-blue-200/10 rounded-2xl transform group-hover:scale-105 transition-transform duration-300"></div>
+                      <div className="relative bg-white rounded-2xl p-6 shadow-lg border border-gray-100 group-hover:shadow-2xl transition-shadow duration-300">
+                        <div className="flex items-center gap-3 mb-4">
+                          <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center">
+                            <Rocket className="w-6 h-6 text-white" />
+                          </div>
+                          <div>
+                            <h4 className="text-lg font-bold text-gray-900">Aerospace Contractor</h4>
+                            <p className="text-sm text-gray-500">Predictive Maintenance</p>
+                          </div>
+                        </div>
+                        
+                        <div className="space-y-4">
+                          <div className="flex justify-between items-center p-3 bg-green-50 rounded-lg border border-green-200">
+                            <span className="text-sm text-gray-700">Failure Prevention</span>
+                            <span className="text-xl font-bold text-green-600">85%</span>
+                          </div>
+                          <div className="flex justify-between items-center p-3 bg-blue-50 rounded-lg border border-blue-200">
+                            <span className="text-sm text-gray-700">Maintenance Savings</span>
+                            <span className="text-xl font-bold text-blue-600">$2.1M</span>
+                          </div>
+                          <div className="flex justify-between items-center p-3 bg-purple-50 rounded-lg border border-purple-200">
+                            <span className="text-sm text-gray-700">Accuracy Rate</span>
+                            <span className="text-xl font-bold text-purple-600">97%</span>
+                          </div>
+                        </div>
+                        
+                        <p className="text-gray-700 text-sm mt-4 leading-relaxed">
+                          Colorado Springs aerospace contractor adopted our predictive maintenance AI, dramatically reducing equipment failures and operational costs.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="mt-8">
+                    <div className="bg-gradient-to-r from-primary-orange/10 to-orange-200/10 rounded-2xl p-6 border border-primary-orange/20">
+                      <div className="text-center">
+                        <h4 className="text-xl font-bold text-gray-900 mb-4">
+                          Tourism Platform Success Story
+                        </h4>
+                        <div className="grid grid-cols-3 gap-4 mb-4">
+                          <div className="text-center">
+                            <div className="text-2xl font-bold text-primary-orange">45%</div>
+                            <div className="text-sm text-gray-600">Booking Increase</div>
+                          </div>
+                          <div className="text-center">
+                            <div className="text-2xl font-bold text-primary-orange">92%</div>
+                            <div className="text-sm text-gray-600">Satisfaction Rate</div>
+                          </div>
+                          <div className="text-center">
+                            <div className="text-2xl font-bold text-primary-orange">Real-time</div>
+                            <div className="text-sm text-gray-600">Personalization</div>
+                          </div>
+                        </div>
+                        <p className="text-gray-700 text-sm leading-relaxed">
+                          Colorado tourism company used our AI recommendation engine to personalize visitor experiences, resulting in significant increases in bookings and customer satisfaction across mountain resorts and urban attractions.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="mt-8 text-center">
+                    <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 border-2 border-primary-orange/30">
+                      <p className="text-gray-700 leading-relaxed">
+                        Our track record as the <strong className="text-primary-orange">Best AI Company In Colorado</strong> is built on measurable success stories across diverse industries, demonstrating how AI technologies help Colorado businesses compete more effectively in global markets while maintaining their innovative edge.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section className="py-20 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Frequently Asked Questions About <span className="text-primary-orange">AI Company In Colorado</span>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4">
+                Frequently Asked Questions - <strong>AI Company In Colorado</strong>
               </h2>
-              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
-              <p className="text-lg text-gray-600">
-                Common questions about our <strong>Artificial Intelligence Company In Colorado</strong> services and solutions.
+              <p className="text-xl text-gray-600">
+                Everything you need to know about choosing the right <strong>Artificial Intelligence Company In Colorado</strong>
               </p>
             </div>
-
+            
             <div className="space-y-6">
-              <div className="bg-white rounded-lg p-6 shadow-sm">
-                <h3 className="text-lg font-bold mb-3 text-gray-800">
-                  Which is the best Artificial Intelligence Company In Colorado?
-                </h3>
-                <p className="text-gray-600">
-                  Metic.ai is recognized as the leading <strong>Artificial Intelligence Company In Colorado</strong> with 2100+ successful AI implementations. 
-                  We specialize in custom AI development, machine learning solutions, and enterprise AI integration across Denver, Boulder, 
-                  Colorado Springs, and Fort Collins with 60% cost savings and 3x faster delivery.
-                </p>
-              </div>
+              {/* FAQ Item 1 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Award className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Which is the best Artificial Intelligence Company In Colorado?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <CheckCircle className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        Metic.ai is the leading <strong className="text-gray-900 font-semibold">Artificial Intelligence Company In Colorado</strong> with 2100+ successful AI implementations. 
+                        We specialize in custom AI development, machine learning solutions, and enterprise automation with 60% cost savings and 3x faster delivery.
+                      </p>
+                      <p className="text-lg">
+                        Our expertise spans across Colorado's key business hubs from Denver's financial district to Boulder's tech corridor and Colorado Springs' aerospace industry, 
+                        making us the most trusted AI partner for Colorado businesses.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </details>
 
-              <div className="bg-white rounded-lg p-6 shadow-sm">
-                <h3 className="text-lg font-bold mb-3 text-gray-800">
-                  What AI services does the top AI Company In Colorado provide?
-                </h3>
-                <p className="text-gray-600">
-                  As the premier <strong>AI Company In Colorado</strong>, Metic.ai provides comprehensive AI services including custom AI development, 
-                  machine learning solutions, predictive analytics, AI automation, natural language processing, computer vision, 
-                  and enterprise AI integration services for businesses across Colorado's tech corridor.
-                </p>
-              </div>
+              {/* FAQ Item 2 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Cog className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What AI services does the top AI Company In Colorado provide?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <CheckCircle className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        As the premier <strong className="text-gray-900 font-semibold">AI Company In Colorado</strong>, Metic.ai provides comprehensive AI services including custom AI development, 
+                        machine learning solutions, predictive analytics, AI automation, natural language processing, and computer vision.
+                      </p>
+                      <p className="text-lg">
+                        We serve diverse Colorado industries including energy, aerospace, healthcare, technology, and finance with enterprise AI integration 
+                        tailored for Colorado's unique business landscape.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </details>
 
-              <div className="bg-white rounded-lg p-6 shadow-sm">
-                <h3 className="text-lg font-bold mb-3 text-gray-800">
-                  How much does AI development cost from AI Firm In Colorado?
-                </h3>
-                <p className="text-gray-600">
-                  Our <strong>AI Firm In Colorado</strong> offers competitive pricing with 60% cost savings compared to traditional development. 
-                  AI project costs vary based on complexity, typically ranging from $25,000 for basic AI solutions to $500,000+ 
-                  for enterprise-grade AI implementations. We provide free consultations to discuss your specific requirements.
-                </p>
-              </div>
+              {/* FAQ Item 3 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Target className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How to choose the right AI Development Company In Colorado?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <CheckCircle className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        When selecting an <strong className="text-gray-900 font-semibold">AI Development Company In Colorado</strong>, look for proven experience, successful project portfolio, 
+                        industry expertise, local market understanding, and ongoing support.
+                      </p>
+                      <p className="text-lg">
+                        Metic.ai offers all these qualities with 2100+ completed projects, 98% client satisfaction rate, and deep knowledge of Colorado's business landscape. 
+                        Our team understands Colorado's energy, aerospace, and technology sectors.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </details>
 
-              <div className="bg-white rounded-lg p-6 shadow-sm">
-                <h3 className="text-lg font-bold mb-3 text-gray-800">
-                  Why choose AI Development Company In Colorado Metic.ai?
-                </h3>
-                <p className="text-gray-600">
-                  Choose Metic.ai as your <strong>AI Development Company In Colorado</strong> because we offer 2100+ successful implementations, 
-                  3x faster delivery, 60% cost savings, expertise in cutting-edge AI technologies, and deep understanding of Colorado's 
-                  business landscape from Denver's tech scene to Boulder's innovation ecosystem.
-                </p>
-              </div>
+              {/* FAQ Item 4 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <DollarSign className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How much does AI development cost from AI Firm In Colorado?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <CheckCircle className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        Our <strong className="text-gray-900 font-semibold">AI Firm In Colorado</strong> offers competitive pricing with 60% cost savings compared to traditional development. 
+                        AI project costs vary based on complexity, typically ranging from $25,000 for basic solutions to $500,000+ for enterprise implementations.
+                      </p>
+                      <p className="text-lg">
+                        We provide free consultations and transparent pricing with flexible engagement models to fit your Colorado business needs.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </details>
 
-              <div className="bg-white rounded-lg p-6 shadow-sm">
-                <h3 className="text-lg font-bold mb-3 text-gray-800">
-                  How long does AI implementation take with AI Service In Colorado provider?
-                </h3>
-                <p className="text-gray-600">
-                  Our <strong>AI Service In Colorado</strong> typically delivers projects 3x faster than industry standards. Simple AI solutions 
-                  can be implemented in 4-8 weeks, while complex enterprise AI systems take 3-6 months. We use agile development 
-                  methodologies and proven frameworks to accelerate delivery timelines.
-                </p>
-              </div>
+              {/* FAQ Item 5 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Star className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Why choose Metic.ai as your AI Development Company In Colorado?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <CheckCircle className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        Choose Metic.ai as your <strong className="text-gray-900 font-semibold">AI Development Company In Colorado</strong> because we offer 2100+ successful implementations, 
+                        3x faster delivery, 60% cost savings, and deep understanding of Colorado's business landscape.
+                      </p>
+                      <p className="text-lg">
+                        Our team understands Colorado's diverse industries from Denver's financial services to Boulder's tech innovation and Colorado Springs' aerospace sector, 
+                        ensuring AI solutions that truly fit your business needs.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </details>
 
-              <div className="bg-white rounded-lg p-6 shadow-sm">
-                <h3 className="text-lg font-bold mb-3 text-gray-800">
-                  What industries does the leading AI Company In Colorado serve?
-                </h3>
-                <p className="text-gray-600">
-                  As the top <strong>AI Company In Colorado</strong>, we serve diverse industries including healthcare, finance, manufacturing, 
-                  retail, energy, aerospace, technology, and government sectors. Our expertise spans Colorado's key economic drivers 
-                  from Denver's financial services to Boulder's tech innovation and Colorado Springs' aerospace industry.
-                </p>
-              </div>
+              {/* FAQ Item 6 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Clock className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How long does AI implementation take with AI Service In Colorado provider?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <CheckCircle className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        Our <strong className="text-gray-900 font-semibold">AI Service In Colorado</strong> typically delivers projects 3x faster than industry standards. 
+                        Simple AI solutions can be implemented in 4-8 weeks, while complex enterprise AI systems take 3-6 months.
+                      </p>
+                      <p className="text-lg">
+                        We use agile development methodologies and proven frameworks to accelerate delivery timelines for Colorado businesses, 
+                        ensuring quick time-to-market and immediate business value.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </details>
             </div>
           </div>
         </div>
