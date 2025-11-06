@@ -1317,10 +1317,13 @@ export default function AIServicesGurugramPage() {
                   Our Gurugram AI experts are ready to help you understand how artificial intelligence can transform your business.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <Button className="bg-gradient-to-r from-primary-orange to-orange-600 hover:from-orange-600 hover:to-primary-orange text-white font-semibold px-8 py-3 rounded-full">
+                  <a 
+                    href="tel:+1-555-0123"
+                    className="inline-flex items-center justify-center bg-gradient-to-r from-primary-orange to-orange-600 hover:from-orange-600 hover:to-primary-orange text-white font-semibold px-8 py-3 rounded-full transition-all duration-300"
+                  >
                     <Phone className="w-5 h-5 mr-2" />
                     Call Now
-                  </Button>
+                  </a>
                   <a 
                     href="mailto:contact@metic.ai"
                     className="inline-flex items-center justify-center border border-white/20 text-white hover:bg-white/10 font-semibold px-8 py-3 rounded-full transition-colors"
