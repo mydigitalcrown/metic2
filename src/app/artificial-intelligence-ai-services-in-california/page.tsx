@@ -143,7 +143,7 @@ export default function AIServicesCaliforniaPage() {
     "Aerospace & Defense",
     "Engineering",
     "Information Technology",
-    "Jewelry & Diamonds",
+    "Agriculture & AgriTech",
     "Automotive",
     "Food Processing",
     "Paper & Pulp",
@@ -1072,7 +1072,7 @@ export default function AIServicesCaliforniaPage() {
                 </div>
               </div>
 
-              {/* Ahmedabad Industry Solutions - Premium Design */}
+              {/* California Industry Solutions - Premium Design */}
               <div>
                 <div className="text-center mb-16">
                   <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-full border-2 border-primary-orange/20 mb-8">
@@ -1080,7 +1080,7 @@ export default function AIServicesCaliforniaPage() {
                     <span className="text-sm font-bold text-gray-800">INDUSTRY EXPERTISE</span>
                   </div>
                   <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                    AI Solutions for <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Ahmedabad's Key Industries</span>
+                    AI Solutions for <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">California's Key Industries</span>
                   </h3>
                   <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 rounded-full"></div>
                   <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -1089,47 +1089,46 @@ export default function AIServicesCaliforniaPage() {
                 </div>
                 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-                  {/* Textile Industry */}
+                  {/* Technology Industry */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500">
                     <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform shadow-xl">
                       <Sparkles className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Textile & Apparel AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Technology & Software AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Advanced AI solutions for Ahmedabad's textile industry including automated quality control, 
-                      pattern recognition, fabric defect detection, and supply chain optimization for global 
-                      textile manufacturers and exporters.
+                      Advanced AI solutions for California's technology industry including ML model optimization, 
+                      algorithm development, software acceleration, and cloud infrastructure optimization for 
+                      technology companies and software developers.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Automated fabric inspection systems</span>
+                        <span className="text-sm text-gray-600">Automated code review systems</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Color matching and consistency AI</span>
+                        <span className="text-sm text-gray-600">ML model optimization and deployment</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Production planning optimization</span>
+                        <span className="text-sm text-gray-600">Cloud infrastructure automation</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Global market trend analysis</span>
+                        <span className="text-sm text-gray-600">Tech market trend analysis</span>
                       </div>
                     </div>
                   </div>
                   
-                  {/* Chemical Industry */}
+                  {/* Entertainment Industry */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500">
                     <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform shadow-xl">
                       <Zap className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Chemical Process AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Entertainment & Media AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Specialized AI solutions for Ahmedabad's chemical industry including process optimization, 
-                      safety monitoring, yield prediction, and environmental compliance automation for sustainable 
-                      chemical manufacturing.
+                      Specialized AI solutions for California's entertainment industry including content optimization, 
+                      audience analytics, production automation, and personalization for studios, streaming platforms, and media companies.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
