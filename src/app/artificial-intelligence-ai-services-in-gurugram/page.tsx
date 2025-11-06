@@ -1325,8 +1325,10 @@ export default function AIServicesGurugramPage() {
                     Call Now
                   </a>
                   <a 
-                    href="mailto:hello@metic.ai"
+                    href="mailto:hello@metic.ai?subject=AI Services Inquiry from Gurugram&body=Hello, I would like to know more about your AI services in Gurugram."
                     className="inline-flex items-center justify-center border border-white/20 text-white hover:bg-white/10 font-semibold px-8 py-3 rounded-full transition-colors"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <Mail className="w-5 h-5 mr-2" />
                     Email Our Team
