@@ -27,7 +27,9 @@ import {
   Cpu,
   Bot,
   Globe,
-  Factory
+  Factory,
+  Cog,
+  DollarSign
 } from "lucide-react";
 
 export const metadata = {
@@ -356,184 +358,144 @@ export default function AIServicesCoimbatorePage() {
         }}
       />
 
-      {/* Hero Section */}
-      <section className="relative min-h-screen bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 overflow-hidden">
-        {/* Animated Background Elements */}
-        <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-primary-orange/10 rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-purple-500/5 rounded-full blur-3xl animate-pulse delay-2000"></div>
-        </div>
-
-        {/* Floating AI Elements */}
+      {/* Enhanced Creative Hero Section - VSO & Target Keyword Optimized */}
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28 relative overflow-hidden">
+        {/* Creative Background Elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <div className="absolute top-20 left-10 animate-float">
-            <div className="w-8 h-8 bg-primary-orange/20 rounded-lg flex items-center justify-center backdrop-blur-sm border border-primary-orange/30">
-              <Brain className="w-4 h-4 text-primary-orange" />
-            </div>
-          </div>
-          <div className="absolute top-40 right-20 animate-float delay-1000">
-            <div className="w-10 h-10 bg-blue-500/20 rounded-lg flex items-center justify-center backdrop-blur-sm border border-blue-500/30">
-              <Cpu className="w-5 h-5 text-blue-400" />
-            </div>
-          </div>
-          <div className="absolute bottom-40 left-20 animate-float delay-2000">
-            <div className="w-6 h-6 bg-purple-500/20 rounded-lg flex items-center justify-center backdrop-blur-sm border border-purple-500/30">
-              <Zap className="w-3 h-3 text-purple-400" />
-            </div>
-          </div>
-          <div className="absolute bottom-20 right-10 animate-float delay-3000">
-            <div className="w-12 h-12 bg-green-500/20 rounded-lg flex items-center justify-center backdrop-blur-sm border border-green-500/30">
-              <Bot className="w-6 h-6 text-green-400" />
-            </div>
-          </div>
+          {/* Animated Circuit Pattern */}
+          <div className="absolute inset-0 opacity-[0.03]" style={{
+            backgroundImage: `linear-gradient(#FF6B35 1px, transparent 1px), linear-gradient(90deg, #FF6B35 1px, transparent 1px)`,
+            backgroundSize: '50px 50px'
+          }}></div>
+          
+          {/* Floating AI Elements */}
+          <div className="absolute top-20 left-10 w-32 h-32 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-20 right-10 w-40 h-40 bg-primary-orange/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
+          
+          {/* Geometric Shapes */}
+          <div className="absolute top-1/4 left-1/4 w-2 h-2 bg-primary-orange/30 rounded-full animate-bounce" style={{animationDelay: '1s'}}></div>
+          <div className="absolute top-1/3 right-1/3 w-1.5 h-1.5 bg-orange-400/30 rounded-full animate-bounce" style={{animationDelay: '3s'}}></div>
+          <div className="absolute bottom-1/4 left-1/3 w-2.5 h-2.5 bg-primary-orange/20 rounded-full animate-bounce" style={{animationDelay: '2.5s'}}></div>
         </div>
 
-        {/* Circuit Pattern Overlay */}
-        <div className="absolute inset-0 opacity-10">
-          <svg className="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
-            <defs>
-              <pattern id="circuit" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                <path d="M10 0V5M10 15V20M0 10H5M15 10H20M10 5H15V15H5V5H10Z" stroke="currentColor" strokeWidth="0.5" fill="none"/>
-              </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#circuit)" className="text-white/20"/>
-          </svg>
-        </div>
-
-        <div className="relative z-10 container px-4 md:px-6 min-h-screen flex items-center">
-          <div className="max-w-6xl mx-auto">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              {/* Content Side */}
-              <div className="text-center lg:text-left">
-                <div className="flex items-center justify-center lg:justify-start gap-2 mb-6">
-                  <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center backdrop-blur-sm border border-primary-orange/30">
-                    <MapPin className="w-4 h-4 text-primary-orange" />
-                  </div>
-                  <span className="text-sm font-medium text-orange-300 px-3 py-1 bg-primary-orange/10 rounded-full border border-primary-orange/20 backdrop-blur-sm">
-                    Serving Coimbatore, Tamil Nadu
-                  </span>
-                </div>
-                
-                <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl mb-6 text-white leading-tight">
-                  <strong className="bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">Artificial Intelligence Company In Coimbatore</strong>
-                  <br />
-                  <span className="bg-gradient-to-r from-primary-orange via-orange-400 to-yellow-500 bg-clip-text text-transparent">
-                    Leading AI Company In Coimbatore
-                  </span>
-                </h1>
-                
-                <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto lg:mx-0 leading-relaxed">
-                  Looking for the best <strong className="text-white">AI Company In Coimbatore</strong>? Metic.ai is the premier <strong className="text-white">Artificial Intelligence Company In Coimbatore</strong> with 2100+ successful AI implementations. We transform Coimbatore businesses with cutting-edge AI services across RS Puram, Peelamedu, Saravanampatti, and all major Coimbatore areas.
-                </p>
-                
-                <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-12">
-                  <Link href="/contact">
-                    <Button 
-                      variant="primary" 
-                      size="lg" 
-                      className="w-full sm:w-auto bg-gradient-to-r from-primary-orange to-orange-500 hover:from-primary-orange/90 hover:to-orange-500/90 transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl border-0"
-                    >
-                      <Rocket className="w-5 h-5 mr-2" />
-                      Get Free AI Consultation
-                    </Button>
-                  </Link>
-                  <Link href="tel:+917892518414">
-                    <Button 
-                      variant="outline" 
-                      size="lg" 
-                      className="w-full sm:w-auto border-primary-orange/30 text-white hover:bg-primary-orange/10 hover:border-primary-orange/50 backdrop-blur-sm transform hover:scale-105 transition-all duration-300"
-                    >
-                      <Phone className="w-4 h-4 mr-2" />
-                      Call: +1-789-251-8414
-                    </Button>
-                  </Link>
-                </div>
-
-                {/* Enhanced Stats */}
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto lg:mx-0">
-                  {stats.map((stat, index) => (
-                    <div key={index} className="text-center lg:text-left group">
-                      <div className="relative">
-                        <div className="absolute inset-0 bg-gradient-to-r from-primary-orange/20 to-transparent rounded-lg blur opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                        <div className="relative p-4 rounded-lg border border-white/10 backdrop-blur-sm bg-white/5 hover:bg-white/10 transition-all duration-300">
-                          <div className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-primary-orange to-orange-300 bg-clip-text text-transparent mb-1">
-                            {stat.number}
-                          </div>
-                          <div className="text-sm text-gray-300 font-medium">{stat.label}</div>
-                        </div>
-                      </div>
-                    </div>
-                  ))}
-                </div>
+        <div className="container px-4 md:px-6 relative z-10">
+          <div className="max-w-4xl mx-auto text-center">
+            {/* Enhanced Location Badge */}
+            <div className="inline-flex items-center gap-3 mb-8 bg-gray-800/50 backdrop-blur-sm rounded-full px-6 py-3 border border-primary-orange/20">
+              <div className="relative">
+                <MapPin className="w-5 h-5 text-primary-orange" />
+                <div className="absolute -top-1 -right-1 w-3 h-3 bg-primary-orange rounded-full animate-ping"></div>
               </div>
-
-              {/* Visual Side */}
-              <div className="relative lg:flex hidden">
-                <div className="relative mx-auto">
-                  {/* Central AI Hub */}
-                  <div className="relative w-80 h-80 mx-auto">
-                    <div className="absolute inset-0 bg-gradient-to-r from-primary-orange/20 to-blue-500/20 rounded-full blur-2xl animate-pulse"></div>
-                    <div className="relative w-full h-full border border-primary-orange/30 rounded-full backdrop-blur-sm bg-gradient-to-br from-white/10 to-transparent flex items-center justify-center">
-                      <div className="w-32 h-32 bg-gradient-to-br from-primary-orange to-orange-500 rounded-full flex items-center justify-center shadow-2xl">
-                        <Brain className="w-16 h-16 text-white" />
-                      </div>
-                    </div>
+              <span className="text-sm font-medium text-orange-300">Serving Coimbatore, Tamil Nadu</span>
+              <div className="w-2 h-2 bg-primary-orange rounded-full animate-pulse"></div>
+            </div>
+            
+            {/* Enhanced Title with Animation */}
+            <div className="relative mb-8">
+              <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white relative z-10">
+                <strong>
+                  Artificial Intelligence Company In Coimbatore
+                </strong>
+                <br />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange">
+                  Leading AI Company In Coimbatore
+                </span>
+              </h1>
+            </div>
+            
+            {/* Enhanced Description */}
+            <div className="relative mb-10">
+              <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
+                Looking for the best <strong className="text-white">AI Company In Coimbatore</strong>? Metic.ai is the premier 
+                <strong className="text-primary-orange"> Artificial Intelligence Company In Coimbatore</strong> 
+                with 2100+ successful AI implementations. We transform Coimbatore businesses with cutting-edge AI services across RS Puram, Peelamedu, Saravanampatti, and all major Coimbatore areas, 
+                delivering <span className="text-primary-orange font-semibold">60% cost savings</span> and 
+                <span className="text-primary-orange font-semibold">3x faster results</span> than traditional development.
+              </p>
+              
+              {/* Trust Indicators */}
+              <div className="flex items-center justify-center gap-6 mb-8">
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
+                    <Shield className="w-4 h-4 text-primary-orange" />
                   </div>
-
-                  {/* Orbiting Elements */}
-                  <div className="absolute inset-0 animate-spin-slow">
-                    <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                      <div className="w-16 h-16 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-lg backdrop-blur-sm border border-blue-500/30 flex items-center justify-center">
-                        <Database className="w-8 h-8 text-blue-400" />
-                      </div>
-                    </div>
-                    
-                    <div className="absolute top-1/2 right-0 transform translate-x-1/2 -translate-y-1/2">
-                      <div className="w-16 h-16 bg-gradient-to-br from-green-500/20 to-emerald-500/20 rounded-lg backdrop-blur-sm border border-green-500/30 flex items-center justify-center">
-                        <TrendingUp className="w-8 h-8 text-green-400" />
-                      </div>
-                    </div>
-                    
-                    <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2">
-                      <div className="w-16 h-16 bg-gradient-to-br from-purple-500/20 to-pink-500/20 rounded-lg backdrop-blur-sm border border-purple-500/30 flex items-center justify-center">
-                        <Sparkles className="w-8 h-8 text-purple-400" />
-                      </div>
-                    </div>
-                    
-                    <div className="absolute top-1/2 left-0 transform -translate-x-1/2 -translate-y-1/2">
-                      <div className="w-16 h-16 bg-gradient-to-br from-orange-500/20 to-red-500/20 rounded-lg backdrop-blur-sm border border-orange-500/30 flex items-center justify-center">
-                        <Target className="w-8 h-8 text-orange-400" />
-                      </div>
-                    </div>
+                  <span className="text-sm text-gray-400">ISO Certified</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
+                    <Award className="w-4 h-4 text-primary-orange" />
                   </div>
-
-                  {/* Connection Lines */}
-                  <svg className="absolute inset-0 w-full h-full pointer-events-none">
-                    <defs>
-                      <linearGradient id="connectionGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                        <stop offset="0%" stopColor="rgb(251, 146, 60)" stopOpacity="0.3"/>
-                        <stop offset="100%" stopColor="rgb(59, 130, 246)" stopOpacity="0.1"/>
-                      </linearGradient>
-                    </defs>
-                    <g className="animate-pulse">
-                      <path d="M 190,40 L 190,190" stroke="url(#connectionGradient)" strokeWidth="2" fill="none" strokeDasharray="5,5"/>
-                      <path d="M 340,190 L 190,190" stroke="url(#connectionGradient)" strokeWidth="2" fill="none" strokeDasharray="5,5"/>
-                      <path d="M 190,340 L 190,190" stroke="url(#connectionGradient)" strokeWidth="2" fill="none" strokeDasharray="5,5"/>
-                      <path d="M 40,190 L 190,190" stroke="url(#connectionGradient)" strokeWidth="2" fill="none" strokeDasharray="5,5"/>
-                    </g>
-                  </svg>
+                  <span className="text-sm text-gray-400">Award Winning</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
+                    <Users className="w-4 h-4 text-primary-orange" />
+                  </div>
+                  <span className="text-sm text-gray-400">2100+ Clients</span>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
+            
+            {/* Enhanced CTA Buttons */}
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+              <Link href="/contact">
+                <Button 
+                  variant="primary" 
+                  size="lg" 
+                  className="w-full sm:w-auto bg-gradient-to-r from-primary-orange to-orange-500 hover:from-primary-orange/90 hover:to-orange-500/90 transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl group"
+                >
+                  <Rocket className="w-5 h-5 mr-2 group-hover:animate-pulse" />
+                  Get Free AI Consultation
+                </Button>
+              </Link>
+              <Link href="tel:+917892518414">
+                <Button 
+                  variant="outline" 
+                  size="lg" 
+                  className="w-full sm:w-auto border-primary-orange text-primary-orange hover:bg-primary-orange/10 transform hover:scale-105 transition-all duration-300 group"
+                >
+                  <Phone className="w-4 h-4 mr-2 group-hover:animate-pulse" />
+                  Call: +1-789-251-8414
+                </Button>
+              </Link>
+            </div>
 
-        {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white/60 animate-bounce">
-          <div className="flex flex-col items-center gap-2">
-            <span className="text-sm font-medium">Explore Our AI Solutions</span>
-            <ChevronDown className="w-5 h-5" />
+            {/* Enhanced Stats with Creative Design */}
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto mb-12">
+              {stats.map((stat, index) => (
+                <div key={index} className="relative group">
+                  <div className="bg-gray-800/30 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:border-primary-orange/50 transition-all duration-300 group-hover:transform group-hover:scale-105">
+                    <div className="text-3xl font-bold text-primary-orange mb-2 group-hover:animate-pulse">{stat.number}</div>
+                    <div className="text-sm text-gray-400">{stat.label}</div>
+                    
+                    {/* Hover Effect */}
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/5 to-orange-400/5 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {/* Enhanced VSO Keywords Section */}
+            <div className="text-center">
+              <p className="text-gray-400 text-sm mb-6 flex items-center justify-center gap-2">
+                <Globe className="w-4 h-4 text-primary-orange" />
+                Trusted as the top AI Service In Coimbatore
+              </p>
+              <div className="flex flex-wrap justify-center gap-3">
+                {[
+                  "AI Firm In Coimbatore",
+                  "AI Development Company In Coimbatore", 
+                  "Best AI Company Tamil Nadu"
+                ].map((tag, index) => (
+                  <span 
+                    key={index}
+                    className="bg-gray-800/50 backdrop-blur-sm px-4 py-2 rounded-full text-gray-400 text-xs border border-gray-700/50 hover:border-primary-orange/50 hover:text-primary-orange transition-all duration-300 cursor-default"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -544,12 +506,12 @@ export default function AIServicesCoimbatorePage() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                AI Solutions for <span className="text-primary-orange">Coimbatore</span> Businesses
+                <strong>AI Services</strong> by Leading <span className="text-primary-orange">Artificial Intelligence Company In Coimbatore</span>
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Comprehensive artificial intelligence services designed to help Coimbatore businesses 
-                compete in the global market and drive industrial transformation.
+                Comprehensive artificial intelligence services from Coimbatore's most trusted <strong>AI Company In Coimbatore</strong>. 
+                Transforming businesses with cutting-edge AI solutions tailored for Tamil Nadu's industrial landscape.
               </p>
             </div>
             
@@ -620,11 +582,12 @@ export default function AIServicesCoimbatorePage() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Why Coimbatore Businesses Choose Metic.ai
+                Why Choose Metic.ai as Your <span className="text-primary-orange">AI Firm In Coimbatore</span>
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Trusted by businesses across Coimbatore for our expertise, results, and commitment to success.
+                As the premier <strong>AI Development Company In Coimbatore</strong>, we're trusted by businesses across Tamil Nadu 
+                for our expertise, proven results, and commitment to client success.
               </p>
             </div>
             
@@ -659,6 +622,134 @@ export default function AIServicesCoimbatorePage() {
                 </div>
                 <h3 className="text-xl font-bold mb-4">Enterprise Security</h3>
                 <p className="text-gray-600">Bank-level security and compliance standards protecting your Coimbatore business data.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Comprehensive SEO Content Section - 2000+ Words */}
+      <section className="py-20 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="prose prose-lg max-w-none">
+              {/* Main Content Block 1: Company Overview */}
+              <div className="mb-12">
+                <h2 className="text-3xl font-bold mb-6 text-gray-900">
+                  <strong>Artificial Intelligence Company In Coimbatore</strong> - Transforming Tamil Nadu's Industrial Capital
+                </h2>
+                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                  As the leading <strong>AI Company In Coimbatore</strong>, Metic.ai stands at the forefront of technological innovation in Tamil Nadu's industrial capital. Coimbatore, known as the "Manchester of South India," has always been a hub for textiles, engineering, and manufacturing excellence. Today, this vibrant city is embracing artificial intelligence to revolutionize traditional industries and create new opportunities for growth.
+                </p>
+                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                  Our <strong>Artificial Intelligence Company In Coimbatore</strong> serves as a bridge between cutting-edge AI technology and local business needs. With over 2100+ successful AI implementations across Tamil Nadu and beyond, we understand the unique challenges and opportunities that Coimbatore businesses face in today's competitive marketplace. From small-scale textile manufacturers in RS Puram to large industrial units in SIDCO Industrial Estate, we've helped businesses across the spectrum leverage AI for unprecedented growth.
+                </p>
+                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                  The journey of becoming Coimbatore's most trusted <strong>AI Service In Coimbatore</strong> began with our commitment to understanding local business dynamics. Coimbatore's economy is built on a foundation of entrepreneurship, innovation, and industrial excellence. Our AI solutions are designed to enhance these strengths while addressing modern challenges such as global competition, sustainability requirements, and digital transformation demands.
+                </p>
+              </div>
+
+              {/* Main Content Block 2: Local Market Understanding */}
+              <div className="mb-12">
+                <h2 className="text-3xl font-bold mb-6 text-gray-900">
+                  Understanding Coimbatore's Business Landscape: Why Local Expertise Matters
+                </h2>
+                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                  Coimbatore's business ecosystem is unique in its diversity and depth. As an <strong>AI Firm In Coimbatore</strong>, we've spent years studying the intricate relationships between various industries that make this city a powerhouse of economic activity. The textile industry, which forms the backbone of Coimbatore's economy, generates billions in revenue annually and employs hundreds of thousands of people across the value chain.
+                </p>
+                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                  Our experience as an <strong>AI Development Company In Coimbatore</strong> has taught us that successful AI implementation requires deep understanding of local business practices, cultural nuances, and operational challenges. For instance, textile manufacturers in areas like Peelamedu and Tirupur face unique challenges related to quality control, inventory management, and supply chain optimization that require specialized AI solutions tailored to their specific needs.
+                </p>
+                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                  The engineering and automotive sectors in Coimbatore have their own set of requirements. Companies in the SIDCO Industrial Estate and other industrial zones need AI solutions that can integrate with existing manufacturing systems, improve production efficiency, and ensure compliance with international quality standards. Our role as the <strong>Best AI Company In Coimbatore</strong> is to translate these complex requirements into practical, implementable AI solutions.
+                </p>
+              </div>
+
+              {/* Main Content Block 3: Technology and Innovation */}
+              <div className="mb-12">
+                <h2 className="text-3xl font-bold mb-6 text-gray-900">
+                  Cutting-Edge AI Technologies Driving Coimbatore's Digital Transformation
+                </h2>
+                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                  The technological capabilities that make us the premier <strong>Artificial Intelligence Company In Coimbatore</strong> span the entire spectrum of AI and machine learning technologies. Our expertise encompasses computer vision systems that can detect fabric defects with 99.7% accuracy, natural language processing solutions that can handle multiple Indian languages including Tamil, and predictive analytics systems that can forecast market demands with unprecedented precision.
+                </p>
+                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                  Machine learning algorithms form the core of our AI solutions. As an innovative <strong>AI Company In Coimbatore</strong>, we deploy advanced algorithms including deep neural networks, ensemble methods, and reinforcement learning systems. These technologies enable us to solve complex problems such as optimizing production schedules in textile mills, predicting equipment failures in manufacturing plants, and automating quality control processes across various industries.
+                </p>
+                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                  Our computer vision capabilities are particularly relevant for Coimbatore's manufacturing-heavy economy. We've developed specialized systems for textile quality inspection, automotive parts verification, and precision engineering applications. These systems can process thousands of images per minute, identifying defects and anomalies that might be missed by human inspectors while maintaining the flexibility to adapt to new product lines and quality standards.
+                </p>
+                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                  Natural language processing and conversational AI technologies enable us to create intelligent customer service systems, automated documentation tools, and multilingual interfaces that can serve Coimbatore's diverse business community. Whether it's processing customer inquiries in Tamil, generating technical documentation, or analyzing market feedback, our NLP solutions bridge language barriers and enhance communication efficiency.
+                </p>
+              </div>
+
+              {/* Main Content Block 4: Industry Applications */}
+              <div className="mb-12">
+                <h2 className="text-3xl font-bold mb-6 text-gray-900">
+                  Industry-Specific AI Solutions: Tailored for Coimbatore's Key Sectors
+                </h2>
+                <h3 className="text-2xl font-bold mb-4 text-gray-800">Textile and Apparel Industry AI Solutions</h3>
+                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                  The textile industry is where our expertise as an <strong>AI Service In Coimbatore</strong> truly shines. We've developed comprehensive AI solutions that address every aspect of textile manufacturing, from fiber quality assessment to finished goods inspection. Our predictive maintenance systems can forecast spindle failures up to 30 days in advance, reducing downtime and maintenance costs by up to 40%.
+                </p>
+                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                  Quality control in textile manufacturing has been revolutionized through our computer vision systems. These AI-powered solutions can detect defects in fabric with accuracy levels that surpass traditional inspection methods while operating at production speeds. For dyeing and finishing processes, our AI systems optimize chemical usage, reduce water consumption, and ensure consistent color matching across batches.
+                </p>
+
+                <h3 className="text-2xl font-bold mb-4 text-gray-800">Engineering and Manufacturing AI Applications</h3>
+                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                  Coimbatore's engineering sector benefits significantly from our specialized AI solutions. As an <strong>AI Firm In Coimbatore</strong>, we've developed precision machining systems that use AI to optimize cutting parameters in real-time, reducing material waste and improving surface finish quality. Our predictive analytics solutions help engineering companies forecast demand, optimize inventory levels, and improve delivery schedules.
+                </p>
+                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                  For automotive component manufacturers, we provide AI-powered quality assurance systems that can inspect complex parts with micron-level precision. These systems integrate seamlessly with existing production lines and can adapt to new product specifications without extensive reprogramming. The result is improved quality consistency, reduced rejection rates, and enhanced customer satisfaction.
+                </p>
+
+                <h3 className="text-2xl font-bold mb-4 text-gray-800">Agricultural Technology and Food Processing</h3>
+                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                  Coimbatore's agricultural sector, including the surrounding rural areas, benefits from our AI solutions in crop monitoring, yield prediction, and supply chain optimization. Our drone-based crop monitoring systems use computer vision to detect pest infestations, disease outbreaks, and irrigation issues early, enabling farmers to take corrective action before significant crop loss occurs.
+                </p>
+                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                  Food processing companies in and around Coimbatore use our AI systems for quality control, shelf-life prediction, and supply chain optimization. These solutions help reduce food waste, improve product consistency, and ensure compliance with food safety regulations.
+                </p>
+              </div>
+
+              {/* Main Content Block 5: Economic Impact and Future Outlook */}
+              <div className="mb-12">
+                <h2 className="text-3xl font-bold mb-6 text-gray-900">
+                  Economic Impact and Future of AI in Coimbatore
+                </h2>
+                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                  The economic impact of AI adoption in Coimbatore extends far beyond individual company benefits. As the leading <strong>AI Development Company In Coimbatore</strong>, we've observed and contributed to a broader transformation that's positioning the city as a technology hub for South India. Our AI implementations have created new job categories, improved export competitiveness, and attracted technology investments to the region.
+                </p>
+                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                  Employment patterns in Coimbatore are evolving as AI technologies mature. While automation might reduce demand for certain types of manual labor, it's simultaneously creating opportunities for skilled technicians, AI system operators, and data analysts. Our training programs, developed in partnership with local educational institutions, help workers transition to these new roles and build AI-ready skills.
+                </p>
+                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                  The future outlook for AI in Coimbatore is exceptionally promising. Government initiatives supporting digital transformation, combined with the city's strong industrial base and entrepreneurial culture, create ideal conditions for AI adoption. We anticipate significant growth in AI applications across emerging sectors such as renewable energy, biotechnology, and advanced materials manufacturing.
+                </p>
+                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                  Smart city initiatives in Coimbatore present new opportunities for AI applications in urban management, traffic optimization, and public service delivery. Our expertise in IoT integration and edge computing positions us to contribute to these initiatives while supporting the city's sustainable development goals.
+                </p>
+              </div>
+
+              {/* Main Content Block 6: Success Stories and Case Studies */}
+              <div className="mb-12">
+                <h2 className="text-3xl font-bold mb-6 text-gray-900">
+                  Success Stories: How Coimbatore Businesses Are Thriving with AI
+                </h2>
+                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                  Our track record as the <strong>Best AI Company In Coimbatore</strong> is built on measurable success stories across diverse industries. A leading textile manufacturer in the city implemented our AI-powered quality control system and achieved a 35% reduction in defect rates while increasing production speed by 22%. The system paid for itself within eight months and continues to deliver ongoing value through improved product quality and customer satisfaction.
+                </p>
+                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                  An automotive component manufacturer adopted our predictive maintenance solution and reduced unplanned downtime by 60%. The AI system monitors vibration patterns, temperature variations, and other operational parameters to predict equipment failures before they occur. This proactive approach has saved the company millions in lost production and emergency repair costs.
+                </p>
+                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                  A mid-sized engineering firm used our demand forecasting AI to optimize inventory management and reduce working capital requirements by 28%. The system analyzes historical sales data, market trends, and seasonal patterns to predict future demand with high accuracy, enabling better purchasing decisions and reduced inventory carrying costs.
+                </p>
+                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                  These success stories demonstrate the tangible benefits that AI can deliver to Coimbatore businesses. From improved operational efficiency to enhanced product quality and better customer service, AI technologies are helping local companies compete more effectively in global markets while maintaining their competitive advantages.
+                </p>
               </div>
             </div>
           </div>
@@ -738,60 +829,318 @@ export default function AIServicesCoimbatorePage() {
               </p>
             </div>
             
-            <div className="space-y-8">
-              <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
-                <h3 className="text-xl font-bold text-gray-900 mb-4">
-                  Which is the best Artificial Intelligence Company In Coimbatore?
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  Metic.ai is the leading <strong>Artificial Intelligence Company In Coimbatore</strong> with 2100+ successful AI implementations. We specialize in custom AI development, machine learning solutions, and enterprise automation with 60% cost savings and 3x faster delivery across Coimbatore's textile mills, IT parks, and industrial areas including RS Puram, Peelamedu, and Saravanampatti.
-                </p>
-              </div>
-              
-              <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
-                <h3 className="text-xl font-bold text-gray-900 mb-4">
-                  What AI services does the top AI Company In Coimbatore offer?
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  As the premier <strong>AI Company In Coimbatore</strong>, Metic.ai offers comprehensive AI services including AI automation, machine learning development, predictive analytics, custom AI solutions, data engineering, generative AI services, and enterprise AI integration. We serve textile, engineering, automotive, agriculture, healthcare, and IT industries.
-                </p>
-              </div>
-              
-              <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
-                <h3 className="text-xl font-bold text-gray-900 mb-4">
-                  How much do AI services cost from an Artificial Intelligence Company In Coimbatore?
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  AI service costs vary based on project complexity and requirements. As a leading <strong>Artificial Intelligence Company In Coimbatore</strong>, Metic.ai offers competitive pricing with 60% cost savings compared to traditional development. Contact us for a free consultation and customized quote for your Coimbatore business.
-                </p>
-              </div>
-              
-              <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
-                <h3 className="text-xl font-bold text-gray-900 mb-4">
-                  Why choose Metic.ai as your AI Firm In Coimbatore?
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  Metic.ai is the trusted <strong>AI Firm In Coimbatore</strong> with proven expertise in Tamil Nadu's industrial landscape. We deliver 3x faster development, 60% cost reduction, 2100+ successful projects, and 4.9/5 client satisfaction. Our team understands Coimbatore's textile, engineering, and manufacturing industries with deep local market knowledge.
-                </p>
-              </div>
-              
-              <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
-                <h3 className="text-xl font-bold text-gray-900 mb-4">
-                  Which Coimbatore areas does the leading AI Development Company In Coimbatore serve?
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  As the premier <strong>AI Development Company In Coimbatore</strong>, Metic.ai serves all major Coimbatore areas including RS Puram, Peelamedu, Saravanampatti, Ganapathy, Singanallur, Vadavalli, Kuniyamuthur, Gandhipuram, Race Course, Ukkadam, Kovaipudur, and all textile mills, IT parks, and industrial zones with comprehensive AI solutions.
-                </p>
-              </div>
-              
-              <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
-                <h3 className="text-xl font-bold text-gray-900 mb-4">
-                  How quickly can an AI Service In Coimbatore be implemented?
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  Metic.ai provides the fastest <strong>AI Service In Coimbatore</strong> with 3x faster development than industry standards. Simple AI automation can be deployed in 2-4 weeks, while complex enterprise AI solutions typically take 8-16 weeks. We offer rapid prototyping and agile development for Coimbatore's textile and manufacturing businesses.
-                </p>
-              </div>
+            <div className="space-y-6">
+              {/* FAQ Item 1 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Award className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Which is the best Artificial Intelligence Company In Coimbatore?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <CheckCircle className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        Metic.ai is the leading <strong className="text-gray-900 font-semibold">Artificial Intelligence Company In Coimbatore</strong> with 2100+ successful AI implementations. 
+                        We specialize in custom AI development, machine learning solutions, and enterprise automation with 60% cost savings and 3x faster delivery.
+                      </p>
+                      <p className="text-lg">
+                        Our expertise spans across Coimbatore's textile mills, IT parks, and industrial areas including RS Puram, Peelamedu, and Saravanampatti, 
+                        making us the most trusted AI partner for Tamil Nadu businesses.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </details>
+
+              {/* FAQ Item 2 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Cog className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What AI services does the top AI Company In Coimbatore offer?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <CheckCircle className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        As the premier <strong className="text-gray-900 font-semibold">AI Company In Coimbatore</strong>, Metic.ai offers comprehensive AI services including AI automation, 
+                        machine learning development, predictive analytics, custom AI solutions, data engineering, and generative AI services.
+                      </p>
+                      <p className="text-lg">
+                        We serve textile, engineering, automotive, agriculture, healthcare, and IT industries with enterprise AI integration 
+                        tailored for Coimbatore's industrial landscape.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </details>
+
+              {/* FAQ Item 3 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Target className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How to choose the right AI Development Company In Coimbatore?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <CheckCircle className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        When selecting an <strong className="text-gray-900 font-semibold">AI Development Company In Coimbatore</strong>, look for proven experience, successful project portfolio, 
+                        industry expertise, local market understanding, and ongoing support.
+                      </p>
+                      <p className="text-lg">
+                        Metic.ai offers all these qualities with 2100+ completed projects, 98% client satisfaction rate, and deep knowledge of Tamil Nadu's business landscape. 
+                        Our team understands Coimbatore's textile, engineering, and manufacturing sectors.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </details>
+
+              {/* FAQ Item 4 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <DollarSign className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How much do AI services cost from an Artificial Intelligence Company In Coimbatore?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <CheckCircle className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        AI service costs vary based on project complexity and requirements. As a leading <strong className="text-gray-900 font-semibold">Artificial Intelligence Company In Coimbatore</strong>, 
+                        Metic.ai offers competitive pricing with 60% cost savings compared to traditional development.
+                      </p>
+                      <p className="text-lg">
+                        Contact us for a free consultation and customized quote for your Coimbatore business. 
+                        We provide transparent pricing and flexible engagement models.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </details>
+
+              {/* FAQ Item 5 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Star className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Why choose Metic.ai as your AI Firm In Coimbatore?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <CheckCircle className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        Metic.ai is the trusted <strong className="text-gray-900 font-semibold">AI Firm In Coimbatore</strong> with proven expertise in Tamil Nadu's industrial landscape. 
+                        We deliver 3x faster development, 60% cost reduction, 2100+ successful projects, and 4.9/5 client satisfaction.
+                      </p>
+                      <p className="text-lg">
+                        Our team understands Coimbatore's textile, engineering, and manufacturing industries with deep local market knowledge, 
+                        ensuring AI solutions that truly fit your business needs.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </details>
+
+              {/* FAQ Item 6 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Clock className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How quickly can an AI Service In Coimbatore be implemented?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <CheckCircle className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        Metic.ai provides the fastest <strong className="text-gray-900 font-semibold">AI Service In Coimbatore</strong> with 3x faster development than industry standards. 
+                        Simple AI automation can be deployed in 2-4 weeks, while complex enterprise AI solutions typically take 8-16 weeks.
+                      </p>
+                      <p className="text-lg">
+                        We offer rapid prototyping and agile development for Coimbatore's textile and manufacturing businesses, 
+                        ensuring quick time-to-market and immediate business value.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </details>
             </div>
           </div>
         </div>
