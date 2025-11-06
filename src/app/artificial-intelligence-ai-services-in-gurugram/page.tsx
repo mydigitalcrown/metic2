@@ -1318,7 +1318,7 @@ export default function AIServicesGurugramPage() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <a 
-                    href="tel:+1-555-0123"
+                    href="tel:+917892518414"
                     className="inline-flex items-center justify-center bg-gradient-to-r from-primary-orange to-orange-600 hover:from-orange-600 hover:to-primary-orange text-white font-semibold px-8 py-3 rounded-full transition-all duration-300"
                   >
                     <Phone className="w-5 h-5 mr-2" />
