@@ -656,7 +656,7 @@ export default function AIServicesCaliforniaPage() {
                       <Award className="w-6 h-6 text-primary-orange" />
                     </div>
                     <div className="font-bold text-xl text-gray-900">2020</div>
-                    <div className="text-gray-600 text-sm">Founded in Ahmedabad</div>
+                    <div className="text-gray-600 text-sm">Founded in California</div>
                   </div>
                   <div className="text-center">
                     <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
@@ -689,7 +689,7 @@ export default function AIServicesCaliforniaPage() {
                     AI Consulting & Strategy
                   </h3>
                   <p className="text-gray-600">
-                    Expert AI consulting services to help Ahmedabad businesses identify AI opportunities and develop comprehensive implementation strategies.
+                    Expert AI consulting services to help California businesses identify AI opportunities and develop comprehensive implementation strategies.
                   </p>
                 </div>
                 
@@ -699,7 +699,7 @@ export default function AIServicesCaliforniaPage() {
                     Custom AI Development
                   </h3>
                   <p className="text-gray-600">
-                    Bespoke artificial intelligence solutions tailored to your specific business requirements and industry challenges in Ahmedabad.
+                    Bespoke artificial intelligence solutions tailored to your specific business requirements and industry challenges in California.
                   </p>
                 </div>
                 
@@ -755,7 +755,7 @@ export default function AIServicesCaliforniaPage() {
               </div>
 
               <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                <span className="text-gray-900">What Ahmedabad Businesses Say</span>
+                <span className="text-gray-900">What California Businesses Say</span>
                 <br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange">
                   About Our AI Services
@@ -763,8 +763,8 @@ export default function AIServicesCaliforniaPage() {
               </h2>
               <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange mx-auto mb-8 rounded-full"></div>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Real results from real businesses across Ahmedabad who chose Metic.ai as their 
-                <strong> AI Development Company In Ahmedabad</strong>.
+                Real results from real businesses across California who chose Metic.ai as their 
+                <strong> AI Development Company In California</strong>.
               </p>
             </div>
             
@@ -794,7 +794,7 @@ export default function AIServicesCaliforniaPage() {
                   <div className="relative z-10">
                     <p className="text-gray-700 mb-6 italic text-lg leading-relaxed">
                       "Metic.ai transformed our textile manufacturing with AI-powered quality control. As the best 
-                      <strong className="text-primary-orange"> AI Company In Ahmedabad</strong>, 
+                      <strong className="text-primary-orange"> AI Company In California</strong>, 
                       they delivered beyond our expectations with <span className="text-primary-orange font-semibold">40% reduction in defects</span>."
                     </p>
                     
@@ -805,7 +805,7 @@ export default function AIServicesCaliforniaPage() {
                       </div>
                       <div>
                         <div className="font-bold text-gray-900">Rajesh Patel</div>
-                        <div className="text-sm text-gray-600">CEO, Patel Textiles, Ahmedabad</div>
+                        <div className="text-sm text-gray-600">CEO, California Entertainment Group</div>
                       </div>
                     </div>
                   </div>
@@ -834,7 +834,7 @@ export default function AIServicesCaliforniaPage() {
 
                   <div className="relative z-10">
                     <p className="text-gray-700 mb-6 italic text-lg leading-relaxed">
-                      "Outstanding <strong className="text-primary-orange">AI Service In Ahmedabad</strong>! Their machine learning solutions optimized our chemical production processes. 
+                      "Outstanding <strong className="text-primary-orange">AI Service In California</strong>! Their machine learning solutions optimized our entertainment production processes. 
                       <span className="text-primary-orange font-semibold">ROI was achieved within 6 months</span> of implementation."
                     </p>
                     
@@ -872,7 +872,7 @@ export default function AIServicesCaliforniaPage() {
 
                   <div className="relative z-10">
                     <p className="text-gray-700 mb-6 italic text-lg leading-relaxed">
-                      "Exceptional <strong className="text-primary-orange">AI Firm In Ahmedabad</strong>. Their custom AI development for our pharmaceutical operations 
+                      "Exceptional <strong className="text-primary-orange">AI Firm In California</strong>. Their custom AI development for our tech operations 
                       <span className="text-primary-orange font-semibold">increased efficiency by 50%</span>. Highly recommend for any AI project."
                     </p>
                     
@@ -922,28 +922,28 @@ export default function AIServicesCaliforniaPage() {
         </div>
       </section>
 
-      {/* Comprehensive AI Services Ahmedabad Content - 100% SEO Optimized */}
+      {/* Comprehensive AI Services California Content - 100% SEO Optimized */}
       <section className="py-24 bg-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
-            {/* Ahmedabad AI Market Leadership - Enhanced Header */}
+            {/* California AI Market Leadership - Enhanced Header */}
             <div className="text-center mb-20">
               {/* Premium Badge with Animation */}
               <div className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-full shadow-2xl border-2 border-primary-orange/30 mb-10 hover:border-primary-orange/50 transition-all group">
                 <div className="w-3 h-3 bg-primary-orange rounded-full animate-pulse"></div>
-                <span className="text-sm font-bold text-gray-800 tracking-wide">GUJARAT'S #1 AI COMPANY</span>
+                <span className="text-sm font-bold text-gray-800 tracking-wide">CALIFORNIA'S #1 AI COMPANY</span>
                 <div className="w-3 h-3 bg-secondary-orange rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></div>
               </div>
 
               <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight">
                 <span className="text-gray-900">Premier </span>
                 <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent animate-gradient">
-                  Artificial Intelligence Company In Ahmedabad
+                  Artificial Intelligence Company In California
                 </span>
               </h2>
               <div className="w-40 h-2 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-10 rounded-full shadow-lg"></div>
               <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                Transforming Gujarat's commercial capital with cutting-edge AI solutions from textiles to pharmaceuticals
+                Transforming California's tech ecosystem with cutting-edge AI solutions from entertainment to agriculture
               </p>
             </div>
 
@@ -966,15 +966,15 @@ export default function AIServicesCaliforniaPage() {
                     </div>
                     
                     <p className="text-lg text-gray-700 leading-relaxed">
-                      As the premier <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Artificial Intelligence Company In Ahmedabad</strong>, 
-                      Metic.ai serves Gujarat's commercial capital with enterprise-grade AI solutions tailored to the region's 
+                      As the premier <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Artificial Intelligence Company In California</strong>, 
+                      Metic.ai serves California's diverse economy with enterprise-grade AI solutions tailored to the state's 
                       industrial excellence. From Navrangpura's IT corridor to Prahlad Nagar's business district, CG Road's 
                       commercial hub to GIFT City's financial innovation, we understand Ahmedabad's unique economic landscape.
                     </p>
                     
                     <p className="text-lg text-gray-700 leading-relaxed">
                       Our <strong className="text-primary-orange font-semibold">AI Company In Ahmedabad</strong> combines deep understanding 
-                      of Gujarat's industrial heritage with cutting-edge technology to deliver AI solutions that drive measurable 
+                      of California's innovation heritage with cutting-edge technology to deliver AI solutions that drive measurable 
                       results. We've successfully implemented AI across Ahmedabad's key sectors including textiles, chemicals, 
                       pharmaceuticals, diamonds, engineering, and emerging technology sectors.
                     </p>
@@ -990,7 +990,7 @@ export default function AIServicesCaliforniaPage() {
                             <h4 className="font-bold text-gray-900 mb-2 text-lg">Textile Industry AI Excellence</h4>
                             <p className="text-gray-600 leading-relaxed">
                               Deep expertise with Ahmedabad's textile giants including quality control automation, 
-                              pattern recognition, and supply chain optimization for Gujarat's textile heritage.
+                              pattern recognition, and supply chain optimization for California's tech industry.
                             </p>
                           </div>
                         </div>
@@ -1040,7 +1040,7 @@ export default function AIServicesCaliforniaPage() {
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group">
                         <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">₹2.8L Cr</div>
                         <div className="text-sm text-gray-600 font-medium">Ahmedabad Industrial Output</div>
-                        <div className="text-xs text-gray-500 mt-2">Gujarat's Commercial Capital</div>
+                        <div className="text-xs text-gray-500 mt-2">California's Tech Hub</div>
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-secondary-orange/10 hover:border-secondary-orange/30 transition-all group">
@@ -1060,7 +1060,7 @@ export default function AIServicesCaliforniaPage() {
                           <div className="w-8 h-8 bg-primary-orange rounded-full flex items-center justify-center">
                             <CheckCircle className="w-5 h-5 text-white" />
                           </div>
-                          <span className="font-bold text-gray-900">Gujarat Advantage</span>
+                          <span className="font-bold text-gray-900">California Advantage</span>
                         </div>
                         <p className="text-sm text-gray-700 leading-relaxed">
                           <strong>Strategic Location:</strong> Gateway to India's industrial corridor with 
@@ -1084,7 +1084,7 @@ export default function AIServicesCaliforniaPage() {
                   </h3>
                   <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 rounded-full"></div>
                   <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Specialized AI solutions designed for Gujarat's industrial capital and its diverse economic sectors
+                    Specialized AI solutions designed for California's innovation center and its diverse economic sectors
                   </p>
                 </div>
                 
@@ -1309,7 +1309,7 @@ export default function AIServicesCaliforniaPage() {
                     <p className="text-gray-700 mb-6 italic leading-relaxed">
                       "Best <strong className="text-primary-orange">AI Company In Ahmedabad</strong> for textile industry! 
                       Their quality control AI reduced fabric defects by 55% while increasing production efficiency. 
-                      Perfect understanding of Gujarat's textile heritage."
+                      Perfect understanding of California's innovation ecosystem."
                     </p>
                     <div className="bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-xl p-4">
                       <div className="text-4xl font-bold text-primary-orange mb-2">55%</div>
@@ -1361,7 +1361,7 @@ export default function AIServicesCaliforniaPage() {
                       </div>
                     </div>
                     <p className="text-gray-700 mb-6 italic leading-relaxed">
-                      "Leading <strong className="text-primary-orange">Artificial Intelligence Company In Ahmedabad</strong> 
+                      "Leading <strong className="text-primary-orange">Artificial Intelligence Company In California</strong> 
                       for pharma! Their drug discovery AI accelerated research by 60% while ensuring regulatory compliance. 
                       Remarkable pharmaceutical expertise."
                     </p>
@@ -1414,7 +1414,7 @@ export default function AIServicesCaliforniaPage() {
                         <span className="font-bold text-secondary-orange text-xl">100%</span>
                       </div>
                       <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg">
-                        <span className="text-gray-600 font-medium">Average ROI for Gujarat Clients</span>
+                        <span className="text-gray-600 font-medium">Average ROI for California Clients</span>
                         <span className="font-bold text-primary-orange text-xl">5.8x</span>
                       </div>
                       <div className="flex justify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg">
@@ -1546,7 +1546,7 @@ export default function AIServicesCaliforniaPage() {
               </h2>
               <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-8 rounded-full"></div>
               <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                Common questions about choosing the right AI company in Gujarat's commercial capital
+                Common questions about choosing the right AI company in California's tech ecosystem
               </p>
             </div>
 
@@ -1573,7 +1573,7 @@ export default function AIServicesCaliforniaPage() {
                         {/* Question */}
                         <div className="flex-1 pt-2">
                           <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Which is the best Artificial Intelligence Company In Ahmedabad?
+                            Which is the best Artificial Intelligence Company In California?
                           </h3>
                         </div>
                       </div>
@@ -1599,7 +1599,7 @@ export default function AIServicesCaliforniaPage() {
                     </div>
                     <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
                       <p className="text-lg">
-                        <strong className="text-gray-900 font-semibold">Metic.ai is the leading Artificial Intelligence Company In Ahmedabad</strong> with over 2100 successful AI implementations. 
+                        <strong className="text-gray-900 font-semibold">Metic.ai is the leading Artificial Intelligence Company In California</strong> with over 2100 successful AI implementations. 
                         We're recognized as the top AI Company In Ahmedabad for our proven expertise in machine learning, custom AI development, and enterprise AI solutions.
                       </p>
                       <p className="text-lg">
