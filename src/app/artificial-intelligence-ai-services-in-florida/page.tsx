@@ -1406,13 +1406,16 @@ export default function AIServicesFloridaPage() {
       </section>
 
       {/* Comprehensive Florida AI Innovation Section - 2000+ Creative Content */}
-      <section className="py-32 bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 relative overflow-hidden">
+      <section className="py-32 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 relative overflow-hidden">
         {/* Dynamic Background Effects */}
         <div className="absolute inset-0">
-          <div className="absolute inset-0 bg-[linear-gradient(to_right,#1e293b_1px,transparent_1px),linear-gradient(to_bottom,#1e293b_1px,transparent_1px)] bg-[size:40px_40px] opacity-20"></div>
-          <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-blue-600/10 via-transparent to-purple-600/10"></div>
-          <div className="absolute top-20 left-20 w-72 h-72 bg-blue-500/5 rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute bottom-20 right-20 w-96 h-96 bg-purple-500/5 rounded-full blur-3xl animate-pulse delay-700"></div>
+          <div className="absolute inset-0 opacity-[0.03]" style={{
+            backgroundImage: `linear-gradient(#FF6B35 1px, transparent 1px), linear-gradient(90deg, #FF6B35 1px, transparent 1px)`,
+            backgroundSize: '40px 40px'
+          }}></div>
+          <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-primary-orange/5 via-transparent to-primary-orange/5"></div>
+          <div className="absolute top-20 left-20 w-72 h-72 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-20 right-20 w-96 h-96 bg-primary-orange/5 rounded-full blur-3xl animate-pulse delay-700"></div>
         </div>
 
         <div className="container px-4 md:px-6 relative z-10">
@@ -1421,18 +1424,18 @@ export default function AIServicesFloridaPage() {
             {/* Main Title Section */}
             <div className="text-center mb-20">
               <h2 className="text-5xl md:text-6xl font-bold mb-8 leading-tight">
-                <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent">
+                <span className="text-white">
                   Florida's AI Revolution
                 </span>
                 <br />
-                <span className="text-3xl md:text-4xl text-white font-medium">
+                <span className="text-3xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange">
                   Transforming the Sunshine State with Intelligent Innovation
                 </span>
               </h2>
-              <p className="text-xl text-slate-300 max-w-4xl mx-auto leading-relaxed">
+              <p className="text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
                 From the bustling tech corridors of Miami's Brickell to the space innovation hubs of Cape Canaveral, 
-                <strong> Artificial Intelligence Company In Florida</strong> is pioneering the next generation of intelligent business solutions. 
-                As the premier <strong>AI Company In Florida</strong>, we're driving unprecedented growth across the state's diverse economic landscape.
+                <strong className="text-primary-orange"> Artificial Intelligence Company In Florida</strong> is pioneering the next generation of intelligent business solutions. 
+                As the premier <strong className="text-primary-orange">AI Company In Florida</strong>, we're driving unprecedented growth across the state's diverse economic landscape.
               </p>
             </div>
 
@@ -1530,7 +1533,7 @@ export default function AIServicesFloridaPage() {
             <div className="mb-20">
               <div className="text-center mb-16">
                 <h3 className="text-4xl font-bold mb-6">
-                  <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
+                  <span className="text-white">
                     Florida-Specific AI Solutions
                   </span>
                 </h3>
@@ -1689,13 +1692,13 @@ export default function AIServicesFloridaPage() {
                   technological foundation for Florida's $2 trillion economy of tomorrow.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                  <button className="group px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold text-lg rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                  <button className="group px-8 py-4 bg-gradient-to-r from-primary-orange to-secondary-orange hover:from-dark-orange hover:to-primary-orange text-white font-semibold text-lg rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
                     <span className="flex items-center justify-center">
                       Start Your Florida AI Journey
                       <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                     </span>
                   </button>
-                  <button className="group px-8 py-4 border-2 border-cyan-500/50 text-cyan-300 hover:bg-cyan-500/10 font-semibold text-lg rounded-lg transition-all duration-300 backdrop-blur-sm">
+                  <button className="group px-8 py-4 border-2 border-primary-orange/50 text-primary-orange hover:bg-primary-orange/10 font-semibold text-lg rounded-lg transition-all duration-300 backdrop-blur-sm">
                     <span className="flex items-center justify-center">
                       <Phone className="mr-2 h-5 w-5 group-hover:rotate-12 transition-transform" />
                       Discuss Your Project
