@@ -1325,7 +1325,7 @@ export default function AIServicesGurugramPage() {
                     Call Now
                   </a>
                   <a 
-                    href="mailto:contact@metic.ai"
+                    href="mailto:hello@metic.ai"
                     className="inline-flex items-center justify-center border border-white/20 text-white hover:bg-white/10 font-semibold px-8 py-3 rounded-full transition-colors"
                   >
                     <Mail className="w-5 h-5 mr-2" />
