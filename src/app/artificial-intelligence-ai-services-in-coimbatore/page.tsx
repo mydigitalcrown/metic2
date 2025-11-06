@@ -629,127 +629,500 @@ export default function AIServicesCoimbatorePage() {
       </section>
 
       {/* Comprehensive SEO Content Section - 2000+ Words */}
-      <section className="py-20 bg-gray-50">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-4xl mx-auto">
-            <div className="prose prose-lg max-w-none">
+      <section className="py-20 bg-gray-50 relative overflow-hidden">
+        {/* Background Elements */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <div className="absolute top-20 left-10 w-64 h-64 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-20 right-10 w-80 h-80 bg-primary-orange/3 rounded-full blur-3xl animate-pulse delay-1000"></div>
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-primary-orange/2 rounded-full blur-3xl animate-pulse delay-2000"></div>
+        </div>
+
+        <div className="container px-4 md:px-6 relative z-10">
+          <div className="max-w-6xl mx-auto">
+            {/* Section Header */}
+            <div className="text-center mb-16">
+              <div className="inline-flex items-center gap-3 mb-6 bg-white/80 backdrop-blur-sm rounded-full px-6 py-3 border border-primary-orange/20">
+                <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
+                  <Brain className="w-4 h-4 text-primary-orange" />
+                </div>
+                <span className="text-sm font-medium text-gray-600">Comprehensive AI Insights</span>
+              </div>
+              <h2 className="text-4xl font-bold mb-4 text-gray-900">
+                Deep Dive: <span className="text-primary-orange">AI Transformation</span> in Coimbatore
+              </h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Exploring how artificial intelligence is revolutionizing Tamil Nadu's industrial capital
+              </p>
+            </div>
+
+            <div className="space-y-16">
               {/* Main Content Block 1: Company Overview */}
-              <div className="mb-12">
-                <h2 className="text-3xl font-bold mb-6 text-gray-900">
-                  <strong>Artificial Intelligence Company In Coimbatore</strong> - Transforming Tamil Nadu's Industrial Capital
-                </h2>
-                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                  As the leading <strong>AI Company In Coimbatore</strong>, Metic.ai stands at the forefront of technological innovation in Tamil Nadu's industrial capital. Coimbatore, known as the "Manchester of South India," has always been a hub for textiles, engineering, and manufacturing excellence. Today, this vibrant city is embracing artificial intelligence to revolutionize traditional industries and create new opportunities for growth.
-                </p>
-                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                  Our <strong>Artificial Intelligence Company In Coimbatore</strong> serves as a bridge between cutting-edge AI technology and local business needs. With over 2100+ successful AI implementations across Tamil Nadu and beyond, we understand the unique challenges and opportunities that Coimbatore businesses face in today's competitive marketplace. From small-scale textile manufacturers in RS Puram to large industrial units in SIDCO Industrial Estate, we've helped businesses across the spectrum leverage AI for unprecedented growth.
-                </p>
-                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                  The journey of becoming Coimbatore's most trusted <strong>AI Service In Coimbatore</strong> began with our commitment to understanding local business dynamics. Coimbatore's economy is built on a foundation of entrepreneurship, innovation, and industrial excellence. Our AI solutions are designed to enhance these strengths while addressing modern challenges such as global competition, sustainability requirements, and digital transformation demands.
-                </p>
+              <div className="relative">
+                <div className="bg-white rounded-3xl p-8 md:p-12 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-300">
+                  <div className="flex items-start gap-6 mb-8">
+                    <div className="flex-shrink-0">
+                      <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-orange-400 rounded-2xl flex items-center justify-center shadow-lg">
+                        <MapPin className="w-8 h-8 text-white" />
+                      </div>
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-3xl font-bold mb-4 text-gray-900">
+                        <strong>Artificial Intelligence Company In Coimbatore</strong> - Transforming Tamil Nadu's Industrial Capital
+                      </h3>
+                      <div className="w-24 h-1 bg-primary-orange rounded-full mb-6"></div>
+                    </div>
+                  </div>
+                  
+                  <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
+                    <p className="border-l-4 border-primary-orange pl-6 bg-primary-orange/5 p-4 rounded-r-lg">
+                      As the leading <strong className="text-primary-orange">AI Company In Coimbatore</strong>, Metic.ai stands at the forefront of technological innovation in Tamil Nadu's industrial capital. Coimbatore, known as the "Manchester of South India," has always been a hub for textiles, engineering, and manufacturing excellence.
+                    </p>
+                    <p>
+                      Our <strong>Artificial Intelligence Company In Coimbatore</strong> serves as a bridge between cutting-edge AI technology and local business needs. With over 2100+ successful AI implementations across Tamil Nadu and beyond, we understand the unique challenges and opportunities that Coimbatore businesses face in today's competitive marketplace.
+                    </p>
+                    <p className="bg-white border-2 border-primary-orange/20 p-6 rounded-xl">
+                      The journey of becoming Coimbatore's most trusted <strong className="text-primary-orange">AI Service In Coimbatore</strong> began with our commitment to understanding local business dynamics. Our AI solutions are designed to enhance Coimbatore's entrepreneurial strengths while addressing modern challenges.
+                    </p>
+                  </div>
+                </div>
               </div>
 
               {/* Main Content Block 2: Local Market Understanding */}
-              <div className="mb-12">
-                <h2 className="text-3xl font-bold mb-6 text-gray-900">
-                  Understanding Coimbatore's Business Landscape: Why Local Expertise Matters
-                </h2>
-                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                  Coimbatore's business ecosystem is unique in its diversity and depth. As an <strong>AI Firm In Coimbatore</strong>, we've spent years studying the intricate relationships between various industries that make this city a powerhouse of economic activity. The textile industry, which forms the backbone of Coimbatore's economy, generates billions in revenue annually and employs hundreds of thousands of people across the value chain.
-                </p>
-                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                  Our experience as an <strong>AI Development Company In Coimbatore</strong> has taught us that successful AI implementation requires deep understanding of local business practices, cultural nuances, and operational challenges. For instance, textile manufacturers in areas like Peelamedu and Tirupur face unique challenges related to quality control, inventory management, and supply chain optimization that require specialized AI solutions tailored to their specific needs.
-                </p>
-                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                  The engineering and automotive sectors in Coimbatore have their own set of requirements. Companies in the SIDCO Industrial Estate and other industrial zones need AI solutions that can integrate with existing manufacturing systems, improve production efficiency, and ensure compliance with international quality standards. Our role as the <strong>Best AI Company In Coimbatore</strong> is to translate these complex requirements into practical, implementable AI solutions.
-                </p>
+              <div className="relative">
+                <div className="grid lg:grid-cols-2 gap-8 items-center">
+                  <div className="bg-white rounded-3xl p-8 md:p-10 shadow-xl border border-gray-100">
+                    <div className="flex items-center gap-4 mb-6">
+                      <div className="w-14 h-14 bg-gradient-to-br from-primary-orange to-orange-400 rounded-xl flex items-center justify-center">
+                        <TrendingUp className="w-7 h-7 text-white" />
+                      </div>
+                      <h3 className="text-2xl font-bold text-gray-900">Local Market Understanding</h3>
+                    </div>
+                    <div className="w-20 h-1 bg-primary-orange rounded-full mb-6"></div>
+                    
+                    <div className="space-y-4 text-gray-700">
+                      <p className="leading-relaxed">
+                        Coimbatore's business ecosystem is unique in its diversity and depth. As an <strong className="text-primary-orange">AI Firm In Coimbatore</strong>, we've spent years studying the intricate relationships between various industries that make this city a powerhouse of economic activity.
+                      </p>
+                      <div className="bg-primary-orange/10 p-4 rounded-xl border-l-4 border-primary-orange">
+                        <p className="font-semibold text-gray-800">Key Industries We Serve:</p>
+                        <ul className="mt-2 space-y-1 text-sm">
+                          <li>• Textile & Apparel Manufacturing</li>
+                          <li>• Engineering & Automotive</li>
+                          <li>• Agriculture & Food Processing</li>
+                          <li>• Information Technology</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="space-y-6">
+                    <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow">
+                      <div className="flex items-center gap-3 mb-4">
+                        <div className="w-10 h-10 bg-primary-orange/20 rounded-lg flex items-center justify-center">
+                          <Factory className="w-5 h-5 text-primary-orange" />
+                        </div>
+                        <h4 className="font-bold text-gray-900">RS Puram & Peelamedu</h4>
+                      </div>
+                      <p className="text-gray-600 text-sm">Textile manufacturing hubs requiring specialized AI solutions for quality control and inventory management.</p>
+                    </div>
+                    
+                    <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow">
+                      <div className="flex items-center gap-3 mb-4">
+                        <div className="w-10 h-10 bg-primary-orange/20 rounded-lg flex items-center justify-center">
+                          <Cog className="w-5 h-5 text-primary-orange" />
+                        </div>
+                        <h4 className="font-bold text-gray-900">SIDCO Industrial Estate</h4>
+                      </div>
+                      <p className="text-gray-600 text-sm">Engineering and automotive sectors needing AI integration with existing manufacturing systems.</p>
+                    </div>
+                    
+                    <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow">
+                      <div className="flex items-center gap-3 mb-4">
+                        <div className="w-10 h-10 bg-primary-orange/20 rounded-lg flex items-center justify-center">
+                          <Target className="w-5 h-5 text-primary-orange" />
+                        </div>
+                        <h4 className="font-bold text-gray-900">Tirupur Connection</h4>
+                      </div>
+                      <p className="text-gray-600 text-sm">Supply chain optimization and export compliance solutions for the garment industry.</p>
+                    </div>
+                  </div>
+                </div>
               </div>
 
               {/* Main Content Block 3: Technology and Innovation */}
-              <div className="mb-12">
-                <h2 className="text-3xl font-bold mb-6 text-gray-900">
-                  Cutting-Edge AI Technologies Driving Coimbatore's Digital Transformation
-                </h2>
-                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                  The technological capabilities that make us the premier <strong>Artificial Intelligence Company In Coimbatore</strong> span the entire spectrum of AI and machine learning technologies. Our expertise encompasses computer vision systems that can detect fabric defects with 99.7% accuracy, natural language processing solutions that can handle multiple Indian languages including Tamil, and predictive analytics systems that can forecast market demands with unprecedented precision.
-                </p>
-                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                  Machine learning algorithms form the core of our AI solutions. As an innovative <strong>AI Company In Coimbatore</strong>, we deploy advanced algorithms including deep neural networks, ensemble methods, and reinforcement learning systems. These technologies enable us to solve complex problems such as optimizing production schedules in textile mills, predicting equipment failures in manufacturing plants, and automating quality control processes across various industries.
-                </p>
-                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                  Our computer vision capabilities are particularly relevant for Coimbatore's manufacturing-heavy economy. We've developed specialized systems for textile quality inspection, automotive parts verification, and precision engineering applications. These systems can process thousands of images per minute, identifying defects and anomalies that might be missed by human inspectors while maintaining the flexibility to adapt to new product lines and quality standards.
-                </p>
-                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                  Natural language processing and conversational AI technologies enable us to create intelligent customer service systems, automated documentation tools, and multilingual interfaces that can serve Coimbatore's diverse business community. Whether it's processing customer inquiries in Tamil, generating technical documentation, or analyzing market feedback, our NLP solutions bridge language barriers and enhance communication efficiency.
-                </p>
+              <div className="relative">
+                <div className="bg-gradient-to-br from-white to-primary-orange/5 rounded-3xl p-8 md:p-12 shadow-xl border border-primary-orange/20">
+                  <div className="flex items-center justify-center mb-8">
+                    <div className="w-20 h-20 bg-gradient-to-br from-primary-orange to-orange-400 rounded-3xl flex items-center justify-center shadow-xl">
+                      <Brain className="w-10 h-10 text-white" />
+                    </div>
+                  </div>
+                  
+                  <h3 className="text-3xl font-bold text-center mb-6 text-gray-900">
+                    Cutting-Edge AI Technologies Driving Coimbatore's Digital Transformation
+                  </h3>
+                  <div className="w-32 h-1 bg-primary-orange rounded-full mx-auto mb-8"></div>
+                  
+                  <div className="grid md:grid-cols-2 gap-8">
+                    <div className="space-y-6">
+                      <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100">
+                        <div className="flex items-center gap-3 mb-4">
+                          <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center">
+                            <Database className="w-6 h-6 text-blue-600" />
+                          </div>
+                          <h4 className="text-xl font-bold text-gray-900">Machine Learning Algorithms</h4>
+                        </div>
+                        <p className="text-gray-700 leading-relaxed">
+                          Advanced algorithms including deep neural networks, ensemble methods, and reinforcement learning systems that solve complex manufacturing problems with 99.7% accuracy.
+                        </p>
+                      </div>
+                      
+                      <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100">
+                        <div className="flex items-center gap-3 mb-4">
+                          <div className="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center">
+                            <Sparkles className="w-6 h-6 text-green-600" />
+                          </div>
+                          <h4 className="text-xl font-bold text-gray-900">Computer Vision Systems</h4>
+                        </div>
+                        <p className="text-gray-700 leading-relaxed">
+                          Specialized systems for textile quality inspection, automotive parts verification, and precision engineering applications processing thousands of images per minute.
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div className="space-y-6">
+                      <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100">
+                        <div className="flex items-center gap-3 mb-4">
+                          <div className="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center">
+                            <Globe className="w-6 h-6 text-purple-600" />
+                          </div>
+                          <h4 className="text-xl font-bold text-gray-900">Natural Language Processing</h4>
+                        </div>
+                        <p className="text-gray-700 leading-relaxed">
+                          Multilingual interfaces supporting Tamil and English, enabling intelligent customer service systems and automated documentation tools.
+                        </p>
+                      </div>
+                      
+                      <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100">
+                        <div className="flex items-center gap-3 mb-4">
+                          <div className="w-12 h-12 bg-orange-100 rounded-xl flex items-center justify-center">
+                            <TrendingUp className="w-6 h-6 text-orange-600" />
+                          </div>
+                          <h4 className="text-xl font-bold text-gray-900">Predictive Analytics</h4>
+                        </div>
+                        <p className="text-gray-700 leading-relaxed">
+                          Advanced forecasting systems that predict equipment failures up to 30 days in advance, reducing downtime by 40% and maintenance costs significantly.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="mt-8 bg-white/80 backdrop-blur-sm rounded-2xl p-6 border border-primary-orange/30">
+                    <p className="text-center text-gray-700 leading-relaxed">
+                      The technological capabilities that make us the premier <strong className="text-primary-orange">Artificial Intelligence Company In Coimbatore</strong> span the entire spectrum of AI and machine learning technologies, delivering unprecedented precision and business value.
+                    </p>
+                  </div>
+                </div>
               </div>
 
               {/* Main Content Block 4: Industry Applications */}
-              <div className="mb-12">
-                <h2 className="text-3xl font-bold mb-6 text-gray-900">
-                  Industry-Specific AI Solutions: Tailored for Coimbatore's Key Sectors
-                </h2>
-                <h3 className="text-2xl font-bold mb-4 text-gray-800">Textile and Apparel Industry AI Solutions</h3>
-                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                  The textile industry is where our expertise as an <strong>AI Service In Coimbatore</strong> truly shines. We've developed comprehensive AI solutions that address every aspect of textile manufacturing, from fiber quality assessment to finished goods inspection. Our predictive maintenance systems can forecast spindle failures up to 30 days in advance, reducing downtime and maintenance costs by up to 40%.
-                </p>
-                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                  Quality control in textile manufacturing has been revolutionized through our computer vision systems. These AI-powered solutions can detect defects in fabric with accuracy levels that surpass traditional inspection methods while operating at production speeds. For dyeing and finishing processes, our AI systems optimize chemical usage, reduce water consumption, and ensure consistent color matching across batches.
-                </p>
-
-                <h3 className="text-2xl font-bold mb-4 text-gray-800">Engineering and Manufacturing AI Applications</h3>
-                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                  Coimbatore's engineering sector benefits significantly from our specialized AI solutions. As an <strong>AI Firm In Coimbatore</strong>, we've developed precision machining systems that use AI to optimize cutting parameters in real-time, reducing material waste and improving surface finish quality. Our predictive analytics solutions help engineering companies forecast demand, optimize inventory levels, and improve delivery schedules.
-                </p>
-                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                  For automotive component manufacturers, we provide AI-powered quality assurance systems that can inspect complex parts with micron-level precision. These systems integrate seamlessly with existing production lines and can adapt to new product specifications without extensive reprogramming. The result is improved quality consistency, reduced rejection rates, and enhanced customer satisfaction.
-                </p>
-
-                <h3 className="text-2xl font-bold mb-4 text-gray-800">Agricultural Technology and Food Processing</h3>
-                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                  Coimbatore's agricultural sector, including the surrounding rural areas, benefits from our AI solutions in crop monitoring, yield prediction, and supply chain optimization. Our drone-based crop monitoring systems use computer vision to detect pest infestations, disease outbreaks, and irrigation issues early, enabling farmers to take corrective action before significant crop loss occurs.
-                </p>
-                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                  Food processing companies in and around Coimbatore use our AI systems for quality control, shelf-life prediction, and supply chain optimization. These solutions help reduce food waste, improve product consistency, and ensure compliance with food safety regulations.
-                </p>
+              <div className="relative">
+                <div className="bg-white rounded-3xl p-8 md:p-12 shadow-xl border border-gray-100">
+                  <div className="text-center mb-10">
+                    <h3 className="text-3xl font-bold mb-4 text-gray-900">
+                      Industry-Specific AI Solutions: Tailored for Coimbatore's Key Sectors
+                    </h3>
+                    <div className="w-32 h-1 bg-primary-orange rounded-full mx-auto"></div>
+                  </div>
+                  
+                  <div className="space-y-10">
+                    {/* Textile Industry */}
+                    <div className="relative">
+                      <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-primary-orange to-orange-400 rounded-full"></div>
+                      <div className="pl-8">
+                        <div className="flex items-center gap-4 mb-6">
+                          <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-orange-400 rounded-2xl flex items-center justify-center shadow-lg">
+                            <Factory className="w-8 h-8 text-white" />
+                          </div>
+                          <h4 className="text-2xl font-bold text-gray-900">Textile and Apparel Industry AI Solutions</h4>
+                        </div>
+                        
+                        <div className="grid md:grid-cols-2 gap-6">
+                          <div className="bg-primary-orange/5 rounded-2xl p-6 border border-primary-orange/20">
+                            <p className="text-gray-700 leading-relaxed mb-4">
+                              The textile industry is where our expertise as an <strong className="text-primary-orange">AI Service In Coimbatore</strong> truly shines. We've developed comprehensive AI solutions that address every aspect of textile manufacturing.
+                            </p>
+                            <div className="space-y-3">
+                              <div className="flex items-center gap-3">
+                                <div className="w-6 h-6 bg-primary-orange/20 rounded-full flex items-center justify-center">
+                                  <CheckCircle className="w-3 h-3 text-primary-orange" />
+                                </div>
+                                <span className="text-sm text-gray-600">Predictive maintenance systems</span>
+                              </div>
+                              <div className="flex items-center gap-3">
+                                <div className="w-6 h-6 bg-primary-orange/20 rounded-full flex items-center justify-center">
+                                  <CheckCircle className="w-3 h-3 text-primary-orange" />
+                                </div>
+                                <span className="text-sm text-gray-600">Quality control automation</span>
+                              </div>
+                              <div className="flex items-center gap-3">
+                                <div className="w-6 h-6 bg-primary-orange/20 rounded-full flex items-center justify-center">
+                                  <CheckCircle className="w-3 h-3 text-primary-orange" />
+                                </div>
+                                <span className="text-sm text-gray-600">Inventory optimization</span>
+                              </div>
+                            </div>
+                          </div>
+                          
+                          <div className="bg-white rounded-2xl p-6 border-2 border-primary-orange/10">
+                            <div className="text-center mb-4">
+                              <div className="text-3xl font-bold text-primary-orange">40%</div>
+                              <div className="text-sm text-gray-600">Reduction in Downtime</div>
+                            </div>
+                            <p className="text-gray-700 text-sm leading-relaxed">
+                              Our predictive maintenance systems can forecast spindle failures up to 30 days in advance, reducing maintenance costs and improving production efficiency.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    {/* Engineering Industry */}
+                    <div className="relative">
+                      <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-blue-500 to-blue-600 rounded-full"></div>
+                      <div className="pl-8">
+                        <div className="flex items-center gap-4 mb-6">
+                          <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center shadow-lg">
+                            <Cog className="w-8 h-8 text-white" />
+                          </div>
+                          <h4 className="text-2xl font-bold text-gray-900">Engineering and Manufacturing AI Applications</h4>
+                        </div>
+                        
+                        <div className="grid md:grid-cols-3 gap-4">
+                          <div className="bg-blue-50 rounded-xl p-4 border border-blue-200">
+                            <h5 className="font-bold text-gray-900 mb-2">Precision Machining</h5>
+                            <p className="text-sm text-gray-600">AI-optimized cutting parameters in real-time, reducing material waste by 25%</p>
+                          </div>
+                          <div className="bg-blue-50 rounded-xl p-4 border border-blue-200">
+                            <h5 className="font-bold text-gray-900 mb-2">Quality Assurance</h5>
+                            <p className="text-sm text-gray-600">Micron-level precision inspection for automotive components</p>
+                          </div>
+                          <div className="bg-blue-50 rounded-xl p-4 border border-blue-200">
+                            <h5 className="font-bold text-gray-900 mb-2">Demand Forecasting</h5>
+                            <p className="text-sm text-gray-600">Predictive analytics for inventory optimization and delivery scheduling</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    {/* Agriculture */}
+                    <div className="relative">
+                      <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-green-500 to-green-600 rounded-full"></div>
+                      <div className="pl-8">
+                        <div className="flex items-center gap-4 mb-6">
+                          <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center shadow-lg">
+                            <Sparkles className="w-8 h-8 text-white" />
+                          </div>
+                          <h4 className="text-2xl font-bold text-gray-900">Agricultural Technology and Food Processing</h4>
+                        </div>
+                        
+                        <div className="bg-green-50 rounded-2xl p-6 border border-green-200">
+                          <p className="text-gray-700 leading-relaxed">
+                            Coimbatore's agricultural sector benefits from our AI solutions in crop monitoring, yield prediction, and supply chain optimization. Our drone-based systems detect issues early, enabling preventive action before significant crop loss.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
 
               {/* Main Content Block 5: Economic Impact and Future Outlook */}
-              <div className="mb-12">
-                <h2 className="text-3xl font-bold mb-6 text-gray-900">
-                  Economic Impact and Future of AI in Coimbatore
-                </h2>
-                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                  The economic impact of AI adoption in Coimbatore extends far beyond individual company benefits. As the leading <strong>AI Development Company In Coimbatore</strong>, we've observed and contributed to a broader transformation that's positioning the city as a technology hub for South India. Our AI implementations have created new job categories, improved export competitiveness, and attracted technology investments to the region.
-                </p>
-                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                  Employment patterns in Coimbatore are evolving as AI technologies mature. While automation might reduce demand for certain types of manual labor, it's simultaneously creating opportunities for skilled technicians, AI system operators, and data analysts. Our training programs, developed in partnership with local educational institutions, help workers transition to these new roles and build AI-ready skills.
-                </p>
-                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                  The future outlook for AI in Coimbatore is exceptionally promising. Government initiatives supporting digital transformation, combined with the city's strong industrial base and entrepreneurial culture, create ideal conditions for AI adoption. We anticipate significant growth in AI applications across emerging sectors such as renewable energy, biotechnology, and advanced materials manufacturing.
-                </p>
-                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                  Smart city initiatives in Coimbatore present new opportunities for AI applications in urban management, traffic optimization, and public service delivery. Our expertise in IoT integration and edge computing positions us to contribute to these initiatives while supporting the city's sustainable development goals.
-                </p>
+              <div className="relative">
+                <div className="bg-gradient-to-br from-white via-primary-orange/5 to-white rounded-3xl p-8 md:p-12 shadow-xl border border-primary-orange/20">
+                  <div className="text-center mb-10">
+                    <div className="inline-flex items-center gap-3 mb-6 bg-white/80 backdrop-blur-sm rounded-full px-6 py-3 border border-primary-orange/30">
+                      <TrendingUp className="w-6 h-6 text-primary-orange" />
+                      <span className="font-medium text-gray-700">Future Vision</span>
+                    </div>
+                    <h3 className="text-3xl font-bold mb-4 text-gray-900">
+                      Economic Impact and Future of AI in Coimbatore
+                    </h3>
+                    <div className="w-32 h-1 bg-primary-orange rounded-full mx-auto"></div>
+                  </div>
+                  
+                  <div className="grid lg:grid-cols-2 gap-8">
+                    <div className="space-y-6">
+                      <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100">
+                        <h4 className="text-xl font-bold text-gray-900 mb-4">Economic Transformation</h4>
+                        <p className="text-gray-700 leading-relaxed">
+                          The economic impact of AI adoption in Coimbatore extends far beyond individual company benefits. As the leading <strong className="text-primary-orange">AI Development Company In Coimbatore</strong>, we've contributed to positioning the city as a technology hub for South India.
+                        </p>
+                      </div>
+                      
+                      <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100">
+                        <h4 className="text-xl font-bold text-gray-900 mb-4">Employment Evolution</h4>
+                        <p className="text-gray-700 leading-relaxed">
+                          AI technologies are creating new job categories while transitioning workers to skilled roles. Our training programs help workers build AI-ready skills for the future economy.
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div className="space-y-6">
+                      <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100">
+                        <h4 className="text-xl font-bold text-gray-900 mb-4">Smart City Initiatives</h4>
+                        <p className="text-gray-700 leading-relaxed">
+                          Government initiatives supporting digital transformation create ideal conditions for AI adoption in urban management, traffic optimization, and public services.
+                        </p>
+                      </div>
+                      
+                      <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100">
+                        <h4 className="text-xl font-bold text-gray-900 mb-4">Future Growth Sectors</h4>
+                        <div className="flex flex-wrap gap-2 mt-3">
+                          {["Renewable Energy", "Biotechnology", "Advanced Materials", "IoT Integration"].map((sector, index) => (
+                            <span key={index} className="bg-primary-orange/10 text-primary-orange px-3 py-1 rounded-full text-sm font-medium">
+                              {sector}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="mt-8 text-center">
+                    <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 border border-primary-orange/30">
+                      <p className="text-gray-700 leading-relaxed">
+                        The future outlook for AI in Coimbatore is exceptionally promising, with our expertise in IoT integration and edge computing positioning us to contribute to sustainable development goals.
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
 
               {/* Main Content Block 6: Success Stories and Case Studies */}
-              <div className="mb-12">
-                <h2 className="text-3xl font-bold mb-6 text-gray-900">
-                  Success Stories: How Coimbatore Businesses Are Thriving with AI
-                </h2>
-                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                  Our track record as the <strong>Best AI Company In Coimbatore</strong> is built on measurable success stories across diverse industries. A leading textile manufacturer in the city implemented our AI-powered quality control system and achieved a 35% reduction in defect rates while increasing production speed by 22%. The system paid for itself within eight months and continues to deliver ongoing value through improved product quality and customer satisfaction.
-                </p>
-                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                  An automotive component manufacturer adopted our predictive maintenance solution and reduced unplanned downtime by 60%. The AI system monitors vibration patterns, temperature variations, and other operational parameters to predict equipment failures before they occur. This proactive approach has saved the company millions in lost production and emergency repair costs.
-                </p>
-                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                  A mid-sized engineering firm used our demand forecasting AI to optimize inventory management and reduce working capital requirements by 28%. The system analyzes historical sales data, market trends, and seasonal patterns to predict future demand with high accuracy, enabling better purchasing decisions and reduced inventory carrying costs.
-                </p>
-                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                  These success stories demonstrate the tangible benefits that AI can deliver to Coimbatore businesses. From improved operational efficiency to enhanced product quality and better customer service, AI technologies are helping local companies compete more effectively in global markets while maintaining their competitive advantages.
-                </p>
+              <div className="relative">
+                <div className="bg-white rounded-3xl p-8 md:p-12 shadow-xl border border-gray-100">
+                  <div className="text-center mb-10">
+                    <div className="inline-flex items-center gap-3 mb-6 bg-primary-orange/10 rounded-full px-6 py-3 border border-primary-orange/20">
+                      <Award className="w-6 h-6 text-primary-orange" />
+                      <span className="font-medium text-primary-orange">Success Stories</span>
+                    </div>
+                    <h3 className="text-3xl font-bold mb-4 text-gray-900">
+                      How Coimbatore Businesses Are Thriving with AI
+                    </h3>
+                    <div className="w-32 h-1 bg-primary-orange rounded-full mx-auto mb-6"></div>
+                    <p className="text-gray-600 max-w-2xl mx-auto">
+                      Real results from our AI implementations across Coimbatore's diverse industrial landscape
+                    </p>
+                  </div>
+                  
+                  <div className="grid md:grid-cols-2 gap-8">
+                    {/* Case Study 1 */}
+                    <div className="relative group">
+                      <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/10 to-orange-200/10 rounded-2xl transform group-hover:scale-105 transition-transform duration-300"></div>
+                      <div className="relative bg-white rounded-2xl p-6 shadow-lg border border-gray-100 group-hover:shadow-2xl transition-shadow duration-300">
+                        <div className="flex items-center gap-3 mb-4">
+                          <div className="w-12 h-12 bg-gradient-to-br from-primary-orange to-orange-400 rounded-xl flex items-center justify-center">
+                            <Factory className="w-6 h-6 text-white" />
+                          </div>
+                          <div>
+                            <h4 className="text-lg font-bold text-gray-900">Textile Manufacturing</h4>
+                            <p className="text-sm text-gray-500">Quality Control Revolution</p>
+                          </div>
+                        </div>
+                        
+                        <div className="space-y-4">
+                          <div className="flex justify-between items-center p-3 bg-green-50 rounded-lg border border-green-200">
+                            <span className="text-sm text-gray-700">Defect Rate Reduction</span>
+                            <span className="text-xl font-bold text-green-600">35%</span>
+                          </div>
+                          <div className="flex justify-between items-center p-3 bg-blue-50 rounded-lg border border-blue-200">
+                            <span className="text-sm text-gray-700">Production Speed Increase</span>
+                            <span className="text-xl font-bold text-blue-600">22%</span>
+                          </div>
+                          <div className="flex justify-between items-center p-3 bg-primary-orange/10 rounded-lg border border-primary-orange/20">
+                            <span className="text-sm text-gray-700">ROI Achievement</span>
+                            <span className="text-xl font-bold text-primary-orange">8 Months</span>
+                          </div>
+                        </div>
+                        
+                        <p className="text-gray-700 text-sm mt-4 leading-relaxed">
+                          Leading textile manufacturer implemented our AI-powered quality control system, achieving remarkable improvements in both quality and efficiency.
+                        </p>
+                      </div>
+                    </div>
+                    
+                    {/* Case Study 2 */}
+                    <div className="relative group">
+                      <div className="absolute inset-0 bg-gradient-to-br from-blue-100/10 to-blue-200/10 rounded-2xl transform group-hover:scale-105 transition-transform duration-300"></div>
+                      <div className="relative bg-white rounded-2xl p-6 shadow-lg border border-gray-100 group-hover:shadow-2xl transition-shadow duration-300">
+                        <div className="flex items-center gap-3 mb-4">
+                          <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center">
+                            <Cog className="w-6 h-6 text-white" />
+                          </div>
+                          <div>
+                            <h4 className="text-lg font-bold text-gray-900">Automotive Components</h4>
+                            <p className="text-sm text-gray-500">Predictive Maintenance</p>
+                          </div>
+                        </div>
+                        
+                        <div className="space-y-4">
+                          <div className="flex justify-between items-center p-3 bg-green-50 rounded-lg border border-green-200">
+                            <span className="text-sm text-gray-700">Downtime Reduction</span>
+                            <span className="text-xl font-bold text-green-600">60%</span>
+                          </div>
+                          <div className="flex justify-between items-center p-3 bg-blue-50 rounded-lg border border-blue-200">
+                            <span className="text-sm text-gray-700">Cost Savings</span>
+                            <span className="text-xl font-bold text-blue-600">Millions</span>
+                          </div>
+                          <div className="flex justify-between items-center p-3 bg-purple-50 rounded-lg border border-purple-200">
+                            <span className="text-sm text-gray-700">Prediction Accuracy</span>
+                            <span className="text-xl font-bold text-purple-600">95%</span>
+                          </div>
+                        </div>
+                        
+                        <p className="text-gray-700 text-sm mt-4 leading-relaxed">
+                          Automotive component manufacturer adopted our predictive maintenance solution, monitoring operational parameters to prevent equipment failures.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="mt-8">
+                    <div className="bg-gradient-to-r from-primary-orange/10 to-orange-200/10 rounded-2xl p-6 border border-primary-orange/20">
+                      <div className="text-center">
+                        <h4 className="text-xl font-bold text-gray-900 mb-4">
+                          Engineering Firm Success Story
+                        </h4>
+                        <div className="grid grid-cols-3 gap-4 mb-4">
+                          <div className="text-center">
+                            <div className="text-2xl font-bold text-primary-orange">28%</div>
+                            <div className="text-sm text-gray-600">Working Capital Reduction</div>
+                          </div>
+                          <div className="text-center">
+                            <div className="text-2xl font-bold text-primary-orange">High</div>
+                            <div className="text-sm text-gray-600">Demand Accuracy</div>
+                          </div>
+                          <div className="text-center">
+                            <div className="text-2xl font-bold text-primary-orange">Better</div>
+                            <div className="text-sm text-gray-600">Purchasing Decisions</div>
+                          </div>
+                        </div>
+                        <p className="text-gray-700 text-sm leading-relaxed">
+                          Mid-sized engineering firm used our demand forecasting AI to optimize inventory management, analyzing historical data and market trends for accurate future predictions.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="mt-8 text-center">
+                    <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 border-2 border-primary-orange/30">
+                      <p className="text-gray-700 leading-relaxed">
+                        Our track record as the <strong className="text-primary-orange">Best AI Company In Coimbatore</strong> is built on measurable success stories across diverse industries, demonstrating tangible benefits from improved operational efficiency to enhanced customer satisfaction.
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
