@@ -1319,12 +1319,15 @@ export default function AIServicesGurugramPage() {
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Button className="bg-gradient-to-r from-primary-orange to-orange-600 hover:from-orange-600 hover:to-primary-orange text-white font-semibold px-8 py-3 rounded-full">
                     <Phone className="w-5 h-5 mr-2" />
-                    Call Gurugram Office
+                    Call Now
                   </Button>
-                  <Button variant="outline" className="border-white/20 text-white hover:bg-white/10 font-semibold px-8 py-3 rounded-full">
+                  <a 
+                    href="mailto:contact@metic.ai"
+                    className="inline-flex items-center justify-center border border-white/20 text-white hover:bg-white/10 font-semibold px-8 py-3 rounded-full transition-colors"
+                  >
                     <Mail className="w-5 h-5 mr-2" />
                     Email Our Team
-                  </Button>
+                  </a>
                 </div>
               </div>
             </div>
