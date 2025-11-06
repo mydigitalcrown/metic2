@@ -399,164 +399,141 @@ export default function AIServicesDelhiPage() {
         }}
       />
 
-      {/* Enhanced Hero Section */}
-      <section className="relative min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 overflow-hidden flex items-center">
-        {/* Animated Background Patterns */}
+      {/* Enhanced Creative Hero Section - VSO & Target Keyword Optimized */}
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28 relative overflow-hidden">
+        {/* Creative Background Elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          {/* Circuit Patterns */}
-          <div className="absolute top-10 left-10 w-96 h-96 opacity-10">
-            <div className="w-full h-full border-2 border-primary-orange rounded-full animate-spin-slow"></div>
-            <div className="absolute top-8 left-8 w-80 h-80 border border-secondary-orange rounded-full animate-spin-slow delay-1000"></div>
-            <div className="absolute top-16 left-16 w-64 h-64 border border-primary-orange rounded-full animate-spin-slow delay-2000"></div>
-          </div>
+          {/* Animated Circuit Pattern */}
+          <div className="absolute inset-0 opacity-[0.03]" style={{
+            backgroundImage: `linear-gradient(#FF6B35 1px, transparent 1px), linear-gradient(90deg, #FF6B35 1px, transparent 1px)`,
+            backgroundSize: '50px 50px'
+          }}></div>
           
-          <div className="absolute bottom-10 right-10 w-80 h-80 opacity-10">
-            <div className="w-full h-full border-2 border-secondary-orange rounded-full animate-spin-slow"></div>
-            <div className="absolute top-6 left-6 w-68 h-68 border border-primary-orange rounded-full animate-spin-slow delay-1500"></div>
-          </div>
+          {/* Floating AI Elements */}
+          <div className="absolute top-20 left-10 w-32 h-32 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-20 right-10 w-40 h-40 bg-primary-orange/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
           
-          <div className="absolute top-1/2 left-1/4 w-64 h-64 opacity-5">
-            <div className="w-full h-full border border-primary-orange rounded-full animate-pulse"></div>
-          </div>
-          
-          {/* Gradient Overlays */}
-          <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-primary-orange/5 via-transparent to-secondary-orange/5"></div>
-          <div className="absolute inset-0 bg-gradient-to-t from-gray-900/50 via-transparent to-gray-900/30"></div>
+          {/* Geometric Shapes */}
+          <div className="absolute top-1/4 left-1/4 w-2 h-2 bg-primary-orange/30 rounded-full animate-bounce" style={{animationDelay: '1s'}}></div>
+          <div className="absolute top-1/3 right-1/3 w-1.5 h-1.5 bg-orange-400/30 rounded-full animate-bounce" style={{animationDelay: '3s'}}></div>
+          <div className="absolute bottom-1/4 left-1/3 w-2.5 h-2.5 bg-primary-orange/20 rounded-full animate-bounce" style={{animationDelay: '2.5s'}}></div>
         </div>
 
         <div className="container px-4 md:px-6 relative z-10">
-          <div className="max-w-6xl mx-auto">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              {/* Left Content */}
-              <div className="text-left">
-                {/* Location Badge */}
-                <div className="inline-flex items-center gap-3 mb-8 bg-white/10 backdrop-blur-sm rounded-full px-6 py-3 border border-white/20">
-                  <div className="relative">
-                    <MapPin className="w-5 h-5 text-primary-orange" />
-                    <div className="absolute -top-1 -right-1 w-3 h-3 bg-primary-orange rounded-full animate-ping"></div>
-                  </div>
-                  <span className="text-sm font-medium text-orange-300">Serving Delhi & NCR, India</span>
-                  <div className="w-2 h-2 bg-primary-orange rounded-full animate-pulse"></div>
-                </div>
-                
-                {/* Main Heading */}
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight">
-                  <span className="text-white block mb-2">
-                    <strong>Artificial Intelligence Company In Delhi</strong>
-                  </span>
-                  <span className="text-gradient bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent animate-gradient-x">
-                    Leading AI Company In Delhi
-                  </span>
-                </h1>
-                
-                {/* Description */}
-                <p className="text-xl text-gray-300 mb-8 leading-relaxed max-w-2xl">
-                  Looking for the best <strong className="text-white font-semibold">AI Company In Delhi</strong>? Metic.ai is the premier 
-                  <strong className="text-white font-semibold"> Artificial Intelligence Company In Delhi</strong> with 2100+ successful implementations 
-                  across New Delhi, Gurgaon, Noida, and the entire NCR region. Our <strong className="text-white font-semibold">AI Service In Delhi</strong> 
-                  transforms businesses with 60% cost savings and 3x faster delivery.
-                </p>
-
-                {/* Trust Indicators */}
-                <div className="flex flex-wrap items-center gap-6 mb-10">
-                  <div className="flex items-center gap-2">
-                    <Award className="w-5 h-5 text-primary-orange" />
-                    <span className="text-white/90 font-medium">2100+ AI Implementations</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <TrendingUp className="w-5 h-5 text-green-400" />
-                    <span className="text-white/90 font-medium">60% Cost Savings</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <Clock className="w-5 h-5 text-blue-400" />
-                    <span className="text-white/90 font-medium">3x Faster Delivery</span>
-                  </div>
-                </div>
-                
-                {/* CTA Buttons */}
-                <div className="flex flex-col sm:flex-row gap-4 mb-12">
-                  <Link href="/contact">
-                    <button className="group relative px-8 py-4 bg-gradient-to-r from-primary-orange to-secondary-orange text-white font-bold rounded-2xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 w-full sm:w-auto">
-                      <span className="relative z-10 flex items-center justify-center gap-2">
-                        <Rocket className="w-5 h-5" />
-                        Start with Top AI Company Delhi
-                      </span>
-                      <div className="absolute inset-0 bg-gradient-to-r from-secondary-orange to-primary-orange opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-2xl"></div>
-                    </button>
-                  </Link>
-                  <Link href="tel:+917892518414">
-                    <button className="group relative px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-2xl border border-white/20 hover:bg-white/20 transition-all duration-300 transform hover:scale-105 w-full sm:w-auto">
-                      <span className="flex items-center justify-center gap-2">
-                        <Phone className="w-5 h-5" />
-                        Call AI Development Company Delhi
-                      </span>
-                    </button>
-                  </Link>
-                </div>
-
-                {/* Quick Stats */}
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-                  {stats.map((stat, index) => (
-                    <div key={index} className="text-center relative group">
-                      <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/20 to-secondary-orange/10 rounded-2xl opacity-0 group-hover:opacity-100 transition-all duration-500 transform group-hover:scale-110 blur-xl"></div>
-                      <div className="relative bg-white/5 backdrop-blur-sm rounded-2xl p-4 border border-white/10 group-hover:border-primary-orange/30 transition-all duration-300">
-                        <div className="text-2xl md:text-3xl font-bold text-primary-orange mb-1">{stat.number}</div>
-                        <div className="text-sm text-gray-400 font-medium">{stat.label}</div>
-                      </div>
-                    </div>
-                  ))}
-                </div>
+          <div className="max-w-4xl mx-auto text-center">
+            {/* Enhanced Location Badge */}
+            <div className="inline-flex items-center gap-3 mb-8 bg-gray-800/50 backdrop-blur-sm rounded-full px-6 py-3 border border-primary-orange/20">
+              <div className="relative">
+                <MapPin className="w-5 h-5 text-primary-orange" />
+                <div className="absolute -top-1 -right-1 w-3 h-3 bg-primary-orange rounded-full animate-ping"></div>
               </div>
-
-              {/* Right Visual Element */}
-              <div className="relative hidden lg:block">
-                <div className="relative w-full h-96">
-                  {/* Central AI Brain */}
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="relative w-48 h-48 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-full flex items-center justify-center animate-pulse">
-                      <div className="absolute inset-4 bg-gradient-to-br from-white/20 to-white/5 rounded-full flex items-center justify-center backdrop-blur-sm">
-                        <Brain className="w-20 h-20 text-white" />
-                      </div>
-                      <div className="absolute inset-0 border-2 border-white/30 rounded-full animate-spin-slow"></div>
-                    </div>
+              <span className="text-sm font-medium text-orange-300">Serving Delhi & NCR, India</span>
+              <div className="w-2 h-2 bg-primary-orange rounded-full animate-pulse"></div>
+            </div>
+            
+            {/* Enhanced Title with Animation */}
+            <div className="relative mb-8">
+              <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white relative z-10">
+                <strong>
+                  Artificial Intelligence Company In Delhi
+                </strong>
+                <br />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange">
+                  Leading AI Company In Delhi
+                </span>
+              </h1>
+            </div>
+            
+            {/* Enhanced Description */}
+            <div className="relative mb-10">
+              <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
+                Looking for the best <strong className="text-white">AI Company In Delhi</strong>? Metic.ai is the premier 
+                <strong className="text-primary-orange"> Artificial Intelligence Company In Delhi</strong> 
+                with 2100+ successful AI implementations. We help businesses across Delhi NCR transform with cutting-edge AI solutions, 
+                delivering <span className="text-primary-orange font-semibold">60% cost savings</span> and 
+                <span className="text-primary-orange font-semibold">3x faster results</span> than traditional development.
+              </p>
+              
+              {/* Trust Indicators */}
+              <div className="flex items-center justify-center gap-6 mb-8">
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
+                    <Shield className="w-4 h-4 text-primary-orange" />
                   </div>
-                  
-                  {/* Orbiting Elements */}
-                  <div className="absolute inset-0 animate-spin-slow">
-                    <div className="absolute top-8 left-1/2 transform -translate-x-1/2 w-16 h-16 bg-blue-500/20 backdrop-blur-sm rounded-2xl flex items-center justify-center border border-blue-400/30">
-                      <Cpu className="w-8 h-8 text-blue-400" />
-                    </div>
-                    <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 w-16 h-16 bg-green-500/20 backdrop-blur-sm rounded-2xl flex items-center justify-center border border-green-400/30">
-                      <Bot className="w-8 h-8 text-green-400" />
-                    </div>
-                    <div className="absolute left-8 top-1/2 transform -translate-y-1/2 w-16 h-16 bg-purple-500/20 backdrop-blur-sm rounded-2xl flex items-center justify-center border border-purple-400/30">
-                      <Cog className="w-8 h-8 text-purple-400" />
-                    </div>
-                    <div className="absolute right-8 top-1/2 transform -translate-y-1/2 w-16 h-16 bg-pink-500/20 backdrop-blur-sm rounded-2xl flex items-center justify-center border border-pink-400/30">
-                      <Sparkles className="w-8 h-8 text-pink-400" />
-                    </div>
+                  <span className="text-sm text-gray-400">ISO Certified</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
+                    <Award className="w-4 h-4 text-primary-orange" />
                   </div>
+                  <span className="text-sm text-gray-400">Award Winning</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
+                    <Users className="w-4 h-4 text-primary-orange" />
+                  </div>
+                  <span className="text-sm text-gray-400">2100+ Clients</span>
                 </div>
               </div>
             </div>
+            
+            {/* Enhanced CTA Buttons */}
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+              <Link href="/contact">
+                <Button 
+                  variant="primary" 
+                  size="lg" 
+                  className="w-full sm:w-auto bg-gradient-to-r from-primary-orange to-orange-500 hover:from-primary-orange/90 hover:to-orange-500/90 transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl group"
+                >
+                  <Rocket className="w-5 h-5 mr-2 group-hover:animate-pulse" />
+                  Get Free AI Consultation
+                </Button>
+              </Link>
+              <Link href="tel:+917892518414">
+                <Button 
+                  variant="outline" 
+                  size="lg" 
+                  className="w-full sm:w-auto border-primary-orange text-primary-orange hover:bg-primary-orange/10 transform hover:scale-105 transition-all duration-300 group"
+                >
+                  <Phone className="w-4 h-4 mr-2 group-hover:animate-pulse" />
+                  Call: +91 7892518414
+                </Button>
+              </Link>
+            </div>
 
-            {/* VSO Keywords Section */}
-            <div className="mt-20 text-center">
-              <div className="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
-                {[
-                  "Which is the best AI Company In Delhi?",
-                  "Looking for AI Development Company In Delhi?",
-                  "Top AI Firm In Delhi services",
-                  "Leading AI Service In Delhi provider"
-                ].map((keyword, index) => (
-                  <div key={index} className="group relative">
-                    <div className="absolute inset-0 bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 rounded-full opacity-0 group-hover:opacity-100 transition-all duration-300 blur-lg"></div>
-                    <div className="relative bg-white/5 backdrop-blur-sm rounded-full px-6 py-3 border border-white/10 group-hover:border-primary-orange/30 transition-all duration-300">
-                      <span className="text-white/80 text-sm font-medium group-hover:text-white transition-colors">
-                        {keyword}
-                      </span>
-                    </div>
+            {/* Enhanced Stats with Creative Design */}
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto mb-12">
+              {stats.map((stat, index) => (
+                <div key={index} className="relative group">
+                  <div className="bg-gray-800/30 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:border-primary-orange/50 transition-all duration-300 group-hover:transform group-hover:scale-105">
+                    <div className="text-3xl font-bold text-primary-orange mb-2 group-hover:animate-pulse">{stat.number}</div>
+                    <div className="text-sm text-gray-400">{stat.label}</div>
+                    
+                    {/* Hover Effect */}
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/5 to-orange-400/5 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   </div>
+                </div>
+              ))}
+            </div>
+
+            {/* Enhanced VSO Keywords Section */}
+            <div className="text-center">
+              <p className="text-gray-400 text-sm mb-6 flex items-center justify-center gap-2">
+                <Globe className="w-4 h-4 text-primary-orange" />
+                Trusted as the top AI Service In Delhi
+              </p>
+              <div className="flex flex-wrap justify-center gap-3">
+                {[
+                  "AI Firm In Delhi",
+                  "AI Development Company In Delhi", 
+                  "Best AI Company Delhi NCR"
+                ].map((tag, index) => (
+                  <span 
+                    key={index}
+                    className="bg-gray-800/50 backdrop-blur-sm px-4 py-2 rounded-full text-gray-400 text-xs border border-gray-700/50 hover:border-primary-orange/50 hover:text-primary-orange transition-all duration-300 cursor-default"
+                  >
+                    {tag}
+                  </span>
                 ))}
               </div>
             </div>
