@@ -19,8 +19,9 @@ import {
   Lightbulb,
   BarChart3,
   Code,
-  Database,
+  Heart,
   Sparkles,
+  Database,
   ChevronDown,
   Rocket,
   Globe,
@@ -532,52 +533,215 @@ export default function AIServicesIndianaPage() {
         </div>
       </section>
 
-      {/* Why Choose Us Section */}
-      <section className="py-20 bg-white">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Why Indiana Businesses Choose Metic.ai
+      {/* Why Choose Us Section - Enhanced Creative Design */}
+      <section className="py-20 bg-gradient-to-br from-gray-50 via-white to-orange-50 relative overflow-hidden">
+        {/* Background Decorative Elements */}
+        <div className="absolute inset-0 overflow-hidden">
+          <div className="absolute -top-40 -right-40 w-96 h-96 bg-gradient-to-br from-primary-orange/10 to-orange-400/5 rounded-full blur-3xl"></div>
+          <div className="absolute -bottom-40 -left-40 w-96 h-96 bg-gradient-to-tr from-blue-500/10 to-purple-500/5 rounded-full blur-3xl"></div>
+          
+          {/* Floating AI Icons */}
+          <div className="absolute top-20 left-10 opacity-10">
+            <Brain className="w-16 h-16 text-primary-orange animate-pulse" />
+          </div>
+          <div className="absolute top-40 right-20 opacity-10">
+            <Zap className="w-12 h-12 text-blue-500 animate-bounce" />
+          </div>
+          <div className="absolute bottom-20 left-20 opacity-10">
+            <Target className="w-14 h-14 text-purple-500 animate-pulse" />
+          </div>
+        </div>
+
+        <div className="container px-4 md:px-6 relative">
+          <div className="max-w-7xl mx-auto">
+            {/* Enhanced Header */}
+            <div className="text-center mb-20">
+              <div className="inline-flex items-center justify-center space-x-2 bg-primary-orange/10 rounded-full px-6 py-3 mb-6">
+                <Star className="w-5 h-5 text-primary-orange" />
+                <span className="text-primary-orange font-semibold">Why Choose the #1 AI Company In Indiana</span>
+                <Star className="w-5 h-5 text-primary-orange" />
+              </div>
+              
+              <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">
+                Why <span className="text-primary-orange">Indiana Businesses</span> Trust Metic.ai
               </h2>
-              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Trusted by businesses across Indiana for our expertise, results, and commitment to success.
+              <div className="w-24 h-1.5 bg-gradient-to-r from-primary-orange to-orange-400 mx-auto mb-8 rounded-full"></div>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                As the premier <strong>Artificial Intelligence Company In Indiana</strong>, we deliver 
+                transformative AI solutions that drive real business results across the Hoosier State.
               </p>
             </div>
             
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-              <div className="text-center">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6 mx-auto">
-                  <Award className="w-8 h-8 text-blue-600" />
+            {/* Enhanced Feature Grid */}
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+              {[
+                {
+                  icon: Award,
+                  title: "2100+ Successful Projects",
+                  description: "Proven track record delivering AI solutions for Indiana businesses from Indianapolis to Fort Wayne, with a 98% success rate.",
+                  color: "blue",
+                  stat: "2100+",
+                  statLabel: "Projects Delivered"
+                },
+                {
+                  icon: TrendingUp,
+                  title: "60% Average Cost Savings",
+                  description: "Data-driven AI solutions that deliver measurable ROI, helping Indiana companies reduce costs while increasing efficiency.",
+                  color: "green", 
+                  stat: "60%",
+                  statLabel: "Cost Reduction"
+                },
+                {
+                  icon: Users,
+                  title: "Local Indiana Expertise",
+                  description: "Deep understanding of Indiana's business landscape, from manufacturing in Elkhart to tech startups in Carmel.",
+                  color: "purple",
+                  stat: "24/7",
+                  statLabel: "Local Support"
+                },
+                {
+                  icon: Shield,
+                  title: "Enterprise-Grade Security",
+                  description: "Bank-level security protocols and compliance standards protecting your Indiana business data and AI implementations.",
+                  color: "orange",
+                  stat: "100%",
+                  statLabel: "Secure & Compliant"
+                }
+              ].map((feature, index) => {
+                const IconComponent = feature.icon;
+                const colorClasses: Record<string, {bg: string; icon: string; light: string; border: string}> = {
+                  blue: {
+                    bg: "from-blue-500 to-blue-600",
+                    icon: "text-blue-600",
+                    light: "bg-blue-50",
+                    border: "border-blue-200"
+                  },
+                  green: {
+                    bg: "from-green-500 to-green-600", 
+                    icon: "text-green-600",
+                    light: "bg-green-50",
+                    border: "border-green-200"
+                  },
+                  purple: {
+                    bg: "from-purple-500 to-purple-600",
+                    icon: "text-purple-600", 
+                    light: "bg-purple-50",
+                    border: "border-purple-200"
+                  },
+                  orange: {
+                    bg: "from-orange-500 to-orange-600",
+                    icon: "text-orange-600",
+                    light: "bg-orange-50", 
+                    border: "border-orange-200"
+                  }
+                };
+                
+                return (
+                  <div key={index} className="group relative">
+                    {/* Card Container */}
+                    <div className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 border border-gray-100 hover:border-primary-orange/30 relative overflow-hidden group-hover:transform group-hover:scale-105">
+                      {/* Background Gradient Effect */}
+                      <div className="absolute inset-0 bg-gradient-to-br from-transparent via-transparent to-primary-orange/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                      
+                      {/* Floating Number Badge */}
+                      <div className="absolute -top-3 -right-3 w-12 h-12 bg-primary-orange text-white rounded-full flex items-center justify-center text-sm font-bold shadow-lg group-hover:animate-bounce">
+                        {index + 1}
+                      </div>
+                      
+                      {/* Icon Container */}
+                      <div className="relative mb-6">
+                        <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/20 to-orange-400/10 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                        <div className={`relative w-20 h-20 rounded-2xl bg-gradient-to-br ${colorClasses[feature.color].bg} flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-6 transition-all duration-300`}>
+                          <IconComponent className="w-10 h-10 text-white" />
+                        </div>
+                      </div>
+                      
+                      {/* Content */}
+                      <div className="relative">
+                        <h3 className="text-xl font-bold mb-4 group-hover:text-primary-orange transition-colors duration-300">
+                          {feature.title}
+                        </h3>
+                        <p className="text-gray-600 mb-6 leading-relaxed">
+                          {feature.description}
+                        </p>
+                        
+                        {/* Stat Badge */}
+                        <div className={`inline-flex items-center ${colorClasses[feature.color].light} ${colorClasses[feature.color].border} border rounded-full px-4 py-2 group-hover:scale-105 transition-transform duration-300`}>
+                          <span className={`text-2xl font-bold ${colorClasses[feature.color].icon} mr-2`}>
+                            {feature.stat}
+                          </span>
+                          <span className="text-sm text-gray-600">{feature.statLabel}</span>
+                        </div>
+                      </div>
+                      
+                      {/* Decorative Corner Element */}
+                      <div className="absolute bottom-0 right-0 w-24 h-24 bg-gradient-to-br from-primary-orange/10 to-transparent rounded-tl-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+
+            {/* Enhanced Trust Indicators */}
+            <div className="bg-white rounded-3xl p-8 shadow-xl border border-gray-100 relative overflow-hidden">
+              {/* Background Pattern */}
+              <div className="absolute inset-0 bg-gradient-to-r from-primary-orange/5 via-transparent to-blue-500/5"></div>
+              
+              <div className="relative">
+                <div className="text-center mb-8">
+                  <h3 className="text-2xl font-bold mb-4">
+                    Trusted by Leading <span className="text-primary-orange">Indiana Companies</span>
+                  </h3>
+                  <p className="text-gray-600 max-w-2xl mx-auto">
+                    Join the growing list of Indiana businesses that trust our <strong>AI Service In Indiana</strong> for their digital transformation.
+                  </p>
                 </div>
-                <h3 className="text-xl font-bold mb-4">Proven Expertise</h3>
-                <p className="text-gray-600">Years of experience delivering AI solutions for Indiana businesses across all industries.</p>
+                
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+                  {[
+                    { metric: "98%", label: "Client Satisfaction", icon: Heart },
+                    { metric: "3x", label: "Faster Delivery", icon: Zap },
+                    { metric: "24/7", label: "Indiana Support", icon: Phone },
+                    { metric: "100%", label: "Project Success", icon: CheckCircle }
+                  ].map((item, index) => {
+                    const IconComponent = item.icon;
+                    return (
+                      <div key={index} className="text-center group">
+                        <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-orange-400 rounded-2xl flex items-center justify-center mb-4 mx-auto shadow-lg group-hover:scale-110 group-hover:rotate-6 transition-all duration-300">
+                          <IconComponent className="w-8 h-8 text-white" />
+                        </div>
+                        <div className="text-3xl font-bold text-primary-orange mb-2 group-hover:animate-pulse">
+                          {item.metric}
+                        </div>
+                        <div className="text-sm text-gray-600">{item.label}</div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            </div>
+
+            {/* Call-to-Action */}
+            <div className="text-center mt-16">
+              <div className="inline-flex items-center space-x-4">
+                <Link href="/contact">
+                  <Button size="lg" className="bg-gradient-to-r from-primary-orange to-orange-400 hover:from-orange-400 hover:to-primary-orange text-white shadow-lg hover:shadow-xl transition-all duration-300 group">
+                    <Sparkles className="w-5 h-5 mr-2 group-hover:animate-spin" />
+                    Partner with #1 AI Company Indiana
+                    <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+                  </Button>
+                </Link>
+                <Link href="tel:+917892518414">
+                  <Button variant="outline" size="lg" className="border-primary-orange text-primary-orange hover:bg-primary-orange hover:text-white transition-all duration-300 group">
+                    <Phone className="w-5 h-5 mr-2 group-hover:animate-pulse" />
+                    Call Today: +91 7892518414
+                  </Button>
+                </Link>
               </div>
               
-              <div className="text-center">
-                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6 mx-auto">
-                  <TrendingUp className="w-8 h-8 text-green-600" />
-                </div>
-                <h3 className="text-xl font-bold mb-4">Measurable Results</h3>
-                <p className="text-gray-600">Data-driven AI solutions that deliver concrete ROI and business growth for IN companies.</p>
-              </div>
-              
-              <div className="text-center">
-                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6 mx-auto">
-                  <Users className="w-8 h-8 text-purple-600" />
-                </div>
-                <h3 className="text-xl font-bold mb-4">Local Partnership</h3>
-                <p className="text-gray-600">Dedicated support and partnership with deep understanding of the Indiana business landscape.</p>
-              </div>
-              
-              <div className="text-center">
-                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-6 mx-auto">
-                  <Shield className="w-8 h-8 text-orange-600" />
-                </div>
-                <h3 className="text-xl font-bold mb-4">Enterprise Security</h3>
-                <p className="text-gray-600">Bank-level security and compliance standards protecting your Indiana business data.</p>
-              </div>
+              <p className="text-gray-500 mt-6 text-sm">
+                🏆 Rated #1 <strong>AI Firm In Indiana</strong> | ⭐ 98% Client Satisfaction | 🚀 2100+ Successful AI Projects
+              </p>
             </div>
           </div>
         </div>
