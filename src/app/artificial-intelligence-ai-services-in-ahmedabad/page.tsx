@@ -582,52 +582,283 @@ export default function AIServicesAhmedabadPage() {
         </div>
       </section>
 
-      {/* Why Choose Us Section */}
-      <section className="py-20 bg-white">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Why Choose Metic.ai as Your <span className="text-primary-orange">AI Firm In Ahmedabad</span>
+      {/* Ultra-Creative Why Choose Us Section - Dark Theme */}
+      <section className="py-24 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 relative overflow-hidden">
+        {/* Advanced Creative Background Elements */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          {/* Animated Circuit Patterns */}
+          <div className="absolute inset-0 opacity-[0.03]" style={{
+            backgroundImage: `linear-gradient(#FF6B35 1px, transparent 1px), linear-gradient(90deg, #FF6B35 1px, transparent 1px)`,
+            backgroundSize: '60px 60px'
+          }}></div>
+          
+          {/* Floating AI Elements with Different Sizes */}
+          <div className="absolute top-20 left-10 w-40 h-40 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-20 right-10 w-56 h-56 bg-secondary-orange/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
+          <div className="absolute top-1/2 left-1/4 w-32 h-32 bg-primary-orange/3 rounded-full blur-2xl animate-pulse" style={{animationDelay: '4s'}}></div>
+          
+          {/* Dynamic Geometric Shapes */}
+          <div className="absolute top-1/4 left-1/4 w-3 h-3 bg-primary-orange/40 rounded-full animate-bounce" style={{animationDelay: '1s'}}></div>
+          <div className="absolute top-1/3 right-1/3 w-2 h-2 bg-orange-400/40 rounded-full animate-bounce" style={{animationDelay: '3s'}}></div>
+          <div className="absolute bottom-1/4 left-1/3 w-4 h-4 bg-primary-orange/30 rounded-full animate-bounce" style={{animationDelay: '2.5s'}}></div>
+          <div className="absolute top-3/4 right-1/4 w-2.5 h-2.5 bg-secondary-orange/40 rounded-full animate-bounce" style={{animationDelay: '1.8s'}}></div>
+        </div>
+
+        <div className="container px-4 md:px-6 relative z-10">
+          <div className="max-w-7xl mx-auto">
+            {/* Enhanced Creative Header */}
+            <div className="text-center mb-20">
+              {/* Premium Badge with Glow Effect */}
+              <div className="inline-flex items-center gap-3 px-8 py-4 bg-gray-800/50 backdrop-blur-xl rounded-full border-2 border-primary-orange/30 mb-10 hover:border-primary-orange/50 transition-all group shadow-2xl">
+                <div className="relative">
+                  <div className="absolute inset-0 bg-primary-orange/20 rounded-full blur-md animate-pulse"></div>
+                  <div className="relative w-4 h-4 bg-primary-orange rounded-full animate-pulse"></div>
+                </div>
+                <span className="text-sm font-bold text-orange-300 tracking-wider">WHY CHOOSE METIC.AI</span>
+                <div className="relative">
+                  <div className="absolute inset-0 bg-secondary-orange/20 rounded-full blur-md animate-pulse"></div>
+                  <div className="relative w-4 h-4 bg-secondary-orange rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></div>
+                </div>
+              </div>
+              
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight">
+                <span className="text-white">Premier </span>
+                <span className="bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange bg-clip-text text-transparent animate-gradient">
+                  AI Firm In Ahmedabad
+                </span>
+                <br />
+                <span className="text-gray-300 text-3xl md:text-4xl lg:text-5xl">Transforming Gujarat's Future</span>
               </h2>
-              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                As the premier <strong>AI Development Company In Ahmedabad</strong>, we're trusted by businesses across Gujarat 
-                for our expertise, proven results, and commitment to client success.
+              <div className="w-40 h-2 bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange mx-auto mb-10 rounded-full shadow-lg"></div>
+              <p className="text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
+                As the leading <strong className="text-primary-orange">AI Development Company In Ahmedabad</strong>, we're trusted by Gujarat's 
+                most innovative businesses for our expertise, proven results, and unwavering commitment to client success.
               </p>
             </div>
             
+            {/* Ultra-Creative Feature Cards with Advanced Animations */}
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-              <div className="text-center">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6 mx-auto">
-                  <Award className="w-8 h-8 text-blue-600" />
+              {/* Card 1 - Proven Expertise */}
+              <div className="group relative">
+                <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/20 to-orange-400/20 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 transform group-hover:scale-110"></div>
+                <div className="relative bg-gray-800/40 backdrop-blur-xl rounded-3xl p-8 border border-gray-700/50 hover:border-primary-orange/50 transition-all duration-500 group-hover:transform group-hover:scale-105 h-full">
+                  <div className="relative mb-8">
+                    {/* Icon with Advanced Animation */}
+                    <div className="relative w-20 h-20 mx-auto">
+                      <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl animate-pulse opacity-20"></div>
+                      <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl group-hover:animate-spin transition-all duration-1000"></div>
+                      <div className="relative w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center shadow-2xl group-hover:scale-110 transition-all duration-300">
+                        <Award className="w-10 h-10 text-white group-hover:animate-pulse" />
+                      </div>
+                    </div>
+                    
+                    {/* Floating Numbers */}
+                    <div className="absolute -top-2 -right-2 w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center backdrop-blur-sm border border-primary-orange/30">
+                      <span className="text-xs font-bold text-primary-orange">2K+</span>
+                    </div>
+                  </div>
+                  
+                  <div className="text-center space-y-4">
+                    <h3 className="text-2xl font-bold text-white group-hover:text-primary-orange transition-colors">
+                      Proven AI Expertise
+                    </h3>
+                    <p className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors">
+                      Years of experience delivering cutting-edge AI solutions for Ahmedabad businesses across textiles, 
+                      chemicals, pharmaceuticals, and emerging tech sectors.
+                    </p>
+                    
+                    {/* Enhanced Stats */}
+                    <div className="pt-4 space-y-2">
+                      <div className="flex items-center justify-between text-sm">
+                        <span className="text-gray-500">Success Rate</span>
+                        <span className="text-primary-orange font-bold">99.2%</span>
+                      </div>
+                      <div className="w-full bg-gray-700 rounded-full h-1.5">
+                        <div className="bg-gradient-to-r from-blue-500 to-blue-600 h-1.5 rounded-full w-[99%] group-hover:animate-pulse"></div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Bottom Glow Effect */}
+                  <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 to-blue-600 rounded-b-3xl transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                 </div>
-                <h3 className="text-xl font-bold mb-4">Proven Expertise</h3>
-                <p className="text-gray-600">Years of experience delivering AI solutions for Ahmedabad businesses across all industries.</p>
               </div>
-              
-              <div className="text-center">
-                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6 mx-auto">
-                  <TrendingUp className="w-8 h-8 text-green-600" />
+
+              {/* Card 2 - Measurable Results */}
+              <div className="group relative">
+                <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 to-emerald-400/20 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 transform group-hover:scale-110"></div>
+                <div className="relative bg-gray-800/40 backdrop-blur-xl rounded-3xl p-8 border border-gray-700/50 hover:border-green-500/50 transition-all duration-500 group-hover:transform group-hover:scale-105 h-full">
+                  <div className="relative mb-8">
+                    <div className="relative w-20 h-20 mx-auto">
+                      <div className="absolute inset-0 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl animate-pulse opacity-20"></div>
+                      <div className="absolute inset-0 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl group-hover:animate-spin transition-all duration-1000"></div>
+                      <div className="relative w-20 h-20 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl flex items-center justify-center shadow-2xl group-hover:scale-110 transition-all duration-300">
+                        <TrendingUp className="w-10 h-10 text-white group-hover:animate-pulse" />
+                      </div>
+                    </div>
+                    
+                    <div className="absolute -top-2 -right-2 w-8 h-8 bg-green-500/20 rounded-full flex items-center justify-center backdrop-blur-sm border border-green-500/30">
+                      <span className="text-xs font-bold text-green-400">ROI</span>
+                    </div>
+                  </div>
+                  
+                  <div className="text-center space-y-4">
+                    <h3 className="text-2xl font-bold text-white group-hover:text-green-400 transition-colors">
+                      Measurable AI Results
+                    </h3>
+                    <p className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors">
+                      Data-driven AI solutions delivering concrete ROI and transformative business growth for 
+                      Ahmedabad companies with proven performance metrics.
+                    </p>
+                    
+                    <div className="pt-4 space-y-2">
+                      <div className="flex items-center justify-between text-sm">
+                        <span className="text-gray-500">Avg ROI Increase</span>
+                        <span className="text-green-400 font-bold">5.8x</span>
+                      </div>
+                      <div className="w-full bg-gray-700 rounded-full h-1.5">
+                        <div className="bg-gradient-to-r from-green-500 to-emerald-600 h-1.5 rounded-full w-[95%] group-hover:animate-pulse"></div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-green-500 to-emerald-600 rounded-b-3xl transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                 </div>
-                <h3 className="text-xl font-bold mb-4">Measurable Results</h3>
-                <p className="text-gray-600">Data-driven AI solutions that deliver concrete ROI and business growth for Ahmedabad companies.</p>
               </div>
-              
-              <div className="text-center">
-                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6 mx-auto">
-                  <Users className="w-8 h-8 text-purple-600" />
+
+              {/* Card 3 - Local Partnership */}
+              <div className="group relative">
+                <div className="absolute inset-0 bg-gradient-to-br from-purple-500/20 to-violet-400/20 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 transform group-hover:scale-110"></div>
+                <div className="relative bg-gray-800/40 backdrop-blur-xl rounded-3xl p-8 border border-gray-700/50 hover:border-purple-500/50 transition-all duration-500 group-hover:transform group-hover:scale-105 h-full">
+                  <div className="relative mb-8">
+                    <div className="relative w-20 h-20 mx-auto">
+                      <div className="absolute inset-0 bg-gradient-to-br from-purple-500 to-violet-600 rounded-2xl animate-pulse opacity-20"></div>
+                      <div className="absolute inset-0 bg-gradient-to-br from-purple-500 to-violet-600 rounded-2xl group-hover:animate-spin transition-all duration-1000"></div>
+                      <div className="relative w-20 h-20 bg-gradient-to-br from-purple-500 to-violet-600 rounded-2xl flex items-center justify-center shadow-2xl group-hover:scale-110 transition-all duration-300">
+                        <Users className="w-10 h-10 text-white group-hover:animate-pulse" />
+                      </div>
+                    </div>
+                    
+                    <div className="absolute -top-2 -right-2 w-8 h-8 bg-purple-500/20 rounded-full flex items-center justify-center backdrop-blur-sm border border-purple-500/30">
+                      <span className="text-xs font-bold text-purple-400">GJ</span>
+                    </div>
+                  </div>
+                  
+                  <div className="text-center space-y-4">
+                    <h3 className="text-2xl font-bold text-white group-hover:text-purple-400 transition-colors">
+                      Gujarat Partnership
+                    </h3>
+                    <p className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors">
+                      Dedicated local support and strategic partnership with deep understanding of 
+                      Ahmedabad's business landscape and Gujarat's industrial heritage.
+                    </p>
+                    
+                    <div className="pt-4 space-y-2">
+                      <div className="flex items-center justify-between text-sm">
+                        <span className="text-gray-500">Client Retention</span>
+                        <span className="text-purple-400 font-bold">98%</span>
+                      </div>
+                      <div className="w-full bg-gray-700 rounded-full h-1.5">
+                        <div className="bg-gradient-to-r from-purple-500 to-violet-600 h-1.5 rounded-full w-[98%] group-hover:animate-pulse"></div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-purple-500 to-violet-600 rounded-b-3xl transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                 </div>
-                <h3 className="text-xl font-bold mb-4">Local Partnership</h3>
-                <p className="text-gray-600">Dedicated support and partnership with deep understanding of the Ahmedabad business landscape.</p>
               </div>
-              
-              <div className="text-center">
-                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-6 mx-auto">
-                  <Shield className="w-8 h-8 text-orange-600" />
+
+              {/* Card 4 - Enterprise Security */}
+              <div className="group relative">
+                <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/20 to-orange-400/20 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 transform group-hover:scale-110"></div>
+                <div className="relative bg-gray-800/40 backdrop-blur-xl rounded-3xl p-8 border border-gray-700/50 hover:border-primary-orange/50 transition-all duration-500 group-hover:transform group-hover:scale-105 h-full">
+                  <div className="relative mb-8">
+                    <div className="relative w-20 h-20 mx-auto">
+                      <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-orange-600 rounded-2xl animate-pulse opacity-20"></div>
+                      <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-orange-600 rounded-2xl group-hover:animate-spin transition-all duration-1000"></div>
+                      <div className="relative w-20 h-20 bg-gradient-to-br from-primary-orange to-orange-600 rounded-2xl flex items-center justify-center shadow-2xl group-hover:scale-110 transition-all duration-300">
+                        <Shield className="w-10 h-10 text-white group-hover:animate-pulse" />
+                      </div>
+                    </div>
+                    
+                    <div className="absolute -top-2 -right-2 w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center backdrop-blur-sm border border-primary-orange/30">
+                      <span className="text-xs font-bold text-primary-orange">ISO</span>
+                    </div>
+                  </div>
+                  
+                  <div className="text-center space-y-4">
+                    <h3 className="text-2xl font-bold text-white group-hover:text-primary-orange transition-colors">
+                      Enterprise Security
+                    </h3>
+                    <p className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors">
+                      Bank-level security standards and enterprise compliance protecting your 
+                      Ahmedabad business data with military-grade encryption and protocols.
+                    </p>
+                    
+                    <div className="pt-4 space-y-2">
+                      <div className="flex items-center justify-between text-sm">
+                        <span className="text-gray-500">Security Score</span>
+                        <span className="text-primary-orange font-bold">100%</span>
+                      </div>
+                      <div className="w-full bg-gray-700 rounded-full h-1.5">
+                        <div className="bg-gradient-to-r from-primary-orange to-orange-600 h-1.5 rounded-full w-full group-hover:animate-pulse"></div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-primary-orange to-orange-600 rounded-b-3xl transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                 </div>
-                <h3 className="text-xl font-bold mb-4">Enterprise Security</h3>
-                <p className="text-gray-600">Bank-level security and compliance standards protecting your Ahmedabad business data.</p>
+              </div>
+            </div>
+
+            {/* Enhanced Bottom CTA with Creative Design */}
+            <div className="mt-20 text-center">
+              <div className="bg-gradient-to-br from-gray-800/60 to-gray-900/60 backdrop-blur-xl rounded-3xl p-12 border border-gray-700/50 hover:border-primary-orange/30 transition-all duration-500 relative overflow-hidden">
+                {/* Background Effects */}
+                <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/5 to-orange-400/5 opacity-0 hover:opacity-100 transition-opacity duration-500"></div>
+                
+                <div className="relative z-10">
+                  <div className="flex justify-center mb-8">
+                    <div className="relative">
+                      <div className="absolute inset-0 bg-primary-orange/20 rounded-full blur-2xl animate-pulse"></div>
+                      <div className="relative w-24 h-24 bg-gradient-to-br from-primary-orange to-orange-600 rounded-full flex items-center justify-center shadow-2xl">
+                        <Rocket className="w-12 h-12 text-white animate-pulse" />
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <h3 className="text-3xl md:text-4xl font-bold text-white mb-6">
+                    Ready to Transform with Gujarat's Leading 
+                    <span className="text-primary-orange"> AI Firm In Ahmedabad</span>?
+                  </h3>
+                  <p className="text-xl text-gray-300 mb-10 max-w-3xl mx-auto">
+                    Join the ranks of successful Gujarat businesses who trust Metic.ai for their AI transformation journey
+                  </p>
+                  
+                  <div className="flex flex-col sm:flex-row gap-6 justify-center">
+                    <Link href="/contact">
+                      <Button 
+                        variant="primary" 
+                        size="lg" 
+                        className="bg-gradient-to-r from-primary-orange to-orange-500 hover:from-primary-orange/90 hover:to-orange-500/90 transform hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-3xl group px-8 py-4"
+                      >
+                        <Sparkles className="w-5 h-5 mr-2 group-hover:animate-spin" />
+                        Start Your AI Journey
+                        <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+                      </Button>
+                    </Link>
+                    <Link href="tel:+917892518414">
+                      <Button 
+                        variant="outline" 
+                        size="lg" 
+                        className="border-primary-orange text-primary-orange hover:bg-primary-orange/10 transform hover:scale-105 transition-all duration-300 group px-8 py-4"
+                      >
+                        <Phone className="w-4 h-4 mr-2 group-hover:animate-pulse" />
+                        Connect with AI Experts
+                      </Button>
+                    </Link>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
