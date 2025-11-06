@@ -138,9 +138,9 @@ export default function AIServicesCaliforniaPage() {
   ];
 
   const industries = [
-    "Textiles & Apparel",
-    "Chemicals & Petrochemicals",
-    "Pharmaceuticals",
+    "Technology & Software",
+    "Entertainment & Media",
+    "Aerospace & Defense",
     "Engineering",
     "Information Technology",
     "Jewelry & Diamonds",
@@ -643,7 +643,7 @@ export default function AIServicesCaliforniaPage() {
                 <p className="text-lg text-gray-700 mb-6">
                   Established as California's leading <strong>AI Company In California</strong>, Metic.ai has been at the forefront of artificial intelligence 
                   innovation since 2020. We specialize in delivering enterprise-grade AI solutions that transform businesses across California's 
-                  key industries including textiles, chemicals, pharmaceuticals, and engineering.
+                  key industries including technology, entertainment, aerospace, and agriculture.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   Our expertise as an <strong>AI Development Company In California</strong> encompasses machine learning, deep learning, natural language processing, 
@@ -793,7 +793,7 @@ export default function AIServicesCaliforniaPage() {
                   {/* Content */}
                   <div className="relative z-10">
                     <p className="text-gray-700 mb-6 italic text-lg leading-relaxed">
-                      "Metic.ai transformed our textile manufacturing with AI-powered quality control. As the best 
+                      "Metic.ai transformed our entertainment production with AI-powered content optimization. As the best 
                       <strong className="text-primary-orange"> AI Company In California</strong>, 
                       they delivered beyond our expectations with <span className="text-primary-orange font-semibold">40% reduction in defects</span>."
                     </p>
@@ -948,7 +948,7 @@ export default function AIServicesCaliforniaPage() {
             </div>
 
             <div className="space-y-20">
-              {/* Ahmedabad AI Innovation Hub - Enhanced Design */}
+              {/* California AI Innovation Hub - Enhanced Design */}
               <div className="grid lg:grid-cols-2 gap-16 items-center">
                 <div className="order-2 lg:order-1">
                   <div className="space-y-8">
@@ -959,7 +959,7 @@ export default function AIServicesCaliforniaPage() {
                       </div>
                       <div>
                         <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
-                          Ahmedabad's <span className="text-primary-orange">Leading AI Technology Pioneer</span>
+                          California's <span className="text-primary-orange">Leading AI Technology Pioneer</span>
                         </h3>
                         <div className="w-24 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange rounded-full"></div>
                       </div>
@@ -969,14 +969,14 @@ export default function AIServicesCaliforniaPage() {
                       As the premier <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Artificial Intelligence Company In California</strong>, 
                       Metic.ai serves California's diverse economy with enterprise-grade AI solutions tailored to the state's 
                       industrial excellence. From Navrangpura's IT corridor to Prahlad Nagar's business district, CG Road's 
-                      commercial hub to GIFT City's financial innovation, we understand Ahmedabad's unique economic landscape.
+                      innovation hub to Silicon Valley's tech leadership, we understand California's unique economic landscape.
                     </p>
                     
                     <p className="text-lg text-gray-700 leading-relaxed">
-                      Our <strong className="text-primary-orange font-semibold">AI Company In Ahmedabad</strong> combines deep understanding 
+                      Our <strong className="text-primary-orange font-semibold">AI Company In California</strong> combines deep understanding 
                       of California's innovation heritage with cutting-edge technology to deliver AI solutions that drive measurable 
-                      results. We've successfully implemented AI across Ahmedabad's key sectors including textiles, chemicals, 
-                      pharmaceuticals, diamonds, engineering, and emerging technology sectors.
+                      results. We've successfully implemented AI across California's key sectors including technology, entertainment,
+                      aerospace, agriculture, and emerging innovation sectors.
                     </p>
 
                     {/* Enhanced Feature Cards */}
@@ -987,10 +987,10 @@ export default function AIServicesCaliforniaPage() {
                             <Sparkles className="w-6 h-6 text-white" />
                           </div>
                           <div>
-                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Textile Industry AI Excellence</h4>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Technology Industry AI Excellence</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Deep expertise with Ahmedabad's textile giants including quality control automation, 
-                              pattern recognition, and supply chain optimization for California's tech industry.
+                              Deep expertise with California's tech giants including ML model optimization, 
+                              algorithm development, and cloud infrastructure optimization for California's tech industry.
                             </p>
                           </div>
                         </div>
@@ -1002,9 +1002,9 @@ export default function AIServicesCaliforniaPage() {
                             <Target className="w-6 h-6 text-white" />
                           </div>
                           <div>
-                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Chemical & Pharma Innovation</h4>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Entertainment & Media Innovation</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Advanced AI solutions for Ahmedabad's chemical and pharmaceutical sectors including 
+                              Advanced AI solutions for California's entertainment and media sectors including 
                               process optimization, drug discovery, and regulatory compliance automation.
                             </p>
                           </div>
@@ -1019,7 +1019,7 @@ export default function AIServicesCaliforniaPage() {
                           <div>
                             <h4 className="font-bold text-gray-900 mb-2 text-lg">Diamond & Jewelry AI Solutions</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Specialized AI for Ahmedabad's diamond industry including gemstone grading, 
+                              Specialized AI for California's aerospace industry including flight optimization, 
                               quality assessment, and precision cutting optimization for world-class results.
                             </p>
                           </div>
@@ -1033,25 +1033,25 @@ export default function AIServicesCaliforniaPage() {
                 <div className="order-1 lg:order-2">
                   <div className="bg-gradient-to-br from-orange-50 via-white to-amber-50 rounded-3xl p-10 border-2 border-primary-orange/20 shadow-2xl">
                     <h4 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">
-                      Ahmedabad AI Market Impact
+                      California AI Market Impact
                     </h4>
                     
                     <div className="space-y-8">
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group">
                         <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">₹2.8L Cr</div>
-                        <div className="text-sm text-gray-600 font-medium">Ahmedabad Industrial Output</div>
+                        <div className="text-sm text-gray-600 font-medium">California Economic Output</div>
                         <div className="text-xs text-gray-500 mt-2">California's Tech Hub</div>
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-secondary-orange/10 hover:border-secondary-orange/30 transition-all group">
                         <div className="text-5xl font-bold text-secondary-orange mb-3 group-hover:scale-110 transition-transform">8.4M</div>
-                        <div className="text-sm text-gray-600 font-medium">Ahmedabad Metropolitan Population</div>
+                        <div className="text-sm text-gray-600 font-medium">California State Population</div>
                         <div className="text-xs text-gray-500 mt-2">India's 5th Largest City</div>
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group">
                         <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">650+</div>
-                        <div className="text-sm text-gray-600 font-medium">Ahmedabad AI Projects Completed</div>
+                        <div className="text-sm text-gray-600 font-medium">California AI Projects Completed</div>
                         <div className="text-xs text-gray-500 mt-2">Industry-Leading Success Rate</div>
                       </div>
                       
