@@ -761,7 +761,7 @@ export default function AIServicesIdahoPage() {
               <div className="grid lg:grid-cols-2 gap-16 items-center">
                 <div>
                   <div className="flex items-start gap-4 mb-8">
-                    <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center shadow-xl flex-shrink-0">
+                    <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-orange-600 rounded-2xl flex items-center justify-center shadow-xl flex-shrink-0">
                       <Building className="w-8 h-8 text-white" />
                     </div>
                     <div>
@@ -874,26 +874,26 @@ export default function AIServicesIdahoPage() {
             <div className="mb-20">
               <div className="space-y-8">
                 <div className="flex items-start gap-4">
-                  <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl flex items-center justify-center shadow-xl flex-shrink-0">
+                  <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-orange-600 rounded-2xl flex items-center justify-center shadow-xl flex-shrink-0">
                     <Sparkles className="w-8 h-8 text-white" />
                   </div>
                   <div>
                     <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
-                      Agricultural AI Revolution: <span className="text-green-600">Precision Farming 2.0</span>
+                      Agricultural AI Revolution: <span className="text-primary-orange">Precision Farming 2.0</span>
                     </h3>
-                    <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-emerald-600 rounded-full"></div>
+                    <div className="w-24 h-1 bg-gradient-to-r from-primary-orange to-orange-600 rounded-full"></div>
                   </div>
                 </div>
                 
                 <p className="text-lg text-gray-700 leading-relaxed">
                   Idaho's agricultural sector, contributing over $7.8 billion annually to the state economy, undergoes unprecedented transformation through 
-                  artificial intelligence. As the <strong className="text-gray-900 bg-green-50 px-2 py-1 rounded">Best AI Company In Idaho</strong> 
+                  artificial intelligence. As the <strong className="text-gray-900 bg-orange-50 px-2 py-1 rounded">Best AI Company In Idaho</strong> 
                   serving agricultural enterprises, Metic.ai pioneered AI applications that revolutionize farming practices across the state's 
                   11.8 million acres of farmland.
                 </p>
                 
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  From potato farming in Eastern Idaho to wheat cultivation in the Palouse region, our <strong className="text-green-600 font-semibold">AI Development Company In Idaho</strong> 
+                  From potato farming in Eastern Idaho to wheat cultivation in the Palouse region, our <strong className="text-primary-orange font-semibold">AI Development Company In Idaho</strong> 
                   solutions optimize crop yields, reduce resource consumption, and enhance sustainability. Idaho farmers now leverage computer vision 
                   for crop monitoring, machine learning for weather prediction, and IoT integration for precision irrigation, positioning the state 
                   as a global leader in agricultural technology innovation.
@@ -901,9 +901,9 @@ export default function AIServicesIdahoPage() {
 
                 {/* Agricultural AI Success Stories */}
                 <div className="grid md:grid-cols-3 gap-8 mt-12">
-                  <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-6 border border-green-200">
+                  <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-6 border border-orange-200">
                     <div className="text-center mb-4">
-                      <div className="text-3xl font-bold text-green-600">89%</div>
+                      <div className="text-3xl font-bold text-primary-orange">89%</div>
                       <div className="text-sm text-gray-600">Water Usage Reduction</div>
                     </div>
                     <h4 className="font-bold text-gray-900 mb-2">Smart Irrigation Systems</h4>
@@ -913,9 +913,9 @@ export default function AIServicesIdahoPage() {
                     </p>
                   </div>
                   
-                  <div className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-6 border border-blue-200">
+                  <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-6 border border-orange-200">
                     <div className="text-center mb-4">
-                      <div className="text-3xl font-bold text-blue-600">45%</div>
+                      <div className="text-3xl font-bold text-primary-orange">45%</div>
                       <div className="text-sm text-gray-600">Yield Increase</div>
                     </div>
                     <h4 className="font-bold text-gray-900 mb-2">Precision Agriculture</h4>
