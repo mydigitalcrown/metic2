@@ -766,9 +766,9 @@ export default function AIServicesIdahoPage() {
                     </div>
                     <div>
                       <h3 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-tight">
-                        Boise's <span className="text-blue-600">Tech Renaissance</span>
+                        Boise's <span className="text-primary-orange">Tech Renaissance</span>
                       </h3>
-                      <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full"></div>
+                      <div className="w-24 h-1 bg-gradient-to-r from-primary-orange to-orange-600 rounded-full"></div>
                     </div>
                   </div>
                   
@@ -780,35 +780,35 @@ export default function AIServicesIdahoPage() {
                   
                   <p className="text-lg text-gray-700 leading-relaxed mb-6">
                     Boise's unique position as a technology hub outside traditional Silicon Valley markets has created unprecedented opportunities for 
-                    <strong className="text-blue-600 font-semibold"> AI Service In Idaho</strong> providers. Our comprehensive solutions serve everyone from 
+                    <strong className="text-primary-orange font-semibold"> AI Service In Idaho</strong> providers. Our comprehensive solutions serve everyone from 
                     emerging fintech companies in the Boise River District to established healthcare providers across the Treasure Valley, 
                     demonstrating that innovation knows no geographical boundaries.
                   </p>
 
-                  <div className="bg-gradient-to-r from-blue-500/10 via-white to-blue-600/10 rounded-2xl p-8 border-2 border-blue-200 shadow-xl">
+                  <div className="bg-gradient-to-r from-primary-orange/10 via-white to-orange-600/10 rounded-2xl p-8 border-2 border-primary-orange/20 shadow-xl">
                     <h4 className="text-xl font-bold text-gray-900 mb-6 flex items-center gap-3">
-                      <TrendingUp className="w-6 h-6 text-blue-600" />
+                      <TrendingUp className="w-6 h-6 text-primary-orange" />
                       Boise AI Innovation Metrics
                     </h4>
                     <div className="grid md:grid-cols-2 gap-6">
                       <div className="space-y-4">
                         <div className="flex items-center justify-between p-4 bg-white rounded-lg shadow-sm">
                           <span className="text-gray-600 font-medium">Tech Companies Adopting AI</span>
-                          <span className="font-bold text-blue-600 text-lg">85%</span>
+                          <span className="font-bold text-primary-orange text-lg">85%</span>
                         </div>
                         <div className="flex items-center justify-between p-4 bg-white rounded-lg shadow-sm">
                           <span className="text-gray-600 font-medium">AI Job Growth (2024)</span>
-                          <span className="font-bold text-blue-600 text-lg">340%</span>
+                          <span className="font-bold text-primary-orange text-lg">340%</span>
                         </div>
                       </div>
                       <div className="space-y-4">
                         <div className="flex items-center justify-between p-4 bg-white rounded-lg shadow-sm">
                           <span className="text-gray-600 font-medium">AI Investment Capital</span>
-                          <span className="font-bold text-blue-600 text-lg">$127M</span>
+                          <span className="font-bold text-primary-orange text-lg">$127M</span>
                         </div>
                         <div className="flex items-center justify-between p-4 bg-white rounded-lg shadow-sm">
                           <span className="text-gray-600 font-medium">Startups Using AI</span>
-                          <span className="font-bold text-blue-600 text-lg">78%</span>
+                          <span className="font-bold text-primary-orange text-lg">78%</span>
                         </div>
                       </div>
                     </div>
@@ -829,7 +829,7 @@ export default function AIServicesIdahoPage() {
                     </p>
                     <div className="mt-4 flex items-center justify-between">
                       <span className="text-xs text-gray-500">Efficiency Increase</span>
-                      <span className="text-blue-600 font-bold">240%</span>
+                      <span className="text-primary-orange font-bold">240%</span>
                     </div>
                   </div>
                   
