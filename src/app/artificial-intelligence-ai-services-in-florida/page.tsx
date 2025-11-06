@@ -393,129 +393,135 @@ export default function AIServicesFloridaPage() {
       />
 
       {/* Hero Section */}
-      <section className="relative min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-indigo-900 overflow-hidden">
-        {/* Circuit Background Pattern */}
-        <div className="absolute inset-0">
-          <div className="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:24px_24px]"></div>
-          <div className="absolute inset-0 bg-[radial-gradient(circle_800px_at_100%_200px,#3b82f6,transparent)]"></div>
-          <div className="absolute inset-0 bg-[radial-gradient(circle_600px_at_0%_100%,#7c3aed,transparent)]"></div>
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28 relative overflow-hidden">
+        {/* Creative Background Elements */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          {/* Animated Circuit Pattern */}
+          <div className="absolute inset-0 opacity-[0.03]" style={{
+            backgroundImage: `linear-gradient(#FF6B35 1px, transparent 1px), linear-gradient(90deg, #FF6B35 1px, transparent 1px)`,
+            backgroundSize: '50px 50px'
+          }}></div>
+          
+          {/* Floating AI Elements */}
+          <div className="absolute top-20 left-10 w-32 h-32 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-20 right-10 w-40 h-40 bg-primary-orange/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
+          
+          {/* Dynamic Grid Overlay */}
+          <div className="absolute inset-0 opacity-[0.02]" style={{
+            backgroundImage: `radial-gradient(circle at 25% 25%, #FF6B35 1px, transparent 1px), radial-gradient(circle at 75% 75%, #FF6B35 1px, transparent 1px)`,
+            backgroundSize: '60px 60px'
+          }}></div>
         </div>
 
-        {/* Floating Elements */}
-        <div className="absolute top-20 left-10 w-20 h-20 bg-blue-500/10 rounded-full blur-xl animate-pulse"></div>
-        <div className="absolute top-40 right-20 w-32 h-32 bg-purple-500/10 rounded-full blur-xl animate-pulse delay-300"></div>
-        <div className="absolute bottom-40 left-20 w-24 h-24 bg-indigo-500/10 rounded-full blur-xl animate-pulse delay-700"></div>
-        
-        <div className="relative z-10 min-h-screen flex items-center">
-          <div className="container mx-auto px-4 py-20">
-            <div className="max-w-6xl mx-auto text-center">
-              
-              {/* Trust Badge */}
-              <div className="inline-flex items-center mb-8 px-6 py-3 rounded-full bg-gradient-to-r from-blue-600/20 to-purple-600/20 border border-blue-500/30 backdrop-blur-sm">
-                <div className="flex items-center space-x-3">
-                  <div className="relative">
-                    <MapPin className="w-5 h-5 text-blue-400" />
-                    <div className="absolute -top-1 -right-1 w-3 h-3 bg-green-500 rounded-full animate-ping"></div>
-                  </div>
-                  <span className="text-sm font-semibold text-blue-200">Florida's #1 Rated AI Company</span>
-                  <div className="flex items-center space-x-1">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                    ))}
-                  </div>
+        <div className="container px-4 md:px-6 relative z-10">
+          <div className="max-w-5xl mx-auto text-center">
+            
+            {/* Location Badge with Enhanced Design */}
+            <div className="relative mb-8">
+              <div className="inline-flex items-center gap-3 px-6 py-3 bg-gray-800/80 backdrop-blur-sm rounded-full border border-primary-orange/30 shadow-lg">
+                <div className="relative">
+                  <MapPin className="w-5 h-5 text-primary-orange" />
+                  <div className="absolute -top-1 -right-1 w-3 h-3 bg-primary-orange rounded-full animate-ping"></div>
+                </div>
+                <span className="text-sm font-semibold text-gray-200">Florida's #1 Rated AI Company</span>
+                <div className="flex items-center space-x-1">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="w-4 h-4 fill-primary-orange text-primary-orange" />
+                  ))}
                 </div>
               </div>
-
-              {/* Main Headline */}
-              <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-8 leading-tight">
-                <span className="bg-gradient-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent">
-                  <strong>Artificial Intelligence Company In Florida</strong>
-                </span>
+            </div>
+            
+            {/* Enhanced Headline */}
+            <div className="relative mb-8">
+              <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white relative z-10">
+                <strong>
+                  Artificial Intelligence Company In Florida
+                </strong>
                 <br />
-                <span className="text-3xl md:text-4xl lg:text-5xl bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent font-medium">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange">
                   Leading AI Company In Florida
                 </span>
               </h1>
-
-              {/* Hero Description */}
-              <p className="text-xl md:text-2xl text-slate-300 mb-12 max-w-5xl mx-auto leading-relaxed">
-                Looking for the best <strong>AI Company In Florida</strong>? Metic.ai is the premier <strong>Artificial Intelligence Company In Florida</strong> 
-                with 2100+ successful implementations across Miami, Orlando, Tampa, Jacksonville, and the entire Sunshine State. 
-                Our <strong>AI Service In Florida</strong> transforms businesses with 60% cost savings and 3x faster delivery. 
-                From tech startups in Miami's Brickell district to aerospace companies in Cape Canaveral, 
-                we're the trusted <strong>AI Development Company In Florida</strong> that delivers results.
+            </div>
+            
+            {/* Enhanced Description */}
+            <div className="relative mb-10">
+              <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
+                Looking for the best <strong className="text-white">AI Company In Florida</strong>? Metic.ai is the premier 
+                <strong className="text-primary-orange"> Artificial Intelligence Company In Florida</strong> 
+                with 2100+ successful AI implementations across Miami, Orlando, Tampa, Jacksonville, and the entire Sunshine State. 
+                Our <strong className="text-primary-orange"> AI Service In Florida</strong> transforms businesses with 
+                <span className="text-primary-orange font-semibold">60% cost savings</span> and 
+                <span className="text-primary-orange font-semibold">3x faster delivery</span>.
               </p>
-
-              {/* CTA Buttons */}
-              <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16">
-                <Link href="/contact">
-                  <button className="group relative px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold text-lg rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
-                    <span className="flex items-center justify-center">
-                      Start with Top AI Company Florida
-                      <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-                    </span>
-                  </button>
-                </Link>
-                
-                <Link href="tel:+917892518414">
-                  <button className="group px-8 py-4 border-2 border-blue-500/50 text-blue-300 hover:bg-blue-500/10 font-semibold text-lg rounded-lg transition-all duration-300 backdrop-blur-sm">
-                    <span className="flex items-center justify-center">
-                      <Phone className="mr-2 h-5 w-5 group-hover:rotate-12 transition-transform" />
-                      Call AI Development Company Florida
-                    </span>
-                  </button>
-                </Link>
-              </div>
-
-              {/* Stats Grid */}
-              <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 max-w-5xl mx-auto">
-                <div className="group p-6 bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm border border-slate-700/50 rounded-xl hover:border-blue-500/50 transition-all duration-300">
-                  <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent mb-3">
-                    $1.0T
-                  </div>
-                  <div className="text-slate-400 font-medium">FL GDP (4th largest in US)</div>
-                </div>
-                
-                <div className="group p-6 bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm border border-slate-700/50 rounded-xl hover:border-purple-500/50 transition-all duration-300">
-                  <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent mb-3">
-                    890+
-                  </div>
-                  <div className="text-slate-400 font-medium">AI Projects Delivered</div>
-                </div>
-                
-                <div className="group p-6 bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm border border-slate-700/50 rounded-xl hover:border-green-500/50 transition-all duration-300">
-                  <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent mb-3">
-                    97%
-                  </div>
-                  <div className="text-slate-400 font-medium">Client Satisfaction</div>
-                </div>
-                
-                <div className="group p-6 bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm border border-slate-700/50 rounded-xl hover:border-orange-500/50 transition-all duration-300">
-                  <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent mb-3">
-                    24/7
-                  </div>
-                  <div className="text-slate-400 font-medium">Expert Support</div>
-                </div>
-              </div>
-
+              
               {/* Trust Indicators */}
-              <div className="mt-16 flex flex-wrap justify-center items-center gap-8 opacity-70">
-                <div className="flex items-center space-x-2">
-                  <Shield className="w-5 h-5 text-green-400" />
-                  <span className="text-sm text-slate-400">ISO 27001 Certified</span>
+              <div className="flex items-center justify-center gap-6 mb-8">
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
+                    <Shield className="w-4 h-4 text-primary-orange" />
+                  </div>
+                  <span className="text-sm text-gray-400">ISO Certified</span>
                 </div>
-                <div className="flex items-center space-x-2">
-                  <Award className="w-5 h-5 text-blue-400" />
-                  <span className="text-sm text-slate-400">Microsoft Partner</span>
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
+                    <Award className="w-4 h-4 text-primary-orange" />
+                  </div>
+                  <span className="text-sm text-gray-400">Award Winning</span>
                 </div>
-                <div className="flex items-center space-x-2">
-                  <CheckCircle className="w-5 h-5 text-purple-400" />
-                  <span className="text-sm text-slate-400">GDPR Compliant</span>
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
+                    <Users className="w-4 h-4 text-primary-orange" />
+                  </div>
+                  <span className="text-sm text-gray-400">890+ FL Projects</span>
                 </div>
-                <div className="flex items-center space-x-2">
-                  <Target className="w-5 h-5 text-orange-400" />
-                  <span className="text-sm text-slate-400">99.9% Uptime</span>
-                </div>
+              </div>
+            </div>
+            
+            {/* Enhanced CTA Buttons */}
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+              <Link href="/contact">
+                <Button 
+                  variant="primary" 
+                  size="lg" 
+                  className="w-full sm:w-auto bg-gradient-to-r from-primary-orange to-secondary-orange hover:from-dark-orange hover:to-primary-orange text-white border-0 shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300"
+                >
+                  <span className="flex items-center justify-center">
+                    Start with Top AI Company Florida
+                    <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                  </span>
+                </Button>
+              </Link>
+              <Link href="tel:+917892518414">
+                <Button 
+                  variant="outline" 
+                  size="lg" 
+                  className="w-full sm:w-auto border-2 border-primary-orange text-primary-orange hover:bg-primary-orange/10 backdrop-blur-sm"
+                >
+                  <Phone className="w-4 h-4 mr-2" />
+                  Call AI Development Company Florida
+                </Button>
+              </Link>
+            </div>
+
+            {/* Enhanced Stats Grid */}
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto">
+              <div className="group text-center p-6 bg-gray-800/50 backdrop-blur-sm rounded-xl border border-gray-700/50 hover:border-primary-orange/50 transition-all duration-300">
+                <div className="text-3xl font-bold text-primary-orange mb-2 group-hover:scale-110 transition-transform">$1.0T</div>
+                <div className="text-sm text-gray-400">FL GDP (4th largest in US)</div>
+              </div>
+              <div className="group text-center p-6 bg-gray-800/50 backdrop-blur-sm rounded-xl border border-gray-700/50 hover:border-primary-orange/50 transition-all duration-300">
+                <div className="text-3xl font-bold text-primary-orange mb-2 group-hover:scale-110 transition-transform">890+</div>
+                <div className="text-sm text-gray-400">AI Projects Delivered</div>
+              </div>
+              <div className="group text-center p-6 bg-gray-800/50 backdrop-blur-sm rounded-xl border border-gray-700/50 hover:border-primary-orange/50 transition-all duration-300">
+                <div className="text-3xl font-bold text-primary-orange mb-2 group-hover:scale-110 transition-transform">97%</div>
+                <div className="text-sm text-gray-400">Client Satisfaction</div>
+              </div>
+              <div className="group text-center p-6 bg-gray-800/50 backdrop-blur-sm rounded-xl border border-gray-700/50 hover:border-primary-orange/50 transition-all duration-300">
+                <div className="text-3xl font-bold text-primary-orange mb-2 group-hover:scale-110 transition-transform">24/7</div>
+                <div className="text-sm text-gray-400">Expert Support</div>
               </div>
             </div>
           </div>
@@ -523,18 +529,15 @@ export default function AIServicesFloridaPage() {
       </section>
 
       {/* Services Section */}
-      <section className="py-20 bg-gradient-to-br from-slate-50 to-blue-50/30 relative overflow-hidden">
-        {/* Background Pattern */}
-        <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]"></div>
-        
-        <div className="container px-4 md:px-6 relative z-10">
+      <section className="py-20 bg-white">
+        <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                AI Solutions for <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Florida</span> Businesses
+                AI Solutions for <span className="text-primary-orange">Florida</span> Businesses
               </h2>
-              <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-8"></div>
-              <p className="text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed">
+              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
                 Comprehensive artificial intelligence services designed to help Florida businesses 
                 compete in the digital economy and drive sustainable growth.
               </p>
@@ -544,24 +547,24 @@ export default function AIServicesFloridaPage() {
               {services.map((service, index) => {
                 const IconComponent = service.icon;
                 const colorClasses = {
-                  blue: "bg-blue-500/10 text-blue-600 border-blue-200/50",
-                  purple: "bg-purple-500/10 text-purple-600 border-purple-200/50", 
-                  green: "bg-green-500/10 text-green-600 border-green-200/50",
-                  orange: "bg-orange-500/10 text-orange-600 border-orange-200/50",
-                  indigo: "bg-indigo-500/10 text-indigo-600 border-indigo-200/50",
-                  red: "bg-red-500/10 text-red-600 border-red-200/50"
+                  blue: "bg-blue-100 text-blue-600",
+                  purple: "bg-purple-100 text-purple-600", 
+                  green: "bg-green-100 text-green-600",
+                  orange: "bg-orange-100 text-orange-600",
+                  indigo: "bg-indigo-100 text-indigo-600",
+                  red: "bg-red-100 text-red-600"
                 };
                 
                 return (
-                  <div key={index} className="group bg-white/70 backdrop-blur-sm rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 border border-white/20 hover:border-blue-200/50 transform hover:-translate-y-2">
-                    <div className={`w-16 h-16 rounded-2xl flex items-center justify-center mb-6 border ${colorClasses[service.color]} group-hover:scale-110 transition-transform duration-300`}>
+                  <div key={index} className="group bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-primary-orange/30">
+                    <div className={`w-16 h-16 rounded-full flex items-center justify-center mb-6 ${colorClasses[service.color]} group-hover:scale-110 transition-transform duration-300`}>
                       <IconComponent className="w-8 h-8" />
                     </div>
                     
-                    <h3 className="text-xl font-bold mb-4 text-slate-800 group-hover:text-blue-600 transition-colors">{service.title}</h3>
-                    <p className="text-slate-600 mb-6 leading-relaxed">{service.description}</p>
+                    <h3 className="text-xl font-bold mb-4 group-hover:text-primary-orange transition-colors">{service.title}</h3>
+                    <p className="text-gray-600 mb-6 leading-relaxed">{service.description}</p>
                     
-                    <Link href={service.href} className="inline-flex items-center text-blue-600 hover:text-purple-600 font-medium group-hover:translate-x-1 transition-all duration-300">
+                    <Link href={service.href} className="inline-flex items-center text-primary-orange hover:text-primary-orange/80 font-medium group-hover:translate-x-1 transition-all duration-300">
                       Learn More
                       <ArrowRight className="w-4 h-4 ml-2 group-hover:rotate-12 transition-transform" />
                     </Link>
@@ -602,20 +605,22 @@ export default function AIServicesFloridaPage() {
       </section>
 
       {/* Why Choose Us Section - Ultra Creative Design */}
-      <section className="py-32 bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 relative overflow-hidden">
+      <section className="py-32 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 relative overflow-hidden">
         {/* Advanced Background Effects */}
         <div className="absolute inset-0">
           {/* Animated Circuit Pattern */}
-          <div className="absolute inset-0 bg-[linear-gradient(to_right,#1e293b_1px,transparent_1px),linear-gradient(to_bottom,#1e293b_1px,transparent_1px)] bg-[size:50px_50px] opacity-30 animate-pulse"></div>
+          <div className="absolute inset-0 opacity-[0.03]" style={{
+            backgroundImage: `linear-gradient(#FF6B35 1px, transparent 1px), linear-gradient(90deg, #FF6B35 1px, transparent 1px)`,
+            backgroundSize: '50px 50px'
+          }}></div>
           
           {/* Floating Orbs */}
-          <div className="absolute top-20 left-10 w-32 h-32 bg-blue-500/10 rounded-full blur-2xl animate-bounce" style={{animationDuration: '3s'}}></div>
-          <div className="absolute top-40 right-20 w-24 h-24 bg-purple-500/10 rounded-full blur-xl animate-bounce" style={{animationDuration: '4s', animationDelay: '1s'}}></div>
-          <div className="absolute bottom-20 left-1/4 w-20 h-20 bg-cyan-500/10 rounded-full blur-xl animate-bounce" style={{animationDuration: '5s', animationDelay: '2s'}}></div>
+          <div className="absolute top-20 left-10 w-32 h-32 bg-primary-orange/5 rounded-full blur-3xl animate-pulse" style={{animationDuration: '3s'}}></div>
+          <div className="absolute top-40 right-20 w-40 h-40 bg-primary-orange/5 rounded-full blur-3xl animate-pulse" style={{animationDuration: '4s', animationDelay: '2s'}}></div>
+          <div className="absolute bottom-20 left-1/4 w-20 h-20 bg-primary-orange/10 rounded-full blur-xl animate-bounce" style={{animationDuration: '5s', animationDelay: '1s'}}></div>
           
           {/* Gradient Overlays */}
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-600/5 via-transparent to-purple-600/5"></div>
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(59,130,246,0.1),transparent_70%)]"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-primary-orange/5 via-transparent to-primary-orange/5"></div>
         </div>
 
         <div className="container px-4 md:px-6 relative z-10">
@@ -623,25 +628,25 @@ export default function AIServicesFloridaPage() {
             
             {/* Creative Header */}
             <div className="text-center mb-20">
-              <div className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-blue-600/20 to-purple-600/20 backdrop-blur-sm rounded-full border border-blue-500/30 mb-8">
-                <Sparkles className="w-6 h-6 text-blue-400 animate-spin" style={{animationDuration: '3s'}} />
-                <span className="text-lg font-bold text-blue-200">Why 15,000+ Florida Businesses Choose Us</span>
-                <Award className="w-6 h-6 text-purple-400 animate-pulse" />
+              <div className="inline-flex items-center gap-3 px-8 py-4 bg-gray-800/80 backdrop-blur-sm rounded-full border border-primary-orange/30 mb-8">
+                <Sparkles className="w-6 h-6 text-primary-orange animate-spin" style={{animationDuration: '3s'}} />
+                <span className="text-lg font-bold text-gray-200">Why 15,000+ Florida Businesses Choose Us</span>
+                <Award className="w-6 h-6 text-primary-orange animate-pulse" />
               </div>
               
               <h2 className="text-5xl md:text-7xl font-bold mb-8 leading-tight">
-                <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent">
+                <span className="text-white">
                   Florida's #1 Choice
                 </span>
                 <br />
-                <span className="text-3xl md:text-4xl text-white font-medium">
+                <span className="text-3xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange">
                   for AI Transformation
                 </span>
               </h2>
               
-              <p className="text-xl text-slate-300 max-w-4xl mx-auto leading-relaxed">
+              <p className="text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
                 From Miami's Brickell to Orlando's theme parks, discover why Florida's most successful businesses 
-                trust Metic.ai as their premier <strong>AI Company In Florida</strong>
+                trust Metic.ai as their premier <strong className="text-primary-orange">AI Company In Florida</strong>
               </p>
             </div>
 
@@ -653,33 +658,33 @@ export default function AIServicesFloridaPage() {
                 
                 {/* Feature 1 - Proven Results */}
                 <div className="group relative">
-                  <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-cyan-600/20 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
-                  <div className="relative bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-sm p-8 rounded-3xl border border-slate-700/50 hover:border-blue-500/50 transition-all duration-300 group-hover:transform group-hover:-translate-y-2">
+                  <div className="absolute inset-0 bg-primary-orange/10 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
+                  <div className="relative bg-gray-800/60 backdrop-blur-sm p-8 rounded-3xl border border-gray-700/50 hover:border-primary-orange/50 transition-all duration-300 group-hover:transform group-hover:-translate-y-2">
                     <div className="flex items-start gap-6">
                       <div className="relative">
-                        <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-2xl blur-lg opacity-50 group-hover:opacity-100 transition-opacity"></div>
-                        <div className="relative w-16 h-16 bg-gradient-to-br from-blue-600 to-cyan-600 rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                        <div className="absolute inset-0 bg-primary-orange rounded-2xl blur-lg opacity-50 group-hover:opacity-100 transition-opacity"></div>
+                        <div className="relative w-16 h-16 bg-primary-orange rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
                           <TrendingUp className="w-8 h-8 text-white" />
                         </div>
                       </div>
                       <div className="flex-1">
-                        <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-blue-300 transition-colors">890+ Successful Projects</h3>
-                        <p className="text-slate-300 leading-relaxed mb-4">
+                        <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-primary-orange transition-colors">890+ Successful Projects</h3>
+                        <p className="text-gray-300 leading-relaxed mb-4">
                           From Fortune 500 companies to innovative startups, we've delivered transformative AI solutions 
                           across Florida's diverse business landscape with measurable ROI.
                         </p>
                         <div className="flex items-center gap-4">
                           <div className="text-center">
-                            <div className="text-2xl font-bold text-blue-400">97%</div>
-                            <div className="text-xs text-slate-400">Success Rate</div>
+                            <div className="text-2xl font-bold text-primary-orange">97%</div>
+                            <div className="text-xs text-gray-400">Success Rate</div>
                           </div>
                           <div className="text-center">
-                            <div className="text-2xl font-bold text-cyan-400">60%</div>
-                            <div className="text-xs text-slate-400">Cost Reduction</div>
+                            <div className="text-2xl font-bold text-primary-orange">60%</div>
+                            <div className="text-xs text-gray-400">Cost Reduction</div>
                           </div>
                           <div className="text-center">
-                            <div className="text-2xl font-bold text-purple-400">3x</div>
-                            <div className="text-xs text-slate-400">Faster Delivery</div>
+                            <div className="text-2xl font-bold text-primary-orange">3x</div>
+                            <div className="text-xs text-gray-400">Faster Delivery</div>
                           </div>
                         </div>
                       </div>
@@ -689,26 +694,26 @@ export default function AIServicesFloridaPage() {
 
                 {/* Feature 2 - Florida Expertise */}
                 <div className="group relative">
-                  <div className="absolute inset-0 bg-gradient-to-r from-purple-600/20 to-pink-600/20 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
-                  <div className="relative bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-sm p-8 rounded-3xl border border-slate-700/50 hover:border-purple-500/50 transition-all duration-300 group-hover:transform group-hover:-translate-y-2">
+                  <div className="absolute inset-0 bg-primary-orange/10 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
+                  <div className="relative bg-gray-800/60 backdrop-blur-sm p-8 rounded-3xl border border-gray-700/50 hover:border-primary-orange/50 transition-all duration-300 group-hover:transform group-hover:-translate-y-2">
                     <div className="flex items-start gap-6">
                       <div className="relative">
-                        <div className="absolute inset-0 bg-gradient-to-br from-purple-500 to-pink-500 rounded-2xl blur-lg opacity-50 group-hover:opacity-100 transition-opacity"></div>
-                        <div className="relative w-16 h-16 bg-gradient-to-br from-purple-600 to-pink-600 rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                        <div className="absolute inset-0 bg-primary-orange rounded-2xl blur-lg opacity-50 group-hover:opacity-100 transition-opacity"></div>
+                        <div className="relative w-16 h-16 bg-primary-orange rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
                           <MapPin className="w-8 h-8 text-white" />
                         </div>
                       </div>
                       <div className="flex-1">
-                        <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-purple-300 transition-colors">Deep Florida Knowledge</h3>
-                        <p className="text-slate-300 leading-relaxed mb-4">
+                        <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-primary-orange transition-colors">Deep Florida Knowledge</h3>
+                        <p className="text-gray-300 leading-relaxed mb-4">
                           Native understanding of Florida's unique business environment - from hurricane resilience 
                           to international trade, tourism dynamics to aerospace innovation.
                         </p>
                         <div className="flex flex-wrap gap-2">
-                          <span className="px-3 py-1 bg-purple-500/20 rounded-full text-purple-300 text-sm">Miami Trade Hub</span>
-                          <span className="px-3 py-1 bg-blue-500/20 rounded-full text-blue-300 text-sm">Orlando Tourism</span>
-                          <span className="px-3 py-1 bg-green-500/20 rounded-full text-green-300 text-sm">AgriTech Central FL</span>
-                          <span className="px-3 py-1 bg-orange-500/20 rounded-full text-orange-300 text-sm">Space Coast Tech</span>
+                          <span className="px-3 py-1 bg-primary-orange/20 rounded-full text-primary-orange text-sm">Miami Trade Hub</span>
+                          <span className="px-3 py-1 bg-primary-orange/20 rounded-full text-primary-orange text-sm">Orlando Tourism</span>
+                          <span className="px-3 py-1 bg-primary-orange/20 rounded-full text-primary-orange text-sm">AgriTech Central FL</span>
+                          <span className="px-3 py-1 bg-primary-orange/20 rounded-full text-primary-orange text-sm">Space Coast Tech</span>
                         </div>
                       </div>
                     </div>
@@ -717,29 +722,29 @@ export default function AIServicesFloridaPage() {
 
                 {/* Feature 3 - 24/7 Support */}
                 <div className="group relative">
-                  <div className="absolute inset-0 bg-gradient-to-r from-green-600/20 to-emerald-600/20 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
-                  <div className="relative bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-sm p-8 rounded-3xl border border-slate-700/50 hover:border-green-500/50 transition-all duration-300 group-hover:transform group-hover:-translate-y-2">
+                  <div className="absolute inset-0 bg-primary-orange/10 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
+                  <div className="relative bg-gray-800/60 backdrop-blur-sm p-8 rounded-3xl border border-gray-700/50 hover:border-primary-orange/50 transition-all duration-300 group-hover:transform group-hover:-translate-y-2">
                     <div className="flex items-start gap-6">
                       <div className="relative">
-                        <div className="absolute inset-0 bg-gradient-to-br from-green-500 to-emerald-500 rounded-2xl blur-lg opacity-50 group-hover:opacity-100 transition-opacity"></div>
-                        <div className="relative w-16 h-16 bg-gradient-to-br from-green-600 to-emerald-600 rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                        <div className="absolute inset-0 bg-primary-orange rounded-2xl blur-lg opacity-50 group-hover:opacity-100 transition-opacity"></div>
+                        <div className="relative w-16 h-16 bg-primary-orange rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
                           <Clock className="w-8 h-8 text-white" />
                         </div>
                       </div>
                       <div className="flex-1">
-                        <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-green-300 transition-colors">24/7 Miami-Based Support</h3>
-                        <p className="text-slate-300 leading-relaxed mb-4">
+                        <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-primary-orange transition-colors">24/7 Miami-Based Support</h3>
+                        <p className="text-gray-300 leading-relaxed mb-4">
                           Round-the-clock support from our Miami headquarters. Same-timezone responsiveness 
                           for all Florida businesses with hurricane-ready infrastructure.
                         </p>
                         <div className="flex items-center gap-4">
                           <div className="flex items-center gap-2">
-                            <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
-                            <span className="text-green-300 text-sm">Live Support</span>
+                            <div className="w-3 h-3 bg-primary-orange rounded-full animate-pulse"></div>
+                            <span className="text-primary-orange text-sm">Live Support</span>
                           </div>
                           <div className="text-center">
-                            <div className="text-lg font-bold text-green-400">99.9%</div>
-                            <div className="text-xs text-slate-400">Uptime</div>
+                            <div className="text-lg font-bold text-primary-orange">99.9%</div>
+                            <div className="text-xs text-gray-400">Uptime</div>
                           </div>
                         </div>
                       </div>
@@ -753,33 +758,33 @@ export default function AIServicesFloridaPage() {
                 
                 {/* Animated Stats Dashboard */}
                 <div className="relative">
-                  <div className="absolute inset-0 bg-gradient-to-br from-blue-600/10 to-purple-600/10 rounded-3xl blur-2xl"></div>
-                  <div className="relative bg-gradient-to-br from-slate-800/40 to-slate-900/40 backdrop-blur-sm p-8 rounded-3xl border border-slate-700/30">
+                  <div className="absolute inset-0 bg-primary-orange/5 rounded-3xl blur-2xl"></div>
+                  <div className="relative bg-gray-800/40 backdrop-blur-sm p-8 rounded-3xl border border-gray-700/30">
                     <h3 className="text-2xl font-bold text-white mb-8 text-center">Florida Impact Dashboard</h3>
                     
                     <div className="grid grid-cols-2 gap-6">
-                      <div className="group text-center p-6 bg-gradient-to-br from-blue-500/10 to-cyan-500/10 rounded-2xl border border-blue-500/20 hover:border-blue-400/40 transition-all duration-300 hover:scale-105">
-                        <DollarSign className="w-12 h-12 text-blue-400 mx-auto mb-3 group-hover:scale-110 transition-transform" />
-                        <div className="text-3xl font-bold text-blue-400 mb-2">$2.8B+</div>
-                        <div className="text-sm text-slate-400">Value Generated</div>
+                      <div className="group text-center p-6 bg-gray-800/50 rounded-2xl border border-gray-700/30 hover:border-primary-orange/40 transition-all duration-300 hover:scale-105">
+                        <DollarSign className="w-12 h-12 text-primary-orange mx-auto mb-3 group-hover:scale-110 transition-transform" />
+                        <div className="text-3xl font-bold text-primary-orange mb-2">$2.8B+</div>
+                        <div className="text-sm text-gray-400">Value Generated</div>
                       </div>
                       
-                      <div className="group text-center p-6 bg-gradient-to-br from-purple-500/10 to-pink-500/10 rounded-2xl border border-purple-500/20 hover:border-purple-400/40 transition-all duration-300 hover:scale-105">
-                        <Users className="w-12 h-12 text-purple-400 mx-auto mb-3 group-hover:scale-110 transition-transform" />
-                        <div className="text-3xl font-bold text-purple-400 mb-2">15,000+</div>
-                        <div className="text-sm text-slate-400">Jobs Enhanced</div>
+                      <div className="group text-center p-6 bg-gray-800/50 rounded-2xl border border-gray-700/30 hover:border-primary-orange/40 transition-all duration-300 hover:scale-105">
+                        <Users className="w-12 h-12 text-primary-orange mx-auto mb-3 group-hover:scale-110 transition-transform" />
+                        <div className="text-3xl font-bold text-primary-orange mb-2">15,000+</div>
+                        <div className="text-sm text-gray-400">Jobs Enhanced</div>
                       </div>
                       
-                      <div className="group text-center p-6 bg-gradient-to-br from-green-500/10 to-emerald-500/10 rounded-2xl border border-green-500/20 hover:border-green-400/40 transition-all duration-300 hover:scale-105">
-                        <Building className="w-12 h-12 text-green-400 mx-auto mb-3 group-hover:scale-110 transition-transform" />
-                        <div className="text-3xl font-bold text-green-400 mb-2">500+</div>
-                        <div className="text-sm text-slate-400">FL Companies</div>
+                      <div className="group text-center p-6 bg-gray-800/50 rounded-2xl border border-gray-700/30 hover:border-primary-orange/40 transition-all duration-300 hover:scale-105">
+                        <Building className="w-12 h-12 text-primary-orange mx-auto mb-3 group-hover:scale-110 transition-transform" />
+                        <div className="text-3xl font-bold text-primary-orange mb-2">500+</div>
+                        <div className="text-sm text-gray-400">FL Companies</div>
                       </div>
                       
-                      <div className="group text-center p-6 bg-gradient-to-br from-orange-500/10 to-red-500/10 rounded-2xl border border-orange-500/20 hover:border-orange-400/40 transition-all duration-300 hover:scale-105">
-                        <Award className="w-12 h-12 text-orange-400 mx-auto mb-3 group-hover:scale-110 transition-transform" />
-                        <div className="text-3xl font-bold text-orange-400 mb-2">50+</div>
-                        <div className="text-sm text-slate-400">Industry Awards</div>
+                      <div className="group text-center p-6 bg-gray-800/50 rounded-2xl border border-gray-700/30 hover:border-primary-orange/40 transition-all duration-300 hover:scale-105">
+                        <Award className="w-12 h-12 text-primary-orange mx-auto mb-3 group-hover:scale-110 transition-transform" />
+                        <div className="text-3xl font-bold text-primary-orange mb-2">50+</div>
+                        <div className="text-sm text-gray-400">Industry Awards</div>
                       </div>
                     </div>
                   </div>
@@ -787,25 +792,25 @@ export default function AIServicesFloridaPage() {
 
                 {/* Client Testimonial Highlight */}
                 <div className="relative">
-                  <div className="absolute inset-0 bg-gradient-to-br from-cyan-600/10 to-blue-600/10 rounded-3xl blur-2xl"></div>
-                  <div className="relative bg-gradient-to-br from-slate-800/40 to-slate-900/40 backdrop-blur-sm p-8 rounded-3xl border border-slate-700/30">
+                  <div className="absolute inset-0 bg-primary-orange/5 rounded-3xl blur-2xl"></div>
+                  <div className="relative bg-gray-800/40 backdrop-blur-sm p-8 rounded-3xl border border-gray-700/30">
                     <div className="text-center">
                       <div className="flex justify-center mb-4">
                         {[...Array(5)].map((_, i) => (
-                          <Star key={i} className="w-6 h-6 fill-yellow-400 text-yellow-400" />
+                          <Star key={i} className="w-6 h-6 fill-primary-orange text-primary-orange" />
                         ))}
                       </div>
-                      <blockquote className="text-lg text-slate-300 italic mb-6">
+                      <blockquote className="text-lg text-gray-300 italic mb-6">
                         "Metic.ai transformed our Miami logistics operation with AI that processes 10,000+ shipments daily. 
                         40% faster customs processing and $2M+ in annual savings."
                       </blockquote>
                       <div className="flex items-center justify-center gap-4">
-                        <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-cyan-600 rounded-full flex items-center justify-center">
+                        <div className="w-12 h-12 bg-primary-orange rounded-full flex items-center justify-center">
                           <Building className="w-6 h-6 text-white" />
                         </div>
                         <div className="text-left">
                           <div className="font-bold text-white">Sarah Rodriguez</div>
-                          <div className="text-sm text-slate-400">CTO, Miami Trade Solutions</div>
+                          <div className="text-sm text-gray-400">CTO, Miami Trade Solutions</div>
                         </div>
                       </div>
                     </div>
@@ -814,25 +819,25 @@ export default function AIServicesFloridaPage() {
 
                 {/* Security & Compliance Badges */}
                 <div className="relative">
-                  <div className="absolute inset-0 bg-gradient-to-br from-green-600/10 to-emerald-600/10 rounded-3xl blur-2xl"></div>
-                  <div className="relative bg-gradient-to-br from-slate-800/40 to-slate-900/40 backdrop-blur-sm p-8 rounded-3xl border border-slate-700/30">
+                  <div className="absolute inset-0 bg-primary-orange/5 rounded-3xl blur-2xl"></div>
+                  <div className="relative bg-gray-800/40 backdrop-blur-sm p-8 rounded-3xl border border-gray-700/30">
                     <h4 className="text-lg font-bold text-white mb-6 text-center">Enterprise-Grade Security</h4>
                     <div className="grid grid-cols-2 gap-4">
-                      <div className="flex items-center gap-3 p-3 bg-green-500/10 rounded-lg border border-green-500/20">
-                        <Shield className="w-6 h-6 text-green-400" />
-                        <span className="text-sm text-green-300">ISO 27001</span>
+                      <div className="flex items-center gap-3 p-3 bg-primary-orange/10 rounded-lg border border-primary-orange/20">
+                        <Shield className="w-6 h-6 text-primary-orange" />
+                        <span className="text-sm text-primary-orange">ISO 27001</span>
                       </div>
-                      <div className="flex items-center gap-3 p-3 bg-blue-500/10 rounded-lg border border-blue-500/20">
-                        <CheckCircle className="w-6 h-6 text-blue-400" />
-                        <span className="text-sm text-blue-300">SOC 2 Type II</span>
+                      <div className="flex items-center gap-3 p-3 bg-primary-orange/10 rounded-lg border border-primary-orange/20">
+                        <CheckCircle className="w-6 h-6 text-primary-orange" />
+                        <span className="text-sm text-primary-orange">SOC 2 Type II</span>
                       </div>
-                      <div className="flex items-center gap-3 p-3 bg-purple-500/10 rounded-lg border border-purple-500/20">
-                        <Award className="w-6 h-6 text-purple-400" />
-                        <span className="text-sm text-purple-300">GDPR Compliant</span>
+                      <div className="flex items-center gap-3 p-3 bg-primary-orange/10 rounded-lg border border-primary-orange/20">
+                        <Award className="w-6 h-6 text-primary-orange" />
+                        <span className="text-sm text-primary-orange">GDPR Compliant</span>
                       </div>
-                      <div className="flex items-center gap-3 p-3 bg-orange-500/10 rounded-lg border border-orange-500/20">
-                        <Target className="w-6 h-6 text-orange-400" />
-                        <span className="text-sm text-orange-300">HIPAA Ready</span>
+                      <div className="flex items-center gap-3 p-3 bg-primary-orange/10 rounded-lg border border-primary-orange/20">
+                        <Target className="w-6 h-6 text-primary-orange" />
+                        <span className="text-sm text-primary-orange">HIPAA Ready</span>
                       </div>
                     </div>
                   </div>
@@ -843,14 +848,14 @@ export default function AIServicesFloridaPage() {
             {/* Call to Action */}
             <div className="text-center">
               <div className="inline-flex flex-col sm:flex-row gap-6">
-                <button className="group px-10 py-5 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-bold text-xl rounded-2xl transition-all duration-300 shadow-2xl hover:shadow-blue-500/25 transform hover:-translate-y-2 hover:scale-105">
+                <button className="group px-10 py-5 bg-gradient-to-r from-primary-orange to-secondary-orange hover:from-dark-orange hover:to-primary-orange text-white font-bold text-xl rounded-2xl transition-all duration-300 shadow-2xl hover:shadow-primary-orange/25 transform hover:-translate-y-2 hover:scale-105">
                   <span className="flex items-center justify-center">
                     Start Your Florida AI Journey
                     <Rocket className="ml-3 h-6 w-6 group-hover:translate-x-2 group-hover:-translate-y-1 transition-transform" />
                   </span>
                 </button>
                 
-                <button className="group px-10 py-5 border-3 border-cyan-500/50 text-cyan-300 hover:bg-cyan-500/10 font-bold text-xl rounded-2xl transition-all duration-300 backdrop-blur-sm hover:border-cyan-400/70 transform hover:-translate-y-2">
+                <button className="group px-10 py-5 border-3 border-primary-orange/50 text-primary-orange hover:bg-primary-orange/10 font-bold text-xl rounded-2xl transition-all duration-300 backdrop-blur-sm hover:border-primary-orange/70 transform hover:-translate-y-2">
                   <span className="flex items-center justify-center">
                     <Phone className="mr-3 h-6 w-6 group-hover:rotate-12 transition-transform" />
                     Call Florida AI Experts
@@ -1704,16 +1709,16 @@ export default function AIServicesFloridaPage() {
       </section>
 
       {/* FAQ Section for Voice Search Optimization - Enhanced Design */}
-      <section className="py-24 bg-gradient-to-br from-slate-50 via-white to-blue-50/30 relative overflow-hidden">
+      <section className="py-24 bg-gradient-to-br from-gray-50 via-white to-orange-50 relative overflow-hidden">
         {/* Advanced Background Effects */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           {/* Animated Gradient Orbs */}
-          <div className="absolute top-10 left-10 w-96 h-96 bg-blue-500/5 rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute bottom-10 right-10 w-96 h-96 bg-purple-500/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
+          <div className="absolute top-10 left-10 w-96 h-96 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-10 right-10 w-96 h-96 bg-secondary-orange/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
           
           {/* Grid Pattern */}
           <div className="absolute inset-0 opacity-[0.02]" style={{
-            backgroundImage: `linear-gradient(#3b82f6 1.5px, transparent 1.5px), linear-gradient(90deg, #3b82f6 1.5px, transparent 1.5px)`,
+            backgroundImage: `linear-gradient(#FF6B35 1.5px, transparent 1.5px), linear-gradient(90deg, #FF6B35 1.5px, transparent 1.5px)`,
             backgroundSize: '60px 60px'
           }}></div>
         </div>
@@ -1723,21 +1728,21 @@ export default function AIServicesFloridaPage() {
             {/* Enhanced Section Header */}
             <div className="text-center mb-16">
               {/* Badge */}
-              <div className="inline-flex items-center gap-2 px-6 py-3 bg-white rounded-full shadow-xl border-2 border-blue-500/20 mb-8 hover:border-blue-500/40 transition-all group">
-                <Lightbulb className="w-5 h-5 text-blue-600 animate-pulse" />
+              <div className="inline-flex items-center gap-2 px-6 py-3 bg-white rounded-full shadow-xl border-2 border-primary-orange/20 mb-8 hover:border-primary-orange/40 transition-all group">
+                <Lightbulb className="w-5 h-5 text-primary-orange animate-pulse" />
                 <span className="text-sm font-bold text-gray-800">Got Questions? We Have Answers!</span>
-                <Sparkles className="w-4 h-4 text-purple-600" />
+                <Sparkles className="w-4 h-4 text-primary-orange" />
               </div>
               
               <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-                <span className="text-slate-800">Frequently Asked Questions</span>
+                <span className="text-gray-900">Frequently Asked Questions</span>
                 <br />
-                <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-cyan-600 bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
                   AI Company In Florida
                 </span>
               </h2>
-              <div className="w-32 h-1.5 bg-gradient-to-r from-blue-600 via-purple-600 to-cyan-600 mx-auto mb-8 rounded-full"></div>
-              <p className="text-xl text-slate-600 max-w-2xl mx-auto">
+              <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-8 rounded-full"></div>
+              <p className="text-xl text-gray-600 max-w-2xl mx-auto">
                 Common questions about our <strong>Artificial Intelligence services in Florida</strong> and the Sunshine State.
               </p>
             </div>
@@ -1747,14 +1752,14 @@ export default function AIServicesFloridaPage() {
               {/* FAQ Item 1 */}
               <details className="group relative">
                 <summary className="list-none cursor-pointer">
-                  <div className="relative bg-white/70 backdrop-blur-sm rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-slate-200/50 hover:border-blue-500/50 transition-all duration-300 overflow-hidden">
-                    <div className="absolute inset-0 bg-gradient-to-br from-blue-500/0 to-purple-500/0 group-hover:from-blue-500/5 group-hover:to-purple-500/5 transition-all duration-500"></div>
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
                     
                     <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-5 flex-1">
                         <div className="relative flex-shrink-0">
-                          <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-purple-600 rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-14 h-14 bg-gradient-to-br from-blue-600 to-purple-600 rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
                             <Sparkles className="w-7 h-7 text-white" />
                           </div>
                         </div>
