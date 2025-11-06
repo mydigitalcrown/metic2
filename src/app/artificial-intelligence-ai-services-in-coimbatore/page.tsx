@@ -20,7 +20,14 @@ import {
   BarChart3,
   Code,
   Database,
-  Sparkles
+  Sparkles,
+  Rocket,
+  Quote,
+  ChevronDown,
+  Cpu,
+  Bot,
+  Globe,
+  Factory
 } from "lucide-react";
 
 export const metadata = {
@@ -350,45 +357,183 @@ export default function AIServicesCoimbatorePage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-4xl mx-auto text-center">
-            <div className="flex items-center justify-center gap-2 mb-6">
-              <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-orange-300">Serving Coimbatore, Tamil Nadu</span>
-            </div>
-            
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
-              <strong>Artificial Intelligence Company In Coimbatore</strong> | Leading <span className="text-primary-orange">AI Company In Coimbatore</span>
-            </h1>
-            
-            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              Looking for the best <strong>AI Company In Coimbatore</strong>? Metic.ai is the premier <strong>Artificial Intelligence Company In Coimbatore</strong> with 2100+ successful AI implementations. We transform Coimbatore businesses with cutting-edge AI services across RS Puram, Peelamedu, Saravanampatti, and all major Coimbatore areas.
-            </p>
-            
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-              <Link href="/contact">
-                <Button variant="primary" size="lg" className="w-full sm:w-auto">
-                  Get Free AI Consultation
-                </Button>
-              </Link>
-              <Link href="tel:+917892518414">
-                <Button variant="outline" size="lg" className="w-full sm:w-auto">
-                  <Phone className="w-4 h-4 mr-2" />
-                  Call: +1-789-251-8414
-                </Button>
-              </Link>
-            </div>
+      <section className="relative min-h-screen bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 overflow-hidden">
+        {/* Animated Background Elements */}
+        <div className="absolute inset-0 overflow-hidden">
+          <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-primary-orange/10 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-purple-500/5 rounded-full blur-3xl animate-pulse delay-2000"></div>
+        </div>
 
-            {/* Quick Stats */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-2xl mx-auto">
-              {stats.map((stat, index) => (
-                <div key={index} className="text-center">
-                  <div className="text-2xl font-bold text-primary-orange mb-1">{stat.number}</div>
-                  <div className="text-sm text-gray-600">{stat.label}</div>
-                </div>
-              ))}
+        {/* Floating AI Elements */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <div className="absolute top-20 left-10 animate-float">
+            <div className="w-8 h-8 bg-primary-orange/20 rounded-lg flex items-center justify-center backdrop-blur-sm border border-primary-orange/30">
+              <Brain className="w-4 h-4 text-primary-orange" />
             </div>
+          </div>
+          <div className="absolute top-40 right-20 animate-float delay-1000">
+            <div className="w-10 h-10 bg-blue-500/20 rounded-lg flex items-center justify-center backdrop-blur-sm border border-blue-500/30">
+              <Cpu className="w-5 h-5 text-blue-400" />
+            </div>
+          </div>
+          <div className="absolute bottom-40 left-20 animate-float delay-2000">
+            <div className="w-6 h-6 bg-purple-500/20 rounded-lg flex items-center justify-center backdrop-blur-sm border border-purple-500/30">
+              <Zap className="w-3 h-3 text-purple-400" />
+            </div>
+          </div>
+          <div className="absolute bottom-20 right-10 animate-float delay-3000">
+            <div className="w-12 h-12 bg-green-500/20 rounded-lg flex items-center justify-center backdrop-blur-sm border border-green-500/30">
+              <Bot className="w-6 h-6 text-green-400" />
+            </div>
+          </div>
+        </div>
+
+        {/* Circuit Pattern Overlay */}
+        <div className="absolute inset-0 opacity-10">
+          <svg className="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <defs>
+              <pattern id="circuit" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                <path d="M10 0V5M10 15V20M0 10H5M15 10H20M10 5H15V15H5V5H10Z" stroke="currentColor" strokeWidth="0.5" fill="none"/>
+              </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#circuit)" className="text-white/20"/>
+          </svg>
+        </div>
+
+        <div className="relative z-10 container px-4 md:px-6 min-h-screen flex items-center">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              {/* Content Side */}
+              <div className="text-center lg:text-left">
+                <div className="flex items-center justify-center lg:justify-start gap-2 mb-6">
+                  <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center backdrop-blur-sm border border-primary-orange/30">
+                    <MapPin className="w-4 h-4 text-primary-orange" />
+                  </div>
+                  <span className="text-sm font-medium text-orange-300 px-3 py-1 bg-primary-orange/10 rounded-full border border-primary-orange/20 backdrop-blur-sm">
+                    Serving Coimbatore, Tamil Nadu
+                  </span>
+                </div>
+                
+                <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl mb-6 text-white leading-tight">
+                  <strong className="bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">Artificial Intelligence Company In Coimbatore</strong>
+                  <br />
+                  <span className="bg-gradient-to-r from-primary-orange via-orange-400 to-yellow-500 bg-clip-text text-transparent">
+                    Leading AI Company In Coimbatore
+                  </span>
+                </h1>
+                
+                <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto lg:mx-0 leading-relaxed">
+                  Looking for the best <strong className="text-white">AI Company In Coimbatore</strong>? Metic.ai is the premier <strong className="text-white">Artificial Intelligence Company In Coimbatore</strong> with 2100+ successful AI implementations. We transform Coimbatore businesses with cutting-edge AI services across RS Puram, Peelamedu, Saravanampatti, and all major Coimbatore areas.
+                </p>
+                
+                <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-12">
+                  <Link href="/contact">
+                    <Button 
+                      variant="primary" 
+                      size="lg" 
+                      className="w-full sm:w-auto bg-gradient-to-r from-primary-orange to-orange-500 hover:from-primary-orange/90 hover:to-orange-500/90 transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl border-0"
+                    >
+                      <Rocket className="w-5 h-5 mr-2" />
+                      Get Free AI Consultation
+                    </Button>
+                  </Link>
+                  <Link href="tel:+917892518414">
+                    <Button 
+                      variant="outline" 
+                      size="lg" 
+                      className="w-full sm:w-auto border-primary-orange/30 text-white hover:bg-primary-orange/10 hover:border-primary-orange/50 backdrop-blur-sm transform hover:scale-105 transition-all duration-300"
+                    >
+                      <Phone className="w-4 h-4 mr-2" />
+                      Call: +1-789-251-8414
+                    </Button>
+                  </Link>
+                </div>
+
+                {/* Enhanced Stats */}
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto lg:mx-0">
+                  {stats.map((stat, index) => (
+                    <div key={index} className="text-center lg:text-left group">
+                      <div className="relative">
+                        <div className="absolute inset-0 bg-gradient-to-r from-primary-orange/20 to-transparent rounded-lg blur opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                        <div className="relative p-4 rounded-lg border border-white/10 backdrop-blur-sm bg-white/5 hover:bg-white/10 transition-all duration-300">
+                          <div className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-primary-orange to-orange-300 bg-clip-text text-transparent mb-1">
+                            {stat.number}
+                          </div>
+                          <div className="text-sm text-gray-300 font-medium">{stat.label}</div>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Visual Side */}
+              <div className="relative lg:flex hidden">
+                <div className="relative mx-auto">
+                  {/* Central AI Hub */}
+                  <div className="relative w-80 h-80 mx-auto">
+                    <div className="absolute inset-0 bg-gradient-to-r from-primary-orange/20 to-blue-500/20 rounded-full blur-2xl animate-pulse"></div>
+                    <div className="relative w-full h-full border border-primary-orange/30 rounded-full backdrop-blur-sm bg-gradient-to-br from-white/10 to-transparent flex items-center justify-center">
+                      <div className="w-32 h-32 bg-gradient-to-br from-primary-orange to-orange-500 rounded-full flex items-center justify-center shadow-2xl">
+                        <Brain className="w-16 h-16 text-white" />
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Orbiting Elements */}
+                  <div className="absolute inset-0 animate-spin-slow">
+                    <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                      <div className="w-16 h-16 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-lg backdrop-blur-sm border border-blue-500/30 flex items-center justify-center">
+                        <Database className="w-8 h-8 text-blue-400" />
+                      </div>
+                    </div>
+                    
+                    <div className="absolute top-1/2 right-0 transform translate-x-1/2 -translate-y-1/2">
+                      <div className="w-16 h-16 bg-gradient-to-br from-green-500/20 to-emerald-500/20 rounded-lg backdrop-blur-sm border border-green-500/30 flex items-center justify-center">
+                        <TrendingUp className="w-8 h-8 text-green-400" />
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2">
+                      <div className="w-16 h-16 bg-gradient-to-br from-purple-500/20 to-pink-500/20 rounded-lg backdrop-blur-sm border border-purple-500/30 flex items-center justify-center">
+                        <Sparkles className="w-8 h-8 text-purple-400" />
+                      </div>
+                    </div>
+                    
+                    <div className="absolute top-1/2 left-0 transform -translate-x-1/2 -translate-y-1/2">
+                      <div className="w-16 h-16 bg-gradient-to-br from-orange-500/20 to-red-500/20 rounded-lg backdrop-blur-sm border border-orange-500/30 flex items-center justify-center">
+                        <Target className="w-8 h-8 text-orange-400" />
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Connection Lines */}
+                  <svg className="absolute inset-0 w-full h-full pointer-events-none">
+                    <defs>
+                      <linearGradient id="connectionGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stopColor="rgb(251, 146, 60)" stopOpacity="0.3"/>
+                        <stop offset="100%" stopColor="rgb(59, 130, 246)" stopOpacity="0.1"/>
+                      </linearGradient>
+                    </defs>
+                    <g className="animate-pulse">
+                      <path d="M 190,40 L 190,190" stroke="url(#connectionGradient)" strokeWidth="2" fill="none" strokeDasharray="5,5"/>
+                      <path d="M 340,190 L 190,190" stroke="url(#connectionGradient)" strokeWidth="2" fill="none" strokeDasharray="5,5"/>
+                      <path d="M 190,340 L 190,190" stroke="url(#connectionGradient)" strokeWidth="2" fill="none" strokeDasharray="5,5"/>
+                      <path d="M 40,190 L 190,190" stroke="url(#connectionGradient)" strokeWidth="2" fill="none" strokeDasharray="5,5"/>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Scroll Indicator */}
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white/60 animate-bounce">
+          <div className="flex flex-col items-center gap-2">
+            <span className="text-sm font-medium">Explore Our AI Solutions</span>
+            <ChevronDown className="w-5 h-5" />
           </div>
         </div>
       </section>
