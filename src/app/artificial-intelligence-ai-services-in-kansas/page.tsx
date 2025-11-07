@@ -710,7 +710,7 @@ export default function AIServicesKansasPage() {
                 Looking for the best <span className="text-primary-orange font-semibold">AI Company In Kansas</span>? Metic.ai is the premier <span className="text-primary-orange font-semibold">Artificial Intelligence Company In Kansas</span> with <span className="text-primary-orange font-bold">2,100+</span> successful implementations across the Sunflower State.
               </p>
               <p className="text-lg text-gray-300 max-w-3xl mx-auto">
-                From Wichita's aerospace excellence to precision agriculture throughout Kansas, we deliver AI solutions that drive real results. Which <span className="text-primary-orange font-semibold">AI Service In Kansas</span> do you need? Our expert team provides custom AI development, machine learning, and automation with <span className="text-green-400 font-semibold">60% cost savings</span> and <span className="text-blue-400 font-semibold">3x faster delivery</span> for Kansas businesses.
+                From Wichita's aerospace excellence to precision agriculture throughout Kansas, we deliver AI solutions that drive real results. Which <span className="text-primary-orange font-semibold">AI Service In Kansas</span> do you need? Our expert team provides custom AI development, machine learning, and automation with <span className="text-green-400 font-semibold">60% cost savings</span> and <span className="text-orange-400 font-semibold">3x faster delivery</span> for Kansas businesses.
               </p>
               
               {/* Trust Indicators */}
@@ -797,8 +797,8 @@ export default function AIServicesKansasPage() {
         {/* Background Elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-orange-200/40 to-red-300/40 rounded-full opacity-60 blur-3xl animate-pulse"></div>
-          <div className="absolute bottom-20 left-20 w-96 h-96 bg-gradient-to-br from-blue-200/40 to-purple-300/40 rounded-full opacity-60 blur-3xl animate-pulse animation-delay-2000"></div>
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-gradient-to-br from-green-200/30 to-blue-300/30 rounded-full opacity-50 blur-3xl animate-pulse animation-delay-4000"></div>
+          <div className="absolute bottom-20 left-20 w-96 h-96 bg-gradient-to-br from-orange-200/40 to-red-300/40 rounded-full opacity-60 blur-3xl animate-pulse animation-delay-2000"></div>
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-gradient-to-br from-orange-200/30 to-red-300/30 rounded-full opacity-50 blur-3xl animate-pulse animation-delay-4000"></div>
         </div>
 
         <div className="relative container px-4 md:px-6">
@@ -825,7 +825,7 @@ export default function AIServicesKansasPage() {
               {services.map((service, index) => {
                 const IconComponent = service.icon;
                 const colorClasses = {
-                  blue: "from-orange-500 to-blue-600",
+                  blue: "from-orange-500 to-orange-600",
                   purple: "from-purple-500 to-orange-600", 
                   green: "from-green-500 to-orange-500",
                   orange: "from-orange-500 to-red-600",
@@ -833,7 +833,7 @@ export default function AIServicesKansasPage() {
                   red: "from-red-500 to-orange-600"
                 };
                 const bgColorClasses = {
-                  blue: "from-orange-50 to-blue-100",
+                  blue: "from-orange-50 to-orange-100",
                   purple: "from-purple-50 to-orange-100", 
                   green: "from-green-50 to-orange-100",
                   orange: "from-orange-50 to-red-100",
@@ -851,7 +851,7 @@ export default function AIServicesKansasPage() {
                       
                       {/* Floating background shapes */}
                       <div className="absolute top-4 right-4 w-20 h-20 bg-gradient-to-br from-orange-100 to-red-200 rounded-full opacity-0 group-hover:opacity-20 transform scale-0 group-hover:scale-100 transition-all duration-500"></div>
-                      <div className="absolute bottom-4 left-4 w-16 h-16 bg-gradient-to-br from-blue-100 to-purple-200 rounded-lg rotate-45 opacity-0 group-hover:opacity-15 transform scale-0 group-hover:scale-100 transition-all duration-700"></div>
+                      <div className="absolute bottom-4 left-4 w-16 h-16 bg-gradient-to-br from-orange-100 to-red-200 rounded-lg rotate-45 opacity-0 group-hover:opacity-15 transform scale-0 group-hover:scale-100 transition-all duration-700"></div>
                       
                       <div className="relative z-10">
                         {/* Enhanced Icon with Multiple Effects */}
@@ -890,10 +890,10 @@ export default function AIServicesKansasPage() {
                 </div>
                 <div className="w-3 h-3 bg-gradient-to-r from-orange-400 to-red-500 rounded-full animate-pulse"></div>
                 <div className="flex items-center gap-3">
-                  <Clock className="w-6 h-6 text-blue-500 group-hover:scale-110 transition-transform duration-300" />
+                  <Clock className="w-6 h-6 text-orange-500 group-hover:scale-110 transition-transform duration-300" />
                   <span className="text-gray-700 font-semibold">Quick 24-hour Response</span>
                 </div>
-                <div className="w-3 h-3 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full animate-pulse animation-delay-1000"></div>
+                <div className="w-3 h-3 bg-gradient-to-r from-orange-400 to-red-500 rounded-full animate-pulse animation-delay-1000"></div>
                 <Link href="/contact" className="flex items-center gap-2 text-orange-600 hover:text-orange-700 font-bold transition-all duration-300 group-hover:scale-105">
                   <span>Start Your AI Journey</span>
                   <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
@@ -921,13 +921,13 @@ export default function AIServicesKansasPage() {
                 <span>Industry Expertise</span>
                 <div className="w-2 h-2 bg-orange-500 rounded-full animate-pulse"></div>
               </div>
-              <h2 className="text-4xl font-bold tracking-tight sm:text-6xl mb-8 bg-gradient-to-r from-gray-900 via-blue-800 to-indigo-900 bg-clip-text text-transparent">
-                Leading AI Transformation Across <span className="text-blue-600">Kansas Industries</span>
+              <h2 className="text-4xl font-bold tracking-tight sm:text-6xl mb-8 bg-gradient-to-r from-gray-900 via-orange-800 to-red-900 bg-clip-text text-transparent">
+                Leading AI Transformation Across <span className="text-orange-600">Kansas Industries</span>
               </h2>
               <div className="w-32 h-1 bg-gradient-to-r from-orange-500 via-red-500 to-pink-500 mx-auto mb-8"></div>
               <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
                 Delivering specialized AI solutions across Kansas's key business sectors. From the aviation capital of Wichita to agricultural innovation throughout the Great Plains, 
-                our <strong className="text-blue-600">AI Firm In Kansas</strong> understands the unique needs of every industry.
+                our <strong className="text-orange-600">AI Firm In Kansas</strong> understands the unique needs of every industry.
               </p>
             </div>
             
@@ -938,27 +938,27 @@ export default function AIServicesKansasPage() {
                 return (
                   <div key={index} className="group relative transform hover:scale-105 transition-all duration-500">
                     {/* Card Background */}
-                    <div className="absolute inset-0 bg-gradient-to-br from-white via-blue-50 to-indigo-100 rounded-3xl shadow-lg group-hover:shadow-2xl transition-all duration-500"></div>
-                    <div className="relative bg-white/90 backdrop-blur-sm rounded-3xl p-8 border border-blue-100 hover:border-blue-300 transition-all duration-500 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-white via-orange-50 to-red-50 rounded-3xl shadow-lg group-hover:shadow-2xl transition-all duration-500"></div>
+                    <div className="relative bg-white/90 backdrop-blur-sm rounded-3xl p-8 border border-orange-100 hover:border-orange-300 transition-all duration-500 overflow-hidden">
                       {/* Hover background effect */}
-                      <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-indigo-100 opacity-0 group-hover:opacity-20 rounded-3xl transition-opacity duration-500"></div>
+                      <div className="absolute inset-0 bg-gradient-to-br from-orange-50 to-red-100 opacity-0 group-hover:opacity-20 rounded-3xl transition-opacity duration-500"></div>
                       
                       {/* Floating elements */}
-                      <div className="absolute top-4 right-4 w-16 h-16 bg-gradient-to-br from-blue-100 to-indigo-200 rounded-full opacity-0 group-hover:opacity-30 transform scale-0 group-hover:scale-100 transition-all duration-500"></div>
+                      <div className="absolute top-4 right-4 w-16 h-16 bg-gradient-to-br from-orange-100 to-red-200 rounded-full opacity-0 group-hover:opacity-30 transform scale-0 group-hover:scale-100 transition-all duration-500"></div>
                       
                       <div className="relative z-10">
                         {/* Enhanced Icon */}
-                        <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl flex items-center justify-center mx-auto mb-6 transform group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-lg group-hover:shadow-xl">
+                        <div className="w-16 h-16 bg-gradient-to-br from-orange-500 to-red-600 rounded-2xl flex items-center justify-center mx-auto mb-6 transform group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-lg group-hover:shadow-xl">
                           <IconComponent className="w-8 h-8 text-white" />
                         </div>
                         
-                        <h3 className="text-xl font-bold mb-3 text-blue-800 group-hover:text-blue-900 transition-colors duration-300 text-center">{industry.name}</h3>
+                        <h3 className="text-xl font-bold mb-3 text-orange-800 group-hover:text-orange-900 transition-colors duration-300 text-center">{industry.name}</h3>
                         <p className="text-gray-600 text-sm text-center mb-4 group-hover:text-gray-700 transition-colors duration-300">{industry.description}</p>
                         
                         {/* Stats */}
-                        <div className="flex justify-between items-center pt-4 border-t border-blue-100">
+                        <div className="flex justify-between items-center pt-4 border-t border-orange-100">
                           <div className="text-center">
-                            <div className="text-lg font-bold text-blue-600 group-hover:scale-110 transition-transform duration-300">{industry.projects}+</div>
+                            <div className="text-lg font-bold text-orange-600 group-hover:scale-110 transition-transform duration-300">{industry.projects}+</div>
                             <div className="text-xs text-gray-500">Projects</div>
                           </div>
                           <div className="text-center">
