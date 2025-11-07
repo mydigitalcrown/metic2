@@ -664,7 +664,133 @@ export default function AIServicesKansasPage() {
         }}
       />
 
+      {/* Enhanced Creative Hero Section - VSO & Target Keyword Optimized */}
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28 relative overflow-hidden">
+        {/* Creative Background Elements */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          {/* Animated Circuit Pattern */}
+          <div className="absolute inset-0 opacity-[0.03]" style={{
+            backgroundImage: `linear-gradient(#FF6B35 1px, transparent 1px), linear-gradient(90deg, #FF6B35 1px, transparent 1px)`,
+            backgroundSize: '50px 50px'
+          }}></div>
+          
+          {/* Floating AI Elements */}
+          <div className="absolute top-20 left-10 w-32 h-32 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-20 right-10 w-40 h-40 bg-primary-orange/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
+          
+          {/* Geometric Shapes */}
+          <div className="absolute top-1/4 left-1/4 w-2 h-2 bg-primary-orange/30 rounded-full animate-bounce" style={{animationDelay: '1s'}}></div>
+          <div className="absolute top-1/3 right-1/3 w-1.5 h-1.5 bg-orange-400/30 rounded-full animate-bounce" style={{animationDelay: '3s'}}></div>
+          <div className="absolute bottom-1/4 left-1/3 w-2.5 h-2.5 bg-primary-orange/20 rounded-full animate-bounce" style={{animationDelay: '2.5s'}}></div>
+        </div>
 
+        <div className="container px-4 md:px-6 relative z-10">
+          <div className="max-w-4xl mx-auto text-center">
+            {/* Enhanced Location Badge */}
+            <div className="inline-flex items-center gap-3 mb-8 bg-gray-800/50 backdrop-blur-sm rounded-full px-6 py-3 border border-primary-orange/20">
+              <div className="relative">
+                <MapPin className="w-5 h-5 text-primary-orange" />
+                <div className="absolute -top-1 -right-1 w-3 h-3 bg-primary-orange rounded-full animate-ping"></div>
+              </div>
+              <span className="text-sm font-medium text-orange-300">Serving Kansas & Sunflower State</span>
+              <div className="w-2 h-2 bg-primary-orange rounded-full animate-pulse"></div>
+            </div>
+            
+            {/* Enhanced Main Headlines with VSO Focus */}
+            <h1 className="text-4xl font-bold tracking-tight sm:text-6xl md:text-7xl mb-6 text-white">
+              <strong>Artificial Intelligence Company In Kansas</strong>
+              <span className="block text-3xl sm:text-4xl md:text-5xl mt-4 bg-gradient-to-r from-primary-orange via-orange-400 to-orange-500 bg-clip-text text-transparent animate-gradient-x">
+                Leading AI Company In Kansas
+              </span>
+            </h1>
+            
+            {/* Enhanced Value Proposition with Natural Language & VSO */}
+            <div className="space-y-4 mb-8">
+              <p className="text-xl text-gray-200 max-w-4xl mx-auto leading-relaxed">
+                Looking for the best <span className="text-primary-orange font-semibold">AI Company In Kansas</span>? Metic.ai is the premier <span className="text-primary-orange font-semibold">Artificial Intelligence Company In Kansas</span> with <span className="text-primary-orange font-bold">2,100+</span> successful implementations across the Sunflower State.
+              </p>
+              <p className="text-lg text-gray-300 max-w-3xl mx-auto">
+                From Wichita's aerospace excellence to precision agriculture throughout Kansas, we deliver AI solutions that drive real results. Which <span className="text-primary-orange font-semibold">AI Service In Kansas</span> do you need? Our expert team provides custom AI development, machine learning, and automation with <span className="text-green-400 font-semibold">60% cost savings</span> and <span className="text-blue-400 font-semibold">3x faster delivery</span> for Kansas businesses.
+              </p>
+              
+              {/* Trust Indicators */}
+              <div className="flex items-center justify-center gap-6 mb-8">
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
+                    <Shield className="w-4 h-4 text-primary-orange" />
+                  </div>
+                  <span className="text-sm text-gray-400">ISO Certified</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
+                    <Award className="w-4 h-4 text-primary-orange" />
+                  </div>
+                  <span className="text-sm text-gray-400">Award Winning</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
+                    <Users className="w-4 h-4 text-primary-orange" />
+                  </div>
+                  <span className="text-sm text-gray-400">2100+ Clients</span>
+                </div>
+              </div>
+            </div>
+            
+            {/* Enhanced CTA Buttons */}
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+              <Link href="/contact">
+                <Button 
+                  variant="primary" 
+                  size="lg" 
+                  className="w-full sm:w-auto bg-gradient-to-r from-primary-orange to-orange-500 hover:from-primary-orange/90 hover:to-orange-500/90 transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl group"
+                >
+                  <Rocket className="w-5 h-5 mr-2 group-hover:animate-pulse" />
+                  Get Free AI Consultation
+                </Button>
+              </Link>
+              <Link href="tel:+917892518414">
+                <Button 
+                  variant="outline" 
+                  size="lg" 
+                  className="w-full sm:w-auto border-primary-orange text-primary-orange hover:bg-primary-orange/10 transform hover:scale-105 transition-all duration-300 group"
+                >
+                  <Phone className="w-4 h-4 mr-2 group-hover:animate-pulse" />
+                  Call: +91 7892518414
+                </Button>
+              </Link>
+            </div>
+
+            {/* Enhanced Stats with Creative Design */}
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto mb-12">
+              {stats.map((stat, index) => {
+                const IconComponent = stat.icon;
+                return (
+                  <div key={index} className="group bg-gray-800/30 backdrop-blur-sm border border-gray-700/50 rounded-2xl p-6 hover:bg-gray-700/30 hover:border-primary-orange/30 transition-all duration-500 hover:scale-105">
+                    <div className="flex items-center justify-center mb-3">
+                      <div className="p-2 bg-primary-orange/20 rounded-xl group-hover:bg-primary-orange/30 transition-colors duration-300">
+                        <IconComponent className="w-6 h-6 text-primary-orange group-hover:scale-110 transition-transform duration-300" />
+                      </div>
+                    </div>
+                    <div className="text-2xl font-bold text-white mb-2 group-hover:text-primary-orange transition-colors duration-300">
+                      {stat.number}
+                    </div>
+                    <div className="text-sm text-gray-400 font-medium leading-tight group-hover:text-gray-300 transition-colors duration-300">
+                      {stat.label}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+
+            {/* Enhanced scroll indicator */}
+            <div className="animate-bounce">
+              <div className="w-6 h-10 border-2 border-gray-400 rounded-full flex justify-center">
+                <div className="w-1 h-3 bg-primary-orange rounded-full mt-2 animate-pulse"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Enhanced Services Section with Creative Design */}
       <section className="py-32 bg-gradient-to-br from-gray-50 via-orange-50 to-red-50 relative overflow-hidden">
@@ -779,26 +905,26 @@ export default function AIServicesKansasPage() {
       </section>
 
       {/* Enhanced Industries Section */}
-      <section className="py-32 bg-gradient-to-br from-white via-blue-50 to-indigo-100 relative overflow-hidden">
+      <section className="py-32 bg-white relative overflow-hidden">
         {/* Background Elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <div className="absolute top-20 left-20 w-96 h-96 bg-gradient-to-br from-blue-200/30 to-indigo-300/30 rounded-full blur-3xl opacity-50 animate-pulse"></div>
-          <div className="absolute bottom-20 right-20 w-96 h-96 bg-gradient-to-br from-purple-200/30 to-pink-300/30 rounded-full blur-3xl opacity-50 animate-pulse animation-delay-2000"></div>
+          <div className="absolute top-20 left-20 w-96 h-96 bg-gradient-to-br from-orange-200/20 to-primary-orange/20 rounded-full blur-3xl opacity-50 animate-pulse"></div>
+          <div className="absolute bottom-20 right-20 w-96 h-96 bg-gradient-to-br from-orange-300/20 to-red-400/20 rounded-full blur-3xl opacity-50 animate-pulse animation-delay-2000"></div>
         </div>
 
         <div className="relative container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             {/* Enhanced Section Header */}
             <div className="text-center mb-20">
-              <div className="inline-flex items-center gap-3 px-6 py-3 bg-blue-100/80 backdrop-blur-sm border border-blue-200 text-blue-700 rounded-full font-semibold mb-8">
+              <div className="inline-flex items-center gap-3 px-6 py-3 bg-orange-100/80 backdrop-blur-sm border border-orange-200 text-orange-700 rounded-full font-semibold mb-8">
                 <Target className="w-5 h-5" />
                 <span>Industry Expertise</span>
-                <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></div>
+                <div className="w-2 h-2 bg-orange-500 rounded-full animate-pulse"></div>
               </div>
               <h2 className="text-4xl font-bold tracking-tight sm:text-6xl mb-8 bg-gradient-to-r from-gray-900 via-blue-800 to-indigo-900 bg-clip-text text-transparent">
                 Leading AI Transformation Across <span className="text-blue-600">Kansas Industries</span>
               </h2>
-              <div className="w-32 h-1 bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500 mx-auto mb-8"></div>
+              <div className="w-32 h-1 bg-gradient-to-r from-orange-500 via-red-500 to-pink-500 mx-auto mb-8"></div>
               <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
                 Delivering specialized AI solutions across Kansas's key business sectors. From the aviation capital of Wichita to agricultural innovation throughout the Great Plains, 
                 our <strong className="text-blue-600">AI Firm In Kansas</strong> understands the unique needs of every industry.
@@ -1018,7 +1144,7 @@ export default function AIServicesKansasPage() {
       </section>
 
       {/* Comprehensive Kansas AI Ecosystem Content Section */}
-      <section className="py-32 bg-gradient-to-br from-gray-50 via-blue-50 to-indigo-50 relative overflow-hidden">
+      <section className="py-32 bg-gradient-to-br from-gray-50 via-orange-50 to-red-50 relative overflow-hidden">
         {/* Background Elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-blue-200/30 to-indigo-300/30 rounded-full blur-3xl opacity-50 animate-pulse"></div>
@@ -1800,28 +1926,28 @@ export default function AIServicesKansasPage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-32 bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100 relative overflow-hidden">
+      <section className="py-32 bg-white relative overflow-hidden">
         {/* Background Elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <div className="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-blue-200/40 to-indigo-300/40 rounded-full blur-3xl opacity-60"></div>
-          <div className="absolute bottom-20 left-20 w-96 h-96 bg-gradient-to-br from-orange-200/40 to-red-300/40 rounded-full blur-3xl opacity-60"></div>
+          <div className="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-orange-200/20 to-primary-orange/20 rounded-full blur-3xl opacity-60"></div>
+          <div className="absolute bottom-20 left-20 w-96 h-96 bg-gradient-to-br from-orange-300/20 to-red-400/20 rounded-full blur-3xl opacity-60"></div>
         </div>
 
         <div className="relative container px-4 md:px-6">
           <div className="max-w-5xl mx-auto">
             {/* Section Header */}
             <div className="text-center mb-20">
-              <div className="inline-flex items-center gap-3 px-6 py-3 bg-white/80 backdrop-blur-sm border border-gray-200 rounded-full mb-8">
-                <Quote className="w-5 h-5 text-blue-600" />
-                <span className="text-blue-700 font-semibold">Frequently Asked Questions</span>
+              <div className="inline-flex items-center gap-3 px-6 py-3 bg-orange-100/80 backdrop-blur-sm border border-orange-200 rounded-full mb-8">
+                <Quote className="w-5 h-5 text-orange-600" />
+                <span className="text-orange-700 font-semibold">Frequently Asked Questions</span>
                 <div className="w-2 h-2 bg-orange-400 rounded-full animate-pulse"></div>
               </div>
-              <h2 className="text-4xl font-bold tracking-tight sm:text-5xl mb-8 bg-gradient-to-r from-gray-900 via-blue-800 to-indigo-900 bg-clip-text text-transparent">
+              <h2 className="text-4xl font-bold tracking-tight sm:text-5xl mb-8 bg-gradient-to-r from-gray-900 via-orange-800 to-red-900 bg-clip-text text-transparent">
                 Everything About Our <span className="text-orange-600">AI Company In Kansas</span>
               </h2>
               <div className="w-24 h-1 bg-gradient-to-r from-orange-500 via-red-500 to-pink-500 mx-auto mb-8"></div>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-                Get answers to common questions about our <strong className="text-blue-600">Artificial Intelligence Company In Kansas</strong> 
+                Get answers to common questions about our <strong className="text-orange-600">Artificial Intelligence Company In Kansas</strong> 
                 and how we serve businesses across the Sunflower State.
               </p>
             </div>
