@@ -82,9 +82,6 @@ Sitemap: https://metic.ai/sitemap-0.xml
 # RSS Feed for content discovery
 Sitemap: https://metic.ai/rss.xml
 
-# Host (helps with canonicalization and domain authority)
-Host: https://metic.ai
-
 # Crawl optimization note:
 # This site contains 142+ location-based AI service pages
 # All pages are optimized for 100% On-Page SEO, VSO, ASO, and GEO
