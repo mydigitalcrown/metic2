@@ -84,11 +84,6 @@ export const metadata = {
     description: "Leading Machine Learning Company In North Dakota with 2100+ successful ML implementations. Expert ML services, AI solutions & data science. Transform your business with 60% cost savings & 3x faster delivery in Fargo, Bismarck.",
     images: ["https://metic.ai/twitter-image-machine-learning-north-dakota.jpg"],
   },
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-    maximumScale: 1,
-  },
   robots: {
     index: true,
     follow: true,
@@ -104,6 +99,12 @@ export const metadata = {
       "msvalidate.01": "your-bing-verification-code"
     }
   }
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
 };
 
 export default function MachineLearningNorthDakotaPage() {

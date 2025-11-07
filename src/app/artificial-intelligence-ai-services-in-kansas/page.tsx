@@ -301,33 +301,33 @@ export default function AIServicesKansasPage() {
       />
 
       {/* Hero Section */}
-      <section className="relative min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 py-20 md:py-32 overflow-hidden">
+      <section className="relative min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-32 overflow-hidden">
         {/* Animated Background Elements */}
         <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute -top-40 -right-32 w-96 h-96 bg-gradient-to-br from-blue-400/20 to-indigo-600/20 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse"></div>
-          <div className="absolute -bottom-40 -left-32 w-96 h-96 bg-gradient-to-br from-purple-400/20 to-pink-600/20 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse animation-delay-2000"></div>
+          <div className="absolute -top-40 -right-32 w-96 h-96 bg-gradient-to-br from-orange-400/20 to-red-600/20 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse"></div>
+          <div className="absolute -bottom-40 -left-32 w-96 h-96 bg-gradient-to-br from-primary-orange/20 to-orange-600/20 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse animation-delay-2000"></div>
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-br from-orange-400/10 to-red-600/10 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-pulse animation-delay-4000"></div>
         </div>
 
         {/* Floating AI Elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute top-20 left-20 animate-float">
-            <div className="w-16 h-16 bg-gradient-to-br from-blue-400 to-blue-600 rounded-xl rotate-45 opacity-20"></div>
+            <div className="w-16 h-16 bg-gradient-to-br from-orange-400 to-orange-600 rounded-xl rotate-45 opacity-20"></div>
           </div>
           <div className="absolute top-40 right-32 animate-float-delay-1">
-            <div className="w-12 h-12 bg-gradient-to-br from-purple-400 to-purple-600 rounded-full opacity-25"></div>
+            <div className="w-12 h-12 bg-gradient-to-br from-primary-orange to-orange-600 rounded-full opacity-25"></div>
           </div>
           <div className="absolute bottom-40 left-16 animate-float-delay-2">
-            <div className="w-20 h-20 bg-gradient-to-br from-indigo-400 to-indigo-600 rounded-lg rotate-12 opacity-15"></div>
+            <div className="w-20 h-20 bg-gradient-to-br from-orange-400 to-red-600 rounded-lg rotate-12 opacity-15"></div>
           </div>
           <div className="absolute bottom-32 right-20 animate-float-delay-3">
-            <div className="w-14 h-14 bg-gradient-to-br from-cyan-400 to-cyan-600 rounded-xl rotate-45 opacity-20"></div>
+            <div className="w-14 h-14 bg-gradient-to-br from-primary-orange to-orange-600 rounded-xl rotate-45 opacity-20"></div>
           </div>
           <div className="absolute top-1/3 left-1/4 animate-float-delay-4">
-            <Brain className="w-8 h-8 text-blue-400 opacity-30" />
+            <Brain className="w-8 h-8 text-orange-400 opacity-30" />
           </div>
           <div className="absolute bottom-1/3 right-1/4 animate-float">
-            <Zap className="w-10 h-10 text-yellow-400 opacity-25" />
+            <Zap className="w-10 h-10 text-orange-400 opacity-25" />
           </div>
         </div>
 
@@ -340,22 +340,22 @@ export default function AIServicesKansasPage() {
             <div className="inline-flex items-center gap-3 px-6 py-3 bg-white/10 backdrop-blur-md border border-white/20 rounded-full mb-8">
               <MapPin className="w-5 h-5 text-orange-400" />
               <span className="text-sm font-medium text-orange-200">Serving Kansas</span>
-              <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-              <span className="text-sm font-medium text-green-200">Online Now</span>
+              <div className="w-2 h-2 bg-orange-400 rounded-full animate-pulse"></div>
+              <span className="text-sm font-medium text-orange-200">Online Now</span>
             </div>
             
             <h1 className="text-4xl font-bold tracking-tight sm:text-6xl md:text-7xl mb-8 text-white leading-tight">
-              <span className="bg-gradient-to-r from-white via-blue-100 to-white bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-white via-gray-100 to-white bg-clip-text text-transparent">
                 <strong>Artificial Intelligence Company In Kansas</strong>
               </span>
               <br />
-              <span className="text-3xl sm:text-4xl md:text-5xl bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent">
+              <span className="text-3xl sm:text-4xl md:text-5xl bg-gradient-to-r from-primary-orange to-orange-600 bg-clip-text text-transparent">
                 Leading AI Company In Kansas
               </span>
             </h1>
             
             <p className="text-xl text-gray-200 mb-10 max-w-4xl mx-auto leading-relaxed">
-              Looking for the best <strong className="text-orange-300">AI Company In Kansas</strong>? Metic.ai is the premier <strong className="text-blue-300">Artificial Intelligence Company In Kansas</strong> with <span className="text-yellow-300 font-semibold">2100+</span> successful implementations. From Wichita's aerospace industry to agricultural innovation across the Sunflower State, we deliver AI solutions that drive real results. Which <strong className="text-green-300">AI Service In Kansas</strong> do you need? Our expert team provides custom AI development, machine learning, and automation with <span className="text-orange-300 font-semibold">60% cost savings</span> and <span className="text-blue-300 font-semibold">3x faster delivery</span>.
+              Looking for the best <strong className="text-orange-300">AI Company In Kansas</strong>? Metic.ai is the premier <strong className="text-orange-300">Artificial Intelligence Company In Kansas</strong> with <span className="text-orange-400 font-semibold">2100+</span> successful implementations. From Wichita's aerospace industry to agricultural innovation across the Sunflower State, we deliver AI solutions that drive real results. Which <strong className="text-orange-300">AI Service In Kansas</strong> do you need? Our expert team provides custom AI development, machine learning, and automation with <span className="text-orange-300 font-semibold">60% cost savings</span> and <span className="text-orange-300 font-semibold">3x faster delivery</span>.
             </p>
 
             {/* Trust Indicators */}
@@ -369,14 +369,14 @@ export default function AIServicesKansasPage() {
                 <span className="text-sm text-green-200 font-medium">2100+ Successful Implementations</span>
               </div>
               <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full border border-white/20">
-                <Shield className="w-4 h-4 text-blue-400" />
-                <span className="text-sm text-blue-200 font-medium">Enterprise Security</span>
+                <Shield className="w-4 h-4 text-orange-400" />
+                <span className="text-sm text-orange-200 font-medium">Enterprise Security</span>
               </div>
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
               <Link href="/contact">
-                <Button variant="primary" size="lg" className="group bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white border-0 shadow-2xl shadow-orange-500/25 transform hover:scale-105 transition-all duration-300">
+                <Button variant="primary" size="lg" className="group bg-gradient-to-r from-primary-orange to-orange-600 hover:from-orange-600 hover:to-red-600 text-white border-0 shadow-2xl shadow-orange-500/25 transform hover:scale-105 transition-all duration-300">
                   <Sparkles className="w-5 h-5 mr-2 group-hover:animate-spin" />
                   Get Free AI Company Consultation
                   <ChevronRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
@@ -394,7 +394,7 @@ export default function AIServicesKansasPage() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
               {stats.map((stat, index) => (
                 <div key={index} className="group bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition-all duration-300">
-                  <div className="text-3xl font-bold bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent mb-2 group-hover:scale-110 transition-transform duration-300">
+                  <div className="text-3xl font-bold bg-gradient-to-r from-primary-orange to-orange-600 bg-clip-text text-transparent mb-2 group-hover:scale-110 transition-transform duration-300">
                     {stat.number}
                   </div>
                   <div className="text-sm text-gray-300 font-medium">{stat.label}</div>
@@ -413,11 +413,11 @@ export default function AIServicesKansasPage() {
       </section>
 
       {/* Services Section */}
-      <section className="py-24 bg-gradient-to-br from-gray-50 via-blue-50 to-indigo-50 relative overflow-hidden">
+      <section className="py-24 bg-gradient-to-br from-gray-50 via-orange-50 to-red-50 relative overflow-hidden">
         {/* Background Elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <div className="absolute top-20 right-20 w-64 h-64 bg-gradient-to-br from-blue-100 to-indigo-200 rounded-full opacity-20 blur-3xl"></div>
-          <div className="absolute bottom-20 left-20 w-64 h-64 bg-gradient-to-br from-orange-100 to-red-200 rounded-full opacity-20 blur-3xl"></div>
+          <div className="absolute top-20 right-20 w-64 h-64 bg-gradient-to-br from-orange-100 to-red-200 rounded-full opacity-20 blur-3xl"></div>
+          <div className="absolute bottom-20 left-20 w-64 h-64 bg-gradient-to-br from-primary-orange/20 to-orange-200 rounded-full opacity-20 blur-3xl"></div>
         </div>
 
         <div className="relative container px-4 md:px-6">
@@ -427,10 +427,10 @@ export default function AIServicesKansasPage() {
                 <Sparkles className="w-4 h-4" />
                 <span>AI Solutions Portfolio</span>
               </div>
-              <h2 className="text-4xl font-bold tracking-tight sm:text-5xl mb-6 bg-gradient-to-r from-gray-900 via-blue-800 to-indigo-900 bg-clip-text text-transparent">
+              <h2 className="text-4xl font-bold tracking-tight sm:text-5xl mb-6 bg-gradient-to-r from-gray-900 via-orange-800 to-red-900 bg-clip-text text-transparent">
                 AI Solutions for <span className="text-orange-600">Kansas</span> Businesses
               </h2>
-              <div className="w-24 h-1 bg-gradient-to-r from-orange-500 to-red-500 mx-auto mb-8"></div>
+              <div className="w-24 h-1 bg-gradient-to-r from-primary-orange to-red-500 mx-auto mb-8"></div>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
                 Comprehensive artificial intelligence services designed to help Kansas businesses 
                 compete in the digital economy and drive sustainable growth across the Sunflower State.
@@ -441,26 +441,26 @@ export default function AIServicesKansasPage() {
               {services.map((service, index) => {
                 const IconComponent = service.icon;
                 const colorClasses = {
-                  blue: "from-blue-500 to-blue-600",
-                  purple: "from-purple-500 to-purple-600", 
-                  green: "from-green-500 to-green-600",
-                  orange: "from-orange-500 to-orange-600",
-                  indigo: "from-indigo-500 to-indigo-600",
+                  blue: "from-orange-500 to-red-600",
+                  purple: "from-primary-orange to-orange-600", 
+                  green: "from-orange-500 to-red-500",
+                  orange: "from-primary-orange to-orange-600",
+                  indigo: "from-orange-400 to-red-600",
                   red: "from-red-500 to-red-600"
                 };
                 const bgColorClasses = {
-                  blue: "from-blue-50 to-blue-100",
-                  purple: "from-purple-50 to-purple-100", 
-                  green: "from-green-50 to-green-100",
+                  blue: "from-orange-50 to-red-100",
+                  purple: "from-orange-50 to-orange-100", 
+                  green: "from-orange-50 to-red-100",
                   orange: "from-orange-50 to-orange-100",
-                  indigo: "from-indigo-50 to-indigo-100",
+                  indigo: "from-orange-50 to-red-100",
                   red: "from-red-50 to-red-100"
                 };
                 
                 return (
                   <div key={index} className="group relative">
                     <div className="absolute inset-0 bg-gradient-to-br from-white to-gray-50 rounded-2xl transform group-hover:scale-105 transition-all duration-500 shadow-lg group-hover:shadow-2xl"></div>
-                    <div className="relative bg-white/80 backdrop-blur-sm rounded-2xl p-8 border border-gray-100 hover:border-gray-200 transition-all duration-300">
+                    <div className="relative bg-white/80 backdrop-blur-sm rounded-2xl p-8 border border-gray-100 hover:border-orange-200 transition-all duration-300">
                       {/* Gradient overlay on hover */}
                       <div className={`absolute inset-0 bg-gradient-to-br ${bgColorClasses[service.color]} opacity-0 group-hover:opacity-5 rounded-2xl transition-opacity duration-300`}></div>
                       
@@ -469,10 +469,10 @@ export default function AIServicesKansasPage() {
                           <IconComponent className="w-8 h-8 text-white" />
                         </div>
                         
-                        <h3 className="text-xl font-bold mb-4 text-gray-900 group-hover:text-gray-800 transition-colors">{service.title}</h3>
+                        <h3 className="text-xl font-bold mb-4 text-gray-900 group-hover:text-orange-800 transition-colors">{service.title}</h3>
                         <p className="text-gray-600 mb-6 leading-relaxed group-hover:text-gray-700 transition-colors">{service.description}</p>
                         
-                        <Link href={service.href} className="group/link inline-flex items-center text-orange-600 hover:text-orange-700 font-medium transition-all duration-300">
+                        <Link href={service.href} className="group/link inline-flex items-center text-primary-orange hover:text-orange-700 font-medium transition-all duration-300">
                           <span className="group-hover/link:mr-3 transition-all duration-300">Learn More</span>
                           <ArrowRight className="w-4 h-4 ml-2 group-hover/link:translate-x-2 transition-transform duration-300" />
                         </Link>
@@ -488,13 +488,13 @@ export default function AIServicesKansasPage() {
 
             {/* Bottom CTA */}
             <div className="text-center mt-16">
-              <div className="inline-flex items-center gap-4 bg-white/80 backdrop-blur-sm border border-gray-200 rounded-full px-8 py-4 shadow-lg">
+              <div className="inline-flex items-center gap-4 bg-white/80 backdrop-blur-sm border border-orange-200 rounded-full px-8 py-4 shadow-lg">
                 <div className="flex items-center gap-2">
                   <CheckCircle className="w-5 h-5 text-green-500" />
                   <span className="text-gray-700 font-medium">Free Consultation Available</span>
                 </div>
                 <div className="w-2 h-2 bg-orange-400 rounded-full animate-pulse"></div>
-                <Link href="/contact" className="text-orange-600 hover:text-orange-700 font-semibold transition-colors">
+                <Link href="/contact" className="text-primary-orange hover:text-orange-700 font-semibold transition-colors">
                   Get Started →
                 </Link>
               </div>

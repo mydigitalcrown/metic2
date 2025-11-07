@@ -48,7 +48,16 @@ export const metadata = {
     "Florida Agriculture ML Company"
   ],
   authors: [{ name: "Metic.ai - Machine Learning Company In Florida" }],
-  robots: "index, follow",
+  creator: "Metic.ai",
+  publisher: "Metic.ai",
+  robots: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+    "max-video-preview": -1,
+    googleBot: "index,follow"
+  },
   openGraph: {
     title: "Machine Learning Company In Florida | #1 ML Company In Sunshine State - Metic.ai",
     description: "Leading Machine Learning Company In Florida with 2100+ successful ML implementations. Expert ML services for aerospace, tourism, agriculture & technology sectors in Sunshine State. 60% cost savings & 3x faster delivery.",
@@ -73,6 +82,12 @@ export const metadata = {
   alternates: {
     canonical: "https://metic.ai/machine-learning-services-in-florida/",
   },
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
 };
 
 export default function MachineLearningFloridaPage() {
