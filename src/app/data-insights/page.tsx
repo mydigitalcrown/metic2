@@ -47,7 +47,12 @@ import {
   Layers,
   Workflow,
   ArrowRight,
-  Phone
+  Phone,
+  GitBranch,
+  FileText,
+  DollarSign,
+  ArrowDown,
+  GraduationCap
 } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -1158,127 +1163,523 @@ export default function DataInsightsPage() {
         </div>
       </section>
 
-      {/* FAQ Section for Data Insight & Analytics Near Me */}
-      <section className="py-24 bg-white">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-20">
-              <div className="inline-block mb-8">
-                <span className="px-8 py-4 bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 text-primary-orange text-sm font-bold rounded-full border border-primary-orange/20 shadow-xl">
-                  ❓ Frequently Asked Questions
-                </span>
+      {/* Ultra-Creative FAQ Section - Data Insights & Analytics */}
+      <section className="py-24 bg-gradient-to-br from-gray-50 via-white to-orange-50 relative overflow-hidden">
+        {/* Advanced Background Effects */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          {/* Animated Gradient Orbs */}
+          <div className="absolute top-10 left-10 w-96 h-96 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-10 right-10 w-96 h-96 bg-secondary-orange/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
+          
+          {/* Grid Pattern */}
+          <div className="absolute inset-0 opacity-[0.02]" style={{
+            backgroundImage: `linear-gradient(#FF6B35 1.5px, transparent 1.5px), linear-gradient(90deg, #FF6B35 1.5px, transparent 1.5px)`,
+            backgroundSize: '60px 60px'
+          }}></div>
+        </div>
+        
+        <div className="container px-4 md:px-6 relative z-10">
+          <div className="max-w-5xl mx-auto">
+            {/* Enhanced Section Header */}
+            <div className="text-center mb-16">
+              {/* Badge */}
+              <div className="inline-flex items-center gap-2 px-6 py-3 bg-white rounded-full shadow-xl border-2 border-primary-orange/20 mb-8 hover:border-primary-orange/40 transition-all group">
+                <Lightbulb className="w-5 h-5 text-primary-orange animate-pulse" />
+                <span className="text-sm font-bold text-gray-800">Got Questions? We Have Answers!</span>
+                <Sparkles className="w-4 h-4 text-primary-orange" />
               </div>
               
-              <h2 className="text-4xl md:text-5xl font-bold mb-8 leading-tight">
-                <span className="text-gray-900">Frequently Asked Questions About </span>
-                <span className="text-primary-orange">Data Insight & Analytics Near Me</span>
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+                <span className="text-gray-900">Frequently Asked Questions</span>
+                <br />
+                <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
+                  About Data Insight & Analytics Near Me
+                </span>
               </h2>
-              
-              <div className="w-32 h-2 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-10 rounded-full shadow-lg"></div>
+              <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-8 rounded-full"></div>
+              <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+                Common questions about data insights and analytics services
+              </p>
             </div>
 
-            <div className="space-y-6">
-              <div className="group bg-gray-50 rounded-2xl p-8 hover:bg-gray-100 transition-all duration-300 border border-gray-200 hover:border-primary-orange/30">
-                <div className="flex items-start justify-between cursor-pointer">
-                  <div className="flex-1">
-                    <h3 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-primary-orange transition-colors">
-                      What makes your data insight and analytics near me services different?
-                    </h3>
-                    <p className="text-gray-600 leading-relaxed">
-                      Our <strong className="text-gray-900">analytics near me</strong> approach combines global best practices with local market expertise. 
-                      We provide <strong className="text-primary-orange">on-site consultation, 24/7 local support,</strong> and deep understanding of 
-                      regional business environments. With <strong className="text-gray-900">3000+ data insights delivered</strong> and 99% accuracy, 
-                      our local team ensures faster response times and personalized service that remote providers cannot match.
-                    </p>
+            {/* Advanced Creative FAQ Cards */}
+            <div className="space-y-5">
+              {/* FAQ Item 1 - Enhanced Design */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    {/* Gradient Overlay */}
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    {/* Content */}
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        {/* Icon Circle */}
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <BarChart3 className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        {/* Question */}
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What makes your data insight and analytics near me services different?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      {/* Toggle Icon */}
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    {/* Bottom Accent Bar */}
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
-                  <ChevronDown className="w-5 h-5 text-primary-orange ml-4 group-hover:rotate-180 transition-transform duration-300" />
+                </summary>
+                
+                {/* Answer with Animation */}
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <CheckCircle className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        Our <strong className="text-gray-900 font-semibold">analytics near me</strong> approach combines global best practices with local market expertise. 
+                        We provide <strong className="text-primary-orange">on-site consultation, 24/7 local support,</strong> and deep understanding of 
+                        regional business environments.
+                      </p>
+                      <p className="text-lg">
+                        With <strong className="text-gray-900">3000+ data insights delivered</strong> and 99% accuracy, 
+                        our local team ensures faster response times and personalized service that remote providers cannot match.
+                      </p>
+                      
+                      {/* Stats Highlight */}
+                      <div className="flex flex-wrap gap-4 pt-4">
+                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
+                          <Award className="w-4 h-4 text-primary-orange" />
+                          <span className="text-sm font-semibold text-gray-900">3000+ Insights</span>
+                        </div>
+                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
+                          <Target className="w-4 h-4 text-primary-orange" />
+                          <span className="text-sm font-semibold text-gray-900">99% Accuracy</span>
+                        </div>
+                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
+                          <Clock className="w-4 h-4 text-primary-orange" />
+                          <span className="text-sm font-semibold text-gray-900">24/7 Support</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              </details>
 
-              <div className="group bg-gray-50 rounded-2xl p-8 hover:bg-gray-100 transition-all duration-300 border border-gray-200 hover:border-secondary-orange/30">
-                <div className="flex items-start justify-between cursor-pointer">
-                  <div className="flex-1">
-                    <h3 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-secondary-orange transition-colors">
-                      How quickly can I get data insights from your analytics services?
-                    </h3>
-                    <p className="text-gray-600 leading-relaxed">
-                      Our <strong className="text-gray-900">data insight delivery timeline</strong> depends on project complexity. For standard analytics projects, 
-                      we deliver <strong className="text-secondary-orange">initial insights within 48-72 hours</strong> and comprehensive reports within 1-2 weeks. 
-                      Our <strong className="text-gray-900">real-time analytics solutions</strong> provide instant insights through live dashboards, 
-                      while custom predictive models typically take 2-4 weeks for full implementation.
-                    </p>
+              {/* FAQ Item 2 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Clock className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How quickly can I get data insights from your analytics services?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
-                  <ChevronDown className="w-5 h-5 text-secondary-orange ml-4 group-hover:rotate-180 transition-transform duration-300" />
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <Zap className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        Our <strong className="text-gray-900 font-semibold">data insight delivery timeline</strong> depends on project complexity. For standard analytics projects, 
+                        we deliver <strong className="text-secondary-orange">initial insights within 48-72 hours</strong> and comprehensive reports within 1-2 weeks.
+                      </p>
+                      <p className="text-lg">
+                        Our <strong className="text-gray-900">real-time analytics solutions</strong> provide instant insights through live dashboards, 
+                        while custom predictive models typically take 2-4 weeks for full implementation.
+                      </p>
+                      
+                      {/* Timeline Grid */}
+                      <div className="grid grid-cols-1 md:grid-cols-3 gap-3 pt-4">
+                        <div className="flex items-center gap-2 px-3 py-2 bg-secondary-orange/5 rounded-lg">
+                          <div className="w-2 h-2 bg-secondary-orange rounded-full"></div>
+                          <span className="text-sm font-medium text-gray-900">48-72 hrs: Initial insights</span>
+                        </div>
+                        <div className="flex items-center gap-2 px-3 py-2 bg-secondary-orange/5 rounded-lg">
+                          <div className="w-2 h-2 bg-secondary-orange rounded-full"></div>
+                          <span className="text-sm font-medium text-gray-900">1-2 weeks: Full reports</span>
+                        </div>
+                        <div className="flex items-center gap-2 px-3 py-2 bg-secondary-orange/5 rounded-lg">
+                          <div className="w-2 h-2 bg-secondary-orange rounded-full"></div>
+                          <span className="text-sm font-medium text-gray-900">2-4 weeks: Custom models</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              </details>
 
-              <div className="group bg-gray-50 rounded-2xl p-8 hover:bg-gray-100 transition-all duration-300 border border-gray-200 hover:border-blue-400/30">
-                <div className="flex items-start justify-between cursor-pointer">
-                  <div className="flex-1">
-                    <h3 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-blue-600 transition-colors">
-                      What types of data sources can you analyze with your analytics near me services?
-                    </h3>
-                    <p className="text-gray-600 leading-relaxed">
-                      We integrate and analyze <strong className="text-gray-900">virtually any data source</strong> including databases (SQL, NoSQL), 
-                      cloud platforms (AWS, Azure, GCP), <strong className="text-blue-600">APIs, CSV files, IoT sensors,</strong> social media feeds, 
-                      web analytics, CRM systems, ERP platforms, and real-time streams. Our <strong className="text-gray-900">ETL capabilities</strong> 
-                      handle structured, semi-structured, and unstructured data from multiple formats and sources simultaneously.
-                    </p>
+              {/* FAQ Item 3 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Database className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What types of data sources can you analyze?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
-                  <ChevronDown className="w-5 h-5 text-blue-600 ml-4 group-hover:rotate-180 transition-transform duration-300" />
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <GitBranch className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        We integrate and analyze <strong className="text-gray-900 font-semibold">virtually any data source</strong> including databases (SQL, NoSQL), 
+                        cloud platforms (AWS, Azure, GCP), <strong className="text-blue-600">APIs, CSV files, IoT sensors,</strong> social media feeds.
+                      </p>
+                      
+                      {/* Data Sources Grid with Icons */}
+                      <div className="grid md:grid-cols-2 gap-3 pt-2">
+                        {[
+                          { icon: Database, text: 'SQL/NoSQL Databases' },
+                          { icon: Cloud, text: 'Cloud Platforms (AWS, Azure, GCP)' },
+                          { icon: Activity, text: 'APIs & Real-time Streams' },
+                          { icon: Cpu, text: 'IoT Sensors & Devices' },
+                          { icon: BarChart3, text: 'Web Analytics & CRM' },
+                          { icon: FileText, text: 'CSV, Excel & Documents' }
+                        ].map((source, idx) => {
+                          const Icon = source.icon;
+                          return (
+                            <div key={idx} className="flex items-center gap-3 p-3 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg hover:from-blue-100 hover:to-indigo-100 transition-all group/service">
+                              <Icon className="w-5 h-5 text-blue-600 flex-shrink-0 group-hover/service:scale-110 transition-transform" />
+                              <span className="text-sm font-medium text-gray-900 group-hover/service:text-blue-700 transition-colors">{source.text}</span>
+                            </div>
+                          );
+                        })}
+                      </div>
+                      
+                      <p className="text-lg pt-2">
+                        Our <strong className="text-gray-900">ETL capabilities</strong> handle structured, semi-structured, and unstructured data from multiple formats simultaneously.
+                      </p>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              </details>
 
-              <div className="group bg-gray-50 rounded-2xl p-8 hover:bg-gray-100 transition-all duration-300 border border-gray-200 hover:border-green-400/30">
-                <div className="flex items-start justify-between cursor-pointer">
-                  <div className="flex-1">
-                    <h3 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-green-600 transition-colors">
-                      How do you ensure data security and compliance in your analytics near me services?
-                    </h3>
-                    <p className="text-gray-600 leading-relaxed">
-                      <strong className="text-gray-900">Data security is our top priority.</strong> We implement enterprise-grade encryption, 
-                      <strong className="text-green-600">GDPR compliance, SOC 2 standards,</strong> and industry-specific regulations (HIPAA for healthcare, 
-                      PCI DSS for finance). Our <strong className="text-gray-900">local data processing</strong> ensures data sovereignty, 
-                      with secure on-premise options available. All team members undergo security training and background checks.
-                    </p>
+              {/* FAQ Item 4 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Shield className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How do you ensure data security and compliance?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
-                  <ChevronDown className="w-5 h-5 text-green-600 ml-4 group-hover:rotate-180 transition-transform duration-300" />
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <Lock className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        <strong className="text-gray-900 font-semibold">Data security is our top priority.</strong> We implement enterprise-grade encryption, 
+                        <strong className="text-green-600">GDPR compliance, SOC 2 standards,</strong> and industry-specific regulations (HIPAA for healthcare, 
+                        PCI DSS for finance).
+                      </p>
+                      
+                      {/* Security Features */}
+                      <div className="grid gap-3 pt-2">
+                        {[
+                          { text: 'Enterprise-grade encryption (AES-256)' },
+                          { text: 'GDPR & SOC 2 compliant infrastructure' },
+                          { text: 'Industry-specific compliance (HIPAA, PCI DSS)' },
+                          { text: 'Local data processing & sovereignty options' },
+                          { text: 'Security training for all team members' }
+                        ].map((feature, idx) => (
+                          <div key={idx} className="flex items-center gap-3 p-3 bg-gradient-to-r from-green-50 to-emerald-50 rounded-lg">
+                            <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0" />
+                            <span className="text-sm font-medium text-gray-900">{feature.text}</span>
+                          </div>
+                        ))}
+                      </div>
+                      
+                      <p className="text-lg pt-2">
+                        Our <strong className="text-gray-900">local data processing</strong> ensures data sovereignty, 
+                        with secure on-premise options available.
+                      </p>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              </details>
 
-              <div className="group bg-gray-50 rounded-2xl p-8 hover:bg-gray-100 transition-all duration-300 border border-gray-200 hover:border-purple-400/30">
-                <div className="flex items-start justify-between cursor-pointer">
-                  <div className="flex-1">
-                    <h3 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-purple-600 transition-colors">
-                      What's the ROI I can expect from your data insight and analytics services?
-                    </h3>
-                    <p className="text-gray-600 leading-relaxed">
-                      Our clients typically see <strong className="text-purple-600">ROI within 3-6 months</strong> with benefits including 
-                      <strong className="text-gray-900">25-40% improvement in decision-making speed, 15-30% cost reduction</strong> through optimization, 
-                      and 20-50% increase in operational efficiency. <strong className="text-purple-600">Revenue growth of 10-25%</strong> through better 
-                      customer insights and market intelligence is common. We provide detailed ROI projections during initial consultations.
-                    </p>
+              {/* FAQ Item 5 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <TrendingUp className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What's the ROI I can expect from your data analytics services?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
-                  <ChevronDown className="w-5 h-5 text-purple-600 ml-4 group-hover:rotate-180 transition-transform duration-300" />
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <DollarSign className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        Our clients typically see <strong className="text-purple-600">ROI within 3-6 months</strong> with benefits including 
+                        <strong className="text-gray-900">25-40% improvement in decision-making speed, 15-30% cost reduction</strong> through optimization.
+                      </p>
+                      
+                      {/* ROI Metrics Cards */}
+                      <div className="grid md:grid-cols-2 gap-4 pt-2">
+                        <div className="p-5 bg-gradient-to-br from-purple-50 to-indigo-50 rounded-xl border border-purple-200">
+                          <div className="flex items-center gap-3 mb-3">
+                            <div className="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center">
+                              <TrendingUp className="w-5 h-5 text-purple-600" />
+                            </div>
+                            <div>
+                              <div className="font-bold text-gray-900">Decision Speed</div>
+                              <div className="text-sm text-purple-600">25-40% faster</div>
+                            </div>
+                          </div>
+                          <p className="text-sm text-gray-600">Faster, data-driven decisions</p>
+                        </div>
+                        
+                        <div className="p-5 bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl border border-green-200">
+                          <div className="flex items-center gap-3 mb-3">
+                            <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center">
+                              <ArrowDown className="w-5 h-5 text-green-600" />
+                            </div>
+                            <div>
+                              <div className="font-bold text-gray-900">Cost Reduction</div>
+                              <div className="text-sm text-green-600">15-30% savings</div>
+                            </div>
+                          </div>
+                          <p className="text-sm text-gray-600">Through process optimization</p>
+                        </div>
+                        
+                        <div className="p-5 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl border border-blue-200">
+                          <div className="flex items-center gap-3 mb-3">
+                            <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center">
+                              <Activity className="w-5 h-5 text-blue-600" />
+                            </div>
+                            <div>
+                              <div className="font-bold text-gray-900">Efficiency Gains</div>
+                              <div className="text-sm text-blue-600">20-50% increase</div>
+                            </div>
+                          </div>
+                          <p className="text-sm text-gray-600">Operational efficiency boost</p>
+                        </div>
+                        
+                        <div className="p-5 bg-gradient-to-br from-orange-50 to-red-50 rounded-xl border border-orange-200">
+                          <div className="flex items-center gap-3 mb-3">
+                            <div className="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center">
+                              <DollarSign className="w-5 h-5 text-orange-600" />
+                            </div>
+                            <div>
+                              <div className="font-bold text-gray-900">Revenue Growth</div>
+                              <div className="text-sm text-orange-600">10-25% increase</div>
+                            </div>
+                          </div>
+                          <p className="text-sm text-gray-600">Better customer insights</p>
+                        </div>
+                      </div>
+                      
+                      <p className="text-lg pt-2">
+                        We provide detailed ROI projections during initial consultations.
+                      </p>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              </details>
 
-              <div className="group bg-gray-50 rounded-2xl p-8 hover:bg-gray-100 transition-all duration-300 border border-gray-200 hover:border-orange-400/30">
-                <div className="flex items-start justify-between cursor-pointer">
-                  <div className="flex-1">
-                    <h3 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-orange-600 transition-colors">
-                      Do you provide training and ongoing support for analytics near me solutions?
-                    </h3>
-                    <p className="text-gray-600 leading-relaxed">
-                      Yes! We provide <strong className="text-orange-600">comprehensive training programs</strong> for your team including dashboard usage, 
-                      report interpretation, and <strong className="text-gray-900">self-service analytics capabilities.</strong> Our ongoing support includes 
-                      24/7 technical assistance, regular system updates, quarterly business reviews, and continuous optimization. 
-                      <strong className="text-orange-600">Local training sessions</strong> and workshops are available for hands-on learning.
-                    </p>
+              {/* FAQ Item 6 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Users className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Do you provide training and ongoing support?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
-                  <ChevronDown className="w-5 h-5 text-orange-600 ml-4 group-hover:rotate-180 transition-transform duration-300" />
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <GraduationCap className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        Yes! We provide <strong className="text-orange-600">comprehensive training programs</strong> for your team including dashboard usage, 
+                        report interpretation, and <strong className="text-gray-900">self-service analytics capabilities.</strong>
+                      </p>
+                      
+                      <div className="space-y-4">
+                        <div className="flex items-start gap-4 p-4 bg-gradient-to-r from-orange-50 to-amber-50 rounded-lg">
+                          <GraduationCap className="w-6 h-6 text-orange-600 flex-shrink-0 mt-1" />
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-1">Training Programs</h4>
+                            <p className="text-sm text-gray-600">
+                              Dashboard usage, report interpretation, and self-service analytics capabilities
+                            </p>
+                          </div>
+                        </div>
+                        
+                        <div className="flex items-start gap-4 p-4 bg-gradient-to-r from-orange-50 to-amber-50 rounded-lg">
+                          <Headphones className="w-6 h-6 text-orange-600 flex-shrink-0 mt-1" />
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-1">Ongoing Support</h4>
+                            <p className="text-sm text-gray-600">
+                              24/7 technical assistance, regular system updates, quarterly business reviews
+                            </p>
+                          </div>
+                        </div>
+                        
+                        <div className="flex items-start gap-4 p-4 bg-gradient-to-r from-orange-50 to-amber-50 rounded-lg">
+                          <MapPin className="w-6 h-6 text-orange-600 flex-shrink-0 mt-1" />
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-1">Local Sessions</h4>
+                            <p className="text-sm text-gray-600">
+                              Local training sessions and workshops are available for hands-on learning
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <p className="text-lg pt-2">
+                        <strong className="text-orange-600">Local training sessions</strong> and workshops are available for hands-on learning.
+                      </p>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              </details>
             </div>
           </div>
         </div>
