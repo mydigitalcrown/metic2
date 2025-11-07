@@ -18,19 +18,41 @@ import {
   Bot,
   PenTool,
   Video,
-  Music
+  Music,
+  ArrowRight,
+  Award,
+  Clock,
+  Cpu,
+  Database,
+  Activity,
+  GitBranch,
+  ChevronDown,
+  MapPin,
+  Star,
+  Rocket
 } from "lucide-react";
 
 export const metadata = {
   title: "Generative AI Services | Advanced AI Content Creation & Automation - Metic.ai",
   description: "Professional generative AI services including ChatGPT integration, AI content creation, automated workflows, and custom AI models. Transform your business with cutting-edge generative artificial intelligence solutions.",
-  keywords: "generative AI services, ChatGPT integration, AI content creation, automated workflows, custom AI models, GPT-4, large language models, AI automation, artificial intelligence content, machine learning automation",
+  keywords: ["generative AI services", "ChatGPT integration", "AI content creation", "automated workflows", "custom AI models", "GPT-4", "large language models", "AI automation", "artificial intelligence content", "machine learning automation"],
   authors: [{ name: "Metic.ai Generative AI Team" }],
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
   openGraph: {
     title: "Generative AI Services | Advanced AI Content Creation & Automation - Metic.ai",
     description: "Professional generative AI services including ChatGPT integration, AI content creation, automated workflows, and custom AI models.",
     url: "https://metic.ai/generative-ai-services/",
+    siteName: "Metic.ai - Generative AI Company",
     type: "website",
     images: [
       {
@@ -49,262 +71,619 @@ export const metadata = {
 export default function GenerativeAIServicesPage() {
   return (
     <>
-      {/* Hero Section */}
-      <section className="bg-gradient-to-b from-white to-purple-50 py-20 md:py-28">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              <span className="text-primary-orange">Generative AI</span> Services
-            </h1>
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Harness the power of advanced generative AI technologies including ChatGPT, GPT-4, 
-              and custom AI models to automate content creation, enhance productivity, and transform 
-              your business operations.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="#consultation">
-                <Button variant="primary" size="lg">
-                  Get Free AI Consultation
-                </Button>
+      {/* Breadcrumb Navigation */}
+      <nav className="bg-white border-b border-gray-200" aria-label="Breadcrumb">
+        <div className="container px-4 md:px-6 py-3">
+          <ol className="flex items-center gap-2 text-sm">
+            <li className="flex items-center gap-2">
+              <Link href="/" className="text-primary-orange hover:text-dark-orange font-medium transition-colors">
+                Home
               </Link>
-              <Link href="#services">
-                <Button variant="outline" size="lg">
-                  Explore AI Solutions
-                </Button>
+              <ChevronDown className="w-4 h-4 text-gray-400 -rotate-90" />
+            </li>
+            <li className="flex items-center gap-2">
+              <Link href="/services" className="text-primary-orange hover:text-dark-orange font-medium transition-colors">
+                Services
               </Link>
+              <ChevronDown className="w-4 h-4 text-gray-400 -rotate-90" />
+            </li>
+            <li className="text-gray-600 font-medium">
+              Generative AI Services
+            </li>
+          </ol>
+        </div>
+      </nav>
+
+      {/* Hero Section - Matching Home Page Style */}
+      <section className="relative overflow-hidden bg-gradient-to-br from-white via-orange-50 to-amber-50 py-20 md:py-32">
+        {/* Ultra Advanced Animated Background */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          {/* Multiple Floating Orbs with Staggered Animations */}
+          <div className="absolute top-20 left-10 w-72 h-72 bg-primary-orange/10 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-20 right-10 w-96 h-96 bg-secondary-orange/10 rounded-full blur-3xl animate-pulse" style={{animationDelay: '1s'}}></div>
+          <div className="absolute top-1/2 left-1/2 w-64 h-64 bg-light-orange/10 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
+          
+          {/* Animated Grid Pattern with Gradient */}
+          <div className="absolute inset-0 opacity-[0.03]" style={{
+            backgroundImage: `linear-gradient(#FF6B35 1px, transparent 1px), linear-gradient(90deg, #FF6B35 1px, transparent 1px)`,
+            backgroundSize: '50px 50px'
+          }}></div>
+          
+          {/* Enhanced Floating Particles System */}
+          <div className="absolute top-1/4 left-1/4 w-2 h-2 bg-primary-orange/40 rounded-full animate-bounce" style={{animationDuration: '3s'}}></div>
+          <div className="absolute top-1/3 right-1/3 w-3 h-3 bg-secondary-orange/30 rounded-full animate-bounce" style={{animationDuration: '4s', animationDelay: '0.5s'}}></div>
+          <div className="absolute bottom-1/4 left-1/3 w-2 h-2 bg-light-orange/40 rounded-full animate-bounce" style={{animationDuration: '5s', animationDelay: '1s'}}></div>
+        </div>
+
+        <div className="container px-4 md:px-6 relative z-10">
+          {/* Enhanced Location Badge with Animation */}
+          <div className="flex justify-center mb-8 animate-fade-in">
+            <div className="group inline-flex items-center gap-2 px-5 py-2.5 bg-white rounded-full shadow-xl border-2 border-primary-orange/20 hover:border-primary-orange/40 hover:shadow-2xl transition-all duration-300 hover:scale-105">
+              <Sparkles className="w-4 h-4 text-primary-orange animate-pulse" />
+              <span className="text-sm font-bold text-gray-800">Advanced Generative AI</span>
+              <span className="px-3 py-1 text-xs bg-gradient-to-r from-primary-orange to-secondary-orange text-white rounded-full font-semibold shadow-lg">
+                Next-Gen
+              </span>
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-12 md:flex-row md:items-center">
+            <div className="flex-1 space-y-8">
+              {/* Enhanced H1 with Gradient Animation */}
+              <h1 className="text-5xl font-bold tracking-tight sm:text-6xl md:text-7xl lg:text-8xl leading-tight">
+                <span className="block text-gray-900 mb-2"><strong>Generative AI</strong></span>
+                <span className="block bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">
+                  <strong>Services & Solutions</strong>
+                </span>
+                <span className="block text-gray-900 mt-2">
+                  <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Advanced AI Innovation</span>
+                </span>
+              </h1>
+              
+              {/* Enhanced Description with Better Typography */}
+              <p className="max-w-[650px] text-xl md:text-2xl text-gray-700 leading-relaxed font-light">
+                Harness the power of <strong className="text-primary-orange font-semibold">cutting-edge generative AI technologies</strong> including 
+                <strong className="text-primary-orange font-semibold"> ChatGPT, GPT-4, and custom AI models</strong> to automate content creation, 
+                enhance productivity, and <strong className="text-primary-orange font-semibold">transform your business operations</strong> with 
+                <strong className="text-primary-orange font-semibold"> intelligent automation solutions</strong>.
+              </p>
+
+              {/* Enhanced Trust Indicators with Icons */}
+              <div className="flex flex-wrap items-center gap-8 pt-4">
+                <div className="flex items-center gap-3 group">
+                  <div className="w-10 h-10 rounded-full bg-primary-orange/10 flex items-center justify-center group-hover:bg-primary-orange/20 transition-colors">
+                    <Award className="w-5 h-5 text-primary-orange" />
+                  </div>
+                  <div>
+                    <div className="text-sm font-bold text-gray-900">AI Certified</div>
+                    <div className="text-xs text-gray-600">GPT-4 Experts</div>
+                  </div>
+                </div>
+                <div className="flex items-center gap-3 group">
+                  <div className="w-10 h-10 rounded-full bg-primary-orange/10 flex items-center justify-center group-hover:bg-primary-orange/20 transition-colors">
+                    <Users className="w-5 h-5 text-primary-orange" />
+                  </div>
+                  <div>
+                    <div className="text-sm font-bold text-gray-900">500+ Models</div>
+                    <div className="text-xs text-gray-600">Deployed</div>
+                  </div>
+                </div>
+                <div className="flex items-center gap-3 group">
+                  <div className="w-10 h-10 rounded-full bg-primary-orange/10 flex items-center justify-center group-hover:bg-primary-orange/20 transition-colors">
+                    <Star className="w-5 h-5 text-primary-orange fill-primary-orange" />
+                  </div>
+                  <div>
+                    <div className="text-sm font-bold text-gray-900">95% Accuracy</div>
+                    <div className="text-xs text-gray-600">Average Quality</div>
+                  </div>
+                </div>
+              </div>
+              
+              {/* Enhanced CTA Buttons with Advanced Effects */}
+              <div className="flex flex-col gap-4 sm:flex-row pt-4">
+                <Link href="/contact">
+                  <Button variant="primary" size="lg" className="group relative overflow-hidden shadow-xl hover:shadow-2xl">
+                    <span className="relative z-10 flex items-center">
+                      Get Free AI Consultation
+                      <Rocket className="ml-2 h-5 w-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
+                    </span>
+                    <div className="absolute inset-0 bg-gradient-to-r from-secondary-orange to-primary-orange opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                  </Button>
+                </Link>
+                <Link href="#services">
+                  <Button variant="outline" size="lg" className="group border-2 border-primary-orange text-primary-orange hover:bg-primary-orange hover:text-white shadow-lg hover:shadow-xl">
+                    <span>Explore AI Solutions</span>
+                    <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-2 transition-transform" />
+                  </Button>
+                </Link>
+              </div>
+
+              {/* Enhanced Stats with Counter Animation Effect */}
+              <div className="grid grid-cols-3 gap-6 pt-8 max-w-lg">
+                <div className="text-center group cursor-pointer">
+                  <div className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent group-hover:scale-110 transition-transform">
+                    500+
+                  </div>
+                  <div className="text-sm md:text-base text-gray-600 font-medium">AI Models</div>
+                  <div className="w-12 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mt-2 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                </div>
+                <div className="text-center group cursor-pointer">
+                  <div className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent group-hover:scale-110 transition-transform">
+                    95%
+                  </div>
+                  <div className="text-sm md:text-base text-gray-600 font-medium">Quality Score</div>
+                  <div className="w-12 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mt-2 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                </div>
+                <div className="text-center group cursor-pointer">
+                  <div className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent group-hover:scale-110 transition-transform">
+                    24/7
+                  </div>
+                  <div className="text-sm md:text-base text-gray-600 font-medium">AI Support</div>
+                  <div className="w-12 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mt-2 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                </div>
+              </div>
+            </div>
+            
+            {/* Ultra Creative Visual Element with 3D Effects and Animations - Matching Home Page */}
+            <div className="flex-1 flex justify-center items-center">
+              <div className="relative w-full max-w-lg group">
+                {/* Multi-Layer Animated Glow */}
+                <div className="absolute inset-0 bg-gradient-to-r from-primary-orange/30 via-secondary-orange/30 to-primary-orange/30 rounded-full blur-3xl animate-pulse group-hover:blur-[100px] transition-all duration-500"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-secondary-orange/20 via-primary-orange/20 to-secondary-orange/20 rounded-full blur-2xl animate-pulse" style={{animationDelay: '0.5s'}}></div>
+                
+                {/* Main Card with Advanced Glass Morphism */}
+                <div className="relative bg-white/95 backdrop-blur-2xl rounded-3xl p-10 shadow-2xl border-2 border-primary-orange/20 group-hover:shadow-primary-orange/30 group-hover:scale-[1.02] transition-all duration-500 overflow-hidden">
+                  {/* Shimmer Effect Overlay */}
+                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
+                  
+                  {/* Floating Badge with Pulse */}
+                  <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 z-10">
+                    <div className="relative">
+                      <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-full blur-lg opacity-60 animate-ping"></div>
+                      <div className="relative w-16 h-16 rounded-full bg-gradient-to-br from-primary-orange to-secondary-orange shadow-2xl flex items-center justify-center group-hover:rotate-180 transition-transform duration-700">
+                        <Sparkles className="w-8 h-8 text-white animate-pulse" />
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="text-center space-y-6 pt-8 relative z-10">
+                    {/* Central AI Brain with Advanced Animation */}
+                    <div className="relative inline-flex items-center justify-center">
+                      {/* Multiple Pulsing Rings */}
+                      <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-full blur-3xl opacity-50 animate-pulse"></div>
+                      <div className="absolute inset-4 bg-gradient-to-tl from-secondary-orange to-primary-orange rounded-full blur-2xl opacity-40 animate-pulse" style={{animationDelay: '0.3s'}}></div>
+                      
+                      {/* Main Brain Icon */}
+                      <div className="relative w-44 h-44 rounded-full bg-gradient-to-br from-primary-orange via-secondary-orange to-primary-orange flex items-center justify-center shadow-2xl group-hover:rotate-12 group-hover:scale-110 transition-all duration-500">
+                        <div className="absolute inset-2 rounded-full bg-gradient-to-tl from-primary-orange/50 to-secondary-orange/50 blur-xl"></div>
+                        <MessageSquare className="w-24 h-24 text-white relative z-10 drop-shadow-lg" />
+                      </div>
+                      
+                      {/* Orbiting Tech Icons with Advanced Paths */}
+                      <div className="absolute top-0 right-0 w-10 h-10 rounded-full bg-white shadow-xl border-2 border-primary-orange/30 flex items-center justify-center animate-bounce hover:scale-125 transition-transform" style={{animationDuration: '2s'}}>
+                        <FileText className="w-5 h-5 text-primary-orange" />
+                      </div>
+                      <div className="absolute bottom-0 left-0 w-10 h-10 rounded-full bg-white shadow-xl border-2 border-secondary-orange/30 flex items-center justify-center animate-bounce hover:scale-125 transition-transform" style={{animationDuration: '2.5s', animationDelay: '0.5s'}}>
+                        <Image className="w-5 h-5 text-secondary-orange" />
+                      </div>
+                      <div className="absolute top-1/2 -right-2 w-9 h-9 rounded-full bg-gradient-to-br from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm border border-primary-orange/40 flex items-center justify-center animate-bounce hover:scale-125 transition-transform" style={{animationDuration: '2.2s', animationDelay: '0.2s'}}>
+                        <Code className="w-4 h-4 text-primary-orange" />
+                      </div>
+                      <div className="absolute top-1/2 -left-2 w-9 h-9 rounded-full bg-gradient-to-br from-secondary-orange/20 to-primary-orange/20 backdrop-blur-sm border border-secondary-orange/40 flex items-center justify-center animate-bounce hover:scale-125 transition-transform" style={{animationDuration: '2.8s', animationDelay: '0.7s'}}>
+                        <Video className="w-4 h-4 text-secondary-orange" />
+                      </div>
+                      <div className="absolute top-4 left-1/2 transform -translate-x-1/2 w-8 h-8 rounded-full bg-gradient-to-br from-primary-orange/30 to-secondary-orange/30 backdrop-blur-sm border border-primary-orange/50 flex items-center justify-center animate-bounce hover:scale-125 transition-transform" style={{animationDuration: '2.4s', animationDelay: '0.4s'}}>
+                        <Bot className="w-4 h-4 text-primary-orange" />
+                      </div>
+                    </div>
+                    
+                    <div className="space-y-3">
+                      <h3 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-gray-900 via-primary-orange to-gray-900 bg-clip-text text-transparent">
+                        Generative AI Hub
+                      </h3>
+                      <p className="text-base md:text-lg text-gray-700 font-medium leading-relaxed">
+                        Powering <span className="text-primary-orange font-bold">Next-Generation Content</span> with <span className="text-primary-orange font-bold">Advanced AI Models</span>
+                      </p>
+                    </div>
+                    
+                    {/* Animated Technology Tags */}
+                    <div className="flex flex-wrap justify-center gap-3 pt-4">
+                      <span className="px-4 py-2 bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 hover:from-primary-orange/20 hover:to-secondary-orange/20 text-primary-orange text-sm font-semibold rounded-full border border-primary-orange/20 hover:border-primary-orange/40 transition-all cursor-pointer hover:scale-105">
+                        ChatGPT
+                      </span>
+                      <span className="px-4 py-2 bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 hover:from-primary-orange/20 hover:to-secondary-orange/20 text-primary-orange text-sm font-semibold rounded-full border border-primary-orange/20 hover:border-primary-orange/40 transition-all cursor-pointer hover:scale-105">
+                        GPT-4
+                      </span>
+                      <span className="px-4 py-2 bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 hover:from-primary-orange/20 hover:to-secondary-orange/20 text-primary-orange text-sm font-semibold rounded-full border border-primary-orange/20 hover:border-primary-orange/40 transition-all cursor-pointer hover:scale-105">
+                        Custom AI
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Core Services Section */}
-      <section id="services" className="py-20 bg-white">
-        <div className="container px-4 md:px-6">
+      {/* Core Services Section - Matching Home Page Style */}
+      <section id="services" className="py-24 bg-gradient-to-b from-white via-gray-50 to-white relative overflow-hidden">
+        {/* Animated Background Pattern */}
+        <div className="absolute inset-0 opacity-[0.03]">
+          <div className="absolute inset-0" style={{backgroundImage: 'radial-gradient(circle, #FF6B35 1px, transparent 1px)', backgroundSize: '30px 30px'}}></div>
+        </div>
+        
+        {/* Floating Gradient Orbs */}
+        <div className="absolute top-20 right-10 w-64 h-64 bg-primary-orange/5 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-20 left-10 w-64 h-64 bg-secondary-orange/5 rounded-full blur-3xl"></div>
+
+        <div className="container px-4 md:px-6 relative z-10">
           <div className="max-w-6xl mx-auto">
+            {/* Enhanced Section Header */}
             <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Our <span className="text-primary-orange">Generative AI</span> Services
+              <div className="inline-block mb-6 animate-fade-in">
+                <span className="px-5 py-2.5 bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 text-primary-orange text-sm font-bold rounded-full border border-primary-orange/20 shadow-sm">
+                  ⚡ Advanced Generative AI Solutions
+                </span>
+              </div>
+              <h2 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl mb-6">
+                <span className="text-gray-900">Our </span>
+                <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Generative AI</span>
+                <span className="text-gray-900"> Services</span>
               </h2>
-              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              <div className="w-24 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-8 rounded-full"></div>
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
                 Comprehensive generative AI solutions to automate, enhance, and revolutionize your business processes
               </p>
             </div>
             
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {/* ChatGPT Integration */}
-              <div className="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6">
-                  <MessageSquare className="w-8 h-8 text-green-600" />
+            {/* Advanced Service Cards with 3D Effect - Matching Home Page */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+              {/* Card 1 - ChatGPT Integration */}
+              <div className="group relative bg-white rounded-2xl border-2 border-gray-100 hover:border-primary-orange/50 shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden hover:-translate-y-3">
+                {/* Gradient Overlay on Hover */}
+                <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/5 to-secondary-orange/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                
+                {/* Card Content */}
+                <div className="relative p-8">
+                  {/* Icon with Advanced Animation */}
+                  <div className="relative mb-6">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-xl opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                    <div className="relative w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center group-hover:rotate-12 group-hover:scale-110 transition-all duration-500 shadow-lg">
+                      <MessageSquare className="text-white h-8 w-8" />
+                    </div>
+                    {/* Pulse Ring */}
+                    <div className="absolute -inset-2 border-2 border-primary-orange/20 rounded-2xl opacity-0 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500"></div>
+                  </div>
+                  
+                  <h3 className="font-bold text-xl mb-3 text-gray-900 group-hover:text-primary-orange transition-colors">
+                    ChatGPT Integration
+                  </h3>
+                  <p className="text-gray-600 mb-4 leading-relaxed">
+                    Seamlessly integrate ChatGPT and GPT-4 into your applications, websites, and workflows 
+                    for intelligent conversational AI, customer support automation, and interactive experiences.
+                  </p>
+                  
+                  <ul className="space-y-2 mb-4">
+                    <li className="flex items-center text-sm">
+                      <CheckCircle className="w-4 h-4 text-primary-orange mr-2" />
+                      Custom chatbot development
+                    </li>
+                    <li className="flex items-center text-sm">
+                      <CheckCircle className="w-4 h-4 text-primary-orange mr-2" />
+                      API integration & optimization
+                    </li>
+                    <li className="flex items-center text-sm">
+                      <CheckCircle className="w-4 h-4 text-primary-orange mr-2" />
+                      Multi-platform deployment
+                    </li>
+                  </ul>
+                  
+                  {/* Hover CTA */}
+                  <div className="flex items-center text-primary-orange text-sm font-semibold opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300">
+                    <span>Learn More</span>
+                    <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-2 transition-transform" />
+                  </div>
                 </div>
-                <h3 className="text-xl font-bold mb-4">ChatGPT Integration</h3>
-                <p className="text-gray-600 leading-relaxed mb-6">
-                  Seamlessly integrate ChatGPT and GPT-4 into your applications, websites, and workflows 
-                  for intelligent conversational AI, customer support automation, and interactive experiences.
-                </p>
-                <ul className="space-y-2">
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    Custom chatbot development
-                  </li>
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    API integration & optimization
-                  </li>
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    Multi-platform deployment
-                  </li>
-                </ul>
+                
+                {/* Bottom Accent Line */}
+                <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
               </div>
 
-              {/* AI Content Creation */}
-              <div className="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
-                  <FileText className="w-8 h-8 text-blue-600" />
+              {/* Card 2 - AI Content Creation */}
+              <div className="group relative bg-white rounded-2xl border-2 border-gray-100 hover:border-primary-orange/50 shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden hover:-translate-y-3">
+                <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/5 to-secondary-orange/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                
+                <div className="relative p-8">
+                  <div className="relative mb-6">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-xl opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                    <div className="relative w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center group-hover:rotate-12 group-hover:scale-110 transition-all duration-500 shadow-lg">
+                      <FileText className="text-white h-8 w-8" />
+                    </div>
+                    <div className="absolute -inset-2 border-2 border-primary-orange/20 rounded-2xl opacity-0 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500"></div>
+                  </div>
+                  
+                  <h3 className="font-bold text-xl mb-3 text-gray-900 group-hover:text-primary-orange transition-colors">
+                    AI Content Creation
+                  </h3>
+                  <p className="text-gray-600 mb-4 leading-relaxed">
+                    Automate content generation for blogs, marketing materials, documentation, and social media 
+                    using advanced language models tailored to your brand voice and requirements.
+                  </p>
+                  
+                  <ul className="space-y-2 mb-4">
+                    <li className="flex items-center text-sm">
+                      <CheckCircle className="w-4 h-4 text-primary-orange mr-2" />
+                      Blog & article generation
+                    </li>
+                    <li className="flex items-center text-sm">
+                      <CheckCircle className="w-4 h-4 text-primary-orange mr-2" />
+                      Marketing copy automation
+                    </li>
+                    <li className="flex items-center text-sm">
+                      <CheckCircle className="w-4 h-4 text-primary-orange mr-2" />
+                      Brand voice consistency
+                    </li>
+                  </ul>
+                  
+                  <div className="flex items-center text-primary-orange text-sm font-semibold opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300">
+                    <span>Learn More</span>
+                    <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-2 transition-transform" />
+                  </div>
                 </div>
-                <h3 className="text-xl font-bold mb-4">AI Content Creation</h3>
-                <p className="text-gray-600 leading-relaxed mb-6">
-                  Automate content generation for blogs, marketing materials, documentation, and social media 
-                  using advanced language models tailored to your brand voice and requirements.
-                </p>
-                <ul className="space-y-2">
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    Blog & article generation
-                  </li>
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    Marketing copy automation
-                  </li>
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    Brand voice consistency
-                  </li>
-                </ul>
+                
+                <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
               </div>
 
-              {/* AI Image Generation */}
-              <div className="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6">
-                  <Image className="w-8 h-8 text-purple-600" />
+              {/* Card 3 - AI Image Generation */}
+              <div className="group relative bg-white rounded-2xl border-2 border-gray-100 hover:border-primary-orange/50 shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden hover:-translate-y-3">
+                <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/5 to-secondary-orange/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                
+                <div className="relative p-8">
+                  <div className="relative mb-6">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-xl opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                    <div className="relative w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center group-hover:rotate-12 group-hover:scale-110 transition-all duration-500 shadow-lg">
+                      <Image className="text-white h-8 w-8" />
+                    </div>
+                    <div className="absolute -inset-2 border-2 border-primary-orange/20 rounded-2xl opacity-0 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500"></div>
+                  </div>
+                  
+                  <h3 className="font-bold text-xl mb-3 text-gray-900 group-hover:text-primary-orange transition-colors">
+                    AI Image Generation
+                  </h3>
+                  <p className="text-gray-600 mb-4 leading-relaxed">
+                    Create stunning visual content using DALL-E, Midjourney, and custom image generation models 
+                    for marketing, design, and creative projects.
+                  </p>
+                  
+                  <ul className="space-y-2 mb-4">
+                    <li className="flex items-center text-sm">
+                      <CheckCircle className="w-4 h-4 text-primary-orange mr-2" />
+                      Custom artwork generation
+                    </li>
+                    <li className="flex items-center text-sm">
+                      <CheckCircle className="w-4 h-4 text-primary-orange mr-2" />
+                      Brand-specific visuals
+                    </li>
+                    <li className="flex items-center text-sm">
+                      <CheckCircle className="w-4 h-4 text-primary-orange mr-2" />
+                      High-resolution outputs
+                    </li>
+                  </ul>
+                  
+                  <div className="flex items-center text-primary-orange text-sm font-semibold opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300">
+                    <span>Learn More</span>
+                    <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-2 transition-transform" />
+                  </div>
                 </div>
-                <h3 className="text-xl font-bold mb-4">AI Image Generation</h3>
-                <p className="text-gray-600 leading-relaxed mb-6">
-                  Create stunning visual content using DALL-E, Midjourney, and custom image generation models 
-                  for marketing, design, and creative projects.
-                </p>
-                <ul className="space-y-2">
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    Custom artwork generation
-                  </li>
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    Brand-specific visuals
-                  </li>
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    High-resolution outputs
-                  </li>
-                </ul>
+                
+                <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
               </div>
 
-              {/* Code Generation */}
-              <div className="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-6">
-                  <Code className="w-8 h-8 text-orange-600" />
+              {/* Card 4 - Code Generation */}
+              <div className="group relative bg-white rounded-2xl border-2 border-gray-100 hover:border-primary-orange/50 shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden hover:-translate-y-3">
+                <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/5 to-secondary-orange/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                
+                <div className="relative p-8">
+                  <div className="relative mb-6">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-xl opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                    <div className="relative w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center group-hover:rotate-12 group-hover:scale-110 transition-all duration-500 shadow-lg">
+                      <Code className="text-white h-8 w-8" />
+                    </div>
+                    <div className="absolute -inset-2 border-2 border-primary-orange/20 rounded-2xl opacity-0 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500"></div>
+                  </div>
+                  
+                  <h3 className="font-bold text-xl mb-3 text-gray-900 group-hover:text-primary-orange transition-colors">
+                    AI Code Generation
+                  </h3>
+                  <p className="text-gray-600 mb-4 leading-relaxed">
+                    Accelerate development with AI-powered code generation, documentation, testing, and 
+                    debugging assistance using GitHub Copilot and custom coding models.
+                  </p>
+                  
+                  <ul className="space-y-2 mb-4">
+                    <li className="flex items-center text-sm">
+                      <CheckCircle className="w-4 h-4 text-primary-orange mr-2" />
+                      Automated code generation
+                    </li>
+                    <li className="flex items-center text-sm">
+                      <CheckCircle className="w-4 h-4 text-primary-orange mr-2" />
+                      Documentation automation
+                    </li>
+                    <li className="flex items-center text-sm">
+                      <CheckCircle className="w-4 h-4 text-primary-orange mr-2" />
+                      Code review & optimization
+                    </li>
+                  </ul>
+                  
+                  <div className="flex items-center text-primary-orange text-sm font-semibold opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300">
+                    <span>Learn More</span>
+                    <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-2 transition-transform" />
+                  </div>
                 </div>
-                <h3 className="text-xl font-bold mb-4">AI Code Generation</h3>
-                <p className="text-gray-600 leading-relaxed mb-6">
-                  Accelerate development with AI-powered code generation, documentation, testing, and 
-                  debugging assistance using GitHub Copilot and custom coding models.
-                </p>
-                <ul className="space-y-2">
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    Automated code generation
-                  </li>
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    Documentation automation
-                  </li>
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    Code review & optimization
-                  </li>
-                </ul>
+                
+                <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
               </div>
 
-              {/* AI Video Generation */}
-              <div className="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mb-6">
-                  <Video className="w-8 h-8 text-red-600" />
+              {/* Card 5 - AI Video Generation */}
+              <div className="group relative bg-white rounded-2xl border-2 border-gray-100 hover:border-primary-orange/50 shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden hover:-translate-y-3">
+                <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/5 to-secondary-orange/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                
+                <div className="relative p-8">
+                  <div className="relative mb-6">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-xl opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                    <div className="relative w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center group-hover:rotate-12 group-hover:scale-110 transition-all duration-500 shadow-lg">
+                      <Video className="text-white h-8 w-8" />
+                    </div>
+                    <div className="absolute -inset-2 border-2 border-primary-orange/20 rounded-2xl opacity-0 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500"></div>
+                  </div>
+                  
+                  <h3 className="font-bold text-xl mb-3 text-gray-900 group-hover:text-primary-orange transition-colors">
+                    AI Video Generation
+                  </h3>
+                  <p className="text-gray-600 mb-4 leading-relaxed">
+                    Create engaging video content with AI-powered video generation, editing, and enhancement 
+                    tools for marketing, training, and entertainment purposes.
+                  </p>
+                  
+                  <ul className="space-y-2 mb-4">
+                    <li className="flex items-center text-sm">
+                      <CheckCircle className="w-4 h-4 text-primary-orange mr-2" />
+                      Automated video creation
+                    </li>
+                    <li className="flex items-center text-sm">
+                      <CheckCircle className="w-4 h-4 text-primary-orange mr-2" />
+                      AI-powered editing
+                    </li>
+                    <li className="flex items-center text-sm">
+                      <CheckCircle className="w-4 h-4 text-primary-orange mr-2" />
+                      Voice synthesis integration
+                    </li>
+                  </ul>
+                  
+                  <div className="flex items-center text-primary-orange text-sm font-semibold opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300">
+                    <span>Learn More</span>
+                    <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-2 transition-transform" />
+                  </div>
                 </div>
-                <h3 className="text-xl font-bold mb-4">AI Video Generation</h3>
-                <p className="text-gray-600 leading-relaxed mb-6">
-                  Create engaging video content with AI-powered video generation, editing, and enhancement 
-                  tools for marketing, training, and entertainment purposes.
-                </p>
-                <ul className="space-y-2">
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    Automated video creation
-                  </li>
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    AI-powered editing
-                  </li>
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    Voice synthesis integration
-                  </li>
-                </ul>
+                
+                <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
               </div>
 
-              {/* Custom AI Models */}
-              <div className="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center mb-6">
-                  <Brain className="w-8 h-8 text-indigo-600" />
+              {/* Card 6 - Custom AI Models */}
+              <div className="group relative bg-white rounded-2xl border-2 border-gray-100 hover:border-primary-orange/50 shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden hover:-translate-y-3">
+                <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/5 to-secondary-orange/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                
+                <div className="relative p-8">
+                  <div className="relative mb-6">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-xl opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                    <div className="relative w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center group-hover:rotate-12 group-hover:scale-110 transition-all duration-500 shadow-lg">
+                      <Brain className="text-white h-8 w-8" />
+                    </div>
+                    <div className="absolute -inset-2 border-2 border-primary-orange/20 rounded-2xl opacity-0 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500"></div>
+                  </div>
+                  
+                  <h3 className="font-bold text-xl mb-3 text-gray-900 group-hover:text-primary-orange transition-colors">
+                    Custom AI Models
+                  </h3>
+                  <p className="text-gray-600 mb-4 leading-relaxed">
+                    Develop and fine-tune custom generative AI models specifically trained on your data 
+                    and requirements for specialized business applications.
+                  </p>
+                  
+                  <ul className="space-y-2 mb-4">
+                    <li className="flex items-center text-sm">
+                      <CheckCircle className="w-4 h-4 text-primary-orange mr-2" />
+                      Domain-specific training
+                    </li>
+                    <li className="flex items-center text-sm">
+                      <CheckCircle className="w-4 h-4 text-primary-orange mr-2" />
+                      Fine-tuning & optimization
+                    </li>
+                    <li className="flex items-center text-sm">
+                      <CheckCircle className="w-4 h-4 text-primary-orange mr-2" />
+                      Private model deployment
+                    </li>
+                  </ul>
+                  
+                  <div className="flex items-center text-primary-orange text-sm font-semibold opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300">
+                    <span>Learn More</span>
+                    <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-2 transition-transform" />
+                  </div>
                 </div>
-                <h3 className="text-xl font-bold mb-4">Custom AI Models</h3>
-                <p className="text-gray-600 leading-relaxed mb-6">
-                  Develop and fine-tune custom generative AI models specifically trained on your data 
-                  and requirements for specialized business applications.
-                </p>
-                <ul className="space-y-2">
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    Domain-specific training
-                  </li>
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    Fine-tuning & optimization
-                  </li>
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    Private model deployment
-                  </li>
-                </ul>
+                
+                <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Key Benefits Section */}
-      <section className="py-20 bg-gray-50">
+      {/* Key Benefits Section - Enhanced Home Page Style */}
+      <section className="py-20 bg-gradient-to-br from-orange-50 to-amber-50">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Why Choose Our Generative AI Services?
+                Why Choose Our <span className="text-primary-orange">Generative AI</span> Services?
               </h2>
-              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
+              <div className="w-24 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-8 rounded-full"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
                 Transform your business with cutting-edge generative AI technologies and expert implementation
               </p>
             </div>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary-orange/10 rounded-full flex items-center justify-center mb-6 mx-auto">
-                  <Zap className="w-8 h-8 text-primary-orange" />
+              <div className="text-center group">
+                <div className="relative mb-6">
+                  <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-full blur-xl opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                  <div className="relative w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-full flex items-center justify-center mb-6 mx-auto shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-500">
+                    <Zap className="w-8 h-8 text-white" />
+                  </div>
                 </div>
-                <h3 className="text-xl font-bold mb-4">Lightning Fast</h3>
+                <h3 className="text-xl font-bold mb-4 group-hover:text-primary-orange transition-colors">Lightning Fast</h3>
                 <p className="text-gray-600">
                   Rapid deployment and implementation of generative AI solutions with optimized performance 
                   and minimal downtime.
                 </p>
               </div>
               
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary-orange/10 rounded-full flex items-center justify-center mb-6 mx-auto">
-                  <Target className="w-8 h-8 text-primary-orange" />
+              <div className="text-center group">
+                <div className="relative mb-6">
+                  <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-full blur-xl opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                  <div className="relative w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-full flex items-center justify-center mb-6 mx-auto shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-500">
+                    <Target className="w-8 h-8 text-white" />
+                  </div>
                 </div>
-                <h3 className="text-xl font-bold mb-4">Precision Accuracy</h3>
+                <h3 className="text-xl font-bold mb-4 group-hover:text-primary-orange transition-colors">Precision Accuracy</h3>
                 <p className="text-gray-600">
                   Fine-tuned models and optimized prompts ensure high-quality outputs that meet your 
                   specific business requirements and standards.
                 </p>
               </div>
               
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary-orange/10 rounded-full flex items-center justify-center mb-6 mx-auto">
-                  <Shield className="w-8 h-8 text-primary-orange" />
+              <div className="text-center group">
+                <div className="relative mb-6">
+                  <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-full blur-xl opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                  <div className="relative w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-full flex items-center justify-center mb-6 mx-auto shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-500">
+                    <Shield className="w-8 h-8 text-white" />
+                  </div>
                 </div>
-                <h3 className="text-xl font-bold mb-4">Enterprise Security</h3>
+                <h3 className="text-xl font-bold mb-4 group-hover:text-primary-orange transition-colors">Enterprise Security</h3>
                 <p className="text-gray-600">
                   Robust security measures, data privacy protection, and compliance with industry 
                   standards for enterprise-grade AI implementations.
                 </p>
               </div>
               
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary-orange/10 rounded-full flex items-center justify-center mb-6 mx-auto">
-                  <Users className="w-8 h-8 text-primary-orange" />
+              <div className="text-center group">
+                <div className="relative mb-6">
+                  <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-full blur-xl opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                  <div className="relative w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-full flex items-center justify-center mb-6 mx-auto shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-500">
+                    <Users className="w-8 h-8 text-white" />
+                  </div>
                 </div>
-                <h3 className="text-xl font-bold mb-4">Expert Support</h3>
+                <h3 className="text-xl font-bold mb-4 group-hover:text-primary-orange transition-colors">Expert Support</h3>
                 <p className="text-gray-600">
                   Dedicated team of AI specialists providing ongoing support, optimization, and 
                   continuous improvement of your generative AI systems.
@@ -539,42 +918,56 @@ export default function GenerativeAIServicesPage() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section id="consultation" className="py-20 bg-primary-orange text-white">
-        <div className="container px-4 md:px-6">
+      {/* CTA Section - Enhanced Home Page Style */}
+      <section id="consultation" className="py-20 bg-gradient-to-br from-primary-orange via-secondary-orange to-primary-orange text-white relative overflow-hidden">
+        {/* Background Effects */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <div className="absolute top-20 left-20 w-64 h-64 bg-white/10 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-20 right-20 w-96 h-96 bg-white/10 rounded-full blur-3xl animate-pulse" style={{animationDelay: '1s'}}></div>
+        </div>
+
+        <div className="container px-4 md:px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-              Ready to Transform Your Business with Generative AI?
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-6">
+              Ready to Transform Your Business with <span className="text-orange-100">Generative AI?</span>
             </h2>
-            <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
+            <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto leading-relaxed">
               Let our experts help you harness the power of generative AI to automate processes, 
               enhance creativity, and drive innovation in your organization.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Link href="/contact">
-                <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100">
-                  Start Your AI Journey
+                <Button variant="secondary" size="lg" className="group bg-white text-primary-orange hover:bg-gray-100 shadow-xl hover:shadow-2xl">
+                  <span className="flex items-center">
+                    Start Your AI Journey
+                    <Rocket className="ml-2 h-5 w-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
+                  </span>
                 </Button>
               </Link>
               <Link href="tel:+917892518414">
-                <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  Call: +91 7892518414
+                <Button variant="outline" size="lg" className="group border-2 border-white text-white hover:bg-white hover:text-primary-orange shadow-lg hover:shadow-xl">
+                  <span>Call: +91 7892518414</span>
+                  <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-2 transition-transform" />
                 </Button>
               </Link>
             </div>
             
-            <div className="mt-12 grid md:grid-cols-3 gap-8 text-center">
-              <div>
-                <div className="text-2xl font-bold mb-2">500+</div>
+            <div className="grid md:grid-cols-3 gap-8 text-center">
+              <div className="group">
+                <div className="text-3xl md:text-4xl font-bold mb-2 group-hover:scale-110 transition-transform">500+</div>
                 <p className="text-orange-100">AI Models Deployed</p>
+                <div className="w-16 h-1 bg-white mx-auto mt-2 opacity-0 group-hover:opacity-100 transition-opacity"></div>
               </div>
-              <div>
-                <div className="text-2xl font-bold mb-2">95%</div>
+              <div className="group">
+                <div className="text-3xl md:text-4xl font-bold mb-2 group-hover:scale-110 transition-transform">95%</div>
                 <p className="text-orange-100">Content Quality Score</p>
+                <div className="w-16 h-1 bg-white mx-auto mt-2 opacity-0 group-hover:opacity-100 transition-opacity"></div>
               </div>
-              <div>
-                <div className="text-2xl font-bold mb-2">24/7</div>
+              <div className="group">
+                <div className="text-3xl md:text-4xl font-bold mb-2 group-hover:scale-110 transition-transform">24/7</div>
                 <p className="text-orange-100">AI-Powered Support</p>
+                <div className="w-16 h-1 bg-white mx-auto mt-2 opacity-0 group-hover:opacity-100 transition-opacity"></div>
               </div>
             </div>
           </div>
