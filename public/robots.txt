@@ -1,14 +1,16 @@
 # Metic AI - Leading AI Company Worldwide
 # Optimized robots.txt for maximum SEO performance and global reach
 
-# Allow all search engines
+# Allow all search engines with optimized crawling
 User-agent: *
 Allow: /
+Crawl-delay: 1
 
-# Priority pages for crawling - Core services
+# Priority discovery - Core business pages
 Allow: /about
 Allow: /services
 Allow: /contact
+Allow: /locations
 Allow: /machine-learning
 Allow: /custom-ai-development
 Allow: /ai-integration-and-deployment
@@ -75,14 +77,16 @@ Allow: /
 User-agent: YandexBot
 Allow: /
 
-# Sitemaps (helps search engines discover all pages)
+# Enhanced Sitemaps for complete page discovery
 Sitemap: https://metic.ai/sitemap.xml
-Sitemap: https://metic.ai/sitemap-0.xml
-
-# RSS Feed for content discovery
 Sitemap: https://metic.ai/rss.xml
 
+# Submit to major search engines:
+# Google: https://search.google.com/search-console/sitemaps
+# Bing: https://www.bing.com/webmasters/sitemaps
+# Yandex: https://webmaster.yandex.com/sitemaps
+
 # Crawl optimization note:
-# This site contains 142+ location-based AI service pages
+# This site contains 143+ location-based AI service pages
 # All pages are optimized for 100% On-Page SEO, VSO, ASO, and GEO
 # Last updated: November 7, 2025
