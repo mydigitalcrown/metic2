@@ -48,7 +48,6 @@ Disallow: /*.json$
 # Allow Google-specific crawlers
 User-agent: Googlebot
 Allow: /
-Crawl-delay: 0
 
 User-agent: Googlebot-Image
 Allow: /
@@ -62,7 +61,6 @@ Allow: /*.webp
 # Allow Bing
 User-agent: Bingbot
 Allow: /
-Crawl-delay: 0
 
 # Allow other major search engines
 User-agent: Slurp
@@ -90,4 +88,4 @@ Host: https://metic.ai
 # Crawl optimization note:
 # This site contains 142+ location-based AI service pages
 # All pages are optimized for 100% On-Page SEO, VSO, ASO, and GEO
-# Last updated: October 31, 2025
+# Last updated: November 7, 2025
