@@ -40,7 +40,11 @@ import {
   Play,
   Network,
   Activity,
-  PieChart
+  PieChart,
+  ChevronDown,
+  FileCheck,
+  Headphones,
+  RefreshCw
 } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -779,85 +783,306 @@ export default function AIIntegrationPage() {
         </div>
       </section>
 
-      {/* Benefits Section */}
-      <section className="py-20 bg-gray-50">
+      {/* Revolutionary Core Services Section */}
+      <section id="services" className="py-24 bg-gradient-to-br from-white via-gray-50/50 to-white">
         <div className="container px-4 md:px-6">
-          <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Benefits of AI Model Deployment and Integration
+          <div className="max-w-7xl mx-auto">
+            <div className="text-center mb-20">
+              <div className="inline-block mb-8">
+                <span className="px-8 py-4 bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 text-primary-orange text-sm font-bold rounded-full border border-primary-orange/20 shadow-xl">
+                  🎯 Our Expertise
+                </span>
+              </div>
+              
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight">
+                <span className="text-gray-900">Our </span>
+                <span className="text-primary-orange">AI Integration</span>
+                <span className="text-gray-900"> & Deployment Services</span>
               </h2>
-              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Transform your business with our comprehensive Machine Learning Company expertise
+              
+              <div className="w-32 h-2 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-10 rounded-full shadow-lg"></div>
+              
+              <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+                <strong className="text-primary-orange">End-to-end AI integration and deployment</strong> from assessment to optimization with 
+                <strong className="text-gray-900"> enterprise-grade solutions</strong> and <strong className="text-secondary-orange">local expertise near you</strong>
               </p>
             </div>
             
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div className="bg-white rounded-xl p-6 shadow-sm">
-                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
-                  <Brain className="w-6 h-6 text-blue-600" />
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+              {/* Enhanced Decision-Making - Enhanced 3D Card */}
+              <div className="group relative bg-gradient-to-br from-white to-gray-50/80 rounded-3xl p-8 shadow-xl border border-gray-100 hover:border-primary-orange/30 hover:shadow-2xl hover:shadow-primary-orange/10 transition-all duration-500 hover:scale-105 hover:-translate-y-2">
+                <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/5 to-transparent rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                
+                <div className="relative z-10">
+                  <div className="relative mb-8">
+                    <div className="w-20 h-20 bg-gradient-to-br from-blue-500/20 to-blue-600/20 rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-all duration-500 shadow-lg">
+                      <Brain className="w-10 h-10 text-blue-600 group-hover:scale-110 transition-transform" />
+                    </div>
+                    <div className="absolute -top-2 -right-2 w-8 h-8 bg-primary-orange/20 rounded-full blur-sm group-hover:blur-md transition-all"></div>
+                  </div>
+                  
+                  <h3 className="text-2xl font-bold mb-6 group-hover:text-primary-orange transition-colors duration-300">
+                    Enhanced Decision-Making
+                  </h3>
+                  
+                  <p className="text-gray-600 leading-relaxed mb-8 text-lg">
+                    <strong className="text-gray-900">Data-driven approach to decision-making processes</strong>, analyzing vast datasets 
+                    and providing actionable insights for informed strategic decisions with real-time intelligence.
+                  </p>
+                  
+                  <div className="space-y-4 mb-8">
+                    <div className="flex items-center text-sm text-gray-700">
+                      <CheckCircle className="w-5 h-5 text-green-500 mr-3 group-hover:scale-110 transition-transform" />
+                      <span className="font-medium">Real-time Data Analytics</span>
+                    </div>
+                    <div className="flex items-center text-sm text-gray-700">
+                      <CheckCircle className="w-5 h-5 text-green-500 mr-3 group-hover:scale-110 transition-transform" style={{transitionDelay: '100ms'}} />
+                      <span className="font-medium">Predictive Insights</span>
+                    </div>
+                    <div className="flex items-center text-sm text-gray-700">
+                      <CheckCircle className="w-5 h-5 text-green-500 mr-3 group-hover:scale-110 transition-transform" style={{transitionDelay: '200ms'}} />
+                      <span className="font-medium">Strategic Recommendations</span>
+                    </div>
+                  </div>
+                  
+                  <div className="pt-4 border-t border-gray-100">
+                    <Link href="/contact">
+                      <Button variant="outline" className="w-full border-primary-orange text-primary-orange hover:bg-primary-orange hover:text-white group-hover:shadow-lg">
+                        Get Decision Analytics <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                      </Button>
+                    </Link>
+                  </div>
                 </div>
-                <h3 className="text-lg font-bold mb-3">Enhanced Decision-Making</h3>
-                <p className="text-gray-600 text-sm">
-                  AI models bring a data-driven approach to decision-making processes, analyzing vast datasets 
-                  and providing actionable insights for informed strategic decisions.
-                </p>
               </div>
-              
-              <div className="bg-white rounded-xl p-6 shadow-sm">
-                <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4">
-                  <Zap className="w-6 h-6 text-green-600" />
+
+              {/* Operational Efficiency - Enhanced 3D Card */}
+              <div className="group relative bg-gradient-to-br from-white to-gray-50/80 rounded-3xl p-8 shadow-xl border border-gray-100 hover:border-secondary-orange/30 hover:shadow-2xl hover:shadow-secondary-orange/10 transition-all duration-500 hover:scale-105 hover:-translate-y-2">
+                <div className="absolute inset-0 bg-gradient-to-br from-secondary-orange/5 to-transparent rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                
+                <div className="relative z-10">
+                  <div className="relative mb-8">
+                    <div className="w-20 h-20 bg-gradient-to-br from-green-500/20 to-green-600/20 rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-all duration-500 shadow-lg">
+                      <Zap className="w-10 h-10 text-green-600 group-hover:scale-110 transition-transform" />
+                    </div>
+                    <div className="absolute -top-2 -right-2 w-8 h-8 bg-secondary-orange/20 rounded-full blur-sm group-hover:blur-md transition-all"></div>
+                  </div>
+                  
+                  <h3 className="text-2xl font-bold mb-6 group-hover:text-secondary-orange transition-colors duration-300">
+                    Operational Efficiency & Automation
+                  </h3>
+                  
+                  <p className="text-gray-600 leading-relaxed mb-8 text-lg">
+                    <strong className="text-gray-900">AI integration automates repetitive tasks</strong>, reduces manual efforts by up to 80%, 
+                    and increases operational efficiency across various business processes and workflows.
+                  </p>
+                  
+                  <div className="space-y-4 mb-8">
+                    <div className="flex items-center text-sm text-gray-700">
+                      <CheckCircle className="w-5 h-5 text-green-500 mr-3 group-hover:scale-110 transition-transform" />
+                      <span className="font-medium">Workflow Automation</span>
+                    </div>
+                    <div className="flex items-center text-sm text-gray-700">
+                      <CheckCircle className="w-5 h-5 text-green-500 mr-3 group-hover:scale-110 transition-transform" style={{transitionDelay: '100ms'}} />
+                      <span className="font-medium">Process Optimization</span>
+                    </div>
+                    <div className="flex items-center text-sm text-gray-700">
+                      <CheckCircle className="w-5 h-5 text-green-500 mr-3 group-hover:scale-110 transition-transform" style={{transitionDelay: '200ms'}} />
+                      <span className="font-medium">Efficiency Monitoring</span>
+                    </div>
+                  </div>
+                  
+                  <div className="pt-4 border-t border-gray-100">
+                    <Link href="/contact">
+                      <Button variant="outline" className="w-full border-secondary-orange text-secondary-orange hover:bg-secondary-orange hover:text-white group-hover:shadow-lg">
+                        Automate Operations <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                      </Button>
+                    </Link>
+                  </div>
                 </div>
-                <h3 className="text-lg font-bold mb-3">Operational Efficiency and Automation</h3>
-                <p className="text-gray-600 text-sm">
-                  AI integration automates repetitive tasks, reduces manual efforts, and increases operational 
-                  efficiency across various business processes and workflows.
-                </p>
               </div>
-              
-              <div className="bg-white rounded-xl p-6 shadow-sm">
-                <div className="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center mb-4">
-                  <TrendingUp className="w-6 h-6 text-yellow-600" />
+
+              {/* Cost Savings - Enhanced 3D Card */}
+              <div className="group relative bg-gradient-to-br from-white to-gray-50/80 rounded-3xl p-8 shadow-xl border border-gray-100 hover:border-yellow-500/30 hover:shadow-2xl hover:shadow-yellow-500/10 transition-all duration-500 hover:scale-105 hover:-translate-y-2">
+                <div className="absolute inset-0 bg-gradient-to-br from-yellow-500/5 to-transparent rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                
+                <div className="relative z-10">
+                  <div className="relative mb-8">
+                    <div className="w-20 h-20 bg-gradient-to-br from-yellow-500/20 to-yellow-600/20 rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-all duration-500 shadow-lg">
+                      <TrendingUp className="w-10 h-10 text-yellow-600 group-hover:scale-110 transition-transform" />
+                    </div>
+                    <div className="absolute -top-2 -right-2 w-8 h-8 bg-yellow-500/20 rounded-full blur-sm group-hover:blur-md transition-all"></div>
+                  </div>
+                  
+                  <h3 className="text-2xl font-bold mb-6 group-hover:text-yellow-600 transition-colors duration-300">
+                    Cost Savings & ROI
+                  </h3>
+                  
+                  <p className="text-gray-600 leading-relaxed mb-8 text-lg">
+                    <strong className="text-gray-900">Automation and improved efficiency</strong> directly translate into cost savings 
+                    by cutting down on labor costs by 60% and optimizing resource allocation across operations.
+                  </p>
+                  
+                  <div className="space-y-4 mb-8">
+                    <div className="flex items-center text-sm text-gray-700">
+                      <CheckCircle className="w-5 h-5 text-green-500 mr-3 group-hover:scale-110 transition-transform" />
+                      <span className="font-medium">60% Cost Reduction</span>
+                    </div>
+                    <div className="flex items-center text-sm text-gray-700">
+                      <CheckCircle className="w-5 h-5 text-green-500 mr-3 group-hover:scale-110 transition-transform" style={{transitionDelay: '100ms'}} />
+                      <span className="font-medium">Resource Optimization</span>
+                    </div>
+                    <div className="flex items-center text-sm text-gray-700">
+                      <CheckCircle className="w-5 h-5 text-green-500 mr-3 group-hover:scale-110 transition-transform" style={{transitionDelay: '200ms'}} />
+                      <span className="font-medium">ROI Tracking</span>
+                    </div>
+                  </div>
+                  
+                  <div className="pt-4 border-t border-gray-100">
+                    <Link href="/contact">
+                      <Button variant="outline" className="w-full border-yellow-600 text-yellow-600 hover:bg-yellow-600 hover:text-white group-hover:shadow-lg">
+                        Calculate Savings <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                      </Button>
+                    </Link>
+                  </div>
                 </div>
-                <h3 className="text-lg font-bold mb-3">Cost Savings</h3>
-                <p className="text-gray-600 text-sm">
-                  Automation and improved efficiency directly translate into cost savings by cutting down on 
-                  labor costs and optimizing resource allocation.
-                </p>
               </div>
-              
-              <div className="bg-white rounded-xl p-6 shadow-sm">
-                <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mb-4">
-                  <Target className="w-6 h-6 text-purple-600" />
+
+              {/* Customization & Personalization - Enhanced 3D Card */}
+              <div className="group relative bg-gradient-to-br from-white to-gray-50/80 rounded-3xl p-8 shadow-xl border border-gray-100 hover:border-purple-500/30 hover:shadow-2xl hover:shadow-purple-500/10 transition-all duration-500 hover:scale-105 hover:-translate-y-2">
+                <div className="absolute inset-0 bg-gradient-to-br from-purple-500/5 to-transparent rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                
+                <div className="relative z-10">
+                  <div className="relative mb-8">
+                    <div className="w-20 h-20 bg-gradient-to-br from-purple-500/20 to-purple-600/20 rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-all duration-500 shadow-lg">
+                      <Target className="w-10 h-10 text-purple-600 group-hover:scale-110 transition-transform" />
+                    </div>
+                    <div className="absolute -top-2 -right-2 w-8 h-8 bg-purple-500/20 rounded-full blur-sm group-hover:blur-md transition-all"></div>
+                  </div>
+                  
+                  <h3 className="text-2xl font-bold mb-6 group-hover:text-purple-600 transition-colors duration-300">
+                    Customization & Personalization
+                  </h3>
+                  
+                  <p className="text-gray-600 leading-relaxed mb-8 text-lg">
+                    <strong className="text-gray-900">AI models enable businesses to customize</strong> products, services, and user experiences 
+                    based on individual preferences and behaviors, enhancing customer satisfaction by 40%.
+                  </p>
+                  
+                  <div className="space-y-4 mb-8">
+                    <div className="flex items-center text-sm text-gray-700">
+                      <CheckCircle className="w-5 h-5 text-green-500 mr-3 group-hover:scale-110 transition-transform" />
+                      <span className="font-medium">Behavioral Analysis</span>
+                    </div>
+                    <div className="flex items-center text-sm text-gray-700">
+                      <CheckCircle className="w-5 h-5 text-green-500 mr-3 group-hover:scale-110 transition-transform" style={{transitionDelay: '100ms'}} />
+                      <span className="font-medium">Custom Recommendations</span>
+                    </div>
+                    <div className="flex items-center text-sm text-gray-700">
+                      <CheckCircle className="w-5 h-5 text-green-500 mr-3 group-hover:scale-110 transition-transform" style={{transitionDelay: '200ms'}} />
+                      <span className="font-medium">Experience Optimization</span>
+                    </div>
+                  </div>
+                  
+                  <div className="pt-4 border-t border-gray-100">
+                    <Link href="/contact">
+                      <Button variant="outline" className="w-full border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white group-hover:shadow-lg">
+                        Personalize Experience <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                      </Button>
+                    </Link>
+                  </div>
                 </div>
-                <h3 className="text-lg font-bold mb-3">Customization and Personalization</h3>
-                <p className="text-gray-600 text-sm">
-                  AI models enable businesses to customize products, services, and user experiences based on 
-                  individual preferences and behaviors, enhancing customer satisfaction.
-                </p>
               </div>
-              
-              <div className="bg-white rounded-xl p-6 shadow-sm">
-                <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mb-4">
-                  <Users className="w-6 h-6 text-red-600" />
+
+              {/* Customer Experience - Enhanced 3D Card */}
+              <div className="group relative bg-gradient-to-br from-white to-gray-50/80 rounded-3xl p-8 shadow-xl border border-gray-100 hover:border-red-500/30 hover:shadow-2xl hover:shadow-red-500/10 transition-all duration-500 hover:scale-105 hover:-translate-y-2">
+                <div className="absolute inset-0 bg-gradient-to-br from-red-500/5 to-transparent rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                
+                <div className="relative z-10">
+                  <div className="relative mb-8">
+                    <div className="w-20 h-20 bg-gradient-to-br from-red-500/20 to-red-600/20 rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-all duration-500 shadow-lg">
+                      <Users className="w-10 h-10 text-red-600 group-hover:scale-110 transition-transform" />
+                    </div>
+                    <div className="absolute -top-2 -right-2 w-8 h-8 bg-red-500/20 rounded-full blur-sm group-hover:blur-md transition-all"></div>
+                  </div>
+                  
+                  <h3 className="text-2xl font-bold mb-6 group-hover:text-red-600 transition-colors duration-300">
+                    Improved Customer Experiences
+                  </h3>
+                  
+                  <p className="text-gray-600 leading-relaxed mb-8 text-lg">
+                    <strong className="text-gray-900">AI-powered applications enhance</strong> customer experiences across various touchpoints, 
+                    from chatbots providing instant 24/7 support to personalized product recommendations.
+                  </p>
+                  
+                  <div className="space-y-4 mb-8">
+                    <div className="flex items-center text-sm text-gray-700">
+                      <CheckCircle className="w-5 h-5 text-green-500 mr-3 group-hover:scale-110 transition-transform" />
+                      <span className="font-medium">24/7 AI Support</span>
+                    </div>
+                    <div className="flex items-center text-sm text-gray-700">
+                      <CheckCircle className="w-5 h-5 text-green-500 mr-3 group-hover:scale-110 transition-transform" style={{transitionDelay: '100ms'}} />
+                      <span className="font-medium">Intelligent Chatbots</span>
+                    </div>
+                    <div className="flex items-center text-sm text-gray-700">
+                      <CheckCircle className="w-5 h-5 text-green-500 mr-3 group-hover:scale-110 transition-transform" style={{transitionDelay: '200ms'}} />
+                      <span className="font-medium">Sentiment Analysis</span>
+                    </div>
+                  </div>
+                  
+                  <div className="pt-4 border-t border-gray-100">
+                    <Link href="/contact">
+                      <Button variant="outline" className="w-full border-red-600 text-red-600 hover:bg-red-600 hover:text-white group-hover:shadow-lg">
+                        Enhance Experience <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                      </Button>
+                    </Link>
+                  </div>
                 </div>
-                <h3 className="text-lg font-bold mb-3">Improved Customer Experiences</h3>
-                <p className="text-gray-600 text-sm">
-                  AI-powered applications enhance customer experiences across various touchpoints, from chatbots 
-                  providing instant support to personalized recommendations.
-                </p>
               </div>
-              
-              <div className="bg-white rounded-xl p-6 shadow-sm">
-                <div className="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center mb-4">
-                  <BarChart3 className="w-6 h-6 text-indigo-600" />
+
+              {/* Predictive Analytics - Enhanced 3D Card */}
+              <div className="group relative bg-gradient-to-br from-white to-gray-50/80 rounded-3xl p-8 shadow-xl border border-gray-100 hover:border-indigo-500/30 hover:shadow-2xl hover:shadow-indigo-500/10 transition-all duration-500 hover:scale-105 hover:-translate-y-2">
+                <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/5 to-transparent rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                
+                <div className="relative z-10">
+                  <div className="relative mb-8">
+                    <div className="w-20 h-20 bg-gradient-to-br from-indigo-500/20 to-indigo-600/20 rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-all duration-500 shadow-lg">
+                      <BarChart3 className="w-10 h-10 text-indigo-600 group-hover:scale-110 transition-transform" />
+                    </div>
+                    <div className="absolute -top-2 -right-2 w-8 h-8 bg-indigo-500/20 rounded-full blur-sm group-hover:blur-md transition-all"></div>
+                  </div>
+                  
+                  <h3 className="text-2xl font-bold mb-6 group-hover:text-indigo-600 transition-colors duration-300">
+                    Predictive Analytics for Planning
+                  </h3>
+                  
+                  <p className="text-gray-600 leading-relaxed mb-8 text-lg">
+                    <strong className="text-gray-900">AI models excel in predictive analytics</strong>, forecasting future trends and outcomes 
+                    based on historical data, enabling proactive planning and strategic development with 95% accuracy.
+                  </p>
+                  
+                  <div className="space-y-4 mb-8">
+                    <div className="flex items-center text-sm text-gray-700">
+                      <CheckCircle className="w-5 h-5 text-green-500 mr-3 group-hover:scale-110 transition-transform" />
+                      <span className="font-medium">Trend Forecasting</span>
+                    </div>
+                    <div className="flex items-center text-sm text-gray-700">
+                      <CheckCircle className="w-5 h-5 text-green-500 mr-3 group-hover:scale-110 transition-transform" style={{transitionDelay: '100ms'}} />
+                      <span className="font-medium">Risk Assessment</span>
+                    </div>
+                    <div className="flex items-center text-sm text-gray-700">
+                      <CheckCircle className="w-5 h-5 text-green-500 mr-3 group-hover:scale-110 transition-transform" style={{transitionDelay: '200ms'}} />
+                      <span className="font-medium">Strategic Planning</span>
+                    </div>
+                  </div>
+                  
+                  <div className="pt-4 border-t border-gray-100">
+                    <Link href="/contact">
+                      <Button variant="outline" className="w-full border-indigo-600 text-indigo-600 hover:bg-indigo-600 hover:text-white group-hover:shadow-lg">
+                        Get Predictions <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                      </Button>
+                    </Link>
+                  </div>
                 </div>
-                <h3 className="text-lg font-bold mb-3">Predictive Analytics for Better Planning</h3>
-                <p className="text-gray-600 text-sm">
-                  AI models excel in predictive analytics, forecasting future trends and outcomes based on 
-                  historical data, enabling proactive planning and strategy development.
-                </p>
               </div>
             </div>
           </div>
@@ -1525,73 +1750,498 @@ export default function AIIntegrationPage() {
         </div>
       </section>
 
-      {/* FAQ Section */}
-      <section className="py-20 bg-white">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-4xl mx-auto">
+      {/* Enhanced FAQ Section - Ahmedabad Style */}
+      <section className="py-24 bg-gradient-to-br from-gray-50 via-white to-orange-50 relative overflow-hidden">
+        {/* Advanced Background Effects */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          {/* Animated Gradient Orbs */}
+          <div className="absolute top-10 left-10 w-96 h-96 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-10 right-10 w-96 h-96 bg-secondary-orange/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
+          
+          {/* Grid Pattern */}
+          <div className="absolute inset-0 opacity-[0.02]" style={{
+            backgroundImage: `linear-gradient(#FF6B35 1.5px, transparent 1.5px), linear-gradient(90deg, #FF6B35 1.5px, transparent 1.5px)`,
+            backgroundSize: '60px 60px'
+          }}></div>
+        </div>
+        
+        <div className="container px-4 md:px-6 relative z-10">
+          <div className="max-w-5xl mx-auto">
+            {/* Enhanced Section Header */}
             <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Frequently Asked Questions
+              {/* Badge */}
+              <div className="inline-flex items-center gap-2 px-6 py-3 bg-white rounded-full shadow-xl border-2 border-primary-orange/20 mb-8 hover:border-primary-orange/40 transition-all group">
+                <Lightbulb className="w-5 h-5 text-primary-orange animate-pulse" />
+                <span className="text-sm font-bold text-gray-800">Got Questions? We Have Answers!</span>
+                <Sparkles className="w-4 h-4 text-primary-orange" />
+              </div>
+              
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+                <span className="text-gray-900">Frequently Asked Questions</span>
+                <br />
+                <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
+                  About AI Integration & Deployment
+                </span>
               </h2>
-              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
-              <p className="text-lg text-gray-600">
-                Common questions about AI integration and deployment services
+              <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-8 rounded-full"></div>
+              <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+                Common questions about AI integration services and deployment solutions near you
               </p>
             </div>
-            
-            <div className="space-y-6">
-              <div className="bg-gray-50 rounded-xl p-6">
-                <h3 className="text-lg font-bold mb-3">What is the typical timeline for AI integration projects?</h3>
-                <p className="text-gray-600">
-                  AI integration timelines vary based on project complexity, data availability, and infrastructure readiness. 
-                  Simple integrations can take 2-4 weeks, while comprehensive enterprise solutions may require 3-6 months. 
-                  We provide detailed project timelines during our initial consultation phase.
-                </p>
-              </div>
-              
-              <div className="bg-gray-50 rounded-xl p-6">
-                <h3 className="text-lg font-bold mb-3">How do you ensure data security during AI deployment?</h3>
-                <p className="text-gray-600">
-                  We implement industry-leading security measures including end-to-end encryption, secure data pipelines, 
-                  access controls, and compliance with regulations like GDPR and CCPA. All data handling follows strict 
-                  security protocols and audit trails.
-                </p>
-              </div>
-              
-              <div className="bg-gray-50 rounded-xl p-6">
-                <h3 className="text-lg font-bold mb-3">What deployment model is best for my business?</h3>
-                <p className="text-gray-600">
-                  The choice between cloud-based, on-premises, or hybrid deployment depends on your specific requirements 
-                  including data sensitivity, compliance needs, budget, and scalability requirements. We conduct thorough 
-                  assessments to recommend the optimal deployment strategy.
-                </p>
-              </div>
-              
-              <div className="bg-gray-50 rounded-xl p-6">
-                <h3 className="text-lg font-bold mb-3">Do you provide ongoing support after deployment?</h3>
-                <p className="text-gray-600">
-                  Yes, we offer comprehensive post-deployment support including model monitoring, performance optimization, 
-                  regular updates, troubleshooting, and scaling assistance. Our support packages are tailored to your 
-                  specific needs and service level requirements.
-                </p>
-              </div>
-              
-              <div className="bg-gray-50 rounded-xl p-6">
-                <h3 className="text-lg font-bold mb-3">How do you measure the success of AI integration?</h3>
-                <p className="text-gray-600">
-                  We establish clear KPIs and success metrics before deployment, including accuracy rates, performance 
-                  improvements, cost savings, user adoption rates, and ROI measurements. Regular reporting and analytics 
-                  dashboards provide ongoing visibility into AI system performance.
-                </p>
-              </div>
-              
-              <div className="bg-gray-50 rounded-xl p-6">
-                <h3 className="text-lg font-bold mb-3">Can AI solutions integrate with existing business systems?</h3>
-                <p className="text-gray-600">
-                  Absolutely. Our AI solutions are designed to seamlessly integrate with existing enterprise systems, 
-                  databases, APIs, and workflows. We conduct compatibility assessments and develop custom integration 
-                  solutions to ensure smooth operation with your current technology stack.
-                </p>
+
+            {/* Advanced Creative FAQ Cards */}
+            <div className="space-y-5">
+              {/* FAQ Item 1 - Enhanced Design */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    {/* Gradient Overlay */}
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    {/* Content */}
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        {/* Icon Circle */}
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Clock className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        {/* Question */}
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What is the typical timeline for AI integration projects?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      {/* Toggle Icon */}
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    {/* Bottom Accent Bar */}
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                {/* Answer with Animation */}
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <CheckCircle className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        <strong className="text-gray-900 font-semibold">AI integration timelines vary based on project complexity</strong>, data availability, and infrastructure readiness. 
+                        Simple integrations can take 2-4 weeks, while comprehensive enterprise solutions may require 3-6 months.
+                      </p>
+                      <p className="text-lg">
+                        Our proven methodology ensures faster deployment with detailed project timelines provided during our initial consultation phase. 
+                        We typically achieve 30% faster integration compared to traditional approaches.
+                      </p>
+                      
+                      {/* Stats Highlight */}
+                      <div className="flex flex-wrap gap-4 pt-4">
+                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
+                          <Zap className="w-4 h-4 text-primary-orange" />
+                          <span className="text-sm font-semibold text-gray-900">2-4 weeks simple projects</span>
+                        </div>
+                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
+                          <Settings className="w-4 h-4 text-primary-orange" />
+                          <span className="text-sm font-semibold text-gray-900">3-6 months enterprise</span>
+                        </div>
+                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
+                          <TrendingUp className="w-4 h-4 text-primary-orange" />
+                          <span className="text-sm font-semibold text-gray-900">30% faster delivery</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </details>
+
+              {/* FAQ Item 2 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Shield className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How do you ensure data security during AI deployment?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <Lock className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        <strong className="text-gray-900 font-semibold">We implement industry-leading security measures</strong> including end-to-end encryption, secure data pipelines, 
+                        access controls, and compliance with regulations like GDPR, HIPAA, and SOC 2.
+                      </p>
+                      <p className="text-lg">
+                        All data handling follows strict security protocols with audit trails, ensuring enterprise-grade protection 
+                        throughout the AI integration and deployment process.
+                      </p>
+
+                      {/* Security Features Grid */}
+                      <div className="grid md:grid-cols-2 gap-4 pt-4">
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <Shield className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">End-to-End Encryption</span>
+                        </div>
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <Lock className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">Access Controls</span>
+                        </div>
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <Award className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">GDPR Compliant</span>
+                        </div>
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <FileCheck className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">Audit Trails</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </details>
+
+              {/* FAQ Item 3 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Cloud className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What deployment model is best for my business?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <Cpu className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        <strong className="text-gray-900 font-semibold">The choice between cloud-based, on-premises, or hybrid deployment</strong> depends on your specific requirements 
+                        including data sensitivity, compliance needs, budget, and scalability requirements.
+                      </p>
+                      <p className="text-lg">
+                        We conduct thorough assessments to recommend the optimal deployment strategy that balances performance, 
+                        security, cost-effectiveness, and future growth potential for your business.
+                      </p>
+
+                      {/* Deployment Options */}
+                      <div className="grid md:grid-cols-3 gap-4 pt-4">
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <Cloud className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">Cloud Deploy</span>
+                        </div>
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <Server className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">On-Premises</span>
+                        </div>
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <Layers className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">Hybrid Model</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </details>
+
+              {/* FAQ Item 4 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Users className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Do you provide ongoing support after deployment?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <Headphones className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        <strong className="text-gray-900 font-semibold">Yes, we offer comprehensive post-deployment support</strong> including model monitoring, performance optimization, 
+                        regular updates, troubleshooting, and scaling assistance with 24/7 technical support.
+                      </p>
+                      <p className="text-lg">
+                        Our support packages are tailored to your specific needs and service level requirements, ensuring continuous 
+                        improvement and optimal performance of your AI systems.
+                      </p>
+
+                      {/* Support Features */}
+                      <div className="grid md:grid-cols-2 gap-4 pt-4">
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <Activity className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">24/7 Monitoring</span>
+                        </div>
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <TrendingUp className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">Performance Tuning</span>
+                        </div>
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <RefreshCw className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">Regular Updates</span>
+                        </div>
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <Headphones className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">Expert Support</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </details>
+
+              {/* FAQ Item 5 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Target className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How do you measure the success of AI integration?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <BarChart3 className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        <strong className="text-gray-900 font-semibold">We establish clear KPIs and success metrics</strong> before deployment, including accuracy rates, performance 
+                        improvements, cost savings, user adoption rates, and comprehensive ROI measurements.
+                      </p>
+                      <p className="text-lg">
+                        Regular reporting and analytics dashboards provide ongoing visibility into AI system performance with 
+                        real-time monitoring and detailed insights for continuous optimization.
+                      </p>
+
+                      {/* Success Metrics */}
+                      <div className="grid md:grid-cols-2 gap-4 pt-4">
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <Target className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">Accuracy Tracking</span>
+                        </div>
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <TrendingUp className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">Performance ROI</span>
+                        </div>
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <Users className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">User Adoption</span>
+                        </div>
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <BarChart3 className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">Analytics Dashboard</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </details>
+
+              {/* FAQ Item 6 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Network className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Can AI solutions integrate with existing business systems?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <Workflow className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        <strong className="text-gray-900 font-semibold">Absolutely. Our AI solutions are designed to seamlessly integrate</strong> with existing enterprise systems, 
+                        databases, APIs, and workflows without disrupting your current operations.
+                      </p>
+                      <p className="text-lg">
+                        We conduct compatibility assessments and develop custom integration solutions to ensure smooth operation 
+                        with your current technology stack including ERP, CRM, and legacy systems.
+                      </p>
+
+                      {/* Integration Capabilities */}
+                      <div className="grid md:grid-cols-2 gap-4 pt-4">
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <Database className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">ERP Integration</span>
+                        </div>
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <Users className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">CRM Systems</span>
+                        </div>
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <Globe className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">API Connections</span>
+                        </div>
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <Server className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">Legacy Systems</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </details>
+            </div>
+
+            {/* Enhanced CTA at Bottom of FAQ */}
+            <div className="text-center mt-16">
+              <div className="inline-block p-1 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange rounded-2xl shadow-2xl">
+                <div className="bg-white rounded-2xl px-8 py-6">
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Still Have Questions?</h3>
+                  <p className="text-gray-600 mb-6">Our AI integration experts are here to help you find the perfect solution</p>
+                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                    <Link href="/contact">
+                      <Button className="bg-gradient-to-r from-primary-orange to-secondary-orange hover:from-secondary-orange hover:to-primary-orange text-white px-8 py-3 rounded-xl font-bold shadow-lg hover:shadow-2xl transition-all">
+                        Get Free Consultation <ArrowRight className="ml-2 w-5 h-5" />
+                      </Button>
+                    </Link>
+                    <Link href="tel:+917892518414">
+                      <Button variant="outline" className="border-primary-orange text-primary-orange hover:bg-primary-orange hover:text-white px-8 py-3 rounded-xl font-bold shadow-lg transition-all">
+                        Call Now: +91 78925 18414
+                      </Button>
+                    </Link>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
