@@ -108,9 +108,21 @@ export function Footer() {
         </div>
         
         <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-gray-400 text-sm">
-            © {currentYear} Metic AI. All rights reserved.
-          </p>
+          <div className="flex flex-col md:flex-row items-center gap-2 md:gap-4 text-gray-400 text-sm">
+            <p>© {currentYear} Metic AI. All rights reserved.</p>
+            <span className="hidden md:inline">•</span>
+            <p>
+              Powered by{" "}
+              <a 
+                href="https://mydigitalcrown.in/" 
+                target="_blank"
+                rel="dofollow"
+                className="text-primary-orange hover:text-secondary-orange transition-colors font-medium"
+              >
+                Digital Marketing Company In Mumbai
+              </a>
+            </p>
+          </div>
           <div className="flex items-center gap-6">
             <Link href="/privacy" className="text-gray-400 text-sm hover:text-primary-orange transition-colors">
               Privacy Policy
