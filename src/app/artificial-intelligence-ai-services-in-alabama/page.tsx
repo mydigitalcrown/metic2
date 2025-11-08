@@ -26,8 +26,8 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Artificial Intelligence Company In Alabama | #1 AI Company In Alabama - Metic.ai",
-  description: "Leading AI Company In Alabama with 2100+ AI projects. Expert machine learning & AI development services. 60% cost savings, 3x faster delivery. Call now!",
+  title: "AI Company In Alabama | #1 Artificial Intelligence Company In Alabama",
+  description: "Leading AI Company In Alabama with 100+ AI projects. Expert Artificial Intelligence development services. 60% cost savings, 3x faster delivery.",
   keywords: [
     "Artificial Intelligence Company In Alabama",
     "AI Company In Alabama", 
@@ -436,20 +436,12 @@ export default function AIServicesAlabamaPage() {
       {/* Hero Section - VSO & Target Keyword Optimized */}
       <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
         <div className="container px-4 md:px-6">
-          <div className="max-w-4xl mx-auto text-center">
-            <div className="flex items-center justify-center gap-2 mb-6">
-              <MapPin className="w-5 h-5 text-primary-orange" />
-              <span className="text-sm font-medium text-orange-300">Serving Alabama, United States</span>
-            </div>
-            
+          <div className="max-w-4xl mx-auto text-center">  
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
-              <strong>Artificial Intelligence Company In Alabama</strong> | Leading <span className="text-primary-orange">AI Company In Alabama</span>
+              <strong>Artificial Intelligence Company In Alabama</strong>
             </h1>
-            
             <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
               Looking for the best <strong>AI Company In Alabama</strong>? Metic.ai is the premier <strong>Artificial Intelligence Company In Alabama</strong> 
-              with 2100+ successful AI implementations. From Birmingham's manufacturing corridors to Mobile's aerospace facilities, 
-              we help Alabama businesses transform with cutting-edge AI solutions, delivering 60% cost savings and 3x faster results.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
