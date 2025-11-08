@@ -28,7 +28,7 @@ import {
 
 export const metadata = {
   title: "AI Company In Alabama | #1 Artificial Intelligence Company In Alabama",
-  description: "Leading AI Company In Alabama with 100+ AI projects. Expert Artificial Intelligence development services. 60% cost savings, 3x faster delivery.",
+  description: "Leading AI Company In Alabama with 2100+ successful AI projects. Expert Artificial Intelligence development, machine learning & automation services. 60% cost savings, 3x faster delivery. Call +1-789-251-8414",
   keywords: [
     "Artificial Intelligence Company In Alabama",
     "AI Company In Alabama", 
@@ -48,7 +48,10 @@ export const metadata = {
     "AI integration services Alabama",
     "custom AI development Alabama",
     "enterprise AI solutions Alabama",
-    "AI ML company Alabama"
+    "AI ML company Alabama",
+    "Alabama AI experts",
+    "Alabama machine learning services",
+    "Alabama AI implementation"
   ],
   authors: [{ name: "Metic.ai Alabama AI Team" }],
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
@@ -434,70 +437,124 @@ export default function AIServicesAlabamaPage() {
         }}
       />
 
-      {/* Hero Section - VSO & Target Keyword Optimized */}
-      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-4xl mx-auto text-center">  
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
-              <strong>Artificial Intelligence Company In Alabama</strong>
-            </h1>
-            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              Looking for the best <strong>AI Company In Alabama</strong>? Metic.ai is the premier <strong>Artificial Intelligence Company In Alabama</strong> 
-            </p>
-            
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-              <Link href="/contact">
-                <Button variant="primary" size="lg" className="w-full sm:w-auto">
-                  Get Free AI Consultation
-                </Button>
-              </Link>
-              <Link href="tel:+917892518414">
-                <Button variant="outline" size="lg" className="w-full sm:w-auto">
-                  <Phone className="w-4 h-4 mr-2" />
-                  Call: +1-789-251-8414
-                </Button>
-              </Link>
+      {/* Hero Section - VSO & Target Keyword Optimized - Enhanced Mobile/Desktop */}
+      <section className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-16 md:py-24 lg:py-32 overflow-hidden">
+        {/* Animated Background Elements */}
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute top-20 left-10 w-72 h-72 bg-primary-orange rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-20 right-10 w-96 h-96 bg-secondary-orange rounded-full blur-3xl animate-pulse delay-1000"></div>
+        </div>
+
+        <div className="container px-4 md:px-6 relative z-10">
+          <div className="max-w-5xl mx-auto">
+            {/* Trust Badge - Mobile Optimized */}
+            <div className="flex justify-center mb-6 md:mb-8">
+              <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-white/10 backdrop-blur-sm rounded-full border border-primary-orange/30 shadow-xl">
+                <Award className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
+                <span className="text-xs md:text-sm font-bold text-white">⭐ 2100+ Successful AI Projects | 98% Client Satisfaction</span>
+              </div>
             </div>
 
-            {/* Voice Search Optimized Stats */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-2xl mx-auto">
-              {stats.map((stat, index) => (
-                <div key={index} className="text-center">
-                  <div className="text-2xl font-bold text-primary-orange mb-1">{stat.number}</div>
-                  <div className="text-sm text-gray-400">{stat.label}</div>
+            <div className="text-center">  
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight mb-4 md:mb-6 leading-tight">
+                <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
+                  Artificial Intelligence
+                </span>
+                <br />
+                <span className="text-white">Company In Alabama</span>
+              </h1>
+              
+              {/* VSO Optimized Description - Mobile Friendly */}
+              <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 mb-6 md:mb-8 max-w-4xl mx-auto leading-relaxed px-4">
+                Looking for the <strong className="text-primary-orange">best AI Company In Alabama</strong>? Metic.ai is the premier <strong className="text-white">Artificial Intelligence Company In Alabama</strong> delivering enterprise AI solutions with proven results.
+              </p>
+
+              {/* Mobile-Optimized CTA Buttons */}
+              <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center mb-10 md:mb-16 px-4">
+                <Link href="/contact" className="w-full sm:w-auto">
+                  <Button variant="primary" size="lg" className="w-full sm:w-auto text-base md:text-lg px-6 md:px-8 py-3 md:py-4 shadow-2xl hover:shadow-primary-orange/50 transform hover:scale-105 transition-all">
+                    <Rocket className="w-5 h-5 mr-2" />
+                    Get Free AI Consultation
+                  </Button>
+                </Link>
+                <Link href="tel:+917892518414" className="w-full sm:w-auto">
+                  <Button variant="outline" size="lg" className="w-full sm:w-auto text-base md:text-lg px-6 md:px-8 py-3 md:py-4 border-2 border-primary-orange text-primary-orange hover:bg-primary-orange hover:text-white">
+                    <Phone className="w-5 h-5 mr-2" />
+                    Call: +1-789-251-8414
+                  </Button>
+                </Link>
+              </div>
+
+              {/* Voice Search Optimized Stats - Responsive Grid */}
+              <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8 max-w-4xl mx-auto mb-10 md:mb-12 px-4">
+                {stats.map((stat, index) => (
+                  <div key={index} className="bg-white/5 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-white/10 hover:border-primary-orange/50 transition-all transform hover:scale-105">
+                    <div className="text-2xl md:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent mb-2">
+                      {stat.number}
+                    </div>
+                    <div className="text-xs md:text-sm text-gray-400">{stat.label}</div>
+                  </div>
+                ))}
+              </div>
+
+              {/* VSO Keywords Section - Mobile Optimized */}
+              <div className="text-center px-4">
+                <p className="text-gray-400 text-sm md:text-base mb-4">
+                  <strong className="text-white">Trusted as the top AI Service In Alabama</strong> by leading businesses
+                </p>
+                <div className="flex flex-wrap justify-center gap-2 md:gap-3 text-xs md:text-sm">
+                  <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
+                    AI Firm In Alabama
+                  </span>
+                  <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
+                    AI Development Company
+                  </span>
+                  <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
+                    Best AI Company Alabama
+                  </span>
+                  <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
+                    Machine Learning Services
+                  </span>
                 </div>
-              ))}
-            </div>
-
-            {/* VSO Keywords Section */}
-            <div className="mt-12 text-center">
-              <p className="text-gray-400 text-sm mb-4">Trusted as the top AI Service In Alabama</p>
-              <div className="flex flex-wrap justify-center gap-4 text-gray-500 text-xs">
-                <span className="bg-gray-800/50 px-3 py-1 rounded-full">AI Firm In Alabama</span>
-                <span className="bg-gray-800/50 px-3 py-1 rounded-full">AI Development Company In Alabama</span>
-                <span className="bg-gray-800/50 px-3 py-1 rounded-full">Best AI Company Alabama</span>
               </div>
             </div>
           </div>
         </div>
+
+        {/* Bottom Wave Decoration */}
+        <div className="absolute bottom-0 left-0 right-0">
+          <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-auto">
+            <path d="M0 0L60 10C120 20 240 40 360 46.7C480 53 600 47 720 43.3C840 40 960 40 1080 46.7C1200 53 1320 67 1380 73.3L1440 80V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0V0Z" fill="white"/>
+          </svg>
+        </div>
       </section>
 
-      {/* Services Section */}
-      <section className="py-20 bg-white">
+      {/* Services Section - Enhanced Mobile & Desktop */}
+      <section className="py-16 md:py-20 lg:py-24 bg-gradient-to-b from-white to-gray-50">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                <strong>AI Services</strong> by Leading <span className="text-primary-orange">Artificial Intelligence Company In Alabama</span>
+            <div className="text-center mb-12 md:mb-16">
+              {/* Section Badge */}
+              <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-primary-orange/10 rounded-full mb-6 md:mb-8">
+                <Brain className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
+                <span className="text-xs md:text-sm font-bold text-primary-orange">COMPREHENSIVE AI SERVICES</span>
+              </div>
+
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 leading-tight px-4">
+                <strong className="text-gray-900">AI Services</strong> by Leading{" "}
+                <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">
+                  Artificial Intelligence Company In Alabama
+                </span>
               </h2>
-              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Comprehensive artificial intelligence services from Alabama's most trusted <strong>AI Company In Alabama</strong>. 
+              <div className="w-20 md:w-24 h-1 md:h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 md:mb-8 rounded-full"></div>
+              <p className="text-base md:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-4">
+                Comprehensive artificial intelligence services from Alabama's most trusted <strong className="text-gray-900">AI Company In Alabama</strong>. 
                 Transforming businesses with cutting-edge AI solutions tailored for Alabama's industrial landscape.
               </p>
             </div>
             
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Mobile: 1 col, Tablet: 2 cols, Desktop: 3 cols */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
               {services.map((service, index) => {
                 const IconComponent = service.icon;
                 const colorClasses = {
@@ -510,21 +567,41 @@ export default function AIServicesAlabamaPage() {
                 };
                 
                 return (
-                  <div key={index} className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100">
-                    <div className={`w-16 h-16 rounded-full flex items-center justify-center mb-6 ${colorClasses[service.color]}`}>
-                      <IconComponent className="w-8 h-8" />
+                  <div 
+                    key={index} 
+                    className="group bg-white rounded-2xl p-6 md:p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border-2 border-gray-100 hover:border-primary-orange/50 transform hover:-translate-y-2"
+                  >
+                    <div className={`w-14 h-14 md:w-16 md:h-16 rounded-2xl flex items-center justify-center mb-5 md:mb-6 ${colorClasses[service.color]} group-hover:scale-110 transition-transform`}>
+                      <IconComponent className="w-7 h-7 md:w-8 md:h-8" />
                     </div>
                     
-                    <h3 className="text-xl font-bold mb-4">{service.title}</h3>
-                    <p className="text-gray-600 mb-6 leading-relaxed">{service.description}</p>
+                    <h3 className="text-lg md:text-xl font-bold mb-3 md:mb-4 text-gray-900 group-hover:text-primary-orange transition-colors">
+                      {service.title}
+                    </h3>
+                    <p className="text-sm md:text-base text-gray-600 mb-5 md:mb-6 leading-relaxed">
+                      {service.description}
+                    </p>
                     
-                    <Link href={service.href} className="inline-flex items-center text-primary-orange hover:text-primary-orange/80 font-medium">
+                    <Link 
+                      href={service.href} 
+                      className="inline-flex items-center text-primary-orange hover:text-secondary-orange font-semibold text-sm md:text-base group-hover:gap-3 transition-all"
+                    >
                       Learn More
-                      <ArrowRight className="w-4 h-4 ml-2" />
+                      <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                     </Link>
                   </div>
                 );
               })}
+            </div>
+
+            {/* CTA Below Services */}
+            <div className="text-center mt-12 md:mt-16">
+              <Link href="/contact">
+                <Button variant="primary" size="lg" className="px-8 md:px-10 py-4 text-base md:text-lg shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all">
+                  <Sparkles className="w-5 h-5 mr-2" />
+                  Explore All AI Services
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
