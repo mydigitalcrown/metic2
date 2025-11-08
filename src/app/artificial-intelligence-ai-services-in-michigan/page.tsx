@@ -102,7 +102,7 @@ export default function AIServicesMichiganPage() {
     },
     {
       title: "Machine Learning Solutions",
-      description: "Advanced ML algorithms and predictive analytics tailored for Michigan's automotives, manufacturings, and pharma industries.",
+      description: "Advanced ML algorithms and predictive analytics tailored for Michigan's automotive, manufacturing, and pharma industries.",
       icon: Brain,
       href: "/machine-learning",
       color: "purple" as const
@@ -144,10 +144,10 @@ export default function AIServicesMichiganPage() {
     "Aerospace",
     "Technology",
     "Agriculture",
-    "Automotive",
     "Finance",
     "Tourism",
-    "Logistics"
+    "Logistics",
+    "Mobility Tech"
   ];
 
   const stats = [
@@ -181,7 +181,7 @@ export default function AIServicesMichiganPage() {
             "email": "hello@metic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
-            "taxID": "US-123456789",
+            "vatID": "US-123456789",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "Behind Manyata Tech Park",
@@ -663,8 +663,8 @@ export default function AIServicesMichiganPage() {
                       Proven AI Expertise
                     </h3>
                     <p className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors">
-                      Years of experience delivering cutting-edge AI solutions for Michigan businesses across automotives, 
-                      manufacturings, Healthcare, and emerging tech sectors.
+                      Years of experience delivering cutting-edge AI solutions for Michigan businesses across automotive, 
+                      manufacturing, Healthcare, and emerging tech sectors.
                     </p>
                     
                     {/* Enhanced Stats */}
@@ -878,7 +878,7 @@ export default function AIServicesMichiganPage() {
                 <p className="text-lg text-gray-700 mb-6">
                   Established as Great Lakes State's leading <strong>AI Company In Michigan</strong>, Metic.ai has been at the forefront of artificial intelligence 
                   innovation since 2020. We specialize in delivering enterprise-grade AI solutions that transform businesses across Michigan's 
-                  key industries including automotives, manufacturings, Healthcare, and Aerospace.
+                  key industries including automotive, manufacturing, Healthcare, and Aerospace.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   Our expertise as an <strong>AI Development Company In Michigan</strong> encompasses machine learning, deep learning, natural language processing, 
@@ -1040,7 +1040,7 @@ export default function AIServicesMichiganPage() {
                       </div>
                       <div>
                         <div className="font-bold text-gray-900">Rajesh Patel</div>
-                        <div className="text-sm text-gray-600">CEO, Patel automotives, Michigan</div>
+                        <div className="text-sm text-gray-600">CEO, Patel automotive, Michigan</div>
                       </div>
                     </div>
                   </div>
@@ -1079,7 +1079,7 @@ export default function AIServicesMichiganPage() {
                       </div>
                       <div>
                         <div className="font-bold text-gray-900">Dr. Meera Shah</div>
-                        <div className="text-sm text-gray-600">CTO, Great Lakes State manufacturings Ltd</div>
+                        <div className="text-sm text-gray-600">CTO, Great Lakes State manufacturing Ltd</div>
                       </div>
                     </div>
                   </div>
@@ -1178,7 +1178,7 @@ export default function AIServicesMichiganPage() {
               </h2>
               <div className="w-40 h-2 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-10 rounded-full shadow-lg"></div>
               <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                Transforming Great Lakes State's automotive capital with cutting-edge AI solutions from automotives to Healthcare
+                Transforming Great Lakes State's automotive capital with cutting-edge AI solutions from automotive to Healthcare
               </p>
             </div>
 
@@ -1210,8 +1210,8 @@ export default function AIServicesMichiganPage() {
                     <p className="text-lg text-gray-700 leading-relaxed">
                       Our <strong className="text-primary-orange font-semibold">AI Company In Michigan</strong> combines deep understanding 
                       of Great Lakes State's manufacturing excellence with cutting-edge technology to deliver AI solutions that drive measurable 
-                      results. We've successfully implemented AI across Michigan's key sectors including automotives, manufacturings, 
-                      Healthcare, mobilitys, Aerospace, and emerging technology sectors.
+                      results. We've successfully implemented AI across Michigan's key sectors including automotive, manufacturing, 
+                      Healthcare, mobility, Aerospace, and emerging technology sectors.
                     </p>
 
                     {/* Enhanced Feature Cards */}
@@ -1273,7 +1273,7 @@ export default function AIServicesMichiganPage() {
                     
                     <div className="space-y-8">
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group">
-                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">₹2.8L Cr</div>
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">₹595B</div>
                         <div className="text-sm text-gray-600 font-medium">Michigan Industrial Output</div>
                         <div className="text-xs text-gray-500 mt-2">Great Lakes State's automotive capital</div>
                       </div>
@@ -1722,7 +1722,7 @@ export default function AIServicesMichiganPage() {
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Industry Domain Expertise</h4>
                         <p className="text-gray-600 leading-relaxed">
-                          Deep understanding of automotives, manufacturings, Healthcare, mobilitys, Aerospace, 
+                          Deep understanding of automotive, manufacturing, Healthcare, mobility, Aerospace, 
                           and Sterling Heights fintech requirements with proven track record
                         </p>
                       </div>
@@ -2139,9 +2139,5 @@ export default function AIServicesMichiganPage() {
     </>
   );
 }
-
-
-
-
 
 
