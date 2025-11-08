@@ -77,8 +77,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'pune', 'noida', 'gurugram', 'coimbatore', 'vizag'
   ]
 
-  // AI location pages with Michigan prioritized
+  // AI location pages with India and Michigan prioritized
   const aiLocationPages = [
+    // India gets highest priority for national market
+    {
+      url: `${baseUrl}/artificial-intelligence-ai-services-in-india`,
+      lastModified,
+      changeFrequency: 'daily' as const,
+      priority: 0.98,
+    },
     // Michigan gets highest priority for "AI Company in Michigan"
     {
       url: `${baseUrl}/artificial-intelligence-ai-services-in-michigan`,
@@ -102,9 +109,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   ]
 
-  // ML location pages with Michigan prioritized
+  // ML location pages with India and Michigan prioritized
   const mlLocationPages = [
-    // Michigan gets highest priority
+    // India gets highest priority (national market)
+    {
+      url: `${baseUrl}/machine-learning-services-in-india`,
+      lastModified,
+      changeFrequency: 'daily' as const,
+      priority: 0.98,
+    },
+    // Michigan gets high priority
     {
       url: `${baseUrl}/machine-learning-services-in-michigan`,
       lastModified,
