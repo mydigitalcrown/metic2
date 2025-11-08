@@ -103,7 +103,7 @@ export default function AIServicesAhmedabadPage() {
     },
     {
       title: "Machine Learning Solutions",
-      description: "Advanced ML algorithms and predictive analytics tailored for Ahmedabad businesses and indINtries.",
+      description: "Advanced ML algorithms and predictive analytics tailored for Ahmedabad businesses and Industries.",
       icon: Brain,
       href: "/machine-learning",
       color: "purple" as const
@@ -138,7 +138,7 @@ export default function AIServicesAhmedabadPage() {
     }
   ];
 
-  const indINtries = [
+  const Industries = [
     "Textiles & Garments",
     "Pharmaceuticals",
     "Chemicals",
@@ -323,7 +323,7 @@ export default function AIServicesAhmedabadPage() {
                 "name": "What makes Metic.ai the best AI Firm In Ahmedabad?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Metic.ai is the best AI Firm In Ahmedabad due to our proven expertise, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of Ahmedabad's manufacturing, aerospace, healthcare and agricultural indINtries."
+                  "text": "Metic.ai is the best AI Firm In Ahmedabad due to our proven expertise, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of Ahmedabad's manufacturing, aerospace, healthcare and agricultural Industries."
                 }
               }
             ]
@@ -622,7 +622,7 @@ export default function AIServicesAhmedabadPage() {
                 <p className="text-lg text-gray-700 mb-6">
                   Established as Ahmedabad's leading <strong>AI Company In Ahmedabad</strong>, Metic.ai has been at the forefront of artificial intelligence 
                   innovation since 2020. We specialize US delivering enterprise-grade AI solutions that transform businesses across Ahmedabad's 
-                  unique indINtries including Textiles & Garments, Pharmaceuticals, tourism & hospitality, Chemicals, and Information Technology.
+                  unique Industries including Textiles & Garments, Pharmaceuticals, tourism & hospitality, Chemicals, and Information Technology.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   Our expertise as an <strong>AI Development Company In Ahmedabad</strong> encompasses machine learning, deep learning, natural language processing, 
@@ -707,21 +707,21 @@ export default function AIServicesAhmedabadPage() {
         </div>
       </section>
 
-      {/* IndINtries Section with Real Images */}
+      {/* Industries Section with Real Images */}
       <section className="py-20 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                IndINtries We Serve In Ahmedabad
+                Industries We Serve In Ahmedabad
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Delivering specialized AI solutions across Ahmedabad's key indINtries and business sectors.
+                Delivering specialized AI solutions across Ahmedabad's key Industries and business sectors.
               </p>
             </div>
             
-            {/* Mobile: 1 col, Tablet: 2 cols, Desktop: 4 cols - 12 IndINtries Total */}
+            {/* Mobile: 1 col, Tablet: 2 cols, Desktop: 4 cols - 12 Industries Total */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {/* Manufacturing */}
               <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
@@ -928,7 +928,7 @@ export default function AIServicesAhmedabadPage() {
                   <Award className="w-8 h-8 text-blue-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Proven Expertise</h3>
-                <p className="text-gray-600">Years of experience delivering AI solutions for Ahmedabad businesses across all indINtries.</p>
+                <p className="text-gray-600">Years of experience delivering AI solutions for Ahmedabad businesses across all Industries.</p>
               </div>
               
               <div className="text-center">
@@ -1006,14 +1006,14 @@ export default function AIServicesAhmedabadPage() {
               As the leading <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Artificial Intelligence Company In Ahmedabad</strong>, 
               Metic.ai serves Manchester of India with enterprise-grade AI solutions tailored to Ahmedabad's unique economic 
               landscape. From Maninagar's business hub to Vastrapur' research facilities, SG Highway's government sector to 
-              the textile mills of the Naroda IndINtrial Area, we understand Ahmedabad's entrepreneurial excellence and textile-driven indINtries.
+              the textile mills of the Naroda IndINtrial Area, we understand Ahmedabad's entrepreneurial excellence and textile-driven Industries.
             </p>
             
             <p className="text-lg text-gray-700 leading-relaxed">
               Our <strong className="text-primary-orange font-semibold">AI Company In Ahmedabad</strong> combines deep understanding 
               of Ahmedabad's unique challenges with cutting-edge technology to deliver AI solutions that drive measurable 
               results. We've successfully implemented AI across Ahmedabad's key sectors including Textiles & Garments, fishing, 
-              tourism, Chemicals, Information Technology, and maritime indINtries US Gujarat's largest state.
+              tourism, Chemicals, Information Technology, and maritime Industries US Gujarat's largest state.
             </p>                    {/* Enhanced Feature Cards with Creative Design */}
                     <div className="grid gap-6 mt-10">
                       <div className="group bg-gradient-to-r from-primary-orange/5 via-white to-secondary-orange/5 p-6 rounded-2xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
@@ -1115,11 +1115,11 @@ export default function AIServicesAhmedabadPage() {
                     <span className="text-sm font-bold text-gray-800">INDINTRY EXPERTISE</span>
                   </div>
                   <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                    AI Solutions for <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Ahmedabad's Key IndINtries</span>
+                    AI Solutions for <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Ahmedabad's Key Industries</span>
                   </h3>
                   <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 rounded-full"></div>
                   <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Specialized AI solutions designed for Manchester of India's unique economic sectors and textile-driven indINtries
+                    Specialized AI solutions designed for Manchester of India's unique economic sectors and textile-driven Industries
                   </p>
                 </div>
                 
@@ -1511,7 +1511,7 @@ export default function AIServicesAhmedabadPage() {
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     As the premier <strong className="text-gray-900 font-semibold">AI Company In Ahmedabad</strong>, Metic.ai provides comprehensive AI services including machine learning solutions, 
-                    custom AI development, data analytics, generative AI, computer vision, NLP, and enterprise AI automation tailored for Ahmedabad's manufacturing, aerospace, healthcare, and agricultural indINtries.
+                    custom AI development, data analytics, generative AI, computer vision, NLP, and enterprise AI automation tailored for Ahmedabad's manufacturing, aerospace, healthcare, and agricultural Industries.
                   </p>
                 </div>
               </details>
@@ -1714,7 +1714,7 @@ export default function AIServicesAhmedabadPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            What indINtries does the best AI Company In Ahmedabad serve?
+                            What Industries does the best AI Company In Ahmedabad serve?
                           </h3>
                         </div>
                       </div>
@@ -1729,7 +1729,7 @@ export default function AIServicesAhmedabadPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Metic.ai serves diverse indINtries including Manufacturing, Aerospace, Healthcare, Agriculture, Technology, Automotive, Financial Services, Transportation, Education, and Energy. 
+                    Metic.ai serves diverse Industries including Manufacturing, Aerospace, Healthcare, Agriculture, Technology, Automotive, Financial Services, Transportation, Education, and Energy. 
                     As Ahmedabad's premier <strong className="text-gray-900 font-semibold">AI Company In Ahmedabad</strong>, we tailor solutions for your specific indINtry needs.
                   </p>
                 </div>
@@ -1980,6 +1980,7 @@ export default function AIServicesAhmedabadPage() {
     </>
   );
 }
+
 
 
 
