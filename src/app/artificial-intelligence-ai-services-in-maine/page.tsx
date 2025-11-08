@@ -389,229 +389,191 @@ export default function AIServicesMainePage() {
         }}
       />
 
-      {/* Enhanced Ultra-Modern Hero Section with Maine Theme */}
-      <section className="relative min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black overflow-hidden">
-        {/* Animated Background Elements */}
-        <div className="absolute inset-0">
-          <div className="absolute top-20 left-10 w-32 h-32 bg-primary-orange/10 rounded-full blur-xl animate-pulse"></div>
-          <div className="absolute top-40 right-20 w-48 h-48 bg-blue-500/10 rounded-full blur-2xl animate-pulse delay-1000"></div>
-          <div className="absolute bottom-20 left-20 w-40 h-40 bg-green-500/10 rounded-full blur-xl animate-pulse delay-2000"></div>
-          <div className="absolute top-1/2 left-1/2 w-64 h-64 bg-primary-orange/5 rounded-full blur-3xl animate-pulse delay-3000"></div>
-        </div>
-
-        {/* Floating Elements with Maine Theme */}
+      {/* Enhanced Creative Hero Section - VSO & Target Keyword Optimized */}
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28 relative overflow-hidden">
+        {/* Creative Background Elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <div className="absolute top-1/4 left-1/4 transform -translate-x-1/2 -translate-y-1/2 animate-float">
-            <div className="w-16 h-16 bg-gradient-to-r from-blue-500/20 to-primary-orange/20 rounded-lg backdrop-blur-sm border border-white/10 flex items-center justify-center">
-              <Brain className="w-8 h-8 text-blue-400" />
-            </div>
-          </div>
-          <div className="absolute top-3/4 right-1/4 transform translate-x-1/2 translate-y-1/2 animate-float delay-1000">
-            <div className="w-20 h-20 bg-gradient-to-r from-green-500/20 to-blue-500/20 rounded-xl backdrop-blur-sm border border-white/10 flex items-center justify-center">
-              <Rocket className="w-10 h-10 text-green-400" />
-            </div>
-          </div>
-          <div className="absolute top-1/2 right-10 transform translate-y-1/2 animate-float delay-2000">
-            <div className="w-12 h-12 bg-gradient-to-r from-primary-orange/20 to-yellow-500/20 rounded-lg backdrop-blur-sm border border-white/10 flex items-center justify-center">
-              <Sparkles className="w-6 h-6 text-yellow-400" />
-            </div>
-          </div>
+          {/* Animated Circuit Pattern */}
+          <div className="absolute inset-0 opacity-[0.03]" style={{
+            backgroundImage: `linear-gradient(#FF6B35 1px, transparent 1px), linear-gradient(90deg, #FF6B35 1px, transparent 1px)`,
+            backgroundSize: '50px 50px'
+          }}></div>
+          
+          {/* Floating AI Elements */}
+          <div className="absolute top-20 left-10 w-32 h-32 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-20 right-10 w-40 h-40 bg-primary-orange/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
+          
+          {/* Geometric Shapes */}
+          <div className="absolute top-1/4 left-1/4 w-2 h-2 bg-primary-orange/30 rounded-full animate-bounce" style={{animationDelay: '1s'}}></div>
+          <div className="absolute top-1/3 right-1/3 w-1.5 h-1.5 bg-orange-400/30 rounded-full animate-bounce" style={{animationDelay: '3s'}}></div>
+          <div className="absolute bottom-1/4 left-1/3 w-2.5 h-2.5 bg-primary-orange/20 rounded-full animate-bounce" style={{animationDelay: '2.5s'}}></div>
         </div>
 
-        {/* Main Content */}
-        <div className="relative z-10 container px-4 md:px-6 py-20 md:py-32">
-          <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-12">
-              {/* Premium Badge */}
-              <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-primary-orange/10 to-blue-500/10 backdrop-blur-sm border border-white/20 mb-8">
-                <Award className="w-5 h-5 text-primary-orange" />
-                <span className="text-sm font-semibold text-white">Maine's #1 Rated AI Company</span>
-                <div className="flex gap-1">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                  ))}
-                </div>
+        <div className="container px-4 md:px-6 relative z-10">
+          <div className="max-w-4xl mx-auto text-center">
+            {/* Enhanced Location Badge */}
+            <div className="inline-flex items-center gap-3 mb-8 bg-gray-800/50 backdrop-blur-sm rounded-full px-6 py-3 border border-primary-orange/20">
+              <div className="relative">
+                <MapPin className="w-5 h-5 text-primary-orange" />
+                <div className="absolute -top-1 -right-1 w-3 h-3 bg-primary-orange rounded-full animate-ping"></div>
               </div>
-
-              {/* Main Headline */}
-              <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-8 leading-tight">
-                <span className="block text-white">
-                  <strong className="bg-gradient-to-r from-primary-orange to-yellow-500 bg-clip-text text-transparent">
-                    Artificial Intelligence Company
-                  </strong>
-                </span>
-                <span className="block text-white mt-2">
-                  In <span className="bg-gradient-to-r from-blue-400 to-green-400 bg-clip-text text-transparent font-extrabold">Maine</span>
-                </span>
-                <span className="block text-2xl md:text-3xl lg:text-4xl font-medium text-gray-300 mt-4">
+              <span className="text-sm font-medium text-orange-300">Serving Maine, New England, USA</span>
+              <div className="w-2 h-2 bg-primary-orange rounded-full animate-pulse"></div>
+            </div>
+            
+            {/* Enhanced Title with Animation */}
+            <div className="relative mb-8">
+              <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white relative z-10">
+                <strong>
+                  Artificial Intelligence Company In Maine
+                </strong>
+                <br />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange">
                   Leading AI Company In Pine Tree State
                 </span>
               </h1>
-
-              {/* Persuasive Description */}
-              <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-4xl mx-auto leading-relaxed">
-                Looking for the <strong className="text-white">best AI Company In Maine</strong>? Metic.ai is the premier 
-                <strong className="text-primary-orange"> Artificial Intelligence Company In Maine</strong>, serving Portland, 
-                Augusta, Bangor, and Lewiston with <strong className="text-white">2100+ successful AI implementations</strong>. 
-                From Acadia National Park tourism optimization to Maine lobster industry predictive analytics, we deliver 
-                cutting-edge AI solutions with <strong className="text-green-400">60% cost savings</strong> and 
-                <strong className="text-blue-400"> 3x faster delivery</strong>.
+            </div>
+            
+            {/* Enhanced Description */}
+            <div className="relative mb-10">
+              <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
+                Looking for the best <strong className="text-white">AI Company In Maine</strong>? Metic.ai is the premier 
+                <strong className="text-primary-orange"> Artificial Intelligence Company In Maine</strong> 
+                with 2100+ successful AI implementations. We help businesses across Maine transform with cutting-edge AI solutions, 
+                delivering <span className="text-primary-orange font-semibold">60% cost savings</span> and 
+                <span className="text-primary-orange font-semibold">3x faster results</span> than traditional development.
               </p>
-
-              {/* CTA Buttons */}
-              <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16">
-                <Link href="/contact">
-                  <Button 
-                    variant="primary" 
-                    size="lg" 
-                    className="w-full sm:w-auto px-8 py-4 text-lg font-semibold bg-gradient-to-r from-primary-orange to-yellow-500 hover:from-yellow-500 hover:to-primary-orange transform hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-primary-orange/25"
-                  >
-                    <Rocket className="w-5 h-5 mr-2" />
-                    Get Free AI Strategy Session
-                    <ArrowRight className="w-5 h-5 ml-2" />
-                  </Button>
-                </Link>
-                <Link href="tel:+917892518414">
-                  <Button 
-                    variant="outline" 
-                    size="lg" 
-                    className="w-full sm:w-auto px-8 py-4 text-lg font-semibold border-2 border-white/30 text-white hover:bg-white/10 backdrop-blur-sm transform hover:scale-105 transition-all duration-300"
-                  >
-                    <Phone className="w-5 h-5 mr-2" />
-                    Call: +1-789-251-8414
-                  </Button>
-                </Link>
-              </div>
-
-              {/* Enhanced Stats Grid */}
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
-                {[
-                  { number: "2100+", label: "AI Projects Delivered", icon: Target },
-                  { number: "60%", label: "Average Cost Savings", icon: TrendingUp },
-                  { number: "3x", label: "Faster Delivery", icon: Zap },
-                  { number: "24/7", label: "Maine Support", icon: Shield }
-                ].map((stat, index) => (
-                  <div key={index} className="group">
-                    <div className="bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm border border-white/20 rounded-2xl p-6 text-center transform hover:scale-105 transition-all duration-300 hover:shadow-xl hover:shadow-primary-orange/20">
-                      <stat.icon className="w-8 h-8 text-primary-orange mx-auto mb-3" />
-                      <div className="text-3xl md:text-4xl font-bold text-white mb-2">{stat.number}</div>
-                      <div className="text-sm text-gray-400 font-medium">{stat.label}</div>
-                    </div>
+              
+              {/* Trust Indicators */}
+              <div className="flex items-center justify-center gap-6 mb-8">
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
+                    <Shield className="w-4 h-4 text-primary-orange" />
                   </div>
+                  <span className="text-sm text-gray-400">ISO Certified</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
+                    <Award className="w-4 h-4 text-primary-orange" />
+                  </div>
+                  <span className="text-sm text-gray-400">Award Winning</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
+                    <Users className="w-4 h-4 text-primary-orange" />
+                  </div>
+                  <span className="text-sm text-gray-400">2100+ Clients</span>
+                </div>
+              </div>
+            </div>
+            
+            {/* Enhanced CTA Buttons */}
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+              <Link href="/contact">
+                <Button 
+                  variant="primary" 
+                  size="lg" 
+                  className="w-full sm:w-auto bg-gradient-to-r from-primary-orange to-orange-500 hover:from-primary-orange/90 hover:to-orange-500/90 transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl group"
+                >
+                  <Rocket className="w-5 h-5 mr-2 group-hover:animate-pulse" />
+                  Get Free AI Consultation
+                </Button>
+              </Link>
+              <Link href="tel:+917892518414">
+                <Button 
+                  variant="outline" 
+                  size="lg" 
+                  className="w-full sm:w-auto border-primary-orange text-primary-orange hover:bg-primary-orange/10 transform hover:scale-105 transition-all duration-300 group"
+                >
+                  <Phone className="w-4 h-4 mr-2 group-hover:animate-pulse" />
+                  Call: +1-789-251-8414
+                </Button>
+              </Link>
+            </div>
+
+            {/* Enhanced Stats with Creative Design */}
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto mb-12">
+              {stats.map((stat, index) => (
+                <div key={index} className="relative group">
+                  <div className="bg-gray-800/30 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:border-primary-orange/50 transition-all duration-300 group-hover:transform group-hover:scale-105">
+                    <div className="text-3xl font-bold text-primary-orange mb-2 group-hover:animate-pulse">{stat.number}</div>
+                    <div className="text-sm text-gray-400">{stat.label}</div>
+                    
+                    {/* Hover Effect */}
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/5 to-orange-400/5 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {/* Enhanced VSO Keywords Section */}
+            <div className="text-center">
+              <p className="text-gray-400 text-sm mb-6 flex items-center justify-center gap-2">
+                <Globe className="w-4 h-4 text-primary-orange" />
+                Trusted as the top AI Service In Maine
+              </p>
+              <div className="flex flex-wrap justify-center gap-3">
+                {[
+                  "AI Firm In Maine",
+                  "AI Development Company In Maine", 
+                  "Best AI Company Pine Tree State"
+                ].map((tag, index) => (
+                  <span 
+                    key={index}
+                    className="bg-gray-800/50 backdrop-blur-sm px-4 py-2 rounded-full text-gray-400 text-xs border border-gray-700/50 hover:border-primary-orange/50 hover:text-primary-orange transition-all duration-300 cursor-default"
+                  >
+                    {tag}
+                  </span>
                 ))}
               </div>
             </div>
           </div>
         </div>
-
-        {/* Bottom Gradient Overlay */}
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent"></div>
       </section>
 
-      {/* Enhanced Creative Services Section */}
-      <section className="relative py-32 bg-gradient-to-br from-gray-50 via-white to-blue-50 overflow-hidden">
-        {/* Background Design Elements */}
-        <div className="absolute inset-0">
-          <div className="absolute top-10 right-10 w-64 h-64 bg-primary-orange/5 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-10 left-10 w-80 h-80 bg-blue-500/5 rounded-full blur-3xl"></div>
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-green-500/3 rounded-full blur-3xl"></div>
-        </div>
-
-        <div className="relative z-10 container px-4 md:px-6">
-          <div className="max-w-7xl mx-auto">
-            {/* Enhanced Section Header */}
-            <div className="text-center mb-20">
-              <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white/80 backdrop-blur-sm border border-gray-200 shadow-lg mb-6">
-                <Rocket className="w-5 h-5 text-primary-orange" />
-                <span className="text-sm font-semibold text-gray-800">Premium AI Solutions</span>
-              </div>
-              
-              <h2 className="text-4xl md:text-6xl font-bold mb-8">
-                <span className="bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
-                  AI Solutions for
-                </span>
-                <br />
-                <span className="bg-gradient-to-r from-primary-orange to-yellow-500 bg-clip-text text-transparent">
-                  Maine Businesses
-                </span>
+      {/* Services Section */}
+      <section className="py-20 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                <strong>AI Services</strong> by Leading <span className="text-primary-orange">Artificial Intelligence Company In Maine</span>
               </h2>
-              
-              <div className="w-32 h-1 bg-gradient-to-r from-primary-orange to-yellow-500 mx-auto mb-8 rounded-full"></div>
-              
-              <p className="text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
-                Comprehensive artificial intelligence services designed to help Maine businesses 
-                compete in the digital economy and drive sustainable growth across the Pine Tree State.
+              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                Comprehensive artificial intelligence services from Maine's most trusted <strong>AI Company In Maine</strong>. 
+                Transforming businesses with cutting-edge AI solutions tailored for Pine Tree State's industrial landscape.
               </p>
             </div>
             
-            {/* Enhanced Services Grid */}
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {services.map((service, index) => {
                 const IconComponent = service.icon;
                 const colorClasses = {
-                  blue: "from-blue-500/20 to-blue-600/20 border-blue-200/50",
-                  purple: "from-purple-500/20 to-purple-600/20 border-purple-200/50", 
-                  green: "from-green-500/20 to-green-600/20 border-green-200/50",
-                  orange: "from-orange-500/20 to-orange-600/20 border-orange-200/50",
-                  indigo: "from-indigo-500/20 to-indigo-600/20 border-indigo-200/50",
-                  red: "from-red-500/20 to-red-600/20 border-red-200/50"
-                };
-                
-                const iconColors = {
-                  blue: "text-blue-600",
-                  purple: "text-purple-600",
-                  green: "text-green-600", 
-                  orange: "text-orange-600",
-                  indigo: "text-indigo-600",
-                  red: "text-red-600"
+                  blue: "bg-blue-100 text-blue-600",
+                  purple: "bg-purple-100 text-purple-600", 
+                  green: "bg-green-100 text-green-600",
+                  orange: "bg-orange-100 text-orange-600",
+                  indigo: "bg-indigo-100 text-indigo-600",
+                  red: "bg-red-100 text-red-600"
                 };
                 
                 return (
-                  <div key={index} className="group">
-                    <div className="relative">
-                      {/* Glassmorphism Card */}
-                      <div className={`relative bg-gradient-to-br ${colorClasses[service.color]} backdrop-blur-xl border ${colorClasses[service.color]} rounded-3xl p-8 h-full transform group-hover:scale-105 transition-all duration-500 shadow-xl group-hover:shadow-2xl`}>
-                        
-                        {/* Floating Icon */}
-                        <div className="relative mb-6">
-                          <div className="w-20 h-20 bg-white/90 backdrop-blur-sm rounded-2xl flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:-translate-y-2">
-                            <IconComponent className={`w-10 h-10 ${iconColors[service.color]}`} />
-                          </div>
-                        </div>
-                        
-                        <h3 className="text-2xl font-bold mb-4 text-gray-900">{service.title}</h3>
-                        <p className="text-gray-700 mb-8 leading-relaxed text-lg">{service.description}</p>
-                        
-                        <Link href={service.href} className="group/link">
-                          <div className="inline-flex items-center gap-3 px-6 py-3 bg-white/90 backdrop-blur-sm rounded-xl text-gray-900 font-semibold shadow-lg group-hover/link:shadow-xl transition-all duration-300 group-hover/link:translate-x-2">
-                            <span>Explore Solution</span>
-                            <ArrowRight className="w-5 h-5 group-hover/link:translate-x-1 transition-transform duration-300" />
-                          </div>
-                        </Link>
-
-                        {/* Subtle Background Pattern */}
-                        <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent rounded-3xl pointer-events-none"></div>
-                      </div>
+                  <div key={index} className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100">
+                    <div className={`w-16 h-16 rounded-full flex items-center justify-center mb-6 ${colorClasses[service.color]}`}>
+                      <IconComponent className="w-8 h-8" />
                     </div>
+                    
+                    <h3 className="text-xl font-bold mb-4">{service.title}</h3>
+                    <p className="text-gray-600 mb-6 leading-relaxed">{service.description}</p>
+                    
+                    <Link href={service.href} className="inline-flex items-center text-primary-orange hover:text-primary-orange/80 font-medium">
+                      Learn More
+                      <ArrowRight className="w-4 h-4 ml-2" />
+                    </Link>
                   </div>
                 );
               })}
-            </div>
-            
-            {/* Bottom CTA */}
-            <div className="text-center mt-16">
-              <p className="text-gray-600 mb-6 text-lg">Ready to transform your Maine business with AI?</p>
-              <Link href="/contact">
-                <Button 
-                  variant="primary" 
-                  size="lg" 
-                  className="px-8 py-4 text-lg font-semibold bg-gradient-to-r from-primary-orange to-yellow-500 hover:from-yellow-500 hover:to-primary-orange transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl"
-                >
-                  <Brain className="w-5 h-5 mr-2" />
-                  Start Your AI Journey
-                  <Sparkles className="w-5 h-5 ml-2" />
-                </Button>
-              </Link>
             </div>
           </div>
         </div>
@@ -645,51 +607,285 @@ export default function AIServicesMainePage() {
         </div>
       </section>
 
-      {/* Why Choose Us Section */}
-      <section className="py-20 bg-white">
+      {/* Industries Section */}
+      <section className="py-20 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Why Maine Businesses Choose Metic.ai
+                Industries We Serve in Maine
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Trusted by businesses across Maine for our expertise, results, and commitment to success.
+                Delivering specialized AI solutions across Maine's key industries and business sectors.
               </p>
             </div>
             
+            <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-4">
+              {industries.map((industry, index) => (
+                <div key={index} className="bg-white rounded-lg p-4 text-center shadow-sm hover:shadow-md transition-shadow">
+                  <div className="w-8 h-8 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                    <Target className="w-4 h-4 text-primary-orange" />
+                  </div>
+                  <h3 className="font-medium text-gray-800">{industry}</h3>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Ultra-Creative Why Choose Us Section - Dark Theme */}
+      <section className="py-24 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 relative overflow-hidden">
+        {/* Advanced Creative Background Elements */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          {/* Animated Circuit Patterns */}
+          <div className="absolute inset-0 opacity-[0.03]" style={{
+            backgroundImage: `linear-gradient(#FF6B35 1px, transparent 1px), linear-gradient(90deg, #FF6B35 1px, transparent 1px)`,
+            backgroundSize: '60px 60px'
+          }}></div>
+          
+          {/* Floating AI Elements with Different Sizes */}
+          <div className="absolute top-20 left-10 w-40 h-40 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-20 right-10 w-56 h-56 bg-secondary-orange/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
+          <div className="absolute top-1/2 left-1/4 w-32 h-32 bg-primary-orange/3 rounded-full blur-2xl animate-pulse" style={{animationDelay: '4s'}}></div>
+          
+          {/* Dynamic Geometric Shapes */}
+          <div className="absolute top-1/4 left-1/4 w-3 h-3 bg-primary-orange/40 rounded-full animate-bounce" style={{animationDelay: '1s'}}></div>
+          <div className="absolute top-1/3 right-1/3 w-2 h-2 bg-orange-400/40 rounded-full animate-bounce" style={{animationDelay: '3s'}}></div>
+          <div className="absolute bottom-1/4 left-1/3 w-4 h-4 bg-primary-orange/30 rounded-full animate-bounce" style={{animationDelay: '2.5s'}}></div>
+          <div className="absolute top-3/4 right-1/4 w-2.5 h-2.5 bg-secondary-orange/40 rounded-full animate-bounce" style={{animationDelay: '1.8s'}}></div>
+        </div>
+
+        <div className="container px-4 md:px-6 relative z-10">
+          <div className="max-w-7xl mx-auto">
+            {/* Enhanced Creative Header */}
+            <div className="text-center mb-20">
+              {/* Premium Badge with Glow Effect */}
+              <div className="inline-flex items-center gap-3 px-8 py-4 bg-gray-800/50 backdrop-blur-xl rounded-full border-2 border-primary-orange/30 mb-10 hover:border-primary-orange/50 transition-all group shadow-2xl">
+                <div className="relative">
+                  <div className="absolute inset-0 bg-primary-orange/20 rounded-full blur-md animate-pulse"></div>
+                  <div className="relative w-4 h-4 bg-primary-orange rounded-full animate-pulse"></div>
+                </div>
+                <span className="text-sm font-bold text-orange-300 tracking-wider">WHY CHOOSE METIC.AI</span>
+                <div className="relative">
+                  <div className="absolute inset-0 bg-secondary-orange/20 rounded-full blur-md animate-pulse"></div>
+                  <div className="relative w-4 h-4 bg-secondary-orange rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></div>
+                </div>
+              </div>
+              
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight">
+                <span className="text-white">Premier </span>
+                <span className="bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange bg-clip-text text-transparent animate-gradient">
+                  AI Firm In Maine
+                </span>
+                <br />
+                <span className="text-gray-300 text-3xl md:text-4xl lg:text-5xl">Transforming Pine Tree State's Future</span>
+              </h2>
+              <div className="w-40 h-2 bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange mx-auto mb-10 rounded-full shadow-lg"></div>
+              <p className="text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
+                As the leading <strong className="text-primary-orange">AI Development Company In Maine</strong>, we're trusted by Maine's 
+                most innovative businesses for our expertise, proven results, and unwavering commitment to client success.
+              </p>
+            </div>
+            
+            {/* Ultra-Creative Feature Cards with Advanced Animations */}
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-              <div className="text-center">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6 mx-auto">
-                  <Award className="w-8 h-8 text-blue-600" />
+              {/* Card 1 - Proven Expertise */}
+              <div className="group relative">
+                <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/20 to-orange-400/20 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 transform group-hover:scale-110"></div>
+                <div className="relative bg-gray-800/40 backdrop-blur-xl rounded-3xl p-8 border border-gray-700/50 hover:border-primary-orange/50 transition-all duration-500 group-hover:transform group-hover:scale-105 h-full">
+                  <div className="relative mb-8">
+                    {/* Icon with Advanced Animation */}
+                    <div className="relative w-20 h-20 mx-auto">
+                      <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl animate-pulse opacity-20"></div>
+                      <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl group-hover:animate-spin transition-all duration-1000"></div>
+                      <div className="relative w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center shadow-2xl group-hover:scale-110 transition-all duration-300">
+                        <Award className="w-10 h-10 text-white group-hover:animate-pulse" />
+                      </div>
+                    </div>
+                    
+                    {/* Floating Numbers */}
+                    <div className="absolute -top-2 -right-2 w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center backdrop-blur-sm border border-primary-orange/30">
+                      <span className="text-xs font-bold text-primary-orange">2K+</span>
+                    </div>
+                  </div>
+                  
+                  <div className="text-center space-y-4">
+                    <h3 className="text-2xl font-bold text-white group-hover:text-primary-orange transition-colors">
+                      Proven AI Expertise
+                    </h3>
+                    <p className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors">
+                      Years of experience delivering cutting-edge AI solutions for Maine businesses across tourism, 
+                      lobster fishing, forestry, and emerging tech sectors.
+                    </p>
+                    
+                    {/* Enhanced Stats */}
+                    <div className="pt-4 space-y-2">
+                      <div className="flex items-center justify-between text-sm">
+                        <span className="text-gray-500">Success Rate</span>
+                        <span className="text-primary-orange font-bold">99.2%</span>
+                      </div>
+                      <div className="w-full bg-gray-700 rounded-full h-1.5">
+                        <div className="bg-gradient-to-r from-blue-500 to-blue-600 h-1.5 rounded-full w-[99%] group-hover:animate-pulse"></div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <h3 className="text-xl font-bold mb-4">Proven Expertise</h3>
-                <p className="text-gray-600">Years of experience delivering AI solutions for Maine businesses across all industries.</p>
+              </div>
+
+              {/* Card 2 - Measurable Results */}
+              <div className="group relative">
+                <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 to-emerald-500/20 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 transform group-hover:scale-110"></div>
+                <div className="relative bg-gray-800/40 backdrop-blur-xl rounded-3xl p-8 border border-gray-700/50 hover:border-green-500/50 transition-all duration-500 group-hover:transform group-hover:scale-105 h-full">
+                  <div className="relative mb-8">
+                    <div className="relative w-20 h-20 mx-auto">
+                      <div className="absolute inset-0 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl animate-pulse opacity-20"></div>
+                      <div className="absolute inset-0 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl group-hover:animate-spin transition-all duration-1000"></div>
+                      <div className="relative w-20 h-20 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl flex items-center justify-center shadow-2xl group-hover:scale-110 transition-all duration-300">
+                        <TrendingUp className="w-10 h-10 text-white group-hover:animate-pulse" />
+                      </div>
+                    </div>
+                    
+                    <div className="absolute -top-2 -right-2 w-8 h-8 bg-green-500/20 rounded-full flex items-center justify-center backdrop-blur-sm border border-green-500/30">
+                      <span className="text-xs font-bold text-green-400">60%</span>
+                    </div>
+                  </div>
+                  
+                  <div className="text-center space-y-4">
+                    <h3 className="text-2xl font-bold text-white group-hover:text-green-400 transition-colors">
+                      Measurable Results
+                    </h3>
+                    <p className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors">
+                      Data-driven AI solutions that deliver concrete ROI and business growth for Maine companies 
+                      across all industries and business sizes.
+                    </p>
+                    
+                    <div className="pt-4 space-y-2">
+                      <div className="flex items-center justify-between text-sm">
+                        <span className="text-gray-500">Cost Savings</span>
+                        <span className="text-green-400 font-bold">60%</span>
+                      </div>
+                      <div className="w-full bg-gray-700 rounded-full h-1.5">
+                        <div className="bg-gradient-to-r from-green-500 to-emerald-600 h-1.5 rounded-full w-[60%] group-hover:animate-pulse"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Card 3 - Local Support */}
+              <div className="group relative">
+                <div className="absolute inset-0 bg-gradient-to-br from-purple-500/20 to-violet-500/20 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 transform group-hover:scale-110"></div>
+                <div className="relative bg-gray-800/40 backdrop-blur-xl rounded-3xl p-8 border border-gray-700/50 hover:border-purple-500/50 transition-all duration-500 group-hover:transform group-hover:scale-105 h-full">
+                  <div className="relative mb-8">
+                    <div className="relative w-20 h-20 mx-auto">
+                      <div className="absolute inset-0 bg-gradient-to-br from-purple-500 to-violet-600 rounded-2xl animate-pulse opacity-20"></div>
+                      <div className="absolute inset-0 bg-gradient-to-br from-purple-500 to-violet-600 rounded-2xl group-hover:animate-spin transition-all duration-1000"></div>
+                      <div className="relative w-20 h-20 bg-gradient-to-br from-purple-500 to-violet-600 rounded-2xl flex items-center justify-center shadow-2xl group-hover:scale-110 transition-all duration-300">
+                        <Users className="w-10 h-10 text-white group-hover:animate-pulse" />
+                      </div>
+                    </div>
+                    
+                    <div className="absolute -top-2 -right-2 w-8 h-8 bg-purple-500/20 rounded-full flex items-center justify-center backdrop-blur-sm border border-purple-500/30">
+                      <span className="text-xs font-bold text-purple-400">24/7</span>
+                    </div>
+                  </div>
+                  
+                  <div className="text-center space-y-4">
+                    <h3 className="text-2xl font-bold text-white group-hover:text-purple-400 transition-colors">
+                      Maine Local Support
+                    </h3>
+                    <p className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors">
+                      Dedicated Maine-based support team with deep understanding of local business challenges 
+                      and seasonal industry requirements.
+                    </p>
+                    
+                    <div className="pt-4 space-y-2">
+                      <div className="flex items-center justify-between text-sm">
+                        <span className="text-gray-500">Response Time</span>
+                        <span className="text-purple-400 font-bold">&lt;2hrs</span>
+                      </div>
+                      <div className="w-full bg-gray-700 rounded-full h-1.5">
+                        <div className="bg-gradient-to-r from-purple-500 to-violet-600 h-1.5 rounded-full w-[95%] group-hover:animate-pulse"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Card 4 - Innovation */}
+              <div className="group relative">
+                <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/20 to-orange-400/20 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 transform group-hover:scale-110"></div>
+                <div className="relative bg-gray-800/40 backdrop-blur-xl rounded-3xl p-8 border border-gray-700/50 hover:border-primary-orange/50 transition-all duration-500 group-hover:transform group-hover:scale-105 h-full">
+                  <div className="relative mb-8">
+                    <div className="relative w-20 h-20 mx-auto">
+                      <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-orange-500 rounded-2xl animate-pulse opacity-20"></div>
+                      <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-orange-500 rounded-2xl group-hover:animate-spin transition-all duration-1000"></div>
+                      <div className="relative w-20 h-20 bg-gradient-to-br from-primary-orange to-orange-500 rounded-2xl flex items-center justify-center shadow-2xl group-hover:scale-110 transition-all duration-300">
+                        <Lightbulb className="w-10 h-10 text-white group-hover:animate-pulse" />
+                      </div>
+                    </div>
+                    
+                    <div className="absolute -top-2 -right-2 w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center backdrop-blur-sm border border-primary-orange/30">
+                      <span className="text-xs font-bold text-primary-orange">3x</span>
+                    </div>
+                  </div>
+                  
+                  <div className="text-center space-y-4">
+                    <h3 className="text-2xl font-bold text-white group-hover:text-primary-orange transition-colors">
+                      Cutting-Edge Innovation
+                    </h3>
+                    <p className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors">
+                      Latest AI technologies and methodologies ensuring Maine businesses stay ahead of the competition 
+                      with future-ready solutions.
+                    </p>
+                    
+                    <div className="pt-4 space-y-2">
+                      <div className="flex items-center justify-between text-sm">
+                        <span className="text-gray-500">Delivery Speed</span>
+                        <span className="text-primary-orange font-bold">3x Faster</span>
+                      </div>
+                      <div className="w-full bg-gray-700 rounded-full h-1.5">
+                        <div className="bg-gradient-to-r from-primary-orange to-orange-500 h-1.5 rounded-full w-[85%] group-hover:animate-pulse"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            {/* Enhanced Bottom CTA */}
+            <div className="text-center mt-20">
+              <div className="inline-flex items-center gap-4 mb-8">
+                <div className="w-8 h-[2px] bg-gradient-to-r from-transparent to-primary-orange"></div>
+                <span className="text-primary-orange font-semibold">READY TO TRANSFORM YOUR BUSINESS?</span>
+                <div className="w-8 h-[2px] bg-gradient-to-l from-transparent to-primary-orange"></div>
               </div>
               
-              <div className="text-center">
-                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6 mx-auto">
-                  <TrendingUp className="w-8 h-8 text-green-600" />
-                </div>
-                <h3 className="text-xl font-bold mb-4">Measurable Results</h3>
-                <p className="text-gray-600">Data-driven AI solutions that deliver concrete ROI and business growth for ME companies.</p>
-              </div>
-              
-              <div className="text-center">
-                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6 mx-auto">
-                  <Users className="w-8 h-8 text-purple-600" />
-                </div>
-                <h3 className="text-xl font-bold mb-4">Local Partnership</h3>
-                <p className="text-gray-600">Dedicated support and partnership with deep understanding of the Maine business landscape.</p>
-              </div>
-              
-              <div className="text-center">
-                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-6 mx-auto">
-                  <Shield className="w-8 h-8 text-orange-600" />
-                </div>
-                <h3 className="text-xl font-bold mb-4">Enterprise Security</h3>
-                <p className="text-gray-600">Bank-level security and compliance standards protecting your Maine business data.</p>
+              <div className="flex flex-col sm:flex-row gap-6 justify-center">
+                <Link href="/contact">
+                  <Button 
+                    variant="primary" 
+                    size="lg" 
+                    className="group bg-gradient-to-r from-primary-orange to-orange-500 hover:from-orange-500 hover:to-primary-orange shadow-2xl hover:shadow-primary-orange/30 transform hover:scale-105 transition-all duration-300"
+                  >
+                    <Rocket className="w-5 h-5 mr-2 group-hover:animate-bounce" />
+                    Start Your AI Journey Today
+                    <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+                  </Button>
+                </Link>
+                
+                <Link href="tel:+917892518414">
+                  <Button 
+                    variant="outline" 
+                    size="lg" 
+                    className="border-2 border-primary-orange text-primary-orange hover:bg-primary-orange/10 backdrop-blur-sm transform hover:scale-105 transition-all duration-300 group"
+                  >
+                    <Phone className="w-5 h-5 mr-2 group-hover:animate-pulse" />
+                    Call Maine AI Experts
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
