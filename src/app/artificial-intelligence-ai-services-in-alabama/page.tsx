@@ -438,7 +438,7 @@ export default function AIServicesAlabamaPage() {
       <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">  
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white">
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
               <strong>Artificial Intelligence Company In Alabama</strong>
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
