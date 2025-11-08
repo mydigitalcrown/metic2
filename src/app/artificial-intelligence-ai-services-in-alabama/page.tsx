@@ -1480,261 +1480,445 @@ export default function AIServicesAlabamaPage() {
               </p>
             </div>
 
-            {/* Advanced Creative FAQ Cards */}
-            <div className="space-y-5">
-              {/* FAQ Item 1 - Enhanced Design */}
+            {/* Advanced Creative FAQ Cards - 6+6 Grid Layout for Desktop */}
+            <div className="grid lg:grid-cols-2 gap-6">
+              {/* Left Column - FAQ 1-6 */}
+              <div className="space-y-5">
+              {/* FAQ Item 1 */}
               <details className="group relative">
                 <summary className="list-none cursor-pointer">
-                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
-                    {/* Gradient Overlay */}
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    
-                    {/* Content */}
                     <div className="relative flex items-start justify-between gap-4">
-                      <div className="flex items-start gap-5 flex-1">
-                        {/* Icon Circle */}
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
-                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <Sparkles className="w-7 h-7 text-white" />
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Sparkles className="w-6 h-6 text-white" />
                           </div>
                         </div>
-                        
-                        {/* Question */}
-                        <div className="flex-1 pt-2">
-                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
                             Which is the best Artificial Intelligence Company In Alabama?
                           </h3>
                         </div>
                       </div>
-                      
-                      {/* Toggle Icon */}
                       <div className="flex-shrink-0">
-                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
-                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
                     </div>
-                    
-                    {/* Bottom Accent Bar */}
                     <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                
-                {/* Answer with Animation */}
-                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
-                  <div className="flex items-start gap-5">
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
-                      <CheckCircle className="w-7 h-7 text-primary-orange" />
-                    </div>
-                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
-                      <p className="text-lg">
-                        <strong className="text-gray-900 font-semibold">Metic.ai is the leading Artificial Intelligence Company In Alabama</strong> with over 2100 successful AI implementations. 
-                        We're recognized as the top AI Company In Alabama for our proven expertise in machine learning, custom AI development, 
-                        and enterprise AI solutions.
-                      </p>
-                      <p className="text-lg">
-                        Our clients achieve an average of 60% cost savings and 3x faster delivery compared to traditional development approaches, 
-                        making us Alabama's most trusted AI development partner.
-                      </p>
-                      
-                      {/* Stats Highlight */}
-                      <div className="flex flex-wrap gap-4 pt-4">
-                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
-                          <Award className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-gray-900">2100+ Projects</span>
-                        </div>
-                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
-                          <Users className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-gray-900">Alabama Expert</span>
-                        </div>
-                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
-                          <TrendingUp className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-gray-900">60% Cost Savings</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    <strong className="text-gray-900 font-semibold">Metic.ai is the leading Artificial Intelligence Company In Alabama</strong> with over 2100 successful AI implementations. 
+                    We're recognized as the top AI Company In Alabama for our proven expertise in machine learning, custom AI development, and enterprise AI solutions with 60% cost savings.
+                  </p>
                 </div>
               </details>
 
               {/* FAQ Item 2 */}
               <details className="group relative">
                 <summary className="list-none cursor-pointer">
-                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    
                     <div className="relative flex items-start justify-between gap-4">
-                      <div className="flex items-start gap-5 flex-1">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
-                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <Code className="w-7 h-7 text-white" />
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Code className="w-6 h-6 text-white" />
                           </div>
                         </div>
-                        
-                        <div className="flex-1 pt-2">
-                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
                             What services does the top AI Company In Alabama provide?
                           </h3>
                         </div>
                       </div>
-                      
                       <div className="flex-shrink-0">
-                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
-                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
                     </div>
-                    
                     <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                
-                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
-                  <div className="flex items-start gap-5">
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
-                      <BarChart3 className="w-7 h-7 text-primary-orange" />
-                    </div>
-                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
-                      <p className="text-lg">
-                        As the premier <strong className="text-gray-900 font-semibold">AI Company In Alabama</strong>, Metic.ai provides comprehensive artificial intelligence services including:
-                        AI integration & deployment, machine learning solutions, custom AI development, and data analytics & business intelligence.
-                      </p>
-                      <p className="text-lg">
-                        We also specialize in generative AI services, computer vision, natural language processing, and enterprise AI automation, 
-                        specifically tailored for Alabama's manufacturing, aerospace, healthcare, and agricultural industries.
-                      </p>
-
-                      {/* Service Grid */}
-                      <div className="grid md:grid-cols-2 gap-4 pt-4">
-                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
-                          <Brain className="w-5 h-5 text-primary-orange" />
-                          <span className="text-sm font-medium">Machine Learning</span>
-                        </div>
-                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
-                          <Database className="w-5 h-5 text-primary-orange" />
-                          <span className="text-sm font-medium">Data Analytics</span>
-                        </div>
-                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
-                          <Zap className="w-5 h-5 text-primary-orange" />
-                          <span className="text-sm font-medium">AI Automation</span>
-                        </div>
-                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
-                          <Shield className="w-5 h-5 text-primary-orange" />
-                          <span className="text-sm font-medium">Enterprise AI</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    As the premier <strong className="text-gray-900 font-semibold">AI Company In Alabama</strong>, Metic.ai provides comprehensive AI services including machine learning solutions, 
+                    custom AI development, data analytics, generative AI, computer vision, NLP, and enterprise AI automation tailored for Alabama's manufacturing, aerospace, healthcare, and agricultural industries.
+                  </p>
                 </div>
               </details>
 
               {/* FAQ Item 3 */}
               <details className="group relative">
                 <summary className="list-none cursor-pointer">
-                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    
                     <div className="relative flex items-start justify-between gap-4">
-                      <div className="flex items-start gap-5 flex-1">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
-                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <Target className="w-7 h-7 text-white" />
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Target className="w-6 h-6 text-white" />
                           </div>
                         </div>
-                        
-                        <div className="flex-1 pt-2">
-                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
                             How to choose the right AI Development Company In Alabama?
                           </h3>
                         </div>
                       </div>
-                      
                       <div className="flex-shrink-0">
-                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
-                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
                     </div>
-                    
                     <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                
-                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
-                  <div className="flex items-start gap-5">
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
-                      <CheckCircle className="w-7 h-7 text-primary-orange" />
-                    </div>
-                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
-                      <p className="text-lg">
-                        When selecting an <strong className="text-gray-900 font-semibold">AI Development Company In Alabama</strong>, look for proven experience, successful project portfolio, 
-                        industry expertise, local market understanding, and ongoing support.
-                      </p>
-                      <p className="text-lg">
-                        Metic.ai offers all these qualities with 2100+ completed projects, 98% client satisfaction rate, and deep knowledge of Alabama's business landscape. 
-                        We provide 24/7 support and maintain long-term partnerships with our clients.
-                      </p>
-                    </div>
-                  </div>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    When selecting an <strong className="text-gray-900 font-semibold">AI Development Company In Alabama</strong>, look for proven experience, successful project portfolio, 
+                    industry expertise, and ongoing support. Metic.ai offers all these with 2100+ completed projects, 98% client satisfaction, and 24/7 support.
+                  </p>
                 </div>
               </details>
 
-              {/* Additional FAQ items with the same pattern... */}
               {/* FAQ Item 4 */}
               <details className="group relative">
                 <summary className="list-none cursor-pointer">
-                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    
                     <div className="relative flex items-start justify-between gap-4">
-                      <div className="flex items-start gap-5 flex-1">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
-                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <Clock className="w-7 h-7 text-white" />
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Clock className="w-6 h-6 text-white" />
                           </div>
                         </div>
-                        
-                        <div className="flex-1 pt-2">
-                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
                             How much does AI implementation cost with an AI Service In Alabama?
                           </h3>
                         </div>
                       </div>
-                      
                       <div className="flex-shrink-0">
-                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
-                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
                     </div>
-                    
                     <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                
-                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
-                  <div className="flex items-start gap-5">
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
-                      <TrendingUp className="w-7 h-7 text-primary-orange" />
-                    </div>
-                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
-                      <p className="text-lg">
-                        AI implementation costs vary based on project complexity and requirements. As a leading <strong className="text-gray-900 font-semibold">AI Service In Alabama</strong>, 
-                        Metic.ai offers competitive pricing with transparent cost structures.
-                      </p>
-                      <p className="text-lg">
-                        Our clients typically save 60% compared to international AI development costs while receiving enterprise-grade solutions. 
-                        We provide free consultations to assess your needs and provide accurate project estimates.
-                      </p>
-                    </div>
-                  </div>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    AI implementation costs vary based on complexity. As a leading <strong className="text-gray-900 font-semibold">AI Service In Alabama</strong>, 
+                    Metic.ai offers competitive pricing with transparent structures. Our clients typically save 60% compared to international AI development costs.
+                  </p>
                 </div>
               </details>
 
+              {/* FAQ Item 5 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Users className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Does Metic.ai serve businesses across all Alabama cities?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Yes! Metic.ai proudly serves businesses across all Alabama cities including Birmingham, Montgomery, Mobile, Huntsville, Tuscaloosa, Auburn, Dothan, and beyond. 
+                    As Alabama's leading <strong className="text-gray-900 font-semibold">AI Firm In Alabama</strong>, we provide comprehensive AI solutions statewide.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ Item 6 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Rocket className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How quickly can an AI Company In Alabama start my project?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Metic.ai can typically start your AI project within 24-48 hours after initial consultation. As Alabama's fastest <strong className="text-gray-900 font-semibold">AI Company In Alabama</strong>, 
+                    we understand the importance of speed and deliver 3x faster than traditional development approaches.
+                  </p>
+                </div>
+              </details>
+              </div>
+
+              {/* Right Column - FAQ 7-12 */}
+              <div className="space-y-5">
+              {/* FAQ Item 7 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Shield className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Is my data secure with an AI Development Company In Alabama?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Absolutely! Metic.ai implements enterprise-grade security protocols, encryption, and compliance measures. As a trusted <strong className="text-gray-900 font-semibold">AI Development Company In Alabama</strong>, 
+                    we prioritize data security with ISO certifications and strict confidentiality agreements.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ Item 8 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <TrendingUp className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What industries does the best AI Company In Alabama serve?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Metic.ai serves diverse industries including Manufacturing, Aerospace, Healthcare, Agriculture, Technology, Automotive, Financial Services, Transportation, Education, and Energy. 
+                    As Alabama's premier <strong className="text-gray-900 font-semibold">AI Company In Alabama</strong>, we tailor solutions for your specific industry needs.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ Item 9 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Award className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What makes Metic.ai the top AI Firm In Alabama?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Our 2100+ successful projects, 98% client satisfaction rate, 60% cost savings, 3x faster delivery, and deep Alabama market expertise make us the leading <strong className="text-gray-900 font-semibold">AI Firm In Alabama</strong>. 
+                    We combine cutting-edge AI technology with personalized service.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ Item 10 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Lightbulb className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Do I need technical knowledge to work with an AI Service In Alabama?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    No technical knowledge required! Metic.ai guides you through every step with clear communication. As a client-focused <strong className="text-gray-900 font-semibold">AI Service In Alabama</strong>, 
+                    we translate complex AI concepts into simple business terms and handle all technical aspects for you.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ Item 11 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Database className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Can AI Company In Alabama handle small business projects?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Absolutely! Metic.ai works with businesses of all sizes, from startups to enterprises. As an inclusive <strong className="text-gray-900 font-semibold">AI Company In Alabama</strong>, 
+                    we offer scalable solutions and flexible pricing models to meet small business budgets while delivering enterprise-quality AI implementations.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ Item 12 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Zap className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What support does Metic.ai provide after AI implementation?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Metic.ai provides comprehensive 24/7 post-implementation support including maintenance, updates, training, troubleshooting, and optimization. 
+                    As your long-term partner, we ensure your AI solutions continue delivering maximum value and adapt to your evolving business needs.
+                  </p>
+                </div>
+              </details>
+              </div>
             </div>
 
             {/* Enhanced CTA at Bottom of FAQ */}
