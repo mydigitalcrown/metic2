@@ -1,8 +1,5 @@
-"use client";
-
 import Link from "next/link";
 import { Button } from "../components/ui/Button";
-import { useState } from "react";
 import { 
   Brain, 
   Zap, 
@@ -347,42 +344,26 @@ export default function AIServicesMarylandPage() {
                   question: "Does your AI Company In Maryland serve all industries?",
                   answer: "Yes, our Artificial Intelligence Company In Maryland serves diverse industries including biotechnology & life sciences, government & defense, cybersecurity, healthcare & medical, financial services, information technology, aerospace & maritime, education & research, real estate & construction, and transportation & logistics. We have specialized expertise in Maryland's key economic sectors."
                 }
-              ].map((faq, index) => {
-                const [isOpen, setIsOpen] = useState(false);
-                
-                return (
-                  <div key={index} className="group">
-                    <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl border border-gray-700/50 overflow-hidden hover:border-primary-orange/50 transition-all duration-300">
-                      <button
-                        onClick={() => setIsOpen(!isOpen)}
-                        className="w-full px-8 py-6 text-left flex items-center justify-between group-hover:bg-gray-800/30 transition-colors duration-300"
-                      >
-                        <h3 className="text-lg font-semibold text-white group-hover:text-primary-orange transition-colors duration-300 pr-8">
-                          {faq.question}
-                        </h3>
-                        <div className="flex-shrink-0">
-                          <ChevronDown 
-                            className={`w-6 h-6 text-primary-orange transition-transform duration-300 ${
-                              isOpen ? 'rotate-180' : ''
-                            }`} 
-                          />
-                        </div>
-                      </button>
-                      
-                      <div className={`overflow-hidden transition-all duration-500 ${
-                        isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
-                      }`}>
-                        <div className="px-8 pb-6">
-                          <div className="w-full h-px bg-gradient-to-r from-primary-orange/20 to-orange-400/20 mb-6"></div>
-                          <p className="text-gray-300 leading-relaxed">
-                            {faq.answer}
-                          </p>
-                        </div>
+              ].map((faq, index) => (
+                <details key={index} className="group">
+                  <summary className="bg-gray-800/50 backdrop-blur-sm rounded-2xl border border-gray-700/50 hover:border-primary-orange/50 transition-all duration-300 px-8 py-6 cursor-pointer list-none">
+                    <div className="flex items-center justify-between">
+                      <h3 className="text-lg font-semibold text-white group-hover:text-primary-orange transition-colors duration-300 pr-8">
+                        {faq.question}
+                      </h3>
+                      <div className="flex-shrink-0">
+                        <ChevronDown className="w-6 h-6 text-primary-orange transition-transform duration-300 group-open:rotate-180" />
                       </div>
                     </div>
+                  </summary>
+                  <div className="px-8 pb-6 pt-2">
+                    <div className="w-full h-px bg-gradient-to-r from-primary-orange/20 to-orange-400/20 mb-6"></div>
+                    <p className="text-gray-300 leading-relaxed">
+                      {faq.answer}
+                    </p>
                   </div>
-                );
-              })}
+                </details>
+              ))}
             </div>
 
             {/* Contact CTA */}
