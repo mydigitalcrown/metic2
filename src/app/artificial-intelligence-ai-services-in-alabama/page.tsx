@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Button } from "../components/ui/Button";
+import Testimonials from "../components/Testimonials";
 import { 
   Brain, 
   Zap, 
@@ -1234,126 +1235,8 @@ export default function AIServicesAlabamaPage() {
                 </div>
               </div>
 
-              {/* Alabama AI Success Stories - Premium Creative Design */}
-              <div className="bg-gradient-to-br from-orange-50 via-white to-amber-50 rounded-3xl p-12 md:p-16 border-2 border-primary-orange/20 shadow-2xl transform -rotate-1 hover:rotate-0 transition-transform">
-                <div className="text-center mb-16">
-                  <div className="inline-flex items-center gap-2 px-6 py-3 bg-white rounded-full shadow-xl border-2 border-primary-orange/20 mb-8 transform hover:scale-105 transition-transform">
-                    <Star className="w-5 h-5 text-primary-orange" />
-                    <span className="text-sm font-bold text-gray-800">ALABAMA SUCCESS STORIES</span>
-                    <Star className="w-5 h-5 text-primary-orange" />
-                  </div>
-                  <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                    Alabama AI Implementation <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Success Stories</span>
-                  </h3>
-                  <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 rounded-full"></div>
-                  <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Real results from Alabama businesses that transformed their operations with our AI solutions
-                  </p>
-                </div>
-                
-                <div className="grid md:grid-cols-3 gap-10">
-                  <div className="bg-white rounded-2xl p-8 shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
-                    <div className="flex items-center mb-6">
-                      <div className="w-16 h-16 rounded-full bg-gradient-to-br from-primary-orange to-secondary-orange flex items-center justify-center mr-6 shadow-lg group-hover:scale-110 transition-transform">
-                        <span className="font-bold text-white text-lg">AC</span>
-                      </div>
-                      <div>
-                        <h4 className="font-bold text-gray-900 text-lg">Aerospace Contractor</h4>
-                        <p className="text-sm text-gray-600">Huntsville Defense Technology</p>
-                        <div className="flex mt-2">
-                          {[...Array(5)].map((_, i) => (
-                            <Star key={i} className="w-4 h-4 text-yellow-400 fill-current" />
-                          ))}
-                        </div>
-                      </div>
-                    </div>
-                    <p className="text-gray-700 mb-6 italic leading-relaxed">
-                      "Best <strong className="text-primary-orange">AI Company In Alabama</strong> for aerospace! 
-                      Their mission planning AI reduced flight preparation time by 50% while improving safety protocols. 
-                      Perfect understanding of Rocket City requirements."
-                    </p>
-                    <div className="bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-xl p-4">
-                      <div className="text-4xl font-bold text-primary-orange mb-2">50%</div>
-                      <div className="text-sm text-gray-600 font-medium">Flight Prep Time Reduction</div>
-                      <div className="text-xs text-gray-500 mt-1">ROI: 420% within 9 months</div>
-                    </div>
-                  </div>
-                  
-                  <div className="bg-white rounded-2xl p-8 shadow-xl border border-secondary-orange/10 hover:border-secondary-orange/30 transition-all group transform hover:scale-105">
-                    <div className="flex items-center mb-6">
-                      <div className="w-16 h-16 rounded-full bg-gradient-to-br from-secondary-orange to-primary-orange flex items-center justify-center mr-6 shadow-lg group-hover:scale-110 transition-transform">
-                        <span className="font-bold text-white text-lg">AM</span>
-                      </div>
-                      <div>
-                        <h4 className="font-bold text-gray-900 text-lg">Auto Manufacturer</h4>
-                        <p className="text-sm text-gray-600">Major Alabama Vehicle Plant</p>
-                        <div className="flex mt-2">
-                          {[...Array(5)].map((_, i) => (
-                            <Star key={i} className="w-4 h-4 text-yellow-400 fill-current" />
-                          ))}
-                        </div>
-                      </div>
-                    </div>
-                    <p className="text-gray-700 mb-6 italic leading-relaxed">
-                      "Outstanding <strong className="text-secondary-orange">AI Development Company In Alabama</strong>! 
-                      Their assembly line AI increased production efficiency by 45% while reducing defects. 
-                      Exceptional automotive industry expertise."
-                    </p>
-                    <div className="bg-gradient-to-r from-secondary-orange/10 to-primary-orange/10 rounded-xl p-4">
-                      <div className="text-4xl font-bold text-secondary-orange mb-2">45%</div>
-                      <div className="text-sm text-gray-600 font-medium">Production Efficiency Gain</div>
-                      <div className="text-xs text-gray-500 mt-1">Defect reduction: -65%</div>
-                    </div>
-                  </div>
-                  
-                  <div className="bg-white rounded-2xl p-8 shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
-                    <div className="flex items-center mb-6">
-                      <div className="w-16 h-16 rounded-full bg-gradient-to-br from-primary-orange to-secondary-orange flex items-center shadow-lg group-hover:scale-110 transition-transform mr-6">
-                        <span className="font-bold text-white text-lg">SP</span>
-                      </div>
-                      <div>
-                        <h4 className="font-bold text-gray-900 text-lg">Steel Producer</h4>
-                        <p className="text-sm text-gray-600">Birmingham Industrial Leader</p>
-                        <div className="flex mt-2">
-                          {[...Array(5)].map((_, i) => (
-                            <Star key={i} className="w-4 h-4 text-yellow-400 fill-current" />
-                          ))}
-                        </div>
-                      </div>
-                    </div>
-                    <p className="text-gray-700 mb-6 italic leading-relaxed">
-                      "Leading <strong className="text-primary-orange">Artificial Intelligence Company In Alabama</strong> 
-                      for heavy industry! Their process optimization AI reduced energy consumption by 35% while 
-                      maintaining production quality. Remarkable industrial expertise."
-                    </p>
-                    <div className="bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-xl p-4">
-                      <div className="text-4xl font-bold text-primary-orange mb-2">35%</div>
-                      <div className="text-sm text-gray-600 font-medium">Energy Consumption Reduction</div>
-                      <div className="text-xs text-gray-500 mt-1">Cost savings: $2.8M annually</div>
-                    </div>
-                  </div>
-                </div>
-                
-                {/* Additional Success Metrics */}
-                <div className="mt-12 grid md:grid-cols-4 gap-6">
-                  <div className="text-center p-6 bg-white rounded-xl shadow-lg border border-primary-orange/20 transform hover:scale-105 transition-transform">
-                    <div className="text-3xl font-bold text-primary-orange mb-2">380+</div>
-                    <div className="text-sm text-gray-600">Alabama Projects</div>
-                  </div>
-                  <div className="text-center p-6 bg-white rounded-xl shadow-lg border border-secondary-orange/20 transform hover:scale-105 transition-transform">
-                    <div className="text-3xl font-bold text-secondary-orange mb-2">99.5%</div>
-                    <div className="text-sm text-gray-600">Success Rate</div>
-                  </div>
-                  <div className="text-center p-6 bg-white rounded-xl shadow-lg border border-primary-orange/20 transform hover:scale-105 transition-transform">
-                    <div className="text-3xl font-bold text-primary-orange mb-2">5.2x</div>
-                    <div className="text-sm text-gray-600">Average ROI</div>
-                  </div>
-                  <div className="text-center p-6 bg-white rounded-xl shadow-lg border border-secondary-orange/20 transform hover:scale-105 transition-transform">
-                    <div className="text-3xl font-bold text-secondary-orange mb-2">97%</div>
-                    <div className="text-sm text-gray-600">Client Retention</div>
-                  </div>
-                </div>
-              </div>
+              {/* Reusable Testimonials Component */}
+              <Testimonials />
 
               {/* Alabama AI Partnership Excellence - Creative Premium Design */}
               <div className="grid lg:grid-cols-2 gap-16 items-center">
