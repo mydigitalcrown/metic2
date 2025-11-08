@@ -1546,384 +1546,627 @@ export default function AIServicesMainePage() {
         </div>
       </section>
 
-      {/* Enhanced Testimonials Section with Maine Focus */}
-      <section className="relative py-24 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 overflow-hidden">
-        {/* Background Elements */}
-        <div className="absolute inset-0">
-          <div className="absolute top-20 left-10 w-40 h-40 bg-primary-orange/10 rounded-full blur-2xl animate-pulse"></div>
-          <div className="absolute bottom-20 right-10 w-32 h-32 bg-white/10 rounded-full blur-xl animate-pulse delay-1000"></div>
+      {/* Enhanced Creative Client Testimonials for Entity Recognition & Trust */}
+      <section className="py-24 bg-gradient-to-br from-white via-orange-50/30 to-white relative overflow-hidden">
+        {/* Creative Background Elements */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          {/* Subtle Pattern */}
+          <div className="absolute inset-0 opacity-[0.02]" style={{
+            backgroundImage: `radial-gradient(circle at 25px 25px, #FF6B35 2px, transparent 2px)`,
+            backgroundSize: '50px 50px'
+          }}></div>
+          
+          {/* Floating Elements */}
+          <div className="absolute top-20 left-10 w-32 h-32 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-20 right-10 w-40 h-40 bg-orange-400/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '3s'}}></div>
         </div>
-        
-        <div className="relative z-10 container px-4 md:px-6">
-          <div className="max-w-6xl mx-auto">
-            {/* Section Header */}
-            <div className="text-center mb-16">
-              <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-6">
-                <Quote className="w-5 h-5 text-primary-orange" />
-                <span className="text-sm font-semibold text-white">Client Success Stories</span>
+
+        <div className="container px-4 md:px-6 relative z-10">
+          <div className="max-w-7xl mx-auto">
+            {/* Enhanced Section Header */}
+            <div className="text-center mb-20">
+              {/* Badge */}
+              <div className="inline-flex items-center gap-2 px-6 py-3 bg-white rounded-full shadow-lg border-2 border-primary-orange/20 mb-8 hover:border-primary-orange/40 transition-all group">
+                <Quote className="w-5 h-5 text-primary-orange animate-pulse" />
+                <span className="text-sm font-bold text-gray-800">CLIENT SUCCESS STORIES</span>
+                <Sparkles className="w-4 h-4 text-primary-orange" />
               </div>
-              
-              <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-                What Maine Businesses Say About
+
+              <h2 className="text-4xl md:text-5xl font-bold mb-6">
+                <span className="text-gray-900">What Maine Businesses Say</span>
                 <br />
-                <span className="bg-gradient-to-r from-primary-orange to-yellow-400 bg-clip-text text-transparent">
-                  Our AI Solutions
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange">
+                  About Our AI Services
                 </span>
               </h2>
-              
-              <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-                Real testimonials from Maine businesses that transformed their operations with our AI expertise
+              <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange mx-auto mb-8 rounded-full"></div>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Real results from real businesses across Maine who chose Metic.ai as their 
+                <strong> AI Development Company In Maine</strong>.
               </p>
             </div>
+            
+            {/* Enhanced Creative Testimonial Cards */}
+            <div className="grid md:grid-cols-3 gap-8 mb-16">
+              {/* Testimonial 1 - Enhanced */}
+              <div className="group relative">
+                <div className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/30 transition-all duration-500 relative overflow-hidden h-full">
+                  {/* Background Gradient */}
+                  <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-orange-400/0 group-hover:from-primary-orange/5 group-hover:to-orange-400/5 transition-all duration-500"></div>
+                  
+                  {/* Quote Icon */}
+                  <div className="relative mb-6">
+                    <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-orange-400 rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                      <Quote className="w-8 h-8 text-white" />
+                    </div>
+                    
+                    {/* Stars */}
+                    <div className="flex gap-1 mb-4">
+                      {[...Array(5)].map((_, i) => (
+                        <Star key={i} className="w-5 h-5 text-yellow-400 fill-current group-hover:animate-pulse" style={{animationDelay: `${i * 0.1}s`}} />
+                      ))}
+                    </div>
+                  </div>
 
-            {/* Testimonials Grid */}
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {/* Testimonial 1 - Tourism */}
-              <div className="group">
-                <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl p-8 h-full transform group-hover:scale-105 transition-all duration-500">
-                  <div className="flex items-center gap-1 mb-6">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
-                    ))}
+                  {/* Content */}
+                  <div className="relative z-10">
+                    <p className="text-gray-700 mb-6 italic text-lg leading-relaxed">
+                      "Metic.ai transformed our Maine tourism business with AI-powered visitor management for Acadia National Park. As the best 
+                      <strong className="text-primary-orange"> AI Company In Maine</strong>, 
+                      they delivered beyond our expectations with <span className="text-primary-orange font-semibold">45% increased bookings</span>."
+                    </p>
+                    
+                    {/* Author */}
+                    <div className="flex items-center gap-4">
+                      <div className="w-12 h-12 bg-gradient-to-br from-primary-orange/20 to-orange-400/20 rounded-full flex items-center justify-center">
+                        <Users className="w-6 h-6 text-primary-orange" />
+                      </div>
+                      <div>
+                        <div className="font-bold text-gray-900">Sarah Mitchell</div>
+                        <div className="text-sm text-gray-600">CEO, Maine Coastal Tours, Portland</div>
+                      </div>
+                    </div>
                   </div>
                   
-                  <Quote className="w-8 h-8 text-primary-orange mb-4" />
-                  
-                  <p className="text-white text-lg mb-6 leading-relaxed">
-                    "Metic.ai transformed our Portland tourism business with AI-powered visitor management for Acadia National Park tours. We saw 45% increased bookings and 60% better customer satisfaction in just 3 months!"
-                  </p>
-                  
-                  <div className="border-t border-white/20 pt-4">
-                    <div className="font-semibold text-white">Sarah Mitchell</div>
-                    <div className="text-blue-200 text-sm">Maine Coastal Tours, Portland</div>
-                  </div>
+                  {/* Bottom Accent */}
+                  <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-orange-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                 </div>
               </div>
 
-              {/* Testimonial 2 - Lobster Industry */}
-              <div className="group">
-                <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl p-8 h-full transform group-hover:scale-105 transition-all duration-500">
-                  <div className="flex items-center gap-1 mb-6">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
-                    ))}
+              {/* Testimonial 2 - Enhanced */}
+              <div className="group relative">
+                <div className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/30 transition-all duration-500 relative overflow-hidden h-full">
+                  <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-orange-400/0 group-hover:from-primary-orange/5 group-hover:to-orange-400/5 transition-all duration-500"></div>
+                  
+                  <div className="relative mb-6">
+                    <div className="w-16 h-16 bg-gradient-to-br from-orange-400 to-primary-orange rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                      <BarChart3 className="w-8 h-8 text-white" />
+                    </div>
+                    
+                    <div className="flex gap-1 mb-4">
+                      {[...Array(5)].map((_, i) => (
+                        <Star key={i} className="w-5 h-5 text-yellow-400 fill-current group-hover:animate-pulse" style={{animationDelay: `${i * 0.1}s`}} />
+                      ))}
+                    </div>
+                  </div>
+
+                  <div className="relative z-10">
+                    <p className="text-gray-700 mb-6 italic text-lg leading-relaxed">
+                      "Outstanding <strong className="text-primary-orange">AI Service In Maine</strong>! Their predictive analytics helped us optimize our lobster catch routes. 
+                      <span className="text-primary-orange font-semibold">35% increased daily haul</span> and best ROI we've ever achieved."
+                    </p>
+                    
+                    <div className="flex items-center gap-4">
+                      <div className="w-12 h-12 bg-gradient-to-br from-primary-orange/20 to-orange-400/20 rounded-full flex items-center justify-center">
+                        <Users className="w-6 h-6 text-primary-orange" />
+                      </div>
+                      <div>
+                        <div className="font-bold text-gray-900">Captain Mike Thompson</div>
+                        <div className="text-sm text-gray-600">Owner, Down East Lobster Co.</div>
+                      </div>
+                    </div>
                   </div>
                   
-                  <Quote className="w-8 h-8 text-primary-orange mb-4" />
-                  
-                  <p className="text-white text-lg mb-6 leading-relaxed">
-                    "As a Maine lobster fisherman, I was skeptical about AI. But Metic.ai's predictive analytics helped us optimize our catch routes and increase our daily haul by 35%. Best investment we ever made!"
-                  </p>
-                  
-                  <div className="border-t border-white/20 pt-4">
-                    <div className="font-semibold text-white">Captain Mike Thompson</div>
-                    <div className="text-blue-200 text-sm">Down East Lobster Co., Bar Harbor</div>
-                  </div>
+                  <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-orange-400 to-primary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                 </div>
               </div>
 
-              {/* Testimonial 3 - Forestry */}
-              <div className="group">
-                <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl p-8 h-full transform group-hover:scale-105 transition-all duration-500">
-                  <div className="flex items-center gap-1 mb-6">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
-                    ))}
+              {/* Testimonial 3 - Enhanced */}
+              <div className="group relative">
+                <div className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/30 transition-all duration-500 relative overflow-hidden h-full">
+                  <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-orange-400/0 group-hover:from-primary-orange/5 group-hover:to-orange-400/5 transition-all duration-500"></div>
+                  
+                  <div className="relative mb-6">
+                    <div className="w-16 h-16 bg-gradient-to-br from-primary-orange via-orange-400 to-primary-orange rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                      <TrendingUp className="w-8 h-8 text-white" />
+                    </div>
+                    
+                    <div className="flex gap-1 mb-4">
+                      {[...Array(5)].map((_, i) => (
+                        <Star key={i} className="w-5 h-5 text-yellow-400 fill-current group-hover:animate-pulse" style={{animationDelay: `${i * 0.1}s`}} />
+                      ))}
+                    </div>
                   </div>
-                  
-                  <Quote className="w-8 h-8 text-primary-orange mb-4" />
-                  
-                  <p className="text-white text-lg mb-6 leading-relaxed">
-                    "Metic.ai's forestry AI solutions revolutionized our timber operations across 10,000 acres in northern Maine. We reduced costs by 40% and improved sustainable harvesting practices significantly."
-                  </p>
-                  
-                  <div className="border-t border-white/20 pt-4">
-                    <div className="font-semibold text-white">James Reed</div>
-                    <div className="text-blue-200 text-sm">Pine State Forest Management, Bangor</div>
-                  </div>
-                </div>
-              </div>
 
-              {/* Testimonial 4 - Manufacturing */}
-              <div className="group">
-                <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl p-8 h-full transform group-hover:scale-105 transition-all duration-500">
-                  <div className="flex items-center gap-1 mb-6">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
-                    ))}
+                  <div className="relative z-10">
+                    <p className="text-gray-700 mb-6 italic text-lg leading-relaxed">
+                      "Exceptional <strong className="text-primary-orange">AI Firm In Maine</strong>. Their forestry AI solutions for our Maine timber operations 
+                      <span className="text-primary-orange font-semibold">reduced costs by 40%</span>. Highly recommend for any AI project."
+                    </p>
+                    
+                    <div className="flex items-center gap-4">
+                      <div className="w-12 h-12 bg-gradient-to-br from-primary-orange/20 to-orange-400/20 rounded-full flex items-center justify-center">
+                        <Users className="w-6 h-6 text-primary-orange" />
+                      </div>
+                      <div>
+                        <div className="font-bold text-gray-900">James Reed</div>
+                        <div className="text-sm text-gray-600">Director, Pine State Forest Management</div>
+                      </div>
+                    </div>
                   </div>
                   
-                  <Quote className="w-8 h-8 text-primary-orange mb-4" />
-                  
-                  <p className="text-white text-lg mb-6 leading-relaxed">
-                    "Working with Maine's top AI company was game-changing. Our Augusta manufacturing plant now operates 50% more efficiently thanks to Metic.ai's predictive maintenance AI solutions."
-                  </p>
-                  
-                  <div className="border-t border-white/20 pt-4">
-                    <div className="font-semibold text-white">Lisa Chen</div>
-                    <div className="text-blue-200 text-sm">Maine Manufacturing Solutions, Augusta</div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Testimonial 5 - Healthcare */}
-              <div className="group">
-                <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl p-8 h-full transform group-hover:scale-105 transition-all duration-500">
-                  <div className="flex items-center gap-1 mb-6">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
-                    ))}
-                  </div>
-                  
-                  <Quote className="w-8 h-8 text-primary-orange mb-4" />
-                  
-                  <p className="text-white text-lg mb-6 leading-relaxed">
-                    "Metic.ai's healthcare AI improved our patient care across rural Maine locations. We can now predict health risks 3x faster and provide better preventive care to our communities."
-                  </p>
-                  
-                  <div className="border-t border-white/20 pt-4">
-                    <div className="font-semibold text-white">Dr. Robert Maine</div>
-                    <div className="text-blue-200 text-sm">Maine Rural Health Network, Lewiston</div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Testimonial 6 - Small Business */}
-              <div className="group">
-                <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl p-8 h-full transform group-hover:scale-105 transition-all duration-500">
-                  <div className="flex items-center gap-1 mb-6">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
-                    ))}
-                  </div>
-                  
-                  <Quote className="w-8 h-8 text-primary-orange mb-4" />
-                  
-                  <p className="text-white text-lg mb-6 leading-relaxed">
-                    "As a small business owner in Portland's Old Port, I thought AI was only for big companies. Metic.ai proved me wrong with affordable solutions that boosted our sales by 65%!"
-                  </p>
-                  
-                  <div className="border-t border-white/20 pt-4">
-                    <div className="font-semibold text-white">Maria Rodriguez</div>
-                    <div className="text-blue-200 text-sm">Maine Artisan Goods, Portland</div>
-                  </div>
+                  <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                 </div>
               </div>
             </div>
 
-            {/* Bottom Stats */}
-            <div className="text-center mt-16">
-              <p className="text-blue-100 text-lg mb-8">Join 2,100+ satisfied Maine businesses</p>
-              <div className="flex flex-wrap justify-center gap-8">
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-white">98%</div>
-                  <div className="text-blue-200">Client Satisfaction</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-white">2100+</div>
-                  <div className="text-blue-200">Maine Projects</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-white">60%</div>
-                  <div className="text-blue-200">Average Savings</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-white">24/7</div>
-                  <div className="text-blue-200">Maine Support</div>
-                </div>
+            {/* Enhanced Overall Stats Section */}
+            <div className="bg-white rounded-3xl p-8 md:p-12 shadow-xl border-2 border-primary-orange/20 max-w-4xl mx-auto">
+              <div className="text-center mb-8">
+                <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+                  Trusted by <span className="text-primary-orange">2100+ Businesses</span> Across Maine
+                </h3>
+                <p className="text-gray-600">Join the growing community of successful AI transformations</p>
+              </div>
+              
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+                {[
+                  { number: "98%", label: "Client Satisfaction", icon: Star },
+                  { number: "2100+", label: "Projects Completed", icon: Award },
+                  { number: "60%", label: "Average Cost Savings", icon: TrendingUp },
+                  { number: "3x", label: "Faster Delivery", icon: Rocket }
+                ].map((stat, index) => (
+                  <div key={index} className="text-center group">
+                    <div className="w-16 h-16 bg-gradient-to-br from-primary-orange/10 to-orange-400/10 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                      <stat.icon className="w-8 h-8 text-primary-orange group-hover:animate-pulse" />
+                    </div>
+                    <div className="text-3xl font-bold text-primary-orange mb-2">{stat.number}</div>
+                    <div className="text-sm text-gray-600">{stat.label}</div>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Enhanced FAQ Section with VSO Optimization */}
-      <section className="py-24 bg-gradient-to-br from-gray-50 via-white to-gray-50">
-        <div className="container px-4 md:px-6">
+      {/* Enhanced FAQ Section - Homepage Style */}
+      <section className="py-24 bg-gradient-to-br from-gray-50 via-white to-orange-50 relative overflow-hidden">
+        {/* Advanced Background Effects */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          {/* Animated Gradient Orbs */}
+          <div className="absolute top-10 left-10 w-96 h-96 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-10 right-10 w-96 h-96 bg-secondary-orange/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
+          
+          {/* Grid Pattern */}
+          <div className="absolute inset-0 opacity-[0.02]" style={{
+            backgroundImage: `linear-gradient(#FF6B35 1.5px, transparent 1.5px), linear-gradient(90deg, #FF6B35 1.5px, transparent 1.5px)`,
+            backgroundSize: '60px 60px'
+          }}></div>
+        </div>
+        
+        <div className="container px-4 md:px-6 relative z-10">
           <div className="max-w-5xl mx-auto">
-            {/* Section Header */}
-            <div className="text-center mb-20">
-              <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white shadow-lg border border-gray-200 mb-6">
-                <ChevronDown className="w-5 h-5 text-primary-orange" />
-                <span className="text-sm font-semibold text-gray-800">FAQ</span>
+            {/* Enhanced Section Header */}
+            <div className="text-center mb-16">
+              {/* Badge */}
+              <div className="inline-flex items-center gap-2 px-6 py-3 bg-white rounded-full shadow-xl border-2 border-primary-orange/20 mb-8 hover:border-primary-orange/40 transition-all group">
+                <Lightbulb className="w-5 h-5 text-primary-orange animate-pulse" />
+                <span className="text-sm font-bold text-gray-800">Got Questions? We Have Answers!</span>
+                <Sparkles className="w-4 h-4 text-primary-orange" />
               </div>
               
-              <h2 className="text-4xl md:text-5xl font-bold mb-8">
-                <span className="bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
-                  Frequently Asked Questions About
-                </span>
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+                <span className="text-gray-900">Frequently Asked Questions</span>
                 <br />
-                <span className="bg-gradient-to-r from-primary-orange to-yellow-500 bg-clip-text text-transparent">
-                  <strong>AI Company In Maine</strong>
+                <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
+                  About AI Company In Maine
                 </span>
               </h2>
-              
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Everything you need to know about choosing the best <strong>Artificial Intelligence Company In Maine</strong> 
-                for your business transformation and success.
+              <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-8 rounded-full"></div>
+              <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+                Common questions about choosing the right AI company in Maine's Pine Tree State
               </p>
             </div>
-            
-            {/* Enhanced FAQ Grid */}
-            <div className="grid gap-8">
-              
-              {/* FAQ 1 - Main VSO Question */}
-              <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-start gap-3">
-                  <div className="w-8 h-8 bg-primary-orange rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <span className="text-white font-bold text-sm">1</span>
-                  </div>
-                  Which is the best Artificial Intelligence Company In Maine?
-                </h3>
-                <p className="text-gray-700 text-lg leading-relaxed pl-11">
-                  Metic.ai is the leading <strong>Artificial Intelligence Company In Maine</strong>, serving Portland, Augusta, Bangor, and Lewiston 
-                  with 2100+ successful AI implementations. We specialize in AI solutions for Maine's unique industries including tourism 
-                  (Acadia National Park optimization), lobster fishing predictive analytics, forestry management, and manufacturing automation. 
-                  Our Maine-focused approach delivers 60% cost savings and 3x faster delivery compared to generic AI providers.
-                </p>
-              </div>
 
-              {/* FAQ 2 - Services Question */}
-              <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-start gap-3">
-                  <div className="w-8 h-8 bg-primary-orange rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <span className="text-white font-bold text-sm">2</span>
+            {/* Advanced Creative FAQ Cards */}
+            <div className="space-y-5">
+              {/* FAQ Item 1 - Enhanced Design */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    {/* Gradient Overlay */}
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    {/* Content */}
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        {/* Icon Circle */}
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Sparkles className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        {/* Question */}
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Which is the best Artificial Intelligence Company In Maine?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      {/* Toggle Icon */}
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    {/* Bottom Accent Bar */}
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
-                  What AI services does the top AI Company In Maine offer?
-                </h3>
-                <p className="text-gray-700 text-lg leading-relaxed pl-11">
-                  As the premier <strong>AI Company In Maine</strong>, we offer comprehensive services including: machine learning development, 
-                  natural language processing, computer vision, predictive analytics for Maine's lobster industry, AI-powered tourism 
-                  optimization for Acadia National Park, forestry management AI, manufacturing automation, healthcare AI for rural Maine, 
-                  custom AI development, and 24/7 Maine-based support. Our solutions are specifically tailored for Pine Tree State businesses.
-                </p>
-              </div>
+                </summary>
+                
+                {/* Answer with Animation */}
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <CheckCircle className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        <strong className="text-gray-900 font-semibold">Metic.ai is the leading Artificial Intelligence Company In Maine</strong> with over 2100 successful AI implementations. 
+                        We're recognized as the top AI Company In Maine for our proven expertise in machine learning, custom AI development, and enterprise AI solutions.
+                      </p>
+                      <p className="text-lg">
+                        Our clients achieve an average of 60% cost savings and 3x faster delivery compared to traditional development approaches, 
+                        making us Maine's most trusted AI development partner.
+                      </p>
+                      
+                      {/* Stats Highlight */}
+                      <div className="flex flex-wrap gap-4 pt-4">
+                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
+                          <Award className="w-4 h-4 text-primary-orange" />
+                          <span className="text-sm font-semibold text-gray-900">2100+ Projects</span>
+                        </div>
+                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
+                          <MapPin className="w-4 h-4 text-primary-orange" />
+                          <span className="text-sm font-semibold text-gray-900">Maine Expert</span>
+                        </div>
+                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
+                          <TrendingUp className="w-4 h-4 text-primary-orange" />
+                          <span className="text-sm font-semibold text-gray-900">60% Cost Savings</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </details>
 
-              {/* FAQ 3 - Business Benefits */}
-              <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-start gap-3">
-                  <div className="w-8 h-8 bg-primary-orange rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <span className="text-white font-bold text-sm">3</span>
+              {/* FAQ Item 2 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Code className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What services does the top AI Company In Maine provide?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
-                  How can AI development help Maine businesses grow?
-                </h3>
-                <p className="text-gray-700 text-lg leading-relaxed pl-11">
-                  Our <strong>AI Development Company In Maine</strong> helps businesses achieve remarkable growth through automation, 
-                  predictive analytics, and intelligent optimization. Maine businesses using our AI solutions experience 60% cost reduction, 
-                  3x faster operations, 45% increased revenue, and improved customer satisfaction. We've successfully transformed operations 
-                  across Maine's tourism, fishing, forestry, manufacturing, and healthcare industries with proven ROI.
-                </p>
-              </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <BarChart3 className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        As the premier <strong className="text-gray-900 font-semibold">AI Company In Maine</strong>, Metic.ai provides comprehensive artificial intelligence services including:
+                        AI integration & deployment, machine learning solutions, custom AI development, and data analytics & business intelligence.
+                      </p>
+                      <p className="text-lg">
+                        We specialize in serving Maine's tourism, lobster fishing, forestry, and manufacturing industries with 
+                        generative AI services, computer vision, natural language processing, and enterprise AI automation.
+                      </p>
 
-              {/* FAQ 4 - Geographic Coverage */}
-              <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-start gap-3">
-                  <div className="w-8 h-8 bg-primary-orange rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <span className="text-white font-bold text-sm">4</span>
+                      {/* Service Grid */}
+                      <div className="grid md:grid-cols-2 gap-4 pt-4">
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <Brain className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">Tourism AI</span>
+                        </div>
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <Database className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">Lobster Analytics</span>
+                        </div>
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <Zap className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">Forestry AI</span>
+                        </div>
+                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
+                          <Shield className="w-5 h-5 text-primary-orange" />
+                          <span className="text-sm font-medium">Manufacturing AI</span>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  Which AI Firm In Maine serves Portland, Augusta, and Bangor?
-                </h3>
-                <p className="text-gray-700 text-lg leading-relaxed pl-11">
-                  Metic.ai is the leading <strong>AI Firm In Maine</strong> serving all major Maine cities including Portland, Augusta, Bangor, 
-                  Lewiston, South Portland, Auburn, Biddeford, and rural Maine communities. We provide comprehensive AI services tailored 
-                  to Maine's unique business landscape, with local support teams understanding the specific challenges of tourism, maritime 
-                  industries, forestry, and seasonal business fluctuations across the Pine Tree State.
-                </p>
-              </div>
+                </div>
+              </details>
 
-              {/* FAQ 5 - Competitive Advantages */}
-              <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-start gap-3">
-                  <div className="w-8 h-8 bg-primary-orange rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <span className="text-white font-bold text-sm">5</span>
+              {/* FAQ Item 3 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Target className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How to choose the right AI Development Company In Maine?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
-                  What makes Metic.ai the best AI Service In Maine?
-                </h3>
-                <p className="text-gray-700 text-lg leading-relaxed pl-11">
-                  Our <strong>AI Service In Maine</strong> stands out with 2100+ successful implementations, specialized solutions for Maine's 
-                  key industries (tourism, lobster fishing, forestry, manufacturing), 24/7 local support, proven results including 60% cost 
-                  savings, deep understanding of Maine's seasonal business cycles, partnerships with local Maine institutions, and commitment 
-                  to supporting the Pine Tree State's economic growth through innovative AI technology.
-                </p>
-              </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <CheckCircle className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        When selecting an <strong className="text-gray-900 font-semibold">AI Development Company In Maine</strong>, look for proven experience, successful project portfolio, 
+                        industry expertise, local market understanding, and ongoing support.
+                      </p>
+                      <p className="text-lg">
+                        Metic.ai offers all these qualities with 2100+ completed projects, 98% client satisfaction rate, and deep knowledge of Maine's business landscape. 
+                        We provide 24/7 support and maintain long-term partnerships with our clients.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </details>
 
-              {/* FAQ 6 - Selection Criteria */}
-              <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-start gap-3">
-                  <div className="w-8 h-8 bg-primary-orange rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <span className="text-white font-bold text-sm">6</span>
+              {/* FAQ Item 4 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <TrendingUp className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How much does AI implementation cost with an AI Service In Maine?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
-                  How to choose the right AI Company In Maine for my business?
-                </h3>
-                <p className="text-gray-700 text-lg leading-relaxed pl-11">
-                  Choose Metic.ai as your <strong>AI Company In Maine</strong> for our proven track record, industry-specific expertise in 
-                  Maine's economy, comprehensive support, successful AI implementations across all Maine cities, understanding of local 
-                  regulations, experience with seasonal business challenges, partnerships with Maine universities and research institutions, 
-                  and commitment to supporting local Maine businesses with world-class AI technology and ongoing support.
-                </p>
-              </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <Clock className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        AI implementation costs vary based on project complexity and requirements. As a leading <strong className="text-gray-900 font-semibold">AI Service In Maine</strong>, 
+                        Metic.ai offers competitive pricing with transparent cost structures.
+                      </p>
+                      <p className="text-lg">
+                        Our clients typically save 60% compared to international AI development costs while receiving enterprise-grade solutions. 
+                        We provide free consultations to assess your needs and provide accurate project estimates.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </details>
 
-              {/* FAQ 7 - VSO Question */}
-              <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-start gap-3">
-                  <div className="w-8 h-8 bg-primary-orange rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <span className="text-white font-bold text-sm">7</span>
+              {/* FAQ Item 5 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <Clock className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What makes Metic.ai the best AI Firm In Maine?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
-                  How much does AI implementation cost for Maine businesses?
-                </h3>
-                <p className="text-gray-700 text-lg leading-relaxed pl-11">
-                  AI implementation costs vary based on project scope, but our <strong>AI Development Company In Maine</strong> offers flexible 
-                  pricing models starting from $5,000 for small Maine businesses to enterprise solutions for larger organizations. Most Maine 
-                  businesses see ROI within 3-6 months, achieving 60% cost savings and 3x productivity improvements. We offer free consultations 
-                  to assess your specific needs and provide transparent pricing for Maine businesses.
-                </p>
-              </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <CheckCircle className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        Our <strong className="text-gray-900 font-semibold">AI Firm In Maine</strong> stands out with 2100+ successful implementations, specialized solutions for Maine's 
+                        key industries (tourism, lobster fishing, forestry, manufacturing), 24/7 local support, proven results including 60% cost 
+                        savings, deep understanding of Maine's seasonal business cycles, and partnerships with local Maine institutions.
+                      </p>
+                      <p className="text-lg">
+                        We're committed to supporting the Pine Tree State's economic growth through innovative AI technology and comprehensive ongoing support.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </details>
 
-              {/* FAQ 8 - VSO Question */}
-              <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-start gap-3">
-                  <div className="w-8 h-8 bg-primary-orange rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <span className="text-white font-bold text-sm">8</span>
+              {/* FAQ Item 6 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-5 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                            <MapPin className="w-7 h-7 text-white" />
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 pt-2">
+                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How long does AI implementation take for Maine businesses?
+                          </h3>
+                        </div>
+                      </div>
+                      
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
-                  How long does it take to implement AI solutions in Maine?
-                </h3>
-                <p className="text-gray-700 text-lg leading-relaxed pl-11">
-                  Our <strong>AI Implementation Company In Maine</strong> delivers solutions 3x faster than traditional providers. Simple AI 
-                  projects take 2-4 weeks, medium complexity projects 1-3 months, and comprehensive enterprise AI transformations 3-6 months. 
-                  Our Maine-based team ensures rapid deployment with minimal business disruption, allowing Maine businesses to start seeing 
-                  benefits quickly while maintaining operational continuity during implementation.
-                </p>
-              </div>
+                </summary>
+                
+                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
+                      <Clock className="w-7 h-7 text-primary-orange" />
+                    </div>
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
+                      <p className="text-lg">
+                        Our <strong className="text-gray-900 font-semibold">AI Implementation Company In Maine</strong> delivers solutions 3x faster than traditional providers. Simple AI 
+                        projects take 2-4 weeks, medium complexity projects 1-3 months, and comprehensive enterprise AI transformations 3-6 months.
+                      </p>
+                      <p className="text-lg">
+                        Our Maine-based team ensures rapid deployment with minimal business disruption, allowing Maine businesses to start seeing 
+                        benefits quickly while maintaining operational continuity during implementation.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </details>
+
             </div>
 
-            {/* FAQ CTA */}
-            <div className="text-center mt-16">
-              <div className="bg-gradient-to-r from-primary-orange/10 to-yellow-500/10 rounded-3xl p-8 border border-primary-orange/20">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">Still Have Questions?</h3>
-                <p className="text-gray-600 text-lg mb-6">
-                  Our Maine AI experts are ready to answer your specific questions and discuss your business needs.
-                </p>
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <Link href="/contact">
-                    <Button 
-                      variant="primary" 
-                      size="lg" 
-                      className="w-full sm:w-auto px-8 py-3 bg-gradient-to-r from-primary-orange to-yellow-500 hover:from-yellow-500 hover:to-primary-orange"
-                    >
-                      <Phone className="w-5 h-5 mr-2" />
-                      Get Free AI Consultation
-                    </Button>
-                  </Link>
-                  <Link href="tel:+917892518414">
-                    <Button 
-                      variant="outline" 
-                      size="lg" 
-                      className="w-full sm:w-auto px-8 py-3"
-                    >
-                      <Phone className="w-5 h-5 mr-2" />
-                      Call: +1-789-251-8414
-                    </Button>
-                  </Link>
+            {/* Enhanced CTA at Bottom of FAQ */}
+            <div className="mt-16 text-center">
+              <div className="bg-gradient-to-br from-primary-orange to-secondary-orange rounded-3xl p-12 text-white relative overflow-hidden">
+                <div className="absolute inset-0 bg-black/10"></div>
+                <div className="relative z-10">
+                  <div className="flex justify-center mb-6">
+                    <div className="relative">
+                      <div className="absolute inset-0 bg-white/20 rounded-full blur-lg animate-pulse"></div>
+                      <div className="relative w-20 h-20 bg-white/10 rounded-full flex items-center justify-center backdrop-blur-sm border border-white/20">
+                        <Rocket className="w-10 h-10 text-white" />
+                      </div>
+                    </div>
+                  </div>
+                  <h3 className="text-3xl md:text-4xl font-bold mb-4">Ready to Transform Your Maine Business with AI?</h3>
+                  <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+                    Join Maine's leading businesses who trust Metic.ai for their AI transformation in the Pine Tree State!
+                  </p>
+                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                    <Link href="/contact">
+                      <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100 shadow-xl">
+                        Partner with AI Firm Maine
+                      </Button>
+                    </Link>
+                    <Link href="tel:+917892518414">
+                      <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
+                        Call AI Company Maine Now
+                      </Button>
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
