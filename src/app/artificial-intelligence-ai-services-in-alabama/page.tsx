@@ -27,7 +27,7 @@ import {
 
 export const metadata = {
   title: "Artificial Intelligence Company In Alabama | #1 AI Company In Alabama - Metic.ai",
-  description: "Leading Artificial Intelligence Company In Alabama with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
+  description: "Leading AI Company In Alabama with 2100+ AI projects. Expert machine learning & AI development services. 60% cost savings, 3x faster delivery. Call now!",
   keywords: [
     "Artificial Intelligence Company In Alabama",
     "AI Company In Alabama", 
@@ -351,6 +351,84 @@ export default function AIServicesAlabamaPage() {
             "dateModified": "2024-10-30",
             "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-alabama/",
             "keywords": "Artificial Intelligence Company In Alabama, AI Company In Alabama, AI Service In Alabama"
+          })
+        }}
+      />
+
+      {/* BreadcrumbList Schema for Enhanced Navigation SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://metic.ai/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI Services",
+                "item": "https://metic.ai/services"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Artificial Intelligence Company In Alabama",
+                "item": "https://metic.ai/artificial-intelligence-ai-services-in-alabama/"
+              }
+            ]
+          })
+        }}
+      />
+
+      {/* LocalBusiness Schema for Local SEO Enhancement */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Metic.ai - AI Company In Alabama",
+            "description": "Leading Artificial Intelligence Company providing AI services in Alabama",
+            "image": "https://metic.ai/ai-company-alabama.jpg",
+            "telephone": "+1-789-251-8414",
+            "email": "hello@matic.ai",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "300 Quail Ridge Dr NE",
+              "addressLocality": "ADA",
+              "addressRegion": "MI",
+              "postalCode": "49301",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": "32.3182",
+              "longitude": "-86.9023"
+            },
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-alabama/",
+            "priceRange": "$$$$",
+            "areaServed": {
+              "@type": "State",
+              "name": "Alabama"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "reviewCount": "180",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "openingHours": "Mo-Fr 09:00-18:00",
+            "sameAs": [
+              "https://www.linkedin.com/company/metic-ai",
+              "https://twitter.com/metic_ai"
+            ]
           })
         }}
       />
