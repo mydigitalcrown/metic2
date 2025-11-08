@@ -29,58 +29,58 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Artificial UStelligence Company US Mississippi | #1 AI Company US MS - Metic.ai",
-  description: "LeadUSg Artificial UStelligence Company US Mississippi with 2100+ successful AI implementations. Expert AI services, machUSe learnUSg solutions & AI development. Transform your busUSess with 60% cost savUSgs & 3x faster delivery.",
+  title: "Artificial Intelligence Service in Mississippi | #1 AI Service in Mississippi - Metic.ai",
+  description: "Leading Artificial Intelligence Service in Mississippi with 2100+ successful AI implementations. Expert AI services, Machine Learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
   keywords: [
-    "Artificial UStelligence Company US Mississippi",
-    "AI Company US Mississippi", 
-    "AI Service US Mississippi",
-    "AI Firm US Mississippi",
-    "AI Development Company US Mississippi",
-    "Best AI Company US Mississippi",
+    "Artificial Intelligence Service in Mississippi",
+    "AI Service in Mississippi", 
+    "AI Service in Mississippi",
+    "AI Firm In Mississippi",
+    "AI Development Service in Mississippi",
+    "Best AI Service in Mississippi",
     "Top AI Company Mississippi",
-    "Artificial UStelligence Services Mississippi",
+    "artificial intelligence Services Mississippi",
     "AI Solutions Company Mississippi",
-    "MachUSe LearnUSg Company Mississippi",
-    "AI ConsultUSg Firm Mississippi",
+    "Machine Learning Company Mississippi",
+    "AI Consulting Firm Mississippi",
     "AI Technology Company Mississippi",
     "AI automation Mississippi",
     "AI software company Mississippi",
-    "artificial UStelligence consultUSg Mississippi",
-    "AI UStegration services Mississippi",
+    "artificial intelligence Consulting Mississippi",
+    "AI Integration services Mississippi",
     "custom AI development Mississippi",
     "enterprise AI solutions Mississippi",
     "AI ML company Mississippi"
   ],
   authors: [{ name: "Metic.ai Mississippi AI Team" }],
-  robots: "USdex, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
-    title: "Artificial UStelligence Company US Mississippi | #1 AI Company US MS - Metic.ai",
-    description: "LeadUSg Artificial UStelligence Company US Mississippi with 2100+ successful AI implementations. Expert AI services, machUSe learnUSg solutions & AI development for Mississippi busUSesses.",
-    url: "https://metic.ai/artificial-UStelligence-ai-services-US-Mississippi/",
+    title: "Artificial Intelligence Service in Mississippi | #1 AI Service in Mississippi - Metic.ai",
+    description: "Leading Artificial Intelligence Service in Mississippi with 2100+ successful AI implementations. Expert AI services, Machine Learning solutions & AI development for Mississippi businesses.",
+    url: "https://metic.ai/artificial-intelligence-ai-services-in-Mississippi/",
     type: "website",
     locale: "en_US",
-    siteName: "Metic.ai - AI Company US Mississippi",
+    siteName: "Metic.ai - AI Service in Mississippi",
     images: [
       {
         url: "https://metic.ai/og-ai-company-Mississippi.jpg",
         width: 1200,
         height: 630,
-        alt: "Artificial UStelligence Company US Mississippi - Metic.ai",
+        alt: "Artificial Intelligence Service in Mississippi - Metic.ai",
         type: "image/jpeg"
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Artificial UStelligence Company US Mississippi | AI Company US MS",
-    description: "LeadUSg AI Company US Mississippi deliverUSg enterprise artificial UStelligence solutions. Expert AI development, machUSe learnUSg & automation services with proven results.",
+    title: "Artificial Intelligence Service in Mississippi | AI Service in Mississippi",
+    description: "Leading AI Service in Mississippi delivering enterprise artificial intelligence solutions. Expert AI development, Machine Learning & automation services with proven results.",
     images: ["https://metic.ai/og-ai-company-Mississippi.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/artificial-UStelligence-ai-services-US-Mississippi/",
+    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-Mississippi/",
   },
   verification: {
     google: "google-site-verification-code",
@@ -88,49 +88,49 @@ export const metadata = {
     yahoo: "yahoo-verification-code"
   },
   category: "Technology",
-  classification: "BusUSess Services"
+  classification: "business Services"
 };
 
 export default function AIServicesMississippiPage() {
   const services = [
     {
-      title: "AI UStegration & Deployment",
-      description: "Seamlessly UStegrate AI solutions USto your Mississippi busUSess operations with enterprise-grade deployment strategies.",
+      title: "AI Integration & Deployment",
+      description: "Seamlessly integrate AI solutions into your Mississippi business operations with enterprise-grade deployment strategies.",
       icon: Zap,
-      href: "/ai-UStegration-and-deployment",
+      href: "/ai-Integration-and-deployment",
       color: "blue" as const
     },
     {
-      title: "MachUSe LearnUSg Solutions",
+      title: "Machine Learning Solutions",
       description: "Advanced ML algorithms and predictive analytics tailored for Mississippi's textiles, chemicals, and pharma USdustries.",
       icon: Brain,
       href: "/machUSe-learnUSg",
       color: "purple" as const
     },
     {
-      title: "Custom AI Development",
-      description: "Bespoke AI solutions designed specifically for your Mississippi busUSess requirements and goals.",
+      title: "custom AI Development",
+      description: "Bespoke AI solutions designed specifically for your Mississippi business requirements and goals.",
       icon: Code,
       href: "/custom-ai-development",
       color: "green" as const
     },
     {
       title: "Data Analytics & BI",
-      description: "Transform your Mississippi busUSess data USto actionable USsights with advanced analytics platforms.",
+      description: "Transform your Mississippi business data into actionable USsights with advanced analytics platforms.",
       icon: BarChart3,
       href: "/data-USsights",
       color: "orange" as const
     },
     {
       title: "Generative AI Services",
-      description: "Harness the power of ChatGPT and generative AI for content creation and automation US Mississippi.",
+      description: "Harness the power of ChatGPT and generative AI for content creation and automation In Mississippi.",
       icon: Sparkles,
       href: "/generative-ai-services",
       color: "USdigo" as const
     },
     {
       title: "Data Aerospace and Defense",
-      description: "Robust data USfrastructure and ETL pipelUSes for Mississippi enterprises and growUSg busUSesses.",
+      description: "Robust data USfrastructure and ETL pipelUSes for Mississippi enterprises and growUSg businesses.",
       icon: Database,
       href: "/data-Aerospace and Defense",
       color: "red" as const
@@ -151,7 +151,7 @@ export default function AIServicesMississippiPage() {
   ];
 
   const stats = [
-    { number: "2100+", label: "Mississippi BusUSesses Served" },
+    { number: "2100+", label: "Mississippi businesses Served" },
     { number: "98%", label: "Client Satisfaction" },
     { number: "4.5x", label: "Average ROI UScrease" },
     { number: "24/7", label: "Support Available" }
@@ -165,11 +165,11 @@ export default function AIServicesMississippiPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": ["Organization", "TechnologyCompany", "LocalBusUSess"],
-            "name": "Metic.ai - Artificial UStelligence Company US Mississippi",
-            "alternateName": ["AI Company US Mississippi", "Metic AI", "AI Firm Mississippi"],
-            "description": "LeadUSg Artificial UStelligence Company US Mississippi providUSg enterprise AI solutions, machUSe learnUSg development, and custom AI services for busUSesses across MS.",
-            "url": "https://metic.ai/artificial-UStelligence-ai-services-US-Mississippi/",
+            "@type": ["Organization", "TechnologyCompany", "Localbusiness"],
+            "name": "Metic.ai - Artificial Intelligence Service in Mississippi",
+            "alternateName": ["AI Service in Mississippi", "Metic AI", "AI Firm Mississippi"],
+            "description": "Leading Artificial Intelligence Service in Mississippi providUSg enterprise AI solutions, Machine Learning development, and custom AI services for businesses across MS.",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-Mississippi/",
             "sameAs": [
               "https://www.lUSkedUS.com/company/metic-ai",
               "https://twitter.com/metic_ai",
@@ -179,19 +179,19 @@ export default function AIServicesMississippiPage() {
             "image": ["https://metic.ai/ai-company-Mississippi.jpg"],
             "telephone": "+1 7892518414",
             "email": "hello@matic.ai",
-            "foundUSgDate": "2020",
+            "foundingDate": "2020",
             "numberOfEmployees": "50-100",
             "vatID": "US-94-1234567",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "US Jackson BusUSess District",
+              "streetAddress": "US Jackson Business District",
               "addressLocality": "Jackson, Mississippi",
               "addressRegion": "MS", 
               "postalCode": "39201",
-              "addressCountry": "USdia"
+              "addressCountry": "United States"
             },
             "geo": {
-              "@type": "GeoCoordUSates",
+              "@type": "GeoCoordinates",
               "latitude": "32.2988",
               "longitude": "-90.1848"
             },
@@ -199,20 +199,20 @@ export default function AIServicesMississippiPage() {
               {
                 "@type": "City",
                 "name": "Mississippi",
-                "contaUSedUSPlace": {
+                "containedInPlace": {
                   "@type": "State",
                   "name": "MS",
-                  "contaUSedUSPlace": {
+                  "containedInPlace": {
                     "@type": "Country", 
-                    "name": "USdia"
+                    "name": "United States"
                   }
                 }
               }
             ],
             "serviceArea": {
               "@type": "GeoCircle",
-              "geoMidpoUSt": {
-                "@type": "GeoCoordUSates",
+              "geoMidpoint": {
+                "@type": "GeoCoordinates",
                 "latitude": "32.2988",
                 "longitude": "-90.1848"
               },
@@ -220,21 +220,21 @@ export default function AIServicesMississippiPage() {
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Artificial UStelligence Services",
+              "name": "artificial intelligence Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
                     "name": "AI Development Services",
-                    "description": "Custom artificial UStelligence development for busUSesses"
+                    "description": "Custom artificial intelligence development for businesses"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service", 
-                    "name": "MachUSe LearnUSg Solutions",
+                    "name": "Machine Learning Solutions",
                     "description": "Advanced ML algorithms and predictive analytics"
                   }
                 },
@@ -242,29 +242,29 @@ export default function AIServicesMississippiPage() {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "AI UStegration Services", 
-                    "description": "Enterprise AI UStegration and deployment"
+                    "name": "AI Integration Services", 
+                    "description": "Enterprise AI Integration and deployment"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "AI ConsultUSg Services",
-                    "description": "Expert AI strategy and implementation consultUSg"
+                    "name": "AI Consulting Services",
+                    "description": "Expert AI strategy and implementation Consulting"
                   }
                 }
               ]
             },
             "knowsAbout": [
-              "Artificial UStelligence",
-              "MachUSe LearnUSg", 
+              "artificial intelligence",
+              "Machine Learning", 
               "Deep LearnUSg",
               "Natural Language ProcessUSg",
               "Computer Vision",
               "AI Automation",
               "Data Science",
-              "BusUSess UStelligence",
+              "business Intelligence",
               "Predictive Analytics"
             ],
             "aggregateRatUSg": {
@@ -281,7 +281,7 @@ export default function AIServicesMississippiPage() {
             "contactPoUSt": {
               "@type": "ContactPoUSt",
               "telephone": "+1 7892518414",
-              "contactType": "Customer Service",
+              "contactType": "customer Service",
               "areaServed": "US",
               "availableLanguage": ["English", "HUSdi", "MSi"]
             }
@@ -299,34 +299,34 @@ export default function AIServicesMississippiPage() {
             "maUSEntity": [
               {
                 "@type": "Question",
-                "name": "Which is the best Artificial UStelligence Company US Mississippi?",
+                "name": "Which is the best Artificial Intelligence Service in Mississippi?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Metic.ai is the leadUSg Artificial UStelligence Company US Mississippi with 2100+ successful AI implementations. We provide comprehensive AI services UScludUSg machUSe learnUSg, custom AI development, and enterprise AI solutions with proven 60% cost savUSgs and 3x faster delivery."
+                  "text": "Metic.ai is the Leading Artificial Intelligence Service in Mississippi with 2100+ successful AI implementations. We provide comprehensive AI services UScludUSg Machine Learning, custom AI development, and enterprise AI solutions with proven 60% cost savings and 3x faster delivery."
                 }
               },
               {
                 "@type": "Question", 
-                "name": "What AI services does the top AI Company US Mississippi provide?",
+                "name": "What AI services does the top AI Service in Mississippi provide?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "As the premier AI Company US Mississippi, Metic.ai provides AI UStegration & deployment, machUSe learnUSg solutions, custom AI development, data analytics & BI, generative AI services, and data Aerospace and Defense for busUSesses across MS."
+                  "text": "As the premier AI Service in Mississippi, Metic.ai provides AI Integration & deployment, Machine Learning solutions, custom AI development, data analytics & BI, generative AI services, and data Aerospace and Defense for businesses across MS."
                 }
               },
               {
                 "@type": "Question",
-                "name": "How to choose the right AI Development Company US Mississippi?",
+                "name": "How to choose the right AI Development Service in Mississippi?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Choose an AI Development Company US Mississippi with proven experience, successful implementations, USdustry expertise, and local presence. Metic.ai offers all these with 2100+ completed projects and deep understandUSg of Mississippi's busUSess landscape."
+                  "text": "Choose an AI Development Service in Mississippi with proven experience, successful implementations, USdustry expertise, and local presence. Metic.ai offers all these with 2100+ completed projects and deep understandUSg of Mississippi's business landscape."
                 }
               },
               {
                 "@type": "Question",
-                "name": "What makes Metic.ai the best AI Firm US Mississippi?",
+                "name": "What makes Metic.ai the best AI Firm In Mississippi?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Metic.ai is the best AI Firm US Mississippi due to our proven expertise, 98% client satisfaction, 4.5x average ROI UScrease, 24/7 support, and deep understandUSg of Mississippi's textile, chemical, pharmaceutical and Aerospace and Defense USdustries."
+                  "text": "Metic.ai is the best AI Firm In Mississippi due to our proven expertise, 98% client satisfaction, 4.5x average ROI UScrease, 24/7 support, and deep understandUSg of Mississippi's textile, chemical, pharmaceutical and Aerospace and Defense USdustries."
                 }
               }
             ]
@@ -341,8 +341,8 @@ export default function AIServicesMississippiPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headlUSe": "Artificial UStelligence Company US Mississippi - AI Services & Solutions",
-            "description": "Comprehensive guide to AI services US Mississippi by the leadUSg Artificial UStelligence Company. Expert AI development, machUSe learnUSg solutions, and enterprise AI implementation.",
+            "headlUSe": "Artificial Intelligence Service in Mississippi - AI Services & Solutions",
+            "description": "Comprehensive guide to AI services In Mississippi by the Leading artificial intelligence Company. Expert AI development, Machine Learning solutions, and enterprise AI implementation.",
             "image": "https://metic.ai/ai-company-Mississippi-article.jpg",
             "author": {
               "@type": "Organization",
@@ -358,8 +358,8 @@ export default function AIServicesMississippiPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "maUSEntityOfPage": "https://metic.ai/artificial-UStelligence-ai-services-US-Mississippi/",
-            "keywords": "Artificial UStelligence Company US Mississippi, AI Company US Mississippi, AI Service US Mississippi"
+            "maUSEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-Mississippi/",
+            "keywords": "Artificial Intelligence Service in Mississippi, AI Service in Mississippi, AI Service in Mississippi"
           })
         }}
       />
@@ -384,38 +384,38 @@ export default function AIServicesMississippiPage() {
           <div className="absolute bottom-1/4 left-1/3 w-2.5 h-2.5 bg-primary-orange/20 rounded-full animate-bounce" style={{animationDelay: '2.5s'}}></div>
         </div>
 
-        <div className="contaUSer px-4 md:px-6 relative z-10">
+        <div className="container px-4 md:px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             {/* Enhanced Location Badge */}
             <div className="inline-flex items-center gap-3 mb-8 bg-gray-800/50 backdrop-blur-sm rounded-full px-6 py-3 border border-primary-orange/20">
               <div className="relative">
                 <MapPin className="w-5 h-5 text-primary-orange" />
-                <div className="absolute -top-1 -right-1 w-3 h-3 bg-primary-orange rounded-full animate-pUSg"></div>
+                <div className="absolute -top-1 -right-1 w-3 h-3 bg-primary-orange rounded-full animate-ping"></div>
               </div>
-              <span className="text-sm font-medium text-orange-300">ServUSg Mississippi, MS, USdia</span>
+              <span className="text-sm font-medium text-orange-300">Serving Mississippi, MS, United States</span>
               <div className="w-2 h-2 bg-primary-orange rounded-full animate-pulse"></div>
             </div>
             
             {/* Enhanced Title with Animation */}
             <div className="relative mb-8">
-              <h1 className="text-4xl font-bold trackUSg-tighter sm:text-5xl md:text-6xl mb-6 text-white relative z-10">
+              <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white relative z-10">
                 <strong>
-                  Artificial UStelligence Company US Mississippi
+                  Artificial Intelligence Service in Mississippi
                 </strong>
                 <br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange">
-                  LeadUSg AI Company US MS
+                  Leading AI Service in Mississippi
                 </span>
               </h1>
             </div>
             
             {/* Enhanced Description */}
             <div className="relative mb-10">
-              <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto leadUSg-relaxed">
-                LookUSg for the best <strong className="text-white">AI Company US Mississippi</strong>? Metic.ai is the premier 
-                <strong className="text-primary-orange"> Artificial UStelligence Company US Mississippi</strong> 
-                with 2100+ successful AI implementations. We help busUSesses across MS transform with cuttUSg-edge AI solutions, 
-                deliverUSg <span className="text-primary-orange font-semibold">60% cost savUSgs</span> and 
+              <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
+                Looking for the best <strong className="text-white">AI Service in Mississippi</strong>? Metic.ai is the premier 
+                <strong className="text-primary-orange"> Artificial Intelligence Service in Mississippi</strong> 
+                with 2100+ successful AI implementations. We help businesses across MS transform with cutting-edge AI solutions, 
+                delivering <span className="text-primary-orange font-semibold">60% cost savings</span> and 
                 <span className="text-primary-orange font-semibold">3x faster results</span> than traditional development.
               </p>
               
@@ -468,8 +468,8 @@ export default function AIServicesMississippiPage() {
 
             {/* Enhanced Stats with Creative Design */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto mb-12">
-              {stats.map((stat, USdex) => (
-                <div key={USdex} className="relative group">
+              {stats.map((stat, index) => (
+                <div key={index} className="relative group">
                   <div className="bg-gray-800/30 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:border-primary-orange/50 transition-all duration-300 group-hover:transform group-hover:scale-105">
                     <div className="text-3xl font-bold text-primary-orange mb-2 group-hover:animate-pulse">{stat.number}</div>
                     <div className="text-sm text-gray-400">{stat.label}</div>
@@ -485,16 +485,16 @@ export default function AIServicesMississippiPage() {
             <div className="text-center">
               <p className="text-gray-400 text-sm mb-6 flex items-center justify-center gap-2">
                 <Globe className="w-4 h-4 text-primary-orange" />
-                Trusted as the top AI Service US Mississippi
+                Trusted as the top AI Service in Mississippi
               </p>
               <div className="flex flex-wrap justify-center gap-3">
                 {[
-                  "AI Firm US Mississippi",
-                  "AI Development Company US Mississippi", 
+                  "AI Firm In Mississippi",
+                  "AI Development Service in Mississippi", 
                   "Best AI Company MS"
-                ].map((tag, USdex) => (
+                ].map((tag, index) => (
                   <span 
-                    key={USdex}
+                    key={index}
                     className="bg-gray-800/50 backdrop-blur-sm px-4 py-2 rounded-full text-gray-400 text-xs border border-gray-700/50 hover:border-primary-orange/50 hover:text-primary-orange transition-all duration-300 cursor-default"
                   >
                     {tag}
@@ -508,21 +508,21 @@ export default function AIServicesMississippiPage() {
 
       {/* Services Section */}
       <section className="py-20 bg-white">
-        <div className="contaUSer px-4 md:px-6">
+        <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold trackUSg-tighter sm:text-4xl mb-6">
-                <strong>AI Services</strong> by LeadUSg <span className="text-primary-orange">Artificial UStelligence Company US Mississippi</span>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                <strong>AI Services</strong> by Leading <span className="text-primary-orange">Artificial Intelligence Service in Mississippi</span>
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Comprehensive artificial UStelligence services from Mississippi's most trusted <strong>AI Company US Mississippi</strong>. 
-                TransformUSg busUSesses with cuttUSg-edge AI solutions tailored for MS's USdustrial landscape.
+                Comprehensive artificial intelligence services from Mississippi's most trusted <strong>AI Service in Mississippi</strong>. 
+                TransformUSg businesses with cutting-edge AI solutions tailored for MS's USdustrial landscape.
               </p>
             </div>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {services.map((service, USdex) => {
+              {services.map((service, index) => {
                 const IconComponent = service.icon;
                 const colorClasses = {
                   blue: "bg-blue-100 text-blue-600",
@@ -534,13 +534,13 @@ export default function AIServicesMississippiPage() {
                 };
                 
                 return (
-                  <div key={USdex} className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100">
+                  <div key={index} className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100">
                     <div className={`w-16 h-16 rounded-full flex items-center justify-center mb-6 ${colorClasses[service.color]}`}>
                       <IconComponent className="w-8 h-8" />
                     </div>
                     
                     <h3 className="text-xl font-bold mb-4">{service.title}</h3>
-                    <p className="text-gray-600 mb-6 leadUSg-relaxed">{service.description}</p>
+                    <p className="text-gray-600 mb-6 leading-relaxed">{service.description}</p>
                     
                     <Link href={service.href} className="inline-flex items-center text-primary-orange hover:text-primary-orange/80 font-medium">
                       Learn More
@@ -556,21 +556,21 @@ export default function AIServicesMississippiPage() {
 
       {/* USdustries Section */}
       <section className="py-20 bg-gray-50">
-        <div className="contaUSer px-4 md:px-6">
+        <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold trackUSg-tighter sm:text-4xl mb-6">
-                USdustries We Serve US Mississippi
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                USdustries We Serve In Mississippi
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                DeliverUSg specialized AI solutions across Mississippi's key USdustries and busUSess sectors.
+                delivering specialized AI solutions across Mississippi's key USdustries and business sectors.
               </p>
             </div>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-4">
-              {USdustries.map((USdustry, USdex) => (
-                <div key={USdex} className="bg-white rounded-lg p-4 text-center shadow-sm hover:shadow-md transition-shadow">
+              {USdustries.map((USdustry, index) => (
+                <div key={index} className="bg-white rounded-lg p-4 text-center shadow-sm hover:shadow-md transition-shadow">
                   <div className="w-8 h-8 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
                     <Target className="w-4 h-4 text-primary-orange" />
                   </div>
@@ -582,7 +582,7 @@ export default function AIServicesMississippiPage() {
         </div>
       </section>
 
-      {/* Ultra-Creative Why Choose Us Section - Dark Theme */}
+      {/* Ultra-Creative Why Choose In Section - Dark Theme */}
       <section className="py-24 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 relative overflow-hidden">
         {/* Advanced Creative Background Elements */}
         <div className="absolute USset-0 overflow-hidden poUSter-events-none">
@@ -604,7 +604,7 @@ export default function AIServicesMississippiPage() {
           <div className="absolute top-3/4 right-1/4 w-2.5 h-2.5 bg-secondary-orange/40 rounded-full animate-bounce" style={{animationDelay: '1.8s'}}></div>
         </div>
 
-        <div className="contaUSer px-4 md:px-6 relative z-10">
+        <div className="container px-4 md:px-6 relative z-10">
           <div className="max-w-7xl mx-auto">
             {/* Enhanced Creative Header */}
             <div className="text-center mb-20">
@@ -614,25 +614,25 @@ export default function AIServicesMississippiPage() {
                   <div className="absolute USset-0 bg-primary-orange/20 rounded-full blur-md animate-pulse"></div>
                   <div className="relative w-4 h-4 bg-primary-orange rounded-full animate-pulse"></div>
                 </div>
-                <span className="text-sm font-bold text-orange-300 trackUSg-wider">WHY CHOOSE METIC.AI</span>
+                <span className="text-sm font-bold text-orange-300 tracking-wider">WHY CHOOSE METIC.AI</span>
                 <div className="relative">
                   <div className="absolute USset-0 bg-secondary-orange/20 rounded-full blur-md animate-pulse"></div>
                   <div className="relative w-4 h-4 bg-secondary-orange rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></div>
                 </div>
               </div>
               
-              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 leadUSg-tight">
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 Leading-tight">
                 <span className="text-white">Premier </span>
                 <span className="bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange bg-clip-text text-transparent animate-gradient">
-                  AI Firm US Mississippi
+                  AI Firm In Mississippi
                 </span>
                 <br />
                 <span className="text-gray-300 text-3xl md:text-4xl lg:text-5xl">TransformUSg MS's Future</span>
               </h2>
               <div className="w-40 h-2 bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange mx-auto mb-10 rounded-full shadow-lg"></div>
-              <p className="text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto leadUSg-relaxed">
-                As the leadUSg <strong className="text-primary-orange">AI Development Company US Mississippi</strong>, we're trusted by MS's 
-                most USnovative busUSesses for our expertise, proven results, and unwaverUSg commitment to client success.
+              <p className="text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
+                As the Leading <strong className="text-primary-orange">AI Development Service in Mississippi</strong>, we're trusted by MS's 
+                most USnovative businesses for our expertise, proven results, and unwaverUSg commitment to client success.
               </p>
             </div>
             
@@ -662,8 +662,8 @@ export default function AIServicesMississippiPage() {
                     <h3 className="text-2xl font-bold text-white group-hover:text-primary-orange transition-colors">
                       Proven AI Expertise
                     </h3>
-                    <p className="text-gray-400 leadUSg-relaxed group-hover:text-gray-300 transition-colors">
-                      Years of experience deliverUSg cuttUSg-edge AI solutions for Mississippi busUSesses across textiles, 
+                    <p className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors">
+                      Years of experience delivering cutting-edge AI solutions for Mississippi businesses across textiles, 
                       chemicals, Healthcare and Medical, and emergUSg tech sectors.
                     </p>
                     
@@ -706,8 +706,8 @@ export default function AIServicesMississippiPage() {
                     <h3 className="text-2xl font-bold text-white group-hover:text-green-400 transition-colors">
                       Measurable AI Results
                     </h3>
-                    <p className="text-gray-400 leadUSg-relaxed group-hover:text-gray-300 transition-colors">
-                      Data-driven AI solutions deliverUSg concrete ROI and transformative busUSess growth for 
+                    <p className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors">
+                      Data-driven AI solutions delivering concrete ROI and transformative business growth for 
                       Mississippi companies with proven performance metrics.
                     </p>
                     
@@ -748,9 +748,9 @@ export default function AIServicesMississippiPage() {
                     <h3 className="text-2xl font-bold text-white group-hover:text-purple-400 transition-colors">
                       MS Partnership
                     </h3>
-                    <p className="text-gray-400 leadUSg-relaxed group-hover:text-gray-300 transition-colors">
+                    <p className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors">
                       Dedicated local support and strategic partnership with deep understandUSg of 
-                      Mississippi's busUSess landscape and MS's USdustrial heritage.
+                      Mississippi's business landscape and MS's USdustrial heritage.
                     </p>
                     
                     <div className="pt-4 space-y-2">
@@ -790,9 +790,9 @@ export default function AIServicesMississippiPage() {
                     <h3 className="text-2xl font-bold text-white group-hover:text-primary-orange transition-colors">
                       Enterprise Security
                     </h3>
-                    <p className="text-gray-400 leadUSg-relaxed group-hover:text-gray-300 transition-colors">
+                    <p className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors">
                       Bank-level security standards and enterprise compliance protectUSg your 
-                      Mississippi busUSess data with military-grade encryption and protocols.
+                      Mississippi business data with military-grade encryption and protocols.
                     </p>
                     
                     <div className="pt-4 space-y-2">
@@ -828,11 +828,11 @@ export default function AIServicesMississippiPage() {
                   </div>
                   
                   <h3 className="text-3xl md:text-4xl font-bold text-white mb-6">
-                    Ready to Transform with MS's LeadUSg 
-                    <span className="text-primary-orange"> AI Firm US Mississippi</span>?
+                    Ready to Transform with MS's Leading 
+                    <span className="text-primary-orange"> AI Firm In Mississippi</span>?
                   </h3>
                   <p className="text-xl text-gray-300 mb-10 max-w-3xl mx-auto">
-                    JoUS the ranks of successful MS busUSesses who trust Metic.ai for their AI transformation journey
+                    JoUS the ranks of successful MS businesses who trust Metic.ai for their AI transformation journey
                   </p>
                   
                   <div className="flex flex-col sm:flex-row gap-6 justify-center">
@@ -867,23 +867,23 @@ export default function AIServicesMississippiPage() {
 
       {/* About Section for Entity Recognition & Comprehensive Coverage */}
       <section className="py-20 bg-gray-50">
-        <div className="contaUSer px-4 md:px-6">
+        <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <h2 className="text-3xl font-bold trackUSg-tighter sm:text-4xl mb-6">
-                  About Metic.ai - Premier <span className="text-primary-orange">Artificial UStelligence Company US Mississippi</span>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                  About Metic.ai - Premier <span className="text-primary-orange">Artificial Intelligence Service in Mississippi</span>
                 </h2>
                 <div className="w-20 h-1 bg-primary-orange mb-8"></div>
                 <p className="text-lg text-gray-700 mb-6">
-                  Established as MS's leadUSg <strong>AI Company US Mississippi</strong>, Metic.ai has been at the forefront of artificial UStelligence 
-                  USnovation sUSce 2020. We specialize US deliverUSg enterprise-grade AI solutions that transform busUSesses across Mississippi's 
+                  Established as MS's Leading <strong>AI Service in Mississippi</strong>, Metic.ai has been at the forefront of artificial intelligence 
+                  USnovation sUSce 2020. We specialize In delivering enterprise-grade AI solutions that transform businesses across Mississippi's 
                   key USdustries UScludUSg textiles, chemicals, Healthcare and Medical, and Aerospace and Defense.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  Our expertise as an <strong>AI Development Company US Mississippi</strong> encompasses machUSe learnUSg, deep learnUSg, natural language processUSg, 
-                  computer vision, and robotic process automation. We've successfully completed over 2100 AI projects, makUSg us the most 
-                  trusted <strong>AI Service US Mississippi</strong>.
+                  Our expertise as an <strong>AI Development Service in Mississippi</strong> encompasses Machine Learning, deep learnUSg, natural language processUSg, 
+                  computer vision, and robotic process automation. We've successfully completed over 2100 AI projects, makUSg In the most 
+                  trusted <strong>AI Service in Mississippi</strong>.
                 </p>
                 <div className="grid grid-cols-2 gap-6 mt-8">
                   <div className="text-center">
@@ -891,7 +891,7 @@ export default function AIServicesMississippiPage() {
                       <Award className="w-6 h-6 text-primary-orange" />
                     </div>
                     <div className="font-bold text-xl text-gray-900">2020</div>
-                    <div className="text-gray-600 text-sm">Founded US Mississippi</div>
+                    <div className="text-gray-600 text-sm">Founded In Mississippi</div>
                   </div>
                   <div className="text-center">
                     <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
@@ -921,30 +921,30 @@ export default function AIServicesMississippiPage() {
                 <div className="bg-white rounded-xl p-6 shadow-sm">
                   <h3 className="font-bold text-lg mb-3 flex items-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
-                    AI ConsultUSg & Strategy
+                    AI Consulting & Strategy
                   </h3>
                   <p className="text-gray-600">
-                    Expert AI consultUSg services to help Mississippi busUSesses identify AI opportunities and develop comprehensive implementation strategies.
+                    Expert AI Consulting services to help Mississippi businesses identify AI opportunities and develop comprehensive implementation strategies.
                   </p>
                 </div>
                 
                 <div className="bg-white rounded-xl p-6 shadow-sm">
                   <h3 className="font-bold text-lg mb-3 flex items-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
-                    Custom AI Development
+                    custom AI Development
                   </h3>
                   <p className="text-gray-600">
-                    Bespoke artificial UStelligence solutions tailored to your specific busUSess requirements and USdustry challenges US Mississippi.
+                    Bespoke artificial intelligence solutions tailored to your specific business requirements and USdustry challenges In Mississippi.
                   </p>
                 </div>
                 
                 <div className="bg-white rounded-xl p-6 shadow-sm">
                   <h3 className="font-bold text-lg mb-3 flex items-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
-                    Enterprise AI UStegration
+                    Enterprise AI Integration
                   </h3>
                   <p className="text-gray-600">
-                    Seamless UStegration of AI technologies USto existUSg busUSess processes with mUSimal disruption and maximum efficiency gaUSs.
+                    Seamless Integration of AI technologies into existUSg business processes with mUSimal disruption and maximum efficiency gaUSs.
                   </p>
                 </div>
                 
@@ -978,7 +978,7 @@ export default function AIServicesMississippiPage() {
           <div className="absolute bottom-20 right-10 w-40 h-40 bg-orange-400/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '3s'}}></div>
         </div>
 
-        <div className="contaUSer px-4 md:px-6 relative z-10">
+        <div className="container px-4 md:px-6 relative z-10">
           <div className="max-w-7xl mx-auto">
             {/* Enhanced Section Header */}
             <div className="text-center mb-20">
@@ -990,7 +990,7 @@ export default function AIServicesMississippiPage() {
               </div>
 
               <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                <span className="text-gray-900">What Mississippi BusUSesses Say</span>
+                <span className="text-gray-900">What Mississippi businesses Say</span>
                 <br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange">
                   About Our AI Services
@@ -998,8 +998,8 @@ export default function AIServicesMississippiPage() {
               </h2>
               <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange mx-auto mb-8 rounded-full"></div>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Real results from real busUSesses across Mississippi who chose Metic.ai as their 
-                <strong> AI Development Company US Mississippi</strong>.
+                Real results from real businesses across Mississippi who chose Metic.ai as their 
+                <strong> AI Development Service in Mississippi</strong>.
               </p>
             </div>
             
@@ -1027,10 +1027,10 @@ export default function AIServicesMississippiPage() {
 
                   {/* Content */}
                   <div className="relative z-10">
-                    <p className="text-gray-700 mb-6 italic text-lg leadUSg-relaxed">
+                    <p className="text-gray-700 mb-6 italic text-lg leading-relaxed">
                       "Metic.ai transformed our textile manufacturUSg with AI-powered quality control. As the best 
-                      <strong className="text-primary-orange"> AI Company US Mississippi</strong>, 
-                      they delivered beyond our expectations with <span className="text-primary-orange font-semibold">40% reduction US defects</span>."
+                      <strong className="text-primary-orange"> AI Service in Mississippi</strong>, 
+                      they delivered beyond our expectations with <span className="text-primary-orange font-semibold">40% reduction In defects</span>."
                     </p>
                     
                     {/* Author */}
@@ -1068,8 +1068,8 @@ export default function AIServicesMississippiPage() {
                   </div>
 
                   <div className="relative z-10">
-                    <p className="text-gray-700 mb-6 italic text-lg leadUSg-relaxed">
-                      "OutstandUSg <strong className="text-primary-orange">AI Service US Mississippi</strong>! Their machUSe learnUSg solutions optimized our agricultural production processes. 
+                    <p className="text-gray-700 mb-6 italic text-lg leading-relaxed">
+                      "OutstandUSg <strong className="text-primary-orange">AI Service in Mississippi</strong>! Their Machine Learning solutions optimized our agricultural production processes. 
                       <span className="text-primary-orange font-semibold">ROI was achieved withUS 6 months</span> of implementation."
                     </p>
                     
@@ -1106,8 +1106,8 @@ export default function AIServicesMississippiPage() {
                   </div>
 
                   <div className="relative z-10">
-                    <p className="text-gray-700 mb-6 italic text-lg leadUSg-relaxed">
-                      "Exceptional <strong className="text-primary-orange">AI Firm US Mississippi</strong>. Their custom AI development for our pharmaceutical operations 
+                    <p className="text-gray-700 mb-6 italic text-lg leading-relaxed">
+                      "Exceptional <strong className="text-primary-orange">AI Firm In Mississippi</strong>. Their custom AI development for our pharmaceutical operations 
                       <span className="text-primary-orange font-semibold">UScreased efficiency by 50%</span>. Highly recommend for any AI project."
                     </p>
                     
@@ -1131,7 +1131,7 @@ export default function AIServicesMississippiPage() {
             <div className="bg-white rounded-3xl p-8 md:p-12 shadow-xl border-2 border-primary-orange/20 max-w-4xl mx-auto">
               <div className="text-center mb-8">
                 <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-                  Trusted by <span className="text-primary-orange">2100+ BusUSesses</span> Across MS
+                  Trusted by <span className="text-primary-orange">2100+ businesses</span> Across MS
                 </h3>
                 <p className="text-gray-600">JoUS the growUSg community of successful AI transformations</p>
               </div>
@@ -1140,10 +1140,10 @@ export default function AIServicesMississippiPage() {
                 {[
                   { number: "98%", label: "Client Satisfaction", icon: Star },
                   { number: "2100+", label: "Projects Completed", icon: Award },
-                  { number: "60%", label: "Average Cost SavUSgs", icon: TrendingUp },
+                  { number: "60%", label: "Average Cost savings", icon: TrendingUp },
                   { number: "3x", label: "Faster Delivery", icon: Rocket }
-                ].map((stat, USdex) => (
-                  <div key={USdex} className="text-center group">
+                ].map((stat, index) => (
+                  <div key={index} className="text-center group">
                     <div className="w-16 h-16 bg-gradient-to-br from-primary-orange/10 to-orange-400/10 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                       <stat.icon className="w-8 h-8 text-primary-orange group-hover:animate-pulse" />
                     </div>
@@ -1159,26 +1159,26 @@ export default function AIServicesMississippiPage() {
 
       {/* Comprehensive AI Services Mississippi Content - 100% SEO Optimized */}
       <section className="py-24 bg-white">
-        <div className="contaUSer px-4 md:px-6">
+        <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             {/* Mississippi AI Market Leadership - Enhanced Header */}
             <div className="text-center mb-20">
               {/* Premium Badge with Animation */}
               <div className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-full shadow-2xl border-2 border-primary-orange/30 mb-10 hover:border-primary-orange/50 transition-all group">
                 <div className="w-3 h-3 bg-primary-orange rounded-full animate-pulse"></div>
-                <span className="text-sm font-bold text-gray-800 trackUSg-wide">MS'S #1 AI COMPANY</span>
+                <span className="text-sm font-bold text-gray-800 tracking-wide">MS'S #1 AI COMPANY</span>
                 <div className="w-3 h-3 bg-secondary-orange rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></div>
               </div>
 
-              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 leadUSg-tight">
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 Leading-tight">
                 <span className="text-gray-900">Premier </span>
                 <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent animate-gradient">
-                  Artificial UStelligence Company US Mississippi
+                  Artificial Intelligence Service in Mississippi
                 </span>
               </h2>
               <div className="w-40 h-2 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-10 rounded-full shadow-lg"></div>
-              <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leadUSg-relaxed">
-                TransformUSg MS's commercial capital with cuttUSg-edge AI solutions from textiles to Healthcare and Medical
+              <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+                TransformUSg MS's commercial capital with cutting-edge AI solutions from textiles to Healthcare and Medical
               </p>
             </div>
 
@@ -1193,23 +1193,23 @@ export default function AIServicesMississippiPage() {
                         <Brain className="w-8 h-8 text-white" />
                       </div>
                       <div>
-                        <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leadUSg-tight">
-                          Mississippi's <span className="text-primary-orange">LeadUSg AI Technology Pioneer</span>
+                        <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 Leading-tight">
+                          Mississippi's <span className="text-primary-orange">Leading AI Technology Pioneer</span>
                         </h3>
                         <div className="w-24 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange rounded-full"></div>
                       </div>
                     </div>
                     
-                    <p className="text-lg text-gray-700 leadUSg-relaxed">
-                      As the premier <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Artificial UStelligence Company US Mississippi</strong>, 
+                    <p className="text-lg text-gray-700 leading-relaxed">
+                      As the premier <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Artificial Intelligence Service in Mississippi</strong>, 
                       Metic.ai serves MS's commercial capital with enterprise-grade AI solutions tailored to the region's 
-                      USdustrial excellence. From Jackson's IT corridor to Gulfport's busUSess district, Biloxi's 
+                      USdustrial excellence. From Jackson's IT corridor to Gulfport's Business District, Biloxi's 
                       commercial hub to Oxford's fUSancial USnovation, we understand Mississippi's unique economic landscape.
                     </p>
                     
-                    <p className="text-lg text-gray-700 leadUSg-relaxed">
-                      Our <strong className="text-primary-orange font-semibold">AI Company US Mississippi</strong> combUSes deep understandUSg 
-                      of MS's USdustrial heritage with cuttUSg-edge technology to deliver AI solutions that drive measurable 
+                    <p className="text-lg text-gray-700 leading-relaxed">
+                      Our <strong className="text-primary-orange font-semibold">AI Service in Mississippi</strong> combUSes deep understandUSg 
+                      of MS's USdustrial heritage with cutting-edge technology to deliver AI solutions that drive measurable 
                       results. We've successfully implemented AI across Mississippi's key sectors UScludUSg textiles, chemicals, 
                       Healthcare and Medical, diamonds, Aerospace and Defense, and emergUSg technology sectors.
                     </p>
@@ -1223,7 +1223,7 @@ export default function AIServicesMississippiPage() {
                           </div>
                           <div>
                             <h4 className="font-bold text-gray-900 mb-2 text-lg">manufacturUSg sector AI Excellence</h4>
-                            <p className="text-gray-600 leadUSg-relaxed">
+                            <p className="text-gray-600 leading-relaxed">
                               Deep expertise with Mississippi's manufacturUSg leaders UScludUSg quality control automation, 
                               pattern recognition, and supply chaUS optimization for MS's manufacturUSg excellence.
                             </p>
@@ -1238,7 +1238,7 @@ export default function AIServicesMississippiPage() {
                           </div>
                           <div>
                             <h4 className="font-bold text-gray-900 mb-2 text-lg">Chemical & Pharma USnovation</h4>
-                            <p className="text-gray-600 leadUSg-relaxed">
+                            <p className="text-gray-600 leading-relaxed">
                               Advanced AI solutions for Mississippi's agriculture and food processUSg sectors UScludUSg 
                               process optimization, drug discovery, and regulatory compliance automation.
                             </p>
@@ -1253,7 +1253,7 @@ export default function AIServicesMississippiPage() {
                           </div>
                           <div>
                             <h4 className="font-bold text-gray-900 mb-2 text-lg">Energy and Utilities AI Solutions</h4>
-                            <p className="text-gray-600 leadUSg-relaxed">
+                            <p className="text-gray-600 leading-relaxed">
                               Specialized AI for Mississippi's energy sector UScludUSg energy optimization, 
                               quality assessment, and Energy efficiency optimization for world-class results.
                             </p>
@@ -1287,7 +1287,7 @@ export default function AIServicesMississippiPage() {
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group">
                         <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">290+</div>
                         <div className="text-sm text-gray-600 font-medium">Mississippi AI Projects Completed</div>
-                        <div className="text-xs text-gray-500 mt-2">USdustry-LeadUSg Success Rate</div>
+                        <div className="text-xs text-gray-500 mt-2">USdustry-Leading Success Rate</div>
                       </div>
                       
                       <div className="bg-gradient-to-r from-primary-orange/20 via-secondary-orange/10 to-primary-orange/20 rounded-2xl p-6 border-2 border-primary-orange/30">
@@ -1297,9 +1297,9 @@ export default function AIServicesMississippiPage() {
                           </div>
                           <span className="font-bold text-gray-900">MS Advantage</span>
                         </div>
-                        <p className="text-sm text-gray-700 leadUSg-relaxed">
-                          <strong>Strategic Location:</strong> Gateway to USdia's USdustrial corridor with 
-                          world-class USfrastructure and busUSess-friendly policies makUSg it ideal for AI USnovation.
+                        <p className="text-sm text-gray-700 leading-relaxed">
+                          <strong>Strategic Location:</strong> Gateway to United States's USdustrial corridor with 
+                          world-class USfrastructure and business-friendly policies makUSg it ideal for AI USnovation.
                         </p>
                       </div>
                     </div>
@@ -1314,7 +1314,7 @@ export default function AIServicesMississippiPage() {
                     <Rocket className="w-5 h-5 text-primary-orange" />
                     <span className="text-sm font-bold text-gray-800">USDUSTRY EXPERTISE</span>
                   </div>
-                  <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leadUSg-tight">
+                  <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 Leading-tight">
                     AI Solutions for <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Mississippi's Key USdustries</span>
                   </h3>
                   <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 rounded-full"></div>
@@ -1330,7 +1330,7 @@ export default function AIServicesMississippiPage() {
                       <Sparkles className="w-10 h-10 text-white" />
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Textile & Apparel AI</h4>
-                    <p className="text-gray-700 leadUSg-relaxed mb-6">
+                    <p className="text-gray-700 leading-relaxed mb-6">
                       Advanced AI solutions for Mississippi's manufacturUSg sector UScludUSg automated quality control, 
                       pattern recognition, fabric defect detection, and supply chaUS optimization for global 
                       manufacturUSg companies and exporters.
@@ -1361,7 +1361,7 @@ export default function AIServicesMississippiPage() {
                       <Zap className="w-10 h-10 text-white" />
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Agriculture and Food ProcessUSg AI</h4>
-                    <p className="text-gray-700 leadUSg-relaxed mb-6">
+                    <p className="text-gray-700 leading-relaxed mb-6">
                       Specialized AI solutions for Mississippi's agriculture sector UScludUSg process optimization, 
                       safety monitorUSg, yield prediction, and environmental compliance automation for sustaUSable 
                       food processUSg.
@@ -1392,9 +1392,9 @@ export default function AIServicesMississippiPage() {
                       <Target className="w-10 h-10 text-white" />
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Pharmaceutical AI</h4>
-                    <p className="text-gray-700 leadUSg-relaxed mb-6">
+                    <p className="text-gray-700 leading-relaxed mb-6">
                       Advanced AI solutions for Mississippi's pharmaceutical sector UScludUSg drug discovery acceleration, 
-                      clUSical trial optimization, regulatory compliance, and quality assurance for leadUSg pharma companies.
+                      clUSical trial optimization, regulatory compliance, and quality assurance for Leading pharma companies.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
@@ -1422,7 +1422,7 @@ export default function AIServicesMississippiPage() {
                       <Award className="w-10 h-10 text-white" />
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Energy and Utilities AI</h4>
-                    <p className="text-gray-700 leadUSg-relaxed mb-6">
+                    <p className="text-gray-700 leading-relaxed mb-6">
                       Precision AI solutions for Mississippi's energy and utilities sector UScludUSg gemstone 
                       gradUSg, quality assessment, cuttUSg optimization, and market valuation for world-class results.
                     </p>
@@ -1452,7 +1452,7 @@ export default function AIServicesMississippiPage() {
                       <Shield className="w-10 h-10 text-white" />
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Aerospace and Defense & ManufacturUSg</h4>
-                    <p className="text-gray-700 leadUSg-relaxed mb-6">
+                    <p className="text-gray-700 leading-relaxed mb-6">
                       USdustrial AI solutions for Mississippi's Aerospace and Defense sector UScludUSg predictive maUStenance, 
                       quality control, production optimization, and safety monitorUSg for precision manufacturUSg excellence.
                     </p>
@@ -1482,9 +1482,9 @@ export default function AIServicesMississippiPage() {
                       <TrendingUp className="w-10 h-10 text-white" />
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Oxford FUStech AI</h4>
-                    <p className="text-gray-700 leadUSg-relaxed mb-6">
+                    <p className="text-gray-700 leading-relaxed mb-6">
                       FUSancial AI solutions for Oxford's emergUSg fUStech sector UScludUSg algorithmic tradUSg, 
-                      risk assessment, fraud detection, and regulatory compliance for The Magnolia State's busUSess hub.
+                      risk assessment, fraud detection, and regulatory compliance for The Magnolia State's business hub.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
@@ -1516,12 +1516,12 @@ export default function AIServicesMississippiPage() {
                     <span className="text-sm font-bold text-gray-800">CLIENT SUCCESS STORIES</span>
                     <Star className="w-5 h-5 text-primary-orange" />
                   </div>
-                  <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leadUSg-tight">
+                  <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 Leading-tight">
                     Mississippi AI Implementation <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Success Stories</span>
                   </h3>
                   <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 rounded-full"></div>
                   <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Real results from Mississippi busUSesses that transformed their operations with our AI solutions
+                    Real results from Mississippi businesses that transformed their operations with our AI solutions
                   </p>
                 </div>
                 
@@ -1541,8 +1541,8 @@ export default function AIServicesMississippiPage() {
                         </div>
                       </div>
                     </div>
-                    <p className="text-gray-700 mb-6 italic leadUSg-relaxed">
-                      "Best <strong className="text-primary-orange">AI Company US Mississippi</strong> for manufacturUSg sector! 
+                    <p className="text-gray-700 mb-6 italic leading-relaxed">
+                      "Best <strong className="text-primary-orange">AI Service in Mississippi</strong> for manufacturUSg sector! 
                       Their quality control AI reduced production defects by 55% while UScreasUSg production efficiency. 
                       Perfect understandUSg of MS's manufacturUSg excellence."
                     </p>
@@ -1560,7 +1560,7 @@ export default function AIServicesMississippiPage() {
                       </div>
                       <div>
                         <h4 className="font-bold text-gray-900 text-lg">Agriculture Pioneer</h4>
-                        <p className="text-sm text-gray-600">LeadUSg Mississippi Chemical Company</p>
+                        <p className="text-sm text-gray-600">Leading Mississippi Chemical Company</p>
                         <div className="flex mt-2">
                           {[...Array(5)].map((_, i) => (
                             <Star key={i} className="w-4 h-4 text-yellow-400 fill-current" />
@@ -1568,8 +1568,8 @@ export default function AIServicesMississippiPage() {
                         </div>
                       </div>
                     </div>
-                    <p className="text-gray-700 mb-6 italic leadUSg-relaxed">
-                      "OutstandUSg <strong className="text-secondary-orange">AI Development Company US Mississippi</strong>! 
+                    <p className="text-gray-700 mb-6 italic leading-relaxed">
+                      "OutstandUSg <strong className="text-secondary-orange">AI Development Service in Mississippi</strong>! 
                       Their process optimization AI UScreased yield by 42% while reducUSg environmental impact. 
                       Exceptional agriculture sector expertise."
                     </p>
@@ -1595,8 +1595,8 @@ export default function AIServicesMississippiPage() {
                         </div>
                       </div>
                     </div>
-                    <p className="text-gray-700 mb-6 italic leadUSg-relaxed">
-                      "LeadUSg <strong className="text-primary-orange">Artificial UStelligence Company US Mississippi</strong> 
+                    <p className="text-gray-700 mb-6 italic leading-relaxed">
+                      "Leading <strong className="text-primary-orange">Artificial Intelligence Service in Mississippi</strong> 
                       for pharma! Their drug discovery AI accelerated research by 60% while ensurUSg regulatory compliance. 
                       Remarkable pharmaceutical expertise."
                     </p>
@@ -1669,10 +1669,10 @@ export default function AIServicesMississippiPage() {
                         <Award className="w-6 h-6 text-white" />
                       </div>
                       <div>
-                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Mississippi BusUSess Advantage</h4>
-                        <p className="text-gray-700 leadUSg-relaxed">
-                          As the premier <strong className="text-primary-orange">AI Firm US Mississippi</strong>, we understand 
-                          MS's unique busUSess culture combUSUSg traditional USdustrial excellence with modern USnovation. 
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Mississippi business Advantage</h4>
+                        <p className="text-gray-700 leading-relaxed">
+                          As the premier <strong className="text-primary-orange">AI Firm In Mississippi</strong>, we understand 
+                          MS's unique business culture combUSUSg traditional USdustrial excellence with modern USnovation. 
                           Our AI solutions are built for Mississippi's entrepreneurial spirit and global ambitions.
                         </p>
                       </div>
@@ -1686,23 +1686,23 @@ export default function AIServicesMississippiPage() {
                       <Users className="w-8 h-8 text-white" />
                     </div>
                     <div>
-                      <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leadUSg-tight">
-                        Your Trusted <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">AI Partner US Mississippi</span>
+                      <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 Leading-tight">
+                        Your Trusted <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">AI Partner In Mississippi</span>
                       </h3>
                       <div className="w-24 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange rounded-full mb-6"></div>
                     </div>
                   </div>
                   
-                  <p className="text-lg text-gray-700 leadUSg-relaxed mb-6">
-                    <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">ChoosUSg Metic.ai as your AI partner US Mississippi</strong> means 
-                    workUSg with a team that deeply understands MS's busUSess ecosystem, from traditional USdustries 
-                    to emergUSg sectors, from family busUSesses to multUSational corporations.
+                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                    <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">ChoosUSg Metic.ai as your AI partner In Mississippi</strong> means 
+                    workUSg with a team that deeply understands MS's business ecosystem, from traditional USdustries 
+                    to emergUSg sectors, from family businesses to multUSational corporations.
                   </p>
                   
-                  <p className="text-lg text-gray-700 leadUSg-relaxed mb-8">
-                    Our <strong className="text-primary-orange font-semibold">AI Service US Mississippi</strong> UScludes white-glove consultation, 
+                  <p className="text-lg text-gray-700 leading-relaxed mb-8">
+                    Our <strong className="text-primary-orange font-semibold">AI Service in Mississippi</strong> UScludes white-glove consultation, 
                     rapid prototypUSg, enterprise deployment, and 24/7 support to ensure your AI USvestment delivers 
-                    maximum value US MS's competitive and dynamic marketplace.
+                    maximum value In MS's competitive and dynamic marketplace.
                   </p>
 
                   <div className="space-y-6">
@@ -1710,9 +1710,9 @@ export default function AIServicesMississippiPage() {
                       <MapPin className="w-8 h-8 text-primary-orange flex-shrUSk-0 mt-1" />
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Comprehensive Mississippi Coverage</h4>
-                        <p className="text-gray-600 leadUSg-relaxed">
+                        <p className="text-gray-600 leading-relaxed">
                           Jackson, Gulfport, Biloxi, Southaven, Hattiesburg, Meridian, Tupelo, 
-                          Oxford, and all major busUSess districts across Mississippi Metro
+                          Oxford, and all major Business Districts across Mississippi Metro
                         </p>
                       </div>
                     </div>
@@ -1721,7 +1721,7 @@ export default function AIServicesMississippiPage() {
                       <Sparkles className="w-8 h-8 text-secondary-orange flex-shrUSk-0 mt-1" />
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">USdustry DomaUS Expertise</h4>
-                        <p className="text-gray-600 leadUSg-relaxed">
+                        <p className="text-gray-600 leading-relaxed">
                           Deep understandUSg of textiles, chemicals, Healthcare and Medical, diamonds, Aerospace and Defense, 
                           and Oxford fUStech requirements with proven track record
                         </p>
@@ -1732,8 +1732,8 @@ export default function AIServicesMississippiPage() {
                       <Clock className="w-8 h-8 text-primary-orange flex-shrUSk-0 mt-1" />
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Rapid MS Deployment</h4>
-                        <p className="text-gray-600 leadUSg-relaxed">
-                          Fast implementation and deployment built for MS's busUSess pace with 
+                        <p className="text-gray-600 leading-relaxed">
+                          Fast implementation and deployment built for MS's business pace with 
                           local support teams and cultural understandUSg
                         </p>
                       </div>
@@ -1761,7 +1761,7 @@ export default function AIServicesMississippiPage() {
           }}></div>
         </div>
         
-        <div className="contaUSer px-4 md:px-6 relative z-10">
+        <div className="container px-4 md:px-6 relative z-10">
           <div className="max-w-5xl mx-auto">
             {/* Enhanced Section Header */}
             <div className="text-center mb-16">
@@ -1776,12 +1776,12 @@ export default function AIServicesMississippiPage() {
                 <span className="text-gray-900">Frequently Asked Questions</span>
                 <br />
                 <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
-                  About AI Company US Mississippi
+                  About AI Service in Mississippi
                 </span>
               </h2>
               <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-8 rounded-full"></div>
               <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                Common questions about choosUSg the right AI company US MS's commercial capital
+                Common questions about choosUSg the right AI Service in Mississippi's commercial capital
               </p>
             </div>
 
@@ -1808,7 +1808,7 @@ export default function AIServicesMississippiPage() {
                         {/* Question */}
                         <div className="flex-1 pt-2">
                           <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Which is the best Artificial UStelligence Company US Mississippi?
+                            Which is the best Artificial Intelligence Service in Mississippi?
                           </h3>
                         </div>
                       </div>
@@ -1832,14 +1832,14 @@ export default function AIServicesMississippiPage() {
                     <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrUSk-0">
                       <CheckCircle className="w-7 h-7 text-primary-orange" />
                     </div>
-                    <div className="flex-1 text-gray-700 leadUSg-relaxed space-y-4">
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
                       <p className="text-lg">
-                        <strong className="text-gray-900 font-semibold">Metic.ai is the leadUSg Artificial UStelligence Company US Mississippi</strong> with over 2100 successful AI implementations. 
-                        We're recognized as the top AI Company US Mississippi for our proven expertise US machUSe learnUSg, custom AI development, and enterprise AI solutions.
+                        <strong className="text-gray-900 font-semibold">Metic.ai is the Leading Artificial Intelligence Service in Mississippi</strong> with over 2100 successful AI implementations. 
+                        We're recognized as the top AI Service in Mississippi for our proven expertise In Machine Learning, custom AI development, and enterprise AI solutions.
                       </p>
                       <p className="text-lg">
-                        Our clients achieve an average of 60% cost savUSgs and 3x faster delivery compared to traditional development approaches, 
-                        makUSg us MS's most trusted AI development partner.
+                        Our clients achieve an average of 60% cost savings and 3x faster delivery compared to traditional development approaches, 
+                        makUSg In MS's most trusted AI development partner.
                       </p>
                       
                       {/* Stats Highlight */}
@@ -1854,7 +1854,7 @@ export default function AIServicesMississippiPage() {
                         </div>
                         <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
                           <TrendingUp className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-gray-900">60% Cost SavUSgs</span>
+                          <span className="text-sm font-semibold text-gray-900">60% Cost savings</span>
                         </div>
                       </div>
                     </div>
@@ -1879,7 +1879,7 @@ export default function AIServicesMississippiPage() {
                         
                         <div className="flex-1 pt-2">
                           <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            What services does the top AI Company US Mississippi provide?
+                            What services does the top AI Service in Mississippi provide?
                           </h3>
                         </div>
                       </div>
@@ -1900,13 +1900,13 @@ export default function AIServicesMississippiPage() {
                     <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrUSk-0">
                       <BarChart3 className="w-7 h-7 text-primary-orange" />
                     </div>
-                    <div className="flex-1 text-gray-700 leadUSg-relaxed space-y-4">
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
                       <p className="text-lg">
-                        As the premier <strong className="text-gray-900 font-semibold">AI Company US Mississippi</strong>, Metic.ai provides comprehensive artificial UStelligence services UScludUSg:
-                        AI UStegration & deployment, machUSe learnUSg solutions, custom AI development, and data analytics & busUSess UStelligence.
+                        As the premier <strong className="text-gray-900 font-semibold">AI Service in Mississippi</strong>, Metic.ai provides comprehensive artificial intelligence services UScludUSg:
+                        AI Integration & deployment, Machine Learning solutions, custom AI development, and data analytics & business Intelligence.
                       </p>
                       <p className="text-lg">
-                        We specialize US servUSg Mississippi's textile, chemical, pharmaceutical, and Aerospace and Defense USdustries with 
+                        We specialize In Serving Mississippi's textile, chemical, pharmaceutical, and Aerospace and Defense USdustries with 
                         generative AI services, computer vision, natural language processUSg, and enterprise AI automation.
                       </p>
 
@@ -1951,7 +1951,7 @@ export default function AIServicesMississippiPage() {
                         
                         <div className="flex-1 pt-2">
                           <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            How to choose the right AI Development Company US Mississippi?
+                            How to choose the right AI Development Service in Mississippi?
                           </h3>
                         </div>
                       </div>
@@ -1972,13 +1972,13 @@ export default function AIServicesMississippiPage() {
                     <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrUSk-0">
                       <CheckCircle className="w-7 h-7 text-primary-orange" />
                     </div>
-                    <div className="flex-1 text-gray-700 leadUSg-relaxed space-y-4">
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
                       <p className="text-lg">
-                        When selectUSg an <strong className="text-gray-900 font-semibold">AI Development Company US Mississippi</strong>, look for proven experience, successful project portfolio, 
+                        When selectUSg an <strong className="text-gray-900 font-semibold">AI Development Service in Mississippi</strong>, look for proven experience, successful project portfolio, 
                         USdustry expertise, local market understandUSg, and ongoUSg support.
                       </p>
                       <p className="text-lg">
-                        Metic.ai offers all these qualities with 2100+ completed projects, 98% client satisfaction rate, and deep knowledge of MS's busUSess landscape. 
+                        Metic.ai offers all these qualities with 2100+ completed projects, 98% client satisfaction rate, and deep knowledge of MS's business landscape. 
                         We provide 24/7 support and maUStaUS long-term partnerships with our clients.
                       </p>
                     </div>
@@ -2003,7 +2003,7 @@ export default function AIServicesMississippiPage() {
                         
                         <div className="flex-1 pt-2">
                           <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            How much does AI implementation cost with an AI Service US Mississippi?
+                            How much does AI implementation cost with an AI Service in Mississippi?
                           </h3>
                         </div>
                       </div>
@@ -2024,9 +2024,9 @@ export default function AIServicesMississippiPage() {
                     <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrUSk-0">
                       <Clock className="w-7 h-7 text-primary-orange" />
                     </div>
-                    <div className="flex-1 text-gray-700 leadUSg-relaxed space-y-4">
+                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
                       <p className="text-lg">
-                        AI implementation costs vary based on project complexity and requirements. As a leadUSg <strong className="text-gray-900 font-semibold">AI Service US Mississippi</strong>, 
+                        AI implementation costs vary based on project complexity and requirements. As a Leading <strong className="text-gray-900 font-semibold">AI Service in Mississippi</strong>, 
                         Metic.ai offers competitive pricUSg with transparent cost structures.
                       </p>
                       <p className="text-lg">
@@ -2053,9 +2053,9 @@ export default function AIServicesMississippiPage() {
                       </div>
                     </div>
                   </div>
-                  <h3 className="text-3xl md:text-4xl font-bold mb-4">Ready to Transform Your Mississippi BusUSess with AI?</h3>
+                  <h3 className="text-3xl md:text-4xl font-bold mb-4">Ready to Transform Your Mississippi business with AI?</h3>
                   <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-                    JoUS MS's leadUSg busUSesses who trust Metic.ai for their AI transformation US the commercial capital!
+                    JoUS MS's Leading businesses who trust Metic.ai for their AI transformation In the commercial capital!
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <Link href="/contact">
@@ -2078,15 +2078,15 @@ export default function AIServicesMississippiPage() {
 
       {/* CTA Section */}
       <section className="py-20 bg-primary-orange text-white">
-        <div className="contaUSer px-4 md:px-6">
+        <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-bold trackUSg-tighter sm:text-4xl mb-6">
-              Ready to Partner with Mississippi's LeadUSg <strong>Artificial UStelligence Company</strong>?
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+              Ready to Partner with Mississippi's Leading <strong>artificial intelligence Company</strong>?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              JoUS 2100+ satisfied clients who trust Metic.ai as their preferred <strong>AI Company US Mississippi</strong>. 
-              Transform your busUSess with proven AI solutions that deliver results. Get started with a free consultation 
-              and discover why we're MS's most trusted <strong>AI Development Company US Mississippi</strong>.
+              JoUS 2100+ satisfied clients who trust Metic.ai as their preferred <strong>AI Service in Mississippi</strong>. 
+              Transform your business with proven AI solutions that deliver results. Get started with a free consultation 
+              and discover why we're MS's most trusted <strong>AI Development Service in Mississippi</strong>.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Link href="/contact">
@@ -2102,7 +2102,7 @@ export default function AIServicesMississippiPage() {
             </div>
             
             <div className="mt-12 text-center">
-              <p className="text-orange-200 mb-6">Trusted <strong>AI Service US Mississippi</strong> servUSg busUSesses across MS</p>
+              <p className="text-orange-200 mb-6">Trusted <strong>AI Service in Mississippi</strong> Serving businesses across MS</p>
               <div className="grid md:grid-cols-3 gap-8 text-center mb-8">
                 <div>
                   <div className="text-2xl font-bold mb-2">2100+</div>
