@@ -1,5 +1,6 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Button } from "../components/ui/Button";
+import Testimonials from "../components/Testimonials";
 import { 
   Brain, 
   Zap, 
@@ -22,11 +23,7 @@ import {
   Database,
   Sparkles,
   ChevronDown,
-  Rocket,
-  Globe,
-  Quote,
-  Trophy,
-  Building
+  Rocket
 } from "lucide-react";
 
 export const metadata = {
@@ -40,45 +37,59 @@ export const metadata = {
     "AI Development Company In Idaho",
     "Best AI Company In Idaho",
     "Top AI Company Idaho",
+    "Artificial Intelligence Services Idaho",
+    "AI Solutions Company Idaho",
     "Machine Learning Company Idaho",
-    "AI Consulting Idaho",
-    "Custom AI Development Idaho", 
-    "AI Solutions Idaho",
-    "AI Automation Idaho",
-    "Enterprise AI Idaho",
-    "Boise AI Company",
-    "Idaho AI Services",
-    "AI Technology Idaho",
-    "Data Analytics Idaho",
-    "Predictive Analytics Idaho",
-    "Computer Vision Idaho"
+    "AI Consulting Firm Idaho",
+    "AI Technology Company Idaho",
+    "AI automation Idaho",
+    "AI software company Idaho",
+    "artificial intelligence consulting Idaho",
+    "AI integration services Idaho",
+    "custom AI development Idaho",
+    "enterprise AI solutions Idaho",
+    "AI ML company Idaho",
+    "Idaho AI experts",
+    "Idaho machine learning services",
+    "Idaho AI implementation"
   ],
   authors: [{ name: "Metic.ai Idaho AI Team" }],
-  robots: "index, follow",
+  robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
     title: "Artificial Intelligence Company In Idaho | #1 AI Company In Idaho - Metic.ai",
-    description: "Leading Artificial Intelligence Company In Idaho with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
-    url: "https://metic.ai/artificial-intelligence-ai-services-in-idaho/",
-    siteName: "Metic.ai - AI Company In Idaho",
+    description: "Leading Artificial Intelligence Company In Idaho with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Idaho businesses.",
+    url: "https://metic.ai/artificial-intelligence-ai-services-in-Idaho/",
     type: "website",
+    locale: "en_US",
+    siteName: "Metic.ai - AI Company In Idaho",
     images: [
       {
-        url: "https://metic.ai/og-ai-services-idaho.jpg",
+        url: "https://metic.ai/og-ai-company-Idaho.jpg",
         width: 1200,
         height: 630,
         alt: "Artificial Intelligence Company In Idaho - Metic.ai",
+        type: "image/jpeg"
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Artificial Intelligence Company In Idaho | #1 AI Company In Idaho - Metic.ai",
-    description: "Leading Artificial Intelligence Company In Idaho with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
-    images: ["https://metic.ai/og-ai-services-idaho.jpg"],
+    title: "Artificial Intelligence Company In Idaho | AI Company In Idaho",
+    description: "Leading AI Company In Idaho delivering enterprise artificial intelligence solutions. Expert AI development, machine learning & automation services with proven results.",
+    images: ["https://metic.ai/og-ai-company-Idaho.jpg"],
+    site: "@metic_ai",
+    creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-idaho/",
+    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-Idaho/",
   },
+  verification: {
+    google: "google-site-verification-code",
+    yandex: "yandex-verification-code",
+    yahoo: "yahoo-verification-code"
+  },
+  category: "Technology",
+  classification: "business Services"
 };
 
 export default function AIServicesIdahoPage() {
@@ -92,13 +103,13 @@ export default function AIServicesIdahoPage() {
     },
     {
       title: "Machine Learning Solutions",
-      description: "Advanced ML algorithms and predictive analytics tailored for Idaho businesses and industries.",
+      description: "Advanced ML algorithms and predictive analytics tailored for Idaho businesses and Industries.",
       icon: Brain,
       href: "/machine-learning",
       color: "purple" as const
     },
     {
-      title: "Custom AI Development",
+      title: "custom AI Development",
       description: "Bespoke AI solutions designed specifically for your Idaho business requirements and goals.",
       icon: Code,
       href: "/custom-ai-development",
@@ -113,133 +124,169 @@ export default function AIServicesIdahoPage() {
     },
     {
       title: "Generative AI Services",
-      description: "Harness the power of ChatGPT and generative AI for content creation and automation in Idaho.",
+      description: "Harness the power of ChatGPT and generative AI for content creation and automation In Idaho.",
       icon: Sparkles,
       href: "/generative-ai-services",
       color: "indigo" as const
     },
     {
       title: "Data Engineering",
-      description: "Robust data infrastructure and ETL pipelines for Idaho enterprises and growing businesses.",
+      description: "RobINt data infrastructure and ETL pipelines for Idaho enterprises and growing businesses.",
       icon: Database,
       href: "/data-engineering",
       color: "red" as const
     }
   ];
 
-  const industries = [
-    "Agriculture",
-    "Technology",
-    "Manufacturing",
-    "Mining",
-    "Healthcare",
-    "Tourism",
+  const Industries = [
+    "Textiles & Garments",
+    "Pharmaceuticals",
+    "Chemicals",
+    "Information Technology",
+    "Automotive",
+    "Diamond & Jewelry",
     "Food Processing",
-    "Forestry",
-    "Energy",
-    "Education"
+    "Real Estate",
+    "Healthcare",
+    "Education",
+    "Logistics",
+    "Manufacturing"
   ];
 
   const stats = [
-    { number: "180+", label: "ID Businesses Served" },
-    { number: "98%", label: "Client Satisfaction" },
-    { number: "4.2x", label: "Average ROI Increase" },
+    { number: "2100+", label: "Businesses Served" },
+    { number: "99.5%", label: "Client Satisfaction" },
+    { number: "5.2x", label: "Average ROI Increase" },
     { number: "24/7", label: "Support Available" }
   ];
 
   return (
     <>
-      {/* Triple Schema Implementation for Enhanced SEO */}
-      {/* Organization Schema */}
+      {/* Enhanced Structured Data for SEO, VSO, ASO & GEO */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Organization",
+            "@type": ["Organization", "TechnologyCompany", "LocalBusiness"],
             "name": "Metic.ai - Artificial Intelligence Company In Idaho",
-            "description": "Leading Artificial Intelligence Company In Idaho with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-idaho/",
+            "alternateName": ["AI Company In Idaho", "Metic AI", "AI Firm Idaho"],
+            "description": "Leading Artificial Intelligence Company In Idaho providing enterprise AI solutions, machine learning development, and custom AI services for businesses across Idaho.",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-Idaho/",
+            "sameAs": [
+              "https://www.linkedin.com/company/metic-ai",
+              "https://twitter.com/metic_ai",
+              "https://www.facebook.com/meticai"
+            ],
             "logo": "https://metic.ai/logo.png",
-            "image": "https://metic.ai/og-ai-services-idaho.jpg",
-            "telephone": "+1-789-251-8414",
+            "image": ["https://metic.ai/ai-company-Idaho.jpg"],
+            "telephone": "+91-789-251-8414",
             "email": "hello@matic.ai",
-            "slogan": "Artificial Intelligence Company In Idaho - Transform Your Business with AI",
             "foundingDate": "2020",
+            "numberOfEmployees": "50-100",
+            "vatID": "IN123456789",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "Idaho",
               "addressCountry": "US",
-              "addressLocality": "Boise"
+              "postalCode": "35201"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "43.6150",
-              "longitude": "-116.2023"
+              "latitude": "32.7794",
+              "longitude": "-86.8287"
             },
             "areaServed": [
-              "Boise", "Meridian", "Nampa", "Idaho Falls", "Pocatello", 
-              "Caldwell", "Coeur d'Alene", "Twin Falls", "Lewiston", "Post Falls",
-              "Rexburg", "Moscow", "Eagle", "Kuna", "Ammon", "Idaho"
+              {
+                "@type": "State",
+                "name": "Idaho",
+                "containedInPlace": {
+                  "@type": "Country", 
+                  "name": "United States"
+                }
+              }
             ],
-            "serviceType": ["Artificial Intelligence Services", "AI Development", "Machine Learning", "AI Consulting"],
+            "serviceArea": {
+              "@type": "GeoCircle",
+              "geoMidpoint": {
+                "@type": "GeoCoordinates",
+                "latitude": "32.7794",
+                "longitude": "-86.8287"
+              },
+              "geoRadiIN": "200000"
+            },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "AI Company In Idaho Services",
+              "name": "Artificial Intelligence Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Custom AI Development",
-                    "description": "Bespoke AI solutions designed specifically for Idaho businesses"
-                  }
-                },
-                {
-                  "@type": "Offer", 
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": "Machine Learning Solutions",
-                    "description": "Advanced ML algorithms and predictive analytics for Idaho enterprises"
+                    "name": "AI Development Services",
+                    "description": "custom artificial intelligence development for Idaho businesses"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service", 
-                    "name": "AI Integration & Deployment",
-                    "description": "Seamless AI integration for Idaho business operations"
+                    "name": "Machine Learning Solutions",
+                    "description": "Advanced ML algorithms and predictive analytics"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "AI Integration Services", 
+                    "description": "Enterprise AI integration and deployment"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "AI Consulting Services",
+                    "description": "Expert AI strategy and implementation consulting"
                   }
                 }
               ]
             },
+            "knowsAbout": [
+              "Artificial Intelligence",
+              "Machine Learning", 
+              "Deep Learning",
+              "Natural Language Processing",
+              "Computer Vision",
+              "AI Automation",
+              "Data Science",
+              "business Intelligence",
+              "Predictive Analytics"
+            ],
             "aggregateRating": {
               "@type": "AggregateRating",
               "ratingValue": "4.9",
-              "reviewCount": "180",
+              "reviewCount": "100",
               "bestRating": "5",
               "worstRating": "1"
             },
-            "review": [
-              {
-                "@type": "Review",
-                "author": {
-                  "@type": "Person",
-                  "name": "Sarah Johnson"
-                },
-                "reviewRating": {
-                  "@type": "Rating",
-                  "ratingValue": "5",
-                  "bestRating": "5"
-                },
-                "reviewBody": "Best AI Company In Idaho! Their expertise in artificial intelligence transformed our Boise-based technology business operations completely."
-              }
-            ]
+            "priceRange": "$$",
+            "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer"],
+            "currenciesAccepted": "IND",
+            "open_USgHours": "Mo-Fr 09:00-18:00",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+91-789-251-8414",
+              "contactType": "customer Service",
+              "areaServed": "US",
+              "availableLanguage": ["English"]
+            }
           })
         }}
       />
 
-      {/* FAQ Schema */}
+      {/* FAQ Schema for ASO */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -249,50 +296,34 @@ export default function AIServicesIdahoPage() {
             "mainEntity": [
               {
                 "@type": "Question",
-                "name": "Which is the best AI Company In Idaho?",
+                "name": "Which is the best Artificial Intelligence Company In Idaho?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Metic.ai is the leading Artificial Intelligence Company In Idaho with 2100+ successful AI implementations. We specialize in custom AI development, machine learning solutions, and AI consulting for Idaho businesses with 60% cost savings and 3x faster delivery."
+                  "text": "Metic.ai is the leading Artificial Intelligence Company In Idaho with 100+ successful AI implementations. We provide comprehensive AI services including machine learning, custom AI development, and enterprise AI solutions with proven 60% cost savings and 3x faster delivery."
+                }
+              },
+              {
+                "@type": "Question", 
+                "name": "What AI services does the top AI Company In Idaho provide?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "As the premier AI Company In Idaho, Metic.ai provides AI integration & deployment, machine learning solutions, custom AI development, data analytics & BI, generative AI services, and data engineering for businesses across Idaho."
                 }
               },
               {
                 "@type": "Question",
-                "name": "What AI services does this AI Service In Idaho provide?",
+                "name": "How to choose the right AI Development Company In Idaho?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "As the premier AI Company In Idaho, we provide AI integration, machine learning solutions, custom AI development, data analytics, generative AI services, and comprehensive AI consulting for Idaho businesses."
+                  "text": "Choose an AI Development Company In Idaho with proven experience, successful implementations, Industry expertise, and local presence. Metic.ai offers all these with 100+ completed projects and deep understanding of Idaho's business landscape."
                 }
               },
               {
                 "@type": "Question",
-                "name": "How much does AI development cost from an AI Development Company In Idaho?",
+                "name": "What makes Metic.ai the best AI Firm In Idaho?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Our AI Development Company In Idaho offers competitive pricing with 60% cost savings compared to traditional development, with projects starting from $10,000 depending on complexity and requirements."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Why choose Metic.ai as your AI Service In Idaho provider?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "As the Top AI Company Idaho, we offer 2100+ successful projects, 60% cost savings, 3x faster delivery, dedicated Idaho team, 24/7 support, and cutting-edge AI solutions tailored for Idaho's unique business landscape."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How long does AI implementation take with your AI Firm In Idaho?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Our AI Firm In Idaho delivers projects 3x faster than industry average. Simple AI integrations take 2-4 weeks, while complex custom AI development projects typically take 8-16 weeks depending on scope and requirements."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Do you provide AI consulting services for Idaho businesses?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes, our Best AI Company In Idaho provides comprehensive AI consulting including strategy development, technology assessment, implementation roadmaps, and ongoing optimization for businesses across Boise, Nampa, and all of Idaho."
+                  "text": "Metic.ai is the best AI Firm In Idaho due to our proven expertise, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of Idaho's manufacturing, aerospace, healthcare and agricultural Industries."
                 }
               }
             ]
@@ -300,23 +331,22 @@ export default function AIServicesIdahoPage() {
         }}
       />
 
-      {/* Article Schema */}
+      {/* Organization Schema for Entity Recognition */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Artificial Intelligence Company In Idaho | Leading AI Services & Development",
-            "description": "Leading Artificial Intelligence Company In Idaho with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
-            "image": "https://metic.ai/og-ai-services-idaho.jpg",
+            "headline": "Artificial Intelligence Company In Idaho - AI Services & Solutions",
+            "description": "Comprehensive guide to AI services In Idaho by the leading Artificial Intelligence Company. Expert AI development, machine learning solutions, and enterprise AI implementation.",
+            "image": "https://metic.ai/ai-company-Idaho-article.jpg",
             "author": {
               "@type": "Organization",
-              "name": "Metic.ai",
-              "url": "https://metic.ai"
+              "name": "Metic.ai"
             },
             "publisher": {
-              "@type": "Organization",
+              "@type": "Organization", 
               "name": "Metic.ai",
               "logo": {
                 "@type": "ImageObject",
@@ -324,890 +354,1044 @@ export default function AIServicesIdahoPage() {
               }
             },
             "datePublished": "2024-01-15",
-            "dateModified": "2024-12-15",
-            "mainEntityOfPage": {
-              "@type": "WebPage",
-              "@id": "https://metic.ai/artificial-intelligence-ai-services-in-idaho/"
-            },
-            "articleSection": "Artificial Intelligence Services",
-            "keywords": "Artificial Intelligence Company In Idaho, AI Company In Idaho, AI Service In Idaho, AI Firm In Idaho, AI Development Company In Idaho",
-            "about": {
-              "@type": "Thing",
-              "name": "Artificial Intelligence Services in Idaho",
-              "description": "Professional AI development and consulting services for Idaho businesses"
-            }
+            "dateModified": "2024-10-30",
+            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-Idaho/",
+            "keywords": "Artificial Intelligence Company In Idaho, AI Company In Idaho, AI Service In Idaho"
           })
         }}
       />
 
-      {/* Enhanced Hero Section - Exact Ahmedabad Design */}
-      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-24 md:py-32 relative overflow-hidden">
-        {/* Advanced Background Effects */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          {/* Animated Circuit Board Pattern */}
-          <div className="absolute inset-0 opacity-10">
-            <svg className="w-full h-full" viewBox="0 0 400 400" fill="none">
-              <defs>
-                <pattern id="circuit" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
-                  <circle cx="20" cy="20" r="2" fill="#FF6B35" opacity="0.5">
-                    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite" />
-                  </circle>
-                  <circle cx="80" cy="80" r="2" fill="#FF6B35" opacity="0.7">
-                    <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite" />
-                  </circle>
-                  <path d="M20 20 L80 20 L80 80" stroke="#FF6B35" strokeWidth="1" opacity="0.3" />
-                  <path d="M20 80 L50 80 L50 50 L80 50" stroke="#FF6B35" strokeWidth="1" opacity="0.3" />
-                </pattern>
-              </defs>
-              <rect width="100%" height="100%" fill="url(#circuit)" />
-            </svg>
-          </div>
-          
-          {/* Floating Orbs */}
-          <div className="absolute top-20 left-20 w-64 h-64 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute bottom-20 right-20 w-96 h-96 bg-orange-400/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
-          <div className="absolute top-1/2 left-1/4 w-32 h-32 bg-blue-500/5 rounded-full blur-2xl animate-pulse" style={{animationDelay: '1s'}}></div>
-          
-          {/* Floating Elements */}
-          <div className="absolute top-32 right-1/4 animate-bounce" style={{animationDelay: '0.5s', animationDuration: '3s'}}>
-            <div className="w-3 h-3 bg-primary-orange/30 rounded-full"></div>
-          </div>
-          <div className="absolute bottom-1/3 left-1/3 animate-bounce" style={{animationDelay: '1.5s', animationDuration: '4s'}}>
-            <div className="w-2 h-2 bg-orange-400/40 rounded-full"></div>
-          </div>
+      {/* BreadcrumbList Schema for Enhanced Navigation SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://metic.ai/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI Services",
+                "item": "https://metic.ai/services"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Artificial Intelligence Company In Idaho",
+                "item": "https://metic.ai/artificial-intelligence-ai-services-in-Idaho/"
+              }
+            ]
+          })
+        }}
+      />
+
+      {/* LocalBusiness Schema for Local SEO Enhancement */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Metic.ai - AI Company In Idaho",
+            "description": "Leading Artificial Intelligence Company providing AI services In Idaho",
+            "image": "https://metic.ai/ai-company-Idaho.jpg",
+            "telephone": "+91-789-251-8414",
+            "email": "hello@matic.ai",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "300 Quail Ridge Dr NE",
+              "addressLocality": "ADA",
+              "addressRegion": "MI",
+              "postalCode": "49301",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": "32.3182",
+              "longitude": "-86.9023"
+            },
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-Idaho/",
+            "priceRange": "$$$$",
+            "areaServed": {
+              "@type": "State",
+              "name": "Idaho"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "reviewCount": "180",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "open_USgHours": "Mo-Fr 09:00-18:00",
+            "sameAs": [
+              "https://www.linkedin.com/company/metic-ai",
+              "https://twitter.com/metic_ai"
+            ]
+          })
+        }}
+      />
+
+      {/* Hero Section - VSO & Target Keyword Optimized - Enhanced Mobile/Desktop */}
+      <section className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-16 md:py-24 lg:py-32 overflow-hidden">
+        {/* Animated Background Elements */}
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute top-20 left-10 w-72 h-72 bg-primary-orange rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-20 right-10 w-96 h-96 bg-secondary-orange rounded-full blur-3xl animate-pulse delay-1000"></div>
         </div>
-        
+
         <div className="container px-4 md:px-6 relative z-10">
-          <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-16">
-              {/* Enhanced Location Badge */}
-              <div className="inline-flex items-center gap-3 px-8 py-4 bg-gray-800/50 backdrop-blur-sm rounded-full border-2 border-primary-orange/20 mb-8 hover:border-primary-orange/40 transition-all group">
-                <MapPin className="w-6 h-6 text-primary-orange animate-pulse" />
-                <span className="text-lg font-bold text-orange-300">Serving Idaho</span>
-                <div className="flex items-center gap-1 pl-3 border-l border-orange-300/30">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-4 h-4 fill-primary-orange text-primary-orange" />
-                  ))}
-                  <span className="text-orange-300 text-sm font-semibold ml-1">5.0</span>
-                </div>
+          <div className="max-w-5xl mx-auto">
+            {/* Trust Badge - Mobile Optimized */}
+            <div className="flex justify-center mb-6 md:mb-8">
+              <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-white/10 backdrop-blur-sm rounded-full border border-primary-orange/30 shadow-xl">
+                <Award className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
+                <span className="text-xs md:text-sm font-bold text-white">⭐ 100+ Successful AI Projects | 98% Client Satisfaction</span>
               </div>
-              
-              {/* Enhanced Main Headline */}
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-8 text-white leading-tight">
-                <span className="text-white"><strong>Artificial Intelligence Company In Idaho</strong></span>
-                <br />
-                <span className="bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange bg-clip-text text-transparent">
-                  Leading AI Company In Idaho
+            </div>
+
+            <div className="text-center">  
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight mb-4 md:mb-6 leading-tight">
+                <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
+                  Artificial Intelligence
                 </span>
+                <br />
+                <span className="text-white">Company In Idaho</span>
               </h1>
               
-              {/* Gradient Accent Line */}
-              <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange mx-auto mb-8 rounded-full"></div>
-              
-              {/* Enhanced Description */}
-              <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-4xl mx-auto leading-relaxed">
-                Looking for the best <strong className="text-white font-semibold">AI Company In Idaho</strong>? Metic.ai is the premier 
-                <strong className="text-primary-orange font-semibold"> Artificial Intelligence Company In Idaho</strong> serving Boise, Nampa, and the entire Gem State 
-                with cutting-edge AI solutions and 2100+ successful implementations.
+              {/* VSO Optimized Description - Mobile Friendly */}
+              <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 mb-6 md:mb-8 max-w-4xl mx-auto leading-relaxed px-4">
+                Looking for the <strong className="text-primary-orange">best AI Company In Idaho</strong>? Metic.ai is the premier <strong className="text-white">Artificial Intelligence Company In Idaho</strong> delivering enterprise AI solutions with proven results.
               </p>
-              
-              {/* Trust Indicators */}
-              <div className="flex flex-wrap justify-center gap-8 mb-12">
-                <div className="flex items-center gap-2 px-4 py-2 bg-gray-800/30 backdrop-blur-sm rounded-lg">
-                  <Award className="w-5 h-5 text-primary-orange" />
-                  <span className="text-gray-300 font-medium">2100+ Projects</span>
-                </div>
-                <div className="flex items-center gap-2 px-4 py-2 bg-gray-800/30 backdrop-blur-sm rounded-lg">
-                  <TrendingUp className="w-5 h-5 text-green-400" />
-                  <span className="text-gray-300 font-medium">60% Cost Savings</span>
-                </div>
-                <div className="flex items-center gap-2 px-4 py-2 bg-gray-800/30 backdrop-blur-sm rounded-lg">
-                  <Zap className="w-5 h-5 text-blue-400" />
-                  <span className="text-gray-300 font-medium">3x Faster Delivery</span>
+
+              {/* Mobile-Optimized CTA Buttons */}
+              <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center mb-10 md:mb-16 px-4">
+                <Link href="/contact" className="w-full sm:w-auto">
+                  <Button variant="primary" size="lg" className="w-full sm:w-auto text-base md:text-lg px-6 md:px-8 py-3 md:py-4 shadow-2xl hover:shadow-primary-orange/50 transform hover:scale-105 transition-all">
+                    <Rocket className="w-5 h-5 mr-2" />
+                    Get Free AI Consultation
+                  </Button>
+                </Link>
+                <Link href="tel:+917892518414" className="w-full sm:w-auto">
+                  <Button variant="outline" size="lg" className="w-full sm:w-auto text-base md:text-lg px-6 md:px-8 py-3 md:py-4 border-2 border-primary-orange text-primary-orange hover:bg-primary-orange hover:text-white">
+                    <Phone className="w-5 h-5 mr-2" />
+                    Call: +91-789-251-8414
+                  </Button>
+                </Link>
+              </div>
+
+              {/* Voice Search Optimized Stats - Responsive Grid */}
+              <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8 max-w-4xl mx-auto mb-10 md:mb-12 px-4">
+                {stats.map((stat, index) => (
+                  <div key={index} className="bg-white/5 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-white/10 hover:border-primary-orange/50 transition-all transform hover:scale-105">
+                    <div className="text-2xl md:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent mb-2">
+                      {stat.number}
+                    </div>
+                    <div className="text-xs md:text-sm text-gray-400">{stat.label}</div>
+                  </div>
+                ))}
+              </div>
+
+              {/* VSO Keywords Section - Mobile Optimized */}
+              <div className="text-center px-4">
+                <p className="text-gray-400 text-sm md:text-base mb-4">
+                  <strong className="text-white">Trusted as the top AI Service In Idaho</strong> by leading businesses
+                </p>
+                <div className="flex flex-wrap justify-center gap-2 md:gap-3 text-xs md:text-sm">
+                  <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
+                    AI Firm In Idaho
+                  </span>
+                  <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
+                    AI Development Company
+                  </span>
+                  <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
+                    Best AI Company Idaho
+                  </span>
+                  <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
+                    Machine Learning Services
+                  </span>
                 </div>
               </div>
-            </div>
-
-            {/* Enhanced CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16">
-              <Link href="/contact">
-                <Button variant="primary" size="lg" className="group relative overflow-hidden bg-gradient-to-r from-primary-orange to-orange-600 hover:from-orange-600 hover:to-primary-orange transition-all duration-300 transform hover:scale-105 shadow-2xl">
-                  <span className="relative z-10 flex items-center">
-                    Get Free AI Consultation - Idaho
-                    <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-                  </span>
-                  <div className="absolute inset-0 bg-gradient-to-r from-orange-600 to-primary-orange opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                </Button>
-              </Link>
-              <Link href="tel:+917892518414">
-                <Button variant="outline" size="lg" className="group border-2 border-gray-600 text-gray-300 hover:border-primary-orange hover:text-primary-orange hover:bg-primary-orange/10 backdrop-blur-sm transition-all duration-300">
-                  <Phone className="w-5 h-5 mr-2 group-hover:animate-pulse" />
-                  Call AI Company Idaho: +1-789-251-8414
-                </Button>
-              </Link>
-            </div>
-
-            {/* Enhanced Stats Grid */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
-              {[
-                { number: "180+", label: "ID Businesses Served", icon: Building },
-                { number: "98%", label: "Client Satisfaction", icon: Star },
-                { number: "4.2x", label: "Average ROI Increase", icon: TrendingUp },
-                { number: "24/7", label: "Support Available", icon: Clock }
-              ].map((stat, index) => {
-                const IconComponent = stat.icon;
-                return (
-                  <div key={index} className="text-center group">
-                    <div className="bg-gray-800/40 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:border-primary-orange/50 transition-all duration-300 hover:transform hover:scale-105">
-                      <div className="flex justify-center mb-4">
-                        <div className="w-12 h-12 bg-gradient-to-br from-primary-orange/20 to-orange-600/20 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform">
-                          <IconComponent className="w-6 h-6 text-primary-orange" />
-                        </div>
-                      </div>
-                      <div className="text-3xl font-bold text-white mb-2 group-hover:text-primary-orange transition-colors">{stat.number}</div>
-                      <div className="text-sm text-gray-400 font-medium">{stat.label}</div>
-                    </div>
-                  </div>
-                );
-              })}
             </div>
           </div>
         </div>
-        
-        {/* Bottom Gradient Fade */}
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent"></div>
+
+        {/* Bottom Wave Decoration */}
+        <div className="absolute bottom-0 left-0 right-0">
+          <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-auto">
+            <path d="M0 0L60 10C120 20 240 40 360 46.7C480 53 600 47 720 43.3C840 40 960 40 1080 46.7C1200 53 1320 67 1380 73.3L1440 80V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0V0Z" fill="white"/>
+          </svg>
+        </div>
       </section>
 
-      {/* Enhanced Services Section - Ahmedabad Style */}
-      <section className="py-24 bg-white relative overflow-hidden">
-        {/* Subtle Background Pattern */}
-        <div className="absolute inset-0 opacity-5" style={{
-          backgroundImage: `radial-gradient(circle at 20px 20px, #FF6B35 1px, transparent 1px)`,
-          backgroundSize: '40px 40px'
-        }}></div>
-        
-        <div className="container px-4 md:px-6 relative z-10">
+      {/* Services Section - Enhanced Mobile & Desktop */}
+      <section className="py-16 md:py-20 lg:py-24 bg-gradient-to-b from-white to-gray-50">
+        <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
-            {/* Enhanced Section Header */}
-            <div className="text-center mb-20">
-              <div className="inline-flex items-center gap-2 px-6 py-3 bg-primary-orange/10 rounded-full mb-8">
-                <Sparkles className="w-5 h-5 text-primary-orange" />
-                <span className="text-sm font-bold text-primary-orange">AI SOLUTIONS</span>
+            <div className="text-center mb-12 md:mb-16">
+              {/* Section Badge */}
+              <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-primary-orange/10 rounded-full mb-6 md:mb-8">
+                <Brain className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
+                <span className="text-xs md:text-sm font-bold text-primary-orange">COMPREHENSIVE AI SERVICES</span>
               </div>
-              
-              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-gray-900">
-                AI Solutions for <span className="bg-gradient-to-r from-primary-orange to-orange-600 bg-clip-text text-transparent">Idaho</span> Businesses
+
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 leading-tight px-4">
+                <strong className="text-gray-900">AI Services</strong> by Leading{" "}
+                <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">
+                  Artificial Intelligence Company In Idaho
+                </span>
               </h2>
-              <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-orange-600 mx-auto mb-8 rounded-full"></div>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-                Comprehensive artificial intelligence services designed to help Idaho businesses 
-                compete in the digital economy and drive sustainable growth across the Gem State.
+              <div className="w-20 md:w-24 h-1 md:h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 md:mb-8 rounded-full"></div>
+              <p className="text-base md:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-4">
+                Comprehensive artificial intelligence services from Idaho's most Trusted <strong className="text-gray-900">AI Company In Idaho</strong>. 
+                Transforming businesses with cutting-edge AI solutions tailored for Idaho's industrial landscape.
               </p>
             </div>
             
-            {/* Enhanced Service Cards */}
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Mobile: 1 col, Tablet: 2 cols, Desktop: 3 cols */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
               {services.map((service, index) => {
                 const IconComponent = service.icon;
                 const colorClasses = {
-                  blue: "from-blue-500 to-blue-600",
-                  purple: "from-purple-500 to-purple-600", 
-                  green: "from-green-500 to-green-600",
-                  orange: "from-orange-500 to-orange-600",
-                  indigo: "from-indigo-500 to-indigo-600",
-                  red: "from-red-500 to-red-600"
+                  blue: "bg-blue-100 text-blue-600",
+                  purple: "bg-purple-100 text-purple-600", 
+                  green: "bg-green-100 text-green-600",
+                  orange: "bg-orange-100 text-orange-600",
+                  indigo: "bg-indigo-100 text-indigo-600",
+                  red: "bg-red-100 text-red-600"
                 };
                 
                 return (
-                  <div key={index} className="group relative">
-                    {/* Card Container */}
-                    <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 border border-gray-100 hover:border-primary-orange/20 transform hover:-translate-y-2 overflow-hidden">
-                      {/* Gradient Overlay on Hover */}
-                      <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-orange-400/0 group-hover:from-primary-orange/5 group-hover:to-orange-400/5 transition-all duration-500 rounded-2xl"></div>
-                      
-                      {/* Icon with Enhanced Animation */}
-                      <div className="relative mb-6">
-                        <div className={`absolute inset-0 bg-gradient-to-br ${colorClasses[service.color]} opacity-0 group-hover:opacity-20 transition-opacity duration-500 rounded-2xl blur-lg`}></div>
-                        <div className={`relative w-20 h-20 rounded-2xl flex items-center justify-center bg-gradient-to-br ${colorClasses[service.color]} shadow-lg group-hover:scale-110 group-hover:rotate-6 transition-all duration-500`}>
-                          <IconComponent className="w-10 h-10 text-white" />
-                        </div>
-                      </div>
-                      
-                      {/* Content */}
-                      <div className="relative z-10">
-                        <h3 className="text-2xl font-bold mb-4 text-gray-900 group-hover:text-primary-orange transition-colors duration-300">{service.title}</h3>
-                        <p className="text-gray-600 mb-6 leading-relaxed group-hover:text-gray-700 transition-colors">{service.description}</p>
-                        
-                        {/* Enhanced CTA */}
-                        <Link href={service.href} className="inline-flex items-center text-primary-orange hover:text-orange-600 font-semibold group-hover:gap-3 gap-2 transition-all duration-300">
-                          Learn More
-                          <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
-                        </Link>
-                      </div>
-                      
-                      {/* Bottom Accent Line */}
-                      <div className={`absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r ${colorClasses[service.color]} transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 rounded-b-2xl`}></div>
+                  <div 
+                    key={index} 
+                    className="group bg-white rounded-2xl p-6 md:p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border-2 border-gray-100 hover:border-primary-orange/50 transform hover:-translate-y-2"
+                  >
+                    <div className={`w-14 h-14 md:w-16 md:h-16 rounded-2xl flex items-center justify-center mb-5 md:mb-6 ${colorClasses[service.color]} group-hover:scale-110 transition-transform`}>
+                      <IconComponent className="w-7 h-7 md:w-8 md:h-8" />
                     </div>
+                    
+                    <h3 className="text-lg md:text-xl font-bold mb-3 md:mb-4 text-gray-900 group-hover:text-primary-orange transition-colors">
+                      {service.title}
+                    </h3>
+                    <p className="text-sm md:text-base text-gray-600 mb-5 md:mb-6 leading-relaxed">
+                      {service.description}
+                    </p>
+                    
+                    <Link 
+                      href={service.href} 
+                      className="inline-flex items-center text-primary-orange hover:text-secondary-orange font-semibold text-sm md:text-base group-hover:gap-3 transition-all"
+                    >
+                      Learn More
+                      <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                    </Link>
                   </div>
                 );
               })}
+            </div>
+
+            {/* CTA Below Services */}
+            <div className="text-center mt-12 md:mt-16">
+              <Link href="/contact">
+                <Button variant="primary" size="lg" className="px-8 md:px-10 py-4 text-base md:text-lg shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all">
+                  <Sparkles className="w-5 h-5 mr-2" />
+                  Explore All AI Services
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Industries Section */}
+      {/* About Section for Entity Recognition & Comprehensive Coverage */}
+      <section className="py-20 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                  About Metic.ai - Premier <span className="text-primary-orange">Artificial Intelligence Company In Idaho</span>
+                </h2>
+                <div className="w-20 h-1 bg-primary-orange mb-8"></div>
+                <p className="text-lg text-gray-700 mb-6">
+                  Established as Idaho's leading <strong>AI Company In Idaho</strong>, Metic.ai has been at the forefront of artificial intelligence 
+                  innovation since 2020. We specialize US delivering enterprise-grade AI solutions that transform businesses across Idaho's 
+                  unique Industries including Textiles & Garments, Pharmaceuticals, tourism & hospitality, Chemicals, and Information Technology.
+                </p>
+                <p className="text-lg text-gray-700 mb-6">
+                  Our expertise as an <strong>AI Development Company In Idaho</strong> encompasses machine learning, deep learning, natural language processing, 
+                  computer vision, and robotic process automation. We've successfully completed over 100 AI projects, making US the most 
+                  Trusted <strong>AI Service In Idaho</strong> from the Naroda industrial Area to the Aleutian Islands.
+                </p>
+                <div className="grid grid-cols-2 gap-6 mt-8">
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                      <Award className="w-6 h-6 text-primary-orange" />
+                    </div>
+                    <div className="font-bold text-xl text-gray-900">2020</div>
+                    <div className="text-gray-600 text-sm">Founded</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                      <Users className="w-6 h-6 text-primary-orange" />
+                    </div>
+                    <div className="font-bold text-xl text-gray-900">50+</div>
+                    <div className="text-gray-600 text-sm">AI Experts Team</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                      <Target className="w-6 h-6 text-primary-orange" />
+                    </div>
+                    <div className="font-bold text-xl text-gray-900">100%</div>
+                    <div className="text-gray-600 text-sm">Success Rate</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                      <Shield className="w-6 h-6 text-primary-orange" />
+                    </div>
+                    <div className="font-bold text-xl text-gray-900">24/7</div>
+                    <div className="text-gray-600 text-sm">Support Available</div>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="space-y-6">
+                <div className="bg-white rounded-xl p-6 shadow-sm">
+                  <h3 className="font-bold text-lg mb-3 flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
+                    AI Consulting & Strategy
+                  </h3>
+                  <p className="text-gray-600">
+                    Expert AI consulting services to help Idaho businesses identify AI opportunities and develop comprehensive implementation strategies.
+                  </p>
+                </div>
+                
+                <div className="bg-white rounded-xl p-6 shadow-sm">
+                  <h3 className="font-bold text-lg mb-3 flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
+                    custom AI Development
+                  </h3>
+                  <p className="text-gray-600">
+                    Bespoke artificial intelligence solutions tailored to your specific business requirements and Industry challenges In Idaho.
+                  </p>
+                </div>
+                
+                <div className="bg-white rounded-xl p-6 shadow-sm">
+                  <h3 className="font-bold text-lg mb-3 flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
+                    Enterprise AI Integration
+                  </h3>
+                  <p className="text-gray-600">
+                    Seamless integration of AI technologies into existing business processes with minimal disruption and maximum efficiency gains.
+                  </p>
+                </div>
+                
+                <div className="bg-white rounded-xl p-6 shadow-sm">
+                  <h3 className="font-bold text-lg mb-3 flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
+                    Ongoing AI Support
+                  </h3>
+                  <p className="text-gray-600">
+                    Comprehensive support and maintenance services ensuring your AI solutions continue to deliver optimal performance and ROI.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Industries Section with Real Images */}
       <section className="py-20 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Industries We Serve in Idaho
+                Industries We Serve In Idaho
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Delivering specialized AI solutions across Idaho's key industries and business sectors.
+                Delivering specialized AI solutions across Idaho's key Industries and business sectors.
               </p>
             </div>
             
-            <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-4">
-              {industries.map((industry, index) => (
-                <div key={index} className="bg-white rounded-lg p-4 text-center shadow-sm hover:shadow-md transition-shadow">
-                  <div className="w-8 h-8 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
-                    <Target className="w-4 h-4 text-primary-orange" />
-                  </div>
-                  <h3 className="font-medium text-gray-800">{industry}</h3>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Ultra-Creative Why Choose Us Section - Dark Theme */}
-      <section className="py-24 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 relative overflow-hidden">
-        {/* Advanced Background Effects */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          {/* Circuit Pattern */}
-          <div className="absolute inset-0 opacity-[0.03]" style={{
-            backgroundImage: `linear-gradient(#FF6B35 1px, transparent 1px), linear-gradient(90deg, #FF6B35 1px, transparent 1px)`,
-            backgroundSize: '50px 50px'
-          }}></div>
-          
-          {/* Floating Orbs */}
-          <div className="absolute top-20 left-20 w-64 h-64 bg-primary-orange/8 rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute bottom-20 right-20 w-96 h-96 bg-blue-500/8 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-purple-500/8 rounded-full blur-2xl animate-pulse" style={{animationDelay: '1s'}}></div>
-        </div>
-        
-        <div className="container px-4 md:px-6 relative z-10">
-          <div className="max-w-7xl mx-auto">
-            {/* Enhanced Section Header */}
-            <div className="text-center mb-20">
-              <div className="inline-flex items-center gap-2 px-6 py-3 bg-gray-800/50 backdrop-blur-sm rounded-full border-2 border-primary-orange/20 mb-8">
-                <Trophy className="w-5 h-5 text-primary-orange animate-pulse" />
-                <span className="text-sm font-bold text-orange-300">WHY CHOOSE US</span>
-              </div>
-              
-              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-white">
-                Why Idaho Businesses Choose 
-                <br />
-                <span className="bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange bg-clip-text text-transparent">
-                  Metic.ai
-                </span>
-              </h2>
-              <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange mx-auto mb-8 rounded-full"></div>
-              <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-                Trusted by businesses across Idaho for our expertise, results, and commitment to transforming the Gem State's digital landscape
-              </p>
-            </div>
-            
-            {/* Enhanced Feature Cards */}
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {[
-                {
-                  icon: Award,
-                  title: "Proven Expertise",
-                  description: "Years of experience delivering AI solutions for Idaho businesses across all industries.",
-                  color: "from-blue-500 to-blue-600",
-                  delay: "0s"
-                },
-                {
-                  icon: TrendingUp,
-                  title: "Measurable Results", 
-                  description: "Data-driven AI solutions that deliver concrete ROI and business growth for ID companies.",
-                  color: "from-green-500 to-green-600",
-                  delay: "0.2s"
-                },
-                {
-                  icon: Users,
-                  title: "Local Partnership",
-                  description: "Dedicated support and partnership with deep understanding of the Idaho business landscape.",
-                  color: "from-purple-500 to-purple-600", 
-                  delay: "0.4s"
-                },
-                {
-                  icon: Shield,
-                  title: "Enterprise Security",
-                  description: "Bank-level security and compliance standards protecting your Idaho business data.",
-                  color: "from-orange-500 to-orange-600",
-                  delay: "0.6s"
-                }
-              ].map((feature, index) => {
-                const IconComponent = feature.icon;
-                return (
-                  <div key={index} className="group relative" style={{animationDelay: feature.delay}}>
-                    {/* Card Container */}
-                    <div className="relative bg-gray-800/40 backdrop-blur-xl rounded-2xl p-8 border-2 border-gray-700/50 hover:border-primary-orange/50 transition-all duration-500 transform hover:-translate-y-4 hover:scale-105 overflow-hidden">
-                      {/* Gradient Overlay */}
-                      <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-orange-400/0 group-hover:from-primary-orange/10 group-hover:to-orange-400/10 transition-all duration-500 rounded-2xl"></div>
-                      
-                      {/* Enhanced Icon */}
-                      <div className="relative mb-6 text-center">
-                        <div className="absolute inset-0 bg-gradient-to-br opacity-0 group-hover:opacity-30 transition-opacity duration-500 rounded-2xl blur-xl" style={{
-                          background: `linear-gradient(135deg, ${feature.color.includes('blue') ? '#3B82F6, #2563EB' : 
-                                     feature.color.includes('green') ? '#10B981, #059669' :
-                                     feature.color.includes('purple') ? '#8B5CF6, #7C3AED' : '#F97316, #EA580C'})`
-                        }}></div>
-                        <div className={`relative w-20 h-20 mx-auto rounded-2xl flex items-center justify-center bg-gradient-to-br ${feature.color} shadow-xl group-hover:scale-110 group-hover:rotate-12 transition-all duration-500`}>
-                          <IconComponent className="w-10 h-10 text-white" />
-                        </div>
-                      </div>
-                      
-                      {/* Content */}
-                      <div className="relative z-10 text-center">
-                        <h3 className="text-2xl font-bold mb-4 text-white group-hover:text-primary-orange transition-colors duration-300">
-                          {feature.title}
-                        </h3>
-                        <p className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors duration-300">
-                          {feature.description}
-                        </p>
-                      </div>
-                      
-                      {/* Bottom Accent */}
-                      <div className={`absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r ${feature.color} transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 rounded-b-2xl`}></div>
-                      
-                      {/* Corner Glow Effect */}
-                      <div className="absolute top-0 right-0 w-16 h-16 bg-gradient-to-bl from-primary-orange/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-tr-2xl"></div>
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-
-            {/* Enhanced Bottom CTA */}
-            <div className="mt-20 text-center">
-              <div className="bg-gradient-to-r from-primary-orange/10 to-orange-600/10 backdrop-blur-sm rounded-3xl p-12 border border-primary-orange/20">
-                <div className="flex justify-center mb-6">
-                  <div className="relative">
-                    <div className="absolute inset-0 bg-primary-orange/20 rounded-full blur-lg animate-pulse"></div>
-                    <div className="relative w-16 h-16 bg-gradient-to-br from-primary-orange to-orange-600 rounded-full flex items-center justify-center">
-                      <Rocket className="w-8 h-8 text-white" />
-                    </div>
-                  </div>
-                </div>
-                <h3 className="text-3xl font-bold text-white mb-4">Ready to Transform Your Idaho Business?</h3>
-                <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-                  Join Boise's leading companies who trust Metic.ai for their AI transformation
-                </p>
-                <Link href="/contact">
-                  <Button variant="primary" size="lg" className="bg-gradient-to-r from-primary-orange to-orange-600 hover:from-orange-600 hover:to-primary-orange transition-all duration-300 transform hover:scale-105 shadow-xl">
-                    Start Your AI Journey Today
-                    <ArrowRight className="w-5 h-5 ml-2" />
-                  </Button>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Comprehensive Idaho AI Revolution Content - 2000+ Words */}
-      <section className="py-24 bg-gradient-to-br from-gray-50 to-white relative overflow-hidden">
-        {/* Subtle Background Pattern */}
-        <div className="absolute inset-0 opacity-[0.02]" style={{
-          backgroundImage: `radial-gradient(circle at 25px 25px, #FF6B35 2px, transparent 2px)`,
-          backgroundSize: '50px 50px'
-        }}></div>
-        
-        <div className="container px-4 md:px-6 relative z-10">
-          <div className="max-w-7xl mx-auto">
-            {/* Main Section Header */}
-            <div className="text-center mb-20">
-              <div className="inline-flex items-center gap-3 px-8 py-4 bg-white rounded-full shadow-xl border-2 border-primary-orange/20 mb-8">
-                <Globe className="w-6 h-6 text-primary-orange animate-pulse" />
-                <span className="text-lg font-bold text-gray-800">IDAHO AI REVOLUTION</span>
-                <Sparkles className="w-5 h-5 text-primary-orange" />
-              </div>
-              
-              <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-8 text-gray-900 leading-tight">
-                <span className="text-gray-900">The</span>
-                <br />
-                <span className="bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange bg-clip-text text-transparent">
-                  Idaho AI Revolution
-                </span>
-                <br />
-                <span className="text-gray-900">Transforming the Gem State</span>
-              </h2>
-              <div className="w-40 h-2 bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange mx-auto mb-12 rounded-full"></div>
-              <p className="text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
-                From Boise's emerging tech corridors to the agricultural heartlands, artificial intelligence is reshaping Idaho's economy, 
-                driving innovation across industries, and positioning the Gem State as a leader in technology adoption and digital transformation.
-              </p>
-            </div>
-
-            {/* Boise Tech Renaissance */}
-            <div className="mb-20">
-              <div className="grid lg:grid-cols-2 gap-16 items-center">
-                <div>
-                  <div className="flex items-start gap-4 mb-8">
-                    <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-orange-600 rounded-2xl flex items-center justify-center shadow-xl flex-shrink-0">
-                      <Building className="w-8 h-8 text-white" />
-                    </div>
-                    <div>
-                      <h3 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-tight">
-                        Boise's <span className="text-primary-orange">Tech Renaissance</span>
-                      </h3>
-                      <div className="w-24 h-1 bg-gradient-to-r from-primary-orange to-orange-600 rounded-full"></div>
-                    </div>
-                  </div>
-                  
-                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                    As the leading <strong className="text-gray-900 bg-blue-50 px-2 py-1 rounded">AI Company In Idaho</strong>, Metic.ai stands at the forefront 
-                    of Boise's technological transformation. The city's downtown core has evolved into a thriving innovation ecosystem, where startups, 
-                    established tech companies, and forward-thinking traditional businesses converge to harness the power of artificial intelligence.
-                  </p>
-                  
-                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                    Boise's unique position as a technology hub outside traditional Silicon Valley markets has created unprecedented opportunities for 
-                    <strong className="text-primary-orange font-semibold"> AI Service In Idaho</strong> providers. Our comprehensive solutions serve everyone from 
-                    emerging fintech companies in the Boise River District to established healthcare providers across the Treasure Valley, 
-                    demonstrating that innovation knows no geographical boundaries.
-                  </p>
-
-                  <div className="bg-gradient-to-r from-primary-orange/10 via-white to-orange-600/10 rounded-2xl p-8 border-2 border-primary-orange/20 shadow-xl">
-                    <h4 className="text-xl font-bold text-gray-900 mb-6 flex items-center gap-3">
-                      <TrendingUp className="w-6 h-6 text-primary-orange" />
-                      Boise AI Innovation Metrics
-                    </h4>
-                    <div className="grid md:grid-cols-2 gap-6">
-                      <div className="space-y-4">
-                        <div className="flex items-center justify-between p-4 bg-white rounded-lg shadow-sm">
-                          <span className="text-gray-600 font-medium">Tech Companies Adopting AI</span>
-                          <span className="font-bold text-primary-orange text-lg">85%</span>
-                        </div>
-                        <div className="flex items-center justify-between p-4 bg-white rounded-lg shadow-sm">
-                          <span className="text-gray-600 font-medium">AI Job Growth (2024)</span>
-                          <span className="font-bold text-primary-orange text-lg">340%</span>
-                        </div>
-                      </div>
-                      <div className="space-y-4">
-                        <div className="flex items-center justify-between p-4 bg-white rounded-lg shadow-sm">
-                          <span className="text-gray-600 font-medium">AI Investment Capital</span>
-                          <span className="font-bold text-primary-orange text-lg">$127M</span>
-                        </div>
-                        <div className="flex items-center justify-between p-4 bg-white rounded-lg shadow-sm">
-                          <span className="text-gray-600 font-medium">Startups Using AI</span>
-                          <span className="font-bold text-primary-orange text-lg">78%</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
-                <div className="space-y-8">
-                  <div className="bg-white rounded-2xl p-8 shadow-xl border border-blue-100">
-                    <div className="flex items-center gap-4 mb-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center">
-                        <Code className="w-6 h-6 text-white" />
-                      </div>
-                      <h5 className="font-bold text-gray-900 text-lg">Fintech AI Integration</h5>
-                    </div>
-                    <p className="text-gray-600 text-sm leading-relaxed">
-                      Idaho's growing fintech sector leverages AI for fraud detection, algorithmic trading, and customer service automation, 
-                      positioning Boise as a competitive alternative to traditional financial centers.
-                    </p>
-                    <div className="mt-4 flex items-center justify-between">
-                      <span className="text-xs text-gray-500">Efficiency Increase</span>
-                      <span className="text-primary-orange font-bold">240%</span>
-                    </div>
-                  </div>
-                  
-                  <div className="bg-white rounded-2xl p-8 shadow-xl border border-green-100">
-                    <div className="flex items-center gap-4 mb-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-xl flex items-center justify-center">
-                        <Database className="w-6 h-6 text-white" />
-                      </div>
-                      <h5 className="font-bold text-gray-900 text-lg">Healthcare AI Adoption</h5>
-                    </div>
-                    <p className="text-gray-600 text-sm leading-relaxed">
-                      Saint Alphonsus, St. Luke's, and other Idaho healthcare providers implement AI-driven diagnostics, 
-                      patient management systems, and predictive analytics to improve care quality and operational efficiency.
-                    </p>
-                    <div className="mt-4 flex items-center justify-between">
-                      <span className="text-xs text-gray-500">Patient Outcomes Improvement</span>
-                      <span className="text-green-600 font-bold">32%</span>
-                    </div>
-                  </div>
-                  
-                  <div className="bg-white rounded-2xl p-8 shadow-xl border border-purple-100">
-                    <div className="flex items-center gap-4 mb-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center">
-                        <Rocket className="w-6 h-6 text-white" />
-                      </div>
-                      <h5 className="font-bold text-gray-900 text-lg">Manufacturing Intelligence</h5>
-                    </div>
-                    <p className="text-gray-600 text-sm leading-relaxed">
-                      Micron Technology and other Idaho manufacturers integrate AI for predictive maintenance, 
-                      quality control, and supply chain optimization, driving Industry 4.0 transformation.
-                    </p>
-                    <div className="mt-4 flex items-center justify-between">
-                      <span className="text-xs text-gray-500">Production Optimization</span>
-                      <span className="text-purple-600 font-bold">45%</span>
-                    </div>
+            {/* Mobile: 1 col, Tablet: 2 cols, Desktop: 4 cols - 12 Industries Total */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              {/* Manufacturing */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&h=400&fit=crop" 
+                    alt="Manufacturing Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Manufacturing</h3>
                   </div>
                 </div>
               </div>
-            </div>
 
-            {/* Agricultural AI Revolution */}
-            <div className="mb-20">
-              <div className="space-y-8">
-                <div className="flex items-start gap-4">
-                  <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-orange-600 rounded-2xl flex items-center justify-center shadow-xl flex-shrink-0">
-                    <Sparkles className="w-8 h-8 text-white" />
-                  </div>
-                  <div>
-                    <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
-                      Agricultural AI Revolution: <span className="text-primary-orange">Precision Farming 2.0</span>
-                    </h3>
-                    <div className="w-24 h-1 bg-gradient-to-r from-primary-orange to-orange-600 rounded-full"></div>
-                  </div>
-                </div>
-                
-                <p className="text-lg text-gray-700 leading-relaxed">
-                  Idaho's agricultural sector, contributing over $7.8 billion annually to the state economy, undergoes unprecedented transformation through 
-                  artificial intelligence. As the <strong className="text-gray-900 bg-orange-50 px-2 py-1 rounded">Best AI Company In Idaho</strong> 
-                  serving agricultural enterprises, Metic.ai pioneered AI applications that revolutionize farming practices across the state's 
-                  11.8 million acres of farmland.
-                </p>
-                
-                <p className="text-lg text-gray-700 leading-relaxed">
-                  From potato farming in Eastern Idaho to wheat cultivation in the Palouse region, our <strong className="text-primary-orange font-semibold">AI Development Company In Idaho</strong> 
-                  solutions optimize crop yields, reduce resource consumption, and enhance sustainability. Idaho farmers now leverage computer vision 
-                  for crop monitoring, machine learning for weather prediction, and IoT integration for precision irrigation, positioning the state 
-                  as a global leader in agricultural technology innovation.
-                </p>
-
-                {/* Agricultural AI Success Stories */}
-                <div className="grid md:grid-cols-3 gap-8 mt-12">
-                  <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-6 border border-orange-200">
-                    <div className="text-center mb-4">
-                      <div className="text-3xl font-bold text-primary-orange">89%</div>
-                      <div className="text-sm text-gray-600">Water Usage Reduction</div>
-                    </div>
-                    <h4 className="font-bold text-gray-900 mb-2">Smart Irrigation Systems</h4>
-                    <p className="text-sm text-gray-600">
-                      AI-powered irrigation optimization reducing water consumption while maintaining crop yields across 
-                      50,000+ acres of Idaho farmland.
-                    </p>
-                  </div>
-                  
-                  <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-6 border border-orange-200">
-                    <div className="text-center mb-4">
-                      <div className="text-3xl font-bold text-primary-orange">45%</div>
-                      <div className="text-sm text-gray-600">Yield Increase</div>
-                    </div>
-                    <h4 className="font-bold text-gray-900 mb-2">Precision Agriculture</h4>
-                    <p className="text-sm text-gray-600">
-                      Computer vision and satellite imagery analysis optimizing planting patterns, fertilizer application, 
-                      and harvest timing across Idaho's diverse agricultural regions.
-                    </p>
-                  </div>
-                  
-                  <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-6 border border-orange-200">
-                    <div className="text-center mb-4">
-                      <div className="text-3xl font-bold text-orange-600">67%</div>
-                      <div className="text-sm text-gray-600">Pest Detection Accuracy</div>
-                    </div>
-                    <h4 className="font-bold text-gray-900 mb-2">Crop Health Monitoring</h4>
-                    <p className="text-sm text-gray-600">
-                      Machine learning algorithms detecting diseases and pest infestations early, enabling targeted 
-                      interventions and reducing chemical usage.
-                    </p>
+              {/* Aerospace */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?w=500&h=400&fit=crop" 
+                    alt="Aerospace Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Aerospace</h3>
                   </div>
                 </div>
               </div>
-            </div>
 
-            {/* Idaho AI Industry Matrix */}
-            <div>
-              <div className="text-center mb-16">
-                <div className="inline-flex items-center gap-2 px-6 py-3 bg-white rounded-full shadow-xl border-2 border-primary-orange/20 mb-8">
-                  <BarChart3 className="w-5 h-5 text-primary-orange" />
-                  <span className="text-sm font-bold text-gray-800">INDUSTRY TRANSFORMATION</span>
-                </div>
-                
-                <h3 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
-                  <span className="bg-gradient-to-r from-primary-orange to-orange-600 bg-clip-text text-transparent">
-                    Idaho AI Industry Matrix
-                  </span>
-                </h3>
-                <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-orange-600 mx-auto mb-8 rounded-full"></div>
-                <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-                  Comprehensive AI transformation across Idaho's key economic sectors, driving innovation and competitiveness
-                </p>
-              </div>
-
-              {/* Industry Matrix Grid */}
-              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {[
-                  {
-                    industry: "Technology & Software",
-                    icon: Code,
-                    color: "from-blue-500 to-blue-600",
-                    applications: ["AI-Powered SaaS Platforms", "Machine Learning APIs", "Automated Code Generation"],
-                    impact: "200% development speed increase",
-                    companies: "150+ tech companies"
-                  },
-                  {
-                    industry: "Healthcare & Life Sciences", 
-                    icon: Shield,
-                    color: "from-red-500 to-red-600",
-                    applications: ["Medical Imaging AI", "Drug Discovery Acceleration", "Patient Care Optimization"],
-                    impact: "40% diagnostic accuracy improvement",
-                    companies: "25+ healthcare providers"
-                  },
-                  {
-                    industry: "Agriculture & Food Processing",
-                    icon: Sparkles,
-                    color: "from-green-500 to-green-600", 
-                    applications: ["Crop Yield Prediction", "Quality Control Automation", "Supply Chain Optimization"],
-                    impact: "35% operational efficiency gain",
-                    companies: "200+ agricultural businesses"
-                  },
-                  {
-                    industry: "Manufacturing & Semiconductors",
-                    icon: Zap,
-                    color: "from-purple-500 to-purple-600",
-                    applications: ["Predictive Maintenance", "Quality Assurance AI", "Production Optimization"],
-                    impact: "28% reduction in downtime",
-                    companies: "80+ manufacturing facilities"
-                  },
-                  {
-                    industry: "Financial Services",
-                    icon: TrendingUp,
-                    color: "from-orange-500 to-orange-600",
-                    applications: ["Fraud Detection Systems", "Algorithmic Trading", "Customer Service Automation"],
-                    impact: "90% fraud prevention accuracy",
-                    companies: "45+ financial institutions"
-                  },
-                  {
-                    industry: "Energy & Natural Resources",
-                    icon: Target,
-                    color: "from-indigo-500 to-indigo-600",
-                    applications: ["Smart Grid Management", "Resource Exploration AI", "Environmental Monitoring"],
-                    impact: "25% energy efficiency improvement",
-                    companies: "30+ energy companies"
-                  }
-                ].map((sector, index) => {
-                  const IconComponent = sector.icon;
-                  return (
-                    <div key={index} className="group">
-                      <div className="bg-white rounded-2xl p-8 shadow-xl border border-gray-100 hover:border-primary-orange/30 transition-all duration-300 hover:transform hover:-translate-y-2">
-                        <div className="flex items-center gap-4 mb-6">
-                          <div className={`w-14 h-14 bg-gradient-to-br ${sector.color} rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform`}>
-                            <IconComponent className="w-7 h-7 text-white" />
-                          </div>
-                          <h4 className="font-bold text-gray-900 text-lg leading-tight">{sector.industry}</h4>
-                        </div>
-                        
-                        <div className="space-y-4 mb-6">
-                          <div>
-                            <h5 className="font-semibold text-gray-700 mb-2">Key Applications:</h5>
-                            <ul className="space-y-1">
-                              {sector.applications.map((app, idx) => (
-                                <li key={idx} className="text-sm text-gray-600 flex items-center gap-2">
-                                  <div className="w-1.5 h-1.5 bg-primary-orange rounded-full"></div>
-                                  {app}
-                                </li>
-                              ))}
-                            </ul>
-                          </div>
-                        </div>
-                        
-                        <div className="border-t border-gray-100 pt-4">
-                          <div className="flex justify-between items-center mb-2">
-                            <span className="text-xs text-gray-500">Impact:</span>
-                            <span className="text-sm font-bold text-primary-orange">{sector.impact}</span>
-                          </div>
-                          <div className="flex justify-between items-center">
-                            <span className="text-xs text-gray-500">Served:</span>
-                            <span className="text-sm font-bold text-gray-700">{sector.companies}</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
-
-            {/* Future Vision Section */}
-            <div className="mt-20 bg-gradient-to-br from-gray-900 to-gray-800 rounded-3xl p-12 text-white relative overflow-hidden">
-              <div className="absolute inset-0 opacity-10">
-                <div className="absolute top-10 right-10 w-32 h-32 bg-primary-orange rounded-full blur-3xl animate-pulse"></div>
-                <div className="absolute bottom-10 left-10 w-24 h-24 bg-blue-500 rounded-full blur-2xl animate-pulse" style={{animationDelay: '1s'}}></div>
-              </div>
-              
-              <div className="relative z-10">
-                <div className="text-center mb-12">
-                  <div className="inline-flex items-center gap-2 px-6 py-3 bg-gray-800 rounded-full mb-6">
-                    <Rocket className="w-5 h-5 text-primary-orange" />
-                    <span className="text-sm font-bold text-orange-300">FUTURE VISION</span>
-                  </div>
-                  
-                  <h3 className="text-3xl md:text-4xl font-bold mb-4">
-                    Idaho 2030: <span className="text-primary-orange">AI Capital of the Mountain West</span>
-                  </h3>
-                  <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-                    Positioning Idaho as the premier destination for AI innovation, talent, and investment in the American West
-                  </p>
-                </div>
-
-                <div className="grid md:grid-cols-3 gap-8">
-                  <div className="text-center">
-                    <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-orange-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                      <Award className="w-8 h-8 text-white" />
-                    </div>
-                    <h4 className="font-bold text-white mb-2">AI Research Hub</h4>
-                    <p className="text-gray-300 text-sm">
-                      Establishing Idaho as a leading AI research destination with university partnerships and innovation centers
-                    </p>
-                  </div>
-                  
-                  <div className="text-center">
-                    <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                      <Users className="w-8 h-8 text-white" />
-                    </div>
-                    <h4 className="font-bold text-white mb-2">Talent Pipeline</h4>
-                    <p className="text-gray-300 text-sm">
-                      Developing world-class AI talent through education partnerships and workforce development programs
-                    </p>
-                  </div>
-                  
-                  <div className="text-center">
-                    <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                      <Globe className="w-8 h-8 text-white" />
-                    </div>
-                    <h4 className="font-bold text-white mb-2">Global Recognition</h4>
-                    <p className="text-gray-300 text-sm">
-                      Establishing Idaho's reputation as an innovative, AI-forward state attracting international investment
-                    </p>
+              {/* Healthcare */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=500&h=400&fit=crop" 
+                    alt="Healthcare Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Healthcare</h3>
                   </div>
                 </div>
-                
-                <div className="mt-12 text-center">
-                  <p className="text-lg text-gray-300 mb-6">
-                    Partner with <strong className="text-primary-orange">Metic.ai</strong> to be part of Idaho's AI transformation story
-                  </p>
-                  <Link href="/contact">
-                    <Button variant="primary" size="lg" className="bg-primary-orange hover:bg-orange-600 transition-colors">
-                      Join the Idaho AI Revolution
-                      <ArrowRight className="w-5 h-5 ml-2" />
-                    </Button>
-                  </Link>
+              </div>
+
+              {/* Agriculture */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=500&h=400&fit=crop" 
+                    alt="Agriculture Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Agriculture</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Technology */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&h=400&fit=crop" 
+                    alt="Technology Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Technology</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Automotive */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=500&h=400&fit=crop" 
+                    alt="Automotive Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Automotive</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Financial Services */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=500&h=400&fit=crop" 
+                    alt="Financial Services Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Financial Services</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Transportation */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=500&h=400&fit=crop" 
+                    alt="Transportation Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Transportation</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Education */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=500&h=400&fit=crop" 
+                    alt="Education Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Education</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Energy */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=500&h=400&fit=crop" 
+                    alt="Energy Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Energy</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Call Center - NEW */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=500&h=400&fit=crop" 
+                    alt="Call Center AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Call Center</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* IT Services - NEW */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=500&h=400&fit=crop" 
+                    alt="IT Services AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">IT Services</h3>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+
+      {/* Why Choose US Section */}
       <section className="py-20 bg-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
-            <div className="grid lg:grid-cols-2 gap-16 items-center">
-              <div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                  Premier <span className="text-primary-orange">Artificial Intelligence Company In Idaho</span>
-                </h2>
-                <div className="w-20 h-1 bg-primary-orange mb-8"></div>
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                Why Choose Metic.ai as Your <span className="text-primary-orange">AI Firm In Idaho</span>
+              </h2>
+              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                As the premier <strong>AI Development Company In Idaho</strong>, we're Trusted by businesses across Idaho 
+                for our expertise, proven results, and commitment to client success US Manchester of United States.
+              </p>
+            </div>
+            
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+                  <Award className="w-8 h-8 text-blue-600" />
+                </div>
+                <h3 className="text-xl font-bold mb-4">Proven Expertise</h3>
+                <p className="text-gray-600">Years of experience delivering AI solutions for Idaho businesses across all Industries.</p>
+              </div>
+              
+              <div className="text-center">
+                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+                  <TrendingUp className="w-8 h-8 text-green-600" />
+                </div>
+                <h3 className="text-xl font-bold mb-4">Measurable Results</h3>
+                <p className="text-gray-600">Data-driven AI solutions that deliver concrete ROI and business growth for Idaho companies.</p>
+              </div>
+              
+              <div className="text-center">
+                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+                  <Users className="w-8 h-8 text-purple-600" />
+                </div>
+                <h3 className="text-xl font-bold mb-4">Local Partnership</h3>
+                <p className="text-gray-600">Dedicated support and partnership with deep understanding of Idaho's unique business challenges and opportunities.</p>
+              </div>
+              
+              <div className="text-center">
+                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+                  <Shield className="w-8 h-8 text-orange-600" />
+                </div>
+                <h3 className="text-xl font-bold mb-4">Enterprise Security</h3>
+                <p className="text-gray-600">Bank-level security and compliance standards protecting your Idaho business data.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Comprehensive AI Services Idaho Content - 100% SEO Optimized */}
+      <section className="py-24 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            {/* Idaho AI Market Leadership - Enhanced Creative Header */}
+            <div className="text-center mb-20">
+              {/* Premium Badge with Animation */}
+              <div className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-full shadow-2xl border-2 border-primary-orange/30 mb-10 hover:border-primary-orange/50 transition-all group">
+                <div className="w-3 h-3 bg-primary-orange rounded-full animate-pulse"></div>
+                <span className="text-sm font-bold text-gray-800 tracking-wide">Manchester of United States AI INNOVATION</span>
+                <div className="w-3 h-3 bg-secondary-orange rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></div>
+              </div>
+
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight">
+                <span className="text-gray-900">Leading </span>
+                <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent animate-gradient">
+                  Artificial Intelligence Company In Idaho
+                </span>
+              </h2>
+              <div className="w-40 h-2 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-10 rounded-full shadow-lg"></div>
+              <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+                Transforming Idaho's Commercial Capital with cutting-edge AI solutions from Maninagar to Eagle, I-84 to the Naroda industrial Area
+              </p>
+            </div>
+
+            <div className="space-y-20">
+              {/* Idaho AI Innovation Hub - Premium Design */}
+              <div className="grid lg:grid-cols-2 gap-16 items-center">
+                <div className="order-2 lg:order-1">
+                  <div className="space-y-8">
+                    {/* Enhanced Heading with Creative Icon */}
+                    <div className="flex items-start gap-4">
+                      <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-xl flex-shrink-0 transform rotate-3 hover:rotate-0 transition-transform">
+                        <Brain className="w-8 h-8 text-white" />
+                      </div>
+                      <div>
+                        <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
+                          Idaho's <span className="text-primary-orange">Premier AI Technology Pioneer</span>
+                        </h3>
+                        <div className="w-24 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange rounded-full"></div>
+                      </div>
+                    </div>
+                    
+            <p className="text-lg text-gray-700 leading-relaxed">
+              As the leading <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Artificial Intelligence Company In Idaho</strong>, 
+              Metic.ai serves Manchester of United States with enterprise-grade AI solutions tailored to Idaho's unique economic 
+              landscape. From Maninagar's business hub to Eagle' research facilities, I-84's government sector to 
+              the textile mills of the Naroda industrial Area, we understand Idaho's entrepreneurial excellence and textile-driven Industries.
+            </p>
+            
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Our <strong className="text-primary-orange font-semibold">AI Company In Idaho</strong> combines deep understanding 
+              of Idaho's unique challenges with cutting-edge technology to deliver AI solutions that drive measurable 
+              results. We've successfully implemented AI across Idaho's key sectors including Textiles & Garments, fishing, 
+              tourism, Chemicals, Information Technology, and maritime Industries US Idaho's largest state.
+            </p>                    {/* Enhanced Feature Cards with Creative Design */}
+                    <div className="grid gap-6 mt-10">
+                      <div className="group bg-gradient-to-r from-primary-orange/5 via-white to-secondary-orange/5 p-6 rounded-2xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                        <div className="flex items-start gap-4">
+                          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary-orange to-secondary-orange flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
+                            <Rocket className="w-6 h-6 text-white" />
+                          </div>
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Textiles & Garments AI Excellence</h4>
+                            <p className="text-gray-600 leading-relaxed">
+                              Deep expertise with Idaho's Naroda industrial Area textile operations including major textile mills, 
+                              Idaho Metro, and energy infrastructure across Idaho's largest textile-manufacturing state.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div className="group bg-gradient-to-r from-secondary-orange/5 via-white to-primary-orange/5 p-6 rounded-2xl border-2 border-secondary-orange/20 hover:border-secondary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                        <div className="flex items-start gap-4">
+                          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-secondary-orange to-primary-orange flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
+                            <Shield className="w-6 h-6 text-white" />
+                          </div>
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Automotive Manufacturing Innovation</h4>
+                            <p className="text-gray-600 leading-relaxed">
+                              Advanced AI solutions for Idaho's automotive Industry including Mercedes-Benz, Honda, Hyundai, 
+                              and Toyota manufacturing facilities with predictive maintenance and quality control systems.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div className="group bg-gradient-to-r from-primary-orange/5 via-white to-secondary-orange/5 p-6 rounded-2xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                        <div className="flex items-start gap-4">
+                          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary-orange to-secondary-orange flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
+                            <Target className="w-6 h-6 text-white" />
+                          </div>
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Chemicals & Natural Resources AI</h4>
+                            <p className="text-gray-600 leading-relaxed">
+                              Specialized AI for Idaho's Chemicals operations and resource extraction including process optimization, 
+                              safety monitoring, and environmental compliance for Idaho's rich mineral deposits.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 
-                <div className="prose prose-gray max-w-none">
-                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                    As the leading <strong>AI Company In Idaho</strong>, Metic.ai has been transforming businesses across the Gem State since 2020. From the technology corridors of Boise to the agricultural innovation centers across rural Idaho, we've established ourselves as the go-to <strong>AI Service In Idaho</strong> provider for enterprises seeking cutting-edge artificial intelligence solutions.
+                {/* Enhanced Stats Dashboard with Creative Design */}
+                <div className="order-1 lg:order-2">
+                  <div className="bg-gradient-to-br from-orange-50 via-white to-amber-50 rounded-3xl p-10 border-2 border-primary-orange/20 shadow-2xl transform rotate-1 hover:rotate-0 transition-transform">
+                    <h4 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">
+                      Idaho AI Market Impact
+                    </h4>
+                    
+                    <div className="space-y-8">
+                      <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">?4.6T</div>
+                        <div className="text-sm text-gray-600 font-medium">Idaho Annual GDP</div>
+                        <div className="text-xs text-gray-500 mt-2">textile-driven Economy</div>
+                      </div>
+                      
+                      <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-secondary-orange/10 hover:border-secondary-orange/30 transition-all group transform hover:scale-105">
+                        <div className="text-5xl font-bold text-secondary-orange mb-3 group-hover:scale-110 transition-transform">8.4M</div>
+                        <div className="text-sm text-gray-600 font-medium">Idaho Population</div>
+                        <div className="text-xs text-gray-500 mt-2">Manchester of United States</div>
+                      </div>
+                      
+                      <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">2100+</div>
+                        <div className="text-sm text-gray-600 font-medium">Idaho AI Projects Completed</div>
+                        <div className="text-xs text-gray-500 mt-2">Industry-Leading Success Rate</div>
+                      </div>
+                      
+                      <div className="bg-gradient-to-r from-primary-orange/20 via-secondary-orange/10 to-primary-orange/20 rounded-2xl p-6 border-2 border-primary-orange/30 transform hover:scale-105 transition-transform">
+                        <div className="flex items-center gap-3 mb-3">
+                          <div className="w-8 h-8 bg-primary-orange rounded-full flex items-center justify-center">
+                            <CheckCircle className="w-5 h-5 text-white" />
+                          </div>
+                          <span className="font-bold text-gray-900">Idaho Advantage</span>
+                        </div>
+                        <p className="text-sm text-gray-700 leading-relaxed">
+                          <strong>Strategic Resources:</strong> Rich US oil, gas, fishing, and minerals with vast untapped 
+                          potential, making Idaho ideal for AI-driven resource optimization and predictive analytics.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Idaho Industry Solutions - Creative Premium Design */}
+              <div>
+                <div className="text-center mb-16">
+                  <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-full border-2 border-primary-orange/20 mb-8 transform hover:scale-105 transition-transform">
+                    <Sparkles className="w-5 h-5 text-primary-orange" />
+                    <span className="text-sm font-bold text-gray-800">Industry EXPERTISE</span>
+                  </div>
+                  <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                    AI Solutions for <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Idaho's Key Industries</span>
+                  </h3>
+                  <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 rounded-full"></div>
+                  <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Specialized AI solutions designed for Manchester of United States's unique economic sectors and textile-driven Industries
                   </p>
+                </div>
+                
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+                  {/* Textiles & Garments Industry */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                      <Rocket className="w-10 h-10 text-white" />
+                    </div>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Textiles & Garments AI Solutions</h4>
+                    <p className="text-gray-700 leading-relaxed mb-6">
+                      Mission-critical AI solutions for Idaho's Textiles & Garments Industry including Naroda industrial Area operations, 
+                      Idaho Metro monitoring, offshore drilling optimization, and predictive maintenance 
+                      for energy infrastructure across Manchester of United States's vast energy resources.
+                    </p>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Pipeline monitoring & optimization</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Drilling efficiency analysis</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Resource extraction prediction</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Safety & environmental compliance</span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Pharmaceuticals Industry */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                      <Shield className="w-10 h-10 text-white" />
+                    </div>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Pharmaceuticals AI</h4>
+                    <p className="text-gray-700 leading-relaxed mb-6">
+                      Advanced AI solutions for Idaho's fishing and seafood processing Industry with predictive catch 
+                      analytics, sINtainable fishing optimization, processing automation, cold chain monitoring, 
+                      and quality control for the world's richest seafood harvest.
+                    </p>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Catch prediction & optimization</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Processing automation</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Cold chain monitoring</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">SINtainable fishing intelligence</span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Tourism & Hospitality Industry */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div className="w-20 h-20 bg-gradient-to-br from-red-500 to-red-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                      <Target className="w-10 h-10 text-white" />
+                    </div>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Tourism & Hospitality AI</h4>
+                    <p className="text-gray-700 leading-relaxed mb-6">
+                      Intelligent AI solutions for Idaho's booming tourism Industry with cruise line optimization, 
+                      wildlife tour planning, hotel revenue management, visitor experience personalization, 
+                      and seasonal demand forecasting for Idaho's 2.5 million annual visitors.
+                    </p>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Revenue management systems</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Visitor experience personalization</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Seasonal demand forecasting</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Tour optimization & planning</span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Chemicals & Resource Extraction */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                      <Lightbulb className="w-10 h-10 text-white" />
+                    </div>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Chemicals & Resource AI</h4>
+                    <p className="text-gray-700 leading-relaxed mb-6">
+                      Advanced AI solutions for Idaho's Chemicals operations including gold, zinc, and mineral extraction 
+                      with predictive maintenance, safety monitoring, resource discovery optimization, 
+                      and environmental impact assessment across Idaho's vast mineral deposits.
+                    </p>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Resource discovery prediction</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Chemicals equipment automation</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Safety & compliance monitoring</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Environmental impact analysis</span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Information Technology & Logistics */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div className="w-20 h-20 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                      <Sparkles className="w-10 h-10 text-white" />
+                    </div>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Information Technology & Logistics AI</h4>
+                    <p className="text-gray-700 leading-relaxed mb-6">
+                      Intelligent AI solutions for Idaho's Information Technology and cargo logistics including bINh plane operations, 
+                      Ted Stevens Maninagar International Airport cargo hub, weather prediction for flight safety, 
+                      and supply chain optimization for remote Idaho communities.
+                    </p>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Flight route optimization</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Weather prediction systems</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Cargo logistics optimization</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Remote delivery planning</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* ReINable Testimonials Component */}
+              <Testimonials />
+
+              {/* Idaho AI Partnership Excellence - Creative Premium Design */}
+              <div className="grid lg:grid-cols-2 gap-16 items-center">
+                <div className="space-y-8">
+                  <div className="bg-white rounded-2xl p-8 shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all transform hover:scale-105">
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-3">
+                      <div className="w-8 h-8 bg-primary-orange rounded-lg flex items-center justify-center transform rotate-12">
+                        <BarChart3 className="w-5 h-5 text-white" />
+                      </div>
+                      Idaho AI Leadership Metrics
+                    </h4>
+                    <div className="space-y-6">
+                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                        <span className="text-gray-600 font-medium">Idaho Projects Completed</span>
+                        <span className="font-bold text-primary-orange text-xl">2100+</span>
+                      </div>
+                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                        <span className="text-gray-600 font-medium">Industry Success Rate</span>
+                        <span className="font-bold text-secondary-orange text-xl">99.5%</span>
+                      </div>
+                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                        <span className="text-gray-600 font-medium">Average ROI for Idaho Clients</span>
+                        <span className="font-bold text-primary-orange text-xl">5.2x</span>
+                      </div>
+                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                        <span className="text-gray-600 font-medium">Client Retention Rate</span>
+                        <span className="font-bold text-secondary-orange text-xl">97%</span>
+                      </div>
+                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                        <span className="text-gray-600 font-medium">Average Deployment Time</span>
+                        <span className="font-bold text-primary-orange text-xl">28 Days</span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-2xl p-8 border-2 border-primary-orange/20 shadow-xl transform hover:scale-105 transition-transform">
+                    <div className="flex items-start gap-4 mb-4">
+                      <div className="w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center flex-shrink-0 transform -rotate-6">
+                        <Award className="w-6 h-6 text-white" />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Idaho business Advantage</h4>
+                        <p className="text-gray-700 leading-relaxed">
+                          As the premier <strong className="text-primary-orange">AI Firm In Idaho</strong>, we understand 
+                          Manchester of United States's unique blend of entrepreneurial excellence and resource-driven innovation. Our AI solutions 
+                          are built for Idaho's Textiles & Garments dominance, fishing Industry leadership, and tourism growth.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div>
+                  <div className="flex items-start gap-4 mb-8">
+                    <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-xl flex-shrink-0 transform rotate-6 hover:rotate-0 transition-transform">
+                      <Users className="w-8 h-8 text-white" />
+                    </div>
+                    <div>
+                      <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
+                        Your Trusted <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">AI Partner In Idaho</span>
+                      </h3>
+                      <div className="w-24 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange rounded-full mb-6"></div>
+                    </div>
+                  </div>
                   
                   <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                    Our <strong>AI Firm In Idaho</strong> specializes in serving the unique needs of Idaho's diverse economy. Whether you're a tech company in Boise's downtown core, an agricultural enterprise leveraging precision farming technology, or a healthcare organization in Idaho Falls, our <strong>AI Development Company In Idaho</strong> delivers tailored solutions that drive measurable results.
+                    <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Choosing Metic.ai as your AI partner In Idaho</strong> means 
+                    working with a team that deeply understands Idaho's unique business challenges, from Maninagar's 
+                    commercial hub to Eagle' research facilities and I-84's government operations.
                   </p>
                   
                   <p className="text-lg text-gray-700 leading-relaxed mb-8">
-                    With deep roots in Idaho's business ecosystem, we understand the challenges and opportunities that define the Gem State. Our team combines global AI expertise with local market knowledge, making us the <strong>Best AI Company In Idaho</strong> for businesses ready to embrace the future of technology while maintaining the values of reliability and innovation that Idaho businesses are known for.
+                    Our <strong className="text-primary-orange font-semibold">AI Service In Idaho</strong> includes comprehensive consultation, 
+                    rapid prototyping, enterprise deployment, and 24/7 support to ensure your AI investment delivers 
+                    maximum value In Idaho's textile-driven and growing economy.
                   </p>
-                </div>
-              </div>
-              
-              <div className="lg:pl-8">
-                <div className="grid grid-cols-2 gap-8 mb-8">
-                  <div className="text-center">
-                    <div className="text-2xl font-bold text-primary-orange mb-2">2100+</div>
-                    <div className="text-gray-600">AI Projects Delivered</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-2xl font-bold text-primary-orange mb-2">35+</div>
-                    <div className="text-gray-600">Idaho Clients Served</div>
-                  </div>
-                </div>
-                
-                <div className="space-y-6">
-                  <div className="flex items-start gap-4">
-                    <div className="flex-shrink-0">
-                      <div className="w-3 h-3 bg-primary-orange rounded-full"></div>
+
+                  <div className="space-y-6">
+                    <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-primary-orange/10 transform hover:scale-105 transition-transform">
+                      <MapPin className="w-8 h-8 text-primary-orange flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Comprehensive Idaho Coverage</h4>
+                        <p className="text-gray-600 leading-relaxed">
+                          Maninagar, Eagle, I-84, Boise, Chandkheda, Nampa, Caldwell, Ghatlodia, 
+                          GIFT City, and all major Idaho business centers across Manchester of United States
+                        </p>
+                      </div>
                     </div>
-                    <div>
-                      <h4 className="font-semibold text-gray-900 mb-1">Boise Tech Corridor Expertise</h4>
-                      <p className="text-gray-600 text-sm">Deep understanding of Boise's emerging technology landscape and startup ecosystem</p>
+                    
+                    <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-secondary-orange/10 transform hover:scale-105 transition-transform">
+                      <Rocket className="w-8 h-8 text-secondary-orange flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Industry Domain Expertise</h4>
+                        <p className="text-gray-600 leading-relaxed">
+                          Deep understanding of Textiles & Garments, fishing, tourism, Chemicals, Information Technology, and logistics 
+                          with proven track record In Idaho's key economic sectors
+                        </p>
+                      </div>
                     </div>
-                  </div>
-                  
-                  <div className="flex items-start gap-4">
-                    <div className="flex-shrink-0">
-                      <div className="w-3 h-3 bg-primary-orange rounded-full"></div>
-                    </div>
-                    <div>
-                      <h4 className="font-semibold text-gray-900 mb-1">Agriculture Technology Innovation</h4>
-                      <p className="text-gray-600 text-sm">Specialized AI solutions for Idaho's agricultural sector including precision farming and crop optimization</p>
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-start gap-4">
-                    <div className="flex-shrink-0">
-                      <div className="w-3 h-3 bg-primary-orange rounded-full"></div>
-                    </div>
-                    <div>
-                      <h4 className="font-semibold text-gray-900 mb-1">Manufacturing & Semiconductor Support</h4>
-                      <p className="text-gray-600 text-sm">AI implementations for Idaho's growing manufacturing and semiconductor industries</p>
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-start gap-4">
-                    <div className="flex-shrink-0">
-                      <div className="w-3 h-3 bg-primary-orange rounded-full"></div>
-                    </div>
-                    <div>
-                      <h4 className="font-semibold text-gray-900 mb-1">Healthcare & Life Sciences AI</h4>
-                      <p className="text-gray-600 text-sm">Advanced AI solutions for Idaho's healthcare providers and research institutions</p>
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-start gap-4">
-                    <div className="flex-shrink-0">
-                      <div className="w-3 h-3 bg-primary-orange rounded-full"></div>
-                    </div>
-                    <div>
-                      <h4 className="font-semibold text-gray-900 mb-1">Natural Resources Optimization</h4>
-                      <p className="text-gray-600 text-sm">AI-powered solutions for Idaho's forestry, mining, and renewable energy sectors</p>
+                    
+                    <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-primary-orange/10 transform hover:scale-105 transition-transform">
+                      <Clock className="w-8 h-8 text-primary-orange flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Rapid Idaho Deployment</h4>
+                        <p className="text-gray-600 leading-relaxed">
+                          Fast implementation designed for Idaho's unique challenges with local support teams 
+                          and understanding of dynamic business culture and manufacturing excellence
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -1217,13 +1401,13 @@ export default function AIServicesIdahoPage() {
         </div>
       </section>
 
-      {/* Enhanced FAQ Section - Dark Theme with Interactive Design */}
-      <section className="py-24 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 relative overflow-hidden">
+      {/* Enhanced FAQ Section - Homepage Style */}
+      <section className="py-24 bg-gradient-to-br from-gray-50 via-white to-orange-50 relative overflow-hidden">
         {/* Advanced Background Effects */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           {/* Animated Gradient Orbs */}
           <div className="absolute top-10 left-10 w-96 h-96 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute bottom-10 right-10 w-96 h-96 bg-orange-400/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
+          <div className="absolute bottom-10 right-10 w-96 h-96 bg-secondary-orange/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
           
           {/* Grid Pattern */}
           <div className="absolute inset-0 opacity-[0.02]" style={{
@@ -1237,362 +1421,469 @@ export default function AIServicesIdahoPage() {
             {/* Enhanced Section Header */}
             <div className="text-center mb-16">
               {/* Badge */}
-              <div className="inline-flex items-center gap-2 px-6 py-3 bg-gray-800/50 backdrop-blur-sm rounded-full border-2 border-primary-orange/20 mb-8 hover:border-primary-orange/40 transition-all group">
+              <div className="inline-flex items-center gap-2 px-6 py-3 bg-white rounded-full shadow-xl border-2 border-primary-orange/20 mb-8 hover:border-primary-orange/40 transition-all group">
                 <Lightbulb className="w-5 h-5 text-primary-orange animate-pulse" />
-                <span className="text-sm font-bold text-orange-300">Got Questions? We Have Answers!</span>
+                <span className="text-sm font-bold text-gray-800">Got Questions? We Have Answers!</span>
                 <Sparkles className="w-4 h-4 text-primary-orange" />
               </div>
               
-              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-white">
-                <span className="text-white">Frequently Asked Questions</span>
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+                <span className="text-gray-900">Frequently Asked Questions</span>
                 <br />
-                <span className="bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
                   About AI Company In Idaho
                 </span>
               </h2>
-              <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange mx-auto mb-8 rounded-full"></div>
-              <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-                Common questions about choosing the right AI company in the Gem State
+              <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-8 rounded-full"></div>
+              <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+                Common questions about working with Idaho's leading AI company
               </p>
             </div>
 
-            {/* Advanced Creative FAQ Cards */}
-            <div className="space-y-5">
-              {/* FAQ Item 1 - Enhanced Design */}
+            {/* Advanced Creative FAQ Cards - 6+6 Grid Layout for Desktop */}
+            <div className="grid lg:grid-cols-2 gap-6">
+              {/* Left Column - FAQ 1-6 */}
+              <div className="space-y-5">
+              {/* FAQ Item 1 */}
               <details className="group relative">
                 <summary className="list-none cursor-pointer">
-                  <div className="relative bg-gray-800/40 backdrop-blur-xl rounded-2xl p-8 border-2 border-gray-700/50 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
-                    {/* Gradient Overlay */}
-                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-orange-400/0 group-hover:from-primary-orange/5 group-hover:to-orange-400/5 transition-all duration-500"></div>
-                    
-                    {/* Content */}
-                    <div className="relative flex items-start justify-between gap-4">
-                      <div className="flex items-start gap-5 flex-1">
-                        {/* Icon Circle */}
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
-                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-orange-600 rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-orange-600 rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <Sparkles className="w-7 h-7 text-white" />
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Sparkles className="w-6 h-6 text-white" />
                           </div>
                         </div>
-                        
-                        {/* Question */}
-                        <div className="flex-1 pt-2">
-                          <h3 className="text-xl md:text-2xl font-bold text-white group-hover:text-primary-orange transition-colors pr-4">
-                            Which is the best AI Company In Idaho?
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Which is the best Artificial Intelligence Company In Idaho?
                           </h3>
                         </div>
                       </div>
-                      
-                      {/* Toggle Icon */}
                       <div className="flex-shrink-0">
-                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
-                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
                     </div>
-                    
-                    {/* Bottom Accent Bar */}
-                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-orange-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                
-                {/* Answer with Animation */}
-                <div className="mt-3 bg-gray-800/40 backdrop-blur-xl rounded-2xl p-8 border-2 border-primary-orange/20 animate-fade-in">
-                  <div className="flex items-start gap-5">
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-orange-400/10 flex items-center justify-center flex-shrink-0">
-                      <CheckCircle className="w-7 h-7 text-primary-orange" />
-                    </div>
-                    <div className="flex-1 text-gray-300 leading-relaxed space-y-4">
-                      <p className="text-lg">
-                        <strong className="text-white font-semibold">Metic.ai is the leading Artificial Intelligence Company In Idaho</strong> with 2100+ successful AI implementations. 
-                        We specialize in custom AI development, machine learning solutions, and AI consulting for Idaho businesses with 60% cost savings and 3x faster delivery.
-                      </p>
-                      
-                      {/* Stats Highlight */}
-                      <div className="flex flex-wrap gap-4 pt-4">
-                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg backdrop-blur-sm">
-                          <Award className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-white">2100+ Projects</span>
-                        </div>
-                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg backdrop-blur-sm">
-                          <MapPin className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-white">Boise Expert</span>
-                        </div>
-                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg backdrop-blur-sm">
-                          <TrendingUp className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-white">60% Cost Savings</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    <strong className="text-gray-900 font-semibold">Metic.ai is the leading Artificial Intelligence Company In Idaho</strong> with over 100 successful AI implementations. 
+                    We're recognized as the top AI Company In Idaho for our proven expertise US machine learning, custom AI development, and enterprise AI solutions with 60% cost savings.
+                  </p>
                 </div>
               </details>
 
               {/* FAQ Item 2 */}
               <details className="group relative">
                 <summary className="list-none cursor-pointer">
-                  <div className="relative bg-gray-800/40 backdrop-blur-xl rounded-2xl p-8 border-2 border-gray-700/50 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
-                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-orange-400/0 group-hover:from-primary-orange/5 group-hover:to-orange-400/5 transition-all duration-500"></div>
-                    
-                    <div className="relative flex items-start justify-between gap-4">
-                      <div className="flex items-start gap-5 flex-1">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
-                          <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-14 h-14 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <Code className="w-7 h-7 text-white" />
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Code className="w-6 h-6 text-white" />
                           </div>
                         </div>
-                        
-                        <div className="flex-1 pt-2">
-                          <h3 className="text-xl md:text-2xl font-bold text-white group-hover:text-primary-orange transition-colors pr-4">
-                            What AI services does this AI Service In Idaho provide?
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What services does the top AI Company In Idaho provide?
                           </h3>
                         </div>
                       </div>
-                      
                       <div className="flex-shrink-0">
-                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
-                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
                     </div>
-                    
-                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-blue-500 to-blue-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                
-                <div className="mt-3 bg-gray-800/40 backdrop-blur-xl rounded-2xl p-8 border-2 border-blue-500/20 animate-fade-in">
-                  <div className="flex items-start gap-5">
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-blue-500/10 to-blue-600/10 flex items-center justify-center flex-shrink-0">
-                      <BarChart3 className="w-7 h-7 text-blue-500" />
-                    </div>
-                    <div className="flex-1 text-gray-300 leading-relaxed space-y-4">
-                      <p className="text-lg">
-                        As the premier <strong className="text-white font-semibold">AI Company In Idaho</strong>, we provide AI integration, machine learning solutions, 
-                        custom AI development, data analytics, generative AI services, and comprehensive AI consulting for Idaho businesses across all industries and sectors.
-                      </p>
-
-                      {/* Service Grid */}
-                      <div className="grid md:grid-cols-2 gap-4 pt-4">
-                        <div className="flex items-center gap-3 p-3 bg-blue-500/5 rounded-lg backdrop-blur-sm">
-                          <Brain className="w-5 h-5 text-blue-500" />
-                          <span className="text-sm font-medium text-white">Agricultural AI</span>
-                        </div>
-                        <div className="flex items-center gap-3 p-3 bg-blue-500/5 rounded-lg backdrop-blur-sm">
-                          <Database className="w-5 h-5 text-blue-500" />
-                          <span className="text-sm font-medium text-white">Tech Solutions</span>
-                        </div>
-                        <div className="flex items-center gap-3 p-3 bg-blue-500/5 rounded-lg backdrop-blur-sm">
-                          <Zap className="w-5 h-5 text-blue-500" />
-                          <span className="text-sm font-medium text-white">Manufacturing AI</span>
-                        </div>
-                        <div className="flex items-center gap-3 p-3 bg-blue-500/5 rounded-lg backdrop-blur-sm">
-                          <Shield className="w-5 h-5 text-blue-500" />
-                          <span className="text-sm font-medium text-white">Healthcare AI</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    As the premier <strong className="text-gray-900 font-semibold">AI Company In Idaho</strong>, Metic.ai provides comprehensive AI services including machine learning solutions, 
+                    custom AI development, data analytics, generative AI, computer vision, NLP, and enterprise AI automation tailored for Idaho's manufacturing, aerospace, healthcare, and agricultural Industries.
+                  </p>
                 </div>
               </details>
 
               {/* FAQ Item 3 */}
               <details className="group relative">
                 <summary className="list-none cursor-pointer">
-                  <div className="relative bg-gray-800/40 backdrop-blur-xl rounded-2xl p-8 border-2 border-gray-700/50 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
-                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-orange-400/0 group-hover:from-primary-orange/5 group-hover:to-orange-400/5 transition-all duration-500"></div>
-                    
-                    <div className="relative flex items-start justify-between gap-4">
-                      <div className="flex items-start gap-5 flex-1">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
-                          <div className="absolute inset-0 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-14 h-14 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <Target className="w-7 h-7 text-white" />
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Target className="w-6 h-6 text-white" />
                           </div>
                         </div>
-                        
-                        <div className="flex-1 pt-2">
-                          <h3 className="text-xl md:text-2xl font-bold text-white group-hover:text-primary-orange transition-colors pr-4">
-                            How much does AI development cost from an AI Development Company In Idaho?
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How to choose the right AI Development Company In Idaho?
                           </h3>
                         </div>
                       </div>
-                      
                       <div className="flex-shrink-0">
-                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
-                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
                     </div>
-                    
-                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-green-500 to-green-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                
-                <div className="mt-3 bg-gray-800/40 backdrop-blur-xl rounded-2xl p-8 border-2 border-green-500/20 animate-fade-in">
-                  <div className="flex items-start gap-5">
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-green-500/10 to-green-600/10 flex items-center justify-center flex-shrink-0">
-                      <Clock className="w-7 h-7 text-green-500" />
-                    </div>
-                    <div className="flex-1 text-gray-300 leading-relaxed space-y-4">
-                      <p className="text-lg">
-                        Our <strong className="text-white font-semibold">AI Development Company In Idaho</strong> offers competitive pricing with 60% cost savings 
-                        compared to traditional development, with projects starting from $10,000 depending on complexity and requirements. We provide transparent pricing and flexible payment options.
-                      </p>
-                    </div>
-                  </div>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    When selecting an <strong className="text-gray-900 font-semibold">AI Development Company In Idaho</strong>, look for proven experience, successful project portfolio, 
+                    Industry expertise, and ongoing support. Metic.ai offers all these with 100+ completed projects, 98% client satisfaction, and 24/7 support.
+                  </p>
                 </div>
               </details>
 
               {/* FAQ Item 4 */}
               <details className="group relative">
                 <summary className="list-none cursor-pointer">
-                  <div className="relative bg-gray-800/40 backdrop-blur-xl rounded-2xl p-8 border-2 border-gray-700/50 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
-                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-orange-400/0 group-hover:from-primary-orange/5 group-hover:to-orange-400/5 transition-all duration-500"></div>
-                    
-                    <div className="relative flex items-start justify-between gap-4">
-                      <div className="flex items-start gap-5 flex-1">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
-                          <div className="absolute inset-0 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-14 h-14 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <TrendingUp className="w-7 h-7 text-white" />
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Clock className="w-6 h-6 text-white" />
                           </div>
                         </div>
-                        
-                        <div className="flex-1 pt-2">
-                          <h3 className="text-xl md:text-2xl font-bold text-white group-hover:text-primary-orange transition-colors pr-4">
-                            Why choose Metic.ai as your AI Service In Idaho provider?
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How much does AI implementation cost with an AI Service In Idaho?
                           </h3>
                         </div>
                       </div>
-                      
                       <div className="flex-shrink-0">
-                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
-                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
                     </div>
-                    
-                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-purple-500 to-purple-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                
-                <div className="mt-3 bg-gray-800/40 backdrop-blur-xl rounded-2xl p-8 border-2 border-purple-500/20 animate-fade-in">
-                  <div className="flex items-start gap-5">
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-purple-500/10 to-purple-600/10 flex items-center justify-center flex-shrink-0">
-                      <Users className="w-7 h-7 text-purple-500" />
-                    </div>
-                    <div className="flex-1 text-gray-300 leading-relaxed space-y-4">
-                      <p className="text-lg">
-                        As the <strong className="text-white font-semibold">Top AI Company Idaho</strong>, we offer 2100+ successful projects, 60% cost savings, 
-                        3x faster delivery, dedicated Idaho team, 24/7 support, and cutting-edge AI solutions tailored for Idaho's unique business landscape including agriculture technology and emerging tech sectors.
-                      </p>
-                    </div>
-                  </div>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    AI implementation costs vary based on complexity. As a leading <strong className="text-gray-900 font-semibold">AI Service In Idaho</strong>, 
+                    Metic.ai offers competitive pricing with transparent structures. Our clients typically save 60% compared to international AI development costs.
+                  </p>
                 </div>
               </details>
 
               {/* FAQ Item 5 */}
               <details className="group relative">
                 <summary className="list-none cursor-pointer">
-                  <div className="relative bg-gray-800/40 backdrop-blur-xl rounded-2xl p-8 border-2 border-gray-700/50 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
-                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-orange-400/0 group-hover:from-primary-orange/5 group-hover:to-orange-400/5 transition-all duration-500"></div>
-                    
-                    <div className="relative flex items-start justify-between gap-4">
-                      <div className="flex items-start gap-5 flex-1">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
-                          <div className="absolute inset-0 bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-14 h-14 bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <Rocket className="w-7 h-7 text-white" />
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Users className="w-6 h-6 text-white" />
                           </div>
                         </div>
-                        
-                        <div className="flex-1 pt-2">
-                          <h3 className="text-xl md:text-2xl font-bold text-white group-hover:text-primary-orange transition-colors pr-4">
-                            How long does AI implementation take with your AI Firm In Idaho?
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Does Metic.ai serve businesses across all Idaho cities?
                           </h3>
                         </div>
                       </div>
-                      
                       <div className="flex-shrink-0">
-                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
-                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
                     </div>
-                    
-                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-orange-500 to-orange-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                
-                <div className="mt-3 bg-gray-800/40 backdrop-blur-xl rounded-2xl p-8 border-2 border-orange-500/20 animate-fade-in">
-                  <div className="flex items-start gap-5">
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-orange-500/10 to-orange-600/10 flex items-center justify-center flex-shrink-0">
-                      <Clock className="w-7 h-7 text-orange-500" />
-                    </div>
-                    <div className="flex-1 text-gray-300 leading-relaxed space-y-4">
-                      <p className="text-lg">
-                        Our <strong className="text-white font-semibold">AI Firm In Idaho</strong> delivers projects 3x faster than industry average. 
-                        Simple AI integrations take 2-4 weeks, while complex custom AI development projects typically take 8-16 weeks depending on scope and requirements. We provide regular updates throughout the process.
-                      </p>
-                    </div>
-                  </div>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Yes! Metic.ai proudly serves businesses across all Idaho cities including Maninagar, Eagle, I-84, Boise, Chandkheda, Nampa, Caldwell, and beyond. 
+                    As Idaho's leading <strong className="text-gray-900 font-semibold">AI Firm In Idaho</strong>, we provide comprehensive AI solutions statewide.
+                  </p>
                 </div>
               </details>
 
               {/* FAQ Item 6 */}
               <details className="group relative">
                 <summary className="list-none cursor-pointer">
-                  <div className="relative bg-gray-800/40 backdrop-blur-xl rounded-2xl p-8 border-2 border-gray-700/50 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
-                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-orange-400/0 group-hover:from-primary-orange/5 group-hover:to-orange-400/5 transition-all duration-500"></div>
-                    
-                    <div className="relative flex items-start justify-between gap-4">
-                      <div className="flex items-start gap-5 flex-1">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
-                          <div className="absolute inset-0 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-14 h-14 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <Building className="w-7 h-7 text-white" />
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Rocket className="w-6 h-6 text-white" />
                           </div>
                         </div>
-                        
-                        <div className="flex-1 pt-2">
-                          <h3 className="text-xl md:text-2xl font-bold text-white group-hover:text-primary-orange transition-colors pr-4">
-                            Do you provide AI consulting services for Idaho businesses?
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How quickly can an AI Company In Idaho start my project?
                           </h3>
                         </div>
                       </div>
-                      
                       <div className="flex-shrink-0">
-                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
-                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
                     </div>
-                    
-                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-indigo-500 to-indigo-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                
-                <div className="mt-3 bg-gray-800/40 backdrop-blur-xl rounded-2xl p-8 border-2 border-indigo-500/20 animate-fade-in">
-                  <div className="flex items-start gap-5">
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-indigo-500/10 to-indigo-600/10 flex items-center justify-center flex-shrink-0">
-                      <Globe className="w-7 h-7 text-indigo-500" />
-                    </div>
-                    <div className="flex-1 text-gray-300 leading-relaxed space-y-4">
-                      <p className="text-lg">
-                        Yes, our <strong className="text-white font-semibold">Best AI Company In Idaho</strong> provides comprehensive AI consulting including strategy development, 
-                        technology assessment, implementation roadmaps, and ongoing optimization for businesses across Boise, Nampa, and all of Idaho. We understand the unique needs of the Gem State's economy.
-                      </p>
-                    </div>
-                  </div>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Metic.ai can typically start your AI project within 24-48 hours after initial consultation. As Idaho's fastest <strong className="text-gray-900 font-semibold">AI Company In Idaho</strong>, 
+                    we understand the importance of speed and deliver 3x faster than traditional development approaches.
+                  </p>
                 </div>
               </details>
+              </div>
+
+              {/* Right Column - FAQ 7-12 */}
+              <div className="space-y-5">
+              {/* FAQ Item 7 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Shield className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Is my data secure with an AI Development Company In Idaho?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Absolutely! Metic.ai implements enterprise-grade security protocols, encryption, and compliance measures. As a Trusted <strong className="text-gray-900 font-semibold">AI Development Company In Idaho</strong>, 
+                    we prioritize data security with ISO certifications and strict confidentiality agreements.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ Item 8 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <TrendingUp className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What Industries does the best AI Company In Idaho serve?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Metic.ai serves diverse Industries including Manufacturing, Aerospace, Healthcare, Agriculture, Technology, Automotive, Financial Services, Transportation, Education, and Energy. 
+                    As Idaho's premier <strong className="text-gray-900 font-semibold">AI Company In Idaho</strong>, we tailor solutions for your specific Industry needs.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ Item 9 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Award className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What makes Metic.ai the top AI Firm In Idaho?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Our 100+ successful projects, 98% client satisfaction rate, 60% cost savings, 3x faster delivery, and deep Idaho market expertise make US the leading <strong className="text-gray-900 font-semibold">AI Firm In Idaho</strong>. 
+                    We combine cutting-edge AI technology with personalized service.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ Item 10 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Lightbulb className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Do I need technical knowledge to work with an AI Service In Idaho?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    No technical knowledge required! Metic.ai guides you through every step with clear communication. As a client-focINed <strong className="text-gray-900 font-semibold">AI Service In Idaho</strong>, 
+                    we translate complex AI concepts into simple business terms and handle all technical aspects for you.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ Item 11 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Database className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Can AI Company In Idaho handle small business projects?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Absolutely! Metic.ai works with businesses of all sizes, from startups to enterprises. As an inclINive <strong className="text-gray-900 font-semibold">AI Company In Idaho</strong>, 
+                    we offer scalable solutions and flexible pricing models to meet small business budgets while delivering enterprise-quality AI implementations.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ Item 12 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Zap className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What support does Metic.ai provide after AI implementation?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Metic.ai provides comprehensive 24/7 post-implementation support including maintenance, updates, training, troubleshooting, and optimization. 
+                    As your long-term partner, we ensure your AI solutions continue delivering maximum value and adapt to your evolving business needs.
+                  </p>
+                </div>
+              </details>
+              </div>
             </div>
 
             {/* Enhanced CTA at Bottom of FAQ */}
             <div className="mt-16 text-center">
-              <div className="bg-gradient-to-br from-primary-orange to-orange-600 rounded-3xl p-12 text-white relative overflow-hidden">
+              <div className="bg-gradient-to-br from-primary-orange to-secondary-orange rounded-3xl p-12 text-white relative overflow-hidden">
                 <div className="absolute inset-0 bg-black/10"></div>
                 <div className="relative z-10">
                   <div className="flex justify-center mb-6">
@@ -1603,19 +1894,19 @@ export default function AIServicesIdahoPage() {
                       </div>
                     </div>
                   </div>
-                  <h3 className="text-3xl md:text-4xl font-bold mb-4">Ready to Transform Your Idaho Business with AI?</h3>
+                  <h3 className="text-3xl md:text-4xl font-bold mb-4">Ready to Transform Your business with AI?</h3>
                   <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-                    Join leading Idaho companies that trust Metic.ai for their AI transformation in the Gem State!
+                    Join Idaho's leading businesses who Trust Metic.ai for their AI transformation. Get started today!
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <Link href="/contact">
                       <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100 shadow-xl">
-                        Get Free AI Consultation - Idaho
+                        Start Your AI Journey
                       </Button>
                     </Link>
                     <Link href="tel:+917892518414">
                       <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                        Call AI Company Idaho: +1-789-251-8414
+                        Call Now: +91-789-251-8414
                       </Button>
                     </Link>
                   </div>
@@ -1631,39 +1922,56 @@ export default function AIServicesIdahoPage() {
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-              Ready to Transform Your Idaho Business with Leading AI Company In Idaho?
+              Ready to Partner with Idaho's Leading <strong>Artificial Intelligence Company</strong>?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join leading Idaho companies that trust Metic.ai for their AI transformation. 
-              Get started with a free consultation from the Best AI Company In Idaho and discover how AI can drive your business forward.
+              Join 100+ satisfied clients who Trust Metic.ai as their preferred <strong>AI Company In Idaho</strong>. 
+              Transform your business with proven AI solutions that deliver results. Get started with a free consultation 
+              and discover why we're Idaho's most Trusted <strong>AI Development Company In Idaho</strong>.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Link href="/contact">
                 <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100">
-                  Get Free AI Consultation - Idaho
+                  Start Your AI Transformation
                 </Button>
               </Link>
               <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  Call AI Company In Idaho: +1-789-251-8414
+                  Call: +91-789-251-8414
                 </Button>
               </Link>
             </div>
             
             <div className="mt-12 text-center">
-              <p className="text-orange-200 mb-4">Trusted by businesses across Idaho</p>
+              <p className="text-orange-200 mb-6">Trusted <strong>AI Service In Idaho</strong> serving businesses across the state</p>
+              <div className="grid md:grid-cols-3 gap-8 text-center mb-8">
+                <div>
+                  <div className="text-2xl font-bold mb-2">100+</div>
+                  <p className="text-orange-100">AI Projects Completed</p>
+                </div>
+                <div>
+                  <div className="text-2xl font-bold mb-2">98%</div>
+                  <p className="text-orange-100">Client Satisfaction Rate</p>
+                </div>
+                <div>
+                  <div className="text-2xl font-bold mb-2">4.5x</div>
+                  <p className="text-orange-100">Average ROI Increase</p>
+                </div>
+              </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
+                <span>Maninagar</span>
+                <span>•</span>
+                <span>Eagle</span>
+                <span>•</span>
+                <span>I-84</span>
+                <span>•</span>
                 <span>Boise</span>
                 <span>•</span>
-                <span>Meridian</span>
+                <span>Chandkheda</span>
                 <span>•</span>
-                <span>Nampa</span>
+                <span>Auburn</span>
                 <span>•</span>
-                <span>Idaho Falls</span>
-                <span>•</span>
-                <span>Coeur d'Alene</span>
-                <span>•</span>
-                <span>Pocatello</span>
+                <span>Dothan</span>
               </div>
             </div>
           </div>
@@ -1672,4 +1980,19 @@ export default function AIServicesIdahoPage() {
     </>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
