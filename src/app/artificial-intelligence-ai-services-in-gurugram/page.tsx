@@ -28,7 +28,7 @@ import {
 
 export const metadata = {
   title: "Artificial Intelligence Company In Gurugram | #1 AI Company In Gurugram - Metic.ai",
-  description: "Leading Artificial Intelligence Company In Gurugram with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
+  description: "Leading Artificial Intelligence Company In Gurugram with 500+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
   keywords: [
     "Artificial Intelligence Company In Gurugram",
     "AI Company In Gurugram", 
@@ -57,7 +57,7 @@ export const metadata = {
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
     title: "Artificial Intelligence Company In Gurugram | #1 AI Company In Gurugram - Metic.ai",
-    description: "Leading Artificial Intelligence Company In Gurugram with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Gurugram businesses.",
+    description: "Leading Artificial Intelligence Company In Gurugram with 500+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Gurugram businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-Gurugram/",
     type: "website",
     locale: "en_IN",
@@ -154,7 +154,7 @@ export default function AIServicesGurugramPage() {
   ];
 
   const stats = [
-    { number: "2100+", label: "Businesses Served" },
+    { number: "500+", label: "Businesses Served" },
     { number: "99.5%", label: "Client Satisfaction" },
     { number: "5.2x", label: "Average ROI Increase" },
     { number: "24/7", label: "Support Available" }
@@ -551,7 +551,7 @@ export default function AIServicesGurugramPage() {
               <div className="w-20 md:w-24 h-1 md:h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 md:mb-8 rounded-full"></div>
               <p className="text-base md:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-4">
                 Comprehensive artificial intelligence services from Gurugram's most Trusted <strong className="text-gray-900">AI Company In Gurugram</strong>. 
-                Transforming businesses with cutting-edge AI solutions tailored for Gurugram's indINtrial landscape.
+                Transforming businesses with cutting-edge AI solutions tailored for Gurugram's industrial landscape.
               </p>
             </div>
             
@@ -627,7 +627,7 @@ export default function AIServicesGurugramPage() {
                 <p className="text-lg text-gray-700 mb-6">
                   Our expertise as an <strong>AI Development Company In Gurugram</strong> encompasses machine learning, deep learning, natural language processing, 
                   computer vision, and robotic process automation. We've successfully completed over 100 AI projects, making US the most 
-                  Trusted <strong>AI Service In Gurugram</strong> from the Naroda IndINtrial Area to the Aleutian Islands.
+                  Trusted <strong>AI Service In Gurugram</strong> from the Naroda industrial Area to the Aleutian Islands.
                 </p>
                 <div className="grid grid-cols-2 gap-6 mt-8">
                   <div className="text-center">
@@ -980,7 +980,7 @@ export default function AIServicesGurugramPage() {
               </h2>
               <div className="w-40 h-2 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-10 rounded-full shadow-lg"></div>
               <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                Transforming Haryana's Commercial Capital with cutting-edge AI solutions from Maninagar to DLF Phase 1, NH-8 to the Naroda IndINtrial Area
+                Transforming Haryana's Commercial Capital with cutting-edge AI solutions from Maninagar to DLF Phase 1, NH-8 to the Naroda industrial Area
               </p>
             </div>
 
@@ -1006,7 +1006,7 @@ export default function AIServicesGurugramPage() {
               As the leading <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Artificial Intelligence Company In Gurugram</strong>, 
               Metic.ai serves Manchester of India with enterprise-grade AI solutions tailored to Gurugram's unique economic 
               landscape. From Maninagar's business hub to DLF Phase 1' research facilities, NH-8's government sector to 
-              the textile mills of the Naroda IndINtrial Area, we understand Gurugram's entrepreneurial excellence and textile-driven Industries.
+              the textile mills of the Naroda industrial Area, we understand Gurugram's entrepreneurial excellence and textile-driven Industries.
             </p>
             
             <p className="text-lg text-gray-700 leading-relaxed">
@@ -1024,7 +1024,7 @@ export default function AIServicesGurugramPage() {
                           <div>
                             <h4 className="font-bold text-gray-900 mb-2 text-lg">Textiles & Garments AI Excellence</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Deep expertise with Gurugram's Naroda IndINtrial Area textile operations including major textile mills, 
+                              Deep expertise with Gurugram's Naroda industrial Area textile operations including major textile mills, 
                               Gurugram Metro, and energy infrastructure across Haryana's largest textile-manufacturing state.
                             </p>
                           </div>
@@ -1085,7 +1085,7 @@ export default function AIServicesGurugramPage() {
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">2100+</div>
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">500+</div>
                         <div className="text-sm text-gray-600 font-medium">Gurugram AI Projects Completed</div>
                         <div className="text-xs text-gray-500 mt-2">Industry-Leading Success Rate</div>
                       </div>
@@ -1131,7 +1131,7 @@ export default function AIServicesGurugramPage() {
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Textiles & Garments AI Solutions</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Mission-critical AI solutions for Gurugram's Textiles & Garments Industry including Naroda IndINtrial Area operations, 
+                      Mission-critical AI solutions for Gurugram's Textiles & Garments Industry including Naroda industrial Area operations, 
                       Gurugram Metro monitoring, offshore drilling optimization, and predictive maintenance 
                       for energy infrastructure across Manchester of India's vast energy resources.
                     </p>
@@ -1297,7 +1297,7 @@ export default function AIServicesGurugramPage() {
                     <div className="space-y-6">
                       <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Gurugram Projects Completed</span>
-                        <span className="font-bold text-primary-orange text-xl">2100+</span>
+                        <span className="font-bold text-primary-orange text-xl">500+</span>
                       </div>
                       <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Industry Success Rate</span>
