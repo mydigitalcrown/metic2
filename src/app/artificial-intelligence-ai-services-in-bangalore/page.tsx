@@ -1,5 +1,6 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Button } from "../components/ui/Button";
+import Testimonials from "../components/Testimonials";
 import { 
   Brain, 
   Zap, 
@@ -21,10 +22,8 @@ import {
   Code,
   Database,
   Sparkles,
-  Quote,
-  Rocket,
-  Globe,
-  ChevronDown
+  ChevronDown,
+  Rocket
 } from "lucide-react";
 
 export const metadata = {
@@ -36,70 +35,61 @@ export const metadata = {
     "AI Service In Bangalore",
     "AI Firm In Bangalore",
     "AI Development Company In Bangalore",
+    "Best AI Company In Bangalore",
+    "Top AI Company Karnataka",
     "Artificial Intelligence Services Bangalore",
     "AI Solutions Company Bangalore",
     "Machine Learning Company Bangalore",
     "AI Consulting Firm Bangalore",
     "AI Technology Company Bangalore",
-    "Best AI Company In Bangalore",
-    "Top AI Company Bangalore",
     "AI automation Bangalore",
     "AI software company Bangalore",
     "artificial intelligence consulting Bangalore",
     "AI integration services Bangalore",
     "custom AI development Bangalore",
     "enterprise AI solutions Bangalore",
-    "AI ML company Bangalore"
+    "AI ML company Bangalore",
+    "Bangalore AI experts",
+    "Bangalore machine learning services",
+    "Bangalore AI implementation"
   ],
   authors: [{ name: "Metic.ai Bangalore AI Team" }],
-  robots: "index, follow",
+  robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
     title: "Artificial Intelligence Company In Bangalore | #1 AI Company In Bangalore - Metic.ai",
-    description: "Leading Artificial Intelligence Company In Bangalore with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
-    url: "https://metic.ai/artificial-intelligence-ai-services-in-bangalore/",
-    siteName: "Metic.ai - AI Company In Bangalore",
+    description: "Leading Artificial Intelligence Company In Bangalore with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Bangalore businesses.",
+    url: "https://metic.ai/artificial-intelligence-ai-services-in-Bangalore/",
     type: "website",
-    locale: "en_US",
+    locale: "en_IN",
+    siteName: "Metic.ai - AI Company In Bangalore",
     images: [
       {
-        url: "https://metic.ai/og-ai-services-bangalore.jpg",
+        url: "https://metic.ai/og-ai-company-Bangalore.jpg",
         width: 1200,
         height: 630,
         alt: "Artificial Intelligence Company In Bangalore - Metic.ai",
-        type: "image/jpeg",
+        type: "image/jpeg"
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    site: "@MeticAI",
-    creator: "@MeticAI",
-    title: "Artificial Intelligence Company In Bangalore | AI Company In Bangalore - Metic.ai",
-    description: "Leading Artificial Intelligence Company In Bangalore with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development.",
-    images: {
-      url: "https://metic.ai/og-ai-services-bangalore.jpg",
-      alt: "Artificial Intelligence Company In Bangalore - Metic.ai",
-    },
+    title: "Artificial Intelligence Company In Bangalore | AI Company In Bangalore",
+    description: "Leading AI Company In Bangalore delivering enterprise artificial intelligence solutions. Expert AI development, machine learning & automation services with proven results.",
+    images: ["https://metic.ai/og-ai-company-Bangalore.jpg"],
+    site: "@metic_ai",
+    creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-bangalore/",
+    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-Bangalore/",
   },
   verification: {
     google: "google-site-verification-code",
     yandex: "yandex-verification-code",
-    yahoo: "yahoo-site-verification-code",
+    yahoo: "yahoo-verification-code"
   },
-  category: "Artificial Intelligence Services",
-  classification: "Business Technology Services",
-  referrer: "origin-when-cross-origin",
-  formatDetection: {
-    email: false,
-    address: false,
-    telephone: false,
-  },
-  metadataBase: new URL("https://metic.ai"),
-  generator: "Metic.ai AI Company",
-  applicationName: "Metic.ai - Artificial Intelligence Company In Bangalore",
+  category: "Technology",
+  classification: "business Services"
 };
 
 export default function AIServicesBangalorePage() {
@@ -113,13 +103,13 @@ export default function AIServicesBangalorePage() {
     },
     {
       title: "Machine Learning Solutions",
-      description: "Advanced ML algorithms and predictive analytics tailored for Bangalore's tech and startup ecosystem.",
+      description: "Advanced ML algorithms and predictive analytics tailored for Bangalore businesses and Industries.",
       icon: Brain,
       href: "/machine-learning",
       color: "purple" as const
     },
     {
-      title: "Custom AI Development",
+      title: "custom AI Development",
       description: "Bespoke AI solutions designed specifically for your Bangalore business requirements and goals.",
       icon: Code,
       href: "/custom-ai-development",
@@ -134,167 +124,164 @@ export default function AIServicesBangalorePage() {
     },
     {
       title: "Generative AI Services",
-      description: "Harness the power of ChatGPT and generative AI for content creation and automation in Bangalore.",
+      description: "Harness the power of ChatGPT and generative AI for content creation and automation In Bangalore.",
       icon: Sparkles,
       href: "/generative-ai-services",
       color: "indigo" as const
     },
     {
       title: "Data Engineering",
-      description: "Robust data infrastructure and ETL pipelines for Bangalore enterprises and growing businesses.",
+      description: "RobINt data infrastructure and ETL pipelines for Bangalore enterprises and growing businesses.",
       icon: Database,
       href: "/data-engineering",
       color: "red" as const
     }
   ];
 
-  const industries = [
+  const Industries = [
+    "technologys & Garments",
+    "Pharmaceuticals",
+    "Chemicals",
     "Information Technology",
-    "Software Development",
-    "Fintech",
-    "E-commerce",
-    "Biotechnology",
-    "Aerospace",
-    "Telecommunications",
+    "Automotive",
+    "Diamond & Jewelry",
+    "Food Processing",
+    "Real Estate",
     "Healthcare",
     "Education",
-    "Startup Ecosystem"
+    "Logistics",
+    "Manufacturing"
   ];
 
   const stats = [
-    { number: "4,200+", label: "Bangalore Businesses Served" },
-    { number: "98%", label: "Client Satisfaction" },
-    { number: "5.8x", label: "Average ROI Increase" },
+    { number: "2100+", label: "Businesses Served" },
+    { number: "99.5%", label: "Client Satisfaction" },
+    { number: "5.2x", label: "Average ROI Increase" },
     { number: "24/7", label: "Support Available" }
   ];
 
   return (
     <>
-      {/* Organization Schema for Enhanced SEO */}
+      {/* Enhanced Structured Data for SEO, VSO, ASO & GEO */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Organization",
+            "@type": ["Organization", "TechnologyCompany", "LocalBusiness"],
             "name": "Metic.ai - Artificial Intelligence Company In Bangalore",
-            "alternateName": ["Metic AI", "Metic.ai Bangalore", "AI Company In Bangalore"],
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-bangalore/",
-            "logo": "https://metic.ai/logo-bangalore-ai-company.png",
-            "image": "https://metic.ai/artificial-intelligence-company-bangalore.jpg",
-            "description": "Leading Artificial Intelligence Company In Bangalore with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
-            "founder": {
-              "@type": "Person",
-              "name": "Metic.ai Founders"
-            },
-            "foundingDate": "2020",
-            "numberOfEmployees": "100-500",
-            "address": [
-              {
-                "@type": "PostalAddress",
-                "streetAddress": "300 Quail Ridge Dr NE",
-                "addressLocality": "Ada",
-                "addressRegion": "MI",
-                "postalCode": "49301",
-                "addressCountry": "US"
-              },
-              {
-                "@type": "PostalAddress",
-                "streetAddress": "Behind Manyata Tech Park, Hebbal",
-                "addressLocality": "Bangalore",
-                "addressRegion": "Karnataka",
-                "postalCode": "560077",
-                "addressCountry": "India"
-              }
-            ],
-            "contactPoint": {
-              "@type": "ContactPoint",
-              "telephone": "+1-789-251-8414",
-              "contactType": "customer service",
-              "email": "bangalore@metic.ai",
-              "availableLanguage": ["English", "Hindi", "Kannada"],
-              "areaServed": "Bangalore"
-            },
+            "alternateName": ["AI Company In Bangalore", "Metic AI", "AI Firm Bangalore"],
+            "description": "Leading Artificial Intelligence Company In Bangalore providing enterprise AI solutions, machine learning development, and custom AI services for businesses across Bangalore.",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-Bangalore/",
             "sameAs": [
-              "https://linkedin.com/company/metic-ai",
-              "https://twitter.com/MeticAI",
-              "https://facebook.com/MeticAI"
+              "https://www.linkedin.com/company/metic-ai",
+              "https://twitter.com/metic_ai",
+              "https://www.facebook.com/meticai"
+            ],
+            "logo": "https://metic.ai/logo.png",
+            "image": ["https://metic.ai/ai-company-Bangalore.jpg"],
+            "telephone": "+91-789-251-8414",
+            "email": "hello@matic.ai",
+            "foundingDate": "2020",
+            "numberOfEmployees": "50-100",
+            "vatID": "IN123456789",
+            "address": {
+              "@type": "PostalAddress",
+              "addressRegion": "Bangalore",
+              "addressCountry": "US",
+              "postalCode": "35201"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": "32.7794",
+              "longitude": "-86.8287"
+            },
+            "areaServed": [
+              {
+                "@type": "State",
+                "name": "Bangalore",
+                "containedInPlace": {
+                  "@type": "Country", 
+                  "name": "India"
+                }
+              }
             ],
             "serviceArea": {
-              "@type": "City",
-              "name": "Bangalore",
-              "containedInPlace": {
-                "@type": "State",
-                "name": "Karnataka"
-              }
+              "@type": "GeoCircle",
+              "geoMidpoint": {
+                "@type": "GeoCoordinates",
+                "latitude": "32.7794",
+                "longitude": "-86.8287"
+              },
+              "geoRadiIN": "200000"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Artificial Intelligence Services In Bangalore",
+              "name": "Artificial Intelligence Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "AI Development Services Bangalore",
-                    "description": "Custom AI development for Bangalore businesses"
+                    "name": "AI Development Services",
+                    "description": "custom artificial intelligence development for Bangalore businesses"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service", 
-                    "name": "Machine Learning Solutions Bangalore",
-                    "description": "ML algorithms and predictive analytics for Bangalore companies"
+                    "name": "Machine Learning Solutions",
+                    "description": "Advanced ML algorithms and predictive analytics"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "AI Integration Services Bangalore", 
-                    "description": "Enterprise AI integration for Bangalore businesses"
+                    "name": "AI Integration Services", 
+                    "description": "Enterprise AI integration and deployment"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "AI Consulting Services",
+                    "description": "Expert AI strategy and implementation consulting"
                   }
                 }
               ]
             },
-            "areaServed": [
-              "Bangalore", "Electronic City", "Whitefield", "Koramangala", "Indiranagar",
-              "HSR Layout", "BTM Layout", "Marathahalli", "Sarjapur", "Bellandur", 
-              "JP Nagar", "Jayanagar", "Malleswaram", "MG Road", "Brigade Road"
-            ],
             "knowsAbout": [
               "Artificial Intelligence",
               "Machine Learning", 
-              "AI Development",
-              "AI Consulting",
-              "AI Integration",
-              "Enterprise AI Solutions",
+              "Deep Learning",
+              "Natural Language Processing",
+              "Computer Vision",
               "AI Automation",
               "Data Science",
-              "Natural Language Processing",
-              "Computer Vision"
+              "business Intelligence",
+              "Predictive Analytics"
             ],
             "aggregateRating": {
               "@type": "AggregateRating",
               "ratingValue": "4.9",
-              "reviewCount": "2100",
-              "bestRating": "5"
+              "reviewCount": "100",
+              "bestRating": "5",
+              "worstRating": "1"
             },
-            "review": [
-              {
-                "@type": "Review",
-                "author": {
-                  "@type": "Organization",
-                  "name": "Infosys Bangalore"
-                },
-                "reviewRating": {
-                  "@type": "Rating", 
-                  "ratingValue": "5"
-                },
-                "reviewBody": "Outstanding AI Company In Bangalore. Metic.ai transformed our software development process with intelligent automation and machine learning solutions."
-              }
-            ]
+            "priceRange": "$$",
+            "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer"],
+            "currenciesAccepted": "IND",
+            "open_INgHours": "Mo-Fr 09:00-18:00",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+91-789-251-8414",
+              "contactType": "customer Service",
+              "areaServed": "US",
+              "availableLanguage": ["English"]
+            }
           })
         }}
       />
@@ -312,7 +299,7 @@ export default function AIServicesBangalorePage() {
                 "name": "Which is the best Artificial Intelligence Company In Bangalore?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Metic.ai is recognized as the leading Artificial Intelligence Company In Bangalore with 2100+ successful AI implementations. We serve businesses across Electronic City, Whitefield, Koramangala, and all Bangalore areas with expert AI services, machine learning solutions, and custom AI development."
+                  "text": "Metic.ai is the leading Artificial Intelligence Company In Bangalore with 100+ successful AI implementations. We provide comprehensive AI services including machine learning, custom AI development, and enterprise AI solutions with proven 60% cost savings and 3x faster delivery."
                 }
               },
               {
@@ -320,39 +307,23 @@ export default function AIServicesBangalorePage() {
                 "name": "What AI services does the top AI Company In Bangalore provide?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "As the premier AI Company In Bangalore, Metic.ai provides comprehensive AI services including custom AI development, machine learning solutions, AI integration, automation services, data analytics, natural language processing, and computer vision solutions specifically designed for Bangalore's tech ecosystem."
+                  "text": "As the premier AI Company In Bangalore, Metic.ai provides AI integration & deployment, machine learning solutions, custom AI development, data analytics & BI, generative AI services, and data engineering for businesses across Bangalore."
                 }
               },
               {
                 "@type": "Question",
-                "name": "How much does AI development cost from an AI Company In Bangalore?",
+                "name": "How to choose the right AI Development Company In Bangalore?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "AI development costs vary based on project complexity. As a leading AI Company In Bangalore, Metic.ai offers competitive pricing with 60% cost savings compared to traditional development. We provide free consultations to Bangalore businesses to determine exact project costs and ROI projections."
+                  "text": "Choose an AI Development Company In Bangalore with proven experience, successful implementations, indINtry expertise, and local presence. Metic.ai offers all these with 100+ completed projects and deep understanding of Bangalore's business landscape."
                 }
               },
               {
                 "@type": "Question",
-                "name": "Why choose Metic.ai as your Artificial Intelligence Company In Bangalore?",
+                "name": "What makes Metic.ai the best AI Firm In Bangalore?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Metic.ai stands out as the top Artificial Intelligence Company In Bangalore because of our 2100+ successful implementations, 4.9/5 client satisfaction rating, 3x faster delivery, 60% cost savings, and deep understanding of Bangalore's tech ecosystem across IT, fintech, and startup sectors."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Which industries does the leading AI Company In Bangalore serve?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "As Bangalore's premier AI Company, Metic.ai serves diverse industries including information technology, software development, fintech, e-commerce, biotechnology, aerospace, telecommunications, healthcare, education, and the startup ecosystem across all Bangalore regions."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How quickly can an AI Company In Bangalore implement AI solutions?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Metic.ai, the leading AI Company In Bangalore, delivers AI solutions 3x faster than industry average. Simple AI implementations can be deployed in 2-4 weeks, while complex enterprise AI solutions typically take 3-6 months, depending on Bangalore business requirements and integration complexity."
+                  "text": "Metic.ai is the best AI Firm In Bangalore due to our proven expertise, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of Bangalore's manufacturing, aerospace, healthcare and agricultural Industries."
                 }
               }
             ]
@@ -360,280 +331,232 @@ export default function AIServicesBangalorePage() {
         }}
       />
 
-      {/* Article Schema for Content Authority */}
+      {/* Organization Schema for Entity Recognition */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Artificial Intelligence Company In Bangalore | Leading AI Services & Development",
-            "description": "Comprehensive guide to AI services in Bangalore. Learn about the leading Artificial Intelligence Company In Bangalore, AI development services, machine learning solutions, and how Bangalore businesses benefit from AI implementation.",
-            "image": "https://metic.ai/bangalore-ai-company-services.jpg",
+            "headline": "Artificial Intelligence Company In Bangalore - AI Services & Solutions",
+            "description": "Comprehensive guide to AI services In Bangalore by the leading Artificial Intelligence Company. Expert AI development, machine learning solutions, and enterprise AI implementation.",
+            "image": "https://metic.ai/ai-company-Bangalore-article.jpg",
             "author": {
               "@type": "Organization",
-              "name": "Metic.ai - AI Company In Bangalore",
-              "url": "https://metic.ai"
+              "name": "Metic.ai"
             },
             "publisher": {
               "@type": "Organization", 
               "name": "Metic.ai",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://metic.ai/logo.png",
-                "width": 200,
-                "height": 60
+                "url": "https://metic.ai/logo.png"
               }
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "articleSection": "Artificial Intelligence Services",
-            "keywords": [
-              "Artificial Intelligence Company In Bangalore",
-              "AI Company In Bangalore",
-              "AI Service In Bangalore", 
-              "AI Development Company In Bangalore",
-              "Bangalore AI services"
-            ],
-            "about": {
-              "@type": "Thing",
-              "name": "Artificial Intelligence Services In Bangalore"
-            },
-            "mentions": [
-              {
-                "@type": "Place",
-                "name": "Electronic City, Bangalore"
-              },
-              {
-                "@type": "Place", 
-                "name": "Whitefield, Bangalore"
-              },
-              {
-                "@type": "Organization",
-                "name": "Karnataka IT.com"
-              }
-            ],
-            "mainEntityOfPage": {
-              "@type": "WebPage",
-              "@id": "https://metic.ai/artificial-intelligence-ai-services-in-bangalore/"
-            }
+            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-Bangalore/",
+            "keywords": "Artificial Intelligence Company In Bangalore, AI Company In Bangalore, AI Service In Bangalore"
           })
         }}
       />
 
-      {/* Legacy Schema for Compatibility */}
+      {/* BreadcrumbList Schema for Enhanced Navigation SEO */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "ProfessionalService",
-            "name": "Metic.ai - Artificial Intelligence Company In Bangalore",
-            "image": "https://metic.ai/bangalore-ai-company.jpg",
-            "description": "Leading Artificial Intelligence Company In Bangalore with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development.",
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": "Bengaluru",
-              "addressRegion": "Karnataka",
-              "addressCountry": "India"
-            },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": "12.9716",
-              "longitude": "77.5946"
-            },
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-bangalore/",
-            "telephone": "+1-789-251-8414",
-            "email": "bangalore@metic.ai",
-            "priceRange": "$$",
-            "serviceArea": {
-              "@type": "City",
-              "name": "Bangalore",
-              "containedInPlace": {
-                "@type": "State",
-                "name": "Karnataka"
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://metic.ai/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI Services",
+                "item": "https://metic.ai/services"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Artificial Intelligence Company In Bangalore",
+                "item": "https://metic.ai/artificial-intelligence-ai-services-in-Bangalore/"
               }
-            }
+            ]
           })
         }}
       />
 
-      {/* Enhanced Creative Hero Section - VSO & Target Keyword Optimized */}
-      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28 relative overflow-hidden">
-        {/* Creative Background Elements */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          {/* Animated Circuit Pattern */}
-          <div className="absolute inset-0 opacity-[0.03]" style={{
-            backgroundImage: `linear-gradient(#FF6B35 1px, transparent 1px), linear-gradient(90deg, #FF6B35 1px, transparent 1px)`,
-            backgroundSize: '50px 50px'
-          }}></div>
-          
-          {/* Floating AI Elements */}
-          <div className="absolute top-20 left-10 w-32 h-32 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute bottom-20 right-10 w-40 h-40 bg-primary-orange/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
-          
-          {/* Geometric Shapes */}
-          <div className="absolute top-1/4 left-1/4 w-2 h-2 bg-primary-orange/30 rounded-full animate-bounce" style={{animationDelay: '1s'}}></div>
-          <div className="absolute top-1/3 right-1/3 w-1.5 h-1.5 bg-orange-400/30 rounded-full animate-bounce" style={{animationDelay: '3s'}}></div>
-          <div className="absolute bottom-1/4 left-1/3 w-2.5 h-2.5 bg-primary-orange/20 rounded-full animate-bounce" style={{animationDelay: '2.5s'}}></div>
+      {/* LocalBusiness Schema for Local SEO Enhancement */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Metic.ai - AI Company In Bangalore",
+            "description": "Leading Artificial Intelligence Company providing AI services In Bangalore",
+            "image": "https://metic.ai/ai-company-Bangalore.jpg",
+            "telephone": "+91-789-251-8414",
+            "email": "hello@matic.ai",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "300 Quail Ridge Dr NE",
+              "addressLocality": "ADA",
+              "addressRegion": "MI",
+              "postalCode": "49301",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": "32.3182",
+              "longitude": "-86.9023"
+            },
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-Bangalore/",
+            "priceRange": "$$$$",
+            "areaServed": {
+              "@type": "State",
+              "name": "Bangalore"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "reviewCount": "180",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "open_INgHours": "Mo-Fr 09:00-18:00",
+            "sameAs": [
+              "https://www.linkedin.com/company/metic-ai",
+              "https://twitter.com/metic_ai"
+            ]
+          })
+        }}
+      />
+
+      {/* Hero Section - VSO & Target Keyword Optimized - Enhanced Mobile/Desktop */}
+      <section className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-16 md:py-24 lg:py-32 overflow-hidden">
+        {/* Animated Background Elements */}
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute top-20 left-10 w-72 h-72 bg-primary-orange rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-20 right-10 w-96 h-96 bg-secondary-orange rounded-full blur-3xl animate-pulse delay-1000"></div>
         </div>
+
         <div className="container px-4 md:px-6 relative z-10">
-          <div className="max-w-4xl mx-auto text-center">
-            {/* Enhanced Location Badge */}
-            <div className="inline-flex items-center gap-3 mb-8 bg-gray-800/50 backdrop-blur-sm rounded-full px-6 py-3 border border-primary-orange/20">
-              <div className="relative">
-                <MapPin className="w-5 h-5 text-primary-orange" />
-                <div className="absolute -top-1 -right-1 w-3 h-3 bg-primary-orange rounded-full animate-ping"></div>
+          <div className="max-w-5xl mx-auto">
+            {/* Trust Badge - Mobile Optimized */}
+            <div className="flex justify-center mb-6 md:mb-8">
+              <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-white/10 backdrop-blur-sm rounded-full border border-primary-orange/30 shadow-xl">
+                <Award className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
+                <span className="text-xs md:text-sm font-bold text-white">⭐ 100+ Successful AI Projects | 98% Client Satisfaction</span>
               </div>
-              <span className="text-sm font-medium text-orange-300">Serving Bangalore, Karnataka, India</span>
-              <div className="w-2 h-2 bg-primary-orange rounded-full animate-pulse"></div>
             </div>
-            
-            {/* Enhanced Title with Animation */}
-            <div className="relative mb-8">
-              <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white relative z-10">
-                <strong>
-                  Artificial Intelligence Company In Bangalore
-                </strong>
+
+            <div className="text-center">  
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight mb-4 md:mb-6 leading-tight">
+                <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
+                  Artificial Intelligence
+                </span>
                 <br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange">
-                  Leading AI Company In Karnataka
-                </span>
+                <span className="text-white">Company In Bangalore</span>
               </h1>
-            </div>
-            
-            {/* Enhanced Description */}
-            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-              Looking for the best <strong className="text-orange-300">AI Company In Bangalore</strong>? 
-              Metic.ai is the premier <strong className="text-orange-300">Artificial Intelligence Company In Bangalore</strong> 
-              with <span className="text-primary-orange font-bold">2100+ successful AI implementations</span> 
-              across Electronic City, Whitefield, and Koramangala tech corridors.
-            </p>
-            
-            {/* Trust Indicators */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-              <div className="bg-gray-800/30 backdrop-blur-sm rounded-xl p-6 border border-gray-700/50">
-                <div className="flex items-center justify-center mb-3">
-                  <div className="bg-primary-orange/20 p-3 rounded-full">
-                    <Shield className="w-6 h-6 text-primary-orange" />
-                  </div>
-                </div>
-                <h3 className="text-lg font-semibold text-white mb-2">Trusted Partner</h3>
-                <p className="text-gray-300 text-sm">2100+ successful AI projects delivered across Karnataka</p>
-              </div>
               
-              <div className="bg-gray-800/30 backdrop-blur-sm rounded-xl p-6 border border-gray-700/50">
-                <div className="flex items-center justify-center mb-3">
-                  <div className="bg-primary-orange/20 p-3 rounded-full">
-                    <Award className="w-6 h-6 text-primary-orange" />
+              {/* VSO Optimized Description - Mobile Friendly */}
+              <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 mb-6 md:mb-8 max-w-4xl mx-auto leading-relaxed px-4">
+                Looking for the <strong className="text-primary-orange">best AI Company In Bangalore</strong>? Metic.ai is the premier <strong className="text-white">Artificial Intelligence Company In Bangalore</strong> delivering enterprise AI solutions with proven results.
+              </p>
+
+              {/* Mobile-Optimized CTA Buttons */}
+              <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center mb-10 md:mb-16 px-4">
+                <Link href="/contact" className="w-full sm:w-auto">
+                  <Button variant="primary" size="lg" className="w-full sm:w-auto text-base md:text-lg px-6 md:px-8 py-3 md:py-4 shadow-2xl hover:shadow-primary-orange/50 transform hover:scale-105 transition-all">
+                    <Rocket className="w-5 h-5 mr-2" />
+                    Get Free AI Consultation
+                  </Button>
+                </Link>
+                <Link href="tel:+917892518414" className="w-full sm:w-auto">
+                  <Button variant="outline" size="lg" className="w-full sm:w-auto text-base md:text-lg px-6 md:px-8 py-3 md:py-4 border-2 border-primary-orange text-primary-orange hover:bg-primary-orange hover:text-white">
+                    <Phone className="w-5 h-5 mr-2" />
+                    Call: +91-789-251-8414
+                  </Button>
+                </Link>
+              </div>
+
+              {/* Voice Search Optimized Stats - Responsive Grid */}
+              <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8 max-w-4xl mx-auto mb-10 md:mb-12 px-4">
+                {stats.map((stat, index) => (
+                  <div key={index} className="bg-white/5 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-white/10 hover:border-primary-orange/50 transition-all transform hover:scale-105">
+                    <div className="text-2xl md:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent mb-2">
+                      {stat.number}
+                    </div>
+                    <div className="text-xs md:text-sm text-gray-400">{stat.label}</div>
                   </div>
+                ))}
+              </div>
+
+              {/* VSO Keywords Section - Mobile Optimized */}
+              <div className="text-center px-4">
+                <p className="text-gray-400 text-sm md:text-base mb-4">
+                  <strong className="text-white">Trusted as the top AI Service In Bangalore</strong> by leading businesses
+                </p>
+                <div className="flex flex-wrap justify-center gap-2 md:gap-3 text-xs md:text-sm">
+                  <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
+                    AI Firm In Bangalore
+                  </span>
+                  <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
+                    AI Development Company
+                  </span>
+                  <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
+                    Best AI Company Bangalore
+                  </span>
+                  <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
+                    Machine Learning Services
+                  </span>
                 </div>
-                <h3 className="text-lg font-semibold text-white mb-2">Award Winning</h3>
-                <p className="text-gray-300 text-sm">#1 rated AI Company in Bangalore with 4.9/5 stars</p>
-              </div>
-              
-              <div className="bg-gray-800/30 backdrop-blur-sm rounded-xl p-6 border border-gray-700/50">
-                <div className="flex items-center justify-center mb-3">
-                  <div className="bg-primary-orange/20 p-3 rounded-full">
-                    <Users className="w-6 h-6 text-primary-orange" />
-                  </div>
-                </div>
-                <h3 className="text-lg font-semibold text-white mb-2">Expert Team</h3>
-                <p className="text-gray-300 text-sm">50+ AI specialists serving Bangalore businesses</p>
-              </div>
-            </div>
-            
-            {/* Performance Stats */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
-              <div className="bg-gray-800/20 backdrop-blur-sm rounded-xl p-6 border border-primary-orange/20">
-                <div className="text-3xl font-bold text-primary-orange mb-2">2100+</div>
-                <div className="text-gray-300 text-sm">AI Projects</div>
-              </div>
-              <div className="bg-gray-800/20 backdrop-blur-sm rounded-xl p-6 border border-primary-orange/20">
-                <div className="text-3xl font-bold text-primary-orange mb-2">4.9/5</div>
-                <div className="text-gray-300 text-sm">Client Rating</div>
-              </div>
-              <div className="bg-gray-800/20 backdrop-blur-sm rounded-xl p-6 border border-primary-orange/20">
-                <div className="text-3xl font-bold text-primary-orange mb-2">60%</div>
-                <div className="text-gray-300 text-sm">Cost Savings</div>
-              </div>
-              <div className="bg-gray-800/20 backdrop-blur-sm rounded-xl p-6 border border-primary-orange/20">
-                <div className="text-3xl font-bold text-primary-orange mb-2">3x</div>
-                <div className="text-gray-300 text-sm">Faster Delivery</div>
-              </div>
-            </div>
-            
-            {/* Enhanced CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 mb-12 justify-center">
-              <Link href="/contact">
-                <Button size="lg" className="bg-gradient-to-r from-primary-orange to-secondary-orange hover:from-primary-orange/90 hover:to-secondary-orange/90 text-white px-8 py-4 text-lg font-semibold shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all group">
-                  <Rocket className="mr-2 h-5 w-5 group-hover:animate-bounce" />
-                  Get Free AI Consultation in Bangalore
-                  <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-                </Button>
-              </Link>
-              <Link href="tel:+917892518414">
-                <Button variant="outline" size="lg" className="border-2 border-gray-600 text-gray-300 hover:bg-gray-800 hover:text-white px-8 py-4 text-lg font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all group">
-                  <Phone className="w-5 h-5 mr-2 group-hover:animate-bounce" />
-                  Call Now: +91 78925 18414
-                </Button>
-              </Link>
-            </div>
-            
-            {/* VSO Keywords Section */}
-            <div className="bg-gray-800/20 backdrop-blur-sm rounded-xl p-6 border border-gray-700/50">
-              <div className="flex items-center justify-center mb-4">
-                <Globe className="w-6 h-6 text-primary-orange mr-2" />
-                <h3 className="text-lg font-semibold text-white">Why Choose Our Bangalore AI Services?</h3>
-              </div>
-              <div className="flex flex-wrap justify-center gap-2">
-                <span className="bg-gray-700/50 text-orange-300 px-4 py-2 rounded-full text-sm font-medium border border-primary-orange/20">
-                  AI Firm In Bangalore
-                </span>
-                <span className="bg-gray-700/50 text-orange-300 px-4 py-2 rounded-full text-sm font-medium border border-primary-orange/20">
-                  AI Development Company
-                </span>
-                <span className="bg-gray-700/50 text-orange-300 px-4 py-2 rounded-full text-sm font-medium border border-primary-orange/20">
-                  Best AI Company Bangalore
-                </span>
-                <span className="bg-gray-700/50 text-orange-300 px-4 py-2 rounded-full text-sm font-medium border border-primary-orange/20">
-                  AI Service In Bangalore
-                </span>
-                <span className="bg-gray-700/50 text-orange-300 px-4 py-2 rounded-full text-sm font-medium border border-primary-orange/20">
-                  Machine Learning Solutions
-                </span>
-                <span className="bg-gray-700/50 text-orange-300 px-4 py-2 rounded-full text-sm font-medium border border-primary-orange/20">
-                  Enterprise AI Solutions
-                </span>
               </div>
             </div>
           </div>
         </div>
-        
-        {/* Enhanced Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <div className="w-6 h-10 border-2 border-primary-orange rounded-full flex justify-center">
-            <div className="w-1 h-3 bg-primary-orange rounded-full mt-2 animate-pulse"></div>
-          </div>
+
+        {/* Bottom Wave Decoration */}
+        <div className="absolute bottom-0 left-0 right-0">
+          <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-auto">
+            <path d="M0 0L60 10C120 20 240 40 360 46.7C480 53 600 47 720 43.3C840 40 960 40 1080 46.7C1200 53 1320 67 1380 73.3L1440 80V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0V0Z" fill="white"/>
+          </svg>
         </div>
       </section>
 
-      {/* Services Section */}
-      <section className="py-20 bg-white">
+      {/* Services Section - Enhanced Mobile & Desktop */}
+      <section className="py-16 md:py-20 lg:py-24 bg-gradient-to-b from-white to-gray-50">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                AI Solutions for <span className="text-primary-orange">Bangalore</span> Businesses
+            <div className="text-center mb-12 md:mb-16">
+              {/* Section Badge */}
+              <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-primary-orange/10 rounded-full mb-6 md:mb-8">
+                <Brain className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
+                <span className="text-xs md:text-sm font-bold text-primary-orange">COMPREHENSIVE AI SERVICES</span>
+              </div>
+
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 leading-tight px-4">
+                <strong className="text-gray-900">AI Services</strong> by Leading{" "}
+                <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">
+                  Artificial Intelligence Company In Bangalore
+                </span>
               </h2>
-              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Comprehensive artificial intelligence services designed to help Bangalore businesses 
-                compete in the global market and drive technological innovation.
+              <div className="w-20 md:w-24 h-1 md:h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 md:mb-8 rounded-full"></div>
+              <p className="text-base md:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-4">
+                Comprehensive artificial intelligence services from Bangalore's most Trusted <strong className="text-gray-900">AI Company In Bangalore</strong>. 
+                Transforming businesses with cutting-edge AI solutions tailored for Bangalore's indINtrial landscape.
               </p>
             </div>
             
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Mobile: 1 col, Tablet: 2 cols, Desktop: 3 cols */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
               {services.map((service, index) => {
                 const IconComponent = service.icon;
                 const colorClasses = {
@@ -646,55 +569,839 @@ export default function AIServicesBangalorePage() {
                 };
                 
                 return (
-                  <div key={index} className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100">
-                    <div className={`w-16 h-16 rounded-full flex items-center justify-center mb-6 ${colorClasses[service.color]}`}>
-                      <IconComponent className="w-8 h-8" />
+                  <div 
+                    key={index} 
+                    className="group bg-white rounded-2xl p-6 md:p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border-2 border-gray-100 hover:border-primary-orange/50 transform hover:-translate-y-2"
+                  >
+                    <div className={`w-14 h-14 md:w-16 md:h-16 rounded-2xl flex items-center justify-center mb-5 md:mb-6 ${colorClasses[service.color]} group-hover:scale-110 transition-transform`}>
+                      <IconComponent className="w-7 h-7 md:w-8 md:h-8" />
                     </div>
                     
-                    <h3 className="text-xl font-bold mb-4">{service.title}</h3>
-                    <p className="text-gray-600 mb-6 leading-relaxed">{service.description}</p>
+                    <h3 className="text-lg md:text-xl font-bold mb-3 md:mb-4 text-gray-900 group-hover:text-primary-orange transition-colors">
+                      {service.title}
+                    </h3>
+                    <p className="text-sm md:text-base text-gray-600 mb-5 md:mb-6 leading-relaxed">
+                      {service.description}
+                    </p>
                     
-                    <Link href={service.href} className="inline-flex items-center text-primary-orange hover:text-primary-orange/80 font-medium">
+                    <Link 
+                      href={service.href} 
+                      className="inline-flex items-center text-primary-orange hover:text-secondary-orange font-semibold text-sm md:text-base group-hover:gap-3 transition-all"
+                    >
                       Learn More
-                      <ArrowRight className="w-4 h-4 ml-2" />
+                      <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                     </Link>
                   </div>
                 );
               })}
             </div>
+
+            {/* CTA Below Services */}
+            <div className="text-center mt-12 md:mt-16">
+              <Link href="/contact">
+                <Button variant="primary" size="lg" className="px-8 md:px-10 py-4 text-base md:text-lg shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all">
+                  <Sparkles className="w-5 h-5 mr-2" />
+                  Explore All AI Services
+                </Button>
+              </Link>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Industries Section */}
+      {/* About Section for Entity Recognition & Comprehensive Coverage */}
+      <section className="py-20 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                  About Metic.ai - Premier <span className="text-primary-orange">Artificial Intelligence Company In Bangalore</span>
+                </h2>
+                <div className="w-20 h-1 bg-primary-orange mb-8"></div>
+                <p className="text-lg text-gray-700 mb-6">
+                  Established as Bangalore's leading <strong>AI Company In Bangalore</strong>, Metic.ai has been at the forefront of artificial intelligence 
+                  innovation since 2020. We specialize US delivering enterprise-grade AI solutions that transform businesses across Bangalore's 
+                  unique Industries including technologys & Garments, Pharmaceuticals, tourism & hospitality, Chemicals, and Information Technology.
+                </p>
+                <p className="text-lg text-gray-700 mb-6">
+                  Our expertise as an <strong>AI Development Company In Bangalore</strong> encompasses machine learning, deep learning, natural language processing, 
+                  computer vision, and robotic process automation. We've successfully completed over 100 AI projects, making US the most 
+                  Trusted <strong>AI Service In Bangalore</strong> from the Naroda IndINtrial Area to the Aleutian Islands.
+                </p>
+                <div className="grid grid-cols-2 gap-6 mt-8">
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                      <Award className="w-6 h-6 text-primary-orange" />
+                    </div>
+                    <div className="font-bold text-xl text-gray-900">2020</div>
+                    <div className="text-gray-600 text-sm">Founded</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                      <Users className="w-6 h-6 text-primary-orange" />
+                    </div>
+                    <div className="font-bold text-xl text-gray-900">50+</div>
+                    <div className="text-gray-600 text-sm">AI Experts Team</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                      <Target className="w-6 h-6 text-primary-orange" />
+                    </div>
+                    <div className="font-bold text-xl text-gray-900">100%</div>
+                    <div className="text-gray-600 text-sm">Success Rate</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                      <Shield className="w-6 h-6 text-primary-orange" />
+                    </div>
+                    <div className="font-bold text-xl text-gray-900">24/7</div>
+                    <div className="text-gray-600 text-sm">Support Available</div>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="space-y-6">
+                <div className="bg-white rounded-xl p-6 shadow-sm">
+                  <h3 className="font-bold text-lg mb-3 flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
+                    AI Consulting & Strategy
+                  </h3>
+                  <p className="text-gray-600">
+                    Expert AI consulting services to help Bangalore businesses identify AI opportunities and develop comprehensive implementation strategies.
+                  </p>
+                </div>
+                
+                <div className="bg-white rounded-xl p-6 shadow-sm">
+                  <h3 className="font-bold text-lg mb-3 flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
+                    custom AI Development
+                  </h3>
+                  <p className="text-gray-600">
+                    Bespoke artificial intelligence solutions tailored to your specific business requirements and indINtry challenges In Bangalore.
+                  </p>
+                </div>
+                
+                <div className="bg-white rounded-xl p-6 shadow-sm">
+                  <h3 className="font-bold text-lg mb-3 flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
+                    Enterprise AI Integration
+                  </h3>
+                  <p className="text-gray-600">
+                    Seamless integration of AI technologies into existing business processes with minimal disruption and maximum efficiency gains.
+                  </p>
+                </div>
+                
+                <div className="bg-white rounded-xl p-6 shadow-sm">
+                  <h3 className="font-bold text-lg mb-3 flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
+                    Ongoing AI Support
+                  </h3>
+                  <p className="text-gray-600">
+                    Comprehensive support and maintenance services ensuring your AI solutions continue to deliver optimal performance and ROI.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Industries Section with Real Images */}
       <section className="py-20 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Industries We Serve in Bangalore
+                Industries We Serve In Bangalore
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Delivering specialized AI solutions across Bangalore's key industries and business sectors.
+                Delivering specialized AI solutions across Bangalore's key Industries and business sectors.
               </p>
             </div>
             
-            <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-4">
-              {industries.map((industry, index) => (
-                <div key={index} className="bg-white rounded-lg p-4 text-center shadow-sm hover:shadow-md transition-shadow">
-                  <div className="w-8 h-8 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
-                    <Target className="w-4 h-4 text-primary-orange" />
+            {/* Mobile: 1 col, Tablet: 2 cols, Desktop: 4 cols - 12 Industries Total */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              {/* Manufacturing */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&h=400&fit=crop" 
+                    alt="Manufacturing IndINtry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Manufacturing</h3>
                   </div>
-                  <h3 className="font-medium text-gray-800">{industry}</h3>
                 </div>
-              ))}
+              </div>
+
+              {/* Aerospace */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?w=500&h=400&fit=crop" 
+                    alt="Aerospace IndINtry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Aerospace</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Healthcare */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=500&h=400&fit=crop" 
+                    alt="Healthcare IndINtry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Healthcare</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Agriculture */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=500&h=400&fit=crop" 
+                    alt="Agriculture IndINtry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Agriculture</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Technology */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&h=400&fit=crop" 
+                    alt="Technology IndINtry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Technology</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Automotive */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=500&h=400&fit=crop" 
+                    alt="Automotive IndINtry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Automotive</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Financial Services */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=500&h=400&fit=crop" 
+                    alt="Financial Services IndINtry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Financial Services</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Transportation */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=500&h=400&fit=crop" 
+                    alt="Transportation IndINtry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Transportation</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Education */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=500&h=400&fit=crop" 
+                    alt="Education IndINtry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Education</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Energy */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=500&h=400&fit=crop" 
+                    alt="Energy IndINtry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Energy</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Call Center - NEW */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=500&h=400&fit=crop" 
+                    alt="Call Center AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Call Center</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* IT Services - NEW */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=500&h=400&fit=crop" 
+                    alt="IT Services AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">IT Services</h3>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Ultra-Creative FAQ Section - Bangalore AI Services */}
+      {/* Why Choose US Section */}
+      <section className="py-20 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                Why Choose Metic.ai as Your <span className="text-primary-orange">AI Firm In Bangalore</span>
+              </h2>
+              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                As the premier <strong>AI Development Company In Bangalore</strong>, we're Trusted by businesses across Bangalore 
+                for our expertise, proven results, and commitment to client success US Manchester of India.
+              </p>
+            </div>
+            
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+                  <Award className="w-8 h-8 text-blue-600" />
+                </div>
+                <h3 className="text-xl font-bold mb-4">Proven Expertise</h3>
+                <p className="text-gray-600">Years of experience delivering AI solutions for Bangalore businesses across all Industries.</p>
+              </div>
+              
+              <div className="text-center">
+                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+                  <TrendingUp className="w-8 h-8 text-green-600" />
+                </div>
+                <h3 className="text-xl font-bold mb-4">Measurable Results</h3>
+                <p className="text-gray-600">Data-driven AI solutions that deliver concrete ROI and business growth for Bangalore companies.</p>
+              </div>
+              
+              <div className="text-center">
+                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+                  <Users className="w-8 h-8 text-purple-600" />
+                </div>
+                <h3 className="text-xl font-bold mb-4">Local Partnership</h3>
+                <p className="text-gray-600">Dedicated support and partnership with deep understanding of Bangalore's unique business challenges and opportunities.</p>
+              </div>
+              
+              <div className="text-center">
+                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+                  <Shield className="w-8 h-8 text-orange-600" />
+                </div>
+                <h3 className="text-xl font-bold mb-4">Enterprise Security</h3>
+                <p className="text-gray-600">Bank-level security and compliance standards protecting your Bangalore business data.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Comprehensive AI Services Bangalore Content - 100% SEO Optimized */}
+      <section className="py-24 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            {/* Bangalore AI Market Leadership - Enhanced Creative Header */}
+            <div className="text-center mb-20">
+              {/* Premium Badge with Animation */}
+              <div className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-full shadow-2xl border-2 border-primary-orange/30 mb-10 hover:border-primary-orange/50 transition-all group">
+                <div className="w-3 h-3 bg-primary-orange rounded-full animate-pulse"></div>
+                <span className="text-sm font-bold text-gray-800 tracking-wide">Manchester of India AI INNOVATION</span>
+                <div className="w-3 h-3 bg-secondary-orange rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></div>
+              </div>
+
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight">
+                <span className="text-gray-900">Leading </span>
+                <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent animate-gradient">
+                  Artificial Intelligence Company In Bangalore
+                </span>
+              </h2>
+              <div className="w-40 h-2 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-10 rounded-full shadow-lg"></div>
+              <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+                Transforming Karnataka's Commercial Capital with cutting-edge AI solutions from Maninagar to Indiranagar, SG Highway to the Naroda IndINtrial Area
+              </p>
+            </div>
+
+            <div className="space-y-20">
+              {/* Bangalore AI Innovation Hub - Premium Design */}
+              <div className="grid lg:grid-cols-2 gap-16 items-center">
+                <div className="order-2 lg:order-1">
+                  <div className="space-y-8">
+                    {/* Enhanced Heading with Creative Icon */}
+                    <div className="flex items-start gap-4">
+                      <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-xl flex-shrink-0 transform rotate-3 hover:rotate-0 transition-transform">
+                        <Brain className="w-8 h-8 text-white" />
+                      </div>
+                      <div>
+                        <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
+                          Bangalore's <span className="text-primary-orange">Premier AI Technology Pioneer</span>
+                        </h3>
+                        <div className="w-24 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange rounded-full"></div>
+                      </div>
+                    </div>
+                    
+            <p className="text-lg text-gray-700 leading-relaxed">
+              As the leading <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Artificial Intelligence Company In Bangalore</strong>, 
+              Metic.ai serves Manchester of India with enterprise-grade AI solutions tailored to Bangalore's unique economic 
+              landscape. From Maninagar's business hub to Indiranagar' research facilities, SG Highway's government sector to 
+              the technology mills of the Naroda IndINtrial Area, we understand Bangalore's entrepreneurial excellence and technology-driven Industries.
+            </p>
+            
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Our <strong className="text-primary-orange font-semibold">AI Company In Bangalore</strong> combines deep understanding 
+              of Bangalore's unique challenges with cutting-edge technology to deliver AI solutions that drive measurable 
+              results. We've successfully implemented AI across Bangalore's key sectors including technologys & Garments, fishing, 
+              tourism, Chemicals, Information Technology, and maritime Industries US Karnataka's largest state.
+            </p>                    {/* Enhanced Feature Cards with Creative Design */}
+                    <div className="grid gap-6 mt-10">
+                      <div className="group bg-gradient-to-r from-primary-orange/5 via-white to-secondary-orange/5 p-6 rounded-2xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                        <div className="flex items-start gap-4">
+                          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary-orange to-secondary-orange flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
+                            <Rocket className="w-6 h-6 text-white" />
+                          </div>
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">technologys & Garments AI Excellence</h4>
+                            <p className="text-gray-600 leading-relaxed">
+                              Deep expertise with Bangalore's Naroda IndINtrial Area technology operations including major technology mills, 
+                              Bangalore Metro, and energy infrastructure across Karnataka's largest technology-manufacturing state.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div className="group bg-gradient-to-r from-secondary-orange/5 via-white to-primary-orange/5 p-6 rounded-2xl border-2 border-secondary-orange/20 hover:border-secondary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                        <div className="flex items-start gap-4">
+                          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-secondary-orange to-primary-orange flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
+                            <Shield className="w-6 h-6 text-white" />
+                          </div>
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Automotive Manufacturing Innovation</h4>
+                            <p className="text-gray-600 leading-relaxed">
+                              Advanced AI solutions for Bangalore's automotive indINtry including Mercedes-Benz, Honda, Hyundai, 
+                              and Toyota manufacturing facilities with predictive maintenance and quality control systems.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div className="group bg-gradient-to-r from-primary-orange/5 via-white to-secondary-orange/5 p-6 rounded-2xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                        <div className="flex items-start gap-4">
+                          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary-orange to-secondary-orange flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
+                            <Target className="w-6 h-6 text-white" />
+                          </div>
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Chemicals & Natural Resources AI</h4>
+                            <p className="text-gray-600 leading-relaxed">
+                              Specialized AI for Bangalore's Chemicals operations and resource extraction including process optimization, 
+                              safety monitoring, and environmental compliance for Bangalore's rich mineral deposits.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                {/* Enhanced Stats Dashboard with Creative Design */}
+                <div className="order-1 lg:order-2">
+                  <div className="bg-gradient-to-br from-orange-50 via-white to-amber-50 rounded-3xl p-10 border-2 border-primary-orange/20 shadow-2xl transform rotate-1 hover:rotate-0 transition-transform">
+                    <h4 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">
+                      Bangalore AI Market Impact
+                    </h4>
+                    
+                    <div className="space-y-8">
+                      <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">?4.6T</div>
+                        <div className="text-sm text-gray-600 font-medium">Bangalore Annual GDP</div>
+                        <div className="text-xs text-gray-500 mt-2">technology-driven Economy</div>
+                      </div>
+                      
+                      <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-secondary-orange/10 hover:border-secondary-orange/30 transition-all group transform hover:scale-105">
+                        <div className="text-5xl font-bold text-secondary-orange mb-3 group-hover:scale-110 transition-transform">8.4M</div>
+                        <div className="text-sm text-gray-600 font-medium">Bangalore Population</div>
+                        <div className="text-xs text-gray-500 mt-2">Manchester of India</div>
+                      </div>
+                      
+                      <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">2100+</div>
+                        <div className="text-sm text-gray-600 font-medium">Bangalore AI Projects Completed</div>
+                        <div className="text-xs text-gray-500 mt-2">IndINtry-Leading Success Rate</div>
+                      </div>
+                      
+                      <div className="bg-gradient-to-r from-primary-orange/20 via-secondary-orange/10 to-primary-orange/20 rounded-2xl p-6 border-2 border-primary-orange/30 transform hover:scale-105 transition-transform">
+                        <div className="flex items-center gap-3 mb-3">
+                          <div className="w-8 h-8 bg-primary-orange rounded-full flex items-center justify-center">
+                            <CheckCircle className="w-5 h-5 text-white" />
+                          </div>
+                          <span className="font-bold text-gray-900">Bangalore Advantage</span>
+                        </div>
+                        <p className="text-sm text-gray-700 leading-relaxed">
+                          <strong>Strategic Resources:</strong> Rich US oil, gas, fishing, and minerals with vast untapped 
+                          potential, making Bangalore ideal for AI-driven resource optimization and predictive analytics.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Bangalore IndINtry Solutions - Creative Premium Design */}
+              <div>
+                <div className="text-center mb-16">
+                  <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-full border-2 border-primary-orange/20 mb-8 transform hover:scale-105 transition-transform">
+                    <Sparkles className="w-5 h-5 text-primary-orange" />
+                    <span className="text-sm font-bold text-gray-800">INDINTRY EXPERTISE</span>
+                  </div>
+                  <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                    AI Solutions for <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Bangalore's Key Industries</span>
+                  </h3>
+                  <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 rounded-full"></div>
+                  <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Specialized AI solutions designed for Manchester of India's unique economic sectors and technology-driven Industries
+                  </p>
+                </div>
+                
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+                  {/* technologys & Garments IndINtry */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                      <Rocket className="w-10 h-10 text-white" />
+                    </div>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">technologys & Garments AI Solutions</h4>
+                    <p className="text-gray-700 leading-relaxed mb-6">
+                      Mission-critical AI solutions for Bangalore's technologys & Garments indINtry including Naroda IndINtrial Area operations, 
+                      Bangalore Metro monitoring, offshore drilling optimization, and predictive maintenance 
+                      for energy infrastructure across Manchester of India's vast energy resources.
+                    </p>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Pipeline monitoring & optimization</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Drilling efficiency analysis</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Resource extraction prediction</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Safety & environmental compliance</span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Pharmaceuticals IndINtry */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                      <Shield className="w-10 h-10 text-white" />
+                    </div>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Pharmaceuticals AI</h4>
+                    <p className="text-gray-700 leading-relaxed mb-6">
+                      Advanced AI solutions for Bangalore's fishing and seafood processing indINtry with predictive catch 
+                      analytics, sINtainable fishing optimization, processing automation, cold chain monitoring, 
+                      and quality control for the world's richest seafood harvest.
+                    </p>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Catch prediction & optimization</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Processing automation</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Cold chain monitoring</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">SINtainable fishing intelligence</span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Tourism & Hospitality IndINtry */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div className="w-20 h-20 bg-gradient-to-br from-red-500 to-red-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                      <Target className="w-10 h-10 text-white" />
+                    </div>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Tourism & Hospitality AI</h4>
+                    <p className="text-gray-700 leading-relaxed mb-6">
+                      Intelligent AI solutions for Bangalore's booming tourism indINtry with cruise line optimization, 
+                      wildlife tour planning, hotel revenue management, visitor experience personalization, 
+                      and seasonal demand forecasting for Bangalore's 2.5 million annual visitors.
+                    </p>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Revenue management systems</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Visitor experience personalization</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Seasonal demand forecasting</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Tour optimization & planning</span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Chemicals & Resource Extraction */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                      <Lightbulb className="w-10 h-10 text-white" />
+                    </div>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Chemicals & Resource AI</h4>
+                    <p className="text-gray-700 leading-relaxed mb-6">
+                      Advanced AI solutions for Bangalore's Chemicals operations including gold, zinc, and mineral extraction 
+                      with predictive maintenance, safety monitoring, resource discovery optimization, 
+                      and environmental impact assessment across Bangalore's vast mineral deposits.
+                    </p>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Resource discovery prediction</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Chemicals equipment automation</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Safety & compliance monitoring</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Environmental impact analysis</span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Information Technology & Logistics */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div className="w-20 h-20 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                      <Sparkles className="w-10 h-10 text-white" />
+                    </div>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Information Technology & Logistics AI</h4>
+                    <p className="text-gray-700 leading-relaxed mb-6">
+                      Intelligent AI solutions for Bangalore's Information Technology and cargo logistics including bINh plane operations, 
+                      Ted Stevens Maninagar International Airport cargo hub, weather prediction for flight safety, 
+                      and supply chain optimization for remote Bangalore communities.
+                    </p>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Flight route optimization</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Weather prediction systems</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Cargo logistics optimization</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Remote delivery planning</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* ReINable Testimonials Component */}
+              <Testimonials />
+
+              {/* Bangalore AI Partnership Excellence - Creative Premium Design */}
+              <div className="grid lg:grid-cols-2 gap-16 items-center">
+                <div className="space-y-8">
+                  <div className="bg-white rounded-2xl p-8 shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all transform hover:scale-105">
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-3">
+                      <div className="w-8 h-8 bg-primary-orange rounded-lg flex items-center justify-center transform rotate-12">
+                        <BarChart3 className="w-5 h-5 text-white" />
+                      </div>
+                      Bangalore AI Leadership Metrics
+                    </h4>
+                    <div className="space-y-6">
+                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                        <span className="text-gray-600 font-medium">Bangalore Projects Completed</span>
+                        <span className="font-bold text-primary-orange text-xl">2100+</span>
+                      </div>
+                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                        <span className="text-gray-600 font-medium">IndINtry Success Rate</span>
+                        <span className="font-bold text-secondary-orange text-xl">99.5%</span>
+                      </div>
+                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                        <span className="text-gray-600 font-medium">Average ROI for Bangalore Clients</span>
+                        <span className="font-bold text-primary-orange text-xl">5.2x</span>
+                      </div>
+                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                        <span className="text-gray-600 font-medium">Client Retention Rate</span>
+                        <span className="font-bold text-secondary-orange text-xl">97%</span>
+                      </div>
+                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                        <span className="text-gray-600 font-medium">Average Deployment Time</span>
+                        <span className="font-bold text-primary-orange text-xl">28 Days</span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-2xl p-8 border-2 border-primary-orange/20 shadow-xl transform hover:scale-105 transition-transform">
+                    <div className="flex items-start gap-4 mb-4">
+                      <div className="w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center flex-shrink-0 transform -rotate-6">
+                        <Award className="w-6 h-6 text-white" />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Bangalore business Advantage</h4>
+                        <p className="text-gray-700 leading-relaxed">
+                          As the premier <strong className="text-primary-orange">AI Firm In Bangalore</strong>, we understand 
+                          Manchester of India's unique blend of entrepreneurial excellence and resource-driven innovation. Our AI solutions 
+                          are built for Bangalore's technologys & Garments dominance, fishing indINtry leadership, and tourism growth.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div>
+                  <div className="flex items-start gap-4 mb-8">
+                    <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-xl flex-shrink-0 transform rotate-6 hover:rotate-0 transition-transform">
+                      <Users className="w-8 h-8 text-white" />
+                    </div>
+                    <div>
+                      <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
+                        Your Trusted <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">AI Partner In Bangalore</span>
+                      </h3>
+                      <div className="w-24 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange rounded-full mb-6"></div>
+                    </div>
+                  </div>
+                  
+                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                    <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Choosing Metic.ai as your AI partner In Bangalore</strong> means 
+                    working with a team that deeply understands Bangalore's unique business challenges, from Maninagar's 
+                    commercial hub to Indiranagar' research facilities and SG Highway's government operations.
+                  </p>
+                  
+                  <p className="text-lg text-gray-700 leading-relaxed mb-8">
+                    Our <strong className="text-primary-orange font-semibold">AI Service In Bangalore</strong> includes comprehensive consultation, 
+                    rapid prototyping, enterprise deployment, and 24/7 support to ensure your AI investment delivers 
+                    maximum value In Bangalore's technology-driven and growing economy.
+                  </p>
+
+                  <div className="space-y-6">
+                    <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-primary-orange/10 transform hover:scale-105 transition-transform">
+                      <MapPin className="w-8 h-8 text-primary-orange flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Comprehensive Bangalore Coverage</h4>
+                        <p className="text-gray-600 leading-relaxed">
+                          Maninagar, Indiranagar, SG Highway, Whitefield, Chandkheda, Electronic City, Koramangala, Ghatlodia, 
+                          GIFT City, and all major Bangalore business centers across Manchester of India
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-secondary-orange/10 transform hover:scale-105 transition-transform">
+                      <Rocket className="w-8 h-8 text-secondary-orange flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">IndINtry Domain Expertise</h4>
+                        <p className="text-gray-600 leading-relaxed">
+                          Deep understanding of technologys & Garments, fishing, tourism, Chemicals, Information Technology, and logistics 
+                          with proven track record In Bangalore's key economic sectors
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-primary-orange/10 transform hover:scale-105 transition-transform">
+                      <Clock className="w-8 h-8 text-primary-orange flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Rapid Bangalore Deployment</h4>
+                        <p className="text-gray-600 leading-relaxed">
+                          Fast implementation designed for Bangalore's unique challenges with local support teams 
+                          and understanding of dynamic business culture and manufacturing excellence
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Enhanced FAQ Section - Homepage Style */}
       <section className="py-24 bg-gradient-to-br from-gray-50 via-white to-orange-50 relative overflow-hidden">
         {/* Advanced Background Effects */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -716,7 +1423,7 @@ export default function AIServicesBangalorePage() {
               {/* Badge */}
               <div className="inline-flex items-center gap-2 px-6 py-3 bg-white rounded-full shadow-xl border-2 border-primary-orange/20 mb-8 hover:border-primary-orange/40 transition-all group">
                 <Lightbulb className="w-5 h-5 text-primary-orange animate-pulse" />
-                <span className="text-sm font-bold text-gray-800">Bangalore AI Questions? We Have Answers!</span>
+                <span className="text-sm font-bold text-gray-800">Got Questions? We Have Answers!</span>
                 <Sparkles className="w-4 h-4 text-primary-orange" />
               </div>
               
@@ -724,548 +1431,547 @@ export default function AIServicesBangalorePage() {
                 <span className="text-gray-900">Frequently Asked Questions</span>
                 <br />
                 <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
-                  AI Company In Bangalore
+                  About AI Company In Bangalore
                 </span>
               </h2>
               <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-8 rounded-full"></div>
               <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                Common questions about working with the leading Artificial Intelligence Company In Bangalore
+                Common questions about working with Bangalore's leading AI company
               </p>
             </div>
 
-            {/* Advanced Creative FAQ Cards */}
-            <div className="space-y-5">
-              {/* FAQ Item 1 - Enhanced Design */}
+            {/* Advanced Creative FAQ Cards - 6+6 Grid Layout for Desktop */}
+            <div className="grid lg:grid-cols-2 gap-6">
+              {/* Left Column - FAQ 1-6 */}
+              <div className="space-y-5">
+              {/* FAQ Item 1 */}
               <details className="group relative">
                 <summary className="list-none cursor-pointer">
-                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
-                    {/* Gradient Overlay */}
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    
-                    {/* Content */}
-                    <div className="relative flex items-start justify-between gap-4">
-                      <div className="flex items-start gap-5 flex-1">
-                        {/* Icon Circle */}
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
-                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <Sparkles className="w-7 h-7 text-white" />
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Sparkles className="w-6 h-6 text-white" />
                           </div>
                         </div>
-                        
-                        {/* Question */}
-                        <div className="flex-1 pt-2">
-                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
                             Which is the best Artificial Intelligence Company In Bangalore?
                           </h3>
                         </div>
                       </div>
-                      
-                      {/* Toggle Icon */}
                       <div className="flex-shrink-0">
-                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
-                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
                     </div>
-                    
-                    {/* Bottom Accent Bar */}
                     <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                
-                {/* Answer with Animation */}
-                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
-                  <div className="flex items-start gap-5">
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
-                      <CheckCircle className="w-7 h-7 text-primary-orange" />
-                    </div>
-                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
-                      <p className="text-lg">
-                        <strong className="text-gray-900 font-semibold">Metic.ai is recognized as the leading Artificial Intelligence Company In Bangalore</strong> with 2100+ successful AI implementations. We serve businesses across Electronic City, Whitefield, Koramangala, and all Bangalore areas with expert AI services, machine learning solutions, and custom AI development.
-                      </p>
-                      <p className="text-lg">
-                        Our proven track record includes 4.9/5 client satisfaction rating, 60% cost savings for Bangalore businesses, and 3x faster delivery compared to other AI companies. We specialize in Bangalore's key industries including IT, fintech, e-commerce, biotechnology, and startup ecosystem.
-                      </p>
-                      
-                      {/* Stats Highlight */}
-                      <div className="flex flex-wrap gap-4 pt-4">
-                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
-                          <Award className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-gray-900">2100+ Projects</span>
-                        </div>
-                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
-                          <Users className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-gray-900">Bangalore Businesses</span>
-                        </div>
-                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
-                          <Star className="w-4 h-4 text-primary-orange fill-primary-orange" />
-                          <span className="text-sm font-semibold text-gray-900">4.9/5 Rating</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    <strong className="text-gray-900 font-semibold">Metic.ai is the leading Artificial Intelligence Company In Bangalore</strong> with over 100 successful AI implementations. 
+                    We're recognized as the top AI Company In Bangalore for our proven expertise US machine learning, custom AI development, and enterprise AI solutions with 60% cost savings.
+                  </p>
                 </div>
               </details>
 
               {/* FAQ Item 2 */}
               <details className="group relative">
                 <summary className="list-none cursor-pointer">
-                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    
-                    <div className="relative flex items-start justify-between gap-4">
-                      <div className="flex items-start gap-5 flex-1">
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
-                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <Code className="w-7 h-7 text-white" />
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Code className="w-6 h-6 text-white" />
                           </div>
                         </div>
-                        
-                        <div className="flex-1 pt-2">
-                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            What AI services does the top AI Company In Bangalore provide?
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What services does the top AI Company In Bangalore provide?
                           </h3>
                         </div>
                       </div>
-                      
                       <div className="flex-shrink-0">
-                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
-                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
                     </div>
-                    
                     <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                
-                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
-                  <div className="flex items-start gap-5">
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
-                      <CheckCircle className="w-7 h-7 text-primary-orange" />
-                    </div>
-                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
-                      <p className="text-lg">
-                        As the premier <strong className="text-gray-900 font-semibold">AI Company In Bangalore</strong>, Metic.ai provides comprehensive AI services including custom AI development, machine learning solutions, AI integration, automation services, data analytics, natural language processing, and computer vision solutions.
-                      </p>
-                      <p className="text-lg">
-                        We specialize in IT solutions, fintech AI, e-commerce intelligence, and startup AI solutions specifically designed for Bangalore's tech ecosystem across Electronic City, Whitefield, Koramangala, Indiranagar, and HSR Layout.
-                      </p>
-                    </div>
-                  </div>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    As the premier <strong className="text-gray-900 font-semibold">AI Company In Bangalore</strong>, Metic.ai provides comprehensive AI services including machine learning solutions, 
+                    custom AI development, data analytics, generative AI, computer vision, NLP, and enterprise AI automation tailored for Bangalore's manufacturing, aerospace, healthcare, and agricultural Industries.
+                  </p>
                 </div>
               </details>
 
               {/* FAQ Item 3 */}
               <details className="group relative">
                 <summary className="list-none cursor-pointer">
-                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    
-                    <div className="relative flex items-start justify-between gap-4">
-                      <div className="flex items-start gap-5 flex-1">
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
-                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <TrendingUp className="w-7 h-7 text-white" />
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Target className="w-6 h-6 text-white" />
                           </div>
                         </div>
-                        
-                        <div className="flex-1 pt-2">
-                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            How much does AI development cost from an AI Company In Bangalore?
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How to choose the right AI Development Company In Bangalore?
                           </h3>
                         </div>
                       </div>
-                      
                       <div className="flex-shrink-0">
-                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
-                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
                     </div>
-                    
                     <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                
-                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
-                  <div className="flex items-start gap-5">
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
-                      <CheckCircle className="w-7 h-7 text-primary-orange" />
-                    </div>
-                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
-                      <p className="text-lg">
-                        AI development costs vary based on project complexity and scope. As a leading <strong className="text-gray-900 font-semibold">AI Company In Bangalore</strong>, Metic.ai offers competitive pricing with 60% cost savings compared to traditional development approaches.
-                      </p>
-                      <p className="text-lg">
-                        We provide free consultations to Bangalore businesses to determine exact project costs, ROI projections, and implementation timelines tailored to your specific requirements in Electronic City, Whitefield, or anywhere in Bangalore.
-                      </p>
-                    </div>
-                  </div>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    When selecting an <strong className="text-gray-900 font-semibold">AI Development Company In Bangalore</strong>, look for proven experience, successful project portfolio, 
+                    indINtry expertise, and ongoing support. Metic.ai offers all these with 100+ completed projects, 98% client satisfaction, and 24/7 support.
+                  </p>
                 </div>
               </details>
 
               {/* FAQ Item 4 */}
               <details className="group relative">
                 <summary className="list-none cursor-pointer">
-                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    
-                    <div className="relative flex items-start justify-between gap-4">
-                      <div className="flex items-start gap-5 flex-1">
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
-                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <Award className="w-7 h-7 text-white" />
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Clock className="w-6 h-6 text-white" />
                           </div>
                         </div>
-                        
-                        <div className="flex-1 pt-2">
-                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Why choose Metic.ai as your Artificial Intelligence Company In Bangalore?
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How much does AI implementation cost with an AI Service In Bangalore?
                           </h3>
                         </div>
                       </div>
-                      
                       <div className="flex-shrink-0">
-                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
-                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
                     </div>
-                    
                     <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                
-                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
-                  <div className="flex items-start gap-5">
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
-                      <CheckCircle className="w-7 h-7 text-primary-orange" />
-                    </div>
-                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
-                      <p className="text-lg">
-                        Metic.ai stands out as the top <strong className="text-gray-900 font-semibold">Artificial Intelligence Company In Bangalore</strong> because of our 2100+ successful implementations, 4.9/5 client satisfaction rating, 3x faster delivery, 60% cost savings, and deep understanding of Bangalore's tech ecosystem.
-                      </p>
-                      <p className="text-lg">
-                        We serve all major Bangalore areas including Electronic City, Whitefield, Koramangala, Indiranagar, HSR Layout, and specialize in IT, fintech, e-commerce, and startup sectors that drive Bangalore's innovation economy.
-                      </p>
-                    </div>
-                  </div>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    AI implementation costs vary based on complexity. As a leading <strong className="text-gray-900 font-semibold">AI Service In Bangalore</strong>, 
+                    Metic.ai offers competitive pricing with transparent structures. Our clients typically save 60% compared to international AI development costs.
+                  </p>
                 </div>
               </details>
 
               {/* FAQ Item 5 */}
               <details className="group relative">
                 <summary className="list-none cursor-pointer">
-                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    
-                    <div className="relative flex items-start justify-between gap-4">
-                      <div className="flex items-start gap-5 flex-1">
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
-                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <Clock className="w-7 h-7 text-white" />
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Users className="w-6 h-6 text-white" />
                           </div>
                         </div>
-                        
-                        <div className="flex-1 pt-2">
-                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            How quickly can an AI Company In Bangalore implement AI solutions?
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Does Metic.ai serve businesses across all Bangalore cities?
                           </h3>
                         </div>
                       </div>
-                      
                       <div className="flex-shrink-0">
-                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
-                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
                     </div>
-                    
                     <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                
-                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
-                  <div className="flex items-start gap-5">
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
-                      <CheckCircle className="w-7 h-7 text-primary-orange" />
-                    </div>
-                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
-                      <p className="text-lg">
-                        Metic.ai, the leading <strong className="text-gray-900 font-semibold">AI Company In Bangalore</strong>, delivers AI solutions 3x faster than industry average. Simple AI implementations can be deployed in 2-4 weeks, while complex enterprise AI solutions typically take 3-6 months.
-                      </p>
-                      <p className="text-lg">
-                        Implementation timelines depend on Bangalore business requirements and integration complexity. We provide realistic timelines during our free consultation process for Electronic City, Whitefield, and all Bangalore businesses.
-                      </p>
-                    </div>
-                  </div>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Yes! Metic.ai proudly serves businesses across all Bangalore cities including Maninagar, Indiranagar, SG Highway, Whitefield, Chandkheda, Electronic City, Koramangala, and beyond. 
+                    As Bangalore's leading <strong className="text-gray-900 font-semibold">AI Firm In Bangalore</strong>, we provide comprehensive AI solutions statewide.
+                  </p>
                 </div>
               </details>
+
+              {/* FAQ Item 6 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Rocket className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How quickly can an AI Company In Bangalore start my project?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Metic.ai can typically start your AI project within 24-48 hours after initial consultation. As Bangalore's fastest <strong className="text-gray-900 font-semibold">AI Company In Bangalore</strong>, 
+                    we understand the importance of speed and deliver 3x faster than traditional development approaches.
+                  </p>
+                </div>
+              </details>
+              </div>
+
+              {/* Right Column - FAQ 7-12 */}
+              <div className="space-y-5">
+              {/* FAQ Item 7 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Shield className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Is my data secure with an AI Development Company In Bangalore?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Absolutely! Metic.ai implements enterprise-grade security protocols, encryption, and compliance measures. As a Trusted <strong className="text-gray-900 font-semibold">AI Development Company In Bangalore</strong>, 
+                    we prioritize data security with ISO certifications and strict confidentiality agreements.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ Item 8 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <TrendingUp className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What Industries does the best AI Company In Bangalore serve?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Metic.ai serves diverse Industries including Manufacturing, Aerospace, Healthcare, Agriculture, Technology, Automotive, Financial Services, Transportation, Education, and Energy. 
+                    As Bangalore's premier <strong className="text-gray-900 font-semibold">AI Company In Bangalore</strong>, we tailor solutions for your specific indINtry needs.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ Item 9 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Award className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What makes Metic.ai the top AI Firm In Bangalore?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Our 100+ successful projects, 98% client satisfaction rate, 60% cost savings, 3x faster delivery, and deep Bangalore market expertise make US the leading <strong className="text-gray-900 font-semibold">AI Firm In Bangalore</strong>. 
+                    We combine cutting-edge AI technology with personalized service.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ Item 10 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Lightbulb className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Do I need technical knowledge to work with an AI Service In Bangalore?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    No technical knowledge required! Metic.ai guides you through every step with clear communication. As a client-focINed <strong className="text-gray-900 font-semibold">AI Service In Bangalore</strong>, 
+                    we translate complex AI concepts into simple business terms and handle all technical aspects for you.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ Item 11 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Database className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Can AI Company In Bangalore handle small business projects?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Absolutely! Metic.ai works with businesses of all sizes, from startups to enterprises. As an inclINive <strong className="text-gray-900 font-semibold">AI Company In Bangalore</strong>, 
+                    we offer scalable solutions and flexible pricing models to meet small business budgets while delivering enterprise-quality AI implementations.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ Item 12 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Zap className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What support does Metic.ai provide after AI implementation?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Metic.ai provides comprehensive 24/7 post-implementation support including maintenance, updates, training, troubleshooting, and optimization. 
+                    As your long-term partner, we ensure your AI solutions continue delivering maximum value and adapt to your evolving business needs.
+                  </p>
+                </div>
+              </details>
+              </div>
             </div>
 
-            {/* Enhanced CTA Section */}
-            <div className="text-center mt-16">
-              <div className="bg-white rounded-3xl p-8 shadow-xl border-2 border-primary-orange/20 max-w-2xl mx-auto">
-                <div className="flex justify-center mb-4">
-                  <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-full flex items-center justify-center">
-                    <Phone className="w-8 h-8 text-white" />
+            {/* Enhanced CTA at Bottom of FAQ */}
+            <div className="mt-16 text-center">
+              <div className="bg-gradient-to-br from-primary-orange to-secondary-orange rounded-3xl p-12 text-white relative overflow-hidden">
+                <div className="absolute inset-0 bg-black/10"></div>
+                <div className="relative z-10">
+                  <div className="flex justify-center mb-6">
+                    <div className="relative">
+                      <div className="absolute inset-0 bg-white/20 rounded-full blur-lg animate-pulse"></div>
+                      <div className="relative w-20 h-20 bg-white/10 rounded-full flex items-center justify-center backdrop-blur-sm border border-white/20">
+                        <Rocket className="w-10 h-10 text-white" />
+                      </div>
+                    </div>
+                  </div>
+                  <h3 className="text-3xl md:text-4xl font-bold mb-4">Ready to Transform Your business with AI?</h3>
+                  <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+                    Join Bangalore's leading businesses who Trust Metic.ai for their AI transformation. Get started today!
+                  </p>
+                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                    <Link href="/contact">
+                      <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100 shadow-xl">
+                        Start Your AI Journey
+                      </Button>
+                    </Link>
+                    <Link href="tel:+917892518414">
+                      <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
+                        Call Now: +91-789-251-8414
+                      </Button>
+                    </Link>
                   </div>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                  Have more questions about AI services in Bangalore?
-                </h3>
-                <p className="text-gray-600 mb-6">
-                  Get answers from our Bangalore AI experts and discover how we can transform your business
-                </p>
-                <Link href="/contact">
-                  <Button size="lg" className="bg-gradient-to-r from-primary-orange to-secondary-orange hover:from-primary-orange/90 hover:to-secondary-orange/90 text-white px-8 py-4 text-lg font-semibold shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all">
-                    Speak with Bangalore AI Experts
-                    <ArrowRight className="ml-2 h-5 w-5" />
-                  </Button>
-                </Link>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* About Section - Company Authority */}
-      <section className="py-20 bg-white">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-6xl mx-auto">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                  About Metic.ai - Bangalore's Leading <span className="text-primary-orange">AI Company</span>
-                </h2>
-                <div className="w-20 h-1 bg-primary-orange mb-8"></div>
-                
-                <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                  Established as the premier <strong>Artificial Intelligence Company In Bangalore</strong>, Metic.ai has transformed over 2100 businesses across India's Silicon Valley with cutting-edge AI solutions. From Electronic City's IT giants to Whitefield's startups, we understand Bangalore's unique tech landscape.
-                </p>
-                
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  Our team of Bangalore-based AI experts specializes in developing custom artificial intelligence solutions that address the specific challenges faced by businesses in Karnataka's tech capital. Whether you're in IT, fintech, e-commerce, or biotechnology, we deliver AI implementations that drive measurable results.
-                </p>
-
-                <div className="grid grid-cols-2 gap-6 mb-8">
-                  <div className="text-center p-4 bg-gray-50 rounded-lg">
-                    <div className="text-2xl font-bold text-primary-orange mb-2">2100+</div>
-                    <div className="text-sm text-gray-600">Bangalore AI Projects Completed</div>
-                  </div>
-                  <div className="text-center p-4 bg-gray-50 rounded-lg">
-                    <div className="text-2xl font-bold text-primary-orange mb-2">98%</div>
-                    <div className="text-sm text-gray-600">Client Success Rate</div>
-                  </div>
-                </div>
-
-                <div className="flex flex-col sm:flex-row gap-4">
-                  <Link href="/about">
-                    <Button variant="primary">
-                      Learn More About Our AI Company
-                    </Button>
-                  </Link>
-                  <Link href="/contact">
-                    <Button variant="outline">
-                      Schedule Bangalore Consultation
-                    </Button>
-                  </Link>
-                </div>
-              </div>
-              
-              <div className="relative">
-                <div className="bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl p-8 text-white">
-                  <h3 className="text-2xl font-bold mb-6">Why Bangalore Businesses Choose Metic.ai</h3>
-                  
-                  <div className="space-y-4">
-                    <div className="flex items-start gap-3">
-                      <CheckCircle className="w-6 h-6 text-white mt-1 flex-shrink-0" />
-                      <div>
-                        <div className="font-semibold">Bangalore Tech Expertise</div>
-                        <div className="text-orange-100 text-sm">Deep understanding of local tech ecosystem and regulations</div>
-                      </div>
-                    </div>
-                    
-                    <div className="flex items-start gap-3">
-                      <CheckCircle className="w-6 h-6 text-white mt-1 flex-shrink-0" />
-                      <div>
-                        <div className="font-semibold">Proven Track Record</div>
-                        <div className="text-orange-100 text-sm">2100+ successful AI implementations across Bangalore</div>
-                      </div>
-                    </div>
-                    
-                    <div className="flex items-start gap-3">
-                      <CheckCircle className="w-6 h-6 text-white mt-1 flex-shrink-0" />
-                      <div>
-                        <div className="font-semibold">Faster Delivery</div>
-                        <div className="text-orange-100 text-sm">3x faster implementation than traditional AI companies</div>
-                      </div>
-                    </div>
-                    
-                    <div className="flex items-start gap-3">
-                      <CheckCircle className="w-6 h-6 text-white mt-1 flex-shrink-0" />
-                      <div>
-                        <div className="font-semibold">Cost-Effective Solutions</div>
-                        <div className="text-orange-100 text-sm">60% cost savings with superior ROI</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Testimonials Section */}
-      <section className="py-20 bg-gray-900">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6 text-white">
-                What Bangalore Businesses Say About Our <span className="text-primary-orange">AI Company</span>
-              </h2>
-              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
-              <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-                Real testimonials from Bangalore businesses that transformed their operations with our AI solutions.
-              </p>
-            </div>
-            
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-8 border border-gray-700/50 hover:bg-gray-800/80 transition-all duration-300 group">
-                <div className="mb-6">
-                  <Quote className="w-8 h-8 text-primary-orange mb-4" />
-                  <div className="flex items-center mb-4">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
-                    ))}
-                  </div>
-                </div>
-                <p className="text-gray-300 mb-6 leading-relaxed group-hover:text-white transition-colors">
-                  "Outstanding <strong className="text-primary-orange">AI Company In Bangalore</strong>. Metic.ai transformed our software development process with intelligent automation that increased productivity by 50% across our Electronic City offices."
-                </p>
-                <div className="text-sm border-t border-gray-700 pt-4">
-                  <div className="font-semibold text-white">Rajesh Kumar</div>
-                  <div className="text-primary-orange">Infosys Bangalore</div>
-                </div>
-              </div>
-
-              <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-8 border border-gray-700/50 hover:bg-gray-800/80 transition-all duration-300 group">
-                <div className="mb-6">
-                  <Quote className="w-8 h-8 text-primary-orange mb-4" />
-                  <div className="flex items-center mb-4">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
-                    ))}
-                  </div>
-                </div>
-                <p className="text-gray-300 mb-6 leading-relaxed group-hover:text-white transition-colors">
-                  "Best <strong className="text-primary-orange">AI Development Company In Bangalore</strong>. Their fintech AI solution revolutionized our payment processing with machine learning algorithms that reduced fraud by 80% in our Koramangala operations."
-                </p>
-                <div className="text-sm border-t border-gray-700 pt-4">
-                  <div className="font-semibold text-white">Priya Sharma</div>
-                  <div className="text-primary-orange">Razorpay Bangalore</div>
-                </div>
-              </div>
-
-              <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-8 border border-gray-700/50 hover:bg-gray-800/80 transition-all duration-300 group">
-                <div className="mb-6">
-                  <Quote className="w-8 h-8 text-primary-orange mb-4" />
-                  <div className="flex items-center mb-4">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
-                    ))}
-                  </div>
-                </div>
-                <p className="text-gray-300 mb-6 leading-relaxed group-hover:text-white transition-colors">
-                  "Exceptional <strong className="text-primary-orange">AI Service In Bangalore</strong>. Metic.ai's e-commerce AI platform boosted our customer personalization by 65% and increased sales conversion rates at our Whitefield headquarters."
-                </p>
-                <div className="text-sm border-t border-gray-700 pt-4">
-                  <div className="font-semibold text-white">Amit Patel</div>
-                  <div className="text-primary-orange">Flipkart Bangalore</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Enhanced CTA Section */}
+      {/* CTA Section */}
       <section className="py-20 bg-primary-orange text-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-              Ready to Partner with Bangalore's Leading <span className="text-white">AI Company</span>?
+              Ready to Partner with Bangalore's Leading <strong>Artificial Intelligence Company</strong>?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join 2100+ successful Bangalore businesses that chose Metic.ai as their <strong>Artificial Intelligence Company In Bangalore</strong>. 
-              From Electronic City to Whitefield, we're transforming businesses with AI solutions that deliver real results. 
-              Get your free consultation and discover why we're the top-rated <strong>AI Company In Bangalore</strong>.
+              Join 100+ satisfied clients who Trust Metic.ai as their preferred <strong>AI Company In Bangalore</strong>. 
+              Transform your business with proven AI solutions that deliver results. Get started with a free consultation 
+              and discover why we're Bangalore's most Trusted <strong>AI Development Company In Bangalore</strong>.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Link href="/contact">
                 <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100">
-                  <Sparkles className="w-5 h-5 mr-2" />
-                  Start Your Bangalore AI Transformation
+                  Start Your AI Transformation
                 </Button>
               </Link>
               <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  <Phone className="w-4 h-4 mr-2" />
-                  Call Bangalore AI Experts: +1-789-251-8414
+                  Call: +91-789-251-8414
                 </Button>
               </Link>
             </div>
             
-            <div className="grid md:grid-cols-3 gap-8 mb-12">
-              <div className="text-center">
-                <div className="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mb-4 mx-auto">
-                  <Clock className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="text-lg font-semibold mb-2">Free AI Consultation</h3>
-                <p className="text-orange-100 text-sm">Get expert advice on AI implementation for your Bangalore business</p>
-              </div>
-              
-              <div className="text-center">
-                <div className="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mb-4 mx-auto">
-                  <Target className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="text-lg font-semibold mb-2">Custom AI Solutions</h3>
-                <p className="text-orange-100 text-sm">Tailored AI development for Bangalore's tech ecosystem</p>
-              </div>
-              
-              <div className="text-center">
-                <div className="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mb-4 mx-auto">
-                  <Award className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="text-lg font-semibold mb-2">Proven Results</h3>
-                <p className="text-orange-100 text-sm">Join 2100+ Bangalore businesses with successful AI implementations</p>
-              </div>
-            </div>
-            
             <div className="mt-12 text-center">
-              <p className="text-orange-200 mb-4 font-medium">
-                Serving All Bangalore Areas - AI Company You Can Trust
-              </p>
-              <div className="flex flex-wrap justify-center gap-4 text-orange-100 text-sm">
-                <span className="bg-white/10 px-3 py-1 rounded-full">Electronic City AI Services</span>
-                <span className="bg-white/10 px-3 py-1 rounded-full">Whitefield AI Company</span>
-                <span className="bg-white/10 px-3 py-1 rounded-full">Koramangala AI Development</span>
-                <span className="bg-white/10 px-3 py-1 rounded-full">Indiranagar AI Solutions</span>
-                <span className="bg-white/10 px-3 py-1 rounded-full">HSR Layout AI Firm</span>
-                <span className="bg-white/10 px-3 py-1 rounded-full">Marathahalli AI Services</span>
+              <p className="text-orange-200 mb-6">Trusted <strong>AI Service In Bangalore</strong> serving businesses across the state</p>
+              <div className="grid md:grid-cols-3 gap-8 text-center mb-8">
+                <div>
+                  <div className="text-2xl font-bold mb-2">100+</div>
+                  <p className="text-orange-100">AI Projects Completed</p>
+                </div>
+                <div>
+                  <div className="text-2xl font-bold mb-2">98%</div>
+                  <p className="text-orange-100">Client Satisfaction Rate</p>
+                </div>
+                <div>
+                  <div className="text-2xl font-bold mb-2">4.5x</div>
+                  <p className="text-orange-100">Average ROI Increase</p>
+                </div>
               </div>
-              
-              <div className="mt-6 text-center">
-                <p className="text-orange-200 text-sm">
-                  🏆 Bangalore's #1 Rated <strong>Artificial Intelligence Company</strong> | 4.9/5 Stars | 2100+ Projects | 60% Cost Savings
-                </p>
+              <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
+                <span>Maninagar</span>
+                <span>•</span>
+                <span>Indiranagar</span>
+                <span>•</span>
+                <span>SG Highway</span>
+                <span>•</span>
+                <span>Whitefield</span>
+                <span>•</span>
+                <span>Chandkheda</span>
+                <span>•</span>
+                <span>Auburn</span>
+                <span>•</span>
+                <span>Dothan</span>
               </div>
             </div>
           </div>
@@ -1274,3 +1980,28 @@ export default function AIServicesBangalorePage() {
     </>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
