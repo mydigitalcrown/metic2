@@ -28,7 +28,7 @@ import {
 
 export const metadata = {
   title: "Artificial Intelligence Company In Delhi | #1 AI Company In Delhi - Metic.ai",
-  description: "Leading Artificial Intelligence Company In Delhi with 800+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
+  description: "Leading Artificial Intelligence Company In Delhi with 500+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
   keywords: [
     "Artificial Intelligence Company In Delhi",
     "AI Company In Delhi", 
@@ -57,7 +57,7 @@ export const metadata = {
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
     title: "Artificial Intelligence Company In Delhi | #1 AI Company In Delhi - Metic.ai",
-    description: "Leading Artificial Intelligence Company In Delhi with 800+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Delhi businesses.",
+    description: "Leading Artificial Intelligence Company In Delhi with 500+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Delhi businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-Delhi/",
     type: "website",
     locale: "en_IN",
@@ -154,7 +154,7 @@ export default function AIServicesDelhiPage() {
   ];
 
   const stats = [
-    { number: "800+", label: "Businesses Served" },
+    { number: "500+", label: "Businesses Served" },
     { number: "99.5%", label: "Client Satisfaction" },
     { number: "5.2x", label: "Average ROI Increase" },
     { number: "24/7", label: "Support Available" }
@@ -1085,7 +1085,7 @@ export default function AIServicesDelhiPage() {
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">800+</div>
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">500+</div>
                         <div className="text-sm text-gray-600 font-medium">Delhi AI Projects Completed</div>
                         <div className="text-xs text-gray-500 mt-2">IndINtry-Leading Success Rate</div>
                       </div>
@@ -1297,7 +1297,7 @@ export default function AIServicesDelhiPage() {
                     <div className="space-y-6">
                       <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Delhi Projects Completed</span>
-                        <span className="font-bold text-primary-orange text-xl">800+</span>
+                        <span className="font-bold text-primary-orange text-xl">500+</span>
                       </div>
                       <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">IndINtry Success Rate</span>
