@@ -28,7 +28,7 @@ import {
 
 export const metadata = {
   title: "AI Company In India | #1 Artificial Intelligence Company In India",
-  description: "Leading AI Company In India with 100+ successful AI projects. Expert Artificial Intelligence development, machuse learning & automation services. 60% cost savings, 3x faster delivery. Call +91-789-251-8414",
+  description: "Leading AI Company In India with 100+ successful AI projects. Expert Artificial Intelligence development, Machine learning & automation services. 60% cost savings, 3x faster delivery. Call +91-789-251-8414",
   keywords: [
     "Artificial Intelligence Company In India",
     "AI Company In India", 
@@ -39,7 +39,7 @@ export const metadata = {
     "Top AI Company India",
     "Artificial Intelligence Services India",
     "AI Solutions Company India",
-    "Machuse Learning Company India",
+    "Machine Learning Company India",
     "AI Consulting Firm India",
     "AI Technology Company India",
     "AI automation India",
@@ -50,14 +50,14 @@ export const metadata = {
     "enterprise AI solutions India",
     "AI ML company India",
     "India AI experts",
-    "India machuse learning services",
+    "India Machine learning services",
     "India AI implementation"
   ],
   authors: [{ name: "Metic.ai India AI Team" }],
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
     title: "Artificial Intelligence Company In India | #1 AI Company In India - Metic.ai",
-    description: "Leading Artificial Intelligence Company In India with 100+ successful AI implementations. Expert AI services, machuse learning solutions & AI development for India bususesses.",
+    description: "Leading Artificial Intelligence Company In India with 100+ successful AI implementations. Expert AI services, Machine learning solutions & AI development for India businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-India/",
     type: "website",
     locale: "en_IN",
@@ -75,7 +75,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Artificial Intelligence Company In India | AI Company In India",
-    description: "Leading AI Company In India delivering enterprise artificial intelligence solutions. Expert AI development, machuse learning & automation services with proven results.",
+    description: "Leading AI Company In India delivering enterprise artificial intelligence solutions. Expert AI development, Machine learning & automation services with proven results.",
     images: ["https://metic.ai/og-ai-company-India.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
@@ -89,35 +89,35 @@ export const metadata = {
     yahoo: "yahoo-verification-code"
   },
   category: "Technology",
-  classification: "bususess Services"
+  classification: "businesss Services"
 };
 
 export default function AIServicesIndiaPage() {
   const services = [
     {
       title: "AI Integration & Deployment",
-      description: "Seamlessly integrate AI solutions into your India bususess operations with enterprise-grade deployment strategies.",
+      description: "Seamlessly integrate AI solutions into your India businesss operations with enterprise-grade deployment strategies.",
       icon: Zap,
       href: "/ai-integration-and-deployment",
       color: "blue" as const
     },
     {
-      title: "Machuse Learning Solutions",
-      description: "Advanced ML algorithms and predictive analytics tailored for India bususesses and indINtries.",
+      title: "Machine Learning Solutions",
+      description: "Advanced ML algorithms and predictive analytics tailored for India businesses and indINtries.",
       icon: Brain,
-      href: "/machuse-learning",
+      href: "/Machine-learning",
       color: "purple" as const
     },
     {
       title: "custom AI Development",
-      description: "Bespoke AI solutions designed specifically for your India bususess requirements and goals.",
+      description: "Bespoke AI solutions designed specifically for your India businesss requirements and goals.",
       icon: Code,
       href: "/custom-ai-development",
       color: "green" as const
     },
     {
       title: "Data Analytics & BI",
-      description: "Transform your India bususess data into actionable insights with advanced analytics platforms.",
+      description: "Transform your India businesss data into actionable insights with advanced analytics platforms.",
       icon: BarChart3,
       href: "/data-insights",
       color: "orange" as const
@@ -131,7 +131,7 @@ export default function AIServicesIndiaPage() {
     },
     {
       title: "Data Enguseering",
-      description: "Robust data infrastructure and ETL pipeluses for India enterprises and growing bususesses.",
+      description: "Robust data infrastructure and ETL pipeluses for India enterprises and growing businesses.",
       icon: Database,
       href: "/data-enguseering",
       color: "red" as const
@@ -152,7 +152,7 @@ export default function AIServicesIndiaPage() {
   ];
 
   const stats = [
-    { number: "180+", label: "AL bususesses Served" },
+    { number: "180+", label: "AL businesses Served" },
     { number: "98%", label: "Client Satisfaction" },
     { number: "4.1x", label: "Average ROI Increase" },
     { number: "24/7", label: "Support Available" }
@@ -166,10 +166,10 @@ export default function AIServicesIndiaPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": ["Organization", "TechnologyCompany", "Localbususess"],
+            "@type": ["Organization", "TechnologyCompany", "Localbusinesss"],
             "name": "Metic.ai - Artificial Intelligence Company In India",
             "alternateName": ["AI Company In India", "Metic AI", "AI Firm India"],
-            "description": "Leading Artificial Intelligence Company In India providing enterprise AI solutions, machuse learning development, and custom AI services for bususesses across India.",
+            "description": "Leading Artificial Intelligence Company In India providing enterprise AI solutions, Machine learning development, and custom AI services for businesses across India.",
             "url": "https://metic.ai/artificial-intelligence-ai-services-in-India/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
@@ -222,14 +222,14 @@ export default function AIServicesIndiaPage() {
                   "itemOffered": {
                     "@type": "Service",
                     "name": "AI Development Services",
-                    "description": "custom artificial intelligence development for India bususesses"
+                    "description": "custom artificial intelligence development for India businesses"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service", 
-                    "name": "Machuse Learning Solutions",
+                    "name": "Machine Learning Solutions",
                     "description": "Advanced ML algorithms and predictive analytics"
                   }
                 },
@@ -253,13 +253,13 @@ export default function AIServicesIndiaPage() {
             },
             "knowsAbout": [
               "Artificial Intelligence",
-              "Machuse Learning", 
+              "Machine Learning", 
               "Deep Learning",
               "Natural Language Processing",
               "Computer Vision",
               "AI Automation",
               "Data Science",
-              "bususess Intelligence",
+              "businesss Intelligence",
               "Predictive Analytics"
             ],
             "aggregateRating": {
@@ -297,7 +297,7 @@ export default function AIServicesIndiaPage() {
                 "name": "Which is the best Artificial Intelligence Company In India?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Metic.ai is the leading Artificial Intelligence Company In India with 100+ successful AI implementations. We provide comprehensive AI services including machuse learning, custom AI development, and enterprise AI solutions with proven 60% cost savings and 3x faster delivery."
+                  "text": "Metic.ai is the leading Artificial Intelligence Company In India with 100+ successful AI implementations. We provide comprehensive AI services including Machine learning, custom AI development, and enterprise AI solutions with proven 60% cost savings and 3x faster delivery."
                 }
               },
               {
@@ -305,7 +305,7 @@ export default function AIServicesIndiaPage() {
                 "name": "What AI services does the top AI Company In India provide?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "As the premier AI Company In India, Metic.ai provides AI integration & deployment, machuse learning solutions, custom AI development, data analytics & BI, generative AI services, and data enguseering for bususesses across India."
+                  "text": "As the premier AI Company In India, Metic.ai provides AI integration & deployment, Machine learning solutions, custom AI development, data analytics & BI, generative AI services, and data enguseering for businesses across India."
                 }
               },
               {
@@ -313,7 +313,7 @@ export default function AIServicesIndiaPage() {
                 "name": "How to choose the right AI Development Company In India?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Choose an AI Development Company In India with proven experience, successful implementations, industry expertise, and local presence. Metic.ai offers all these with 100+ completed projects and deep understanding of India's bususess landscape."
+                  "text": "Choose an AI Development Company In India with proven experience, successful implementations, industry expertise, and local presence. Metic.ai offers all these with 100+ completed projects and deep understanding of India's businesss landscape."
                 }
               },
               {
@@ -337,7 +337,7 @@ export default function AIServicesIndiaPage() {
             "@context": "https://schema.org",
             "@type": "Article",
             "headluse": "Artificial Intelligence Company In India - AI Services & Solutions",
-            "description": "Comprehensive guide to AI services in India by the leading Artificial Intelligence Company. Expert AI development, machuse learning solutions, and enterprise AI implementation.",
+            "description": "Comprehensive guide to AI services in India by the leading Artificial Intelligence Company. Expert AI development, Machine learning solutions, and enterprise AI implementation.",
             "image": "https://metic.ai/ai-company-India-article.jpg",
             "author": {
               "@type": "Organization",
@@ -390,13 +390,13 @@ export default function AIServicesIndiaPage() {
         }}
       />
 
-      {/* Localbususess Schema for Local SEO Enhancement */}
+      {/* Localbusinesss Schema for Local SEO Enhancement */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Localbususess",
+            "@type": "Localbusinesss",
             "name": "Metic.ai - AI Company In India",
             "description": "Leading Artificial Intelligence Company providing AI services in India",
             "image": "https://metic.ai/ai-company-India.jpg",
@@ -500,7 +500,7 @@ export default function AIServicesIndiaPage() {
               {/* VSO Keywords Section - Mobile Optimized */}
               <div className="text-center px-4">
                 <p className="text-gray-400 text-sm md:text-base mb-4">
-                  <strong className="text-white">Trusted as the top AI Service In India</strong> by leading bususesses
+                  <strong className="text-white">Trusted as the top AI Service In India</strong> by leading businesses
                 </p>
                 <div className="flex flex-wrap justify-center gap-2 md:gap-3 text-xs md:text-sm">
                   <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
@@ -513,7 +513,7 @@ export default function AIServicesIndiaPage() {
                     Best AI Company India
                   </span>
                   <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
-                    Machuse Learning Services
+                    Machine Learning Services
                   </span>
                 </div>
               </div>
@@ -549,7 +549,7 @@ export default function AIServicesIndiaPage() {
               <div className="w-20 md:w-24 h-1 md:h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 md:mb-8 rounded-full"></div>
               <p className="text-base md:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-4">
                 Comprehensive artificial intelligence services from India's most Trusted <strong className="text-gray-900">AI Company In India</strong>. 
-                Transforming bususesses with cutting-edge AI solutions tailored for India's industrial landscape.
+                Transforming businesses with cutting-edge AI solutions tailored for India's industrial landscape.
               </p>
             </div>
             
@@ -571,7 +571,7 @@ export default function AIServicesIndiaPage() {
                     key={index} 
                     className="group bg-white rounded-2xl p-6 md:p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border-2 border-gray-100 hover:border-primary-orange/50 transform hover:-translate-y-2"
                   >
-                    <div className={`w-14 h-14 md:w-16 md:h-16 rounded-2xl flex items-center justify-center mb-5 md:mb-6 ₹{colorClasses[service.color]} group-hover:scale-110 transition-transform`}>
+                    <div className={`w-14 h-14 md:w-16 md:h-16 rounded-2xl flex items-center justify-center mb-5 md:mb-6 ${colorClasses[service.color]} group-hover:scale-110 transition-transform`}>
                       <IconComponent className="w-7 h-7 md:w-8 md:h-8" />
                     </div>
                     
@@ -619,11 +619,11 @@ export default function AIServicesIndiaPage() {
                 <div className="w-20 h-1 bg-primary-orange mb-8"></div>
                 <p className="text-lg text-gray-700 mb-6">
                   Established as India's leading <strong>AI Company In India</strong>, Metic.ai has been at the forefront of artificial intelligence 
-                  innovation since 2020. We specialize in delivering enterprise-grade AI solutions that transform bususesses across India's 
+                  innovation since 2020. We specialize in delivering enterprise-grade AI solutions that transform businesses across India's 
                   key indINtries including manufacturing, Information Technology, healthcare, and agriculture.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  Our expertise as an <strong>AI Development Company In India</strong> encompasses machuse learning, deep learning, natural language processing, 
+                  Our expertise as an <strong>AI Development Company In India</strong> encompasses Machine learning, deep learning, natural language processing, 
                   computer vision, and robotic process automation. We've successfully completed over 100 AI projects, making IN the most 
                   Trusted <strong>AI Service In India</strong>.
                 </p>
@@ -666,7 +666,7 @@ export default function AIServicesIndiaPage() {
                     AI Consulting & Strategy
                   </h3>
                   <p className="text-gray-600">
-                    Expert AI consulting services to help India bususesses identify AI opportunities and develop comprehensive implementation strategies.
+                    Expert AI consulting services to help India businesses identify AI opportunities and develop comprehensive implementation strategies.
                   </p>
                 </div>
                 
@@ -676,7 +676,7 @@ export default function AIServicesIndiaPage() {
                     custom AI Development
                   </h3>
                   <p className="text-gray-600">
-                    Bespoke artificial intelligence solutions tailored to your specific bususess requirements and industry challenges in India.
+                    Bespoke artificial intelligence solutions tailored to your specific businesss requirements and industry challenges in India.
                   </p>
                 </div>
                 
@@ -686,7 +686,7 @@ export default function AIServicesIndiaPage() {
                     Enterprise AI Integration
                   </h3>
                   <p className="text-gray-600">
-                    Seamless integration of AI technologies into existing bususess processes with minimal disruption and maximum efficiency gains.
+                    Seamless integration of AI technologies into existing businesss processes with minimal disruption and maximum efficiency gains.
                   </p>
                 </div>
                 
@@ -715,7 +715,7 @@ export default function AIServicesIndiaPage() {
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Delivering specialized AI solutions across India's key indINtries and bususess sectors.
+                Delivering specialized AI solutions across India's key indINtries and businesss sectors.
               </p>
             </div>
             
@@ -915,7 +915,7 @@ export default function AIServicesIndiaPage() {
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                As the premier <strong>AI Development Company In India</strong>, we're Trusted by bususesses across India 
+                As the premier <strong>AI Development Company In India</strong>, we're Trusted by businesses across India 
                 for our expertise, proven results, and commitment to client success.
               </p>
             </div>
@@ -926,7 +926,7 @@ export default function AIServicesIndiaPage() {
                   <Award className="w-8 h-8 text-blue-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Proven Expertise</h3>
-                <p className="text-gray-600">Years of experience delivering AI solutions for India bususesses across all indINtries.</p>
+                <p className="text-gray-600">Years of experience delivering AI solutions for India businesses across all indINtries.</p>
               </div>
               
               <div className="text-center">
@@ -934,7 +934,7 @@ export default function AIServicesIndiaPage() {
                   <TrendingUp className="w-8 h-8 text-green-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Measurable Results</h3>
-                <p className="text-gray-600">Data-driven AI solutions that deliver concrete ROI and bususess growth for AL companies.</p>
+                <p className="text-gray-600">Data-driven AI solutions that deliver concrete ROI and businesss growth for AL companies.</p>
               </div>
               
               <div className="text-center">
@@ -942,7 +942,7 @@ export default function AIServicesIndiaPage() {
                   <Users className="w-8 h-8 text-purple-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Local Partnership</h3>
-                <p className="text-gray-600">Dedicated support and partnership with deep understanding of the India bususess landscape.</p>
+                <p className="text-gray-600">Dedicated support and partnership with deep understanding of the India businesss landscape.</p>
               </div>
               
               <div className="text-center">
@@ -950,7 +950,7 @@ export default function AIServicesIndiaPage() {
                   <Shield className="w-8 h-8 text-orange-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Enterprise Security</h3>
-                <p className="text-gray-600">Bank-level security and compliance standards protecting your India bususess data.</p>
+                <p className="text-gray-600">Bank-level security and compliance standards protecting your India businesss data.</p>
               </div>
             </div>
           </div>
@@ -1009,7 +1009,7 @@ export default function AIServicesIndiaPage() {
                     
                     <p className="text-lg text-gray-700 leading-relaxed">
                       Our <strong className="text-primary-orange font-semibold">AI Company In India</strong> combuses deep understanding 
-                      of Southern bususess culture with cutting-edge technology to deliver AI solutions that drive measurable 
+                      of Southern businesss culture with cutting-edge technology to deliver AI solutions that drive measurable 
                       results. We've successfully implemented AI across India's key sectors including Information Technology, automotive, 
                       steel production, agriculture, healthcare, and emerging technology indINtries.
                     </p>
@@ -1355,7 +1355,7 @@ export default function AIServicesIndiaPage() {
                         <Award className="w-6 h-6 text-white" />
                       </div>
                       <div>
-                        <h4 className="font-bold text-gray-900 mb-2 text-lg">India bususess Advantage</h4>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">India businesss Advantage</h4>
                         <p className="text-gray-700 leading-relaxed">
                           As the premier <strong className="text-primary-orange">AI Firm In India</strong>, we understand 
                           the Incredible India's unique blend of Southern hospitality and industrial innovation. Our AI solutions 
@@ -1381,7 +1381,7 @@ export default function AIServicesIndiaPage() {
                   
                   <p className="text-lg text-gray-700 leading-relaxed mb-6">
                     <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Choosing Metic.ai as your AI partner in India</strong> means 
-                    working with a team that deeply understands the Republic of India's bususess culture, from Hyderabad's 
+                    working with a team that deeply understands the Republic of India's businesss culture, from Hyderabad's 
                     high-tech Information Technology corridor to Delhi's industrial heritage and Mobile's port operations.
                   </p>
                   
@@ -1398,7 +1398,7 @@ export default function AIServicesIndiaPage() {
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Comprehensive India Coverage</h4>
                         <p className="text-gray-600 leading-relaxed">
                           Delhi, Hyderabad, Mobile, Mumbai, Chennai, Pune, Madison, Florence, 
-                          Decatur, and all major India bususess centers and industrial corridors
+                          Decatur, and all major India businesss centers and industrial corridors
                         </p>
                       </div>
                     </div>
@@ -1419,8 +1419,8 @@ export default function AIServicesIndiaPage() {
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Rapid India Deployment</h4>
                         <p className="text-gray-600 leading-relaxed">
-                          Fast implementation designed for India's bususess pace with local support teams 
-                          and understanding of Southern bususess culture and requirements
+                          Fast implementation designed for India's businesss pace with local support teams 
+                          and understanding of Southern businesss culture and requirements
                         </p>
                       </div>
                     </div>
@@ -1506,7 +1506,7 @@ export default function AIServicesIndiaPage() {
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     <strong className="text-gray-900 font-semibold">Metic.ai is the leading Artificial Intelligence Company In India</strong> with over 100 successful AI implementations. 
-                    We're recognized as the top AI Company In India for our proven expertise in machuse learning, custom AI development, and enterprise AI solutions with 60% cost savings.
+                    We're recognized as the top AI Company In India for our proven expertise in Machine learning, custom AI development, and enterprise AI solutions with 60% cost savings.
                   </p>
                 </div>
               </details>
@@ -1541,7 +1541,7 @@ export default function AIServicesIndiaPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    As the premier <strong className="text-gray-900 font-semibold">AI Company In India</strong>, Metic.ai provides comprehensive AI services including machuse learning solutions, 
+                    As the premier <strong className="text-gray-900 font-semibold">AI Company In India</strong>, Metic.ai provides comprehensive AI services including Machine learning solutions, 
                     custom AI development, data analytics, generative AI, computer vision, NLP, and enterprise AI automation tailored for India's manufacturing, Information Technology, healthcare, and agricultural indINtries.
                   </p>
                 </div>
@@ -1634,7 +1634,7 @@ export default function AIServicesIndiaPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Does Metic.ai serve bususesses across all India cities?
+                            Does Metic.ai serve businesses across all India cities?
                           </h3>
                         </div>
                       </div>
@@ -1649,7 +1649,7 @@ export default function AIServicesIndiaPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Yes! Metic.ai proudly serves bususesses across all India cities including Delhi, Mumbai, Mobile, Hyderabad, Chennai, Pune, Kolkata, and beyond. 
+                    Yes! Metic.ai proudly serves businesses across all India cities including Delhi, Mumbai, Mobile, Hyderabad, Chennai, Pune, Kolkata, and beyond. 
                     As India's leading <strong className="text-gray-900 font-semibold">AI Firm In India</strong>, we provide comprehensive AI solutions statewide.
                   </p>
                 </div>
@@ -1833,7 +1833,7 @@ export default function AIServicesIndiaPage() {
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     No technical knowledge required! Metic.ai guides you through every step with clear communication. As a client-focused <strong className="text-gray-900 font-semibold">AI Service In India</strong>, 
-                    we translate complex AI concepts into simple bususess terms and handle all technical aspects for you.
+                    we translate complex AI concepts into simple businesss terms and handle all technical aspects for you.
                   </p>
                 </div>
               </details>
@@ -1853,7 +1853,7 @@ export default function AIServicesIndiaPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Can AI Company In India handle small bususess projects?
+                            Can AI Company In India handle small businesss projects?
                           </h3>
                         </div>
                       </div>
@@ -1868,8 +1868,8 @@ export default function AIServicesIndiaPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Absolutely! Metic.ai works with bususesses of all sizes, from startups to enterprises. As an inclINive <strong className="text-gray-900 font-semibold">AI Company In India</strong>, 
-                    we offer scalable solutions and flexible pricing models to meet small bususess budgets while delivering enterprise-quality AI implementations.
+                    Absolutely! Metic.ai works with businesses of all sizes, from startups to enterprises. As an inclINive <strong className="text-gray-900 font-semibold">AI Company In India</strong>, 
+                    we offer scalable solutions and flexible pricing models to meet small businesss budgets while delivering enterprise-quality AI implementations.
                   </p>
                 </div>
               </details>
@@ -1905,7 +1905,7 @@ export default function AIServicesIndiaPage() {
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     Metic.ai provides comprehensive 24/7 post-implementation support including maintenance, updates, training, troubleshooting, and optimization. 
-                    As your long-term partner, we ensure your AI solutions continue delivering maximum value and adapt to your evolving bususess needs.
+                    As your long-term partner, we ensure your AI solutions continue delivering maximum value and adapt to your evolving businesss needs.
                   </p>
                 </div>
               </details>
@@ -1925,9 +1925,9 @@ export default function AIServicesIndiaPage() {
                       </div>
                     </div>
                   </div>
-                  <h3 className="text-3xl md:text-4xl font-bold mb-4">Ready to Transform Your bususess with AI?</h3>
+                  <h3 className="text-3xl md:text-4xl font-bold mb-4">Ready to Transform Your businesss with AI?</h3>
                   <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-                    Join India's leading bususesses who Trust Metic.ai for their AI transformation. Get started today!
+                    Join India's leading businesses who Trust Metic.ai for their AI transformation. Get started today!
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <Link href="/contact">
@@ -1957,7 +1957,7 @@ export default function AIServicesIndiaPage() {
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
               Join 100+ satisfied clients who Trust Metic.ai as their preferred <strong>AI Company In India</strong>. 
-              Transform your bususess with proven AI solutions that deliver results. Get started with a free consultation 
+              Transform your businesss with proven AI solutions that deliver results. Get started with a free consultation 
               and discover why we're India's most Trusted <strong>AI Development Company In India</strong>.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
@@ -1974,7 +1974,7 @@ export default function AIServicesIndiaPage() {
             </div>
             
             <div className="mt-12 text-center">
-              <p className="text-orange-200 mb-6">Trusted <strong>AI Service In India</strong> serving bususesses across the state</p>
+              <p className="text-orange-200 mb-6">Trusted <strong>AI Service In India</strong> serving businesses across the state</p>
               <div className="grid md:grid-cols-3 gap-8 text-center mb-8">
                 <div>
                   <div className="text-2xl font-bold mb-2">100+</div>
