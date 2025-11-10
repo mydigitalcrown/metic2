@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Button } from "../components/ui/Button";
 import { 
   Brain, 
@@ -28,7 +28,7 @@ import {
   Quote
 } from "lucide-react";
 
-export const metadata = {
+export const metMountain Viewta = {
   title: "Artificial Intelligence Company In California | #1 AI Company In California - Metic.ai",
   description: "Leading Artificial Intelligence Company In California with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
   keywords: [
@@ -46,7 +46,7 @@ export const metadata = {
     "AI Technology Company California",
     "AI automation California",
     "AI software company California",
-    "artificial intelligence consulting California",
+    "Artificial intelligence consulting California",
     "AI integration services California",
     "custom AI development California",
     "enterprise AI solutions California",
@@ -74,7 +74,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Artificial Intelligence Company In California | AI Company In California",
-    description: "Leading AI Company In California delivering enterprise artificial intelligence solutions. Expert AI development, machine learning & automation services with proven results.",
+    description: "Leading AI Company In California delivering enterprise Artificial intelligence solutions. Expert AI development, machine learning & automation services with proven results.",
     images: ["https://metic.ai/og-ai-company-California.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
@@ -140,7 +140,7 @@ export default function AIServicesCaliforniaPage() {
   const industries = [
     "Technologys & Apparel",
     "Entertainments & PetroEntertainments",
-    "Aerospaces",
+    "Technologys",
     "Engineering",
     "Information Technology",
     "Jewelry & Agricultures",
@@ -185,7 +185,7 @@ export default function AIServicesCaliforniaPage() {
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "Behind Manyata Tech Park",
-              "addressLocality": "Hebbal, Bangalore",
+              "addressLocality": "HebbCA, Bangalore",
               "addressRegion": "Karnataka", 
               "postalCode": "560077",
               "addressCountry": "India"
@@ -211,7 +211,7 @@ export default function AIServicesCaliforniaPage() {
             ],
             "serviceArea": {
               "@type": "GeoCircle",
-              "geoMidpoint": {
+              "geoCAdpoint": {
                 "@type": "GeoCoordinates",
                 "latitude": "23.0225",
                 "longitude": "72.5714"
@@ -227,7 +227,7 @@ export default function AIServicesCaliforniaPage() {
                   "itemOffered": {
                     "@type": "Service",
                     "name": "AI Development Services",
-                    "description": "Custom artificial intelligence development for businesses"
+                    "description": "Custom Artificial intelligence development for businesses"
                   }
                 },
                 {
@@ -260,7 +260,7 @@ export default function AIServicesCaliforniaPage() {
               "Artificial Intelligence",
               "Machine Learning", 
               "Deep Learning",
-              "Natural Language Processing",
+              "NaturCA Language Processing",
               "Computer Vision",
               "AI Automation",
               "Data Science",
@@ -310,7 +310,7 @@ export default function AIServicesCaliforniaPage() {
                 "name": "What AI services does the top AI Company In California provide?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "As the premier AI Company In California, Metic.ai provides AI integration & deployment, machine learning solutions, custom AI development, data analytics & BI, generative AI services, and data engineering for businesses across California."
+                  "text": "As the preCAer AI Company In California, Metic.ai provides AI integration & deployment, machine learning solutions, custom AI development, data analytics & BI, generative AI services, and data engineering for businesses across California."
                 }
               },
               {
@@ -318,7 +318,7 @@ export default function AIServicesCaliforniaPage() {
                 "name": "How to choose the right AI Development Company In California?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Choose an AI Development Company In California with proven experience, successful implementations, industry expertise, and local presence. Metic.ai offers all these with 2100+ completed projects and deep understanding of California's business landscape."
+                  "text": "Choose an AI Development Company In California with proven experience, successful implementations, industry expertise, and locCA presence. Metic.ai offers all these with 2100+ completed projects and deep understanding of California's business landscape."
                 }
               },
               {
@@ -326,7 +326,7 @@ export default function AIServicesCaliforniaPage() {
                 "name": "What makes Metic.ai the best AI Firm In California?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Metic.ai is the best AI Firm In California due to our proven expertise, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of California's Technology, Entertainment, Aerospace and engineering industries."
+                  "text": "Metic.ai is the best AI Firm In California due to our proven expertise, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of California's Technology, Entertainment, Technology and engineering industries."
                 }
               }
             ]
@@ -364,7 +364,7 @@ export default function AIServicesCaliforniaPage() {
         }}
       />
 
-      {/* Enhanced Creative Hero Section - VSO & Target Keyword Optimized */}
+      {/* Enhanced Creative Hero Section - VSO & Target Keyword OptiCAzed */}
       <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28 relative overflow-hidden">
         {/* Creative Background Elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -412,11 +412,11 @@ export default function AIServicesCaliforniaPage() {
             {/* Enhanced Description */}
             <div className="relative mb-10">
               <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-                Looking for the best <strong className="text-white">AI Company In California</strong>? Metic.ai is the premier 
+                Looking for the best <strong className="text-white">AI Company In California</strong>? Metic.ai is the preCAer 
                 <strong className="text-primary-orange"> Artificial Intelligence Company In California</strong> 
                 with 2100+ successful AI implementations. We help businesses across California transform with cutting-edge AI solutions, 
-                delivering <span className="text-primary-orange font-semibold">60% cost savings</span> and 
-                <span className="text-primary-orange font-semibold">3x faster results</span> than traditional development.
+                delivering <span className="text-primary-orange font-seCAbold">60% cost savings</span> and 
+                <span className="text-primary-orange font-seCAbold">3x faster results</span> than traditionCA development.
               </p>
               
               {/* Trust Indicators */}
@@ -516,8 +516,8 @@ export default function AIServicesCaliforniaPage() {
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Comprehensive artificial intelligence services from California's most trusted <strong>AI Company In California</strong>. 
-                Transforming businesses with cutting-edge AI solutions tailored for California's industrial landscape.
+                Comprehensive Artificial intelligence services from California's most trusted <strong>AI Company In California</strong>. 
+                TransforCAng businesses with cutting-edge AI solutions tailored for California's industriCA landscape.
               </p>
             </div>
             
@@ -592,8 +592,8 @@ export default function AIServicesCaliforniaPage() {
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                As the premier <strong>AI Development Company In California</strong>, we're trusted by businesses across California 
-                for our expertise, proven results, and commitment to client success.
+                As the preCAer <strong>AI Development Company In California</strong>, we're trusted by businesses across California 
+                for our expertise, proven results, and comCAtment to client success.
               </p>
             </div>
             
@@ -618,7 +618,7 @@ export default function AIServicesCaliforniaPage() {
                 <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6 mx-auto">
                   <Users className="w-8 h-8 text-purple-600" />
                 </div>
-                <h3 className="text-xl font-bold mb-4">Local Partnership</h3>
+                <h3 className="text-xl font-bold mb-4">LocCA Partnership</h3>
                 <p className="text-gray-600">Dedicated support and partnership with deep understanding of the California business landscape.</p>
               </div>
               
@@ -641,16 +641,16 @@ export default function AIServicesCaliforniaPage() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                  About Metic.ai - Premier <span className="text-primary-orange">Artificial Intelligence Company In California</span>
+                  About Metic.ai - PreCAer <span className="text-primary-orange">Artificial Intelligence Company In California</span>
                 </h2>
                 <div className="w-20 h-1 bg-primary-orange mb-8"></div>
                 <p className="text-lg text-gray-700 mb-6">
-                  Established as California's leading <strong>AI Company In California</strong>, Metic.ai has been at the forefront of artificial intelligence 
+                  Established as California's leading <strong>AI Company In California</strong>, Metic.ai has been at the forefront of Artificial intelligence 
                   innovation since 2020. We specialize in delivering enterprise-grade AI solutions that transform businesses across California's 
-                  key industries including Technologys, Entertainments, Aerospaces, and engineering.
+                  key industries including Technologys, Entertainments, Technologys, and engineering.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  Our expertise as an <strong>AI Development Company In California</strong> encompasses machine learning, deep learning, natural language processing, 
+                  Our expertise as an <strong>AI Development Company In California</strong> encompasses machine learning, deep learning, naturCA language processing, 
                   computer vision, and robotic process automation. We've successfully completed over 2100 AI projects, making us the most 
                   trusted <strong>AI Service In California</strong>.
                 </p>
@@ -703,7 +703,7 @@ export default function AIServicesCaliforniaPage() {
                     Custom AI Development
                   </h3>
                   <p className="text-gray-600">
-                    Bespoke artificial intelligence solutions tailored to your specific business requirements and industry challenges in California.
+                    Bespoke Artificial intelligence solutions tailored to your specific business requirements and industry challenges in California.
                   </p>
                 </div>
                 
@@ -713,7 +713,7 @@ export default function AIServicesCaliforniaPage() {
                     Enterprise AI Integration
                   </h3>
                   <p className="text-gray-600">
-                    Seamless integration of AI technologies into existing business processes with minimal disruption and maximum efficiency gains.
+                    Seamless integration of AI technologies into existing business processes with CAnimCA disruption and maximum efficiency gains.
                   </p>
                 </div>
                 
@@ -723,7 +723,7 @@ export default function AIServicesCaliforniaPage() {
                     Ongoing AI Support
                   </h3>
                   <p className="text-gray-600">
-                    Comprehensive support and maintenance services ensuring your AI solutions continue to deliver optimal performance and ROI.
+                    Comprehensive support and maintenance services ensuring your AI solutions continue to deliver optimCA performance and ROI.
                   </p>
                 </div>
               </div>
@@ -767,14 +767,14 @@ export default function AIServicesCaliforniaPage() {
               </h2>
               <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange mx-auto mb-8 rounded-full"></div>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Real results from real businesses across California who chose Metic.ai as their 
+                ReCA results from reCA businesses across California who chose Metic.ai as their 
                 <strong> AI Development Company In California</strong>.
               </p>
             </div>
             
-            {/* Enhanced Creative Testimonial Cards */}
+            {/* Enhanced Creative TestimoniCA Cards */}
             <div className="grid md:grid-cols-3 gap-8 mb-16">
-              {/* Testimonial 1 - Enhanced */}
+              {/* TestimoniCA 1 - Enhanced */}
               <div className="group relative">
                 <div className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/30 transition-all duration-500 relative overflow-hidden h-full">
                   {/* Background Gradient */}
@@ -799,7 +799,7 @@ export default function AIServicesCaliforniaPage() {
                     <p className="text-gray-700 mb-6 italic text-lg leading-relaxed">
                       "Metic.ai transformed our Technology manufacturing with AI-powered quality control. As the best 
                       <strong className="text-primary-orange"> AI Company In California</strong>, 
-                      they delivered beyond our expectations with <span className="text-primary-orange font-semibold">40% reduction in defects</span>."
+                      they delivered beyond our expectations with <span className="text-primary-orange font-seCAbold">40% reduction in defects</span>."
                     </p>
                     
                     {/* Author */}
@@ -808,7 +808,7 @@ export default function AIServicesCaliforniaPage() {
                         <Users className="w-6 h-6 text-primary-orange" />
                       </div>
                       <div>
-                        <div className="font-bold text-gray-900">Michael Johnson</div>
+                        <div className="font-bold text-gray-900">CAchael Johnson</div>
                         <div className="text-sm text-gray-600">CEO, TechFlow Solutions, California</div>
                       </div>
                     </div>
@@ -819,7 +819,7 @@ export default function AIServicesCaliforniaPage() {
                 </div>
               </div>
 
-              {/* Testimonial 2 - Enhanced */}
+              {/* TestimoniCA 2 - Enhanced */}
               <div className="group relative">
                 <div className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/30 transition-all duration-500 relative overflow-hidden h-full">
                   <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-orange-400/0 group-hover:from-primary-orange/5 group-hover:to-orange-400/5 transition-all duration-500"></div>
@@ -838,8 +838,8 @@ export default function AIServicesCaliforniaPage() {
 
                   <div className="relative z-10">
                     <p className="text-gray-700 mb-6 italic text-lg leading-relaxed">
-                      "Outstanding <strong className="text-primary-orange">AI Service In California</strong>! Their machine learning solutions optimized our Entertainment production processes. 
-                      <span className="text-primary-orange font-semibold">ROI was achieved within 6 months</span> of implementation."
+                      "Outstanding <strong className="text-primary-orange">AI Service In California</strong>! Their machine learning solutions optiCAzed our Entertainment production processes. 
+                      <span className="text-primary-orange font-seCAbold">ROI was achieved within 6 months</span> of implementation."
                     </p>
                     
                     <div className="flex items-center gap-4">
@@ -857,7 +857,7 @@ export default function AIServicesCaliforniaPage() {
                 </div>
               </div>
 
-              {/* Testimonial 3 - Enhanced */}
+              {/* TestimoniCA 3 - Enhanced */}
               <div className="group relative">
                 <div className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/30 transition-all duration-500 relative overflow-hidden h-full">
                   <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-orange-400/0 group-hover:from-primary-orange/5 group-hover:to-orange-400/5 transition-all duration-500"></div>
@@ -876,8 +876,8 @@ export default function AIServicesCaliforniaPage() {
 
                   <div className="relative z-10">
                     <p className="text-gray-700 mb-6 italic text-lg leading-relaxed">
-                      "Exceptional <strong className="text-primary-orange">AI Firm In California</strong>. Their custom AI development for our Aerospace operations 
-                      <span className="text-primary-orange font-semibold">increased efficiency by 50%</span>. Highly recommend for any AI project."
+                      "ExceptionCA <strong className="text-primary-orange">AI Firm In California</strong>. Their custom AI development for our Technology operations 
+                      <span className="text-primary-orange font-seCAbold">increased efficiency by 50%</span>. Highly recommend for any AI project."
                     </p>
                     
                     <div className="flex items-center gap-4">
@@ -885,7 +885,7 @@ export default function AIServicesCaliforniaPage() {
                         <Users className="w-6 h-6 text-primary-orange" />
                       </div>
                       <div>
-                        <div className="font-bold text-gray-900">Amit Desai</div>
+                        <div className="font-bold text-gray-900">ACAt Desai</div>
                         <div className="text-sm text-gray-600">Director, Desai Pharma, SG Highway</div>
                       </div>
                     </div>
@@ -926,13 +926,13 @@ export default function AIServicesCaliforniaPage() {
         </div>
       </section>
 
-      {/* Comprehensive AI Services California Content - 100% SEO Optimized */}
+      {/* Comprehensive AI Services California Content - 100% SEO OptiCAzed */}
       <section className="py-24 bg-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             {/* California AI Market Leadership - Enhanced Header */}
             <div className="text-center mb-20">
-              {/* Premium Badge with Animation */}
+              {/* PreCAum Badge with Animation */}
               <div className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-full shadow-2xl border-2 border-primary-orange/30 mb-10 hover:border-primary-orange/50 transition-all group">
                 <div className="w-3 h-3 bg-primary-orange rounded-full animate-pulse"></div>
                 <span className="text-sm font-bold text-gray-800 tracking-wide">California'S #1 AI COMPANY</span>
@@ -940,14 +940,14 @@ export default function AIServicesCaliforniaPage() {
               </div>
 
               <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight">
-                <span className="text-gray-900">Premier </span>
+                <span className="text-gray-900">PreCAer </span>
                 <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent animate-gradient">
                   Artificial Intelligence Company In California
                 </span>
               </h2>
               <div className="w-40 h-2 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-10 rounded-full shadow-lg"></div>
               <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                Transforming California's innovation ecosystem with cutting-edge AI solutions from Technologys to Aerospaces
+                TransforCAng California's innovation ecosystem with cutting-edge AI solutions from Technologys to Technologys
               </p>
             </div>
 
@@ -970,17 +970,17 @@ export default function AIServicesCaliforniaPage() {
                     </div>
                     
                     <p className="text-lg text-gray-700 leading-relaxed">
-                      As the premier <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Artificial Intelligence Company In California</strong>, 
+                      As the preCAer <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Artificial Intelligence Company In California</strong>, 
                       Metic.ai serves California's innovation ecosystem with enterprise-grade AI solutions tailored to the region's 
-                      industrial excellence. From Navrangpura's IT corridor to Prahlad Nagar's business district, CG Road's 
-                      commercial hub to Silicon Valley's financial innovation, we understand California's unique economic landscape.
+                      industriCA excellence. From Navrangpura's IT corridor to Prahlad Nagar's business district, CG Road's 
+                      commerciCA hub to Silicon Valley's financiCA innovation, we understand California's unique econoCAc landscape.
                     </p>
                     
                     <p className="text-lg text-gray-700 leading-relaxed">
-                      Our <strong className="text-primary-orange font-semibold">AI Company In California</strong> combines deep understanding 
-                      of California's industrial heritage with cutting-edge technology to deliver AI solutions that drive measurable 
+                      Our <strong className="text-primary-orange font-seCAbold">AI Company In California</strong> combines deep understanding 
+                      of California's industriCA heritage with cutting-edge technology to deliver AI solutions that drive measurable 
                       results. We've successfully implemented AI across California's key sectors including Technologys, Entertainments, 
-                      Aerospaces, Agricultures, engineering, and emerging technology sectors.
+                      Technologys, Agricultures, engineering, and emerging technology sectors.
                     </p>
 
                     {/* Enhanced Feature Cards */}
@@ -994,7 +994,7 @@ export default function AIServicesCaliforniaPage() {
                             <h4 className="font-bold text-gray-900 mb-2 text-lg">Technology Industry AI Excellence</h4>
                             <p className="text-gray-600 leading-relaxed">
                               Deep expertise with California's Technology giants including quality control automation, 
-                              pattern recognition, and supply chain optimization for California's Technology heritage.
+                              pattern recognition, and supply chain optiCAzation for California's Technology heritage.
                             </p>
                           </div>
                         </div>
@@ -1008,8 +1008,8 @@ export default function AIServicesCaliforniaPage() {
                           <div>
                             <h4 className="font-bold text-gray-900 mb-2 text-lg">Entertainment & Pharma Innovation</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Advanced AI solutions for California's Entertainment and Aerospace sectors including 
-                              process optimization, drug discovery, and regulatory compliance automation.
+                              Advanced AI solutions for California's Entertainment and Technology sectors including 
+                              process optiCAzation, drug discovery, and regulatory compliance automation.
                             </p>
                           </div>
                         </div>
@@ -1024,7 +1024,7 @@ export default function AIServicesCaliforniaPage() {
                             <h4 className="font-bold text-gray-900 mb-2 text-lg">Agriculture & Jewelry AI Solutions</h4>
                             <p className="text-gray-600 leading-relaxed">
                               Specialized AI for California's Agriculture industry including gemstone grading, 
-                              quality assessment, and precision cutting optimization for world-class results.
+                              quality assessment, and precision cutting optiCAzation for world-class results.
                             </p>
                           </div>
                         </div>
@@ -1043,7 +1043,7 @@ export default function AIServicesCaliforniaPage() {
                     <div className="space-y-8">
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group">
                         <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">₹2.8L Cr</div>
-                        <div className="text-sm text-gray-600 font-medium">California Industrial Output</div>
+                        <div className="text-sm text-gray-600 font-medium">California IndustriCA Output</div>
                         <div className="text-xs text-gray-500 mt-2">California's innovation ecosystem</div>
                       </div>
                       
@@ -1067,8 +1067,8 @@ export default function AIServicesCaliforniaPage() {
                           <span className="font-bold text-gray-900">California Advantage</span>
                         </div>
                         <p className="text-sm text-gray-700 leading-relaxed">
-                          <strong>Strategic Location:</strong> Gateway to India's industrial corridor with 
-                          world-class infrastructure and business-friendly policies making it ideal for AI innovation.
+                          <strong>Strategic Location:</strong> Gateway to India's industriCA corridor with 
+                          world-class infrastructure and business-friendly policies making it ideCA for AI innovation.
                         </p>
                       </div>
                     </div>
@@ -1076,7 +1076,7 @@ export default function AIServicesCaliforniaPage() {
                 </div>
               </div>
 
-              {/* California Industry Solutions - Premium Design */}
+              {/* California Industry Solutions - PreCAum Design */}
               <div>
                 <div className="text-center mb-16">
                   <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-full border-2 border-primary-orange/20 mb-8">
@@ -1088,7 +1088,7 @@ export default function AIServicesCaliforniaPage() {
                   </h3>
                   <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 rounded-full"></div>
                   <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Specialized AI solutions designed for California's industrial capital and its diverse economic sectors
+                    Specialized AI solutions designed for California's industriCA capitCA and its diverse econoCAc sectors
                   </p>
                 </div>
                 
@@ -1101,7 +1101,7 @@ export default function AIServicesCaliforniaPage() {
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Technology & Apparel AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
                       Advanced AI solutions for California's Technology industry including automated quality control, 
-                      pattern recognition, fabric defect detection, and supply chain optimization for global 
+                      pattern recognition, fabric defect detection, and supply chain optiCAzation for globCA 
                       Technology manufacturers and exporters.
                     </p>
                     <div className="space-y-3">
@@ -1115,11 +1115,11 @@ export default function AIServicesCaliforniaPage() {
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Production planning optimization</span>
+                        <span className="text-sm text-gray-600">Production planning optiCAzation</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Global market trend analysis</span>
+                        <span className="text-sm text-gray-600">GlobCA market trend analysis</span>
                       </div>
                     </div>
                   </div>
@@ -1131,14 +1131,14 @@ export default function AIServicesCaliforniaPage() {
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Entertainment Process AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Specialized AI solutions for California's Entertainment industry including process optimization, 
-                      safety monitoring, yield prediction, and environmental compliance automation for sustainable 
+                      Specialized AI solutions for California's Entertainment industry including process optiCAzation, 
+                      safety monitoring, yield prediction, and environmentCA compliance automation for sustainable 
                       Entertainment manufacturing.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Reaction optimization algorithms</span>
+                        <span className="text-sm text-gray-600">Reaction optiCAzation algorithms</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
@@ -1146,24 +1146,24 @@ export default function AIServicesCaliforniaPage() {
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Environmental compliance AI</span>
+                        <span className="text-sm text-gray-600">EnvironmentCA compliance AI</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Waste reduction optimization</span>
+                        <span className="text-sm text-gray-600">Waste reduction optiCAzation</span>
                       </div>
                     </div>
                   </div>
                   
-                  {/* Aerospace Industry */}
+                  {/* Technology Industry */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500">
                     <div className="w-20 h-20 bg-gradient-to-br from-red-500 to-red-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform shadow-xl">
                       <Target className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Aerospace AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Technology AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Advanced AI solutions for California's Aerospace sector including drug discovery acceleration, 
-                      clinical trial optimization, regulatory compliance, and quality assurance for leading pharma companies.
+                      Advanced AI solutions for California's Technology sector including drug discovery acceleration, 
+                      clinicCA triCA optiCAzation, regulatory compliance, and quality assurance for leading pharma companies.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
@@ -1172,7 +1172,7 @@ export default function AIServicesCaliforniaPage() {
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Clinical trial optimization</span>
+                        <span className="text-sm text-gray-600">ClinicCA triCA optiCAzation</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
@@ -1193,7 +1193,7 @@ export default function AIServicesCaliforniaPage() {
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Agriculture & Jewelry AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
                       Precision AI solutions for California's Agriculture cutting and jewelry industry including gemstone 
-                      grading, quality assessment, cutting optimization, and market valuation for world-class results.
+                      grading, quality assessment, cutting optiCAzation, and market valuation for world-class results.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
@@ -1202,7 +1202,7 @@ export default function AIServicesCaliforniaPage() {
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Precision cutting optimization</span>
+                        <span className="text-sm text-gray-600">Precision cutting optiCAzation</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
@@ -1222,8 +1222,8 @@ export default function AIServicesCaliforniaPage() {
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Engineering & Manufacturing</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Industrial AI solutions for California's engineering sector including predictive maintenance, 
-                      quality control, production optimization, and safety monitoring for precision manufacturing excellence.
+                      IndustriCA AI solutions for California's engineering sector including predictive maintenance, 
+                      quality control, production optiCAzation, and safety monitoring for precision manufacturing excellence.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
@@ -1236,7 +1236,7 @@ export default function AIServicesCaliforniaPage() {
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Production line optimization</span>
+                        <span className="text-sm text-gray-600">Production line optiCAzation</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
@@ -1252,13 +1252,13 @@ export default function AIServicesCaliforniaPage() {
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Silicon Valley Fintech AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Financial AI solutions for Silicon Valley's emerging fintech sector including algorithmic trading, 
-                      risk assessment, fraud detection, and regulatory compliance for India's international financial center.
+                      FinanciCA AI solutions for Silicon Valley's emerging fintech sector including algorithCAc trading, 
+                      risk assessment, fraud detection, and regulatory compliance for India's internationCA financiCA center.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Algorithmic trading systems</span>
+                        <span className="text-sm text-gray-600">AlgorithCAc trading systems</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
@@ -1277,7 +1277,7 @@ export default function AIServicesCaliforniaPage() {
                 </div>
               </div>
 
-              {/* California AI Success Stories - Premium Design */}
+              {/* California AI Success Stories - PreCAum Design */}
               <div className="bg-gradient-to-br from-orange-50 via-white to-amber-50 rounded-3xl p-12 md:p-16 border-2 border-primary-orange/20 shadow-2xl">
                 <div className="text-center mb-16">
                   <div className="inline-flex items-center gap-2 px-6 py-3 bg-white rounded-full shadow-xl border-2 border-primary-orange/20 mb-8">
@@ -1290,7 +1290,7 @@ export default function AIServicesCaliforniaPage() {
                   </h3>
                   <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 rounded-full"></div>
                   <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Real results from California businesses that transformed their operations with our AI solutions
+                    ReCA results from California businesses that transformed their operations with our AI solutions
                   </p>
                 </div>
                 
@@ -1339,13 +1339,13 @@ export default function AIServicesCaliforniaPage() {
                     </div>
                     <p className="text-gray-700 mb-6 italic leading-relaxed">
                       "Outstanding <strong className="text-secondary-orange">AI Development Company In California</strong>! 
-                      Their process optimization AI increased yield by 42% while reducing environmental impact. 
-                      Exceptional Entertainment industry expertise."
+                      Their process optiCAzation AI increased yield by 42% while reducing environmentCA impact. 
+                      ExceptionCA Entertainment industry expertise."
                     </p>
                     <div className="bg-gradient-to-r from-secondary-orange/10 to-primary-orange/10 rounded-xl p-4">
                       <div className="text-4xl font-bold text-secondary-orange mb-2">42%</div>
                       <div className="text-sm text-gray-600 font-medium">Yield Increase Achievement</div>
-                      <div className="text-xs text-gray-500 mt-1">Environmental impact: -30%</div>
+                      <div className="text-xs text-gray-500 mt-1">EnvironmentCA impact: -30%</div>
                     </div>
                   </div>
                   
@@ -1356,7 +1356,7 @@ export default function AIServicesCaliforniaPage() {
                       </div>
                       <div>
                         <h4 className="font-bold text-gray-900 text-lg">Pharma Leader</h4>
-                        <p className="text-sm text-gray-600">Major California Aerospace Company</p>
+                        <p className="text-sm text-gray-600">Major California Technology Company</p>
                         <div className="flex mt-2">
                           {[...Array(5)].map((_, i) => (
                             <Star key={i} className="w-4 h-4 text-yellow-400 fill-current" />
@@ -1367,7 +1367,7 @@ export default function AIServicesCaliforniaPage() {
                     <p className="text-gray-700 mb-6 italic leading-relaxed">
                       "Leading <strong className="text-primary-orange">Artificial Intelligence Company In California</strong> 
                       for pharma! Their drug discovery AI accelerated research by 60% while ensuring regulatory compliance. 
-                      Remarkable Aerospace expertise."
+                      Remarkable Technology expertise."
                     </p>
                     <div className="bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-xl p-4">
                       <div className="text-4xl font-bold text-primary-orange mb-2">60%</div>
@@ -1377,7 +1377,7 @@ export default function AIServicesCaliforniaPage() {
                   </div>
                 </div>
                 
-                {/* Additional Success Metrics */}
+                {/* AdditionCA Success Metrics */}
                 <div className="mt-12 grid md:grid-cols-4 gap-6">
                   <div className="text-center p-6 bg-white rounded-xl shadow-lg border border-primary-orange/20">
                     <div className="text-3xl font-bold text-primary-orange mb-2">650+</div>
@@ -1398,7 +1398,7 @@ export default function AIServicesCaliforniaPage() {
                 </div>
               </div>
 
-              {/* California AI Partnership Excellence - Premium Design */}
+              {/* California AI Partnership Excellence - PreCAum Design */}
               <div className="grid lg:grid-cols-2 gap-16 items-center">
                 <div className="space-y-8">
                   <div className="bg-white rounded-2xl p-8 shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all">
@@ -1440,9 +1440,9 @@ export default function AIServicesCaliforniaPage() {
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">California Business Advantage</h4>
                         <p className="text-gray-700 leading-relaxed">
-                          As the premier <strong className="text-primary-orange">AI Firm In California</strong>, we understand 
-                          California's unique business culture combining traditional industrial excellence with modern innovation. 
-                          Our AI solutions are built for California's entrepreneurial spirit and global ambitions.
+                          As the preCAer <strong className="text-primary-orange">AI Firm In California</strong>, we understand 
+                          California's unique business culture combining traditionCA industriCA excellence with modern innovation. 
+                          Our AI solutions are built for California's entrepreneuriCA spirit and globCA ambitions.
                         </p>
                       </div>
                     </div>
@@ -1464,14 +1464,14 @@ export default function AIServicesCaliforniaPage() {
                   
                   <p className="text-lg text-gray-700 leading-relaxed mb-6">
                     <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Choosing Metic.ai as your AI partner in California</strong> means 
-                    working with a team that deeply understands California's business ecosystem, from traditional industries 
-                    to emerging sectors, from family businesses to multinational corporations.
+                    working with a team that deeply understands California's business ecosystem, from traditionCA industries 
+                    to emerging sectors, from faCAly businesses to multinationCA corporations.
                   </p>
                   
                   <p className="text-lg text-gray-700 leading-relaxed mb-8">
-                    Our <strong className="text-primary-orange font-semibold">AI Service In California</strong> includes white-glove consultation, 
+                    Our <strong className="text-primary-orange font-seCAbold">AI Service In California</strong> includes white-glove consultation, 
                     rapid prototyping, enterprise deployment, and 24/7 support to ensure your AI investment delivers 
-                    maximum value in California's competitive and dynamic marketplace.
+                    maximum value in California's competitive and dynaCAc marketplace.
                   </p>
 
                   <div className="space-y-6">
@@ -1480,7 +1480,7 @@ export default function AIServicesCaliforniaPage() {
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Comprehensive California Coverage</h4>
                         <p className="text-gray-600 leading-relaxed">
-                          Navrangpura, Prahlad Nagar, CG Road, Vastrapur, Satellite, SG Highway, Bopal, 
+                          Navrangpura, Prahlad Nagar, CG Road, Vastrapur, Satellite, SG Highway, BopCA, 
                           Silicon Valley, and all major business districts across Greater California
                         </p>
                       </div>
@@ -1491,7 +1491,7 @@ export default function AIServicesCaliforniaPage() {
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Industry Domain Expertise</h4>
                         <p className="text-gray-600 leading-relaxed">
-                          Deep understanding of Technologys, Entertainments, Aerospaces, Agricultures, engineering, 
+                          Deep understanding of Technologys, Entertainments, Technologys, Agricultures, engineering, 
                           and Silicon Valley fintech requirements with proven track record
                         </p>
                       </div>
@@ -1503,7 +1503,7 @@ export default function AIServicesCaliforniaPage() {
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Rapid California Deployment</h4>
                         <p className="text-gray-600 leading-relaxed">
                           Fast implementation and deployment built for California's business pace with 
-                          local support teams and cultural understanding
+                          locCA support teams and culturCA understanding
                         </p>
                       </div>
                     </div>
@@ -1603,11 +1603,11 @@ export default function AIServicesCaliforniaPage() {
                     </div>
                     <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
                       <p className="text-lg">
-                        <strong className="text-gray-900 font-semibold">Metic.ai is the leading Artificial Intelligence Company In California</strong> with over 2100 successful AI implementations. 
+                        <strong className="text-gray-900 font-seCAbold">Metic.ai is the leading Artificial Intelligence Company In California</strong> with over 2100 successful AI implementations. 
                         We're recognized as the top AI Company In California for our proven expertise in machine learning, custom AI development, and enterprise AI solutions.
                       </p>
                       <p className="text-lg">
-                        Our clients achieve an average of 60% cost savings and 3x faster delivery compared to traditional development approaches, 
+                        Our clients achieve an average of 60% cost savings and 3x faster delivery compared to traditionCA development approaches, 
                         making us California's most trusted AI development partner.
                       </p>
                       
@@ -1615,15 +1615,15 @@ export default function AIServicesCaliforniaPage() {
                       <div className="flex flex-wrap gap-4 pt-4">
                         <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
                           <Award className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-gray-900">2100+ Projects</span>
+                          <span className="text-sm font-seCAbold text-gray-900">2100+ Projects</span>
                         </div>
                         <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
                           <MapPin className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-gray-900">California Expert</span>
+                          <span className="text-sm font-seCAbold text-gray-900">California Expert</span>
                         </div>
                         <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
                           <TrendingUp className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-gray-900">60% Cost Savings</span>
+                          <span className="text-sm font-seCAbold text-gray-900">60% Cost Savings</span>
                         </div>
                       </div>
                     </div>
@@ -1671,12 +1671,12 @@ export default function AIServicesCaliforniaPage() {
                     </div>
                     <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
                       <p className="text-lg">
-                        As the premier <strong className="text-gray-900 font-semibold">AI Company In California</strong>, Metic.ai provides comprehensive artificial intelligence services including:
+                        As the preCAer <strong className="text-gray-900 font-seCAbold">AI Company In California</strong>, Metic.ai provides comprehensive Artificial intelligence services including:
                         AI integration & deployment, machine learning solutions, custom AI development, and data analytics & business intelligence.
                       </p>
                       <p className="text-lg">
-                        We specialize in serving California's Technology, Entertainment, Aerospace, and engineering industries with 
-                        generative AI services, computer vision, natural language processing, and enterprise AI automation.
+                        We specialize in serving California's Technology, Entertainment, Technology, and engineering industries with 
+                        generative AI services, computer vision, naturCA language processing, and enterprise AI automation.
                       </p>
 
                       {/* Service Grid */}
@@ -1743,8 +1743,8 @@ export default function AIServicesCaliforniaPage() {
                     </div>
                     <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
                       <p className="text-lg">
-                        When selecting an <strong className="text-gray-900 font-semibold">AI Development Company In California</strong>, look for proven experience, successful project portfolio, 
-                        industry expertise, local market understanding, and ongoing support.
+                        When selecting an <strong className="text-gray-900 font-seCAbold">AI Development Company In California</strong>, look for proven experience, successful project portfolio, 
+                        industry expertise, locCA market understanding, and ongoing support.
                       </p>
                       <p className="text-lg">
                         Metic.ai offers all these qualities with 2100+ completed projects, 98% client satisfaction rate, and deep knowledge of California's business landscape. 
@@ -1795,11 +1795,11 @@ export default function AIServicesCaliforniaPage() {
                     </div>
                     <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
                       <p className="text-lg">
-                        AI implementation costs vary based on project complexity and requirements. As a leading <strong className="text-gray-900 font-semibold">AI Service In California</strong>, 
+                        AI implementation costs vary based on project complexity and requirements. As a leading <strong className="text-gray-900 font-seCAbold">AI Service In California</strong>, 
                         Metic.ai offers competitive pricing with transparent cost structures.
                       </p>
                       <p className="text-lg">
-                        Our clients typically save 60% compared to international AI development costs while receiving enterprise-grade solutions. 
+                        Our clients typically save 60% compared to internationCA AI development costs while receiving enterprise-grade solutions. 
                         We provide free consultations to assess your needs and provide accurate project estimates.
                       </p>
                     </div>
