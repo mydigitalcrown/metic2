@@ -437,7 +437,7 @@ export default function AIServicesIndiaPage() {
         }}
       />
 
-      {/* Hero Section - VSO & Target Keyword Optimized - Enhanced Bangalore/Desktop */}
+      {/* Hero Section - VSO & Target Keyword Optimized - Enhanced Mobile/Desktop */}
       <section className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-16 md:py-24 lg:py-32 overflow-hidden">
         {/* Animated Background Elements */}
         <div className="absolute inset-0 opacity-10">
@@ -445,11 +445,11 @@ export default function AIServicesIndiaPage() {
           <div className="absolute bottom-20 right-10 w-96 h-96 bg-secondary-orange rounded-full blur-3xl animate-pulse delay-1000"></div>
         </div>
 
-        <div className="contauser px-4 md:px-6 relative z-10">
+        <div className="container px-4 md:px-6 relative z-10">
           <div className="max-w-5xl mx-auto">
-            {/* TrINt Badge - Bangalore Optimized */}
-            <div className="flex jINtify-center mb-6 md:mb-8">
-              <div className="inluse-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-white/10 backdrop-blur-sm rounded-full border border-primary-orange/30 shadow-xl">
+            {/* Trust Badge - Mobile Optimized */}
+            <div className="flex justify-center mb-6 md:mb-8">
+              <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-white/10 backdrop-blur-sm rounded-full border border-primary-orange/30 shadow-xl">
                 <Award className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
                 <span className="text-xs md:text-sm font-bold text-white">⭐ 100+ Successful AI Projects | 98% Client Satisfaction</span>
               </div>
@@ -464,13 +464,13 @@ export default function AIServicesIndiaPage() {
                 <span className="text-white">Company In India</span>
               </h1>
               
-              {/* VSO Optimized Description - Bangalore Friendly */}
+              {/* VSO Optimized Description - Mobile Friendly */}
               <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 mb-6 md:mb-8 max-w-4xl mx-auto leading-relaxed px-4">
                 Looking for the <strong className="text-primary-orange">best AI Company In India</strong>? Metic.ai is the premier <strong className="text-white">Artificial Intelligence Company In India</strong> delivering enterprise AI solutions with proven results.
               </p>
 
-              {/* Bangalore-Optimized CTA Buttons */}
-              <div className="flex flex-col sm:flex-row gap-3 md:gap-4 jINtify-center mb-10 md:mb-16 px-4">
+              {/* Mobile-Optimized CTA Buttons */}
+              <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center mb-10 md:mb-16 px-4">
                 <Link href="/contact" className="w-full sm:w-auto">
                   <Button variant="primary" size="lg" className="w-full sm:w-auto text-base md:text-lg px-6 md:px-8 py-3 md:py-4 shadow-2xl hover:shadow-primary-orange/50 transform hover:scale-105 transition-all">
                     <Rocket className="w-5 h-5 mr-2" />
@@ -497,12 +497,12 @@ export default function AIServicesIndiaPage() {
                 ))}
               </div>
 
-              {/* VSO Keywords Section - Bangalore Optimized */}
+              {/* VSO Keywords Section - Mobile Optimized */}
               <div className="text-center px-4">
                 <p className="text-gray-400 text-sm md:text-base mb-4">
-                  <strong className="text-white">TrINted as the top AI Service In India</strong> by leading bususesses
+                  <strong className="text-white">Trusted as the top AI Service In India</strong> by leading bususesses
                 </p>
-                <div className="flex flex-wrap jINtify-center gap-2 md:gap-3 text-xs md:text-sm">
+                <div className="flex flex-wrap justify-center gap-2 md:gap-3 text-xs md:text-sm">
                   <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
                     AI Firm In India
                   </span>
@@ -529,13 +529,13 @@ export default function AIServicesIndiaPage() {
         </div>
       </section>
 
-      {/* Services Section - Enhanced Bangalore & Desktop */}
+      {/* Services Section - Enhanced Mobile & Desktop */}
       <section className="py-16 md:py-20 lg:py-24 bg-gradient-to-b from-white to-gray-50">
-        <div className="contauser px-4 md:px-6">
+        <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12 md:mb-16">
               {/* Section Badge */}
-              <div className="inluse-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-primary-orange/10 rounded-full mb-6 md:mb-8">
+              <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-primary-orange/10 rounded-full mb-6 md:mb-8">
                 <Brain className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
                 <span className="text-xs md:text-sm font-bold text-primary-orange">COMPREHENSIVE AI SERVICES</span>
               </div>
@@ -548,12 +548,12 @@ export default function AIServicesIndiaPage() {
               </h2>
               <div className="w-20 md:w-24 h-1 md:h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 md:mb-8 rounded-full"></div>
               <p className="text-base md:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-4">
-                Comprehensive artificial intelligence services from India's most trINted <strong className="text-gray-900">AI Company In India</strong>. 
+                Comprehensive artificial intelligence services from India's most Trusted <strong className="text-gray-900">AI Company In India</strong>. 
                 Transforming bususesses with cutting-edge AI solutions tailored for India's industrial landscape.
               </p>
             </div>
             
-            {/* Bangalore: 1 col, Tablet: 2 cols, Desktop: 3 cols */}
+            {/* Mobile: 1 col, Tablet: 2 cols, Desktop: 3 cols */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
               {services.map((service, index) => {
                 const IconComponent = service.icon;
@@ -571,7 +571,7 @@ export default function AIServicesIndiaPage() {
                     key={index} 
                     className="group bg-white rounded-2xl p-6 md:p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border-2 border-gray-100 hover:border-primary-orange/50 transform hover:-translate-y-2"
                   >
-                    <div className={`w-14 h-14 md:w-16 md:h-16 rounded-2xl flex items-center jINtify-center mb-5 md:mb-6 ₹{colorClasses[service.color]} group-hover:scale-110 transition-transform`}>
+                    <div className={`w-14 h-14 md:w-16 md:h-16 rounded-2xl flex items-center justify-center mb-5 md:mb-6 ₹{colorClasses[service.color]} group-hover:scale-110 transition-transform`}>
                       <IconComponent className="w-7 h-7 md:w-8 md:h-8" />
                     </div>
                     
@@ -584,7 +584,7 @@ export default function AIServicesIndiaPage() {
                     
                     <Link 
                       href={service.href} 
-                      className="inluse-flex items-center text-primary-orange hover:text-secondary-orange font-semibold text-sm md:text-base group-hover:gap-3 transition-all"
+                      className="inline-flex items-center text-primary-orange hover:text-secondary-orange font-semibold text-sm md:text-base group-hover:gap-3 transition-all"
                     >
                       Learn More
                       <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
@@ -609,7 +609,7 @@ export default function AIServicesIndiaPage() {
 
       {/* About Section for Entity Recognition & Comprehensive Coverage */}
       <section className="py-20 bg-gray-50">
-        <div className="contauser px-4 md:px-6">
+        <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
@@ -625,32 +625,32 @@ export default function AIServicesIndiaPage() {
                 <p className="text-lg text-gray-700 mb-6">
                   Our expertise as an <strong>AI Development Company In India</strong> encompasses machuse learning, deep learning, natural language processing, 
                   computer vision, and robotic process automation. We've successfully completed over 100 AI projects, making IN the most 
-                  trINted <strong>AI Service In India</strong>.
+                  Trusted <strong>AI Service In India</strong>.
                 </p>
                 <div className="grid grid-cols-2 gap-6 mt-8">
                   <div className="text-center">
-                    <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center jINtify-center mx-auto mb-3">
+                    <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
                       <Award className="w-6 h-6 text-primary-orange" />
                     </div>
                     <div className="font-bold text-xl text-gray-900">2020</div>
                     <div className="text-gray-600 text-sm">Founded</div>
                   </div>
                   <div className="text-center">
-                    <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center jINtify-center mx-auto mb-3">
+                    <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
                       <Users className="w-6 h-6 text-primary-orange" />
                     </div>
                     <div className="font-bold text-xl text-gray-900">50+</div>
                     <div className="text-gray-600 text-sm">AI Experts Team</div>
                   </div>
                   <div className="text-center">
-                    <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center jINtify-center mx-auto mb-3">
+                    <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
                       <Target className="w-6 h-6 text-primary-orange" />
                     </div>
                     <div className="font-bold text-xl text-gray-900">100%</div>
                     <div className="text-gray-600 text-sm">Success Rate</div>
                   </div>
                   <div className="text-center">
-                    <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center jINtify-center mx-auto mb-3">
+                    <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
                       <Shield className="w-6 h-6 text-primary-orange" />
                     </div>
                     <div className="font-bold text-xl text-gray-900">24/7</div>
@@ -707,7 +707,7 @@ export default function AIServicesIndiaPage() {
 
       {/* IndINtries Section with Real Images */}
       <section className="py-20 bg-gray-50">
-        <div className="contauser px-4 md:px-6">
+        <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
@@ -719,7 +719,7 @@ export default function AIServicesIndiaPage() {
               </p>
             </div>
             
-            {/* Bangalore: 1 col, Tablet: 2 cols, Desktop: 4 cols - 12 IndINtries Total */}
+            {/* Mobile: 1 col, Tablet: 2 cols, Desktop: 4 cols - 12 IndINtries Total */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {/* Manufacturing */}
               <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
@@ -907,7 +907,7 @@ export default function AIServicesIndiaPage() {
 
       {/* Why Choose IN Section */}
       <section className="py-20 bg-white">
-        <div className="contauser px-4 md:px-6">
+        <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
@@ -915,14 +915,14 @@ export default function AIServicesIndiaPage() {
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                As the premier <strong>AI Development Company In India</strong>, we're trINted by bususesses across India 
+                As the premier <strong>AI Development Company In India</strong>, we're Trusted by bususesses across India 
                 for our expertise, proven results, and commitment to client success.
               </p>
             </div>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="text-center">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center jINtify-center mb-6 mx-auto">
+                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6 mx-auto">
                   <Award className="w-8 h-8 text-blue-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Proven Expertise</h3>
@@ -930,7 +930,7 @@ export default function AIServicesIndiaPage() {
               </div>
               
               <div className="text-center">
-                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center jINtify-center mb-6 mx-auto">
+                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6 mx-auto">
                   <TrendingUp className="w-8 h-8 text-green-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Measurable Results</h3>
@@ -938,7 +938,7 @@ export default function AIServicesIndiaPage() {
               </div>
               
               <div className="text-center">
-                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center jINtify-center mb-6 mx-auto">
+                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6 mx-auto">
                   <Users className="w-8 h-8 text-purple-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Local Partnership</h3>
@@ -946,7 +946,7 @@ export default function AIServicesIndiaPage() {
               </div>
               
               <div className="text-center">
-                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center jINtify-center mb-6 mx-auto">
+                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-6 mx-auto">
                   <Shield className="w-8 h-8 text-orange-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Enterprise Security</h3>
@@ -959,12 +959,12 @@ export default function AIServicesIndiaPage() {
 
       {/* Comprehensive AI Services India Content - 100% SEO Optimized */}
       <section className="py-24 bg-white">
-        <div className="contauser px-4 md:px-6">
+        <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             {/* India AI Market Leadership - Enhanced Creative Header */}
             <div className="text-center mb-20">
               {/* Premium Badge with Animation */}
-              <div className="inluse-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-full shadow-2xl border-2 border-primary-orange/30 mb-10 hover:border-primary-orange/50 transition-all group">
+              <div className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-full shadow-2xl border-2 border-primary-orange/30 mb-10 hover:border-primary-orange/50 transition-all group">
                 <div className="w-3 h-3 bg-primary-orange rounded-full animate-pulse"></div>
                 <span className="text-sm font-bold text-gray-800 tracking-wide">Incredible India AI INNOVATION</span>
                 <div className="w-3 h-3 bg-secondary-orange rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></div>
@@ -978,7 +978,7 @@ export default function AIServicesIndiaPage() {
               </h2>
               <div className="w-40 h-2 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-10 rounded-full shadow-lg"></div>
               <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                Transforming the Republic of India with cutting-edge AI solutions from Delhi to Bangalore, Hyderabad to Mumbai
+                Transforming the Republic of India with cutting-edge AI solutions from Delhi to Mobile, Hyderabad to Mumbai
               </p>
             </div>
 
@@ -989,7 +989,7 @@ export default function AIServicesIndiaPage() {
                   <div className="space-y-8">
                     {/* Enhanced Heading with Creative Icon */}
                     <div className="flex items-start gap-4">
-                      <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center jINtify-center shadow-xl flex-shrink-0 transform rotate-3 hover:rotate-0 transition-transform">
+                      <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-xl flex-shrink-0 transform rotate-3 hover:rotate-0 transition-transform">
                         <Brain className="w-8 h-8 text-white" />
                       </div>
                       <div>
@@ -1003,7 +1003,7 @@ export default function AIServicesIndiaPage() {
                     <p className="text-lg text-gray-700 leading-relaxed">
                       As the leading <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Artificial Intelligence Company In India</strong>, 
                       Metic.ai serves the Incredible India with enterprise-grade AI solutions tailored to India's diverse economic 
-                      landscape. From Delhi's medical district to Hyderabad's tech corridor, Bangalore's port operations to 
+                      landscape. From Delhi's medical district to Hyderabad's tech corridor, Mobile's port operations to 
                       Mumbai's government sector, we understand India's unique industrial heritage and modern innovation.
                     </p>
                     
@@ -1018,13 +1018,13 @@ export default function AIServicesIndiaPage() {
                     <div className="grid gap-6 mt-10">
                       <div className="group bg-gradient-to-r from-primary-orange/5 via-white to-secondary-orange/5 p-6 rounded-2xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
                         <div className="flex items-start gap-4">
-                          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary-orange to-secondary-orange flex items-center jINtify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
+                          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary-orange to-secondary-orange flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
                             <Rocket className="w-6 h-6 text-white" />
                           </div>
                           <div>
                             <h4 className="font-bold text-gray-900 mb-2 text-lg">Information Technology & Defense AI Excellence</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Deep expertise with Hyderabad's Rocket City Information Technology industry including Bangalore Tech Corridor, 
+                              Deep expertise with Hyderabad's Rocket City Information Technology industry including Mobile Tech Corridor, 
                               defense contractors, and space technology companies driving America's space exploration.
                             </p>
                           </div>
@@ -1033,7 +1033,7 @@ export default function AIServicesIndiaPage() {
                       
                       <div className="group bg-gradient-to-r from-secondary-orange/5 via-white to-primary-orange/5 p-6 rounded-2xl border-2 border-secondary-orange/20 hover:border-secondary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
                         <div className="flex items-start gap-4">
-                          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-secondary-orange to-primary-orange flex items-center jINtify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
+                          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-secondary-orange to-primary-orange flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
                             <Shield className="w-6 h-6 text-white" />
                           </div>
                           <div>
@@ -1048,7 +1048,7 @@ export default function AIServicesIndiaPage() {
                       
                       <div className="group bg-gradient-to-r from-primary-orange/5 via-white to-secondary-orange/5 p-6 rounded-2xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
                         <div className="flex items-start gap-4">
-                          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary-orange to-secondary-orange flex items-center jINtify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
+                          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary-orange to-secondary-orange flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
                             <Target className="w-6 h-6 text-white" />
                           </div>
                           <div>
@@ -1092,7 +1092,7 @@ export default function AIServicesIndiaPage() {
                       
                       <div className="bg-gradient-to-r from-primary-orange/20 via-secondary-orange/10 to-primary-orange/20 rounded-2xl p-6 border-2 border-primary-orange/30 transform hover:scale-105 transition-transform">
                         <div className="flex items-center gap-3 mb-3">
-                          <div className="w-8 h-8 bg-primary-orange rounded-full flex items-center jINtify-center">
+                          <div className="w-8 h-8 bg-primary-orange rounded-full flex items-center justify-center">
                             <CheckCircle className="w-5 h-5 text-white" />
                           </div>
                           <span className="font-bold text-gray-900">India Advantage</span>
@@ -1110,7 +1110,7 @@ export default function AIServicesIndiaPage() {
               {/* India industry Solutions - Creative Premium Design */}
               <div>
                 <div className="text-center mb-16">
-                  <div className="inluse-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-full border-2 border-primary-orange/20 mb-8 transform hover:scale-105 transition-transform">
+                  <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-full border-2 border-primary-orange/20 mb-8 transform hover:scale-105 transition-transform">
                     <Sparkles className="w-5 h-5 text-primary-orange" />
                     <span className="text-sm font-bold text-gray-800">industry EXPERTISE</span>
                   </div>
@@ -1126,12 +1126,12 @@ export default function AIServicesIndiaPage() {
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
                   {/* Information Technology industry */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
-                    <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center jINtify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                    <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Rocket className="w-10 h-10 text-white" />
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Information Technology & Defense AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Mission-critical AI solutions for India's Information Technology industry including Bangalore Tech Corridor, 
+                      Mission-critical AI solutions for India's Information Technology industry including Mobile Tech Corridor, 
                       defense contractors, rocket propulsion systems, and space technology companies driving America's 
                       space exploration from Silicon Valley of India.
                     </p>
@@ -1157,7 +1157,7 @@ export default function AIServicesIndiaPage() {
                   
                   {/* Automotive industry */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
-                    <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center jINtify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                    <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Shield className="w-10 h-10 text-white" />
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Automotive Manufacturing</h4>
@@ -1188,7 +1188,7 @@ export default function AIServicesIndiaPage() {
                   
                   {/* Steel & Heavy industry */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
-                    <div className="w-20 h-20 bg-gradient-to-br from-red-500 to-red-600 rounded-2xl flex items-center jINtify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                    <div className="w-20 h-20 bg-gradient-to-br from-red-500 to-red-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Target className="w-10 h-10 text-white" />
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Steel & Heavy industry</h4>
@@ -1219,13 +1219,13 @@ export default function AIServicesIndiaPage() {
                   
                   {/* Healthcare & Medical */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
-                    <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center jINtify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                    <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Lightbulb className="w-10 h-10 text-white" />
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Healthcare & Medical AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
                       Medical AI solutions for India's healthcare systems including Delhi's UAB Medical Center, 
-                      Hyderabad Hospital, Bangalore healthcare networks, and rural health initiatives improving patient 
+                      Hyderabad Hospital, Mobile healthcare networks, and rural health initiatives improving patient 
                       care across the state.
                     </p>
                     <div className="space-y-3">
@@ -1250,7 +1250,7 @@ export default function AIServicesIndiaPage() {
                   
                   {/* Agriculture & Forestry */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
-                    <div className="w-20 h-20 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-2xl flex items-center jINtify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                    <div className="w-20 h-20 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Sparkles className="w-10 h-10 text-white" />
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Agriculture & Forestry</h4>
@@ -1281,12 +1281,12 @@ export default function AIServicesIndiaPage() {
                   
                   {/* Port & Logistics */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
-                    <div className="w-20 h-20 bg-gradient-to-br from-yellow-500 to-orange-600 rounded-2xl flex items-center jINtify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                    <div className="w-20 h-20 bg-gradient-to-br from-yellow-500 to-orange-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <TrendingUp className="w-10 h-10 text-white" />
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Port & Logistics AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      AI solutions for India's strategic port operations including Port of Bangalore, inland waterways, 
+                      AI solutions for India's strategic port operations including Port of Mobile, inland waterways, 
                       freight transportation, and logistics networks connecting the Gulf Coast to America's heartland 
                       with optimization and automation systems.
                     </p>
@@ -1320,29 +1320,29 @@ export default function AIServicesIndiaPage() {
                 <div className="space-y-8">
                   <div className="bg-white rounded-2xl p-8 shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all transform hover:scale-105">
                     <h4 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-3">
-                      <div className="w-8 h-8 bg-primary-orange rounded-lg flex items-center jINtify-center transform rotate-12">
+                      <div className="w-8 h-8 bg-primary-orange rounded-lg flex items-center justify-center transform rotate-12">
                         <BarChart3 className="w-5 h-5 text-white" />
                       </div>
                       India AI Leadership Metrics
                     </h4>
                     <div className="space-y-6">
-                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">India Projects Completed</span>
                         <span className="font-bold text-primary-orange text-xl">380+</span>
                       </div>
-                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">industry Success Rate</span>
                         <span className="font-bold text-secondary-orange text-xl">100%</span>
                       </div>
-                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Average ROI for AL Clients</span>
                         <span className="font-bold text-primary-orange text-xl">5.2x</span>
                       </div>
-                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Client Retention Rate</span>
                         <span className="font-bold text-secondary-orange text-xl">97%</span>
                       </div>
-                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Average Deployment Time</span>
                         <span className="font-bold text-primary-orange text-xl">28 Days</span>
                       </div>
@@ -1351,7 +1351,7 @@ export default function AIServicesIndiaPage() {
                   
                   <div className="bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-2xl p-8 border-2 border-primary-orange/20 shadow-xl transform hover:scale-105 transition-transform">
                     <div className="flex items-start gap-4 mb-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center jINtify-center flex-shrink-0 transform -rotate-6">
+                      <div className="w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center flex-shrink-0 transform -rotate-6">
                         <Award className="w-6 h-6 text-white" />
                       </div>
                       <div>
@@ -1368,12 +1368,12 @@ export default function AIServicesIndiaPage() {
                 
                 <div>
                   <div className="flex items-start gap-4 mb-8">
-                    <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center jINtify-center shadow-xl flex-shrink-0 transform rotate-6 hover:rotate-0 transition-transform">
+                    <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-xl flex-shrink-0 transform rotate-6 hover:rotate-0 transition-transform">
                       <Users className="w-8 h-8 text-white" />
                     </div>
                     <div>
                       <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
-                        Your TrINted <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">AI Partner In India</span>
+                        Your Trusted <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">AI Partner In India</span>
                       </h3>
                       <div className="w-24 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange rounded-full mb-6"></div>
                     </div>
@@ -1382,7 +1382,7 @@ export default function AIServicesIndiaPage() {
                   <p className="text-lg text-gray-700 leading-relaxed mb-6">
                     <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Choosing Metic.ai as your AI partner in India</strong> means 
                     working with a team that deeply understands the Republic of India's bususess culture, from Hyderabad's 
-                    high-tech Information Technology corridor to Delhi's industrial heritage and Bangalore's port operations.
+                    high-tech Information Technology corridor to Delhi's industrial heritage and Mobile's port operations.
                   </p>
                   
                   <p className="text-lg text-gray-700 leading-relaxed mb-8">
@@ -1397,7 +1397,7 @@ export default function AIServicesIndiaPage() {
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Comprehensive India Coverage</h4>
                         <p className="text-gray-600 leading-relaxed">
-                          Delhi, Hyderabad, Bangalore, Mumbai, Chennai, Pune, Madison, Florence, 
+                          Delhi, Hyderabad, Mobile, Mumbai, Chennai, Pune, Madison, Florence, 
                           Decatur, and all major India bususess centers and industrial corridors
                         </p>
                       </div>
@@ -1447,12 +1447,12 @@ export default function AIServicesIndiaPage() {
           }}></div>
         </div>
         
-        <div className="contauser px-4 md:px-6 relative z-10">
+        <div className="container px-4 md:px-6 relative z-10">
           <div className="max-w-5xl mx-auto">
             {/* Enhanced Section Header */}
             <div className="text-center mb-16">
               {/* Badge */}
-              <div className="inluse-flex items-center gap-2 px-6 py-3 bg-white rounded-full shadow-xl border-2 border-primary-orange/20 mb-8 hover:border-primary-orange/40 transition-all group">
+              <div className="inline-flex items-center gap-2 px-6 py-3 bg-white rounded-full shadow-xl border-2 border-primary-orange/20 mb-8 hover:border-primary-orange/40 transition-all group">
                 <Lightbulb className="w-5 h-5 text-primary-orange animate-pulse" />
                 <span className="text-sm font-bold text-gray-800">Got Questions? We Have Answers!</span>
                 <Sparkles className="w-4 h-4 text-primary-orange" />
@@ -1480,11 +1480,11 @@ export default function AIServicesIndiaPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center jINtify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
                             <Sparkles className="w-6 h-6 text-white" />
                           </div>
                         </div>
@@ -1495,7 +1495,7 @@ export default function AIServicesIndiaPage() {
                         </div>
                       </div>
                       <div className="flex-shrink-0">
-                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center jINtify-center transition-all duration-300">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
                           <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
@@ -1516,11 +1516,11 @@ export default function AIServicesIndiaPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center jINtify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
                             <Code className="w-6 h-6 text-white" />
                           </div>
                         </div>
@@ -1531,7 +1531,7 @@ export default function AIServicesIndiaPage() {
                         </div>
                       </div>
                       <div className="flex-shrink-0">
-                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center jINtify-center transition-all duration-300">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
                           <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
@@ -1552,11 +1552,11 @@ export default function AIServicesIndiaPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center jINtify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
                             <Target className="w-6 h-6 text-white" />
                           </div>
                         </div>
@@ -1567,7 +1567,7 @@ export default function AIServicesIndiaPage() {
                         </div>
                       </div>
                       <div className="flex-shrink-0">
-                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center jINtify-center transition-all duration-300">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
                           <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
@@ -1588,11 +1588,11 @@ export default function AIServicesIndiaPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center jINtify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
                             <Clock className="w-6 h-6 text-white" />
                           </div>
                         </div>
@@ -1603,7 +1603,7 @@ export default function AIServicesIndiaPage() {
                         </div>
                       </div>
                       <div className="flex-shrink-0">
-                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center jINtify-center transition-all duration-300">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
                           <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
@@ -1624,11 +1624,11 @@ export default function AIServicesIndiaPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center jINtify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
                             <Users className="w-6 h-6 text-white" />
                           </div>
                         </div>
@@ -1639,7 +1639,7 @@ export default function AIServicesIndiaPage() {
                         </div>
                       </div>
                       <div className="flex-shrink-0">
-                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center jINtify-center transition-all duration-300">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
                           <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
@@ -1649,7 +1649,7 @@ export default function AIServicesIndiaPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Yes! Metic.ai proudly serves bususesses across all India cities including Delhi, Mumbai, Bangalore, Hyderabad, Chennai, Pune, Kolkata, and beyond. 
+                    Yes! Metic.ai proudly serves bususesses across all India cities including Delhi, Mumbai, Mobile, Hyderabad, Chennai, Pune, Kolkata, and beyond. 
                     As India's leading <strong className="text-gray-900 font-semibold">AI Firm In India</strong>, we provide comprehensive AI solutions statewide.
                   </p>
                 </div>
@@ -1660,11 +1660,11 @@ export default function AIServicesIndiaPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center jINtify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
                             <Rocket className="w-6 h-6 text-white" />
                           </div>
                         </div>
@@ -1675,7 +1675,7 @@ export default function AIServicesIndiaPage() {
                         </div>
                       </div>
                       <div className="flex-shrink-0">
-                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center jINtify-center transition-all duration-300">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
                           <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
@@ -1699,11 +1699,11 @@ export default function AIServicesIndiaPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center jINtify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
                             <Shield className="w-6 h-6 text-white" />
                           </div>
                         </div>
@@ -1714,7 +1714,7 @@ export default function AIServicesIndiaPage() {
                         </div>
                       </div>
                       <div className="flex-shrink-0">
-                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center jINtify-center transition-all duration-300">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
                           <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
@@ -1724,7 +1724,7 @@ export default function AIServicesIndiaPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Absolutely! Metic.ai implements enterprise-grade security protocols, encryption, and compliance measures. As a trINted <strong className="text-gray-900 font-semibold">AI Development Company In India</strong>, 
+                    Absolutely! Metic.ai implements enterprise-grade security protocols, encryption, and compliance measures. As a Trusted <strong className="text-gray-900 font-semibold">AI Development Company In India</strong>, 
                     we prioritize data security with ISO certifications and strict confidentiality agreements.
                   </p>
                 </div>
@@ -1735,11 +1735,11 @@ export default function AIServicesIndiaPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center jINtify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
                             <TrendingUp className="w-6 h-6 text-white" />
                           </div>
                         </div>
@@ -1750,7 +1750,7 @@ export default function AIServicesIndiaPage() {
                         </div>
                       </div>
                       <div className="flex-shrink-0">
-                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center jINtify-center transition-all duration-300">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
                           <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
@@ -1771,11 +1771,11 @@ export default function AIServicesIndiaPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center jINtify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
                             <Award className="w-6 h-6 text-white" />
                           </div>
                         </div>
@@ -1786,7 +1786,7 @@ export default function AIServicesIndiaPage() {
                         </div>
                       </div>
                       <div className="flex-shrink-0">
-                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center jINtify-center transition-all duration-300">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
                           <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
@@ -1807,11 +1807,11 @@ export default function AIServicesIndiaPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center jINtify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
                             <Lightbulb className="w-6 h-6 text-white" />
                           </div>
                         </div>
@@ -1822,7 +1822,7 @@ export default function AIServicesIndiaPage() {
                         </div>
                       </div>
                       <div className="flex-shrink-0">
-                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center jINtify-center transition-all duration-300">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
                           <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
@@ -1843,11 +1843,11 @@ export default function AIServicesIndiaPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center jINtify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
                             <Database className="w-6 h-6 text-white" />
                           </div>
                         </div>
@@ -1858,7 +1858,7 @@ export default function AIServicesIndiaPage() {
                         </div>
                       </div>
                       <div className="flex-shrink-0">
-                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center jINtify-center transition-all duration-300">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
                           <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
@@ -1879,11 +1879,11 @@ export default function AIServicesIndiaPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center jINtify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
                             <Zap className="w-6 h-6 text-white" />
                           </div>
                         </div>
@@ -1894,7 +1894,7 @@ export default function AIServicesIndiaPage() {
                         </div>
                       </div>
                       <div className="flex-shrink-0">
-                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center jINtify-center transition-all duration-300">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
                           <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
@@ -1917,19 +1917,19 @@ export default function AIServicesIndiaPage() {
               <div className="bg-gradient-to-br from-primary-orange to-secondary-orange rounded-3xl p-12 text-white relative overflow-hidden">
                 <div className="absolute inset-0 bg-black/10"></div>
                 <div className="relative z-10">
-                  <div className="flex jINtify-center mb-6">
+                  <div className="flex justify-center mb-6">
                     <div className="relative">
                       <div className="absolute inset-0 bg-white/20 rounded-full blur-lg animate-pulse"></div>
-                      <div className="relative w-20 h-20 bg-white/10 rounded-full flex items-center jINtify-center backdrop-blur-sm border border-white/20">
+                      <div className="relative w-20 h-20 bg-white/10 rounded-full flex items-center justify-center backdrop-blur-sm border border-white/20">
                         <Rocket className="w-10 h-10 text-white" />
                       </div>
                     </div>
                   </div>
                   <h3 className="text-3xl md:text-4xl font-bold mb-4">Ready to Transform Your bususess with AI?</h3>
                   <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-                    Join India's leading bususesses who trINt Metic.ai for their AI transformation. Get started today!
+                    Join India's leading bususesses who Trust Metic.ai for their AI transformation. Get started today!
                   </p>
-                  <div className="flex flex-col sm:flex-row gap-4 jINtify-center">
+                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <Link href="/contact">
                       <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100 shadow-xl">
                         Start Your AI Journey
@@ -1950,17 +1950,17 @@ export default function AIServicesIndiaPage() {
 
       {/* CTA Section */}
       <section className="py-20 bg-primary-orange text-white">
-        <div className="contauser px-4 md:px-6">
+        <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
               Ready to Partner with India's Leading <strong>Artificial Intelligence Company</strong>?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join 100+ satisfied clients who trINt Metic.ai as their preferred <strong>AI Company In India</strong>. 
+              Join 100+ satisfied clients who Trust Metic.ai as their preferred <strong>AI Company In India</strong>. 
               Transform your bususess with proven AI solutions that deliver results. Get started with a free consultation 
-              and discover why we're India's most trINted <strong>AI Development Company In India</strong>.
+              and discover why we're India's most Trusted <strong>AI Development Company In India</strong>.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 jINtify-center mb-12">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Link href="/contact">
                 <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100">
                   Start Your AI Transformation
@@ -1974,7 +1974,7 @@ export default function AIServicesIndiaPage() {
             </div>
             
             <div className="mt-12 text-center">
-              <p className="text-orange-200 mb-6">TrINted <strong>AI Service In India</strong> serving bususesses across the state</p>
+              <p className="text-orange-200 mb-6">Trusted <strong>AI Service In India</strong> serving bususesses across the state</p>
               <div className="grid md:grid-cols-3 gap-8 text-center mb-8">
                 <div>
                   <div className="text-2xl font-bold mb-2">100+</div>
@@ -1989,12 +1989,12 @@ export default function AIServicesIndiaPage() {
                   <p className="text-orange-100">Average ROI Increase</p>
                 </div>
               </div>
-              <div className="flex flex-wrap jINtify-center gap-8 text-orange-100 text-sm">
+              <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Delhi</span>
                 <span>•</span>
                 <span>Mumbai</span>
                 <span>•</span>
-                <span>Bangalore</span>
+                <span>Mobile</span>
                 <span>•</span>
                 <span>Hyderabad</span>
                 <span>•</span>
