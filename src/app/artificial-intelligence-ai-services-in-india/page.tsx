@@ -103,7 +103,7 @@ export default function AIServicesIndiaPage() {
     },
     {
       title: "Machine Learning Solutions",
-      description: "Advanced ML algorithms and predictive analytics tailored for India businesses and indINtries.",
+      description: "Advanced ML algorithms and predictive analytics tailored for India businesses and industries.",
       icon: Brain,
       href: "/Machine-learning",
       color: "purple" as const
@@ -138,7 +138,7 @@ export default function AIServicesIndiaPage() {
     }
   ];
 
-  const indINtries = [
+  const industries = [
     "Manufacturing",
     "Information Technology",
     "Healthcare",
@@ -321,7 +321,7 @@ export default function AIServicesIndiaPage() {
                 "name": "What makes Metic.ai the best AI Firm In India?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Metic.ai is the best AI Firm In India due to our proven expertise, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of India's manufacturing, Information Technology, healthcare and agricultural indINtries."
+                  "text": "Metic.ai is the best AI Firm In India due to our proven expertise, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of India's manufacturing, Information Technology, healthcare and agricultural industries."
                 }
               }
             ]
@@ -620,7 +620,7 @@ export default function AIServicesIndiaPage() {
                 <p className="text-lg text-gray-700 mb-6">
                   Established as India's leading <strong>AI Company In India</strong>, Metic.ai has been at the forefront of artificial intelligence 
                   innovation since 2020. We specialize in delivering enterprise-grade AI solutions that transform businesses across India's 
-                  key indINtries including manufacturing, Information Technology, healthcare, and agriculture.
+                  key industries including manufacturing, Information Technology, healthcare, and agriculture.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   Our expertise as an <strong>AI Development Company In India</strong> encompasses Machine learning, deep learning, natural language processing, 
@@ -705,21 +705,21 @@ export default function AIServicesIndiaPage() {
         </div>
       </section>
 
-      {/* IndINtries Section with Real Images */}
+      {/* industries Section with Real Images */}
       <section className="py-20 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                IndINtries We Serve in India
+                industries We Serve in India
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Delivering specialized AI solutions across India's key indINtries and businesss sectors.
+                Delivering specialized AI solutions across India's key industries and businesss sectors.
               </p>
             </div>
             
-            {/* Mobile: 1 col, Tablet: 2 cols, Desktop: 4 cols - 12 IndINtries Total */}
+            {/* Mobile: 1 col, Tablet: 2 cols, Desktop: 4 cols - 12 industries Total */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {/* Manufacturing */}
               <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
@@ -926,7 +926,7 @@ export default function AIServicesIndiaPage() {
                   <Award className="w-8 h-8 text-blue-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Proven Expertise</h3>
-                <p className="text-gray-600">Years of experience delivering AI solutions for India businesses across all indINtries.</p>
+                <p className="text-gray-600">Years of experience delivering AI solutions for India businesses across all industries.</p>
               </div>
               
               <div className="text-center">
@@ -1011,7 +1011,7 @@ export default function AIServicesIndiaPage() {
                       Our <strong className="text-primary-orange font-semibold">AI Company In India</strong> combuses deep understanding 
                       of Southern businesss culture with cutting-edge technology to deliver AI solutions that drive measurable 
                       results. We've successfully implemented AI across India's key sectors including Information Technology, automotive, 
-                      steel production, agriculture, healthcare, and emerging technology indINtries.
+                      steel production, agriculture, healthcare, and emerging technology industries.
                     </p>
 
                     {/* Enhanced Feature Cards with Creative Design */}
@@ -1087,7 +1087,7 @@ export default function AIServicesIndiaPage() {
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
                         <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">5000+</div>
                         <div className="text-sm text-gray-600 font-medium">India AI Projects Completed</div>
-                        <div className="text-xs text-gray-500 mt-2">industry-Leading Success Rate</div>
+                        <div className="text-xs text-gray-500 mt-2">Industry-Leading Success Rate</div>
                       </div>
                       
                       <div className="bg-gradient-to-r from-primary-orange/20 via-secondary-orange/10 to-primary-orange/20 rounded-2xl p-6 border-2 border-primary-orange/30 transform hover:scale-105 transition-transform">
@@ -1107,15 +1107,15 @@ export default function AIServicesIndiaPage() {
                 </div>
               </div>
 
-              {/* India industry Solutions - Creative Premium Design */}
+              {/* India Industry Solutions - Creative Premium Design */}
               <div>
                 <div className="text-center mb-16">
                   <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-full border-2 border-primary-orange/20 mb-8 transform hover:scale-105 transition-transform">
                     <Sparkles className="w-5 h-5 text-primary-orange" />
-                    <span className="text-sm font-bold text-gray-800">industry EXPERTISE</span>
+                    <span className="text-sm font-bold text-gray-800">INDUSTRY EXPERTISE</span>
                   </div>
                   <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                    AI Solutions for <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">India's Key IndINtries</span>
+                    AI Solutions for <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">India's Key Industries</span>
                   </h3>
                   <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 rounded-full"></div>
                   <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -1542,7 +1542,7 @@ export default function AIServicesIndiaPage() {
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     As the premier <strong className="text-gray-900 font-semibold">AI Company In India</strong>, Metic.ai provides comprehensive AI services including Machine learning solutions, 
-                    custom AI development, data analytics, generative AI, computer vision, NLP, and enterprise AI automation tailored for India's manufacturing, Information Technology, healthcare, and agricultural indINtries.
+                    custom AI development, data analytics, generative AI, computer vision, NLP, and enterprise AI automation tailored for India's manufacturing, Information Technology, healthcare, and agricultural industries.
                   </p>
                 </div>
               </details>
@@ -1745,7 +1745,7 @@ export default function AIServicesIndiaPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            What indINtries does the best AI Company In India serve?
+                            What industries does the best AI Company In India serve?
                           </h3>
                         </div>
                       </div>
@@ -1760,7 +1760,7 @@ export default function AIServicesIndiaPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Metic.ai serves diverse indINtries including Manufacturing, Information Technology, Healthcare, Agriculture, Technology, Automotive, Financial Services, Transportation, Education, and Energy. 
+                    Metic.ai serves diverse industries including Manufacturing, Information Technology, Healthcare, Agriculture, Technology, Automotive, Financial Services, Transportation, Education, and Energy. 
                     As India's premier <strong className="text-gray-900 font-semibold">AI Company In India</strong>, we tailor solutions for your specific industry needs.
                   </p>
                 </div>
