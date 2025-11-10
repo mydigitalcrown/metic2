@@ -28,7 +28,7 @@ import {
 
 export const metadata = {
   title: "Artificial Intelligence Company In Hyderabad | #1 AI Company In Hyderabad - Metic.ai",
-  description: "Leading Artificial Intelligence Company In Hyderabad with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
+  description: "Leading Artificial Intelligence Company In Hyderabad with 150+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
   keywords: [
     "Artificial Intelligence Company In Hyderabad",
     "AI Company In Hyderabad", 
@@ -57,7 +57,7 @@ export const metadata = {
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
     title: "Artificial Intelligence Company In Hyderabad | #1 AI Company In Hyderabad - Metic.ai",
-    description: "Leading Artificial Intelligence Company In Hyderabad with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Hyderabad businesses.",
+    description: "Leading Artificial Intelligence Company In Hyderabad with 150+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Hyderabad businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-Hyderabad/",
     type: "website",
     locale: "en_IN",
@@ -154,7 +154,7 @@ export default function AIServicesHyderabadPage() {
   ];
 
   const stats = [
-    { number: "2100+", label: "Businesses Served" },
+    { number: "150+", label: "Businesses Served" },
     { number: "99.5%", label: "Client Satisfaction" },
     { number: "5.2x", label: "Average ROI Increase" },
     { number: "24/7", label: "Support Available" }
@@ -1085,7 +1085,7 @@ export default function AIServicesHyderabadPage() {
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">2100+</div>
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">150+</div>
                         <div className="text-sm text-gray-600 font-medium">Hyderabad AI Projects Completed</div>
                         <div className="text-xs text-gray-500 mt-2">Industry-Leading Success Rate</div>
                       </div>
@@ -1297,7 +1297,7 @@ export default function AIServicesHyderabadPage() {
                     <div className="space-y-6">
                       <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Hyderabad Projects Completed</span>
-                        <span className="font-bold text-primary-orange text-xl">2100+</span>
+                        <span className="font-bold text-primary-orange text-xl">150+</span>
                       </div>
                       <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Industry Success Rate</span>
