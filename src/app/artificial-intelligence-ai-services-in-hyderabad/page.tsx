@@ -1,5 +1,6 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Button } from "../components/ui/Button";
+import Testimonials from "../components/Testimonials";
 import { 
   Brain, 
   Zap, 
@@ -22,11 +23,7 @@ import {
   Database,
   Sparkles,
   ChevronDown,
-  Rocket,
-  Globe,
-  Quote,
-  Trophy,
-  Building
+  Rocket
 } from "lucide-react";
 
 export const metadata = {
@@ -34,177 +31,262 @@ export const metadata = {
   description: "Leading Artificial Intelligence Company In Hyderabad with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
   keywords: [
     "Artificial Intelligence Company In Hyderabad",
-    "AI Company In Hyderabad",
-    "AI Service In Hyderabad", 
+    "AI Company In Hyderabad", 
+    "AI Service In Hyderabad",
     "AI Firm In Hyderabad",
     "AI Development Company In Hyderabad",
     "Best AI Company In Hyderabad",
-    "Top AI Company Hyderabad",
-    "AI Company HITEC City",
+    "Top AI Company Telangana",
+    "Artificial Intelligence Services Hyderabad",
+    "AI Solutions Company Hyderabad",
     "Machine Learning Company Hyderabad",
-    "AI Solutions Hyderabad",
-    "AI Consulting Hyderabad",
-    "AI Services Cyberabad",
-    "Hyderabad AI Company",
-    "AI Software Company Hyderabad",
-    "Enterprise AI Company Hyderabad",
-    "Custom AI Development Hyderabad",
+    "AI Consulting Firm Hyderabad",
     "AI Technology Company Hyderabad",
-    "Leading AI Company Hyderabad",
-    "Professional AI Services Hyderabad"
+    "AI automation Hyderabad",
+    "AI software company Hyderabad",
+    "artificial intelligence consulting Hyderabad",
+    "AI integration services Hyderabad",
+    "custom AI development Hyderabad",
+    "enterprise AI solutions Hyderabad",
+    "AI ML company Hyderabad",
+    "Hyderabad AI experts",
+    "Hyderabad machine learning services",
+    "Hyderabad AI implementation"
   ],
-  authors: [{ name: "Metic.ai - AI Company In Hyderabad" }],
-  robots: "index, follow",
+  authors: [{ name: "Metic.ai Hyderabad AI Team" }],
+  robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
     title: "Artificial Intelligence Company In Hyderabad | #1 AI Company In Hyderabad - Metic.ai",
-    description: "Leading Artificial Intelligence Company In Hyderabad with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
-    url: "https://metic.ai/artificial-intelligence-ai-services-in-hyderabad/",
-    siteName: "Metic.ai - AI Company In Hyderabad",
+    description: "Leading Artificial Intelligence Company In Hyderabad with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Hyderabad businesses.",
+    url: "https://metic.ai/artificial-intelligence-ai-services-in-Hyderabad/",
     type: "website",
-    locale: "en_US",
+    locale: "en_IN",
+    siteName: "Metic.ai - AI Company In Hyderabad",
     images: [
       {
-        url: "https://metic.ai/og-ai-company-hyderabad.jpg",
+        url: "https://metic.ai/og-ai-company-Hyderabad.jpg",
         width: 1200,
         height: 630,
         alt: "Artificial Intelligence Company In Hyderabad - Metic.ai",
+        type: "image/jpeg"
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    site: "@MeticAI",
-    title: "Artificial Intelligence Company In Hyderabad | AI Company In Hyderabad - Metic.ai",
-    description: "Leading Artificial Intelligence Company In Hyderabad with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
-    images: ["https://metic.ai/og-ai-company-hyderabad.jpg"],
+    title: "Artificial Intelligence Company In Hyderabad | AI Company In Hyderabad",
+    description: "Leading AI Company In Hyderabad delivering enterprise artificial intelligence solutions. Expert AI development, machine learning & automation services with proven results.",
+    images: ["https://metic.ai/og-ai-company-Hyderabad.jpg"],
+    site: "@metic_ai",
+    creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-hyderabad/",
+    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-Hyderabad/",
   },
+  verification: {
+    google: "google-site-verification-code",
+    yandex: "yandex-verification-code",
+    yahoo: "yahoo-verification-code"
+  },
+  category: "Technology",
+  classification: "business Services"
 };
 
 export default function AIServicesHyderabadPage() {
+  const services = [
+    {
+      title: "AI Integration & Deployment",
+      description: "Seamlessly integrate AI solutions into your Hyderabad business operations with enterprise-grade deployment strategies.",
+      icon: Zap,
+      href: "/ai-integration-and-deployment",
+      color: "blue" as const
+    },
+    {
+      title: "Machine Learning Solutions",
+      description: "Advanced ML algorithms and predictive analytics tailored for Hyderabad businesses and Industries.",
+      icon: Brain,
+      href: "/machine-learning",
+      color: "purple" as const
+    },
+    {
+      title: "custom AI Development",
+      description: "Bespoke AI solutions designed specifically for your Hyderabad business requirements and goals.",
+      icon: Code,
+      href: "/custom-ai-development",
+      color: "green" as const
+    },
+    {
+      title: "Data Analytics & BI",
+      description: "Transform your Hyderabad business data into actionable insights with advanced analytics platforms.",
+      icon: BarChart3,
+      href: "/data-insights",
+      color: "orange" as const
+    },
+    {
+      title: "Generative AI Services",
+      description: "Harness the power of ChatGPT and generative AI for content creation and automation In Hyderabad.",
+      icon: Sparkles,
+      href: "/generative-ai-services",
+      color: "indigo" as const
+    },
+    {
+      title: "Data Engineering",
+      description: "RobINt data infrastructure and ETL pipelines for Hyderabad enterprises and growing businesses.",
+      icon: Database,
+      href: "/data-engineering",
+      color: "red" as const
+    }
+  ];
+
+  const Industries = [
+    "Textiles & Garments",
+    "Pharmaceuticals",
+    "Chemicals",
+    "Information Technology",
+    "Automotive",
+    "Diamond & Jewelry",
+    "Food Processing",
+    "Real Estate",
+    "Healthcare",
+    "Education",
+    "Logistics",
+    "Manufacturing"
+  ];
+
+  const stats = [
+    { number: "2100+", label: "Businesses Served" },
+    { number: "99.5%", label: "Client Satisfaction" },
+    { number: "5.2x", label: "Average ROI Increase" },
+    { number: "24/7", label: "Support Available" }
+  ];
+
   return (
     <>
-      {/* Structured Data for SEO */}
+      {/* Enhanced Structured Data for SEO, VSO, ASO & GEO */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Organization",
+            "@type": ["Organization", "TechnologyCompany", "LocalBusiness"],
             "name": "Metic.ai - Artificial Intelligence Company In Hyderabad",
-            "alternateName": ["AI Company In Hyderabad", "Hyderabad AI Company", "Best AI Company In Hyderabad"],
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-hyderabad/",
+            "alternateName": ["AI Company In Hyderabad", "Metic AI", "AI Firm Hyderabad"],
+            "description": "Leading Artificial Intelligence Company In Hyderabad providing enterprise AI solutions, machine learning development, and custom AI services for businesses across Hyderabad.",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-Hyderabad/",
+            "sameAs": [
+              "https://www.linkedin.com/company/metic-ai",
+              "https://twitter.com/metic_ai",
+              "https://www.facebook.com/meticai"
+            ],
             "logo": "https://metic.ai/logo.png",
-            "image": "https://metic.ai/ai-company-hyderabad.jpg",
-            "description": "Leading Artificial Intelligence Company In Hyderabad with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": "Bengaluru",
-              "addressRegion": "Karnataka",
-              "addressCountry": "India",
-              "postalCode": "560079"
-            },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": "17.3850",
-              "longitude": "78.4867"
-            },
-            "telephone": "+1-789-251-8414",
+            "image": ["https://metic.ai/ai-company-Hyderabad.jpg"],
+            "telephone": "+91-789-251-8414",
             "email": "hello@matic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
-            "slogan": "Artificial Intelligence Company In Hyderabad - Transform Your Business with AI",
+            "vatID": "IN123456789",
+            "address": {
+              "@type": "PostalAddress",
+              "addressRegion": "Hyderabad",
+              "addressCountry": "US",
+              "postalCode": "35201"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": "32.7794",
+              "longitude": "-86.8287"
+            },
             "areaServed": [
               {
-                "@type": "City",
+                "@type": "State",
                 "name": "Hyderabad",
                 "containedInPlace": {
-                  "@type": "State", 
-                  "name": "Telangana"
+                  "@type": "Country", 
+                  "name": "India"
                 }
-              },
-              {
-                "@type": "Place",
-                "name": "HITEC City"
-              },
-              {
-                "@type": "Place", 
-                "name": "Cyberabad"
-              },
-              {
-                "@type": "Place",
-                "name": "Madhapur"
-              },
-              {
-                "@type": "Place",
-                "name": "Gachibowli"
-              },
-              {
-                "@type": "Place",
-                "name": "Kondapur"
               }
             ],
-            "serviceType": ["Artificial Intelligence Services", "AI Development", "Machine Learning", "AI Consulting"],
+            "serviceArea": {
+              "@type": "GeoCircle",
+              "geoMidpoint": {
+                "@type": "GeoCoordinates",
+                "latitude": "32.7794",
+                "longitude": "-86.8287"
+              },
+              "geoRadiIN": "200000"
+            },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "AI Services Hyderabad",
+              "name": "Artificial Intelligence Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "AI Integration & Deployment",
-                    "description": "Enterprise AI integration services in Hyderabad"
-                  }
-                },
-                {
-                  "@type": "Offer", 
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": "Machine Learning Solutions",
-                    "description": "Custom ML algorithms and predictive analytics for Hyderabad businesses"
+                    "name": "AI Development Services",
+                    "description": "custom artificial intelligence development for Hyderabad businesses"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service", 
-                    "name": "Custom AI Development",
-                    "description": "Bespoke AI solutions for Hyderabad enterprises"
+                    "name": "Machine Learning Solutions",
+                    "description": "Advanced ML algorithms and predictive analytics"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "AI Integration Services", 
+                    "description": "Enterprise AI integration and deployment"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "AI Consulting Services",
+                    "description": "Expert AI strategy and implementation consulting"
                   }
                 }
               ]
             },
+            "knowsAbout": [
+              "Artificial Intelligence",
+              "Machine Learning", 
+              "Deep Learning",
+              "Natural Language Processing",
+              "Computer Vision",
+              "AI Automation",
+              "Data Science",
+              "business Intelligence",
+              "Predictive Analytics"
+            ],
             "aggregateRating": {
               "@type": "AggregateRating",
               "ratingValue": "4.9",
-              "reviewCount": "2100",
-              "bestRating": "5"
+              "reviewCount": "100",
+              "bestRating": "5",
+              "worstRating": "1"
             },
-            "review": [
-              {
-                "@type": "Review",
-                "author": {
-                  "@type": "Person",
-                  "name": "Rajesh Kumar"
-                },
-                "reviewRating": {
-                  "@type": "Rating", 
-                  "ratingValue": "5"
-                },
-                "reviewBody": "Best AI Company In Hyderabad! Their expertise in artificial intelligence transformed our HITEC City-based technology business operations completely."
-              }
-            ],
-            "sameAs": [
-              "https://www.linkedin.com/company/metic-ai",
-              "https://twitter.com/MeticAI"
-            ]
+            "priceRange": "$$",
+            "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer"],
+            "currenciesAccepted": "IND",
+            "open_INgHours": "Mo-Fr 09:00-18:00",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+91-789-251-8414",
+              "contactType": "customer Service",
+              "areaServed": "US",
+              "availableLanguage": ["English"]
+            }
           })
         }}
       />
-      
+
+      {/* FAQ Schema for ASO */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -217,7 +299,7 @@ export default function AIServicesHyderabadPage() {
                 "name": "Which is the best Artificial Intelligence Company In Hyderabad?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Metic.ai is the leading Artificial Intelligence Company In Hyderabad with 2100+ successful AI implementations, serving businesses across HITEC City, Cyberabad, Madhapur, and the entire IT corridor."
+                  "text": "Metic.ai is the leading Artificial Intelligence Company In Hyderabad with 100+ successful AI implementations. We provide comprehensive AI services including machine learning, custom AI development, and enterprise AI solutions with proven 60% cost savings and 3x faster delivery."
                 }
               },
               {
@@ -225,39 +307,23 @@ export default function AIServicesHyderabadPage() {
                 "name": "What AI services does the top AI Company In Hyderabad provide?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "As the premier AI Company In Hyderabad, we provide AI integration, machine learning solutions, custom AI development, data analytics, generative AI services, and comprehensive AI consulting for Hyderabad businesses."
+                  "text": "As the premier AI Company In Hyderabad, Metic.ai provides AI integration & deployment, machine learning solutions, custom AI development, data analytics & BI, generative AI services, and data engineering for businesses across Hyderabad."
                 }
               },
               {
                 "@type": "Question",
-                "name": "How much does AI development cost from an AI Firm In Hyderabad?",
+                "name": "How to choose the right AI Development Company In Hyderabad?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Our AI Development Company In Hyderabad offers competitive pricing with 60% cost savings compared to traditional development, with projects starting from $10,000 depending on complexity and requirements."
+                  "text": "Choose an AI Development Company In Hyderabad with proven experience, successful implementations, Industry expertise, and local presence. Metic.ai offers all these with 100+ completed projects and deep understanding of Hyderabad's business landscape."
                 }
               },
               {
                 "@type": "Question",
-                "name": "Why choose Metic.ai as your AI Service In Hyderabad provider?",
+                "name": "What makes Metic.ai the best AI Firm In Hyderabad?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "As the leading AI Service In Hyderabad provider, we offer 3x faster delivery, 60% cost savings, 2100+ successful implementations, and deep expertise in serving Hyderabad's IT and pharmaceutical industries."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Which industries does the best AI Company In Hyderabad serve?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Our AI Company In Hyderabad serves information technology, pharmaceuticals, biotechnology, aerospace, automotive, healthcare, financial services, e-commerce, and manufacturing industries across Cyberabad."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How long does AI implementation take with Hyderabad's top AI Development Company?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Our AI Development Company In Hyderabad delivers projects 3x faster than industry average, with typical implementations ranging from 2-6 months depending on project scope and complexity."
+                  "text": "Metic.ai is the best AI Firm In Hyderabad due to our proven expertise, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of Hyderabad's manufacturing, aerospace, healthcare and agricultural Industries."
                 }
               }
             ]
@@ -265,324 +331,575 @@ export default function AIServicesHyderabadPage() {
         }}
       />
 
+      {/* Organization Schema for Entity Recognition */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Artificial Intelligence Company In Hyderabad | Leading AI Company In Hyderabad",
-            "description": "Comprehensive guide to AI services in Hyderabad. Learn why Metic.ai is the premier Artificial Intelligence Company In Hyderabad with 2100+ successful implementations.",
-            "image": "https://metic.ai/ai-company-hyderabad.jpg",
+            "headline": "Artificial Intelligence Company In Hyderabad - AI Services & Solutions",
+            "description": "Comprehensive guide to AI services In Hyderabad by the leading Artificial Intelligence Company. Expert AI development, machine learning solutions, and enterprise AI implementation.",
+            "image": "https://metic.ai/ai-company-Hyderabad-article.jpg",
             "author": {
               "@type": "Organization",
-              "name": "Metic.ai - AI Company In Hyderabad"
+              "name": "Metic.ai"
             },
             "publisher": {
-              "@type": "Organization",
+              "@type": "Organization", 
               "name": "Metic.ai",
               "logo": {
                 "@type": "ImageObject",
                 "url": "https://metic.ai/logo.png"
               }
             },
-            "datePublished": "2024-01-15T08:00:00+05:30",
-            "dateModified": "2024-12-30T10:00:00+05:30",
-            "mainEntityOfPage": {
-              "@type": "WebPage",
-              "@id": "https://metic.ai/artificial-intelligence-ai-services-in-hyderabad/"
-            },
-            "articleSection": "AI Services",
-            "keywords": ["Artificial Intelligence Company In Hyderabad", "AI Company In Hyderabad", "AI Service In Hyderabad", "AI Firm In Hyderabad"],
-            "about": [
+            "datePublished": "2024-01-15",
+            "dateModified": "2024-10-30",
+            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-Hyderabad/",
+            "keywords": "Artificial Intelligence Company In Hyderabad, AI Company In Hyderabad, AI Service In Hyderabad"
+          })
+        }}
+      />
+
+      {/* BreadcrumbList Schema for Enhanced Navigation SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
               {
-                "@type": "Thing",
-                "name": "Artificial Intelligence",
-                "description": "AI services and solutions in Hyderabad"
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://metic.ai/"
               },
               {
-                "@type": "Place",
-                "name": "Hyderabad",
-                "description": "IT and pharmaceutical capital of India"
-              }
-            ],
-            "mentions": [
-              {
-                "@type": "Place",
-                "name": "HITEC City"
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI Services",
+                "item": "https://metic.ai/services"
               },
               {
-                "@type": "Place", 
-                "name": "Cyberabad"
-              },
-              {
-                "@type": "Place",
-                "name": "Madhapur"
-              },
-              {
-                "@type": "Place",
-                "name": "Gachibowli"
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Artificial Intelligence Company In Hyderabad",
+                "item": "https://metic.ai/artificial-intelligence-ai-services-in-Hyderabad/"
               }
             ]
           })
         }}
       />
 
-      {/* Enhanced Creative Hero Section - VSO & Target Keyword Optimized */}
-      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28 relative overflow-hidden">
-        {/* Creative Background Elements */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          {/* Animated Circuit Pattern */}
-          <div className="absolute inset-0 opacity-[0.03]" style={{
-            backgroundImage: `linear-gradient(#FF6B35 1px, transparent 1px), linear-gradient(90deg, #FF6B35 1px, transparent 1px)`,
-            backgroundSize: '50px 50px'
-          }}></div>
-          
-          {/* Floating AI Elements */}
-          <div className="absolute top-20 left-10 w-32 h-32 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute bottom-20 right-10 w-40 h-40 bg-primary-orange/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
-          
-          {/* Geometric Shapes */}
-          <div className="absolute top-1/4 left-1/4 w-2 h-2 bg-primary-orange/30 rounded-full animate-bounce" style={{animationDelay: '1s'}}></div>
-          <div className="absolute top-1/3 right-1/3 w-1.5 h-1.5 bg-orange-400/30 rounded-full animate-bounce" style={{animationDelay: '3s'}}></div>
-          <div className="absolute bottom-1/4 left-1/3 w-2.5 h-2.5 bg-primary-orange/20 rounded-full animate-bounce" style={{animationDelay: '2.5s'}}></div>
+      {/* LocalBusiness Schema for Local SEO Enhancement */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Metic.ai - AI Company In Hyderabad",
+            "description": "Leading Artificial Intelligence Company providing AI services In Hyderabad",
+            "image": "https://metic.ai/ai-company-Hyderabad.jpg",
+            "telephone": "+91-789-251-8414",
+            "email": "hello@matic.ai",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "300 Quail Ridge Dr NE",
+              "addressLocality": "ADA",
+              "addressRegion": "MI",
+              "postalCode": "49301",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": "32.3182",
+              "longitude": "-86.9023"
+            },
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-Hyderabad/",
+            "priceRange": "$$$$",
+            "areaServed": {
+              "@type": "State",
+              "name": "Hyderabad"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "reviewCount": "180",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "open_INgHours": "Mo-Fr 09:00-18:00",
+            "sameAs": [
+              "https://www.linkedin.com/company/metic-ai",
+              "https://twitter.com/metic_ai"
+            ]
+          })
+        }}
+      />
+
+      {/* Hero Section - VSO & Target Keyword Optimized - Enhanced Mobile/Desktop */}
+      <section className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-16 md:py-24 lg:py-32 overflow-hidden">
+        {/* Animated Background Elements */}
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute top-20 left-10 w-72 h-72 bg-primary-orange rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-20 right-10 w-96 h-96 bg-secondary-orange rounded-full blur-3xl animate-pulse delay-1000"></div>
         </div>
 
         <div className="container px-4 md:px-6 relative z-10">
-          <div className="max-w-4xl mx-auto text-center">
-            {/* Enhanced Location Badge */}
-            <div className="inline-flex items-center gap-3 mb-8 bg-gray-800/50 backdrop-blur-sm rounded-full px-6 py-3 border border-primary-orange/20">
-              <div className="relative">
-                <MapPin className="w-5 h-5 text-primary-orange" />
-                <div className="absolute -top-1 -right-1 w-3 h-3 bg-primary-orange rounded-full animate-ping"></div>
+          <div className="max-w-5xl mx-auto">
+            {/* Trust Badge - Mobile Optimized */}
+            <div className="flex justify-center mb-6 md:mb-8">
+              <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-white/10 backdrop-blur-sm rounded-full border border-primary-orange/30 shadow-xl">
+                <Award className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
+                <span className="text-xs md:text-sm font-bold text-white">⭐ 100+ Successful AI Projects | 98% Client Satisfaction</span>
               </div>
-              <span className="text-sm font-medium text-orange-300">Serving Hyderabad, HITEC City & Cyberabad</span>
-              <div className="flex items-center gap-1">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-3 h-3 text-yellow-400 fill-current" />
-                ))}
-              </div>
-              <span className="bg-primary-orange/20 text-primary-orange px-2 py-1 rounded-full text-xs font-bold">Most Trusted</span>
             </div>
-            
-            {/* Enhanced Title with Animation */}
-            <div className="relative mb-8">
-              <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white relative z-10">
-                <strong>
-                  Artificial Intelligence Company In Hyderabad
-                </strong>
-                <br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange">
-                  Leading AI Company In Telangana
+
+            <div className="text-center">  
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight mb-4 md:mb-6 leading-tight">
+                <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
+                  Artificial Intelligence
                 </span>
+                <br />
+                <span className="text-white">Company In Hyderabad</span>
               </h1>
-            </div>
-            
-            {/* Enhanced Description */}
-            <div className="relative mb-10">
-              <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-                Looking for the best <strong className="text-white">AI Company In Hyderabad</strong>? Metic.ai is the premier 
-                <strong className="text-primary-orange"> Artificial Intelligence Company In Hyderabad</strong> 
-                serving HITEC City, Cyberabad, and the entire IT corridor with 2100+ successful AI implementations. 
-                Transform your business with <span className="text-primary-orange font-semibold">60% cost savings</span> and 
-                <span className="text-primary-orange font-semibold">3x faster delivery</span> across Telangana.
-              </p>
               
-              {/* Trust Indicators */}
-              <div className="flex items-center justify-center gap-6 mb-8">
-                <div className="flex items-center gap-2">
-                  <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
-                    <Shield className="w-4 h-4 text-primary-orange" />
+              {/* VSO Optimized Description - Mobile Friendly */}
+              <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 mb-6 md:mb-8 max-w-4xl mx-auto leading-relaxed px-4">
+                Looking for the <strong className="text-primary-orange">best AI Company In Hyderabad</strong>? Metic.ai is the premier <strong className="text-white">Artificial Intelligence Company In Hyderabad</strong> delivering enterprise AI solutions with proven results.
+              </p>
+
+              {/* Mobile-Optimized CTA Buttons */}
+              <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center mb-10 md:mb-16 px-4">
+                <Link href="/contact" className="w-full sm:w-auto">
+                  <Button variant="primary" size="lg" className="w-full sm:w-auto text-base md:text-lg px-6 md:px-8 py-3 md:py-4 shadow-2xl hover:shadow-primary-orange/50 transform hover:scale-105 transition-all">
+                    <Rocket className="w-5 h-5 mr-2" />
+                    Get Free AI Consultation
+                  </Button>
+                </Link>
+                <Link href="tel:+917892518414" className="w-full sm:w-auto">
+                  <Button variant="outline" size="lg" className="w-full sm:w-auto text-base md:text-lg px-6 md:px-8 py-3 md:py-4 border-2 border-primary-orange text-primary-orange hover:bg-primary-orange hover:text-white">
+                    <Phone className="w-5 h-5 mr-2" />
+                    Call: +91-789-251-8414
+                  </Button>
+                </Link>
+              </div>
+
+              {/* Voice Search Optimized Stats - Responsive Grid */}
+              <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8 max-w-4xl mx-auto mb-10 md:mb-12 px-4">
+                {stats.map((stat, index) => (
+                  <div key={index} className="bg-white/5 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-white/10 hover:border-primary-orange/50 transition-all transform hover:scale-105">
+                    <div className="text-2xl md:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent mb-2">
+                      {stat.number}
+                    </div>
+                    <div className="text-xs md:text-sm text-gray-400">{stat.label}</div>
                   </div>
-                  <span className="text-sm text-gray-400">ISO Certified</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
-                    <Trophy className="w-4 h-4 text-primary-orange" />
-                  </div>
-                  <span className="text-sm text-gray-400">Award Winning</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
-                    <Building className="w-4 h-4 text-primary-orange" />
-                  </div>
-                  <span className="text-sm text-gray-400">HITEC City</span>
+                ))}
+              </div>
+
+              {/* VSO Keywords Section - Mobile Optimized */}
+              <div className="text-center px-4">
+                <p className="text-gray-400 text-sm md:text-base mb-4">
+                  <strong className="text-white">Trusted as the top AI Service In Hyderabad</strong> by leading businesses
+                </p>
+                <div className="flex flex-wrap justify-center gap-2 md:gap-3 text-xs md:text-sm">
+                  <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
+                    AI Firm In Hyderabad
+                  </span>
+                  <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
+                    AI Development Company
+                  </span>
+                  <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
+                    Best AI Company Hyderabad
+                  </span>
+                  <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
+                    Machine Learning Services
+                  </span>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+
+        {/* Bottom Wave Decoration */}
+        <div className="absolute bottom-0 left-0 right-0">
+          <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-auto">
+            <path d="M0 0L60 10C120 20 240 40 360 46.7C480 53 600 47 720 43.3C840 40 960 40 1080 46.7C1200 53 1320 67 1380 73.3L1440 80V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0V0Z" fill="white"/>
+          </svg>
+        </div>
+      </section>
+
+      {/* Services Section - Enhanced Mobile & Desktop */}
+      <section className="py-16 md:py-20 lg:py-24 bg-gradient-to-b from-white to-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-12 md:mb-16">
+              {/* Section Badge */}
+              <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-primary-orange/10 rounded-full mb-6 md:mb-8">
+                <Brain className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
+                <span className="text-xs md:text-sm font-bold text-primary-orange">COMPREHENSIVE AI SERVICES</span>
+              </div>
+
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 leading-tight px-4">
+                <strong className="text-gray-900">AI Services</strong> by Leading{" "}
+                <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">
+                  Artificial Intelligence Company In Hyderabad
+                </span>
+              </h2>
+              <div className="w-20 md:w-24 h-1 md:h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 md:mb-8 rounded-full"></div>
+              <p className="text-base md:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-4">
+                Comprehensive artificial intelligence services from Hyderabad's most Trusted <strong className="text-gray-900">AI Company In Hyderabad</strong>. 
+                Transforming businesses with cutting-edge AI solutions tailored for Hyderabad's industrial landscape.
+              </p>
+            </div>
             
-            {/* Enhanced CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+            {/* Mobile: 1 col, Tablet: 2 cols, Desktop: 3 cols */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+              {services.map((service, index) => {
+                const IconComponent = service.icon;
+                const colorClasses = {
+                  blue: "bg-blue-100 text-blue-600",
+                  purple: "bg-purple-100 text-purple-600", 
+                  green: "bg-green-100 text-green-600",
+                  orange: "bg-orange-100 text-orange-600",
+                  indigo: "bg-indigo-100 text-indigo-600",
+                  red: "bg-red-100 text-red-600"
+                };
+                
+                return (
+                  <div 
+                    key={index} 
+                    className="group bg-white rounded-2xl p-6 md:p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border-2 border-gray-100 hover:border-primary-orange/50 transform hover:-translate-y-2"
+                  >
+                    <div className={`w-14 h-14 md:w-16 md:h-16 rounded-2xl flex items-center justify-center mb-5 md:mb-6 ${colorClasses[service.color]} group-hover:scale-110 transition-transform`}>
+                      <IconComponent className="w-7 h-7 md:w-8 md:h-8" />
+                    </div>
+                    
+                    <h3 className="text-lg md:text-xl font-bold mb-3 md:mb-4 text-gray-900 group-hover:text-primary-orange transition-colors">
+                      {service.title}
+                    </h3>
+                    <p className="text-sm md:text-base text-gray-600 mb-5 md:mb-6 leading-relaxed">
+                      {service.description}
+                    </p>
+                    
+                    <Link 
+                      href={service.href} 
+                      className="inline-flex items-center text-primary-orange hover:text-secondary-orange font-semibold text-sm md:text-base group-hover:gap-3 transition-all"
+                    >
+                      Learn More
+                      <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                    </Link>
+                  </div>
+                );
+              })}
+            </div>
+
+            {/* CTA Below Services */}
+            <div className="text-center mt-12 md:mt-16">
               <Link href="/contact">
-                <Button 
-                  variant="primary" 
-                  size="lg" 
-                  className="w-full sm:w-auto bg-gradient-to-r from-primary-orange to-orange-500 hover:from-primary-orange/90 hover:to-orange-500/90 transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl group"
-                >
-                  <Rocket className="w-5 h-5 mr-2 group-hover:animate-pulse" />
-                  Get Free AI Consultation
-                </Button>
-              </Link>
-              <Link href="tel:+917892518414">
-                <Button 
-                  variant="outline" 
-                  size="lg" 
-                  className="w-full sm:w-auto border-primary-orange text-primary-orange hover:bg-primary-orange/10 transform hover:scale-105 transition-all duration-300 group"
-                >
-                  <Phone className="w-4 h-4 mr-2 group-hover:animate-pulse" />
-                  Call: +91 7892518414
+                <Button variant="primary" size="lg" className="px-8 md:px-10 py-4 text-base md:text-lg shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all">
+                  <Sparkles className="w-5 h-5 mr-2" />
+                  Explore All AI Services
                 </Button>
               </Link>
             </div>
+          </div>
+        </div>
+      </section>
 
-            {/* Enhanced Stats with Creative Design */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto mb-12">
-              {[
-                { number: "2100+", label: "Hyderabad Businesses Served" },
-                { number: "98%", label: "Client Satisfaction" },
-                { number: "4.5x", label: "Average ROI Increase" },
-                { number: "24/7", label: "Support Available" }
-              ].map((stat, index) => (
-                <div key={index} className="relative group">
-                  <div className="bg-gray-800/30 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:border-primary-orange/50 transition-all duration-300 group-hover:transform group-hover:scale-105">
-                    <div className="text-3xl font-bold text-primary-orange mb-2 group-hover:animate-pulse">{stat.number}</div>
-                    <div className="text-sm text-gray-400">{stat.label}</div>
-                    
-                    {/* Hover Effect */}
-                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/5 to-orange-400/5 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+      {/* About Section for Entity Recognition & Comprehensive Coverage */}
+      <section className="py-20 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                  About Metic.ai - Premier <span className="text-primary-orange">Artificial Intelligence Company In Hyderabad</span>
+                </h2>
+                <div className="w-20 h-1 bg-primary-orange mb-8"></div>
+                <p className="text-lg text-gray-700 mb-6">
+                  Established as Hyderabad's leading <strong>AI Company In Hyderabad</strong>, Metic.ai has been at the forefront of artificial intelligence 
+                  innovation since 2020. We specialize US delivering enterprise-grade AI solutions that transform businesses across Hyderabad's 
+                  unique Industries including Textiles & Garments, Pharmaceuticals, tourism & hospitality, Chemicals, and Information Technology.
+                </p>
+                <p className="text-lg text-gray-700 mb-6">
+                  Our expertise as an <strong>AI Development Company In Hyderabad</strong> encompasses machine learning, deep learning, natural language processing, 
+                  computer vision, and robotic process automation. We've successfully completed over 100 AI projects, making US the most 
+                  Trusted <strong>AI Service In Hyderabad</strong> from the Naroda industrial Area to the Aleutian Islands.
+                </p>
+                <div className="grid grid-cols-2 gap-6 mt-8">
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                      <Award className="w-6 h-6 text-primary-orange" />
+                    </div>
+                    <div className="font-bold text-xl text-gray-900">2020</div>
+                    <div className="text-gray-600 text-sm">Founded</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                      <Users className="w-6 h-6 text-primary-orange" />
+                    </div>
+                    <div className="font-bold text-xl text-gray-900">50+</div>
+                    <div className="text-gray-600 text-sm">AI Experts Team</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                      <Target className="w-6 h-6 text-primary-orange" />
+                    </div>
+                    <div className="font-bold text-xl text-gray-900">100%</div>
+                    <div className="text-gray-600 text-sm">Success Rate</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                      <Shield className="w-6 h-6 text-primary-orange" />
+                    </div>
+                    <div className="font-bold text-xl text-gray-900">24/7</div>
+                    <div className="text-gray-600 text-sm">Support Available</div>
                   </div>
                 </div>
-              ))}
-            </div>
-
-            {/* Enhanced VSO Keywords Section */}
-            <div className="text-center">
-              <p className="text-gray-400 text-sm mb-6 flex items-center justify-center gap-2">
-                <Globe className="w-4 h-4 text-primary-orange" />
-                Trusted as the top AI Service In Hyderabad
-              </p>
-              <div className="flex flex-wrap justify-center gap-3">
-                {[
-                  "AI Firm In Hyderabad",
-                  "AI Development Company In Hyderabad", 
-                  "Best AI Company Telangana"
-                ].map((tag, index) => (
-                  <span 
-                    key={index}
-                    className="bg-gray-800/50 backdrop-blur-sm px-4 py-2 rounded-full text-gray-400 text-xs border border-gray-700/50 hover:border-primary-orange/50 hover:text-primary-orange transition-all duration-300 cursor-default"
-                  >
-                    {tag}
-                  </span>
-                ))}
+              </div>
+              
+              <div className="space-y-6">
+                <div className="bg-white rounded-xl p-6 shadow-sm">
+                  <h3 className="font-bold text-lg mb-3 flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
+                    AI Consulting & Strategy
+                  </h3>
+                  <p className="text-gray-600">
+                    Expert AI consulting services to help Hyderabad businesses identify AI opportunities and develop comprehensive implementation strategies.
+                  </p>
+                </div>
+                
+                <div className="bg-white rounded-xl p-6 shadow-sm">
+                  <h3 className="font-bold text-lg mb-3 flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
+                    custom AI Development
+                  </h3>
+                  <p className="text-gray-600">
+                    Bespoke artificial intelligence solutions tailored to your specific business requirements and Industry challenges In Hyderabad.
+                  </p>
+                </div>
+                
+                <div className="bg-white rounded-xl p-6 shadow-sm">
+                  <h3 className="font-bold text-lg mb-3 flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
+                    Enterprise AI Integration
+                  </h3>
+                  <p className="text-gray-600">
+                    Seamless integration of AI technologies into existing business processes with minimal disruption and maximum efficiency gains.
+                  </p>
+                </div>
+                
+                <div className="bg-white rounded-xl p-6 shadow-sm">
+                  <h3 className="font-bold text-lg mb-3 flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
+                    Ongoing AI Support
+                  </h3>
+                  <p className="text-gray-600">
+                    Comprehensive support and maintenance services ensuring your AI solutions continue to deliver optimal performance and ROI.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Enhanced Services Section with Hover Effects */}
-      <section id="services" className="py-20 bg-white">
+      {/* Industries Section with Real Images */}
+      <section className="py-20 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                <strong>AI Services</strong> by Leading <span className="text-primary-orange">Artificial Intelligence Company In Hyderabad</span>
+                Industries We Serve In Hyderabad
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Comprehensive artificial intelligence services from Hyderabad's most trusted <strong>AI Company In Hyderabad</strong>. 
-                Transforming businesses with cutting-edge AI solutions tailored for HITEC City and Cyberabad's tech ecosystem.
+                Delivering specialized AI solutions across Hyderabad's key Industries and business sectors.
               </p>
             </div>
             
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-blue-200 group">
-                <div className="w-16 h-16 bg-blue-100 group-hover:bg-blue-200 rounded-full flex items-center justify-center mb-6 transition-all duration-300 group-hover:scale-110">
-                  <Code className="w-8 h-8 text-blue-600" />
-                </div>
-                <h3 className="text-xl font-bold mb-4 group-hover:text-blue-600 transition-colors">Custom AI Development In Hyderabad</h3>
-                <p className="text-gray-600 leading-relaxed mb-6">
-                  End-to-end artificial intelligence solution development tailored for Hyderabad businesses
-                </p>
-                <ul className="space-y-2">
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    Machine Learning Models
-                  </li>
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    Neural Network Development
-                  </li>
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    AI Algorithm Optimization
-                  </li>
-                </ul>
-                <div className="mt-6">
-                  <Link href="/custom-ai-development" className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium group-hover:translate-x-1 transition-all">
-                    Learn More
-                    <ArrowRight className="w-4 h-4 ml-2" />
-                  </Link>
+            {/* Mobile: 1 col, Tablet: 2 cols, Desktop: 4 cols - 12 Industries Total */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              {/* Manufacturing */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&h=400&fit=crop" 
+                    alt="Manufacturing Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Manufacturing</h3>
+                  </div>
                 </div>
               </div>
 
-              <div className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-purple-200 group">
-                <div className="w-16 h-16 bg-purple-100 group-hover:bg-purple-200 rounded-full flex items-center justify-center mb-6 transition-all duration-300 group-hover:scale-110">
-                  <BarChart3 className="w-8 h-8 text-purple-600" />
-                </div>
-                <h3 className="text-xl font-bold mb-4 group-hover:text-purple-600 transition-colors">AI Data Analytics For Hyderabad</h3>
-                <p className="text-gray-600 leading-relaxed mb-6">
-                  Transform Hyderabad business data into actionable insights with advanced analytics
-                </p>
-                <ul className="space-y-2">
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    Predictive Analytics
-                  </li>
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    Business Intelligence
-                  </li>
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    Data Visualization
-                  </li>
-                </ul>
-                <div className="mt-6">
-                  <Link href="/data-insights" className="inline-flex items-center text-purple-600 hover:text-purple-700 font-medium group-hover:translate-x-1 transition-all">
-                    Learn More
-                    <ArrowRight className="w-4 h-4 ml-2" />
-                  </Link>
+              {/* Aerospace */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?w=500&h=400&fit=crop" 
+                    alt="Aerospace Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Aerospace</h3>
+                  </div>
                 </div>
               </div>
 
-              <div className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-orange-200 group">
-                <div className="w-16 h-16 bg-orange-100 group-hover:bg-orange-200 rounded-full flex items-center justify-center mb-6 transition-all duration-300 group-hover:scale-110">
-                  <Sparkles className="w-8 h-8 text-orange-600" />
+              {/* Healthcare */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=500&h=400&fit=crop" 
+                    alt="Healthcare Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Healthcare</h3>
+                  </div>
                 </div>
-                <h3 className="text-xl font-bold mb-4 group-hover:text-orange-600 transition-colors">AI Automation Services Hyderabad</h3>
-                <p className="text-gray-600 leading-relaxed mb-6">
-                  Streamline Hyderabad operations with intelligent automation solutions
-                </p>
-                <ul className="space-y-2">
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    Process Automation
-                  </li>
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    Intelligent Workflows
-                  </li>
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    RPA Integration
-                  </li>
-                </ul>
-                <div className="mt-6">
-                  <Link href="/ai-integration-and-deployment" className="inline-flex items-center text-orange-600 hover:text-orange-700 font-medium group-hover:translate-x-1 transition-all">
-                    Learn More
-                    <ArrowRight className="w-4 h-4 ml-2" />
-                  </Link>
+              </div>
+
+              {/* Agriculture */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=500&h=400&fit=crop" 
+                    alt="Agriculture Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Agriculture</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Technology */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&h=400&fit=crop" 
+                    alt="Technology Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Technology</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Automotive */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=500&h=400&fit=crop" 
+                    alt="Automotive Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Automotive</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Financial Services */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=500&h=400&fit=crop" 
+                    alt="Financial Services Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Financial Services</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Transportation */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=500&h=400&fit=crop" 
+                    alt="Transportation Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Transportation</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Education */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=500&h=400&fit=crop" 
+                    alt="Education Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Education</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Energy */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=500&h=400&fit=crop" 
+                    alt="Energy Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Energy</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Call Center - NEW */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=500&h=400&fit=crop" 
+                    alt="Call Center AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Call Center</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* IT Services - NEW */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=500&h=400&fit=crop" 
+                    alt="IT Services AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">IT Services</h3>
+                  </div>
                 </div>
               </div>
             </div>
@@ -590,537 +907,155 @@ export default function AIServicesHyderabadPage() {
         </div>
       </section>
 
-      {/* Ultra-Creative Why Choose Us Section - Dark Theme */}
-      <section className="py-24 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 relative overflow-hidden">
-        {/* Advanced Creative Background Elements */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          {/* Animated Circuit Patterns */}
-          <div className="absolute inset-0 opacity-[0.03]" style={{
-            backgroundImage: `linear-gradient(#FF6B35 1px, transparent 1px), linear-gradient(90deg, #FF6B35 1px, transparent 1px)`,
-            backgroundSize: '60px 60px'
-          }}></div>
-          
-          {/* Floating AI Elements with Different Sizes */}
-          <div className="absolute top-20 left-10 w-40 h-40 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute bottom-20 right-10 w-56 h-56 bg-secondary-orange/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
-          <div className="absolute top-1/2 left-1/4 w-32 h-32 bg-primary-orange/3 rounded-full blur-2xl animate-pulse" style={{animationDelay: '4s'}}></div>
-          
-          {/* Dynamic Geometric Shapes */}
-          <div className="absolute top-1/4 left-1/4 w-3 h-3 bg-primary-orange/40 rounded-full animate-bounce" style={{animationDelay: '1s'}}></div>
-          <div className="absolute top-1/3 right-1/3 w-2 h-2 bg-orange-400/40 rounded-full animate-bounce" style={{animationDelay: '3s'}}></div>
-          <div className="absolute bottom-1/4 left-1/3 w-4 h-4 bg-primary-orange/30 rounded-full animate-bounce" style={{animationDelay: '2.5s'}}></div>
-          <div className="absolute top-3/4 right-1/4 w-2.5 h-2.5 bg-secondary-orange/40 rounded-full animate-bounce" style={{animationDelay: '1.8s'}}></div>
-        </div>
-
-        <div className="container px-4 md:px-6 relative z-10">
-          <div className="max-w-7xl mx-auto">
-            {/* Enhanced Creative Header */}
-            <div className="text-center mb-20">
-              {/* Premium Badge with Glow Effect */}
-              <div className="inline-flex items-center gap-3 px-8 py-4 bg-gray-800/50 backdrop-blur-xl rounded-full border-2 border-primary-orange/30 mb-10 hover:border-primary-orange/50 transition-all group shadow-2xl">
-                <div className="relative">
-                  <div className="absolute inset-0 bg-primary-orange/20 rounded-full blur-md animate-pulse"></div>
-                  <div className="relative w-4 h-4 bg-primary-orange rounded-full animate-pulse"></div>
-                </div>
-                <span className="text-sm font-bold text-orange-300 tracking-wider">WHY CHOOSE METIC.AI</span>
-                <div className="relative">
-                  <div className="absolute inset-0 bg-secondary-orange/20 rounded-full blur-md animate-pulse"></div>
-                  <div className="relative w-4 h-4 bg-secondary-orange rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></div>
-                </div>
-              </div>
-              
-              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight">
-                <span className="text-white">Premier </span>
-                <span className="bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange bg-clip-text text-transparent animate-gradient">
-                  AI Firm In Hyderabad
-                </span>
-                <br />
-                <span className="text-gray-300 text-3xl md:text-4xl lg:text-5xl">Transforming Cyberabad's Future</span>
+      {/* Why Choose US Section */}
+      <section className="py-20 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                Why Choose Metic.ai as Your <span className="text-primary-orange">AI Firm In Hyderabad</span>
               </h2>
-              <div className="w-40 h-2 bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange mx-auto mb-10 rounded-full shadow-lg"></div>
-              <p className="text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
-                As the leading <strong className="text-primary-orange">AI Development Company In Hyderabad</strong>, we're trusted by 
-                HITEC City's most innovative businesses for our expertise, proven results, and commitment to client success.
+              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                As the premier <strong>AI Development Company In Hyderabad</strong>, we're Trusted by businesses across Hyderabad 
+                for our expertise, proven results, and commitment to client success US Manchester of India.
               </p>
             </div>
             
-            {/* Ultra-Creative Feature Cards with Advanced Animations */}
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {/* Card 1 - Proven Expertise */}
-              <div className="group relative">
-                <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/20 to-orange-400/20 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 transform group-hover:scale-110"></div>
-                <div className="relative bg-gray-800/40 backdrop-blur-xl rounded-3xl p-8 border border-gray-700/50 hover:border-primary-orange/50 transition-all duration-500 group-hover:transform group-hover:scale-105 h-full">
-                  <div className="relative mb-8">
-                    {/* Icon with Advanced Animation */}
-                    <div className="relative w-20 h-20 mx-auto">
-                      <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl animate-pulse opacity-20"></div>
-                      <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl group-hover:animate-spin transition-all duration-1000"></div>
-                      <div className="relative w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center shadow-2xl group-hover:scale-110 transition-all duration-300">
-                        <Award className="w-10 h-10 text-white group-hover:animate-pulse" />
-                      </div>
-                    </div>
-                    
-                    {/* Floating Numbers */}
-                    <div className="absolute -top-2 -right-2 w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center backdrop-blur-sm border border-primary-orange/30">
-                      <span className="text-xs font-bold text-primary-orange">HYD</span>
-                    </div>
-                  </div>
-                  
-                  <div className="text-center space-y-4">
-                    <h3 className="text-2xl font-bold text-white group-hover:text-primary-orange transition-colors">
-                      Proven AI Expertise
-                    </h3>
-                    <p className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors">
-                      Years of experience delivering cutting-edge AI solutions for Hyderabad businesses across 
-                      IT, pharmaceuticals, biotechnology, and emerging tech sectors in HITEC City.
-                    </p>
-                    
-                    {/* Enhanced Stats */}
-                    <div className="pt-4 space-y-2">
-                      <div className="flex items-center justify-between text-sm">
-                        <span className="text-gray-500">Success Rate</span>
-                        <span className="text-primary-orange font-bold">99.5%</span>
-                      </div>
-                      <div className="w-full bg-gray-700 rounded-full h-1.5">
-                        <div className="bg-gradient-to-r from-blue-500 to-blue-600 h-1.5 rounded-full w-[99%] group-hover:animate-pulse"></div>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  {/* Bottom Glow Effect */}
-                  <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 to-blue-600 rounded-b-3xl transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+                  <Award className="w-8 h-8 text-blue-600" />
                 </div>
-              </div>
-
-              {/* Card 2 - Measurable Results */}
-              <div className="group relative">
-                <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 to-emerald-400/20 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 transform group-hover:scale-110"></div>
-                <div className="relative bg-gray-800/40 backdrop-blur-xl rounded-3xl p-8 border border-gray-700/50 hover:border-green-500/50 transition-all duration-500 group-hover:transform group-hover:scale-105 h-full">
-                  <div className="relative mb-8">
-                    <div className="relative w-20 h-20 mx-auto">
-                      <div className="absolute inset-0 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl animate-pulse opacity-20"></div>
-                      <div className="absolute inset-0 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl group-hover:animate-spin transition-all duration-1000"></div>
-                      <div className="relative w-20 h-20 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl flex items-center justify-center shadow-2xl group-hover:scale-110 transition-all duration-300">
-                        <TrendingUp className="w-10 h-10 text-white group-hover:animate-pulse" />
-                      </div>
-                    </div>
-                    
-                    <div className="absolute -top-2 -right-2 w-8 h-8 bg-green-500/20 rounded-full flex items-center justify-center backdrop-blur-sm border border-green-500/30">
-                      <span className="text-xs font-bold text-green-400">ROI</span>
-                    </div>
-                  </div>
-                  
-                  <div className="text-center space-y-4">
-                    <h3 className="text-2xl font-bold text-white group-hover:text-green-400 transition-colors">
-                      Measurable AI Results
-                    </h3>
-                    <p className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors">
-                      Data-driven AI solutions delivering concrete ROI and transformative business growth for 
-                      Hyderabad companies with proven performance metrics across Cyberabad.
-                    </p>
-                    
-                    <div className="pt-4 space-y-2">
-                      <div className="flex items-center justify-between text-sm">
-                        <span className="text-gray-500">Avg ROI Increase</span>
-                        <span className="text-green-400 font-bold">6.2x</span>
-                      </div>
-                      <div className="w-full bg-gray-700 rounded-full h-1.5">
-                        <div className="bg-gradient-to-r from-green-500 to-emerald-600 h-1.5 rounded-full w-[96%] group-hover:animate-pulse"></div>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-green-500 to-emerald-600 rounded-b-3xl transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
-                </div>
-              </div>
-
-              {/* Card 3 - Local Partnership */}
-              <div className="group relative">
-                <div className="absolute inset-0 bg-gradient-to-br from-purple-500/20 to-violet-400/20 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 transform group-hover:scale-110"></div>
-                <div className="relative bg-gray-800/40 backdrop-blur-xl rounded-3xl p-8 border border-gray-700/50 hover:border-purple-500/50 transition-all duration-500 group-hover:transform group-hover:scale-105 h-full">
-                  <div className="relative mb-8">
-                    <div className="relative w-20 h-20 mx-auto">
-                      <div className="absolute inset-0 bg-gradient-to-br from-purple-500 to-violet-600 rounded-2xl animate-pulse opacity-20"></div>
-                      <div className="absolute inset-0 bg-gradient-to-br from-purple-500 to-violet-600 rounded-2xl group-hover:animate-spin transition-all duration-1000"></div>
-                      <div className="relative w-20 h-20 bg-gradient-to-br from-purple-500 to-violet-600 rounded-2xl flex items-center justify-center shadow-2xl group-hover:scale-110 transition-all duration-300">
-                        <Users className="w-10 h-10 text-white group-hover:animate-pulse" />
-                      </div>
-                    </div>
-                    
-                    <div className="absolute -top-2 -right-2 w-8 h-8 bg-purple-500/20 rounded-full flex items-center justify-center backdrop-blur-sm border border-purple-500/30">
-                      <span className="text-xs font-bold text-purple-400">TS</span>
-                    </div>
-                  </div>
-                  
-                  <div className="text-center space-y-4">
-                    <h3 className="text-2xl font-bold text-white group-hover:text-purple-400 transition-colors">
-                      Telangana Partnership
-                    </h3>
-                    <p className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors">
-                      Dedicated local support and strategic partnership with deep understanding of 
-                      Hyderabad's business landscape and Telangana's IT ecosystem excellence.
-                    </p>
-                    
-                    <div className="pt-4 space-y-2">
-                      <div className="flex items-center justify-between text-sm">
-                        <span className="text-gray-500">Client Retention</span>
-                        <span className="text-purple-400 font-bold">99%</span>
-                      </div>
-                      <div className="w-full bg-gray-700 rounded-full h-1.5">
-                        <div className="bg-gradient-to-r from-purple-500 to-violet-600 h-1.5 rounded-full w-[99%] group-hover:animate-pulse"></div>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-purple-500 to-violet-600 rounded-b-3xl transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
-                </div>
-              </div>
-
-              {/* Card 4 - Enterprise Security */}
-              <div className="group relative">
-                <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/20 to-orange-400/20 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 transform group-hover:scale-110"></div>
-                <div className="relative bg-gray-800/40 backdrop-blur-xl rounded-3xl p-8 border border-gray-700/50 hover:border-primary-orange/50 transition-all duration-500 group-hover:transform group-hover:scale-105 h-full">
-                  <div className="relative mb-8">
-                    <div className="relative w-20 h-20 mx-auto">
-                      <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-orange-600 rounded-2xl animate-pulse opacity-20"></div>
-                      <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-orange-600 rounded-2xl group-hover:animate-spin transition-all duration-1000"></div>
-                      <div className="relative w-20 h-20 bg-gradient-to-br from-primary-orange to-orange-600 rounded-2xl flex items-center justify-center shadow-2xl group-hover:scale-110 transition-all duration-300">
-                        <Shield className="w-10 h-10 text-white group-hover:animate-pulse" />
-                      </div>
-                    </div>
-                    
-                    <div className="absolute -top-2 -right-2 w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center backdrop-blur-sm border border-primary-orange/30">
-                      <span className="text-xs font-bold text-primary-orange">ISO</span>
-                    </div>
-                  </div>
-                  
-                  <div className="text-center space-y-4">
-                    <h3 className="text-2xl font-bold text-white group-hover:text-primary-orange transition-colors">
-                      Enterprise Security
-                    </h3>
-                    <p className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors">
-                      Bank-level security standards and enterprise compliance protecting your 
-                      Hyderabad business data with military-grade encryption and HITEC City protocols.
-                    </p>
-                    
-                    <div className="pt-4 space-y-2">
-                      <div className="flex items-center justify-between text-sm">
-                        <span className="text-gray-500">Security Score</span>
-                        <span className="text-primary-orange font-bold">100%</span>
-                      </div>
-                      <div className="w-full bg-gray-700 rounded-full h-1.5">
-                        <div className="bg-gradient-to-r from-primary-orange to-orange-600 h-1.5 rounded-full w-full group-hover:animate-pulse"></div>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-primary-orange to-orange-600 rounded-b-3xl transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
-                </div>
-              </div>
-            </div>
-
-            {/* Enhanced Bottom CTA with Creative Design */}
-            <div className="mt-20 text-center">
-              <div className="bg-gradient-to-br from-gray-800/60 to-gray-900/60 backdrop-blur-xl rounded-3xl p-12 border border-gray-700/50 hover:border-primary-orange/30 transition-all duration-500 relative overflow-hidden">
-                {/* Background Effects */}
-                <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/5 to-orange-400/5 opacity-0 hover:opacity-100 transition-opacity duration-500"></div>
-                
-                <div className="relative z-10">
-                  <div className="flex justify-center mb-8">
-                    <div className="relative">
-                      <div className="absolute inset-0 bg-primary-orange/20 rounded-full blur-2xl animate-pulse"></div>
-                      <div className="relative w-24 h-24 bg-gradient-to-br from-primary-orange to-orange-600 rounded-full flex items-center justify-center shadow-2xl">
-                        <Rocket className="w-12 h-12 text-white animate-pulse" />
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <h3 className="text-3xl md:text-4xl font-bold text-white mb-6">
-                    Ready to Transform with Telangana's Leading 
-                    <span className="text-primary-orange"> AI Firm In Hyderabad</span>?
-                  </h3>
-                  <p className="text-xl text-gray-300 mb-10 max-w-3xl mx-auto">
-                    Join the ranks of successful HITEC City businesses who trust Metic.ai for their AI transformation journey
-                  </p>
-                  
-                  <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                    <Link href="/contact">
-                      <Button 
-                        variant="primary" 
-                        size="lg" 
-                        className="bg-gradient-to-r from-primary-orange to-orange-500 hover:from-primary-orange/90 hover:to-orange-500/90 transform hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-3xl group px-8 py-4"
-                      >
-                        <Sparkles className="w-5 h-5 mr-2 group-hover:animate-spin" />
-                        Start Your AI Journey
-                        <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-                      </Button>
-                    </Link>
-                    <Link href="tel:+917892518414">
-                      <Button 
-                        variant="outline" 
-                        size="lg" 
-                        className="border-primary-orange text-primary-orange hover:bg-primary-orange/10 transform hover:scale-105 transition-all duration-300 group px-8 py-4"
-                      >
-                        <Phone className="w-4 h-4 mr-2 group-hover:animate-pulse" />
-                        Connect with AI Experts
-                      </Button>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-20 bg-white">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-6xl mx-auto">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                  Premier <span className="text-primary-orange">Artificial Intelligence Company In Hyderabad</span>
-                </h2>
-                <div className="w-20 h-1 bg-primary-orange mb-8"></div>
-                <div className="space-y-6 text-gray-600 leading-relaxed">
-                  <p>
-                    As the leading <strong>AI Company In Hyderabad</strong>, Metic.ai has been transforming businesses across Cyberabad since 2020. From the technology corridors of HITEC City to the pharmaceutical giants in Genome Valley, we've established ourselves as the go-to <strong>AI Service In Hyderabad</strong> provider for enterprises seeking cutting-edge artificial intelligence solutions.
-                  </p>
-                  <p>
-                    Our <strong>AI Firm In Hyderabad</strong> specializes in serving the unique needs of India's IT and pharmaceutical capital. Whether you're a tech company in Madhapur, a pharmaceutical enterprise in Genome Valley, or a startup in Gachibowli, our <strong>AI Development Company In Hyderabad</strong> delivers tailored solutions that drive measurable results.
-                  </p>
-                  <p>
-                    With deep roots in Hyderabad's business ecosystem, we understand the challenges and opportunities that define the Pearl City. Our team combines global AI expertise with local market knowledge, making us the <strong>Best AI Company In Hyderabad</strong> for businesses ready to embrace the future of technology.
-                  </p>
-                </div>
-                
-                <div className="mt-8 grid grid-cols-2 gap-6">
-                  <div className="text-center p-4 bg-gray-50 rounded-lg">
-                    <div className="text-2xl font-bold text-primary-orange mb-2">2100+</div>
-                    <div className="text-sm text-gray-600">AI Projects Delivered</div>
-                  </div>
-                  <div className="text-center p-4 bg-gray-50 rounded-lg">
-                    <div className="text-2xl font-bold text-primary-orange mb-2">500+</div>
-                    <div className="text-sm text-gray-600">Hyderabad Clients Served</div>
-                  </div>
-                </div>
+                <h3 className="text-xl font-bold mb-4">Proven Expertise</h3>
+                <p className="text-gray-600">Years of experience delivering AI solutions for Hyderabad businesses across all Industries.</p>
               </div>
               
-              <div className="lg:pl-8">
-                <div className="bg-gray-50 rounded-2xl p-8">
-                  <h3 className="text-xl font-bold mb-6">Serving Hyderabad's Tech Hubs</h3>
-                  <div className="space-y-4">
-                    <div className="flex items-center gap-3">
-                      <div className="w-3 h-3 bg-primary-orange rounded-full"></div>
-                      <span className="text-gray-700">HITEC City - IT & Tech Hub</span>
-                    </div>
-                    <div className="flex items-center gap-3">
-                      <div className="w-3 h-3 bg-primary-orange rounded-full"></div>
-                      <span className="text-gray-700">Cyberabad - IT Corridor</span>
-                    </div>
-                    <div className="flex items-center gap-3">
-                      <div className="w-3 h-3 bg-primary-orange rounded-full"></div>
-                      <span className="text-gray-700">Madhapur - Tech District</span>
-                    </div>
-                    <div className="flex items-center gap-3">
-                      <div className="w-3 h-3 bg-primary-orange rounded-full"></div>
-                      <span className="text-gray-700">Gachibowli - Innovation Hub</span>
-                    </div>
-                    <div className="flex items-center gap-3">
-                      <div className="w-3 h-3 bg-primary-orange rounded-full"></div>
-                      <span className="text-gray-700">Kondapur - Business Center</span>
-                    </div>
-                    <div className="flex items-center gap-3">
-                      <div className="w-3 h-3 bg-primary-orange rounded-full"></div>
-                      <span className="text-gray-700">Genome Valley - Pharma Hub</span>
-                    </div>
-                  </div>
-                  
-                  <div className="mt-8 p-4 bg-white rounded-lg border-l-4 border-primary-orange">
-                    <div className="flex items-start gap-3">
-                      <Award className="w-5 h-5 text-primary-orange mt-1" />
-                      <div>
-                        <div className="font-medium text-gray-900">Cyberabad Excellence</div>
-                        <div className="text-sm text-gray-600 mt-1">
-                          Top-rated AI Company In Hyderabad with 4.9/5 client satisfaction rating and deep expertise in serving Hyderabad's unique IT and pharmaceutical ecosystem.
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+                  <TrendingUp className="w-8 h-8 text-green-600" />
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Enhanced About Section */}
-      <section className="py-20 bg-white">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-6xl mx-auto">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                  Premier <span className="text-primary-orange">Artificial Intelligence Company In Hyderabad</span>
-                </h2>
-                <div className="w-20 h-1 bg-primary-orange mb-8"></div>
-                <div className="space-y-6 text-gray-600 leading-relaxed">
-                  <p>
-                    As the leading <strong>AI Company In Hyderabad</strong>, Metic.ai has been transforming businesses across Cyberabad since 2020. From the technology corridors of HITEC City to the pharmaceutical giants in Genome Valley, we've established ourselves as the go-to <strong>AI Service In Hyderabad</strong> provider for enterprises seeking cutting-edge artificial intelligence solutions.
-                  </p>
-                  <p>
-                    Our <strong>AI Firm In Hyderabad</strong> specializes in serving the unique needs of India's IT and pharmaceutical capital. Whether you're a tech company in Madhapur, a pharmaceutical enterprise in Genome Valley, or a startup in Gachibowli, our <strong>AI Development Company In Hyderabad</strong> delivers tailored solutions that drive measurable results.
-                  </p>
-                  <p>
-                    With deep roots in Hyderabad's business ecosystem, we understand the challenges and opportunities that define the Pearl City. Our team combines global AI expertise with local market knowledge, making us the <strong>Best AI Company In Hyderabad</strong> for businesses ready to embrace the future of technology.
-                  </p>
-                </div>
-                
-                <div className="mt-8 grid grid-cols-2 gap-6">
-                  <div className="text-center p-4 bg-gray-50 rounded-lg">
-                    <div className="text-2xl font-bold text-primary-orange mb-2">2100+</div>
-                    <div className="text-sm text-gray-600">AI Projects Delivered</div>
-                  </div>
-                  <div className="text-center p-4 bg-gray-50 rounded-lg">
-                    <div className="text-2xl font-bold text-primary-orange mb-2">500+</div>
-                    <div className="text-sm text-gray-600">Hyderabad Clients Served</div>
-                  </div>
-                </div>
+                <h3 className="text-xl font-bold mb-4">Measurable Results</h3>
+                <p className="text-gray-600">Data-driven AI solutions that deliver concrete ROI and business growth for Hyderabad companies.</p>
               </div>
               
-              <div className="lg:pl-8">
-                <div className="bg-gray-50 rounded-2xl p-8">
-                  <h3 className="text-xl font-bold mb-6">Serving Hyderabad's Tech Hubs</h3>
-                  <div className="space-y-4">
-                    <div className="flex items-center gap-3">
-                      <div className="w-3 h-3 bg-primary-orange rounded-full"></div>
-                      <span className="text-gray-700">HITEC City - IT & Tech Hub</span>
-                    </div>
-                    <div className="flex items-center gap-3">
-                      <div className="w-3 h-3 bg-primary-orange rounded-full"></div>
-                      <span className="text-gray-700">Cyberabad - IT Corridor</span>
-                    </div>
-                    <div className="flex items-center gap-3">
-                      <div className="w-3 h-3 bg-primary-orange rounded-full"></div>
-                      <span className="text-gray-700">Madhapur - Tech District</span>
-                    </div>
-                    <div className="flex items-center gap-3">
-                      <div className="w-3 h-3 bg-primary-orange rounded-full"></div>
-                      <span className="text-gray-700">Gachibowli - Innovation Hub</span>
-                    </div>
-                    <div className="flex items-center gap-3">
-                      <div className="w-3 h-3 bg-primary-orange rounded-full"></div>
-                      <span className="text-gray-700">Kondapur - Business Center</span>
-                    </div>
-                    <div className="flex items-center gap-3">
-                      <div className="w-3 h-3 bg-primary-orange rounded-full"></div>
-                      <span className="text-gray-700">Genome Valley - Pharma Hub</span>
-                    </div>
-                  </div>
-                  
-                  <div className="mt-8 p-4 bg-white rounded-lg border-l-4 border-primary-orange">
-                    <div className="flex items-start gap-3">
-                      <Award className="w-5 h-5 text-primary-orange mt-1" />
-                      <div>
-                        <div className="font-medium text-gray-900">Cyberabad Excellence</div>
-                        <div className="text-sm text-gray-600 mt-1">
-                          Top-rated AI Company In Hyderabad with 4.9/5 client satisfaction rating and deep expertise in serving Hyderabad's unique IT and pharmaceutical ecosystem.
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+                  <Users className="w-8 h-8 text-purple-600" />
                 </div>
+                <h3 className="text-xl font-bold mb-4">Local Partnership</h3>
+                <p className="text-gray-600">Dedicated support and partnership with deep understanding of Hyderabad's unique business challenges and opportunities.</p>
+              </div>
+              
+              <div className="text-center">
+                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+                  <Shield className="w-8 h-8 text-orange-600" />
+                </div>
+                <h3 className="text-xl font-bold mb-4">Enterprise Security</h3>
+                <p className="text-gray-600">Bank-level security and compliance standards protecting your Hyderabad business data.</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Comprehensive Hyderabad AI Revolution Content - 2000+ Words */}
-      <section className="py-24 bg-gradient-to-br from-gray-50 via-white to-blue-50">
+      {/* Comprehensive AI Services Hyderabad Content - 100% SEO Optimized */}
+      <section className="py-24 bg-white">
         <div className="container px-4 md:px-6">
-          <div className="max-w-7xl mx-auto">
-            {/* Enhanced Section Header */}
+          <div className="max-w-6xl mx-auto">
+            {/* Hyderabad AI Market Leadership - Enhanced Creative Header */}
             <div className="text-center mb-20">
-              {/* Premium Badge */}
-              <div className="inline-flex items-center gap-3 px-8 py-4 bg-white rounded-full shadow-xl border-2 border-primary-orange/20 mb-10 hover:border-primary-orange/40 transition-all group">
+              {/* Premium Badge with Animation */}
+              <div className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-full shadow-2xl border-2 border-primary-orange/30 mb-10 hover:border-primary-orange/50 transition-all group">
                 <div className="w-3 h-3 bg-primary-orange rounded-full animate-pulse"></div>
-                <span className="text-sm font-bold text-gray-800 tracking-wide">HYDERABAD AI REVOLUTION</span>
-                <Sparkles className="w-4 h-4 text-primary-orange animate-pulse" />
+                <span className="text-sm font-bold text-gray-800 tracking-wide">Manchester of India AI INNOVATION</span>
+                <div className="w-3 h-3 bg-secondary-orange rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></div>
               </div>
 
               <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight">
-                <span className="text-gray-900">Transforming </span>
-                <span className="bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange bg-clip-text text-transparent">
-                  Cyberabad's Digital Future
+                <span className="text-gray-900">Leading </span>
+                <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent animate-gradient">
+                  Artificial Intelligence Company In Hyderabad
                 </span>
-                <br />
-                <span className="text-gray-700 text-3xl md:text-4xl lg:text-5xl">with Cutting-Edge AI Solutions</span>
               </h2>
-              <div className="w-40 h-2 bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange mx-auto mb-10 rounded-full shadow-lg"></div>
+              <div className="w-40 h-2 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-10 rounded-full shadow-lg"></div>
               <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                Discover how the premier <strong className="text-primary-orange">Artificial Intelligence Company In Hyderabad</strong> 
-                is revolutionizing India's technology capital with innovative AI solutions across HITEC City, Genome Valley, and beyond.
+                Transforming Telangana's Commercial Capital with cutting-edge AI solutions from Maninagar to Madhapur, Outer Ring Road to the Naroda industrial Area
               </p>
             </div>
 
             <div className="space-y-20">
-              {/* HITEC City AI Innovation Hub */}
+              {/* Hyderabad AI Innovation Hub - Premium Design */}
               <div className="grid lg:grid-cols-2 gap-16 items-center">
                 <div className="order-2 lg:order-1">
                   <div className="space-y-8">
+                    {/* Enhanced Heading with Creative Icon */}
                     <div className="flex items-start gap-4">
-                      <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center shadow-xl flex-shrink-0">
-                        <Building className="w-8 h-8 text-white" />
+                      <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-xl flex-shrink-0 transform rotate-3 hover:rotate-0 transition-transform">
+                        <Brain className="w-8 h-8 text-white" />
                       </div>
                       <div>
                         <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
-                          HITEC City: <span className="text-primary-orange">AI Innovation Epicenter</span>
+                          Hyderabad's <span className="text-primary-orange">Premier AI Technology Pioneer</span>
                         </h3>
-                        <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full"></div>
+                        <div className="w-24 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange rounded-full"></div>
                       </div>
                     </div>
                     
-                    <p className="text-lg text-gray-700 leading-relaxed">
-                      As the premier <strong className="text-gray-900 bg-blue-50 px-2 py-1 rounded">AI Company In Hyderabad</strong>, 
-                      Metic.ai serves as the cornerstone of HITEC City's artificial intelligence revolution. From Microsoft's sprawling 
-                      campus to Google's innovation centers, Amazon's development hubs to Facebook's engineering offices, we've partnered 
-                      with Fortune 500 companies and emerging startups alike to implement transformative AI solutions.
-                    </p>
-                    
-                    <p className="text-lg text-gray-700 leading-relaxed">
-                      Our <strong className="text-primary-orange font-semibold">AI Development Company In Hyderabad</strong> has been instrumental 
-                      in positioning HITEC City as a global AI destination. We've successfully deployed machine learning algorithms for 
-                      multinational corporations, developed natural language processing systems for customer service automation, and created 
-                      computer vision solutions for quality control across manufacturing units in the IT corridor.
-                    </p>
-
+            <p className="text-lg text-gray-700 leading-relaxed">
+              As the leading <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Artificial Intelligence Company In Hyderabad</strong>, 
+              Metic.ai serves Manchester of India with enterprise-grade AI solutions tailored to Hyderabad's unique economic 
+              landscape. From Maninagar's business hub to Madhapur' research facilities, Outer Ring Road's government sector to 
+              the textile mills of the Naroda industrial Area, we understand Hyderabad's entrepreneurial excellence and textile-driven Industries.
+            </p>
+            
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Our <strong className="text-primary-orange font-semibold">AI Company In Hyderabad</strong> combines deep understanding 
+              of Hyderabad's unique challenges with cutting-edge technology to deliver AI solutions that drive measurable 
+              results. We've successfully implemented AI across Hyderabad's key sectors including Textiles & Garments, fishing, 
+              tourism, Chemicals, Information Technology, and maritime Industries US Telangana's largest state.
+            </p>                    {/* Enhanced Feature Cards with Creative Design */}
                     <div className="grid gap-6 mt-10">
-                      <div className="group bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all border border-blue-100 hover:border-blue-300">
+                      <div className="group bg-gradient-to-r from-primary-orange/5 via-white to-secondary-orange/5 p-6 rounded-2xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
                         <div className="flex items-start gap-4">
-                          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
+                          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary-orange to-secondary-orange flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
                             <Rocket className="w-6 h-6 text-white" />
                           </div>
                           <div>
-                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Global Tech Giants Partnership</h4>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Textiles & Garments AI Excellence</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Collaborating with Microsoft, Google, Amazon, and Meta to deliver enterprise AI solutions 
-                              that power next-generation applications serving millions of users globally.
+                              Deep expertise with Hyderabad's Naroda industrial Area textile operations including major textile mills, 
+                              Hyderabad Metro, and energy infrastructure across Telangana's largest textile-manufacturing state.
                             </p>
                           </div>
                         </div>
                       </div>
                       
-                      <div className="group bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all border border-green-100 hover:border-green-300">
+                      <div className="group bg-gradient-to-r from-secondary-orange/5 via-white to-primary-orange/5 p-6 rounded-2xl border-2 border-secondary-orange/20 hover:border-secondary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
                         <div className="flex items-start gap-4">
-                          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-green-500 to-green-600 flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
-                            <Brain className="w-6 h-6 text-white" />
+                          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-secondary-orange to-primary-orange flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
+                            <Shield className="w-6 h-6 text-white" />
                           </div>
                           <div>
-                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Startup Ecosystem Catalyst</h4>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Automotive Manufacturing Innovation</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Empowering 150+ HITEC City startups with AI-first solutions including predictive analytics, 
-                              automated decision-making systems, and intelligent customer engagement platforms.
+                              Advanced AI solutions for Hyderabad's automotive Industry including Mercedes-Benz, Honda, Hyundai, 
+                              and Toyota manufacturing facilities with predictive maintenance and quality control systems.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div className="group bg-gradient-to-r from-primary-orange/5 via-white to-secondary-orange/5 p-6 rounded-2xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                        <div className="flex items-start gap-4">
+                          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary-orange to-secondary-orange flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
+                            <Target className="w-6 h-6 text-white" />
+                          </div>
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Chemicals & Natural Resources AI</h4>
+                            <p className="text-gray-600 leading-relaxed">
+                              Specialized AI for Hyderabad's Chemicals operations and resource extraction including process optimization, 
+                              safety monitoring, and environmental compliance for Hyderabad's rich mineral deposits.
                             </p>
                           </div>
                         </div>
@@ -1129,41 +1064,42 @@ export default function AIServicesHyderabadPage() {
                   </div>
                 </div>
                 
+                {/* Enhanced Stats Dashboard with Creative Design */}
                 <div className="order-1 lg:order-2">
-                  <div className="bg-gradient-to-br from-blue-50 via-white to-purple-50 rounded-3xl p-10 border-2 border-blue-200 shadow-2xl">
+                  <div className="bg-gradient-to-br from-orange-50 via-white to-amber-50 rounded-3xl p-10 border-2 border-primary-orange/20 shadow-2xl transform rotate-1 hover:rotate-0 transition-transform">
                     <h4 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">
-                      HITEC City AI Impact Dashboard
+                      Hyderabad AI Market Impact
                     </h4>
                     
                     <div className="space-y-8">
-                      <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-blue-100 hover:border-blue-300 transition-all group">
-                        <div className="text-5xl font-bold text-blue-600 mb-3 group-hover:scale-110 transition-transform">₹45,000 Cr</div>
-                        <div className="text-sm text-gray-600 font-medium">HITEC City Annual Revenue</div>
-                        <div className="text-xs text-gray-500 mt-2">India's Largest IT Hub</div>
+                      <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">?4.6T</div>
+                        <div className="text-sm text-gray-600 font-medium">Hyderabad Annual GDP</div>
+                        <div className="text-xs text-gray-500 mt-2">textile-driven Economy</div>
                       </div>
                       
-                      <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-purple-100 hover:border-purple-300 transition-all group">
-                        <div className="text-5xl font-bold text-purple-600 mb-3 group-hover:scale-110 transition-transform">1.5M+</div>
-                        <div className="text-sm text-gray-600 font-medium">Tech Professionals</div>
-                        <div className="text-xs text-gray-500 mt-2">Cyberabad IT Workforce</div>
+                      <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-secondary-orange/10 hover:border-secondary-orange/30 transition-all group transform hover:scale-105">
+                        <div className="text-5xl font-bold text-secondary-orange mb-3 group-hover:scale-110 transition-transform">8.4M</div>
+                        <div className="text-sm text-gray-600 font-medium">Hyderabad Population</div>
+                        <div className="text-xs text-gray-500 mt-2">Manchester of India</div>
                       </div>
                       
-                      <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-green-100 hover:border-green-300 transition-all group">
-                        <div className="text-5xl font-bold text-green-600 mb-3 group-hover:scale-110 transition-transform">850+</div>
-                        <div className="text-sm text-gray-600 font-medium">AI Projects Delivered</div>
-                        <div className="text-xs text-gray-500 mt-2">Leading Hyderabad Market</div>
+                      <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">2100+</div>
+                        <div className="text-sm text-gray-600 font-medium">Hyderabad AI Projects Completed</div>
+                        <div className="text-xs text-gray-500 mt-2">Industry-Leading Success Rate</div>
                       </div>
                       
-                      <div className="bg-gradient-to-r from-blue-500/20 via-purple-500/10 to-blue-500/20 rounded-2xl p-6 border-2 border-blue-300">
+                      <div className="bg-gradient-to-r from-primary-orange/20 via-secondary-orange/10 to-primary-orange/20 rounded-2xl p-6 border-2 border-primary-orange/30 transform hover:scale-105 transition-transform">
                         <div className="flex items-center gap-3 mb-3">
-                          <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
+                          <div className="w-8 h-8 bg-primary-orange rounded-full flex items-center justify-center">
                             <CheckCircle className="w-5 h-5 text-white" />
                           </div>
-                          <span className="font-bold text-gray-900">Cyberabad Advantage</span>
+                          <span className="font-bold text-gray-900">Hyderabad Advantage</span>
                         </div>
                         <p className="text-sm text-gray-700 leading-relaxed">
-                          <strong>Strategic Innovation Hub:</strong> Home to 600+ IT companies with world-class infrastructure, 
-                          making it the ideal ecosystem for AI innovation and digital transformation.
+                          <strong>Strategic Resources:</strong> Rich US oil, gas, fishing, and minerals with vast untapped 
+                          potential, making Hyderabad ideal for AI-driven resource optimization and predictive analytics.
                         </p>
                       </div>
                     </div>
@@ -1171,424 +1107,291 @@ export default function AIServicesHyderabadPage() {
                 </div>
               </div>
 
-              {/* Pharmaceutical AI Revolution in Genome Valley */}
-              <div className="grid lg:grid-cols-2 gap-16 items-center">
-                <div>
-                  <div className="bg-gradient-to-br from-green-50 via-white to-emerald-50 rounded-3xl p-10 border-2 border-green-200 shadow-2xl">
-                    <h4 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">
-                      Genome Valley: Pharma AI Leadership
-                    </h4>
-                    
-                    <div className="space-y-6">
-                      <div className="bg-white rounded-2xl p-6 shadow-lg border border-green-100">
-                        <div className="flex items-center gap-4 mb-4">
-                          <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-600 rounded-xl flex items-center justify-center">
-                            <Target className="w-6 h-6 text-white" />
-                          </div>
-                          <h5 className="font-bold text-gray-900 text-lg">Drug Discovery Acceleration</h5>
-                        </div>
-                        <p className="text-gray-600 text-sm leading-relaxed">
-                          AI-powered molecular analysis reducing drug discovery timelines from 10-15 years to 3-5 years 
-                          for leading pharmaceutical companies in Genome Valley.
-                        </p>
-                        <div className="mt-4 flex items-center justify-between">
-                          <span className="text-xs text-gray-500">Success Rate</span>
-                          <span className="text-green-600 font-bold">87%</span>
-                        </div>
-                      </div>
-                      
-                      <div className="bg-white rounded-2xl p-6 shadow-lg border border-blue-100">
-                        <div className="flex items-center gap-4 mb-4">
-                          <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center">
-                            <Database className="w-6 h-6 text-white" />
-                          </div>
-                          <h5 className="font-bold text-gray-900 text-lg">Clinical Trial Optimization</h5>
-                        </div>
-                        <p className="text-gray-600 text-sm leading-relaxed">
-                          Machine learning algorithms optimizing patient recruitment, safety monitoring, and efficacy 
-                          analysis for faster regulatory approvals across biotech companies.
-                        </p>
-                        <div className="mt-4 flex items-center justify-between">
-                          <span className="text-xs text-gray-500">Time Reduction</span>
-                          <span className="text-blue-600 font-bold">45%</span>
-                        </div>
-                      </div>
-                      
-                      <div className="bg-white rounded-2xl p-6 shadow-lg border border-purple-100">
-                        <div className="flex items-center gap-4 mb-4">
-                          <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center">
-                            <Shield className="w-6 h-6 text-white" />
-                          </div>
-                          <h5 className="font-bold text-gray-900 text-lg">Regulatory Compliance AI</h5>
-                        </div>
-                        <p className="text-gray-600 text-sm leading-relaxed">
-                          Automated compliance monitoring and reporting systems ensuring adherence to FDA, EMA, 
-                          and CDSCO regulations for pharmaceutical manufacturing.
-                        </p>
-                        <div className="mt-4 flex items-center justify-between">
-                          <span className="text-xs text-gray-500">Accuracy Rate</span>
-                          <span className="text-purple-600 font-bold">99.8%</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
-                <div className="space-y-8">
-                  <div className="flex items-start gap-4">
-                    <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl flex items-center justify-center shadow-xl flex-shrink-0">
-                      <Sparkles className="w-8 h-8 text-white" />
-                    </div>
-                    <div>
-                      <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
-                        Genome Valley: <span className="text-green-600">Pharmaceutical AI Pioneer</span>
-                      </h3>
-                      <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-emerald-600 rounded-full"></div>
-                    </div>
-                  </div>
-                  
-                  <p className="text-lg text-gray-700 leading-relaxed">
-                    As the leading <strong className="text-gray-900 bg-green-50 px-2 py-1 rounded">AI Service In Hyderabad</strong> 
-                    for the pharmaceutical sector, Metic.ai has revolutionized drug discovery and development processes across 
-                    Genome Valley. Home to global pharmaceutical giants like Dr. Reddy's Laboratories, Aurobindo Pharma, 
-                    and emerging biotech companies, this specialized corridor has become a testbed for cutting-edge AI applications.
-                  </p>
-                  
-                  <p className="text-lg text-gray-700 leading-relaxed">
-                    Our <strong className="text-green-600 font-semibold">pharmaceutical AI solutions</strong> encompass molecular 
-                    modeling, compound screening, clinical trial optimization, and regulatory compliance automation. We've helped 
-                    reduce drug discovery timelines by 60% while maintaining the highest safety and efficacy standards required 
-                    by global regulatory bodies.
-                  </p>
-
-                  <div className="bg-gradient-to-r from-green-500/10 via-white to-emerald-500/10 rounded-2xl p-8 border-2 border-green-200 shadow-xl">
-                    <h4 className="text-xl font-bold text-gray-900 mb-6 flex items-center gap-3">
-                      <Award className="w-6 h-6 text-green-600" />
-                      Pharmaceutical AI Breakthrough Achievements
-                    </h4>
-                    <div className="grid md:grid-cols-2 gap-6">
-                      <div className="space-y-4">
-                        <div className="flex items-center justify-between p-4 bg-white rounded-lg shadow-sm">
-                          <span className="text-gray-600 font-medium">Drug Discovery Acceleration</span>
-                          <span className="font-bold text-green-600 text-lg">60%</span>
-                        </div>
-                        <div className="flex items-center justify-between p-4 bg-white rounded-lg shadow-sm">
-                          <span className="text-gray-600 font-medium">Clinical Trial Efficiency</span>
-                          <span className="font-bold text-green-600 text-lg">45%</span>
-                        </div>
-                      </div>
-                      <div className="space-y-4">
-                        <div className="flex items-center justify-between p-4 bg-white rounded-lg shadow-sm">
-                          <span className="text-gray-600 font-medium">Regulatory Compliance</span>
-                          <span className="font-bold text-green-600 text-lg">99.8%</span>
-                        </div>
-                        <div className="flex items-center justify-between p-4 bg-white rounded-lg shadow-sm">
-                          <span className="text-gray-600 font-medium">Cost Reduction</span>
-                          <span className="font-bold text-green-600 text-lg">55%</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Hyderabad Industry AI Matrix */}
+              {/* Hyderabad Industry Solutions - Creative Premium Design */}
               <div>
                 <div className="text-center mb-16">
-                  <div className="inline-flex items-center gap-2 px-6 py-3 bg-white rounded-full shadow-xl border-2 border-primary-orange/20 mb-8">
-                    <BarChart3 className="w-5 h-5 text-primary-orange" />
-                    <span className="text-sm font-bold text-gray-800">INDUSTRY TRANSFORMATION</span>
+                  <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-full border-2 border-primary-orange/20 mb-8 transform hover:scale-105 transition-transform">
+                    <Sparkles className="w-5 h-5 text-primary-orange" />
+                    <span className="text-sm font-bold text-gray-800">Industry EXPERTISE</span>
                   </div>
                   <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                    AI Solutions Across <span className="bg-gradient-to-r from-primary-orange to-orange-600 bg-clip-text text-transparent">Hyderabad's Key Industries</span>
+                    AI Solutions for <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Hyderabad's Key Industries</span>
                   </h3>
-                  <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-orange-600 mx-auto mb-6 rounded-full"></div>
+                  <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 rounded-full"></div>
                   <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Specialized AI applications tailored for Telangana's diverse economic sectors and emerging technologies
+                    Specialized AI solutions designed for Manchester of India's unique economic sectors and textile-driven Industries
                   </p>
                 </div>
                 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-                  {/* Information Technology */}
-                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-blue-500/50 hover:shadow-2xl transition-all duration-500">
-                    <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform shadow-xl">
-                      <Code className="w-10 h-10 text-white" />
-                    </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Information Technology AI</h4>
-                    <p className="text-gray-700 leading-relaxed mb-6">
-                      Advanced AI solutions for HITEC City's IT ecosystem including automated code generation, 
-                      intelligent testing frameworks, DevOps optimization, and next-generation software architecture 
-                      for global technology leaders.
-                    </p>
-                    <div className="space-y-3">
-                      <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-blue-600 flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Automated code review and optimization</span>
-                      </div>
-                      <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-blue-600 flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Intelligent DevOps and CI/CD pipelines</span>
-                      </div>
-                      <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-blue-600 flex-shrink-0" />
-                        <span className="text-sm text-gray-600">AI-powered software architecture design</span>
-                      </div>
-                      <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-blue-600 flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Predictive maintenance for cloud infrastructure</span>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  {/* Pharmaceuticals */}
-                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-green-500/50 hover:shadow-2xl transition-all duration-500">
-                    <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform shadow-xl">
-                      <Target className="w-10 h-10 text-white" />
-                    </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Pharmaceutical & Biotech AI</h4>
-                    <p className="text-gray-700 leading-relaxed mb-6">
-                      Cutting-edge AI applications for Genome Valley's pharmaceutical sector including drug discovery 
-                      acceleration, molecular modeling, clinical trial optimization, and regulatory compliance automation 
-                      for global pharmaceutical leaders.
-                    </p>
-                    <div className="space-y-3">
-                      <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0" />
-                        <span className="text-sm text-gray-600">AI-powered drug discovery platforms</span>
-                      </div>
-                      <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Molecular modeling and simulation</span>
-                      </div>
-                      <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Clinical trial patient matching</span>
-                      </div>
-                      <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Regulatory compliance monitoring</span>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  {/* Aerospace & Defense */}
-                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-purple-500/50 hover:shadow-2xl transition-all duration-500">
-                    <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform shadow-xl">
+                  {/* Textiles & Garments Industry */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Rocket className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Aerospace & Defense AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Textiles & Garments AI Solutions</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Mission-critical AI solutions for Hyderabad's aerospace and defense sector including autonomous 
-                      systems, predictive maintenance for aircraft, satellite data analysis, and advanced security 
-                      applications for strategic operations.
+                      Mission-critical AI solutions for Hyderabad's Textiles & Garments Industry including Naroda industrial Area operations, 
+                      Hyderabad Metro monitoring, offshore drilling optimization, and predictive maintenance 
+                      for energy infrastructure across Manchester of India's vast energy resources.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-purple-600 flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Autonomous flight systems AI</span>
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Pipeline monitoring & optimization</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-purple-600 flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Satellite data processing and analysis</span>
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Drilling efficiency analysis</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-purple-600 flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Predictive maintenance for defense equipment</span>
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Resource extraction prediction</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-purple-600 flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Advanced threat detection systems</span>
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Safety & environmental compliance</span>
                       </div>
                     </div>
                   </div>
                   
-                  {/* Financial Services */}
-                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-yellow-500/50 hover:shadow-2xl transition-all duration-500">
-                    <div className="w-20 h-20 bg-gradient-to-br from-yellow-500 to-orange-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform shadow-xl">
-                      <TrendingUp className="w-10 h-10 text-white" />
+                  {/* Pharmaceuticals Industry */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                      <Shield className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Financial Services AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Pharmaceuticals AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Sophisticated AI solutions for Hyderabad's growing fintech sector including algorithmic trading, 
-                      fraud detection, risk assessment, customer behavior analysis, and automated compliance monitoring 
-                      for banking and financial institutions.
+                      Advanced AI solutions for Hyderabad's fishing and seafood processing Industry with predictive catch 
+                      analytics, sINtainable fishing optimization, processing automation, cold chain monitoring, 
+                      and quality control for the world's richest seafood harvest.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-yellow-600 flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Algorithmic trading systems</span>
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Catch prediction & optimization</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-yellow-600 flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Real-time fraud detection</span>
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Processing automation</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-yellow-600 flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Credit risk assessment automation</span>
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Cold chain monitoring</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-yellow-600 flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Regulatory compliance monitoring</span>
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">SINtainable fishing intelligence</span>
                       </div>
                     </div>
                   </div>
                   
-                  {/* Healthcare & Life Sciences */}
-                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-red-500/50 hover:shadow-2xl transition-all duration-500">
-                    <div className="w-20 h-20 bg-gradient-to-br from-red-500 to-red-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform shadow-xl">
-                      <Brain className="w-10 h-10 text-white" />
+                  {/* Tourism & Hospitality Industry */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div className="w-20 h-20 bg-gradient-to-br from-red-500 to-red-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                      <Target className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Healthcare & Life Sciences AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Tourism & Hospitality AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Revolutionary AI applications for Hyderabad's healthcare sector including medical imaging analysis, 
-                      diagnostic assistance, treatment optimization, patient care management, and personalized medicine 
-                      for hospitals and healthcare providers.
+                      Intelligent AI solutions for Hyderabad's booming tourism Industry with cruise line optimization, 
+                      wildlife tour planning, hotel revenue management, visitor experience personalization, 
+                      and seasonal demand forecasting for Hyderabad's 2.5 million annual visitors.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-red-600 flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Medical imaging AI diagnostics</span>
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Revenue management systems</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-red-600 flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Personalized treatment recommendations</span>
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Visitor experience personalization</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-red-600 flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Patient monitoring and care optimization</span>
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Seasonal demand forecasting</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-red-600 flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Electronic health record intelligence</span>
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Tour optimization & planning</span>
                       </div>
                     </div>
                   </div>
                   
-                  {/* E-commerce & Retail */}
-                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-indigo-500/50 hover:shadow-2xl transition-all duration-500">
-                    <div className="w-20 h-20 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform shadow-xl">
-                      <Users className="w-10 h-10 text-white" />
+                  {/* Chemicals & Resource Extraction */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                      <Lightbulb className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">E-commerce & Retail AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Chemicals & Resource AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Next-generation AI solutions for Hyderabad's e-commerce and retail sector including personalized 
-                      recommendations, demand forecasting, inventory optimization, customer service automation, and 
-                      supply chain intelligence for digital commerce leaders.
+                      Advanced AI solutions for Hyderabad's Chemicals operations including gold, zinc, and mineral extraction 
+                      with predictive maintenance, safety monitoring, resource discovery optimization, 
+                      and environmental impact assessment across Hyderabad's vast mineral deposits.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-indigo-600 flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Personalized product recommendations</span>
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Resource discovery prediction</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-indigo-600 flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Demand forecasting and inventory optimization</span>
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Chemicals equipment automation</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-indigo-600 flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Intelligent customer service chatbots</span>
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Safety & compliance monitoring</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-indigo-600 flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Supply chain optimization algorithms</span>
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Environmental impact analysis</span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Information Technology & Logistics */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div className="w-20 h-20 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                      <Sparkles className="w-10 h-10 text-white" />
+                    </div>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Information Technology & Logistics AI</h4>
+                    <p className="text-gray-700 leading-relaxed mb-6">
+                      Intelligent AI solutions for Hyderabad's Information Technology and cargo logistics including bINh plane operations, 
+                      Ted Stevens Maninagar International Airport cargo hub, weather prediction for flight safety, 
+                      and supply chain optimization for remote Hyderabad communities.
+                    </p>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Flight route optimization</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Weather prediction systems</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Cargo logistics optimization</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Remote delivery planning</span>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
 
-              {/* Future Vision for Hyderabad AI */}
-              <div className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 rounded-3xl p-12 md:p-16 relative overflow-hidden">
-                {/* Background Effects */}
-                <div className="absolute inset-0 overflow-hidden pointer-events-none">
-                  <div className="absolute inset-0 opacity-[0.02]" style={{
-                    backgroundImage: `radial-gradient(circle at 25px 25px, #FF6B35 2px, transparent 2px)`,
-                    backgroundSize: '50px 50px'
-                  }}></div>
-                  <div className="absolute top-20 left-10 w-32 h-32 bg-primary-orange/10 rounded-full blur-3xl animate-pulse"></div>
-                  <div className="absolute bottom-20 right-10 w-40 h-40 bg-orange-400/10 rounded-full blur-3xl animate-pulse" style={{animationDelay: '3s'}}></div>
-                </div>
+              {/* ReINable Testimonials Component */}
+              <Testimonials />
 
-                <div className="relative z-10">
-                  <div className="text-center mb-16">
-                    <div className="inline-flex items-center gap-2 px-6 py-3 bg-gray-800/50 backdrop-blur-sm rounded-full border border-primary-orange/30 mb-8">
-                      <Rocket className="w-5 h-5 text-primary-orange animate-pulse" />
-                      <span className="text-sm font-bold text-orange-300">FUTURE VISION</span>
-                      <Sparkles className="w-4 h-4 text-primary-orange" />
-                    </div>
-                    
-                    <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-white">
-                      The Future of <span className="bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange bg-clip-text text-transparent">AI in Hyderabad</span>
-                    </h3>
-                    <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange mx-auto mb-8 rounded-full"></div>
-                    <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-                      Pioneering the next decade of AI innovation across Telangana's technology ecosystem
-                    </p>
-                  </div>
-                  
-                  <div className="grid md:grid-cols-3 gap-8 mb-16">
-                    {/* 2025 Vision */}
-                    <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border border-gray-700/50 hover:border-primary-orange/50 transition-all group">
-                      <div className="text-center mb-6">
-                        <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-orange-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
-                          <span className="font-bold text-white text-lg">2025</span>
-                        </div>
-                        <h4 className="text-xl font-bold text-white group-hover:text-primary-orange transition-colors">AI Capital Status</h4>
+              {/* Hyderabad AI Partnership Excellence - Creative Premium Design */}
+              <div className="grid lg:grid-cols-2 gap-16 items-center">
+                <div className="space-y-8">
+                  <div className="bg-white rounded-2xl p-8 shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all transform hover:scale-105">
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-3">
+                      <div className="w-8 h-8 bg-primary-orange rounded-lg flex items-center justify-center transform rotate-12">
+                        <BarChart3 className="w-5 h-5 text-white" />
                       </div>
-                      <p className="text-gray-400 text-center leading-relaxed">
-                        Establishing Hyderabad as India's undisputed AI capital with 1000+ AI startups, 
-                        advanced research centers, and global AI innovation hubs across Cyberabad.
-                      </p>
-                    </div>
-                    
-                    {/* 2027 Vision */}
-                    <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border border-gray-700/50 hover:border-orange-400/50 transition-all group">
-                      <div className="text-center mb-6">
-                        <div className="w-16 h-16 bg-gradient-to-br from-orange-400 to-orange-500 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
-                          <span className="font-bold text-white text-lg">2027</span>
-                        </div>
-                        <h4 className="text-xl font-bold text-white group-hover:text-orange-400 transition-colors">Global AI Hub</h4>
+                      Hyderabad AI Leadership Metrics
+                    </h4>
+                    <div className="space-y-6">
+                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                        <span className="text-gray-600 font-medium">Hyderabad Projects Completed</span>
+                        <span className="font-bold text-primary-orange text-xl">2100+</span>
                       </div>
-                      <p className="text-gray-400 text-center leading-relaxed">
-                        Transforming HITEC City into a global AI research and development hub attracting 
-                        international talent, investments, and cutting-edge AI infrastructure.
-                      </p>
-                    </div>
-                    
-                    {/* 2030 Vision */}
-                    <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border border-gray-700/50 hover:border-yellow-400/50 transition-all group">
-                      <div className="text-center mb-6">
-                        <div className="w-16 h-16 bg-gradient-to-br from-yellow-400 to-orange-400 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
-                          <span className="font-bold text-white text-lg">2030</span>
-                        </div>
-                        <h4 className="text-xl font-bold text-white group-hover:text-yellow-400 transition-colors">AI Ecosystem Leader</h4>
+                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                        <span className="text-gray-600 font-medium">Industry Success Rate</span>
+                        <span className="font-bold text-secondary-orange text-xl">99.5%</span>
                       </div>
-                      <p className="text-gray-400 text-center leading-relaxed">
-                        Leading the world in AI-driven urban solutions, smart city implementations, 
-                        and sustainable technology innovations for the next generation.
-                      </p>
+                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                        <span className="text-gray-600 font-medium">Average ROI for Hyderabad Clients</span>
+                        <span className="font-bold text-primary-orange text-xl">5.2x</span>
+                      </div>
+                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                        <span className="text-gray-600 font-medium">Client Retention Rate</span>
+                        <span className="font-bold text-secondary-orange text-xl">97%</span>
+                      </div>
+                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                        <span className="text-gray-600 font-medium">Average Deployment Time</span>
+                        <span className="font-bold text-primary-orange text-xl">28 Days</span>
+                      </div>
                     </div>
                   </div>
                   
-                  <div className="text-center">
-                    <p className="text-lg text-gray-300 mb-8 max-w-3xl mx-auto">
-                      As the premier <strong className="text-primary-orange">Artificial Intelligence Company In Hyderabad</strong>, 
-                      Metic.ai is committed to driving this transformative vision, partnering with businesses, 
-                      government, and academic institutions to create an AI-powered future for Telangana.
-                    </p>
+                  <div className="bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-2xl p-8 border-2 border-primary-orange/20 shadow-xl transform hover:scale-105 transition-transform">
+                    <div className="flex items-start gap-4 mb-4">
+                      <div className="w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center flex-shrink-0 transform -rotate-6">
+                        <Award className="w-6 h-6 text-white" />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Hyderabad business Advantage</h4>
+                        <p className="text-gray-700 leading-relaxed">
+                          As the premier <strong className="text-primary-orange">AI Firm In Hyderabad</strong>, we understand 
+                          Manchester of India's unique blend of entrepreneurial excellence and resource-driven innovation. Our AI solutions 
+                          are built for Hyderabad's Textiles & Garments dominance, fishing Industry leadership, and tourism growth.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div>
+                  <div className="flex items-start gap-4 mb-8">
+                    <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-xl flex-shrink-0 transform rotate-6 hover:rotate-0 transition-transform">
+                      <Users className="w-8 h-8 text-white" />
+                    </div>
+                    <div>
+                      <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
+                        Your Trusted <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">AI Partner In Hyderabad</span>
+                      </h3>
+                      <div className="w-24 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange rounded-full mb-6"></div>
+                    </div>
+                  </div>
+                  
+                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                    <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Choosing Metic.ai as your AI partner In Hyderabad</strong> means 
+                    working with a team that deeply understands Hyderabad's unique business challenges, from Maninagar's 
+                    commercial hub to Madhapur' research facilities and Outer Ring Road's government operations.
+                  </p>
+                  
+                  <p className="text-lg text-gray-700 leading-relaxed mb-8">
+                    Our <strong className="text-primary-orange font-semibold">AI Service In Hyderabad</strong> includes comprehensive consultation, 
+                    rapid prototyping, enterprise deployment, and 24/7 support to ensure your AI investment delivers 
+                    maximum value In Hyderabad's textile-driven and growing economy.
+                  </p>
+
+                  <div className="space-y-6">
+                    <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-primary-orange/10 transform hover:scale-105 transition-transform">
+                      <MapPin className="w-8 h-8 text-primary-orange flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Comprehensive Hyderabad Coverage</h4>
+                        <p className="text-gray-600 leading-relaxed">
+                          Maninagar, Madhapur, Outer Ring Road, Hitech City, Chandkheda, Kondapur, Banjara Hills, Ghatlodia, 
+                          GIFT City, and all major Hyderabad business centers across Manchester of India
+                        </p>
+                      </div>
+                    </div>
                     
-                    <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                      <Link href="/contact">
-                        <Button 
-                          variant="primary" 
-                          size="lg" 
-                          className="bg-gradient-to-r from-primary-orange to-orange-500 hover:from-primary-orange/90 hover:to-orange-500/90 transform hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-3xl group px-8 py-4"
-                        >
-                          <Globe className="w-5 h-5 mr-2 group-hover:animate-spin" />
-                          Join Hyderabad's AI Revolution
-                          <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-                        </Button>
-                      </Link>
+                    <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-secondary-orange/10 transform hover:scale-105 transition-transform">
+                      <Rocket className="w-8 h-8 text-secondary-orange flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Industry Domain Expertise</h4>
+                        <p className="text-gray-600 leading-relaxed">
+                          Deep understanding of Textiles & Garments, fishing, tourism, Chemicals, Information Technology, and logistics 
+                          with proven track record In Hyderabad's key economic sectors
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-primary-orange/10 transform hover:scale-105 transition-transform">
+                      <Clock className="w-8 h-8 text-primary-orange flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Rapid Hyderabad Deployment</h4>
+                        <p className="text-gray-600 leading-relaxed">
+                          Fast implementation designed for Hyderabad's unique challenges with local support teams 
+                          and understanding of dynamic business culture and manufacturing excellence
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -1597,13 +1400,14 @@ export default function AIServicesHyderabadPage() {
           </div>
         </div>
       </section>
-      {/* Enhanced FAQ Section - Dark Theme with Interactive Design */}
-      <section className="py-24 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 relative overflow-hidden">
+
+      {/* Enhanced FAQ Section - Homepage Style */}
+      <section className="py-24 bg-gradient-to-br from-gray-50 via-white to-orange-50 relative overflow-hidden">
         {/* Advanced Background Effects */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           {/* Animated Gradient Orbs */}
           <div className="absolute top-10 left-10 w-96 h-96 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute bottom-10 right-10 w-96 h-96 bg-orange-400/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
+          <div className="absolute bottom-10 right-10 w-96 h-96 bg-secondary-orange/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
           
           {/* Grid Pattern */}
           <div className="absolute inset-0 opacity-[0.02]" style={{
@@ -1617,362 +1421,469 @@ export default function AIServicesHyderabadPage() {
             {/* Enhanced Section Header */}
             <div className="text-center mb-16">
               {/* Badge */}
-              <div className="inline-flex items-center gap-2 px-6 py-3 bg-gray-800/50 backdrop-blur-sm rounded-full border-2 border-primary-orange/20 mb-8 hover:border-primary-orange/40 transition-all group">
+              <div className="inline-flex items-center gap-2 px-6 py-3 bg-white rounded-full shadow-xl border-2 border-primary-orange/20 mb-8 hover:border-primary-orange/40 transition-all group">
                 <Lightbulb className="w-5 h-5 text-primary-orange animate-pulse" />
-                <span className="text-sm font-bold text-orange-300">Got Questions? We Have Answers!</span>
+                <span className="text-sm font-bold text-gray-800">Got Questions? We Have Answers!</span>
                 <Sparkles className="w-4 h-4 text-primary-orange" />
               </div>
               
-              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-white">
-                <span className="text-white">Frequently Asked Questions</span>
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+                <span className="text-gray-900">Frequently Asked Questions</span>
                 <br />
-                <span className="bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
                   About AI Company In Hyderabad
                 </span>
               </h2>
-              <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange mx-auto mb-8 rounded-full"></div>
-              <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-                Common questions about choosing the right AI company in India's technology capital
+              <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-8 rounded-full"></div>
+              <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+                Common questions about working with Hyderabad's leading AI company
               </p>
             </div>
 
-            {/* Advanced Creative FAQ Cards */}
-            <div className="space-y-5">
-              {/* FAQ Item 1 - Enhanced Design */}
+            {/* Advanced Creative FAQ Cards - 6+6 Grid Layout for Desktop */}
+            <div className="grid lg:grid-cols-2 gap-6">
+              {/* Left Column - FAQ 1-6 */}
+              <div className="space-y-5">
+              {/* FAQ Item 1 */}
               <details className="group relative">
                 <summary className="list-none cursor-pointer">
-                  <div className="relative bg-gray-800/40 backdrop-blur-xl rounded-2xl p-8 border-2 border-gray-700/50 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
-                    {/* Gradient Overlay */}
-                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-orange-400/0 group-hover:from-primary-orange/5 group-hover:to-orange-400/5 transition-all duration-500"></div>
-                    
-                    {/* Content */}
-                    <div className="relative flex items-start justify-between gap-4">
-                      <div className="flex items-start gap-5 flex-1">
-                        {/* Icon Circle */}
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
-                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-orange-600 rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-orange-600 rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <Sparkles className="w-7 h-7 text-white" />
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Sparkles className="w-6 h-6 text-white" />
                           </div>
                         </div>
-                        
-                        {/* Question */}
-                        <div className="flex-1 pt-2">
-                          <h3 className="text-xl md:text-2xl font-bold text-white group-hover:text-primary-orange transition-colors pr-4">
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
                             Which is the best Artificial Intelligence Company In Hyderabad?
                           </h3>
                         </div>
                       </div>
-                      
-                      {/* Toggle Icon */}
                       <div className="flex-shrink-0">
-                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
-                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
                     </div>
-                    
-                    {/* Bottom Accent Bar */}
-                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-orange-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                
-                {/* Answer with Animation */}
-                <div className="mt-3 bg-gray-800/40 backdrop-blur-xl rounded-2xl p-8 border-2 border-primary-orange/20 animate-fade-in">
-                  <div className="flex items-start gap-5">
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-orange-400/10 flex items-center justify-center flex-shrink-0">
-                      <CheckCircle className="w-7 h-7 text-primary-orange" />
-                    </div>
-                    <div className="flex-1 text-gray-300 leading-relaxed space-y-4">
-                      <p className="text-lg">
-                        <strong className="text-white font-semibold">Metic.ai is the leading Artificial Intelligence Company In Hyderabad</strong> with 2100+ successful AI implementations, 
-                        serving businesses across HITEC City, Cyberabad, Madhapur, and the entire IT corridor. Our proven track record and expertise make us the top choice for AI services in Hyderabad.
-                      </p>
-                      
-                      {/* Stats Highlight */}
-                      <div className="flex flex-wrap gap-4 pt-4">
-                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg backdrop-blur-sm">
-                          <Award className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-white">2100+ Projects</span>
-                        </div>
-                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg backdrop-blur-sm">
-                          <MapPin className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-white">HITEC City Expert</span>
-                        </div>
-                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg backdrop-blur-sm">
-                          <TrendingUp className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-white">60% Cost Savings</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    <strong className="text-gray-900 font-semibold">Metic.ai is the leading Artificial Intelligence Company In Hyderabad</strong> with over 100 successful AI implementations. 
+                    We're recognized as the top AI Company In Hyderabad for our proven expertise US machine learning, custom AI development, and enterprise AI solutions with 60% cost savings.
+                  </p>
                 </div>
               </details>
 
               {/* FAQ Item 2 */}
               <details className="group relative">
                 <summary className="list-none cursor-pointer">
-                  <div className="relative bg-gray-800/40 backdrop-blur-xl rounded-2xl p-8 border-2 border-gray-700/50 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
-                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-orange-400/0 group-hover:from-primary-orange/5 group-hover:to-orange-400/5 transition-all duration-500"></div>
-                    
-                    <div className="relative flex items-start justify-between gap-4">
-                      <div className="flex items-start gap-5 flex-1">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
-                          <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-14 h-14 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <Code className="w-7 h-7 text-white" />
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Code className="w-6 h-6 text-white" />
                           </div>
                         </div>
-                        
-                        <div className="flex-1 pt-2">
-                          <h3 className="text-xl md:text-2xl font-bold text-white group-hover:text-primary-orange transition-colors pr-4">
-                            What AI services does the top AI Company In Hyderabad provide?
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What services does the top AI Company In Hyderabad provide?
                           </h3>
                         </div>
                       </div>
-                      
                       <div className="flex-shrink-0">
-                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
-                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
                     </div>
-                    
-                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-blue-500 to-blue-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                
-                <div className="mt-3 bg-gray-800/40 backdrop-blur-xl rounded-2xl p-8 border-2 border-blue-500/20 animate-fade-in">
-                  <div className="flex items-start gap-5">
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-blue-500/10 to-blue-600/10 flex items-center justify-center flex-shrink-0">
-                      <BarChart3 className="w-7 h-7 text-blue-500" />
-                    </div>
-                    <div className="flex-1 text-gray-300 leading-relaxed space-y-4">
-                      <p className="text-lg">
-                        As the premier <strong className="text-white font-semibold">AI Company In Hyderabad</strong>, we provide AI integration, machine learning solutions, 
-                        custom AI development, data analytics, generative AI services, and comprehensive AI consulting for Hyderabad businesses across all industries and sectors.
-                      </p>
-
-                      {/* Service Grid */}
-                      <div className="grid md:grid-cols-2 gap-4 pt-4">
-                        <div className="flex items-center gap-3 p-3 bg-blue-500/5 rounded-lg backdrop-blur-sm">
-                          <Brain className="w-5 h-5 text-blue-500" />
-                          <span className="text-sm font-medium text-white">IT Solutions AI</span>
-                        </div>
-                        <div className="flex items-center gap-3 p-3 bg-blue-500/5 rounded-lg backdrop-blur-sm">
-                          <Database className="w-5 h-5 text-blue-500" />
-                          <span className="text-sm font-medium text-white">Pharma Analytics</span>
-                        </div>
-                        <div className="flex items-center gap-3 p-3 bg-blue-500/5 rounded-lg backdrop-blur-sm">
-                          <Zap className="w-5 h-5 text-blue-500" />
-                          <span className="text-sm font-medium text-white">Automation AI</span>
-                        </div>
-                        <div className="flex items-center gap-3 p-3 bg-blue-500/5 rounded-lg backdrop-blur-sm">
-                          <Shield className="w-5 h-5 text-blue-500" />
-                          <span className="text-sm font-medium text-white">Aerospace AI</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    As the premier <strong className="text-gray-900 font-semibold">AI Company In Hyderabad</strong>, Metic.ai provides comprehensive AI services including machine learning solutions, 
+                    custom AI development, data analytics, generative AI, computer vision, NLP, and enterprise AI automation tailored for Hyderabad's manufacturing, aerospace, healthcare, and agricultural Industries.
+                  </p>
                 </div>
               </details>
 
               {/* FAQ Item 3 */}
               <details className="group relative">
                 <summary className="list-none cursor-pointer">
-                  <div className="relative bg-gray-800/40 backdrop-blur-xl rounded-2xl p-8 border-2 border-gray-700/50 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
-                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-orange-400/0 group-hover:from-primary-orange/5 group-hover:to-orange-400/5 transition-all duration-500"></div>
-                    
-                    <div className="relative flex items-start justify-between gap-4">
-                      <div className="flex items-start gap-5 flex-1">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
-                          <div className="absolute inset-0 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-14 h-14 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <Target className="w-7 h-7 text-white" />
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Target className="w-6 h-6 text-white" />
                           </div>
                         </div>
-                        
-                        <div className="flex-1 pt-2">
-                          <h3 className="text-xl md:text-2xl font-bold text-white group-hover:text-primary-orange transition-colors pr-4">
-                            How much does AI development cost from an AI Firm In Hyderabad?
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How to choose the right AI Development Company In Hyderabad?
                           </h3>
                         </div>
                       </div>
-                      
                       <div className="flex-shrink-0">
-                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
-                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
                     </div>
-                    
-                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-green-500 to-green-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                
-                <div className="mt-3 bg-gray-800/40 backdrop-blur-xl rounded-2xl p-8 border-2 border-green-500/20 animate-fade-in">
-                  <div className="flex items-start gap-5">
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-green-500/10 to-green-600/10 flex items-center justify-center flex-shrink-0">
-                      <Clock className="w-7 h-7 text-green-500" />
-                    </div>
-                    <div className="flex-1 text-gray-300 leading-relaxed space-y-4">
-                      <p className="text-lg">
-                        Our <strong className="text-white font-semibold">AI Development Company In Hyderabad</strong> offers competitive pricing with 60% cost savings 
-                        compared to traditional development, with projects starting from $10,000 depending on complexity and requirements. We provide transparent pricing and flexible payment options.
-                      </p>
-                    </div>
-                  </div>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    When selecting an <strong className="text-gray-900 font-semibold">AI Development Company In Hyderabad</strong>, look for proven experience, successful project portfolio, 
+                    Industry expertise, and ongoing support. Metic.ai offers all these with 100+ completed projects, 98% client satisfaction, and 24/7 support.
+                  </p>
                 </div>
               </details>
 
               {/* FAQ Item 4 */}
               <details className="group relative">
                 <summary className="list-none cursor-pointer">
-                  <div className="relative bg-gray-800/40 backdrop-blur-xl rounded-2xl p-8 border-2 border-gray-700/50 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
-                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-orange-400/0 group-hover:from-primary-orange/5 group-hover:to-orange-400/5 transition-all duration-500"></div>
-                    
-                    <div className="relative flex items-start justify-between gap-4">
-                      <div className="flex items-start gap-5 flex-1">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
-                          <div className="absolute inset-0 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-14 h-14 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <TrendingUp className="w-7 h-7 text-white" />
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Clock className="w-6 h-6 text-white" />
                           </div>
                         </div>
-                        
-                        <div className="flex-1 pt-2">
-                          <h3 className="text-xl md:text-2xl font-bold text-white group-hover:text-primary-orange transition-colors pr-4">
-                            Why choose Metic.ai as your AI Service In Hyderabad provider?
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How much does AI implementation cost with an AI Service In Hyderabad?
                           </h3>
                         </div>
                       </div>
-                      
                       <div className="flex-shrink-0">
-                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
-                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
                     </div>
-                    
-                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-purple-500 to-purple-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                
-                <div className="mt-3 bg-gray-800/40 backdrop-blur-xl rounded-2xl p-8 border-2 border-purple-500/20 animate-fade-in">
-                  <div className="flex items-start gap-5">
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-purple-500/10 to-purple-600/10 flex items-center justify-center flex-shrink-0">
-                      <Users className="w-7 h-7 text-purple-500" />
-                    </div>
-                    <div className="flex-1 text-gray-300 leading-relaxed space-y-4">
-                      <p className="text-lg">
-                        As the leading <strong className="text-white font-semibold">AI Service In Hyderabad</strong> provider, we offer 3x faster delivery, 60% cost savings, 
-                        2100+ successful implementations, and deep expertise in serving Hyderabad's IT and pharmaceutical industries across Cyberabad.
-                      </p>
-                    </div>
-                  </div>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    AI implementation costs vary based on complexity. As a leading <strong className="text-gray-900 font-semibold">AI Service In Hyderabad</strong>, 
+                    Metic.ai offers competitive pricing with transparent structures. Our clients typically save 60% compared to international AI development costs.
+                  </p>
                 </div>
               </details>
 
               {/* FAQ Item 5 */}
               <details className="group relative">
                 <summary className="list-none cursor-pointer">
-                  <div className="relative bg-gray-800/40 backdrop-blur-xl rounded-2xl p-8 border-2 border-gray-700/50 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
-                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-orange-400/0 group-hover:from-primary-orange/5 group-hover:to-orange-400/5 transition-all duration-500"></div>
-                    
-                    <div className="relative flex items-start justify-between gap-4">
-                      <div className="flex items-start gap-5 flex-1">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
-                          <div className="absolute inset-0 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-14 h-14 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <Building className="w-7 h-7 text-white" />
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Users className="w-6 h-6 text-white" />
                           </div>
                         </div>
-                        
-                        <div className="flex-1 pt-2">
-                          <h3 className="text-xl md:text-2xl font-bold text-white group-hover:text-primary-orange transition-colors pr-4">
-                            Which industries does the best AI Company In Hyderabad serve?
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Does Metic.ai serve businesses across all Hyderabad cities?
                           </h3>
                         </div>
                       </div>
-                      
                       <div className="flex-shrink-0">
-                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
-                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
                     </div>
-                    
-                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-indigo-500 to-indigo-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                
-                <div className="mt-3 bg-gray-800/40 backdrop-blur-xl rounded-2xl p-8 border-2 border-indigo-500/20 animate-fade-in">
-                  <div className="flex items-start gap-5">
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-indigo-500/10 to-indigo-600/10 flex items-center justify-center flex-shrink-0">
-                      <Globe className="w-7 h-7 text-indigo-500" />
-                    </div>
-                    <div className="flex-1 text-gray-300 leading-relaxed space-y-4">
-                      <p className="text-lg">
-                        Our <strong className="text-white font-semibold">AI Company In Hyderabad</strong> serves information technology, pharmaceuticals, biotechnology, 
-                        aerospace, automotive, healthcare, financial services, e-commerce, and manufacturing industries across Cyberabad and HITEC City.
-                      </p>
-                    </div>
-                  </div>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Yes! Metic.ai proudly serves businesses across all Hyderabad cities including Maninagar, Madhapur, Outer Ring Road, Hitech City, Chandkheda, Kondapur, Banjara Hills, and beyond. 
+                    As Hyderabad's leading <strong className="text-gray-900 font-semibold">AI Firm In Hyderabad</strong>, we provide comprehensive AI solutions statewide.
+                  </p>
                 </div>
               </details>
 
               {/* FAQ Item 6 */}
               <details className="group relative">
                 <summary className="list-none cursor-pointer">
-                  <div className="relative bg-gray-800/40 backdrop-blur-xl rounded-2xl p-8 border-2 border-gray-700/50 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
-                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-orange-400/0 group-hover:from-primary-orange/5 group-hover:to-orange-400/5 transition-all duration-500"></div>
-                    
-                    <div className="relative flex items-start justify-between gap-4">
-                      <div className="flex items-start gap-5 flex-1">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
-                          <div className="absolute inset-0 bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-14 h-14 bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <Rocket className="w-7 h-7 text-white" />
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Rocket className="w-6 h-6 text-white" />
                           </div>
                         </div>
-                        
-                        <div className="flex-1 pt-2">
-                          <h3 className="text-xl md:text-2xl font-bold text-white group-hover:text-primary-orange transition-colors pr-4">
-                            How long does AI implementation take with Hyderabad's top AI Development Company?
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How quickly can an AI Company In Hyderabad start my project?
                           </h3>
                         </div>
                       </div>
-                      
                       <div className="flex-shrink-0">
-                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
-                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
                     </div>
-                    
-                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-orange-500 to-orange-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                
-                <div className="mt-3 bg-gray-800/40 backdrop-blur-xl rounded-2xl p-8 border-2 border-orange-500/20 animate-fade-in">
-                  <div className="flex items-start gap-5">
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-orange-500/10 to-orange-600/10 flex items-center justify-center flex-shrink-0">
-                      <Clock className="w-7 h-7 text-orange-500" />
-                    </div>
-                    <div className="flex-1 text-gray-300 leading-relaxed space-y-4">
-                      <p className="text-lg">
-                        Our <strong className="text-white font-semibold">AI Development Company In Hyderabad</strong> delivers projects 3x faster than industry average, 
-                        with typical implementations ranging from 2-6 months depending on project scope and complexity. We follow agile methodologies for rapid deployment.
-                      </p>
-                    </div>
-                  </div>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Metic.ai can typically start your AI project within 24-48 hours after initial consultation. As Hyderabad's fastest <strong className="text-gray-900 font-semibold">AI Company In Hyderabad</strong>, 
+                    we understand the importance of speed and deliver 3x faster than traditional development approaches.
+                  </p>
                 </div>
               </details>
+              </div>
+
+              {/* Right Column - FAQ 7-12 */}
+              <div className="space-y-5">
+              {/* FAQ Item 7 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Shield className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Is my data secure with an AI Development Company In Hyderabad?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Absolutely! Metic.ai implements enterprise-grade security protocols, encryption, and compliance measures. As a Trusted <strong className="text-gray-900 font-semibold">AI Development Company In Hyderabad</strong>, 
+                    we prioritize data security with ISO certifications and strict confidentiality agreements.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ Item 8 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <TrendingUp className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What Industries does the best AI Company In Hyderabad serve?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Metic.ai serves diverse Industries including Manufacturing, Aerospace, Healthcare, Agriculture, Technology, Automotive, Financial Services, Transportation, Education, and Energy. 
+                    As Hyderabad's premier <strong className="text-gray-900 font-semibold">AI Company In Hyderabad</strong>, we tailor solutions for your specific Industry needs.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ Item 9 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Award className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What makes Metic.ai the top AI Firm In Hyderabad?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Our 100+ successful projects, 98% client satisfaction rate, 60% cost savings, 3x faster delivery, and deep Hyderabad market expertise make US the leading <strong className="text-gray-900 font-semibold">AI Firm In Hyderabad</strong>. 
+                    We combine cutting-edge AI technology with personalized service.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ Item 10 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Lightbulb className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Do I need technical knowledge to work with an AI Service In Hyderabad?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    No technical knowledge required! Metic.ai guides you through every step with clear communication. As a client-focINed <strong className="text-gray-900 font-semibold">AI Service In Hyderabad</strong>, 
+                    we translate complex AI concepts into simple business terms and handle all technical aspects for you.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ Item 11 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Database className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Can AI Company In Hyderabad handle small business projects?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Absolutely! Metic.ai works with businesses of all sizes, from startups to enterprises. As an inclINive <strong className="text-gray-900 font-semibold">AI Company In Hyderabad</strong>, 
+                    we offer scalable solutions and flexible pricing models to meet small business budgets while delivering enterprise-quality AI implementations.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ Item 12 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Zap className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What support does Metic.ai provide after AI implementation?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Metic.ai provides comprehensive 24/7 post-implementation support including maintenance, updates, training, troubleshooting, and optimization. 
+                    As your long-term partner, we ensure your AI solutions continue delivering maximum value and adapt to your evolving business needs.
+                  </p>
+                </div>
+              </details>
+              </div>
             </div>
 
             {/* Enhanced CTA at Bottom of FAQ */}
             <div className="mt-16 text-center">
-              <div className="bg-gradient-to-br from-primary-orange to-orange-600 rounded-3xl p-12 text-white relative overflow-hidden">
+              <div className="bg-gradient-to-br from-primary-orange to-secondary-orange rounded-3xl p-12 text-white relative overflow-hidden">
                 <div className="absolute inset-0 bg-black/10"></div>
                 <div className="relative z-10">
                   <div className="flex justify-center mb-6">
@@ -1983,19 +1894,19 @@ export default function AIServicesHyderabadPage() {
                       </div>
                     </div>
                   </div>
-                  <h3 className="text-3xl md:text-4xl font-bold mb-4">Ready to Transform Your Hyderabad Business with AI?</h3>
+                  <h3 className="text-3xl md:text-4xl font-bold mb-4">Ready to Transform Your business with AI?</h3>
                   <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-                    Join HITEC City's leading businesses who trust Metic.ai for their AI transformation in India's technology capital!
+                    Join Hyderabad's leading businesses who Trust Metic.ai for their AI transformation. Get started today!
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <Link href="/contact">
                       <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100 shadow-xl">
-                        Partner with AI Firm Hyderabad
+                        Start Your AI Journey
                       </Button>
                     </Link>
                     <Link href="tel:+917892518414">
                       <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                        Call AI Company Hyderabad Now
+                        Call Now: +91-789-251-8414
                       </Button>
                     </Link>
                   </div>
@@ -2007,27 +1918,61 @@ export default function AIServicesHyderabadPage() {
       </section>
 
       {/* CTA Section */}
-      <section id="consultation" className="py-20 bg-primary-orange text-white">
+      <section className="py-20 bg-primary-orange text-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-              Ready to Transform Your Hyderabad Business with Leading AI Company In Hyderabad?
+              Ready to Partner with Hyderabad's Leading <strong>Artificial Intelligence Company</strong>?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join 150+ successful Hyderabad companies who've revolutionized their operations 
-              with our AI solutions. Get your free consultation from the Best AI Company In Hyderabad today.
+              Join 100+ satisfied clients who Trust Metic.ai as their preferred <strong>AI Company In Hyderabad</strong>. 
+              Transform your business with proven AI solutions that deliver results. Get started with a free consultation 
+              and discover why we're Hyderabad's most Trusted <strong>AI Development Company In Hyderabad</strong>.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Link href="/contact">
                 <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100">
-                  Get Free AI Consultation - Hyderabad
+                  Start Your AI Transformation
                 </Button>
               </Link>
               <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  Call: +91 7892518414
+                  Call: +91-789-251-8414
                 </Button>
               </Link>
+            </div>
+            
+            <div className="mt-12 text-center">
+              <p className="text-orange-200 mb-6">Trusted <strong>AI Service In Hyderabad</strong> serving businesses across the state</p>
+              <div className="grid md:grid-cols-3 gap-8 text-center mb-8">
+                <div>
+                  <div className="text-2xl font-bold mb-2">100+</div>
+                  <p className="text-orange-100">AI Projects Completed</p>
+                </div>
+                <div>
+                  <div className="text-2xl font-bold mb-2">98%</div>
+                  <p className="text-orange-100">Client Satisfaction Rate</p>
+                </div>
+                <div>
+                  <div className="text-2xl font-bold mb-2">4.5x</div>
+                  <p className="text-orange-100">Average ROI Increase</p>
+                </div>
+              </div>
+              <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
+                <span>Maninagar</span>
+                <span>•</span>
+                <span>Madhapur</span>
+                <span>•</span>
+                <span>Outer Ring Road</span>
+                <span>•</span>
+                <span>Hitech City</span>
+                <span>•</span>
+                <span>Chandkheda</span>
+                <span>•</span>
+                <span>Auburn</span>
+                <span>•</span>
+                <span>Dothan</span>
+              </div>
             </div>
           </div>
         </div>
@@ -2035,4 +1980,19 @@ export default function AIServicesHyderabadPage() {
     </>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
