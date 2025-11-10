@@ -154,7 +154,7 @@ export default function AIServicesBangalorePage() {
   ];
 
   const stats = [
-    { number: "2100+", label: "Businesses Served" },
+    { number: "300+", label: "Businesses Served" },
     { number: "99.5%", label: "Client Satisfaction" },
     { number: "5.2x", label: "Average ROI Increase" },
     { number: "24/7", label: "Support Available" }
@@ -1980,6 +1980,7 @@ export default function AIServicesBangalorePage() {
     </>
   );
 }
+
 
 
 
