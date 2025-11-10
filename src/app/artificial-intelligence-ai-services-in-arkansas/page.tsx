@@ -461,7 +461,7 @@ export default function AIServicesAlabamaPage() {
                   Artificial Intelligence
                 </span>
                 <br />
-                <span className="text-white">Company In Alabama</span>
+                <span className="text-white">Company In Arkansas</span>
               </h1>
               
               {/* VSO Optimized Description - Mobile Friendly */}

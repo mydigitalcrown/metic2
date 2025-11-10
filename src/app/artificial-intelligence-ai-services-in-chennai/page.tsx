@@ -1,5 +1,6 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Button } from "../components/ui/Button";
+import Testimonials from "../components/Testimonials";
 import { 
   Brain, 
   Zap, 
@@ -21,14 +22,13 @@ import {
   Code,
   Database,
   Sparkles,
-  Rocket,
-  Quote,
-  ChevronDown
+  ChevronDown,
+  Rocket
 } from "lucide-react";
 
 export const metadata = {
-  title: "Artificial Intelligence Company In Chennai | #1 AI Company In Tamil Nadu - Metic.ai",
-  description: "Leading Artificial Intelligence Company In Chennai with 3800+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
+  title: "Artificial Intelligence Company In Chennai | #1 AI Company In Chennai - Metic.ai",
+  description: "Leading Artificial Intelligence Company In Chennai with 500+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
   keywords: [
     "Artificial Intelligence Company In Chennai",
     "AI Company In Chennai", 
@@ -48,20 +48,23 @@ export const metadata = {
     "AI integration services Chennai",
     "custom AI development Chennai",
     "enterprise AI solutions Chennai",
-    "AI ML company Chennai"
+    "AI ML company Chennai",
+    "Chennai AI experts",
+    "Chennai machine learning services",
+    "Chennai AI implementation"
   ],
   authors: [{ name: "Metic.ai Chennai AI Team" }],
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
-    title: "Artificial Intelligence Company In Chennai | #1 AI Company In Tamil Nadu - Metic.ai",
-    description: "Leading Artificial Intelligence Company In Chennai with 3800+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Chennai businesses.",
-    url: "https://metic.ai/artificial-intelligence-ai-services-in-chennai/",
+    title: "Artificial Intelligence Company In Chennai | #1 AI Company In Chennai - Metic.ai",
+    description: "Leading Artificial Intelligence Company In Chennai with 500+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Chennai businesses.",
+    url: "https://metic.ai/artificial-intelligence-ai-services-in-Chennai/",
     type: "website",
-    locale: "en_US",
+    locale: "en_IN",
     siteName: "Metic.ai - AI Company In Chennai",
     images: [
       {
-        url: "https://metic.ai/og-ai-company-chennai.jpg",
+        url: "https://metic.ai/og-ai-company-Chennai.jpg",
         width: 1200,
         height: 630,
         alt: "Artificial Intelligence Company In Chennai - Metic.ai",
@@ -71,14 +74,14 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Artificial Intelligence Company In Chennai | AI Company In Tamil Nadu",
+    title: "Artificial Intelligence Company In Chennai | AI Company In Chennai",
     description: "Leading AI Company In Chennai delivering enterprise artificial intelligence solutions. Expert AI development, machine learning & automation services with proven results.",
-    images: ["https://metic.ai/og-ai-company-chennai.jpg"],
+    images: ["https://metic.ai/og-ai-company-Chennai.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-chennai/",
+    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-Chennai/",
   },
   verification: {
     google: "google-site-verification-code",
@@ -86,7 +89,7 @@ export const metadata = {
     yahoo: "yahoo-verification-code"
   },
   category: "Technology",
-  classification: "Business Services"
+  classification: "business Services"
 };
 
 export default function AIServicesChennaiPage() {
@@ -100,13 +103,13 @@ export default function AIServicesChennaiPage() {
     },
     {
       title: "Machine Learning Solutions",
-      description: "Advanced ML algorithms and predictive analytics tailored for Chennai's automotive and IT industries.",
+      description: "Advanced ML algorithms and predictive analytics tailored for Chennai businesses and Industries.",
       icon: Brain,
       href: "/machine-learning",
       color: "purple" as const
     },
     {
-      title: "Custom AI Development",
+      title: "custom AI Development",
       description: "Bespoke AI solutions designed specifically for your Chennai business requirements and goals.",
       icon: Code,
       href: "/custom-ai-development",
@@ -121,37 +124,39 @@ export default function AIServicesChennaiPage() {
     },
     {
       title: "Generative AI Services",
-      description: "Harness the power of ChatGPT and generative AI for content creation and automation in Chennai.",
+      description: "Harness the power of ChatGPT and generative AI for content creation and automation In Chennai.",
       icon: Sparkles,
       href: "/generative-ai-services",
       color: "indigo" as const
     },
     {
       title: "Data Engineering",
-      description: "Robust data infrastructure and ETL pipelines for Chennai enterprises and growing businesses.",
+      description: "RobINt data infrastructure and ETL pipelines for Chennai enterprises and growing businesses.",
       icon: Database,
       href: "/data-engineering",
       color: "red" as const
     }
   ];
 
-  const industries = [
-    "Automotive",
+  const Industries = [
+    "Textiles & Garments",
+    "Pharmaceuticals",
+    "Chemicals",
     "Information Technology",
+    "Automotive",
+    "Diamond & Jewelry",
+    "Food Processing",
+    "Real Estate",
     "Healthcare",
-    "Manufacturing",
-    "Port & Logistics",
-    "Financial Services",
-    "Leather & Textiles",
-    "Petrochemicals",
     "Education",
-    "Entertainment"
+    "Logistics",
+    "Manufacturing"
   ];
 
   const stats = [
-    { number: "3,800+", label: "Chennai Businesses Served" },
-    { number: "98%", label: "Client Satisfaction" },
-    { number: "5.1x", label: "Average ROI Increase" },
+    { number: "500+", label: "Businesses Served" },
+    { number: "99.5%", label: "Client Satisfaction" },
+    { number: "5.2x", label: "Average ROI Increase" },
     { number: "24/7", label: "Support Available" }
   ];
 
@@ -166,44 +171,38 @@ export default function AIServicesChennaiPage() {
             "@type": ["Organization", "TechnologyCompany", "LocalBusiness"],
             "name": "Metic.ai - Artificial Intelligence Company In Chennai",
             "alternateName": ["AI Company In Chennai", "Metic AI", "AI Firm Chennai"],
-            "description": "Leading Artificial Intelligence Company In Chennai providing enterprise AI solutions, machine learning development, and custom AI services for businesses across Tamil Nadu.",
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-chennai/",
+            "description": "Leading Artificial Intelligence Company In Chennai providing enterprise AI solutions, machine learning development, and custom AI services for businesses across Chennai.",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-Chennai/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
               "https://www.facebook.com/meticai"
             ],
             "logo": "https://metic.ai/logo.png",
-            "image": ["https://metic.ai/ai-company-chennai.jpg"],
-            "telephone": "+91 7892518414",
+            "image": ["https://metic.ai/ai-company-Chennai.jpg"],
+            "telephone": "+91-789-251-8414",
             "email": "hello@matic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
             "vatID": "IN123456789",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Behind Manyata Tech Park",
-              "addressLocality": "Hebbal, Bangalore",
-              "addressRegion": "Karnataka", 
-              "postalCode": "560077",
-              "addressCountry": "India"
+              "addressRegion": "Chennai",
+              "addressCountry": "US",
+              "postalCode": "35201"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "13.0827",
-              "longitude": "80.2707"
+              "latitude": "32.7794",
+              "longitude": "-86.8287"
             },
             "areaServed": [
               {
-                "@type": "City",
+                "@type": "State",
                 "name": "Chennai",
                 "containedInPlace": {
-                  "@type": "State",
-                  "name": "Tamil Nadu",
-                  "containedInPlace": {
-                    "@type": "Country", 
-                    "name": "India"
-                  }
+                  "@type": "Country", 
+                  "name": "India"
                 }
               }
             ],
@@ -211,10 +210,10 @@ export default function AIServicesChennaiPage() {
               "@type": "GeoCircle",
               "geoMidpoint": {
                 "@type": "GeoCoordinates",
-                "latitude": "13.0827",
-                "longitude": "80.2707"
+                "latitude": "32.7794",
+                "longitude": "-86.8287"
               },
-              "geoRadius": "50000"
+              "geoRadiIN": "200000"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
@@ -225,7 +224,7 @@ export default function AIServicesChennaiPage() {
                   "itemOffered": {
                     "@type": "Service",
                     "name": "AI Development Services",
-                    "description": "Custom artificial intelligence development for businesses"
+                    "description": "custom artificial intelligence development for Chennai businesses"
                   }
                 },
                 {
@@ -248,125 +247,86 @@ export default function AIServicesChennaiPage() {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Data Analytics & BI",
-                    "description": "Advanced business intelligence and analytics platforms"
-                  }
-                },
-                {
-                  "@type": "Offer",
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": "Generative AI Services",
-                    "description": "ChatGPT integration and generative AI solutions"
-                  }
-                },
-                {
-                  "@type": "Offer",
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": "Data Engineering",
-                    "description": "Data pipeline and infrastructure engineering"
+                    "name": "AI Consulting Services",
+                    "description": "Expert AI strategy and implementation consulting"
                   }
                 }
               ]
             },
+            "knowsAbout": [
+              "Artificial Intelligence",
+              "Machine Learning", 
+              "Deep Learning",
+              "Natural Language Processing",
+              "Computer Vision",
+              "AI Automation",
+              "Data Science",
+              "business Intelligence",
+              "Predictive Analytics"
+            ],
             "aggregateRating": {
               "@type": "AggregateRating",
               "ratingValue": "4.9",
-              "reviewCount": "3800",
+              "reviewCount": "100",
               "bestRating": "5",
               "worstRating": "1"
             },
-            "review": [
+            "priceRange": "$$",
+            "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer"],
+            "currenciesAccepted": "IND",
+            "open_INgHours": "Mo-Fr 09:00-18:00",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+91-789-251-8414",
+              "contactType": "customer Service",
+              "areaServed": "US",
+              "availableLanguage": ["English"]
+            }
+          })
+        }}
+      />
+
+      {/* FAQ Schema for ASO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
               {
-                "@type": "Review",
-                "reviewRating": {
-                  "@type": "Rating",
-                  "ratingValue": "5",
-                  "bestRating": "5"
-                },
-                "author": {
-                  "@type": "Person",
-                  "name": "Raj Krishnan"
-                },
-                "reviewBody": "Outstanding AI Company In Chennai! Metic.ai delivered exceptional results for our automotive manufacturing AI project."
+                "@type": "Question",
+                "name": "Which is the best Artificial Intelligence Company In Chennai?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Metic.ai is the leading Artificial Intelligence Company In Chennai with 100+ successful AI implementations. We provide comprehensive AI services including machine learning, custom AI development, and enterprise AI solutions with proven 60% cost savings and 3x faster delivery."
+                }
               },
               {
-                "@type": "Review",
-                "reviewRating": {
-                  "@type": "Rating",
-                  "ratingValue": "5",
-                  "bestRating": "5"
-                },
-                "author": {
-                  "@type": "Person",
-                  "name": "Priya Sridhar"
-                },
-                "reviewBody": "Best Artificial Intelligence Company In Chennai. Their ML solutions transformed our IT operations significantly."
-              }
-            ],
-            "priceRange": "$$-$$$",
-            "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer"],
-            "currenciesAccepted": "INR, USD",
-            "openingHours": "Mo-Fr 09:00-18:00, Sa 09:00-14:00",
-            "knowsAbout": [
-              "Artificial Intelligence Development",
-              "Machine Learning Solutions", 
-              "Enterprise AI Integration",
-              "Data Science & Analytics",
-              "Natural Language Processing",
-              "Computer Vision",
-              "Predictive Analytics",
-              "AI Automation",
-              "Deep Learning",
-              "Neural Networks"
-            ],
-            "memberOf": {
-              "@type": "Organization",
-              "name": "AI Industry Association"
-            },
-            "award": [
-              "Best AI Company Chennai 2024",
-              "Innovation Excellence Award",
-              "Top 10 AI Startups India"
-            ],
-            "faqPage": {
-              "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "Which is the leading Artificial Intelligence Company In Chennai?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Metic.ai is the leading Artificial Intelligence Company In Chennai with 3800+ successful AI implementations, 98% client satisfaction, and expertise across automotive, IT, healthcare, and manufacturing industries."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "What AI services does the top AI Company In Chennai provide?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "As the premier AI Company In Chennai, Metic.ai provides AI integration & deployment, machine learning solutions, custom AI development, data analytics & BI, generative AI services, and data engineering for businesses across Tamil Nadu."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "How to choose the right AI Development Company In Chennai?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Choose an AI Development Company In Chennai with proven experience, successful implementations, industry expertise, and local presence. Metic.ai offers all these with 3800+ completed projects and deep understanding of Chennai's business landscape."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "What makes Metic.ai the best AI Firm In Chennai?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Metic.ai is the best AI Firm In Chennai due to our proven expertise, 98% client satisfaction, 5.1x average ROI increase, 24/7 support, and deep understanding of Chennai's automotive, IT, healthcare and manufacturing industries."
-                  }
+                "@type": "Question", 
+                "name": "What AI services does the top AI Company In Chennai provide?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "As the premier AI Company In Chennai, Metic.ai provides AI integration & deployment, machine learning solutions, custom AI development, data analytics & BI, generative AI services, and data engineering for businesses across Chennai."
                 }
-              ]
-            }
+              },
+              {
+                "@type": "Question",
+                "name": "How to choose the right AI Development Company In Chennai?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Choose an AI Development Company In Chennai with proven experience, successful implementations, industry expertise, and local presence. Metic.ai offers all these with 100+ completed projects and deep understanding of Chennai's business landscape."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What makes Metic.ai the best AI Firm In Chennai?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Metic.ai is the best AI Firm In Chennai due to our proven expertise, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of Chennai's manufacturing, aerospace, healthcare and agricultural Industries."
+                }
+              }
+            ]
           })
         }}
       />
@@ -379,8 +339,8 @@ export default function AIServicesChennaiPage() {
             "@context": "https://schema.org",
             "@type": "Article",
             "headline": "Artificial Intelligence Company In Chennai - AI Services & Solutions",
-            "description": "Comprehensive guide to AI services in Chennai by the leading Artificial Intelligence Company. Expert AI development, machine learning solutions, and enterprise AI implementation.",
-            "image": "https://metic.ai/ai-company-chennai-article.jpg",
+            "description": "Comprehensive guide to AI services In Chennai by the leading Artificial Intelligence Company. Expert AI development, machine learning solutions, and enterprise AI implementation.",
+            "image": "https://metic.ai/ai-company-Chennai-article.jpg",
             "author": {
               "@type": "Organization",
               "name": "Metic.ai"
@@ -394,149 +354,209 @@ export default function AIServicesChennaiPage() {
               }
             },
             "datePublished": "2024-01-15",
-            "dateModified": "2024-12-19",
-            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-chennai/",
+            "dateModified": "2024-10-30",
+            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-Chennai/",
             "keywords": "Artificial Intelligence Company In Chennai, AI Company In Chennai, AI Service In Chennai"
           })
         }}
       />
 
-      {/* Enhanced Creative Hero Section - VSO & Target Keyword Optimized */}
-      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28 relative overflow-hidden">
-        {/* Creative Background Elements */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          {/* Animated Circuit Pattern */}
-          <div className="absolute inset-0 opacity-[0.03]" style={{
-            backgroundImage: `linear-gradient(#FF6B35 1px, transparent 1px), linear-gradient(90deg, #FF6B35 1px, transparent 1px)`,
-            backgroundSize: '50px 50px'
-          }}></div>
-          
-          {/* Floating AI Elements */}
-          <div className="absolute top-20 left-10 w-32 h-32 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute bottom-20 right-10 w-40 h-40 bg-primary-orange/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
-          
-          {/* Geometric Shapes */}
-          <div className="absolute top-1/4 left-1/4 w-2 h-2 bg-primary-orange/30 rounded-full animate-bounce" style={{animationDelay: '1s'}}></div>
-          <div className="absolute top-1/3 right-1/3 w-1.5 h-1.5 bg-orange-400/30 rounded-full animate-bounce" style={{animationDelay: '3s'}}></div>
-          <div className="absolute bottom-1/4 left-1/3 w-2.5 h-2.5 bg-primary-orange/20 rounded-full animate-bounce" style={{animationDelay: '2.5s'}}></div>
+      {/* BreadcrumbList Schema for Enhanced Navigation SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://metic.ai/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI Services",
+                "item": "https://metic.ai/services"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Artificial Intelligence Company In Chennai",
+                "item": "https://metic.ai/artificial-intelligence-ai-services-in-Chennai/"
+              }
+            ]
+          })
+        }}
+      />
+
+      {/* LocalBusiness Schema for Local SEO Enhancement */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Metic.ai - AI Company In Chennai",
+            "description": "Leading Artificial Intelligence Company providing AI services In Chennai",
+            "image": "https://metic.ai/ai-company-Chennai.jpg",
+            "telephone": "+91-789-251-8414",
+            "email": "hello@matic.ai",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "300 Quail Ridge Dr NE",
+              "addressLocality": "ADA",
+              "addressRegion": "MI",
+              "postalCode": "49301",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": "32.3182",
+              "longitude": "-86.9023"
+            },
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-Chennai/",
+            "priceRange": "$$$$",
+            "areaServed": {
+              "@type": "State",
+              "name": "Chennai"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "reviewCount": "180",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "open_INgHours": "Mo-Fr 09:00-18:00",
+            "sameAs": [
+              "https://www.linkedin.com/company/metic-ai",
+              "https://twitter.com/metic_ai"
+            ]
+          })
+        }}
+      />
+
+      {/* Hero Section - VSO & Target Keyword Optimized - Enhanced Mobile/Desktop */}
+      <section className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-16 md:py-24 lg:py-32 overflow-hidden">
+        {/* Animated Background Elements */}
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute top-20 left-10 w-72 h-72 bg-primary-orange rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-20 right-10 w-96 h-96 bg-secondary-orange rounded-full blur-3xl animate-pulse delay-1000"></div>
         </div>
 
         <div className="container px-4 md:px-6 relative z-10">
-          <div className="max-w-4xl mx-auto text-center">
-            {/* Enhanced Location Badge */}
-            <div className="inline-flex items-center gap-3 mb-8 bg-gray-800/50 backdrop-blur-sm rounded-full px-6 py-3 border border-primary-orange/20">
-              <div className="relative">
-                <MapPin className="w-5 h-5 text-primary-orange" />
-                <div className="absolute -top-1 -right-1 w-3 h-3 bg-primary-orange rounded-full animate-ping"></div>
+          <div className="max-w-5xl mx-auto">
+            {/* Trust Badge - Mobile Optimized */}
+            <div className="flex justify-center mb-6 md:mb-8">
+              <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-white/10 backdrop-blur-sm rounded-full border border-primary-orange/30 shadow-xl">
+                <Award className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
+                <span className="text-xs md:text-sm font-bold text-white">⭐ 100+ Successful AI Projects | 98% Client Satisfaction</span>
               </div>
-              <span className="text-sm font-medium text-orange-300">Serving Chennai, Tamil Nadu, India</span>
-              <div className="w-2 h-2 bg-primary-orange rounded-full animate-pulse"></div>
-            </div>
-            
-            {/* Enhanced Title with Animation */}
-            <div className="relative mb-8">
-              <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white relative z-10">
-                <strong>
-                  Artificial Intelligence Company In Chennai
-                </strong>
-                <br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange">
-                  Leading AI Company In Tamil Nadu
-                </span>
-              </h1>
-            </div>
-            
-            {/* Enhanced Description */}
-            <div className="relative mb-10">
-              <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-                Looking for the best <strong className="text-white">AI Company In Chennai</strong>? Metic.ai is the premier 
-                <strong className="text-primary-orange"> Artificial Intelligence Company In Chennai</strong> 
-                with 2100+ successful AI implementations. We help businesses across Tamil Nadu transform with cutting-edge AI solutions, 
-                delivering <span className="text-primary-orange font-semibold">60% cost savings</span> and 
-                <span className="text-primary-orange font-semibold">3x faster results</span> than traditional development.
-              </p>
-              
-              {/* Trust Indicators */}
-              <div className="flex items-center justify-center gap-6 mb-8">
-                <div className="flex items-center gap-2">
-                  <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
-                    <Shield className="w-4 h-4 text-primary-orange" />
-                  </div>
-                  <span className="text-sm text-gray-400">ISO Certified</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
-                    <Award className="w-4 h-4 text-primary-orange" />
-                  </div>
-                  <span className="text-sm text-gray-400">Award Winning</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
-                    <Users className="w-4 h-4 text-primary-orange" />
-                  </div>
-                  <span className="text-sm text-gray-400">3800+ Clients</span>
-                </div>
-              </div>
-            </div>
-            
-            {/* Enhanced CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-              <Link href="/contact">
-                <Button 
-                  variant="primary" 
-                  size="lg" 
-                  className="w-full sm:w-auto bg-gradient-to-r from-primary-orange to-orange-500 hover:from-primary-orange/90 hover:to-orange-500/90 transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl group"
-                >
-                  <Rocket className="w-5 h-5 mr-2 group-hover:animate-pulse" />
-                  Get Free AI Consultation
-                </Button>
-              </Link>
-              <Link href="tel:+917892518414">
-                <Button 
-                  variant="outline" 
-                  size="lg" 
-                  className="w-full sm:w-auto border-primary-orange/30 text-primary-orange hover:bg-primary-orange/10 hover:border-primary-orange/50 transform hover:scale-105 transition-all duration-300 group"
-                >
-                  <Phone className="w-4 h-4 mr-2 group-hover:animate-pulse" />
-                  Call: +1-789-251-8414
-                </Button>
-              </Link>
             </div>
 
-            {/* Enhanced Stats with Animation */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-3xl mx-auto">
-              {stats.map((stat, index) => (
-                <div key={index} className="text-center group">
-                  <div className="relative mb-3">
-                    <div className="absolute inset-0 bg-primary-orange/10 rounded-full blur-xl group-hover:blur-2xl transition-all duration-300"></div>
-                    <div className="relative bg-gray-800/50 backdrop-blur-sm rounded-full p-4 border border-primary-orange/20 group-hover:border-primary-orange/40 transition-all duration-300">
-                      <div className="text-3xl font-bold text-primary-orange mb-1 group-hover:scale-110 transition-transform duration-300">{stat.number}</div>
+            <div className="text-center">  
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight mb-4 md:mb-6 leading-tight">
+                <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
+                  Artificial Intelligence
+                </span>
+                <br />
+                <span className="text-white">Company In Chennai</span>
+              </h1>
+              
+              {/* VSO Optimized Description - Mobile Friendly */}
+              <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 mb-6 md:mb-8 max-w-4xl mx-auto leading-relaxed px-4">
+                Looking for the <strong className="text-primary-orange">best AI Company In Chennai</strong>? Metic.ai is the premier <strong className="text-white">Artificial Intelligence Company In Chennai</strong> delivering enterprise AI solutions with proven results.
+              </p>
+
+              {/* Mobile-Optimized CTA Buttons */}
+              <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center mb-10 md:mb-16 px-4">
+                <Link href="/contact" className="w-full sm:w-auto">
+                  <Button variant="primary" size="lg" className="w-full sm:w-auto text-base md:text-lg px-6 md:px-8 py-3 md:py-4 shadow-2xl hover:shadow-primary-orange/50 transform hover:scale-105 transition-all">
+                    <Rocket className="w-5 h-5 mr-2" />
+                    Get Free AI Consultation
+                  </Button>
+                </Link>
+                <Link href="tel:+917892518414" className="w-full sm:w-auto">
+                  <Button variant="outline" size="lg" className="w-full sm:w-auto text-base md:text-lg px-6 md:px-8 py-3 md:py-4 border-2 border-primary-orange text-primary-orange hover:bg-primary-orange hover:text-white">
+                    <Phone className="w-5 h-5 mr-2" />
+                    Call: +91-789-251-8414
+                  </Button>
+                </Link>
+              </div>
+
+              {/* Voice Search Optimized Stats - Responsive Grid */}
+              <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8 max-w-4xl mx-auto mb-10 md:mb-12 px-4">
+                {stats.map((stat, index) => (
+                  <div key={index} className="bg-white/5 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-white/10 hover:border-primary-orange/50 transition-all transform hover:scale-105">
+                    <div className="text-2xl md:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent mb-2">
+                      {stat.number}
                     </div>
+                    <div className="text-xs md:text-sm text-gray-400">{stat.label}</div>
                   </div>
-                  <div className="text-sm text-gray-400 group-hover:text-gray-300 transition-colors duration-300">{stat.label}</div>
+                ))}
+              </div>
+
+              {/* VSO Keywords Section - Mobile Optimized */}
+              <div className="text-center px-4">
+                <p className="text-gray-400 text-sm md:text-base mb-4">
+                  <strong className="text-white">Trusted as the top AI Service In Chennai</strong> by leading businesses
+                </p>
+                <div className="flex flex-wrap justify-center gap-2 md:gap-3 text-xs md:text-sm">
+                  <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
+                    AI Firm In Chennai
+                  </span>
+                  <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
+                    AI Development Company
+                  </span>
+                  <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
+                    Best AI Company Chennai
+                  </span>
+                  <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
+                    Machine Learning Services
+                  </span>
                 </div>
-              ))}
+              </div>
             </div>
           </div>
         </div>
+
+        {/* Bottom Wave Decoration */}
+        <div className="absolute bottom-0 left-0 right-0">
+          <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-auto">
+            <path d="M0 0L60 10C120 20 240 40 360 46.7C480 53 600 47 720 43.3C840 40 960 40 1080 46.7C1200 53 1320 67 1380 73.3L1440 80V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0V0Z" fill="white"/>
+          </svg>
+        </div>
       </section>
 
-      {/* Services Section */}
-      <section className="py-20 bg-white">
+      {/* Services Section - Enhanced Mobile & Desktop */}
+      <section className="py-16 md:py-20 lg:py-24 bg-gradient-to-b from-white to-gray-50">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                <strong>AI Services</strong> by Leading <span className="text-primary-orange">Artificial Intelligence Company In Chennai</span>
+            <div className="text-center mb-12 md:mb-16">
+              {/* Section Badge */}
+              <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-primary-orange/10 rounded-full mb-6 md:mb-8">
+                <Brain className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
+                <span className="text-xs md:text-sm font-bold text-primary-orange">COMPREHENSIVE AI SERVICES</span>
+              </div>
+
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 leading-tight px-4">
+                <strong className="text-gray-900">AI Services</strong> by Leading{" "}
+                <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">
+                  Artificial Intelligence Company In Chennai
+                </span>
               </h2>
-              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Comprehensive artificial intelligence services from Chennai's most trusted <strong>AI Company In Chennai</strong>. 
-                Transforming businesses with cutting-edge AI solutions tailored for Tamil Nadu's diverse industrial landscape.
+              <div className="w-20 md:w-24 h-1 md:h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 md:mb-8 rounded-full"></div>
+              <p className="text-base md:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-4">
+                Comprehensive artificial intelligence services from Chennai's most Trusted <strong className="text-gray-900">AI Company In Chennai</strong>. 
+                Transforming businesses with cutting-edge AI solutions tailored for Chennai's Industrial landscape.
               </p>
             </div>
             
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Mobile: 1 col, Tablet: 2 cols, Desktop: 3 cols */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
               {services.map((service, index) => {
                 const IconComponent = service.icon;
                 const colorClasses = {
@@ -549,101 +569,41 @@ export default function AIServicesChennaiPage() {
                 };
                 
                 return (
-                  <div key={index} className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100">
-                    <div className={`w-16 h-16 rounded-full flex items-center justify-center mb-6 ${colorClasses[service.color]}`}>
-                      <IconComponent className="w-8 h-8" />
+                  <div 
+                    key={index} 
+                    className="group bg-white rounded-2xl p-6 md:p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border-2 border-gray-100 hover:border-primary-orange/50 transform hover:-translate-y-2"
+                  >
+                    <div className={`w-14 h-14 md:w-16 md:h-16 rounded-2xl flex items-center justify-center mb-5 md:mb-6 ${colorClasses[service.color]} group-hover:scale-110 transition-transform`}>
+                      <IconComponent className="w-7 h-7 md:w-8 md:h-8" />
                     </div>
                     
-                    <h3 className="text-xl font-bold mb-4">{service.title}</h3>
-                    <p className="text-gray-600 mb-6 leading-relaxed">{service.description}</p>
+                    <h3 className="text-lg md:text-xl font-bold mb-3 md:mb-4 text-gray-900 group-hover:text-primary-orange transition-colors">
+                      {service.title}
+                    </h3>
+                    <p className="text-sm md:text-base text-gray-600 mb-5 md:mb-6 leading-relaxed">
+                      {service.description}
+                    </p>
                     
-                    <Link href={service.href} className="inline-flex items-center text-primary-orange hover:text-primary-orange/80 font-medium">
+                    <Link 
+                      href={service.href} 
+                      className="inline-flex items-center text-primary-orange hover:text-secondary-orange font-semibold text-sm md:text-base group-hover:gap-3 transition-all"
+                    >
                       Learn More
-                      <ArrowRight className="w-4 h-4 ml-2" />
+                      <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                     </Link>
                   </div>
                 );
               })}
             </div>
-          </div>
-        </div>
-      </section>
 
-      {/* Industries Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Industries We Serve in Chennai
-              </h2>
-              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Delivering specialized AI solutions across Chennai's key industries and business sectors.
-              </p>
-            </div>
-            
-            <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-4">
-              {industries.map((industry, index) => (
-                <div key={index} className="bg-white rounded-lg p-4 text-center shadow-sm hover:shadow-md transition-shadow">
-                  <div className="w-8 h-8 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
-                    <Target className="w-4 h-4 text-primary-orange" />
-                  </div>
-                  <h3 className="font-medium text-gray-800">{industry}</h3>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Why Choose Us Section */}
-      <section className="py-20 bg-white">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Why Choose Metic.ai as Your <span className="text-primary-orange">AI Firm In Chennai</span>
-              </h2>
-              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                As the premier <strong>AI Development Company In Chennai</strong>, we're trusted by businesses across Tamil Nadu 
-                for our expertise, proven results, and commitment to client success.
-              </p>
-            </div>
-            
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-              <div className="text-center">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6 mx-auto">
-                  <Award className="w-8 h-8 text-blue-600" />
-                </div>
-                <h3 className="text-xl font-bold mb-4">Proven Expertise</h3>
-                <p className="text-gray-600">Years of experience delivering AI solutions for Chennai businesses across all industries.</p>
-              </div>
-              
-              <div className="text-center">
-                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6 mx-auto">
-                  <TrendingUp className="w-8 h-8 text-green-600" />
-                </div>
-                <h3 className="text-xl font-bold mb-4">Measurable Results</h3>
-                <p className="text-gray-600">Data-driven AI solutions that deliver concrete ROI and business growth for Chennai companies.</p>
-              </div>
-              
-              <div className="text-center">
-                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6 mx-auto">
-                  <Users className="w-8 h-8 text-purple-600" />
-                </div>
-                <h3 className="text-xl font-bold mb-4">Local Partnership</h3>
-                <p className="text-gray-600">Dedicated support and partnership with deep understanding of the Chennai business landscape.</p>
-              </div>
-              
-              <div className="text-center">
-                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-6 mx-auto">
-                  <Shield className="w-8 h-8 text-orange-600" />
-                </div>
-                <h3 className="text-xl font-bold mb-4">Enterprise Security</h3>
-                <p className="text-gray-600">Bank-level security and compliance standards protecting your Chennai business data.</p>
-              </div>
+            {/* CTA Below Services */}
+            <div className="text-center mt-12 md:mt-16">
+              <Link href="/contact">
+                <Button variant="primary" size="lg" className="px-8 md:px-10 py-4 text-base md:text-lg shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all">
+                  <Sparkles className="w-5 h-5 mr-2" />
+                  Explore All AI Services
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
@@ -660,14 +620,14 @@ export default function AIServicesChennaiPage() {
                 </h2>
                 <div className="w-20 h-1 bg-primary-orange mb-8"></div>
                 <p className="text-lg text-gray-700 mb-6">
-                  Established as Tamil Nadu's leading <strong>AI Company In Chennai</strong>, Metic.ai has been at the forefront of artificial intelligence 
-                  innovation since 2020. We specialize in delivering enterprise-grade AI solutions that transform businesses across Chennai's 
-                  key industries including automotive, IT, healthcare, manufacturing, and port logistics.
+                  Established as Chennai's leading <strong>AI Company In Chennai</strong>, Metic.ai has been at the forefront of artificial intelligence 
+                  innovation since 2020. We specialize US delivering enterprise-grade AI solutions that transform businesses across Chennai's 
+                  unique Industries including Textiles & Garments, Pharmaceuticals, tourism & hospitality, Chemicals, and Information Technology.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   Our expertise as an <strong>AI Development Company In Chennai</strong> encompasses machine learning, deep learning, natural language processing, 
-                  computer vision, and robotic process automation. We've successfully completed over 3800 AI projects, making us the most 
-                  trusted <strong>AI Service In Chennai</strong>.
+                  computer vision, and robotic process automation. We've successfully completed over 100 AI projects, making US the most 
+                  Trusted <strong>AI Service In Chennai</strong> from the Ambattur Industrial Area to the ECR (East Coast Road).
                 </p>
                 <div className="grid grid-cols-2 gap-6 mt-8">
                   <div className="text-center">
@@ -675,7 +635,7 @@ export default function AIServicesChennaiPage() {
                       <Award className="w-6 h-6 text-primary-orange" />
                     </div>
                     <div className="font-bold text-xl text-gray-900">2020</div>
-                    <div className="text-gray-600 text-sm">Founded in Chennai</div>
+                    <div className="text-gray-600 text-sm">Founded</div>
                   </div>
                   <div className="text-center">
                     <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
@@ -715,10 +675,10 @@ export default function AIServicesChennaiPage() {
                 <div className="bg-white rounded-xl p-6 shadow-sm">
                   <h3 className="font-bold text-lg mb-3 flex items-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
-                    Custom AI Development
+                    custom AI Development
                   </h3>
                   <p className="text-gray-600">
-                    Bespoke artificial intelligence solutions tailored to your specific business requirements and industry challenges in Chennai.
+                    Bespoke artificial intelligence solutions tailored to your specific business requirements and industry challenges In Chennai.
                   </p>
                 </div>
                 
@@ -747,166 +707,199 @@ export default function AIServicesChennaiPage() {
         </div>
       </section>
 
-      {/* Enhanced Creative Client Testimonials for Entity Recognition & Trust */}
-      <section className="py-24 bg-gradient-to-br from-white via-orange-50/30 to-white relative overflow-hidden">
-        {/* Creative Background Elements */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          {/* Subtle Pattern */}
-          <div className="absolute inset-0 opacity-[0.02]" style={{
-            backgroundImage: `radial-gradient(circle at 25px 25px, #FF6B35 2px, transparent 2px)`,
-            backgroundSize: '50px 50px'
-          }}></div>
-          
-          {/* Floating Elements */}
-          <div className="absolute top-20 left-10 w-32 h-32 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute bottom-20 right-10 w-40 h-40 bg-orange-400/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '3s'}}></div>
-        </div>
-
-        <div className="container px-4 md:px-6 relative z-10">
-          <div className="max-w-7xl mx-auto">
-            {/* Enhanced Section Header */}
-            <div className="text-center mb-20">
-              {/* Badge */}
-              <div className="inline-flex items-center gap-2 px-6 py-3 bg-white rounded-full shadow-lg border-2 border-primary-orange/20 mb-8 hover:border-primary-orange/40 transition-all group">
-                <Quote className="w-5 h-5 text-primary-orange animate-pulse" />
-                <span className="text-sm font-bold text-gray-800">CLIENT SUCCESS STORIES</span>
-                <Sparkles className="w-4 h-4 text-primary-orange" />
-              </div>
-
-              <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                <span className="text-gray-900">What Chennai Businesses Say</span>
-                <br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange">
-                  About Our AI Services
-                </span>
+      {/* Industries Section with Real Images */}
+      <section className="py-20 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                Industries We Serve In Chennai
               </h2>
-              <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange mx-auto mb-8 rounded-full"></div>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Real results from real businesses across Chennai who chose Metic.ai as their 
-                <strong> AI Development Company In Chennai</strong>.
+              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                Delivering specialized AI solutions across Chennai's key Industries and business sectors.
               </p>
             </div>
             
-            {/* Enhanced Creative Testimonial Cards */}
-            <div className="grid md:grid-cols-3 gap-8 mb-16">
-              {/* Testimonial 1 - Enhanced */}
-              <div className="group relative">
-                <div className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/30 transition-all duration-500 relative overflow-hidden h-full">
-                  {/* Background Gradient */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-orange-400/0 group-hover:from-primary-orange/5 group-hover:to-orange-400/5 transition-all duration-500"></div>
-                  
-                  {/* Quote Icon */}
-                  <div className="relative mb-6">
-                    <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-orange-400 rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                      <Quote className="w-8 h-8 text-white" />
-                    </div>
-                    
-                    {/* Stars */}
-                    <div className="flex gap-1 mb-4">
-                      {[...Array(5)].map((_, i) => (
-                        <Star key={i} className="w-5 h-5 text-yellow-400 fill-current group-hover:animate-pulse" style={{animationDelay: `${i * 0.1}s`}} />
-                      ))}
-                    </div>
+            {/* Mobile: 1 col, Tablet: 2 cols, Desktop: 4 cols - 12 Industries Total */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              {/* Manufacturing */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&h=400&fit=crop" 
+                    alt="Manufacturing industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Manufacturing</h3>
                   </div>
-
-                  {/* Content */}
-                  <div className="relative z-10">
-                    <p className="text-gray-700 mb-6 italic text-lg leading-relaxed">
-                      "Metic.ai revolutionized our automotive manufacturing with AI-powered quality control. As the best 
-                      <strong className="text-primary-orange"> AI Company In Chennai</strong>, 
-                      they delivered beyond our expectations with <span className="text-primary-orange font-semibold">45% reduction in defects</span>."
-                    </p>
-                    
-                    {/* Author */}
-                    <div className="flex items-center gap-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-primary-orange/20 to-orange-400/20 rounded-full flex items-center justify-center">
-                        <Users className="w-6 h-6 text-primary-orange" />
-                      </div>
-                      <div>
-                        <div className="font-bold text-gray-900">Raj Krishnan</div>
-                        <div className="text-sm text-gray-600">CEO, TechFlow Auto, Chennai</div>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  {/* Bottom Accent */}
-                  <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-orange-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                 </div>
               </div>
 
-              {/* Testimonial 2 - Enhanced */}
-              <div className="group relative">
-                <div className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/30 transition-all duration-500 relative overflow-hidden h-full">
-                  <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-orange-400/0 group-hover:from-primary-orange/5 group-hover:to-orange-400/5 transition-all duration-500"></div>
-                  
-                  <div className="relative mb-6">
-                    <div className="w-16 h-16 bg-gradient-to-br from-orange-400 to-primary-orange rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                      <BarChart3 className="w-8 h-8 text-white" />
-                    </div>
-                    
-                    <div className="flex gap-1 mb-4">
-                      {[...Array(5)].map((_, i) => (
-                        <Star key={i} className="w-5 h-5 text-yellow-400 fill-current group-hover:animate-pulse" style={{animationDelay: `${i * 0.1}s`}} />
-                      ))}
-                    </div>
+              {/* Aerospace */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?w=500&h=400&fit=crop" 
+                    alt="Aerospace industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Aerospace</h3>
                   </div>
-
-                  <div className="relative z-10">
-                    <p className="text-gray-700 mb-6 italic text-lg leading-relaxed">
-                      "Outstanding <strong className="text-primary-orange">AI Service In Chennai</strong>! Their machine learning solutions optimized our IT operations and customer support. 
-                      <span className="text-primary-orange font-semibold">ROI was achieved within 4 months</span> of implementation."
-                    </p>
-                    
-                    <div className="flex items-center gap-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-primary-orange/20 to-orange-400/20 rounded-full flex items-center justify-center">
-                        <Users className="w-6 h-6 text-primary-orange" />
-                      </div>
-                      <div>
-                        <div className="font-bold text-gray-900">Dr. Priya Sridhar</div>
-                        <div className="text-sm text-gray-600">CTO, Chennai Tech Solutions</div>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-orange-400 to-primary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                 </div>
               </div>
 
-              {/* Testimonial 3 - Enhanced */}
-              <div className="group relative">
-                <div className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/30 transition-all duration-500 relative overflow-hidden h-full">
-                  <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-orange-400/0 group-hover:from-primary-orange/5 group-hover:to-orange-400/5 transition-all duration-500"></div>
-                  
-                  <div className="relative mb-6">
-                    <div className="w-16 h-16 bg-gradient-to-br from-primary-orange via-orange-400 to-primary-orange rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                      <TrendingUp className="w-8 h-8 text-white" />
-                    </div>
-                    
-                    <div className="flex gap-1 mb-4">
-                      {[...Array(5)].map((_, i) => (
-                        <Star key={i} className="w-5 h-5 text-yellow-400 fill-current group-hover:animate-pulse" style={{animationDelay: `${i * 0.1}s`}} />
-                      ))}
-                    </div>
+              {/* Healthcare */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=500&h=400&fit=crop" 
+                    alt="Healthcare industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Healthcare</h3>
                   </div>
+                </div>
+              </div>
 
-                  <div className="relative z-10">
-                    <p className="text-gray-700 mb-6 italic text-lg leading-relaxed">
-                      "Exceptional <strong className="text-primary-orange">AI Firm In Chennai</strong>. Their custom AI development for our healthcare operations 
-                      <span className="text-primary-orange font-semibold">increased efficiency by 55%</span>. Highly recommend for any AI project."
-                    </p>
-                    
-                    <div className="flex items-center gap-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-primary-orange/20 to-orange-400/20 rounded-full flex items-center justify-center">
-                        <Users className="w-6 h-6 text-primary-orange" />
-                      </div>
-                      <div>
-                        <div className="font-bold text-gray-900">Arun Kumar</div>
-                        <div className="text-sm text-gray-600">Director, MedTech Chennai</div>
-                      </div>
-                    </div>
+              {/* Agriculture */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=500&h=400&fit=crop" 
+                    alt="Agriculture industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Agriculture</h3>
                   </div>
-                  
-                  <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                </div>
+              </div>
+
+              {/* Technology */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&h=400&fit=crop" 
+                    alt="Technology industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Technology</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Automotive */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=500&h=400&fit=crop" 
+                    alt="Automotive industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Automotive</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Financial Services */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=500&h=400&fit=crop" 
+                    alt="Financial Services industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Financial Services</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Transportation */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=500&h=400&fit=crop" 
+                    alt="Transportation industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Transportation</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Education */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=500&h=400&fit=crop" 
+                    alt="Education industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Education</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Energy */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=500&h=400&fit=crop" 
+                    alt="Energy industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Energy</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Call Center - NEW */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=500&h=400&fit=crop" 
+                    alt="Call Center AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Call Center</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* IT Services - NEW */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=500&h=400&fit=crop" 
+                    alt="IT Services AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">IT Services</h3>
+                  </div>
                 </div>
               </div>
             </div>
@@ -914,480 +907,499 @@ export default function AIServicesChennaiPage() {
         </div>
       </section>
 
-      {/* Comprehensive SEO Content Section - 2000+ Words */}
+      {/* Why Choose US Section */}
       <section className="py-20 bg-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
-            {/* Main Content Header */}
             <div className="text-center mb-16">
-              <h2 className="text-4xl font-bold tracking-tighter sm:text-5xl mb-6">
-                <strong>Artificial Intelligence Company In Chennai</strong> - Comprehensive AI Solutions for <span className="text-primary-orange">Tamil Nadu Businesses</span>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                Why Choose Metic.ai as Your <span className="text-primary-orange">AI Firm In Chennai</span>
               </h2>
-              <div className="w-24 h-1 bg-primary-orange mx-auto mb-8"></div>
-              <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                As the leading <strong>AI Company In Chennai</strong>, Metic.ai transforms businesses across Tamil Nadu with cutting-edge artificial intelligence solutions. 
-                Our expert team delivers enterprise-grade AI development, machine learning implementations, and intelligent automation systems that drive measurable results 
-                for Chennai's diverse industrial landscape.
+              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                As the premier <strong>AI Development Company In Chennai</strong>, we're Trusted by businesses across Chennai 
+                for our expertise, proven results, and commitment to client success US Manchester of India.
               </p>
             </div>
-
-            {/* Detailed Content Grid */}
-            <div className="prose prose-lg max-w-none">
+            
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+                  <Award className="w-8 h-8 text-blue-600" />
+                </div>
+                <h3 className="text-xl font-bold mb-4">Proven Expertise</h3>
+                <p className="text-gray-600">Years of experience delivering AI solutions for Chennai businesses across all Industries.</p>
+              </div>
               
-              {/* AI Services Deep Dive */}
-              <div className="mb-16">
-                <h3 className="text-3xl font-bold mb-8 text-gray-900">
-                  Complete <span className="text-primary-orange">AI Development Services</span> in Chennai
-                </h3>
-                
-                <div className="grid md:grid-cols-2 gap-12 mb-12">
-                  <div>
-                    <h4 className="text-2xl font-semibold mb-6 text-gray-900">Enterprise AI Integration</h4>
-                    <p className="text-gray-700 mb-6 leading-relaxed">
-                      Metic.ai specializes in seamless <strong>AI integration services in Chennai</strong> for large-scale enterprises across the IT Corridor, OMR, and major industrial zones. 
-                      Our enterprise AI solutions are designed specifically for Chennai's automotive, information technology, healthcare, and manufacturing sectors, 
-                      ensuring minimal disruption to existing workflows while maximizing operational efficiency.
-                    </p>
-                    <p className="text-gray-700 mb-6 leading-relaxed">
-                      As the premier <strong>Artificial Intelligence Company In Chennai</strong>, we understand the unique challenges faced by businesses in Tamil Nadu. 
-                      Our AI integration methodology includes comprehensive business analysis, custom solution architecture, phased implementation strategies, 
-                      and ongoing optimization to ensure your Chennai business achieves sustained competitive advantages through artificial intelligence.
-                    </p>
-                    <ul className="list-disc list-inside text-gray-700 space-y-2">
-                      <li>Legacy system AI modernization for Chennai enterprises</li>
-                      <li>Cloud-native AI infrastructure deployment</li>
-                      <li>Real-time AI analytics and business intelligence</li>
-                      <li>Scalable AI solutions for growing Tamil Nadu businesses</li>
-                    </ul>
-                  </div>
-                  
-                  <div>
-                    <h4 className="text-2xl font-semibold mb-6 text-gray-900">Custom Machine Learning Development</h4>
-                    <p className="text-gray-700 mb-6 leading-relaxed">
-                      Our <strong>machine learning development services in Chennai</strong> cater to the specific needs of Tamil Nadu's diverse business ecosystem. 
-                      From predictive analytics for Chennai's port logistics industry to computer vision applications for automotive manufacturing, 
-                      Metic.ai delivers bespoke ML solutions that drive tangible business outcomes.
-                    </p>
-                    <p className="text-gray-700 mb-6 leading-relaxed">
-                      As an experienced <strong>AI Development Company In Chennai</strong>, we leverage advanced algorithms including deep learning, 
-                      natural language processing, and reinforcement learning to solve complex business challenges. Our ML solutions have helped Chennai 
-                      businesses achieve an average ROI of 300% within the first year of implementation, making us the most trusted AI partner in Tamil Nadu.
-                    </p>
-                    <ul className="list-disc list-inside text-gray-700 space-y-2">
-                      <li>Predictive maintenance for Chennai manufacturing</li>
-                      <li>Intelligent supply chain optimization</li>
-                      <li>Customer behavior analytics and personalization</li>
-                      <li>Automated quality control systems</li>
-                    </ul>
-                  </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+                  <TrendingUp className="w-8 h-8 text-green-600" />
                 </div>
+                <h3 className="text-xl font-bold mb-4">Measurable Results</h3>
+                <p className="text-gray-600">Data-driven AI solutions that deliver concrete ROI and business growth for Chennai companies.</p>
               </div>
-
-              {/* Industry Expertise */}
-              <div className="mb-16">
-                <h3 className="text-3xl font-bold mb-8 text-gray-900">
-                  Industry-Specific <span className="text-primary-orange">AI Solutions</span> for Chennai Businesses
-                </h3>
-                
-                <div className="grid md:grid-cols-3 gap-8 mb-12">
-                  <div className="bg-gray-50 p-8 rounded-xl">
-                    <h4 className="text-xl font-bold mb-4 text-gray-900">Automotive AI Solutions</h4>
-                    <p className="text-gray-700 mb-4 leading-relaxed">
-                      Chennai's automotive industry, including major manufacturers in the city's industrial corridors, benefits from our specialized 
-                      <strong> automotive AI solutions</strong>. Our AI systems optimize production lines, enhance quality control, and implement 
-                      predictive maintenance strategies that reduce downtime by up to 40%.
-                    </p>
-                    <p className="text-gray-700 leading-relaxed">
-                      From computer vision-based defect detection to AI-powered supply chain management, we help Chennai's automotive sector 
-                      maintain its position as India's Detroit through intelligent automation and data-driven decision making.
-                    </p>
-                  </div>
-                  
-                  <div className="bg-gray-50 p-8 rounded-xl">
-                    <h4 className="text-xl font-bold mb-4 text-gray-900">IT & Software AI Integration</h4>
-                    <p className="text-gray-700 mb-4 leading-relaxed">
-                      Chennai's thriving IT corridor along OMR houses numerous global technology companies that trust Metic.ai for 
-                      <strong> enterprise AI development</strong>. Our solutions include intelligent code analysis, automated testing frameworks, 
-                      and AI-powered project management systems that enhance productivity by 60%.
-                    </p>
-                    <p className="text-gray-700 leading-relaxed">
-                      We specialize in developing AI solutions for software development lifecycle optimization, intelligent customer support systems, 
-                      and data analytics platforms that help Chennai's IT companies deliver superior services to their global clientele.
-                    </p>
-                  </div>
-                  
-                  <div className="bg-gray-50 p-8 rounded-xl">
-                    <h4 className="text-xl font-bold mb-4 text-gray-900">Healthcare AI Innovation</h4>
-                    <p className="text-gray-700 mb-4 leading-relaxed">
-                      Chennai's healthcare sector, including leading hospitals and medical research institutions, leverages our 
-                      <strong> healthcare AI solutions</strong> for improved patient outcomes. Our AI systems assist in medical imaging analysis, 
-                      drug discovery, and patient management optimization.
-                    </p>
-                    <p className="text-gray-700 leading-relaxed">
-                      From AI-powered diagnostic tools to predictive healthcare analytics, we help Chennai's medical institutions 
-                      deliver world-class healthcare services while reducing operational costs and improving patient satisfaction rates.
-                    </p>
-                  </div>
+              
+              <div className="text-center">
+                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+                  <Users className="w-8 h-8 text-purple-600" />
                 </div>
+                <h3 className="text-xl font-bold mb-4">Local Partnership</h3>
+                <p className="text-gray-600">Dedicated support and partnership with deep understanding of Chennai's unique business challenges and opportunities.</p>
               </div>
-
-              {/* Technology Stack & Methodologies */}
-              <div className="mb-16">
-                <h3 className="text-3xl font-bold mb-8 text-gray-900">
-                  Advanced <span className="text-primary-orange">AI Technologies</span> & Implementation Methodologies
-                </h3>
-                
-                <div className="grid md:grid-cols-2 gap-12">
-                  <div>
-                    <h4 className="text-2xl font-semibold mb-6 text-gray-900">Cutting-Edge AI Technologies</h4>
-                    <p className="text-gray-700 mb-6 leading-relaxed">
-                      As the most innovative <strong>AI Firm In Chennai</strong>, Metic.ai employs state-of-the-art artificial intelligence technologies 
-                      to deliver superior solutions for Tamil Nadu businesses. Our technology stack includes the latest advancements in machine learning, 
-                      deep learning, natural language processing, computer vision, and generative AI.
-                    </p>
-                    <p className="text-gray-700 mb-6 leading-relaxed">
-                      We leverage leading AI frameworks including TensorFlow, PyTorch, and custom neural network architectures optimized for 
-                      Chennai's specific business requirements. Our AI solutions are built on robust cloud infrastructure ensuring scalability, 
-                      security, and high availability for mission-critical business operations.
-                    </p>
-                    
-                    <div className="bg-primary-orange/5 p-6 rounded-lg mb-6">
-                      <h5 className="font-bold text-gray-900 mb-4">Core AI Technologies:</h5>
-                      <ul className="grid grid-cols-2 gap-2 text-sm text-gray-700">
-                        <li>• Deep Learning & Neural Networks</li>
-                        <li>• Natural Language Processing</li>
-                        <li>• Computer Vision & Image Recognition</li>
-                        <li>• Predictive Analytics & Forecasting</li>
-                        <li>• Generative AI & Large Language Models</li>
-                        <li>• Reinforcement Learning</li>
-                        <li>• Edge AI & IoT Integration</li>
-                        <li>• Robotic Process Automation</li>
-                      </ul>
-                    </div>
-                  </div>
-                  
-                  <div>
-                    <h4 className="text-2xl font-semibold mb-6 text-gray-900">Proven Implementation Methodology</h4>
-                    <p className="text-gray-700 mb-6 leading-relaxed">
-                      Our success as the leading <strong>AI Service In Chennai</strong> stems from our proven implementation methodology that ensures 
-                      successful AI project delivery across diverse industries in Tamil Nadu. We follow a structured approach that minimizes risks 
-                      while maximizing the return on investment for our Chennai clients.
-                    </p>
-                    <p className="text-gray-700 mb-6 leading-relaxed">
-                      From initial consultation and feasibility analysis to deployment and ongoing optimization, our methodology is designed specifically 
-                      for the Chennai business environment. We understand local market dynamics, regulatory requirements, and cultural considerations 
-                      that impact AI implementation success in Tamil Nadu.
-                    </p>
-                    
-                    <div className="space-y-4">
-                      <div className="flex items-start gap-4">
-                        <div className="w-8 h-8 bg-primary-orange rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                          <span className="text-white font-bold text-sm">1</span>
-                        </div>
-                        <div>
-                          <h6 className="font-semibold text-gray-900 mb-2">Discovery & Strategy</h6>
-                          <p className="text-gray-700 text-sm">Comprehensive business analysis and AI opportunity identification</p>
-                        </div>
-                      </div>
-                      
-                      <div className="flex items-start gap-4">
-                        <div className="w-8 h-8 bg-primary-orange rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                          <span className="text-white font-bold text-sm">2</span>
-                        </div>
-                        <div>
-                          <h6 className="font-semibold text-gray-900 mb-2">Solution Design</h6>
-                          <p className="text-gray-700 text-sm">Custom AI architecture design and technology selection</p>
-                        </div>
-                      </div>
-                      
-                      <div className="flex items-start gap-4">
-                        <div className="w-8 h-8 bg-primary-orange rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                          <span className="text-white font-bold text-sm">3</span>
-                        </div>
-                        <div>
-                          <h6 className="font-semibold text-gray-900 mb-2">Development & Testing</h6>
-                          <p className="text-gray-700 text-sm">Agile development with continuous testing and validation</p>
-                        </div>
-                      </div>
-                      
-                      <div className="flex items-start gap-4">
-                        <div className="w-8 h-8 bg-primary-orange rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                          <span className="text-white font-bold text-sm">4</span>
-                        </div>
-                        <div>
-                          <h6 className="font-semibold text-gray-900 mb-2">Deployment & Optimization</h6>
-                          <p className="text-gray-700 text-sm">Seamless deployment with ongoing performance optimization</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+              
+              <div className="text-center">
+                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+                  <Shield className="w-8 h-8 text-orange-600" />
                 </div>
-              </div>
-
-              {/* Success Stories & Case Studies */}
-              <div className="mb-16">
-                <h3 className="text-3xl font-bold mb-8 text-gray-900">
-                  Chennai Business <span className="text-primary-orange">Success Stories</span> & AI Transformation Results
-                </h3>
-                
-                <p className="text-xl text-gray-600 mb-12 leading-relaxed">
-                  Our track record as the most trusted <strong>Artificial Intelligence Company In Chennai</strong> is demonstrated through numerous 
-                  successful AI implementations across Tamil Nadu's business landscape. These case studies showcase the tangible benefits our 
-                  Chennai clients have achieved through strategic AI adoption.
-                </p>
-                
-                <div className="grid lg:grid-cols-3 gap-8 mb-12">
-                  <div className="bg-gradient-to-br from-gray-50 to-white p-8 rounded-xl border border-gray-200">
-                    <div className="flex items-center gap-4 mb-6">
-                      <div className="w-12 h-12 bg-primary-orange/10 rounded-lg flex items-center justify-center">
-                        <TrendingUp className="w-6 h-6 text-primary-orange" />
-                      </div>
-                      <h4 className="text-xl font-bold text-gray-900">Manufacturing Excellence</h4>
-                    </div>
-                    <p className="text-gray-700 mb-4 leading-relaxed">
-                      A leading automotive manufacturer in Chennai's industrial corridor achieved 45% reduction in production defects and 
-                      30% improvement in operational efficiency through our AI-powered quality control and predictive maintenance systems.
-                    </p>
-                    <div className="grid grid-cols-2 gap-4 mt-6">
-                      <div className="text-center">
-                        <div className="text-2xl font-bold text-primary-orange">45%</div>
-                        <div className="text-sm text-gray-600">Defect Reduction</div>
-                      </div>
-                      <div className="text-center">
-                        <div className="text-2xl font-bold text-primary-orange">30%</div>
-                        <div className="text-sm text-gray-600">Efficiency Gain</div>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div className="bg-gradient-to-br from-gray-50 to-white p-8 rounded-xl border border-gray-200">
-                    <div className="flex items-center gap-4 mb-6">
-                      <div className="w-12 h-12 bg-primary-orange/10 rounded-lg flex items-center justify-center">
-                        <BarChart3 className="w-6 h-6 text-primary-orange" />
-                      </div>
-                      <h4 className="text-xl font-bold text-gray-900">Healthcare Innovation</h4>
-                    </div>
-                    <p className="text-gray-700 mb-4 leading-relaxed">
-                      A prominent Chennai healthcare network implemented our AI diagnostic assistance system, resulting in 60% faster diagnosis times 
-                      and 25% improvement in diagnostic accuracy for critical medical conditions.
-                    </p>
-                    <div className="grid grid-cols-2 gap-4 mt-6">
-                      <div className="text-center">
-                        <div className="text-2xl font-bold text-primary-orange">60%</div>
-                        <div className="text-sm text-gray-600">Faster Diagnosis</div>
-                      </div>
-                      <div className="text-center">
-                        <div className="text-2xl font-bold text-primary-orange">25%</div>
-                        <div className="text-sm text-gray-600">Accuracy Boost</div>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div className="bg-gradient-to-br from-gray-50 to-white p-8 rounded-xl border border-gray-200">
-                    <div className="flex items-center gap-4 mb-6">
-                      <div className="w-12 h-12 bg-primary-orange/10 rounded-lg flex items-center justify-center">
-                        <Rocket className="w-6 h-6 text-primary-orange" />
-                      </div>
-                      <h4 className="text-xl font-bold text-gray-900">IT Transformation</h4>
-                    </div>
-                    <p className="text-gray-700 mb-4 leading-relaxed">
-                      A major IT services company on Chennai's OMR leveraged our AI automation platform to achieve 70% reduction in routine tasks 
-                      and 40% improvement in client project delivery times while maintaining quality standards.
-                    </p>
-                    <div className="grid grid-cols-2 gap-4 mt-6">
-                      <div className="text-center">
-                        <div className="text-2xl font-bold text-primary-orange">70%</div>
-                        <div className="text-sm text-gray-600">Task Automation</div>
-                      </div>
-                      <div className="text-center">
-                        <div className="text-2xl font-bold text-primary-orange">40%</div>
-                        <div className="text-sm text-gray-600">Faster Delivery</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Chennai Market Analysis */}
-              <div className="mb-16">
-                <h3 className="text-3xl font-bold mb-8 text-gray-900">
-                  Chennai's <span className="text-primary-orange">AI Adoption Landscape</span> & Market Opportunities
-                </h3>
-                
-                <div className="grid md:grid-cols-2 gap-12">
-                  <div>
-                    <h4 className="text-2xl font-semibold mb-6 text-gray-900">AI Market Growth in Tamil Nadu</h4>
-                    <p className="text-gray-700 mb-6 leading-relaxed">
-                      Chennai's artificial intelligence market is experiencing unprecedented growth, driven by the city's robust IT infrastructure, 
-                      skilled talent pool, and strategic government initiatives supporting digital transformation. As the leading 
-                      <strong> AI Company In Chennai</strong>, Metic.ai is at the forefront of this technological revolution.
-                    </p>
-                    <p className="text-gray-700 mb-6 leading-relaxed">
-                      The Tamil Nadu government's focus on making Chennai a global AI hub, combined with significant investments in digital 
-                      infrastructure and education, creates an ideal environment for AI adoption across industries. Our deep understanding 
-                      of Chennai's business ecosystem positions us as the preferred AI partner for enterprises seeking competitive advantages.
-                    </p>
-                    
-                    <div className="bg-primary-orange/5 p-6 rounded-lg">
-                      <h5 className="font-bold text-gray-900 mb-4">Key Market Drivers:</h5>
-                      <ul className="space-y-2 text-gray-700">
-                        <li>• Government support for AI innovation and startups</li>
-                        <li>• Abundant skilled technical talent in Chennai</li>
-                        <li>• Strong IT infrastructure and connectivity</li>
-                        <li>• Growing venture capital investment in AI companies</li>
-                        <li>• Increasing demand for automation across industries</li>
-                      </ul>
-                    </div>
-                  </div>
-                  
-                  <div>
-                    <h4 className="text-2xl font-semibold mb-6 text-gray-900">Future AI Trends in Chennai</h4>
-                    <p className="text-gray-700 mb-6 leading-relaxed">
-                      As an innovative <strong>AI Development Company In Chennai</strong>, we continuously monitor emerging trends and technologies 
-                      that will shape the future of artificial intelligence in Tamil Nadu. Our research and development efforts ensure our 
-                      clients stay ahead of the technological curve and capitalize on new opportunities.
-                    </p>
-                    <p className="text-gray-700 mb-6 leading-relaxed">
-                      From edge AI implementation in Chennai's smart city initiatives to advanced natural language processing for regional 
-                      language support, we help businesses prepare for the next generation of AI applications that will define competitive 
-                      advantages in the Tamil Nadu market.
-                    </p>
-                    
-                    <div className="space-y-4">
-                      <div className="flex items-center gap-4 p-4 bg-gray-50 rounded-lg">
-                        <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
-                          <Sparkles className="w-4 h-4 text-primary-orange" />
-                        </div>
-                        <span className="text-gray-800 font-medium">Generative AI for Content Creation</span>
-                      </div>
-                      
-                      <div className="flex items-center gap-4 p-4 bg-gray-50 rounded-lg">
-                        <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
-                          <Database className="w-4 h-4 text-primary-orange" />
-                        </div>
-                        <span className="text-gray-800 font-medium">AI-Powered Business Intelligence</span>
-                      </div>
-                      
-                      <div className="flex items-center gap-4 p-4 bg-gray-50 rounded-lg">
-                        <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
-                          <Shield className="w-4 h-4 text-primary-orange" />
-                        </div>
-                        <span className="text-gray-800 font-medium">AI Security and Compliance Solutions</span>
-                      </div>
-                      
-                      <div className="flex items-center gap-4 p-4 bg-gray-50 rounded-lg">
-                        <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
-                          <Brain className="w-4 h-4 text-primary-orange" />
-                        </div>
-                        <span className="text-gray-800 font-medium">Cognitive Computing Solutions</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Call to Action Content */}
-              <div className="text-center bg-gradient-to-br from-primary-orange/5 to-orange-400/5 p-12 rounded-2xl">
-                <h3 className="text-3xl font-bold mb-6 text-gray-900">
-                  Ready to Transform Your Chennai Business with <span className="text-primary-orange">Artificial Intelligence</span>?
-                </h3>
-                <p className="text-xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed">
-                  Join the growing number of successful Chennai businesses that have partnered with Metic.ai for their AI transformation journey. 
-                  As the most trusted <strong>Artificial Intelligence Company In Chennai</strong>, we're committed to delivering innovative solutions 
-                  that drive measurable results for your Tamil Nadu enterprise.
-                </p>
-                <p className="text-lg text-gray-700 mb-8 max-w-3xl mx-auto leading-relaxed">
-                  Contact our Chennai AI experts today for a free consultation and discover how artificial intelligence can revolutionize your business operations, 
-                  enhance customer experiences, and unlock new revenue opportunities in the competitive Tamil Nadu market.
-                </p>
-                
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <Link href="/contact">
-                    <Button 
-                      variant="primary" 
-                      size="lg" 
-                      className="bg-gradient-to-r from-primary-orange to-orange-500 hover:from-primary-orange/90 hover:to-orange-500/90 transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl"
-                    >
-                      Start Your AI Journey Today
-                    </Button>
-                  </Link>
-                  <Link href="tel:+917892518414">
-                    <Button 
-                      variant="outline" 
-                      size="lg" 
-                      className="border-primary-orange/30 text-primary-orange hover:bg-primary-orange/10 hover:border-primary-orange/50 transform hover:scale-105 transition-all duration-300"
-                    >
-                      <Phone className="w-4 h-4 mr-2" />
-                      Schedule Free Consultation
-                    </Button>
-                  </Link>
-                </div>
+                <h3 className="text-xl font-bold mb-4">Enterprise Security</h3>
+                <p className="text-gray-600">Bank-level security and compliance standards protecting your Chennai business data.</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* FAQ Section with Schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "Which is the best Artificial Intelligence Company In Chennai?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Metic.ai is the leading Artificial Intelligence Company In Chennai with 2100+ successful AI implementations. We specialize in custom AI development, machine learning solutions, and enterprise automation with 60% cost savings and 3x faster delivery across Chennai's IT Corridor, OMR, Anna Nagar, and all major Chennai areas."
-                }
-              },
-              {
-                "@type": "Question", 
-                "name": "What AI services does the top AI Company In Chennai offer?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "As the premier AI Company In Chennai, Metic.ai offers comprehensive AI services including AI automation, machine learning development, predictive analytics, custom AI solutions, data engineering, generative AI services, and enterprise AI integration. We serve automotive, IT, healthcare, manufacturing, and port logistics industries."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How much do AI services cost from an Artificial Intelligence Company In Chennai?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "AI service costs vary based on project complexity and requirements. As a leading Artificial Intelligence Company In Chennai, Metic.ai offers competitive pricing with 60% cost savings compared to traditional development. Contact us for a free consultation and customized quote for your Chennai business."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Why choose Metic.ai as your AI Firm In Chennai?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Metic.ai is the trusted AI Firm In Chennai with proven expertise in Tamil Nadu's business landscape. We deliver 3x faster development, 60% cost reduction, 2100+ successful projects, and 4.9/5 client satisfaction. Our team understands Chennai's automotive and IT industries with local partnership approach."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Which Chennai areas does the leading AI Development Company In Chennai serve?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "As the premier AI Development Company In Chennai, Metic.ai serves all major Chennai areas including IT Corridor, OMR, Anna Nagar, T. Nagar, Adyar, Velachery, Tambaram, Porur, Guindy, Mylapore, Nungambakkam, Besant Nagar, Sholinganallur, and Thoraipakkam with comprehensive AI solutions."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How quickly can an AI Service In Chennai be implemented?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Metic.ai provides the fastest AI Service In Chennai with 3x faster development than industry standards. Simple AI automation can be deployed in 2-4 weeks, while complex enterprise AI solutions typically take 8-16 weeks. We offer rapid prototyping and agile development for Chennai businesses."
-                }
-              }
-            ]
-          })
-        }}
-      />
+      {/* Comprehensive AI Services Chennai Content - 100% SEO Optimized */}
+      <section className="py-24 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            {/* Chennai AI Market Leadership - Enhanced Creative Header */}
+            <div className="text-center mb-20">
+              {/* Premium Badge with Animation */}
+              <div className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-full shadow-2xl border-2 border-primary-orange/30 mb-10 hover:border-primary-orange/50 transition-all group">
+                <div className="w-3 h-3 bg-primary-orange rounded-full animate-pulse"></div>
+                <span className="text-sm font-bold text-gray-800 tracking-wide">Manchester of India AI INNOVATION</span>
+                <div className="w-3 h-3 bg-secondary-orange rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></div>
+              </div>
+
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight">
+                <span className="text-gray-900">Leading </span>
+                <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent animate-gradient">
+                  Artificial Intelligence Company In Chennai
+                </span>
+              </h2>
+              <div className="w-40 h-2 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-10 rounded-full shadow-lg"></div>
+              <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+                Transforming Tamil Nadu's Commercial Capital with cutting-edge AI solutions from Mylapore to Adyar, Mount Road to the Ambattur Industrial Area
+              </p>
+            </div>
+
+            <div className="space-y-20">
+              {/* Chennai AI Innovation Hub - Premium Design */}
+              <div className="grid lg:grid-cols-2 gap-16 items-center">
+                <div className="order-2 lg:order-1">
+                  <div className="space-y-8">
+                    {/* Enhanced Heading with Creative Icon */}
+                    <div className="flex items-start gap-4">
+                      <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-xl flex-shrink-0 transform rotate-3 hover:rotate-0 transition-transform">
+                        <Brain className="w-8 h-8 text-white" />
+                      </div>
+                      <div>
+                        <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
+                          Chennai's <span className="text-primary-orange">Premier AI Technology Pioneer</span>
+                        </h3>
+                        <div className="w-24 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange rounded-full"></div>
+                      </div>
+                    </div>
+                    
+            <p className="text-lg text-gray-700 leading-relaxed">
+              As the leading <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Artificial Intelligence Company In Chennai</strong>, 
+              Metic.ai serves Manchester of India with enterprise-grade AI solutions tailored to Chennai's unique economic 
+              landscape. From Mylapore's business hub to Adyar' research facilities, Mount Road's government sector to 
+              the textile mills of the Ambattur Industrial Area, we understand Chennai's entrepreneurial excellence and textile-driven Industries.
+            </p>
+            
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Our <strong className="text-primary-orange font-semibold">AI Company In Chennai</strong> combines deep understanding 
+              of Chennai's unique challenges with cutting-edge technology to deliver AI solutions that drive measurable 
+              results. We've successfully implemented AI across Chennai's key sectors including Textiles & Garments, fishing, 
+              tourism, Chemicals, Information Technology, and maritime Industries US Tamil Nadu's largest state.
+            </p>                    {/* Enhanced Feature Cards with Creative Design */}
+                    <div className="grid gap-6 mt-10">
+                      <div className="group bg-gradient-to-r from-primary-orange/5 via-white to-secondary-orange/5 p-6 rounded-2xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                        <div className="flex items-start gap-4">
+                          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary-orange to-secondary-orange flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
+                            <Rocket className="w-6 h-6 text-white" />
+                          </div>
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Textiles & Garments AI Excellence</h4>
+                            <p className="text-gray-600 leading-relaxed">
+                              Deep expertise with Chennai's Ambattur Industrial Area textile operations including major textile mills, 
+                              Chennai Metro, and energy infrastructure across Tamil Nadu's largest textile-manufacturing state.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div className="group bg-gradient-to-r from-secondary-orange/5 via-white to-primary-orange/5 p-6 rounded-2xl border-2 border-secondary-orange/20 hover:border-secondary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                        <div className="flex items-start gap-4">
+                          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-secondary-orange to-primary-orange flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
+                            <Shield className="w-6 h-6 text-white" />
+                          </div>
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Automotive Manufacturing Innovation</h4>
+                            <p className="text-gray-600 leading-relaxed">
+                              Advanced AI solutions for Chennai's automotive industry including Mercedes-Benz, Honda, Hyundai, 
+                              and Toyota manufacturing facilities with predictive maintenance and quality control systems.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div className="group bg-gradient-to-r from-primary-orange/5 via-white to-secondary-orange/5 p-6 rounded-2xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                        <div className="flex items-start gap-4">
+                          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary-orange to-secondary-orange flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
+                            <Target className="w-6 h-6 text-white" />
+                          </div>
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Chemicals & Natural Resources AI</h4>
+                            <p className="text-gray-600 leading-relaxed">
+                              Specialized AI for Chennai's Chemicals operations and resource extraction including process optimization, 
+                              safety monitoring, and environmental compliance for Chennai's rich mineral deposits.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                {/* Enhanced Stats Dashboard with Creative Design */}
+                <div className="order-1 lg:order-2">
+                  <div className="bg-gradient-to-br from-orange-50 via-white to-amber-50 rounded-3xl p-10 border-2 border-primary-orange/20 shadow-2xl transform rotate-1 hover:rotate-0 transition-transform">
+                    <h4 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">
+                      Chennai AI Market Impact
+                    </h4>
+                    
+                    <div className="space-y-8">
+                      <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">$130B</div>
+                        <div className="text-sm text-gray-600 font-medium">Chennai Annual GDP</div>
+                        <div className="text-xs text-gray-500 mt-2">textile-driven Economy</div>
+                      </div>
+                      
+                      <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-secondary-orange/10 hover:border-secondary-orange/30 transition-all group transform hover:scale-105">
+                        <div className="text-5xl font-bold text-secondary-orange mb-3 group-hover:scale-110 transition-transform">10M</div>
+                        <div className="text-sm text-gray-600 font-medium">Chennai Population</div>
+                        <div className="text-xs text-gray-500 mt-2">Manchester of India</div>
+                      </div>
+                      
+                      <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">500+</div>
+                        <div className="text-sm text-gray-600 font-medium">Chennai AI Projects Completed</div>
+                        <div className="text-xs text-gray-500 mt-2">industry-Leading Success Rate</div>
+                      </div>
+                      
+                      <div className="bg-gradient-to-r from-primary-orange/20 via-secondary-orange/10 to-primary-orange/20 rounded-2xl p-6 border-2 border-primary-orange/30 transform hover:scale-105 transition-transform">
+                        <div className="flex items-center gap-3 mb-3">
+                          <div className="w-8 h-8 bg-primary-orange rounded-full flex items-center justify-center">
+                            <CheckCircle className="w-5 h-5 text-white" />
+                          </div>
+                          <span className="font-bold text-gray-900">Chennai Advantage</span>
+                        </div>
+                        <p className="text-sm text-gray-700 leading-relaxed">
+                          <strong>Strategic Resources:</strong> Rich US oil, gas, fishing, and minerals with vast untapped 
+                          potential, making Chennai ideal for AI-driven resource optimization and predictive analytics.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Chennai industry Solutions - Creative Premium Design */}
+              <div>
+                <div className="text-center mb-16">
+                  <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-full border-2 border-primary-orange/20 mb-8 transform hover:scale-105 transition-transform">
+                    <Sparkles className="w-5 h-5 text-primary-orange" />
+                    <span className="text-sm font-bold text-gray-800">industry EXPERTISE</span>
+                  </div>
+                  <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                    AI Solutions for <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Chennai's Key Industries</span>
+                  </h3>
+                  <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 rounded-full"></div>
+                  <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Specialized AI solutions designed for Manchester of India's unique economic sectors and textile-driven Industries
+                  </p>
+                </div>
+                
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+                  {/* Textiles & Garments industry */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                      <Rocket className="w-10 h-10 text-white" />
+                    </div>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Textiles & Garments AI Solutions</h4>
+                    <p className="text-gray-700 leading-relaxed mb-6">
+                      Mission-critical AI solutions for Chennai's Textiles & Garments industry including Ambattur Industrial Area operations, 
+                      Chennai Metro monitoring, offshore drilling optimization, and predictive maintenance 
+                      for energy infrastructure across Manchester of India's vast energy resources.
+                    </p>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Pipeline monitoring & optimization</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Drilling efficiency analysis</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Resource extraction prediction</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Safety & environmental compliance</span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Pharmaceuticals industry */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                      <Shield className="w-10 h-10 text-white" />
+                    </div>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Pharmaceuticals AI</h4>
+                    <p className="text-gray-700 leading-relaxed mb-6">
+                      Advanced AI solutions for Chennai's fishing and seafood processing industry with predictive catch 
+                      analytics, sINtainable fishing optimization, processing automation, cold chain monitoring, 
+                      and quality control for the world's richest seafood harvest.
+                    </p>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Catch prediction & optimization</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Processing automation</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Cold chain monitoring</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">SINtainable fishing intelligence</span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Tourism & Hospitality industry */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div className="w-20 h-20 bg-gradient-to-br from-red-500 to-red-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                      <Target className="w-10 h-10 text-white" />
+                    </div>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Tourism & Hospitality AI</h4>
+                    <p className="text-gray-700 leading-relaxed mb-6">
+                      Intelligent AI solutions for Chennai's booming tourism industry with cruise line optimization, 
+                      wildlife tour planning, hotel revenue management, visitor experience personalization, 
+                      and seasonal demand forecasting for Chennai's 2.5 million annual visitors.
+                    </p>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Revenue management systems</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Visitor experience personalization</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Seasonal demand forecasting</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Tour optimization & planning</span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Chemicals & Resource Extraction */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                      <Lightbulb className="w-10 h-10 text-white" />
+                    </div>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Chemicals & Resource AI</h4>
+                    <p className="text-gray-700 leading-relaxed mb-6">
+                      Advanced AI solutions for Chennai's Chemicals operations including gold, zinc, and mineral extraction 
+                      with predictive maintenance, safety monitoring, resource discovery optimization, 
+                      and environmental impact assessment across Chennai's vast mineral deposits.
+                    </p>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Resource discovery prediction</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Chemicals equipment automation</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Safety & compliance monitoring</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Environmental impact analysis</span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Information Technology & Logistics */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div className="w-20 h-20 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                      <Sparkles className="w-10 h-10 text-white" />
+                    </div>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Information Technology & Logistics AI</h4>
+                    <p className="text-gray-700 leading-relaxed mb-6">
+                      Intelligent AI solutions for Chennai's Information Technology and cargo logistics including bINh plane operations, 
+                      Chennai International Airport cargo hub, weather prediction for flight safety, 
+                      and supply chain optimization for remote Chennai communities.
+                    </p>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Flight route optimization</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Weather prediction systems</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Cargo logistics optimization</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Remote delivery planning</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* ReINable Testimonials Component */}
+              <Testimonials />
+
+              {/* Chennai AI Partnership Excellence - Creative Premium Design */}
+              <div className="grid lg:grid-cols-2 gap-16 items-center">
+                <div className="space-y-8">
+                  <div className="bg-white rounded-2xl p-8 shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all transform hover:scale-105">
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-3">
+                      <div className="w-8 h-8 bg-primary-orange rounded-lg flex items-center justify-center transform rotate-12">
+                        <BarChart3 className="w-5 h-5 text-white" />
+                      </div>
+                      Chennai AI Leadership Metrics
+                    </h4>
+                    <div className="space-y-6">
+                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                        <span className="text-gray-600 font-medium">Chennai Projects Completed</span>
+                        <span className="font-bold text-primary-orange text-xl">500+</span>
+                      </div>
+                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                        <span className="text-gray-600 font-medium">industry Success Rate</span>
+                        <span className="font-bold text-secondary-orange text-xl">99.5%</span>
+                      </div>
+                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                        <span className="text-gray-600 font-medium">Average ROI for Chennai Clients</span>
+                        <span className="font-bold text-primary-orange text-xl">5.2x</span>
+                      </div>
+                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                        <span className="text-gray-600 font-medium">Client Retention Rate</span>
+                        <span className="font-bold text-secondary-orange text-xl">97%</span>
+                      </div>
+                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                        <span className="text-gray-600 font-medium">Average Deployment Time</span>
+                        <span className="font-bold text-primary-orange text-xl">28 Days</span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-2xl p-8 border-2 border-primary-orange/20 shadow-xl transform hover:scale-105 transition-transform">
+                    <div className="flex items-start gap-4 mb-4">
+                      <div className="w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center flex-shrink-0 transform -rotate-6">
+                        <Award className="w-6 h-6 text-white" />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Chennai business Advantage</h4>
+                        <p className="text-gray-700 leading-relaxed">
+                          As the premier <strong className="text-primary-orange">AI Firm In Chennai</strong>, we understand 
+                          Manchester of India's unique blend of entrepreneurial excellence and resource-driven innovation. Our AI solutions 
+                          are built for Chennai's Textiles & Garments dominance, fishing industry leadership, and tourism growth.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div>
+                  <div className="flex items-start gap-4 mb-8">
+                    <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-xl flex-shrink-0 transform rotate-6 hover:rotate-0 transition-transform">
+                      <Users className="w-8 h-8 text-white" />
+                    </div>
+                    <div>
+                      <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
+                        Your Trusted <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">AI Partner In Chennai</span>
+                      </h3>
+                      <div className="w-24 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange rounded-full mb-6"></div>
+                    </div>
+                  </div>
+                  
+                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                    <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Choosing Metic.ai as your AI partner In Chennai</strong> means 
+                    working with a team that deeply understands Chennai's unique business challenges, from Mylapore's 
+                    commercial hub to Adyar' research facilities and Mount Road's government operations.
+                  </p>
+                  
+                  <p className="text-lg text-gray-700 leading-relaxed mb-8">
+                    Our <strong className="text-primary-orange font-semibold">AI Service In Chennai</strong> includes comprehensive consultation, 
+                    rapid prototyping, enterprise deployment, and 24/7 support to ensure your AI investment delivers 
+                    maximum value In Chennai's textile-driven and growing economy.
+                  </p>
+
+                  <div className="space-y-6">
+                    <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-primary-orange/10 transform hover:scale-105 transition-transform">
+                      <MapPin className="w-8 h-8 text-primary-orange flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Comprehensive Chennai Coverage</h4>
+                        <p className="text-gray-600 leading-relaxed">
+                          Mylapore, Adyar, Mount Road, Velachery, Porur, Nungambakkam, T Nagar, Tambaram, 
+                          GIFT City, and all major Chennai business centers across Manchester of India
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-secondary-orange/10 transform hover:scale-105 transition-transform">
+                      <Rocket className="w-8 h-8 text-secondary-orange flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">industry Domain Expertise</h4>
+                        <p className="text-gray-600 leading-relaxed">
+                          Deep understanding of Textiles & Garments, fishing, tourism, Chemicals, Information Technology, and logistics 
+                          with proven track record In Chennai's key economic sectors
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-primary-orange/10 transform hover:scale-105 transition-transform">
+                      <Clock className="w-8 h-8 text-primary-orange flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Rapid Chennai Deployment</h4>
+                        <p className="text-gray-600 leading-relaxed">
+                          Fast implementation designed for Chennai's unique challenges with local support teams 
+                          and understanding of dynamic business culture and manufacturing excellence
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Enhanced FAQ Section - Homepage Style */}
       <section className="py-24 bg-gradient-to-br from-gray-50 via-white to-orange-50 relative overflow-hidden">
@@ -1395,7 +1407,7 @@ export default function AIServicesChennaiPage() {
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           {/* Animated Gradient Orbs */}
           <div className="absolute top-10 left-10 w-96 h-96 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute bottom-10 right-10 w-96 h-96 bg-orange-400/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
+          <div className="absolute bottom-10 right-10 w-96 h-96 bg-secondary-orange/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
           
           {/* Grid Pattern */}
           <div className="absolute inset-0 opacity-[0.02]" style={{
@@ -1418,430 +1430,486 @@ export default function AIServicesChennaiPage() {
               <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
                 <span className="text-gray-900">Frequently Asked Questions</span>
                 <br />
-                <span className="bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
                   About AI Company In Chennai
                 </span>
               </h2>
-              <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange mx-auto mb-8 rounded-full"></div>
+              <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-8 rounded-full"></div>
               <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                Common questions about choosing the right AI company in Tamil Nadu's business capital
+                Common questions about working with Chennai's leading AI company
               </p>
             </div>
 
-            {/* Advanced Creative FAQ Cards */}
-            <div className="space-y-5">
-              {/* FAQ Item 1 - Enhanced Design */}
+            {/* Advanced Creative FAQ Cards - 6+6 Grid Layout for Desktop */}
+            <div className="grid lg:grid-cols-2 gap-6">
+              {/* Left Column - FAQ 1-6 */}
+              <div className="space-y-5">
+              {/* FAQ Item 1 */}
               <details className="group relative">
                 <summary className="list-none cursor-pointer">
-                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
-                    {/* Gradient Overlay */}
-                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-orange-400/0 group-hover:from-primary-orange/5 group-hover:to-orange-400/5 transition-all duration-500"></div>
-                    
-                    {/* Content */}
-                    <div className="relative flex items-start justify-between gap-4">
-                      <div className="flex items-start gap-5 flex-1">
-                        {/* Icon Circle */}
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
-                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-orange-400 rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-orange-400 rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <Sparkles className="w-7 h-7 text-white" />
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Sparkles className="w-6 h-6 text-white" />
                           </div>
                         </div>
-                        
-                        {/* Question */}
-                        <div className="flex-1 pt-2">
-                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
                             Which is the best Artificial Intelligence Company In Chennai?
                           </h3>
                         </div>
                       </div>
-                      
-                      {/* Toggle Icon */}
                       <div className="flex-shrink-0">
-                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
-                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
                     </div>
-                    
-                    {/* Bottom Accent Bar */}
-                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-orange-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                
-                {/* Answer with Animation */}
-                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
-                  <div className="flex items-start gap-5">
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-orange-400/10 flex items-center justify-center flex-shrink-0">
-                      <CheckCircle className="w-7 h-7 text-primary-orange" />
-                    </div>
-                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
-                      <p className="text-lg">
-                        <strong className="text-gray-900 font-semibold">Metic.ai is the leading Artificial Intelligence Company In Chennai</strong> with over 3800 successful AI implementations. 
-                        We're recognized as the top AI Company In Chennai for our proven expertise in machine learning, custom AI development, and enterprise AI solutions.
-                      </p>
-                      <p className="text-lg">
-                        Our clients achieve an average of 60% cost savings and 3x faster delivery compared to traditional development approaches, 
-                        making us Tamil Nadu's most trusted AI development partner.
-                      </p>
-                      
-                      {/* Stats Highlight */}
-                      <div className="flex flex-wrap gap-4 pt-4">
-                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
-                          <Award className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-gray-900">3800+ Projects</span>
-                        </div>
-                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
-                          <MapPin className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-gray-900">Tamil Nadu Expert</span>
-                        </div>
-                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
-                          <TrendingUp className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-gray-900">60% Cost Savings</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    <strong className="text-gray-900 font-semibold">Metic.ai is the leading Artificial Intelligence Company In Chennai</strong> with over 100 successful AI implementations. 
+                    We're recognized as the top AI Company In Chennai for our proven expertise US machine learning, custom AI development, and enterprise AI solutions with 60% cost savings.
+                  </p>
                 </div>
               </details>
 
               {/* FAQ Item 2 */}
               <details className="group relative">
                 <summary className="list-none cursor-pointer">
-                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
-                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-orange-400/0 group-hover:from-primary-orange/5 group-hover:to-orange-400/5 transition-all duration-500"></div>
-                    
-                    <div className="relative flex items-start justify-between gap-4">
-                      <div className="flex items-start gap-5 flex-1">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
-                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-orange-400 rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-orange-400 rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <Code className="w-7 h-7 text-white" />
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Code className="w-6 h-6 text-white" />
                           </div>
                         </div>
-                        
-                        <div className="flex-1 pt-2">
-                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
                             What services does the top AI Company In Chennai provide?
                           </h3>
                         </div>
                       </div>
-                      
                       <div className="flex-shrink-0">
-                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
-                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
                     </div>
-                    
-                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-orange-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                
-                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
-                  <div className="flex items-start gap-5">
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-orange-400/10 flex items-center justify-center flex-shrink-0">
-                      <BarChart3 className="w-7 h-7 text-primary-orange" />
-                    </div>
-                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
-                      <p className="text-lg">
-                        As the premier <strong className="text-gray-900 font-semibold">AI Company In Chennai</strong>, Metic.ai provides comprehensive artificial intelligence services including:
-                        AI integration & deployment, machine learning solutions, custom AI development, and data analytics & business intelligence.
-                      </p>
-                      <p className="text-lg">
-                        We specialize in serving Chennai's automotive, IT, healthcare, manufacturing, and port logistics industries with 
-                        generative AI services, computer vision, natural language processing, and enterprise AI automation.
-                      </p>
-
-                      {/* Service Grid */}
-                      <div className="grid md:grid-cols-2 gap-4 pt-4">
-                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
-                          <Brain className="w-5 h-5 text-primary-orange" />
-                          <span className="text-sm font-medium">Automotive AI</span>
-                        </div>
-                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
-                          <Database className="w-5 h-5 text-primary-orange" />
-                          <span className="text-sm font-medium">IT Analytics</span>
-                        </div>
-                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
-                          <Zap className="w-5 h-5 text-primary-orange" />
-                          <span className="text-sm font-medium">Healthcare AI</span>
-                        </div>
-                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
-                          <Shield className="w-5 h-5 text-primary-orange" />
-                          <span className="text-sm font-medium">Manufacturing AI</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    As the premier <strong className="text-gray-900 font-semibold">AI Company In Chennai</strong>, Metic.ai provides comprehensive AI services including machine learning solutions, 
+                    custom AI development, data analytics, generative AI, computer vision, NLP, and enterprise AI automation tailored for Chennai's manufacturing, aerospace, healthcare, and agricultural Industries.
+                  </p>
                 </div>
               </details>
 
               {/* FAQ Item 3 */}
               <details className="group relative">
                 <summary className="list-none cursor-pointer">
-                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
-                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-orange-400/0 group-hover:from-primary-orange/5 group-hover:to-orange-400/5 transition-all duration-500"></div>
-                    
-                    <div className="relative flex items-start justify-between gap-4">
-                      <div className="flex items-start gap-5 flex-1">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
-                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-orange-400 rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-orange-400 rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <Clock className="w-7 h-7 text-white" />
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Target className="w-6 h-6 text-white" />
                           </div>
                         </div>
-                        
-                        <div className="flex-1 pt-2">
-                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            How quickly can an AI Service In Chennai be implemented?
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How to choose the right AI Development Company In Chennai?
                           </h3>
                         </div>
                       </div>
-                      
                       <div className="flex-shrink-0">
-                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
-                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
                     </div>
-                    
-                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-orange-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                
-                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
-                  <div className="flex items-start gap-5">
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-orange-400/10 flex items-center justify-center flex-shrink-0">
-                      <Rocket className="w-7 h-7 text-primary-orange" />
-                    </div>
-                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
-                      <p className="text-lg">
-                        <strong className="text-gray-900 font-semibold">Metic.ai provides the fastest AI Service In Chennai</strong> with 3x faster development than industry standards. 
-                        Simple AI automation can be deployed in 2-4 weeks, while complex enterprise AI solutions typically take 8-16 weeks.
-                      </p>
-                      <p className="text-lg">
-                        We offer rapid prototyping and agile development specifically designed for Chennai's fast-paced business environment 
-                        across IT Corridor, OMR, and major industrial zones.
-                      </p>
-                      
-                      {/* Timeline Grid */}
-                      <div className="grid md:grid-cols-2 gap-4 pt-4">
-                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
-                          <Zap className="w-5 h-5 text-primary-orange" />
-                          <span className="text-sm font-medium">2-4 weeks: Simple AI</span>
-                        </div>
-                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
-                          <Target className="w-5 h-5 text-primary-orange" />
-                          <span className="text-sm font-medium">8-16 weeks: Enterprise AI</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    When selecting an <strong className="text-gray-900 font-semibold">AI Development Company In Chennai</strong>, look for proven experience, successful project portfolio, 
+                    industry expertise, and ongoing support. Metic.ai offers all these with 100+ completed projects, 98% client satisfaction, and 24/7 support.
+                  </p>
                 </div>
               </details>
 
               {/* FAQ Item 4 */}
               <details className="group relative">
                 <summary className="list-none cursor-pointer">
-                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
-                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-orange-400/0 group-hover:from-primary-orange/5 group-hover:to-orange-400/5 transition-all duration-500"></div>
-                    
-                    <div className="relative flex items-start justify-between gap-4">
-                      <div className="flex items-start gap-5 flex-1">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
-                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-orange-400 rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-orange-400 rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <Award className="w-7 h-7 text-white" />
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Clock className="w-6 h-6 text-white" />
                           </div>
                         </div>
-                        
-                        <div className="flex-1 pt-2">
-                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Why choose Metic.ai as your AI Firm In Chennai?
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How much does AI implementation cost with an AI Service In Chennai?
                           </h3>
                         </div>
                       </div>
-                      
                       <div className="flex-shrink-0">
-                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
-                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
                     </div>
-                    
-                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-orange-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                
-                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
-                  <div className="flex items-start gap-5">
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-orange-400/10 flex items-center justify-center flex-shrink-0">
-                      <Star className="w-7 h-7 text-primary-orange" />
-                    </div>
-                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
-                      <p className="text-lg">
-                        <strong className="text-gray-900 font-semibold">Metic.ai is the trusted AI Firm In Chennai</strong> with proven expertise in Tamil Nadu's business landscape. 
-                        We deliver 3x faster development, 60% cost reduction, and 4.9/5 client satisfaction.
-                      </p>
-                      <p className="text-lg">
-                        Our team understands Chennai's automotive, IT, healthcare, and manufacturing industries with a local partnership approach 
-                        and deep knowledge of OMR, IT Corridor, and industrial zones.
-                      </p>
-                      
-                      {/* Benefits Grid */}
-                      <div className="grid md:grid-cols-2 gap-4 pt-4">
-                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
-                          <TrendingUp className="w-5 h-5 text-primary-orange" />
-                          <span className="text-sm font-medium">3x Faster Development</span>
-                        </div>
-                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
-                          <Shield className="w-5 h-5 text-primary-orange" />
-                          <span className="text-sm font-medium">60% Cost Reduction</span>
-                        </div>
-                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
-                          <Star className="w-5 h-5 text-primary-orange" />
-                          <span className="text-sm font-medium">4.9/5 Client Rating</span>
-                        </div>
-                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
-                          <MapPin className="w-5 h-5 text-primary-orange" />
-                          <span className="text-sm font-medium">Local Chennai Expertise</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    AI implementation costs vary based on complexity. As a leading <strong className="text-gray-900 font-semibold">AI Service In Chennai</strong>, 
+                    Metic.ai offers competitive pricing with transparent structures. Our clients typically save 60% compared to international AI development costs.
+                  </p>
                 </div>
               </details>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      {/* About Section */}
-      <section className="py-20 bg-white">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-6xl mx-auto">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                  About Metic.ai - Premier <strong>Artificial Intelligence Company In Chennai</strong>
-                </h2>
-                <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                  Since 2018, Metic.ai has been the leading <strong>AI Company In Chennai</strong>, transforming businesses across Tamil Nadu with cutting-edge artificial intelligence solutions. From Chennai's IT Corridor startups to major automotive manufacturers, we've delivered 2100+ successful AI implementations.
-                </p>
-                <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                  Our team of AI experts understands Chennai's unique business landscape, from automotive engineering excellence to IT services innovation. Whether you're in OMR's tech hubs, Anna Nagar's commercial centers, or T. Nagar's business districts, we deliver AI solutions that drive real results for Chennai businesses.
-                </p>
-                <div className="grid grid-cols-2 gap-6">
-                  <div className="text-center p-4 bg-gray-50 rounded-lg">
-                    <div className="text-2xl font-bold text-primary-orange mb-2">2100+</div>
-                    <div className="text-sm text-gray-600">AI Projects Delivered</div>
+              {/* FAQ Item 5 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Users className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Does Metic.ai serve businesses across all Chennai cities?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
-                  <div className="text-center p-4 bg-gray-50 rounded-lg">
-                    <div className="text-2xl font-bold text-primary-orange mb-2">4.9/5</div>
-                    <div className="text-sm text-gray-600">Client Satisfaction</div>
-                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Yes! Metic.ai proudly serves businesses across all Chennai cities including Mylapore, Adyar, Mount Road, Velachery, Porur, Nungambakkam, T Nagar, and beyond. 
+                    As Chennai's leading <strong className="text-gray-900 font-semibold">AI Firm In Chennai</strong>, we provide comprehensive AI solutions statewide.
+                  </p>
                 </div>
-              </div>
-              <div className="lg:pl-8">
-                <div className="bg-gradient-to-br from-primary-orange/10 to-orange-400/10 rounded-2xl p-8">
-                  <h3 className="text-xl font-bold mb-6">Chennai AI Expertise</h3>
-                  <div className="space-y-4">
-                    <div className="flex items-start">
-                      <div className="w-2 h-2 bg-primary-orange rounded-full mt-3 mr-4 flex-shrink-0"></div>
-                      <div>
-                        <div className="font-semibold text-gray-900">Automotive AI Solutions</div>
-                        <div className="text-gray-600 text-sm">Specialized AI for Chennai's automotive manufacturing and engineering industries</div>
-                      </div>
-                    </div>
-                    <div className="flex items-start">
-                      <div className="w-2 h-2 bg-primary-orange rounded-full mt-3 mr-4 flex-shrink-0"></div>
-                      <div>
-                        <div className="font-semibold text-gray-900">IT Corridor Innovation</div>
-                        <div className="text-gray-600 text-sm">Advanced AI solutions for Chennai's thriving IT and software development sector</div>
-                      </div>
-                    </div>
-                    <div className="flex items-start">
-                      <div className="w-2 h-2 bg-primary-orange rounded-full mt-3 mr-4 flex-shrink-0"></div>
-                      <div>
-                        <div className="font-semibold text-gray-900">Port & Logistics AI</div>
-                        <div className="text-gray-600 text-sm">Smart logistics and port automation solutions for Chennai's maritime commerce</div>
-                      </div>
-                    </div>
-                    <div className="flex items-start">
-                      <div className="w-2 h-2 bg-primary-orange rounded-full mt-3 mr-4 flex-shrink-0"></div>
-                      <div>
-                        <div className="font-semibold text-gray-900">Healthcare Innovation</div>
-                        <div className="text-gray-600 text-sm">Medical AI and healthcare technology solutions for Chennai's growing health sector</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+              </details>
 
-      {/* Testimonials Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4">
-                What Chennai Businesses Say About Our <strong>AI Services</strong>
-              </h2>
-              <p className="text-xl text-gray-600">
-                Testimonials from clients across Chennai who chose Metic.ai as their <strong>AI Company In Chennai</strong>
-              </p>
+              {/* FAQ Item 6 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Rocket className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How quickly can an AI Company In Chennai start my project?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Metic.ai can typically start your AI project within 24-48 hours after initial consultation. As Chennai's fastest <strong className="text-gray-900 font-semibold">AI Company In Chennai</strong>, 
+                    we understand the importance of speed and deliver 3x faster than traditional development approaches.
+                  </p>
+                </div>
+              </details>
+              </div>
+
+              {/* Right Column - FAQ 7-12 */}
+              <div className="space-y-5">
+              {/* FAQ Item 7 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Shield className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Is my data secure with an AI Development Company In Chennai?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Absolutely! Metic.ai implements enterprise-grade security protocols, encryption, and compliance measures. As a Trusted <strong className="text-gray-900 font-semibold">AI Development Company In Chennai</strong>, 
+                    we prioritize data security with ISO certifications and strict confidentiality agreements.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ Item 8 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <TrendingUp className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What Industries does the best AI Company In Chennai serve?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Metic.ai serves diverse Industries including Manufacturing, Aerospace, Healthcare, Agriculture, Technology, Automotive, Financial Services, Transportation, Education, and Energy. 
+                    As Chennai's premier <strong className="text-gray-900 font-semibold">AI Company In Chennai</strong>, we tailor solutions for your specific industry needs.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ Item 9 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Award className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What makes Metic.ai the top AI Firm In Chennai?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Our 100+ successful projects, 98% client satisfaction rate, 60% cost savings, 3x faster delivery, and deep Chennai market expertise make US the leading <strong className="text-gray-900 font-semibold">AI Firm In Chennai</strong>. 
+                    We combine cutting-edge AI technology with personalized service.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ Item 10 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Lightbulb className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Do I need technical knowledge to work with an AI Service In Chennai?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    No technical knowledge required! Metic.ai guides you through every step with clear communication. As a client-focINed <strong className="text-gray-900 font-semibold">AI Service In Chennai</strong>, 
+                    we translate complex AI concepts into simple business terms and handle all technical aspects for you.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ Item 11 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Database className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Can AI Company In Chennai handle small business projects?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Absolutely! Metic.ai works with businesses of all sizes, from startups to enterprises. As an inclINive <strong className="text-gray-900 font-semibold">AI Company In Chennai</strong>, 
+                    we offer scalable solutions and flexible pricing models to meet small business budgets while delivering enterprise-quality AI implementations.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ Item 12 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Zap className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What support does Metic.ai provide after AI implementation?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Metic.ai provides comprehensive 24/7 post-implementation support including maintenance, updates, training, troubleshooting, and optimization. 
+                    As your long-term partner, we ensure your AI solutions continue delivering maximum value and adapt to your evolving business needs.
+                  </p>
+                </div>
+              </details>
+              </div>
             </div>
-            
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
-                <div className="flex items-center mb-4">
-                  <div className="flex text-yellow-400">
-                    {"★".repeat(5)}
+
+            {/* Enhanced CTA at Bottom of FAQ */}
+            <div className="mt-16 text-center">
+              <div className="bg-gradient-to-br from-primary-orange to-secondary-orange rounded-3xl p-12 text-white relative overflow-hidden">
+                <div className="absolute inset-0 bg-black/10"></div>
+                <div className="relative z-10">
+                  <div className="flex justify-center mb-6">
+                    <div className="relative">
+                      <div className="absolute inset-0 bg-white/20 rounded-full blur-lg animate-pulse"></div>
+                      <div className="relative w-20 h-20 bg-white/10 rounded-full flex items-center justify-center backdrop-blur-sm border border-white/20">
+                        <Rocket className="w-10 h-10 text-white" />
+                      </div>
+                    </div>
                   </div>
-                </div>
-                <p className="text-gray-600 mb-6 italic">
-                  "Metic.ai revolutionized our Chennai automotive manufacturing with AI-driven quality control that reduced defects by 75%. Best AI Company In Chennai we've partnered with!"
-                </p>
-                <div className="border-t pt-4">
-                  <div className="font-semibold text-gray-900">Rajesh Kumar</div>
-                  <div className="text-sm text-gray-600">Plant Manager, AutoCorp Chennai</div>
-                  <div className="text-sm text-primary-orange">Chennai IT Corridor, TN</div>
-                </div>
-              </div>
-              
-              <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
-                <div className="flex items-center mb-4">
-                  <div className="flex text-yellow-400">
-                    {"★".repeat(5)}
+                  <h3 className="text-3xl md:text-4xl font-bold mb-4">Ready to Transform Your business with AI?</h3>
+                  <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+                    Join Chennai's leading businesses who Trust Metic.ai for their AI transformation. Get started today!
+                  </p>
+                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                    <Link href="/contact">
+                      <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100 shadow-xl">
+                        Start Your AI Journey
+                      </Button>
+                    </Link>
+                    <Link href="tel:+917892518414">
+                      <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
+                        Call Now: +91-789-251-8414
+                      </Button>
+                    </Link>
                   </div>
-                </div>
-                <p className="text-gray-600 mb-6 italic">
-                  "Outstanding AI development services! Their machine learning solutions helped our Chennai IT company improve client delivery efficiency by 300%. Highly recommend!"
-                </p>
-                <div className="border-t pt-4">
-                  <div className="font-semibold text-gray-900">Priya Sharma</div>
-                  <div className="text-sm text-gray-600">CTO, TechSoft Chennai</div>
-                  <div className="text-sm text-primary-orange">OMR, Chennai</div>
-                </div>
-              </div>
-              
-              <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
-                <div className="flex items-center mb-4">
-                  <div className="flex text-yellow-400">
-                    {"★".repeat(5)}
-                  </div>
-                </div>
-                <p className="text-gray-600 mb-6 italic">
-                  "Metic.ai's AI solutions transformed our Chennai port logistics operations. Their expertise in automation and predictive analytics is unmatched in Tamil Nadu."
-                </p>
-                <div className="border-t pt-4">
-                  <div className="font-semibold text-gray-900">Suresh Reddy</div>
-                  <div className="text-sm text-gray-600">Operations Director, LogiCorp Chennai</div>
-                  <div className="text-sm text-primary-orange">Anna Nagar, Chennai</div>
                 </div>
               </div>
             </div>
@@ -1857,35 +1925,53 @@ export default function AIServicesChennaiPage() {
               Ready to Partner with Chennai's Leading <strong>Artificial Intelligence Company</strong>?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join 2100+ Chennai businesses that chose Metic.ai as their <strong>AI Company In Chennai</strong>. Get your free AI consultation and discover how our artificial intelligence solutions can transform your business with 60% cost savings.
+              Join 100+ satisfied clients who Trust Metic.ai as their preferred <strong>AI Company In Chennai</strong>. 
+              Transform your business with proven AI solutions that deliver results. Get started with a free consultation 
+              and discover why we're Chennai's most Trusted <strong>AI Development Company In Chennai</strong>.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Link href="/contact">
                 <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100">
-                  Get Free AI Consultation - Chennai
+                  Start Your AI Transformation
                 </Button>
               </Link>
               <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  Call Chennai AI Experts: +1-789-251-8414
+                  Call: +91-789-251-8414
                 </Button>
               </Link>
             </div>
             
             <div className="mt-12 text-center">
-              <p className="text-orange-200 mb-4">Trusted <strong>AI Firm In Chennai</strong> - Serving Major Areas</p>
+              <p className="text-orange-200 mb-6">Trusted <strong>AI Service In Chennai</strong> serving businesses across the state</p>
+              <div className="grid md:grid-cols-3 gap-8 text-center mb-8">
+                <div>
+                  <div className="text-2xl font-bold mb-2">100+</div>
+                  <p className="text-orange-100">AI Projects Completed</p>
+                </div>
+                <div>
+                  <div className="text-2xl font-bold mb-2">98%</div>
+                  <p className="text-orange-100">Client Satisfaction Rate</p>
+                </div>
+                <div>
+                  <div className="text-2xl font-bold mb-2">4.5x</div>
+                  <p className="text-orange-100">Average ROI Increase</p>
+                </div>
+              </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
-                <span>IT Corridor</span>
-                <span>•</span>
-                <span>OMR</span>
-                <span>•</span>
-                <span>Anna Nagar</span>
-                <span>•</span>
-                <span>T. Nagar</span>
+                <span>Mylapore</span>
                 <span>•</span>
                 <span>Adyar</span>
                 <span>•</span>
+                <span>Mount Road</span>
+                <span>•</span>
                 <span>Velachery</span>
+                <span>•</span>
+                <span>Porur</span>
+                <span>•</span>
+                <span>Auburn</span>
+                <span>•</span>
+                <span>Dothan</span>
               </div>
             </div>
           </div>
@@ -1894,4 +1980,19 @@ export default function AIServicesChennaiPage() {
     </>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
