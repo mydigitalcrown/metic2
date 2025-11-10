@@ -83,11 +83,6 @@ export const metadata = {
   alternates: {
     canonical: "https://metic.ai/artificial-intelligence-ai-services-in-alaska/",
   },
-  verification: {
-    google: "google-site-verification-code",
-    yandex: "yandex-verification-code",
-    yahoo: "yahoo-verification-code"
-  },
   category: "Technology",
   classification: "Business Services"
 };
