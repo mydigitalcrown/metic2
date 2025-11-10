@@ -28,7 +28,7 @@ import {
 
 export const metadata = {
   title: "Artificial Intelligence Company In Georgia | #1 AI Company In Georgia - Metic.ai",
-  description: "Leading Artificial Intelligence Company In Georgia with 600+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
+  description: "Leading Artificial Intelligence Company In Georgia with 400+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
   keywords: [
     "Artificial Intelligence Company In Georgia",
     "AI Company In Georgia", 
@@ -57,7 +57,7 @@ export const metadata = {
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
     title: "Artificial Intelligence Company In Georgia | #1 AI Company In Georgia - Metic.ai",
-    description: "Leading Artificial Intelligence Company In Georgia with 600+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Georgia businesses.",
+    description: "Leading Artificial Intelligence Company In Georgia with 400+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Georgia businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-Georgia/",
     type: "website",
     locale: "en_US",
@@ -154,7 +154,7 @@ export default function AIServicesGeorgiaPage() {
   ];
 
   const stats = [
-    { number: "600+", label: "Businesses Served" },
+    { number: "400+", label: "Businesses Served" },
     { number: "99.5%", label: "Client Satisfaction" },
     { number: "5.2x", label: "Average ROI Increase" },
     { number: "24/7", label: "Support Available" }
@@ -1085,7 +1085,7 @@ export default function AIServicesGeorgiaPage() {
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">600+</div>
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">400+</div>
                         <div className="text-sm text-gray-600 font-medium">Georgia AI Projects Completed</div>
                         <div className="text-xs text-gray-500 mt-2">Industry-Leading Success Rate</div>
                       </div>
@@ -1297,7 +1297,7 @@ export default function AIServicesGeorgiaPage() {
                     <div className="space-y-6">
                       <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Georgia Projects Completed</span>
-                        <span className="font-bold text-primary-orange text-xl">600+</span>
+                        <span className="font-bold text-primary-orange text-xl">400+</span>
                       </div>
                       <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Industry Success Rate</span>
