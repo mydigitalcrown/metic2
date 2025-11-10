@@ -27,106 +27,111 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Company In Arkansas | #1 Artificial Intelligence Company In Arkansas",
-  description: "Leading AI Company In Arkansas with 100+ successful AI projects. Expert Artificial Intelligence development, machine learning & automation services. 60% cost savings, 3x faster delivery. Call +1-789-251-8414",
+  title: "AI Company In Alabama | #1 Artificial Intelligence Company In Alabama",
+  description: "Leading AI Company In Alabama with 100+ successful AI projects. Expert Artificial Intelligence development, machine learning & automation services. 60% cost savings, 3x faster delivery. Call +1-789-251-8414",
   keywords: [
-    "Artificial Intelligence Company In Arkansas",
-    "AI Company In Arkansas", 
-    "AI Service In Arkansas",
-    "AI Firm In Arkansas",
-    "AI Development Company In Arkansas",
-    "Best AI Company In Arkansas",
-    "Top AI Company Arkansas",
-    "Artificial Intelligence Services Arkansas",
-    "AI Solutions Company Arkansas",
-    "Machine Learning Company Arkansas",
-    "AI Consulting Firm Arkansas",
-    "AI Technology Company Arkansas",
-    "AI automation Arkansas",
-    "AI software company Arkansas",
-    "artificial intelligence consulting Arkansas",
-    "AI integration services Arkansas",
-    "custom AI development Arkansas",
-    "enterprise AI solutions Arkansas",
-    "AI ML company Arkansas",
-    "Arkansas AI experts",
-    "Arkansas machine learning services",
-    "Arkansas AI implementation"
+    "Artificial Intelligence Company In Alabama",
+    "AI Company In Alabama", 
+    "AI Service In Alabama",
+    "AI Firm In Alabama",
+    "AI Development Company In Alabama",
+    "Best AI Company In Alabama",
+    "Top AI Company Alabama",
+    "Artificial Intelligence Services Alabama",
+    "AI Solutions Company Alabama",
+    "Machine Learning Company Alabama",
+    "AI Consulting Firm Alabama",
+    "AI Technology Company Alabama",
+    "AI automation Alabama",
+    "AI software company Alabama",
+    "artificial intelligence consulting Alabama",
+    "AI integration services Alabama",
+    "custom AI development Alabama",
+    "enterprise AI solutions Alabama",
+    "AI ML company Alabama",
+    "Alabama AI experts",
+    "Alabama machine learning services",
+    "Alabama AI implementation"
   ],
-  authors: [{ name: "Metic.ai Arkansas AI Team" }],
+  authors: [{ name: "Metic.ai Alabama AI Team" }],
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
-    title: "Artificial Intelligence Company In Arkansas | #1 AI Company In Arkansas - Metic.ai",
-    description: "Leading Artificial Intelligence Company In Arkansas with 100+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Arkansas businesses.",
-    url: "https://metic.ai/artificial-intelligence-ai-services-in-Arkansas/",
+    title: "Artificial Intelligence Company In Alabama | #1 AI Company In Alabama - Metic.ai",
+    description: "Leading Artificial Intelligence Company In Alabama with 100+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Alabama businesses.",
+    url: "https://metic.ai/artificial-intelligence-ai-services-in-alabama/",
     type: "website",
     locale: "en_US",
-    siteName: "Metic.ai - AI Company In Arkansas",
+    siteName: "Metic.ai - AI Company In Alabama",
     images: [
       {
-        url: "https://metic.ai/og-ai-company-Arkansas.jpg",
+        url: "https://metic.ai/og-ai-company-alabama.jpg",
         width: 1200,
         height: 630,
-        alt: "Artificial Intelligence Company In Arkansas - Metic.ai",
+        alt: "Artificial Intelligence Company In Alabama - Metic.ai",
         type: "image/jpeg"
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Artificial Intelligence Company In Arkansas | AI Company In Arkansas",
-    description: "Leading AI Company In Arkansas delivering enterprise artificial intelligence solutions. Expert AI development, machine learning & automation services with proven results.",
-    images: ["https://metic.ai/og-ai-company-Arkansas.jpg"],
+    title: "Artificial Intelligence Company In Alabama | AI Company In Alabama",
+    description: "Leading AI Company In Alabama delivering enterprise artificial intelligence solutions. Expert AI development, machine learning & automation services with proven results.",
+    images: ["https://metic.ai/og-ai-company-alabama.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-Arkansas/",
+    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-alabama/",
+  },
+  verification: {
+    google: "google-site-verification-code",
+    yandex: "yandex-verification-code",
+    yahoo: "yahoo-verification-code"
   },
   category: "Technology",
   classification: "Business Services"
 };
 
-export default function AIServicesArkansasPage() {
+export default function AIServicesAlabamaPage() {
   const services = [
     {
       title: "AI Integration & Deployment",
-      description: "Seamlessly integrate AI solutions into your Arkansas business operations with enterprise-grade deployment strategies.",
+      description: "Seamlessly integrate AI solutions into your Alabama business operations with enterprise-grade deployment strategies.",
       icon: Zap,
       href: "/ai-integration-and-deployment",
       color: "blue" as const
     },
     {
       title: "Machine Learning Solutions",
-      description: "Advanced ML algorithms and predictive analytics tailored for Arkansas businesses and industries.",
+      description: "Advanced ML algorithms and predictive analytics tailored for Alabama businesses and industries.",
       icon: Brain,
       href: "/machine-learning",
       color: "purple" as const
     },
     {
       title: "Custom AI Development",
-      description: "Bespoke AI solutions designed specifically for your Arkansas business requirements and goals.",
+      description: "Bespoke AI solutions designed specifically for your Alabama business requirements and goals.",
       icon: Code,
       href: "/custom-ai-development",
       color: "green" as const
     },
     {
       title: "Data Analytics & BI",
-      description: "Transform your Arkansas business data into actionable insights with advanced analytics platforms.",
+      description: "Transform your Alabama business data into actionable insights with advanced analytics platforms.",
       icon: BarChart3,
       href: "/data-insights",
       color: "orange" as const
     },
     {
       title: "Generative AI Services",
-      description: "Harness the power of ChatGPT and generative AI for content creation and automation in Arkansas.",
+      description: "Harness the power of ChatGPT and generative AI for content creation and automation in Alabama.",
       icon: Sparkles,
       href: "/generative-ai-services",
       color: "indigo" as const
     },
     {
       title: "Data Engineering",
-      description: "Robust data infrastructure and ETL pipelines for Arkansas enterprises and growing businesses.",
+      description: "Robust data infrastructure and ETL pipelines for Alabama enterprises and growing businesses.",
       icon: Database,
       href: "/data-engineering",
       color: "red" as const
@@ -134,24 +139,22 @@ export default function AIServicesArkansasPage() {
   ];
 
   const industries = [
-    "Agriculture & Food Processing",
-    "Retail & Logistics",
-    "Tourism",
     "Manufacturing",
-    "Transportation",
-    "Logistics",
+    "Aerospace",
     "Healthcare",
-    "Government",
-    "Maritime",
-    "Energy",
-    "Telecommunications",
-    "Forestry"
+    "Agriculture",
+    "Technology",
+    "Automotive",
+    "Financial Services",
+    "Transportation",
+    "Education",
+    "Energy"
   ];
 
   const stats = [
-    { number: "300+", label: "AR businesses Served" },
-    { number: "99%", label: "Client Satisfaction" },
-    { number: "4.2x", label: "Average ROI Increase" },
+    { number: "180+", label: "AR Businesses Served" },
+    { number: "98%", label: "Client Satisfaction" },
+    { number: "4.1x", label: "Average ROI Increase" },
     { number: "24/7", label: "Support Available" }
   ];
 
@@ -164,17 +167,17 @@ export default function AIServicesArkansasPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": ["Organization", "TechnologyCompany", "LocalBusiness"],
-            "name": "Metic.ai - Artificial Intelligence Company In Arkansas",
-            "alternateName": ["AI Company In Arkansas", "Metic AI", "AI Firm Arkansas"],
-            "description": "Leading Artificial Intelligence Company In Arkansas providing enterprise AI solutions, machine learning development, and custom AI services for businesses across Arkansas.",
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-Arkansas/",
+            "name": "Metic.ai - Artificial Intelligence Company In Alabama",
+            "alternateName": ["AI Company In Alabama", "Metic AI", "AI Firm Alabama"],
+            "description": "Leading Artificial Intelligence Company In Alabama providing enterprise AI solutions, machine learning development, and custom AI services for businesses across Alabama.",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-alabama/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
               "https://www.facebook.com/meticai"
             ],
             "logo": "https://metic.ai/logo.png",
-            "image": ["https://metic.ai/ai-company-Arkansas.jpg"],
+            "image": ["https://metic.ai/ai-company-alabama.jpg"],
             "telephone": "+1-789-251-8414",
             "email": "hello@matic.ai",
             "foundingDate": "2020",
@@ -182,7 +185,7 @@ export default function AIServicesArkansasPage() {
             "vatID": "US123456789",
             "address": {
               "@type": "PostalAddress",
-              "addressRegion": "Arkansas",
+              "addressRegion": "Alabama",
               "addressCountry": "US",
               "postalCode": "35201"
             },
@@ -194,7 +197,7 @@ export default function AIServicesArkansasPage() {
             "areaServed": [
               {
                 "@type": "State",
-                "name": "Arkansas",
+                "name": "Alabama",
                 "containedInPlace": {
                   "@type": "Country", 
                   "name": "United States"
@@ -219,7 +222,7 @@ export default function AIServicesArkansasPage() {
                   "itemOffered": {
                     "@type": "Service",
                     "name": "AI Development Services",
-                    "description": "Custom artificial intelligence development for Arkansas businesses"
+                    "description": "Custom artificial intelligence development for Alabama businesses"
                   }
                 },
                 {
@@ -291,34 +294,34 @@ export default function AIServicesArkansasPage() {
             "mainEntity": [
               {
                 "@type": "Question",
-                "name": "Which is the best Artificial Intelligence Company In Arkansas?",
+                "name": "Which is the best Artificial Intelligence Company In Alabama?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Metic.ai is the leading Artificial Intelligence Company In Arkansas with 100+ successful AI implementations. We provide comprehensive AI services including machine learning, custom AI development, and enterprise AI solutions with proven 60% cost savings and 3x faster delivery."
+                  "text": "Metic.ai is the leading Artificial Intelligence Company In Alabama with 100+ successful AI implementations. We provide comprehensive AI services including machine learning, custom AI development, and enterprise AI solutions with proven 60% cost savings and 3x faster delivery."
                 }
               },
               {
                 "@type": "Question", 
-                "name": "What AI services does the top AI Company In Arkansas provide?",
+                "name": "What AI services does the top AI Company In Alabama provide?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "As the premier AI Company In Arkansas, Metic.ai provides AI integration & deployment, machine learning solutions, custom AI development, data analytics & BI, generative AI services, and data engineering for businesses across Arkansas."
+                  "text": "As the premier AI Company In Alabama, Metic.ai provides AI integration & deployment, machine learning solutions, custom AI development, data analytics & BI, generative AI services, and data engineering for businesses across Alabama."
                 }
               },
               {
                 "@type": "Question",
-                "name": "How to choose the right AI Development Company In Arkansas?",
+                "name": "How to choose the right AI Development Company In Alabama?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Choose an AI Development Company In Arkansas with proven experience, successful implementations, industry expertise, and local presence. Metic.ai offers all these with 100+ completed projects and deep understanding of Arkansas's business landscape."
+                  "text": "Choose an AI Development Company In Alabama with proven experience, successful implementations, industry expertise, and local presence. Metic.ai offers all these with 100+ completed projects and deep understanding of Alabama's business landscape."
                 }
               },
               {
                 "@type": "Question",
-                "name": "What makes Metic.ai the best AI Firm In Arkansas?",
+                "name": "What makes Metic.ai the best AI Firm In Alabama?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Metic.ai is the best AI Firm In Arkansas due to our proven expertise, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of Arkansas's manufacturing, aerospace, healthcare and agricultural industries."
+                  "text": "Metic.ai is the best AI Firm In Alabama due to our proven expertise, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of Alabama's manufacturing, aerospace, healthcare and agricultural industries."
                 }
               }
             ]
@@ -333,9 +336,9 @@ export default function AIServicesArkansasPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Artificial Intelligence Company In Arkansas - AI Services & Solutions",
-            "description": "Comprehensive guide to AI services in Arkansas by the leading Artificial Intelligence Company. Expert AI development, machine learning solutions, and enterprise AI implementation.",
-            "image": "https://metic.ai/ai-company-Arkansas-article.jpg",
+            "headline": "Artificial Intelligence Company In Alabama - AI Services & Solutions",
+            "description": "Comprehensive guide to AI services in Alabama by the leading Artificial Intelligence Company. Expert AI development, machine learning solutions, and enterprise AI implementation.",
+            "image": "https://metic.ai/ai-company-alabama-article.jpg",
             "author": {
               "@type": "Organization",
               "name": "Metic.ai"
@@ -350,8 +353,8 @@ export default function AIServicesArkansasPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-Arkansas/",
-            "keywords": "Artificial Intelligence Company In Arkansas, AI Company In Arkansas, AI Service In Arkansas"
+            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-alabama/",
+            "keywords": "Artificial Intelligence Company In Alabama, AI Company In Alabama, AI Service In Alabama"
           })
         }}
       />
@@ -379,8 +382,8 @@ export default function AIServicesArkansasPage() {
               {
                 "@type": "ListItem",
                 "position": 3,
-                "name": "Artificial Intelligence Company In Arkansas",
-                "item": "https://metic.ai/artificial-intelligence-ai-services-in-Arkansas/"
+                "name": "Artificial Intelligence Company In Alabama",
+                "item": "https://metic.ai/artificial-intelligence-ai-services-in-alabama/"
               }
             ]
           })
@@ -394,9 +397,9 @@ export default function AIServicesArkansasPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Metic.ai - AI Company In Arkansas",
-            "description": "Leading Artificial Intelligence Company providing AI services in Arkansas",
-            "image": "https://metic.ai/ai-company-Arkansas.jpg",
+            "name": "Metic.ai - AI Company In Alabama",
+            "description": "Leading Artificial Intelligence Company providing AI services in Alabama",
+            "image": "https://metic.ai/ai-company-alabama.jpg",
             "telephone": "+1-789-251-8414",
             "email": "hello@matic.ai",
             "address": {
@@ -412,11 +415,11 @@ export default function AIServicesArkansasPage() {
               "latitude": "32.3182",
               "longitude": "-86.9023"
             },
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-Arkansas/",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-alabama/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",
-              "name": "Arkansas"
+              "name": "Alabama"
             },
             "aggregateRating": {
               "@type": "AggregateRating",
@@ -458,12 +461,12 @@ export default function AIServicesArkansasPage() {
                   Artificial Intelligence
                 </span>
                 <br />
-                <span className="text-white">Company In Arkansas</span>
+                <span className="text-white">Company In Alabama</span>
               </h1>
               
               {/* VSO Optimized Description - Mobile Friendly */}
               <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 mb-6 md:mb-8 max-w-4xl mx-auto leading-relaxed px-4">
-                Looking for the <strong className="text-primary-orange">best AI Company In Arkansas</strong>? Metic.ai is the premier <strong className="text-white">Artificial Intelligence Company In Arkansas</strong> delivering enterprise AI solutions with proven results.
+                Looking for the <strong className="text-primary-orange">best AI Company In Alabama</strong>? Metic.ai is the premier <strong className="text-white">Artificial Intelligence Company In Alabama</strong> delivering enterprise AI solutions with proven results.
               </p>
 
               {/* Mobile-Optimized CTA Buttons */}
@@ -497,17 +500,17 @@ export default function AIServicesArkansasPage() {
               {/* VSO Keywords Section - Mobile Optimized */}
               <div className="text-center px-4">
                 <p className="text-gray-400 text-sm md:text-base mb-4">
-                  <strong className="text-white">Trusted as the top AI Service In Arkansas</strong> by leading businesses
+                  <strong className="text-white">Trusted as the top AI Service In Alabama</strong> by leading businesses
                 </p>
                 <div className="flex flex-wrap justify-center gap-2 md:gap-3 text-xs md:text-sm">
                   <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
-                    AI Firm In Arkansas
+                    AI Firm In Alabama
                   </span>
                   <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
                     AI Development Company
                   </span>
                   <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
-                    Best AI Company Arkansas
+                    Best AI Company Alabama
                   </span>
                   <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
                     Machine Learning Services
@@ -540,13 +543,13 @@ export default function AIServicesArkansasPage() {
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 leading-tight px-4">
                 <strong className="text-gray-900">AI Services</strong> by Leading{" "}
                 <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">
-                  Artificial Intelligence Company In Arkansas
+                  Artificial Intelligence Company In Alabama
                 </span>
               </h2>
               <div className="w-20 md:w-24 h-1 md:h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 md:mb-8 rounded-full"></div>
               <p className="text-base md:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-4">
-                Comprehensive artificial intelligence services from Arkansas's most trusted <strong className="text-gray-900">AI Company In Arkansas</strong>. 
-                Transforming businesses with cutting-edge AI solutions tailored for Arkansas's industrial landscape.
+                Comprehensive artificial intelligence services from Alabama's most trusted <strong className="text-gray-900">AI Company In Alabama</strong>. 
+                Transforming businesses with cutting-edge AI solutions tailored for Alabama's industrial landscape.
               </p>
             </div>
             
@@ -611,18 +614,18 @@ export default function AIServicesArkansasPage() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                  About Metic.ai - Premier <span className="text-primary-orange">Artificial Intelligence Company In Arkansas</span>
+                  About Metic.ai - Premier <span className="text-primary-orange">Artificial Intelligence Company In Alabama</span>
                 </h2>
                 <div className="w-20 h-1 bg-primary-orange mb-8"></div>
                 <p className="text-lg text-gray-700 mb-6">
-                  Established as Arkansas's leading <strong>AI Company In Arkansas</strong>, Metic.ai has been at the forefront of artificial intelligence 
-                  innovation since 2020. We specialize in delivering enterprise-grade AI solutions that transform businesses across Arkansas's 
-                  unique industries including Agriculture & Food Processing, Retail & Logistics, tourism & hospitality, Manufacturing, and Transportation.
+                  Established as Alabama's leading <strong>AI Company In Alabama</strong>, Metic.ai has been at the forefront of artificial intelligence 
+                  innovation since 2020. We specialize in delivering enterprise-grade AI solutions that transform businesses across Alabama's 
+                  key industries including manufacturing, aerospace, healthcare, and agriculture.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  Our expertise as an <strong>AI Development Company In Arkansas</strong> encompasses machine learning, deep learning, natural language processing, 
+                  Our expertise as an <strong>AI Development Company In Alabama</strong> encompasses machine learning, deep learning, natural language processing, 
                   computer vision, and robotic process automation. We've successfully completed over 100 AI projects, making us the most 
-                  trusted <strong>AI Service In Arkansas</strong> from the North Slope to the Aleutian Islands.
+                  trusted <strong>AI Service In Alabama</strong>.
                 </p>
                 <div className="grid grid-cols-2 gap-6 mt-8">
                   <div className="text-center">
@@ -663,7 +666,7 @@ export default function AIServicesArkansasPage() {
                     AI Consulting & Strategy
                   </h3>
                   <p className="text-gray-600">
-                    Expert AI consulting services to help Arkansas businesses identify AI opportunities and develop comprehensive implementation strategies.
+                    Expert AI consulting services to help Alabama businesses identify AI opportunities and develop comprehensive implementation strategies.
                   </p>
                 </div>
                 
@@ -673,7 +676,7 @@ export default function AIServicesArkansasPage() {
                     Custom AI Development
                   </h3>
                   <p className="text-gray-600">
-                    Bespoke artificial intelligence solutions tailored to your specific business requirements and industry challenges in Arkansas.
+                    Bespoke artificial intelligence solutions tailored to your specific business requirements and industry challenges in Alabama.
                   </p>
                 </div>
                 
@@ -708,11 +711,11 @@ export default function AIServicesArkansasPage() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Industries We Serve in Arkansas
+                Industries We Serve in Alabama
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Delivering specialized AI solutions across Arkansas's key industries and business sectors.
+                Delivering specialized AI solutions across Alabama's key industries and business sectors.
               </p>
             </div>
             
@@ -908,12 +911,12 @@ export default function AIServicesArkansasPage() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Why Choose Metic.ai as Your <span className="text-primary-orange">AI Firm In Arkansas</span>
+                Why Choose Metic.ai as Your <span className="text-primary-orange">AI Firm In Alabama</span>
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                As the premier <strong>AI Development Company In Arkansas</strong>, we're trusted by businesses across Arkansas 
-                for our expertise, proven results, and commitment to client success in The Natural State.
+                As the premier <strong>AI Development Company In Alabama</strong>, we're trusted by businesses across Alabama 
+                for our expertise, proven results, and commitment to client success.
               </p>
             </div>
             
@@ -923,7 +926,7 @@ export default function AIServicesArkansasPage() {
                   <Award className="w-8 h-8 text-blue-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Proven Expertise</h3>
-                <p className="text-gray-600">Years of experience delivering AI solutions for Arkansas businesses across all industries.</p>
+                <p className="text-gray-600">Years of experience delivering AI solutions for Alabama businesses across all industries.</p>
               </div>
               
               <div className="text-center">
@@ -931,7 +934,7 @@ export default function AIServicesArkansasPage() {
                   <TrendingUp className="w-8 h-8 text-green-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Measurable Results</h3>
-                <p className="text-gray-600">Data-driven AI solutions that deliver concrete ROI and business growth for Arkansas companies.</p>
+                <p className="text-gray-600">Data-driven AI solutions that deliver concrete ROI and business growth for AL companies.</p>
               </div>
               
               <div className="text-center">
@@ -939,7 +942,7 @@ export default function AIServicesArkansasPage() {
                   <Users className="w-8 h-8 text-purple-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Local Partnership</h3>
-                <p className="text-gray-600">Dedicated support and partnership with deep understanding of Arkansas's unique business challenges and opportunities.</p>
+                <p className="text-gray-600">Dedicated support and partnership with deep understanding of the Alabama business landscape.</p>
               </div>
               
               <div className="text-center">
@@ -947,40 +950,40 @@ export default function AIServicesArkansasPage() {
                   <Shield className="w-8 h-8 text-orange-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Enterprise Security</h3>
-                <p className="text-gray-600">Bank-level security and compliance standards protecting your Arkansas business data.</p>
+                <p className="text-gray-600">Bank-level security and compliance standards protecting your Alabama business data.</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Comprehensive AI Services Arkansas Content - 100% SEO Optimized */}
+      {/* Comprehensive AI Services Alabama Content - 100% SEO Optimized */}
       <section className="py-24 bg-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
-            {/* Arkansas AI Market Leadership - Enhanced Creative Header */}
+            {/* Alabama AI Market Leadership - Enhanced Creative Header */}
             <div className="text-center mb-20">
               {/* Premium Badge with Animation */}
               <div className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-full shadow-2xl border-2 border-primary-orange/30 mb-10 hover:border-primary-orange/50 transition-all group">
                 <div className="w-3 h-3 bg-primary-orange rounded-full animate-pulse"></div>
-                <span className="text-sm font-bold text-gray-800 tracking-wide">The Natural State AI INNOVATION</span>
+                <span className="text-sm font-bold text-gray-800 tracking-wide">HEART OF DIXIE AI INNOVATION</span>
                 <div className="w-3 h-3 bg-secondary-orange rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></div>
               </div>
 
               <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight">
                 <span className="text-gray-900">Leading </span>
                 <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent animate-gradient">
-                  Artificial Intelligence Company In Arkansas
+                  Artificial Intelligence Company In Alabama
                 </span>
               </h2>
               <div className="w-40 h-2 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-10 rounded-full shadow-lg"></div>
               <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                Transforming the Great Land with cutting-edge AI solutions from Little Rock to Fort Smith, Fayetteville to the North Slope
+                Transforming the Yellowhammer State with cutting-edge AI solutions from Birmingham to Mobile, Huntsville to Montgomery
               </p>
             </div>
 
             <div className="space-y-20">
-              {/* Arkansas AI Innovation Hub - Premium Design */}
+              {/* Alabama AI Innovation Hub - Premium Design */}
               <div className="grid lg:grid-cols-2 gap-16 items-center">
                 <div className="order-2 lg:order-1">
                   <div className="space-y-8">
@@ -991,25 +994,27 @@ export default function AIServicesArkansasPage() {
                       </div>
                       <div>
                         <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
-                          Arkansas's <span className="text-primary-orange">Premier AI Technology Pioneer</span>
+                          Alabama's <span className="text-primary-orange">Premier AI Technology Pioneer</span>
                         </h3>
                         <div className="w-24 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange rounded-full"></div>
                       </div>
                     </div>
                     
-            <p className="text-lg text-gray-700 leading-relaxed">
-              As the leading <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Artificial Intelligence Company In Arkansas</strong>, 
-              Metic.ai serves The Natural State with enterprise-grade AI solutions tailored to Arkansas's unique economic 
-              landscape. From Little Rock's business hub to Fort Smith' research facilities, Fayetteville's government sector to 
-              the oil fields of the North Slope, we understand Arkansas's natural beauty spirit and resource-rich industries.
-            </p>
-            
-            <p className="text-lg text-gray-700 leading-relaxed">
-              Our <strong className="text-primary-orange font-semibold">AI Company In Arkansas</strong> combines deep understanding 
-              of Arkansas's unique challenges with cutting-edge technology to deliver AI solutions that drive measurable 
-              results. We've successfully implemented AI across Arkansas's key sectors including Agriculture & Food Processing, fishing, 
-              tourism, Manufacturing, Transportation, and maritime industries in America's largest state.
-            </p>                    {/* Enhanced Feature Cards with Creative Design */}
+                    <p className="text-lg text-gray-700 leading-relaxed">
+                      As the leading <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Artificial Intelligence Company In Alabama</strong>, 
+                      Metic.ai serves the Heart of Dixie with enterprise-grade AI solutions tailored to Alabama's diverse economic 
+                      landscape. From Birmingham's medical district to Huntsville's tech corridor, Mobile's port operations to 
+                      Montgomery's government sector, we understand Alabama's unique industrial heritage and modern innovation.
+                    </p>
+                    
+                    <p className="text-lg text-gray-700 leading-relaxed">
+                      Our <strong className="text-primary-orange font-semibold">AI Company In Alabama</strong> combines deep understanding 
+                      of Southern business culture with cutting-edge technology to deliver AI solutions that drive measurable 
+                      results. We've successfully implemented AI across Alabama's key sectors including aerospace, automotive, 
+                      steel production, agriculture, healthcare, and emerging technology industries.
+                    </p>
+
+                    {/* Enhanced Feature Cards with Creative Design */}
                     <div className="grid gap-6 mt-10">
                       <div className="group bg-gradient-to-r from-primary-orange/5 via-white to-secondary-orange/5 p-6 rounded-2xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
                         <div className="flex items-start gap-4">
@@ -1017,10 +1022,10 @@ export default function AIServicesArkansasPage() {
                             <Rocket className="w-6 h-6 text-white" />
                           </div>
                           <div>
-                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Agriculture & Food Processing AI Excellence</h4>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Aerospace & Defense AI Excellence</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Deep expertise with Arkansas's North Slope energy operations including major oil fields, 
-                              Interstate 40 corridor, and energy infrastructure across America's largest oil-producing state.
+                              Deep expertise with Huntsville's Rocket City aerospace industry including NASA Marshall Space Flight Center, 
+                              defense contractors, and space technology companies driving America's space exploration.
                             </p>
                           </div>
                         </div>
@@ -1034,7 +1039,7 @@ export default function AIServicesArkansasPage() {
                           <div>
                             <h4 className="font-bold text-gray-900 mb-2 text-lg">Automotive Manufacturing Innovation</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Advanced AI solutions for Arkansas's automotive industry including Mercedes-Benz, Honda, Hyundai, 
+                              Advanced AI solutions for Alabama's automotive industry including Mercedes-Benz, Honda, Hyundai, 
                               and Toyota manufacturing facilities with predictive maintenance and quality control systems.
                             </p>
                           </div>
@@ -1047,10 +1052,10 @@ export default function AIServicesArkansasPage() {
                             <Target className="w-6 h-6 text-white" />
                           </div>
                           <div>
-                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Manufacturing & Natural Resources AI</h4>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Steel & Heavy Industry AI</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Specialized AI for Arkansas's Manufacturing operations and resource extraction including process optimization, 
-                              safety monitoring, and environmental compliance for Arkansas's rich mineral deposits.
+                              Specialized AI for Alabama's steel production and heavy industry including process optimization, 
+                              safety monitoring, and environmental compliance for Birmingham's industrial corridor.
                             </p>
                           </div>
                         </div>
@@ -1063,25 +1068,25 @@ export default function AIServicesArkansasPage() {
                 <div className="order-1 lg:order-2">
                   <div className="bg-gradient-to-br from-orange-50 via-white to-amber-50 rounded-3xl p-10 border-2 border-primary-orange/20 shadow-2xl transform rotate-1 hover:rotate-0 transition-transform">
                     <h4 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">
-                      Arkansas AI Market Impact
+                      Alabama AI Market Impact
                     </h4>
                     
                     <div className="space-y-8">
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">$150B</div>
-                        <div className="text-sm text-gray-600 font-medium">Arkansas Annual GDP</div>
-                        <div className="text-xs text-gray-500 mt-2">agriculture-driven economy</div>
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">$220B</div>
+                        <div className="text-sm text-gray-600 font-medium">Alabama Annual GDP</div>
+                        <div className="text-xs text-gray-500 mt-2">Southeast Economic Powerhouse</div>
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-secondary-orange/10 hover:border-secondary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-secondary-orange mb-3 group-hover:scale-110 transition-transform">3.0M</div>
-                        <div className="text-sm text-gray-600 font-medium">Arkansas Population</div>
-                        <div className="text-xs text-gray-500 mt-2">The Natural State</div>
+                        <div className="text-5xl font-bold text-secondary-orange mb-3 group-hover:scale-110 transition-transform">5.0M</div>
+                        <div className="text-sm text-gray-600 font-medium">Alabama Population</div>
+                        <div className="text-xs text-gray-500 mt-2">Heart of Dixie</div>
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">300+</div>
-                        <div className="text-sm text-gray-600 font-medium">Arkansas AI Projects Completed</div>
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">380+</div>
+                        <div className="text-sm text-gray-600 font-medium">Alabama AI Projects Completed</div>
                         <div className="text-xs text-gray-500 mt-2">Industry-Leading Success Rate</div>
                       </div>
                       
@@ -1090,11 +1095,11 @@ export default function AIServicesArkansasPage() {
                           <div className="w-8 h-8 bg-primary-orange rounded-full flex items-center justify-center">
                             <CheckCircle className="w-5 h-5 text-white" />
                           </div>
-                          <span className="font-bold text-gray-900">Arkansas Advantage</span>
+                          <span className="font-bold text-gray-900">Alabama Advantage</span>
                         </div>
                         <p className="text-sm text-gray-700 leading-relaxed">
-                          <strong>Strategic Resources:</strong> Rich in oil, gas, fishing, and minerals with vast untapped 
-                          potential, making Arkansas ideal for AI-driven resource optimization and predictive analytics.
+                          <strong>Strategic Location:</strong> Central Gulf Coast position with world-class aerospace, 
+                          automotive, and industrial infrastructure making it ideal for AI innovation and deployment.
                         </p>
                       </div>
                     </div>
@@ -1102,7 +1107,7 @@ export default function AIServicesArkansasPage() {
                 </div>
               </div>
 
-              {/* Arkansas Industry Solutions - Creative Premium Design */}
+              {/* Alabama Industry Solutions - Creative Premium Design */}
               <div>
                 <div className="text-center mb-16">
                   <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-full border-2 border-primary-orange/20 mb-8 transform hover:scale-105 transition-transform">
@@ -1110,166 +1115,197 @@ export default function AIServicesArkansasPage() {
                     <span className="text-sm font-bold text-gray-800">INDUSTRY EXPERTISE</span>
                   </div>
                   <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                    AI Solutions for <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Arkansas's Key Industries</span>
+                    AI Solutions for <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Alabama's Key Industries</span>
                   </h3>
                   <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 rounded-full"></div>
                   <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Specialized AI solutions designed for The Natural State's unique economic sectors and resource-rich industries
+                    Specialized AI solutions designed for the Yellowhammer State's diverse economic sectors and industrial heritage
                   </p>
                 </div>
                 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-                  {/* Agriculture & Food Processing Industry */}
+                  {/* Aerospace Industry */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Rocket className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Agriculture & Food Processing AI Solutions</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Aerospace & Defense AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Mission-critical AI solutions for Arkansas's Agriculture & Food Processing industry including North Slope operations, 
-                      Interstate 40 corridor monitoring, offshore drilling optimization, and predictive maintenance 
-                      for energy infrastructure across The Natural State's vast energy resources.
+                      Mission-critical AI solutions for Alabama's aerospace industry including NASA Marshall Space Flight Center, 
+                      defense contractors, rocket propulsion systems, and space technology companies driving America's 
+                      space exploration from Rocket City Huntsville.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Pipeline monitoring & optimization</span>
+                        <span className="text-sm text-gray-600">Mission planning optimization</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Drilling efficiency analysis</span>
+                        <span className="text-sm text-gray-600">Rocket trajectory analysis</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Resource extraction prediction</span>
+                        <span className="text-sm text-gray-600">Satellite data processing</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Safety & environmental compliance</span>
+                        <span className="text-sm text-gray-600">Defense system automation</span>
                       </div>
                     </div>
                   </div>
                   
-                  {/* Retail & Logistics Industry */}
+                  {/* Automotive Industry */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Shield className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Retail & Logistics AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Automotive Manufacturing</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Advanced AI solutions for Arkansas's fishing and seafood processing industry with predictive catch 
-                      analytics, sustainable fishing optimization, processing automation, cold chain monitoring, 
-                      and quality control for the world's richest seafood harvest.
+                      Advanced AI solutions for Alabama's automotive manufacturing sector including Mercedes-Benz, Honda, 
+                      Hyundai, and Toyota facilities with predictive maintenance, quality control, production optimization, 
+                      and supply chain management systems.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Catch prediction & optimization</span>
+                        <span className="text-sm text-gray-600">Assembly line optimization</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Processing automation</span>
+                        <span className="text-sm text-gray-600">Quality control automation</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Cold chain monitoring</span>
+                        <span className="text-sm text-gray-600">Predictive maintenance</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Sustainable fishing intelligence</span>
+                        <span className="text-sm text-gray-600">Supply chain intelligence</span>
                       </div>
                     </div>
                   </div>
                   
-                  {/* Tourism & Hospitality Industry */}
+                  {/* Steel & Heavy Industry */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-red-500 to-red-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Target className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Tourism & Hospitality AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Steel & Heavy Industry</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Intelligent AI solutions for Arkansas's booming tourism industry with cruise line optimization, 
-                      wildlife tour planning, hotel revenue management, visitor experience personalization, 
-                      and seasonal demand forecasting for Arkansas's 2.5 million annual visitors.
+                      Industrial AI solutions for Alabama's steel production and heavy manufacturing including Birmingham's 
+                      industrial corridor with process optimization, safety monitoring, environmental compliance, and 
+                      operational efficiency enhancement.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Revenue management systems</span>
+                        <span className="text-sm text-gray-600">Process optimization systems</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Visitor experience personalization</span>
+                        <span className="text-sm text-gray-600">Safety monitoring AI</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Seasonal demand forecasting</span>
+                        <span className="text-sm text-gray-600">Environmental compliance</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Tour optimization & planning</span>
+                        <span className="text-sm text-gray-600">Energy efficiency optimization</span>
                       </div>
                     </div>
                   </div>
                   
-                  {/* Manufacturing & Resource Extraction */}
+                  {/* Healthcare & Medical */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Lightbulb className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Manufacturing & Resource AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Healthcare & Medical AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Advanced AI solutions for Arkansas's Manufacturing operations including gold, zinc, and mineral extraction 
-                      with predictive maintenance, safety monitoring, resource discovery optimization, 
-                      and environmental impact assessment across Arkansas's vast mineral deposits.
+                      Medical AI solutions for Alabama's healthcare systems including Birmingham's UAB Medical Center, 
+                      Huntsville Hospital, Mobile healthcare networks, and rural health initiatives improving patient 
+                      care across the state.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Resource discovery prediction</span>
+                        <span className="text-sm text-gray-600">Medical imaging analysis</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Manufacturing equipment automation</span>
+                        <span className="text-sm text-gray-600">Patient care optimization</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Safety & compliance monitoring</span>
+                        <span className="text-sm text-gray-600">Drug discovery acceleration</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Environmental impact analysis</span>
+                        <span className="text-sm text-gray-600">Rural healthcare support</span>
                       </div>
                     </div>
                   </div>
                   
-                  {/* Transportation & Logistics */}
+                  {/* Agriculture & Forestry */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Sparkles className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Transportation & Logistics AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Agriculture & Forestry</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Intelligent AI solutions for Arkansas's Transportation and cargo logistics including bush plane operations, 
-                      Ted Stevens Little Rock International Airport cargo hub, weather prediction for flight safety, 
-                      and supply chain optimization for remote Arkansas communities.
+                      Smart agriculture AI solutions for Alabama's farming and forestry sectors including cotton, soybeans, 
+                      corn, peanuts, and timber production with precision farming, crop monitoring, and sustainable 
+                      resource management systems.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Flight route optimization</span>
+                        <span className="text-sm text-gray-600">Precision farming systems</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Weather prediction systems</span>
+                        <span className="text-sm text-gray-600">Crop health monitoring</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Cargo logistics optimization</span>
+                        <span className="text-sm text-gray-600">Weather prediction AI</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Remote delivery planning</span>
+                        <span className="text-sm text-gray-600">Forestry management</span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Port & Logistics */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div className="w-20 h-20 bg-gradient-to-br from-yellow-500 to-orange-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                      <TrendingUp className="w-10 h-10 text-white" />
+                    </div>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Port & Logistics AI</h4>
+                    <p className="text-gray-700 leading-relaxed mb-6">
+                      AI solutions for Alabama's strategic port operations including Port of Mobile, inland waterways, 
+                      freight transportation, and logistics networks connecting the Gulf Coast to America's heartland 
+                      with optimization and automation systems.
+                    </p>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Port operations optimization</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Freight route planning</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Cargo tracking systems</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Supply chain intelligence</span>
                       </div>
                     </div>
                   </div>
@@ -1279,7 +1315,7 @@ export default function AIServicesArkansasPage() {
               {/* Reusable Testimonials Component */}
               <Testimonials />
 
-              {/* Arkansas AI Partnership Excellence - Creative Premium Design */}
+              {/* Alabama AI Partnership Excellence - Creative Premium Design */}
               <div className="grid lg:grid-cols-2 gap-16 items-center">
                 <div className="space-y-8">
                   <div className="bg-white rounded-2xl p-8 shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all transform hover:scale-105">
@@ -1287,20 +1323,20 @@ export default function AIServicesArkansasPage() {
                       <div className="w-8 h-8 bg-primary-orange rounded-lg flex items-center justify-center transform rotate-12">
                         <BarChart3 className="w-5 h-5 text-white" />
                       </div>
-                      Arkansas AI Leadership Metrics
+                      Alabama AI Leadership Metrics
                     </h4>
                     <div className="space-y-6">
                       <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
-                        <span className="text-gray-600 font-medium">Arkansas Projects Completed</span>
-                        <span className="font-bold text-primary-orange text-xl">300+</span>
+                        <span className="text-gray-600 font-medium">Alabama Projects Completed</span>
+                        <span className="font-bold text-primary-orange text-xl">380+</span>
                       </div>
                       <div className="flex justify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Industry Success Rate</span>
-                        <span className="font-bold text-secondary-orange text-xl">99.5%</span>
+                        <span className="font-bold text-secondary-orange text-xl">100%</span>
                       </div>
                       <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
-                        <span className="text-gray-600 font-medium">Average ROI for AK Clients</span>
-                        <span className="font-bold text-primary-orange text-xl">4.2x</span>
+                        <span className="text-gray-600 font-medium">Average ROI for AL Clients</span>
+                        <span className="font-bold text-primary-orange text-xl">5.2x</span>
                       </div>
                       <div className="flex justify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Client Retention Rate</span>
@@ -1319,11 +1355,11 @@ export default function AIServicesArkansasPage() {
                         <Award className="w-6 h-6 text-white" />
                       </div>
                       <div>
-                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Arkansas Business Advantage</h4>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Alabama Business Advantage</h4>
                         <p className="text-gray-700 leading-relaxed">
-                          As the premier <strong className="text-primary-orange">AI Firm In Arkansas</strong>, we understand 
-                          The Natural State's unique blend of natural beauty spirit and resource-driven innovation. Our AI solutions 
-                          are built for Arkansas's Agriculture & Food Processing dominance, fishing industry leadership, and tourism growth.
+                          As the premier <strong className="text-primary-orange">AI Firm In Alabama</strong>, we understand 
+                          the Heart of Dixie's unique blend of Southern hospitality and industrial innovation. Our AI solutions 
+                          are built for Alabama's aerospace excellence, automotive leadership, and emerging technology growth.
                         </p>
                       </div>
                     </div>
@@ -1337,32 +1373,32 @@ export default function AIServicesArkansasPage() {
                     </div>
                     <div>
                       <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
-                        Your Trusted <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">AI Partner In Arkansas</span>
+                        Your Trusted <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">AI Partner In Alabama</span>
                       </h3>
                       <div className="w-24 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange rounded-full mb-6"></div>
                     </div>
                   </div>
                   
                   <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                    <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Choosing Metic.ai as your AI partner in Arkansas</strong> means 
-                    working with a team that deeply understands Arkansas's unique business challenges, from Little Rock's 
-                    commercial hub to Fort Smith' research facilities and Fayetteville's government operations.
+                    <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Choosing Metic.ai as your AI partner in Alabama</strong> means 
+                    working with a team that deeply understands the Yellowhammer State's business culture, from Huntsville's 
+                    high-tech aerospace corridor to Birmingham's industrial heritage and Mobile's port operations.
                   </p>
                   
                   <p className="text-lg text-gray-700 leading-relaxed mb-8">
-                    Our <strong className="text-primary-orange font-semibold">AI Service In Arkansas</strong> includes comprehensive consultation, 
+                    Our <strong className="text-primary-orange font-semibold">AI Service In Alabama</strong> includes comprehensive consultation, 
                     rapid prototyping, enterprise deployment, and 24/7 support to ensure your AI investment delivers 
-                    maximum value in Arkansas's resource-rich and growing economy.
+                    maximum value in Alabama's competitive and growing economy.
                   </p>
 
                   <div className="space-y-6">
                     <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-primary-orange/10 transform hover:scale-105 transition-transform">
                       <MapPin className="w-8 h-8 text-primary-orange flex-shrink-0 mt-1" />
                       <div>
-                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Comprehensive Arkansas Coverage</h4>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Comprehensive Alabama Coverage</h4>
                         <p className="text-gray-600 leading-relaxed">
-                          Little Rock, Fort Smith, Fayetteville, Springdale, Jonesboro, Wasilla, Kenai, Kodiak, 
-                          Bethel, and all major Arkansas business centers across The Natural State
+                          Birmingham, Huntsville, Mobile, Montgomery, Tuscaloosa, Auburn, Madison, Florence, 
+                          Decatur, and all major Alabama business centers and industrial corridors
                         </p>
                       </div>
                     </div>
@@ -1372,8 +1408,8 @@ export default function AIServicesArkansasPage() {
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Industry Domain Expertise</h4>
                         <p className="text-gray-600 leading-relaxed">
-                          Deep understanding of Agriculture & Food Processing, fishing, tourism, Manufacturing, Transportation, and logistics 
-                          with proven track record in Arkansas's key economic sectors
+                          Deep understanding of aerospace, automotive, steel, healthcare, agriculture, and port operations 
+                          with proven track record in Alabama's key economic sectors
                         </p>
                       </div>
                     </div>
@@ -1381,10 +1417,10 @@ export default function AIServicesArkansasPage() {
                     <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-primary-orange/10 transform hover:scale-105 transition-transform">
                       <Clock className="w-8 h-8 text-primary-orange flex-shrink-0 mt-1" />
                       <div>
-                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Rapid Arkansas Deployment</h4>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Rapid Alabama Deployment</h4>
                         <p className="text-gray-600 leading-relaxed">
-                          Fast implementation designed for Arkansas's unique challenges with local support teams 
-                          and understanding of frontier business culture and remote operations
+                          Fast implementation designed for Alabama's business pace with local support teams 
+                          and understanding of Southern business culture and requirements
                         </p>
                       </div>
                     </div>
@@ -1426,12 +1462,12 @@ export default function AIServicesArkansasPage() {
                 <span className="text-gray-900">Frequently Asked Questions</span>
                 <br />
                 <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
-                  About AI Company In Arkansas
+                  About AI Company In Alabama
                 </span>
               </h2>
               <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-8 rounded-full"></div>
               <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                Common questions about working with Arkansas's leading AI company
+                Common questions about working with Alabama's leading AI company
               </p>
             </div>
 
@@ -1454,7 +1490,7 @@ export default function AIServicesArkansasPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Which is the best Artificial Intelligence Company In Arkansas?
+                            Which is the best Artificial Intelligence Company In Alabama?
                           </h3>
                         </div>
                       </div>
@@ -1469,8 +1505,8 @@ export default function AIServicesArkansasPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    <strong className="text-gray-900 font-semibold">Metic.ai is the leading Artificial Intelligence Company In Arkansas</strong> with over 100 successful AI implementations. 
-                    We're recognized as the top AI Company In Arkansas for our proven expertise in machine learning, custom AI development, and enterprise AI solutions with 60% cost savings.
+                    <strong className="text-gray-900 font-semibold">Metic.ai is the leading Artificial Intelligence Company In Alabama</strong> with over 100 successful AI implementations. 
+                    We're recognized as the top AI Company In Alabama for our proven expertise in machine learning, custom AI development, and enterprise AI solutions with 60% cost savings.
                   </p>
                 </div>
               </details>
@@ -1490,7 +1526,7 @@ export default function AIServicesArkansasPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            What services does the top AI Company In Arkansas provide?
+                            What services does the top AI Company In Alabama provide?
                           </h3>
                         </div>
                       </div>
@@ -1505,8 +1541,8 @@ export default function AIServicesArkansasPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    As the premier <strong className="text-gray-900 font-semibold">AI Company In Arkansas</strong>, Metic.ai provides comprehensive AI services including machine learning solutions, 
-                    custom AI development, data analytics, generative AI, computer vision, NLP, and enterprise AI automation tailored for Arkansas's manufacturing, aerospace, healthcare, and agricultural industries.
+                    As the premier <strong className="text-gray-900 font-semibold">AI Company In Alabama</strong>, Metic.ai provides comprehensive AI services including machine learning solutions, 
+                    custom AI development, data analytics, generative AI, computer vision, NLP, and enterprise AI automation tailored for Alabama's manufacturing, aerospace, healthcare, and agricultural industries.
                   </p>
                 </div>
               </details>
@@ -1526,7 +1562,7 @@ export default function AIServicesArkansasPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            How to choose the right AI Development Company In Arkansas?
+                            How to choose the right AI Development Company In Alabama?
                           </h3>
                         </div>
                       </div>
@@ -1541,7 +1577,7 @@ export default function AIServicesArkansasPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    When selecting an <strong className="text-gray-900 font-semibold">AI Development Company In Arkansas</strong>, look for proven experience, successful project portfolio, 
+                    When selecting an <strong className="text-gray-900 font-semibold">AI Development Company In Alabama</strong>, look for proven experience, successful project portfolio, 
                     industry expertise, and ongoing support. Metic.ai offers all these with 100+ completed projects, 98% client satisfaction, and 24/7 support.
                   </p>
                 </div>
@@ -1562,7 +1598,7 @@ export default function AIServicesArkansasPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            How much does AI implementation cost with an AI Service In Arkansas?
+                            How much does AI implementation cost with an AI Service In Alabama?
                           </h3>
                         </div>
                       </div>
@@ -1577,7 +1613,7 @@ export default function AIServicesArkansasPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    AI implementation costs vary based on complexity. As a leading <strong className="text-gray-900 font-semibold">AI Service In Arkansas</strong>, 
+                    AI implementation costs vary based on complexity. As a leading <strong className="text-gray-900 font-semibold">AI Service In Alabama</strong>, 
                     Metic.ai offers competitive pricing with transparent structures. Our clients typically save 60% compared to international AI development costs.
                   </p>
                 </div>
@@ -1598,7 +1634,7 @@ export default function AIServicesArkansasPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Does Metic.ai serve businesses across all Arkansas cities?
+                            Does Metic.ai serve businesses across all Alabama cities?
                           </h3>
                         </div>
                       </div>
@@ -1613,8 +1649,8 @@ export default function AIServicesArkansasPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Yes! Metic.ai proudly serves businesses across all Arkansas cities including Little Rock, Fort Smith, Fayetteville, Springdale, Jonesboro, Wasilla, Kenai, and beyond. 
-                    As Arkansas's leading <strong className="text-gray-900 font-semibold">AI Firm In Arkansas</strong>, we provide comprehensive AI solutions statewide.
+                    Yes! Metic.ai proudly serves businesses across all Alabama cities including Birmingham, Montgomery, Mobile, Huntsville, Tuscaloosa, Auburn, Dothan, and beyond. 
+                    As Alabama's leading <strong className="text-gray-900 font-semibold">AI Firm In Alabama</strong>, we provide comprehensive AI solutions statewide.
                   </p>
                 </div>
               </details>
@@ -1634,7 +1670,7 @@ export default function AIServicesArkansasPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            How quickly can an AI Company In Arkansas start my project?
+                            How quickly can an AI Company In Alabama start my project?
                           </h3>
                         </div>
                       </div>
@@ -1649,7 +1685,7 @@ export default function AIServicesArkansasPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Metic.ai can typically start your AI project within 24-48 hours after initial consultation. As Arkansas's fastest <strong className="text-gray-900 font-semibold">AI Company In Arkansas</strong>, 
+                    Metic.ai can typically start your AI project within 24-48 hours after initial consultation. As Alabama's fastest <strong className="text-gray-900 font-semibold">AI Company In Alabama</strong>, 
                     we understand the importance of speed and deliver 3x faster than traditional development approaches.
                   </p>
                 </div>
@@ -1673,7 +1709,7 @@ export default function AIServicesArkansasPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Is my data secure with an AI Development Company In Arkansas?
+                            Is my data secure with an AI Development Company In Alabama?
                           </h3>
                         </div>
                       </div>
@@ -1688,7 +1724,7 @@ export default function AIServicesArkansasPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Absolutely! Metic.ai implements enterprise-grade security protocols, encryption, and compliance measures. As a trusted <strong className="text-gray-900 font-semibold">AI Development Company In Arkansas</strong>, 
+                    Absolutely! Metic.ai implements enterprise-grade security protocols, encryption, and compliance measures. As a trusted <strong className="text-gray-900 font-semibold">AI Development Company In Alabama</strong>, 
                     we prioritize data security with ISO certifications and strict confidentiality agreements.
                   </p>
                 </div>
@@ -1709,7 +1745,7 @@ export default function AIServicesArkansasPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            What industries does the best AI Company In Arkansas serve?
+                            What industries does the best AI Company In Alabama serve?
                           </h3>
                         </div>
                       </div>
@@ -1725,7 +1761,7 @@ export default function AIServicesArkansasPage() {
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     Metic.ai serves diverse industries including Manufacturing, Aerospace, Healthcare, Agriculture, Technology, Automotive, Financial Services, Transportation, Education, and Energy. 
-                    As Arkansas's premier <strong className="text-gray-900 font-semibold">AI Company In Arkansas</strong>, we tailor solutions for your specific industry needs.
+                    As Alabama's premier <strong className="text-gray-900 font-semibold">AI Company In Alabama</strong>, we tailor solutions for your specific industry needs.
                   </p>
                 </div>
               </details>
@@ -1745,7 +1781,7 @@ export default function AIServicesArkansasPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            What makes Metic.ai the top AI Firm In Arkansas?
+                            What makes Metic.ai the top AI Firm In Alabama?
                           </h3>
                         </div>
                       </div>
@@ -1760,7 +1796,7 @@ export default function AIServicesArkansasPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Our 100+ successful projects, 98% client satisfaction rate, 60% cost savings, 3x faster delivery, and deep Arkansas market expertise make us the leading <strong className="text-gray-900 font-semibold">AI Firm In Arkansas</strong>. 
+                    Our 100+ successful projects, 98% client satisfaction rate, 60% cost savings, 3x faster delivery, and deep Alabama market expertise make us the leading <strong className="text-gray-900 font-semibold">AI Firm In Alabama</strong>. 
                     We combine cutting-edge AI technology with personalized service.
                   </p>
                 </div>
@@ -1781,7 +1817,7 @@ export default function AIServicesArkansasPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Do I need technical knowledge to work with an AI Service In Arkansas?
+                            Do I need technical knowledge to work with an AI Service In Alabama?
                           </h3>
                         </div>
                       </div>
@@ -1796,7 +1832,7 @@ export default function AIServicesArkansasPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    No technical knowledge required! Metic.ai guides you through every step with clear communication. As a client-focused <strong className="text-gray-900 font-semibold">AI Service In Arkansas</strong>, 
+                    No technical knowledge required! Metic.ai guides you through every step with clear communication. As a client-focused <strong className="text-gray-900 font-semibold">AI Service In Alabama</strong>, 
                     we translate complex AI concepts into simple business terms and handle all technical aspects for you.
                   </p>
                 </div>
@@ -1817,7 +1853,7 @@ export default function AIServicesArkansasPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Can AI Company In Arkansas handle small business projects?
+                            Can AI Company In Alabama handle small business projects?
                           </h3>
                         </div>
                       </div>
@@ -1832,7 +1868,7 @@ export default function AIServicesArkansasPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Absolutely! Metic.ai works with businesses of all sizes, from startups to enterprises. As an inclusive <strong className="text-gray-900 font-semibold">AI Company In Arkansas</strong>, 
+                    Absolutely! Metic.ai works with businesses of all sizes, from startups to enterprises. As an inclusive <strong className="text-gray-900 font-semibold">AI Company In Alabama</strong>, 
                     we offer scalable solutions and flexible pricing models to meet small business budgets while delivering enterprise-quality AI implementations.
                   </p>
                 </div>
@@ -1891,7 +1927,7 @@ export default function AIServicesArkansasPage() {
                   </div>
                   <h3 className="text-3xl md:text-4xl font-bold mb-4">Ready to Transform Your Business with AI?</h3>
                   <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-                    Join Arkansas's leading businesses who trust Metic.ai for their AI transformation. Get started today!
+                    Join Alabama's leading businesses who trust Metic.ai for their AI transformation. Get started today!
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <Link href="/contact">
@@ -1917,12 +1953,12 @@ export default function AIServicesArkansasPage() {
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-              Ready to Partner with Arkansas's Leading <strong>Artificial Intelligence Company</strong>?
+              Ready to Partner with Alabama's Leading <strong>Artificial Intelligence Company</strong>?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join 100+ satisfied clients who trust Metic.ai as their preferred <strong>AI Company In Arkansas</strong>. 
+              Join 100+ satisfied clients who trust Metic.ai as their preferred <strong>AI Company In Alabama</strong>. 
               Transform your business with proven AI solutions that deliver results. Get started with a free consultation 
-              and discover why we're Arkansas's most trusted <strong>AI Development Company In Arkansas</strong>.
+              and discover why we're Alabama's most trusted <strong>AI Development Company In Alabama</strong>.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Link href="/contact">
@@ -1938,7 +1974,7 @@ export default function AIServicesArkansasPage() {
             </div>
             
             <div className="mt-12 text-center">
-              <p className="text-orange-200 mb-6">Trusted <strong>AI Service In Arkansas</strong> serving businesses across the state</p>
+              <p className="text-orange-200 mb-6">Trusted <strong>AI Service In Alabama</strong> serving businesses across the state</p>
               <div className="grid md:grid-cols-3 gap-8 text-center mb-8">
                 <div>
                   <div className="text-2xl font-bold mb-2">100+</div>
@@ -1954,15 +1990,15 @@ export default function AIServicesArkansasPage() {
                 </div>
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
-                <span>Little Rock</span>
+                <span>Birmingham</span>
                 <span>•</span>
-                <span>Fort Smith</span>
+                <span>Montgomery</span>
                 <span>•</span>
-                <span>Fayetteville</span>
+                <span>Mobile</span>
                 <span>•</span>
-                <span>Springdale</span>
+                <span>Huntsville</span>
                 <span>•</span>
-                <span>Jonesboro</span>
+                <span>Tuscaloosa</span>
                 <span>•</span>
                 <span>Auburn</span>
                 <span>•</span>
