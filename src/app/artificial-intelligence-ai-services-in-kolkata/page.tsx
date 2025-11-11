@@ -152,7 +152,7 @@ export default function AIServicesKolkataPage() {
   ];
 
   const stats = [
-    { number: "180+", label: "AL Businesses Served" },
+    { number: "50+", label: "AL Businesses Served" },
     { number: "98%", label: "Client Satisfaction" },
     { number: "4.1x", label: "Average ROI Increase" },
     { number: "24/7", label: "Support Available" }
