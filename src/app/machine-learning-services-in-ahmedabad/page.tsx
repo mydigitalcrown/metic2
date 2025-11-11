@@ -1068,12 +1068,12 @@ export default function MLServicesAhmedabadPage() {
                 <div className="order-1 lg:order-2">
                   <div className="bg-gradient-to-br from-orange-50 via-white to-amber-50 rounded-3xl p-10 border-2 border-primary-orange/20 shadow-2xl transform rotate-1 hover:rotate-0 transition-transform">
                     <h4 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">
-                      Ahmedabad AI Market Impact
+                      Ahmedabad ML Market Impact
                     </h4>
                     
                     <div className="space-y-8">
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">?4.6T</div>
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">₹4.6T</div>
                         <div className="text-sm text-gray-600 font-medium">Ahmedabad Annual GDP</div>
                         <div className="text-xs text-gray-500 mt-2">textile-driven Economy</div>
                       </div>
@@ -1098,8 +1098,8 @@ export default function MLServicesAhmedabadPage() {
                           <span className="font-bold text-gray-900">Ahmedabad Advantage</span>
                         </div>
                         <p className="text-sm text-gray-700 leading-relaxed">
-                          <strong>Strategic Resources:</strong> Rich US oil, gas, fishing, and minerals with vast untapped 
-                          potential, making Ahmedabad ideal for AI-driven resource optimization and predictive analytics.
+                          <strong>Strategic Resources:</strong> Rich in textiles, pharmaceuticals, and chemicals with vast business 
+                          potential, making Ahmedabad ideal for ML-driven manufacturing optimization and predictive analytics.
                         </p>
                       </div>
                     </div>
