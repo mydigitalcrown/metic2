@@ -1,5 +1,6 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Button } from "../components/ui/Button";
+import Testimonials from "../components/Testimonials";
 import { 
   Brain, 
   Zap, 
@@ -22,14 +23,12 @@ import {
   Database,
   Sparkles,
   ChevronDown,
-  Heart,
-  Rocket,
-  Quote
+  Rocket
 } from "lucide-react";
 
 export const metadata = {
-  title: "Artificial Intelligence Company In Iowa | #1 AI Company In Iowa - Metic.ai",
-  description: "Leading Artificial Intelligence Company In Iowa with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
+  title: "AI Company In Iowa | #1 Artificial Intelligence Company In Iowa",
+  description: "Leading AI Company In Iowa with 100+ successful AI projects. Expert Artificial Intelligence development, machine learning & automation services. 60% cost savings, 3x faster delivery. Call +1-789-251-8414",
   keywords: [
     "Artificial Intelligence Company In Iowa",
     "AI Company In Iowa", 
@@ -38,45 +37,59 @@ export const metadata = {
     "AI Development Company In Iowa",
     "Best AI Company In Iowa",
     "Top AI Company Iowa",
-    "Leading AI Company Iowa",
+    "Artificial Intelligence Services Iowa",
     "AI Solutions Company Iowa",
     "Machine Learning Company Iowa",
-    "AI Consulting Company Iowa",
+    "AI Consulting Firm Iowa",
     "AI Technology Company Iowa",
-    "AI Services Provider Iowa",
-    "Custom AI Company Iowa",
-    "Enterprise AI Company Iowa",
-    "AI Software Company Iowa",
-    "AI Implementation Company Iowa",
-    "Professional AI Company Iowa",
-    "AI Innovation Company Iowa"
+    "AI automation Iowa",
+    "AI software company Iowa",
+    "artificial intelligence consulting Iowa",
+    "AI integration services Iowa",
+    "custom AI development Iowa",
+    "enterprise AI solutions Iowa",
+    "AI ML company Iowa",
+    "Iowa AI experts",
+    "Iowa machine learning services",
+    "Iowa AI implementation"
   ],
   authors: [{ name: "Metic.ai Iowa AI Team" }],
-  robots: "index, follow",
+  robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
     title: "Artificial Intelligence Company In Iowa | #1 AI Company In Iowa - Metic.ai",
-    description: "Leading Artificial Intelligence Company In Iowa with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
-    url: "https://metic.ai/artificial-intelligence-ai-services-in-iowa/",
-    siteName: "Metic.ai - AI Company In Iowa",
+    description: "Leading Artificial Intelligence Company In Iowa with 100+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Iowa businesses.",
+    url: "https://metic.ai/artificial-intelligence-ai-services-in-Iowa/",
     type: "website",
+    locale: "en_US",
+    siteName: "Metic.ai - AI Company In Iowa",
     images: [
       {
-        url: "https://metic.ai/og-image.jpg",
+        url: "https://metic.ai/og-ai-company-Iowa.jpg",
         width: 1200,
         height: 630,
-        alt: "Metic.ai - Artificial Intelligence Company In Iowa",
+        alt: "Artificial Intelligence Company In Iowa - Metic.ai",
+        type: "image/jpeg"
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Artificial Intelligence Company In Iowa | #1 AI Company In Iowa - Metic.ai",
-    description: "Leading Artificial Intelligence Company In Iowa with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
-    images: ["https://metic.ai/og-image.jpg"],
+    title: "Artificial Intelligence Company In Iowa | AI Company In Iowa",
+    description: "Leading AI Company In Iowa delivering enterprise artificial intelligence solutions. Expert AI development, machine learning & automation services with proven results.",
+    images: ["https://metic.ai/og-ai-company-Iowa.jpg"],
+    site: "@metic_ai",
+    creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-iowa/",
+    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-Iowa/",
   },
+  verification: {
+    google: "google-site-verification-code",
+    yandex: "yandex-verification-code",
+    yahoo: "yahoo-verification-code"
+  },
+  category: "Technology",
+  classification: "Business Services"
 };
 
 export default function AIServicesIowaPage() {
@@ -126,456 +139,565 @@ export default function AIServicesIowaPage() {
   ];
 
   const industries = [
-    "Agriculture",
     "Manufacturing",
-    "Insurance",
+    "Aerospace",
     "Healthcare",
-    "Financial Services",
+    "Agriculture",
     "Technology",
-    "Energy",
-    "Food Processing",
+    "Automotive",
+    "Financial Services",
+    "Transportation",
     "Education",
-    "Transportation"
+    "Energy"
   ];
 
   const stats = [
-    { number: "320+", label: "IA Businesses Served" },
-    { number: "98%", label: "Client Satisfaction" },
-    { number: "4.1x", label: "Average ROI Increase" },
+    { number: "180+", label: "IA Businesses Served" },
+    { number: "99%", label: "Client Satisfaction" },
+    { number: "4.3x", label: "Average ROI Increase" },
     { number: "24/7", label: "Support Available" }
   ];
 
   return (
     <>
-      {/* Structured Data for SEO - Triple Schema */}
+      {/* Enhanced Structured Data for SEO, VSO, ASO & GEO */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify([
-            {
-              "@context": "https://schema.org",
-              "@type": "Organization",
-              "name": "Metic.ai - Artificial Intelligence Company In Iowa",
-              "url": "https://metic.ai/artificial-intelligence-ai-services-in-iowa/",
-              "logo": "https://metic.ai/logo.png",
-              "image": "https://metic.ai/og-image.jpg",
-              "description": "Leading Artificial Intelligence Company In Iowa with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development.",
-              "address": {
-                "@type": "PostalAddress",
-                "addressRegion": "Iowa",
-                "addressCountry": "US",
-                "addressLocality": "Des Moines"
-              },
-              "telephone": "+1-789-251-8414",
-              "email": "hello@matic.ai",
-              "foundingDate": "2020",
-              "numberOfEmployees": "250+",
-              "slogan": "Transform your business with AI",
-              "areaServed": {
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": ["Organization", "TechnologyCompany", "LocalBusiness"],
+            "name": "Metic.ai - Artificial Intelligence Company In Iowa",
+            "alternateName": ["AI Company In Iowa", "Metic AI", "AI Firm Iowa"],
+            "description": "Leading Artificial Intelligence Company In Iowa providing enterprise AI solutions, machine learning development, and custom AI services for businesses across Iowa.",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-Iowa/",
+            "sameAs": [
+              "https://www.linkedin.com/company/metic-ai",
+              "https://twitter.com/metic_ai",
+              "https://www.facebook.com/meticai"
+            ],
+            "logo": "https://metic.ai/logo.png",
+            "image": ["https://metic.ai/ai-company-Iowa.jpg"],
+            "telephone": "+1-789-251-8414",
+            "email": "hello@matic.ai",
+            "foundingDate": "2020",
+            "numberOfEmployees": "50-100",
+            "vatID": "US123456789",
+            "address": {
+              "@type": "PostalAddress",
+              "addressRegion": "Iowa",
+              "addressCountry": "US",
+              "postalCode": "35201"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": "32.7794",
+              "longitude": "-86.8287"
+            },
+            "areaServed": [
+              {
                 "@type": "State",
                 "name": "Iowa",
-                "sameAs": "https://en.wikipedia.org/wiki/Iowa"
-              },
-              "hasOfferCatalog": {
-                "@type": "OfferCatalog",
-                "name": "AI Services Iowa",
-                "itemListElement": [
-                  {
-                    "@type": "Offer",
-                    "itemOffered": {
-                      "@type": "Service",
-                      "name": "AI Integration & Deployment",
-                      "description": "Enterprise AI integration services for Iowa businesses"
-                    }
-                  },
-                  {
-                    "@type": "Offer",
-                    "itemOffered": {
-                      "@type": "Service",
-                      "name": "Machine Learning Solutions",
-                      "description": "Custom ML algorithms and predictive analytics for Iowa companies"
-                    }
-                  },
-                  {
-                    "@type": "Offer",
-                    "itemOffered": {
-                      "@type": "Service",
-                      "name": "Custom AI Development",
-                      "description": "Bespoke AI solutions for Iowa enterprises"
-                    }
-                  }
-                ]
-              },
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "reviewCount": "2100"
-              },
-              "sameAs": [
-                "https://www.linkedin.com/company/metic-ai",
-                "https://twitter.com/metic_ai"
-              ]
-            },
-            {
-              "@context": "https://schema.org",
-              "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "Which is the best Artificial Intelligence Company In Iowa?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Metic.ai is the leading Artificial Intelligence Company In Iowa with 2100+ successful AI implementations. We serve Des Moines, Cedar Rapids, Iowa City, and businesses throughout the Hawkeye State with 60% cost savings and 3x faster delivery."
-                  }
-                },
-                {
-                  "@type": "Question", 
-                  "name": "What makes Metic.ai the top AI Company In Iowa?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "As the premier AI Company In Iowa, Metic.ai combines deep understanding of Iowa's agriculture, insurance, and manufacturing sectors with cutting-edge AI technology. We've helped companies in Des Moines financial district and across the state achieve measurable results."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Does Metic.ai provide AI services to small businesses in Iowa?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, our AI Service In Iowa caters to businesses of all sizes. From Des Moines startups to Cedar Rapids manufacturers, we provide scalable AI solutions that grow with your Iowa business."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "What AI technologies does your AI Firm In Iowa specialize in?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Our AI Firm In Iowa specializes in machine learning, natural language processing, computer vision, predictive analytics, and custom AI development tailored for Iowa's agriculture, insurance, and manufacturing industries."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "How does Metic.ai support AI Development Company projects in Iowa?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "As a leading AI Development Company In Iowa, we provide end-to-end support from strategy to deployment. Our Iowa-based team understands local business needs and delivers AI solutions with proven ROI."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Why choose Metic.ai as your AI partner in Iowa?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Choose Metic.ai because we're the Best AI Company In Iowa with local expertise, proven results, and understanding of Iowa's business landscape. We deliver AI solutions that work for Hawkeye State businesses."
-                  }
+                "containedInPlace": {
+                  "@type": "Country", 
+                  "name": "United States"
                 }
-              ]
-            },
-            {
-              "@context": "https://schema.org",
-              "@type": "Article",
-              "headline": "Artificial Intelligence Company In Iowa | Leading AI Services",
-              "description": "Comprehensive guide to AI services in Iowa. Discover how Metic.ai helps Iowa businesses implement artificial intelligence solutions.",
-              "author": {
-                "@type": "Organization",
-                "name": "Metic.ai Iowa AI Team"
-              },
-              "publisher": {
-                "@type": "Organization", 
-                "name": "Metic.ai",
-                "logo": {
-                  "@type": "ImageObject",
-                  "url": "https://metic.ai/logo.png"
-                }
-              },
-              "datePublished": "2024-01-15",
-              "dateModified": "2024-01-15",
-              "articleSection": "AI Services",
-              "keywords": "Artificial Intelligence Company In Iowa, AI Company In Iowa, AI Service In Iowa",
-              "locationCreated": {
-                "@type": "Place",
-                "name": "Iowa, USA"
               }
+            ],
+            "serviceArea": {
+              "@type": "GeoCircle",
+              "geoMidpoint": {
+                "@type": "GeoCoordinates",
+                "latitude": "32.7794",
+                "longitude": "-86.8287"
+              },
+              "geoRadius": "200000"
+            },
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Artificial Intelligence Services",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "AI Development Services",
+                    "description": "Custom artificial intelligence development for Iowa businesses"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service", 
+                    "name": "Machine Learning Solutions",
+                    "description": "Advanced ML algorithms and predictive analytics"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "AI Integration Services", 
+                    "description": "Enterprise AI integration and deployment"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "AI Consulting Services",
+                    "description": "Expert AI strategy and implementation consulting"
+                  }
+                }
+              ]
+            },
+            "knowsAbout": [
+              "Artificial Intelligence",
+              "Machine Learning", 
+              "Deep Learning",
+              "Natural Language Processing",
+              "Computer Vision",
+              "AI Automation",
+              "Data Science",
+              "Business Intelligence",
+              "Predictive Analytics"
+            ],
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "reviewCount": "100",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "priceRange": "$$",
+            "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer"],
+            "currenciesAccepted": "USD",
+            "openingHours": "Mo-Fr 09:00-18:00",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+1-789-251-8414",
+              "contactType": "Customer Service",
+              "areaServed": "US",
+              "availableLanguage": ["English"]
             }
-          ])
+          })
         }}
       />
 
-      {/* Enhanced Hero Section - Ahmedabad Style */}
-      <section className="relative min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black overflow-hidden flex items-center">
-        {/* Advanced Background Effects */}
-        <div className="absolute inset-0 overflow-hidden">
-          {/* Animated Gradient Orbs */}
-          <div className="absolute top-20 left-20 w-72 h-72 bg-primary-orange/20 rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute bottom-20 right-10 w-56 h-56 bg-secondary-orange/15 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
-          <div className="absolute top-1/2 left-1/3 w-96 h-96 bg-primary-orange/10 rounded-full blur-3xl animate-pulse" style={{animationDelay: '4s'}}></div>
-          
-          {/* Floating AI Elements */}
-          <div className="absolute top-32 right-32 opacity-20">
-            <div className="relative">
-              <div className="absolute inset-0 bg-primary-orange/30 rounded-full blur-md animate-pulse"></div>
-              <div className="relative w-4 h-4 bg-primary-orange rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></div>
-            </div>
-          </div>
-          <div className="absolute top-3/4 right-1/4 w-2.5 h-2.5 bg-secondary-orange/40 rounded-full animate-bounce" style={{animationDelay: '1.8s'}}></div>
-          <div className="absolute top-1/4 left-1/4 w-3 h-3 bg-primary-orange/30 rounded-full animate-pulse" style={{animationDelay: '3s'}}></div>
-          
-          {/* Grid Pattern */}
-          <div className="absolute inset-0 opacity-[0.03]" style={{
-            backgroundImage: `linear-gradient(#FF6B35 1px, transparent 1px), linear-gradient(90deg, #FF6B35 1px, transparent 1px)`,
-            backgroundSize: '50px 50px'
-          }}></div>
+      {/* FAQ Schema for ASO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Which is the best Artificial Intelligence Company In Iowa?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Metic.ai is the leading Artificial Intelligence Company In Iowa with 100+ successful AI implementations. We provide comprehensive AI services including machine learning, custom AI development, and enterprise AI solutions with proven 60% cost savings and 3x faster delivery."
+                }
+              },
+              {
+                "@type": "Question", 
+                "name": "What AI services does the top AI Company In Iowa provide?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "As the premier AI Company In Iowa, Metic.ai provides AI integration & deployment, machine learning solutions, custom AI development, data analytics & BI, generative AI services, and data engineering for businesses across Iowa."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How to choose the right AI Development Company In Iowa?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Choose an AI Development Company In Iowa with proven experience, successful implementations, industry expertise, and local presence. Metic.ai offers all these with 100+ completed projects and deep understanding of Iowa's business landscape."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What makes Metic.ai the best AI Firm In Iowa?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Metic.ai is the best AI Firm In Iowa due to our proven expertise, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of Iowa's manufacturing, aerospace, healthcare and agricultural industries."
+                }
+              }
+            ]
+          })
+        }}
+      />
+
+      {/* Organization Schema for Entity Recognition */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "Artificial Intelligence Company In Iowa - AI Services & Solutions",
+            "description": "Comprehensive guide to AI services in Iowa by the leading Artificial Intelligence Company. Expert AI development, machine learning solutions, and enterprise AI implementation.",
+            "image": "https://metic.ai/ai-company-Iowa-article.jpg",
+            "author": {
+              "@type": "Organization",
+              "name": "Metic.ai"
+            },
+            "publisher": {
+              "@type": "Organization", 
+              "name": "Metic.ai",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://metic.ai/logo.png"
+              }
+            },
+            "datePublished": "2024-01-15",
+            "dateModified": "2024-10-30",
+            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-Iowa/",
+            "keywords": "Artificial Intelligence Company In Iowa, AI Company In Iowa, AI Service In Iowa"
+          })
+        }}
+      />
+
+      {/* BreadcrumbList Schema for Enhanced Navigation SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://metic.ai/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI Services",
+                "item": "https://metic.ai/services"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Artificial Intelligence Company In Iowa",
+                "item": "https://metic.ai/artificial-intelligence-ai-services-in-Iowa/"
+              }
+            ]
+          })
+        }}
+      />
+
+      {/* LocalBusiness Schema for Local SEO Enhancement */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Metic.ai - AI Company In Iowa",
+            "description": "Leading Artificial Intelligence Company providing AI services in Iowa",
+            "image": "https://metic.ai/ai-company-Iowa.jpg",
+            "telephone": "+1-789-251-8414",
+            "email": "hello@matic.ai",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "300 Quail Ridge Dr NE",
+              "addressLocality": "ADA",
+              "addressRegion": "MI",
+              "postalCode": "49301",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": "32.3182",
+              "longitude": "-86.9023"
+            },
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-Iowa/",
+            "priceRange": "$$$$",
+            "areaServed": {
+              "@type": "State",
+              "name": "Iowa"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "reviewCount": "180",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "openingHours": "Mo-Fr 09:00-18:00",
+            "sameAs": [
+              "https://www.linkedin.com/company/metic-ai",
+              "https://twitter.com/metic_ai"
+            ]
+          })
+        }}
+      />
+
+      {/* Hero Section - VSO & Target Keyword Optimized - Enhanced Mobile/Desktop */}
+      <section className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-16 md:py-24 lg:py-32 overflow-hidden">
+        {/* Animated Background Elements */}
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute top-20 left-10 w-72 h-72 bg-primary-orange rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-20 right-10 w-96 h-96 bg-secondary-orange rounded-full blur-3xl animate-pulse delay-1000"></div>
         </div>
 
         <div className="container px-4 md:px-6 relative z-10">
-          <div className="max-w-7xl mx-auto">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              {/* Left Column - Content */}
-              <div className="text-left space-y-8">
-                {/* Location Badge */}
-                <div className="inline-flex items-center gap-3 px-6 py-3 bg-white/10 backdrop-blur-sm rounded-full border border-white/20 hover:border-primary-orange/50 transition-all group">
-                  <MapPin className="w-5 h-5 text-primary-orange animate-pulse" />
-                  <span className="text-sm font-semibold text-white">Premier AI Company Serving Iowa</span>
-                  <div className="w-2 h-2 bg-primary-orange rounded-full animate-pulse"></div>
-                </div>
-
-                {/* Main Headline */}
-                <div className="space-y-4">
-                  <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-                    <span className="text-white">
-                      <strong>Artificial Intelligence Company In Iowa</strong>
-                    </span>
-                    <br />
-                    <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent animate-gradient">
-                      Leading AI Company In Iowa
-                    </span>
-                  </h1>
-                  
-                  <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange rounded-full shadow-lg"></div>
-                </div>
-
-                {/* Description */}
-                <p className="text-xl text-gray-300 leading-relaxed max-w-2xl">
-                  Looking for the best <strong className="text-white">AI Company In Iowa</strong>? Metic.ai is the premier <strong className="text-primary-orange">Artificial Intelligence Company In Iowa</strong> with 2100+ successful implementations. From Des Moines insurance giants to agricultural innovation across the Hawkeye State, we deliver AI solutions that drive real results.
-                </p>
-
-                {/* VSO Keywords Badges */}
-                <div className="space-y-4">
-                  <p className="text-gray-400 text-sm flex items-center gap-2">
-                    <Target className="w-4 h-4 text-primary-orange" />
-                    Which AI Service In Iowa do you need?
-                  </p>
-                  <div className="flex flex-wrap gap-3">
-                    {[
-                      "AI Firm In Iowa",
-                      "AI Development Company In Iowa",
-                      "Best AI Company In Iowa"
-                    ].map((keyword, index) => (
-                      <span 
-                        key={index}
-                        className="px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-white text-sm border border-white/20 hover:border-primary-orange/50 hover:text-primary-orange transition-all duration-300 cursor-default"
-                      >
-                        {keyword}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-
-                {/* CTA Buttons */}
-                <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                  <Link href="/contact">
-                    <Button size="lg" className="bg-gradient-to-r from-primary-orange to-secondary-orange hover:from-secondary-orange hover:to-primary-orange text-white shadow-xl hover:shadow-2xl transition-all duration-300 group">
-                      <Sparkles className="w-5 h-5 mr-2 group-hover:animate-spin" />
-                      Get Free AI Consultation
-                      <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-                    </Button>
-                  </Link>
-                  <Link href="tel:+917892518414">
-                    <Button variant="outline" size="lg" className="border-white/30 text-white hover:bg-white hover:text-gray-900 backdrop-blur-sm transition-all duration-300 group">
-                      <Phone className="w-5 h-5 mr-2 group-hover:animate-pulse" />
-                      Call: +91 7892518414
-                    </Button>
-                  </Link>
-                </div>
-              </div>
-
-              {/* Right Column - Enhanced Stats & Features */}
-              <div className="space-y-8">
-                {/* Trust Indicators */}
-                <div className="bg-white/10 backdrop-blur-lg rounded-3xl p-8 border border-white/20 hover:border-primary-orange/30 transition-all duration-300">
-                  <div className="text-center mb-6">
-                    <h3 className="text-2xl font-bold text-white mb-2">Trusted Iowa AI Partner</h3>
-                    <p className="text-gray-300 text-sm">Leading <strong className="text-primary-orange">AI Service In Iowa</strong></p>
-                  </div>
-                  
-                  <div className="grid grid-cols-2 gap-6">
-                    {stats.map((stat, index) => (
-                      <div key={index} className="text-center group">
-                        <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 border border-white/20 group-hover:border-primary-orange/50 transition-all duration-300">
-                          <div className="text-3xl font-bold text-primary-orange mb-2 group-hover:animate-pulse">{stat.number}</div>
-                          <div className="text-sm text-gray-300">{stat.label}</div>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-
-                {/* Iowa Business Focus */}
-                <div className="bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 backdrop-blur-lg rounded-3xl p-8 border border-primary-orange/20">
-                  <h4 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
-                    <Award className="w-6 h-6 text-primary-orange" />
-                    Iowa Industry Expertise
-                  </h4>
-                  <div className="space-y-3">
-                    {[
-                      "Des Moines Financial District",
-                      "Cedar Rapids Manufacturing",
-                      "Agricultural Technology",
-                      "Insurance & Healthcare"
-                    ].map((industry, index) => (
-                      <div key={index} className="flex items-center gap-3 text-gray-300">
-                        <CheckCircle className="w-4 h-4 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm">{industry}</span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-
-                {/* Quick Benefits */}
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 text-center group hover:border-primary-orange/50 transition-all">
-                    <TrendingUp className="w-8 h-8 text-primary-orange mx-auto mb-3 group-hover:animate-bounce" />
-                    <div className="text-lg font-bold text-white">60% Cost Savings</div>
-                    <div className="text-xs text-gray-400">Average Client Result</div>
-                  </div>
-                  <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 text-center group hover:border-primary-orange/50 transition-all">
-                    <Zap className="w-8 h-8 text-primary-orange mx-auto mb-3 group-hover:animate-bounce" />
-                    <div className="text-lg font-bold text-white">3x Faster</div>
-                    <div className="text-xs text-gray-400">Delivery Speed</div>
-                  </div>
-                </div>
+          <div className="max-w-5xl mx-auto">
+            {/* Trust Badge - Mobile Optimized */}
+            <div className="flex justify-center mb-6 md:mb-8">
+              <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-white/10 backdrop-blur-sm rounded-full border border-primary-orange/30 shadow-xl">
+                <Award className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
+                <span className="text-xs md:text-sm font-bold text-white">⭐ 100+ Successful AI Projects | 98% Client Satisfaction</span>
               </div>
             </div>
 
-            {/* Bottom Trust Bar */}
-            <div className="mt-16 pt-8 border-t border-white/10">
-              <div className="text-center">
-                <p className="text-gray-400 text-sm mb-4 flex items-center justify-center gap-2">
-                  <Target className="w-4 h-4 text-primary-orange" />
-                  Trusted as the leading AI Service In Iowa
+            <div className="text-center">  
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight mb-4 md:mb-6 leading-tight">
+                <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
+                  Artificial Intelligence
+                </span>
+                <br />
+                <span className="text-white">Company In Iowa</span>
+              </h1>
+              
+              {/* VSO Optimized Description - Mobile Friendly */}
+              <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 mb-6 md:mb-8 max-w-4xl mx-auto leading-relaxed px-4">
+                Looking for the <strong className="text-primary-orange">best AI Company In Iowa</strong>? Metic.ai is the premier <strong className="text-white">Artificial Intelligence Company In Iowa</strong> delivering enterprise AI solutions with proven results.
+              </p>
+
+              {/* Mobile-Optimized CTA Buttons */}
+              <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center mb-10 md:mb-16 px-4">
+                <Link href="/contact" className="w-full sm:w-auto">
+                  <Button variant="primary" size="lg" className="w-full sm:w-auto text-base md:text-lg px-6 md:px-8 py-3 md:py-4 shadow-2xl hover:shadow-primary-orange/50 transform hover:scale-105 transition-all">
+                    <Rocket className="w-5 h-5 mr-2" />
+                    Get Free AI Consultation
+                  </Button>
+                </Link>
+                <Link href="tel:+917892518414" className="w-full sm:w-auto">
+                  <Button variant="outline" size="lg" className="w-full sm:w-auto text-base md:text-lg px-6 md:px-8 py-3 md:py-4 border-2 border-primary-orange text-primary-orange hover:bg-primary-orange hover:text-white">
+                    <Phone className="w-5 h-5 mr-2" />
+                    Call: +1-789-251-8414
+                  </Button>
+                </Link>
+              </div>
+
+              {/* Voice Search Optimized Stats - Responsive Grid */}
+              <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8 max-w-4xl mx-auto mb-10 md:mb-12 px-4">
+                {stats.map((stat, index) => (
+                  <div key={index} className="bg-white/5 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-white/10 hover:border-primary-orange/50 transition-all transform hover:scale-105">
+                    <div className="text-2xl md:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent mb-2">
+                      {stat.number}
+                    </div>
+                    <div className="text-xs md:text-sm text-gray-400">{stat.label}</div>
+                  </div>
+                ))}
+              </div>
+
+              {/* VSO Keywords Section - Mobile Optimized */}
+              <div className="text-center px-4">
+                <p className="text-gray-400 text-sm md:text-base mb-4">
+                  <strong className="text-white">Trusted as the top AI Service In Iowa</strong> by leading businesses
                 </p>
-                <div className="flex flex-wrap justify-center gap-8 text-gray-500 text-sm">
-                  <span>Des Moines</span>
-                  <span>•</span>
-                  <span>Cedar Rapids</span>
-                  <span>•</span>
-                  <span>Davenport</span>
-                  <span>•</span>
-                  <span>Sioux City</span>
-                  <span>•</span>
-                  <span>Iowa City</span>
+                <div className="flex flex-wrap justify-center gap-2 md:gap-3 text-xs md:text-sm">
+                  <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
+                    AI Firm In Iowa
+                  </span>
+                  <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
+                    AI Development Company
+                  </span>
+                  <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
+                    Best AI Company Iowa
+                  </span>
+                  <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
+                    Machine Learning Services
+                  </span>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
+        {/* Bottom Wave Decoration */}
+        <div className="absolute bottom-0 left-0 right-0">
+          <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-auto">
+            <path d="M0 0L60 10C120 20 240 40 360 46.7C480 53 600 47 720 43.3C840 40 960 40 1080 46.7C1200 53 1320 67 1380 73.3L1440 80V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0V0Z" fill="white"/>
+          </svg>
+        </div>
       </section>
 
-      {/* Enhanced Services Section - Ahmedabad Style */}
-      <section className="py-20 bg-white relative overflow-hidden">
-        {/* Background Decorative Elements */}
-        <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute -top-40 -right-40 w-96 h-96 bg-gradient-to-br from-primary-orange/10 to-orange-400/5 rounded-full blur-3xl"></div>
-          <div className="absolute -bottom-40 -left-40 w-96 h-96 bg-gradient-to-tr from-blue-500/10 to-purple-500/5 rounded-full blur-3xl"></div>
-        </div>
-
-        <div className="container px-4 md:px-6 relative">
-          <div className="max-w-7xl mx-auto">
-            {/* Enhanced Header */}
-            <div className="text-center mb-20">
-              <div className="inline-flex items-center justify-center space-x-2 bg-primary-orange/10 rounded-full px-6 py-3 mb-6">
-                <Brain className="w-5 h-5 text-primary-orange" />
-                <span className="text-primary-orange font-semibold">Expert AI Services In Iowa</span>
-                <Sparkles className="w-4 h-4 text-primary-orange" />
+      {/* Services Section - Enhanced Mobile & Desktop */}
+      <section className="py-16 md:py-20 lg:py-24 bg-gradient-to-b from-white to-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-12 md:mb-16">
+              {/* Section Badge */}
+              <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-primary-orange/10 rounded-full mb-6 md:mb-8">
+                <Brain className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
+                <span className="text-xs md:text-sm font-bold text-primary-orange">COMPREHENSIVE AI SERVICES</span>
               </div>
-              
-              <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">
-                <strong>AI Services</strong> by Leading <span className="text-primary-orange">Artificial Intelligence Company In Iowa</span>
+
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 leading-tight px-4">
+                <strong className="text-gray-900">AI Services</strong> by Leading{" "}
+                <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">
+                  Artificial Intelligence Company In Iowa
+                </span>
               </h2>
-              <div className="w-24 h-1.5 bg-gradient-to-r from-primary-orange to-orange-400 mx-auto mb-8 rounded-full"></div>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-                Comprehensive artificial intelligence services designed to help Iowa businesses 
-                compete in the digital economy and drive sustainable growth across the Hawkeye State.
+              <div className="w-20 md:w-24 h-1 md:h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 md:mb-8 rounded-full"></div>
+              <p className="text-base md:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-4">
+                Comprehensive artificial intelligence services from Iowa's most trusted <strong className="text-gray-900">AI Company In Iowa</strong>. 
+                Transforming businesses with cutting-edge AI solutions tailored for Iowa's industrial landscape.
               </p>
             </div>
             
-            {/* Enhanced Services Grid */}
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Mobile: 1 col, Tablet: 2 cols, Desktop: 3 cols */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
               {services.map((service, index) => {
                 const IconComponent = service.icon;
                 const colorClasses = {
-                  blue: "from-blue-500 to-blue-600",
-                  purple: "from-purple-500 to-purple-600", 
-                  green: "from-green-500 to-green-600",
-                  orange: "from-orange-500 to-orange-600",
-                  indigo: "from-indigo-500 to-indigo-600",
-                  red: "from-red-500 to-red-600"
+                  blue: "bg-blue-100 text-blue-600",
+                  purple: "bg-purple-100 text-purple-600", 
+                  green: "bg-green-100 text-green-600",
+                  orange: "bg-orange-100 text-orange-600",
+                  indigo: "bg-indigo-100 text-indigo-600",
+                  red: "bg-red-100 text-red-600"
                 };
                 
                 return (
-                  <div key={index} className="group relative bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 border border-gray-100 hover:border-primary-orange/30 overflow-hidden">
-                    {/* Background Gradient */}
-                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-orange-100/0 group-hover:from-primary-orange/5 group-hover:to-orange-100/30 transition-all duration-500"></div>
-                    
-                    {/* Icon */}
-                    <div className="relative mb-6">
-                      <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-orange-500 rounded-2xl blur-lg opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
-                      <div className={`relative w-20 h-20 rounded-2xl bg-gradient-to-br ${colorClasses[service.color]} flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-6 transition-all duration-300`}>
-                        <IconComponent className="w-10 h-10 text-white" />
-                      </div>
+                  <div 
+                    key={index} 
+                    className="group bg-white rounded-2xl p-6 md:p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border-2 border-gray-100 hover:border-primary-orange/50 transform hover:-translate-y-2"
+                  >
+                    <div className={`w-14 h-14 md:w-16 md:h-16 rounded-2xl flex items-center justify-center mb-5 md:mb-6 ${colorClasses[service.color]} group-hover:scale-110 transition-transform`}>
+                      <IconComponent className="w-7 h-7 md:w-8 md:h-8" />
                     </div>
                     
-                    {/* Content */}
-                    <div className="relative">
-                      <h3 className="text-xl font-bold mb-4 group-hover:text-primary-orange transition-colors duration-300">{service.title}</h3>
-                      <p className="text-gray-600 mb-6 leading-relaxed">{service.description}</p>
-                      
-                      <Link href={service.href} className="inline-flex items-center text-primary-orange hover:text-primary-orange/80 font-medium group/link">
-                        Learn More
-                        <ArrowRight className="w-4 h-4 ml-2 group-hover/link:translate-x-1 transition-transform duration-200" />
-                      </Link>
-                    </div>
+                    <h3 className="text-lg md:text-xl font-bold mb-3 md:mb-4 text-gray-900 group-hover:text-primary-orange transition-colors">
+                      {service.title}
+                    </h3>
+                    <p className="text-sm md:text-base text-gray-600 mb-5 md:mb-6 leading-relaxed">
+                      {service.description}
+                    </p>
                     
-                    {/* Decorative Element */}
-                    <div className="absolute bottom-0 right-0 w-24 h-24 bg-gradient-to-br from-primary-orange/10 to-transparent rounded-tl-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <Link 
+                      href={service.href} 
+                      className="inline-flex items-center text-primary-orange hover:text-secondary-orange font-semibold text-sm md:text-base group-hover:gap-3 transition-all"
+                    >
+                      Learn More
+                      <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                    </Link>
                   </div>
                 );
               })}
             </div>
 
-            {/* Enhanced CTA Section */}
-            <div className="mt-20 text-center">
-              <div className="bg-gradient-to-br from-primary-orange/5 to-orange-400/5 rounded-3xl p-8 border border-primary-orange/20">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                  Ready to Transform Your Iowa Business with AI?
-                </h3>
-                <p className="text-lg text-gray-600 mb-6 max-w-2xl mx-auto">
-                  Join leading Iowa companies that trust our <strong>AI Service In Iowa</strong> for their digital transformation.
+            {/* CTA Below Services */}
+            <div className="text-center mt-12 md:mt-16">
+              <Link href="/contact">
+                <Button variant="primary" size="lg" className="px-8 md:px-10 py-4 text-base md:text-lg shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all">
+                  <Sparkles className="w-5 h-5 mr-2" />
+                  Explore All AI Services
+                </Button>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* About Section for Entity Recognition & Comprehensive Coverage */}
+      <section className="py-20 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                  About Metic.ai - Premier <span className="text-primary-orange">Artificial Intelligence Company In Iowa</span>
+                </h2>
+                <div className="w-20 h-1 bg-primary-orange mb-8"></div>
+                <p className="text-lg text-gray-700 mb-6">
+                  Established as Iowa's leading <strong>AI Company In Iowa</strong>, Metic.ai has been at the forefront of artificial intelligence 
+                  innovation since 2020. We specialize in delivering enterprise-grade AI solutions that transform businesses across Iowa's 
+                  key industries including manufacturing, aerospace, healthcare, and agriculture.
                 </p>
+                <p className="text-lg text-gray-700 mb-6">
+                  Our expertise as an <strong>AI Development Company In Iowa</strong> encompasses machine learning, deep learning, natural language processing, 
+                  computer vision, and robotic process automation. We've successfully completed over 100 AI projects, making us the most 
+                  trusted <strong>AI Service In Iowa</strong>.
+                </p>
+                <div className="grid grid-cols-2 gap-6 mt-8">
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                      <Award className="w-6 h-6 text-primary-orange" />
+                    </div>
+                    <div className="font-bold text-xl text-gray-900">2020</div>
+                    <div className="text-gray-600 text-sm">Founded</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                      <Users className="w-6 h-6 text-primary-orange" />
+                    </div>
+                    <div className="font-bold text-xl text-gray-900">50+</div>
+                    <div className="text-gray-600 text-sm">AI Experts Team</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                      <Target className="w-6 h-6 text-primary-orange" />
+                    </div>
+                    <div className="font-bold text-xl text-gray-900">100%</div>
+                    <div className="text-gray-600 text-sm">Success Rate</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                      <Shield className="w-6 h-6 text-primary-orange" />
+                    </div>
+                    <div className="font-bold text-xl text-gray-900">24/7</div>
+                    <div className="text-gray-600 text-sm">Support Available</div>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="space-y-6">
+                <div className="bg-white rounded-xl p-6 shadow-sm">
+                  <h3 className="font-bold text-lg mb-3 flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
+                    AI Consulting & Strategy
+                  </h3>
+                  <p className="text-gray-600">
+                    Expert AI consulting services to help Iowa businesses identify AI opportunities and develop comprehensive implementation strategies.
+                  </p>
+                </div>
                 
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <Link href="/contact">
-                    <Button size="lg" className="bg-gradient-to-r from-primary-orange to-orange-400 hover:from-orange-400 hover:to-primary-orange text-white shadow-lg hover:shadow-xl transition-all duration-300 group">
-                      <Sparkles className="w-5 h-5 mr-2 group-hover:animate-spin" />
-                      Get Started Today
-                      <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-                    </Button>
-                  </Link>
-                  <Link href="tel:+917892518414">
-                    <Button variant="outline" size="lg" className="border-primary-orange text-primary-orange hover:bg-primary-orange hover:text-white transition-all duration-300 group">
-                      <Phone className="w-5 h-5 mr-2 group-hover:animate-pulse" />
-                      Call AI Experts
-                    </Button>
-                  </Link>
+                <div className="bg-white rounded-xl p-6 shadow-sm">
+                  <h3 className="font-bold text-lg mb-3 flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
+                    Custom AI Development
+                  </h3>
+                  <p className="text-gray-600">
+                    Bespoke artificial intelligence solutions tailored to your specific business requirements and industry challenges in Iowa.
+                  </p>
+                </div>
+                
+                <div className="bg-white rounded-xl p-6 shadow-sm">
+                  <h3 className="font-bold text-lg mb-3 flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
+                    Enterprise AI Integration
+                  </h3>
+                  <p className="text-gray-600">
+                    Seamless integration of AI technologies into existing business processes with minimal disruption and maximum efficiency gains.
+                  </p>
+                </div>
+                
+                <div className="bg-white rounded-xl p-6 shadow-sm">
+                  <h3 className="font-bold text-lg mb-3 flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
+                    Ongoing AI Support
+                  </h3>
+                  <p className="text-gray-600">
+                    Comprehensive support and maintenance services ensuring your AI solutions continue to deliver optimal performance and ROI.
+                  </p>
                 </div>
               </div>
             </div>
@@ -583,7 +705,7 @@ export default function AIServicesIowaPage() {
         </div>
       </section>
 
-      {/* Industries Section */}
+      {/* Industries Section with Real Images */}
       <section className="py-20 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
@@ -597,15 +719,187 @@ export default function AIServicesIowaPage() {
               </p>
             </div>
             
-            <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-4">
-              {industries.map((industry, index) => (
-                <div key={index} className="bg-white rounded-lg p-4 text-center shadow-sm hover:shadow-md transition-shadow">
-                  <div className="w-8 h-8 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
-                    <Target className="w-4 h-4 text-primary-orange" />
+            {/* Mobile: 1 col, Tablet: 2 cols, Desktop: 4 cols - 12 Industries Total */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              {/* Manufacturing */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&h=400&fit=crop" 
+                    alt="Manufacturing Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Manufacturing</h3>
                   </div>
-                  <h3 className="font-medium text-gray-800">{industry}</h3>
                 </div>
-              ))}
+              </div>
+
+              {/* Aerospace */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?w=500&h=400&fit=crop" 
+                    alt="Aerospace Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Aerospace</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Healthcare */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=500&h=400&fit=crop" 
+                    alt="Healthcare Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Healthcare</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Agriculture */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=500&h=400&fit=crop" 
+                    alt="Agriculture Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Agriculture</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Technology */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&h=400&fit=crop" 
+                    alt="Technology Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Technology</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Automotive */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=500&h=400&fit=crop" 
+                    alt="Automotive Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Automotive</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Financial Services */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=500&h=400&fit=crop" 
+                    alt="Financial Services Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Financial Services</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Transportation */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=500&h=400&fit=crop" 
+                    alt="Transportation Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Transportation</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Education */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=500&h=400&fit=crop" 
+                    alt="Education Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Education</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Energy */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=500&h=400&fit=crop" 
+                    alt="Energy Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Energy</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Call Center - NEW */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=500&h=400&fit=crop" 
+                    alt="Call Center AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Call Center</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* IT Services - NEW */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=500&h=400&fit=crop" 
+                    alt="IT Services AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">IT Services</h3>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -617,11 +911,12 @@ export default function AIServicesIowaPage() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Why Iowa Businesses Choose Metic.ai
+                Why Choose Metic.ai as Your <span className="text-primary-orange">AI Firm In Iowa</span>
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Trusted by businesses across Iowa for our expertise, results, and commitment to success.
+                As the premier <strong>AI Development Company In Iowa</strong>, we're trusted by businesses across Iowa 
+                for our expertise, proven results, and commitment to client success.
               </p>
             </div>
             
@@ -639,7 +934,7 @@ export default function AIServicesIowaPage() {
                   <TrendingUp className="w-8 h-8 text-green-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Measurable Results</h3>
-                <p className="text-gray-600">Data-driven AI solutions that deliver concrete ROI and business growth for IA companies.</p>
+                <p className="text-gray-600">Data-driven AI solutions that deliver concrete ROI and business growth for AL companies.</p>
               </div>
               
               <div className="text-center">
@@ -662,441 +957,472 @@ export default function AIServicesIowaPage() {
         </div>
       </section>
 
-      {/* About Section */}
-      <section className="py-20 bg-white">
+      {/* Comprehensive AI Services Iowa Content - 100% SEO Optimized */}
+      <section className="py-24 bg-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                About Metic.ai - Premier <strong>Artificial Intelligence Company In Iowa</strong>
-              </h2>
-              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
-            </div>
-            
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div>
-                <h3 className="text-2xl font-bold mb-6">Leading <strong>AI Company In Iowa</strong> Since 2020</h3>
-                <p className="text-lg text-gray-600 mb-6">
-                  Metic.ai stands as the premier <strong>Artificial Intelligence Company In Iowa</strong>, serving businesses from the insurance capitals of Des Moines to agricultural innovation centers across the Hawkeye State. As Iowa continues embracing technological advancement while maintaining its agricultural leadership, we've been at the forefront, helping Iowa companies leverage AI for competitive advantage.
-                </p>
-                <p className="text-lg text-gray-600 mb-6">
-                  Our deep understanding of Iowa's business landscape - from the financial services sector in Des Moines to precision agriculture throughout the state, from manufacturing operations in Cedar Rapids to food processing in Council Bluffs - enables us to deliver <strong>AI Service In Iowa</strong> that truly makes a difference.
-                </p>
-                <p className="text-lg text-gray-600 mb-8">
-                  As the leading <strong>AI Firm In Iowa</strong>, we've partnered with companies across all sectors of the Iowa economy. Whether you're an insurance company in Des Moines, an agricultural business in Ames, or a manufacturing company in Davenport, our <strong>AI Development Company In Iowa</strong> services are designed to drive measurable results.
-                </p>
-                
-                <div className="grid grid-cols-2 gap-6">
-                  <div className="text-center p-4 bg-gray-50 rounded-lg">
-                    <div className="text-3xl font-bold text-primary-orange mb-2">2100+</div>
-                    <div className="text-sm text-gray-600">Successful AI Implementations</div>
-                  </div>
-                  <div className="text-center p-4 bg-gray-50 rounded-lg">
-                    <div className="text-3xl font-bold text-primary-orange mb-2">98%</div>
-                    <div className="text-sm text-gray-600">Client Satisfaction Rate</div>
-                  </div>
-                  <div className="text-center p-4 bg-gray-50 rounded-lg">
-                    <div className="text-3xl font-bold text-primary-orange mb-2">60%</div>
-                    <div className="text-sm text-gray-600">Average Cost Savings</div>
-                  </div>
-                  <div className="text-center p-4 bg-gray-50 rounded-lg">
-                    <div className="text-3xl font-bold text-primary-orange mb-2">3x</div>
-                    <div className="text-sm text-gray-600">Faster Delivery</div>
-                  </div>
-                </div>
-              </div>
-              
-              <div>
-                <div className="bg-gray-50 rounded-lg p-8">
-                  <h4 className="text-xl font-bold mb-6">Why Iowa Businesses Choose Metic.ai</h4>
-                  
-                  <div className="space-y-4">
-                    <div className="flex items-start gap-3">
-                      <CheckCircle className="w-6 h-6 text-green-500 mt-1 flex-shrink-0" />
-                      <div>
-                        <h5 className="font-semibold mb-1">Local Iowa Expertise</h5>
-                        <p className="text-gray-600 text-sm">Deep understanding of Iowa's business culture and agricultural innovation</p>
-                      </div>
-                    </div>
-                    
-                    <div className="flex items-start gap-3">
-                      <CheckCircle className="w-6 h-6 text-green-500 mt-1 flex-shrink-0" />
-                      <div>
-                        <h5 className="font-semibold mb-1">Industry-Specific Solutions</h5>
-                        <p className="text-gray-600 text-sm">Tailored AI solutions for agriculture, insurance, manufacturing, and food processing sectors</p>
-                      </div>
-                    </div>
-                    
-                    <div className="flex items-start gap-3">
-                      <CheckCircle className="w-6 h-6 text-green-500 mt-1 flex-shrink-0" />
-                      <div>
-                        <h5 className="font-semibold mb-1">Proven Track Record</h5>
-                        <p className="text-gray-600 text-sm">2100+ successful implementations across Iowa and neighboring states</p>
-                      </div>
-                    </div>
-                    
-                    <div className="flex items-start gap-3">
-                      <CheckCircle className="w-6 h-6 text-green-500 mt-1 flex-shrink-0" />
-                      <div>
-                        <h5 className="font-semibold mb-1">Scalable Solutions</h5>
-                        <p className="text-gray-600 text-sm">From family farms to Fortune 500 companies in the Hawkeye State</p>
-                      </div>
-                    </div>
-                    
-                    <div className="flex items-start gap-3">
-                      <CheckCircle className="w-6 h-6 text-green-500 mt-1 flex-shrink-0" />
-                      <div>
-                        <h5 className="font-semibold mb-1">Ongoing Support</h5>
-                        <p className="text-gray-600 text-sm">24/7 support and continuous optimization for Iowa businesses</p>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div className="mt-6 pt-6 border-t border-gray-200">
-                    <p className="text-sm text-gray-600 italic">
-                      "The <strong>Best AI Company In Iowa</strong> for businesses ready to embrace agricultural and technological innovation" - Iowa Business Review
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Comprehensive Iowa AI Ecosystem Content - 2000+ Words */}
-      <section className="py-24 bg-gradient-to-br from-gray-50 via-white to-orange-50 relative overflow-hidden">
-        {/* Background Decorative Elements */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <div className="absolute top-20 left-20 w-72 h-72 bg-primary-orange/10 rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute bottom-20 right-20 w-96 h-96 bg-secondary-orange/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '3s'}}></div>
-          <div className="absolute top-1/2 right-1/4 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl animate-pulse" style={{animationDelay: '6s'}}></div>
-        </div>
-
-        <div className="container px-4 md:px-6 relative z-10">
-          <div className="max-w-7xl mx-auto">
-            {/* Section Header */}
+            {/* Iowa AI Market Leadership - Enhanced Creative Header */}
             <div className="text-center mb-20">
-              <div className="inline-flex items-center gap-2 px-6 py-3 bg-white rounded-full shadow-xl border-2 border-primary-orange/20 mb-8 hover:border-primary-orange/40 transition-all group">
-                <Brain className="w-5 h-5 text-primary-orange animate-pulse" />
-                <span className="text-sm font-bold text-gray-800">Iowa's AI Transformation Hub</span>
-                <Sparkles className="w-4 h-4 text-primary-orange" />
+              {/* Premium Badge with Animation */}
+              <div className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-full shadow-2xl border-2 border-primary-orange/30 mb-10 hover:border-primary-orange/50 transition-all group">
+                <div className="w-3 h-3 bg-primary-orange rounded-full animate-pulse"></div>
+                <span className="text-sm font-bold text-gray-800 tracking-wide">Heart of America AI INNOVATION</span>
+                <div className="w-3 h-3 bg-secondary-orange rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></div>
               </div>
-              
-              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8">
-                <span className="text-gray-900">The Future of AI in Iowa</span>
-                <br />
-                <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
-                  Powered by Metic.ai
+
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight">
+                <span className="text-gray-900">Leading </span>
+                <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent animate-gradient">
+                  Artificial Intelligence Company In Iowa
                 </span>
               </h2>
-              <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-8 rounded-full"></div>
-              <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                Discover how Iowa businesses are leveraging artificial intelligence to revolutionize agriculture, insurance, manufacturing, and technology sectors across the Hawkeye State.
+              <div className="w-40 h-2 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-10 rounded-full shadow-lg"></div>
+              <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+                Transforming the Hawkeye State with cutting-edge AI solutions from Birmingham to Mobile, Huntsville to Montgomery
               </p>
             </div>
 
-            {/* Iowa AI Ecosystem Overview */}
-            <div className="mb-20">
-              <div className="bg-white rounded-3xl p-12 shadow-xl border border-gray-100 relative overflow-hidden">
-                <div className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-primary-orange/5 to-transparent rounded-full"></div>
-                
-                <div className="relative grid lg:grid-cols-2 gap-12 items-center">
-                  <div>
-                    <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary-orange/10 rounded-full mb-6">
-                      <MapPin className="w-4 h-4 text-primary-orange" />
-                      <span className="text-sm font-semibold text-primary-orange">Iowa AI Market Overview</span>
-                    </div>
-                    
-                    <h3 className="text-3xl font-bold text-gray-900 mb-6">
-                      Iowa's <span className="text-primary-orange">AI Revolution</span> Across Key Industries
-                    </h3>
-                    
-                    <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                      Iowa stands at the forefront of America's AI transformation, with our state's unique blend of agricultural innovation, financial services excellence, and manufacturing prowess creating unprecedented opportunities for <strong>AI Company In Iowa</strong> partnerships. The Hawkeye State's $200+ billion economy is rapidly embracing artificial intelligence solutions that drive efficiency, reduce costs, and unlock new revenue streams.
-                    </p>
-                    
-                    <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                      As the leading <strong>Artificial Intelligence Company In Iowa</strong>, Metic.ai has witnessed firsthand how Iowa businesses are leveraging AI to maintain their competitive edge. From Des Moines' thriving insurance sector to Cedar Rapids' advanced manufacturing facilities, our <strong>AI Service In Iowa</strong> implementations have consistently delivered transformative results across diverse industry verticals.
-                    </p>
-
-                    <div className="space-y-4">
-                      {[
-                        "Agriculture Technology: 40% efficiency gains through precision farming AI",
-                        "Insurance Innovation: 60% faster claim processing with automated AI systems",
-                        "Manufacturing Excellence: 50% reduction in quality defects using computer vision",
-                        "Financial Services: 75% improvement in fraud detection accuracy"
-                      ].map((achievement, index) => (
-                        <div key={index} className="flex items-start gap-3">
-                          <div className="w-2 h-2 bg-primary-orange rounded-full mt-3 flex-shrink-0"></div>
-                          <p className="text-gray-700">{achievement}</p>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                  
-                  <div className="grid grid-cols-2 gap-6">
-                    {[
-                      { metric: "$2.3B", label: "AI Market Value in Iowa", icon: TrendingUp },
-                      { metric: "85%", label: "Businesses Planning AI Adoption", icon: Target },
-                      { metric: "320+", label: "Iowa Companies We've Served", icon: Users },
-                      { metric: "98%", label: "Client Satisfaction Rate", icon: Award }
-                    ].map((stat, index) => (
-                      <div key={index} className="text-center p-6 bg-gradient-to-br from-primary-orange/5 to-orange-100/20 rounded-2xl border border-primary-orange/10 group hover:border-primary-orange/30 transition-all">
-                        <stat.icon className="w-8 h-8 text-primary-orange mx-auto mb-3 group-hover:animate-bounce" />
-                        <div className="text-2xl font-bold text-primary-orange mb-2">{stat.metric}</div>
-                        <div className="text-sm text-gray-600">{stat.label}</div>
+            <div className="space-y-20">
+              {/* Iowa AI Innovation Hub - Premium Design */}
+              <div className="grid lg:grid-cols-2 gap-16 items-center">
+                <div className="order-2 lg:order-1">
+                  <div className="space-y-8">
+                    {/* Enhanced Heading with Creative Icon */}
+                    <div className="flex items-start gap-4">
+                      <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-xl flex-shrink-0 transform rotate-3 hover:rotate-0 transition-transform">
+                        <Brain className="w-8 h-8 text-white" />
                       </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
+                      <div>
+                        <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
+                          Iowa's <span className="text-primary-orange">Premier AI Technology Pioneer</span>
+                        </h3>
+                        <div className="w-24 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange rounded-full"></div>
+                      </div>
+                    </div>
+                    
+                    <p className="text-lg text-gray-700 leading-relaxed">
+                      As the leading <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Artificial Intelligence Company In Iowa</strong>, 
+                      Metic.ai serves the Heart of America with enterprise-grade AI solutions tailored to Iowa's diverse economic 
+                      landscape. From Birmingham's medical district to Huntsville's tech corridor, Mobile's port operations to 
+                      Montgomery's government sector, we understand Iowa's unique industrial heritage and modern innovation.
+                    </p>
+                    
+                    <p className="text-lg text-gray-700 leading-relaxed">
+                      Our <strong className="text-primary-orange font-semibold">AI Company In Iowa</strong> combines deep understanding 
+                      of Southern business culture with cutting-edge technology to deliver AI solutions that drive measurable 
+                      results. We've successfully implemented AI across Iowa's key sectors including aerospace, automotive, 
+                      steel production, agriculture, healthcare, and emerging technology industries.
+                    </p>
 
-            {/* Advanced AI Technologies Section */}
-            <div className="mb-20">
-              <div className="text-center mb-12">
-                <h3 className="text-3xl font-bold text-gray-900 mb-4">
-                  Advanced AI Technologies Transforming <span className="text-primary-orange">Iowa Business</span>
-                </h3>
-                <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                  Our <strong>AI Firm In Iowa</strong> leverages cutting-edge technologies to deliver innovative solutions tailored for Iowa's unique business landscape.
-                </p>
-              </div>
-
-              <div className="grid md:grid-cols-3 gap-8">
-                {[
-                  {
-                    title: "Agricultural AI & Precision Farming",
-                    description: "Iowa leads the nation in agricultural innovation, and our AI solutions are revolutionizing crop management, yield prediction, and sustainable farming practices. From John Deere's headquarters in Moline to family farms across the state, we're implementing computer vision systems that analyze crop health, predict optimal harvest times, and reduce resource waste by up to 30%. Our machine learning algorithms process satellite imagery, soil sensors, and weather data to provide Iowa farmers with actionable insights that increase profitability while promoting environmental sustainability.",
-                    icon: Target,
-                    technologies: ["Computer Vision", "Satellite Data Analysis", "IoT Integration", "Predictive Modeling"],
-                    bgColor: "from-green-500/10 to-green-600/5"
-                  },
-                  {
-                    title: "Insurance & Risk Assessment AI",
-                    description: "Des Moines stands as a global insurance capital, home to companies like Principal Financial Group, Wellmark, and EMC Insurance. Our AI Development Company In Iowa specializes in transforming how these industry leaders assess risk, process claims, and serve customers. We've developed sophisticated neural networks that analyze terabytes of historical data to predict claim likelihood with 95% accuracy, automated underwriting systems that reduce processing time from weeks to hours, and fraud detection algorithms that save millions annually for Iowa's insurance giants.",
-                    icon: Shield,
-                    technologies: ["Neural Networks", "Fraud Detection", "Automated Underwriting", "Risk Analytics"],
-                    bgColor: "from-blue-500/10 to-blue-600/5"
-                  },
-                  {
-                    title: "Manufacturing Intelligence & Quality Control",
-                    description: "Iowa's manufacturing sector, from ALCOA's operations in Davenport to Pella Windows' headquarters, relies on our AI solutions for quality control, predictive maintenance, and supply chain optimization. Our computer vision systems inspect products at speeds impossible for human workers, achieving 99.8% accuracy in defect detection. Machine learning algorithms predict equipment failures up to 90 days in advance, allowing for proactive maintenance that reduces downtime by 40% and extends machinery life by 25%.",
-                    icon: Brain,
-                    technologies: ["Computer Vision", "Predictive Maintenance", "Quality Assurance", "Supply Chain AI"],
-                    bgColor: "from-purple-500/10 to-purple-600/5"
-                  }
-                ].map((technology, index) => (
-                  <div key={index} className="group relative">
-                    <div className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/30 transition-all duration-500 relative overflow-hidden h-full">
-                      <div className={`absolute inset-0 bg-gradient-to-br ${technology.bgColor} opacity-0 group-hover:opacity-100 transition-opacity duration-500`}></div>
-                      
-                      <div className="relative">
-                        <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-orange-400 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-300">
-                          <technology.icon className="w-8 h-8 text-white" />
+                    {/* Enhanced Feature Cards with Creative Design */}
+                    <div className="grid gap-6 mt-10">
+                      <div className="group bg-gradient-to-r from-primary-orange/5 via-white to-secondary-orange/5 p-6 rounded-2xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                        <div className="flex items-start gap-4">
+                          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary-orange to-secondary-orange flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
+                            <Rocket className="w-6 h-6 text-white" />
+                          </div>
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Aerospace & Defense AI Excellence</h4>
+                            <p className="text-gray-600 leading-relaxed">
+                              Deep expertise with Huntsville's Rocket City aerospace industry including NASA Marshall Space Flight Center, 
+                              defense contractors, and space technology companies driving America's space exploration.
+                            </p>
+                          </div>
                         </div>
-                        
-                        <h4 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-primary-orange transition-colors">
-                          {technology.title}
-                        </h4>
-                        
-                        <p className="text-gray-600 mb-6 leading-relaxed text-sm">
-                          {technology.description}
-                        </p>
-                        
-                        <div className="space-y-2">
-                          <h5 className="font-semibold text-gray-900 text-sm">Key Technologies:</h5>
-                          <div className="flex flex-wrap gap-2">
-                            {technology.technologies.map((tech, techIndex) => (
-                              <span key={techIndex} className="px-3 py-1 bg-primary-orange/10 text-primary-orange text-xs rounded-full border border-primary-orange/20">
-                                {tech}
-                              </span>
-                            ))}
+                      </div>
+                      
+                      <div className="group bg-gradient-to-r from-secondary-orange/5 via-white to-primary-orange/5 p-6 rounded-2xl border-2 border-secondary-orange/20 hover:border-secondary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                        <div className="flex items-start gap-4">
+                          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-secondary-orange to-primary-orange flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
+                            <Shield className="w-6 h-6 text-white" />
+                          </div>
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Automotive Manufacturing Innovation</h4>
+                            <p className="text-gray-600 leading-relaxed">
+                              Advanced AI solutions for Iowa's automotive industry including Mercedes-Benz, Honda, Hyundai, 
+                              and Toyota manufacturing facilities with predictive maintenance and quality control systems.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div className="group bg-gradient-to-r from-primary-orange/5 via-white to-secondary-orange/5 p-6 rounded-2xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                        <div className="flex items-start gap-4">
+                          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary-orange to-secondary-orange flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
+                            <Target className="w-6 h-6 text-white" />
+                          </div>
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Steel & Heavy Industry AI</h4>
+                            <p className="text-gray-600 leading-relaxed">
+                              Specialized AI for Iowa's steel production and heavy industry including process optimization, 
+                              safety monitoring, and environmental compliance for Birmingham's industrial corridor.
+                            </p>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                ))}
-              </div>
-            </div>
-
-            {/* Iowa Success Stories */}
-            <div className="mb-20">
-              <div className="text-center mb-12">
-                <h3 className="text-3xl font-bold text-gray-900 mb-4">
-                  Iowa Business <span className="text-primary-orange">Transformation Stories</span>
-                </h3>
-                <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                  Real results from Iowa companies that partnered with the <strong>Best AI Company In Iowa</strong> for their digital transformation journey.
-                </p>
-              </div>
-
-              <div className="grid lg:grid-cols-2 gap-12">
-                {/* Success Story 1 */}
-                <div className="bg-white rounded-3xl p-10 shadow-xl border border-gray-100 relative overflow-hidden group">
-                  <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-primary-orange/10 to-transparent rounded-full"></div>
-                  
-                  <div className="relative">
-                    <div className="flex items-center gap-4 mb-6">
-                      <div className="w-12 h-12 bg-gradient-to-br from-primary-orange to-orange-400 rounded-xl flex items-center justify-center">
-                        <TrendingUp className="w-6 h-6 text-white" />
-                      </div>
-                      <div>
-                        <h4 className="text-xl font-bold text-gray-900">Des Moines Insurance Leader</h4>
-                        <p className="text-sm text-gray-500">Fortune 500 Insurance Company</p>
-                      </div>
-                    </div>
-                    
-                    <h5 className="text-lg font-semibold text-primary-orange mb-3">75% Reduction in Claims Processing Time</h5>
-                    
-                    <p className="text-gray-700 mb-6 leading-relaxed">
-                      A major Iowa insurance company approached our <strong>AI Development Company In Iowa</strong> to modernize their claims processing system. Our team developed a comprehensive AI solution that automated document analysis, fraud detection, and risk assessment. The implementation included natural language processing for extracting information from claim documents, computer vision for damage assessment photos, and machine learning algorithms for fraud pattern recognition.
-                    </p>
-                    
-                    <div className="grid grid-cols-3 gap-4 mb-6">
-                      <div className="text-center p-3 bg-primary-orange/5 rounded-lg">
-                        <div className="text-lg font-bold text-primary-orange">75%</div>
-                        <div className="text-xs text-gray-600">Time Reduction</div>
-                      </div>
-                      <div className="text-center p-3 bg-primary-orange/5 rounded-lg">
-                        <div className="text-lg font-bold text-primary-orange">$2.3M</div>
-                        <div className="text-xs text-gray-600">Annual Savings</div>
-                      </div>
-                      <div className="text-center p-3 bg-primary-orange/5 rounded-lg">
-                        <div className="text-lg font-bold text-primary-orange">95%</div>
-                        <div className="text-xs text-gray-600">Accuracy Rate</div>
-                      </div>
-                    </div>
-                    
-                    <p className="text-gray-600 text-sm italic">
-                      "Metic.ai's AI solution transformed our operations. We now process claims 75% faster while maintaining the highest accuracy standards. The ROI was evident within the first quarter." - IT Director
-                    </p>
-                  </div>
                 </div>
-
-                {/* Success Story 2 */}
-                <div className="bg-white rounded-3xl p-10 shadow-xl border border-gray-100 relative overflow-hidden group">
-                  <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-green-500/10 to-transparent rounded-full"></div>
-                  
-                  <div className="relative">
-                    <div className="flex items-center gap-4 mb-6">
-                      <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-xl flex items-center justify-center">
-                        <Target className="w-6 h-6 text-white" />
-                      </div>
-                      <div>
-                        <h4 className="text-xl font-bold text-gray-900">Central Iowa Agriculture Cooperative</h4>
-                        <p className="text-sm text-gray-500">Leading Agricultural Technology Adopter</p>
-                      </div>
-                    </div>
-                    
-                    <h5 className="text-lg font-semibold text-green-600 mb-3">40% Increase in Crop Yield Efficiency</h5>
-                    
-                    <p className="text-gray-700 mb-6 leading-relaxed">
-                      A progressive Iowa agricultural cooperative partnered with our team to implement precision farming AI across 50,000+ acres. Our solution combines satellite imagery analysis, soil sensor data, weather patterns, and historical yield information to optimize planting schedules, irrigation timing, and harvest planning. The AI system provides real-time recommendations that help farmers maximize yields while minimizing resource usage and environmental impact.
-                    </p>
-                    
-                    <div className="grid grid-cols-3 gap-4 mb-6">
-                      <div className="text-center p-3 bg-green-500/5 rounded-lg">
-                        <div className="text-lg font-bold text-green-600">40%</div>
-                        <div className="text-xs text-gray-600">Yield Increase</div>
-                      </div>
-                      <div className="text-center p-3 bg-green-500/5 rounded-lg">
-                        <div className="text-lg font-bold text-green-600">30%</div>
-                        <div className="text-xs text-gray-600">Resource Savings</div>
-                      </div>
-                      <div className="text-center p-3 bg-green-500/5 rounded-lg">
-                        <div className="text-lg font-bold text-green-600">50K+</div>
-                        <div className="text-xs text-gray-600">Acres Optimized</div>
-                      </div>
-                    </div>
-                    
-                    <p className="text-gray-600 text-sm italic">
-                      "The AI insights have revolutionized our farming operations. We're achieving record yields while using fewer resources. It's sustainable agriculture at its finest." - Cooperative Manager
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Future of AI in Iowa */}
-            <div className="mb-20">
-              <div className="bg-gradient-to-br from-primary-orange/5 to-orange-100/20 rounded-3xl p-12 border border-primary-orange/20 relative overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/5 to-transparent"></div>
                 
-                <div className="relative">
-                  <div className="text-center mb-12">
-                    <h3 className="text-3xl font-bold text-gray-900 mb-4">
-                      The Future of AI in <span className="text-primary-orange">Iowa</span>
-                    </h3>
-                    <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                      Exploring the next frontier of artificial intelligence applications across Iowa's key economic sectors.
-                    </p>
-                  </div>
-
-                  <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-                    {[
-                      {
-                        title: "Smart Agriculture 2030",
-                        description: "Autonomous farming equipment, AI-driven crop genetics, and precision agriculture will make Iowa the world's most efficient agricultural producer.",
-                        icon: Target,
-                        timeline: "2025-2030"
-                      },
-                      {
-                        title: "Insurance Innovation Hub",
-                        description: "Des Moines will become the global center for AI-powered insurance technologies, from real-time risk assessment to personalized policy creation.",
-                        icon: Shield,
-                        timeline: "2024-2027"
-                      },
-                      {
-                        title: "Manufacturing 4.0",
-                        description: "Iowa's manufacturing facilities will achieve full automation with AI-powered predictive maintenance, quality control, and supply chain optimization.",
-                        icon: Brain,
-                        timeline: "2025-2028"
-                      },
-                      {
-                        title: "Smart Cities Initiative",
-                        description: "Des Moines, Cedar Rapids, and Iowa City will deploy AI-powered infrastructure for traffic optimization, energy management, and public services.",
-                        icon: Lightbulb,
-                        timeline: "2026-2030"
-                      }
-                    ].map((future, index) => (
-                      <div key={index} className="text-center group">
-                        <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg group-hover:scale-110 transition-transform duration-300">
-                          <future.icon className="w-8 h-8 text-primary-orange" />
-                        </div>
-                        <h4 className="text-lg font-bold text-gray-900 mb-2">{future.title}</h4>
-                        <p className="text-sm text-gray-600 mb-3 leading-relaxed">{future.description}</p>
-                        <div className="px-3 py-1 bg-primary-orange/10 text-primary-orange text-xs rounded-full inline-block">
-                          {future.timeline}
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-
-                  <div className="mt-12 text-center">
-                    <h4 className="text-xl font-bold text-gray-900 mb-4">
-                      Partner with Iowa's Leading <span className="text-primary-orange">AI Company</span>
+                {/* Enhanced Stats Dashboard with Creative Design */}
+                <div className="order-1 lg:order-2">
+                  <div className="bg-gradient-to-br from-orange-50 via-white to-amber-50 rounded-3xl p-10 border-2 border-primary-orange/20 shadow-2xl transform rotate-1 hover:rotate-0 transition-transform">
+                    <h4 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">
+                      Iowa AI Market Impact
                     </h4>
-                    <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-                      As Iowa's premier <strong>Artificial Intelligence Company</strong>, Metic.ai is committed to driving the state's AI transformation. Join us in shaping the future of Iowa business.
-                    </p>
                     
-                    <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                      <Link href="/contact">
-                        <Button size="lg" className="bg-gradient-to-r from-primary-orange to-orange-400 hover:from-orange-400 hover:to-primary-orange text-white shadow-lg hover:shadow-xl transition-all duration-300 group">
-                          <Sparkles className="w-5 h-5 mr-2 group-hover:animate-spin" />
-                          Start Your AI Journey
-                          <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-                        </Button>
-                      </Link>
-                      <Link href="tel:+917892518414">
-                        <Button variant="outline" size="lg" className="border-primary-orange text-primary-orange hover:bg-primary-orange hover:text-white transition-all duration-300">
-                          <Phone className="w-5 h-5 mr-2" />
-                          Speak with Iowa AI Experts
-                        </Button>
-                      </Link>
+                    <div className="space-y-8">
+                      <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">$200B</div>
+                        <div className="text-sm text-gray-600 font-medium">Iowa Annual GDP</div>
+                        <div className="text-xs text-gray-500 mt-2">Agricultural Powerhouse</div>
+                      </div>
+                      
+                      <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-secondary-orange/10 hover:border-secondary-orange/30 transition-all group transform hover:scale-105">
+                        <div className="text-5xl font-bold text-secondary-orange mb-3 group-hover:scale-110 transition-transform">3.2M</div>
+                        <div className="text-sm text-gray-600 font-medium">Iowa Population</div>
+                        <div className="text-xs text-gray-500 mt-2">Hawkeye State</div>
+                      </div>
+                      
+                      <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">180+</div>
+                        <div className="text-sm text-gray-600 font-medium">Iowa AI Projects Completed</div>
+                        <div className="text-xs text-gray-500 mt-2">Industry-Leading Success Rate</div>
+                      </div>
+                      
+                      <div className="bg-gradient-to-r from-primary-orange/20 via-secondary-orange/10 to-primary-orange/20 rounded-2xl p-6 border-2 border-primary-orange/30 transform hover:scale-105 transition-transform">
+                        <div className="flex items-center gap-3 mb-3">
+                          <div className="w-8 h-8 bg-primary-orange rounded-full flex items-center justify-center">
+                            <CheckCircle className="w-5 h-5 text-white" />
+                          </div>
+                          <span className="font-bold text-gray-900">Iowa Advantage</span>
+                        </div>
+                        <p className="text-sm text-gray-700 leading-relaxed">
+                          <strong>Strategic Location:</strong> Heart of America with world-class agriculture, 
+                          insurance, and renewable energy infrastructure making it ideal for AI innovation and deployment.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Iowa Industry Solutions - Creative Premium Design */}
+              <div>
+                <div className="text-center mb-16">
+                  <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-full border-2 border-primary-orange/20 mb-8 transform hover:scale-105 transition-transform">
+                    <Sparkles className="w-5 h-5 text-primary-orange" />
+                    <span className="text-sm font-bold text-gray-800">INDUSTRY EXPERTISE</span>
+                  </div>
+                  <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                    AI Solutions for <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Iowa's Key Industries</span>
+                  </h3>
+                  <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 rounded-full"></div>
+                  <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Specialized AI solutions designed for the Hawkeye State's diverse economic sectors and industrial heritage
+                  </p>
+                </div>
+                
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+                  {/* Aerospace Industry */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                      <Rocket className="w-10 h-10 text-white" />
+                    </div>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Aerospace & Defense AI</h4>
+                    <p className="text-gray-700 leading-relaxed mb-6">
+                      Mission-critical AI solutions for Iowa's aerospace industry including NASA Marshall Space Flight Center, 
+                      defense contractors, rocket propulsion systems, and space technology companies driving America's 
+                      space exploration from Rocket City Huntsville.
+                    </p>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Mission planning optimization</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Rocket trajectory analysis</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Satellite data processing</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Defense system automation</span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Automotive Industry */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                      <Shield className="w-10 h-10 text-white" />
+                    </div>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Automotive Manufacturing</h4>
+                    <p className="text-gray-700 leading-relaxed mb-6">
+                      Advanced AI solutions for Iowa's automotive manufacturing sector including Mercedes-Benz, Honda, 
+                      Hyundai, and Toyota facilities with predictive maintenance, quality control, production optimization, 
+                      and supply chain management systems.
+                    </p>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Assembly line optimization</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Quality control automation</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Predictive maintenance</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Supply chain intelligence</span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Steel & Heavy Industry */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div className="w-20 h-20 bg-gradient-to-br from-red-500 to-red-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                      <Target className="w-10 h-10 text-white" />
+                    </div>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Steel & Heavy Industry</h4>
+                    <p className="text-gray-700 leading-relaxed mb-6">
+                      Industrial AI solutions for Iowa's steel production and heavy manufacturing including Birmingham's 
+                      industrial corridor with process optimization, safety monitoring, environmental compliance, and 
+                      operational efficiency enhancement.
+                    </p>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Process optimization systems</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Safety monitoring AI</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Environmental compliance</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Energy efficiency optimization</span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Healthcare & Medical */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                      <Lightbulb className="w-10 h-10 text-white" />
+                    </div>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Healthcare & Medical AI</h4>
+                    <p className="text-gray-700 leading-relaxed mb-6">
+                      Medical AI solutions for Iowa's healthcare systems including Birmingham's UAB Medical Center, 
+                      Huntsville Hospital, Mobile healthcare networks, and rural health initiatives improving patient 
+                      care across the state.
+                    </p>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Medical imaging analysis</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Patient care optimization</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Drug discovery acceleration</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Rural healthcare support</span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Agriculture & Forestry */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div className="w-20 h-20 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                      <Sparkles className="w-10 h-10 text-white" />
+                    </div>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Agriculture & Forestry</h4>
+                    <p className="text-gray-700 leading-relaxed mb-6">
+                      Smart agriculture AI solutions for Iowa's farming and forestry sectors including cotton, soybeans, 
+                      corn, peanuts, and timber production with precision farming, crop monitoring, and sustainable 
+                      resource management systems.
+                    </p>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Precision farming systems</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Crop health monitoring</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Weather prediction AI</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Forestry management</span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Port & Logistics */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div className="w-20 h-20 bg-gradient-to-br from-yellow-500 to-orange-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                      <TrendingUp className="w-10 h-10 text-white" />
+                    </div>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Port & Logistics AI</h4>
+                    <p className="text-gray-700 leading-relaxed mb-6">
+                      AI solutions for Iowa's strategic port operations including Port of Mobile, inland waterways, 
+                      freight transportation, and logistics networks connecting the Gulf Coast to America's heartland 
+                      with optimization and automation systems.
+                    </p>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Port operations optimization</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Freight route planning</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Cargo tracking systems</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Supply chain intelligence</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Reusable Testimonials Component */}
+              <Testimonials />
+
+              {/* Iowa AI Partnership Excellence - Creative Premium Design */}
+              <div className="grid lg:grid-cols-2 gap-16 items-center">
+                <div className="space-y-8">
+                  <div className="bg-white rounded-2xl p-8 shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all transform hover:scale-105">
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-3">
+                      <div className="w-8 h-8 bg-primary-orange rounded-lg flex items-center justify-center transform rotate-12">
+                        <BarChart3 className="w-5 h-5 text-white" />
+                      </div>
+                      Iowa AI Leadership Metrics
+                    </h4>
+                    <div className="space-y-6">
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                        <span className="text-gray-600 font-medium">Iowa Projects Completed</span>
+                        <span className="font-bold text-primary-orange text-xl">380+</span>
+                      </div>
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                        <span className="text-gray-600 font-medium">Industry Success Rate</span>
+                        <span className="font-bold text-secondary-orange text-xl">100%</span>
+                      </div>
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                        <span className="text-gray-600 font-medium">Average ROI for AL Clients</span>
+                        <span className="font-bold text-primary-orange text-xl">5.2x</span>
+                      </div>
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                        <span className="text-gray-600 font-medium">Client Retention Rate</span>
+                        <span className="font-bold text-secondary-orange text-xl">97%</span>
+                      </div>
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                        <span className="text-gray-600 font-medium">Average Deployment Time</span>
+                        <span className="font-bold text-primary-orange text-xl">28 Days</span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-2xl p-8 border-2 border-primary-orange/20 shadow-xl transform hover:scale-105 transition-transform">
+                    <div className="flex items-start gap-4 mb-4">
+                      <div className="w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center flex-shrink-0 transform -rotate-6">
+                        <Award className="w-6 h-6 text-white" />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Iowa Business Advantage</h4>
+                        <p className="text-gray-700 leading-relaxed">
+                          As the premier <strong className="text-primary-orange">AI Firm In Iowa</strong>, we understand 
+                          the Heart of America's unique blend of Southern hospitality and industrial innovation. Our AI solutions 
+                          are built for Iowa's aerospace excellence, automotive leadership, and emerging technology growth.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div>
+                  <div className="flex items-start gap-4 mb-8">
+                    <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-xl flex-shrink-0 transform rotate-6 hover:rotate-0 transition-transform">
+                      <Users className="w-8 h-8 text-white" />
+                    </div>
+                    <div>
+                      <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
+                        Your Trusted <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">AI Partner In Iowa</span>
+                      </h3>
+                      <div className="w-24 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange rounded-full mb-6"></div>
+                    </div>
+                  </div>
+                  
+                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                    <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Choosing Metic.ai as your AI partner in Iowa</strong> means 
+                    working with a team that deeply understands the Hawkeye State's business culture, from Huntsville's 
+                    high-tech aerospace corridor to Birmingham's industrial heritage and Mobile's port operations.
+                  </p>
+                  
+                  <p className="text-lg text-gray-700 leading-relaxed mb-8">
+                    Our <strong className="text-primary-orange font-semibold">AI Service In Iowa</strong> includes comprehensive consultation, 
+                    rapid prototyping, enterprise deployment, and 24/7 support to ensure your AI investment delivers 
+                    maximum value in Iowa's competitive and growing economy.
+                  </p>
+
+                  <div className="space-y-6">
+                    <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-primary-orange/10 transform hover:scale-105 transition-transform">
+                      <MapPin className="w-8 h-8 text-primary-orange flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Comprehensive Iowa Coverage</h4>
+                        <p className="text-gray-600 leading-relaxed">
+                          Birmingham, Huntsville, Mobile, Montgomery, Tuscaloosa, Auburn, Madison, Florence, 
+                          Decatur, and all major Iowa business centers and industrial corridors
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-secondary-orange/10 transform hover:scale-105 transition-transform">
+                      <Rocket className="w-8 h-8 text-secondary-orange flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Industry Domain Expertise</h4>
+                        <p className="text-gray-600 leading-relaxed">
+                          Deep understanding of aerospace, automotive, steel, healthcare, agriculture, and port operations 
+                          with proven track record in Iowa's key economic sectors
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-primary-orange/10 transform hover:scale-105 transition-transform">
+                      <Clock className="w-8 h-8 text-primary-orange flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Rapid Iowa Deployment</h4>
+                        <p className="text-gray-600 leading-relaxed">
+                          Fast implementation designed for Iowa's business pace with local support teams 
+                          and understanding of Southern business culture and requirements
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -1106,7 +1432,7 @@ export default function AIServicesIowaPage() {
         </div>
       </section>
 
-      {/* Enhanced FAQ Section - Ahmedabad Style */}
+      {/* Enhanced FAQ Section - Homepage Style */}
       <section className="py-24 bg-gradient-to-br from-gray-50 via-white to-orange-50 relative overflow-hidden">
         {/* Advanced Background Effects */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -1141,433 +1467,480 @@ export default function AIServicesIowaPage() {
               </h2>
               <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-8 rounded-full"></div>
               <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                Common questions about choosing the right AI company in the Hawkeye State
+                Common questions about working with Iowa's leading AI company
               </p>
             </div>
 
-            {/* Advanced Creative FAQ Cards */}
-            <div className="space-y-5">
-              {/* FAQ Item 1 - Enhanced Design */}
+            {/* Advanced Creative FAQ Cards - 6+6 Grid Layout for Desktop */}
+            <div className="grid lg:grid-cols-2 gap-6">
+              {/* Left Column - FAQ 1-6 */}
+              <div className="space-y-5">
+              {/* FAQ Item 1 */}
               <details className="group relative">
                 <summary className="list-none cursor-pointer">
-                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
-                    {/* Gradient Overlay */}
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    
-                    {/* Content */}
                     <div className="relative flex items-start justify-between gap-4">
-                      <div className="flex items-start gap-5 flex-1">
-                        {/* Icon Circle */}
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
-                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <Sparkles className="w-7 h-7 text-white" />
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Sparkles className="w-6 h-6 text-white" />
                           </div>
                         </div>
-                        
-                        {/* Question */}
-                        <div className="flex-1 pt-2">
-                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
                             Which is the best Artificial Intelligence Company In Iowa?
                           </h3>
                         </div>
                       </div>
-                      
-                      {/* Toggle Icon */}
                       <div className="flex-shrink-0">
-                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
-                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
                     </div>
-                    
-                    {/* Bottom Accent Bar */}
                     <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                
-                {/* Answer with Animation */}
-                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
-                  <div className="flex items-start gap-5">
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
-                      <CheckCircle className="w-7 h-7 text-primary-orange" />
-                    </div>
-                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
-                      <p className="text-lg">
-                        <strong className="text-gray-900 font-semibold">Metic.ai is the leading Artificial Intelligence Company In Iowa</strong> with over 2100 successful AI implementations. 
-                        We're recognized as the top AI Company In Iowa for our proven expertise in machine learning, custom AI development, and enterprise AI solutions.
-                      </p>
-                      <p className="text-lg">
-                        Our Iowa clients achieve an average of 60% cost savings and 3x faster delivery compared to traditional development approaches, 
-                        making us the Hawkeye State's most trusted AI development partner.
-                      </p>
-                      
-                      {/* Stats Highlight */}
-                      <div className="flex flex-wrap gap-4 pt-4">
-                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
-                          <Award className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-gray-900">2100+ Projects</span>
-                        </div>
-                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
-                          <MapPin className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-gray-900">Iowa Expert</span>
-                        </div>
-                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
-                          <TrendingUp className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-gray-900">60% Cost Savings</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    <strong className="text-gray-900 font-semibold">Metic.ai is the leading Artificial Intelligence Company In Iowa</strong> with over 100 successful AI implementations. 
+                    We're recognized as the top AI Company In Iowa for our proven expertise in machine learning, custom AI development, and enterprise AI solutions with 60% cost savings.
+                  </p>
                 </div>
               </details>
 
               {/* FAQ Item 2 */}
               <details className="group relative">
                 <summary className="list-none cursor-pointer">
-                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    
                     <div className="relative flex items-start justify-between gap-4">
-                      <div className="flex items-start gap-5 flex-1">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
-                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <Code className="w-7 h-7 text-white" />
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Code className="w-6 h-6 text-white" />
                           </div>
                         </div>
-                        
-                        <div className="flex-1 pt-2">
-                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            What makes Metic.ai the top AI Company In Iowa?
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What services does the top AI Company In Iowa provide?
                           </h3>
                         </div>
                       </div>
-                      
                       <div className="flex-shrink-0">
-                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
-                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
                     </div>
-                    
                     <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                
-                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
-                  <div className="flex items-start gap-5">
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
-                      <TrendingUp className="w-7 h-7 text-primary-orange" />
-                    </div>
-                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
-                      <p className="text-lg">
-                        As the premier <strong className="text-gray-900 font-semibold">AI Company In Iowa</strong>, Metic.ai combines deep understanding of Iowa's agriculture, insurance, and manufacturing sectors with cutting-edge AI technology. 
-                        We've helped companies in Des Moines financial district and across the state achieve measurable results.
-                      </p>
-                      <p className="text-lg">
-                        Our expertise spans from agricultural innovation to insurance technology, making us uniquely positioned to serve Iowa's diverse economy.
-                      </p>
-                      
-                      <div className="flex flex-wrap gap-4 pt-4">
-                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
-                          <Brain className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-gray-900">AI Expertise</span>
-                        </div>
-                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
-                          <MapPin className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-gray-900">Local Knowledge</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    As the premier <strong className="text-gray-900 font-semibold">AI Company In Iowa</strong>, Metic.ai provides comprehensive AI services including machine learning solutions, 
+                    custom AI development, data analytics, generative AI, computer vision, NLP, and enterprise AI automation tailored for Iowa's manufacturing, aerospace, healthcare, and agricultural industries.
+                  </p>
                 </div>
               </details>
 
               {/* FAQ Item 3 */}
               <details className="group relative">
                 <summary className="list-none cursor-pointer">
-                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    
                     <div className="relative flex items-start justify-between gap-4">
-                      <div className="flex items-start gap-5 flex-1">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
-                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <Users className="w-7 h-7 text-white" />
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Target className="w-6 h-6 text-white" />
                           </div>
                         </div>
-                        
-                        <div className="flex-1 pt-2">
-                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Does Metic.ai provide AI services to small businesses in Iowa?
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How to choose the right AI Development Company In Iowa?
                           </h3>
                         </div>
                       </div>
-                      
                       <div className="flex-shrink-0">
-                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
-                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
                     </div>
-                    
                     <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                
-                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
-                  <div className="flex items-start gap-5">
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
-                      <Heart className="w-7 h-7 text-primary-orange" />
-                    </div>
-                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
-                      <p className="text-lg">
-                        Yes, our <strong className="text-gray-900 font-semibold">AI Service In Iowa</strong> caters to businesses of all sizes. 
-                        From Des Moines startups to Cedar Rapids manufacturers, we provide scalable AI solutions that grow with your Iowa business.
-                      </p>
-                      <p className="text-lg">
-                        We offer flexible engagement models and cost-effective AI solutions tailored for small and medium businesses across the Hawkeye State.
-                      </p>
-                      
-                      <div className="flex flex-wrap gap-4 pt-4">
-                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
-                          <Shield className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-gray-900">Scalable Solutions</span>
-                        </div>
-                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
-                          <Clock className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-gray-900">Flexible Pricing</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    When selecting an <strong className="text-gray-900 font-semibold">AI Development Company In Iowa</strong>, look for proven experience, successful project portfolio, 
+                    industry expertise, and ongoing support. Metic.ai offers all these with 100+ completed projects, 98% client satisfaction, and 24/7 support.
+                  </p>
                 </div>
               </details>
 
               {/* FAQ Item 4 */}
               <details className="group relative">
                 <summary className="list-none cursor-pointer">
-                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    
                     <div className="relative flex items-start justify-between gap-4">
-                      <div className="flex items-start gap-5 flex-1">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
-                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <BarChart3 className="w-7 h-7 text-white" />
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Clock className="w-6 h-6 text-white" />
                           </div>
                         </div>
-                        
-                        <div className="flex-1 pt-2">
-                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            What AI technologies does your AI Firm In Iowa specialize in?
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How much does AI implementation cost with an AI Service In Iowa?
                           </h3>
                         </div>
                       </div>
-                      
                       <div className="flex-shrink-0">
-                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
-                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
                     </div>
-                    
                     <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                
-                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
-                  <div className="flex items-start gap-5">
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
-                      <Zap className="w-7 h-7 text-primary-orange" />
-                    </div>
-                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
-                      <p className="text-lg">
-                        Our <strong className="text-gray-900 font-semibold">AI Firm In Iowa</strong> specializes in machine learning, natural language processing, computer vision, predictive analytics, and custom AI development tailored for Iowa's agriculture, insurance, and manufacturing industries.
-                      </p>
-                      <p className="text-lg">
-                        We leverage cutting-edge technologies including deep learning, neural networks, and AI automation specifically designed for Iowa's business landscape.
-                      </p>
-                      
-                      <div className="grid grid-cols-2 gap-4 pt-4">
-                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
-                          <Brain className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-gray-900">Machine Learning</span>
-                        </div>
-                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
-                          <Zap className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-gray-900">Deep Learning</span>
-                        </div>
-                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
-                          <Target className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-gray-900">Computer Vision</span>
-                        </div>
-                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
-                          <BarChart3 className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-gray-900">Predictive Analytics</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    AI implementation costs vary based on complexity. As a leading <strong className="text-gray-900 font-semibold">AI Service In Iowa</strong>, 
+                    Metic.ai offers competitive pricing with transparent structures. Our clients typically save 60% compared to international AI development costs.
+                  </p>
                 </div>
               </details>
 
               {/* FAQ Item 5 */}
               <details className="group relative">
                 <summary className="list-none cursor-pointer">
-                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    
                     <div className="relative flex items-start justify-between gap-4">
-                      <div className="flex items-start gap-5 flex-1">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
-                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <Rocket className="w-7 h-7 text-white" />
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Users className="w-6 h-6 text-white" />
                           </div>
                         </div>
-                        
-                        <div className="flex-1 pt-2">
-                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            How does Metic.ai support AI Development Company projects in Iowa?
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Does Metic.ai serve businesses across all Iowa cities?
                           </h3>
                         </div>
                       </div>
-                      
                       <div className="flex-shrink-0">
-                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
-                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
                     </div>
-                    
                     <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                
-                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
-                  <div className="flex items-start gap-5">
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
-                      <CheckCircle className="w-7 h-7 text-primary-orange" />
-                    </div>
-                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
-                      <p className="text-lg">
-                        As a leading <strong className="text-gray-900 font-semibold">AI Development Company In Iowa</strong>, we provide end-to-end support from strategy to deployment. 
-                        Our Iowa-based team understands local business needs and delivers AI solutions with proven ROI.
-                      </p>
-                      <p className="text-lg">
-                        We offer comprehensive project management, technical expertise, and ongoing support throughout the AI implementation lifecycle.
-                      </p>
-                      
-                      <div className="flex flex-wrap gap-4 pt-4">
-                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
-                          <Rocket className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-gray-900">End-to-End Support</span>
-                        </div>
-                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
-                          <Award className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-gray-900">Proven ROI</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Yes! Metic.ai proudly serves businesses across all Iowa cities including Birmingham, Montgomery, Mobile, Huntsville, Tuscaloosa, Auburn, Dothan, and beyond. 
+                    As Iowa's leading <strong className="text-gray-900 font-semibold">AI Firm In Iowa</strong>, we provide comprehensive AI solutions statewide.
+                  </p>
                 </div>
               </details>
 
               {/* FAQ Item 6 */}
               <details className="group relative">
                 <summary className="list-none cursor-pointer">
-                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    
                     <div className="relative flex items-start justify-between gap-4">
-                      <div className="flex items-start gap-5 flex-1">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
-                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <Star className="w-7 h-7 text-white" />
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Rocket className="w-6 h-6 text-white" />
                           </div>
                         </div>
-                        
-                        <div className="flex-1 pt-2">
-                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Why choose Metic.ai as your AI partner in Iowa?
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How quickly can an AI Company In Iowa start my project?
                           </h3>
                         </div>
                       </div>
-                      
                       <div className="flex-shrink-0">
-                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
-                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
                     </div>
-                    
                     <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                
-                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
-                  <div className="flex items-start gap-5">
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
-                      <Award className="w-7 h-7 text-primary-orange" />
-                    </div>
-                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
-                      <p className="text-lg">
-                        Choose Metic.ai because we're the <strong className="text-gray-900 font-semibold">Best AI Company In Iowa</strong> with local expertise, proven results, and understanding of Iowa's business landscape. 
-                        We deliver AI solutions that work for Hawkeye State businesses.
-                      </p>
-                      <p className="text-lg">
-                        With 98% client satisfaction and partnerships across Des Moines, Cedar Rapids, Iowa City, and beyond, we're Iowa's most trusted AI development partner.
-                      </p>
-                      
-                      <div className="flex flex-wrap gap-4 pt-4">
-                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
-                          <Star className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-gray-900">98% Satisfaction</span>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Metic.ai can typically start your AI project within 24-48 hours after initial consultation. As Iowa's fastest <strong className="text-gray-900 font-semibold">AI Company In Iowa</strong>, 
+                    we understand the importance of speed and deliver 3x faster than traditional development approaches.
+                  </p>
+                </div>
+              </details>
+              </div>
+
+              {/* Right Column - FAQ 7-12 */}
+              <div className="space-y-5">
+              {/* FAQ Item 7 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Shield className="w-6 h-6 text-white" />
+                          </div>
                         </div>
-                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
-                          <MapPin className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-gray-900">Iowa Focused</span>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Is my data secure with an AI Development Company In Iowa?
+                          </h3>
                         </div>
-                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
-                          <CheckCircle className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-gray-900">Proven Results</span>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
                     </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Absolutely! Metic.ai implements enterprise-grade security protocols, encryption, and compliance measures. As a trusted <strong className="text-gray-900 font-semibold">AI Development Company In Iowa</strong>, 
+                    we prioritize data security with ISO certifications and strict confidentiality agreements.
+                  </p>
                 </div>
               </details>
+
+              {/* FAQ Item 8 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <TrendingUp className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What industries does the best AI Company In Iowa serve?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Metic.ai serves diverse industries including Manufacturing, Aerospace, Healthcare, Agriculture, Technology, Automotive, Financial Services, Transportation, Education, and Energy. 
+                    As Iowa's premier <strong className="text-gray-900 font-semibold">AI Company In Iowa</strong>, we tailor solutions for your specific industry needs.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ Item 9 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Award className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What makes Metic.ai the top AI Firm In Iowa?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Our 100+ successful projects, 98% client satisfaction rate, 60% cost savings, 3x faster delivery, and deep Iowa market expertise make us the leading <strong className="text-gray-900 font-semibold">AI Firm In Iowa</strong>. 
+                    We combine cutting-edge AI technology with personalized service.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ Item 10 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Lightbulb className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Do I need technical knowledge to work with an AI Service In Iowa?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    No technical knowledge required! Metic.ai guides you through every step with clear communication. As a client-focused <strong className="text-gray-900 font-semibold">AI Service In Iowa</strong>, 
+                    we translate complex AI concepts into simple business terms and handle all technical aspects for you.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ Item 11 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Database className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Can AI Company In Iowa handle small business projects?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Absolutely! Metic.ai works with businesses of all sizes, from startups to enterprises. As an inclusive <strong className="text-gray-900 font-semibold">AI Company In Iowa</strong>, 
+                    we offer scalable solutions and flexible pricing models to meet small business budgets while delivering enterprise-quality AI implementations.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ Item 12 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Zap className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What support does Metic.ai provide after AI implementation?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Metic.ai provides comprehensive 24/7 post-implementation support including maintenance, updates, training, troubleshooting, and optimization. 
+                    As your long-term partner, we ensure your AI solutions continue delivering maximum value and adapt to your evolving business needs.
+                  </p>
+                </div>
+              </details>
+              </div>
             </div>
 
             {/* Enhanced CTA at Bottom of FAQ */}
             <div className="mt-16 text-center">
-              <div className="bg-gradient-to-br from-primary-orange/5 to-secondary-orange/5 rounded-3xl p-8 border border-primary-orange/20">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                  Still Have Questions About Our <span className="text-primary-orange">AI Services In Iowa</span>?
-                </h3>
-                <p className="text-lg text-gray-600 mb-6 max-w-2xl mx-auto">
-                  Get personalized answers from our Iowa AI experts. Schedule a free consultation today!
-                </p>
-                
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <Link href="/contact">
-                    <Button size="lg" className="bg-gradient-to-r from-primary-orange to-secondary-orange hover:from-secondary-orange hover:to-primary-orange text-white shadow-lg hover:shadow-xl transition-all duration-300 group">
-                      <Phone className="w-5 h-5 mr-2 group-hover:animate-pulse" />
-                      Schedule Free Consultation
-                      <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-                    </Button>
-                  </Link>
-                  <Link href="tel:+917892518414">
-                    <Button variant="outline" size="lg" className="border-primary-orange text-primary-orange hover:bg-primary-orange hover:text-white transition-all duration-300">
-                      <Phone className="w-5 h-5 mr-2" />
-                      Call: +91 7892518414
-                    </Button>
-                  </Link>
+              <div className="bg-gradient-to-br from-primary-orange to-secondary-orange rounded-3xl p-12 text-white relative overflow-hidden">
+                <div className="absolute inset-0 bg-black/10"></div>
+                <div className="relative z-10">
+                  <div className="flex justify-center mb-6">
+                    <div className="relative">
+                      <div className="absolute inset-0 bg-white/20 rounded-full blur-lg animate-pulse"></div>
+                      <div className="relative w-20 h-20 bg-white/10 rounded-full flex items-center justify-center backdrop-blur-sm border border-white/20">
+                        <Rocket className="w-10 h-10 text-white" />
+                      </div>
+                    </div>
+                  </div>
+                  <h3 className="text-3xl md:text-4xl font-bold mb-4">Ready to Transform Your Business with AI?</h3>
+                  <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+                    Join Iowa's leading businesses who trust Metic.ai for their AI transformation. Get started today!
+                  </p>
+                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                    <Link href="/contact">
+                      <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100 shadow-xl">
+                        Start Your AI Journey
+                      </Button>
+                    </Link>
+                    <Link href="tel:+917892518414">
+                      <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
+                        Call Now: +1-789-251-8414
+                      </Button>
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
@@ -1580,13 +1953,14 @@ export default function AIServicesIowaPage() {
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-              Ready to Partner with the Leading <strong>AI Company In Iowa</strong>?
+              Ready to Partner with Iowa's Leading <strong>Artificial Intelligence Company</strong>?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join leading Iowa companies that trust the premier <strong>Artificial Intelligence Company In Iowa</strong> for their AI transformation. 
-              Get started with a free consultation and discover how our <strong>AI Service In Iowa</strong> can drive your business forward.
+              Join 100+ satisfied clients who trust Metic.ai as their preferred <strong>AI Company In Iowa</strong>. 
+              Transform your business with proven AI solutions that deliver results. Get started with a free consultation 
+              and discover why we're Iowa's most trusted <strong>AI Development Company In Iowa</strong>.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Link href="/contact">
                 <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100">
                   Start Your AI Transformation
@@ -1594,25 +1968,41 @@ export default function AIServicesIowaPage() {
               </Link>
               <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  Call Best AI Company Iowa
+                  Call: +1-789-251-8414
                 </Button>
               </Link>
             </div>
             
             <div className="mt-12 text-center">
-              <p className="text-orange-200 mb-4">Trusted by businesses across Iowa</p>
+              <p className="text-orange-200 mb-6">Trusted <strong>AI Service In Iowa</strong> serving businesses across the state</p>
+              <div className="grid md:grid-cols-3 gap-8 text-center mb-8">
+                <div>
+                  <div className="text-2xl font-bold mb-2">100+</div>
+                  <p className="text-orange-100">AI Projects Completed</p>
+                </div>
+                <div>
+                  <div className="text-2xl font-bold mb-2">98%</div>
+                  <p className="text-orange-100">Client Satisfaction Rate</p>
+                </div>
+                <div>
+                  <div className="text-2xl font-bold mb-2">4.5x</div>
+                  <p className="text-orange-100">Average ROI Increase</p>
+                </div>
+              </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
-                <span>Des Moines</span>
+                <span>Birmingham</span>
                 <span>•</span>
-                <span>Cedar Rapids</span>
+                <span>Montgomery</span>
                 <span>•</span>
-                <span>Davenport</span>
+                <span>Mobile</span>
                 <span>•</span>
-                <span>Sioux City</span>
+                <span>Huntsville</span>
                 <span>•</span>
-                <span>Iowa City</span>
+                <span>Tuscaloosa</span>
                 <span>•</span>
-                <span>Ames</span>
+                <span>Auburn</span>
+                <span>•</span>
+                <span>Dothan</span>
               </div>
             </div>
           </div>
