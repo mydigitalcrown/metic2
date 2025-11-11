@@ -152,7 +152,7 @@ export default function AIServicesIowaPage() {
   ];
 
   const stats = [
-    { number: "180+", label: "IA Businesses Served" },
+    { number: "50+", label: "IA Businesses Served" },
     { number: "99%", label: "Client Satisfaction" },
     { number: "4.3x", label: "Average ROI Increase" },
     { number: "24/7", label: "Support Available" }
@@ -1085,7 +1085,7 @@ export default function AIServicesIowaPage() {
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">180+</div>
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">50+</div>
                         <div className="text-sm text-gray-600 font-medium">Iowa AI Projects Completed</div>
                         <div className="text-xs text-gray-500 mt-2">Industry-Leading Success Rate</div>
                       </div>
