@@ -28,7 +28,7 @@ import {
 
 export const metadata = {
   title: "AI Company In Mumbai | #1 Artificial Intelligence Company In Mumbai",
-  description: "Leading AI Company In Mumbai with 100+ successful AI projects. Expert Artificial Intelligence development, machine learning & automation services. 60% cost savings, 3x faster delivery. Call +1-789-251-8414",
+  description: "Leading AI Company In Mumbai with 50+ successful AI projects. Expert Artificial Intelligence development, machine learning & automation services. 60% cost savings, 3x faster delivery. Call +1-789-251-8414",
   keywords: [
     "Artificial Intelligence Company In Mumbai",
     "AI Company In Mumbai", 
@@ -57,7 +57,7 @@ export const metadata = {
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
     title: "Artificial Intelligence Company In Mumbai | #1 AI Company In Mumbai - Metic.ai",
-    description: "Leading Artificial Intelligence Company In Mumbai with 100+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Mumbai businesses.",
+    description: "Leading Artificial Intelligence Company In Mumbai with 50+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Mumbai businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-Mumbai/",
     type: "website",
     locale: "en_US",
@@ -297,7 +297,7 @@ export default function AIServicesMumbaiPage() {
                 "name": "Which is the best Artificial Intelligence Company In Mumbai?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Metic.ai is the leading Artificial Intelligence Company In Mumbai with 100+ successful AI implementations. We provide comprehensive AI services including machine learning, custom AI development, and enterprise AI solutions with proven 60% cost savings and 3x faster delivery."
+                  "text": "Metic.ai is the leading Artificial Intelligence Company In Mumbai with 50+ successful AI implementations. We provide comprehensive AI services including machine learning, custom AI development, and enterprise AI solutions with proven 60% cost savings and 3x faster delivery."
                 }
               },
               {
@@ -313,7 +313,7 @@ export default function AIServicesMumbaiPage() {
                 "name": "How to choose the right AI Development Company In Mumbai?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Choose an AI Development Company In Mumbai with proven experience, successful implementations, industry expertise, and local presence. Metic.ai offers all these with 100+ completed projects and deep understanding of Mumbai's business landscape."
+                  "text": "Choose an AI Development Company In Mumbai with proven experience, successful implementations, industry expertise, and local presence. Metic.ai offers all these with 50+ completed projects and deep understanding of Mumbai's business landscape."
                 }
               },
               {
@@ -451,7 +451,7 @@ export default function AIServicesMumbaiPage() {
             <div className="flex justify-center mb-6 md:mb-8">
               <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-white/10 backdrop-blur-sm rounded-full border border-primary-orange/30 shadow-xl">
                 <Award className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
-                <span className="text-xs md:text-sm font-bold text-white">⭐ 100+ Successful AI Projects | 98% Client Satisfaction</span>
+                <span className="text-xs md:text-sm font-bold text-white">⭐ 50+ Successful AI Projects | 98% Client Satisfaction</span>
               </div>
             </div>
 
@@ -1578,7 +1578,7 @@ export default function AIServicesMumbaiPage() {
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     When selecting an <strong className="text-gray-900 font-semibold">AI Development Company In Mumbai</strong>, look for proven experience, successful project portfolio, 
-                    industry expertise, and ongoing support. Metic.ai offers all these with 100+ completed projects, 98% client satisfaction, and 24/7 support.
+                    industry expertise, and ongoing support. Metic.ai offers all these with 50+ completed projects, 98% client satisfaction, and 24/7 support.
                   </p>
                 </div>
               </details>
@@ -1796,7 +1796,7 @@ export default function AIServicesMumbaiPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Our 100+ successful projects, 98% client satisfaction rate, 60% cost savings, 3x faster delivery, and deep Mumbai market expertise make us the leading <strong className="text-gray-900 font-semibold">AI Firm In Mumbai</strong>. 
+                    Our 50+ successful projects, 98% client satisfaction rate, 60% cost savings, 3x faster delivery, and deep Mumbai market expertise make us the leading <strong className="text-gray-900 font-semibold">AI Firm In Mumbai</strong>. 
                     We combine cutting-edge AI technology with personalized service.
                   </p>
                 </div>
@@ -1956,7 +1956,7 @@ export default function AIServicesMumbaiPage() {
               Ready to Partner with Mumbai's Leading <strong>Artificial Intelligence Company</strong>?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join 100+ satisfied clients who trust Metic.ai as their preferred <strong>AI Company In Mumbai</strong>. 
+              Join 50+ satisfied clients who trust Metic.ai as their preferred <strong>AI Company In Mumbai</strong>. 
               Transform your business with proven AI solutions that deliver results. Get started with a free consultation 
               and discover why we're Mumbai's most trusted <strong>AI Development Company In Mumbai</strong>.
             </p>
@@ -1977,7 +1977,7 @@ export default function AIServicesMumbaiPage() {
               <p className="text-orange-200 mb-6">Trusted <strong>AI Service In Mumbai</strong> serving businesses across the state</p>
               <div className="grid md:grid-cols-3 gap-8 text-center mb-8">
                 <div>
-                  <div className="text-2xl font-bold mb-2">100+</div>
+                  <div className="text-2xl font-bold mb-2">50+</div>
                   <p className="text-orange-100">AI Projects Completed</p>
                 </div>
                 <div>
