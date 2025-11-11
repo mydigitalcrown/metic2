@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Button } from "../components/ui/Button";
 import { 
   Brain, 
@@ -176,7 +176,7 @@ export default function AIServicesMainePage() {
   ];
 
   const stats = [
-    { number: "135+", label: "ME Businesses Served" },
+    { number: "50+", label: "ME Businesses Served" },
     { number: "98%", label: "Client Satisfaction" },
     { number: "4.0x", label: "Average ROI Increase" },
     { number: "24/7", label: "Support Available" }
