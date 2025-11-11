@@ -143,7 +143,7 @@ export default function Testimonials() {
       {/* Additional Success Metrics */}
       <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-6">
         <div className="text-center p-6 bg-white rounded-xl shadow-lg border border-primary-orange/20 transform hover:scale-105 transition-transform">
-          <div className="text-3xl font-bold text-primary-orange mb-2">180+</div>
+          <div className="text-3xl font-bold text-primary-orange mb-2">50+</div>
           <div className="text-sm text-gray-600">Projects Completed</div>
         </div>
         <div className="text-center p-6 bg-white rounded-xl shadow-lg border border-secondary-orange/20 transform hover:scale-105 transition-transform">
