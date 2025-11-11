@@ -1,5 +1,6 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Button } from "../components/ui/Button";
+import Testimonials from "../components/Testimonials";
 import { 
   Brain, 
   Zap, 
@@ -22,15 +23,12 @@ import {
   Database,
   Sparkles,
   ChevronDown,
-  Rocket,
-  Globe,
-  Play,
-  Quote
+  Rocket
 } from "lucide-react";
 
 export const metadata = {
-  title: "Artificial Intelligence Company In Nevada | #1 AI Company In NV - Metic.ai",
-  description: "Leading Artificial Intelligence Company In Nevada with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
+  title: "AI Company In Nevada | #1 Artificial Intelligence Company In Nevada",
+  description: "Leading AI Company In Nevada with 50+ successful AI projects. Expert Artificial Intelligence development, machine learning & automation services. 60% cost savings, 3x faster delivery. Call +1-789-251-8414",
   keywords: [
     "Artificial Intelligence Company In Nevada",
     "AI Company In Nevada", 
@@ -38,7 +36,7 @@ export const metadata = {
     "AI Firm In Nevada",
     "AI Development Company In Nevada",
     "Best AI Company In Nevada",
-    "Top AI Company NV",
+    "Top AI Company Nevada",
     "Artificial Intelligence Services Nevada",
     "AI Solutions Company Nevada",
     "Machine Learning Company Nevada",
@@ -50,13 +48,16 @@ export const metadata = {
     "AI integration services Nevada",
     "custom AI development Nevada",
     "enterprise AI solutions Nevada",
-    "AI ML company Nevada"
+    "AI ML company Nevada",
+    "Nevada AI experts",
+    "Nevada machine learning services",
+    "Nevada AI implementation"
   ],
   authors: [{ name: "Metic.ai Nevada AI Team" }],
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
-    title: "Artificial Intelligence Company In Nevada | #1 AI Company In NV - Metic.ai",
-    description: "Leading Artificial Intelligence Company In Nevada with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Nevada businesses.",
+    title: "Artificial Intelligence Company In Nevada | #1 AI Company In Nevada - Metic.ai",
+    description: "Leading Artificial Intelligence Company In Nevada with 50+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Nevada businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-Nevada/",
     type: "website",
     locale: "en_US",
@@ -73,7 +74,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Artificial Intelligence Company In Nevada | AI Company In NV",
+    title: "Artificial Intelligence Company In Nevada | AI Company In Nevada",
     description: "Leading AI Company In Nevada delivering enterprise artificial intelligence solutions. Expert AI development, machine learning & automation services with proven results.",
     images: ["https://metic.ai/og-ai-company-Nevada.jpg"],
     site: "@metic_ai",
@@ -102,7 +103,7 @@ export default function AIServicesNevadaPage() {
     },
     {
       title: "Machine Learning Solutions",
-      description: "Advanced ML algorithms and predictive analytics tailored for Nevada's gaming, hospitality, and pharma industries.",
+      description: "Advanced ML algorithms and predictive analytics tailored for Nevada businesses and industries.",
       icon: Brain,
       href: "/machine-learning",
       color: "purple" as const
@@ -129,31 +130,31 @@ export default function AIServicesNevadaPage() {
       color: "indigo" as const
     },
     {
-      title: "Data Technology and Software",
+      title: "Data Engineering",
       description: "Robust data infrastructure and ETL pipelines for Nevada enterprises and growing businesses.",
       icon: Database,
-      href: "/data-Technology and Software",
+      href: "/data-engineering",
       color: "red" as const
     }
   ];
 
   const industries = [
-    "Gaming and Entertainment",
-    "Hospitality and Tourism",
-    "Healthcare and Medical",
-    "Technology and Software",
-    "Data Centers and Cloud",
-    "Mining and Natural Resources",
     "Manufacturing",
-    "Logistics and Distribution",
-    "Real Estate and Construction",
-    "Energy and Renewable"
+    "Aerospace",
+    "Healthcare",
+    "Agriculture",
+    "Technology",
+    "Automotive",
+    "Financial Services",
+    "Transportation",
+    "Education",
+    "Energy"
   ];
 
   const stats = [
-    { number: "2,100+", label: "Nevada Businesses Served" },
+    { number: "50+", label: "AL Businesses Served" },
     { number: "98%", label: "Client Satisfaction" },
-    { number: "4.5x", label: "Average ROI Increase" },
+    { number: "4.1x", label: "Average ROI Increase" },
     { number: "24/7", label: "Support Available" }
   ];
 
@@ -168,7 +169,7 @@ export default function AIServicesNevadaPage() {
             "@type": ["Organization", "TechnologyCompany", "LocalBusiness"],
             "name": "Metic.ai - Artificial Intelligence Company In Nevada",
             "alternateName": ["AI Company In Nevada", "Metic AI", "AI Firm Nevada"],
-            "description": "Leading Artificial Intelligence Company In Nevada providing enterprise AI solutions, machine learning development, and custom AI services for businesses across NV.",
+            "description": "Leading Artificial Intelligence Company In Nevada providing enterprise AI solutions, machine learning development, and custom AI services for businesses across Nevada.",
             "url": "https://metic.ai/artificial-intelligence-ai-services-in-Nevada/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
@@ -177,35 +178,29 @@ export default function AIServicesNevadaPage() {
             ],
             "logo": "https://metic.ai/logo.png",
             "image": ["https://metic.ai/ai-company-Nevada.jpg"],
-            "telephone": "+1 7892518414",
+            "telephone": "+1-789-251-8414",
             "email": "hello@matic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
-            "vatID": "US-88-1234567",
+            "vatID": "US123456789",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Behind Manyata Tech Park",
-              "addressLocality": "Carson City, Nevada",
-              "addressRegion": "NV", 
-              "postalCode": "89701",
-              "addressCountry": "United States"
+              "addressRegion": "Nevada",
+              "addressCountry": "US",
+              "postalCode": "35201"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "39.1638",
-              "longitude": "-119.7674"
+              "latitude": "32.7794",
+              "longitude": "-86.8287"
             },
             "areaServed": [
               {
-                "@type": "City",
+                "@type": "State",
                 "name": "Nevada",
                 "containedInPlace": {
-                  "@type": "State",
-                  "name": "NV",
-                  "containedInPlace": {
-                    "@type": "Country", 
-                    "name": "United States"
-                  }
+                  "@type": "Country", 
+                  "name": "United States"
                 }
               }
             ],
@@ -213,10 +208,10 @@ export default function AIServicesNevadaPage() {
               "@type": "GeoCircle",
               "geoMidpoint": {
                 "@type": "GeoCoordinates",
-                "latitude": "39.1638",
-                "longitude": "-119.7674"
+                "latitude": "32.7794",
+                "longitude": "-86.8287"
               },
-              "geoRadius": "50000"
+              "geoRadius": "200000"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
@@ -227,7 +222,7 @@ export default function AIServicesNevadaPage() {
                   "itemOffered": {
                     "@type": "Service",
                     "name": "AI Development Services",
-                    "description": "Custom artificial intelligence development for businesses"
+                    "description": "Custom artificial intelligence development for Nevada businesses"
                   }
                 },
                 {
@@ -270,7 +265,7 @@ export default function AIServicesNevadaPage() {
             "aggregateRating": {
               "@type": "AggregateRating",
               "ratingValue": "4.9",
-              "reviewCount": "2100",
+              "reviewCount": "100",
               "bestRating": "5",
               "worstRating": "1"
             },
@@ -280,10 +275,10 @@ export default function AIServicesNevadaPage() {
             "openingHours": "Mo-Fr 09:00-18:00",
             "contactPoint": {
               "@type": "ContactPoint",
-              "telephone": "+1 7892518414",
+              "telephone": "+1-789-251-8414",
               "contactType": "Customer Service",
-              "areaServed": "IN",
-              "availableLanguage": ["English", "Hindi", "NVi"]
+              "areaServed": "US",
+              "availableLanguage": ["English"]
             }
           })
         }}
@@ -302,7 +297,7 @@ export default function AIServicesNevadaPage() {
                 "name": "Which is the best Artificial Intelligence Company In Nevada?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Metic.ai is the leading Artificial Intelligence Company In Nevada with 2100+ successful AI implementations. We provide comprehensive AI services including machine learning, custom AI development, and enterprise AI solutions with proven 60% cost savings and 3x faster delivery."
+                  "text": "Metic.ai is the leading Artificial Intelligence Company In Nevada with 50+ successful AI implementations. We provide comprehensive AI services including machine learning, custom AI development, and enterprise AI solutions with proven 60% cost savings and 3x faster delivery."
                 }
               },
               {
@@ -310,7 +305,7 @@ export default function AIServicesNevadaPage() {
                 "name": "What AI services does the top AI Company In Nevada provide?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "As the premier AI Company In Nevada, Metic.ai provides AI integration & deployment, machine learning solutions, custom AI development, data analytics & BI, generative AI services, and data Technology and Software for businesses across NV."
+                  "text": "As the premier AI Company In Nevada, Metic.ai provides AI integration & deployment, machine learning solutions, custom AI development, data analytics & BI, generative AI services, and data engineering for businesses across Nevada."
                 }
               },
               {
@@ -318,7 +313,7 @@ export default function AIServicesNevadaPage() {
                 "name": "How to choose the right AI Development Company In Nevada?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Choose an AI Development Company In Nevada with proven experience, successful implementations, industry expertise, and local presence. Metic.ai offers all these with 2100+ completed projects and deep understanding of Nevada's business landscape."
+                  "text": "Choose an AI Development Company In Nevada with proven experience, successful implementations, industry expertise, and local presence. Metic.ai offers all these with 50+ completed projects and deep understanding of Nevada's business landscape."
                 }
               },
               {
@@ -326,7 +321,7 @@ export default function AIServicesNevadaPage() {
                 "name": "What makes Metic.ai the best AI Firm In Nevada?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Metic.ai is the best AI Firm In Nevada due to our proven expertise, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of Nevada's gaming, hospitality, healthcare and Technology and Software industries."
+                  "text": "Metic.ai is the best AI Firm In Nevada due to our proven expertise, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of Nevada's manufacturing, aerospace, healthcare and agricultural industries."
                 }
               }
             ]
@@ -364,164 +359,202 @@ export default function AIServicesNevadaPage() {
         }}
       />
 
-      {/* Enhanced Creative Hero Section - VSO & Target Keyword Optimized */}
-      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 md:py-28 relative overflow-hidden">
-        {/* Creative Background Elements */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          {/* Animated Circuit Pattern */}
-          <div className="absolute inset-0 opacity-[0.03]" style={{
-            backgroundImage: `linear-gradient(#FF6B35 1px, transparent 1px), linear-gradient(90deg, #FF6B35 1px, transparent 1px)`,
-            backgroundSize: '50px 50px'
-          }}></div>
-          
-          {/* Floating AI Elements */}
-          <div className="absolute top-20 left-10 w-32 h-32 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute bottom-20 right-10 w-40 h-40 bg-primary-orange/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
-          
-          {/* Geometric Shapes */}
-          <div className="absolute top-1/4 left-1/4 w-2 h-2 bg-primary-orange/30 rounded-full animate-bounce" style={{animationDelay: '1s'}}></div>
-          <div className="absolute top-1/3 right-1/3 w-1.5 h-1.5 bg-orange-400/30 rounded-full animate-bounce" style={{animationDelay: '3s'}}></div>
-          <div className="absolute bottom-1/4 left-1/3 w-2.5 h-2.5 bg-primary-orange/20 rounded-full animate-bounce" style={{animationDelay: '2.5s'}}></div>
+      {/* BreadcrumbList Schema for Enhanced Navigation SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://metic.ai/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI Services",
+                "item": "https://metic.ai/services"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Artificial Intelligence Company In Nevada",
+                "item": "https://metic.ai/artificial-intelligence-ai-services-in-Nevada/"
+              }
+            ]
+          })
+        }}
+      />
+
+      {/* LocalBusiness Schema for Local SEO Enhancement */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Metic.ai - AI Company In Nevada",
+            "description": "Leading Artificial Intelligence Company providing AI services in Nevada",
+            "image": "https://metic.ai/ai-company-Nevada.jpg",
+            "telephone": "+1-789-251-8414",
+            "email": "hello@matic.ai",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "300 Quail Ridge Dr NE",
+              "addressLocality": "ADA",
+              "addressRegion": "MI",
+              "postalCode": "49301",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": "32.3182",
+              "longitude": "-86.9023"
+            },
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-Nevada/",
+            "priceRange": "$$$$",
+            "areaServed": {
+              "@type": "State",
+              "name": "Nevada"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "reviewCount": "180",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "openingHours": "Mo-Fr 09:00-18:00",
+            "sameAs": [
+              "https://www.linkedin.com/company/metic-ai",
+              "https://twitter.com/metic_ai"
+            ]
+          })
+        }}
+      />
+
+      {/* Hero Section - VSO & Target Keyword Optimized - Enhanced Mobile/Desktop */}
+      <section className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-16 md:py-24 lg:py-32 overflow-hidden">
+        {/* Animated Background Elements */}
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute top-20 left-10 w-72 h-72 bg-primary-orange rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-20 right-10 w-96 h-96 bg-secondary-orange rounded-full blur-3xl animate-pulse delay-1000"></div>
         </div>
 
         <div className="container px-4 md:px-6 relative z-10">
-          <div className="max-w-4xl mx-auto text-center">
-            {/* Enhanced Location Badge */}
-            <div className="inline-flex items-center gap-3 mb-8 bg-gray-800/50 backdrop-blur-sm rounded-full px-6 py-3 border border-primary-orange/20">
-              <div className="relative">
-                <MapPin className="w-5 h-5 text-primary-orange" />
-                <div className="absolute -top-1 -right-1 w-3 h-3 bg-primary-orange rounded-full animate-ping"></div>
+          <div className="max-w-5xl mx-auto">
+            {/* Trust Badge - Mobile Optimized */}
+            <div className="flex justify-center mb-6 md:mb-8">
+              <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-white/10 backdrop-blur-sm rounded-full border border-primary-orange/30 shadow-xl">
+                <Award className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
+                <span className="text-xs md:text-sm font-bold text-white">⭐ 50+ Successful AI Projects | 98% Client Satisfaction</span>
               </div>
-              <span className="text-sm font-medium text-orange-300">Serving Nevada, NV, United States</span>
-              <div className="w-2 h-2 bg-primary-orange rounded-full animate-pulse"></div>
             </div>
-            
-            {/* Enhanced Title with Animation */}
-            <div className="relative mb-8">
-              <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6 text-white relative z-10">
-                <strong>
-                  Artificial Intelligence Company In Nevada
-                </strong>
-                <br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange">
-                  Leading AI Company In NV
+
+            <div className="text-center">  
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight mb-4 md:mb-6 leading-tight">
+                <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
+                  Artificial Intelligence
                 </span>
+                <br />
+                <span className="text-white">Company In Nevada</span>
               </h1>
-            </div>
-            
-            {/* Enhanced Description */}
-            <div className="relative mb-10">
-              <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-                Looking for the best <strong className="text-white">AI Company In Nevada</strong>? Metic.ai is the premier 
-                <strong className="text-primary-orange"> Artificial Intelligence Company In Nevada</strong> 
-                with 2100+ successful AI implementations. We help businesses across NV transform with cutting-edge AI solutions, 
-                delivering <span className="text-primary-orange font-semibold">60% cost savings</span> and 
-                <span className="text-primary-orange font-semibold">3x faster results</span> than traditional development.
-              </p>
               
-              {/* Trust Indicators */}
-              <div className="flex items-center justify-center gap-6 mb-8">
-                <div className="flex items-center gap-2">
-                  <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
-                    <Shield className="w-4 h-4 text-primary-orange" />
-                  </div>
-                  <span className="text-sm text-gray-400">ISO Certified</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
-                    <Award className="w-4 h-4 text-primary-orange" />
-                  </div>
-                  <span className="text-sm text-gray-400">Award Winning</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <div className="w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center">
-                    <Users className="w-4 h-4 text-primary-orange" />
-                  </div>
-                  <span className="text-sm text-gray-400">2100+ Clients</span>
-                </div>
-              </div>
-            </div>
-            
-            {/* Enhanced CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-              <Link href="/contact">
-                <Button 
-                  variant="primary" 
-                  size="lg" 
-                  className="w-full sm:w-auto bg-gradient-to-r from-primary-orange to-orange-500 hover:from-primary-orange/90 hover:to-orange-500/90 transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl group"
-                >
-                  <Rocket className="w-5 h-5 mr-2 group-hover:animate-pulse" />
-                  Get Free AI Consultation
-                </Button>
-              </Link>
-              <Link href="tel:+917892518414">
-                <Button 
-                  variant="outline" 
-                  size="lg" 
-                  className="w-full sm:w-auto border-primary-orange text-primary-orange hover:bg-primary-orange/10 transform hover:scale-105 transition-all duration-300 group"
-                >
-                  <Phone className="w-4 h-4 mr-2 group-hover:animate-pulse" />
-                  Call: +1 7892518414
-                </Button>
-              </Link>
-            </div>
-
-            {/* Enhanced Stats with Creative Design */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto mb-12">
-              {stats.map((stat, index) => (
-                <div key={index} className="relative group">
-                  <div className="bg-gray-800/30 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:border-primary-orange/50 transition-all duration-300 group-hover:transform group-hover:scale-105">
-                    <div className="text-3xl font-bold text-primary-orange mb-2 group-hover:animate-pulse">{stat.number}</div>
-                    <div className="text-sm text-gray-400">{stat.label}</div>
-                    
-                    {/* Hover Effect */}
-                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/5 to-orange-400/5 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                  </div>
-                </div>
-              ))}
-            </div>
-
-            {/* Enhanced VSO Keywords Section */}
-            <div className="text-center">
-              <p className="text-gray-400 text-sm mb-6 flex items-center justify-center gap-2">
-                <Globe className="w-4 h-4 text-primary-orange" />
-                Trusted as the top AI Service In Nevada
+              {/* VSO Optimized Description - Mobile Friendly */}
+              <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 mb-6 md:mb-8 max-w-4xl mx-auto leading-relaxed px-4">
+                Looking for the <strong className="text-primary-orange">best AI Company In Nevada</strong>? Metic.ai is the premier <strong className="text-white">Artificial Intelligence Company In Nevada</strong> delivering enterprise AI solutions with proven results.
               </p>
-              <div className="flex flex-wrap justify-center gap-3">
-                {[
-                  "AI Firm In Nevada",
-                  "AI Development Company In Nevada", 
-                  "Best AI Company NV"
-                ].map((tag, index) => (
-                  <span 
-                    key={index}
-                    className="bg-gray-800/50 backdrop-blur-sm px-4 py-2 rounded-full text-gray-400 text-xs border border-gray-700/50 hover:border-primary-orange/50 hover:text-primary-orange transition-all duration-300 cursor-default"
-                  >
-                    {tag}
-                  </span>
+
+              {/* Mobile-Optimized CTA Buttons */}
+              <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center mb-10 md:mb-16 px-4">
+                <Link href="/contact" className="w-full sm:w-auto">
+                  <Button variant="primary" size="lg" className="w-full sm:w-auto text-base md:text-lg px-6 md:px-8 py-3 md:py-4 shadow-2xl hover:shadow-primary-orange/50 transform hover:scale-105 transition-all">
+                    <Rocket className="w-5 h-5 mr-2" />
+                    Get Free AI Consultation
+                  </Button>
+                </Link>
+                <Link href="tel:+917892518414" className="w-full sm:w-auto">
+                  <Button variant="outline" size="lg" className="w-full sm:w-auto text-base md:text-lg px-6 md:px-8 py-3 md:py-4 border-2 border-primary-orange text-primary-orange hover:bg-primary-orange hover:text-white">
+                    <Phone className="w-5 h-5 mr-2" />
+                    Call: +1-789-251-8414
+                  </Button>
+                </Link>
+              </div>
+
+              {/* Voice Search Optimized Stats - Responsive Grid */}
+              <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8 max-w-4xl mx-auto mb-10 md:mb-12 px-4">
+                {stats.map((stat, index) => (
+                  <div key={index} className="bg-white/5 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-white/10 hover:border-primary-orange/50 transition-all transform hover:scale-105">
+                    <div className="text-2xl md:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent mb-2">
+                      {stat.number}
+                    </div>
+                    <div className="text-xs md:text-sm text-gray-400">{stat.label}</div>
+                  </div>
                 ))}
+              </div>
+
+              {/* VSO Keywords Section - Mobile Optimized */}
+              <div className="text-center px-4">
+                <p className="text-gray-400 text-sm md:text-base mb-4">
+                  <strong className="text-white">Trusted as the top AI Service In Nevada</strong> by leading businesses
+                </p>
+                <div className="flex flex-wrap justify-center gap-2 md:gap-3 text-xs md:text-sm">
+                  <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
+                    AI Firm In Nevada
+                  </span>
+                  <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
+                    AI Development Company
+                  </span>
+                  <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
+                    Best AI Company Nevada
+                  </span>
+                  <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
+                    Machine Learning Services
+                  </span>
+                </div>
               </div>
             </div>
           </div>
         </div>
+
+        {/* Bottom Wave Decoration */}
+        <div className="absolute bottom-0 left-0 right-0">
+          <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-auto">
+            <path d="M0 0L60 10C120 20 240 40 360 46.7C480 53 600 47 720 43.3C840 40 960 40 1080 46.7C1200 53 1320 67 1380 73.3L1440 80V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0V0Z" fill="white"/>
+          </svg>
+        </div>
       </section>
 
-      {/* Services Section */}
-      <section className="py-20 bg-white">
+      {/* Services Section - Enhanced Mobile & Desktop */}
+      <section className="py-16 md:py-20 lg:py-24 bg-gradient-to-b from-white to-gray-50">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                <strong>AI Services</strong> by Leading <span className="text-primary-orange">Artificial Intelligence Company In Nevada</span>
+            <div className="text-center mb-12 md:mb-16">
+              {/* Section Badge */}
+              <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-primary-orange/10 rounded-full mb-6 md:mb-8">
+                <Brain className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
+                <span className="text-xs md:text-sm font-bold text-primary-orange">COMPREHENSIVE AI SERVICES</span>
+              </div>
+
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 leading-tight px-4">
+                <strong className="text-gray-900">AI Services</strong> by Leading{" "}
+                <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">
+                  Artificial Intelligence Company In Nevada
+                </span>
               </h2>
-              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Comprehensive artificial intelligence services from Nevada's most trusted <strong>AI Company In Nevada</strong>. 
-                Transforming businesses with cutting-edge AI solutions tailored for NV's industrial landscape.
+              <div className="w-20 md:w-24 h-1 md:h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 md:mb-8 rounded-full"></div>
+              <p className="text-base md:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-4">
+                Comprehensive artificial intelligence services from Nevada's most trusted <strong className="text-gray-900">AI Company In Nevada</strong>. 
+                Transforming businesses with cutting-edge AI solutions tailored for Nevada's industrial landscape.
               </p>
             </div>
             
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Mobile: 1 col, Tablet: 2 cols, Desktop: 3 cols */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
               {services.map((service, index) => {
                 const IconComponent = service.icon;
                 const colorClasses = {
@@ -534,332 +567,41 @@ export default function AIServicesNevadaPage() {
                 };
                 
                 return (
-                  <div key={index} className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100">
-                    <div className={`w-16 h-16 rounded-full flex items-center justify-center mb-6 ${colorClasses[service.color]}`}>
-                      <IconComponent className="w-8 h-8" />
+                  <div 
+                    key={index} 
+                    className="group bg-white rounded-2xl p-6 md:p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border-2 border-gray-100 hover:border-primary-orange/50 transform hover:-translate-y-2"
+                  >
+                    <div className={`w-14 h-14 md:w-16 md:h-16 rounded-2xl flex items-center justify-center mb-5 md:mb-6 ${colorClasses[service.color]} group-hover:scale-110 transition-transform`}>
+                      <IconComponent className="w-7 h-7 md:w-8 md:h-8" />
                     </div>
                     
-                    <h3 className="text-xl font-bold mb-4">{service.title}</h3>
-                    <p className="text-gray-600 mb-6 leading-relaxed">{service.description}</p>
+                    <h3 className="text-lg md:text-xl font-bold mb-3 md:mb-4 text-gray-900 group-hover:text-primary-orange transition-colors">
+                      {service.title}
+                    </h3>
+                    <p className="text-sm md:text-base text-gray-600 mb-5 md:mb-6 leading-relaxed">
+                      {service.description}
+                    </p>
                     
-                    <Link href={service.href} className="inline-flex items-center text-primary-orange hover:text-primary-orange/80 font-medium">
+                    <Link 
+                      href={service.href} 
+                      className="inline-flex items-center text-primary-orange hover:text-secondary-orange font-semibold text-sm md:text-base group-hover:gap-3 transition-all"
+                    >
                       Learn More
-                      <ArrowRight className="w-4 h-4 ml-2" />
+                      <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                     </Link>
                   </div>
                 );
               })}
             </div>
-          </div>
-        </div>
-      </section>
 
-      {/* Industries Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Industries We Serve in Nevada
-              </h2>
-              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Delivering specialized AI solutions across Nevada's key industries and business sectors.
-              </p>
-            </div>
-            
-            <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-4">
-              {industries.map((industry, index) => (
-                <div key={index} className="bg-white rounded-lg p-4 text-center shadow-sm hover:shadow-md transition-shadow">
-                  <div className="w-8 h-8 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
-                    <Target className="w-4 h-4 text-primary-orange" />
-                  </div>
-                  <h3 className="font-medium text-gray-800">{industry}</h3>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Ultra-Creative Why Choose Us Section - Dark Theme */}
-      <section className="py-24 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 relative overflow-hidden">
-        {/* Advanced Creative Background Elements */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          {/* Animated Circuit Patterns */}
-          <div className="absolute inset-0 opacity-[0.03]" style={{
-            backgroundImage: `linear-gradient(#FF6B35 1px, transparent 1px), linear-gradient(90deg, #FF6B35 1px, transparent 1px)`,
-            backgroundSize: '60px 60px'
-          }}></div>
-          
-          {/* Floating AI Elements with Different Sizes */}
-          <div className="absolute top-20 left-10 w-40 h-40 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute bottom-20 right-10 w-56 h-56 bg-secondary-orange/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
-          <div className="absolute top-1/2 left-1/4 w-32 h-32 bg-primary-orange/3 rounded-full blur-2xl animate-pulse" style={{animationDelay: '4s'}}></div>
-          
-          {/* Dynamic Geometric Shapes */}
-          <div className="absolute top-1/4 left-1/4 w-3 h-3 bg-primary-orange/40 rounded-full animate-bounce" style={{animationDelay: '1s'}}></div>
-          <div className="absolute top-1/3 right-1/3 w-2 h-2 bg-orange-400/40 rounded-full animate-bounce" style={{animationDelay: '3s'}}></div>
-          <div className="absolute bottom-1/4 left-1/3 w-4 h-4 bg-primary-orange/30 rounded-full animate-bounce" style={{animationDelay: '2.5s'}}></div>
-          <div className="absolute top-3/4 right-1/4 w-2.5 h-2.5 bg-secondary-orange/40 rounded-full animate-bounce" style={{animationDelay: '1.8s'}}></div>
-        </div>
-
-        <div className="container px-4 md:px-6 relative z-10">
-          <div className="max-w-7xl mx-auto">
-            {/* Enhanced Creative Header */}
-            <div className="text-center mb-20">
-              {/* Premium Badge with Glow Effect */}
-              <div className="inline-flex items-center gap-3 px-8 py-4 bg-gray-800/50 backdrop-blur-xl rounded-full border-2 border-primary-orange/30 mb-10 hover:border-primary-orange/50 transition-all group shadow-2xl">
-                <div className="relative">
-                  <div className="absolute inset-0 bg-primary-orange/20 rounded-full blur-md animate-pulse"></div>
-                  <div className="relative w-4 h-4 bg-primary-orange rounded-full animate-pulse"></div>
-                </div>
-                <span className="text-sm font-bold text-orange-300 tracking-wider">WHY CHOOSE METIC.AI</span>
-                <div className="relative">
-                  <div className="absolute inset-0 bg-secondary-orange/20 rounded-full blur-md animate-pulse"></div>
-                  <div className="relative w-4 h-4 bg-secondary-orange rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></div>
-                </div>
-              </div>
-              
-              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight">
-                <span className="text-white">Premier </span>
-                <span className="bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange bg-clip-text text-transparent animate-gradient">
-                  AI Firm In Nevada
-                </span>
-                <br />
-                <span className="text-gray-300 text-3xl md:text-4xl lg:text-5xl">Transforming NV's Future</span>
-              </h2>
-              <div className="w-40 h-2 bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange mx-auto mb-10 rounded-full shadow-lg"></div>
-              <p className="text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
-                As the leading <strong className="text-primary-orange">AI Development Company In Nevada</strong>, we're trusted by NV's 
-                most innovative businesses for our expertise, proven results, and unwavering commitment to client success.
-              </p>
-            </div>
-            
-            {/* Ultra-Creative Feature Cards with Advanced Animations */}
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {/* Card 1 - Proven Expertise */}
-              <div className="group relative">
-                <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/20 to-orange-400/20 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 transform group-hover:scale-110"></div>
-                <div className="relative bg-gray-800/40 backdrop-blur-xl rounded-3xl p-8 border border-gray-700/50 hover:border-primary-orange/50 transition-all duration-500 group-hover:transform group-hover:scale-105 h-full">
-                  <div className="relative mb-8">
-                    {/* Icon with Advanced Animation */}
-                    <div className="relative w-20 h-20 mx-auto">
-                      <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl animate-pulse opacity-20"></div>
-                      <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl group-hover:animate-spin transition-all duration-1000"></div>
-                      <div className="relative w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center shadow-2xl group-hover:scale-110 transition-all duration-300">
-                        <Award className="w-10 h-10 text-white group-hover:animate-pulse" />
-                      </div>
-                    </div>
-                    
-                    {/* Floating Numbers */}
-                    <div className="absolute -top-2 -right-2 w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center backdrop-blur-sm border border-primary-orange/30">
-                      <span className="text-xs font-bold text-primary-orange">2K+</span>
-                    </div>
-                  </div>
-                  
-                  <div className="text-center space-y-4">
-                    <h3 className="text-2xl font-bold text-white group-hover:text-primary-orange transition-colors">
-                      Proven AI Expertise
-                    </h3>
-                    <p className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors">
-                      Years of experience delivering cutting-edge AI solutions for Nevada businesses across gaming, 
-                      hospitality, Healthcare and Medical, and emerging tech sectors.
-                    </p>
-                    
-                    {/* Enhanced Stats */}
-                    <div className="pt-4 space-y-2">
-                      <div className="flex items-center justify-between text-sm">
-                        <span className="text-gray-500">Success Rate</span>
-                        <span className="text-primary-orange font-bold">99.2%</span>
-                      </div>
-                      <div className="w-full bg-gray-700 rounded-full h-1.5">
-                        <div className="bg-gradient-to-r from-blue-500 to-blue-600 h-1.5 rounded-full w-[99%] group-hover:animate-pulse"></div>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  {/* Bottom Glow Effect */}
-                  <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 to-blue-600 rounded-b-3xl transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
-                </div>
-              </div>
-
-              {/* Card 2 - Measurable Results */}
-              <div className="group relative">
-                <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 to-emerald-400/20 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 transform group-hover:scale-110"></div>
-                <div className="relative bg-gray-800/40 backdrop-blur-xl rounded-3xl p-8 border border-gray-700/50 hover:border-green-500/50 transition-all duration-500 group-hover:transform group-hover:scale-105 h-full">
-                  <div className="relative mb-8">
-                    <div className="relative w-20 h-20 mx-auto">
-                      <div className="absolute inset-0 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl animate-pulse opacity-20"></div>
-                      <div className="absolute inset-0 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl group-hover:animate-spin transition-all duration-1000"></div>
-                      <div className="relative w-20 h-20 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl flex items-center justify-center shadow-2xl group-hover:scale-110 transition-all duration-300">
-                        <TrendingUp className="w-10 h-10 text-white group-hover:animate-pulse" />
-                      </div>
-                    </div>
-                    
-                    <div className="absolute -top-2 -right-2 w-8 h-8 bg-green-500/20 rounded-full flex items-center justify-center backdrop-blur-sm border border-green-500/30">
-                      <span className="text-xs font-bold text-green-400">ROI</span>
-                    </div>
-                  </div>
-                  
-                  <div className="text-center space-y-4">
-                    <h3 className="text-2xl font-bold text-white group-hover:text-green-400 transition-colors">
-                      Measurable AI Results
-                    </h3>
-                    <p className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors">
-                      Data-driven AI solutions delivering concrete ROI and transformative business growth for 
-                      Nevada companies with proven performance metrics.
-                    </p>
-                    
-                    <div className="pt-4 space-y-2">
-                      <div className="flex items-center justify-between text-sm">
-                        <span className="text-gray-500">Avg ROI Increase</span>
-                        <span className="text-green-400 font-bold">5.8x</span>
-                      </div>
-                      <div className="w-full bg-gray-700 rounded-full h-1.5">
-                        <div className="bg-gradient-to-r from-green-500 to-emerald-600 h-1.5 rounded-full w-[95%] group-hover:animate-pulse"></div>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-green-500 to-emerald-600 rounded-b-3xl transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
-                </div>
-              </div>
-
-              {/* Card 3 - Local Partnership */}
-              <div className="group relative">
-                <div className="absolute inset-0 bg-gradient-to-br from-purple-500/20 to-violet-400/20 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 transform group-hover:scale-110"></div>
-                <div className="relative bg-gray-800/40 backdrop-blur-xl rounded-3xl p-8 border border-gray-700/50 hover:border-purple-500/50 transition-all duration-500 group-hover:transform group-hover:scale-105 h-full">
-                  <div className="relative mb-8">
-                    <div className="relative w-20 h-20 mx-auto">
-                      <div className="absolute inset-0 bg-gradient-to-br from-purple-500 to-violet-600 rounded-2xl animate-pulse opacity-20"></div>
-                      <div className="absolute inset-0 bg-gradient-to-br from-purple-500 to-violet-600 rounded-2xl group-hover:animate-spin transition-all duration-1000"></div>
-                      <div className="relative w-20 h-20 bg-gradient-to-br from-purple-500 to-violet-600 rounded-2xl flex items-center justify-center shadow-2xl group-hover:scale-110 transition-all duration-300">
-                        <Users className="w-10 h-10 text-white group-hover:animate-pulse" />
-                      </div>
-                    </div>
-                    
-                    <div className="absolute -top-2 -right-2 w-8 h-8 bg-purple-500/20 rounded-full flex items-center justify-center backdrop-blur-sm border border-purple-500/30">
-                      <span className="text-xs font-bold text-purple-400">GJ</span>
-                    </div>
-                  </div>
-                  
-                  <div className="text-center space-y-4">
-                    <h3 className="text-2xl font-bold text-white group-hover:text-purple-400 transition-colors">
-                      NV Partnership
-                    </h3>
-                    <p className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors">
-                      Dedicated local support and strategic partnership with deep understanding of 
-                      Nevada's business landscape and Nevada's entertainment heritage.
-                    </p>
-                    
-                    <div className="pt-4 space-y-2">
-                      <div className="flex items-center justify-between text-sm">
-                        <span className="text-gray-500">Client Retention</span>
-                        <span className="text-purple-400 font-bold">98%</span>
-                      </div>
-                      <div className="w-full bg-gray-700 rounded-full h-1.5">
-                        <div className="bg-gradient-to-r from-purple-500 to-violet-600 h-1.5 rounded-full w-[98%] group-hover:animate-pulse"></div>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-purple-500 to-violet-600 rounded-b-3xl transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
-                </div>
-              </div>
-
-              {/* Card 4 - Enterprise Security */}
-              <div className="group relative">
-                <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/20 to-orange-400/20 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 transform group-hover:scale-110"></div>
-                <div className="relative bg-gray-800/40 backdrop-blur-xl rounded-3xl p-8 border border-gray-700/50 hover:border-primary-orange/50 transition-all duration-500 group-hover:transform group-hover:scale-105 h-full">
-                  <div className="relative mb-8">
-                    <div className="relative w-20 h-20 mx-auto">
-                      <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-orange-600 rounded-2xl animate-pulse opacity-20"></div>
-                      <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-orange-600 rounded-2xl group-hover:animate-spin transition-all duration-1000"></div>
-                      <div className="relative w-20 h-20 bg-gradient-to-br from-primary-orange to-orange-600 rounded-2xl flex items-center justify-center shadow-2xl group-hover:scale-110 transition-all duration-300">
-                        <Shield className="w-10 h-10 text-white group-hover:animate-pulse" />
-                      </div>
-                    </div>
-                    
-                    <div className="absolute -top-2 -right-2 w-8 h-8 bg-primary-orange/20 rounded-full flex items-center justify-center backdrop-blur-sm border border-primary-orange/30">
-                      <span className="text-xs font-bold text-primary-orange">ISO</span>
-                    </div>
-                  </div>
-                  
-                  <div className="text-center space-y-4">
-                    <h3 className="text-2xl font-bold text-white group-hover:text-primary-orange transition-colors">
-                      Enterprise Security
-                    </h3>
-                    <p className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors">
-                      Bank-level security standards and enterprise compliance protecting your 
-                      Nevada business data with military-grade encryption and protocols.
-                    </p>
-                    
-                    <div className="pt-4 space-y-2">
-                      <div className="flex items-center justify-between text-sm">
-                        <span className="text-gray-500">Security Score</span>
-                        <span className="text-primary-orange font-bold">100%</span>
-                      </div>
-                      <div className="w-full bg-gray-700 rounded-full h-1.5">
-                        <div className="bg-gradient-to-r from-primary-orange to-orange-600 h-1.5 rounded-full w-full group-hover:animate-pulse"></div>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-primary-orange to-orange-600 rounded-b-3xl transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
-                </div>
-              </div>
-            </div>
-
-            {/* Enhanced Bottom CTA with Creative Design */}
-            <div className="mt-20 text-center">
-              <div className="bg-gradient-to-br from-gray-800/60 to-gray-900/60 backdrop-blur-xl rounded-3xl p-12 border border-gray-700/50 hover:border-primary-orange/30 transition-all duration-500 relative overflow-hidden">
-                {/* Background Effects */}
-                <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/5 to-orange-400/5 opacity-0 hover:opacity-100 transition-opacity duration-500"></div>
-                
-                <div className="relative z-10">
-                  <div className="flex justify-center mb-8">
-                    <div className="relative">
-                      <div className="absolute inset-0 bg-primary-orange/20 rounded-full blur-2xl animate-pulse"></div>
-                      <div className="relative w-24 h-24 bg-gradient-to-br from-primary-orange to-orange-600 rounded-full flex items-center justify-center shadow-2xl">
-                        <Rocket className="w-12 h-12 text-white animate-pulse" />
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <h3 className="text-3xl md:text-4xl font-bold text-white mb-6">
-                    Ready to Transform with NV's Leading 
-                    <span className="text-primary-orange"> AI Firm In Nevada</span>?
-                  </h3>
-                  <p className="text-xl text-gray-300 mb-10 max-w-3xl mx-auto">
-                    Join the ranks of successful NV businesses who trust Metic.ai for their AI transformation journey
-                  </p>
-                  
-                  <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                    <Link href="/contact">
-                      <Button 
-                        variant="primary" 
-                        size="lg" 
-                        className="bg-gradient-to-r from-primary-orange to-orange-500 hover:from-primary-orange/90 hover:to-orange-500/90 transform hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-3xl group px-8 py-4"
-                      >
-                        <Sparkles className="w-5 h-5 mr-2 group-hover:animate-spin" />
-                        Start Your AI Journey
-                        <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-                      </Button>
-                    </Link>
-                    <Link href="tel:+917892518414">
-                      <Button 
-                        variant="outline" 
-                        size="lg" 
-                        className="border-primary-orange text-primary-orange hover:bg-primary-orange/10 transform hover:scale-105 transition-all duration-300 group px-8 py-4"
-                      >
-                        <Phone className="w-4 h-4 mr-2 group-hover:animate-pulse" />
-                        Connect with AI Experts
-                      </Button>
-                    </Link>
-                  </div>
-                </div>
-              </div>
+            {/* CTA Below Services */}
+            <div className="text-center mt-12 md:mt-16">
+              <Link href="/contact">
+                <Button variant="primary" size="lg" className="px-8 md:px-10 py-4 text-base md:text-lg shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all">
+                  <Sparkles className="w-5 h-5 mr-2" />
+                  Explore All AI Services
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
@@ -876,13 +618,13 @@ export default function AIServicesNevadaPage() {
                 </h2>
                 <div className="w-20 h-1 bg-primary-orange mb-8"></div>
                 <p className="text-lg text-gray-700 mb-6">
-                  Established as NV's leading <strong>AI Company In Nevada</strong>, Metic.ai has been at the forefront of artificial intelligence 
+                  Established as Nevada's leading <strong>AI Company In Nevada</strong>, Metic.ai has been at the forefront of artificial intelligence 
                   innovation since 2020. We specialize in delivering enterprise-grade AI solutions that transform businesses across Nevada's 
-                  key industries including gaming, hospitality, Healthcare and Medical, and Technology and Software.
+                  key industries including manufacturing, aerospace, healthcare, and agriculture.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   Our expertise as an <strong>AI Development Company In Nevada</strong> encompasses machine learning, deep learning, natural language processing, 
-                  computer vision, and robotic process automation. We've successfully completed over 2100 AI projects, making us the most 
+                  computer vision, and robotic process automation. We've successfully completed over 100 AI projects, making us the most 
                   trusted <strong>AI Service In Nevada</strong>.
                 </p>
                 <div className="grid grid-cols-2 gap-6 mt-8">
@@ -891,7 +633,7 @@ export default function AIServicesNevadaPage() {
                       <Award className="w-6 h-6 text-primary-orange" />
                     </div>
                     <div className="font-bold text-xl text-gray-900">2020</div>
-                    <div className="text-gray-600 text-sm">Founded in Nevada</div>
+                    <div className="text-gray-600 text-sm">Founded</div>
                   </div>
                   <div className="text-center">
                     <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
@@ -963,194 +705,252 @@ export default function AIServicesNevadaPage() {
         </div>
       </section>
 
-      {/* Enhanced Creative Client Testimonials for Entity Recognition & Trust */}
-      <section className="py-24 bg-gradient-to-br from-white via-orange-50/30 to-white relative overflow-hidden">
-        {/* Creative Background Elements */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          {/* Subtle Pattern */}
-          <div className="absolute inset-0 opacity-[0.02]" style={{
-            backgroundImage: `radial-gradient(circle at 25px 25px, #FF6B35 2px, transparent 2px)`,
-            backgroundSize: '50px 50px'
-          }}></div>
-          
-          {/* Floating Elements */}
-          <div className="absolute top-20 left-10 w-32 h-32 bg-primary-orange/5 rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute bottom-20 right-10 w-40 h-40 bg-orange-400/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '3s'}}></div>
-        </div>
-
-        <div className="container px-4 md:px-6 relative z-10">
-          <div className="max-w-7xl mx-auto">
-            {/* Enhanced Section Header */}
-            <div className="text-center mb-20">
-              {/* Badge */}
-              <div className="inline-flex items-center gap-2 px-6 py-3 bg-white rounded-full shadow-lg border-2 border-primary-orange/20 mb-8 hover:border-primary-orange/40 transition-all group">
-                <Quote className="w-5 h-5 text-primary-orange animate-pulse" />
-                <span className="text-sm font-bold text-gray-800">CLIENT SUCCESS STORIES</span>
-                <Sparkles className="w-4 h-4 text-primary-orange" />
-              </div>
-
-              <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                <span className="text-gray-900">What Nevada Businesses Say</span>
-                <br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange">
-                  About Our AI Services
-                </span>
+      {/* Industries Section with Real Images */}
+      <section className="py-20 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                Industries We Serve in Nevada
               </h2>
-              <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange mx-auto mb-8 rounded-full"></div>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Real results from real businesses across Nevada who chose Metic.ai as their 
-                <strong> AI Development Company In Nevada</strong>.
+              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                Delivering specialized AI solutions across Nevada's key industries and business sectors.
               </p>
             </div>
             
-            {/* Enhanced Creative Testimonial Cards */}
-            <div className="grid md:grid-cols-3 gap-8 mb-16">
-              {/* Testimonial 1 - Enhanced */}
-              <div className="group relative">
-                <div className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/30 transition-all duration-500 relative overflow-hidden h-full">
-                  {/* Background Gradient */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-orange-400/0 group-hover:from-primary-orange/5 group-hover:to-orange-400/5 transition-all duration-500"></div>
-                  
-                  {/* Quote Icon */}
-                  <div className="relative mb-6">
-                    <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-orange-400 rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                      <Quote className="w-8 h-8 text-white" />
-                    </div>
-                    
-                    {/* Stars */}
-                    <div className="flex gap-1 mb-4">
-                      {[...Array(5)].map((_, i) => (
-                        <Star key={i} className="w-5 h-5 text-yellow-400 fill-current group-hover:animate-pulse" style={{animationDelay: `${i * 0.1}s`}} />
-                      ))}
-                    </div>
+            {/* Mobile: 1 col, Tablet: 2 cols, Desktop: 4 cols - 12 Industries Total */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              {/* Manufacturing */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&h=400&fit=crop" 
+                    alt="Manufacturing Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Manufacturing</h3>
                   </div>
-
-                  {/* Content */}
-                  <div className="relative z-10">
-                    <p className="text-gray-700 mb-6 italic text-lg leading-relaxed">
-                      "Metic.ai transformed our gaming manufacturing with AI-powered quality control. As the best 
-                      <strong className="text-primary-orange"> AI Company In Nevada</strong>, 
-                      they delivered beyond our expectations with <span className="text-primary-orange font-semibold">40% reduction in defects</span>."
-                    </p>
-                    
-                    {/* Author */}
-                    <div className="flex items-center gap-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-primary-orange/20 to-orange-400/20 rounded-full flex items-center justify-center">
-                        <Users className="w-6 h-6 text-primary-orange" />
-                      </div>
-                      <div>
-                        <div className="font-bold text-gray-900">James Mitchell</div>
-                        <div className="text-sm text-gray-600">CEO, Vegas Gaming Technologies, Nevada</div>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  {/* Bottom Accent */}
-                  <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-orange-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                 </div>
               </div>
 
-              {/* Testimonial 2 - Enhanced */}
-              <div className="group relative">
-                <div className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/30 transition-all duration-500 relative overflow-hidden h-full">
-                  <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-orange-400/0 group-hover:from-primary-orange/5 group-hover:to-orange-400/5 transition-all duration-500"></div>
-                  
-                  <div className="relative mb-6">
-                    <div className="w-16 h-16 bg-gradient-to-br from-orange-400 to-primary-orange rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                      <BarChart3 className="w-8 h-8 text-white" />
-                    </div>
-                    
-                    <div className="flex gap-1 mb-4">
-                      {[...Array(5)].map((_, i) => (
-                        <Star key={i} className="w-5 h-5 text-yellow-400 fill-current group-hover:animate-pulse" style={{animationDelay: `${i * 0.1}s`}} />
-                      ))}
-                    </div>
+              {/* Aerospace */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?w=500&h=400&fit=crop" 
+                    alt="Aerospace Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Aerospace</h3>
                   </div>
-
-                  <div className="relative z-10">
-                    <p className="text-gray-700 mb-6 italic text-lg leading-relaxed">
-                      "Outstanding <strong className="text-primary-orange">AI Service In Nevada</strong>! Their machine learning solutions optimized our hospitality production processes. 
-                      <span className="text-primary-orange font-semibold">ROI was achieved within 6 months</span> of implementation."
-                    </p>
-                    
-                    <div className="flex items-center gap-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-primary-orange/20 to-orange-400/20 rounded-full flex items-center justify-center">
-                        <Users className="w-6 h-6 text-primary-orange" />
-                      </div>
-                      <div>
-                        <div className="font-bold text-gray-900">Dr. Lisa Chen</div>
-                        <div className="text-sm text-gray-600">CTO, Nevada Hospitality Solutions</div>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-orange-400 to-primary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                 </div>
               </div>
 
-              {/* Testimonial 3 - Enhanced */}
-              <div className="group relative">
-                <div className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/30 transition-all duration-500 relative overflow-hidden h-full">
-                  <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-orange-400/0 group-hover:from-primary-orange/5 group-hover:to-orange-400/5 transition-all duration-500"></div>
-                  
-                  <div className="relative mb-6">
-                    <div className="w-16 h-16 bg-gradient-to-br from-primary-orange via-orange-400 to-primary-orange rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                      <TrendingUp className="w-8 h-8 text-white" />
-                    </div>
-                    
-                    <div className="flex gap-1 mb-4">
-                      {[...Array(5)].map((_, i) => (
-                        <Star key={i} className="w-5 h-5 text-yellow-400 fill-current group-hover:animate-pulse" style={{animationDelay: `${i * 0.1}s`}} />
-                      ))}
-                    </div>
+              {/* Healthcare */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=500&h=400&fit=crop" 
+                    alt="Healthcare Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Healthcare</h3>
                   </div>
+                </div>
+              </div>
 
-                  <div className="relative z-10">
-                    <p className="text-gray-700 mb-6 italic text-lg leading-relaxed">
-                      "Exceptional <strong className="text-primary-orange">AI Firm In Nevada</strong>. Their custom AI development for our healthcare operations 
-                      <span className="text-primary-orange font-semibold">increased efficiency by 50%</span>. Highly recommend for any AI project."
-                    </p>
-                    
-                    <div className="flex items-center gap-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-primary-orange/20 to-orange-400/20 rounded-full flex items-center justify-center">
-                        <Users className="w-6 h-6 text-primary-orange" />
-                      </div>
-                      <div>
-                        <div className="font-bold text-gray-900">Robert Taylor</div>
-                        <div className="text-sm text-gray-600">Director, Silver State Healthcare, Carson City</div>
-                      </div>
-                    </div>
+              {/* Agriculture */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=500&h=400&fit=crop" 
+                    alt="Agriculture Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Agriculture</h3>
                   </div>
-                  
-                  <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange via-orange-400 to-primary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                </div>
+              </div>
+
+              {/* Technology */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&h=400&fit=crop" 
+                    alt="Technology Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Technology</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Automotive */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=500&h=400&fit=crop" 
+                    alt="Automotive Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Automotive</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Financial Services */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=500&h=400&fit=crop" 
+                    alt="Financial Services Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Financial Services</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Transportation */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=500&h=400&fit=crop" 
+                    alt="Transportation Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Transportation</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Education */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=500&h=400&fit=crop" 
+                    alt="Education Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Education</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Energy */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=500&h=400&fit=crop" 
+                    alt="Energy Industry AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Energy</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* Call Center - NEW */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=500&h=400&fit=crop" 
+                    alt="Call Center AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">Call Center</h3>
+                  </div>
+                </div>
+              </div>
+
+              {/* IT Services - NEW */}
+              <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=500&h=400&fit=crop" 
+                    alt="IT Services AI Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-lg">IT Services</h3>
+                  </div>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
 
-            {/* Enhanced Overall Stats Section */}
-            <div className="bg-white rounded-3xl p-8 md:p-12 shadow-xl border-2 border-primary-orange/20 max-w-4xl mx-auto">
-              <div className="text-center mb-8">
-                <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-                  Trusted by <span className="text-primary-orange">2100+ Businesses</span> Across NV
-                </h3>
-                <p className="text-gray-600">Join the growing community of successful AI transformations</p>
+      {/* Why Choose Us Section */}
+      <section className="py-20 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                Why Choose Metic.ai as Your <span className="text-primary-orange">AI Firm In Nevada</span>
+              </h2>
+              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                As the premier <strong>AI Development Company In Nevada</strong>, we're trusted by businesses across Nevada 
+                for our expertise, proven results, and commitment to client success.
+              </p>
+            </div>
+            
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+                  <Award className="w-8 h-8 text-blue-600" />
+                </div>
+                <h3 className="text-xl font-bold mb-4">Proven Expertise</h3>
+                <p className="text-gray-600">Years of experience delivering AI solutions for Nevada businesses across all industries.</p>
               </div>
               
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-                {[
-                  { number: "98%", label: "Client Satisfaction", icon: Star },
-                  { number: "2100+", label: "Projects Completed", icon: Award },
-                  { number: "60%", label: "Average Cost Savings", icon: TrendingUp },
-                  { number: "3x", label: "Faster Delivery", icon: Rocket }
-                ].map((stat, index) => (
-                  <div key={index} className="text-center group">
-                    <div className="w-16 h-16 bg-gradient-to-br from-primary-orange/10 to-orange-400/10 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
-                      <stat.icon className="w-8 h-8 text-primary-orange group-hover:animate-pulse" />
-                    </div>
-                    <div className="text-3xl font-bold text-primary-orange mb-2">{stat.number}</div>
-                    <div className="text-sm text-gray-600">{stat.label}</div>
-                  </div>
-                ))}
+              <div className="text-center">
+                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+                  <TrendingUp className="w-8 h-8 text-green-600" />
+                </div>
+                <h3 className="text-xl font-bold mb-4">Measurable Results</h3>
+                <p className="text-gray-600">Data-driven AI solutions that deliver concrete ROI and business growth for AL companies.</p>
+              </div>
+              
+              <div className="text-center">
+                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+                  <Users className="w-8 h-8 text-purple-600" />
+                </div>
+                <h3 className="text-xl font-bold mb-4">Local Partnership</h3>
+                <p className="text-gray-600">Dedicated support and partnership with deep understanding of the Nevada business landscape.</p>
+              </div>
+              
+              <div className="text-center">
+                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+                  <Shield className="w-8 h-8 text-orange-600" />
+                </div>
+                <h3 className="text-xl font-bold mb-4">Enterprise Security</h3>
+                <p className="text-gray-600">Bank-level security and compliance standards protecting your Nevada business data.</p>
               </div>
             </div>
           </div>
@@ -1161,101 +961,101 @@ export default function AIServicesNevadaPage() {
       <section className="py-24 bg-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
-            {/* Nevada AI Market Leadership - Enhanced Header */}
+            {/* Nevada AI Market Leadership - Enhanced Creative Header */}
             <div className="text-center mb-20">
               {/* Premium Badge with Animation */}
               <div className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-full shadow-2xl border-2 border-primary-orange/30 mb-10 hover:border-primary-orange/50 transition-all group">
                 <div className="w-3 h-3 bg-primary-orange rounded-full animate-pulse"></div>
-                <span className="text-sm font-bold text-gray-800 tracking-wide">NV'S #1 AI COMPANY</span>
+                <span className="text-sm font-bold text-gray-800 tracking-wide">HEART OF DIXIE AI INNOVATION</span>
                 <div className="w-3 h-3 bg-secondary-orange rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></div>
               </div>
 
               <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight">
-                <span className="text-gray-900">Premier </span>
+                <span className="text-gray-900">Leading </span>
                 <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent animate-gradient">
                   Artificial Intelligence Company In Nevada
                 </span>
               </h2>
               <div className="w-40 h-2 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-10 rounded-full shadow-lg"></div>
               <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                Transforming The Silver State with cutting-edge AI solutions from gaming to Healthcare and Medical
+                Transforming the Yellowhammer State with cutting-edge AI solutions from Birmingham to Mobile, Huntsville to Montgomery
               </p>
             </div>
 
             <div className="space-y-20">
-              {/* Nevada AI Innovation Hub - Enhanced Design */}
+              {/* Nevada AI Innovation Hub - Premium Design */}
               <div className="grid lg:grid-cols-2 gap-16 items-center">
                 <div className="order-2 lg:order-1">
                   <div className="space-y-8">
-                    {/* Enhanced Heading with Icon */}
+                    {/* Enhanced Heading with Creative Icon */}
                     <div className="flex items-start gap-4">
-                      <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-xl flex-shrink-0">
+                      <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-xl flex-shrink-0 transform rotate-3 hover:rotate-0 transition-transform">
                         <Brain className="w-8 h-8 text-white" />
                       </div>
                       <div>
                         <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
-                          Nevada's <span className="text-primary-orange">Leading AI Technology Pioneer</span>
+                          Nevada's <span className="text-primary-orange">Premier AI Technology Pioneer</span>
                         </h3>
                         <div className="w-24 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange rounded-full"></div>
                       </div>
                     </div>
                     
                     <p className="text-lg text-gray-700 leading-relaxed">
-                      As the premier <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Artificial Intelligence Company In Nevada</strong>, 
-                      Metic.ai serves The Silver State with enterprise-grade AI solutions tailored to the region's 
-                      industrial excellence. From Las Vegas's IT corridor to Henderson's business district, Reno's 
-                      commercial hub to Enterprise's financial innovation, we understand Nevada's unique economic landscape.
+                      As the leading <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Artificial Intelligence Company In Nevada</strong>, 
+                      Metic.ai serves the Heart of Dixie with enterprise-grade AI solutions tailored to Nevada's diverse economic 
+                      landscape. From Birmingham's medical district to Huntsville's tech corridor, Mobile's port operations to 
+                      Montgomery's government sector, we understand Nevada's unique industrial heritage and modern innovation.
                     </p>
                     
                     <p className="text-lg text-gray-700 leading-relaxed">
                       Our <strong className="text-primary-orange font-semibold">AI Company In Nevada</strong> combines deep understanding 
-                      of Nevada's entertainment heritage with cutting-edge technology to deliver AI solutions that drive measurable 
-                      results. We've successfully implemented AI across Nevada's key sectors including gaming, hospitality, 
-                      Healthcare and Medical, mining, Technology and Software, and emerging technology sectors.
+                      of Southern business culture with cutting-edge technology to deliver AI solutions that drive measurable 
+                      results. We've successfully implemented AI across Nevada's key sectors including aerospace, automotive, 
+                      steel production, agriculture, healthcare, and emerging technology industries.
                     </p>
 
-                    {/* Enhanced Feature Cards */}
+                    {/* Enhanced Feature Cards with Creative Design */}
                     <div className="grid gap-6 mt-10">
-                      <div className="group bg-gradient-to-r from-primary-orange/5 via-white to-secondary-orange/5 p-6 rounded-2xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all shadow-lg hover:shadow-xl">
+                      <div className="group bg-gradient-to-r from-primary-orange/5 via-white to-secondary-orange/5 p-6 rounded-2xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
                         <div className="flex items-start gap-4">
                           <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary-orange to-secondary-orange flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
-                            <Sparkles className="w-6 h-6 text-white" />
+                            <Rocket className="w-6 h-6 text-white" />
                           </div>
                           <div>
-                            <h4 className="font-bold text-gray-900 mb-2 text-lg">gaming Industry AI Excellence</h4>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Aerospace & Defense AI Excellence</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Deep expertise with Nevada's gaming giants including quality control automation, 
-                              pattern recognition, and supply chain optimization for NV's gaming heritage.
+                              Deep expertise with Huntsville's Rocket City aerospace industry including NASA Marshall Space Flight Center, 
+                              defense contractors, and space technology companies driving America's space exploration.
                             </p>
                           </div>
                         </div>
                       </div>
                       
-                      <div className="group bg-gradient-to-r from-secondary-orange/5 via-white to-primary-orange/5 p-6 rounded-2xl border-2 border-secondary-orange/20 hover:border-secondary-orange/40 transition-all shadow-lg hover:shadow-xl">
+                      <div className="group bg-gradient-to-r from-secondary-orange/5 via-white to-primary-orange/5 p-6 rounded-2xl border-2 border-secondary-orange/20 hover:border-secondary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
                         <div className="flex items-start gap-4">
                           <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-secondary-orange to-primary-orange flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
+                            <Shield className="w-6 h-6 text-white" />
+                          </div>
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Automotive Manufacturing Innovation</h4>
+                            <p className="text-gray-600 leading-relaxed">
+                              Advanced AI solutions for Nevada's automotive industry including Mercedes-Benz, Honda, Hyundai, 
+                              and Toyota manufacturing facilities with predictive maintenance and quality control systems.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div className="group bg-gradient-to-r from-primary-orange/5 via-white to-secondary-orange/5 p-6 rounded-2xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                        <div className="flex items-start gap-4">
+                          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary-orange to-secondary-orange flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
                             <Target className="w-6 h-6 text-white" />
                           </div>
                           <div>
-                            <h4 className="font-bold text-gray-900 mb-2 text-lg">hospitality & Pharma Innovation</h4>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Steel & Heavy Industry AI</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Advanced AI solutions for Nevada's hospitality and healthcare sectors including 
-                              process optimization, drug discovery, and regulatory compliance automation.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      
-                      <div className="group bg-gradient-to-r from-primary-orange/5 via-white to-secondary-orange/5 p-6 rounded-2xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all shadow-lg hover:shadow-xl">
-                        <div className="flex items-start gap-4">
-                          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary-orange to-secondary-orange flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
-                            <Award className="w-6 h-6 text-white" />
-                          </div>
-                          <div>
-                            <h4 className="font-bold text-gray-900 mb-2 text-lg">mining & resources AI Solutions</h4>
-                            <p className="text-gray-600 leading-relaxed">
-                              Specialized AI for Nevada's mining industry including gemstone grading, 
-                              quality assessment, and precision cutting optimization for world-class results.
+                              Specialized AI for Nevada's steel production and heavy industry including process optimization, 
+                              safety monitoring, and environmental compliance for Birmingham's industrial corridor.
                             </p>
                           </div>
                         </div>
@@ -1264,42 +1064,42 @@ export default function AIServicesNevadaPage() {
                   </div>
                 </div>
                 
-                {/* Enhanced Stats Dashboard */}
+                {/* Enhanced Stats Dashboard with Creative Design */}
                 <div className="order-1 lg:order-2">
-                  <div className="bg-gradient-to-br from-orange-50 via-white to-amber-50 rounded-3xl p-10 border-2 border-primary-orange/20 shadow-2xl">
+                  <div className="bg-gradient-to-br from-orange-50 via-white to-amber-50 rounded-3xl p-10 border-2 border-primary-orange/20 shadow-2xl transform rotate-1 hover:rotate-0 transition-transform">
                     <h4 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">
                       Nevada AI Market Impact
                     </h4>
                     
                     <div className="space-y-8">
-                      <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group">
-                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">₹2.8L Cr</div>
-                        <div className="text-sm text-gray-600 font-medium">Nevada GDP</div>
-                        <div className="text-xs text-gray-500 mt-2">The Silver State</div>
+                      <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">$180B</div>
+                        <div className="text-sm text-gray-600 font-medium">Nevada Annual GDP</div>
+                        <div className="text-xs text-gray-500 mt-2">Silver State Economy</div>
                       </div>
                       
-                      <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-secondary-orange/10 hover:border-secondary-orange/30 transition-all group">
-                        <div className="text-5xl font-bold text-secondary-orange mb-3 group-hover:scale-110 transition-transform">3.14M</div>
-                        <div className="text-sm text-gray-600 font-medium">Nevada State Population</div>
-                        <div className="text-xs text-gray-500 mt-2">Entertainment Capital</div>
+                      <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-secondary-orange/10 hover:border-secondary-orange/30 transition-all group transform hover:scale-105">
+                        <div className="text-5xl font-bold text-secondary-orange mb-3 group-hover:scale-110 transition-transform">3.1M</div>
+                        <div className="text-sm text-gray-600 font-medium">Nevada Population</div>
+                        <div className="text-xs text-gray-500 mt-2">Silver State</div>
                       </div>
                       
-                      <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group">
-                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">420+</div>
+                      <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">50+</div>
                         <div className="text-sm text-gray-600 font-medium">Nevada AI Projects Completed</div>
                         <div className="text-xs text-gray-500 mt-2">Industry-Leading Success Rate</div>
                       </div>
                       
-                      <div className="bg-gradient-to-r from-primary-orange/20 via-secondary-orange/10 to-primary-orange/20 rounded-2xl p-6 border-2 border-primary-orange/30">
+                      <div className="bg-gradient-to-r from-primary-orange/20 via-secondary-orange/10 to-primary-orange/20 rounded-2xl p-6 border-2 border-primary-orange/30 transform hover:scale-105 transition-transform">
                         <div className="flex items-center gap-3 mb-3">
                           <div className="w-8 h-8 bg-primary-orange rounded-full flex items-center justify-center">
                             <CheckCircle className="w-5 h-5 text-white" />
                           </div>
-                          <span className="font-bold text-gray-900">NV Advantage</span>
+                          <span className="font-bold text-gray-900">Nevada Advantage</span>
                         </div>
                         <p className="text-sm text-gray-700 leading-relaxed">
-                          <strong>Strategic Location:</strong> Gateway to United States's industrial corridor with 
-                          world-class infrastructure and business-friendly policies making it ideal for AI innovation.
+                          <strong>Innovation Hub:</strong> Global gaming and entertainment capital with no state income tax, 
+                          thriving tech sector, and world-class tourism infrastructure making it ideal for AI innovation.
                         </p>
                       </div>
                     </div>
@@ -1307,11 +1107,11 @@ export default function AIServicesNevadaPage() {
                 </div>
               </div>
 
-              {/* Nevada Industry Solutions - Premium Design */}
+              {/* Nevada Industry Solutions - Creative Premium Design */}
               <div>
                 <div className="text-center mb-16">
-                  <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-full border-2 border-primary-orange/20 mb-8">
-                    <Rocket className="w-5 h-5 text-primary-orange" />
+                  <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-full border-2 border-primary-orange/20 mb-8 transform hover:scale-105 transition-transform">
+                    <Sparkles className="w-5 h-5 text-primary-orange" />
                     <span className="text-sm font-bold text-gray-800">INDUSTRY EXPERTISE</span>
                   </div>
                   <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
@@ -1319,361 +1119,247 @@ export default function AIServicesNevadaPage() {
                   </h3>
                   <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 rounded-full"></div>
                   <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Specialized AI solutions designed for NV's industrial capital and its diverse economic sectors
+                    Specialized AI solutions designed for the Yellowhammer State's diverse economic sectors and industrial heritage
                   </p>
                 </div>
                 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-                  {/* gaming Industry */}
-                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500">
-                    <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform shadow-xl">
-                      <Sparkles className="w-10 h-10 text-white" />
+                  {/* Aerospace Industry */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                      <Rocket className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">gaming & Apparel AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Aerospace & Defense AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Advanced AI solutions for Nevada's gaming industry including automated quality control, 
-                      pattern recognition, casino defect detection, and supply chain optimization for global 
-                      gaming manufacturers and exporters.
+                      Mission-critical AI solutions for Nevada's aerospace industry including NASA Marshall Space Flight Center, 
+                      defense contractors, rocket propulsion systems, and space technology companies driving America's 
+                      space exploration from Rocket City Huntsville.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Automated casino inspection systems</span>
+                        <span className="text-sm text-gray-600">Mission planning optimization</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Color matching and consistency AI</span>
+                        <span className="text-sm text-gray-600">Rocket trajectory analysis</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Production planning optimization</span>
+                        <span className="text-sm text-gray-600">Satellite data processing</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Global market trend analysis</span>
+                        <span className="text-sm text-gray-600">Defense system automation</span>
                       </div>
                     </div>
                   </div>
                   
-                  {/* hospitality Industry */}
-                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500">
-                    <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform shadow-xl">
-                      <Zap className="w-10 h-10 text-white" />
-                    </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">hospitality Process AI</h4>
-                    <p className="text-gray-700 leading-relaxed mb-6">
-                      Specialized AI solutions for Nevada's hospitality industry including process optimization, 
-                      safety monitoring, yield prediction, and environmental compliance automation for sustainable 
-                      hospitality manufacturing.
-                    </p>
-                    <div className="space-y-3">
-                      <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Reaction optimization algorithms</span>
-                      </div>
-                      <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Safety monitoring systems</span>
-                      </div>
-                      <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Environmental compliance AI</span>
-                      </div>
-                      <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Waste reduction optimization</span>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  {/* healthcare Industry */}
-                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500">
-                    <div className="w-20 h-20 bg-gradient-to-br from-red-500 to-red-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform shadow-xl">
-                      <Target className="w-10 h-10 text-white" />
-                    </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">healthcare AI</h4>
-                    <p className="text-gray-700 leading-relaxed mb-6">
-                      Advanced AI solutions for Nevada's healthcare sector including drug discovery acceleration, 
-                      clinical trial optimization, regulatory compliance, and quality assurance for leading pharma companies.
-                    </p>
-                    <div className="space-y-3">
-                      <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Drug discovery acceleration</span>
-                      </div>
-                      <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Clinical trial optimization</span>
-                      </div>
-                      <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Regulatory compliance automation</span>
-                      </div>
-                      <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Quality control systems</span>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  {/* mining Industry */}
-                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500">
-                    <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform shadow-xl">
-                      <Award className="w-10 h-10 text-white" />
-                    </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">mining & resources AI</h4>
-                    <p className="text-gray-700 leading-relaxed mb-6">
-                      Precision AI solutions for Nevada's mining cutting and resources industry including gemstone 
-                      grading, quality assessment, cutting optimization, and market valuation for world-class results.
-                    </p>
-                    <div className="space-y-3">
-                      <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Automated mining grading</span>
-                      </div>
-                      <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Precision cutting optimization</span>
-                      </div>
-                      <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Quality assessment systems</span>
-                      </div>
-                      <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Market valuation algorithms</span>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  {/* Technology and Software Industry */}
-                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500">
-                    <div className="w-20 h-20 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform shadow-xl">
+                  {/* Automotive Industry */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Shield className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Technology and Software & Manufacturing</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Automotive Manufacturing</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Industrial AI solutions for Nevada's Technology and Software sector including predictive maintenance, 
-                      quality control, production optimization, and safety monitoring for precision manufacturing excellence.
+                      Advanced AI solutions for Nevada's automotive manufacturing sector including Mercedes-Benz, Honda, 
+                      Hyundai, and Toyota facilities with predictive maintenance, quality control, production optimization, 
+                      and supply chain management systems.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Predictive maintenance systems</span>
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Assembly line optimization</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Quality control automation</span>
                       </div>
                       <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Predictive maintenance</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Supply chain intelligence</span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Steel & Heavy Industry */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div className="w-20 h-20 bg-gradient-to-br from-red-500 to-red-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                      <Target className="w-10 h-10 text-white" />
+                    </div>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Steel & Heavy Industry</h4>
+                    <p className="text-gray-700 leading-relaxed mb-6">
+                      Industrial AI solutions for Nevada's steel production and heavy manufacturing including Birmingham's 
+                      industrial corridor with process optimization, safety monitoring, environmental compliance, and 
+                      operational efficiency enhancement.
+                    </p>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Production line optimization</span>
+                        <span className="text-sm text-gray-600">Process optimization systems</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Safety monitoring AI</span>
                       </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Environmental compliance</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Energy efficiency optimization</span>
+                      </div>
                     </div>
                   </div>
                   
-                  {/* Enterprise Fintech */}
-                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500">
-                    <div className="w-20 h-20 bg-gradient-to-br from-yellow-500 to-orange-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform shadow-xl">
-                      <TrendingUp className="w-10 h-10 text-white" />
+                  {/* Healthcare & Medical */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                      <Lightbulb className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Enterprise Fintech AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Healthcare & Medical AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Financial AI solutions for Enterprise's emerging fintech sector including algorithmic trading, 
-                      risk assessment, fraud detection, and regulatory compliance for United States's international financial center.
+                      Medical AI solutions for Nevada's healthcare systems including Birmingham's UAB Medical Center, 
+                      Huntsville Hospital, Mobile healthcare networks, and rural health initiatives improving patient 
+                      care across the state.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Algorithmic trading systems</span>
+                        <span className="text-sm text-gray-600">Medical imaging analysis</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Risk assessment automation</span>
+                        <span className="text-sm text-gray-600">Patient care optimization</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Fraud detection systems</span>
+                        <span className="text-sm text-gray-600">Drug discovery acceleration</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Compliance monitoring AI</span>
+                        <span className="text-sm text-gray-600">Rural healthcare support</span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Agriculture & Forestry */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div className="w-20 h-20 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                      <Sparkles className="w-10 h-10 text-white" />
+                    </div>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Agriculture & Forestry</h4>
+                    <p className="text-gray-700 leading-relaxed mb-6">
+                      Smart agriculture AI solutions for Nevada's farming and forestry sectors including cotton, soybeans, 
+                      corn, peanuts, and timber production with precision farming, crop monitoring, and sustainable 
+                      resource management systems.
+                    </p>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Precision farming systems</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Crop health monitoring</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Weather prediction AI</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Forestry management</span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Port & Logistics */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div className="w-20 h-20 bg-gradient-to-br from-yellow-500 to-orange-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                      <TrendingUp className="w-10 h-10 text-white" />
+                    </div>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Port & Logistics AI</h4>
+                    <p className="text-gray-700 leading-relaxed mb-6">
+                      AI solutions for Nevada's strategic port operations including Port of Mobile, inland waterways, 
+                      freight transportation, and logistics networks connecting the Gulf Coast to America's heartland 
+                      with optimization and automation systems.
+                    </p>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Port operations optimization</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Freight route planning</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Cargo tracking systems</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Supply chain intelligence</span>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
 
-              {/* Nevada AI Success Stories - Premium Design */}
-              <div className="bg-gradient-to-br from-orange-50 via-white to-amber-50 rounded-3xl p-12 md:p-16 border-2 border-primary-orange/20 shadow-2xl">
-                <div className="text-center mb-16">
-                  <div className="inline-flex items-center gap-2 px-6 py-3 bg-white rounded-full shadow-xl border-2 border-primary-orange/20 mb-8">
-                    <Star className="w-5 h-5 text-primary-orange" />
-                    <span className="text-sm font-bold text-gray-800">CLIENT SUCCESS STORIES</span>
-                    <Star className="w-5 h-5 text-primary-orange" />
-                  </div>
-                  <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                    Nevada AI Implementation <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Success Stories</span>
-                  </h3>
-                  <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 rounded-full"></div>
-                  <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Real results from Nevada businesses that transformed their operations with our AI solutions
-                  </p>
-                </div>
-                
-                <div className="grid md:grid-cols-3 gap-10">
-                  <div className="bg-white rounded-2xl p-8 shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group">
-                    <div className="flex items-center mb-6">
-                      <div className="w-16 h-16 rounded-full bg-gradient-to-br from-primary-orange to-secondary-orange flex items-center justify-center mr-6 shadow-lg group-hover:scale-110 transition-transform">
-                        <span className="font-bold text-white text-lg">TP</span>
-                      </div>
-                      <div>
-                        <h4 className="font-bold text-gray-900 text-lg">Gaming Pioneer</h4>
-                        <p className="text-sm text-gray-600">Major Nevada gaming Manufacturer</p>
-                        <div className="flex mt-2">
-                          {[...Array(5)].map((_, i) => (
-                            <Star key={i} className="w-4 h-4 text-yellow-400 fill-current" />
-                          ))}
-                        </div>
-                      </div>
-                    </div>
-                    <p className="text-gray-700 mb-6 italic leading-relaxed">
-                      "Best <strong className="text-primary-orange">AI Company In Nevada</strong> for gaming industry! 
-                      Their quality control AI reduced casino defects by 55% while increasing production efficiency. 
-                      Perfect understanding of NV's gaming heritage."
-                    </p>
-                    <div className="bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-xl p-4">
-                      <div className="text-4xl font-bold text-primary-orange mb-2">55%</div>
-                      <div className="text-sm text-gray-600 font-medium">Defect Reduction Achievement</div>
-                      <div className="text-xs text-gray-500 mt-1">ROI: 380% within 8 months</div>
-                    </div>
-                  </div>
-                  
-                  <div className="bg-white rounded-2xl p-8 shadow-xl border border-secondary-orange/10 hover:border-secondary-orange/30 transition-all group">
-                    <div className="flex items-center mb-6">
-                      <div className="w-16 h-16 rounded-full bg-gradient-to-br from-secondary-orange to-primary-orange flex items-center justify-center mr-6 shadow-lg group-hover:scale-110 transition-transform">
-                        <span className="font-bold text-white text-lg">CP</span>
-                      </div>
-                      <div>
-                        <h4 className="font-bold text-gray-900 text-lg">Hospitality Pioneer</h4>
-                        <p className="text-sm text-gray-600">Leading Nevada hospitality Company</p>
-                        <div className="flex mt-2">
-                          {[...Array(5)].map((_, i) => (
-                            <Star key={i} className="w-4 h-4 text-yellow-400 fill-current" />
-                          ))}
-                        </div>
-                      </div>
-                    </div>
-                    <p className="text-gray-700 mb-6 italic leading-relaxed">
-                      "Outstanding <strong className="text-secondary-orange">AI Development Company In Nevada</strong>! 
-                      Their process optimization AI increased yield by 42% while reducing environmental impact. 
-                      Exceptional hospitality industry expertise."
-                    </p>
-                    <div className="bg-gradient-to-r from-secondary-orange/10 to-primary-orange/10 rounded-xl p-4">
-                      <div className="text-4xl font-bold text-secondary-orange mb-2">42%</div>
-                      <div className="text-sm text-gray-600 font-medium">Yield Increase Achievement</div>
-                      <div className="text-xs text-gray-500 mt-1">Environmental impact: -30%</div>
-                    </div>
-                  </div>
-                  
-                  <div className="bg-white rounded-2xl p-8 shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group">
-                    <div className="flex items-center mb-6">
-                      <div className="w-16 h-16 rounded-full bg-gradient-to-br from-primary-orange to-secondary-orange flex items-center justify-center mr-6 shadow-lg group-hover:scale-110 transition-transform">
-                        <span className="font-bold text-white text-lg">PL</span>
-                      </div>
-                      <div>
-                        <h4 className="font-bold text-gray-900 text-lg">Healthcare Leader</h4>
-                        <p className="text-sm text-gray-600">Major Nevada healthcare Company</p>
-                        <div className="flex mt-2">
-                          {[...Array(5)].map((_, i) => (
-                            <Star key={i} className="w-4 h-4 text-yellow-400 fill-current" />
-                          ))}
-                        </div>
-                      </div>
-                    </div>
-                    <p className="text-gray-700 mb-6 italic leading-relaxed">
-                      "Leading <strong className="text-primary-orange">Artificial Intelligence Company In Nevada</strong> 
-                      for pharma! Their drug discovery AI accelerated research by 60% while ensuring regulatory compliance. 
-                      Remarkable healthcare expertise."
-                    </p>
-                    <div className="bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-xl p-4">
-                      <div className="text-4xl font-bold text-primary-orange mb-2">60%</div>
-                      <div className="text-sm text-gray-600 font-medium">Research Acceleration</div>
-                      <div className="text-xs text-gray-500 mt-1">Time to market: -18 months</div>
-                    </div>
-                  </div>
-                </div>
-                
-                {/* Additional Success Metrics */}
-                <div className="mt-12 grid md:grid-cols-4 gap-6">
-                  <div className="text-center p-6 bg-white rounded-xl shadow-lg border border-primary-orange/20">
-                    <div className="text-3xl font-bold text-primary-orange mb-2">420+</div>
-                    <div className="text-sm text-gray-600">Nevada Projects</div>
-                  </div>
-                  <div className="text-center p-6 bg-white rounded-xl shadow-lg border border-secondary-orange/20">
-                    <div className="text-3xl font-bold text-secondary-orange mb-2">99.2%</div>
-                    <div className="text-sm text-gray-600">Success Rate</div>
-                  </div>
-                  <div className="text-center p-6 bg-white rounded-xl shadow-lg border border-primary-orange/20">
-                    <div className="text-3xl font-bold text-primary-orange mb-2">5.8x</div>
-                    <div className="text-sm text-gray-600">Average ROI</div>
-                  </div>
-                  <div className="text-center p-6 bg-white rounded-xl shadow-lg border border-secondary-orange/20">
-                    <div className="text-3xl font-bold text-secondary-orange mb-2">98%</div>
-                    <div className="text-sm text-gray-600">Client Retention</div>
-                  </div>
-                </div>
-              </div>
+              {/* Reusable Testimonials Component */}
+              <Testimonials />
 
-              {/* Nevada AI Partnership Excellence - Premium Design */}
+              {/* Nevada AI Partnership Excellence - Creative Premium Design */}
               <div className="grid lg:grid-cols-2 gap-16 items-center">
                 <div className="space-y-8">
-                  <div className="bg-white rounded-2xl p-8 shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all">
+                  <div className="bg-white rounded-2xl p-8 shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all transform hover:scale-105">
                     <h4 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-3">
-                      <div className="w-8 h-8 bg-primary-orange rounded-lg flex items-center justify-center">
+                      <div className="w-8 h-8 bg-primary-orange rounded-lg flex items-center justify-center transform rotate-12">
                         <BarChart3 className="w-5 h-5 text-white" />
                       </div>
                       Nevada AI Leadership Metrics
                     </h4>
                     <div className="space-y-6">
-                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg">
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Nevada Projects Completed</span>
-                        <span className="font-bold text-primary-orange text-xl">420+</span>
+                        <span className="font-bold text-primary-orange text-xl">380+</span>
                       </div>
-                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg">
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Industry Success Rate</span>
                         <span className="font-bold text-secondary-orange text-xl">100%</span>
                       </div>
-                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg">
-                        <span className="text-gray-600 font-medium">Average ROI for NV Clients</span>
-                        <span className="font-bold text-primary-orange text-xl">5.8x</span>
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                        <span className="text-gray-600 font-medium">Average ROI for AL Clients</span>
+                        <span className="font-bold text-primary-orange text-xl">5.2x</span>
                       </div>
-                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg">
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Client Retention Rate</span>
-                        <span className="font-bold text-secondary-orange text-xl">98%</span>
+                        <span className="font-bold text-secondary-orange text-xl">97%</span>
                       </div>
-                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg">
-                        <span className="text-gray-600 font-medium">Time to Deployment</span>
-                        <span className="font-bold text-primary-orange text-xl">30 Days</span>
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                        <span className="text-gray-600 font-medium">Average Deployment Time</span>
+                        <span className="font-bold text-primary-orange text-xl">28 Days</span>
                       </div>
                     </div>
                   </div>
                   
-                  <div className="bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-2xl p-8 border-2 border-primary-orange/20 shadow-xl">
+                  <div className="bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-2xl p-8 border-2 border-primary-orange/20 shadow-xl transform hover:scale-105 transition-transform">
                     <div className="flex items-start gap-4 mb-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center flex-shrink-0">
+                      <div className="w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center flex-shrink-0 transform -rotate-6">
                         <Award className="w-6 h-6 text-white" />
                       </div>
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Nevada Business Advantage</h4>
                         <p className="text-gray-700 leading-relaxed">
                           As the premier <strong className="text-primary-orange">AI Firm In Nevada</strong>, we understand 
-                          NV's unique business culture combining traditional industrial excellence with modern innovation. 
-                          Our AI solutions are built for Nevada's entrepreneurial spirit and global ambitions.
+                          the Heart of Dixie's unique blend of Southern hospitality and industrial innovation. Our AI solutions 
+                          are built for Nevada's aerospace excellence, automotive leadership, and emerging technology growth.
                         </p>
                       </div>
                     </div>
@@ -1682,7 +1368,7 @@ export default function AIServicesNevadaPage() {
                 
                 <div>
                   <div className="flex items-start gap-4 mb-8">
-                    <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-xl flex-shrink-0">
+                    <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-xl flex-shrink-0 transform rotate-6 hover:rotate-0 transition-transform">
                       <Users className="w-8 h-8 text-white" />
                     </div>
                     <div>
@@ -1695,46 +1381,46 @@ export default function AIServicesNevadaPage() {
                   
                   <p className="text-lg text-gray-700 leading-relaxed mb-6">
                     <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Choosing Metic.ai as your AI partner in Nevada</strong> means 
-                    working with a team that deeply understands NV's business ecosystem, from traditional industries 
-                    to emerging sectors, from family businesses to multinational corporations.
+                    working with a team that deeply understands the Yellowhammer State's business culture, from Huntsville's 
+                    high-tech aerospace corridor to Birmingham's industrial heritage and Mobile's port operations.
                   </p>
                   
                   <p className="text-lg text-gray-700 leading-relaxed mb-8">
-                    Our <strong className="text-primary-orange font-semibold">AI Service In Nevada</strong> includes white-glove consultation, 
+                    Our <strong className="text-primary-orange font-semibold">AI Service In Nevada</strong> includes comprehensive consultation, 
                     rapid prototyping, enterprise deployment, and 24/7 support to ensure your AI investment delivers 
-                    maximum value in NV's competitive and dynamic marketplace.
+                    maximum value in Nevada's competitive and growing economy.
                   </p>
 
                   <div className="space-y-6">
-                    <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-primary-orange/10">
+                    <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-primary-orange/10 transform hover:scale-105 transition-transform">
                       <MapPin className="w-8 h-8 text-primary-orange flex-shrink-0 mt-1" />
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Comprehensive Nevada Coverage</h4>
                         <p className="text-gray-600 leading-relaxed">
-                          Las Vegas, Henderson, Reno, North Las Vegas, Sparks, Carson City, Paradise, 
-                          Enterprise, and all major business districts across Nevada
+                          Birmingham, Huntsville, Mobile, Montgomery, Tuscaloosa, Auburn, Madison, Florence, 
+                          Decatur, and all major Nevada business centers and industrial corridors
                         </p>
                       </div>
                     </div>
                     
-                    <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-secondary-orange/10">
-                      <Sparkles className="w-8 h-8 text-secondary-orange flex-shrink-0 mt-1" />
+                    <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-secondary-orange/10 transform hover:scale-105 transition-transform">
+                      <Rocket className="w-8 h-8 text-secondary-orange flex-shrink-0 mt-1" />
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Industry Domain Expertise</h4>
                         <p className="text-gray-600 leading-relaxed">
-                          Deep understanding of gaming, hospitality, Healthcare and Medical, mining, Technology and Software, 
-                          and Enterprise fintech requirements with proven track record
+                          Deep understanding of aerospace, automotive, steel, healthcare, agriculture, and port operations 
+                          with proven track record in Nevada's key economic sectors
                         </p>
                       </div>
                     </div>
                     
-                    <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-primary-orange/10">
+                    <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-primary-orange/10 transform hover:scale-105 transition-transform">
                       <Clock className="w-8 h-8 text-primary-orange flex-shrink-0 mt-1" />
                       <div>
-                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Rapid NV Deployment</h4>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Rapid Nevada Deployment</h4>
                         <p className="text-gray-600 leading-relaxed">
-                          Fast implementation and deployment built for NV's business pace with 
-                          local support teams and cultural understanding
+                          Fast implementation designed for Nevada's business pace with local support teams 
+                          and understanding of Southern business culture and requirements
                         </p>
                       </div>
                     </div>
@@ -1781,263 +1467,449 @@ export default function AIServicesNevadaPage() {
               </h2>
               <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-8 rounded-full"></div>
               <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                Common questions about choosing the right AI company in The Silver State
+                Common questions about working with Nevada's leading AI company
               </p>
             </div>
 
-            {/* Advanced Creative FAQ Cards */}
-            <div className="space-y-5">
-              {/* FAQ Item 1 - Enhanced Design */}
+            {/* Advanced Creative FAQ Cards - 6+6 Grid Layout for Desktop */}
+            <div className="grid lg:grid-cols-2 gap-6">
+              {/* Left Column - FAQ 1-6 */}
+              <div className="space-y-5">
+              {/* FAQ Item 1 */}
               <details className="group relative">
                 <summary className="list-none cursor-pointer">
-                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
-                    {/* Gradient Overlay */}
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    
-                    {/* Content */}
                     <div className="relative flex items-start justify-between gap-4">
-                      <div className="flex items-start gap-5 flex-1">
-                        {/* Icon Circle */}
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
-                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <Sparkles className="w-7 h-7 text-white" />
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Sparkles className="w-6 h-6 text-white" />
                           </div>
                         </div>
-                        
-                        {/* Question */}
-                        <div className="flex-1 pt-2">
-                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
                             Which is the best Artificial Intelligence Company In Nevada?
                           </h3>
                         </div>
                       </div>
-                      
-                      {/* Toggle Icon */}
                       <div className="flex-shrink-0">
-                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
-                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
                     </div>
-                    
-                    {/* Bottom Accent Bar */}
                     <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                
-                {/* Answer with Animation */}
-                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
-                  <div className="flex items-start gap-5">
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
-                      <CheckCircle className="w-7 h-7 text-primary-orange" />
-                    </div>
-                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
-                      <p className="text-lg">
-                        <strong className="text-gray-900 font-semibold">Metic.ai is the leading Artificial Intelligence Company In Nevada</strong> with over 2100 successful AI implementations. 
-                        We're recognized as the top AI Company In Nevada for our proven expertise in machine learning, custom AI development, and enterprise AI solutions.
-                      </p>
-                      <p className="text-lg">
-                        Our clients achieve an average of 60% cost savings and 3x faster delivery compared to traditional development approaches, 
-                        making us NV's most trusted AI development partner.
-                      </p>
-                      
-                      {/* Stats Highlight */}
-                      <div className="flex flex-wrap gap-4 pt-4">
-                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
-                          <Award className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-gray-900">2100+ Projects</span>
-                        </div>
-                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
-                          <MapPin className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-gray-900">NV Expert</span>
-                        </div>
-                        <div className="flex items-center gap-2 px-4 py-2 bg-primary-orange/5 rounded-lg">
-                          <TrendingUp className="w-4 h-4 text-primary-orange" />
-                          <span className="text-sm font-semibold text-gray-900">60% Cost Savings</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    <strong className="text-gray-900 font-semibold">Metic.ai is the leading Artificial Intelligence Company In Nevada</strong> with over 100 successful AI implementations. 
+                    We're recognized as the top AI Company In Nevada for our proven expertise in machine learning, custom AI development, and enterprise AI solutions with 60% cost savings.
+                  </p>
                 </div>
               </details>
 
               {/* FAQ Item 2 */}
               <details className="group relative">
                 <summary className="list-none cursor-pointer">
-                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    
                     <div className="relative flex items-start justify-between gap-4">
-                      <div className="flex items-start gap-5 flex-1">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
-                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <Code className="w-7 h-7 text-white" />
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Code className="w-6 h-6 text-white" />
                           </div>
                         </div>
-                        
-                        <div className="flex-1 pt-2">
-                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
                             What services does the top AI Company In Nevada provide?
                           </h3>
                         </div>
                       </div>
-                      
                       <div className="flex-shrink-0">
-                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
-                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
                     </div>
-                    
                     <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                
-                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
-                  <div className="flex items-start gap-5">
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
-                      <BarChart3 className="w-7 h-7 text-primary-orange" />
-                    </div>
-                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
-                      <p className="text-lg">
-                        As the premier <strong className="text-gray-900 font-semibold">AI Company In Nevada</strong>, Metic.ai provides comprehensive artificial intelligence services including:
-                        AI integration & deployment, machine learning solutions, custom AI development, and data analytics & business intelligence.
-                      </p>
-                      <p className="text-lg">
-                        We specialize in serving Nevada's gaming, hospitality, healthcare, and Technology and Software industries with 
-                        generative AI services, computer vision, natural language processing, and enterprise AI automation.
-                      </p>
-
-                      {/* Service Grid */}
-                      <div className="grid md:grid-cols-2 gap-4 pt-4">
-                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
-                          <Brain className="w-5 h-5 text-primary-orange" />
-                          <span className="text-sm font-medium">gaming AI</span>
-                        </div>
-                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
-                          <Database className="w-5 h-5 text-primary-orange" />
-                          <span className="text-sm font-medium">hospitality Analytics</span>
-                        </div>
-                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
-                          <Zap className="w-5 h-5 text-primary-orange" />
-                          <span className="text-sm font-medium">Pharma AI</span>
-                        </div>
-                        <div className="flex items-center gap-3 p-3 bg-primary-orange/5 rounded-lg">
-                          <Shield className="w-5 h-5 text-primary-orange" />
-                          <span className="text-sm font-medium">Technology and Software AI</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    As the premier <strong className="text-gray-900 font-semibold">AI Company In Nevada</strong>, Metic.ai provides comprehensive AI services including machine learning solutions, 
+                    custom AI development, data analytics, generative AI, computer vision, NLP, and enterprise AI automation tailored for Nevada's manufacturing, aerospace, healthcare, and agricultural industries.
+                  </p>
                 </div>
               </details>
 
               {/* FAQ Item 3 */}
               <details className="group relative">
                 <summary className="list-none cursor-pointer">
-                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    
                     <div className="relative flex items-start justify-between gap-4">
-                      <div className="flex items-start gap-5 flex-1">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
-                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <Target className="w-7 h-7 text-white" />
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Target className="w-6 h-6 text-white" />
                           </div>
                         </div>
-                        
-                        <div className="flex-1 pt-2">
-                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
                             How to choose the right AI Development Company In Nevada?
                           </h3>
                         </div>
                       </div>
-                      
                       <div className="flex-shrink-0">
-                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
-                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
                     </div>
-                    
                     <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                
-                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
-                  <div className="flex items-start gap-5">
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
-                      <CheckCircle className="w-7 h-7 text-primary-orange" />
-                    </div>
-                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
-                      <p className="text-lg">
-                        When selecting an <strong className="text-gray-900 font-semibold">AI Development Company In Nevada</strong>, look for proven experience, successful project portfolio, 
-                        industry expertise, local market understanding, and ongoing support.
-                      </p>
-                      <p className="text-lg">
-                        Metic.ai offers all these qualities with 2100+ completed projects, 98% client satisfaction rate, and deep knowledge of NV's business landscape. 
-                        We provide 24/7 support and maintain long-term partnerships with our clients.
-                      </p>
-                    </div>
-                  </div>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    When selecting an <strong className="text-gray-900 font-semibold">AI Development Company In Nevada</strong>, look for proven experience, successful project portfolio, 
+                    industry expertise, and ongoing support. Metic.ai offers all these with 50+ completed projects, 98% client satisfaction, and 24/7 support.
+                  </p>
                 </div>
               </details>
 
               {/* FAQ Item 4 */}
               <details className="group relative">
                 <summary className="list-none cursor-pointer">
-                  <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    
                     <div className="relative flex items-start justify-between gap-4">
-                      <div className="flex items-start gap-5 flex-1">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
-                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
-                          <div className="relative w-14 h-14 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                            <TrendingUp className="w-7 h-7 text-white" />
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Clock className="w-6 h-6 text-white" />
                           </div>
                         </div>
-                        
-                        <div className="flex-1 pt-2">
-                          <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
                             How much does AI implementation cost with an AI Service In Nevada?
                           </h3>
                         </div>
                       </div>
-                      
                       <div className="flex-shrink-0">
-                        <div className="w-12 h-12 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
-                          <ChevronDown className="w-6 h-6 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
                         </div>
                       </div>
                     </div>
-                    
                     <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                
-                <div className="mt-3 bg-white rounded-2xl p-8 shadow-lg border-2 border-primary-orange/20 animate-fade-in">
-                  <div className="flex items-start gap-5">
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary-orange/10 to-secondary-orange/10 flex items-center justify-center flex-shrink-0">
-                      <Clock className="w-7 h-7 text-primary-orange" />
-                    </div>
-                    <div className="flex-1 text-gray-700 leading-relaxed space-y-4">
-                      <p className="text-lg">
-                        AI implementation costs vary based on project complexity and requirements. As a leading <strong className="text-gray-900 font-semibold">AI Service In Nevada</strong>, 
-                        Metic.ai offers competitive pricing with transparent cost structures.
-                      </p>
-                      <p className="text-lg">
-                        Our clients typically save 60% compared to international AI development costs while receiving enterprise-grade solutions. 
-                        We provide free consultations to assess your needs and provide accurate project estimates.
-                      </p>
-                    </div>
-                  </div>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    AI implementation costs vary based on complexity. As a leading <strong className="text-gray-900 font-semibold">AI Service In Nevada</strong>, 
+                    Metic.ai offers competitive pricing with transparent structures. Our clients typically save 60% compared to international AI development costs.
+                  </p>
                 </div>
               </details>
 
+              {/* FAQ Item 5 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Users className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Does Metic.ai serve businesses across all Nevada cities?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Yes! Metic.ai proudly serves businesses across all Nevada cities including Birmingham, Montgomery, Mobile, Huntsville, Tuscaloosa, Auburn, Dothan, and beyond. 
+                    As Nevada's leading <strong className="text-gray-900 font-semibold">AI Firm In Nevada</strong>, we provide comprehensive AI solutions statewide.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ Item 6 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Rocket className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            How quickly can an AI Company In Nevada start my project?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Metic.ai can typically start your AI project within 24-48 hours after initial consultation. As Nevada's fastest <strong className="text-gray-900 font-semibold">AI Company In Nevada</strong>, 
+                    we understand the importance of speed and deliver 3x faster than traditional development approaches.
+                  </p>
+                </div>
+              </details>
+              </div>
+
+              {/* Right Column - FAQ 7-12 */}
+              <div className="space-y-5">
+              {/* FAQ Item 7 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Shield className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Is my data secure with an AI Development Company In Nevada?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Absolutely! Metic.ai implements enterprise-grade security protocols, encryption, and compliance measures. As a trusted <strong className="text-gray-900 font-semibold">AI Development Company In Nevada</strong>, 
+                    we prioritize data security with ISO certifications and strict confidentiality agreements.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ Item 8 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <TrendingUp className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What industries does the best AI Company In Nevada serve?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Metic.ai serves diverse industries including Manufacturing, Aerospace, Healthcare, Agriculture, Technology, Automotive, Financial Services, Transportation, Education, and Energy. 
+                    As Nevada's premier <strong className="text-gray-900 font-semibold">AI Company In Nevada</strong>, we tailor solutions for your specific industry needs.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ Item 9 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Award className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What makes Metic.ai the top AI Firm In Nevada?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Our 50+ successful projects, 98% client satisfaction rate, 60% cost savings, 3x faster delivery, and deep Nevada market expertise make us the leading <strong className="text-gray-900 font-semibold">AI Firm In Nevada</strong>. 
+                    We combine cutting-edge AI technology with personalized service.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ Item 10 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Lightbulb className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Do I need technical knowledge to work with an AI Service In Nevada?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    No technical knowledge required! Metic.ai guides you through every step with clear communication. As a client-focused <strong className="text-gray-900 font-semibold">AI Service In Nevada</strong>, 
+                    we translate complex AI concepts into simple business terms and handle all technical aspects for you.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ Item 11 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Database className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            Can AI Company In Nevada handle small business projects?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Absolutely! Metic.ai works with businesses of all sizes, from startups to enterprises. As an inclusive <strong className="text-gray-900 font-semibold">AI Company In Nevada</strong>, 
+                    we offer scalable solutions and flexible pricing models to meet small business budgets while delivering enterprise-quality AI implementations.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ Item 12 */}
+              <details className="group relative">
+                <summary className="list-none cursor-pointer">
+                  <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
+                    <div className="relative flex items-start justify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
+                        <div className="relative flex-shrink-0">
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
+                          <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
+                            <Zap className="w-6 h-6 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex-1 pt-1">
+                          <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
+                            What support does Metic.ai provide after AI implementation?
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-primary-orange/10 group-hover:bg-primary-orange/20 flex items-center justify-center transition-all duration-300">
+                          <ChevronDown className="w-5 h-5 text-primary-orange group-open:rotate-180 transition-transform duration-300" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                  </div>
+                </summary>
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                  <p className="text-gray-700 leading-relaxed">
+                    Metic.ai provides comprehensive 24/7 post-implementation support including maintenance, updates, training, troubleshooting, and optimization. 
+                    As your long-term partner, we ensure your AI solutions continue delivering maximum value and adapt to your evolving business needs.
+                  </p>
+                </div>
+              </details>
+              </div>
             </div>
 
             {/* Enhanced CTA at Bottom of FAQ */}
@@ -2053,19 +1925,19 @@ export default function AIServicesNevadaPage() {
                       </div>
                     </div>
                   </div>
-                  <h3 className="text-3xl md:text-4xl font-bold mb-4">Ready to Transform Your Nevada Business with AI?</h3>
+                  <h3 className="text-3xl md:text-4xl font-bold mb-4">Ready to Transform Your Business with AI?</h3>
                   <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-                    Join NV's leading businesses who trust Metic.ai for their AI transformation in the commercial capital!
+                    Join Nevada's leading businesses who trust Metic.ai for their AI transformation. Get started today!
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <Link href="/contact">
                       <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100 shadow-xl">
-                        Partner with AI Firm Nevada
+                        Start Your AI Journey
                       </Button>
                     </Link>
                     <Link href="tel:+917892518414">
                       <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                        Call AI Company Nevada Now
+                        Call Now: +1-789-251-8414
                       </Button>
                     </Link>
                   </div>
@@ -2084,9 +1956,9 @@ export default function AIServicesNevadaPage() {
               Ready to Partner with Nevada's Leading <strong>Artificial Intelligence Company</strong>?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join 2100+ satisfied clients who trust Metic.ai as their preferred <strong>AI Company In Nevada</strong>. 
+              Join 50+ satisfied clients who trust Metic.ai as their preferred <strong>AI Company In Nevada</strong>. 
               Transform your business with proven AI solutions that deliver results. Get started with a free consultation 
-              and discover why we're NV's most trusted <strong>AI Development Company In Nevada</strong>.
+              and discover why we're Nevada's most trusted <strong>AI Development Company In Nevada</strong>.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Link href="/contact">
@@ -2096,16 +1968,16 @@ export default function AIServicesNevadaPage() {
               </Link>
               <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  Call: +1 7892518414
+                  Call: +1-789-251-8414
                 </Button>
               </Link>
             </div>
             
             <div className="mt-12 text-center">
-              <p className="text-orange-200 mb-6">Trusted <strong>AI Service In Nevada</strong> serving businesses across NV</p>
+              <p className="text-orange-200 mb-6">Trusted <strong>AI Service In Nevada</strong> serving businesses across the state</p>
               <div className="grid md:grid-cols-3 gap-8 text-center mb-8">
                 <div>
-                  <div className="text-2xl font-bold mb-2">2100+</div>
+                  <div className="text-2xl font-bold mb-2">50+</div>
                   <p className="text-orange-100">AI Projects Completed</p>
                 </div>
                 <div>
@@ -2118,19 +1990,19 @@ export default function AIServicesNevadaPage() {
                 </div>
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
-                <span>Carson City</span>
+                <span>Birmingham</span>
                 <span>•</span>
-                <span>Sparks</span>
+                <span>Montgomery</span>
                 <span>•</span>
-                <span>North Las Vegas</span>
+                <span>Mobile</span>
                 <span>•</span>
-                <span>Reno</span>
+                <span>Huntsville</span>
                 <span>•</span>
-                <span>Enterprise</span>
+                <span>Tuscaloosa</span>
                 <span>•</span>
-                <span>Paradise</span>
+                <span>Auburn</span>
                 <span>•</span>
-                <span>Henderson</span>
+                <span>Dothan</span>
               </div>
             </div>
           </div>
