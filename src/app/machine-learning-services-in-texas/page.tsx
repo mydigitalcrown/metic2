@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 import { Button } from "../components/ui/Button";
 import { 
   Brain, 
@@ -20,114 +20,189 @@ import {
   PieChart,
   LineChart,
   Layers,
-  Code,
-  Calendar,
-  Phone,
-  ChevronDown,
+  Code
 } from "lucide-react";
 
 export const metadata = {
-  title: "Machine Learning Company In Texas | #1 ML Company In The Lone Star State - Metic.ai",
-  description: "Leading Machine Learning Company In Texas with 250+ successful ML implementations. Expert AI and ML services for businesses across Houston, Dallas, Austin, San Antonio, and the Lone Star State with 60% cost savings and 3x faster delivery.",
+  title: "Machine Learning Company In Texas | #1 ML Company In Texas - Metic.ai",
+  description: "Leading Machine Learning Company In Texas with 50+ successful ML implementations. Expert ML services, predictive analytics & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
   keywords: [
     "Machine Learning Company In Texas",
     "ML Company In Texas", 
-    "Machine Learning Services In Texas",
-    "AI Company In Texas",
-    "Machine Learning Firm In Texas",
-    "Data Science Company In Texas",
-    "ML Solutions In Texas",
-    "Predictive Analytics In Texas",
-    "Best Machine Learning Company Texas",
+    "Machine Learning Services in Texas",
+    "AI Firm In Texas",
+    "ML Development Company In Texas",
+    "Best Machine Learning Company In Texas",
     "Top ML Company Texas",
-    "Machine Learning Development Texas",
-    "AI Services In Texas",
-    "Deep Learning Company Texas",
-    "ML Consulting In Texas",
-    "Artificial Intelligence Company Texas",
-    "Machine Learning Houston",
-    "ML Company Dallas",
-    "AI Company Austin",
-    "Machine Learning San Antonio",
-    "Energy ML Solutions Texas",
-    "Oil Industry AI Texas"
+    "Machine Learning Solutions Texas",
+    "Predictive Analytics Company Texas",
+    "Deep Learning Services Texas",
+    "Data Science Company Texas",
+    "AI Development Services Texas",
+    "ML Consulting Texas",
+    "Neural Networks Development Texas",
+    "Classification Models Texas",
+    "Regression Analysis Services Texas",
+    "Time Series Analysis Texas",
+    "Computer Vision Services Texas",
+    "NLP Services Texas"
   ],
   authors: [{ name: "Metic.ai Machine Learning Team" }],
-  robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  robots: "index, follow",
   openGraph: {
-    title: "Machine Learning Company In Texas | #1 ML Company In The Lone Star State - Metic.ai",
-    description: "Leading Machine Learning Company In Texas with 250+ successful ML implementations. Expert AI and ML services for businesses across Houston, Dallas, Austin, San Antonio, and the Lone Star State with 60% cost savings and 3x faster delivery.",
-    url: "https://metic.ai/machine-learning-services-in-texas/",
+    title: "Machine Learning Company In Texas | #1 ML Company In Texas - Metic.ai",
+    description: "Leading Machine Learning Company In Texas with 50+ successful ML implementations. Expert ML services, predictive analytics & AI development. 60% cost savings & 3x faster delivery.",
+    url: "https://metic.ai/machine-learning-services-in-ahmedabad/",
     siteName: "Metic.ai - Machine Learning Company In Texas",
     type: "website",
-    locale: "en_US",
     images: [
       {
-        url: "https://metic.ai/og-machine-learning-texas.jpg",
+        url: "https://metic.ai/og-machine-learning-ahmedabad.jpg",
         width: 1200,
         height: 630,
-        alt: "Machine Learning Company In Texas - Metic.ai",
-        type: "image/jpeg"
+        alt: "Machine Learning Company In Texas by Metic.ai",
       },
     ],
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Machine Learning Company In Texas | #1 ML Company - Metic.ai",
-    description: "Leading Machine Learning Company In Texas with 250+ successful ML implementations. Expert ML services across Houston, Dallas, Austin, San Antonio with 60% cost savings.",
-    images: ["https://metic.ai/og-machine-learning-texas.jpg"],
-    creator: "@MeticAI"
-  },
   alternates: {
-    canonical: "https://metic.ai/machine-learning-services-in-texas/",
+    canonical: "https://metic.ai/machine-learning-services-in-ahmedabad/",
   },
-  other: {
-    "geo.region": "US-TX",
-    "geo.placename": "Texas",
-    "geo.position": "31.9686;-99.9018",
-    "ICBM": "31.9686, -99.9018"
-  }
 };
 
 export default function MachineLearningTexasPage() {
   return (
     <>
+      {/* Enhanced JSON-LD Schema for SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "Organization",
+                "@id": "https://metic.ai/#organization",
+                "name": "Metic.ai - Machine Learning Company In Texas",
+                "url": "https://metic.ai/",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://metic.ai/logo.png"
+                },
+                "sameAs": [
+                  "https://www.linkedin.com/company/metic-ai",
+                  "https://twitter.com/metic_ai"
+                ],
+                "areaServed": {
+                  "@type": "Place",
+                  "name": "Texas, Texas, India"
+                },
+                "hasOfferCatalog": {
+                  "@type": "OfferCatalog",
+                  "name": "Machine Learning Services",
+                  "itemListElement": [
+                    {
+                      "@type": "Offer",
+                      "itemOffered": {
+                        "@type": "Service",
+                        "name": "Predictive Analytics",
+                        "description": "Advanced ML models for forecasting and prediction"
+                      }
+                    },
+                    {
+                      "@type": "Offer", 
+                      "itemOffered": {
+                        "@type": "Service",
+                        "name": "Deep Learning Solutions",
+                        "description": "Neural networks and advanced AI implementations"
+                      }
+                    }
+                  ]
+                },
+                "knowsAbout": [
+                  "Adani Group",
+                  "Texas Heavy Chemicals Limited",
+                  "Torrent Pharmaceuticals",
+                  "Nirma Limited",
+                  "Texas University",
+                  "Indian Institute of Management Texas",
+                  "Texas Textile Industry",
+                  "Texas Chemical Industry"
+                ]
+              },
+              {
+                "@type": "FAQPage",
+                "@id": "https://metic.ai/machine-learning-services-in-ahmedabad/#faq",
+                "mainEntity": [
+                  {
+                    "@type": "Question",
+                    "name": "Which is the best Machine Learning Company In Texas?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Metic.ai is the leading Machine Learning Company In Texas with 50+ successful ML implementations. We specialize in textile industry automation, chemical process optimization, pharmaceutical analytics, and manufacturing intelligence with 60% cost savings and 3x faster delivery."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "How can machine learning benefit Texas's textile industry?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Machine learning transforms Texas's textile industry through quality control automation, demand forecasting, production optimization, defect detection, inventory management, and supply chain analytics. Our ML solutions help textile companies reduce waste by 40% and improve efficiency."
+                    }
+                  }
+                ]
+              },
+              {
+                "@type": "Article",
+                "@id": "https://metic.ai/machine-learning-services-in-ahmedabad/#article",
+                "headline": "Machine Learning Company In Texas | Expert ML Services",
+                "description": "Comprehensive guide to machine learning services in Texas covering textile, chemical, pharmaceutical, and manufacturing sectors",
+                "author": {
+                  "@type": "Organization",
+                  "@id": "https://metic.ai/#organization"
+                },
+                "publisher": {
+                  "@type": "Organization", 
+                  "@id": "https://metic.ai/#organization"
+                },
+                "datePublished": "2024-01-01",
+                "dateModified": "2024-11-01",
+                "about": [
+                  "Machine Learning",
+                  "Artificial Intelligence",
+                  "Predictive Analytics",
+                  "Texas Business",
+                  "Textile Industry Automation",
+                  "Chemical Process Optimization"
+                ]
+              }
+            ]
+          })
+        }}
+      />
+
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-white to-green-50 py-20 md:py-28">
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-6">
-              <strong>Machine Learning Company In Texas</strong> | Leading ML Company In The Lone Star State
+              <strong>Machine Learning Company In Texas</strong> | Leading ML Company In Texas
             </h1>
-            
-            {/* VSO Badges */}
-            <div className="flex flex-wrap justify-center gap-2 mb-6">
-              <span className="bg-primary-orange/10 text-primary-orange px-3 py-1 rounded-full text-sm font-medium">
-                Looking for the best ML company?
-              </span>
-              <span className="bg-primary-orange/10 text-primary-orange px-3 py-1 rounded-full text-sm font-medium">
-                Which is the leading Machine Learning company?
-              </span>
-              <span className="bg-primary-orange/10 text-primary-orange px-3 py-1 rounded-full text-sm font-medium">
-                Top Machine Learning services in Texas
-              </span>
-              <span className="bg-primary-orange/10 text-primary-orange px-3 py-1 rounded-full text-sm font-medium">
-                Best ML solutions provider
-              </span>
-            </div>
-
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Looking for the best <strong>Machine Learning Company In Texas</strong>? Metic.ai is the premier <strong>Machine Learning Company In Texas</strong> with 250+ successful ML implementations across Houston, Dallas, Austin, San Antonio, and the Lone Star State. Our expert team transforms businesses with cutting-edge Machine Learning solutions, delivering 60% cost savings and 3x faster implementation.
+              Looking for the best <strong>Machine Learning Company In Texas</strong>? Metic.ai is the premier 
+              ML Company In Texas, serving major businesses including Adani Group, Texas Heavy Chemicals, 
+              Torrent Pharmaceuticals, and Nirma Limited. Transform your Texas business with advanced machine 
+              learning solutions - from textile automation to chemical process optimization. Get 3x faster delivery 
+              and 60% cost savings with our expert ML services.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="#consultation">
                 <Button variant="primary" size="lg">
-                  Get ML Consultation
+                  Get Free ML Consultation in Texas
                 </Button>
               </Link>
               <Link href="#services">
                 <Button variant="outline" size="lg">
-                  Explore ML Solutions
+                  Explore Texas ML Solutions
                 </Button>
               </Link>
             </div>
@@ -150,54 +225,54 @@ export default function MachineLearningTexasPage() {
             </div>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {/* Energy & Oil Analytics */}
+              {/* Predictive Analytics */}
               <div className="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition-shadow">
                 <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
                   <TrendingUp className="w-8 h-8 text-blue-600" />
                 </div>
-                <h3 className="text-xl font-bold mb-4">Energy & Oil Analytics</h3>
+                <h3 className="text-xl font-bold mb-4">Predictive Analytics</h3>
                 <p className="text-gray-600 leading-relaxed mb-6">
-                  Specialized ML solutions for Texas energy sector including oil production forecasting, 
-                  equipment maintenance prediction, and renewable energy optimization.
+                  Forecast Texas market trends, customer behavior, and business outcomes using advanced predictive 
+                  models including time series analysis, regression models, and ensemble methods.
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-center text-sm">
                     <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    Production forecasting
+                    Sales forecasting
                   </li>
                   <li className="flex items-center text-sm">
                     <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    Equipment monitoring
+                    Demand prediction
                   </li>
                   <li className="flex items-center text-sm">
                     <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    Market analytics
+                    Risk assessment
                   </li>
                 </ul>
               </div>
 
-              {/* Supply Chain Optimization */}
+              {/* Classification Models */}
               <div className="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition-shadow">
                 <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6">
                   <Target className="w-8 h-8 text-purple-600" />
                 </div>
-                <h3 className="text-xl font-bold mb-4">Supply Chain ML</h3>
+                <h3 className="text-xl font-bold mb-4">Classification Models</h3>
                 <p className="text-gray-600 leading-relaxed mb-6">
-                  Advanced ML for Texas logistics and supply chain including route optimization, 
-                  demand forecasting, and inventory management for the state's massive trade network.
+                  Build intelligent classification systems for customer segmentation, fraud detection, 
+                  image recognition, and automated decision-making using supervised learning algorithms.
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-center text-sm">
                     <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    Route optimization
+                    Customer segmentation
                   </li>
                   <li className="flex items-center text-sm">
                     <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    Demand forecasting
+                    Fraud detection
                   </li>
                   <li className="flex items-center text-sm">
                     <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    Inventory management
+                    Automated categorization
                   </li>
                 </ul>
               </div>
@@ -228,54 +303,54 @@ export default function MachineLearningTexasPage() {
                 </ul>
               </div>
 
-              {/* Financial Services ML */}
+              {/* Clustering & Segmentation */}
               <div className="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition-shadow">
                 <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-6">
                   <PieChart className="w-8 h-8 text-orange-600" />
                 </div>
-                <h3 className="text-xl font-bold mb-4">Financial Services ML</h3>
+                <h3 className="text-xl font-bold mb-4">Clustering & Segmentation</h3>
                 <p className="text-gray-600 leading-relaxed mb-6">
-                  Specialized ML solutions for Texas financial institutions including risk assessment, 
-                  fraud detection, and algorithmic trading tailored for the state's banking sector.
+                  Discover hidden patterns in your Texas market data using unsupervised learning techniques for market 
+                  segmentation, anomaly detection, and data exploration without labeled examples.
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-center text-sm">
                     <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    Risk assessment
+                    Market segmentation
                   </li>
                   <li className="flex items-center text-sm">
                     <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    Fraud detection
+                    Anomaly detection
                   </li>
                   <li className="flex items-center text-sm">
                     <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    Credit scoring
+                    Data exploration
                   </li>
                 </ul>
               </div>
 
-              {/* Agriculture Technology */}
+              {/* Recommendation Systems */}
               <div className="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition-shadow">
                 <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mb-6">
                   <Users className="w-8 h-8 text-red-600" />
                 </div>
-                <h3 className="text-xl font-bold mb-4">Agriculture Technology</h3>
+                <h3 className="text-xl font-bold mb-4">Recommendation Systems</h3>
                 <p className="text-gray-600 leading-relaxed mb-6">
-                  ML-powered agricultural solutions for Texas farms including crop yield prediction, 
-                  livestock monitoring, and precision agriculture techniques.
+                  Build intelligent recommendation engines that personalize user experiences, increase 
+                  engagement, and drive sales through collaborative filtering and content-based algorithms.
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-center text-sm">
                     <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    Crop yield prediction
+                    Product recommendations
                   </li>
                   <li className="flex items-center text-sm">
                     <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    Livestock monitoring
+                    Content personalization
                   </li>
                   <li className="flex items-center text-sm">
                     <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                    Precision farming
+                    User behavior analysis
                   </li>
                 </ul>
               </div>
@@ -310,85 +385,132 @@ export default function MachineLearningTexasPage() {
         </div>
       </section>
 
-      {/* About Section */}
+      {/* Location-specific Benefits */}
       <section className="py-20 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
-            <div className="grid md:grid-cols-2 gap-12 items-center">
-              <div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                  About Metic.ai - Leading <span className="text-primary-orange">Machine Learning Company In Texas</span>
-                </h2>
-                <div className="w-20 h-1 bg-primary-orange mb-8"></div>
-                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                  Metic.ai stands as the premier <strong>Machine Learning Company In Texas</strong>, serving businesses across Houston, Dallas, Austin, San Antonio, Fort Worth, and the entire Lone Star State. With over 250+ successful ML implementations, we specialize in transforming Texas's key industries including energy, oil & gas, agriculture, healthcare, financial services, technology, and manufacturing.
-                </p>
-                <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-                  Our team understands Texas's unique business landscape, from energy giants like ExxonMobil and Chevron to technology leaders like Dell Technologies, Texas Instruments, and AT&T. We partner with businesses ranging from startups in Austin's Silicon Hills to Fortune 500 companies like American Airlines, Southwest Airlines, and H-E-B, delivering ML solutions that drive 60% cost savings and 3x faster implementation.
-                </p>
-                
-                <div className="grid md:grid-cols-2 gap-6 mb-8">
-                  <div className="flex items-start space-x-3">
-                    <CheckCircle className="w-6 h-6 text-green-500 mt-1" />
-                    <div>
-                      <h4 className="font-semibold text-gray-900">250+ ML Projects</h4>
-                      <p className="text-gray-600 text-sm">Successful implementations across industries</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start space-x-3">
-                    <CheckCircle className="w-6 h-6 text-green-500 mt-1" />
-                    <div>
-                      <h4 className="font-semibold text-gray-900">Expert ML Engineers</h4>
-                      <p className="text-gray-600 text-sm">PhD-level data scientists and ML specialists</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start space-x-3">
-                    <CheckCircle className="w-6 h-6 text-green-500 mt-1" />
-                    <div>
-                      <h4 className="font-semibold text-gray-900">60% Cost Savings</h4>
-                      <p className="text-gray-600 text-sm">Proven ROI with efficient ML solutions</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start space-x-3">
-                    <CheckCircle className="w-6 h-6 text-green-500 mt-1" />
-                    <div>
-                      <h4 className="font-semibold text-gray-900">3x Faster Delivery</h4>
-                      <p className="text-gray-600 text-sm">Rapid implementation and deployment</p>
-                    </div>
-                  </div>
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                Machine Learning Solutions for <span className="text-primary-orange">Texas Businesses</span>
+              </h2>
+              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                Specialized ML solutions including Manufacturing ML, textile analytics, chemical industry optimization, and pharmaceutical technology tailored for Texas's business environment
+              </p>
+            </div>
+            
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-primary-orange/10 rounded-full flex items-center justify-center mb-6 mx-auto">
+                  <Brain className="w-8 h-8 text-primary-orange" />
                 </div>
+                <h3 className="text-xl font-bold mb-4">Advanced Algorithms</h3>
+                <p className="text-gray-600">
+                  State-of-the-art machine learning algorithms and deep learning techniques 
+                  optimized for Texas business requirements.
+                </p>
               </div>
               
-              <div className="space-y-6">
-                <div className="bg-white p-6 rounded-xl shadow-sm">
-                  <div className="flex items-center mb-4">
-                    <Brain className="w-8 h-8 text-primary-orange mr-3" />
-                    <h3 className="text-xl font-bold">Advanced ML Expertise</h3>
-                  </div>
-                  <p className="text-gray-600">
-                    Deep learning, neural networks, computer vision, NLP, and predictive analytics tailored for Texas businesses.
-                  </p>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-primary-orange/10 rounded-full flex items-center justify-center mb-6 mx-auto">
+                  <Zap className="w-8 h-8 text-primary-orange" />
                 </div>
-                
-                <div className="bg-white p-6 rounded-xl shadow-sm">
-                  <div className="flex items-center mb-4">
-                    <Users className="w-8 h-8 text-primary-orange mr-3" />
-                    <h3 className="text-xl font-bold">Local Market Understanding</h3>
-                  </div>
-                  <p className="text-gray-600">
-                    Deep knowledge of Texas's energy, oil & gas, agriculture, technology, healthcare, and financial services sectors with practical ML applications.
-                  </p>
+                <h3 className="text-xl font-bold mb-4">Fast Performance</h3>
+                <p className="text-gray-600">
+                  Optimized models with high-performance computing infrastructure 
+                  ensuring rapid predictions and real-time decision making.
+                </p>
+              </div>
+              
+              <div className="text-center">
+                <div className="w-16 h-16 bg-primary-orange/10 rounded-full flex items-center justify-center mb-6 mx-auto">
+                  <Target className="w-8 h-8 text-primary-orange" />
                 </div>
-                
-                <div className="bg-white p-6 rounded-xl shadow-sm">
-                  <div className="flex items-center mb-4">
-                    <Shield className="w-8 h-8 text-primary-orange mr-3" />
-                    <h3 className="text-xl font-bold">Enterprise Security</h3>
-                  </div>
-                  <p className="text-gray-600">
-                    Bank-grade security, compliance with energy sector regulations, and data protection standards for sensitive Texas business data.
-                  </p>
+                <h3 className="text-xl font-bold mb-4">High Accuracy</h3>
+                <p className="text-gray-600">
+                  Rigorous model validation and testing processes ensuring 
+                  consistent high accuracy and reliable predictions.
+                </p>
+              </div>
+              
+              <div className="text-center">
+                <div className="w-16 h-16 bg-primary-orange/10 rounded-full flex items-center justify-center mb-6 mx-auto">
+                  <Shield className="w-8 h-8 text-primary-orange" />
                 </div>
+                <h3 className="text-xl font-bold mb-4">Enterprise Security</h3>
+                <p className="text-gray-600">
+                  Robust security measures protecting your data and models 
+                  with compliance to industry standards and regulations.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ML Process Section */}
+      <section className="py-20 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                Our Machine Learning Process
+              </h2>
+              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                Systematic approach to machine learning project delivery ensuring optimal results and business value
+              </p>
+            </div>
+            
+            <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-primary-orange rounded-full flex items-center justify-center mb-6 mx-auto text-white font-bold text-lg">
+                  1
+                </div>
+                <h3 className="text-lg font-bold mb-4">Data Assessment</h3>
+                <p className="text-gray-600 text-sm">
+                  Evaluate data quality, completeness, and suitability for ML objectives.
+                </p>
+              </div>
+              
+              <div className="text-center">
+                <div className="w-16 h-16 bg-primary-orange rounded-full flex items-center justify-center mb-6 mx-auto text-white font-bold text-lg">
+                  2
+                </div>
+                <h3 className="text-lg font-bold mb-4">Feature Engineering</h3>
+                <p className="text-gray-600 text-sm">
+                  Extract and transform relevant features for optimal model performance.
+                </p>
+              </div>
+              
+              <div className="text-center">
+                <div className="w-16 h-16 bg-primary-orange rounded-full flex items-center justify-center mb-6 mx-auto text-white font-bold text-lg">
+                  3
+                </div>
+                <h3 className="text-lg font-bold mb-4">Model Development</h3>
+                <p className="text-gray-600 text-sm">
+                  Build and train machine learning models using appropriate algorithms.
+                </p>
+              </div>
+              
+              <div className="text-center">
+                <div className="w-16 h-16 bg-primary-orange rounded-full flex items-center justify-center mb-6 mx-auto text-white font-bold text-lg">
+                  4
+                </div>
+                <h3 className="text-lg font-bold mb-4">Validation & Testing</h3>
+                <p className="text-gray-600 text-sm">
+                  Rigorous testing and validation to ensure model accuracy and reliability.
+                </p>
+              </div>
+              
+              <div className="text-center">
+                <div className="w-16 h-16 bg-primary-orange rounded-full flex items-center justify-center mb-6 mx-auto text-white font-bold text-lg">
+                  5
+                </div>
+                <h3 className="text-lg font-bold mb-4">Deployment & Monitoring</h3>
+                <p className="text-gray-600 text-sm">
+                  Deploy models to production with continuous monitoring and optimization.
+                </p>
               </div>
             </div>
           </div>
@@ -401,73 +523,155 @@ export default function MachineLearningTexasPage() {
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Frequently Asked Questions - <span className="text-primary-orange">Machine Learning Company In Texas</span>
+                Frequently Asked Questions About <span className="text-primary-orange">Machine Learning In Texas</span>
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600">
-                Common questions about our Machine Learning services in Texas
+                Common questions about machine learning services for Texas businesses
               </p>
             </div>
             
-            <div className="space-y-6">
-              <div className="bg-gray-50 rounded-xl p-6">
-                <h3 className="text-xl font-bold mb-4 flex items-center">
-                  <ChevronDown className="w-5 h-5 text-primary-orange mr-2" />
+            <div className="space-y-8">
+              <div className="bg-gray-50 rounded-xl p-8">
+                <h3 className="text-xl font-bold mb-4 text-primary-orange">
                   Which is the best Machine Learning Company In Texas?
                 </h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Metic.ai is recognized as the leading <strong>Machine Learning Company In Texas</strong> with 250+ successful implementations. We serve businesses across Houston, Dallas, Austin, San Antonio, Fort Worth, and throughout the Lone Star State with cutting-edge ML solutions, delivering 60% cost savings and 3x faster implementation compared to traditional providers.
+                <p className="text-gray-600 leading-relaxed">
+                  Metic.ai is the leading <strong>Machine Learning Company In Texas</strong> with 50+ successful ML implementations. 
+                  We specialize in textile industry automation, chemical process optimization, pharmaceutical analytics, 
+                  and manufacturing intelligence with 60% cost savings and 3x faster delivery. Our expertise with major 
+                  Texas companies like Adani Group, Torrent Pharmaceuticals, and Nirma Limited makes us the top choice.
                 </p>
               </div>
               
-              <div className="bg-gray-50 rounded-xl p-6">
-                <h3 className="text-xl font-bold mb-4 flex items-center">
-                  <ChevronDown className="w-5 h-5 text-primary-orange mr-2" />
-                  What Machine Learning services do you offer in Texas?
+              <div className="bg-gray-50 rounded-xl p-8">
+                <h3 className="text-xl font-bold mb-4 text-primary-orange">
+                  How can machine learning benefit Texas's textile industry?
                 </h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Our comprehensive ML services include energy & oil analytics, supply chain optimization, deep learning, financial services ML, agriculture technology, time series analysis, predictive analytics, and automated machine learning. We specialize in solutions for energy, oil & gas, agriculture, healthcare, technology, and financial services sectors across Texas.
+                <p className="text-gray-600 leading-relaxed">
+                  Machine learning transforms Texas's textile industry through quality control automation, defect detection, 
+                  production optimization, demand forecasting, inventory management, and supply chain analytics. Our ML solutions 
+                  help textile companies reduce waste by 40%, improve efficiency by 60%, and enhance product quality for export markets.
                 </p>
               </div>
               
-              <div className="bg-gray-50 rounded-xl p-6">
-                <h3 className="text-xl font-bold mb-4 flex items-center">
-                  <ChevronDown className="w-5 h-5 text-primary-orange mr-2" />
-                  How much do Machine Learning services cost in Texas?
+              <div className="bg-gray-50 rounded-xl p-8">
+                <h3 className="text-xl font-bold mb-4 text-primary-orange">
+                  What ML solutions work best for Texas's chemical industry?
                 </h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Our <strong>Machine Learning services in Texas</strong> start from $15,000 for basic implementations, with enterprise solutions ranging from $50,000 to $500,000. We offer 60% cost savings compared to traditional providers through efficient methodologies and proven frameworks. Contact us for a free consultation and customized quote based on your specific requirements.
+                <p className="text-gray-600 leading-relaxed">
+                  Chemical companies in Texas benefit from ML solutions including process optimization, predictive maintenance, 
+                  quality control automation, safety monitoring, yield optimization, and supply chain management. We've helped 
+                  companies like Texas Heavy Chemicals achieve 30% efficiency improvements and significant cost reductions.
                 </p>
               </div>
               
-              <div className="bg-gray-50 rounded-xl p-6">
-                <h3 className="text-xl font-bold mb-4 flex items-center">
-                  <ChevronDown className="w-5 h-5 text-primary-orange mr-2" />
-                  How long does it take to implement Machine Learning solutions in Texas?
+              <div className="bg-gray-50 rounded-xl p-8">
+                <h3 className="text-xl font-bold mb-4 text-primary-orange">
+                  How does ML help pharmaceutical companies in Texas?
                 </h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Implementation timelines vary by complexity: basic ML models (4-8 weeks), medium complexity projects (8-16 weeks), and enterprise solutions (16-24 weeks). Our proven methodologies enable 3x faster delivery compared to industry standards. We serve clients across Houston, Dallas, Austin, San Antonio, Fort Worth, and statewide with rapid deployment capabilities.
+                <p className="text-gray-600 leading-relaxed">
+                  Pharmaceutical companies like Torrent Pharmaceuticals leverage ML for drug discovery acceleration, clinical trial 
+                  optimization, quality assurance automation, regulatory compliance, manufacturing process optimization, and market 
+                  analysis. Our ML solutions reduce drug development time by 40% and improve success rates.
                 </p>
               </div>
               
-              <div className="bg-gray-50 rounded-xl p-6">
-                <h3 className="text-xl font-bold mb-4 flex items-center">
-                  <ChevronDown className="w-5 h-5 text-primary-orange mr-2" />
-                  Do you provide Machine Learning support for Texas businesses remotely?
+              <div className="bg-gray-50 rounded-xl p-8">
+                <h3 className="text-xl font-bold mb-4 text-primary-orange">
+                  What are the costs of ML services in Texas?
                 </h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Yes, we provide comprehensive remote ML support for Texas businesses with 24/7 monitoring, regular performance optimization, troubleshooting, and continuous improvement. Our hybrid approach combines remote expertise with local Texas market understanding to ensure optimal ML performance and ROI.
+                <p className="text-gray-600 leading-relaxed">
+                  As the leading <strong>Machine Learning Company In Texas</strong>, we offer competitive pricing with 60% cost 
+                  savings compared to traditional solutions. Our ML services start from ₹50,000 for basic projects, with enterprise 
+                  solutions customized based on scope. We provide transparent pricing with guaranteed ROI for all Texas businesses.
                 </p>
               </div>
               
-              <div className="bg-gray-50 rounded-xl p-6">
-                <h3 className="text-xl font-bold mb-4 flex items-center">
-                  <ChevronDown className="w-5 h-5 text-primary-orange mr-2" />
-                  What industries do you serve with Machine Learning in Texas?
+              <div className="bg-gray-50 rounded-xl p-8">
+                <h3 className="text-xl font-bold mb-4 text-primary-orange">
+                  How quickly can ML solutions be implemented in Texas?
                 </h3>
-                <p className="text-gray-700 leading-relaxed">
-                  We serve diverse Texas industries including energy (ExxonMobil, Chevron), technology (Dell, Texas Instruments, AT&T), airlines (American Airlines, Southwest), retail (H-E-B), agriculture, healthcare, financial services, manufacturing, and oil & gas. Our <strong>ML solutions</strong> are customized for each industry's specific needs and regulatory requirements.
+                <p className="text-gray-600 leading-relaxed">
+                  Our proven methodology delivers ML solutions 3x faster than traditional approaches. Basic ML models can be 
+                  deployed in 2-4 weeks, while complex enterprise solutions take 8-12 weeks. We provide rapid prototyping, 
+                  local support in Texas, and seamless integration with existing business systems.
                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* About Metic.ai - Texas Expertise Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                  About Metic.ai - Leading <span className="text-primary-orange">Machine Learning Company In Texas</span>
+                </h2>
+                <div className="w-20 h-1 bg-primary-orange mb-8"></div>
+                <p className="text-lg text-gray-600 mb-6">
+                  As the premier <strong>Machine Learning Company In Texas</strong>, Metic.ai has been transforming 
+                  Texas's business landscape with cutting-edge ML solutions. We understand Texas's unique 
+                  industrial ecosystem - from the textile mills of old city to the pharmaceutical giants like 
+                  Torrent and the chemical industry leaders like Texas Heavy Chemicals.
+                </p>
+                <p className="text-lg text-gray-600 mb-6">
+                  Our expertise spans across Texas's key industries: textile automation for quality control, 
+                  chemical process optimization for efficiency, pharmaceutical analytics for drug discovery, 
+                  and manufacturing intelligence for production enhancement. We've successfully served major 
+                  Texas enterprises including Adani Group, Nirma Limited, and numerous textile exporters.
+                </p>
+                <p className="text-lg text-gray-600 mb-8">
+                  With deep connections to IIM Texas and Texas University, we combine academic excellence 
+                  with practical industry experience. Our Texas-based team understands local business 
+                  challenges and delivers ML solutions that drive real growth in Texas's commercial capital.
+                </p>
+                <div className="grid grid-cols-2 gap-6">
+                  <div className="text-center p-4 bg-white rounded-lg shadow-sm">
+                    <div className="text-2xl font-bold text-primary-orange mb-2">50+</div>
+                    <p className="text-gray-600">ML Projects Completed</p>
+                  </div>
+                  <div className="text-center p-4 bg-white rounded-lg shadow-sm">
+                    <div className="text-2xl font-bold text-primary-orange mb-2">150+</div>
+                    <p className="text-gray-600">Texas Clients Served</p>
+                  </div>
+                </div>
+              </div>
+              <div className="space-y-6">
+                <div className="bg-white p-6 rounded-xl shadow-sm border-l-4 border-primary-orange">
+                  <h3 className="text-xl font-bold mb-3 flex items-center">
+                    <Database className="w-6 h-6 text-primary-orange mr-3" />
+                    Textile Industry Expertise
+                  </h3>
+                  <p className="text-gray-600">
+                    Specialized ML solutions for Texas's textile industry including quality control automation, 
+                    defect detection, production optimization, and supply chain analytics for textile exporters.
+                  </p>
+                </div>
+                <div className="bg-white p-6 rounded-xl shadow-sm border-l-4 border-primary-orange">
+                  <h3 className="text-xl font-bold mb-3 flex items-center">
+                    <Settings className="w-6 h-6 text-primary-orange mr-3" />
+                    Chemical & Pharmaceutical Focus
+                  </h3>
+                  <p className="text-gray-600">
+                    Advanced ML models for chemical process optimization, pharmaceutical research acceleration, 
+                    drug discovery analytics, and quality assurance for Texas's chemical giants.
+                  </p>
+                </div>
+                <div className="bg-white p-6 rounded-xl shadow-sm border-l-4 border-primary-orange">
+                  <h3 className="text-xl font-bold mb-3 flex items-center">
+                    <Users className="w-6 h-6 text-primary-orange mr-3" />
+                    Local Business Understanding
+                  </h3>
+                  <p className="text-gray-600">
+                    Deep understanding of Texas's business culture, regulatory environment, and market dynamics 
+                    ensuring ML solutions that align with local business practices and requirements.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -479,21 +683,21 @@ export default function MachineLearningTexasPage() {
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-              Ready to Partner with the Leading <strong>Machine Learning Company In Texas</strong>?
+              Ready to Transform Your Texas Business with Machine Learning?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join leading Texas companies leveraging our advanced <strong>Machine Learning services</strong>. 
-              Transform your business with the top <strong>ML Company In Texas</strong> delivering 60% cost savings and 3x faster implementation.
+              Join leading Texas companies leveraging our advanced machine learning solutions. 
+              Start your ML transformation today with 3x faster delivery and 60% cost savings.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
                 <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100">
-                  Start ML Project
+                  Start ML Project in Texas
                 </Button>
               </Link>
               <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  Call: +91 7892518414
+                  Call Texas ML Experts
                 </Button>
               </Link>
             </div>
@@ -515,165 +719,6 @@ export default function MachineLearningTexasPage() {
           </div>
         </div>
       </section>
-
-      {/* Structured Data - FAQ Schema */}
-      <script 
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "Which is the best Machine Learning Company In Texas?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Metic.ai is recognized as the leading Machine Learning Company In Texas with 250+ successful implementations. We serve businesses across Houston, Dallas, Austin, San Antonio, Fort Worth, and throughout the Lone Star State with cutting-edge ML solutions, delivering 60% cost savings and 3x faster implementation compared to traditional providers."
-                }
-              },
-              {
-                "@type": "Question", 
-                "name": "What Machine Learning services do you offer in Texas?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Our comprehensive ML services include energy & oil analytics, supply chain optimization, deep learning, financial services ML, agriculture technology, time series analysis, predictive analytics, and automated machine learning. We specialize in solutions for energy, oil & gas, agriculture, healthcare, technology, and financial services sectors across Texas."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How much do Machine Learning services cost in Texas?", 
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Our Machine Learning services in Texas start from $15,000 for basic implementations, with enterprise solutions ranging from $50,000 to $500,000. We offer 60% cost savings compared to traditional providers through efficient methodologies and proven frameworks."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How long does it take to implement Machine Learning solutions in Texas?",
-                "acceptedAnswer": {
-                  "@type": "Answer", 
-                  "text": "Implementation timelines vary by complexity: basic ML models (4-8 weeks), medium complexity projects (8-16 weeks), and enterprise solutions (16-24 weeks). Our proven methodologies enable 3x faster delivery compared to industry standards."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Do you provide Machine Learning support for Texas businesses remotely?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes, we provide comprehensive remote ML support for Texas businesses with 24/7 monitoring, regular performance optimization, troubleshooting, and continuous improvement. Our hybrid approach combines remote expertise with local Texas market understanding."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What industries do you serve with Machine Learning in Texas?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "We serve diverse Texas industries including energy (ExxonMobil, Chevron), technology (Dell, Texas Instruments, AT&T), airlines (American Airlines, Southwest), retail (H-E-B), agriculture, healthcare, financial services, manufacturing, and oil & gas."
-                }
-              }
-            ]
-          })
-        }}
-      />
-
-      {/* Structured Data - Organization Schema */}
-      <script 
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "Metic.ai - Machine Learning Company In Texas",
-            "alternateName": "Metic.ai ML Company Texas",
-            "url": "https://metic.ai/machine-learning-services-in-texas/",
-            "logo": "https://metic.ai/logo.png",
-            "description": "Leading Machine Learning Company In Texas with 250+ successful ML implementations. Expert AI and ML services for businesses across Houston, Dallas, Austin, San Antonio, and the Lone Star State.",
-            "address": [
-              {
-                "@type": "PostalAddress",
-                "streetAddress": "300 Quail Ridge Dr NE",
-                "addressLocality": "Ada",
-                "addressRegion": "MI",
-                "postalCode": "49301",
-                "addressCountry": "US"
-              },
-              {
-                "@type": "PostalAddress",
-                "streetAddress": "Behind Manyata Tech Park, Hebbal",
-                "addressLocality": "Bangalore",
-                "addressRegion": "Karnataka",
-                "postalCode": "560077",
-                "addressCountry": "India"
-              }
-            ],
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": "31.9686",
-              "longitude": "-99.9018"
-            },
-            "areaServed": {
-              "@type": "State",
-              "name": "Texas"
-            },
-            "serviceArea": {
-              "@type": "State", 
-              "name": "Texas"
-            },
-            "knowsAbout": [
-              "Machine Learning",
-              "Artificial Intelligence", 
-              "Predictive Analytics",
-              "Deep Learning",
-              "Computer Vision",
-              "Natural Language Processing",
-              "Data Science",
-              "ML Engineering",
-              "Energy Analytics",
-              "Oil & Gas AI"
-            ],
-            "expertise": "Machine Learning Company In Texas"
-          })
-        }}
-      />
-
-      {/* Structured Data - Article Schema */}
-      <script 
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "Machine Learning Company In Texas | Leading ML Company In The Lone Star State - Metic.ai",
-            "description": "Leading Machine Learning Company In Texas with 250+ successful ML implementations. Expert AI and ML services for businesses across Houston, Dallas, Austin, San Antonio, and the Lone Star State with 60% cost savings and 3x faster delivery.",
-            "image": "https://metic.ai/machine-learning-texas.jpg",
-            "author": {
-              "@type": "Organization",
-              "name": "Metic.ai"
-            },
-            "publisher": {
-              "@type": "Organization", 
-              "name": "Metic.ai",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://metic.ai/logo.png"
-              }
-            },
-            "datePublished": "2024-01-01",
-            "dateModified": "2024-01-01",
-            "mainEntityOfPage": {
-              "@type": "WebPage",
-              "@id": "https://metic.ai/machine-learning-services-in-texas/"
-            },
-            "keywords": "Machine Learning Company In Texas, ML Company In Texas, Machine Learning Services In Texas, AI Company Texas, Data Science Texas, Predictive Analytics Texas, ML Solutions Texas, Energy ML Texas, Oil Industry AI",
-            "articleSection": "Machine Learning Services",
-            "about": {
-              "@type": "Thing",
-              "name": "Machine Learning Services In Texas"
-            }
-          })
-        }}
-      />
     </>
   );
 }
