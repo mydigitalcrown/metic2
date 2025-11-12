@@ -27,131 +27,136 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "ML Company In Alaska | #1 Machine Learning Company In Alaska",
-  description: "Leading ML Company In Alaska with 50+ successful AI projects. Expert Machine Learning development, machine learning & automation services. 60% cost savings, 3x faster delivery. Call +1-789-251-8414",
+  title: "Machine Learning Company In Alabama | #1 ML Company In Alabama - Metic.ai",
+  description: "Leading Machine Learning Company In Alabama with 50+ successful ML implementations. Expert ML services, machine learning solutions & ML Development. Transform your business with 60% cost savings & 3x faster delivery.",
   keywords: [
-    "Machine Learning Company In Alaska",
-    "ML Company In Alaska", 
-    "ML Service In Alaska",
-    "ML Firm In Alaska",
-    "ML Development Company In Alaska",
-    "Best ML Company In Alaska",
-    "Top ML Company Alaska",
-    "Machine Learning Services Alaska",
-    "AI Solutions Company Alaska",
-    "Machine Learning Company Alaska",
-    "AI Consulting Firm Alaska",
-    "AI Technology Company Alaska",
-    "AI automation Alaska",
-    "AI software company Alaska",
-    "artificial intelligence consulting Alaska",
-    "ML integration services Alaska",
-    "custom AI development Alaska",
-    "enterprise ML solutions Alaska",
-    "AI ML company Alaska",
-    "Alaska AI experts",
-    "Alaska machine learning services",
-    "Alaska AI implementation"
+    "Machine Learning Company In Alabama",
+    "ML Company In Alabama", 
+    "ML Service In Alabama",
+    "ML Firm In Alabama",
+    "ML Development Company In Alabama",
+    "Best ML Company In Alabama",
+    "Top ML Company Alabama",
+    "Machine Learning Services Alabama",
+    "ML Solutions Company Alabama",
+    "Machine Learning Company Alabama",
+    "ML Consulting Firm Alabama",
+    "ML Technology Company Alabama",
+    "ML automation Alabama",
+    "ML software company Alabama",
+    "Machine Learning consulting Alabama",
+    "ML integration services Alabama",
+    "custom ML Development Alabama",
+    "enterprise ML Solutions Alabama",
+    "ML company Alabama",
+    "Alabama ML experts",
+    "Alabama machine learning services",
+    "Alabama ML implementation"
   ],
-  authors: [{ name: "Metic.ai Alaska ML Team" }],
+  authors: [{ name: "Metic.ai Alabama ML Team" }],
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
-    title: "Machine Learning Company In Alaska | #1 ML Company In Alaska - Metic.ai",
-    description: "Leading Machine Learning Company In Alaska with 50+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Alaska businesses.",
-    url: "https://metic.ai/artificial-intelligence-ai-services-in-alaska/",
+    title: "Machine Learning Company In Alabama | #1 ML Company In Alabama - Metic.ai",
+    description: "Leading Machine Learning Company In Alabama with 50+ successful ML implementations. Expert ML services, machine learning solutions & ML Development for Alabama businesses.",
+    url: "https://metic.ai/machine-learning-services-in-alabama/",
     type: "website",
     locale: "en_US",
-    siteName: "Metic.ai - ML Company In Alaska",
+    siteName: "Metic.ai - ML Company In Alabama",
     images: [
       {
-        url: "https://metic.ai/og-ml-company-alaska.jpg",
+        url: "https://metic.ai/og-ml-company-alabama.jpg",
         width: 1200,
         height: 630,
-        alt: "Machine Learning Company In Alaska - Metic.ai",
+        alt: "Machine Learning Company In Alabama - Metic.ai",
         type: "image/jpeg"
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Machine Learning Company In Alaska | ML Company In Alaska",
-    description: "Leading ML Company In Alaska delivering enterprise artificial intelligence solutions. Expert AI development, machine learning & automation services with proven results.",
-    images: ["https://metic.ai/og-ml-company-alaska.jpg"],
+    title: "Machine Learning Company In Alabama | ML Company In Alabama",
+    description: "Leading ML Company In Alabama delivering enterprise Machine Learning solutions. Expert ML Development, machine learning & automation services with proven results.",
+    images: ["https://metic.ai/og-ml-company-alabama.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-alaska/",
+    canonical: "https://metic.ai/machine-learning-services-in-alabama/",
+  },
+  verification: {
+    google: "google-site-verification-code",
+    yandex: "yandex-verification-code",
+    yahoo: "yahoo-verification-code"
   },
   category: "Technology",
-  classification: "Business Services"
+  classification: "business Services"
 };
 
-export default function MLServicesAlaskaPage() {
+export default function MLServicesAlabamaPage() {
   const services = [
     {
-      title: "AI Integration & Deployment",
-      description: "Seamlessly integrate ML solutions into your Alaska business operations with enterprise-grade deployment strategies.",
+      title: "ML integration & Deployment",
+      description: "Seamlessly integrate ML Solutions into your Alabama business operations with enterprise-grade deployment strategies.",
       icon: Zap,
-      href: "/ml-integration-and-deployment",
+      href: "/ai-integration-and-deployment",
       color: "blue" as const
     },
     {
       title: "Machine Learning Solutions",
-      description: "Advanced ML algorithms and predictive analytics tailored for Alaska businesses and industries.",
+      description: "Advanced ML algorithms and predictive analytics tailored for Alabama businesses and Industries.",
       icon: Brain,
       href: "/machine-learning",
       color: "purple" as const
     },
     {
-      title: "Custom ML Development",
-      description: "Bespoke ML solutions designed specifically for your Alaska business requirements and goals.",
+      title: "custom ML Development",
+      description: "Bespoke ML Solutions designed specifically for your Alabama business requirements and goals.",
       icon: Code,
       href: "/custom-ai-development",
       color: "green" as const
     },
     {
       title: "Data Analytics & BI",
-      description: "Transform your Alaska business data into actionable insights with advanced analytics platforms.",
+      description: "Transform your Alabama business data into actionable insights with advanced analytics platforms.",
       icon: BarChart3,
       href: "/data-insights",
       color: "orange" as const
     },
     {
-      title: "Generative AI Services",
-      description: "Harness the power of ChatGPT and generative AI for content creation and automation in Alaska.",
+      title: "Generative ML services",
+      description: "Harness the power of ChatGPT and generative ML for content creation and automation In Alabama.",
       icon: Sparkles,
       href: "/generative-ai-services",
       color: "indigo" as const
     },
     {
       title: "Data Engineering",
-      description: "Robust data infrastructure and ETL pipelines for Alaska enterprises and growing businesses.",
+      description: "Robust data infrastructure and ETL pipelines for Alabama enterprises and growing businesses.",
       icon: Database,
       href: "/data-engineering",
       color: "red" as const
     }
   ];
 
-  const industries = [
+  const Industries = [
     "Oil & Gas",
-    "Fishing & Seafood",
+    "Fisheries",
     "Tourism",
     "Mining",
     "Aviation",
-    "Logistics",
     "Healthcare",
+    "Logistics",
     "Government",
-    "Maritime",
-    "Energy",
-    "Telecommunications",
-    "Forestry"
+    "Education",
+    "Technology",
+    "Real Estate",
+    "Transportation"
   ];
 
   const stats = [
-    { number: "150+", label: "AK Businesses Served" },
+    { number: "50+", label: "Businesses Served" },
     { number: "99%", label: "Client Satisfaction" },
-    { number: "4.2x", label: "Average ROI Increase" },
+    { number: "5x", label: "Average ROI Increase" },
     { number: "24/7", label: "Support Available" }
   ];
 
@@ -164,25 +169,25 @@ export default function MLServicesAlaskaPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": ["Organization", "TechnologyCompany", "LocalBusiness"],
-            "name": "Metic.ai - Machine Learning Company In Alaska",
-            "alternateName": ["ML Company In Alaska", "Metic AI", "ML Firm Alaska"],
-            "description": "Leading Machine Learning Company In Alaska providing enterprise ML solutions, machine learning development, and custom AI services for businesses across Alaska.",
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-alaska/",
+            "name": "Metic.ai - Machine Learning Company In Alabama",
+            "alternateName": ["ML Company In Alabama", "Metic AI", "ML Firm Alabama"],
+            "description": "Leading Machine Learning Company In Alabama providing enterprise ML Solutions, machine learning development, and custom ML services for businesses across Alabama.",
+            "url": "https://metic.ai/machine-learning-services-in-alabama/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
               "https://www.facebook.com/meticai"
             ],
             "logo": "https://metic.ai/logo.png",
-            "image": ["https://metic.ai/ml-company-alaska.jpg"],
+            "image": ["https://metic.ai/ml-company-alabama.jpg"],
             "telephone": "+1-789-251-8414",
             "email": "hello@matic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
-            "vatID": "US123456789",
+            "vatID": "IN123456789",
             "address": {
               "@type": "PostalAddress",
-              "addressRegion": "Alaska",
+              "addressRegion": "Alabama",
               "addressCountry": "US",
               "postalCode": "35201"
             },
@@ -194,7 +199,7 @@ export default function MLServicesAlaskaPage() {
             "areaServed": [
               {
                 "@type": "State",
-                "name": "Alaska",
+                "name": "Alabama",
                 "containedInPlace": {
                   "@type": "Country", 
                   "name": "United States"
@@ -219,7 +224,7 @@ export default function MLServicesAlaskaPage() {
                   "itemOffered": {
                     "@type": "Service",
                     "name": "ML Development Services",
-                    "description": "Custom artificial intelligence development for Alaska businesses"
+                    "description": "custom Machine Learning development for Alabama businesses"
                   }
                 },
                 {
@@ -234,7 +239,7 @@ export default function MLServicesAlaskaPage() {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "AI Integration Services", 
+                    "name": "ML integration Services", 
                     "description": "Enterprise ML integration and deployment"
                   }
                 },
@@ -242,8 +247,8 @@ export default function MLServicesAlaskaPage() {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "AI Consulting Services",
-                    "description": "Expert AI strategy and implementation consulting"
+                    "name": "ML Consulting Services",
+                    "description": "Expert ML strategy and implementation consulting"
                   }
                 }
               ]
@@ -254,9 +259,9 @@ export default function MLServicesAlaskaPage() {
               "Deep Learning",
               "Natural Language Processing",
               "Computer Vision",
-              "AI Automation",
+              "ML automation",
               "Data Science",
-              "Business Intelligence",
+              "business Intelligence",
               "Predictive Analytics"
             ],
             "aggregateRating": {
@@ -268,12 +273,12 @@ export default function MLServicesAlaskaPage() {
             },
             "priceRange": "$$",
             "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer"],
-            "currenciesAccepted": "USD",
+            "currenciesAccepted": "IND",
             "openingHours": "Mo-Fr 09:00-18:00",
             "contactPoint": {
               "@type": "ContactPoint",
               "telephone": "+1-789-251-8414",
-              "contactType": "Customer Service",
+              "contactType": "customer Service",
               "areaServed": "US",
               "availableLanguage": ["English"]
             }
@@ -291,34 +296,34 @@ export default function MLServicesAlaskaPage() {
             "mainEntity": [
               {
                 "@type": "Question",
-                "name": "Which is the best Machine Learning Company In Alaska?",
+                "name": "Which is the best Machine Learning Company In Alabama?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Metic.ai is the leading Machine Learning Company In Alaska with 50+ successful AI implementations. We provide comprehensive AI services including machine learning, custom AI development, and enterprise ML solutions with proven 60% cost savings and 3x faster delivery."
+                  "text": "Metic.ai is the leading Machine Learning Company In Alabama with 50+ successful ML implementations. We provide comprehensive ML services including machine learning, custom ML Development, and enterprise ML Solutions with proven 60% cost savings and 3x faster delivery."
                 }
               },
               {
                 "@type": "Question", 
-                "name": "What AI services does the top ML Company In Alaska provide?",
+                "name": "What ML services does the top ML Company In Alabama provide?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "As the premier ML Company In Alaska, Metic.ai provides ML integration & deployment, machine learning solutions, custom AI development, data analytics & BI, generative AI services, and data engineering for businesses across Alaska."
+                  "text": "As the premier ML Company In Alabama, Metic.ai provides ML integration & deployment, machine learning solutions, custom ML Development, data analytics & BI, generative ML services, and data engineering for businesses across Alabama."
                 }
               },
               {
                 "@type": "Question",
-                "name": "How to choose the right ML Development Company In Alaska?",
+                "name": "How to choose the right ML Development Company In Alabama?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Choose an ML Development Company In Alaska with proven experience, successful implementations, industry expertise, and local presence. Metic.ai offers all these with 50+ completed projects and deep understanding of Alaska's business landscape."
+                  "text": "Choose an ML Development Company In Alabama with proven experience, successful implementations, industry expertise, and local presence. Metic.ai offers all these with 50+ completed projects and deep understanding of Alabama's business landscape."
                 }
               },
               {
                 "@type": "Question",
-                "name": "What makes Metic.ai the best ML Firm In Alaska?",
+                "name": "What makes Metic.ai the best ML Firm In Alabama?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Metic.ai is the best ML Firm In Alaska due to our proven expertise, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of Alaska's manufacturing, aerospace, healthcare and agricultural industries."
+                  "text": "Metic.ai is the best ML Firm In Alabama due to our proven expertise, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of Alabama's oil & gas, fisheries, tourism and mining Industries."
                 }
               }
             ]
@@ -333,9 +338,9 @@ export default function MLServicesAlaskaPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Machine Learning Company In Alaska - AI Services & Solutions",
-            "description": "Comprehensive guide to AI services in Alaska by the leading Machine Learning Company. Expert AI development, machine learning solutions, and enterprise AI implementation.",
-            "image": "https://metic.ai/ml-company-alaska-article.jpg",
+            "headline": "Machine Learning Company In Alabama - ML services & Solutions",
+            "description": "Comprehensive guide to ML services In Alabama by the leading Machine Learning Company. Expert ML Development, machine learning solutions, and enterprise ML implementation.",
+            "image": "https://metic.ai/ml-company-alabama-article.jpg",
             "author": {
               "@type": "Organization",
               "name": "Metic.ai"
@@ -350,8 +355,8 @@ export default function MLServicesAlaskaPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-alaska/",
-            "keywords": "Machine Learning Company In Alaska, ML Company In Alaska, ML Service In Alaska"
+            "mainEntityOfPage": "https://metic.ai/machine-learning-services-in-alabama/",
+            "keywords": "Machine Learning Company In Alabama, ML Company In Alabama, ML Service In Alabama"
           })
         }}
       />
@@ -373,14 +378,14 @@ export default function MLServicesAlaskaPage() {
               {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "AI Services",
+                "name": "ML services",
                 "item": "https://metic.ai/services"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
-                "name": "Machine Learning Company In Alaska",
-                "item": "https://metic.ai/artificial-intelligence-ai-services-in-alaska/"
+                "name": "Machine Learning Company In Alabama",
+                "item": "https://metic.ai/machine-learning-services-in-alabama/"
               }
             ]
           })
@@ -394,9 +399,9 @@ export default function MLServicesAlaskaPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Metic.ai - ML Company In Alaska",
-            "description": "Leading Machine Learning Company providing AI services in Alaska",
-            "image": "https://metic.ai/ml-company-alaska.jpg",
+            "name": "Metic.ai - ML Company In Alabama",
+            "description": "Leading Machine Learning Company providing ML services In Alabama",
+            "image": "https://metic.ai/ml-company-alabama.jpg",
             "telephone": "+1-789-251-8414",
             "email": "hello@matic.ai",
             "address": {
@@ -412,11 +417,11 @@ export default function MLServicesAlaskaPage() {
               "latitude": "32.3182",
               "longitude": "-86.9023"
             },
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-alaska/",
+            "url": "https://metic.ai/machine-learning-services-in-alabama/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",
-              "name": "Alaska"
+              "name": "Alabama"
             },
             "aggregateRating": {
               "@type": "AggregateRating",
@@ -448,7 +453,7 @@ export default function MLServicesAlaskaPage() {
             <div className="flex justify-center mb-6 md:mb-8">
               <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-white/10 backdrop-blur-sm rounded-full border border-primary-orange/30 shadow-xl">
                 <Award className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
-                <span className="text-xs md:text-sm font-bold text-white">⭐ 50+ Successful AI Projects | 98% Client Satisfaction</span>
+                <span className="text-xs md:text-sm font-bold text-white">⭐ 50+ Successful ML projects | 98% Client Satisfaction</span>
               </div>
             </div>
 
@@ -458,12 +463,12 @@ export default function MLServicesAlaskaPage() {
                   Machine Learning
                 </span>
                 <br />
-                <span className="text-white">Company In Alaska</span>
+                <span className="text-white">Company In Alabama</span>
               </h1>
               
               {/* VSO Optimized Description - Mobile Friendly */}
               <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 mb-6 md:mb-8 max-w-4xl mx-auto leading-relaxed px-4">
-                Looking for the <strong className="text-primary-orange">best ML Company In Alaska</strong>? Metic.ai is the premier <strong className="text-white">Machine Learning Company In Alaska</strong> delivering enterprise ML solutions with proven results.
+                Looking for the <strong className="text-primary-orange">best ML Company In Alabama</strong>? Metic.ai is the premier <strong className="text-white">Machine Learning Company In Alabama</strong> delivering enterprise ML Solutions with proven results.
               </p>
 
               {/* Mobile-Optimized CTA Buttons */}
@@ -471,7 +476,7 @@ export default function MLServicesAlaskaPage() {
                 <Link href="/contact" className="w-full sm:w-auto">
                   <Button variant="primary" size="lg" className="w-full sm:w-auto text-base md:text-lg px-6 md:px-8 py-3 md:py-4 shadow-2xl hover:shadow-primary-orange/50 transform hover:scale-105 transition-all">
                     <Rocket className="w-5 h-5 mr-2" />
-                    Get Free AI Consultation
+                    Get Free ML Consultation
                   </Button>
                 </Link>
                 <Link href="tel:+17892518414" className="w-full sm:w-auto">
@@ -497,17 +502,17 @@ export default function MLServicesAlaskaPage() {
               {/* VSO Keywords Section - Mobile Optimized */}
               <div className="text-center px-4">
                 <p className="text-gray-400 text-sm md:text-base mb-4">
-                  <strong className="text-white">Trusted as the top ML Service In Alaska</strong> by leading businesses
+                  <strong className="text-white">Trusted as the top ML Service In Alabama</strong> by leading businesses
                 </p>
                 <div className="flex flex-wrap justify-center gap-2 md:gap-3 text-xs md:text-sm">
                   <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
-                    ML Firm In Alaska
+                    ML Firm In Alabama
                   </span>
                   <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
                     ML Development Company
                   </span>
                   <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
-                    Best ML Company Alaska
+                    Best ML Company Alabama
                   </span>
                   <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
                     Machine Learning Services
@@ -534,19 +539,19 @@ export default function MLServicesAlaskaPage() {
               {/* Section Badge */}
               <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-primary-orange/10 rounded-full mb-6 md:mb-8">
                 <Brain className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
-                <span className="text-xs md:text-sm font-bold text-primary-orange">COMPREHENSIVE AI SERVICES</span>
+                <span className="text-xs md:text-sm font-bold text-primary-orange">COMPREHENSIVE ML services</span>
               </div>
 
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 leading-tight px-4">
-                <strong className="text-gray-900">AI Services</strong> by Leading{" "}
+                <strong className="text-gray-900">ML services</strong> by Leading{" "}
                 <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">
-                  Machine Learning Company In Alaska
+                  Machine Learning Company In Alabama
                 </span>
               </h2>
               <div className="w-20 md:w-24 h-1 md:h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 md:mb-8 rounded-full"></div>
               <p className="text-base md:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-4">
-                Comprehensive artificial intelligence services from Alaska's most trusted <strong className="text-gray-900">ML Company In Alaska</strong>. 
-                Transforming businesses with cutting-edge ML solutions tailored for Alaska's industrial landscape.
+                Comprehensive Machine Learning services from Alabama's most Trusted <strong className="text-gray-900">ML Company In Alabama</strong>. 
+                Transforming businesses with cutting-edge ML Solutions tailored for Alabama's industrial landscape.
               </p>
             </div>
             
@@ -596,7 +601,7 @@ export default function MLServicesAlaskaPage() {
               <Link href="/contact">
                 <Button variant="primary" size="lg" className="px-8 md:px-10 py-4 text-base md:text-lg shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all">
                   <Sparkles className="w-5 h-5 mr-2" />
-                  Explore All AI Services
+                  Explore All ML services
                 </Button>
               </Link>
             </div>
@@ -611,18 +616,18 @@ export default function MLServicesAlaskaPage() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                  About Metic.ai - Premier <span className="text-primary-orange">Machine Learning Company In Alaska</span>
+                  About Metic.ai - Premier <span className="text-primary-orange">Machine Learning Company In Alabama</span>
                 </h2>
                 <div className="w-20 h-1 bg-primary-orange mb-8"></div>
                 <p className="text-lg text-gray-700 mb-6">
-                  Established as Alaska's leading <strong>ML Company In Alaska</strong>, Metic.ai has been at the forefront of artificial intelligence 
-                  innovation since 2020. We specialize in delivering enterprise-grade ML solutions that transform businesses across Alaska's 
-                  unique industries including oil & gas, fishing & seafood, tourism & hospitality, mining, and aviation.
+                  Established as Alabama's leading <strong>ML Company In Alabama</strong>, Metic.ai has been at the forefront of Machine Learning 
+                  innovation since 2020. We specialize US delivering enterprise-grade ML Solutions that transform businesses across Alabama's 
+                  unique Industries including Oil & Gas, Fisheries, Tourism, Mining, and Aviation.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  Our expertise as an <strong>ML Development Company In Alaska</strong> encompasses machine learning, deep learning, natural language processing, 
-                  computer vision, and robotic process automation. We've successfully completed over 100 AI projects, making us the most 
-                  trusted <strong>ML Service In Alaska</strong> from the North Slope to the Aleutian Islands.
+                  Our expertise as an <strong>ML Development Company In Alabama</strong> encompasses machine learning, deep learning, natural language processing, 
+                  computer vision, and robotic process automation. We've successfully completed over 50+ ML projects, making US the most 
+                  Trusted <strong>ML Service In Alabama</strong> across Anchorage, Fairbanks, Juneau, and Sitka.
                 </p>
                 <div className="grid grid-cols-2 gap-6 mt-8">
                   <div className="text-center">
@@ -637,7 +642,7 @@ export default function MLServicesAlaskaPage() {
                       <Users className="w-6 h-6 text-primary-orange" />
                     </div>
                     <div className="font-bold text-xl text-gray-900">50+</div>
-                    <div className="text-gray-600 text-sm">AI Experts Team</div>
+                    <div className="text-gray-600 text-sm">ML experts Team</div>
                   </div>
                   <div className="text-center">
                     <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
@@ -660,40 +665,40 @@ export default function MLServicesAlaskaPage() {
                 <div className="bg-white rounded-xl p-6 shadow-sm">
                   <h3 className="font-bold text-lg mb-3 flex items-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
-                    AI Consulting & Strategy
+                    ML Consulting & Strategy
                   </h3>
                   <p className="text-gray-600">
-                    Expert AI consulting services to help Alaska businesses identify AI opportunities and develop comprehensive implementation strategies.
+                    Expert ML Consulting services to help Alabama businesses identify ML opportunities and develop comprehensive implementation strategies.
                   </p>
                 </div>
                 
                 <div className="bg-white rounded-xl p-6 shadow-sm">
                   <h3 className="font-bold text-lg mb-3 flex items-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
-                    Custom ML Development
+                    custom ML Development
                   </h3>
                   <p className="text-gray-600">
-                    Bespoke artificial intelligence solutions tailored to your specific business requirements and industry challenges in Alaska.
+                    Bespoke Machine Learning solutions tailored to your specific business requirements and industry challenges In Alabama.
                   </p>
                 </div>
                 
                 <div className="bg-white rounded-xl p-6 shadow-sm">
                   <h3 className="font-bold text-lg mb-3 flex items-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
-                    Enterprise AI Integration
+                    Enterprise ML integration
                   </h3>
                   <p className="text-gray-600">
-                    Seamless integration of AI technologies into existing business processes with minimal disruption and maximum efficiency gains.
+                    Seamless integration of ML technologies into existing business processes with minimal disruption and maximum efficiency gains.
                   </p>
                 </div>
                 
                 <div className="bg-white rounded-xl p-6 shadow-sm">
                   <h3 className="font-bold text-lg mb-3 flex items-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
-                    Ongoing AI Support
+                    Ongoing ML Support
                   </h3>
                   <p className="text-gray-600">
-                    Comprehensive support and maintenance services ensuring your ML solutions continue to deliver optimal performance and ROI.
+                    Comprehensive support and maintenance services ensuring your ML Solutions continue to deliver optimal performance and ROI.
                   </p>
                 </div>
               </div>
@@ -708,11 +713,11 @@ export default function MLServicesAlaskaPage() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Industries We Serve in Alaska
+                Industries We Serve In Alabama
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Delivering specialized ML solutions across Alaska's key industries and business sectors.
+                Delivering specialized ML Solutions across Alabama's key Industries and business sectors.
               </p>
             </div>
             
@@ -723,7 +728,7 @@ export default function MLServicesAlaskaPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&h=400&fit=crop" 
-                    alt="Manufacturing Industry AI Solutions"
+                    alt="Manufacturing industry ML Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -738,7 +743,7 @@ export default function MLServicesAlaskaPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?w=500&h=400&fit=crop" 
-                    alt="Aerospace Industry AI Solutions"
+                    alt="Aerospace industry ML Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -753,7 +758,7 @@ export default function MLServicesAlaskaPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=500&h=400&fit=crop" 
-                    alt="Healthcare Industry AI Solutions"
+                    alt="Healthcare industry ML Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -768,7 +773,7 @@ export default function MLServicesAlaskaPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=500&h=400&fit=crop" 
-                    alt="Agriculture Industry AI Solutions"
+                    alt="Agriculture industry ML Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -783,7 +788,7 @@ export default function MLServicesAlaskaPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&h=400&fit=crop" 
-                    alt="Technology Industry AI Solutions"
+                    alt="Technology industry ML Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -798,7 +803,7 @@ export default function MLServicesAlaskaPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=500&h=400&fit=crop" 
-                    alt="Automotive Industry AI Solutions"
+                    alt="Automotive industry ML Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -813,7 +818,7 @@ export default function MLServicesAlaskaPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=500&h=400&fit=crop" 
-                    alt="Financial Services Industry AI Solutions"
+                    alt="Financial Services industry ML Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -828,7 +833,7 @@ export default function MLServicesAlaskaPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=500&h=400&fit=crop" 
-                    alt="Transportation Industry AI Solutions"
+                    alt="Transportation industry ML Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -843,7 +848,7 @@ export default function MLServicesAlaskaPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=500&h=400&fit=crop" 
-                    alt="Education Industry AI Solutions"
+                    alt="Education industry ML Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -858,7 +863,7 @@ export default function MLServicesAlaskaPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=500&h=400&fit=crop" 
-                    alt="Energy Industry AI Solutions"
+                    alt="Energy industry ML Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -873,7 +878,7 @@ export default function MLServicesAlaskaPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=500&h=400&fit=crop" 
-                    alt="Call Center AI Solutions"
+                    alt="Call Center ML Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -888,7 +893,7 @@ export default function MLServicesAlaskaPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=500&h=400&fit=crop" 
-                    alt="IT Services AI Solutions"
+                    alt="IT Services ML Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -902,18 +907,18 @@ export default function MLServicesAlaskaPage() {
         </div>
       </section>
 
-      {/* Why Choose Us Section */}
+      {/* Why Choose US Section */}
       <section className="py-20 bg-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Why Choose Metic.ai as Your <span className="text-primary-orange">ML Firm In Alaska</span>
+                Why Choose Metic.ai as Your <span className="text-primary-orange">ML Firm In Alabama</span>
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                As the premier <strong>ML Development Company In Alaska</strong>, we're trusted by businesses across Alaska 
-                for our expertise, proven results, and commitment to client success in the Last Frontier.
+                As the premier <strong>ML Development Company In Alabama</strong>, we're Trusted by businesses across Alabama 
+                for our expertise, proven results, and commitment to client success US Heart of Dixie.
               </p>
             </div>
             
@@ -923,7 +928,7 @@ export default function MLServicesAlaskaPage() {
                   <Award className="w-8 h-8 text-blue-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Proven Expertise</h3>
-                <p className="text-gray-600">Years of experience delivering ML solutions for Alaska businesses across all industries.</p>
+                <p className="text-gray-600">Years of experience delivering ML Solutions for Alabama businesses across all Industries.</p>
               </div>
               
               <div className="text-center">
@@ -931,7 +936,7 @@ export default function MLServicesAlaskaPage() {
                   <TrendingUp className="w-8 h-8 text-green-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Measurable Results</h3>
-                <p className="text-gray-600">Data-driven ML solutions that deliver concrete ROI and business growth for Alaska companies.</p>
+                <p className="text-gray-600">Data-driven ML Solutions that deliver concrete ROI and business growth for Alabama companies.</p>
               </div>
               
               <div className="text-center">
@@ -939,7 +944,7 @@ export default function MLServicesAlaskaPage() {
                   <Users className="w-8 h-8 text-purple-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Local Partnership</h3>
-                <p className="text-gray-600">Dedicated support and partnership with deep understanding of Alaska's unique business challenges and opportunities.</p>
+                <p className="text-gray-600">Dedicated support and partnership with deep understanding of Alabama's unique business challenges and opportunities.</p>
               </div>
               
               <div className="text-center">
@@ -947,40 +952,40 @@ export default function MLServicesAlaskaPage() {
                   <Shield className="w-8 h-8 text-orange-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Enterprise Security</h3>
-                <p className="text-gray-600">Bank-level security and compliance standards protecting your Alaska business data.</p>
+                <p className="text-gray-600">Bank-level security and compliance standards protecting your Alabama business data.</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Comprehensive AI Services Alaska Content - 100% SEO Optimized */}
+      {/* Comprehensive ML services Alabama Content - 100% SEO Optimized */}
       <section className="py-24 bg-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
-            {/* Alaska AI Market Leadership - Enhanced Creative Header */}
+            {/* Alabama ML Market Leadership - Enhanced Creative Header */}
             <div className="text-center mb-20">
               {/* Premium Badge with Animation */}
               <div className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-full shadow-2xl border-2 border-primary-orange/30 mb-10 hover:border-primary-orange/50 transition-all group">
                 <div className="w-3 h-3 bg-primary-orange rounded-full animate-pulse"></div>
-                <span className="text-sm font-bold text-gray-800 tracking-wide">THE LAST FRONTIER AI INNOVATION</span>
+                <span className="text-sm font-bold text-gray-800 tracking-wide">Heart of Dixie ML INNOVATION</span>
                 <div className="w-3 h-3 bg-secondary-orange rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></div>
               </div>
 
               <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight">
                 <span className="text-gray-900">Leading </span>
                 <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent animate-gradient">
-                  Machine Learning Company In Alaska
+                  Machine Learning Company In Alabama
                 </span>
               </h2>
               <div className="w-40 h-2 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-10 rounded-full shadow-lg"></div>
               <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                Transforming the Great Land with cutting-edge ML solutions from Anchorage to Fairbanks, Juneau to the North Slope
+                Transforming Alabama's Commercial Capital with cutting-edge ML Solutions from Anchorage to Fairbanks, Juneau to Sitka
               </p>
             </div>
 
             <div className="space-y-20">
-              {/* Alaska AI Innovation Hub - Premium Design */}
+              {/* Alabama ML Innovation Hub - Premium Design */}
               <div className="grid lg:grid-cols-2 gap-16 items-center">
                 <div className="order-2 lg:order-1">
                   <div className="space-y-8">
@@ -991,24 +996,24 @@ export default function MLServicesAlaskaPage() {
                       </div>
                       <div>
                         <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
-                          Alaska's <span className="text-primary-orange">Premier AI Technology Pioneer</span>
+                          Alabama's <span className="text-primary-orange">Premier ML Technology Pioneer</span>
                         </h3>
                         <div className="w-24 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange rounded-full"></div>
                       </div>
                     </div>
                     
             <p className="text-lg text-gray-700 leading-relaxed">
-              As the leading <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Machine Learning Company In Alaska</strong>, 
-              Metic.ai serves the Last Frontier with enterprise-grade ML solutions tailored to Alaska's unique economic 
-              landscape. From Anchorage's business hub to Fairbanks' research facilities, Juneau's government sector to 
-              the oil fields of the North Slope, we understand Alaska's pioneering spirit and resource-rich industries.
+              As the leading <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Machine Learning Company In Alabama</strong>, 
+              Metic.ai serves Heart of Dixie with enterprise-grade ML Solutions tailored to Alabama's unique economic 
+              landscape. From Maninagar's business hub to Vastrapur' research facilities, SG Highway's government sector to 
+              the oil fields and fishing operations, we understand Alabama's resource-driven excellence and energy-based economy.
             </p>
             
             <p className="text-lg text-gray-700 leading-relaxed">
-              Our <strong className="text-primary-orange font-semibold">ML Company In Alaska</strong> combines deep understanding 
-              of Alaska's unique challenges with cutting-edge technology to deliver ML solutions that drive measurable 
-              results. We've successfully implemented AI across Alaska's key sectors including oil & gas, fishing, 
-              tourism, mining, aviation, and maritime industries in America's largest state.
+              Our <strong className="text-primary-orange font-semibold">ML Company In Alabama</strong> combines deep understanding 
+              of Alabama's unique challenges with cutting-edge technology to deliver ML Solutions that drive measurable 
+              results. We've successfully implemented ML across Alabama's key sectors including Oil & Gas, Fisheries, 
+              tourism, Chemicals, Information Technology, and maritime Industries US Alabama's largest state.
             </p>                    {/* Enhanced Feature Cards with Creative Design */}
                     <div className="grid gap-6 mt-10">
                       <div className="group bg-gradient-to-r from-primary-orange/5 via-white to-secondary-orange/5 p-6 rounded-2xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
@@ -1017,10 +1022,10 @@ export default function MLServicesAlaskaPage() {
                             <Rocket className="w-6 h-6 text-white" />
                           </div>
                           <div>
-                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Oil & Gas AI Excellence</h4>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Oil & Gas Excellence</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Deep expertise with Alaska's North Slope energy operations including major oil fields, 
-                              Trans-Alaska Pipeline, and energy infrastructure across America's largest oil-producing state.
+                              Deep expertise with Alabama's aerospace industry including Boeing, Airbus, and defense contractors, 
+                              plus advanced manufacturing operations across Alabama's industrial corridor from Anchorage to Fairbanks.
                             </p>
                           </div>
                         </div>
@@ -1032,9 +1037,9 @@ export default function MLServicesAlaskaPage() {
                             <Shield className="w-6 h-6 text-white" />
                           </div>
                           <div>
-                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Automotive Manufacturing Innovation</h4>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Fisheries Industry Innovation</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Advanced ML solutions for Alaska's automotive industry including Mercedes-Benz, Honda, Hyundai, 
+                              Advanced ML Solutions for Alabama's automotive industry including Mercedes-Benz, Honda, Hyundai, 
                               and Toyota manufacturing facilities with predictive maintenance and quality control systems.
                             </p>
                           </div>
@@ -1047,10 +1052,10 @@ export default function MLServicesAlaskaPage() {
                             <Target className="w-6 h-6 text-white" />
                           </div>
                           <div>
-                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Mining & Natural Resources AI</h4>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Agriculture & Natural Resources AI</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Specialized AI for Alaska's mining operations and resource extraction including process optimization, 
-                              safety monitoring, and environmental compliance for Alaska's rich mineral deposits.
+                              Specialized ML for Alabama's agriculture operations and resource extraction including salmon fishing, crab harvesting, 
+                              forestry management, and environmental compliance for Alabama's rich agricultural heritage.
                             </p>
                           </div>
                         </div>
@@ -1063,25 +1068,25 @@ export default function MLServicesAlaskaPage() {
                 <div className="order-1 lg:order-2">
                   <div className="bg-gradient-to-br from-orange-50 via-white to-amber-50 rounded-3xl p-10 border-2 border-primary-orange/20 shadow-2xl transform rotate-1 hover:rotate-0 transition-transform">
                     <h4 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">
-                      Alaska AI Market Impact
+                      Alabama ML Market Impact
                     </h4>
                     
                     <div className="space-y-8">
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">$55B</div>
-                        <div className="text-sm text-gray-600 font-medium">Alaska Annual GDP</div>
-                        <div className="text-xs text-gray-500 mt-2">Resource-Rich Economy</div>
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">$243B</div>
+                        <div className="text-sm text-gray-600 font-medium">Alabama Annual GDP</div>
+                        <div className="text-xs text-gray-500 mt-2">Southeast Economic Powerhouse</div>
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-secondary-orange/10 hover:border-secondary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-secondary-orange mb-3 group-hover:scale-110 transition-transform">740K</div>
-                        <div className="text-sm text-gray-600 font-medium">Alaska Population</div>
-                        <div className="text-xs text-gray-500 mt-2">The Last Frontier</div>
+                        <div className="text-5xl font-bold text-secondary-orange mb-3 group-hover:scale-110 transition-transform">5.0M</div>
+                        <div className="text-sm text-gray-600 font-medium">Alabama Population</div>
+                        <div className="text-xs text-gray-500 mt-2">Heart of Dixie</div>
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">150+</div>
-                        <div className="text-sm text-gray-600 font-medium">Alaska AI Projects Completed</div>
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">50+</div>
+                        <div className="text-sm text-gray-600 font-medium">Alabama ML Projects Completed</div>
                         <div className="text-xs text-gray-500 mt-2">Industry-Leading Success Rate</div>
                       </div>
                       
@@ -1090,11 +1095,11 @@ export default function MLServicesAlaskaPage() {
                           <div className="w-8 h-8 bg-primary-orange rounded-full flex items-center justify-center">
                             <CheckCircle className="w-5 h-5 text-white" />
                           </div>
-                          <span className="font-bold text-gray-900">Alaska Advantage</span>
+                          <span className="font-bold text-gray-900">Alabama Advantage</span>
                         </div>
                         <p className="text-sm text-gray-700 leading-relaxed">
-                          <strong>Strategic Resources:</strong> Rich in oil, gas, fishing, and minerals with vast untapped 
-                          potential, making Alaska ideal for AI-driven resource optimization and predictive analytics.
+                          <strong>Strategic Resources:</strong> Rich in oil, gas, and natural resources with vast mineral 
+                          potential, making Alabama ideal for ML-driven manufacturing optimization and predictive analytics.
                         </p>
                       </div>
                     </div>
@@ -1102,69 +1107,69 @@ export default function MLServicesAlaskaPage() {
                 </div>
               </div>
 
-              {/* Alaska Industry Solutions - Creative Premium Design */}
+              {/* Alabama industry Solutions - Creative Premium Design */}
               <div>
                 <div className="text-center mb-16">
                   <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-full border-2 border-primary-orange/20 mb-8 transform hover:scale-105 transition-transform">
                     <Sparkles className="w-5 h-5 text-primary-orange" />
-                    <span className="text-sm font-bold text-gray-800">INDUSTRY EXPERTISE</span>
+                    <span className="text-sm font-bold text-gray-800">industry EXPERTISE</span>
                   </div>
                   <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                    AI Solutions for <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Alaska's Key Industries</span>
+                    ML Solutions for <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Alabama's Key Industries</span>
                   </h3>
                   <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 rounded-full"></div>
                   <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Specialized ML solutions designed for the Last Frontier's unique economic sectors and resource-rich industries
+                    Specialized ML Solutions designed for Heart of Dixie's unique economic sectors and manufacturing-driven industries
                   </p>
                 </div>
                 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-                  {/* Oil & Gas Industry */}
+                  {/* Aerospace Industry */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Rocket className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Oil & Gas AI Solutions</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Aerospace ML Solutions</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Mission-critical ML solutions for Alaska's oil & gas industry including North Slope operations, 
-                      Trans-Alaska Pipeline monitoring, offshore drilling optimization, and predictive maintenance 
-                      for energy infrastructure across the Last Frontier's vast energy resources.
+                      Mission-critical ML Solutions for Alabama's aerospace industry including Boeing, Airbus, and NASA operations, 
+                      flight systems optimization, manufacturing quality control, and predictive maintenance 
+                      for aerospace infrastructure across Alabama's aerospace corridor.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Pipeline monitoring & optimization</span>
+                        <span className="text-sm text-gray-600">Flight systems monitoring & optimization</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Drilling efficiency analysis</span>
+                        <span className="text-sm text-gray-600">Manufacturing efficiency analysis</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Resource extraction prediction</span>
+                        <span className="text-sm text-gray-600">Quality control prediction</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Safety & environmental compliance</span>
+                        <span className="text-sm text-gray-600">Safety & compliance monitoring</span>
                       </div>
                     </div>
                   </div>
                   
-                  {/* Fishing & Seafood Industry */}
+                  {/* Agriculture Industry */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Shield className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Fishing & Seafood AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Agriculture ML</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Advanced ML solutions for Alaska's fishing and seafood processing industry with predictive catch 
-                      analytics, sustainable fishing optimization, processing automation, cold chain monitoring, 
-                      and quality control for the world's richest seafood harvest.
+                      Advanced ML Solutions for Alabama's agriculture industry with predictive crop 
+                      analytics, sustainable farming optimization, processing automation, supply chain monitoring, 
+                      and quality control for cotton, poultry, and livestock operations.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Catch prediction & optimization</span>
+                        <span className="text-sm text-gray-600">Crop yield prediction & optimization</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
@@ -1181,16 +1186,16 @@ export default function MLServicesAlaskaPage() {
                     </div>
                   </div>
                   
-                  {/* Tourism & Hospitality Industry */}
+                  {/* Tourism & Hospitality industry */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-red-500 to-red-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Target className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Tourism & Hospitality AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Tourism & Hospitality ML</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Intelligent ML solutions for Alaska's booming tourism industry with cruise line optimization, 
+                      Intelligent ML Solutions for Alabama's booming tourism industry with cruise line optimization, 
                       wildlife tour planning, hotel revenue management, visitor experience personalization, 
-                      and seasonal demand forecasting for Alaska's 2.5 million annual visitors.
+                      and seasonal demand forecasting for Alabama's 2.5 million annual visitors.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
@@ -1212,16 +1217,16 @@ export default function MLServicesAlaskaPage() {
                     </div>
                   </div>
                   
-                  {/* Mining & Resource Extraction */}
+                  {/* Chemicals & Resource Extraction */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Lightbulb className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Mining & Resource AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Chemicals & Resource ML</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Advanced ML solutions for Alaska's mining operations including gold, zinc, and mineral extraction 
+                      Advanced ML Solutions for Alabama's Chemicals operations including gold, zinc, and mineral extraction 
                       with predictive maintenance, safety monitoring, resource discovery optimization, 
-                      and environmental impact assessment across Alaska's vast mineral deposits.
+                      and environmental impact assessment across Alabama's vast mineral deposits.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
@@ -1230,7 +1235,7 @@ export default function MLServicesAlaskaPage() {
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Mining equipment automation</span>
+                        <span className="text-sm text-gray-600">Chemicals equipment automation</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
@@ -1243,16 +1248,16 @@ export default function MLServicesAlaskaPage() {
                     </div>
                   </div>
                   
-                  {/* Aviation & Logistics */}
+                  {/* Information Technology & Logistics */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Sparkles className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Aviation & Logistics AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Information Technology & Logistics ML</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Intelligent ML solutions for Alaska's aviation and cargo logistics including bush plane operations, 
+                      Intelligent ML Solutions for Alabama's Information Technology and cargo logistics including bush plane operations, 
                       Ted Stevens Anchorage International Airport cargo hub, weather prediction for flight safety, 
-                      and supply chain optimization for remote Alaska communities.
+                      and supply chain optimization for remote Alabama communities.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
@@ -1276,10 +1281,10 @@ export default function MLServicesAlaskaPage() {
                 </div>
               </div>
 
-              {/* Reusable Testimonials Component */}
+              {/* ReINable Testimonials Component */}
               <Testimonials />
 
-              {/* Alaska AI Partnership Excellence - Creative Premium Design */}
+              {/* Alabama ML Partnership Excellence - Creative Premium Design */}
               <div className="grid lg:grid-cols-2 gap-16 items-center">
                 <div className="space-y-8">
                   <div className="bg-white rounded-2xl p-8 shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all transform hover:scale-105">
@@ -1287,26 +1292,26 @@ export default function MLServicesAlaskaPage() {
                       <div className="w-8 h-8 bg-primary-orange rounded-lg flex items-center justify-center transform rotate-12">
                         <BarChart3 className="w-5 h-5 text-white" />
                       </div>
-                      Alaska AI Leadership Metrics
+                      Alabama ML Leadership Metrics
                     </h4>
                     <div className="space-y-6">
                       <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
-                        <span className="text-gray-600 font-medium">Alaska Projects Completed</span>
-                        <span className="font-bold text-primary-orange text-xl">150+</span>
+                        <span className="text-gray-600 font-medium">Alabama Projects Completed</span>
+                        <span className="font-bold text-primary-orange text-xl">50+</span>
                       </div>
-                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
-                        <span className="text-gray-600 font-medium">Industry Success Rate</span>
-                        <span className="font-bold text-secondary-orange text-xl">99.5%</span>
+                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                        <span className="text-gray-600 font-medium">industry Success Rate</span>
+                        <span className="font-bold text-secondary-orange text-xl">99%</span>
                       </div>
-                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
-                        <span className="text-gray-600 font-medium">Average ROI for AK Clients</span>
-                        <span className="font-bold text-primary-orange text-xl">4.2x</span>
+                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                        <span className="text-gray-600 font-medium">Average ROI for Alabama Clients</span>
+                        <span className="font-bold text-primary-orange text-xl">5x</span>
                       </div>
-                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Client Retention Rate</span>
                         <span className="font-bold text-secondary-orange text-xl">97%</span>
                       </div>
-                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Average Deployment Time</span>
                         <span className="font-bold text-primary-orange text-xl">28 Days</span>
                       </div>
@@ -1319,11 +1324,11 @@ export default function MLServicesAlaskaPage() {
                         <Award className="w-6 h-6 text-white" />
                       </div>
                       <div>
-                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Alaska Business Advantage</h4>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Alabama Business Advantage</h4>
                         <p className="text-gray-700 leading-relaxed">
-                          As the premier <strong className="text-primary-orange">ML Firm In Alaska</strong>, we understand 
-                          the Last Frontier's unique blend of pioneering spirit and resource-driven innovation. Our ML solutions 
-                          are built for Alaska's oil & gas dominance, fishing industry leadership, and tourism growth.
+                          As the premier <strong className="text-primary-orange">ML Firm In Alabama</strong>, we understand 
+                          Heart of Dixie's unique blend of entrepreneurial excellence and industrial innovation. Our ML Solutions 
+                          are built for Alabama's aerospace dominance, automotive manufacturing leadership, and agricultural growth.
                         </p>
                       </div>
                     </div>
@@ -1337,32 +1342,32 @@ export default function MLServicesAlaskaPage() {
                     </div>
                     <div>
                       <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
-                        Your Trusted <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">AI Partner In Alaska</span>
+                        Your Trusted <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">ML Partner In Alabama</span>
                       </h3>
                       <div className="w-24 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange rounded-full mb-6"></div>
                     </div>
                   </div>
                   
                   <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                    <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Choosing Metic.ai as your AI partner in Alaska</strong> means 
-                    working with a team that deeply understands Alaska's unique business challenges, from Anchorage's 
-                    commercial hub to Fairbanks' research facilities and Juneau's government operations.
+                    <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Choosing Metic.ai as your ML partner In Alabama</strong> means 
+                    working with a team that deeply understands Alabama's unique business challenges, from Anchorage's 
+                    commercial hub to Fairbanks's research facilities and Juneau's government operations.
                   </p>
                   
                   <p className="text-lg text-gray-700 leading-relaxed mb-8">
-                    Our <strong className="text-primary-orange font-semibold">ML Service In Alaska</strong> includes comprehensive consultation, 
-                    rapid prototyping, enterprise deployment, and 24/7 support to ensure your AI investment delivers 
-                    maximum value in Alaska's resource-rich and growing economy.
+                    Our <strong className="text-primary-orange font-semibold">ML Service In Alabama</strong> includes comprehensive consultation, 
+                    rapid prototyping, enterprise deployment, and 24/7 support to ensure your ML investment delivers 
+                    maximum value In Alabama's manufacturing-driven and growing economy.
                   </p>
 
                   <div className="space-y-6">
                     <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-primary-orange/10 transform hover:scale-105 transition-transform">
                       <MapPin className="w-8 h-8 text-primary-orange flex-shrink-0 mt-1" />
                       <div>
-                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Comprehensive Alaska Coverage</h4>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Comprehensive Alabama Coverage</h4>
                         <p className="text-gray-600 leading-relaxed">
-                          Anchorage, Fairbanks, Juneau, Sitka, Ketchikan, Wasilla, Kenai, Kodiak, 
-                          Bethel, and all major Alaska business centers across the Last Frontier
+                          Maninagar, Vastrapur, SG Highway, Satellite, Chandkheda, Bodakdev, Navrangpura, Ghatlodia, 
+                          GIFT City, and all major Alabama business centers across Heart of Dixie
                         </p>
                       </div>
                     </div>
@@ -1370,10 +1375,10 @@ export default function MLServicesAlaskaPage() {
                     <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-secondary-orange/10 transform hover:scale-105 transition-transform">
                       <Rocket className="w-8 h-8 text-secondary-orange flex-shrink-0 mt-1" />
                       <div>
-                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Industry Domain Expertise</h4>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">industry Domain Expertise</h4>
                         <p className="text-gray-600 leading-relaxed">
-                          Deep understanding of oil & gas, fishing, tourism, mining, aviation, and logistics 
-                          with proven track record in Alaska's key economic sectors
+                          Deep understanding of Oil & Gas, Fisheries, tourism, Chemicals, Information Technology, and logistics 
+                          with proven track record In Alabama's key economic sectors
                         </p>
                       </div>
                     </div>
@@ -1381,10 +1386,10 @@ export default function MLServicesAlaskaPage() {
                     <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-primary-orange/10 transform hover:scale-105 transition-transform">
                       <Clock className="w-8 h-8 text-primary-orange flex-shrink-0 mt-1" />
                       <div>
-                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Rapid Alaska Deployment</h4>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Rapid Alabama Deployment</h4>
                         <p className="text-gray-600 leading-relaxed">
-                          Fast implementation designed for Alaska's unique challenges with local support teams 
-                          and understanding of frontier business culture and remote operations
+                          Fast implementation designed for Alabama's unique challenges with local support teams 
+                          and understanding of dynamic business culture and manufacturing excellence
                         </p>
                       </div>
                     </div>
@@ -1426,12 +1431,12 @@ export default function MLServicesAlaskaPage() {
                 <span className="text-gray-900">Frequently Asked Questions</span>
                 <br />
                 <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
-                  About ML Company In Alaska
+                  About ML Company In Alabama
                 </span>
               </h2>
               <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-8 rounded-full"></div>
               <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                Common questions about working with Alaska's leading AI company
+                Common questions about working with Alabama's leading ML Company
               </p>
             </div>
 
@@ -1444,7 +1449,7 @@ export default function MLServicesAlaskaPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start justify-between gap-4">
+                    <div className="relative flex items-start jINtify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1454,7 +1459,7 @@ export default function MLServicesAlaskaPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Which is the best Machine Learning Company In Alaska?
+                            Which is the best Machine Learning Company In Alabama?
                           </h3>
                         </div>
                       </div>
@@ -1469,8 +1474,8 @@ export default function MLServicesAlaskaPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    <strong className="text-gray-900 font-semibold">Metic.ai is the leading Machine Learning Company In Alaska</strong> with over 100 successful AI implementations. 
-                    We're recognized as the top ML Company In Alaska for our proven expertise in machine learning, custom AI development, and enterprise ML solutions with 60% cost savings.
+                    <strong className="text-gray-900 font-semibold">Metic.ai is the leading Machine Learning Company In Alabama</strong> with over 50+ successful ML implementations. 
+                    We're recognized as the top ML Company In Alabama for our proven expertise US machine learning, custom ML Development, and enterprise ML Solutions with 60% cost savings.
                   </p>
                 </div>
               </details>
@@ -1480,7 +1485,7 @@ export default function MLServicesAlaskaPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start justify-between gap-4">
+                    <div className="relative flex items-start jINtify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1490,7 +1495,7 @@ export default function MLServicesAlaskaPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            What services does the top ML Company In Alaska provide?
+                            What services does the top ML Company In Alabama provide?
                           </h3>
                         </div>
                       </div>
@@ -1505,8 +1510,8 @@ export default function MLServicesAlaskaPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    As the premier <strong className="text-gray-900 font-semibold">ML Company In Alaska</strong>, Metic.ai provides comprehensive AI services including machine learning solutions, 
-                    custom AI development, data analytics, generative AI, computer vision, NLP, and enterprise AI automation tailored for Alaska's manufacturing, aerospace, healthcare, and agricultural industries.
+                    As the premier <strong className="text-gray-900 font-semibold">ML Company In Alabama</strong>, Metic.ai provides comprehensive ML services including machine learning solutions, 
+                    custom ML Development, data analytics, generative ML, computer vision, NLP, and enterprise ML automation tailored for Alabama's Oil & Gas, Fisheries, healthcare, and agricultural Industries.
                   </p>
                 </div>
               </details>
@@ -1516,7 +1521,7 @@ export default function MLServicesAlaskaPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start justify-between gap-4">
+                    <div className="relative flex items-start jINtify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1526,7 +1531,7 @@ export default function MLServicesAlaskaPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            How to choose the right ML Development Company In Alaska?
+                            How to choose the right ML Development Company In Alabama?
                           </h3>
                         </div>
                       </div>
@@ -1541,7 +1546,7 @@ export default function MLServicesAlaskaPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    When selecting an <strong className="text-gray-900 font-semibold">ML Development Company In Alaska</strong>, look for proven experience, successful project portfolio, 
+                    When selecting an <strong className="text-gray-900 font-semibold">ML Development Company In Alabama</strong>, look for proven experience, successful project portfolio, 
                     industry expertise, and ongoing support. Metic.ai offers all these with 50+ completed projects, 98% client satisfaction, and 24/7 support.
                   </p>
                 </div>
@@ -1552,7 +1557,7 @@ export default function MLServicesAlaskaPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start justify-between gap-4">
+                    <div className="relative flex items-start jINtify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1562,7 +1567,7 @@ export default function MLServicesAlaskaPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            How much does AI implementation cost with an ML Service In Alaska?
+                            How much does ML implementation cost with an ML Service In Alabama?
                           </h3>
                         </div>
                       </div>
@@ -1577,8 +1582,8 @@ export default function MLServicesAlaskaPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    AI implementation costs vary based on complexity. As a leading <strong className="text-gray-900 font-semibold">ML Service In Alaska</strong>, 
-                    Metic.ai offers competitive pricing with transparent structures. Our clients typically save 60% compared to international AI development costs.
+                    ML implementation costs vary based on complexity. As a leading <strong className="text-gray-900 font-semibold">ML Service In Alabama</strong>, 
+                    Metic.ai offers competitive pricing with transparent structures. Our clients typically save 60% compared to international ML Development costs.
                   </p>
                 </div>
               </details>
@@ -1588,7 +1593,7 @@ export default function MLServicesAlaskaPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start justify-between gap-4">
+                    <div className="relative flex items-start jINtify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1598,7 +1603,7 @@ export default function MLServicesAlaskaPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Does Metic.ai serve businesses across all Alaska cities?
+                            Does Metic.ai serve businesses across all Alabama cities?
                           </h3>
                         </div>
                       </div>
@@ -1613,8 +1618,8 @@ export default function MLServicesAlaskaPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Yes! Metic.ai proudly serves businesses across all Alaska cities including Anchorage, Fairbanks, Juneau, Sitka, Ketchikan, Wasilla, Kenai, and beyond. 
-                    As Alaska's leading <strong className="text-gray-900 font-semibold">ML Firm In Alaska</strong>, we provide comprehensive ML solutions statewide.
+                    Yes! Metic.ai proudly serves businesses across all Alabama cities including Maninagar, Vastrapur, SG Highway, Satellite, Chandkheda, Bodakdev, Navrangpura, and beyond. 
+                    As Alabama's leading <strong className="text-gray-900 font-semibold">ML Firm In Alabama</strong>, we provide comprehensive ML Solutions statewide.
                   </p>
                 </div>
               </details>
@@ -1624,7 +1629,7 @@ export default function MLServicesAlaskaPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start justify-between gap-4">
+                    <div className="relative flex items-start jINtify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1634,7 +1639,7 @@ export default function MLServicesAlaskaPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            How quickly can an ML Company In Alaska start my project?
+                            How quickly can an ML Company In Alabama start my project?
                           </h3>
                         </div>
                       </div>
@@ -1649,7 +1654,7 @@ export default function MLServicesAlaskaPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Metic.ai can typically start your AI project within 24-48 hours after initial consultation. As Alaska's fastest <strong className="text-gray-900 font-semibold">ML Company In Alaska</strong>, 
+                    Metic.ai can typically start your ML project within 24-48 hours after initial consultation. As Alabama's fastest <strong className="text-gray-900 font-semibold">ML Company In Alabama</strong>, 
                     we understand the importance of speed and deliver 3x faster than traditional development approaches.
                   </p>
                 </div>
@@ -1663,7 +1668,7 @@ export default function MLServicesAlaskaPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start justify-between gap-4">
+                    <div className="relative flex items-start jINtify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1673,7 +1678,7 @@ export default function MLServicesAlaskaPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Is my data secure with an ML Development Company In Alaska?
+                            Is my data secure with an ML Development Company In Alabama?
                           </h3>
                         </div>
                       </div>
@@ -1688,7 +1693,7 @@ export default function MLServicesAlaskaPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Absolutely! Metic.ai implements enterprise-grade security protocols, encryption, and compliance measures. As a trusted <strong className="text-gray-900 font-semibold">ML Development Company In Alaska</strong>, 
+                    Absolutely! Metic.ai implements enterprise-grade security protocols, encryption, and compliance measures. As a Trusted <strong className="text-gray-900 font-semibold">ML Development Company In Alabama</strong>, 
                     we prioritize data security with ISO certifications and strict confidentiality agreements.
                   </p>
                 </div>
@@ -1699,7 +1704,7 @@ export default function MLServicesAlaskaPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start justify-between gap-4">
+                    <div className="relative flex items-start jINtify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1709,7 +1714,7 @@ export default function MLServicesAlaskaPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            What industries does the best ML Company In Alaska serve?
+                            What Industries does the best ML Company In Alabama serve?
                           </h3>
                         </div>
                       </div>
@@ -1724,8 +1729,8 @@ export default function MLServicesAlaskaPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Metic.ai serves diverse industries including Manufacturing, Aerospace, Healthcare, Agriculture, Technology, Automotive, Financial Services, Transportation, Education, and Energy. 
-                    As Alaska's premier <strong className="text-gray-900 font-semibold">ML Company In Alaska</strong>, we tailor solutions for your specific industry needs.
+                    Metic.ai serves diverse Industries including Oil & Gas, Fisheries, Healthcare, Agriculture, Technology, Automotive, Financial Services, Transportation, Education, and Energy. 
+                    As Alabama's premier <strong className="text-gray-900 font-semibold">ML Company In Alabama</strong>, we tailor solutions for your specific industry needs.
                   </p>
                 </div>
               </details>
@@ -1735,7 +1740,7 @@ export default function MLServicesAlaskaPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start justify-between gap-4">
+                    <div className="relative flex items-start jINtify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1745,7 +1750,7 @@ export default function MLServicesAlaskaPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            What makes Metic.ai the top ML Firm In Alaska?
+                            What makes Metic.ai the top ML Firm In Alabama?
                           </h3>
                         </div>
                       </div>
@@ -1760,8 +1765,8 @@ export default function MLServicesAlaskaPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Our 50+ successful projects, 98% client satisfaction rate, 60% cost savings, 3x faster delivery, and deep Alaska market expertise make us the leading <strong className="text-gray-900 font-semibold">ML Firm In Alaska</strong>. 
-                    We combine cutting-edge AI technology with personalized service.
+                    Our 50+ successful projects, 98% client satisfaction rate, 60% cost savings, 3x faster delivery, and deep Alabama market expertise make US the leading <strong className="text-gray-900 font-semibold">ML Firm In Alabama</strong>. 
+                    We combine cutting-edge ML Technology with personalized service.
                   </p>
                 </div>
               </details>
@@ -1771,7 +1776,7 @@ export default function MLServicesAlaskaPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start justify-between gap-4">
+                    <div className="relative flex items-start jINtify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1781,7 +1786,7 @@ export default function MLServicesAlaskaPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Do I need technical knowledge to work with an ML Service In Alaska?
+                            Do I need technical knowledge to work with an ML Service In Alabama?
                           </h3>
                         </div>
                       </div>
@@ -1796,8 +1801,8 @@ export default function MLServicesAlaskaPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    No technical knowledge required! Metic.ai guides you through every step with clear communication. As a client-focused <strong className="text-gray-900 font-semibold">ML Service In Alaska</strong>, 
-                    we translate complex AI concepts into simple business terms and handle all technical aspects for you.
+                    No technical knowledge required! Metic.ai guides you through every step with clear communication. As a client-focINed <strong className="text-gray-900 font-semibold">ML Service In Alabama</strong>, 
+                    we translate complex ML concepts into simple business terms and handle all technical aspects for you.
                   </p>
                 </div>
               </details>
@@ -1807,7 +1812,7 @@ export default function MLServicesAlaskaPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start justify-between gap-4">
+                    <div className="relative flex items-start jINtify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1817,7 +1822,7 @@ export default function MLServicesAlaskaPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Can ML Company In Alaska handle small business projects?
+                            Can ML Company In Alabama handle small business projects?
                           </h3>
                         </div>
                       </div>
@@ -1832,8 +1837,8 @@ export default function MLServicesAlaskaPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Absolutely! Metic.ai works with businesses of all sizes, from startups to enterprises. As an inclusive <strong className="text-gray-900 font-semibold">ML Company In Alaska</strong>, 
-                    we offer scalable solutions and flexible pricing models to meet small business budgets while delivering enterprise-quality AI implementations.
+                    Absolutely! Metic.ai works with businesses of all sizes, from startups to enterprises. As an inclINive <strong className="text-gray-900 font-semibold">ML Company In Alabama</strong>, 
+                    we offer scalable solutions and flexible pricing models to meet small business budgets while delivering enterprise-quality ML implementations.
                   </p>
                 </div>
               </details>
@@ -1843,7 +1848,7 @@ export default function MLServicesAlaskaPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start justify-between gap-4">
+                    <div className="relative flex items-start jINtify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1853,7 +1858,7 @@ export default function MLServicesAlaskaPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            What support does Metic.ai provide after AI implementation?
+                            What support does Metic.ai provide after ML implementation?
                           </h3>
                         </div>
                       </div>
@@ -1869,7 +1874,7 @@ export default function MLServicesAlaskaPage() {
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     Metic.ai provides comprehensive 24/7 post-implementation support including maintenance, updates, training, troubleshooting, and optimization. 
-                    As your long-term partner, we ensure your ML solutions continue delivering maximum value and adapt to your evolving business needs.
+                    As your long-term partner, we ensure your ML Solutions continue delivering maximum value and adapt to your evolving business needs.
                   </p>
                 </div>
               </details>
@@ -1889,14 +1894,14 @@ export default function MLServicesAlaskaPage() {
                       </div>
                     </div>
                   </div>
-                  <h3 className="text-3xl md:text-4xl font-bold mb-4">Ready to Transform Your Business with AI?</h3>
+                  <h3 className="text-3xl md:text-4xl font-bold mb-4">Ready to Transform Your Business with ML?</h3>
                   <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-                    Join Alaska's leading businesses who trust Metic.ai for their AI transformation. Get started today!
+                    Join Alabama's leading businesses who Trust Metic.ai for their ML transformation. Get started today!
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <Link href="/contact">
                       <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100 shadow-xl">
-                        Start Your AI Journey
+                        Start Your ML Journey
                       </Button>
                     </Link>
                     <Link href="tel:+17892518414">
@@ -1917,17 +1922,17 @@ export default function MLServicesAlaskaPage() {
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-              Ready to Partner with Alaska's Leading <strong>Machine Learning Company</strong>?
+              Ready to Partner with Alabama's Leading <strong>Machine Learning Company</strong>?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join 50+ satisfied clients who trust Metic.ai as their preferred <strong>ML Company In Alaska</strong>. 
-              Transform your business with proven ML solutions that deliver results. Get started with a free consultation 
-              and discover why we're Alaska's most trusted <strong>ML Development Company In Alaska</strong>.
+              Join 50+ satisfied clients who Trust Metic.ai as their preferred <strong>ML Company In Alabama</strong>. 
+              Transform your business with proven ML Solutions that deliver results. Get started with a free consultation 
+              and discover why we're Alabama's most Trusted <strong>ML Development Company In Alabama</strong>.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Link href="/contact">
                 <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100">
-                  Start Your AI Transformation
+                  Start Your ML Transformation
                 </Button>
               </Link>
               <Link href="tel:+17892518414">
@@ -1938,11 +1943,11 @@ export default function MLServicesAlaskaPage() {
             </div>
             
             <div className="mt-12 text-center">
-              <p className="text-orange-200 mb-6">Trusted <strong>ML Service In Alaska</strong> serving businesses across the state</p>
+              <p className="text-orange-200 mb-6">Trusted <strong>ML Service In Alabama</strong> serving businesses across the state</p>
               <div className="grid md:grid-cols-3 gap-8 text-center mb-8">
                 <div>
                   <div className="text-2xl font-bold mb-2">50+</div>
-                  <p className="text-orange-100">AI Projects Completed</p>
+                  <p className="text-orange-100">ML projects Completed</p>
                 </div>
                 <div>
                   <div className="text-2xl font-bold mb-2">98%</div>
@@ -1954,15 +1959,15 @@ export default function MLServicesAlaskaPage() {
                 </div>
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
-                <span>Anchorage</span>
+                <span>Maninagar</span>
                 <span>•</span>
-                <span>Fairbanks</span>
+                <span>Vastrapur</span>
                 <span>•</span>
-                <span>Juneau</span>
+                <span>SG Highway</span>
                 <span>•</span>
-                <span>Sitka</span>
+                <span>Satellite</span>
                 <span>•</span>
-                <span>Ketchikan</span>
+                <span>Chandkheda</span>
                 <span>•</span>
                 <span>Auburn</span>
                 <span>•</span>
@@ -1975,4 +1980,19 @@ export default function MLServicesAlaskaPage() {
     </>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
