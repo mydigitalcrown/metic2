@@ -1342,7 +1342,7 @@ export default function MLServicesAhmedabadPage() {
                     </div>
                     <div>
                       <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
-                        Your Trusted <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">AI Partner In Ahmedabad</span>
+                        Your Trusted <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">ML Partner In Ahmedabad</span>
                       </h3>
                       <div className="w-24 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange rounded-full mb-6"></div>
                     </div>
