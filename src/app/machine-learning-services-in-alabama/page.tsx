@@ -1342,7 +1342,7 @@ export default function MLServicesAlabamaPage() {
                     </div>
                     <div>
                       <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
-                        Your Trusted <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">AI Partner In Alabama</span>
+                        Your Trusted <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">ML Partner In Alabama</span>
                       </h3>
                       <div className="w-24 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange rounded-full mb-6"></div>
                     </div>
@@ -1357,7 +1357,7 @@ export default function MLServicesAlabamaPage() {
                   <p className="text-lg text-gray-700 leading-relaxed mb-8">
                     Our <strong className="text-primary-orange font-semibold">ML Service In Alabama</strong> includes comprehensive consultation, 
                     rapid prototyping, enterprise deployment, and 24/7 support to ensure your ML investment delivers 
-                    maximum value In Alabama's textile-driven and growing economy.
+                    maximum value In Alabama's manufacturing-driven and growing economy.
                   </p>
 
                   <div className="space-y-6">
