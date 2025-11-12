@@ -19,7 +19,7 @@ const testimonials: Testimonial[] = [
     name: "James Mitchell",
     company: "Tech Solutions Inc.",
     rating: 5,
-    review: "Metic.ai transformed our business operations completely! Their AI solutions increased our productivity by 60% and reduced operational costs significantly. The team's expertise and support throughout the implementation process was exceptional.",
+    review: "Metic.ai transformed our business operations completely! Their ML solutions increased our productivity by 60% and reduced operational costs significantly. The team's expertise and support throughout the implementation process was exceptional.",
     metric: "60%",
     metricLabel: "Productivity Increase",
     subMetric: "ROI: 450% within 8 months",
@@ -31,7 +31,7 @@ const testimonials: Testimonial[] = [
     name: "Sarah Martinez",
     company: "Global Manufacturing Corp",
     rating: 5,
-    review: "Working with Metic.ai has been a game-changer for our manufacturing processes. Their custom AI development reduced production errors by 75% and improved our quality control dramatically. Outstanding AI company with proven results!",
+    review: "Working with Metic.ai has been a game-changer for our manufacturing processes. Their custom ML development reduced production errors by 75% and improved our quality control dramatically. Outstanding ML company with proven results!",
     metric: "75%",
     metricLabel: "Error Reduction",
     subMetric: "Quality score: +85%",
@@ -43,7 +43,7 @@ const testimonials: Testimonial[] = [
     name: "Robert Kim",
     company: "FinanceHub Solutions",
     rating: 5,
-    review: "Metic.ai delivered exceptional AI integration for our financial services platform. Their machine learning models improved our fraud detection by 92% while enhancing customer experience. Best AI development company we've worked with!",
+    review: "Metic.ai delivered exceptional ML integration for our financial services platform. Their machine learning models improved our fraud detection by 92% while enhancing customer experience. Best ML development company we've worked with!",
     metric: "92%",
     metricLabel: "Fraud Detection Rate",
     subMetric: "Cost savings: $4.2M annually",
@@ -55,7 +55,7 @@ const testimonials: Testimonial[] = [
     name: "Emily Chen",
     company: "HealthCare Innovations",
     rating: 5,
-    review: "Metic.ai's AI solutions revolutionized our patient care system. Their predictive analytics reduced wait times by 45% and improved patient outcomes significantly. Their healthcare expertise and dedicated support is unmatched.",
+    review: "Metic.ai's ML solutions revolutionized our patient care system. Their predictive analytics reduced wait times by 45% and improved patient outcomes significantly. Their healthcare expertise and dedicated support is unmatched.",
     metric: "45%",
     metricLabel: "Wait Time Reduction",
     subMetric: "Patient satisfaction: +68%",
@@ -67,7 +67,7 @@ const testimonials: Testimonial[] = [
     name: "David Wilson",
     company: "Retail Dynamics Group",
     rating: 5,
-    review: "Metic.ai's AI-powered inventory management system transformed our retail operations. We achieved 58% reduction in stockouts and 40% improvement in inventory turnover. Their retail AI expertise delivered measurable business impact!",
+    review: "Metic.ai's ML-powered inventory management system transformed our retail operations. We achieved 58% reduction in stockouts and 40% improvement in inventory turnover. Their retail ML expertise delivered measurable business impact!",
     metric: "58%",
     metricLabel: "Stockout Reduction",
     subMetric: "Inventory efficiency: +40%",
@@ -79,7 +79,7 @@ const testimonials: Testimonial[] = [
     name: "Lisa Park",
     company: "Transportation Systems Ltd",
     rating: 5,
-    review: "Metic.ai's logistics AI solution optimized our delivery routes and reduced fuel consumption by 38%. Their real-time optimization algorithms and predictive maintenance saved us millions. Exceptional AI company with deep industry knowledge!",
+    review: "Metic.ai's logistics ML solution optimized our delivery routes and reduced fuel consumption by 38%. Their real-time optimization algorithms and predictive maintenance saved us millions. Exceptional ML company with deep industry knowledge!",
     metric: "38%",
     metricLabel: "Fuel Cost Reduction",
     subMetric: "On-time delivery: +52%",
@@ -98,11 +98,11 @@ export default function Testimonials() {
           <Star className="w-5 h-5 text-primary-orange" />
         </div>
         <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-          AI Implementation <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Success Stories</span>
+          ML Implementation <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Success Stories</span>
         </h3>
         <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 rounded-full"></div>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-          Real results from businesses that transformed their operations with Metic.ai's AI solutions
+          Real results from businesses that transformed their operations with Metic.ai's ML solutions
         </p>
       </div>
       
