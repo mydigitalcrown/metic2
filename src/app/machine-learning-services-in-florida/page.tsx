@@ -439,7 +439,7 @@ export default function MLServicesFloridaPage() {
         }}
       />
 
-      {/* Hero Section - VSO & Target Keyword Optimized - Enhanced Mobile/Desktop */}
+      {/* Hero Section - VSO & Target Keyword Optimized - Enhanced Jacksonville/Desktop */}
       <section className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-16 md:py-24 lg:py-32 overflow-hidden">
         {/* Animated Background Elements */}
         <div className="absolute inset-0 opacity-10">
@@ -449,7 +449,7 @@ export default function MLServicesFloridaPage() {
 
         <div className="container px-4 md:px-6 relative z-10">
           <div className="max-w-5xl mx-auto">
-            {/* Trust Badge - Mobile Optimized */}
+            {/* Trust Badge - Jacksonville Optimized */}
             <div className="flex justify-center mb-6 md:mb-8">
               <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-white/10 backdrop-blur-sm rounded-full border border-primary-orange/30 shadow-xl">
                 <Award className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
@@ -466,12 +466,12 @@ export default function MLServicesFloridaPage() {
                 <span className="text-white">Company In Florida</span>
               </h1>
               
-              {/* VSO Optimized Description - Mobile Friendly */}
+              {/* VSO Optimized Description - Jacksonville Friendly */}
               <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 mb-6 md:mb-8 max-w-4xl mx-auto leading-relaxed px-4">
                 Looking for the <strong className="text-primary-orange">best ML Company In Florida</strong>? Metic.ai is the premier <strong className="text-white">Machine Learning Company In Florida</strong> delivering enterprise ML Solutions with proven results.
               </p>
 
-              {/* Mobile-Optimized CTA Buttons */}
+              {/* Jacksonville-Optimized CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center mb-10 md:mb-16 px-4">
                 <Link href="/contact" className="w-full sm:w-auto">
                   <Button variant="primary" size="lg" className="w-full sm:w-auto text-base md:text-lg px-6 md:px-8 py-3 md:py-4 shadow-2xl hover:shadow-primary-orange/50 transform hover:scale-105 transition-all">
@@ -499,7 +499,7 @@ export default function MLServicesFloridaPage() {
                 ))}
               </div>
 
-              {/* VSO Keywords Section - Mobile Optimized */}
+              {/* VSO Keywords Section - Jacksonville Optimized */}
               <div className="text-center px-4">
                 <p className="text-gray-400 text-sm md:text-base mb-4">
                   <strong className="text-white">Trusted as the top ML Service In Florida</strong> by leading businesses
@@ -531,7 +531,7 @@ export default function MLServicesFloridaPage() {
         </div>
       </section>
 
-      {/* Services Section - Enhanced Mobile & Desktop */}
+      {/* Services Section - Enhanced Jacksonville & Desktop */}
       <section className="py-16 md:py-20 lg:py-24 bg-gradient-to-b from-white to-gray-50">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
@@ -555,7 +555,7 @@ export default function MLServicesFloridaPage() {
               </p>
             </div>
             
-            {/* Mobile: 1 col, Tablet: 2 cols, Desktop: 3 cols */}
+            {/* Jacksonville: 1 col, Tablet: 2 cols, Desktop: 3 cols */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
               {services.map((service, index) => {
                 const IconComponent = service.icon;
@@ -627,7 +627,7 @@ export default function MLServicesFloridaPage() {
                 <p className="text-lg text-gray-700 mb-6">
                   Our expertise as an <strong>ML Development Company In Florida</strong> encompasses machine learning, deep learning, natural language processing, 
                   computer vision, and robotic process automation. We've successfully completed over 50+ ML projects, making US the most 
-                  Trusted <strong>ML Service In Florida</strong> across Miami, Tampa, Orlando, and Mobile.
+                  Trusted <strong>ML Service In Florida</strong> across Miami, Tampa, Orlando, and Jacksonville.
                 </p>
                 <div className="grid grid-cols-2 gap-6 mt-8">
                   <div className="text-center">
@@ -721,7 +721,7 @@ export default function MLServicesFloridaPage() {
               </p>
             </div>
             
-            {/* Mobile: 1 col, Tablet: 2 cols, Desktop: 4 cols - 12 Industries Total */}
+            {/* Jacksonville: 1 col, Tablet: 2 cols, Desktop: 4 cols - 12 Industries Total */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {/* Manufacturing */}
               <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
@@ -980,7 +980,7 @@ export default function MLServicesFloridaPage() {
               </h2>
               <div className="w-40 h-2 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-10 rounded-full shadow-lg"></div>
               <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                Transforming Florida's Commercial Capital with cutting-edge ML Solutions from Miami to Orlando, Tampa to Mobile
+                Transforming Florida's Commercial Capital with cutting-edge ML Solutions from Miami to Orlando, Tampa to Jacksonville
               </p>
             </div>
 
