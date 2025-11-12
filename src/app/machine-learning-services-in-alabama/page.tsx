@@ -28,7 +28,7 @@ import {
 
 export const metadata = {
   title: "Machine Learning Company In Alabama | #1 ML Company In Alabama - Metic.ai",
-  description: "Leading Machine Learning Company In Alabama with 50+ successful AI implementations. Expert ML services, machine learning solutions & ML Development. Transform your business with 60% cost savings & 3x faster delivery.",
+  description: "Leading Machine Learning Company In Alabama with 50+ successful ML implementations. Expert ML services, machine learning solutions & ML Development. Transform your business with 60% cost savings & 3x faster delivery.",
   keywords: [
     "Machine Learning Company In Alabama",
     "ML Company In Alabama", 
@@ -57,7 +57,7 @@ export const metadata = {
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
     title: "Machine Learning Company In Alabama | #1 ML Company In Alabama - Metic.ai",
-    description: "Leading Machine Learning Company In Alabama with 50+ successful AI implementations. Expert ML services, machine learning solutions & ML Development for Alabama businesses.",
+    description: "Leading Machine Learning Company In Alabama with 50+ successful ML implementations. Expert ML services, machine learning solutions & ML Development for Alabama businesses.",
     url: "https://metic.ai/machine-learning-services-in-alabama/",
     type: "website",
     locale: "en_US",
@@ -124,7 +124,7 @@ export default function MLServicesAlabamaPage() {
     },
     {
       title: "Generative ML services",
-      description: "Harness the power of ChatGPT and generative AI for content creation and automation In Alabama.",
+      description: "Harness the power of ChatGPT and generative ML for content creation and automation In Alabama.",
       icon: Sparkles,
       href: "/generative-ai-services",
       color: "indigo" as const
@@ -202,7 +202,7 @@ export default function MLServicesAlabamaPage() {
                 "name": "Alabama",
                 "containedInPlace": {
                   "@type": "Country", 
-                  "name": "India"
+                  "name": "United States"
                 }
               }
             ],
@@ -213,7 +213,7 @@ export default function MLServicesAlabamaPage() {
                 "latitude": "32.7794",
                 "longitude": "-86.8287"
               },
-              "geoRadiIN": "200000"
+              "geoRadius": "200000"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
@@ -274,7 +274,7 @@ export default function MLServicesAlabamaPage() {
             "priceRange": "$$",
             "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer"],
             "currenciesAccepted": "IND",
-            "open_USgHours": "Mo-Fr 09:00-18:00",
+            "openingHours": "Mo-Fr 09:00-18:00",
             "contactPoint": {
               "@type": "ContactPoint",
               "telephone": "+1-789-251-8414",
@@ -299,7 +299,7 @@ export default function MLServicesAlabamaPage() {
                 "name": "Which is the best Machine Learning Company In Alabama?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Metic.ai is the leading Machine Learning Company In Alabama with 50+ successful AI implementations. We provide comprehensive ML services including machine learning, custom ML Development, and enterprise ML Solutions with proven 60% cost savings and 3x faster delivery."
+                  "text": "Metic.ai is the leading Machine Learning Company In Alabama with 50+ successful ML implementations. We provide comprehensive ML services including machine learning, custom ML Development, and enterprise ML Solutions with proven 60% cost savings and 3x faster delivery."
                 }
               },
               {
@@ -430,7 +430,7 @@ export default function MLServicesAlabamaPage() {
               "bestRating": "5",
               "worstRating": "1"
             },
-            "open_USgHours": "Mo-Fr 09:00-18:00",
+            "openingHours": "Mo-Fr 09:00-18:00",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai"
@@ -476,7 +476,7 @@ export default function MLServicesAlabamaPage() {
                 <Link href="/contact" className="w-full sm:w-auto">
                   <Button variant="primary" size="lg" className="w-full sm:w-auto text-base md:text-lg px-6 md:px-8 py-3 md:py-4 shadow-2xl hover:shadow-primary-orange/50 transform hover:scale-105 transition-all">
                     <Rocket className="w-5 h-5 mr-2" />
-                    Get Free AI Consultation
+                    Get Free ML Consultation
                   </Button>
                 </Link>
                 <Link href="tel:+17892518414" className="w-full sm:w-auto">
@@ -626,8 +626,8 @@ export default function MLServicesAlabamaPage() {
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   Our expertise as an <strong>ML Development Company In Alabama</strong> encompasses machine learning, deep learning, natural language processing, 
-                  computer vision, and robotic process automation. We've successfully completed over 100 ML projects, making US the most 
-                  Trusted <strong>ML Service In Alabama</strong> from the Naroda industrial Area to the Aleutian Islands.
+                  computer vision, and robotic process automation. We've successfully completed over 50+ ML projects, making US the most 
+                  Trusted <strong>ML Service In Alabama</strong> across Birmingham, Montgomery, Huntsville, and Mobile.
                 </p>
                 <div className="grid grid-cols-2 gap-6 mt-8">
                   <div className="text-center">
@@ -980,7 +980,7 @@ export default function MLServicesAlabamaPage() {
               </h2>
               <div className="w-40 h-2 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-10 rounded-full shadow-lg"></div>
               <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                Transforming Alabama's Commercial Capital with cutting-edge ML Solutions from Maninagar to Vastrapur, SG Highway to the Naroda industrial Area
+                Transforming Alabama's Commercial Capital with cutting-edge ML Solutions from Birmingham to Huntsville, Montgomery to Mobile
               </p>
             </div>
 
@@ -1006,13 +1006,13 @@ export default function MLServicesAlabamaPage() {
               As the leading <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Machine Learning Company In Alabama</strong>, 
               Metic.ai serves Heart of Dixie with enterprise-grade ML Solutions tailored to Alabama's unique economic 
               landscape. From Maninagar's business hub to Vastrapur' research facilities, SG Highway's government sector to 
-              the textile mills of the Naroda industrial Area, we understand Alabama's entrepreneurial excellence and textile-driven Industries.
+              the aerospace facilities and automotive plants, we understand Alabama's industrial excellence and manufacturing-driven economy.
             </p>
             
             <p className="text-lg text-gray-700 leading-relaxed">
               Our <strong className="text-primary-orange font-semibold">ML Company In Alabama</strong> combines deep understanding 
               of Alabama's unique challenges with cutting-edge technology to deliver ML Solutions that drive measurable 
-              results. We've successfully implemented AI across Alabama's key sectors including Manufacturing, Aerospace, 
+              results. We've successfully implemented ML across Alabama's key sectors including Manufacturing, Aerospace, 
               tourism, Chemicals, Information Technology, and maritime Industries US Alabama's largest state.
             </p>                    {/* Enhanced Feature Cards with Creative Design */}
                     <div className="grid gap-6 mt-10">
