@@ -28,7 +28,7 @@ import {
 
 export const metadata = {
   title: "Generative AI Company In Arizona | #1 AI Company In Arizona - Metic.ai",
-  description: "Leading Generative AI Company In Arizona In Arizona with 50+ successful AI implementations. Expert ChatGPT integration, GPT-4 services, LLM development & AI solutions. Transform your business with 60% cost savings & 3x faster delivery.",
+  description: "Leading Generative AI Company In Arizona with 50+ successful AI implementations. Expert ChatGPT integration, GPT-4 services, LLM development & AI solutions. Transform your business with 60% cost savings & 3x faster delivery.",
   keywords: [
     "Generative AI Company In Arizona",
     "Generative AI Services In Arizona", 
@@ -56,32 +56,32 @@ export const metadata = {
   authors: [{ name: "Metic.ai Arizona Generative AI Team" }],
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
-    title: "Generative AI Company In Arizona | #1 AI Company In Arizona - Metic.ai",
-    description: "Leading Generative AI Company In Arizona In Arizona with 50+ successful AI implementations. Expert ChatGPT integration, GPT-4 services, LLM development & AI solutions. Transform your business with 60% cost savings & 3x faster delivery.",
-    url: "https://metic.ai/generative-ai-services-in-arizona/",
+    title: "Generative AI Company In Arizona | #1 Generative AI Services In Arizona - Metic.ai",
+    description: "Leading Generative AI Company In Arizona with 50+ successful AI implementations. Expert AI services, Generative AI solutions & AI development for Arizona businesses.",
+    url: "https://metic.ai/generative-ai-services-in-Arizona/",
     type: "website",
-    locale: "en_US",
+    locale: "en_IN",
     siteName: "Metic.ai - Generative AI Services In Arizona",
     images: [
       {
-        url: "https://metic.ai/og-generative-ai-company.jpg",
+        url: "https://metic.ai/og-generative-ai-Arizona.jpg",
         width: 1200,
         height: 630,
-        alt: "Generative AI Company - Metic.ai",
+        alt: "Generative AI Company In Arizona - Metic.ai",
         type: "image/jpeg"
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Generative AI Company In Arizona | #1 AI Company In Arizona - Metic.ai",
-    description: "Leading Generative AI Services delivering enterprise artificial intelligence solutions. Expert AI development, Generative AI & automation services with proven results.",
-    images: ["https://metic.ai/og-generative-ai-company.jpg"],
+    title: "Generative AI Company In Arizona | Generative AI Services In Arizona",
+    description: "Leading Generative AI Services In Arizona delivering enterprise artificial intelligence solutions. Expert AI development, Generative AI & automation services with proven results.",
+    images: ["https://metic.ai/og-generative-ai-Arizona.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/generative-ai-services-in-arizona/",
+    canonical: "https://metic.ai/generative-ai-services-in-Arizona/",
   },
   verification: {
     google: "google-site-verification-code",
@@ -92,46 +92,46 @@ export const metadata = {
   classification: "business Services"
 };
 
-export default function AIServicesArizonaPage() {
+export default function GenerativeAIServicesArizonaPage() {
   const services = [
     {
-      title: "AI Integration & Deployment",
-      description: "Seamlessly integrate AI solutions into your Arizona business operations with enterprise-grade deployment strategies.",
+      title: "ChatGPT Integration",
+      description: "Seamlessly integrate ChatGPT and GPT-4 into your Arizona business operations with enterprise-grade deployment strategies.",
       icon: Zap,
       href: "/ai-integration-and-deployment",
       color: "blue" as const
     },
     {
-      title: "Generative AI Solutions",
-      description: "Advanced ML algorithms and predictive analytics tailored for Arizona businesses and Industries.",
+      title: "Custom GPT Development",
+      description: "Build custom GPT models and LLM solutions tailored for Arizona businesses and Industries.",
       icon: Brain,
       href: "/machine-learning",
       color: "purple" as const
     },
     {
-      title: "Custom AI Development",
-      description: "Bespoke AI solutions designed specifically for your Arizona business requirements and goals.",
+      title: "AI Image Generation",
+      description: "DALL-E, Midjourney, and Stable Diffusion integration designed specifically for your Arizona business creative needs.",
       icon: Code,
       href: "/custom-ai-development",
       color: "green" as const
     },
     {
-      title: "Data Analytics & BI",
-      description: "Transform your Arizona business data into actionable insights with advanced analytics platforms.",
+      title: "AI Content Creation",
+      description: "Transform your Arizona business content strategy with AI-powered writing, copywriting, and content generation.",
       icon: BarChart3,
       href: "/data-insights",
       color: "orange" as const
     },
     {
-      title: "Generative AI Services",
-      description: "Harness the power of ChatGPT and generative AI for content creation and automation .",
+      title: "LLM Development",
+      description: "Harness the power of Large Language Models for intelligent chatbots, automation, and business solutions.",
       icon: Sparkles,
       href: "/generative-ai-services",
       color: "indigo" as const
     },
     {
-      title: "Data Engineering",
-      description: "Robust data infrastructure and ETL pipelines for Arizona enterprises and growing businesses.",
+      title: "AI Automation",
+      description: "Robust AI automation and intelligent workflows for Arizona enterprises and growing businesses.",
       icon: Database,
       href: "/data-engineering",
       color: "red" as const
@@ -139,22 +139,22 @@ export default function AIServicesArizonaPage() {
   ];
 
   const Industries = [
-    "Technology & Software",
-    "Aerospace & Defense",
-    "Healthcare",
-    "Manufacturing",
+    "Oil & Gas",
+    "Fishing & Seafood",
     "Tourism & Hospitality",
     "Mining",
+    "Transportation",
+    "Healthcare",
+    "Aerospace & Defense",
     "Renewable Energy",
-    "Real Estate",
-    "Financial Services",
+    "Government Services",
     "Education",
     "Logistics",
     "Construction"
   ];
 
   const stats = [
-    { number: "2100+", label: "Businesses Served" },
+    { number: "50+", label: "Projects Delivered" },
     { number: "99.5%", label: "Client Satisfaction" },
     { number: "5.2x", label: "Average ROI Increase" },
     { number: "24/7", label: "Support Available" }
@@ -171,8 +171,8 @@ export default function AIServicesArizonaPage() {
             "@type": ["Organization", "TechnologyCompany", "LocalBusiness"],
             "name": "Metic.ai - Generative AI Company In Arizona",
             "alternateName": ["Generative AI Services In Arizona", "Metic AI", "AI Firm Arizona"],
-            "description": "Leading Generative AI Company In Arizona In Arizona providing enterprise AI solutions, Generative AI development, and Custom AI services for businesses across Arizona.",
-            "url": "https://metic.ai/generative-ai-services/",
+            "description": "Leading Generative AI Company In Arizona providing enterprise AI solutions, Generative AI development, and Custom AI services for businesses across Arizona.",
+            "url": "https://metic.ai/generative-ai-services-in-Arizona/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
@@ -202,7 +202,7 @@ export default function AIServicesArizonaPage() {
                 "name": "Arizona",
                 "containedInPlace": {
                   "@type": "Country", 
-                  "name": "India"
+                  "name": "United States"
                 }
               }
             ],
@@ -273,8 +273,8 @@ export default function AIServicesArizonaPage() {
             },
             "priceRange": "$$",
             "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer"],
-            "currenciesAccepted": "USD",
-            "open_USgHours": "Mo-Fr 09:00-18:00",
+            "currenciesAccepted": "IND",
+            "open_INgHours": "Mo-Fr 09:00-18:00",
             "contactPoint": {
               "@type": "ContactPoint",
               "telephone": "+91-789-251-8414",
@@ -299,31 +299,31 @@ export default function AIServicesArizonaPage() {
                 "name": "Which is the best Generative AI Company In Arizona?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Metic.ai is the Leading Generative AI Company In Arizona In Arizona with 50+ successful generative AI implementations. We provide comprehensive AI services including Generative AI, Custom AI development, and enterprise AI solutions with proven 60% cost savings and 3x faster delivery."
+                  "text": "Metic.ai is the leading Generative AI Company In Arizona with 50+ successful generative AI implementations. We provide comprehensive ChatGPT integration, GPT-4 development, LLM solutions, AI image generation, Custom GPT development, and enterprise AI automation with proven 60% cost savings and 3x faster delivery."
                 }
               },
               {
                 "@type": "Question", 
-                "name": "What AI services does the top Generative AI Services provide?",
+                "name": "What generative AI services does the Generative AI Company In Arizona provide?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "As the premier Generative AI Services, Metic.ai provides AI integration & deployment, Generative AI solutions, Custom AI development, data analytics & BI, generative AI services, and data engineering for businesses across Arizona."
+                  "text": "As the premier Generative AI Company In Arizona, Metic.ai provides ChatGPT integration, GPT-4 API development, Custom GPT models, LLM development, AI image generation (DALL-E, Midjourney, Stable Diffusion), AI content creation, intelligent chatbots, and enterprise automation for businesses across Arizona."
                 }
               },
               {
                 "@type": "Question",
-                "name": "How to choose the right AI Development Company ?",
+                "name": "How to choose the right Generative AI Company In Arizona?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Choose an AI Development Company  with proven experience, successful implementations, industry expertise, and local presence. Metic.ai offers all these with 100+ completed projects and deep understanding of Arizona's unique business landscape."
+                  "text": "Choose a Generative AI Company In Arizona with proven experience in ChatGPT integration, GPT-4 development, successful LLM implementations, Industry expertise, and local presence. Metic.ai offers all these with 50+ completed generative AI projects and deep understanding of Arizona's business landscape."
                 }
               },
               {
                 "@type": "Question",
-                "name": "What makes Metic.ai the best AI Firm ?",
+                "name": "What makes Metic.ai the best Generative AI Company In Arizona?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Metic.ai is the best AI Firm  due to our proven expertise, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of Arizona's manufacturing, aerospace, healthcare and agricultural Industries."
+                  "text": "Metic.ai is the best Generative AI Company In Arizona due to our proven expertise in ChatGPT integration, GPT-4 development, LLM solutions, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of Arizona's Oil & Gas, Fishing & Seafood, Tourism, and Mining industries."
                 }
               }
             ]
@@ -338,9 +338,9 @@ export default function AIServicesArizonaPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Generative AI Company - AI Services & Solutions",
-            "description": "Comprehensive guide to AI services  by the leading Artificial Intelligence Company. Expert AI development, Generative AI solutions, and enterprise AI implementation.",
-            "image": "https://metic.ai/ai-company-Arizona-article.jpg",
+            "headline": "Generative AI Company In Arizona - ChatGPT, GPT-4 & LLM Services",
+            "description": "Comprehensive guide to generative AI services by the leading Generative AI Company In Arizona. Expert ChatGPT integration, GPT-4 development, LLM solutions, and AI image generation implementation.",
+            "image": "https://metic.ai/generative-ai-company-Arizona-article.jpg",
             "author": {
               "@type": "Organization",
               "name": "Metic.ai"
@@ -355,8 +355,8 @@ export default function AIServicesArizonaPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/generative-ai-services/",
-            "keywords": "Generative AI Company, Generative AI Services, AI Service "
+            "mainEntityOfPage": "https://metic.ai/generative-ai-services-in-Arizona/",
+            "keywords": "Generative AI Company In Arizona, Generative AI Services In Arizona, AI Service "
           })
         }}
       />
@@ -384,8 +384,8 @@ export default function AIServicesArizonaPage() {
               {
                 "@type": "ListItem",
                 "position": 3,
-                "name": "Generative AI Company",
-                "item": "https://metic.ai/generative-ai-services/"
+                "name": "Generative AI Company In Arizona",
+                "item": "https://metic.ai/generative-ai-services-in-Arizona/"
               }
             ]
           })
@@ -399,7 +399,7 @@ export default function AIServicesArizonaPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Metic.ai - Generative AI Company In Arizona",
+            "name": "Metic.ai - Generative AI Services In Arizona",
             "description": "Leading Artificial Intelligence Company providing AI services ",
             "image": "https://metic.ai/ai-company-Arizona.jpg",
             "telephone": "+91-789-251-8414",
@@ -408,8 +408,8 @@ export default function AIServicesArizonaPage() {
               "@type": "PostalAddress",
               "streetAddress": "300 Quail Ridge Dr NE",
               "addressLocality": "ADA",
-              "addressRegion": "Arizona",
-              "postalCode": "85001",
+              "addressRegion": "MI",
+              "postalCode": "49301",
               "addressCountry": "US"
             },
             "geo": {
@@ -417,7 +417,7 @@ export default function AIServicesArizonaPage() {
               "latitude": "33.4484",
               "longitude": "-112.0740"
             },
-            "url": "https://metic.ai/generative-ai-services/",
+            "url": "https://metic.ai/generative-ai-services-in-Arizona/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",
@@ -430,7 +430,7 @@ export default function AIServicesArizonaPage() {
               "bestRating": "5",
               "worstRating": "1"
             },
-            "open_USgHours": "Mo-Fr 09:00-18:00",
+            "open_INgHours": "Mo-Fr 09:00-18:00",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai"
@@ -460,15 +460,15 @@ export default function AIServicesArizonaPage() {
             <div className="text-center">  
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight mb-4 md:mb-6 leading-tight">
                 <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
-                  Artificial Intelligence
+                  Generative AI Company
                 </span>
                 <br />
-                <span className="text-white">Company </span>
+                <span className="text-white">In Arizona</span>
               </h1>
               
               {/* VSO Optimized Description - Mobile Friendly */}
               <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 mb-6 md:mb-8 max-w-4xl mx-auto leading-relaxed px-4">
-                Looking for the <strong className="text-primary-orange">best Generative AI Services</strong>? Metic.ai is the premier <strong className="text-white">Generative AI Company</strong> delivering enterprise AI solutions with proven results.
+                Looking for the <strong className="text-primary-orange">best Generative AI Company In Arizona</strong>? Metic.ai is the premier <strong className="text-white">Generative AI Company In Arizona</strong> delivering ChatGPT integration, GPT-4 services, LLM development & AI solutions with proven results.
               </p>
 
               {/* Mobile-Optimized CTA Buttons */}
@@ -502,20 +502,20 @@ export default function AIServicesArizonaPage() {
               {/* VSO Keywords Section - Mobile Optimized */}
               <div className="text-center px-4">
                 <p className="text-gray-400 text-sm md:text-base mb-4">
-                  <strong className="text-white">Trusted as the top AI Service </strong> by leading businesses
+                  <strong className="text-white">Trusted as the top Generative AI Company In Arizona</strong> by leading businesses
                 </p>
                 <div className="flex flex-wrap justify-center gap-2 md:gap-3 text-xs md:text-sm">
                   <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
-                    AI Firm 
+                    ChatGPT Integration
                   </span>
                   <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
-                    AI Development Company
+                    GPT-4 Development
                   </span>
                   <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
-                    Best AI Company Arizona
+                    LLM Solutions
                   </span>
                   <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
-                    Generative AI Services
+                    AI Image Generation
                   </span>
                 </div>
               </div>
@@ -543,14 +543,19 @@ export default function AIServicesArizonaPage() {
               </div>
 
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 leading-tight px-4">
-                <strong className="text-gray-900">AI Services</strong> by Leading{" "}
+                <strong className="text-gray-900">Generative AI Services</strong> by Leading{" "}
                 <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">
-                  Generative AI Company
+                  Generative AI Company In Arizona
                 </span>
               </h2>
               <div className="w-20 md:w-24 h-1 md:h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 md:mb-8 rounded-full"></div>
               <p className="text-base md:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-4">
-                Comprehensive artificial intelligence services From Phoenix's tech corridor to Tucson's aerospace sector, Mesa's innovation centers top: 3 cols */}
+                Comprehensive generative AI services from Arizona's most Trusted <strong className="text-gray-900">Generative AI Company In Arizona</strong>. 
+                Transforming businesses with ChatGPT, GPT-4, LLM development, and cutting-edge AI solutions tailored for Arizona's Industrial landscape.
+              </p>
+            </div>
+            
+            {/* Mobile: 1 col, Tablet: 2 cols, Desktop: 3 cols */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
               {services.map((service, index) => {
                 const IconComponent = service.icon;
@@ -611,25 +616,119 @@ export default function AIServicesArizonaPage() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                  About Metic.ai - Premier <span className="text-primary-orange">Generative AI Company</span>
+                  About Metic.ai - Premier <span className="text-primary-orange">Generative AI Company In Arizona</span>
                 </h2>
                 <div className="w-20 h-1 bg-primary-orange mb-8"></div>
                 <p className="text-lg text-gray-700 mb-6">
-                  Established as Arizona's leading <strong>Generative AI Services</strong>, Metic.ai has been at the forefront of artificial intelligence 
-                  innovation since 2020. We specialize US delivering enterprise-grade AI solutions that transform businesses across Arizona's 
-                  unique industries including Technology & Software, Aerospace & Defense, Healthcare, Manufacturing, and Tourism.
+                  Established as Arizona's leading <strong>Generative AI Company In Arizona</strong>, Metic.ai has been at the forefront of generative artificial intelligence 
+                  innovation since 2020. We specialize in delivering enterprise-grade ChatGPT integration, GPT-4 development, LLM solutions, AI image generation, and custom AI services that transform businesses across Arizona's 
+                  unique industries including Oil & Gas, Fishing & Seafood, Tourism & Hospitality, Mining, and Transportation.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  Our expertise as an <strong>AI Development Company </strong> encompasses Generative AI, Large Language Models, ChatGPT Integration, 
-                  AI Image Generation, and robotic process automation. We've successfully completed over 100 AI projects, making US the most 
-                  Trusted <strong>AI Service </strong> From Phoenix's tech corridor to Tucson's aerospace sector, Mesa's innovation centers top: 4 cols - 12 Industries Total */}
+                  Our expertise as the premier <strong>Generative AI Company In Arizona</strong> encompasses Large Language Models (LLMs), ChatGPT Integration, 
+                  GPT-4 API development, AI Image Generation (DALL-E, Midjourney, Stable Diffusion), Custom GPT development, AI content creation, and intelligent automation. We've successfully completed over 50 generative AI projects, making us the most 
+                  Trusted <strong>Generative AI Company In Arizona</strong> from Anchorage to Fairbanks, Juneau to Sitka.
+                </p>
+                <div className="grid grid-cols-2 gap-6 mt-8">
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                      <Award className="w-6 h-6 text-primary-orange" />
+                    </div>
+                    <div className="font-bold text-xl text-gray-900">2020</div>
+                    <div className="text-gray-600 text-sm">Founded</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                      <Users className="w-6 h-6 text-primary-orange" />
+                    </div>
+                    <div className="font-bold text-xl text-gray-900">50+</div>
+                    <div className="text-gray-600 text-sm">AI Experts Team</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                      <Target className="w-6 h-6 text-primary-orange" />
+                    </div>
+                    <div className="font-bold text-xl text-gray-900">100%</div>
+                    <div className="text-gray-600 text-sm">Success Rate</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                      <Shield className="w-6 h-6 text-primary-orange" />
+                    </div>
+                    <div className="font-bold text-xl text-gray-900">24/7</div>
+                    <div className="text-gray-600 text-sm">Support Available</div>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="space-y-6">
+                <div className="bg-white rounded-xl p-6 shadow-sm">
+                  <h3 className="font-bold text-lg mb-3 flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
+                    AI Consulting & Strategy
+                  </h3>
+                  <p className="text-gray-600">
+                    Expert AI consulting services to help Arizona businesses identify AI opportunities and develop comprehensive implementation strategies.
+                  </p>
+                </div>
+                
+                <div className="bg-white rounded-xl p-6 shadow-sm">
+                  <h3 className="font-bold text-lg mb-3 flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
+                    Custom AI Development
+                  </h3>
+                  <p className="text-gray-600">
+                    Bespoke artificial intelligence solutions tailored to your specific business requirements and Industry challenges .
+                  </p>
+                </div>
+                
+                <div className="bg-white rounded-xl p-6 shadow-sm">
+                  <h3 className="font-bold text-lg mb-3 flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
+                    Enterprise AI Integration
+                  </h3>
+                  <p className="text-gray-600">
+                    Seamless integration of AI technologies into existing business processes with minimal disruption and maximum efficiency gains.
+                  </p>
+                </div>
+                
+                <div className="bg-white rounded-xl p-6 shadow-sm">
+                  <h3 className="font-bold text-lg mb-3 flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
+                    Ongoing AI Support
+                  </h3>
+                  <p className="text-gray-600">
+                    Comprehensive support and maintenance services ensuring your AI solutions continue to deliver optimal performance and ROI.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Industries Section with Real Images */}
+      <section className="py-20 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                Industries We Serve 
+              </h2>
+              <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                Delivering specialized AI solutions across Arizona's key Industries and business sectors.
+              </p>
+            </div>
+            
+            {/* Mobile: 1 col, Tablet: 2 cols, Desktop: 4 cols - 12 Industries Total */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {/* Manufacturing */}
               <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&h=400&fit=crop" 
-                    alt="Manufacturing industry AI Solutions"
+                    alt="Manufacturing Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -644,7 +743,7 @@ export default function AIServicesArizonaPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?w=500&h=400&fit=crop" 
-                    alt="Aerospace industry AI Solutions"
+                    alt="Aerospace Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -659,7 +758,7 @@ export default function AIServicesArizonaPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=500&h=400&fit=crop" 
-                    alt="Healthcare industry AI Solutions"
+                    alt="Healthcare Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -674,7 +773,7 @@ export default function AIServicesArizonaPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=500&h=400&fit=crop" 
-                    alt="Agriculture industry AI Solutions"
+                    alt="Agriculture Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -689,7 +788,7 @@ export default function AIServicesArizonaPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&h=400&fit=crop" 
-                    alt="Technology industry AI Solutions"
+                    alt="Technology Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -704,7 +803,7 @@ export default function AIServicesArizonaPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=500&h=400&fit=crop" 
-                    alt="Automotive industry AI Solutions"
+                    alt="Automotive Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -719,7 +818,7 @@ export default function AIServicesArizonaPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=500&h=400&fit=crop" 
-                    alt="Financial Services industry AI Solutions"
+                    alt="Financial Services Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -734,7 +833,7 @@ export default function AIServicesArizonaPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=500&h=400&fit=crop" 
-                    alt="Transportation industry AI Solutions"
+                    alt="Transportation Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -749,7 +848,7 @@ export default function AIServicesArizonaPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=500&h=400&fit=crop" 
-                    alt="Education industry AI Solutions"
+                    alt="Education Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -764,7 +863,7 @@ export default function AIServicesArizonaPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=500&h=400&fit=crop" 
-                    alt="Energy industry AI Solutions"
+                    alt="Energy Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -814,7 +913,7 @@ export default function AIServicesArizonaPage() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Why Choose Metic.ai as Your <span className="text-primary-orange">AI Firm </span>
+                Why Choose Metic.ai as Your <span className="text-primary-orange">Generative AI Company In Arizona</span>
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -829,7 +928,7 @@ export default function AIServicesArizonaPage() {
                   <Award className="w-8 h-8 text-blue-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Proven Expertise</h3>
-                <p className="text-gray-600">Years of experience delivering AI solutions for Arizona businesses across all Industries.</p>
+                <p className="text-gray-600">Years of experience delivering AI solutions for Arizona businesses across all industries.</p>
               </div>
               
               <div className="text-center">
@@ -844,7 +943,7 @@ export default function AIServicesArizonaPage() {
                 <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6 mx-auto">
                   <Users className="w-8 h-8 text-purple-600" />
                 </div>
-                <h3 className="text-xl font-bold mb-4">Arizona Partnership</h3>
+                <h3 className="text-xl font-bold mb-4">Local Partnership</h3>
                 <p className="text-gray-600">Dedicated support and partnership with deep understanding of Arizona's unique business challenges and opportunities.</p>
               </div>
               
@@ -869,24 +968,24 @@ export default function AIServicesArizonaPage() {
               {/* Premium Badge with Animation */}
               <div className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-full shadow-2xl border-2 border-primary-orange/30 mb-10 hover:border-primary-orange/50 transition-all group">
                 <div className="w-3 h-3 bg-primary-orange rounded-full animate-pulse"></div>
-                <span className="text-sm font-bold text-gray-800 tracking-wide">The Grand Canyon State</span>
+                <span className="text-sm font-bold text-gray-800 tracking-wide">Arizona AI INNOVATION</span>
                 <div className="w-3 h-3 bg-secondary-orange rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></div>
               </div>
 
               <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight">
                 <span className="text-gray-900">Leading </span>
                 <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent animate-gradient">
-                  Generative AI Company
+                  Generative AI Company In Arizona
                 </span>
               </h2>
               <div className="w-40 h-2 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-10 rounded-full shadow-lg"></div>
               <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                Transforming 's Commercial Capital with cutting-edge AI solutions from USA to Europe, Asia to the Naroda Industrial Area
+                Transforming The Grand Canyon State with cutting-edge AI solutions from Anchorage to Fairbanks, Juneau to Sitka and Ketchikan
               </p>
             </div>
 
             <div className="space-y-20">
-              {/* Arizona ARIZONA AI INNOVATION - Premium Design */}
+              {/* Arizona AI Innovation Hub - Premium Design */}
               <div className="grid lg:grid-cols-2 gap-16 items-center">
                 <div className="order-2 lg:order-1">
                   <div className="space-y-8">
@@ -904,17 +1003,17 @@ export default function AIServicesArizonaPage() {
                     </div>
                     
             <p className="text-lg text-gray-700 leading-relaxed">
-              As the leading <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Generative AI Company</strong>, 
+              As the leading <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Generative AI Company In Arizona</strong>, 
               Metic.ai serves Arizona with enterprise-grade AI solutions tailored to Arizona's unique economic 
-              landscape. From USA's business hub to Europe' research facilities, Asia's government sector to 
-              the content creation mills of the Naroda Industrial Area, we understand Arizona's innovation-driven economy and entrepreneurial excellence and content creation-driven Industries.
+              landscape. From Anchorage's business centers to Fairbanks' technology sectors, Juneau's government offices to 
+              the Oil & Gas operations across the state, we understand Arizona's resource-driven economy and frontier entrepreneurial spirit.
             </p>
             
             <p className="text-lg text-gray-700 leading-relaxed">
-              Our <strong className="text-primary-orange font-semibold">Generative AI Services</strong> combines deep understanding 
+              Our <strong className="text-primary-orange font-semibold">Generative AI Services In Arizona</strong> combines deep understanding 
               of Arizona's unique challenges with cutting-edge technology to deliver AI solutions that drive measurable 
-              results. We've successfully implemented AI across Arizona's key sectors including Content Creation & Garments, fishing, 
-              tourism, Customer Service Automation, Information Technology, and maritime Industries US in the Southwest.
+              results. We've successfully implemented AI across Arizona's key sectors including Oil & Gas, Fishing & Seafood, 
+              Tourism & Hospitality, Mining, Transportation, and Healthcare industries in America's Last Frontier.
             </p>                    {/* Enhanced Feature Cards with Creative Design */}
                     <div className="grid gap-6 mt-10">
                       <div className="group bg-gradient-to-r from-primary-orange/5 via-white to-secondary-orange/5 p-6 rounded-2xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
@@ -923,10 +1022,10 @@ export default function AIServicesArizonaPage() {
                             <Rocket className="w-6 h-6 text-white" />
                           </div>
                           <div>
-                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Content Creation & Garments AI Excellence</h4>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Oil & Gas AI Excellence</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Deep expertise with Arizona's Naroda Industrial Area content creation operations including major content creation mills, 
-                              Arizona Metro, and energy infrastructure across 's largest content creation-manufacturing state.
+                              Deep expertise with Arizona's Oil & Gas operations including Prudhoe Bay, North Slope facilities, 
+                              Trans-Arizona Pipeline, and energy infrastructure across America's largest oil-producing state.
                             </p>
                           </div>
                         </div>
@@ -938,10 +1037,10 @@ export default function AIServicesArizonaPage() {
                             <Shield className="w-6 h-6 text-white" />
                           </div>
                           <div>
-                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Automotive Manufacturing Innovation</h4>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Fishing & Seafood Innovation</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Advanced AI solutions for Arizona's automotive industry including Mercedes-Benz, Honda, Hyundai, 
-                              and Toyota manufacturing facilities with predictive maintenance and quality control systems.
+                              Advanced AI solutions for Arizona's fishing industry including seafood processing, 
+                              fleet management, catch optimization, and sustainable fishery management systems.
                             </p>
                           </div>
                         </div>
@@ -953,9 +1052,9 @@ export default function AIServicesArizonaPage() {
                             <Target className="w-6 h-6 text-white" />
                           </div>
                           <div>
-                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Customer Service Automation & Natural Resources AI</h4>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Chemicals & Natural Resources AI</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Specialized AI for Arizona's Customer Service Automation operations and resource extraction including process optimization, 
+                              Specialized AI for Arizona's Chemicals operations and resource extraction including process optimization, 
                               safety monitoring, and environmental compliance for Arizona's rich mineral deposits.
                             </p>
                           </div>
@@ -974,21 +1073,21 @@ export default function AIServicesArizonaPage() {
                     
                     <div className="space-y-8">
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">?4.6T</div>
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">$55B</div>
                         <div className="text-sm text-gray-600 font-medium">Arizona Annual GDP</div>
-                        <div className="text-xs text-gray-500 mt-2">content creation-driven Economy</div>
+                        <div className="text-xs text-gray-500 mt-2">Resource-driven Economy</div>
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-secondary-orange/10 hover:border-secondary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-secondary-orange mb-3 group-hover:scale-110 transition-transform">7.2M</div>
+                        <div className="text-5xl font-bold text-secondary-orange mb-3 group-hover:scale-110 transition-transform">733K</div>
                         <div className="text-sm text-gray-600 font-medium">Arizona Population</div>
                         <div className="text-xs text-gray-500 mt-2">The Grand Canyon State</div>
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">2100+</div>
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">50+</div>
                         <div className="text-sm text-gray-600 font-medium">Arizona AI Projects Completed</div>
-                        <div className="text-xs text-gray-500 mt-2">industry-Leading Success Rate</div>
+                        <div className="text-xs text-gray-500 mt-2">Industry-Leading Success Rate</div>
                       </div>
                       
                       <div className="bg-gradient-to-r from-primary-orange/20 via-secondary-orange/10 to-primary-orange/20 rounded-2xl p-6 border-2 border-primary-orange/30 transform hover:scale-105 transition-transform">
@@ -1008,32 +1107,34 @@ export default function AIServicesArizonaPage() {
                 </div>
               </div>
 
-              {/* Arizona industry Solutions - Creative Premium Design */}
+              {/* Arizona Industry Solutions - Creative Premium Design */}
               <div>
                 <div className="text-center mb-16">
                   <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-full border-2 border-primary-orange/20 mb-8 transform hover:scale-105 transition-transform">
                     <Sparkles className="w-5 h-5 text-primary-orange" />
-                    <span className="text-sm font-bold text-gray-800">industry EXPERTISE</span>
+                    <span className="text-sm font-bold text-gray-800">Industry EXPERTISE</span>
                   </div>
                   <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
                     AI Solutions for <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Arizona's Key Industries</span>
                   </h3>
                   <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 rounded-full"></div>
                   <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Specialized AI solutions designed for The Grand Canyon State</p>
+                    Specialized AI solutions designed for The Grand Canyon State's unique economic sectors and resource-driven Industries
+                  </p>
                 </div>
                 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-                  {/* Content Creation & Garments industry */}
+                  {/* Oil & Gas Industry */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Rocket className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Content Creation & Garments AI Solutions</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Oil & Gas AI Solutions</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Mission-critical AI solutions for Arizona's Content Creation & Garments industry including Naroda Industrial Area operations, 
+                      Mission-critical AI solutions for Arizona's Oil & Gas Industry including North Slope operations, 
                       Arizona Metro monitoring, offshore drilling optimization, and predictive maintenance 
-                      for energy infrastructure across The Grand Canyon State</p>
+                      for energy infrastructure across The Grand Canyon State's vast energy resources.
+                    </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
@@ -1054,14 +1155,14 @@ export default function AIServicesArizonaPage() {
                     </div>
                   </div>
                   
-                  {/* Software Development industry */}
+                  {/* Minings Industry */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Shield className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Software Development AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Minings AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Advanced AI solutions for Arizona's fishing and seafood processing industry with predictive catch 
+                      Advanced AI solutions for Arizona's fishing and seafood processing Industry with predictive catch 
                       analytics, sINtainable fishing optimization, processing automation, cold chain monitoring, 
                       and quality control for the world's richest seafood harvest.
                     </p>
@@ -1092,7 +1193,7 @@ export default function AIServicesArizonaPage() {
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Tourism & Hospitality AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Intelligent AI solutions for Arizona's booming tourism industry with cruise line optimization, 
+                      Intelligent AI solutions for Arizona's booming tourism Industry with cruise line optimization, 
                       wildlife tour planning, hotel revenue management, visitor experience personalization, 
                       and seasonal demand forecasting for Arizona's 2.5 million annual visitors.
                     </p>
@@ -1116,14 +1217,14 @@ export default function AIServicesArizonaPage() {
                     </div>
                   </div>
                   
-                  {/* Customer Service Automation & Resource Extraction */}
+                  {/* Chemicals & Resource Extraction */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Lightbulb className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Customer Service Automation & Resource AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Chemicals & Resource AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Advanced AI solutions for Arizona's Customer Service Automation operations including gold, zinc, and mineral extraction 
+                      Advanced AI solutions for Arizona's Chemicals operations including gold, zinc, and mineral extraction 
                       with predictive maintenance, safety monitoring, resource discovery optimization, 
                       and environmental impact assessment across Arizona's vast mineral deposits.
                     </p>
@@ -1134,7 +1235,7 @@ export default function AIServicesArizonaPage() {
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Customer Service Automation equipment automation</span>
+                        <span className="text-sm text-gray-600">Chemicals equipment automation</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
@@ -1155,7 +1256,7 @@ export default function AIServicesArizonaPage() {
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Information Technology & Logistics AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
                       Intelligent AI solutions for Arizona's Information Technology and cargo logistics including bINh plane operations, 
-                      Ted Stevens USA International Airport cargo hub, weather prediction for flight safety, 
+                      Ted Stevens Anchorage International Airport cargo hub, weather prediction for flight safety, 
                       and supply chain optimization for remote Arizona communities.
                     </p>
                     <div className="space-y-3">
@@ -1196,10 +1297,10 @@ export default function AIServicesArizonaPage() {
                     <div className="space-y-6">
                       <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Arizona Projects Completed</span>
-                        <span className="font-bold text-primary-orange text-xl">2100+</span>
+                        <span className="font-bold text-primary-orange text-xl">50+</span>
                       </div>
                       <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
-                        <span className="text-gray-600 font-medium">industry Success Rate</span>
+                        <span className="text-gray-600 font-medium">Industry Success Rate</span>
                         <span className="font-bold text-secondary-orange text-xl">99.5%</span>
                       </div>
                       <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
@@ -1226,7 +1327,9 @@ export default function AIServicesArizonaPage() {
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Arizona business Advantage</h4>
                         <p className="text-gray-700 leading-relaxed">
                           As the premier <strong className="text-primary-orange">AI Firm </strong>, we understand 
-                          The Grand Canyon State</p>
+                          The Grand Canyon State's unique blend of entrepreneurial excellence and resource-driven innovation. Our AI solutions 
+                          are built for Arizona's Oil & Gas dominance, fishing Industry leadership, and tourism growth.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -1247,14 +1350,14 @@ export default function AIServicesArizonaPage() {
                   
                   <p className="text-lg text-gray-700 leading-relaxed mb-6">
                     <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Choosing Metic.ai as your AI partner </strong> means 
-                    working with a team that deeply understands Arizona's unique business challenges, from USA's 
-                    commercial hub to Europe' research facilities and Asia's government operations.
+                    working with a team that deeply understands Arizona's unique business challenges, from Anchorage's 
+                    commercial hub to Fairbanks' research facilities and Juneau's government operations.
                   </p>
                   
                   <p className="text-lg text-gray-700 leading-relaxed mb-8">
                     Our <strong className="text-primary-orange font-semibold">AI Service </strong> includes comprehensive consultation, 
                     rapid prototyping, enterprise deployment, and 24/7 support to ensure your AI investment delivers 
-                    maximum value 's content creation-driven and growing economy.
+                    maximum value 's resource-driven and growing economy.
                   </p>
 
                   <div className="space-y-6">
@@ -1263,17 +1366,18 @@ export default function AIServicesArizonaPage() {
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Comprehensive Arizona Coverage</h4>
                         <p className="text-gray-600 leading-relaxed">
-                          USA, Europe, Asia, Australia, Canada, India, UAE, Germany, 
-                          GIFT City, and all major Arizona business centers across The Grand Canyon State</p>
+                          Anchorage, Fairbanks, Juneau, Ketchikan, Wasilla, Sitka, Kenai, Kodiak, 
+                          Prudhoe Bay, and all major Arizona business centers across The Grand Canyon State
+                        </p>
                       </div>
                     </div>
                     
                     <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-secondary-orange/10 transform hover:scale-105 transition-transform">
                       <Rocket className="w-8 h-8 text-secondary-orange flex-shrink-0 mt-1" />
                       <div>
-                        <h4 className="font-bold text-gray-900 mb-2 text-lg">industry Domain Expertise</h4>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Industry Domain Expertise</h4>
                         <p className="text-gray-600 leading-relaxed">
-                          Deep understanding of Content Creation & Garments, fishing, tourism, Customer Service Automation, Information Technology, and logistics 
+                          Deep understanding of Oil & Gas, fishing, tourism, Chemicals, Information Technology, and logistics 
                           with proven track record 's key economic sectors
                         </p>
                       </div>
@@ -1327,7 +1431,7 @@ export default function AIServicesArizonaPage() {
                 <span className="text-gray-900">Frequently Asked Questions</span>
                 <br />
                 <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
-                  About Generative AI Services
+                  About Generative AI Services In Arizona
                 </span>
               </h2>
               <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-8 rounded-full"></div>
@@ -1370,8 +1474,8 @@ export default function AIServicesArizonaPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    <strong className="text-gray-900 font-semibold">Metic.ai is the Leading Generative AI Company In Arizona</strong> with over 100 successful AI implementations. 
-                    We're recognized as the top Generative AI Services for our proven expertise US Generative AI, Custom AI development, and enterprise AI solutions with 60% cost savings.
+                    <strong className="text-gray-900 font-semibold">Metic.ai is the leading Generative AI Company In Arizona</strong> with over 50 successful generative AI implementations. 
+                    We're recognized as the top Generative AI Company In Arizona for our proven expertise in ChatGPT integration, GPT-4 development, LLM solutions, AI image generation, and custom GPT development with 60% cost savings.
                   </p>
                 </div>
               </details>
@@ -1391,7 +1495,7 @@ export default function AIServicesArizonaPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            What services does the top Generative AI Services provide?
+                            What services does the Generative AI Company In Arizona provide?
                           </h3>
                         </div>
                       </div>
@@ -1406,8 +1510,8 @@ export default function AIServicesArizonaPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    As the premier <strong className="text-gray-900 font-semibold">Generative AI Services</strong>, Metic.ai provides comprehensive AI services including Generative AI solutions, 
-                    Custom AI development, data analytics, generative AI, AI Image Generation, NLP, and enterprise AI automation tailored for Arizona's manufacturing, aerospace, healthcare, and agricultural Industries.
+                    As the premier <strong className="text-gray-900 font-semibold">Generative AI Company In Arizona</strong>, Metic.ai provides comprehensive generative AI services including ChatGPT integration, 
+                    GPT-4 API development, Custom GPT models, LLM development, AI image generation (DALL-E, Midjourney, Stable Diffusion), AI content creation, intelligent chatbots, and enterprise automation tailored for Arizona's Oil & Gas, Fishing & Seafood, Tourism, and Mining industries.
                   </p>
                 </div>
               </details>
@@ -1443,7 +1547,7 @@ export default function AIServicesArizonaPage() {
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     When selecting an <strong className="text-gray-900 font-semibold">AI Development Company </strong>, look for proven experience, successful project portfolio, 
-                    industry expertise, and ongoing support. Metic.ai offers all these with 100+ completed projects, 98% client satisfaction, and 24/7 support.
+                    Industry expertise, and ongoing support. Metic.ai offers all these with 100+ completed projects, 98% client satisfaction, and 24/7 support.
                   </p>
                 </div>
               </details>
@@ -1514,7 +1618,7 @@ export default function AIServicesArizonaPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Yes! Metic.ai proudly serves businesses across all Arizona cities including USA, Europe, Asia, Australia, Canada, India, UAE, and beyond. 
+                    Yes! Metic.ai proudly serves businesses across all Arizona cities including Anchorage, Fairbanks, Juneau, Ketchikan, Wasilla, Sitka, Kenai, and beyond. 
                     As Arizona's leading <strong className="text-gray-900 font-semibold">AI Firm </strong>, we provide comprehensive AI solutions statewide.
                   </p>
                 </div>
@@ -1535,7 +1639,7 @@ export default function AIServicesArizonaPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            How quickly can an Generative AI Services start my project?
+                            How quickly can an Generative AI Services In Arizona start my project?
                           </h3>
                         </div>
                       </div>
@@ -1550,7 +1654,7 @@ export default function AIServicesArizonaPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Metic.ai can typically start your AI project within 24-48 hours after initial consultation. As Arizona's fastest <strong className="text-gray-900 font-semibold">Generative AI Services</strong>, 
+                    Metic.ai can typically start your AI project within 24-48 hours after initial consultation. As Arizona's fastest <strong className="text-gray-900 font-semibold">Generative AI Services In Arizona</strong>, 
                     we understand the importance of speed and deliver 3x faster than traditional development approaches.
                   </p>
                 </div>
@@ -1610,7 +1714,7 @@ export default function AIServicesArizonaPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            What Industries does the best Generative AI Services serve?
+                            What Industries does the best Generative AI Services In Arizona serve?
                           </h3>
                         </div>
                       </div>
@@ -1626,7 +1730,7 @@ export default function AIServicesArizonaPage() {
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     Metic.ai serves diverse Industries including Manufacturing, Aerospace, Healthcare, Agriculture, Technology, Automotive, Financial Services, Transportation, Education, and Energy. 
-                    As Arizona's premier <strong className="text-gray-900 font-semibold">Generative AI Services</strong>, we tailor solutions for your specific industry needs.
+                    As Arizona's premier <strong className="text-gray-900 font-semibold">Generative AI Services In Arizona</strong>, we tailor solutions for your specific Industry needs.
                   </p>
                 </div>
               </details>
@@ -1718,7 +1822,7 @@ export default function AIServicesArizonaPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Can Generative AI Services handle small business projects?
+                            Can Generative AI Services In Arizona handle small business projects?
                           </h3>
                         </div>
                       </div>
@@ -1733,7 +1837,7 @@ export default function AIServicesArizonaPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Absolutely! Metic.ai works with businesses of all sizes, from startups to enterprises. As an inclINive <strong className="text-gray-900 font-semibold">Generative AI Services</strong>, 
+                    Absolutely! Metic.ai works with businesses of all sizes, from startups to enterprises. As an inclINive <strong className="text-gray-900 font-semibold">Generative AI Services In Arizona</strong>, 
                     we offer scalable solutions and flexible pricing models to meet small business budgets while delivering enterprise-quality AI implementations.
                   </p>
                 </div>
@@ -1821,7 +1925,7 @@ export default function AIServicesArizonaPage() {
               Ready to Partner with Arizona's Leading <strong>Artificial Intelligence Company</strong>?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join 100+ satisfied clients who Trust Metic.ai as their preferred <strong>Generative AI Services</strong>. 
+              Join 100+ satisfied clients who Trust Metic.ai as their preferred <strong>Generative AI Services In Arizona</strong>. 
               Transform your business with proven AI solutions that deliver results. Get started with a free consultation 
               and discover why we're Arizona's most Trusted <strong>AI Development Company </strong>.
             </p>
@@ -1855,15 +1959,15 @@ export default function AIServicesArizonaPage() {
                 </div>
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
-                <span>USA</span>
+                <span>Anchorage</span>
                 <span>•</span>
-                <span>Europe</span>
+                <span>Fairbanks</span>
                 <span>•</span>
-                <span>Asia</span>
+                <span>Juneau</span>
                 <span>•</span>
-                <span>Australia</span>
+                <span>Ketchikan</span>
                 <span>•</span>
-                <span>Canada</span>
+                <span>Wasilla</span>
                 <span>•</span>
                 <span>Auburn</span>
                 <span>•</span>
@@ -1876,11 +1980,6 @@ export default function AIServicesArizonaPage() {
     </>
   );
 }
-
-
-
-
-
 
 
 
