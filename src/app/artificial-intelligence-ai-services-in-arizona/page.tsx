@@ -64,7 +64,7 @@ export const metadata = {
     siteName: "Metic.ai - AI Company In Arizona",
     images: [
       {
-        url: "https://metic.ai/og-ai-company-Arizona.jpg",
+        url: "https://metic.ai/og-ai-company-arizona.jpg",
         width: 1200,
         height: 630,
         alt: "Artificial Intelligence Company In Arizona - Metic.ai",
@@ -76,12 +76,12 @@ export const metadata = {
     card: "summary_large_image",
     title: "Artificial Intelligence Company In Arizona | AI Company In Arizona",
     description: "Leading AI Company In Arizona delivering enterprise artificial intelligence solutions. Expert AI development, machine learning & automation services with proven results.",
-    images: ["https://metic.ai/og-ai-company-Arizona.jpg"],
+    images: ["https://metic.ai/og-ai-company-arizona.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-Arizona/",
+    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-arizona/",
   },
   category: "Technology",
   classification: "Business Services"
@@ -167,14 +167,14 @@ export default function AIServicesArizonaPage() {
             "name": "Metic.ai - Artificial Intelligence Company In Arizona",
             "alternateName": ["AI Company In Arizona", "Metic AI", "AI Firm Arizona"],
             "description": "Leading Artificial Intelligence Company In Arizona providing enterprise AI solutions, machine learning development, and custom AI services for businesses across Arizona.",
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-Arizona/",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-arizona/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
               "https://www.facebook.com/meticai"
             ],
             "logo": "https://metic.ai/logo.png",
-            "image": ["https://metic.ai/ai-company-Arizona.jpg"],
+            "image": ["https://metic.ai/ai-company-arizona.jpg"],
             "telephone": "+1-789-251-8414",
             "email": "hello@matic.ai",
             "foundingDate": "2020",
