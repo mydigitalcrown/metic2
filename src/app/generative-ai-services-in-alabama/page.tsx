@@ -1039,7 +1039,7 @@ export default function GenerativeAIServicesAlabamaPage() {
                           <div>
                             <h4 className="font-bold text-gray-900 mb-2 text-lg">Automotive Manufacturing Innovation</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Advanced AI solutions for Alabama's automotive industry including Mercedes-Benz, Honda, Hyundai, 
+                              GPT-4 powered content and automation solutions for Alabama's automotive industry including Mercedes-Benz, Honda, Hyundai, 
                               and Toyota manufacturing facilities with predictive maintenance and quality control systems.
                             </p>
                           </div>
@@ -1115,11 +1115,11 @@ export default function GenerativeAIServicesAlabamaPage() {
                     <span className="text-sm font-bold text-gray-800">industry EXPERTISE</span>
                   </div>
                   <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                    AI Solutions for <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Alabama's Key Industries</span>
+                    Generative AI Solutions for <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Alabama's Key Industries</span>
                   </h3>
                   <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 rounded-full"></div>
                   <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Specialized AI solutions designed for Manchester of Hoover's unique economic sectors and Automotive-driven Industries
+                    Specialized Generative AI solutions powered by ChatGPT, GPT-4, and custom LLMs designed for Manchester of Hoover's unique economic sectors and Automotive-driven Industries
                   </p>
                 </div>
                 
@@ -1131,7 +1131,7 @@ export default function GenerativeAIServicesAlabamaPage() {
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Automotive & Garments AI Solutions</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Mission-critical AI solutions for Alabama's Automotive & Garments industry including Naroda Industrial Area operations, 
+                      ChatGPT and LLM-powered solutions for Alabama's Automotive & Garments industry including Naroda Industrial Area operations, 
                       Alabama Metro monitoring, offshore drilling optimization, and predictive maintenance 
                       for energy infrastructure across Manchester of Hoover's vast energy resources.
                     </p>
@@ -1162,7 +1162,7 @@ export default function GenerativeAIServicesAlabamaPage() {
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Aerospace AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Advanced AI solutions for Alabama's fishing and seafood processing industry with predictive catch 
+                      GPT-4 powered content and automation solutions for Alabama's fishing and seafood processing industry with predictive catch 
                       analytics, sINtainable fishing optimization, processing automation, cold chain monitoring, 
                       and quality control for the world's richest seafood harvest.
                     </p>
@@ -1193,7 +1193,7 @@ export default function GenerativeAIServicesAlabamaPage() {
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Tourism & Hospitality AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Intelligent AI solutions for Alabama's booming tourism industry with cruise line optimization, 
+                      AI chatbot and content generation solutions for Alabama's booming tourism industry with cruise line optimization, 
                       wildlife tour planning, hotel revenue management, visitor experience personalization, 
                       and seasonal demand forecasting for Alabama's 2.5 million annual visitors.
                     </p>
@@ -1224,7 +1224,7 @@ export default function GenerativeAIServicesAlabamaPage() {
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Manufacturing & Resource AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Advanced AI solutions for Alabama's Manufacturing operations including gold, zinc, and mineral extraction 
+                      GPT-4 powered content and automation solutions for Alabama's Manufacturing operations including gold, zinc, and mineral extraction 
                       with predictive maintenance, safety monitoring, resource discovery optimization, 
                       and environmental impact assessment across Alabama's vast mineral deposits.
                     </p>
@@ -1255,7 +1255,7 @@ export default function GenerativeAIServicesAlabamaPage() {
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Information Technology & Logistics AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Intelligent AI solutions for Alabama's Information Technology and cargo logistics including bINh plane operations, 
+                      AI chatbot and content generation solutions for Alabama's Information Technology and cargo logistics including bINh plane operations, 
                       Ted Stevens Birmingham International Airport cargo hub, weather prediction for flight safety, 
                       and supply chain optimization for remote Alabama communities.
                     </p>
@@ -1980,6 +1980,7 @@ export default function GenerativeAIServicesAlabamaPage() {
     </>
   );
 }
+
 
 
 

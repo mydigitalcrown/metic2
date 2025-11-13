@@ -1039,7 +1039,7 @@ export default function GenerativeAIServicesAlaskaPage() {
                           <div>
                             <h4 className="font-bold text-gray-900 mb-2 text-lg">Fishing & Seafood Innovation</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Advanced AI solutions for Alaska's fishing industry including seafood processing, 
+                              GPT-4 powered content and automation solutions for Alaska's fishing industry including seafood processing, 
                               fleet management, catch optimization, and sustainable fishery management systems.
                             </p>
                           </div>
@@ -1115,11 +1115,11 @@ export default function GenerativeAIServicesAlaskaPage() {
                     <span className="text-sm font-bold text-gray-800">Industry EXPERTISE</span>
                   </div>
                   <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                    AI Solutions for <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Alaska's Key Industries</span>
+                    Generative AI Solutions for <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Alaska's Key Industries</span>
                   </h3>
                   <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 rounded-full"></div>
                   <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Specialized AI solutions designed for The Last Frontier's unique economic sectors and resource-driven Industries
+                    Specialized Generative AI solutions powered by ChatGPT, GPT-4, and custom LLMs designed for The Last Frontier's unique economic sectors and resource-driven Industries
                   </p>
                 </div>
                 
@@ -1129,28 +1129,28 @@ export default function GenerativeAIServicesAlaskaPage() {
                     <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Rocket className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Oil & Gas AI Solutions</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Oil & Gas Generative AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Mission-critical AI solutions for Alaska's Oil & Gas Industry including North Slope operations, 
+                      ChatGPT and LLM-powered solutions for Alaska's Oil & Gas Industry including North Slope operations, 
                       Alaska Metro monitoring, offshore drilling optimization, and predictive maintenance 
                       for energy infrastructure across The Last Frontier's vast energy resources.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Pipeline monitoring & optimization</span>
+                        <span className="text-sm text-gray-600">AI-generated reports & documentation</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Drilling efficiency analysis</span>
+                        <span className="text-sm text-gray-600">ChatGPT for technical support</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Resource extraction prediction</span>
+                        <span className="text-sm text-gray-600">Automated content generation</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Safety & environmental compliance</span>
+                        <span className="text-sm text-gray-600">LLM-powered training materials</span>
                       </div>
                     </div>
                   </div>
@@ -1162,22 +1162,22 @@ export default function GenerativeAIServicesAlaskaPage() {
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Minings AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Advanced AI solutions for Alaska's fishing and seafood processing Industry with predictive catch 
-                      analytics, sINtainable fishing optimization, processing automation, cold chain monitoring, 
+                      GPT-4 powered content and automation solutions for Alaska's fishing and seafood processing Industry with predictive catch 
+                      analytics, sINtainable fishing optimization, AI content creation for marketing, ChatGPT customer support bots, 
                       and quality control for the world's richest seafood harvest.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Catch prediction & optimization</span>
+                        <span className="text-sm text-gray-600">Automated documentation generation</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Processing automation</span>
+                        <span className="text-sm text-gray-600">AI content creation for marketing</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Cold chain monitoring</span>
+                        <span className="text-sm text-gray-600">ChatGPT customer support bots</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
@@ -1191,9 +1191,9 @@ export default function GenerativeAIServicesAlaskaPage() {
                     <div className="w-20 h-20 bg-gradient-to-br from-red-500 to-red-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Target className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Tourism & Hospitality AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Tourism Generative AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Intelligent AI solutions for Alaska's booming tourism Industry with cruise line optimization, 
+                      AI chatbot and content generation solutions for Alaska's booming tourism Industry with cruise line optimization, 
                       wildlife tour planning, hotel revenue management, visitor experience personalization, 
                       and seasonal demand forecasting for Alaska's 2.5 million annual visitors.
                     </p>
@@ -1224,7 +1224,7 @@ export default function GenerativeAIServicesAlaskaPage() {
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Chemicals & Resource AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Advanced AI solutions for Alaska's Chemicals operations including gold, zinc, and mineral extraction 
+                      GPT-4 powered content and automation solutions for Alaska's Chemicals operations including gold, zinc, and mineral extraction 
                       with predictive maintenance, safety monitoring, resource discovery optimization, 
                       and environmental impact assessment across Alaska's vast mineral deposits.
                     </p>
@@ -1255,7 +1255,7 @@ export default function GenerativeAIServicesAlaskaPage() {
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Information Technology & Logistics AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Intelligent AI solutions for Alaska's Information Technology and cargo logistics including bINh plane operations, 
+                      AI chatbot and content generation solutions for Alaska's Information Technology and cargo logistics including bINh plane operations, 
                       Ted Stevens Anchorage International Airport cargo hub, weather prediction for flight safety, 
                       and supply chain optimization for remote Alaska communities.
                     </p>
@@ -1980,6 +1980,7 @@ export default function GenerativeAIServicesAlaskaPage() {
     </>
   );
 }
+
 
 
 
