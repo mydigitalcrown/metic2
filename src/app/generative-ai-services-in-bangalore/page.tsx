@@ -453,7 +453,7 @@ export default function GenerativeAIServicesBangalorePage() {
             <div className="flex justify-center mb-6 md:mb-8">
               <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-white/10 backdrop-blur-sm rounded-full border border-primary-orange/30 shadow-xl">
                 <Award className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
-                <span className="text-xs md:text-sm font-bold text-white">⭐ 100+ Successful AI Projects | 98% Client Satisfaction</span>
+                <span className="text-xs md:text-sm font-bold text-white">⭐ 50+ Successful AI Projects | 98% Client Satisfaction</span>
               </div>
             </div>
 
@@ -1547,7 +1547,7 @@ export default function GenerativeAIServicesBangalorePage() {
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     When selecting an <strong className="text-gray-900 font-semibold">AI Development Company </strong>, look for proven experience, successful project portfolio, 
-                    Industry expertise, and ongoing support. Metic.ai offers all these with 100+ completed projects, 98% client satisfaction, and 24/7 support.
+                    Industry expertise, and ongoing support. Metic.ai offers all these with 50+ completed projects, 98% client satisfaction, and 24/7 support.
                   </p>
                 </div>
               </details>
@@ -1765,7 +1765,7 @@ export default function GenerativeAIServicesBangalorePage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Our 100+ successful projects, 98% client satisfaction rate, 60% cost savings, 3x faster delivery, and deep Bangalore market expertise make US the leading <strong className="text-gray-900 font-semibold">AI Firm </strong>. 
+                    Our 50+ successful projects, 98% client satisfaction rate, 60% cost savings, 3x faster delivery, and deep Bangalore market expertise make US the leading <strong className="text-gray-900 font-semibold">AI Firm </strong>. 
                     We combine cutting-edge AI technology with personalized service.
                   </p>
                 </div>
@@ -1925,7 +1925,7 @@ export default function GenerativeAIServicesBangalorePage() {
               Ready to Partner with Bangalore's Leading <strong>Artificial Intelligence Company</strong>?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join 100+ satisfied clients who Trust Metic.ai as their preferred <strong>Generative AI Services In Bangalore</strong>. 
+              Join 50+ satisfied clients who Trust Metic.ai as their preferred <strong>Generative AI Services In Bangalore</strong>. 
               Transform your business with proven AI solutions that deliver results. Get started with a free consultation 
               and discover why we're Bangalore's most Trusted <strong>AI Development Company </strong>.
             </p>
@@ -1946,7 +1946,7 @@ export default function GenerativeAIServicesBangalorePage() {
               <p className="text-orange-200 mb-6">Trusted <strong>AI Service </strong> serving businesses across the state</p>
               <div className="grid md:grid-cols-3 gap-8 text-center mb-8">
                 <div>
-                  <div className="text-2xl font-bold mb-2">100+</div>
+                  <div className="text-2xl font-bold mb-2">50+</div>
                   <p className="text-orange-100">AI Projects Completed</p>
                 </div>
                 <div>
@@ -1980,6 +1980,7 @@ export default function GenerativeAIServicesBangalorePage() {
     </>
   );
 }
+
 
 
 
