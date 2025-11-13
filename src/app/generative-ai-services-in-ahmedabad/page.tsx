@@ -1073,7 +1073,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                     
                     <div className="space-y-8">
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">?4.6T</div>
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">₹130B</div>
                         <div className="text-sm text-gray-600 font-medium">Ahmedabad Annual GDP</div>
                         <div className="text-xs text-gray-500 mt-2">Textile-driven Economy</div>
                       </div>
@@ -1081,7 +1081,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-secondary-orange/10 hover:border-secondary-orange/30 transition-all group transform hover:scale-105">
                         <div className="text-5xl font-bold text-secondary-orange mb-3 group-hover:scale-110 transition-transform">8.4M</div>
                         <div className="text-sm text-gray-600 font-medium">Ahmedabad Population</div>
-                        <div className="text-xs text-gray-500 mt-2">Manchester of Bodakdev</div>
+                        <div className="text-xs text-gray-500 mt-2">Manchester of India</div>
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
