@@ -27,61 +27,61 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Generative AI Company | #1 Generative AI Services - Metic.ai",
-  description: "Leading Generative AI Company with 2100+ successful AI implementations. Expert AI services, Generative AI solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
+  title: "Generative AI Company In Ahmedabad | #1 AI Company In Gujarat - Metic.ai",
+  description: "Leading Generative AI Company In Ahmedabad with 50+ successful AI implementations. Expert ChatGPT integration, GPT-4 services, LLM development & AI solutions. Transform your business with 60% cost savings & 3x faster delivery.",
   keywords: [
-    "Generative AI Company",
-    "Generative AI Services", 
-    "ChatGPT Integration Services",
-    "Custom GPT Development",
-    "Large Language Model Company",
-    "AI Content Creation Services",
-    "GPT-4 Integration Company",
-    "LLM Development Services",
-    "AI Text Generation Solutions",
-    "Generative AI Solutions",
-    "AI Chatbot Development",
-    "Custom AI Model Training",
-    "OpenAI Integration Services",
-    "AI Image Generation Services",
-    "Midjourney AI Integration",
-    "DALL-E Integration Services",
-    "Stable Diffusion Solutions",
-    "AI Code Generation Services",
-    "GitHub Copilot Integration",
-    "AI Marketing Automation",
-    "AI Customer Service Solutions",
-    "Enterprise Generative AI"
+    "Generative AI Company In Ahmedabad",
+    "Generative AI Services In Ahmedabad", 
+    "ChatGPT Integration Services In Ahmedabad",
+    "Custom GPT Development In Ahmedabad",
+    "Large Language Model Company In Ahmedabad",
+    "AI Content Creation Services In Ahmedabad",
+    "GPT-4 Integration Company In Ahmedabad",
+    "LLM Development Services In Ahmedabad",
+    "AI Text Generation Solutions In Ahmedabad",
+    "Generative AI Solutions In Ahmedabad",
+    "AI Chatbot Development In Ahmedabad",
+    "Custom AI Model Training In Ahmedabad",
+    "OpenAI Integration Services In Ahmedabad",
+    "AI Image Generation Services In Ahmedabad",
+    "Midjourney AI Integration In Ahmedabad",
+    "DALL-E Integration Services In Ahmedabad",
+    "Stable Diffusion Solutions In Ahmedabad",
+    "AI Code Generation Services In Ahmedabad",
+    "GitHub Copilot Integration In Ahmedabad",
+    "AI Marketing Automation In Ahmedabad",
+    "AI Customer Service Solutions In Ahmedabad",
+    "Enterprise Generative AI In Ahmedabad"
   ],
-  authors: [{ name: "Metic.ai Globally AI Team" }],
+  authors: [{ name: "Metic.ai Ahmedabad Generative AI Team" }],
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
-    title: "Generative AI Company | #1 Generative AI Services - Metic.ai",
-    description: "Leading Generative AI Company with 2100+ successful AI implementations. Expert AI services, Generative AI solutions & AI development for Globally businesses.",
-    url: "https://metic.ai/generative-ai-services/",
+    title: "Generative AI Company In Ahmedabad | #1 Generative AI Services In Ahmedabad - Metic.ai",
+    description: "Leading Generative AI Company In Ahmedabad with 50+ successful AI implementations. Expert AI services, Generative AI solutions & AI development for Ahmedabad businesses.",
+    url: "https://metic.ai/generative-ai-services-in-ahmedabad/",
     type: "website",
-    locale: "en_US",
-    siteName: "Metic.ai - Generative AI Services",
+    locale: "en_IN",
+    siteName: "Metic.ai - Generative AI Services In Ahmedabad",
     images: [
       {
-        url: "https://metic.ai/og-generative-ai-company.jpg",
+        url: "https://metic.ai/og-generative-ai-ahmedabad.jpg",
         width: 1200,
         height: 630,
-        alt: "Generative AI Company - Metic.ai",
+        alt: "Generative AI Company In Ahmedabad - Metic.ai",
         type: "image/jpeg"
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Generative AI Company | Generative AI Services",
-    description: "Leading Generative AI Services delivering enterprise artificial intelligence solutions. Expert AI development, Generative AI & automation services with proven results.",
-    images: ["https://metic.ai/og-generative-ai-company.jpg"],
+    title: "Generative AI Company In Ahmedabad | Generative AI Services In Ahmedabad",
+    description: "Leading Generative AI Services In Ahmedabad delivering enterprise artificial intelligence solutions. Expert AI development, Generative AI & automation services with proven results.",
+    images: ["https://metic.ai/og-generative-ai-ahmedabad.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/generative-ai-services/",
+    canonical: "https://metic.ai/generative-ai-services-in-ahmedabad/",
   },
   verification: {
     google: "google-site-verification-code",
@@ -92,46 +92,46 @@ export const metadata = {
   classification: "business Services"
 };
 
-export default function AIServicesGloballyPage() {
+export default function GenerativeAIServicesAhmedabadPage() {
   const services = [
     {
       title: "AI Integration & Deployment",
-      description: "Seamlessly integrate AI solutions into your Globally business operations with enterprise-grade deployment strategies.",
+      description: "Seamlessly integrate AI solutions into your Ahmedabad business operations with enterprise-grade deployment strategies.",
       icon: Zap,
       href: "/ai-integration-and-deployment",
       color: "blue" as const
     },
     {
       title: "Generative AI Solutions",
-      description: "Advanced ML algorithms and predictive analytics tailored for Globally businesses and Industries.",
+      description: "Advanced ML algorithms and predictive analytics tailored for Ahmedabad businesses and Industries.",
       icon: Brain,
       href: "/machine-learning",
       color: "purple" as const
     },
     {
-      title: "Custom AI Development",
-      description: "Bespoke AI solutions designed specifically for your Globally business requirements and goals.",
+      title: "custom AI Development",
+      description: "Bespoke AI solutions designed specifically for your Ahmedabad business requirements and goals.",
       icon: Code,
       href: "/custom-ai-development",
       color: "green" as const
     },
     {
       title: "Data Analytics & BI",
-      description: "Transform your Globally business data into actionable insights with advanced analytics platforms.",
+      description: "Transform your Ahmedabad business data into actionable insights with advanced analytics platforms.",
       icon: BarChart3,
       href: "/data-insights",
       color: "orange" as const
     },
     {
-      title: "Generative AI Services",
-      description: "Harness the power of ChatGPT and generative AI for content creation and automation .",
+      title: "Generative AI Services In Ahmedabad",
+      description: "Harness the power of ChatGPT and generative AI for Textile and automation .",
       icon: Sparkles,
       href: "/generative-ai-services",
       color: "indigo" as const
     },
     {
       title: "Data Engineering",
-      description: "Robust data infrastructure and ETL pipelines for Globally enterprises and growing businesses.",
+      description: "Robust data infrastructure and ETL pipelines for Ahmedabad enterprises and growing businesses.",
       icon: Database,
       href: "/data-engineering",
       color: "red" as const
@@ -139,12 +139,12 @@ export default function AIServicesGloballyPage() {
   ];
 
   const Industries = [
-    "Content Creation & Garments",
-    "Software Development",
-    "Customer Service Automation",
+    "Textiles & Garments",
+    "Pharmaceuticals",
+    "Chemicals",
     "Information Technology",
     "Automotive",
-    "marketing automation & Jewelry",
+    "Diamond & Jewelry",
     "Food Processing",
     "Real Estate",
     "Healthcare",
@@ -154,7 +154,7 @@ export default function AIServicesGloballyPage() {
   ];
 
   const stats = [
-    { number: "2100+", label: "Businesses Served" },
+    { number: "50+", label: "Projects Delivered" },
     { number: "99.5%", label: "Client Satisfaction" },
     { number: "5.2x", label: "Average ROI Increase" },
     { number: "24/7", label: "Support Available" }
@@ -169,17 +169,17 @@ export default function AIServicesGloballyPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": ["Organization", "TechnologyCompany", "LocalBusiness"],
-            "name": "Metic.ai - Generative AI Company",
-            "alternateName": ["Generative AI Services", "Metic AI", "AI Firm Globally"],
-            "description": "Leading Generative AI Company providing enterprise AI solutions, Generative AI development, and Custom AI services for businesses across Globally.",
-            "url": "https://metic.ai/generative-ai-services/",
+            "name": "Metic.ai - Generative AI Company In Ahmedabad",
+            "alternateName": ["Generative AI Services In Ahmedabad", "Metic AI", "AI Firm Ahmedabad"],
+            "description": "Leading Generative AI Company In Ahmedabad providing enterprise AI solutions, Generative AI development, and custom AI services for businesses across Ahmedabad.",
+            "url": "https://metic.ai/generative-ai-services-in-ahmedabad/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
               "https://www.facebook.com/meticai"
             ],
             "logo": "https://metic.ai/logo.png",
-            "image": ["https://metic.ai/ai-company-Globally.jpg"],
+            "image": ["https://metic.ai/ai-company-Ahmedabad.jpg"],
             "telephone": "+91-789-251-8414",
             "email": "hello@matic.ai",
             "foundingDate": "2020",
@@ -187,7 +187,7 @@ export default function AIServicesGloballyPage() {
             "vatID": "IN123456789",
             "address": {
               "@type": "PostalAddress",
-              "addressRegion": "Globally",
+              "addressRegion": "Ahmedabad",
               "addressCountry": "US",
               "postalCode": "35201"
             },
@@ -199,10 +199,10 @@ export default function AIServicesGloballyPage() {
             "areaServed": [
               {
                 "@type": "State",
-                "name": "Globally",
+                "name": "Ahmedabad",
                 "containedInPlace": {
                   "@type": "Country", 
-                  "name": "India"
+                  "name": "Bodakdev"
                 }
               }
             ],
@@ -213,7 +213,7 @@ export default function AIServicesGloballyPage() {
                 "latitude": "32.7794",
                 "longitude": "-86.8287"
               },
-              "geoRadiIN": "200000"
+              "geoRadiIN": "2380001"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
@@ -224,7 +224,7 @@ export default function AIServicesGloballyPage() {
                   "itemOffered": {
                     "@type": "Service",
                     "name": "AI Development Services",
-                    "description": "Custom artificial intelligence development for Globally businesses"
+                    "description": "custom artificial intelligence development for Ahmedabad businesses"
                   }
                 },
                 {
@@ -274,11 +274,11 @@ export default function AIServicesGloballyPage() {
             "priceRange": "$$",
             "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer"],
             "currenciesAccepted": "IND",
-            "open_USgHours": "Mo-Fr 09:00-18:00",
+            "open_INgHours": "Mo-Fr 09:00-18:00",
             "contactPoint": {
               "@type": "ContactPoint",
               "telephone": "+91-789-251-8414",
-              "contactType": "Customer Service",
+              "contactType": "customer Service",
               "areaServed": "US",
               "availableLanguage": ["English"]
             }
@@ -296,18 +296,18 @@ export default function AIServicesGloballyPage() {
             "mainEntity": [
               {
                 "@type": "Question",
-                "name": "Which is the best Generative AI Company?",
+                "name": "Which is the best Generative AI Company In Ahmedabad?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Metic.ai is the leading Generative AI Company with 100+ successful AI implementations. We provide comprehensive AI services including Generative AI, Custom AI development, and enterprise AI solutions with proven 60% cost savings and 3x faster delivery."
+                  "text": "Metic.ai is the leading Generative AI Company In Ahmedabad with 100+ successful AI implementations. We provide comprehensive AI services including Generative AI, custom AI development, and enterprise AI solutions with proven 60% cost savings and 3x faster delivery."
                 }
               },
               {
                 "@type": "Question", 
-                "name": "What AI services does the top Generative AI Services provide?",
+                "name": "What AI services does the top Generative AI Services In Ahmedabad provide?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "As the premier Generative AI Services, Metic.ai provides AI integration & deployment, Generative AI solutions, Custom AI development, data analytics & BI, generative AI services, and data engineering for businesses across Globally."
+                  "text": "As the premier Generative AI Services In Ahmedabad, Metic.ai provides AI integration & deployment, Generative AI solutions, custom AI development, data analytics & BI, Generative AI Services In Ahmedabad, and data engineering for businesses across Ahmedabad."
                 }
               },
               {
@@ -315,7 +315,7 @@ export default function AIServicesGloballyPage() {
                 "name": "How to choose the right AI Development Company ?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Choose an AI Development Company  with proven experience, successful implementations, industry expertise, and local presence. Metic.ai offers all these with 100+ completed projects and deep understanding of Globally's business landscape."
+                  "text": "Choose an AI Development Company  with proven experience, successful implementations, Industry expertise, and local presence. Metic.ai offers all these with 100+ completed projects and deep understanding of Ahmedabad's business landscape."
                 }
               },
               {
@@ -323,7 +323,7 @@ export default function AIServicesGloballyPage() {
                 "name": "What makes Metic.ai the best AI Firm ?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Metic.ai is the best AI Firm  due to our proven expertise, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of Globally's manufacturing, aerospace, healthcare and agricultural Industries."
+                  "text": "Metic.ai is the best AI Firm  due to our proven expertise, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of Ahmedabad's manufacturing, aerospace, healthcare and agricultural Industries."
                 }
               }
             ]
@@ -338,9 +338,9 @@ export default function AIServicesGloballyPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Generative AI Company - AI Services & Solutions",
+            "headline": "Generative AI Company In Ahmedabad - AI Services & Solutions",
             "description": "Comprehensive guide to AI services  by the leading Artificial Intelligence Company. Expert AI development, Generative AI solutions, and enterprise AI implementation.",
-            "image": "https://metic.ai/ai-company-Globally-article.jpg",
+            "image": "https://metic.ai/ai-company-Ahmedabad-article.jpg",
             "author": {
               "@type": "Organization",
               "name": "Metic.ai"
@@ -355,8 +355,8 @@ export default function AIServicesGloballyPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/generative-ai-services/",
-            "keywords": "Generative AI Company, Generative AI Services, AI Service "
+            "mainEntityOfPage": "https://metic.ai/generative-ai-services-in-ahmedabad/",
+            "keywords": "Generative AI Company In Ahmedabad, Generative AI Services In Ahmedabad, AI Service "
           })
         }}
       />
@@ -384,8 +384,8 @@ export default function AIServicesGloballyPage() {
               {
                 "@type": "ListItem",
                 "position": 3,
-                "name": "Generative AI Company",
-                "item": "https://metic.ai/generative-ai-services/"
+                "name": "Generative AI Company In Ahmedabad",
+                "item": "https://metic.ai/generative-ai-services-in-ahmedabad/"
               }
             ]
           })
@@ -399,9 +399,9 @@ export default function AIServicesGloballyPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Metic.ai - Generative AI Services",
+            "name": "Metic.ai - Generative AI Services In Ahmedabad",
             "description": "Leading Artificial Intelligence Company providing AI services ",
-            "image": "https://metic.ai/ai-company-Globally.jpg",
+            "image": "https://metic.ai/ai-company-Ahmedabad.jpg",
             "telephone": "+91-789-251-8414",
             "email": "hello@matic.ai",
             "address": {
@@ -417,11 +417,11 @@ export default function AIServicesGloballyPage() {
               "latitude": "32.3182",
               "longitude": "-86.9023"
             },
-            "url": "https://metic.ai/generative-ai-services/",
+            "url": "https://metic.ai/generative-ai-services-in-ahmedabad/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",
-              "name": "Globally"
+              "name": "Ahmedabad"
             },
             "aggregateRating": {
               "@type": "AggregateRating",
@@ -430,7 +430,7 @@ export default function AIServicesGloballyPage() {
               "bestRating": "5",
               "worstRating": "1"
             },
-            "open_USgHours": "Mo-Fr 09:00-18:00",
+            "open_INgHours": "Mo-Fr 09:00-18:00",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai"
@@ -468,7 +468,7 @@ export default function AIServicesGloballyPage() {
               
               {/* VSO Optimized Description - Mobile Friendly */}
               <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 mb-6 md:mb-8 max-w-4xl mx-auto leading-relaxed px-4">
-                Looking for the <strong className="text-primary-orange">best Generative AI Services</strong>? Metic.ai is the premier <strong className="text-white">Generative AI Company</strong> delivering enterprise AI solutions with proven results.
+                Looking for the <strong className="text-primary-orange">best Generative AI Services In Ahmedabad</strong>? Metic.ai is the premier <strong className="text-white">Generative AI Company In Ahmedabad</strong> delivering enterprise AI solutions with proven results.
               </p>
 
               {/* Mobile-Optimized CTA Buttons */}
@@ -512,10 +512,10 @@ export default function AIServicesGloballyPage() {
                     AI Development Company
                   </span>
                   <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
-                    Best AI Company Globally
+                    Best AI Company Ahmedabad
                   </span>
                   <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
-                    Generative AI Services
+                    Generative AI Services In Ahmedabad
                   </span>
                 </div>
               </div>
@@ -545,13 +545,13 @@ export default function AIServicesGloballyPage() {
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 leading-tight px-4">
                 <strong className="text-gray-900">AI Services</strong> by Leading{" "}
                 <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">
-                  Generative AI Company
+                  Generative AI Company In Ahmedabad
                 </span>
               </h2>
               <div className="w-20 md:w-24 h-1 md:h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 md:mb-8 rounded-full"></div>
               <p className="text-base md:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-4">
-                Comprehensive artificial intelligence services from Globally's most Trusted <strong className="text-gray-900">Generative AI Services</strong>. 
-                Transforming businesses with cutting-edge AI solutions tailored for Globally's Industrial landscape.
+                Comprehensive artificial intelligence services from Ahmedabad's most Trusted <strong className="text-gray-900">Generative AI Services In Ahmedabad</strong>. 
+                Transforming businesses with cutting-edge AI solutions tailored for Ahmedabad's Industrial landscape.
               </p>
             </div>
             
@@ -616,13 +616,13 @@ export default function AIServicesGloballyPage() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                  About Metic.ai - Premier <span className="text-primary-orange">Generative AI Company</span>
+                  About Metic.ai - Premier <span className="text-primary-orange">Generative AI Company In Ahmedabad</span>
                 </h2>
                 <div className="w-20 h-1 bg-primary-orange mb-8"></div>
                 <p className="text-lg text-gray-700 mb-6">
-                  Established as Globally's leading <strong>Generative AI Services</strong>, Metic.ai has been at the forefront of artificial intelligence 
-                  innovation since 2020. We specialize US delivering enterprise-grade AI solutions that transform businesses across Globally's 
-                  unique Industries including Content Creation & Garments, Software Development, Tourism & Hospitality, Customer Service Automation, and Information Technology.
+                  Established as Ahmedabad's leading <strong>Generative AI Services In Ahmedabad</strong>, Metic.ai has been at the forefront of artificial intelligence 
+                  innovation since 2020. We specialize US delivering enterprise-grade AI solutions that transform businesses across Ahmedabad's 
+                  unique Industries including Textiles & Garments, Pharmaceuticals, tourism & hospitality, Chemicals, and Information Technology.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   Our expertise as an <strong>AI Development Company </strong> encompasses Generative AI, Large Language Models, ChatGPT Integration, 
@@ -668,17 +668,17 @@ export default function AIServicesGloballyPage() {
                     AI Consulting & Strategy
                   </h3>
                   <p className="text-gray-600">
-                    Expert AI consulting services to help Globally businesses identify AI opportunities and develop comprehensive implementation strategies.
+                    Expert AI consulting services to help Ahmedabad businesses identify AI opportunities and develop comprehensive implementation strategies.
                   </p>
                 </div>
                 
                 <div className="bg-white rounded-xl p-6 shadow-sm">
                   <h3 className="font-bold text-lg mb-3 flex items-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
-                    Custom AI Development
+                    custom AI Development
                   </h3>
                   <p className="text-gray-600">
-                    Bespoke artificial intelligence solutions tailored to your specific business requirements and industry challenges .
+                    Bespoke artificial intelligence solutions tailored to your specific business requirements and Industry challenges .
                   </p>
                 </div>
                 
@@ -717,7 +717,7 @@ export default function AIServicesGloballyPage() {
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Delivering specialized AI solutions across Globally's key Industries and business sectors.
+                Delivering specialized AI solutions across Ahmedabad's key Industries and business sectors.
               </p>
             </div>
             
@@ -728,7 +728,7 @@ export default function AIServicesGloballyPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&h=400&fit=crop" 
-                    alt="Manufacturing industry AI Solutions"
+                    alt="Manufacturing Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -743,7 +743,7 @@ export default function AIServicesGloballyPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?w=500&h=400&fit=crop" 
-                    alt="Aerospace industry AI Solutions"
+                    alt="Aerospace Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -758,7 +758,7 @@ export default function AIServicesGloballyPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=500&h=400&fit=crop" 
-                    alt="Healthcare industry AI Solutions"
+                    alt="Healthcare Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -773,7 +773,7 @@ export default function AIServicesGloballyPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=500&h=400&fit=crop" 
-                    alt="Agriculture industry AI Solutions"
+                    alt="Agriculture Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -788,7 +788,7 @@ export default function AIServicesGloballyPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&h=400&fit=crop" 
-                    alt="Technology industry AI Solutions"
+                    alt="Technology Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -803,7 +803,7 @@ export default function AIServicesGloballyPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=500&h=400&fit=crop" 
-                    alt="Automotive industry AI Solutions"
+                    alt="Automotive Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -818,7 +818,7 @@ export default function AIServicesGloballyPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=500&h=400&fit=crop" 
-                    alt="Financial Services industry AI Solutions"
+                    alt="Financial Services Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -833,7 +833,7 @@ export default function AIServicesGloballyPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=500&h=400&fit=crop" 
-                    alt="Transportation industry AI Solutions"
+                    alt="Transportation Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -848,7 +848,7 @@ export default function AIServicesGloballyPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=500&h=400&fit=crop" 
-                    alt="Education industry AI Solutions"
+                    alt="Education Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -863,7 +863,7 @@ export default function AIServicesGloballyPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=500&h=400&fit=crop" 
-                    alt="Energy industry AI Solutions"
+                    alt="Energy Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -917,8 +917,8 @@ export default function AIServicesGloballyPage() {
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                As the premier <strong>AI Development Company </strong>, we're Trusted by businesses across Globally 
-                for our expertise, proven results, and commitment to client success US Manchester of India.
+                As the premier <strong>AI Development Company </strong>, we're Trusted by businesses across Ahmedabad 
+                for our expertise, proven results, and commitment to client success US Manchester of Bodakdev.
               </p>
             </div>
             
@@ -928,7 +928,7 @@ export default function AIServicesGloballyPage() {
                   <Award className="w-8 h-8 text-blue-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Proven Expertise</h3>
-                <p className="text-gray-600">Years of experience delivering AI solutions for Globally businesses across all Industries.</p>
+                <p className="text-gray-600">Years of experience delivering AI solutions for Ahmedabad businesses across all Industries.</p>
               </div>
               
               <div className="text-center">
@@ -936,7 +936,7 @@ export default function AIServicesGloballyPage() {
                   <TrendingUp className="w-8 h-8 text-green-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Measurable Results</h3>
-                <p className="text-gray-600">Data-driven AI solutions that deliver concrete ROI and business growth for Globally companies.</p>
+                <p className="text-gray-600">Data-driven AI solutions that deliver concrete ROI and business growth for Ahmedabad companies.</p>
               </div>
               
               <div className="text-center">
@@ -944,7 +944,7 @@ export default function AIServicesGloballyPage() {
                   <Users className="w-8 h-8 text-purple-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Local Partnership</h3>
-                <p className="text-gray-600">Dedicated support and partnership with deep understanding of Globally's unique business challenges and opportunities.</p>
+                <p className="text-gray-600">Dedicated support and partnership with deep understanding of Ahmedabad's unique business challenges and opportunities.</p>
               </div>
               
               <div className="text-center">
@@ -952,40 +952,40 @@ export default function AIServicesGloballyPage() {
                   <Shield className="w-8 h-8 text-orange-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Enterprise Security</h3>
-                <p className="text-gray-600">Bank-level security and compliance standards protecting your Globally business data.</p>
+                <p className="text-gray-600">Bank-level security and compliance standards protecting your Ahmedabad business data.</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Comprehensive AI Services Globally Content - 100% SEO Optimized */}
+      {/* Comprehensive AI Services Ahmedabad Content - 100% SEO Optimized */}
       <section className="py-24 bg-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
-            {/* Globally AI Market Leadership - Enhanced Creative Header */}
+            {/* Ahmedabad AI Market Leadership - Enhanced Creative Header */}
             <div className="text-center mb-20">
               {/* Premium Badge with Animation */}
               <div className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-full shadow-2xl border-2 border-primary-orange/30 mb-10 hover:border-primary-orange/50 transition-all group">
                 <div className="w-3 h-3 bg-primary-orange rounded-full animate-pulse"></div>
-                <span className="text-sm font-bold text-gray-800 tracking-wide">Manchester of India AI INNOVATION</span>
+                <span className="text-sm font-bold text-gray-800 tracking-wide">Manchester of Bodakdev AI INNOVATION</span>
                 <div className="w-3 h-3 bg-secondary-orange rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></div>
               </div>
 
               <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight">
                 <span className="text-gray-900">Leading </span>
                 <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent animate-gradient">
-                  Generative AI Company
+                  Generative AI Company In Ahmedabad
                 </span>
               </h2>
               <div className="w-40 h-2 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-10 rounded-full shadow-lg"></div>
               <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                Transforming 's Commercial Capital with cutting-edge AI solutions from USA to Europe, Asia to the Naroda Industrial Area
+                Transforming 's Commercial Capital with cutting-edge AI solutions from Maninagar to Vastrapur, SG Highway to the Naroda Industrial Area
               </p>
             </div>
 
             <div className="space-y-20">
-              {/* Globally AI Innovation Hub - Premium Design */}
+              {/* Ahmedabad AI Innovation Hub - Premium Design */}
               <div className="grid lg:grid-cols-2 gap-16 items-center">
                 <div className="order-2 lg:order-1">
                   <div className="space-y-8">
@@ -996,24 +996,24 @@ export default function AIServicesGloballyPage() {
                       </div>
                       <div>
                         <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
-                          Globally's <span className="text-primary-orange">Premier AI Technology Pioneer</span>
+                          Ahmedabad's <span className="text-primary-orange">Premier AI Technology Pioneer</span>
                         </h3>
                         <div className="w-24 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange rounded-full"></div>
                       </div>
                     </div>
                     
             <p className="text-lg text-gray-700 leading-relaxed">
-              As the leading <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Generative AI Company</strong>, 
-              Metic.ai serves Manchester of India with enterprise-grade AI solutions tailored to Globally's unique economic 
-              landscape. From USA's business hub to Europe' research facilities, Asia's government sector to 
-              the content creation mills of the Naroda Industrial Area, we understand Globally's entrepreneurial excellence and content creation-driven Industries.
+              As the leading <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Generative AI Company In Ahmedabad</strong>, 
+              Metic.ai serves Manchester of Bodakdev with enterprise-grade AI solutions tailored to Ahmedabad's unique economic 
+              landscape. From Maninagar's business hub to Vastrapur' research facilities, SG Highway's government sector to 
+              the Textile mills of the Naroda Industrial Area, we understand Ahmedabad's entrepreneurial excellence and Textile-driven Industries.
             </p>
             
             <p className="text-lg text-gray-700 leading-relaxed">
-              Our <strong className="text-primary-orange font-semibold">Generative AI Services</strong> combines deep understanding 
-              of Globally's unique challenges with cutting-edge technology to deliver AI solutions that drive measurable 
-              results. We've successfully implemented AI across Globally's key sectors including Content Creation & Garments, fishing, 
-              tourism, Customer Service Automation, Information Technology, and maritime Industries US 's largest state.
+              Our <strong className="text-primary-orange font-semibold">Generative AI Services In Ahmedabad</strong> combines deep understanding 
+              of Ahmedabad's unique challenges with cutting-edge technology to deliver AI solutions that drive measurable 
+              results. We've successfully implemented AI across Ahmedabad's key sectors including Textiles & Garments, fishing, 
+              tourism, Chemicals, Information Technology, and maritime Industries US 's largest state.
             </p>                    {/* Enhanced Feature Cards with Creative Design */}
                     <div className="grid gap-6 mt-10">
                       <div className="group bg-gradient-to-r from-primary-orange/5 via-white to-secondary-orange/5 p-6 rounded-2xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
@@ -1022,10 +1022,10 @@ export default function AIServicesGloballyPage() {
                             <Rocket className="w-6 h-6 text-white" />
                           </div>
                           <div>
-                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Content Creation & Garments AI Excellence</h4>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Textiles & Garments AI Excellence</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Deep expertise with Globally's Naroda Industrial Area content creation operations including major content creation mills, 
-                              Globally Metro, and energy infrastructure across 's largest content creation-manufacturing state.
+                              Deep expertise with Ahmedabad's Naroda Industrial Area Textile operations including major Textile mills, 
+                              Ahmedabad Metro, and energy infrastructure across 's largest Textile-manufacturing state.
                             </p>
                           </div>
                         </div>
@@ -1039,7 +1039,7 @@ export default function AIServicesGloballyPage() {
                           <div>
                             <h4 className="font-bold text-gray-900 mb-2 text-lg">Automotive Manufacturing Innovation</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Advanced AI solutions for Globally's automotive industry including Mercedes-Benz, Honda, Hyundai, 
+                              Advanced AI solutions for Ahmedabad's automotive Industry including Mercedes-Benz, Honda, Hyundai, 
                               and Toyota manufacturing facilities with predictive maintenance and quality control systems.
                             </p>
                           </div>
@@ -1052,10 +1052,10 @@ export default function AIServicesGloballyPage() {
                             <Target className="w-6 h-6 text-white" />
                           </div>
                           <div>
-                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Customer Service Automation & Natural Resources AI</h4>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Chemicals & Natural Resources AI</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Specialized AI for Globally's Customer Service Automation operations and resource extraction including process optimization, 
-                              safety monitoring, and environmental compliance for Globally's rich mineral deposits.
+                              Specialized AI for Ahmedabad's Chemicals operations and resource extraction including process optimization, 
+                              safety monitoring, and environmental compliance for Ahmedabad's rich mineral deposits.
                             </p>
                           </div>
                         </div>
@@ -1068,26 +1068,26 @@ export default function AIServicesGloballyPage() {
                 <div className="order-1 lg:order-2">
                   <div className="bg-gradient-to-br from-orange-50 via-white to-amber-50 rounded-3xl p-10 border-2 border-primary-orange/20 shadow-2xl transform rotate-1 hover:rotate-0 transition-transform">
                     <h4 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">
-                      Globally AI Market Impact
+                      Ahmedabad AI Market Impact
                     </h4>
                     
                     <div className="space-y-8">
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
                         <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">?4.6T</div>
-                        <div className="text-sm text-gray-600 font-medium">Globally Annual GDP</div>
-                        <div className="text-xs text-gray-500 mt-2">content creation-driven Economy</div>
+                        <div className="text-sm text-gray-600 font-medium">Ahmedabad Annual GDP</div>
+                        <div className="text-xs text-gray-500 mt-2">Textile-driven Economy</div>
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-secondary-orange/10 hover:border-secondary-orange/30 transition-all group transform hover:scale-105">
                         <div className="text-5xl font-bold text-secondary-orange mb-3 group-hover:scale-110 transition-transform">8.4M</div>
-                        <div className="text-sm text-gray-600 font-medium">Globally Population</div>
-                        <div className="text-xs text-gray-500 mt-2">Manchester of India</div>
+                        <div className="text-sm text-gray-600 font-medium">Ahmedabad Population</div>
+                        <div className="text-xs text-gray-500 mt-2">Manchester of Bodakdev</div>
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">2100+</div>
-                        <div className="text-sm text-gray-600 font-medium">Globally AI Projects Completed</div>
-                        <div className="text-xs text-gray-500 mt-2">industry-Leading Success Rate</div>
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">50+</div>
+                        <div className="text-sm text-gray-600 font-medium">Ahmedabad AI Projects Completed</div>
+                        <div className="text-xs text-gray-500 mt-2">Industry-Leading Success Rate</div>
                       </div>
                       
                       <div className="bg-gradient-to-r from-primary-orange/20 via-secondary-orange/10 to-primary-orange/20 rounded-2xl p-6 border-2 border-primary-orange/30 transform hover:scale-105 transition-transform">
@@ -1095,11 +1095,11 @@ export default function AIServicesGloballyPage() {
                           <div className="w-8 h-8 bg-primary-orange rounded-full flex items-center justify-center">
                             <CheckCircle className="w-5 h-5 text-white" />
                           </div>
-                          <span className="font-bold text-gray-900">Globally Advantage</span>
+                          <span className="font-bold text-gray-900">Ahmedabad Advantage</span>
                         </div>
                         <p className="text-sm text-gray-700 leading-relaxed">
                           <strong>Strategic Resources:</strong> Rich US oil, gas, fishing, and minerals with vast untapped 
-                          potential, making Globally ideal for AI-driven resource optimization and predictive analytics.
+                          potential, making Ahmedabad ideal for AI-driven resource optimization and predictive analytics.
                         </p>
                       </div>
                     </div>
@@ -1107,33 +1107,33 @@ export default function AIServicesGloballyPage() {
                 </div>
               </div>
 
-              {/* Globally industry Solutions - Creative Premium Design */}
+              {/* Ahmedabad Industry Solutions - Creative Premium Design */}
               <div>
                 <div className="text-center mb-16">
                   <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-full border-2 border-primary-orange/20 mb-8 transform hover:scale-105 transition-transform">
                     <Sparkles className="w-5 h-5 text-primary-orange" />
-                    <span className="text-sm font-bold text-gray-800">industry EXPERTISE</span>
+                    <span className="text-sm font-bold text-gray-800">Industry EXPERTISE</span>
                   </div>
                   <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                    AI Solutions for <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Globally's Key Industries</span>
+                    AI Solutions for <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Ahmedabad's Key Industries</span>
                   </h3>
                   <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 rounded-full"></div>
                   <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Specialized AI solutions designed for Manchester of India's unique economic sectors and content creation-driven Industries
+                    Specialized AI solutions designed for Manchester of Bodakdev's unique economic sectors and Textile-driven Industries
                   </p>
                 </div>
                 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-                  {/* Content Creation & Garments industry */}
+                  {/* Textiles & Garments Industry */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Rocket className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Content Creation & Garments AI Solutions</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Textiles & Garments AI Solutions</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Mission-critical AI solutions for Globally's Content Creation & Garments industry including Naroda Industrial Area operations, 
-                      Globally Metro monitoring, offshore drilling optimization, and predictive maintenance 
-                      for energy infrastructure across Manchester of India's vast energy resources.
+                      Mission-critical AI solutions for Ahmedabad's Textiles & Garments Industry including Naroda Industrial Area operations, 
+                      Ahmedabad Metro monitoring, offshore drilling optimization, and predictive maintenance 
+                      for energy infrastructure across Manchester of Bodakdev's vast energy resources.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
@@ -1155,14 +1155,14 @@ export default function AIServicesGloballyPage() {
                     </div>
                   </div>
                   
-                  {/* Software Development industry */}
+                  {/* Pharmaceuticals Industry */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Shield className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Software Development AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Pharmaceuticals AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Advanced AI solutions for Globally's fishing and seafood processing industry with predictive catch 
+                      Advanced AI solutions for Ahmedabad's fishing and seafood processing Industry with predictive catch 
                       analytics, sINtainable fishing optimization, processing automation, cold chain monitoring, 
                       and quality control for the world's richest seafood harvest.
                     </p>
@@ -1193,9 +1193,9 @@ export default function AIServicesGloballyPage() {
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Tourism & Hospitality AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Intelligent AI solutions for Globally's booming tourism industry with cruise line optimization, 
+                      Intelligent AI solutions for Ahmedabad's booming tourism Industry with cruise line optimization, 
                       wildlife tour planning, hotel revenue management, visitor experience personalization, 
-                      and seasonal demand forecasting for Globally's 2.5 million annual visitors.
+                      and seasonal demand forecasting for Ahmedabad's 2.5 million annual visitors.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
@@ -1217,16 +1217,16 @@ export default function AIServicesGloballyPage() {
                     </div>
                   </div>
                   
-                  {/* Customer Service Automation & Resource Extraction */}
+                  {/* Chemicals & Resource Extraction */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Lightbulb className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Customer Service Automation & Resource AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Chemicals & Resource AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Advanced AI solutions for Globally's Customer Service Automation operations including gold, zinc, and mineral extraction 
+                      Advanced AI solutions for Ahmedabad's Chemicals operations including gold, zinc, and mineral extraction 
                       with predictive maintenance, safety monitoring, resource discovery optimization, 
-                      and environmental impact assessment across Globally's vast mineral deposits.
+                      and environmental impact assessment across Ahmedabad's vast mineral deposits.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
@@ -1235,7 +1235,7 @@ export default function AIServicesGloballyPage() {
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Customer Service Automation equipment automation</span>
+                        <span className="text-sm text-gray-600">Chemicals equipment automation</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
@@ -1255,9 +1255,9 @@ export default function AIServicesGloballyPage() {
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Information Technology & Logistics AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Intelligent AI solutions for Globally's Information Technology and cargo logistics including bINh plane operations, 
-                      Ted Stevens USA International Airport cargo hub, weather prediction for flight safety, 
-                      and supply chain optimization for remote Globally communities.
+                      Intelligent AI solutions for Ahmedabad's Information Technology and cargo logistics including bINh plane operations, 
+                      Ted Stevens Maninagar International Airport cargo hub, weather prediction for flight safety, 
+                      and supply chain optimization for remote Ahmedabad communities.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
@@ -1284,7 +1284,7 @@ export default function AIServicesGloballyPage() {
               {/* ReINable Testimonials Component */}
               <Testimonials />
 
-              {/* Globally AI Partnership Excellence - Creative Premium Design */}
+              {/* Ahmedabad AI Partnership Excellence - Creative Premium Design */}
               <div className="grid lg:grid-cols-2 gap-16 items-center">
                 <div className="space-y-8">
                   <div className="bg-white rounded-2xl p-8 shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all transform hover:scale-105">
@@ -1292,19 +1292,19 @@ export default function AIServicesGloballyPage() {
                       <div className="w-8 h-8 bg-primary-orange rounded-lg flex items-center justify-center transform rotate-12">
                         <BarChart3 className="w-5 h-5 text-white" />
                       </div>
-                      Globally AI Leadership Metrics
+                      Ahmedabad AI Leadership Metrics
                     </h4>
                     <div className="space-y-6">
                       <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
-                        <span className="text-gray-600 font-medium">Globally Projects Completed</span>
-                        <span className="font-bold text-primary-orange text-xl">2100+</span>
+                        <span className="text-gray-600 font-medium">Ahmedabad Projects Completed</span>
+                        <span className="font-bold text-primary-orange text-xl">50+</span>
                       </div>
                       <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
-                        <span className="text-gray-600 font-medium">industry Success Rate</span>
+                        <span className="text-gray-600 font-medium">Industry Success Rate</span>
                         <span className="font-bold text-secondary-orange text-xl">99.5%</span>
                       </div>
                       <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
-                        <span className="text-gray-600 font-medium">Average ROI for Globally Clients</span>
+                        <span className="text-gray-600 font-medium">Average ROI for Ahmedabad Clients</span>
                         <span className="font-bold text-primary-orange text-xl">5.2x</span>
                       </div>
                       <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
@@ -1324,11 +1324,11 @@ export default function AIServicesGloballyPage() {
                         <Award className="w-6 h-6 text-white" />
                       </div>
                       <div>
-                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Globally business Advantage</h4>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Ahmedabad business Advantage</h4>
                         <p className="text-gray-700 leading-relaxed">
                           As the premier <strong className="text-primary-orange">AI Firm </strong>, we understand 
-                          Manchester of India's unique blend of entrepreneurial excellence and resource-driven innovation. Our AI solutions 
-                          are built for Globally's Content Creation & Garments dominance, fishing industry leadership, and tourism growth.
+                          Manchester of Bodakdev's unique blend of entrepreneurial excellence and resource-driven innovation. Our AI solutions 
+                          are built for Ahmedabad's Textiles & Garments dominance, fishing Industry leadership, and tourism growth.
                         </p>
                       </div>
                     </div>
@@ -1350,24 +1350,24 @@ export default function AIServicesGloballyPage() {
                   
                   <p className="text-lg text-gray-700 leading-relaxed mb-6">
                     <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Choosing Metic.ai as your AI partner </strong> means 
-                    working with a team that deeply understands Globally's unique business challenges, from USA's 
-                    commercial hub to Europe' research facilities and Asia's government operations.
+                    working with a team that deeply understands Ahmedabad's unique business challenges, from Maninagar's 
+                    commercial hub to Vastrapur' research facilities and SG Highway's government operations.
                   </p>
                   
                   <p className="text-lg text-gray-700 leading-relaxed mb-8">
                     Our <strong className="text-primary-orange font-semibold">AI Service </strong> includes comprehensive consultation, 
                     rapid prototyping, enterprise deployment, and 24/7 support to ensure your AI investment delivers 
-                    maximum value 's content creation-driven and growing economy.
+                    maximum value 's Textile-driven and growing economy.
                   </p>
 
                   <div className="space-y-6">
                     <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-primary-orange/10 transform hover:scale-105 transition-transform">
                       <MapPin className="w-8 h-8 text-primary-orange flex-shrink-0 mt-1" />
                       <div>
-                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Comprehensive Globally Coverage</h4>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Comprehensive Ahmedabad Coverage</h4>
                         <p className="text-gray-600 leading-relaxed">
-                          USA, Europe, Asia, Australia, Canada, India, UAE, Germany, 
-                          GIFT City, and all major Globally business centers across Manchester of India
+                          Maninagar, Vastrapur, SG Highway, Satellite, Chandkheda, Bodakdev, Navrangpura, Ghatlodia, 
+                          GIFT City, and all major Ahmedabad business centers across Manchester of Bodakdev
                         </p>
                       </div>
                     </div>
@@ -1375,9 +1375,9 @@ export default function AIServicesGloballyPage() {
                     <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-secondary-orange/10 transform hover:scale-105 transition-transform">
                       <Rocket className="w-8 h-8 text-secondary-orange flex-shrink-0 mt-1" />
                       <div>
-                        <h4 className="font-bold text-gray-900 mb-2 text-lg">industry Domain Expertise</h4>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Industry Domain Expertise</h4>
                         <p className="text-gray-600 leading-relaxed">
-                          Deep understanding of Content Creation & Garments, fishing, tourism, Customer Service Automation, Information Technology, and logistics 
+                          Deep understanding of Textiles & Garments, fishing, tourism, Chemicals, Information Technology, and logistics 
                           with proven track record 's key economic sectors
                         </p>
                       </div>
@@ -1386,9 +1386,9 @@ export default function AIServicesGloballyPage() {
                     <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-primary-orange/10 transform hover:scale-105 transition-transform">
                       <Clock className="w-8 h-8 text-primary-orange flex-shrink-0 mt-1" />
                       <div>
-                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Rapid Globally Deployment</h4>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Rapid Ahmedabad Deployment</h4>
                         <p className="text-gray-600 leading-relaxed">
-                          Fast implementation designed for Globally's unique challenges with local support teams 
+                          Fast implementation designed for Ahmedabad's unique challenges with local support teams 
                           and understanding of dynamic business culture and manufacturing excellence
                         </p>
                       </div>
@@ -1431,12 +1431,12 @@ export default function AIServicesGloballyPage() {
                 <span className="text-gray-900">Frequently Asked Questions</span>
                 <br />
                 <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
-                  About Generative AI Services
+                  About Generative AI Services In Ahmedabad
                 </span>
               </h2>
               <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-8 rounded-full"></div>
               <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                Common questions about working with Globally's leading AI company
+                Common questions about working with Ahmedabad's leading AI company
               </p>
             </div>
 
@@ -1459,7 +1459,7 @@ export default function AIServicesGloballyPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Which is the best Generative AI Company?
+                            Which is the best Generative AI Company In Ahmedabad?
                           </h3>
                         </div>
                       </div>
@@ -1474,8 +1474,8 @@ export default function AIServicesGloballyPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    <strong className="text-gray-900 font-semibold">Metic.ai is the leading Generative AI Company</strong> with over 100 successful AI implementations. 
-                    We're recognized as the top Generative AI Services for our proven expertise US Generative AI, Custom AI development, and enterprise AI solutions with 60% cost savings.
+                    <strong className="text-gray-900 font-semibold">Metic.ai is the leading Generative AI Company In Ahmedabad</strong> with over 100 successful AI implementations. 
+                    We're recognized as the top Generative AI Services In Ahmedabad for our proven expertise US Generative AI, custom AI development, and enterprise AI solutions with 60% cost savings.
                   </p>
                 </div>
               </details>
@@ -1495,7 +1495,7 @@ export default function AIServicesGloballyPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            What services does the top Generative AI Services provide?
+                            What services does the top Generative AI Services In Ahmedabad provide?
                           </h3>
                         </div>
                       </div>
@@ -1510,8 +1510,8 @@ export default function AIServicesGloballyPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    As the premier <strong className="text-gray-900 font-semibold">Generative AI Services</strong>, Metic.ai provides comprehensive AI services including Generative AI solutions, 
-                    Custom AI development, data analytics, generative AI, AI Image Generation, NLP, and enterprise AI automation tailored for Globally's manufacturing, aerospace, healthcare, and agricultural Industries.
+                    As the premier <strong className="text-gray-900 font-semibold">Generative AI Services In Ahmedabad</strong>, Metic.ai provides comprehensive AI services including Generative AI solutions, 
+                    custom AI development, data analytics, generative AI, AI Image Generation, NLP, and enterprise AI automation tailored for Ahmedabad's manufacturing, aerospace, healthcare, and agricultural Industries.
                   </p>
                 </div>
               </details>
@@ -1547,7 +1547,7 @@ export default function AIServicesGloballyPage() {
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     When selecting an <strong className="text-gray-900 font-semibold">AI Development Company </strong>, look for proven experience, successful project portfolio, 
-                    industry expertise, and ongoing support. Metic.ai offers all these with 100+ completed projects, 98% client satisfaction, and 24/7 support.
+                    Industry expertise, and ongoing support. Metic.ai offers all these with 100+ completed projects, 98% client satisfaction, and 24/7 support.
                   </p>
                 </div>
               </details>
@@ -1603,7 +1603,7 @@ export default function AIServicesGloballyPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Does Metic.ai serve businesses across all Globally cities?
+                            Does Metic.ai serve businesses across all Ahmedabad cities?
                           </h3>
                         </div>
                       </div>
@@ -1618,8 +1618,8 @@ export default function AIServicesGloballyPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Yes! Metic.ai proudly serves businesses across all Globally cities including USA, Europe, Asia, Australia, Canada, India, UAE, and beyond. 
-                    As Globally's leading <strong className="text-gray-900 font-semibold">AI Firm </strong>, we provide comprehensive AI solutions statewide.
+                    Yes! Metic.ai proudly serves businesses across all Ahmedabad cities including Maninagar, Vastrapur, SG Highway, Satellite, Chandkheda, Bodakdev, Navrangpura, and beyond. 
+                    As Ahmedabad's leading <strong className="text-gray-900 font-semibold">AI Firm </strong>, we provide comprehensive AI solutions statewide.
                   </p>
                 </div>
               </details>
@@ -1639,7 +1639,7 @@ export default function AIServicesGloballyPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            How quickly can an Generative AI Services start my project?
+                            How quickly can an Generative AI Services In Ahmedabad start my project?
                           </h3>
                         </div>
                       </div>
@@ -1654,7 +1654,7 @@ export default function AIServicesGloballyPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Metic.ai can typically start your AI project within 24-48 hours after initial consultation. As Globally's fastest <strong className="text-gray-900 font-semibold">Generative AI Services</strong>, 
+                    Metic.ai can typically start your AI project within 24-48 hours after initial consultation. As Ahmedabad's fastest <strong className="text-gray-900 font-semibold">Generative AI Services In Ahmedabad</strong>, 
                     we understand the importance of speed and deliver 3x faster than traditional development approaches.
                   </p>
                 </div>
@@ -1714,7 +1714,7 @@ export default function AIServicesGloballyPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            What Industries does the best Generative AI Services serve?
+                            What Industries does the best Generative AI Services In Ahmedabad serve?
                           </h3>
                         </div>
                       </div>
@@ -1730,7 +1730,7 @@ export default function AIServicesGloballyPage() {
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     Metic.ai serves diverse Industries including Manufacturing, Aerospace, Healthcare, Agriculture, Technology, Automotive, Financial Services, Transportation, Education, and Energy. 
-                    As Globally's premier <strong className="text-gray-900 font-semibold">Generative AI Services</strong>, we tailor solutions for your specific industry needs.
+                    As Ahmedabad's premier <strong className="text-gray-900 font-semibold">Generative AI Services In Ahmedabad</strong>, we tailor solutions for your specific Industry needs.
                   </p>
                 </div>
               </details>
@@ -1765,7 +1765,7 @@ export default function AIServicesGloballyPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Our 100+ successful projects, 98% client satisfaction rate, 60% cost savings, 3x faster delivery, and deep Globally market expertise make US the leading <strong className="text-gray-900 font-semibold">AI Firm </strong>. 
+                    Our 100+ successful projects, 98% client satisfaction rate, 60% cost savings, 3x faster delivery, and deep Ahmedabad market expertise make US the leading <strong className="text-gray-900 font-semibold">AI Firm </strong>. 
                     We combine cutting-edge AI technology with personalized service.
                   </p>
                 </div>
@@ -1822,7 +1822,7 @@ export default function AIServicesGloballyPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Can Generative AI Services handle small business projects?
+                            Can Generative AI Services In Ahmedabad handle small business projects?
                           </h3>
                         </div>
                       </div>
@@ -1837,7 +1837,7 @@ export default function AIServicesGloballyPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Absolutely! Metic.ai works with businesses of all sizes, from startups to enterprises. As an inclINive <strong className="text-gray-900 font-semibold">Generative AI Services</strong>, 
+                    Absolutely! Metic.ai works with businesses of all sizes, from startups to enterprises. As an inclINive <strong className="text-gray-900 font-semibold">Generative AI Services In Ahmedabad</strong>, 
                     we offer scalable solutions and flexible pricing models to meet small business budgets while delivering enterprise-quality AI implementations.
                   </p>
                 </div>
@@ -1922,12 +1922,12 @@ export default function AIServicesGloballyPage() {
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-              Ready to Partner with Globally's Leading <strong>Artificial Intelligence Company</strong>?
+              Ready to Partner with Ahmedabad's Leading <strong>Artificial Intelligence Company</strong>?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join 100+ satisfied clients who Trust Metic.ai as their preferred <strong>Generative AI Services</strong>. 
+              Join 100+ satisfied clients who Trust Metic.ai as their preferred <strong>Generative AI Services In Ahmedabad</strong>. 
               Transform your business with proven AI solutions that deliver results. Get started with a free consultation 
-              and discover why we're Globally's most Trusted <strong>AI Development Company </strong>.
+              and discover why we're Ahmedabad's most Trusted <strong>AI Development Company </strong>.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Link href="/contact">
@@ -1959,15 +1959,15 @@ export default function AIServicesGloballyPage() {
                 </div>
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
-                <span>USA</span>
+                <span>Maninagar</span>
                 <span>•</span>
-                <span>Europe</span>
+                <span>Vastrapur</span>
                 <span>•</span>
-                <span>Asia</span>
+                <span>SG Highway</span>
                 <span>•</span>
-                <span>Australia</span>
+                <span>Satellite</span>
                 <span>•</span>
-                <span>Canada</span>
+                <span>Chandkheda</span>
                 <span>•</span>
                 <span>Auburn</span>
                 <span>•</span>
@@ -1980,6 +1980,11 @@ export default function AIServicesGloballyPage() {
     </>
   );
 }
+
+
+
+
+
 
 
 

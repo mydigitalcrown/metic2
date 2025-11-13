@@ -109,7 +109,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
       color: "purple" as const
     },
     {
-      title: "custom AI Development",
+      title: "Custom AI Development",
       description: "Bespoke AI solutions designed specifically for your Ahmedabad business requirements and goals.",
       icon: Code,
       href: "/custom-ai-development",
@@ -171,7 +171,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
             "@type": ["Organization", "TechnologyCompany", "LocalBusiness"],
             "name": "Metic.ai - Generative AI Company In Ahmedabad",
             "alternateName": ["Generative AI Services In Ahmedabad", "Metic AI", "AI Firm Ahmedabad"],
-            "description": "Leading Generative AI Company In Ahmedabad providing enterprise AI solutions, Generative AI development, and custom AI services for businesses across Ahmedabad.",
+            "description": "Leading Generative AI Company In Ahmedabad providing enterprise AI solutions, Generative AI development, and Custom AI services for businesses across Ahmedabad.",
             "url": "https://metic.ai/generative-ai-services-in-ahmedabad/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
@@ -224,7 +224,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                   "itemOffered": {
                     "@type": "Service",
                     "name": "AI Development Services",
-                    "description": "custom artificial intelligence development for Ahmedabad businesses"
+                    "description": "Custom artificial intelligence development for Ahmedabad businesses"
                   }
                 },
                 {
@@ -278,7 +278,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
             "contactPoint": {
               "@type": "ContactPoint",
               "telephone": "+91-789-251-8414",
-              "contactType": "customer Service",
+              "contactType": "Customer Service",
               "areaServed": "US",
               "availableLanguage": ["English"]
             }
@@ -299,7 +299,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 "name": "Which is the best Generative AI Company In Ahmedabad?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Metic.ai is the leading Generative AI Company In Ahmedabad with 100+ successful AI implementations. We provide comprehensive AI services including Generative AI, custom AI development, and enterprise AI solutions with proven 60% cost savings and 3x faster delivery."
+                  "text": "Metic.ai is the leading Generative AI Company In Ahmedabad with 100+ successful AI implementations. We provide comprehensive AI services including Generative AI, Custom AI development, and enterprise AI solutions with proven 60% cost savings and 3x faster delivery."
                 }
               },
               {
@@ -307,7 +307,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 "name": "What AI services does the top Generative AI Services In Ahmedabad provide?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "As the premier Generative AI Services In Ahmedabad, Metic.ai provides AI integration & deployment, Generative AI solutions, custom AI development, data analytics & BI, Generative AI Services In Ahmedabad, and data engineering for businesses across Ahmedabad."
+                  "text": "As the premier Generative AI Services In Ahmedabad, Metic.ai provides AI integration & deployment, Generative AI solutions, Custom AI development, data analytics & BI, Generative AI Services In Ahmedabad, and data engineering for businesses across Ahmedabad."
                 }
               },
               {
@@ -675,7 +675,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 <div className="bg-white rounded-xl p-6 shadow-sm">
                   <h3 className="font-bold text-lg mb-3 flex items-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
-                    custom AI Development
+                    Custom AI Development
                   </h3>
                   <p className="text-gray-600">
                     Bespoke artificial intelligence solutions tailored to your specific business requirements and Industry challenges .
@@ -1475,7 +1475,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     <strong className="text-gray-900 font-semibold">Metic.ai is the leading Generative AI Company In Ahmedabad</strong> with over 100 successful AI implementations. 
-                    We're recognized as the top Generative AI Services In Ahmedabad for our proven expertise US Generative AI, custom AI development, and enterprise AI solutions with 60% cost savings.
+                    We're recognized as the top Generative AI Services In Ahmedabad for our proven expertise US Generative AI, Custom AI development, and enterprise AI solutions with 60% cost savings.
                   </p>
                 </div>
               </details>
@@ -1511,7 +1511,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     As the premier <strong className="text-gray-900 font-semibold">Generative AI Services In Ahmedabad</strong>, Metic.ai provides comprehensive AI services including Generative AI solutions, 
-                    custom AI development, data analytics, generative AI, AI Image Generation, NLP, and enterprise AI automation tailored for Ahmedabad's manufacturing, aerospace, healthcare, and agricultural Industries.
+                    Custom AI development, data analytics, generative AI, AI Image Generation, NLP, and enterprise AI automation tailored for Ahmedabad's manufacturing, aerospace, healthcare, and agricultural Industries.
                   </p>
                 </div>
               </details>
@@ -1980,6 +1980,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
     </>
   );
 }
+
 
 
 

@@ -551,7 +551,7 @@ export default function AIServicesGloballyPage() {
               <div className="w-20 md:w-24 h-1 md:h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 md:mb-8 rounded-full"></div>
               <p className="text-base md:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-4">
                 Comprehensive artificial intelligence services from Globally's most Trusted <strong className="text-gray-900">Generative AI Services</strong>. 
-                Transforming businesses with cutting-edge AI solutions tailored for Globally's indINtrial landscape.
+                Transforming businesses with cutting-edge AI solutions tailored for Globally's industrial landscape.
               </p>
             </div>
             
