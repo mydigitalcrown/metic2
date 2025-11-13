@@ -453,22 +453,22 @@ export default function GenerativeAIServicesAlabamaPage() {
             <div className="flex justify-center mb-6 md:mb-8">
               <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-white/10 backdrop-blur-sm rounded-full border border-primary-orange/30 shadow-xl">
                 <Award className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
-                <span className="text-xs md:text-sm font-bold text-white">⭐ 50+ Successful AI Projects | 98% Client Satisfaction</span>
+                <span className="text-xs md:text-sm font-bold text-white">⭐ 100+ Successful AI Projects | 98% Client Satisfaction</span>
               </div>
             </div>
 
             <div className="text-center">  
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight mb-4 md:mb-6 leading-tight">
                 <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
-                  Generative AI Company
+                  Artificial Intelligence
                 </span>
                 <br />
-                <span className="text-white">In Alabama</span>
+                <span className="text-white">Company </span>
               </h1>
               
               {/* VSO Optimized Description - Mobile Friendly */}
               <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 mb-6 md:mb-8 max-w-4xl mx-auto leading-relaxed px-4">
-                Looking for the <strong className="text-primary-orange">best Generative AI Company In Alabama</strong>? Metic.ai is the premier <strong className="text-white">Generative AI Company In Alabama</strong> delivering ChatGPT integration, GPT-4 services, LLM development & AI solutions with proven results.
+                Looking for the <strong className="text-primary-orange">best Generative AI Services In Alabama</strong>? Metic.ai is the premier <strong className="text-white">Generative AI Company In Alabama</strong> delivering enterprise AI solutions with proven results.
               </p>
 
               {/* Mobile-Optimized CTA Buttons */}
@@ -502,20 +502,20 @@ export default function GenerativeAIServicesAlabamaPage() {
               {/* VSO Keywords Section - Mobile Optimized */}
               <div className="text-center px-4">
                 <p className="text-gray-400 text-sm md:text-base mb-4">
-                  <strong className="text-white">Trusted as the top Generative AI Company In Alabama</strong> by leading businesses
+                  <strong className="text-white">Trusted as the top AI Service </strong> by leading businesses
                 </p>
                 <div className="flex flex-wrap justify-center gap-2 md:gap-3 text-xs md:text-sm">
                   <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
-                    ChatGPT Integration
+                    AI Firm 
                   </span>
                   <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
-                    GPT-4 Development
+                    AI Development Company
                   </span>
                   <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
-                    LLM Solutions
+                    Best AI Company Alabama
                   </span>
                   <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
-                    AI Image Generation
+                    Generative AI Services In Alabama
                   </span>
                 </div>
               </div>
@@ -543,7 +543,7 @@ export default function GenerativeAIServicesAlabamaPage() {
               </div>
 
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 leading-tight px-4">
-                <strong className="text-gray-900">Generative AI Services</strong> by Leading{" "}
+                <strong className="text-gray-900">AI Services</strong> by Leading{" "}
                 <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">
                   Generative AI Company In Alabama
                 </span>
