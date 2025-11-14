@@ -1350,8 +1350,8 @@ export default function GenerativeAIServicesColoradoPage() {
                   
                   <p className="text-lg text-gray-700 leading-relaxed mb-6">
                     <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Choosing Metic.ai as your AI partner </strong> means 
-                    working with a team that deeply understands Colorado's unique business challenges, from Maninagar's 
-                    commercial hub to Vastrapur' research facilities and SG Highway's government operations.
+                    working with a team that deeply understands Colorado's unique business challenges, from Denver's 
+                    tech hub to Boulder's innovation corridor and Colorado Springs' military installations.
                   </p>
                   
                   <p className="text-lg text-gray-700 leading-relaxed mb-8">
@@ -1618,7 +1618,7 @@ export default function GenerativeAIServicesColoradoPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Yes! Metic.ai proudly serves businesses across all Colorado cities including Denver, Boulder, SG Highway, Satellite, Chandkheda, Bodakdev, Navrangpura, and beyond. 
+                    Yes! Metic.ai proudly serves businesses across all Colorado cities including Denver, Boulder, Colorado Springs, Fort Collins, Aurora, Lakewood, Arvada, Westminster, and beyond. 
                     As Colorado's leading <strong className="text-gray-900 font-semibold">AI Firm </strong>, we provide comprehensive AI solutions statewide.
                   </p>
                 </div>
@@ -1959,19 +1959,19 @@ export default function GenerativeAIServicesColoradoPage() {
                 </div>
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
-                <span>Maninagar</span>
-                <span>�</span>
-                <span>Vastrapur</span>
-                <span>�</span>
-                <span>SG Highway</span>
-                <span>�</span>
-                <span>Satellite</span>
-                <span>�</span>
-                <span>Chandkheda</span>
-                <span>�</span>
-                <span>Auburn</span>
-                <span>�</span>
-                <span>Dothan</span>
+                <span>Denver</span>
+                <span>•</span>
+                <span>Boulder</span>
+                <span>•</span>
+                <span>Colorado Springs</span>
+                <span>•</span>
+                <span>Fort Collins</span>
+                <span>•</span>
+                <span>Aurora</span>
+                <span>•</span>
+                <span>Lakewood</span>
+                <span>•</span>
+                <span>Arvada</span>
               </div>
             </div>
           </div>
