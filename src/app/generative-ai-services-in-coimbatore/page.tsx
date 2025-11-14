@@ -1960,18 +1960,18 @@ export default function GenerativeAIServicesCoimbatorePage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>RS Puram</span>
-                <span>�</span>
+                <span>•</span>
                 <span>Gandhipuram</span>
-                <span>�</span>
+                <span>•</span>
                 <span>Peelamedu</span>
-                <span>�</span>
-                <span>Satellite</span>
-                <span>�</span>
-                <span>Chandkheda</span>
-                <span>�</span>
-                <span>Auburn</span>
-                <span>�</span>
-                <span>Dothan</span>
+                <span>•</span>
+                <span>Saravanampatti</span>
+                <span>•</span>
+                <span>Singanallur</span>
+                <span>•</span>
+                <span>Ganapathy</span>
+                <span>•</span>
+                <span>Kuniyamuthur</span>
               </div>
             </div>
           </div>
