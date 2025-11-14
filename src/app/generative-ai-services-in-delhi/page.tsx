@@ -539,7 +539,7 @@ export default function GenerativeAIServicesDelhiPage() {
               {/* Section Badge */}
               <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-primary-orange/10 rounded-full mb-6 md:mb-8">
                 <Brain className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
-                <span className="text-xs md:text-sm font-bold text-primary-orange">COMPREHENSIVE AI SERVICES</span>
+                <span className="text-xs md:text-sm font-bold text-primary-orange">COMPREHENSIVE GENERATIVE AI SERVICES</span>
               </div>
 
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 leading-tight px-4">
@@ -601,7 +601,7 @@ export default function GenerativeAIServicesDelhiPage() {
               <Link href="/contact">
                 <Button variant="primary" size="lg" className="px-8 md:px-10 py-4 text-base md:text-lg shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all">
                   <Sparkles className="w-5 h-5 mr-2" />
-                  Explore All AI Services
+                  Explore All Generative AI Services
                 </Button>
               </Link>
             </div>
@@ -717,7 +717,7 @@ export default function GenerativeAIServicesDelhiPage() {
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Delivering specialized AI solutions across Delhi's key Industries and business sectors.
+                Delivering specialized Generative AI solutions across Delhi's key Industries and business sectors.
               </p>
             </div>
             
@@ -968,7 +968,7 @@ export default function GenerativeAIServicesDelhiPage() {
               {/* Premium Badge with Animation */}
               <div className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-full shadow-2xl border-2 border-primary-orange/30 mb-10 hover:border-primary-orange/50 transition-all group">
                 <div className="w-3 h-3 bg-primary-orange rounded-full animate-pulse"></div>
-                <span className="text-sm font-bold text-gray-800 tracking-wide">National Capital AI INNOVATION</span>
+                <span className="text-sm font-bold text-gray-800 tracking-wide">GENERATIVE AI INNOVATION - NATIONAL CAPITAL</span>
                 <div className="w-3 h-3 bg-secondary-orange rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></div>
               </div>
 
@@ -980,7 +980,7 @@ export default function GenerativeAIServicesDelhiPage() {
               </h2>
               <div className="w-40 h-2 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-10 rounded-full shadow-lg"></div>
               <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                Transforming 's Political and Administrative Capital with cutting-edge AI solutions from Connaught Place to Karol Bagh, Chandni Chowk to Nehru Place
+                Transforming India's Political and Administrative Capital with cutting-edge Generative AI solutions - from ChatGPT integration in Connaught Place to GPT-4 development in Karol Bagh, LLM solutions in Chandni Chowk to AI automation in Nehru Place
               </p>
             </div>
 
@@ -996,7 +996,7 @@ export default function GenerativeAIServicesDelhiPage() {
                       </div>
                       <div>
                         <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
-                          Delhi's <span className="text-primary-orange">Premier AI Technology Pioneer</span>
+                          Delhi's <span className="text-primary-orange">Premier Generative AI Pioneer</span>
                         </h3>
                         <div className="w-24 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange rounded-full"></div>
                       </div>
@@ -1066,7 +1066,7 @@ export default function GenerativeAIServicesDelhiPage() {
                 <div className="order-1 lg:order-2">
                   <div className="bg-gradient-to-br from-orange-50 via-white to-amber-50 rounded-3xl p-10 border-2 border-primary-orange/20 shadow-2xl transform rotate-1 hover:rotate-0 transition-transform">
                     <h4 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">
-                      Delhi AI Market Impact
+                      Delhi Generative AI Impact
                     </h4>
                     
                     <div className="space-y-8">
