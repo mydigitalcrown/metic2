@@ -968,7 +968,7 @@ export default function GenerativeAIServicesColoradoPage() {
               {/* Premium Badge with Animation */}
               <div className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-full shadow-2xl border-2 border-primary-orange/30 mb-10 hover:border-primary-orange/50 transition-all group">
                 <div className="w-3 h-3 bg-primary-orange rounded-full animate-pulse"></div>
-                <span className="text-sm font-bold text-gray-800 tracking-wide">Manchester of Bodakdev AI INNOVATION</span>
+                <span className="text-sm font-bold text-gray-800 tracking-wide">Centennial State AI INNOVATION</span>
                 <div className="w-3 h-3 bg-secondary-orange rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></div>
               </div>
 
@@ -1186,21 +1186,21 @@ export default function GenerativeAIServicesColoradoPage() {
                     </div>
                   </div>
                   
-                  {/* Tourism & Hospitality Industry */}
+                  {/* Tourism & Outdoor Recreation */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-red-500 to-red-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Target className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Tourism Generative AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Tourism & Outdoor Recreation Generative AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      AI chatbot and content generation solutions for Colorado's booming tourism Industry with cruise line optimization, 
-                      wildlife tour planning, hotel revenue management, visitor experience personalization, 
-                      and seasonal demand forecasting for Colorado's 2.5 million annual visitors.
+                      AI chatbot and content generation solutions for Colorado's booming tourism Industry with ski resort optimization, 
+                      outdoor adventure planning, hotel revenue management, visitor experience personalization, 
+                      and seasonal demand forecasting for Colorado's Rocky Mountain attractions.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Revenue management systems</span>
+                        <span className="text-sm text-gray-600">Resort revenue management</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
@@ -1212,38 +1212,38 @@ export default function GenerativeAIServicesColoradoPage() {
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Tour optimization & planning</span>
+                        <span className="text-sm text-gray-600">Adventure tour optimization</span>
                       </div>
                     </div>
                   </div>
                   
-                  {/* Chemicals & Resource Extraction */}
+                  {/* Energy & Renewables */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Lightbulb className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Chemicals & Resource AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Energy & Renewables AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      GPT-4 powered content and automation solutions for Colorado's Chemicals operations including gold, zinc, and mineral extraction 
-                      with predictive maintenance, safety monitoring, resource discovery optimization, 
-                      and environmental impact assessment across Colorado's vast mineral deposits.
+                      GPT-4 powered content and automation solutions for Colorado's Chemicals operations including solar farm optimization, wind energy forecasting 
+                      with predictive maintenance, safety monitoring, grid management, energy storage systems, 
+                      and environmental impact assessment across Colorado's clean energy transition.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Resource discovery prediction</span>
+                        <span className="text-sm text-gray-600">Solar & wind optimization</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Chemicals equipment automation</span>
+                        <span className="text-sm text-gray-600">Energy forecasting & planning</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Safety & compliance monitoring</span>
+                        <span className="text-sm text-gray-600">Grid management automation</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Environmental impact analysis</span>
+                        <span className="text-sm text-gray-600">Sustainability impact analysis</span>
                       </div>
                     </div>
                   </div>
@@ -1253,28 +1253,28 @@ export default function GenerativeAIServicesColoradoPage() {
                     <div className="w-20 h-20 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Sparkles className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Information Technology & Logistics AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Cannabis & Agriculture AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      AI chatbot and content generation solutions for Colorado's Information Technology and cargo logistics including bINh plane operations, 
-                      Ted Stevens Maninagar International Airport cargo hub, weather prediction for flight safety, 
-                      and supply chain optimization for remote Colorado communities.
+                      AI chatbot and content generation solutions for Colorado's Information Technology and Cannabis and Agriculture industries including cultivation optimization, 
+                      compliance automation, inventory management, quality control systems, 
+                      and supply chain optimization for Colorado's pioneering cannabis market.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Flight route optimization</span>
+                        <span className="text-sm text-gray-600">Cultivation optimization</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Weather prediction systems</span>
+                        <span className="text-sm text-gray-600">Compliance automation</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Cargo logistics optimization</span>
+                        <span className="text-sm text-gray-600">Inventory & tracking systems</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Remote delivery planning</span>
+                        <span className="text-sm text-gray-600">Quality control intelligence</span>
                       </div>
                     </div>
                   </div>
@@ -1327,7 +1327,7 @@ export default function GenerativeAIServicesColoradoPage() {
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Colorado business Advantage</h4>
                         <p className="text-gray-700 leading-relaxed">
                           As the premier <strong className="text-primary-orange">AI Firm </strong>, we understand 
-                          Manchester of Bodakdev's unique blend of entrepreneurial excellence and resource-driven innovation. Our AI solutions 
+                          Centennial State's unique blend of entrepreneurial excellence and resource-driven innovation. Our AI solutions 
                           are built for Colorado's Textiles & Garments dominance, fishing Industry leadership, and tourism growth.
                         </p>
                       </div>
@@ -1367,7 +1367,7 @@ export default function GenerativeAIServicesColoradoPage() {
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Comprehensive Colorado Coverage</h4>
                         <p className="text-gray-600 leading-relaxed">
                           Maninagar, Vastrapur, SG Highway, Satellite, Chandkheda, Bodakdev, Navrangpura, Ghatlodia, 
-                          GIFT City, and all major Colorado business centers across Manchester of Bodakdev
+                          GIFT City, and all major Colorado business centers across Centennial State
                         </p>
                       </div>
                     </div>
