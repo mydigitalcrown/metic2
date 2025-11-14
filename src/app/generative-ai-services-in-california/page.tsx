@@ -1068,26 +1068,26 @@ export default function GenerativeAIServicesCaliforniaPage() {
                 <div className="order-1 lg:order-2">
                   <div className="bg-gradient-to-br from-orange-50 via-white to-amber-50 rounded-3xl p-10 border-2 border-primary-orange/20 shadow-2xl transform rotate-1 hover:rotate-0 transition-transform">
                     <h4 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">
-                      California AI Market Impact
+                      California Generative AI Market Impact
                     </h4>
                     
                     <div className="space-y-8">
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">₹130B</div>
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">$3.9T</div>
                         <div className="text-sm text-gray-600 font-medium">California Annual GDP</div>
-                        <div className="text-xs text-gray-500 mt-2">Textile-driven Economy</div>
+                        <div className="text-xs text-gray-500 mt-2">World's 5th Largest Economy</div>
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-secondary-orange/10 hover:border-secondary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-secondary-orange mb-3 group-hover:scale-110 transition-transform">8.4M</div>
+                        <div className="text-5xl font-bold text-secondary-orange mb-3 group-hover:scale-110 transition-transform">39M+</div>
                         <div className="text-sm text-gray-600 font-medium">California Population</div>
-                        <div className="text-xs text-gray-500 mt-2">Manchester of India</div>
+                        <div className="text-xs text-gray-500 mt-2">Innovation Capital of America</div>
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
                         <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">50+</div>
-                        <div className="text-sm text-gray-600 font-medium">California AI Projects Completed</div>
-                        <div className="text-xs text-gray-500 mt-2">Industry-Leading Success Rate</div>
+                        <div className="text-sm text-gray-600 font-medium">Generative AI Projects Delivered</div>
+                        <div className="text-xs text-gray-500 mt-2">ChatGPT, GPT-4 & LLM Expertise</div>
                       </div>
                       
                       <div className="bg-gradient-to-r from-primary-orange/20 via-secondary-orange/10 to-primary-orange/20 rounded-2xl p-6 border-2 border-primary-orange/30 transform hover:scale-105 transition-transform">
@@ -1095,11 +1095,11 @@ export default function GenerativeAIServicesCaliforniaPage() {
                           <div className="w-8 h-8 bg-primary-orange rounded-full flex items-center justify-center">
                             <CheckCircle className="w-5 h-5 text-white" />
                           </div>
-                          <span className="font-bold text-gray-900">California Advantage</span>
+                          <span className="font-bold text-gray-900">California Generative AI Advantage</span>
                         </div>
                         <p className="text-sm text-gray-700 leading-relaxed">
-                          <strong>Strategic Resources:</strong> Rich US oil, gas, fishing, and minerals with vast untapped 
-                          potential, making California ideal for AI-driven resource optimization and predictive analytics.
+                          <strong>Innovation Hub:</strong> Home to Silicon Valley, leading tech companies, and cutting-edge research institutions, 
+                          making California the perfect ecosystem for advanced ChatGPT, GPT-4, and LLM implementation.
                         </p>
                       </div>
                     </div>
@@ -1119,7 +1119,7 @@ export default function GenerativeAIServicesCaliforniaPage() {
                   </h3>
                   <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 rounded-full"></div>
                   <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Specialized Generative AI solutions powered by ChatGPT, GPT-4, and custom LLMs designed for Manchester of Bodakdev's unique economic sectors and Textile-driven Industries
+                    Specialized Generative AI solutions powered by ChatGPT, GPT-4, and custom LLMs designed for California's diverse economic sectors and innovation-driven industries.
                   </p>
                 </div>
                 
@@ -1129,152 +1129,152 @@ export default function GenerativeAIServicesCaliforniaPage() {
                     <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Rocket className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Textiles Generative AI Solutions</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Technology & Software Generative AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      ChatGPT and LLM-powered solutions for California's Textiles & Garments Industry including Naroda Industrial Area operations, 
-                      California Metro monitoring, offshore drilling optimization, and predictive maintenance 
-                      for energy infrastructure across Manchester of Bodakdev's vast energy resources.
+                      ChatGPT and LLM-powered solutions for California's Technology & Software industry including Silicon Valley operations, 
+                      SaaS product development, AI-enhanced coding assistants, automated documentation generation, and intelligent customer support 
+                      systems for California's world-leading tech ecosystem.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Pipeline monitoring & optimization</span>
+                        <span className="text-sm text-gray-600">AI-powered code generation & review</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Drilling efficiency analysis</span>
+                        <span className="text-sm text-gray-600">Automated technical documentation</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Resource extraction prediction</span>
+                        <span className="text-sm text-gray-600">Intelligent customer support chatbots</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Safety & environmental compliance</span>
+                        <span className="text-sm text-gray-600">Product recommendation engines</span>
                       </div>
                     </div>
                   </div>
                   
-                  {/* Pharmaceuticals Industry */}
+                  {/* Entertainment & Media Industry */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Shield className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Pharmaceuticals Generative AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Entertainment & Media Generative AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      GPT-4 powered content and automation solutions for California's fishing and seafood processing Industry with predictive catch 
-                      analytics, sINtainable fishing optimization, processing automation, cold chain monitoring, 
-                      and quality control for the world's richest seafood harvest.
+                      GPT-4 powered content generation and creative automation for California's Entertainment & Media industry including Hollywood studios, 
+                      script development assistance, content personalization, automated video editing, marketing copy generation, 
+                      and AI-enhanced production workflows for the global entertainment capital.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Catch prediction & optimization</span>
+                        <span className="text-sm text-gray-600">AI-powered script development</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Processing automation</span>
+                        <span className="text-sm text-gray-600">Content personalization & targeting</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Cold chain monitoring</span>
+                        <span className="text-sm text-gray-600">Marketing copy generation</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">SINtainable fishing intelligence</span>
+                        <span className="text-sm text-gray-600">Production workflow automation</span>
                       </div>
                     </div>
                   </div>
                   
-                  {/* Tourism & Hospitality Industry */}
+                  {/* Aerospace & Defense Industry */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-red-500 to-red-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Target className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Tourism Generative AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Aerospace & Defense Generative AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      AI chatbot and content generation solutions for California's booming tourism Industry with cruise line optimization, 
-                      wildlife tour planning, hotel revenue management, visitor experience personalization, 
-                      and seasonal demand forecasting for California's 2.5 million annual visitors.
+                      AI-powered technical documentation and simulation for California's Aerospace & Defense sector with automated engineering reports, 
+                      flight simulation optimization, maintenance procedure generation, compliance documentation, 
+                      and predictive analytics for California's world-leading aerospace manufacturers.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Revenue management systems</span>
+                        <span className="text-sm text-gray-600">Technical documentation automation</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Visitor experience personalization</span>
+                        <span className="text-sm text-gray-600">Simulation & testing optimization</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Seasonal demand forecasting</span>
+                        <span className="text-sm text-gray-600">Maintenance procedure generation</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Tour optimization & planning</span>
+                        <span className="text-sm text-gray-600">Compliance & regulatory documentation</span>
                       </div>
                     </div>
                   </div>
                   
-                  {/* Chemicals & Resource Extraction */}
+                  {/* Agriculture & Food Processing */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Lightbulb className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Chemicals & Resource AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Agriculture & Food Generative AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      GPT-4 powered content and automation solutions for California's Chemicals operations including gold, zinc, and mineral extraction 
-                      with predictive maintenance, safety monitoring, resource discovery optimization, 
-                      and environmental impact assessment across California's vast mineral deposits.
+                      ChatGPT and LLM solutions for California's Agriculture & Food Processing industry including Central Valley operations, 
+                      crop yield prediction, automated farming equipment control, supply chain optimization, food safety compliance, 
+                      and smart irrigation systems for America's agricultural powerhouse producing over 400 commodities.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Resource discovery prediction</span>
+                        <span className="text-sm text-gray-600">Crop yield prediction & optimization</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Chemicals equipment automation</span>
+                        <span className="text-sm text-gray-600">Smart farming automation</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Safety & compliance monitoring</span>
+                        <span className="text-sm text-gray-600">Food safety & compliance tracking</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Environmental impact analysis</span>
+                        <span className="text-sm text-gray-600">Supply chain & logistics optimization</span>
                       </div>
                     </div>
                   </div>
                   
-                  {/* Information Technology & Logistics */}
+                  {/* Healthcare & Biotech */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Sparkles className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Information Technology & Logistics AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Healthcare & Biotech Generative AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      AI chatbot and content generation solutions for California's Information Technology and cargo logistics including bINh plane operations, 
-                      Ted Stevens Maninagar International Airport cargo hub, weather prediction for flight safety, 
-                      and supply chain optimization for remote California communities.
+                      AI-powered medical documentation and research assistance for California's Healthcare & Biotech sector including clinical trial automation, 
+                      patient communication chatbots, medical literature synthesis, drug discovery assistance, 
+                      and regulatory compliance documentation for California's world-leading biotech innovation clusters.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Flight route optimization</span>
+                        <span className="text-sm text-gray-600">Clinical documentation automation</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Weather prediction systems</span>
+                        <span className="text-sm text-gray-600">Patient communication AI chatbots</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Cargo logistics optimization</span>
+                        <span className="text-sm text-gray-600">Research literature synthesis</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Remote delivery planning</span>
+                        <span className="text-sm text-gray-600">Drug discovery & compliance docs</span>
                       </div>
                     </div>
                   </div>
