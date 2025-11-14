@@ -323,7 +323,7 @@ export default function GenerativeAIServicesCoimbatorePage() {
                 "name": "What makes Metic.ai the best Generative AI Company In Coimbatore?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Metic.ai is the best Generative AI Company In Coimbatore due to our proven expertise in ChatGPT integration, GPT-4 development, LLM solutions, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of Coimbatore's Textile, Pharmaceutical, Chemical and IT Industries."
+                  "text": "Metic.ai is the best Generative AI Company In Coimbatore due to our proven expertise in ChatGPT integration, GPT-4 development, LLM solutions, 99.5% client satisfaction, 5.2x average ROI increase, 24/7 support, and deep understanding of Coimbatore's Textiles & Engineering, Automotive Components, Pumps & Motors, and IT Industries."
                 }
               }
             ]
@@ -453,7 +453,7 @@ export default function GenerativeAIServicesCoimbatorePage() {
             <div className="flex justify-center mb-6 md:mb-8">
               <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-white/10 backdrop-blur-sm rounded-full border border-primary-orange/30 shadow-xl">
                 <Award className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
-                <span className="text-xs md:text-sm font-bold text-white">? 50+ Successful AI Projects | 99.5% Client Satisfaction</span>
+                <span className="text-xs md:text-sm font-bold text-white">‚≠ê 50+ Successful AI Projects | 99.5% Client Satisfaction</span>
               </div>
             </div>
 
@@ -622,12 +622,12 @@ export default function GenerativeAIServicesCoimbatorePage() {
                 <p className="text-lg text-gray-700 mb-6">
                   Established as Coimbatore's leading <strong>Generative AI Company In Coimbatore</strong>, Metic.ai has been at the forefront of generative artificial intelligence 
                   innovation since 2020. We specialize in delivering enterprise-grade ChatGPT integration, GPT-4 development, LLM solutions, AI image generation, and custom AI services that transform businesses across Coimbatore's 
-                  unique Industries including Textiles & Garments, Pharmaceuticals, Tourism & Hospitality, Chemicals, and Information Technology.
+                  unique Industries including Textiles & Engineering, Automotive Components, Pumps & Motors, Foundries, and Information Technology.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   Our expertise as the premier <strong>Generative AI Company In Coimbatore</strong> encompasses Large Language Models (LLMs), ChatGPT Integration, 
                   GPT-4 API development, AI Image Generation (DALL-E, Midjourney, Stable Diffusion), Custom GPT development, AI content creation, and intelligent automation. We've successfully completed over 50 generative AI projects, making us the most 
-                  Trusted <strong>Generative AI Company In Coimbatore</strong> from RS Puram to Gandhipuram.
+                  Trusted <strong>Generative AI Company In Coimbatore</strong> from RS Puram to Gandhipuram, Peelamedu to Saravanampatti.
                 </p>
                 <div className="grid grid-cols-2 gap-6 mt-8">
                   <div className="text-center">
@@ -1146,131 +1146,131 @@ export default function GenerativeAIServicesCoimbatorePage() {
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Resource extraction prediction</span>
+                        <span className="text-sm text-gray-600">Predictive maintenance systems</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Safety & environmental compliance</span>
+                        <span className="text-sm text-gray-600">Supply chain optimization</span>
                       </div>
                     </div>
                   </div>
                   
-                  {/* Pharmaceuticals Industry */}
+                  {/* Pumps & Motors Industry */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Shield className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Pharmaceuticals Generative AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Pumps & Motors Generative AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      GPT-4 powered content and automation solutions for Coimbatore's fishing and seafood processing Industry with predictive catch 
-                      analytics, sINtainable fishing optimization, processing automation, cold chain monitoring, 
-                      and quality control for the world's richest seafood harvest.
+                      GPT-4 powered content and automation solutions for Coimbatore's pump and motor manufacturing industry with design optimization, 
+                      performance testing automation, quality control systems, technical documentation generation, 
+                      and customer support chatbots for India's pump manufacturing capital.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Catch prediction & optimization</span>
+                        <span className="text-sm text-gray-600">Design optimization & testing</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Processing automation</span>
+                        <span className="text-sm text-gray-600">Technical documentation AI</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Cold chain monitoring</span>
+                        <span className="text-sm text-gray-600">Quality control automation</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">SINtainable fishing intelligence</span>
+                        <span className="text-sm text-gray-600">Customer support chatbots</span>
                       </div>
                     </div>
                   </div>
                   
-                  {/* Tourism & Hospitality Industry */}
+                  {/* Foundries & Manufacturing Industry */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-red-500 to-red-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Target className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Tourism Generative AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Foundries & Manufacturing AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      AI chatbot and content generation solutions for Coimbatore's booming tourism Industry with cruise line optimization, 
-                      wildlife tour planning, hotel revenue management, visitor experience personalization, 
-                      and seasonal demand forecasting for Coimbatore's 2.5 million annual visitors.
+                      AI chatbot and content generation solutions for Coimbatore's foundry and wet grinder manufacturing with process optimization, 
+                      casting quality control, temperature monitoring, defect detection, 
+                      and inventory management for Tamil Nadu's foundry cluster.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Revenue management systems</span>
+                        <span className="text-sm text-gray-600">Casting process optimization</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Visitor experience personalization</span>
+                        <span className="text-sm text-gray-600">Quality defect detection</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Seasonal demand forecasting</span>
+                        <span className="text-sm text-gray-600">Temperature monitoring AI</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Tour optimization & planning</span>
+                        <span className="text-sm text-gray-600">Production planning automation</span>
                       </div>
                     </div>
                   </div>
                   
-                  {/* Chemicals & Resource Extraction */}
+                  {/* Jewelry & Food Processing */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Lightbulb className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Chemicals & Resource AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Jewelry & Food Processing AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      GPT-4 powered content and automation solutions for Coimbatore's Chemicals operations including gold, zinc, and mineral extraction 
-                      with predictive maintenance, safety monitoring, resource discovery optimization, 
-                      and environmental impact assessment across Coimbatore's vast mineral deposits.
+                      GPT-4 powered content and automation solutions for Coimbatore's jewelry manufacturing and food processing industries with design automation, 
+                      quality inspection, inventory management, customer personalization, 
+                      and supply chain optimization across Coimbatore's diverse manufacturing sectors.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Resource discovery prediction</span>
+                        <span className="text-sm text-gray-600">Design automation & customization</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Chemicals equipment automation</span>
+                        <span className="text-sm text-gray-600">Quality inspection AI</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Safety & compliance monitoring</span>
+                        <span className="text-sm text-gray-600">Inventory & supply chain</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Environmental impact analysis</span>
+                        <span className="text-sm text-gray-600">Customer experience personalization</span>
                       </div>
                     </div>
                   </div>
                   
-                  {/* Information Technology & Logistics */}
+                  {/* Information Technology & Education */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Sparkles className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Information Technology & Logistics AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">IT Services & Education AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      AI chatbot and content generation solutions for Coimbatore's Information Technology and cargo logistics including bINh plane operations, 
-                      Ted Stevens RS Puram International Airport cargo hub, weather prediction for flight safety, 
-                      and supply chain optimization for remote Coimbatore communities.
+                      AI chatbot and content generation solutions for Coimbatore's IT services and educational institutions including software development automation, 
+                      learning management systems, student engagement platforms, personalized learning paths, 
+                      and research assistance for PSG Tech, Amrita University, and Coimbatore's educational ecosystem.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Flight route optimization</span>
+                        <span className="text-sm text-gray-600">Code generation & documentation</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Weather prediction systems</span>
+                        <span className="text-sm text-gray-600">Learning management AI</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Cargo logistics optimization</span>
+                        <span className="text-sm text-gray-600">Student engagement platforms</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
@@ -1960,17 +1960,17 @@ export default function GenerativeAIServicesCoimbatorePage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>RS Puram</span>
-                <span>ï</span>
+                <span>ÔøΩ</span>
                 <span>Gandhipuram</span>
-                <span>ï</span>
+                <span>ÔøΩ</span>
                 <span>Peelamedu</span>
-                <span>ï</span>
+                <span>ÔøΩ</span>
                 <span>Satellite</span>
-                <span>ï</span>
+                <span>ÔøΩ</span>
                 <span>Chandkheda</span>
-                <span>ï</span>
+                <span>ÔøΩ</span>
                 <span>Auburn</span>
-                <span>ï</span>
+                <span>ÔøΩ</span>
                 <span>Dothan</span>
               </div>
             </div>
