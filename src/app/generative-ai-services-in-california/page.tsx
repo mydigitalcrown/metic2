@@ -1946,7 +1946,7 @@ export default function GenerativeAIServicesCaliforniaPage() {
               <p className="text-orange-200 mb-6">Trusted <strong>AI Service </strong> serving businesses across the state</p>
               <div className="grid md:grid-cols-3 gap-8 text-center mb-8">
                 <div>
-                  <div className="text-2xl font-bold mb-2">100+</div>
+                  <div className="text-2xl font-bold mb-2">50+</div>
                   <p className="text-orange-100">AI Projects Completed</p>
                 </div>
                 <div>
