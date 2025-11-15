@@ -1959,19 +1959,19 @@ export default function GenerativeAIServicesKolkataPage() {
                 </div>
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
-                <span>Maninagar</span>
-                <span>•</span>
-                <span>Vastrapur</span>
-                <span>•</span>
-                <span>SG Highway</span>
-                <span>•</span>
-                <span>Satellite</span>
-                <span>•</span>
-                <span>Chandkheda</span>
-                <span>•</span>
-                <span>Auburn</span>
-                <span>•</span>
-                <span>Dothan</span>
+                <span>Salt Lake</span>
+                <span>â€¢</span>
+                <span>Howrah</span>
+                <span>â€¢</span>
+                <span>Park Street</span>
+                <span>â€¢</span>
+                <span>Bantala</span>
+                <span>â€¢</span>
+                <span>New Town</span>
+                <span>â€¢</span>
+                <span>Rajarhat</span>
+                <span>â€¢</span>
+                <span>Esplanade</span>
               </div>
             </div>
           </div>
