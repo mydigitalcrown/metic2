@@ -1068,26 +1068,26 @@ export default function GenerativeAIServicesIdahoPage() {
                 <div className="order-1 lg:order-2">
                   <div className="bg-gradient-to-br from-orange-50 via-white to-amber-50 rounded-3xl p-10 border-2 border-primary-orange/20 shadow-2xl transform rotate-1 hover:rotate-0 transition-transform">
                     <h4 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">
-                      Idaho AI Market Impact
+                      Idaho Generative AI Market Impact
                     </h4>
                     
                     <div className="space-y-8">
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">130B</div>
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">$95B</div>
                         <div className="text-sm text-gray-600 font-medium">Idaho Annual GDP</div>
-                        <div className="text-xs text-gray-500 mt-2">agriculture and mining-driven Economy</div>
+                        <div className="text-xs text-gray-500 mt-2">Agriculture & Mining Economy</div>
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-secondary-orange/10 hover:border-secondary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-secondary-orange mb-3 group-hover:scale-110 transition-transform">8.4M</div>
+                        <div className="text-5xl font-bold text-secondary-orange mb-3 group-hover:scale-110 transition-transform">1.9M</div>
                         <div className="text-sm text-gray-600 font-medium">Idaho Population</div>
                         <div className="text-xs text-gray-500 mt-2">Gem State</div>
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
                         <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">50+</div>
-                        <div className="text-sm text-gray-600 font-medium">Idaho AI Projects Completed</div>
-                        <div className="text-xs text-gray-500 mt-2">Industry-Leading Success Rate</div>
+                        <div className="text-sm text-gray-600 font-medium">Idaho Generative AI Projects</div>
+                        <div className="text-xs text-gray-500 mt-2">ChatGPT & LLM Success Rate</div>
                       </div>
                       
                       <div className="bg-gradient-to-r from-primary-orange/20 via-secondary-orange/10 to-primary-orange/20 rounded-2xl p-6 border-2 border-primary-orange/30 transform hover:scale-105 transition-transform">
@@ -1095,11 +1095,10 @@ export default function GenerativeAIServicesIdahoPage() {
                           <div className="w-8 h-8 bg-primary-orange rounded-full flex items-center justify-center">
                             <CheckCircle className="w-5 h-5 text-white" />
                           </div>
-                          <span className="font-bold text-gray-900">Idaho Advantage</span>
+                          <span className="font-bold text-gray-900">Idaho Generative AI Advantage</span>
                         </div>
                         <p className="text-sm text-gray-700 leading-relaxed">
-                          <strong>Strategic Resources:</strong> Rich US oil, IDs, technology, and minerals with vast untapped 
-                          potential, making Idaho ideal for AI-driven resource optimization and predictive analytics.
+                          <strong>Strategic Innovation:</strong> Idaho's growing tech sector combined with agriculture and mining industries creates unique opportunities for ChatGPT integration, AI automation, and generative AI solutions across diverse business sectors.
                         </p>
                       </div>
                     </div>
@@ -1112,7 +1111,7 @@ export default function GenerativeAIServicesIdahoPage() {
                 <div className="text-center mb-16">
                   <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-full border-2 border-primary-orange/20 mb-8 transform hover:scale-105 transition-transform">
                     <Sparkles className="w-5 h-5 text-primary-orange" />
-                    <span className="text-sm font-bold text-gray-800">Industry EXPERTISE</span>
+                    <span className="text-sm font-bold text-gray-800">INDUSTRY EXPERTISE</span>
                   </div>
                   <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
                     Generative AI Solutions for <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Idaho's Key Industries</span>
@@ -1436,7 +1435,7 @@ export default function GenerativeAIServicesIdahoPage() {
               </h2>
               <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-8 rounded-full"></div>
               <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                Common questions about working with Idaho's leading AI company
+                Common questions about working with Idaho's leading Generative AI company
               </p>
             </div>
 
