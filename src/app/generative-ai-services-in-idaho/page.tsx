@@ -184,7 +184,7 @@ export default function GenerativeAIServicesIdahoPage() {
             "email": "hello@metic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
-            "vatID": "IN123456789",
+            "vatID": "US123456789",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "Idaho",
@@ -1005,8 +1005,8 @@ export default function GenerativeAIServicesIdahoPage() {
             <p className="text-lg text-gray-700 leading-relaxed">
               As the leading <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Generative AI Company In Idaho</strong>, 
               Metic.ai serves Gem State with enterprise-grade AI solutions tailored to Idaho's unique economic 
-              landscape. From Boise's business district to Meridian' research facilities, Buckhead's government sector to 
-              the tech hubs of Boise Metro, we understand Idaho's innovation and technology-driven Industries.
+              landscape. From Boise's business district to Meridian's innovation centers, Idaho Falls' tech corridor to 
+              the tech hubs of Boise Metro, we understand Idaho's innovation and agriculture and mining-driven Industries.
             </p>
             
             <p className="text-lg text-gray-700 leading-relaxed">
@@ -1025,7 +1025,7 @@ export default function GenerativeAIServicesIdahoPage() {
                             <h4 className="font-bold text-gray-900 mb-2 text-lg">Technology Generative AI Excellence</h4>
                             <p className="text-gray-600 leading-relaxed">
                               Deep expertise with Idaho's Boise Tech Square operations including major tech hubs, 
-                              Idaho Metro, and energy infrastructure across 's largest agriculture and mining innovation hub.
+                              Idaho Metro, and energy infrastructure across 's largest technology and film innovation hub.
                             </p>
                           </div>
                         </div>
@@ -1075,7 +1075,7 @@ export default function GenerativeAIServicesIdahoPage() {
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
                         <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">?130B</div>
                         <div className="text-sm text-gray-600 font-medium">Idaho Annual GDP</div>
-                        <div className="text-xs text-gray-500 mt-2">Technology-driven Economy</div>
+                        <div className="text-xs text-gray-500 mt-2">agriculture and mining-driven Economy</div>
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-secondary-orange/10 hover:border-secondary-orange/30 transition-all group transform hover:scale-105">
@@ -1119,7 +1119,7 @@ export default function GenerativeAIServicesIdahoPage() {
                   </h3>
                   <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 rounded-full"></div>
                   <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Specialized Generative AI solutions powered by ChatGPT, GPT-4, and custom LLMs designed for Gem State's unique economic sectors and Technology-driven Industries
+                    Specialized Generative AI solutions powered by ChatGPT, GPT-4, and custom LLMs designed for Gem State's unique economic sectors and agriculture and mining-driven Industries
                   </p>
                 </div>
                 
@@ -1357,7 +1357,7 @@ export default function GenerativeAIServicesIdahoPage() {
                   <p className="text-lg text-gray-700 leading-relaxed mb-8">
                     Our <strong className="text-primary-orange font-semibold">AI Service </strong> includes comprehensive consultation, 
                     rapid prototyping, enterprise deployment, and 24/7 support to ensure your AI investment delivers 
-                    maximum value 's technology-driven and thriving economy.
+                    maximum value 's agriculture and mining-driven and thriving economy.
                   </p>
 
                   <div className="space-y-6">
@@ -1980,6 +1980,7 @@ export default function GenerativeAIServicesIdahoPage() {
     </>
   );
 }
+
 
 
 
