@@ -148,6 +148,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   ]
 
+  // Generative AI location pages with high priority
+  const generativeAILocationPages = [
+    // US states for Generative AI
+    ...usStates.map(state => ({
+      url: `${baseUrl}/generative-ai-services-in-${state}`,
+      lastModified,
+      changeFrequency: 'weekly' as const,
+      priority: state === 'california' || state === 'michigan' || state === 'new-york' || state === 'texas' || state === 'florida' || state === 'georgia' ? 0.80 : 0.75,
+    })),
+    // Indian cities for Generative AI
+    ...indianCities.map(city => ({
+      url: `${baseUrl}/generative-ai-services-in-${city}`,
+      lastModified,
+      changeFrequency: 'weekly' as const,
+      priority: city === 'bangalore' || city === 'hyderabad' || city === 'mumbai' || city === 'delhi' ? 0.78 : 0.73,
+    }))
+  ]
+
   // Michigan-specific city pages (bonus for local SEO)
   const michiganCities = [
     'detroit', 'grand-rapids', 'ann-arbor', 'lansing', 'dearborn', 
@@ -166,6 +184,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...servicePages,
     ...aiLocationPages,
     ...mlLocationPages,
+    ...generativeAILocationPages,
     ...michiganCityPages,
   ]
 }
