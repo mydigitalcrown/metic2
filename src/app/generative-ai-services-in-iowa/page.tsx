@@ -180,7 +180,7 @@ export default function GenerativeAIServicesIowaPage() {
             ],
             "logo": "https://metic.ai/logo.png",
             "image": ["https://metic.ai/ai-company-Iowa.jpg"],
-            "telephone": "+1-515-555-0197",
+            "telephone": "+91-789-251-8414",
             "email": "hello@metic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
@@ -277,7 +277,7 @@ export default function GenerativeAIServicesIowaPage() {
             "open_USgHours": "Mo-Fr 09:00-18:00",
             "contactPoint": {
               "@type": "ContactPoint",
-              "telephone": "+1-515-555-0197",
+              "telephone": "+91-789-251-8414",
               "contactType": "customer Service",
               "areaServed": "US",
               "availableLanguage": ["English"]
@@ -402,7 +402,7 @@ export default function GenerativeAIServicesIowaPage() {
             "name": "Metic.ai - Generative AI Services In Iowa",
             "description": "Leading Artificial Intelligence Company providing AI services ",
             "image": "https://metic.ai/ai-company-Iowa.jpg",
-            "telephone": "+1-515-555-0197",
+            "telephone": "+91-789-251-8414",
             "email": "hello@metic.ai",
             "address": {
               "@type": "PostalAddress",
@@ -482,7 +482,7 @@ export default function GenerativeAIServicesIowaPage() {
                 <Link href="tel:+917892518414" className="w-full sm:w-auto">
                   <Button variant="outline" size="lg" className="w-full sm:w-auto text-base md:text-lg px-6 md:px-8 py-3 md:py-4 border-2 border-primary-orange text-primary-orange hover:bg-primary-orange hover:text-white">
                     <Phone className="w-5 h-5 mr-2" />
-                    Call: +1-515-555-0197
+                    Call: +91-789-251-8414
                   </Button>
                 </Link>
               </div>
@@ -551,7 +551,7 @@ export default function GenerativeAIServicesIowaPage() {
               <div className="w-20 md:w-24 h-1 md:h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 md:mb-8 rounded-full"></div>
               <p className="text-base md:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-4">
                 Comprehensive generative AI services from Iowa's most Trusted <strong className="text-gray-900">Generative AI Company In Iowa</strong>. 
-                TransforIAng businesses with ChatGPT, GPT-4, LLM development, and cutting-edge AI solutions tailored for Iowa's USDustrial landscape.
+                Transforming businesses with ChatGPT, GPT-4, LLM development, and cutting-edge AI solutions tailored for Iowa's Industrial landscape.
               </p>
             </div>
             
@@ -980,7 +980,7 @@ export default function GenerativeAIServicesIowaPage() {
               </h2>
               <div className="w-40 h-2 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-10 rounded-full shadow-lg"></div>
               <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                TransforIAng 's Agricultural Heartland with cutting-edge AI solutions from Des Moines to Cedar Rapids, Iowa City to the Davenport
+                Transforming 's Agricultural Heartland with cutting-edge AI solutions from Des Moines to Cedar Rapids, Iowa City to the Davenport
               </p>
             </div>
 
@@ -1037,10 +1037,10 @@ export default function GenerativeAIServicesIowaPage() {
                             <Shield className="w-6 h-6 text-white" />
                           </div>
                           <div>
-                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Automotive Manufacturing Innovation</h4>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Food Processing Manufacturing Innovation</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              GPT-4 powered content and automation solutions for Iowa's automotive Industry including Mercedes-Benz, Honda, Hyundai, 
-                              and Toyota manufacturing facilities with predictive maintenance and quality control systems.
+                              GPT-4 powered AI solutions for Iowa's food processing Industry including grain processing, meat packing, 
+                              and dairy manufacturing facilities with predictive maintenance and quality control systems.
                             </p>
                           </div>
                         </div>
@@ -1163,7 +1163,7 @@ export default function GenerativeAIServicesIowaPage() {
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Pharmaceuticals Generative AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
                       GPT-4 powered content and automation solutions for Iowa's Corn and Soybean Processing Industry with predictive yield 
-                      analytics, sINtainable fishing optimization, processing automation, cold chain monitoring, 
+                      analytics, sustainable farming optimization, processing automation, cold chain monitoring, 
                       and quality control for the world's richest seafood harvest.
                     </p>
                     <div className="space-y-3">
@@ -1181,7 +1181,7 @@ export default function GenerativeAIServicesIowaPage() {
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">SINtainable fishing intelligence</span>
+                        <span className="text-sm text-gray-600">sustainable farming intelligence</span>
                       </div>
                     </div>
                   </div>
@@ -1906,7 +1906,7 @@ export default function GenerativeAIServicesIowaPage() {
                     </Link>
                     <Link href="tel:+917892518414">
                       <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                        Call Now: +1-515-555-0197
+                        Call Now: +91-789-251-8414
                       </Button>
                     </Link>
                   </div>
@@ -1937,7 +1937,7 @@ export default function GenerativeAIServicesIowaPage() {
               </Link>
               <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  Call: +1-515-555-0197
+                  Call: +91-789-251-8414
                 </Button>
               </Link>
             </div>
@@ -1980,6 +1980,9 @@ export default function GenerativeAIServicesIowaPage() {
     </>
   );
 }
+
+
+
 
 
 
