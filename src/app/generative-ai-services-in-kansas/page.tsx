@@ -28,7 +28,7 @@ import {
 
 export const metadata = {
   title: "Generative AI Company In Kansas | #1 AI Company In Kansas - Metic.ai",
-  description: "Leading Generative AI Company In Kansas with 2100+ successful AI implementations. Expert AI services, ChatGPT integration & AI development for Kansas businesses. Transform with 60% cost savings & 3x faster delivery.",
+  description: "Leading Generative AI Company In Kansas with 50+ successful AI implementations. Expert AI services, ChatGPT integration & AI development for Kansas businesses. Transform with 60% cost savings & 3x faster delivery.",
   keywords: [
     "Generative AI Company",
     "Generative AI Services", 
@@ -57,7 +57,7 @@ export const metadata = {
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
     title: "Generative AI Company In Kansas | #1 AI Company In Kansas - Metic.ai",
-    description: "Leading Generative AI Company In Kansas with 2100+ successful AI implementations. Expert AI services, Generative AI solutions & AI development for Kansas businesses.",
+    description: "Leading Generative AI Company In Kansas with 50+ successful AI implementations. Expert AI services, Generative AI solutions & AI development for Kansas businesses.",
     url: "https://metic.ai/generative-ai-services-in-kansas/",
     type: "website",
     locale: "en_US",
@@ -127,7 +127,7 @@ export default function AIServicesKansasPage() {
       description: "Harness the power of ChatGPT and generative AI for agriculture and automation .",
       icon: Sparkles,
       href: "/generative-ai-services",
-      color: "USDigo" as const
+      color: "indigo" as const
     },
     {
       title: "Data Engineering",
@@ -154,7 +154,7 @@ export default function AIServicesKansasPage() {
   ];
 
   const stats = [
-    { number: "2100+", label: "Businesses Served" },
+    { number: "50+", label: "Businesses Served" },
     { number: "99.5%", label: "Client Satisfaction" },
     { number: "5.2x", label: "Average ROI Increase" },
     { number: "24/7", label: "Support Available" }
@@ -564,7 +564,7 @@ export default function AIServicesKansasPage() {
                   purple: "bg-purple-100 text-purple-600", 
                   green: "bg-green-100 text-green-600",
                   orange: "bg-orange-100 text-orange-600",
-                  USDigo: "bg-USDigo-100 text-USDigo-600",
+                  indigo: "bg-indigo-100 text-indigo-600",
                   red: "bg-red-100 text-red-600"
                 };
                 
@@ -1252,14 +1252,14 @@ export default function AIServicesKansasPage() {
                   
                   {/* Information Technology & Logistics */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
-                    <div className="w-20 h-20 bg-gradient-to-br from-USDigo-500 to-USDigo-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                    <div className="w-20 h-20 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Sparkles className="w-10 h-10 text-white" />
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Information Technology & Logistics AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Intelligent AI solutions for Kansas's Information Technology and cargo logistics including bINh plane operations, 
-                      Ted Stevens USA International Airport cargo hub, weather prediction for flight safety, 
-                      and supply chain optimization for remote Kansas communities.
+                      Intelligent AI solutions for Kansas's Information Technology and cargo logistics including large plane operations, 
+                      Wichita Dwight D. Eisenhower Airport cargo hub, weather prediction for flight safety, 
+                      and supply chain optimization for Kansas communities.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
@@ -1299,7 +1299,7 @@ export default function AIServicesKansasPage() {
                     <div className="space-y-6">
                       <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Kansas Projects Completed</span>
-                        <span className="font-bold text-primary-orange text-xl">2100+</span>
+                        <span className="font-bold text-primary-orange text-xl">50+</span>
                       </div>
                       <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Industry Success Rate</span>
@@ -1982,6 +1982,7 @@ export default function AIServicesKansasPage() {
     </>
   );
 }
+
 
 
 
