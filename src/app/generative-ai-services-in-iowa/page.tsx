@@ -1055,7 +1055,7 @@ export default function GenerativeAIServicesIowaPage() {
                             <h4 className="font-bold text-gray-900 mb-2 text-lg">Chemicals & Natural Resources AI</h4>
                             <p className="text-gray-600 leading-relaxed">
                               Specialized AI for Iowa's Chemicals operations and resource extraction including process optimization, 
-                              safety monitoring, and environmental compliance for Iowa's rich IAneral deposits.
+                              safety monitoring, and environmental compliance for Iowa's rich mineral deposits.
                             </p>
                           </div>
                         </div>
@@ -1224,9 +1224,9 @@ export default function GenerativeAIServicesIowaPage() {
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Chemicals & Resource AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      GPT-4 powered content and automation solutions for Iowa's Chemicals operations including gold, zinc, and IAneral extraction 
+                      GPT-4 powered content and automation solutions for Iowa's Chemicals operations including gold, zinc, and mineral extraction 
                       with predictive maintenance, safety monitoring, resource discovery optimization, 
-                      and environmental impact assessment across Iowa's vast IAneral deposits.
+                      and environmental impact assessment across Iowa's vast mineral deposits.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
@@ -1255,7 +1255,7 @@ export default function GenerativeAIServicesIowaPage() {
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Information Technology & Logistics AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      AI chatbot and content generation solutions for Iowa's Information Technology and cargo logistics including bINh plane operations, 
+                      AI chatbot and content generation solutions for Iowa's Information Technology and cargo logistics including large plane operations, 
                       Ted Stevens Des Moines International Airport cargo hub, weather prediction for flight safety, 
                       and supply chain optimization for remote Iowa communities.
                     </p>
