@@ -166,25 +166,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   ]
 
-  // Michigan-specific city pages (bonus for local SEO)
-  const michiganCities = [
-    'detroit', 'grand-rapids', 'ann-arbor', 'lansing', 'dearborn', 
-    'troy', 'warren', 'sterling-heights', 'flint', 'rochester-hills'
-  ]
-
-  const michiganCityPages = michiganCities.map(city => ({
-    url: `${baseUrl}/ai-company-${city}-michigan`,
-    lastModified,
-    changeFrequency: 'weekly' as const,
-    priority: city === 'detroit' || city === 'ann-arbor' ? 0.92 : 0.88,
-  }))
-
   return [
     ...staticPages,
     ...servicePages,
     ...aiLocationPages,
     ...mlLocationPages,
     ...generativeAILocationPages,
-    ...michiganCityPages,
   ]
 }
