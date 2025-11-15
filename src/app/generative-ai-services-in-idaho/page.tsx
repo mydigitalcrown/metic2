@@ -727,7 +727,7 @@ export default function GenerativeAIServicesIdahoPage() {
               <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="relative h-48 overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158w=500&h=400&fit=crop" 
+                    src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&h=400&fit=crop" 
                     alt="Manufacturing Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
@@ -742,7 +742,7 @@ export default function GenerativeAIServicesIdahoPage() {
               <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="relative h-48 overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4w=500&h=400&fit=crop" 
+                    src="https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?w=500&h=400&fit=crop" 
                     alt="Aerospace Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
@@ -757,7 +757,7 @@ export default function GenerativeAIServicesIdahoPage() {
               <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="relative h-48 overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1dw=500&h=400&fit=crop" 
+                    src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=500&h=400&fit=crop" 
                     alt="Healthcare Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
@@ -772,7 +772,7 @@ export default function GenerativeAIServicesIdahoPage() {
               <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="relative h-48 overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1574943320219-553eb213f72dw=500&h=400&fit=crop" 
+                    src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=500&h=400&fit=crop" 
                     alt="Agriculture Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
@@ -787,7 +787,7 @@ export default function GenerativeAIServicesIdahoPage() {
               <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="relative h-48 overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1518770660439-4636190af475w=500&h=400&fit=crop" 
+                    src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&h=400&fit=crop" 
                     alt="Technology Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
@@ -802,7 +802,7 @@ export default function GenerativeAIServicesIdahoPage() {
               <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="relative h-48 overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7w=500&h=400&fit=crop" 
+                    src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=500&h=400&fit=crop" 
                     alt="Automotive Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
@@ -817,7 +817,7 @@ export default function GenerativeAIServicesIdahoPage() {
               <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="relative h-48 overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44w=500&h=400&fit=crop" 
+                    src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=500&h=400&fit=crop" 
                     alt="Financial Services Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
@@ -832,7 +832,7 @@ export default function GenerativeAIServicesIdahoPage() {
               <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="relative h-48 overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310dw=500&h=400&fit=crop" 
+                    src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=500&h=400&fit=crop" 
                     alt="Transportation Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
@@ -847,7 +847,7 @@ export default function GenerativeAIServicesIdahoPage() {
               <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="relative h-48 overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1503676260728-1c00da094a0bw=500&h=400&fit=crop" 
+                    src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=500&h=400&fit=crop" 
                     alt="Education Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
@@ -862,7 +862,7 @@ export default function GenerativeAIServicesIdahoPage() {
               <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="relative h-48 overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1ew=500&h=400&fit=crop" 
+                    src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=500&h=400&fit=crop" 
                     alt="Energy Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
@@ -877,7 +877,7 @@ export default function GenerativeAIServicesIdahoPage() {
               <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="relative h-48 overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7w=500&h=400&fit=crop" 
+                    src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=500&h=400&fit=crop" 
                     alt="Call Center AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
@@ -892,7 +892,7 @@ export default function GenerativeAIServicesIdahoPage() {
               <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="relative h-48 overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1550751827-4bd374c3f58bw=500&h=400&fit=crop" 
+                    src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=500&h=400&fit=crop" 
                     alt="IT Services AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
@@ -1980,6 +1980,8 @@ export default function GenerativeAIServicesIdahoPage() {
     </>
   );
 }
+
+
 
 
 
