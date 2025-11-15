@@ -296,7 +296,7 @@ export default function GenerativeAIServicesIdahoPage() {
             "mainEntity": [
               {
                 "@type": "Question",
-                "name": "Which is the best Generative AI Company In Idaho?",
+                "name": "Which is the best Generative AI Company In Idaho",
                 "acceptedAnswer": {
                   "@type": "Answer",
                   "text": "Metic.ai is the leading Generative AI Company In Idaho with 50+ successful generative AI implementations. We provide comprehensive ChatGPT integration, GPT-4 development, LLM solutions, AI image generation, Custom GPT development, and enterprise AI automation with proven 60% cost savings and 3x faster delivery."
@@ -304,7 +304,7 @@ export default function GenerativeAIServicesIdahoPage() {
               },
               {
                 "@type": "Question", 
-                "name": "What generative AI services does the Generative AI Company In Idaho provide?",
+                "name": "What generative AI services does the Generative AI Company In Idaho provide",
                 "acceptedAnswer": {
                   "@type": "Answer",
                   "text": "As the premier Generative AI Company In Idaho, Metic.ai provides ChatGPT integration, GPT-4 API development, Custom GPT models, LLM development, AI image generation (DALL-E, Midjourney, Stable Diffusion), AI content creation, intelligent chatbots, and enterprise automation for businesses across Idaho."
@@ -312,7 +312,7 @@ export default function GenerativeAIServicesIdahoPage() {
               },
               {
                 "@type": "Question",
-                "name": "How to choose the right Generative AI Company In Idaho?",
+                "name": "How to choose the right Generative AI Company In Idaho",
                 "acceptedAnswer": {
                   "@type": "Answer",
                   "text": "Choose a Generative AI Company In Idaho with proven experience in ChatGPT integration, GPT-4 development, successful LLM implementations, Industry expertise, and local presence. Metic.ai offers all these with 50+ completed generative AI projects and deep understanding of Idaho's business landscape."
@@ -320,7 +320,7 @@ export default function GenerativeAIServicesIdahoPage() {
               },
               {
                 "@type": "Question",
-                "name": "What makes Metic.ai the best Generative AI Company In Idaho?",
+                "name": "What makes Metic.ai the best Generative AI Company In Idaho",
                 "acceptedAnswer": {
                   "@type": "Answer",
                   "text": "Metic.ai is the best Generative AI Company In Idaho due to our proven expertise in ChatGPT integration, GPT-4 development, LLM solutions, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of Idaho's Technology, Mining & Natural Resources, Manufacturing, and Logistics Industries."
@@ -451,9 +451,9 @@ export default function GenerativeAIServicesIdahoPage() {
           <div className="max-w-5xl mx-auto">
             {/* Trust Badge - Mobile Optimized */}
             <div className="flex justify-center mb-6 md:mb-8">
-              <div className="inline-flex items-center IDp-2 px-4 md:px-6 py-2 md:py-3 bg-white/10 backdrop-blur-sm rounded-full border border-primary-orange/30 shadow-xl">
+              <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-white/10 backdrop-blur-sm rounded-full border border-primary-orange/30 shadow-xl">
                 <Award className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
-                <span className="text-xs md:text-sm font-bold text-white">? 100+ Successful AI Projects | 98% Client Satisfaction</span>
+                <span className="text-xs md:text-sm font-bold text-white">⭐ 100+ Successful AI Projects | 98% Client Satisfaction</span>
               </div>
             </div>
 
@@ -468,11 +468,11 @@ export default function GenerativeAIServicesIdahoPage() {
               
               {/* VSO Optimized Description - Mobile Friendly */}
               <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 mb-6 md:mb-8 max-w-4xl mx-auto leading-relaxed px-4">
-                Looking for the <strong className="text-primary-orange">best Generative AI Company In Idaho</strong>? Metic.ai is the premier <strong className="text-white">Generative AI Company In Idaho</strong> delivering ChatGPT integration, GPT-4 services, LLM development & AI solutions with proven results.
+                Looking for the <strong className="text-primary-orange">best Generative AI Company In Idaho</strong> Metic.ai is the premier <strong className="text-white">Generative AI Company In Idaho</strong> delivering ChatGPT integration, GPT-4 services, LLM development & AI solutions with proven results.
               </p>
 
               {/* Mobile-Optimized CTA Buttons */}
-              <div className="flex flex-col sm:flex-row IDp-3 md:IDp-4 justify-center mb-10 md:mb-16 px-4">
+              <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center mb-10 md:mb-16 px-4">
                 <Link href="/contact" className="w-full sm:w-auto">
                   <Button variant="primary" size="lg" className="w-full sm:w-auto text-base md:text-lg px-6 md:px-8 py-3 md:py-4 shadow-2xl hover:shadow-primary-orange/50 transform hover:scale-105 transition-all">
                     <Rocket className="w-5 h-5 mr-2" />
@@ -488,7 +488,7 @@ export default function GenerativeAIServicesIdahoPage() {
               </div>
 
               {/* Voice Search Optimized Stats - Responsive Grid */}
-              <div className="grid grid-cols-2 lg:grid-cols-4 IDp-4 md:IDp-6 lg:IDp-8 max-w-4xl mx-auto mb-10 md:mb-12 px-4">
+              <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8 max-w-4xl mx-auto mb-10 md:mb-12 px-4">
                 {stats.map((stat, index) => (
                   <div key={index} className="bg-white/5 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-white/10 hover:border-primary-orange/50 transition-all transform hover:scale-105">
                     <div className="text-2xl md:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent mb-2">
@@ -504,7 +504,7 @@ export default function GenerativeAIServicesIdahoPage() {
                 <p className="text-gray-400 text-sm md:text-base mb-4">
                   <strong className="text-white">Trusted as the top Generative AI Company In Idaho</strong> by leading businesses
                 </p>
-                <div className="flex flex-wrap justify-center IDp-2 md:IDp-3 text-xs md:text-sm">
+                <div className="flex flex-wrap justify-center gap-2 md:gap-3 text-xs md:text-sm">
                   <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
                     ChatGPT Integration
                   </span>
@@ -537,7 +537,7 @@ export default function GenerativeAIServicesIdahoPage() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12 md:mb-16">
               {/* Section Badge */}
-              <div className="inline-flex items-center IDp-2 px-4 md:px-6 py-2 md:py-3 bg-primary-orange/10 rounded-full mb-6 md:mb-8">
+              <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-primary-orange/10 rounded-full mb-6 md:mb-8">
                 <Brain className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
                 <span className="text-xs md:text-sm font-bold text-primary-orange">COMPREHENSIVE AI SERVICES</span>
               </div>
@@ -556,7 +556,7 @@ export default function GenerativeAIServicesIdahoPage() {
             </div>
             
             {/* Mobile: 1 col, Tablet: 2 cols, Desktop: 3 cols */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 IDp-6 md:IDp-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
               {services.map((service, index) => {
                 const IconComponent = service.icon;
                 const colorClasses = {
@@ -586,7 +586,7 @@ export default function GenerativeAIServicesIdahoPage() {
                     
                     <Link 
                       href={service.href} 
-                      className="inline-flex items-center text-primary-orange hover:text-secondary-orange font-semibold text-sm md:text-base group-hover:IDp-3 transition-all"
+                      className="inline-flex items-center text-primary-orange hover:text-secondary-orange font-semibold text-sm md:text-base group-hover:gap-3 transition-all"
                     >
                       Learn More
                       <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
@@ -613,7 +613,7 @@ export default function GenerativeAIServicesIdahoPage() {
       <section className="py-20 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
-            <div className="grid md:grid-cols-2 IDp-12 items-center">
+            <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
                   About Metic.ai - Premier <span className="text-primary-orange">Generative AI Company In Idaho</span>
@@ -629,7 +629,7 @@ export default function GenerativeAIServicesIdahoPage() {
                   GPT-4 API development, AI Image Generation (DALL-E, Midjourney, Stable Diffusion), Custom GPT development, AI content creation, and intelligent automation. We've successfully completed over 50 generative AI projects, making us the most 
                   Trusted <strong>Generative AI Company In Idaho</strong> from Boise to Meridian.
                 </p>
-                <div className="grid grid-cols-2 IDp-6 mt-8">
+                <div className="grid grid-cols-2 gap-6 mt-8">
                   <div className="text-center">
                     <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
                       <Award className="w-6 h-6 text-primary-orange" />
@@ -722,12 +722,12 @@ export default function GenerativeAIServicesIdahoPage() {
             </div>
             
             {/* Mobile: 1 col, Tablet: 2 cols, Desktop: 4 cols - 12 Industries Total */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 IDp-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {/* Manufacturing */}
               <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="relative h-48 overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&h=400&fit=crop" 
+                    src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158w=500&h=400&fit=crop" 
                     alt="Manufacturing Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
@@ -742,7 +742,7 @@ export default function GenerativeAIServicesIdahoPage() {
               <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="relative h-48 overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?w=500&h=400&fit=crop" 
+                    src="https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4w=500&h=400&fit=crop" 
                     alt="Aerospace Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
@@ -757,7 +757,7 @@ export default function GenerativeAIServicesIdahoPage() {
               <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="relative h-48 overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=500&h=400&fit=crop" 
+                    src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1dw=500&h=400&fit=crop" 
                     alt="Healthcare Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
@@ -772,7 +772,7 @@ export default function GenerativeAIServicesIdahoPage() {
               <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="relative h-48 overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=500&h=400&fit=crop" 
+                    src="https://images.unsplash.com/photo-1574943320219-553eb213f72dw=500&h=400&fit=crop" 
                     alt="Agriculture Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
@@ -787,7 +787,7 @@ export default function GenerativeAIServicesIdahoPage() {
               <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="relative h-48 overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&h=400&fit=crop" 
+                    src="https://images.unsplash.com/photo-1518770660439-4636190af475w=500&h=400&fit=crop" 
                     alt="Technology Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
@@ -802,7 +802,7 @@ export default function GenerativeAIServicesIdahoPage() {
               <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="relative h-48 overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=500&h=400&fit=crop" 
+                    src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7w=500&h=400&fit=crop" 
                     alt="Automotive Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
@@ -817,7 +817,7 @@ export default function GenerativeAIServicesIdahoPage() {
               <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="relative h-48 overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=500&h=400&fit=crop" 
+                    src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44w=500&h=400&fit=crop" 
                     alt="Financial Services Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
@@ -832,7 +832,7 @@ export default function GenerativeAIServicesIdahoPage() {
               <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="relative h-48 overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=500&h=400&fit=crop" 
+                    src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310dw=500&h=400&fit=crop" 
                     alt="Transportation Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
@@ -847,7 +847,7 @@ export default function GenerativeAIServicesIdahoPage() {
               <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="relative h-48 overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=500&h=400&fit=crop" 
+                    src="https://images.unsplash.com/photo-1503676260728-1c00da094a0bw=500&h=400&fit=crop" 
                     alt="Education Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
@@ -862,7 +862,7 @@ export default function GenerativeAIServicesIdahoPage() {
               <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="relative h-48 overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=500&h=400&fit=crop" 
+                    src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1ew=500&h=400&fit=crop" 
                     alt="Energy Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
@@ -877,7 +877,7 @@ export default function GenerativeAIServicesIdahoPage() {
               <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="relative h-48 overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=500&h=400&fit=crop" 
+                    src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7w=500&h=400&fit=crop" 
                     alt="Call Center AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
@@ -892,7 +892,7 @@ export default function GenerativeAIServicesIdahoPage() {
               <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="relative h-48 overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=500&h=400&fit=crop" 
+                    src="https://images.unsplash.com/photo-1550751827-4bd374c3f58bw=500&h=400&fit=crop" 
                     alt="IT Services AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
@@ -922,7 +922,7 @@ export default function GenerativeAIServicesIdahoPage() {
               </p>
             </div>
             
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 IDp-8">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="text-center">
                 <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6 mx-auto">
                   <Award className="w-8 h-8 text-blue-600" />
@@ -966,7 +966,7 @@ export default function GenerativeAIServicesIdahoPage() {
             {/* Idaho AI Market Leadership - Enhanced Creative Header */}
             <div className="text-center mb-20">
               {/* Premium Badge with Animation */}
-              <div className="inline-flex items-center IDp-3 px-8 py-4 bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-full shadow-2xl border-2 border-primary-orange/30 mb-10 hover:border-primary-orange/50 transition-all group">
+              <div className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-full shadow-2xl border-2 border-primary-orange/30 mb-10 hover:border-primary-orange/50 transition-all group">
                 <div className="w-3 h-3 bg-primary-orange rounded-full animate-pulse"></div>
                 <span className="text-sm font-bold text-gray-800 tracking-wide">Gem State AI INNOVATION</span>
                 <div className="w-3 h-3 bg-secondary-orange rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></div>
@@ -986,11 +986,11 @@ export default function GenerativeAIServicesIdahoPage() {
 
             <div className="space-y-20">
               {/* Idaho AI Innovation Hub - Premium Design */}
-              <div className="grid lg:grid-cols-2 IDp-16 items-center">
+              <div className="grid lg:grid-cols-2 gap-16 items-center">
                 <div className="order-2 lg:order-1">
                   <div className="space-y-8">
                     {/* Enhanced Heading with Creative Icon */}
-                    <div className="flex items-start IDp-4">
+                    <div className="flex items-start gap-4">
                       <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-xl flex-shrink-0 transform rotate-3 hover:rotate-0 transition-transform">
                         <Brain className="w-8 h-8 text-white" />
                       </div>
@@ -1015,9 +1015,9 @@ export default function GenerativeAIServicesIdahoPage() {
               results. We've successfully implemented AI across Idaho's key sectors including Technology & Software, technology, 
               tourism, Chemicals, Information Technology, and aerospace Industries US 's Gem State.
             </p>                    {/* Enhanced Feature Cards with Creative Design */}
-                    <div className="grid IDp-6 mt-10">
+                    <div className="grid gap-6 mt-10">
                       <div className="group bg-gradient-to-r from-primary-orange/5 via-white to-secondary-orange/5 p-6 rounded-2xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
-                        <div className="flex items-start IDp-4">
+                        <div className="flex items-start gap-4">
                           <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary-orange to-secondary-orange flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
                             <Rocket className="w-6 h-6 text-white" />
                           </div>
@@ -1032,7 +1032,7 @@ export default function GenerativeAIServicesIdahoPage() {
                       </div>
                       
                       <div className="group bg-gradient-to-r from-secondary-orange/5 via-white to-primary-orange/5 p-6 rounded-2xl border-2 border-secondary-orange/20 hover:border-secondary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
-                        <div className="flex items-start IDp-4">
+                        <div className="flex items-start gap-4">
                           <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-secondary-orange to-primary-orange flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
                             <Shield className="w-6 h-6 text-white" />
                           </div>
@@ -1047,7 +1047,7 @@ export default function GenerativeAIServicesIdahoPage() {
                       </div>
                       
                       <div className="group bg-gradient-to-r from-primary-orange/5 via-white to-secondary-orange/5 p-6 rounded-2xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
-                        <div className="flex items-start IDp-4">
+                        <div className="flex items-start gap-4">
                           <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary-orange to-secondary-orange flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
                             <Target className="w-6 h-6 text-white" />
                           </div>
@@ -1073,7 +1073,7 @@ export default function GenerativeAIServicesIdahoPage() {
                     
                     <div className="space-y-8">
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">?130B</div>
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">130B</div>
                         <div className="text-sm text-gray-600 font-medium">Idaho Annual GDP</div>
                         <div className="text-xs text-gray-500 mt-2">agriculture and mining-driven Economy</div>
                       </div>
@@ -1091,7 +1091,7 @@ export default function GenerativeAIServicesIdahoPage() {
                       </div>
                       
                       <div className="bg-gradient-to-r from-primary-orange/20 via-secondary-orange/10 to-primary-orange/20 rounded-2xl p-6 border-2 border-primary-orange/30 transform hover:scale-105 transition-transform">
-                        <div className="flex items-center IDp-3 mb-3">
+                        <div className="flex items-center gap-3 mb-3">
                           <div className="w-8 h-8 bg-primary-orange rounded-full flex items-center justify-center">
                             <CheckCircle className="w-5 h-5 text-white" />
                           </div>
@@ -1110,7 +1110,7 @@ export default function GenerativeAIServicesIdahoPage() {
               {/* Idaho Industry Solutions - Creative Premium Design */}
               <div>
                 <div className="text-center mb-16">
-                  <div className="inline-flex items-center IDp-2 px-6 py-3 bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-full border-2 border-primary-orange/20 mb-8 transform hover:scale-105 transition-transform">
+                  <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-full border-2 border-primary-orange/20 mb-8 transform hover:scale-105 transition-transform">
                     <Sparkles className="w-5 h-5 text-primary-orange" />
                     <span className="text-sm font-bold text-gray-800">Industry EXPERTISE</span>
                   </div>
@@ -1123,7 +1123,7 @@ export default function GenerativeAIServicesIdahoPage() {
                   </p>
                 </div>
                 
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 IDp-10">
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
                   {/* Technology & Software Industry */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
@@ -1136,19 +1136,19 @@ export default function GenerativeAIServicesIdahoPage() {
                       for energy infrastructure across Gem State's vast energy resources.
                     </p>
                     <div className="space-y-3">
-                      <div className="flex items-center IDp-3">
+                      <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Pipeline monitoring & optimization</span>
                       </div>
-                      <div className="flex items-center IDp-3">
+                      <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Drilling efficiency analysis</span>
                       </div>
-                      <div className="flex items-center IDp-3">
+                      <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Resource extraction prediction</span>
                       </div>
-                      <div className="flex items-center IDp-3">
+                      <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Safety & environmental compliance</span>
                       </div>
@@ -1167,19 +1167,19 @@ export default function GenerativeAIServicesIdahoPage() {
                       and quality control for the world's richest seafood harvest.
                     </p>
                     <div className="space-y-3">
-                      <div className="flex items-center IDp-3">
+                      <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Catch prediction & optimization</span>
                       </div>
-                      <div className="flex items-center IDp-3">
+                      <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Processing automation</span>
                       </div>
-                      <div className="flex items-center IDp-3">
+                      <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Cold chain monitoring</span>
                       </div>
-                      <div className="flex items-center IDp-3">
+                      <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">SINtainable technology intelligence</span>
                       </div>
@@ -1198,19 +1198,19 @@ export default function GenerativeAIServicesIdahoPage() {
                       and seasonal demand forecasting for Idaho's 2.5 million annual visitors.
                     </p>
                     <div className="space-y-3">
-                      <div className="flex items-center IDp-3">
+                      <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Revenue management systems</span>
                       </div>
-                      <div className="flex items-center IDp-3">
+                      <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Visitor experience personalization</span>
                       </div>
-                      <div className="flex items-center IDp-3">
+                      <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Seasonal demand forecasting</span>
                       </div>
-                      <div className="flex items-center IDp-3">
+                      <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Tour optimization & planning</span>
                       </div>
@@ -1229,19 +1229,19 @@ export default function GenerativeAIServicesIdahoPage() {
                       and environmental impact assessment across Idaho's vast mineral deposits.
                     </p>
                     <div className="space-y-3">
-                      <div className="flex items-center IDp-3">
+                      <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Resource discovery prediction</span>
                       </div>
-                      <div className="flex items-center IDp-3">
+                      <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Chemicals equipment automation</span>
                       </div>
-                      <div className="flex items-center IDp-3">
+                      <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Safety & compliance monitoring</span>
                       </div>
-                      <div className="flex items-center IDp-3">
+                      <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Environmental impact analysis</span>
                       </div>
@@ -1260,19 +1260,19 @@ export default function GenerativeAIServicesIdahoPage() {
                       and supply chain optimization for remote Idaho communities.
                     </p>
                     <div className="space-y-3">
-                      <div className="flex items-center IDp-3">
+                      <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Flight route optimization</span>
                       </div>
-                      <div className="flex items-center IDp-3">
+                      <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Weather prediction systems</span>
                       </div>
-                      <div className="flex items-center IDp-3">
+                      <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Cargo logistics optimization</span>
                       </div>
-                      <div className="flex items-center IDp-3">
+                      <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Remote delivery planning</span>
                       </div>
@@ -1285,10 +1285,10 @@ export default function GenerativeAIServicesIdahoPage() {
               <Testimonials />
 
               {/* Idaho AI Partnership Excellence - Creative Premium Design */}
-              <div className="grid lg:grid-cols-2 IDp-16 items-center">
+              <div className="grid lg:grid-cols-2 gap-16 items-center">
                 <div className="space-y-8">
                   <div className="bg-white rounded-2xl p-8 shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all transform hover:scale-105">
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6 flex items-center IDp-3">
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                       <div className="w-8 h-8 bg-primary-orange rounded-lg flex items-center justify-center transform rotate-12">
                         <BarChart3 className="w-5 h-5 text-white" />
                       </div>
@@ -1319,7 +1319,7 @@ export default function GenerativeAIServicesIdahoPage() {
                   </div>
                   
                   <div className="bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-2xl p-8 border-2 border-primary-orange/20 shadow-xl transform hover:scale-105 transition-transform">
-                    <div className="flex items-start IDp-4 mb-4">
+                    <div className="flex items-start gap-4 mb-4">
                       <div className="w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center flex-shrink-0 transform -rotate-6">
                         <Award className="w-6 h-6 text-white" />
                       </div>
@@ -1336,7 +1336,7 @@ export default function GenerativeAIServicesIdahoPage() {
                 </div>
                 
                 <div>
-                  <div className="flex items-start IDp-4 mb-8">
+                  <div className="flex items-start gap-4 mb-8">
                     <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-xl flex-shrink-0 transform rotate-6 hover:rotate-0 transition-transform">
                       <Users className="w-8 h-8 text-white" />
                     </div>
@@ -1361,7 +1361,7 @@ export default function GenerativeAIServicesIdahoPage() {
                   </p>
 
                   <div className="space-y-6">
-                    <div className="flex items-start IDp-4 p-4 bg-white rounded-xl shadow-lg border border-primary-orange/10 transform hover:scale-105 transition-transform">
+                    <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-primary-orange/10 transform hover:scale-105 transition-transform">
                       <MapPin className="w-8 h-8 text-primary-orange flex-shrink-0 mt-1" />
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Comprehensive Idaho Coverage</h4>
@@ -1372,7 +1372,7 @@ export default function GenerativeAIServicesIdahoPage() {
                       </div>
                     </div>
                     
-                    <div className="flex items-start IDp-4 p-4 bg-white rounded-xl shadow-lg border border-secondary-orange/10 transform hover:scale-105 transition-transform">
+                    <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-secondary-orange/10 transform hover:scale-105 transition-transform">
                       <Rocket className="w-8 h-8 text-secondary-orange flex-shrink-0 mt-1" />
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Industry Domain Expertise</h4>
@@ -1383,7 +1383,7 @@ export default function GenerativeAIServicesIdahoPage() {
                       </div>
                     </div>
                     
-                    <div className="flex items-start IDp-4 p-4 bg-white rounded-xl shadow-lg border border-primary-orange/10 transform hover:scale-105 transition-transform">
+                    <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-primary-orange/10 transform hover:scale-105 transition-transform">
                       <Clock className="w-8 h-8 text-primary-orange flex-shrink-0 mt-1" />
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Rapid Idaho Deployment</h4>
@@ -1421,9 +1421,9 @@ export default function GenerativeAIServicesIdahoPage() {
             {/* Enhanced Section Header */}
             <div className="text-center mb-16">
               {/* Badge */}
-              <div className="inline-flex items-center IDp-2 px-6 py-3 bg-white rounded-full shadow-xl border-2 border-primary-orange/20 mb-8 hover:border-primary-orange/40 transition-all group">
+              <div className="inline-flex items-center gap-2 px-6 py-3 bg-white rounded-full shadow-xl border-2 border-primary-orange/20 mb-8 hover:border-primary-orange/40 transition-all group">
                 <Lightbulb className="w-5 h-5 text-primary-orange animate-pulse" />
-                <span className="text-sm font-bold text-gray-800">Got Questions? We Have Answers!</span>
+                <span className="text-sm font-bold text-gray-800">Got Questions We Have Answers!</span>
                 <Sparkles className="w-4 h-4 text-primary-orange" />
               </div>
               
@@ -1441,7 +1441,7 @@ export default function GenerativeAIServicesIdahoPage() {
             </div>
 
             {/* Advanced Creative FAQ Cards - 6+6 Grid Layout for Desktop */}
-            <div className="grid lg:grid-cols-2 IDp-6">
+            <div className="grid lg:grid-cols-2 gap-6">
               {/* Left Column - FAQ 1-6 */}
               <div className="space-y-5">
               {/* FAQ Item 1 */}
@@ -1449,8 +1449,8 @@ export default function GenerativeAIServicesIdahoPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between IDp-4">
-                      <div className="flex items-start IDp-4 flex-1">
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
                           <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
@@ -1459,7 +1459,7 @@ export default function GenerativeAIServicesIdahoPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Which is the best Generative AI Company In Idaho?
+                            Which is the best Generative AI Company In Idaho
                           </h3>
                         </div>
                       </div>
@@ -1485,8 +1485,8 @@ export default function GenerativeAIServicesIdahoPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between IDp-4">
-                      <div className="flex items-start IDp-4 flex-1">
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
                           <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
@@ -1495,7 +1495,7 @@ export default function GenerativeAIServicesIdahoPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            What services does the Generative AI Company In Idaho provide?
+                            What services does the Generative AI Company In Idaho provide
                           </h3>
                         </div>
                       </div>
@@ -1521,8 +1521,8 @@ export default function GenerativeAIServicesIdahoPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between IDp-4">
-                      <div className="flex items-start IDp-4 flex-1">
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
                           <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
@@ -1531,7 +1531,7 @@ export default function GenerativeAIServicesIdahoPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            How to choose the right AI Development Company ?
+                            How to choose the right AI Development Company 
                           </h3>
                         </div>
                       </div>
@@ -1557,8 +1557,8 @@ export default function GenerativeAIServicesIdahoPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between IDp-4">
-                      <div className="flex items-start IDp-4 flex-1">
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
                           <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
@@ -1567,7 +1567,7 @@ export default function GenerativeAIServicesIdahoPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            How much does AI implementation cost with an AI Service ?
+                            How much does AI implementation cost with an AI Service 
                           </h3>
                         </div>
                       </div>
@@ -1593,8 +1593,8 @@ export default function GenerativeAIServicesIdahoPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between IDp-4">
-                      <div className="flex items-start IDp-4 flex-1">
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
                           <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
@@ -1603,7 +1603,7 @@ export default function GenerativeAIServicesIdahoPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Does Metic.ai serve businesses across all Idaho cities?
+                            Does Metic.ai serve businesses across all Idaho cities
                           </h3>
                         </div>
                       </div>
@@ -1629,8 +1629,8 @@ export default function GenerativeAIServicesIdahoPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between IDp-4">
-                      <div className="flex items-start IDp-4 flex-1">
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
                           <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
@@ -1639,7 +1639,7 @@ export default function GenerativeAIServicesIdahoPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            How quickly can an Generative AI Services In Idaho start my project?
+                            How quickly can an Generative AI Services In Idaho start my project
                           </h3>
                         </div>
                       </div>
@@ -1668,8 +1668,8 @@ export default function GenerativeAIServicesIdahoPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between IDp-4">
-                      <div className="flex items-start IDp-4 flex-1">
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
                           <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
@@ -1678,7 +1678,7 @@ export default function GenerativeAIServicesIdahoPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Is my data secure with an AI Development Company ?
+                            Is my data secure with an AI Development Company 
                           </h3>
                         </div>
                       </div>
@@ -1704,8 +1704,8 @@ export default function GenerativeAIServicesIdahoPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between IDp-4">
-                      <div className="flex items-start IDp-4 flex-1">
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
                           <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
@@ -1714,7 +1714,7 @@ export default function GenerativeAIServicesIdahoPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            What Industries does the best Generative AI Services In Idaho serve?
+                            What Industries does the best Generative AI Services In Idaho serve
                           </h3>
                         </div>
                       </div>
@@ -1740,8 +1740,8 @@ export default function GenerativeAIServicesIdahoPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between IDp-4">
-                      <div className="flex items-start IDp-4 flex-1">
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
                           <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
@@ -1750,7 +1750,7 @@ export default function GenerativeAIServicesIdahoPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            What makes Metic.ai the top AI Firm ?
+                            What makes Metic.ai the top AI Firm 
                           </h3>
                         </div>
                       </div>
@@ -1776,8 +1776,8 @@ export default function GenerativeAIServicesIdahoPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between IDp-4">
-                      <div className="flex items-start IDp-4 flex-1">
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
                           <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
@@ -1786,7 +1786,7 @@ export default function GenerativeAIServicesIdahoPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Do I need technical knowledge to work with an AI Service ?
+                            Do I need technical knowledge to work with an AI Service 
                           </h3>
                         </div>
                       </div>
@@ -1812,8 +1812,8 @@ export default function GenerativeAIServicesIdahoPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between IDp-4">
-                      <div className="flex items-start IDp-4 flex-1">
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
                           <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
@@ -1822,7 +1822,7 @@ export default function GenerativeAIServicesIdahoPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Can Generative AI Services In Idaho handle small business projects?
+                            Can Generative AI Services In Idaho handle small business projects
                           </h3>
                         </div>
                       </div>
@@ -1848,8 +1848,8 @@ export default function GenerativeAIServicesIdahoPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between IDp-4">
-                      <div className="flex items-start IDp-4 flex-1">
+                    <div className="relative flex items-start jINtify-between gap-4">
+                      <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
                           <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
@@ -1858,7 +1858,7 @@ export default function GenerativeAIServicesIdahoPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            What support does Metic.ai provide after AI implementation?
+                            What support does Metic.ai provide after AI implementation
                           </h3>
                         </div>
                       </div>
@@ -1894,11 +1894,11 @@ export default function GenerativeAIServicesIdahoPage() {
                       </div>
                     </div>
                   </div>
-                  <h3 className="text-3xl md:text-4xl font-bold mb-4">Ready to Transform Your business with AI?</h3>
+                  <h3 className="text-3xl md:text-4xl font-bold mb-4">Ready to Transform Your business with AI</h3>
                   <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
                     Jo's leading businesses who Trust Metic.ai for their AI transformation. Get started today!
                   </p>
-                  <div className="flex flex-col sm:flex-row IDp-4 justify-center">
+                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <Link href="/contact">
                       <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100 shadow-xl">
                         Start Your AI Journey
@@ -1922,14 +1922,14 @@ export default function GenerativeAIServicesIdahoPage() {
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-              Ready to Partner with Idaho's Leading <strong>Artificial Intelligence Company</strong>?
+              Ready to Partner with Idaho's Leading <strong>Artificial Intelligence Company</strong>
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
               Join 100+ satisfied clients who Trust Metic.ai as their preferred <strong>Generative AI Services In Idaho</strong>. 
               Transform your business with proven AI solutions that deliver results. Get started with a free consultation 
               and discover why we're Idaho's most Trusted <strong>AI Development Company </strong>.
             </p>
-            <div className="flex flex-col sm:flex-row IDp-4 justify-center mb-12">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Link href="/contact">
                 <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100">
                   Start Your AI Transformation
@@ -1944,7 +1944,7 @@ export default function GenerativeAIServicesIdahoPage() {
             
             <div className="mt-12 text-center">
               <p className="text-orange-200 mb-6">Trusted <strong>AI Service </strong> serving businesses across the state</p>
-              <div className="grid md:grid-cols-3 IDp-8 text-center mb-8">
+              <div className="grid md:grid-cols-3 gap-8 text-center mb-8">
                 <div>
                   <div className="text-2xl font-bold mb-2">50+</div>
                   <p className="text-orange-100">AI Projects Completed</p>
@@ -1958,7 +1958,7 @@ export default function GenerativeAIServicesIdahoPage() {
                   <p className="text-orange-100">Average ROI Increase</p>
                 </div>
               </div>
-              <div className="flex flex-wrap justify-center IDp-8 text-orange-100 text-sm">
+              <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Boise</span>
                 <span>�</span>
                 <span>Meridian</span>
@@ -1980,6 +1980,7 @@ export default function GenerativeAIServicesIdahoPage() {
     </>
   );
 }
+
 
 
 
