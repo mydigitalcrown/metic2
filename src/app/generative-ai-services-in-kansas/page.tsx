@@ -180,7 +180,7 @@ export default function AIServicesKansasPage() {
             ],
             "logo": "https://metic.ai/logo.png",
             "image": ["https://metic.ai/ai-company-Kansas.jpg"],
-            "telephone": "+1-316-555-0198",
+            "telephone": "+91-789-251-8414",
             "email": "hello@metic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
@@ -277,7 +277,7 @@ export default function AIServicesKansasPage() {
             "openingHours": "Mo-Fr 09:00-18:00",
             "contactPoint": {
               "@type": "ContactPoint",
-              "telephone": "+1-316-555-0198",
+              "telephone": "+91-789-251-8414",
               "contactType": "Customer Service",
               "areaServed": "US",
               "availableLanguage": ["English"]
@@ -402,7 +402,7 @@ export default function AIServicesKansasPage() {
             "name": "Metic.ai - Generative AI Services",
             "description": "Leading Artificial Intelligence Company providing AI services ",
             "image": "https://metic.ai/ai-company-Kansas.jpg",
-            "telephone": "+1-316-555-0198",
+            "telephone": "+91-789-251-8414",
             "email": "hello@metic.ai",
             "address": {
               "@type": "PostalAddress",
@@ -482,7 +482,7 @@ export default function AIServicesKansasPage() {
                 <Link href="tel:+917892518414" className="w-full sm:w-auto">
                   <Button variant="outline" size="lg" className="w-full sm:w-auto text-base md:text-lg px-6 md:px-8 py-3 md:py-4 border-2 border-primary-orange text-primary-orange hover:bg-primary-orange hover:text-white">
                     <Phone className="w-5 h-5 mr-2" />
-                    Call: +1-316-555-0198
+                    Call: +91-789-251-8414
                   </Button>
                 </Link>
               </div>
@@ -551,7 +551,7 @@ export default function AIServicesKansasPage() {
               <div className="w-20 md:w-24 h-1 md:h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 md:mb-8 rounded-full"></div>
               <p className="text-base md:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-4">
                 Comprehensive artificial intelligence services from Kansas's most Trusted <strong className="text-gray-900">Generative AI Services</strong>. 
-                Transforming businesses with cutting-edge AI solutions tailored for Kansas's USDustrial landscape.
+                Transforming businesses with cutting-edge AI solutions tailored for Kansas's Industrial landscape.
               </p>
             </div>
             
@@ -627,7 +627,7 @@ export default function AIServicesKansasPage() {
                 <p className="text-lg text-gray-700 mb-6">
                   Our expertise as an <strong>AI Development Company </strong> encompasses Generative AI, Large Language Models, ChatGPT Integration, 
                   AI Image Generation, and robotic process automation. We've successfully completed over 100 AI projects, making US the most 
-                  Trusted <strong>AI Service </strong> from the Naroda USDustrial Area to the Aleutian Islands.
+                  Trusted <strong>AI Service </strong> from the Wichita industrial zone to the Kansas plains.
                 </p>
                 <div className="grid grid-cols-2 gap-6 mt-8">
                   <div className="text-center">
@@ -980,7 +980,7 @@ export default function AIServicesKansasPage() {
               </h2>
               <div className="w-40 h-2 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-10 rounded-full shadow-lg"></div>
               <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                Transforming 's Agricultural Heartland with cutting-edge AI solutions from USA to Europe, Asia to the Naroda USDustrial Area
+                Transforming 's Agricultural Heartland with cutting-edge AI solutions from Wichita to Topeka, Kansas City to the Wichita industrial zone
               </p>
             </div>
 
@@ -1005,8 +1005,8 @@ export default function AIServicesKansasPage() {
             <p className="text-lg text-gray-700 leading-relaxed">
               As the leading <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Generative AI Company</strong>, 
               Metic.ai serves Sunflower State with enterprise-grade AI solutions tailored to Kansas's unique economic 
-              landscape. From USA's business hub to Europe' research facilities, Asia's government sector to 
-              the agriculture mills of the Naroda USDustrial Area, we understand Kansas's entrepreneurial excellence and agriculture-driven Industries.
+              landscape. From USA's business hub to Europe's research facilities, Asia's government sector to 
+              the agriculture mills of the Wichita industrial zone, we understand Kansas's entrepreneurial excellence and agriculture-driven Industries.
             </p>
             
             <p className="text-lg text-gray-700 leading-relaxed">
@@ -1024,7 +1024,7 @@ export default function AIServicesKansasPage() {
                           <div>
                             <h4 className="font-bold text-gray-900 mb-2 text-lg">Agriculture & Agribusiness AI Excellence</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Deep expertise with Kansas's Naroda USDustrial Area agriculture operations including major agriculture mills, 
+                              Deep expertise with Kansas's Wichita industrial zone agriculture operations including major agriculture mills, 
                               Kansas Metro, and energy infrastructure across 's largest agriculture-manufacturing state.
                             </p>
                           </div>
@@ -1037,10 +1037,10 @@ export default function AIServicesKansasPage() {
                             <Shield className="w-6 h-6 text-white" />
                           </div>
                           <div>
-                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Automotive Manufacturing Innovation</h4>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Aerospace Manufacturing Innovation</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Advanced AI solutions for Kansas's automotive Industry including Mercedes-Benz, Honda, Hyundai, 
-                              and Toyota manufacturing facilities with predictive maintenance and quality control systems.
+                              Advanced AI solutions for Kansas's aerospace Industry including Spirit AeroSystems, Textron Aviation, Bombardier, 
+                              and Cessna manufacturing facilities with predictive maintenance and quality control systems.
                             </p>
                           </div>
                         </div>
@@ -1133,7 +1133,7 @@ export default function AIServicesKansasPage() {
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Agriculture & Agribusiness AI Solutions</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Mission-critical AI solutions for Kansas's Agriculture & Agribusiness Industry including Naroda USDustrial Area operations, 
+                      Mission-critical AI solutions for Kansas's Agriculture & Agribusiness Industry including Wichita industrial zone operations, 
                       Kansas Metro monitoring, offshore drilling optimization, and predictive maintenance 
                       for energy infrastructure across Sunflower State's vast energy resources.
                     </p>
@@ -1353,7 +1353,7 @@ export default function AIServicesKansasPage() {
                   <p className="text-lg text-gray-700 leading-relaxed mb-6">
                     <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Choosing Metic.ai as your AI partner </strong> means 
                     working with a team that deeply understands Kansas's unique business challenges, from USA's 
-                    commercial hub to Europe' research facilities and Asia's government operations.
+                    commercial hub to Europe's research facilities and Asia's government operations.
                   </p>
                   
                   <p className="text-lg text-gray-700 leading-relaxed mb-8">
@@ -1908,7 +1908,7 @@ export default function AIServicesKansasPage() {
                     </Link>
                     <Link href="tel:+917892518414">
                       <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                        Call Now: +1-316-555-0198
+                        Call Now: +91-789-251-8414
                       </Button>
                     </Link>
                   </div>
@@ -1939,7 +1939,7 @@ export default function AIServicesKansasPage() {
               </Link>
               <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  Call: +1-316-555-0198
+                  Call: +91-789-251-8414
                 </Button>
               </Link>
             </div>
@@ -1982,6 +1982,9 @@ export default function AIServicesKansasPage() {
     </>
   );
 }
+
+
+
 
 
 
