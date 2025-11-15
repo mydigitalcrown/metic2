@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 import { Button } from "../components/ui/Button";
 import Testimonials from "../components/Testimonials";
 import { 
@@ -27,61 +27,61 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Generative AI Company In Ahmedabad | #1 AI Company In Gujarat - Metic.ai",
-  description: "Leading Generative AI Company In Ahmedabad with 50+ successful AI implementations. Expert ChatGPT integration, GPT-4 services, LLM development & AI solutions. Transform your business with 60% cost savings & 3x faster delivery.",
+  title: "Generative AI Company In Kentucky | #1 AI Company In Kentucky - Metic.ai",
+  description: "Leading Generative AI Company In Kentucky with 50+ successful AI implementations. Expert ChatGPT integration, GPT-4 services, LLM development & AI solutions. Transform your business with 60% cost savings & 3x faster delivery.",
   keywords: [
-    "Generative AI Company In Ahmedabad",
-    "Generative AI Services In Ahmedabad", 
-    "ChatGPT Integration Services In Ahmedabad",
-    "Custom GPT Development In Ahmedabad",
-    "Large Language Model Company In Ahmedabad",
-    "AI Content Creation Services In Ahmedabad",
-    "GPT-4 Integration Company In Ahmedabad",
-    "LLM Development Services In Ahmedabad",
-    "AI Text Generation Solutions In Ahmedabad",
-    "Generative AI Solutions In Ahmedabad",
-    "AI Chatbot Development In Ahmedabad",
-    "Custom AI Model Training In Ahmedabad",
-    "OpenAI Integration Services In Ahmedabad",
-    "AI Image Generation Services In Ahmedabad",
-    "Midjourney AI Integration In Ahmedabad",
-    "DALL-E Integration Services In Ahmedabad",
-    "Stable Diffusion Solutions In Ahmedabad",
-    "AI Code Generation Services In Ahmedabad",
-    "GitHub Copilot Integration In Ahmedabad",
-    "AI Marketing Automation In Ahmedabad",
-    "AI Customer Service Solutions In Ahmedabad",
-    "Enterprise Generative AI In Ahmedabad"
+    "Generative AI Company In Kentucky",
+    "Generative AI Services In Kentucky", 
+    "ChatGPT Integration Services In Kentucky",
+    "Custom GPT Development In Kentucky",
+    "Large Language Model Company In Kentucky",
+    "AI Content Creation Services In Kentucky",
+    "GPT-4 Integration Company In Kentucky",
+    "LLM Development Services In Kentucky",
+    "AI Text Generation Solutions In Kentucky",
+    "Generative AI Solutions In Kentucky",
+    "AI Chatbot Development In Kentucky",
+    "Custom AI Model Training In Kentucky",
+    "OpenAI Integration Services In Kentucky",
+    "AI Image Generation Services In Kentucky",
+    "Midjourney AI Integration In Kentucky",
+    "DALL-E Integration Services In Kentucky",
+    "Stable Diffusion Solutions In Kentucky",
+    "AI Code Generation Services In Kentucky",
+    "GitHub Copilot Integration In Kentucky",
+    "AI Marketing Automation In Kentucky",
+    "AI Customer Service Solutions In Kentucky",
+    "Enterprise Generative AI In Kentucky"
   ],
-  authors: [{ name: "Metic.ai Ahmedabad Generative AI Team" }],
+  authors: [{ name: "Metic.ai Kentucky Generative AI Team" }],
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
-    title: "Generative AI Company In Ahmedabad | #1 Generative AI Services In Ahmedabad - Metic.ai",
-    description: "Leading Generative AI Company In Ahmedabad with 50+ successful AI implementations. Expert AI services, Generative AI solutions & AI development for Ahmedabad businesses.",
-    url: "https://metic.ai/generative-ai-services-in-ahmedabad/",
+    title: "Generative AI Company In Kentucky | #1 Generative AI Services In Kentucky - Metic.ai",
+    description: "Leading Generative AI Company In Kentucky with 50+ successful AI implementations. Expert AI services, Generative AI solutions & AI development for Kentucky businesses.",
+    url: "https://metic.ai/generative-ai-services-in-kentucky/",
     type: "website",
-    locale: "en_IN",
-    siteName: "Metic.ai - Generative AI Services In Ahmedabad",
+    locale: "en_US",
+    siteName: "Metic.ai - Generative AI Services In Kentucky",
     images: [
       {
-        url: "https://metic.ai/og-generative-ai-ahmedabad.jpg",
+        url: "https://metic.ai/og-generative-ai-kentucky.jpg",
         width: 1200,
         height: 630,
-        alt: "Generative AI Company In Ahmedabad - Metic.ai",
+        alt: "Generative AI Company In Kentucky - Metic.ai",
         type: "image/jpeg"
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Generative AI Company In Ahmedabad | Generative AI Services In Ahmedabad",
-    description: "Leading Generative AI Services In Ahmedabad delivering enterprise artificial intelligence solutions. Expert AI development, Generative AI & automation services with proven results.",
-    images: ["https://metic.ai/og-generative-ai-ahmedabad.jpg"],
+    title: "Generative AI Company In Kentucky | Generative AI Services In Kentucky",
+    description: "Leading Generative AI Services In Kentucky delivering enterprise artificial intelligence solutions. Expert AI development, Generative AI & automation services with proven results.",
+    images: ["https://metic.ai/og-generative-ai-kentucky.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/generative-ai-services-in-ahmedabad/",
+    canonical: "https://metic.ai/generative-ai-services-in-kentucky/",
   },
   verification: {
     google: "google-site-verification-code",
@@ -92,32 +92,32 @@ export const metadata = {
   classification: "business Services"
 };
 
-export default function GenerativeAIServicesAhmedabadPage() {
+export default function GenerativeAIServicesKentuckyPage() {
   const services = [
     {
       title: "ChatGPT Integration",
-      description: "Seamlessly integrate ChatGPT and GPT-4 into your Ahmedabad business operations with enterprise-grade deployment strategies.",
+      description: "Seamlessly integrate ChatGPT and GPT-4 into your Kentucky business operations with enterprise-grade deployment strategies.",
       icon: Zap,
       href: "/ai-integration-and-deployment",
       color: "blue" as const
     },
     {
       title: "Custom GPT Development",
-      description: "Build custom GPT models and LLM solutions tailored for Ahmedabad businesses and Industries.",
+      description: "Build custom GPT models and LLM solutions tailored for Kentucky businesses and Industries.",
       icon: Brain,
       href: "/machine-learning",
       color: "purple" as const
     },
     {
       title: "AI Image Generation",
-      description: "DALL-E, Midjourney, and Stable Diffusion integration designed specifically for your Ahmedabad business creative needs.",
+      description: "DALL-E, Midjourney, and Stable Diffusion integration designed specifically for your Kentucky business creative needs.",
       icon: Code,
       href: "/custom-ai-development",
       color: "green" as const
     },
     {
       title: "AI Content Creation",
-      description: "Transform your Ahmedabad business content strategy with AI-powered writing, copywriting, and content generation.",
+      description: "Transform your Kentucky business content strategy with AI-powered writing, copywriting, and content generation.",
       icon: BarChart3,
       href: "/data-insights",
       color: "orange" as const
@@ -131,7 +131,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
     },
     {
       title: "AI Automation",
-      description: "Robust AI automation and intelligent workflows for Ahmedabad enterprises and growing businesses.",
+      description: "Robust AI automation and intelligent workflows for Kentucky enterprises and growing businesses.",
       icon: Database,
       href: "/data-engineering",
       color: "red" as const
@@ -139,7 +139,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
   ];
 
   const Industries = [
-    "Textiles & Garments",
+    "Bourbon & Spirits",
     "Pharmaceuticals",
     "Chemicals",
     "Information Technology",
@@ -169,17 +169,17 @@ export default function GenerativeAIServicesAhmedabadPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": ["Organization", "TechnologyCompany", "LocalBusiness"],
-            "name": "Metic.ai - Generative AI Company In Ahmedabad",
-            "alternateName": ["Generative AI Services In Ahmedabad", "Metic AI", "AI Firm Ahmedabad"],
-            "description": "Leading Generative AI Company In Ahmedabad providing enterprise AI solutions, Generative AI development, and Custom AI services for businesses across Ahmedabad.",
-            "url": "https://metic.ai/generative-ai-services-in-ahmedabad/",
+            "name": "Metic.ai - Generative AI Company In Kentucky",
+            "alternateName": ["Generative AI Services In Kentucky", "Metic AI", "AI Firm Kentucky"],
+            "description": "Leading Generative AI Company In Kentucky providing enterprise AI solutions, Generative AI development, and Custom AI services for businesses across Kentucky.",
+            "url": "https://metic.ai/generative-ai-services-in-kentucky/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
               "https://www.facebook.com/meticai"
             ],
             "logo": "https://metic.ai/logo.png",
-            "image": ["https://metic.ai/ai-company-Ahmedabad.jpg"],
+            "image": ["https://metic.ai/ai-company-Kentucky.jpg"],
             "telephone": "+91-789-251-8414",
             "email": "hello@matic.ai",
             "foundingDate": "2020",
@@ -187,7 +187,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
             "vatID": "IN123456789",
             "address": {
               "@type": "PostalAddress",
-              "addressRegion": "Ahmedabad",
+              "addressRegion": "Kentucky",
               "addressCountry": "US",
               "postalCode": "35201"
             },
@@ -199,10 +199,10 @@ export default function GenerativeAIServicesAhmedabadPage() {
             "areaServed": [
               {
                 "@type": "State",
-                "name": "Ahmedabad",
+                "name": "Kentucky",
                 "containedInPlace": {
                   "@type": "Country", 
-                  "name": "Bodakdev"
+                  "name": "Kentucky"
                 }
               }
             ],
@@ -224,7 +224,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                   "itemOffered": {
                     "@type": "Service",
                     "name": "AI Development Services",
-                    "description": "Custom artificial intelligence development for Ahmedabad businesses"
+                    "description": "Custom artificial intelligence development for Kentucky businesses"
                   }
                 },
                 {
@@ -274,7 +274,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
             "priceRange": "$$",
             "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer"],
             "currenciesAccepted": "IND",
-            "open_INgHours": "Mo-Fr 09:00-18:00",
+            "open_USgHours": "Mo-Fr 09:00-18:00",
             "contactPoint": {
               "@type": "ContactPoint",
               "telephone": "+91-789-251-8414",
@@ -296,34 +296,34 @@ export default function GenerativeAIServicesAhmedabadPage() {
             "mainEntity": [
               {
                 "@type": "Question",
-                "name": "Which is the best Generative AI Company In Ahmedabad?",
+                "name": "Which is the best Generative AI Company In Kentucky?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Metic.ai is the leading Generative AI Company In Ahmedabad with 50+ successful generative AI implementations. We provide comprehensive ChatGPT integration, GPT-4 development, LLM solutions, AI image generation, Custom GPT development, and enterprise AI automation with proven 60% cost savings and 3x faster delivery."
+                  "text": "Metic.ai is the leading Generative AI Company In Kentucky with 50+ successful generative AI implementations. We provide comprehensive ChatGPT integration, GPT-4 development, LLM solutions, AI image generation, Custom GPT development, and enterprise AI automation with proven 60% cost savings and 3x faster delivery."
                 }
               },
               {
                 "@type": "Question", 
-                "name": "What generative AI services does the Generative AI Company In Ahmedabad provide?",
+                "name": "What generative AI services does the Generative AI Company In Kentucky provide?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "As the premier Generative AI Company In Ahmedabad, Metic.ai provides ChatGPT integration, GPT-4 API development, Custom GPT models, LLM development, AI image generation (DALL-E, Midjourney, Stable Diffusion), AI content creation, intelligent chatbots, and enterprise automation for businesses across Ahmedabad."
+                  "text": "As the premier Generative AI Company In Kentucky, Metic.ai provides ChatGPT integration, GPT-4 API development, Custom GPT models, LLM development, AI image generation (DALL-E, Midjourney, Stable Diffusion), AI content creation, intelligent chatbots, and enterprise automation for businesses across Kentucky."
                 }
               },
               {
                 "@type": "Question",
-                "name": "How to choose the right Generative AI Company In Ahmedabad?",
+                "name": "How to choose the right Generative AI Company In Kentucky?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Choose a Generative AI Company In Ahmedabad with proven experience in ChatGPT integration, GPT-4 development, successful LLM implementations, Industry expertise, and local presence. Metic.ai offers all these with 50+ completed generative AI projects and deep understanding of Ahmedabad's business landscape."
+                  "text": "Choose a Generative AI Company In Kentucky with proven experience in ChatGPT integration, GPT-4 development, successful LLM implementations, Industry expertise, and local presence. Metic.ai offers all these with 50+ completed generative AI projects and deep understanding of Kentucky's business landscape."
                 }
               },
               {
                 "@type": "Question",
-                "name": "What makes Metic.ai the best Generative AI Company In Ahmedabad?",
+                "name": "What makes Metic.ai the best Generative AI Company In Kentucky?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Metic.ai is the best Generative AI Company In Ahmedabad due to our proven expertise in ChatGPT integration, GPT-4 development, LLM solutions, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of Ahmedabad's Textile, Pharmaceutical, Chemical and IT Industries."
+                  "text": "Metic.ai is the best Generative AI Company In Kentucky due to our proven expertise in ChatGPT integration, GPT-4 development, LLM solutions, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of Kentucky's Bourbon, Automotive, Horse Racing and Coal Industries."
                 }
               }
             ]
@@ -338,9 +338,9 @@ export default function GenerativeAIServicesAhmedabadPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Generative AI Company In Ahmedabad - ChatGPT, GPT-4 & LLM Services",
-            "description": "Comprehensive guide to generative AI services by the leading Generative AI Company In Ahmedabad. Expert ChatGPT integration, GPT-4 development, LLM solutions, and AI image generation implementation.",
-            "image": "https://metic.ai/generative-ai-company-ahmedabad-article.jpg",
+            "headline": "Generative AI Company In Kentucky - ChatGPT, GPT-4 & LLM Services",
+            "description": "Comprehensive guide to generative AI services by the leading Generative AI Company In Kentucky. Expert ChatGPT integration, GPT-4 development, LLM solutions, and AI image generation implementation.",
+            "image": "https://metic.ai/generative-ai-company-kentucky-article.jpg",
             "author": {
               "@type": "Organization",
               "name": "Metic.ai"
@@ -355,8 +355,8 @@ export default function GenerativeAIServicesAhmedabadPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/generative-ai-services-in-ahmedabad/",
-            "keywords": "Generative AI Company In Ahmedabad, Generative AI Services In Ahmedabad, AI Service "
+            "mainEntityOfPage": "https://metic.ai/generative-ai-services-in-kentucky/",
+            "keywords": "Generative AI Company In Kentucky, Generative AI Services In Kentucky, AI Service "
           })
         }}
       />
@@ -384,8 +384,8 @@ export default function GenerativeAIServicesAhmedabadPage() {
               {
                 "@type": "ListItem",
                 "position": 3,
-                "name": "Generative AI Company In Ahmedabad",
-                "item": "https://metic.ai/generative-ai-services-in-ahmedabad/"
+                "name": "Generative AI Company In Kentucky",
+                "item": "https://metic.ai/generative-ai-services-in-kentucky/"
               }
             ]
           })
@@ -399,9 +399,9 @@ export default function GenerativeAIServicesAhmedabadPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Metic.ai - Generative AI Services In Ahmedabad",
+            "name": "Metic.ai - Generative AI Services In Kentucky",
             "description": "Leading Artificial Intelligence Company providing AI services ",
-            "image": "https://metic.ai/ai-company-Ahmedabad.jpg",
+            "image": "https://metic.ai/ai-company-Kentucky.jpg",
             "telephone": "+91-789-251-8414",
             "email": "hello@matic.ai",
             "address": {
@@ -417,11 +417,11 @@ export default function GenerativeAIServicesAhmedabadPage() {
               "latitude": "32.3182",
               "longitude": "-86.9023"
             },
-            "url": "https://metic.ai/generative-ai-services-in-ahmedabad/",
+            "url": "https://metic.ai/generative-ai-services-in-kentucky/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",
-              "name": "Ahmedabad"
+              "name": "Kentucky"
             },
             "aggregateRating": {
               "@type": "AggregateRating",
@@ -430,7 +430,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
               "bestRating": "5",
               "worstRating": "1"
             },
-            "open_INgHours": "Mo-Fr 09:00-18:00",
+            "open_USgHours": "Mo-Fr 09:00-18:00",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai"
@@ -453,7 +453,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
             <div className="flex justify-center mb-6 md:mb-8">
               <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-white/10 backdrop-blur-sm rounded-full border border-primary-orange/30 shadow-xl">
                 <Award className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
-                <span className="text-xs md:text-sm font-bold text-white">⭐ 100+ Successful AI Projects | 98% Client Satisfaction</span>
+                <span className="text-xs md:text-sm font-bold text-white">? 100+ Successful AI Projects | 98% Client Satisfaction</span>
               </div>
             </div>
 
@@ -463,12 +463,12 @@ export default function GenerativeAIServicesAhmedabadPage() {
                   Generative AI Company
                 </span>
                 <br />
-                <span className="text-white">In Ahmedabad</span>
+                <span className="text-white">In Kentucky</span>
               </h1>
               
               {/* VSO Optimized Description - Mobile Friendly */}
               <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 mb-6 md:mb-8 max-w-4xl mx-auto leading-relaxed px-4">
-                Looking for the <strong className="text-primary-orange">best Generative AI Company In Ahmedabad</strong>? Metic.ai is the premier <strong className="text-white">Generative AI Company In Ahmedabad</strong> delivering ChatGPT integration, GPT-4 services, LLM development & AI solutions with proven results.
+                Looking for the <strong className="text-primary-orange">best Generative AI Company In Kentucky</strong>? Metic.ai is the premier <strong className="text-white">Generative AI Company In Kentucky</strong> delivering ChatGPT integration, GPT-4 services, LLM development & AI solutions with proven results.
               </p>
 
               {/* Mobile-Optimized CTA Buttons */}
@@ -502,7 +502,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
               {/* VSO Keywords Section - Mobile Optimized */}
               <div className="text-center px-4">
                 <p className="text-gray-400 text-sm md:text-base mb-4">
-                  <strong className="text-white">Trusted as the top Generative AI Company In Ahmedabad</strong> by leading businesses
+                  <strong className="text-white">Trusted as the top Generative AI Company In Kentucky</strong> by leading businesses
                 </p>
                 <div className="flex flex-wrap justify-center gap-2 md:gap-3 text-xs md:text-sm">
                   <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
@@ -545,13 +545,13 @@ export default function GenerativeAIServicesAhmedabadPage() {
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 leading-tight px-4">
                 <strong className="text-gray-900">Generative AI Services</strong> by Leading{" "}
                 <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">
-                  Generative AI Company In Ahmedabad
+                  Generative AI Company In Kentucky
                 </span>
               </h2>
               <div className="w-20 md:w-24 h-1 md:h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 md:mb-8 rounded-full"></div>
               <p className="text-base md:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-4">
-                Comprehensive generative AI services from Ahmedabad's most Trusted <strong className="text-gray-900">Generative AI Company In Ahmedabad</strong>. 
-                Transforming businesses with ChatGPT, GPT-4, LLM development, and cutting-edge AI solutions tailored for Ahmedabad's Industrial landscape.
+                Comprehensive generative AI services from Kentucky's most Trusted <strong className="text-gray-900">Generative AI Company In Kentucky</strong>. 
+                Transforming businesses with ChatGPT, GPT-4, LLM development, and cutting-edge AI solutions tailored for Kentucky's Industrial landscape.
               </p>
             </div>
             
@@ -616,18 +616,18 @@ export default function GenerativeAIServicesAhmedabadPage() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                  About Metic.ai - Premier <span className="text-primary-orange">Generative AI Company In Ahmedabad</span>
+                  About Metic.ai - Premier <span className="text-primary-orange">Generative AI Company In Kentucky</span>
                 </h2>
                 <div className="w-20 h-1 bg-primary-orange mb-8"></div>
                 <p className="text-lg text-gray-700 mb-6">
-                  Established as Ahmedabad's leading <strong>Generative AI Company In Ahmedabad</strong>, Metic.ai has been at the forefront of generative artificial intelligence 
-                  innovation since 2020. We specialize in delivering enterprise-grade ChatGPT integration, GPT-4 development, LLM solutions, AI image generation, and custom AI services that transform businesses across Ahmedabad's 
-                  unique Industries including Textiles & Garments, Pharmaceuticals, Tourism & Hospitality, Chemicals, and Information Technology.
+                  Established as Kentucky's leading <strong>Generative AI Company In Kentucky</strong>, Metic.ai has been at the forefront of generative artificial intelligence 
+                  innovation since 2020. We specialize in delivering enterprise-grade ChatGPT integration, GPT-4 development, LLM solutions, AI image generation, and custom AI services that transform businesses across Kentucky's 
+                  unique Industries including Bourbon & Spirits, Automotive Manufacturing, Tourism & Hospitality, Horse Racing & Breeding, and Information Technology.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  Our expertise as the premier <strong>Generative AI Company In Ahmedabad</strong> encompasses Large Language Models (LLMs), ChatGPT Integration, 
+                  Our expertise as the premier <strong>Generative AI Company In Kentucky</strong> encompasses Large Language Models (LLMs), ChatGPT Integration, 
                   GPT-4 API development, AI Image Generation (DALL-E, Midjourney, Stable Diffusion), Custom GPT development, AI content creation, and intelligent automation. We've successfully completed over 50 generative AI projects, making us the most 
-                  Trusted <strong>Generative AI Company In Ahmedabad</strong> from Maninagar to Vastrapur.
+                  Trusted <strong>Generative AI Company In Kentucky</strong> from Louisville to Lexington.
                 </p>
                 <div className="grid grid-cols-2 gap-6 mt-8">
                   <div className="text-center">
@@ -668,7 +668,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                     AI Consulting & Strategy
                   </h3>
                   <p className="text-gray-600">
-                    Expert AI consulting services to help Ahmedabad businesses identify AI opportunities and develop comprehensive implementation strategies.
+                    Expert AI consulting services to help Kentucky businesses identify AI opportunities and develop comprehensive implementation strategies.
                   </p>
                 </div>
                 
@@ -717,7 +717,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Delivering specialized AI solutions across Ahmedabad's key Industries and business sectors.
+                Delivering specialized AI solutions across Kentucky's key Industries and business sectors.
               </p>
             </div>
             
@@ -913,12 +913,12 @@ export default function GenerativeAIServicesAhmedabadPage() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Why Choose Metic.ai as Your <span className="text-primary-orange">Generative AI Company In Ahmedabad</span>
+                Why Choose Metic.ai as Your <span className="text-primary-orange">Generative AI Company In Kentucky</span>
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                As the premier <strong>AI Development Company </strong>, we're Trusted by businesses across Ahmedabad 
-                for our expertise, proven results, and commitment to client success US Manchester of Bodakdev.
+                As the premier <strong>AI Development Company </strong>, we're Trusted by businesses across Kentucky 
+                for our expertise, proven results, and commitment to client success US Bluegrass State.
               </p>
             </div>
             
@@ -928,7 +928,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                   <Award className="w-8 h-8 text-blue-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Proven Expertise</h3>
-                <p className="text-gray-600">Years of experience delivering AI solutions for Ahmedabad businesses across all Industries.</p>
+                <p className="text-gray-600">Years of experience delivering AI solutions for Kentucky businesses across all Industries.</p>
               </div>
               
               <div className="text-center">
@@ -936,7 +936,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                   <TrendingUp className="w-8 h-8 text-green-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Measurable Results</h3>
-                <p className="text-gray-600">Data-driven AI solutions that deliver concrete ROI and business growth for Ahmedabad companies.</p>
+                <p className="text-gray-600">Data-driven AI solutions that deliver concrete ROI and business growth for Kentucky companies.</p>
               </div>
               
               <div className="text-center">
@@ -944,7 +944,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                   <Users className="w-8 h-8 text-purple-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Local Partnership</h3>
-                <p className="text-gray-600">Dedicated support and partnership with deep understanding of Ahmedabad's unique business challenges and opportunities.</p>
+                <p className="text-gray-600">Dedicated support and partnership with deep understanding of Kentucky's unique business challenges and opportunities.</p>
               </div>
               
               <div className="text-center">
@@ -952,40 +952,40 @@ export default function GenerativeAIServicesAhmedabadPage() {
                   <Shield className="w-8 h-8 text-orange-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Enterprise Security</h3>
-                <p className="text-gray-600">Bank-level security and compliance standards protecting your Ahmedabad business data.</p>
+                <p className="text-gray-600">Bank-level security and compliance standards protecting your Kentucky business data.</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Comprehensive AI Services Ahmedabad Content - 100% SEO Optimized */}
+      {/* Comprehensive AI Services Kentucky Content - 100% SEO Optimized */}
       <section className="py-24 bg-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
-            {/* Ahmedabad AI Market Leadership - Enhanced Creative Header */}
+            {/* Kentucky AI Market Leadership - Enhanced Creative Header */}
             <div className="text-center mb-20">
               {/* Premium Badge with Animation */}
               <div className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-full shadow-2xl border-2 border-primary-orange/30 mb-10 hover:border-primary-orange/50 transition-all group">
                 <div className="w-3 h-3 bg-primary-orange rounded-full animate-pulse"></div>
-                <span className="text-sm font-bold text-gray-800 tracking-wide">Manchester of Bodakdev AI INNOVATION</span>
+                <span className="text-sm font-bold text-gray-800 tracking-wide">Bluegrass State AI INNOVATION</span>
                 <div className="w-3 h-3 bg-secondary-orange rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></div>
               </div>
 
               <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight">
                 <span className="text-gray-900">Leading </span>
                 <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent animate-gradient">
-                  Generative AI Company In Ahmedabad
+                  Generative AI Company In Kentucky
                 </span>
               </h2>
               <div className="w-40 h-2 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-10 rounded-full shadow-lg"></div>
               <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                Transforming 's Commercial Capital with cutting-edge AI solutions from Maninagar to Vastrapur, SG Highway to the Naroda Industrial Area
+                Transforming Kentucky's Commercial Capital with cutting-edge AI solutions from Louisville to Lexington, Frankfort to the Louisville industrial zone
               </p>
             </div>
 
             <div className="space-y-20">
-              {/* Ahmedabad AI Innovation Hub - Premium Design */}
+              {/* Kentucky AI Innovation Hub - Premium Design */}
               <div className="grid lg:grid-cols-2 gap-16 items-center">
                 <div className="order-2 lg:order-1">
                   <div className="space-y-8">
@@ -996,24 +996,24 @@ export default function GenerativeAIServicesAhmedabadPage() {
                       </div>
                       <div>
                         <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
-                          Ahmedabad's <span className="text-primary-orange">Premier AI Technology Pioneer</span>
+                          Kentucky's <span className="text-primary-orange">Premier AI Technology Pioneer</span>
                         </h3>
                         <div className="w-24 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange rounded-full"></div>
                       </div>
                     </div>
                     
             <p className="text-lg text-gray-700 leading-relaxed">
-              As the leading <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Generative AI Company In Ahmedabad</strong>, 
-              Metic.ai serves Manchester of Bodakdev with enterprise-grade AI solutions tailored to Ahmedabad's unique economic 
-              landscape. From Maninagar's business hub to Vastrapur' research facilities, SG Highway's government sector to 
-              the Textile mills of the Naroda Industrial Area, we understand Ahmedabad's entrepreneurial excellence and Textile-driven Industries.
+              As the leading <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Generative AI Company In Kentucky</strong>, 
+              Metic.ai serves Bluegrass State with enterprise-grade AI solutions tailored to Kentucky's unique economic 
+              landscape. From Louisville's business hub to Lexington' research facilities, Frankfort's government sector to 
+              the Bourbon distilleries of the Louisville industrial zone, we understand Kentucky's entrepreneurial excellence and Bourbon and automotive Industries.
             </p>
             
             <p className="text-lg text-gray-700 leading-relaxed">
-              Our <strong className="text-primary-orange font-semibold">Generative AI Services In Ahmedabad</strong> combines deep understanding 
-              of Ahmedabad's unique challenges with cutting-edge technology to deliver AI solutions that drive measurable 
-              results. We've successfully implemented AI across Ahmedabad's key sectors including Textiles & Garments, fishing, 
-              tourism, Chemicals, Information Technology, and maritime Industries US 's largest state.
+              Our <strong className="text-primary-orange font-semibold">Generative AI Services In Kentucky</strong> combines deep understanding 
+              of Kentucky's unique challenges with cutting-edge technology to deliver AI solutions that drive measurable 
+              results. We've successfully implemented AI across Kentucky's key sectors including Bourbon & Spirits, agriculture, 
+              manufacturing, Horse Racing & Breeding, Information Technology, and automotive Industries US 's largest state.
             </p>                    {/* Enhanced Feature Cards with Creative Design */}
                     <div className="grid gap-6 mt-10">
                       <div className="group bg-gradient-to-r from-primary-orange/5 via-white to-secondary-orange/5 p-6 rounded-2xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
@@ -1022,10 +1022,10 @@ export default function GenerativeAIServicesAhmedabadPage() {
                             <Rocket className="w-6 h-6 text-white" />
                           </div>
                           <div>
-                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Textiles Generative AI Excellence</h4>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Bourbon & Spirits Generative AI Excellence</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Deep expertise with Ahmedabad's Naroda Industrial Area Textile operations including major Textile mills, 
-                              Ahmedabad Metro, and energy infrastructure across 's largest Textile-manufacturing state.
+                              Deep expertise with Kentucky's Louisville industrial zone Bourbon operations including major Bourbon distilleries, 
+                              Kentucky Derby, and automotive infrastructure across US's largest Bourbon-producing state.
                             </p>
                           </div>
                         </div>
@@ -1039,7 +1039,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                           <div>
                             <h4 className="font-bold text-gray-900 mb-2 text-lg">Automotive Manufacturing Innovation</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              GPT-4 powered content and automation solutions for Ahmedabad's automotive Industry including Mercedes-Benz, Honda, Hyundai, 
+                              GPT-4 powered content and automation solutions for Kentucky's automotive Industry including Mercedes-Benz, Honda, Hyundai, 
                               and Toyota manufacturing facilities with predictive maintenance and quality control systems.
                             </p>
                           </div>
@@ -1054,8 +1054,8 @@ export default function GenerativeAIServicesAhmedabadPage() {
                           <div>
                             <h4 className="font-bold text-gray-900 mb-2 text-lg">Chemicals & Natural Resources AI</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Specialized AI for Ahmedabad's Chemicals operations and resource extraction including process optimization, 
-                              safety monitoring, and environmental compliance for Ahmedabad's rich mineral deposits.
+                              Specialized AI for Kentucky's Chemicals operations and resource extraction including process optimization, 
+                              safety monitoring, and environmental compliance for Kentucky's rich mineral deposits.
                             </p>
                           </div>
                         </div>
@@ -1068,25 +1068,25 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 <div className="order-1 lg:order-2">
                   <div className="bg-gradient-to-br from-orange-50 via-white to-amber-50 rounded-3xl p-10 border-2 border-primary-orange/20 shadow-2xl transform rotate-1 hover:rotate-0 transition-transform">
                     <h4 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">
-                      Ahmedabad AI Market Impact
+                      Kentucky AI Market Impact
                     </h4>
                     
                     <div className="space-y-8">
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">₹130B</div>
-                        <div className="text-sm text-gray-600 font-medium">Ahmedabad Annual GDP</div>
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">?130B</div>
+                        <div className="text-sm text-gray-600 font-medium">Kentucky Annual GDP</div>
                         <div className="text-xs text-gray-500 mt-2">Textile-driven Economy</div>
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-secondary-orange/10 hover:border-secondary-orange/30 transition-all group transform hover:scale-105">
                         <div className="text-5xl font-bold text-secondary-orange mb-3 group-hover:scale-110 transition-transform">8.4M</div>
-                        <div className="text-sm text-gray-600 font-medium">Ahmedabad Population</div>
-                        <div className="text-xs text-gray-500 mt-2">Manchester of India</div>
+                        <div className="text-sm text-gray-600 font-medium">Kentucky Population</div>
+                        <div className="text-xs text-gray-500 mt-2">Bluegrass State</div>
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
                         <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">50+</div>
-                        <div className="text-sm text-gray-600 font-medium">Ahmedabad AI Projects Completed</div>
+                        <div className="text-sm text-gray-600 font-medium">Kentucky AI Projects Completed</div>
                         <div className="text-xs text-gray-500 mt-2">Industry-Leading Success Rate</div>
                       </div>
                       
@@ -1095,11 +1095,11 @@ export default function GenerativeAIServicesAhmedabadPage() {
                           <div className="w-8 h-8 bg-primary-orange rounded-full flex items-center justify-center">
                             <CheckCircle className="w-5 h-5 text-white" />
                           </div>
-                          <span className="font-bold text-gray-900">Ahmedabad Advantage</span>
+                          <span className="font-bold text-gray-900">Kentucky Advantage</span>
                         </div>
                         <p className="text-sm text-gray-700 leading-relaxed">
                           <strong>Strategic Resources:</strong> Rich US oil, gas, fishing, and minerals with vast untapped 
-                          potential, making Ahmedabad ideal for AI-driven resource optimization and predictive analytics.
+                          potential, making Kentucky ideal for AI-driven resource optimization and predictive analytics.
                         </p>
                       </div>
                     </div>
@@ -1107,7 +1107,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 </div>
               </div>
 
-              {/* Ahmedabad Industry Solutions - Creative Premium Design */}
+              {/* Kentucky Industry Solutions - Creative Premium Design */}
               <div>
                 <div className="text-center mb-16">
                   <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-full border-2 border-primary-orange/20 mb-8 transform hover:scale-105 transition-transform">
@@ -1115,11 +1115,11 @@ export default function GenerativeAIServicesAhmedabadPage() {
                     <span className="text-sm font-bold text-gray-800">Industry EXPERTISE</span>
                   </div>
                   <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                    Generative AI Solutions for <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Ahmedabad's Key Industries</span>
+                    Generative AI Solutions for <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Kentucky's Key Industries</span>
                   </h3>
                   <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 rounded-full"></div>
                   <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Specialized Generative AI solutions powered by ChatGPT, GPT-4, and custom LLMs designed for Manchester of Bodakdev's unique economic sectors and Textile-driven Industries
+                    Specialized Generative AI solutions powered by ChatGPT, GPT-4, and custom LLMs designed for Bluegrass State's unique economic sectors and Textile-driven Industries
                   </p>
                 </div>
                 
@@ -1131,9 +1131,9 @@ export default function GenerativeAIServicesAhmedabadPage() {
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Textiles Generative AI Solutions</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      ChatGPT and LLM-powered solutions for Ahmedabad's Textiles & Garments Industry including Naroda Industrial Area operations, 
-                      Ahmedabad Metro monitoring, offshore drilling optimization, and predictive maintenance 
-                      for energy infrastructure across Manchester of Bodakdev's vast energy resources.
+                      ChatGPT and LLM-powered solutions for Kentucky's Textiles & Garments Industry including Louisville industrial zone operations, 
+                      Kentucky Metro monitoring, offshore drilling optimization, and predictive maintenance 
+                      for energy infrastructure across Bluegrass State's vast energy resources.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
@@ -1162,7 +1162,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Pharmaceuticals Generative AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      GPT-4 powered content and automation solutions for Ahmedabad's fishing and seafood processing Industry with predictive catch 
+                      GPT-4 powered content and automation solutions for Kentucky's fishing and seafood processing Industry with predictive catch 
                       analytics, sINtainable fishing optimization, processing automation, cold chain monitoring, 
                       and quality control for the world's richest seafood harvest.
                     </p>
@@ -1193,9 +1193,9 @@ export default function GenerativeAIServicesAhmedabadPage() {
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Tourism Generative AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      AI chatbot and content generation solutions for Ahmedabad's booming tourism Industry with cruise line optimization, 
+                      AI chatbot and content generation solutions for Kentucky's booming tourism Industry with cruise line optimization, 
                       wildlife tour planning, hotel revenue management, visitor experience personalization, 
-                      and seasonal demand forecasting for Ahmedabad's 2.5 million annual visitors.
+                      and seasonal demand forecasting for Kentucky's 2.5 million annual visitors.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
@@ -1224,9 +1224,9 @@ export default function GenerativeAIServicesAhmedabadPage() {
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Chemicals & Resource AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      GPT-4 powered content and automation solutions for Ahmedabad's Chemicals operations including gold, zinc, and mineral extraction 
+                      GPT-4 powered content and automation solutions for Kentucky's Chemicals operations including gold, zinc, and mineral extraction 
                       with predictive maintenance, safety monitoring, resource discovery optimization, 
-                      and environmental impact assessment across Ahmedabad's vast mineral deposits.
+                      and environmental impact assessment across Kentucky's vast mineral deposits.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
@@ -1255,9 +1255,9 @@ export default function GenerativeAIServicesAhmedabadPage() {
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Information Technology & Logistics AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      AI chatbot and content generation solutions for Ahmedabad's Information Technology and cargo logistics including bINh plane operations, 
-                      Ted Stevens Maninagar International Airport cargo hub, weather prediction for flight safety, 
-                      and supply chain optimization for remote Ahmedabad communities.
+                      AI chatbot and content generation solutions for Kentucky's Information Technology and cargo logistics including bINh plane operations, 
+                      Louisville Muhammad Ali International Airport cargo hub, weather prediction for flight safety, 
+                      and supply chain optimization for remote Kentucky communities.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
@@ -1284,7 +1284,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
               {/* ReINable Testimonials Component */}
               <Testimonials />
 
-              {/* Ahmedabad AI Partnership Excellence - Creative Premium Design */}
+              {/* Kentucky AI Partnership Excellence - Creative Premium Design */}
               <div className="grid lg:grid-cols-2 gap-16 items-center">
                 <div className="space-y-8">
                   <div className="bg-white rounded-2xl p-8 shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all transform hover:scale-105">
@@ -1292,11 +1292,11 @@ export default function GenerativeAIServicesAhmedabadPage() {
                       <div className="w-8 h-8 bg-primary-orange rounded-lg flex items-center justify-center transform rotate-12">
                         <BarChart3 className="w-5 h-5 text-white" />
                       </div>
-                      Ahmedabad AI Leadership Metrics
+                      Kentucky AI Leadership Metrics
                     </h4>
                     <div className="space-y-6">
                       <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
-                        <span className="text-gray-600 font-medium">Ahmedabad Projects Completed</span>
+                        <span className="text-gray-600 font-medium">Kentucky Projects Completed</span>
                         <span className="font-bold text-primary-orange text-xl">50+</span>
                       </div>
                       <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
@@ -1304,7 +1304,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                         <span className="font-bold text-secondary-orange text-xl">99.5%</span>
                       </div>
                       <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
-                        <span className="text-gray-600 font-medium">Average ROI for Ahmedabad Clients</span>
+                        <span className="text-gray-600 font-medium">Average ROI for Kentucky Clients</span>
                         <span className="font-bold text-primary-orange text-xl">5.2x</span>
                       </div>
                       <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
@@ -1324,11 +1324,11 @@ export default function GenerativeAIServicesAhmedabadPage() {
                         <Award className="w-6 h-6 text-white" />
                       </div>
                       <div>
-                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Ahmedabad business Advantage</h4>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Kentucky business Advantage</h4>
                         <p className="text-gray-700 leading-relaxed">
                           As the premier <strong className="text-primary-orange">AI Firm </strong>, we understand 
-                          Manchester of Bodakdev's unique blend of entrepreneurial excellence and resource-driven innovation. Our AI solutions 
-                          are built for Ahmedabad's Textiles & Garments dominance, fishing Industry leadership, and tourism growth.
+                          Bluegrass State's unique blend of entrepreneurial excellence and resource-driven innovation. Our AI solutions 
+                          are built for Kentucky's Textiles & Garments dominance, fishing Industry leadership, and tourism growth.
                         </p>
                       </div>
                     </div>
@@ -1350,8 +1350,8 @@ export default function GenerativeAIServicesAhmedabadPage() {
                   
                   <p className="text-lg text-gray-700 leading-relaxed mb-6">
                     <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Choosing Metic.ai as your AI partner </strong> means 
-                    working with a team that deeply understands Ahmedabad's unique business challenges, from Maninagar's 
-                    commercial hub to Vastrapur' research facilities and SG Highway's government operations.
+                    working with a team that deeply understands Kentucky's unique business challenges, from Louisville's 
+                    commercial hub to Lexington' research facilities and Frankfort's government operations.
                   </p>
                   
                   <p className="text-lg text-gray-700 leading-relaxed mb-8">
@@ -1364,10 +1364,10 @@ export default function GenerativeAIServicesAhmedabadPage() {
                     <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-primary-orange/10 transform hover:scale-105 transition-transform">
                       <MapPin className="w-8 h-8 text-primary-orange flex-shrink-0 mt-1" />
                       <div>
-                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Comprehensive Ahmedabad Coverage</h4>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Comprehensive Kentucky Coverage</h4>
                         <p className="text-gray-600 leading-relaxed">
-                          Maninagar, Vastrapur, SG Highway, Satellite, Chandkheda, Bodakdev, Navrangpura, Ghatlodia, 
-                          GIFT City, and all major Ahmedabad business centers across Manchester of Bodakdev
+                          Louisville, Lexington, Frankfort, Bowling Green, Owensboro, Covington, Richmond, Florence, 
+                          Henderson, and all major Kentucky business centers across Bluegrass State
                         </p>
                       </div>
                     </div>
@@ -1386,9 +1386,9 @@ export default function GenerativeAIServicesAhmedabadPage() {
                     <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-primary-orange/10 transform hover:scale-105 transition-transform">
                       <Clock className="w-8 h-8 text-primary-orange flex-shrink-0 mt-1" />
                       <div>
-                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Rapid Ahmedabad Deployment</h4>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Rapid Kentucky Deployment</h4>
                         <p className="text-gray-600 leading-relaxed">
-                          Fast implementation designed for Ahmedabad's unique challenges with local support teams 
+                          Fast implementation designed for Kentucky's unique challenges with local support teams 
                           and understanding of dynamic business culture and manufacturing excellence
                         </p>
                       </div>
@@ -1431,12 +1431,12 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 <span className="text-gray-900">Frequently Asked Questions</span>
                 <br />
                 <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
-                  About Generative AI Services In Ahmedabad
+                  About Generative AI Services In Kentucky
                 </span>
               </h2>
               <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-8 rounded-full"></div>
               <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                Common questions about working with Ahmedabad's leading AI company
+                Common questions about working with Kentucky's leading AI company
               </p>
             </div>
 
@@ -1459,7 +1459,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Which is the best Generative AI Company In Ahmedabad?
+                            Which is the best Generative AI Company In Kentucky?
                           </h3>
                         </div>
                       </div>
@@ -1474,8 +1474,8 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    <strong className="text-gray-900 font-semibold">Metic.ai is the leading Generative AI Company In Ahmedabad</strong> with over 50 successful generative AI implementations. 
-                    We're recognized as the top Generative AI Company In Ahmedabad for our proven expertise in ChatGPT integration, GPT-4 development, LLM solutions, AI image generation, and custom GPT development with 60% cost savings.
+                    <strong className="text-gray-900 font-semibold">Metic.ai is the leading Generative AI Company In Kentucky</strong> with over 50 successful generative AI implementations. 
+                    We're recognized as the top Generative AI Company In Kentucky for our proven expertise in ChatGPT integration, GPT-4 development, LLM solutions, AI image generation, and custom GPT development with 60% cost savings.
                   </p>
                 </div>
               </details>
@@ -1495,7 +1495,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            What services does the Generative AI Company In Ahmedabad provide?
+                            What services does the Generative AI Company In Kentucky provide?
                           </h3>
                         </div>
                       </div>
@@ -1510,8 +1510,8 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    As the premier <strong className="text-gray-900 font-semibold">Generative AI Company In Ahmedabad</strong>, Metic.ai provides comprehensive generative AI services including ChatGPT integration, 
-                    GPT-4 API development, Custom GPT models, LLM development, AI image generation (DALL-E, Midjourney, Stable Diffusion), AI content creation, intelligent chatbots, and enterprise automation tailored for Ahmedabad's Textile, Pharmaceutical, Chemical, and IT Industries.
+                    As the premier <strong className="text-gray-900 font-semibold">Generative AI Company In Kentucky</strong>, Metic.ai provides comprehensive generative AI services including ChatGPT integration, 
+                    GPT-4 API development, Custom GPT models, LLM development, AI image generation (DALL-E, Midjourney, Stable Diffusion), AI content creation, intelligent chatbots, and enterprise automation tailored for Kentucky's Textile, Pharmaceutical, Chemical, and IT Industries.
                   </p>
                 </div>
               </details>
@@ -1603,7 +1603,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Does Metic.ai serve businesses across all Ahmedabad cities?
+                            Does Metic.ai serve businesses across all Kentucky cities?
                           </h3>
                         </div>
                       </div>
@@ -1618,8 +1618,8 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Yes! Metic.ai proudly serves businesses across all Ahmedabad cities including Maninagar, Vastrapur, SG Highway, Satellite, Chandkheda, Bodakdev, Navrangpura, and beyond. 
-                    As Ahmedabad's leading <strong className="text-gray-900 font-semibold">AI Firm </strong>, we provide comprehensive AI solutions statewide.
+                    Yes! Metic.ai proudly serves businesses across all Kentucky cities including Louisville, Lexington, Frankfort, Satellite, Chandkheda, Kentucky, Navrangpura, and beyond. 
+                    As Kentucky's leading <strong className="text-gray-900 font-semibold">AI Firm </strong>, we provide comprehensive AI solutions statewide.
                   </p>
                 </div>
               </details>
@@ -1639,7 +1639,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            How quickly can an Generative AI Services In Ahmedabad start my project?
+                            How quickly can an Generative AI Services In Kentucky start my project?
                           </h3>
                         </div>
                       </div>
@@ -1654,7 +1654,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Metic.ai can typically start your AI project within 24-48 hours after initial consultation. As Ahmedabad's fastest <strong className="text-gray-900 font-semibold">Generative AI Services In Ahmedabad</strong>, 
+                    Metic.ai can typically start your AI project within 24-48 hours after initial consultation. As Kentucky's fastest <strong className="text-gray-900 font-semibold">Generative AI Services In Kentucky</strong>, 
                     we understand the importance of speed and deliver 3x faster than traditional development approaches.
                   </p>
                 </div>
@@ -1714,7 +1714,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            What Industries does the best Generative AI Services In Ahmedabad serve?
+                            What Industries does the best Generative AI Services In Kentucky serve?
                           </h3>
                         </div>
                       </div>
@@ -1730,7 +1730,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     Metic.ai serves diverse Industries including Manufacturing, Aerospace, Healthcare, Agriculture, Technology, Automotive, Financial Services, Transportation, Education, and Energy. 
-                    As Ahmedabad's premier <strong className="text-gray-900 font-semibold">Generative AI Services In Ahmedabad</strong>, we tailor solutions for your specific Industry needs.
+                    As Kentucky's premier <strong className="text-gray-900 font-semibold">Generative AI Services In Kentucky</strong>, we tailor solutions for your specific Industry needs.
                   </p>
                 </div>
               </details>
@@ -1765,7 +1765,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Our 100+ successful projects, 98% client satisfaction rate, 60% cost savings, 3x faster delivery, and deep Ahmedabad market expertise make US the leading <strong className="text-gray-900 font-semibold">AI Firm </strong>. 
+                    Our 100+ successful projects, 98% client satisfaction rate, 60% cost savings, 3x faster delivery, and deep Kentucky market expertise make US the leading <strong className="text-gray-900 font-semibold">AI Firm </strong>. 
                     We combine cutting-edge AI technology with personalized service.
                   </p>
                 </div>
@@ -1822,7 +1822,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Can Generative AI Services In Ahmedabad handle small business projects?
+                            Can Generative AI Services In Kentucky handle small business projects?
                           </h3>
                         </div>
                       </div>
@@ -1837,7 +1837,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Absolutely! Metic.ai works with businesses of all sizes, from startups to enterprises. As an inclINive <strong className="text-gray-900 font-semibold">Generative AI Services In Ahmedabad</strong>, 
+                    Absolutely! Metic.ai works with businesses of all sizes, from startups to enterprises. As an inclINive <strong className="text-gray-900 font-semibold">Generative AI Services In Kentucky</strong>, 
                     we offer scalable solutions and flexible pricing models to meet small business budgets while delivering enterprise-quality AI implementations.
                   </p>
                 </div>
@@ -1922,12 +1922,12 @@ export default function GenerativeAIServicesAhmedabadPage() {
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-              Ready to Partner with Ahmedabad's Leading <strong>Artificial Intelligence Company</strong>?
+              Ready to Partner with Kentucky's Leading <strong>Artificial Intelligence Company</strong>?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join 100+ satisfied clients who Trust Metic.ai as their preferred <strong>Generative AI Services In Ahmedabad</strong>. 
+              Join 100+ satisfied clients who Trust Metic.ai as their preferred <strong>Generative AI Services In Kentucky</strong>. 
               Transform your business with proven AI solutions that deliver results. Get started with a free consultation 
-              and discover why we're Ahmedabad's most Trusted <strong>AI Development Company </strong>.
+              and discover why we're Kentucky's most Trusted <strong>AI Development Company </strong>.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Link href="/contact">
@@ -1959,18 +1959,18 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 </div>
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
-                <span>Maninagar</span>
-                <span>•</span>
-                <span>Vastrapur</span>
-                <span>•</span>
-                <span>SG Highway</span>
-                <span>•</span>
+                <span>Louisville</span>
+                <span>�</span>
+                <span>Lexington</span>
+                <span>�</span>
+                <span>Frankfort</span>
+                <span>�</span>
                 <span>Satellite</span>
-                <span>•</span>
+                <span>�</span>
                 <span>Chandkheda</span>
-                <span>•</span>
+                <span>�</span>
                 <span>Auburn</span>
-                <span>•</span>
+                <span>�</span>
                 <span>Dothan</span>
               </div>
             </div>
@@ -1980,6 +1980,19 @@ export default function GenerativeAIServicesAhmedabadPage() {
     </>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
