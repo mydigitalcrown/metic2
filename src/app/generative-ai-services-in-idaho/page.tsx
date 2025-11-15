@@ -180,7 +180,7 @@ export default function GenerativeAIServicesIdahoPage() {
             ],
             "logo": "https://metic.ai/logo.png",
             "image": ["https://metic.ai/ai-company-Idaho.jpg"],
-            "telephone": "+91-789-251-8414",
+            "telephone": "+1-208-555-0123",
             "email": "hello@metic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
@@ -264,8 +264,8 @@ export default function GenerativeAIServicesIdahoPage() {
               "business Intelligence",
               "Predictive Analytics"
             ],
-            "aggreIDteRating": {
-              "@type": "AggreIDteRating",
+            "aggregateRating": {
+              "@type": "AggregateRating",
               "ratingValue": "4.9",
               "reviewCount": "100",
               "bestRating": "5",
@@ -277,8 +277,8 @@ export default function GenerativeAIServicesIdahoPage() {
             "openingHours": "Mo-Fr 09:00-18:00",
             "contactPoint": {
               "@type": "ContactPoint",
-              "telephone": "+91-789-251-8414",
-              "contactType": "Customer Service",
+              "telephone": "+1-208-555-0123",
+              "contactType": "customer Service",
               "areaServed": "US",
               "availableLanguage": ["English"]
             }
@@ -361,7 +361,7 @@ export default function GenerativeAIServicesIdahoPage() {
         }}
       />
 
-      {/* BreadcrumbList Schema for Enhanced NaviIDtion SEO */}
+      {/* BreadcrumbList Schema for Enhanced Navigation SEO */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -402,7 +402,7 @@ export default function GenerativeAIServicesIdahoPage() {
             "name": "Metic.ai - Generative AI Services In Idaho",
             "description": "Leading Artificial Intelligence Company providing AI services ",
             "image": "https://metic.ai/ai-company-Idaho.jpg",
-            "telephone": "+91-789-251-8414",
+            "telephone": "+1-208-555-0123",
             "email": "hello@metic.ai",
             "address": {
               "@type": "PostalAddress",
@@ -414,8 +414,8 @@ export default function GenerativeAIServicesIdahoPage() {
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "32.3182",
-              "longitude": "-86.9023"
+              "latitude": "43.6150",
+              "longitude": "-116.2023"
             },
             "url": "https://metic.ai/generative-ai-services-in-Idaho/",
             "priceRange": "$$$$",
@@ -423,8 +423,8 @@ export default function GenerativeAIServicesIdahoPage() {
               "@type": "State",
               "name": "Idaho"
             },
-            "aggreIDteRating": {
-              "@type": "AggreIDteRating",
+            "aggregateRating": {
+              "@type": "AggregateRating",
               "ratingValue": "4.9",
               "reviewCount": "180",
               "bestRating": "5",
@@ -479,10 +479,10 @@ export default function GenerativeAIServicesIdahoPage() {
                     Get Free AI Consultation
                   </Button>
                 </Link>
-                <Link href="tel:+917892518414" className="w-full sm:w-auto">
+                <Link href="tel:+12085550123" className="w-full sm:w-auto">
                   <Button variant="outline" size="lg" className="w-full sm:w-auto text-base md:text-lg px-6 md:px-8 py-3 md:py-4 border-2 border-primary-orange text-primary-orange hover:bg-primary-orange hover:text-white">
                     <Phone className="w-5 h-5 mr-2" />
-                    Call: +91-789-251-8414
+                    Call: +1-208-555-0123
                   </Button>
                 </Link>
               </div>
@@ -1904,9 +1904,9 @@ export default function GenerativeAIServicesIdahoPage() {
                         Start Your AI Journey
                       </Button>
                     </Link>
-                    <Link href="tel:+917892518414">
+                    <Link href="tel:+12085550123">
                       <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                        Call Now: +91-789-251-8414
+                        Call Now: +1-208-555-0123
                       </Button>
                     </Link>
                   </div>
@@ -1935,9 +1935,9 @@ export default function GenerativeAIServicesIdahoPage() {
                   Start Your AI Transformation
                 </Button>
               </Link>
-              <Link href="tel:+917892518414">
+              <Link href="tel:+12085550123">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  Call: +91-789-251-8414
+                  Call: +1-208-555-0123
                 </Button>
               </Link>
             </div>
@@ -1980,6 +1980,9 @@ export default function GenerativeAIServicesIdahoPage() {
     </>
   );
 }
+
+
+
 
 
 
