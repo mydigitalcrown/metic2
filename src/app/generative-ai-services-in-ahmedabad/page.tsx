@@ -963,7 +963,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
       <section className="py-24 bg-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
-            {/* Ahmedabad AI Market Leadership - Enhanced Creative Header */}
+            {/* Ahmedabad Generative AI Leadership - Enhanced Creative Header */}
             <div className="text-center mb-20">
               {/* Premium Badge with Animation */}
               <div className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-full shadow-2xl border-2 border-primary-orange/30 mb-10 hover:border-primary-orange/50 transition-all group">
@@ -1068,7 +1068,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 <div className="order-1 lg:order-2">
                   <div className="bg-gradient-to-br from-orange-50 via-white to-amber-50 rounded-3xl p-10 border-2 border-primary-orange/20 shadow-2xl transform rotate-1 hover:rotate-0 transition-transform">
                     <h4 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">
-                      Ahmedabad AI Market Impact
+                      Ahmedabad Generative AI Impact
                     </h4>
                     
                     <div className="space-y-8">
@@ -1086,8 +1086,8 @@ export default function GenerativeAIServicesAhmedabadPage() {
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
                         <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">50+</div>
-                        <div className="text-sm text-gray-600 font-medium">Ahmedabad AI Projects Completed</div>
-                        <div className="text-xs text-gray-500 mt-2">Industry-Leading Success Rate</div>
+                        <div className="text-sm text-gray-600 font-medium">Ahmedabad Generative AI Projects</div>
+                        <div className="text-xs text-gray-500 mt-2">ChatGPT & LLM Success Rate</div>
                       </div>
                       
                       <div className="bg-gradient-to-r from-primary-orange/20 via-secondary-orange/10 to-primary-orange/20 rounded-2xl p-6 border-2 border-primary-orange/30 transform hover:scale-105 transition-transform">
