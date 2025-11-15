@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 import { Button } from "../components/ui/Button";
 import Testimonials from "../components/Testimonials";
 import { 
@@ -27,61 +27,61 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Generative AI Company In Ahmedabad | #1 AI Company In Gujarat - Metic.ai",
-  description: "Leading Generative AI Company In Ahmedabad with 50+ successful AI implementations. Expert ChatGPT integration, GPT-4 services, LLM development & AI solutions. Transform your business with 60% cost savings & 3x faster delivery.",
+  title: "Generative AI Company In Idaho | #1 AI Company In Gem State - Metic.ai",
+  description: "Leading Generative AI Company In Idaho with 50+ successful AI implementations. Expert ChatGPT integration, GPT-4 services, LLM development & AI solutions. Transform your business with 60% cost savings & 3x faster delivery.",
   keywords: [
-    "Generative AI Company In Ahmedabad",
-    "Generative AI Services In Ahmedabad", 
-    "ChatGPT Integration Services In Ahmedabad",
-    "Custom GPT Development In Ahmedabad",
-    "Large Language Model Company In Ahmedabad",
-    "AI Content Creation Services In Ahmedabad",
-    "GPT-4 Integration Company In Ahmedabad",
-    "LLM Development Services In Ahmedabad",
-    "AI Text Generation Solutions In Ahmedabad",
-    "Generative AI Solutions In Ahmedabad",
-    "AI Chatbot Development In Ahmedabad",
-    "Custom AI Model Training In Ahmedabad",
-    "OpenAI Integration Services In Ahmedabad",
-    "AI Image Generation Services In Ahmedabad",
-    "Midjourney AI Integration In Ahmedabad",
-    "DALL-E Integration Services In Ahmedabad",
-    "Stable Diffusion Solutions In Ahmedabad",
-    "AI Code Generation Services In Ahmedabad",
-    "GitHub Copilot Integration In Ahmedabad",
-    "AI Marketing Automation In Ahmedabad",
-    "AI Customer Service Solutions In Ahmedabad",
-    "Enterprise Generative AI In Ahmedabad"
+    "Generative AI Company In Idaho",
+    "Generative AI Services In Idaho", 
+    "ChatGPT Integration Services In Idaho",
+    "Custom GPT Development In Idaho",
+    "Large Language Model Company In Idaho",
+    "AI Content Creation Services In Idaho",
+    "GPT-4 Integration Company In Idaho",
+    "LLM Development Services In Idaho",
+    "AI Text Generation Solutions In Idaho",
+    "Generative AI Solutions In Idaho",
+    "AI Chatbot Development In Idaho",
+    "Custom AI Model Training In Idaho",
+    "OpenAI Integration Services In Idaho",
+    "AI Image Generation Services In Idaho",
+    "Midjourney AI Integration In Idaho",
+    "DALL-E Integration Services In Idaho",
+    "Stable Diffusion Solutions In Idaho",
+    "AI Code Generation Services In Idaho",
+    "GitHub Copilot Integration In Idaho",
+    "AI Marketing Automation In Idaho",
+    "AI Customer Service Solutions In Idaho",
+    "Enterprise Generative AI In Idaho"
   ],
-  authors: [{ name: "Metic.ai Ahmedabad Generative AI Team" }],
+  authors: [{ name: "Metic.ai Idaho Generative AI Team" }],
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
-    title: "Generative AI Company In Ahmedabad | #1 Generative AI Services In Ahmedabad - Metic.ai",
-    description: "Leading Generative AI Company In Ahmedabad with 50+ successful AI implementations. Expert AI services, Generative AI solutions & AI development for Ahmedabad businesses.",
-    url: "https://metic.ai/generative-ai-services-in-ahmedabad/",
+    title: "Generative AI Company In Idaho | #1 Generative AI Services In Idaho - Metic.ai",
+    description: "Leading Generative AI Company In Idaho with 50+ successful AI implementations. Expert AI services, Generative AI solutions & AI development for Idaho businesses.",
+    url: "https://metic.ai/generative-ai-services-in-Idaho/",
     type: "website",
-    locale: "en_IN",
-    siteName: "Metic.ai - Generative AI Services In Ahmedabad",
+    locale: "en_US",
+    siteName: "Metic.ai - Generative AI Services In Idaho",
     images: [
       {
-        url: "https://metic.ai/og-generative-ai-ahmedabad.jpg",
+        url: "https://metic.ai/og-generative-ai-Idaho.jpg",
         width: 1200,
         height: 630,
-        alt: "Generative AI Company In Ahmedabad - Metic.ai",
+        alt: "Generative AI Company In Idaho - Metic.ai",
         type: "image/jpeg"
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Generative AI Company In Ahmedabad | Generative AI Services In Ahmedabad",
-    description: "Leading Generative AI Services In Ahmedabad delivering enterprise artificial intelligence solutions. Expert AI development, Generative AI & automation services with proven results.",
-    images: ["https://metic.ai/og-generative-ai-ahmedabad.jpg"],
+    title: "Generative AI Company In Idaho | Generative AI Services In Idaho",
+    description: "Leading Generative AI Services In Idaho delivering enterprise artificial intelligence solutions. Expert AI development, Generative AI & automation services with proven results.",
+    images: ["https://metic.ai/og-generative-ai-Idaho.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/generative-ai-services-in-ahmedabad/",
+    canonical: "https://metic.ai/generative-ai-services-in-Idaho/",
   },
   verification: {
     google: "google-site-verification-code",
@@ -92,32 +92,32 @@ export const metadata = {
   classification: "business Services"
 };
 
-export default function GenerativeAIServicesAhmedabadPage() {
+export default function GenerativeAIServicesIdahoPage() {
   const services = [
     {
       title: "ChatGPT Integration",
-      description: "Seamlessly integrate ChatGPT and GPT-4 into your Ahmedabad business operations with enterprise-grade deployment strategies.",
+      description: "Seamlessly integrate ChatGPT and GPT-4 into your Idaho business operations with enterprise-grade deployment strategies.",
       icon: Zap,
       href: "/ai-integration-and-deployment",
       color: "blue" as const
     },
     {
       title: "Custom GPT Development",
-      description: "Build custom GPT models and LLM solutions tailored for Ahmedabad businesses and Industries.",
+      description: "Build custom GPT models and LLM solutions tailored for Idaho businesses and Industries.",
       icon: Brain,
       href: "/machine-learning",
       color: "purple" as const
     },
     {
       title: "AI Image Generation",
-      description: "DALL-E, Midjourney, and Stable Diffusion integration designed specifically for your Ahmedabad business creative needs.",
+      description: "DALL-E, Midjourney, and Stable Diffusion integration designed specifically for your Idaho business creative needs.",
       icon: Code,
       href: "/custom-ai-development",
       color: "green" as const
     },
     {
       title: "AI Content Creation",
-      description: "Transform your Ahmedabad business content strategy with AI-powered writing, copywriting, and content generation.",
+      description: "Transform your Idaho business content strategy with AI-powered writing, copywriting, and content generation.",
       icon: BarChart3,
       href: "/data-insights",
       color: "orange" as const
@@ -131,7 +131,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
     },
     {
       title: "AI Automation",
-      description: "Robust AI automation and intelligent workflows for Ahmedabad enterprises and growing businesses.",
+      description: "Robust AI automation and intelligent workflows for Idaho enterprises and growing businesses.",
       icon: Database,
       href: "/data-engineering",
       color: "red" as const
@@ -139,18 +139,18 @@ export default function GenerativeAIServicesAhmedabadPage() {
   ];
 
   const Industries = [
-    "Textiles & Garments",
-    "Pharmaceuticals",
-    "Chemicals",
-    "Information Technology",
-    "Automotive",
-    "Diamond & Jewelry",
-    "Food Processing",
-    "Real Estate",
-    "Healthcare",
-    "Education",
-    "Logistics",
-    "Manufacturing"
+    "Agriculture & Food Processing",
+    "Technology & Software",
+    "Mining & Natural Resources",
+    "Manufacturing",
+    "Forestry & Wood Products",
+    "Tourism & Hospitality",
+    "Healthcare & Life Sciences",
+    "Energy & Utilities",
+    "Education & Training",
+    "Real Estate & Construction",
+    "Transportation & Logistics",
+    "Retail & E-commerce"
   ];
 
   const stats = [
@@ -169,40 +169,40 @@ export default function GenerativeAIServicesAhmedabadPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": ["Organization", "TechnologyCompany", "LocalBusiness"],
-            "name": "Metic.ai - Generative AI Company In Ahmedabad",
-            "alternateName": ["Generative AI Services In Ahmedabad", "Metic AI", "AI Firm Ahmedabad"],
-            "description": "Leading Generative AI Company In Ahmedabad providing enterprise AI solutions, Generative AI development, and Custom AI services for businesses across Ahmedabad.",
-            "url": "https://metic.ai/generative-ai-services-in-ahmedabad/",
+            "name": "Metic.ai - Generative AI Company In Idaho",
+            "alternateName": ["Generative AI Services In Idaho", "Metic AI", "AI Firm Idaho"],
+            "description": "Leading Generative AI Company In Idaho providing enterprise AI solutions, Generative AI development, and Custom AI services for businesses across Idaho.",
+            "url": "https://metic.ai/generative-ai-services-in-Idaho/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
               "https://www.facebook.com/meticai"
             ],
             "logo": "https://metic.ai/logo.png",
-            "image": ["https://metic.ai/ai-company-Ahmedabad.jpg"],
+            "image": ["https://metic.ai/ai-company-Idaho.jpg"],
             "telephone": "+91-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
             "vatID": "IN123456789",
             "address": {
               "@type": "PostalAddress",
-              "addressRegion": "Ahmedabad",
+              "addressRegion": "Idaho",
               "addressCountry": "US",
-              "postalCode": "35201"
+              "postalCode": "83702"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "32.7794",
-              "longitude": "-86.8287"
+              "latitude": "43.6150",
+              "longitude": "-116.2023"
             },
             "areaServed": [
               {
                 "@type": "State",
-                "name": "Ahmedabad",
+                "name": "Idaho",
                 "containedInPlace": {
                   "@type": "Country", 
-                  "name": "Bodakdev"
+                  "name": "United States"
                 }
               }
             ],
@@ -210,10 +210,10 @@ export default function GenerativeAIServicesAhmedabadPage() {
               "@type": "GeoCircle",
               "geoMidpoint": {
                 "@type": "GeoCoordinates",
-                "latitude": "32.7794",
-                "longitude": "-86.8287"
+                "latitude": "43.6150",
+              "longitude": "-116.2023"
               },
-              "geoRadiIN": "2380001"
+              "geoRadius": "2380001"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
@@ -224,7 +224,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                   "itemOffered": {
                     "@type": "Service",
                     "name": "AI Development Services",
-                    "description": "Custom artificial intelligence development for Ahmedabad businesses"
+                    "description": "Custom artificial intelligence development for Idaho businesses"
                   }
                 },
                 {
@@ -264,8 +264,8 @@ export default function GenerativeAIServicesAhmedabadPage() {
               "business Intelligence",
               "Predictive Analytics"
             ],
-            "aggregateRating": {
-              "@type": "AggregateRating",
+            "aggreIDteRating": {
+              "@type": "AggreIDteRating",
               "ratingValue": "4.9",
               "reviewCount": "100",
               "bestRating": "5",
@@ -273,8 +273,8 @@ export default function GenerativeAIServicesAhmedabadPage() {
             },
             "priceRange": "$$",
             "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer"],
-            "currenciesAccepted": "IND",
-            "open_INgHours": "Mo-Fr 09:00-18:00",
+            "currenciesAccepted": "USD",
+            "openingHours": "Mo-Fr 09:00-18:00",
             "contactPoint": {
               "@type": "ContactPoint",
               "telephone": "+91-789-251-8414",
@@ -296,34 +296,34 @@ export default function GenerativeAIServicesAhmedabadPage() {
             "mainEntity": [
               {
                 "@type": "Question",
-                "name": "Which is the best Generative AI Company In Ahmedabad?",
+                "name": "Which is the best Generative AI Company In Idaho?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Metic.ai is the leading Generative AI Company In Ahmedabad with 50+ successful generative AI implementations. We provide comprehensive ChatGPT integration, GPT-4 development, LLM solutions, AI image generation, Custom GPT development, and enterprise AI automation with proven 60% cost savings and 3x faster delivery."
+                  "text": "Metic.ai is the leading Generative AI Company In Idaho with 50+ successful generative AI implementations. We provide comprehensive ChatGPT integration, GPT-4 development, LLM solutions, AI image generation, Custom GPT development, and enterprise AI automation with proven 60% cost savings and 3x faster delivery."
                 }
               },
               {
                 "@type": "Question", 
-                "name": "What generative AI services does the Generative AI Company In Ahmedabad provide?",
+                "name": "What generative AI services does the Generative AI Company In Idaho provide?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "As the premier Generative AI Company In Ahmedabad, Metic.ai provides ChatGPT integration, GPT-4 API development, Custom GPT models, LLM development, AI image generation (DALL-E, Midjourney, Stable Diffusion), AI content creation, intelligent chatbots, and enterprise automation for businesses across Ahmedabad."
+                  "text": "As the premier Generative AI Company In Idaho, Metic.ai provides ChatGPT integration, GPT-4 API development, Custom GPT models, LLM development, AI image generation (DALL-E, Midjourney, Stable Diffusion), AI content creation, intelligent chatbots, and enterprise automation for businesses across Idaho."
                 }
               },
               {
                 "@type": "Question",
-                "name": "How to choose the right Generative AI Company In Ahmedabad?",
+                "name": "How to choose the right Generative AI Company In Idaho?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Choose a Generative AI Company In Ahmedabad with proven experience in ChatGPT integration, GPT-4 development, successful LLM implementations, Industry expertise, and local presence. Metic.ai offers all these with 50+ completed generative AI projects and deep understanding of Ahmedabad's business landscape."
+                  "text": "Choose a Generative AI Company In Idaho with proven experience in ChatGPT integration, GPT-4 development, successful LLM implementations, Industry expertise, and local presence. Metic.ai offers all these with 50+ completed generative AI projects and deep understanding of Idaho's business landscape."
                 }
               },
               {
                 "@type": "Question",
-                "name": "What makes Metic.ai the best Generative AI Company In Ahmedabad?",
+                "name": "What makes Metic.ai the best Generative AI Company In Idaho?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Metic.ai is the best Generative AI Company In Ahmedabad due to our proven expertise in ChatGPT integration, GPT-4 development, LLM solutions, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of Ahmedabad's Textile, Pharmaceutical, Chemical and IT Industries."
+                  "text": "Metic.ai is the best Generative AI Company In Idaho due to our proven expertise in ChatGPT integration, GPT-4 development, LLM solutions, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of Idaho's Technology, Mining & Natural Resources, Manufacturing, and Logistics Industries."
                 }
               }
             ]
@@ -338,9 +338,9 @@ export default function GenerativeAIServicesAhmedabadPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Generative AI Company In Ahmedabad - ChatGPT, GPT-4 & LLM Services",
-            "description": "Comprehensive guide to generative AI services by the leading Generative AI Company In Ahmedabad. Expert ChatGPT integration, GPT-4 development, LLM solutions, and AI image generation implementation.",
-            "image": "https://metic.ai/generative-ai-company-ahmedabad-article.jpg",
+            "headline": "Generative AI Company In Idaho - ChatGPT, GPT-4 & LLM Services",
+            "description": "Comprehensive guide to generative AI services by the leading Generative AI Company In Idaho. Expert ChatGPT integration, GPT-4 development, LLM solutions, and AI image generation implementation.",
+            "image": "https://metic.ai/generative-ai-company-Idaho-article.jpg",
             "author": {
               "@type": "Organization",
               "name": "Metic.ai"
@@ -355,13 +355,13 @@ export default function GenerativeAIServicesAhmedabadPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/generative-ai-services-in-ahmedabad/",
-            "keywords": "Generative AI Company In Ahmedabad, Generative AI Services In Ahmedabad, AI Service "
+            "mainEntityOfPage": "https://metic.ai/generative-ai-services-in-Idaho/",
+            "keywords": "Generative AI Company In Idaho, Generative AI Services In Idaho, AI Service "
           })
         }}
       />
 
-      {/* BreadcrumbList Schema for Enhanced Navigation SEO */}
+      {/* BreadcrumbList Schema for Enhanced NaviIDtion SEO */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -384,8 +384,8 @@ export default function GenerativeAIServicesAhmedabadPage() {
               {
                 "@type": "ListItem",
                 "position": 3,
-                "name": "Generative AI Company In Ahmedabad",
-                "item": "https://metic.ai/generative-ai-services-in-ahmedabad/"
+                "name": "Generative AI Company In Idaho",
+                "item": "https://metic.ai/generative-ai-services-in-Idaho/"
               }
             ]
           })
@@ -399,17 +399,17 @@ export default function GenerativeAIServicesAhmedabadPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Metic.ai - Generative AI Services In Ahmedabad",
+            "name": "Metic.ai - Generative AI Services In Idaho",
             "description": "Leading Artificial Intelligence Company providing AI services ",
-            "image": "https://metic.ai/ai-company-Ahmedabad.jpg",
+            "image": "https://metic.ai/ai-company-Idaho.jpg",
             "telephone": "+91-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "300 Quail Ridge Dr NE",
-              "addressLocality": "ADA",
-              "addressRegion": "MI",
-              "postalCode": "49301",
+              "streetAddress": "Boise Tech Square",
+              "addressLocality": "Boise",
+              "addressRegion": "ID",
+              "postalCode": "83702",
               "addressCountry": "US"
             },
             "geo": {
@@ -417,20 +417,20 @@ export default function GenerativeAIServicesAhmedabadPage() {
               "latitude": "32.3182",
               "longitude": "-86.9023"
             },
-            "url": "https://metic.ai/generative-ai-services-in-ahmedabad/",
+            "url": "https://metic.ai/generative-ai-services-in-Idaho/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",
-              "name": "Ahmedabad"
+              "name": "Idaho"
             },
-            "aggregateRating": {
-              "@type": "AggregateRating",
+            "aggreIDteRating": {
+              "@type": "AggreIDteRating",
               "ratingValue": "4.9",
               "reviewCount": "180",
               "bestRating": "5",
               "worstRating": "1"
             },
-            "open_INgHours": "Mo-Fr 09:00-18:00",
+            "openingHours": "Mo-Fr 09:00-18:00",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai"
@@ -451,9 +451,9 @@ export default function GenerativeAIServicesAhmedabadPage() {
           <div className="max-w-5xl mx-auto">
             {/* Trust Badge - Mobile Optimized */}
             <div className="flex justify-center mb-6 md:mb-8">
-              <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-white/10 backdrop-blur-sm rounded-full border border-primary-orange/30 shadow-xl">
+              <div className="inline-flex items-center IDp-2 px-4 md:px-6 py-2 md:py-3 bg-white/10 backdrop-blur-sm rounded-full border border-primary-orange/30 shadow-xl">
                 <Award className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
-                <span className="text-xs md:text-sm font-bold text-white">⭐ 100+ Successful AI Projects | 98% Client Satisfaction</span>
+                <span className="text-xs md:text-sm font-bold text-white">? 100+ Successful AI Projects | 98% Client Satisfaction</span>
               </div>
             </div>
 
@@ -463,16 +463,16 @@ export default function GenerativeAIServicesAhmedabadPage() {
                   Generative AI Company
                 </span>
                 <br />
-                <span className="text-white">In Ahmedabad</span>
+                <span className="text-white">In Idaho</span>
               </h1>
               
               {/* VSO Optimized Description - Mobile Friendly */}
               <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 mb-6 md:mb-8 max-w-4xl mx-auto leading-relaxed px-4">
-                Looking for the <strong className="text-primary-orange">best Generative AI Company In Ahmedabad</strong>? Metic.ai is the premier <strong className="text-white">Generative AI Company In Ahmedabad</strong> delivering ChatGPT integration, GPT-4 services, LLM development & AI solutions with proven results.
+                Looking for the <strong className="text-primary-orange">best Generative AI Company In Idaho</strong>? Metic.ai is the premier <strong className="text-white">Generative AI Company In Idaho</strong> delivering ChatGPT integration, GPT-4 services, LLM development & AI solutions with proven results.
               </p>
 
               {/* Mobile-Optimized CTA Buttons */}
-              <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center mb-10 md:mb-16 px-4">
+              <div className="flex flex-col sm:flex-row IDp-3 md:IDp-4 justify-center mb-10 md:mb-16 px-4">
                 <Link href="/contact" className="w-full sm:w-auto">
                   <Button variant="primary" size="lg" className="w-full sm:w-auto text-base md:text-lg px-6 md:px-8 py-3 md:py-4 shadow-2xl hover:shadow-primary-orange/50 transform hover:scale-105 transition-all">
                     <Rocket className="w-5 h-5 mr-2" />
@@ -488,7 +488,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
               </div>
 
               {/* Voice Search Optimized Stats - Responsive Grid */}
-              <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8 max-w-4xl mx-auto mb-10 md:mb-12 px-4">
+              <div className="grid grid-cols-2 lg:grid-cols-4 IDp-4 md:IDp-6 lg:IDp-8 max-w-4xl mx-auto mb-10 md:mb-12 px-4">
                 {stats.map((stat, index) => (
                   <div key={index} className="bg-white/5 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-white/10 hover:border-primary-orange/50 transition-all transform hover:scale-105">
                     <div className="text-2xl md:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent mb-2">
@@ -502,9 +502,9 @@ export default function GenerativeAIServicesAhmedabadPage() {
               {/* VSO Keywords Section - Mobile Optimized */}
               <div className="text-center px-4">
                 <p className="text-gray-400 text-sm md:text-base mb-4">
-                  <strong className="text-white">Trusted as the top Generative AI Company In Ahmedabad</strong> by leading businesses
+                  <strong className="text-white">Trusted as the top Generative AI Company In Idaho</strong> by leading businesses
                 </p>
-                <div className="flex flex-wrap justify-center gap-2 md:gap-3 text-xs md:text-sm">
+                <div className="flex flex-wrap justify-center IDp-2 md:IDp-3 text-xs md:text-sm">
                   <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
                     ChatGPT Integration
                   </span>
@@ -537,7 +537,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12 md:mb-16">
               {/* Section Badge */}
-              <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-primary-orange/10 rounded-full mb-6 md:mb-8">
+              <div className="inline-flex items-center IDp-2 px-4 md:px-6 py-2 md:py-3 bg-primary-orange/10 rounded-full mb-6 md:mb-8">
                 <Brain className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
                 <span className="text-xs md:text-sm font-bold text-primary-orange">COMPREHENSIVE AI SERVICES</span>
               </div>
@@ -545,18 +545,18 @@ export default function GenerativeAIServicesAhmedabadPage() {
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 leading-tight px-4">
                 <strong className="text-gray-900">Generative AI Services</strong> by Leading{" "}
                 <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">
-                  Generative AI Company In Ahmedabad
+                  Generative AI Company In Idaho
                 </span>
               </h2>
               <div className="w-20 md:w-24 h-1 md:h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 md:mb-8 rounded-full"></div>
               <p className="text-base md:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-4">
-                Comprehensive generative AI services from Ahmedabad's most Trusted <strong className="text-gray-900">Generative AI Company In Ahmedabad</strong>. 
-                Transforming businesses with ChatGPT, GPT-4, LLM development, and cutting-edge AI solutions tailored for Ahmedabad's Industrial landscape.
+                Comprehensive generative AI services from Idaho's most Trusted <strong className="text-gray-900">Generative AI Company In Idaho</strong>. 
+                Transforming businesses with ChatGPT, GPT-4, LLM development, and cutting-edge AI solutions tailored for Idaho's Industrial landscape.
               </p>
             </div>
             
             {/* Mobile: 1 col, Tablet: 2 cols, Desktop: 3 cols */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 IDp-6 md:IDp-8">
               {services.map((service, index) => {
                 const IconComponent = service.icon;
                 const colorClasses = {
@@ -586,7 +586,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                     
                     <Link 
                       href={service.href} 
-                      className="inline-flex items-center text-primary-orange hover:text-secondary-orange font-semibold text-sm md:text-base group-hover:gap-3 transition-all"
+                      className="inline-flex items-center text-primary-orange hover:text-secondary-orange font-semibold text-sm md:text-base group-hover:IDp-3 transition-all"
                     >
                       Learn More
                       <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
@@ -613,23 +613,23 @@ export default function GenerativeAIServicesAhmedabadPage() {
       <section className="py-20 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
-            <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="grid md:grid-cols-2 IDp-12 items-center">
               <div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                  About Metic.ai - Premier <span className="text-primary-orange">Generative AI Company In Ahmedabad</span>
+                  About Metic.ai - Premier <span className="text-primary-orange">Generative AI Company In Idaho</span>
                 </h2>
                 <div className="w-20 h-1 bg-primary-orange mb-8"></div>
                 <p className="text-lg text-gray-700 mb-6">
-                  Established as Ahmedabad's leading <strong>Generative AI Company In Ahmedabad</strong>, Metic.ai has been at the forefront of generative artificial intelligence 
-                  innovation since 2020. We specialize in delivering enterprise-grade ChatGPT integration, GPT-4 development, LLM solutions, AI image generation, and custom AI services that transform businesses across Ahmedabad's 
-                  unique Industries including Textiles & Garments, Pharmaceuticals, Tourism & Hospitality, Chemicals, and Information Technology.
+                  Established as Idaho's leading <strong>Generative AI Company In Idaho</strong>, Metic.ai has been at the forefront of generative artificial intelligence 
+                  innovation since 2020. We specialize in delivering enterprise-grade ChatGPT integration, GPT-4 development, LLM solutions, AI image generation, and custom AI services that transform businesses across Idaho's 
+                  unique Industries including Technology & Software, Mining & Natural Resources, Manufacturing, Agriculture, and Logistics.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  Our expertise as the premier <strong>Generative AI Company In Ahmedabad</strong> encompasses Large Language Models (LLMs), ChatGPT Integration, 
+                  Our expertise as the premier <strong>Generative AI Company In Idaho</strong> encompasses Large Language Models (LLMs), ChatGPT Integration, 
                   GPT-4 API development, AI Image Generation (DALL-E, Midjourney, Stable Diffusion), Custom GPT development, AI content creation, and intelligent automation. We've successfully completed over 50 generative AI projects, making us the most 
-                  Trusted <strong>Generative AI Company In Ahmedabad</strong> from Maninagar to Vastrapur.
+                  Trusted <strong>Generative AI Company In Idaho</strong> from Boise to Meridian.
                 </p>
-                <div className="grid grid-cols-2 gap-6 mt-8">
+                <div className="grid grid-cols-2 IDp-6 mt-8">
                   <div className="text-center">
                     <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
                       <Award className="w-6 h-6 text-primary-orange" />
@@ -668,7 +668,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                     AI Consulting & Strategy
                   </h3>
                   <p className="text-gray-600">
-                    Expert AI consulting services to help Ahmedabad businesses identify AI opportunities and develop comprehensive implementation strategies.
+                    Expert AI consulting services to help Idaho businesses identify AI opportunities and develop comprehensive implementation strategies.
                   </p>
                 </div>
                 
@@ -688,7 +688,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                     Enterprise AI Integration
                   </h3>
                   <p className="text-gray-600">
-                    Seamless integration of AI technologies into existing business processes with minimal disruption and maximum efficiency gains.
+                    Seamless integration of AI technologies into existing business processes with minimal disruption and maximum efficiency IDins.
                   </p>
                 </div>
                 
@@ -717,12 +717,12 @@ export default function GenerativeAIServicesAhmedabadPage() {
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Delivering specialized AI solutions across Ahmedabad's key Industries and business sectors.
+                Delivering specialized AI solutions across Idaho's key Industries and business sectors.
               </p>
             </div>
             
             {/* Mobile: 1 col, Tablet: 2 cols, Desktop: 4 cols - 12 Industries Total */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 IDp-6">
               {/* Manufacturing */}
               <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="relative h-48 overflow-hidden">
@@ -913,22 +913,22 @@ export default function GenerativeAIServicesAhmedabadPage() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Why Choose Metic.ai as Your <span className="text-primary-orange">Generative AI Company In Ahmedabad</span>
+                Why Choose Metic.ai as Your <span className="text-primary-orange">Generative AI Company In Idaho</span>
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                As the premier <strong>AI Development Company </strong>, we're Trusted by businesses across Ahmedabad 
-                for our expertise, proven results, and commitment to client success US Manchester of Bodakdev.
+                As the premier <strong>AI Development Company </strong>, we're Trusted by businesses across Idaho 
+                for our expertise, proven results, and commitment to client success US Gem State.
               </p>
             </div>
             
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 IDp-8">
               <div className="text-center">
                 <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6 mx-auto">
                   <Award className="w-8 h-8 text-blue-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Proven Expertise</h3>
-                <p className="text-gray-600">Years of experience delivering AI solutions for Ahmedabad businesses across all Industries.</p>
+                <p className="text-gray-600">Years of experience delivering AI solutions for Idaho businesses across all Industries.</p>
               </div>
               
               <div className="text-center">
@@ -936,7 +936,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                   <TrendingUp className="w-8 h-8 text-green-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Measurable Results</h3>
-                <p className="text-gray-600">Data-driven AI solutions that deliver concrete ROI and business growth for Ahmedabad companies.</p>
+                <p className="text-gray-600">Data-driven AI solutions that deliver concrete ROI and business growth for Idaho companies.</p>
               </div>
               
               <div className="text-center">
@@ -944,7 +944,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                   <Users className="w-8 h-8 text-purple-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Local Partnership</h3>
-                <p className="text-gray-600">Dedicated support and partnership with deep understanding of Ahmedabad's unique business challenges and opportunities.</p>
+                <p className="text-gray-600">Dedicated support and partnership with deep understanding of Idaho's unique business challenges and opportunities.</p>
               </div>
               
               <div className="text-center">
@@ -952,94 +952,94 @@ export default function GenerativeAIServicesAhmedabadPage() {
                   <Shield className="w-8 h-8 text-orange-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Enterprise Security</h3>
-                <p className="text-gray-600">Bank-level security and compliance standards protecting your Ahmedabad business data.</p>
+                <p className="text-gray-600">Bank-level security and compliance standards protecting your Idaho business data.</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Comprehensive AI Services Ahmedabad Content - 100% SEO Optimized */}
+      {/* Comprehensive AI Services Idaho Content - 100% SEO Optimized */}
       <section className="py-24 bg-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
-            {/* Ahmedabad AI Market Leadership - Enhanced Creative Header */}
+            {/* Idaho AI Market Leadership - Enhanced Creative Header */}
             <div className="text-center mb-20">
               {/* Premium Badge with Animation */}
-              <div className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-full shadow-2xl border-2 border-primary-orange/30 mb-10 hover:border-primary-orange/50 transition-all group">
+              <div className="inline-flex items-center IDp-3 px-8 py-4 bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-full shadow-2xl border-2 border-primary-orange/30 mb-10 hover:border-primary-orange/50 transition-all group">
                 <div className="w-3 h-3 bg-primary-orange rounded-full animate-pulse"></div>
-                <span className="text-sm font-bold text-gray-800 tracking-wide">Manchester of Bodakdev AI INNOVATION</span>
+                <span className="text-sm font-bold text-gray-800 tracking-wide">Gem State AI INNOVATION</span>
                 <div className="w-3 h-3 bg-secondary-orange rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></div>
               </div>
 
               <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight">
                 <span className="text-gray-900">Leading </span>
                 <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent animate-gradient">
-                  Generative AI Company In Ahmedabad
+                  Generative AI Company In Idaho
                 </span>
               </h2>
               <div className="w-40 h-2 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-10 rounded-full shadow-lg"></div>
               <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                Transforming 's Commercial Capital with cutting-edge AI solutions from Maninagar to Vastrapur, SG Highway to the Naroda Industrial Area
+                Transforming 's Gem State & Agricultural Hub with cutting-edge AI solutions from Boise to Meridian, Nampa to Idaho Falls
               </p>
             </div>
 
             <div className="space-y-20">
-              {/* Ahmedabad AI Innovation Hub - Premium Design */}
-              <div className="grid lg:grid-cols-2 gap-16 items-center">
+              {/* Idaho AI Innovation Hub - Premium Design */}
+              <div className="grid lg:grid-cols-2 IDp-16 items-center">
                 <div className="order-2 lg:order-1">
                   <div className="space-y-8">
                     {/* Enhanced Heading with Creative Icon */}
-                    <div className="flex items-start gap-4">
+                    <div className="flex items-start IDp-4">
                       <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-xl flex-shrink-0 transform rotate-3 hover:rotate-0 transition-transform">
                         <Brain className="w-8 h-8 text-white" />
                       </div>
                       <div>
                         <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
-                          Ahmedabad's <span className="text-primary-orange">Premier AI Technology Pioneer</span>
+                          Idaho's <span className="text-primary-orange">Premier AI Technology Pioneer</span>
                         </h3>
                         <div className="w-24 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange rounded-full"></div>
                       </div>
                     </div>
                     
             <p className="text-lg text-gray-700 leading-relaxed">
-              As the leading <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Generative AI Company In Ahmedabad</strong>, 
-              Metic.ai serves Manchester of Bodakdev with enterprise-grade AI solutions tailored to Ahmedabad's unique economic 
-              landscape. From Maninagar's business hub to Vastrapur' research facilities, SG Highway's government sector to 
-              the Textile mills of the Naroda Industrial Area, we understand Ahmedabad's entrepreneurial excellence and Textile-driven Industries.
+              As the leading <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Generative AI Company In Idaho</strong>, 
+              Metic.ai serves Gem State with enterprise-grade AI solutions tailored to Idaho's unique economic 
+              landscape. From Boise's business district to Meridian' research facilities, Buckhead's government sector to 
+              the tech hubs of Boise Metro, we understand Idaho's innovation and technology-driven Industries.
             </p>
             
             <p className="text-lg text-gray-700 leading-relaxed">
-              Our <strong className="text-primary-orange font-semibold">Generative AI Services In Ahmedabad</strong> combines deep understanding 
-              of Ahmedabad's unique challenges with cutting-edge technology to deliver AI solutions that drive measurable 
-              results. We've successfully implemented AI across Ahmedabad's key sectors including Textiles & Garments, fishing, 
-              tourism, Chemicals, Information Technology, and maritime Industries US 's largest state.
+              Our <strong className="text-primary-orange font-semibold">Generative AI Services In Idaho</strong> combines deep understanding 
+              of Idaho's unique challenges with cutting-edge technology to deliver AI solutions that drive measurable 
+              results. We've successfully implemented AI across Idaho's key sectors including Technology & Software, technology, 
+              tourism, Chemicals, Information Technology, and aerospace Industries US 's Gem State.
             </p>                    {/* Enhanced Feature Cards with Creative Design */}
-                    <div className="grid gap-6 mt-10">
+                    <div className="grid IDp-6 mt-10">
                       <div className="group bg-gradient-to-r from-primary-orange/5 via-white to-secondary-orange/5 p-6 rounded-2xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
-                        <div className="flex items-start gap-4">
+                        <div className="flex items-start IDp-4">
                           <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary-orange to-secondary-orange flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
                             <Rocket className="w-6 h-6 text-white" />
                           </div>
                           <div>
-                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Textiles Generative AI Excellence</h4>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Technology Generative AI Excellence</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Deep expertise with Ahmedabad's Naroda Industrial Area Textile operations including major Textile mills, 
-                              Ahmedabad Metro, and energy infrastructure across 's largest Textile-manufacturing state.
+                              Deep expertise with Idaho's Boise Tech Square operations including major tech hubs, 
+                              Idaho Metro, and energy infrastructure across 's largest agriculture and mining innovation hub.
                             </p>
                           </div>
                         </div>
                       </div>
                       
                       <div className="group bg-gradient-to-r from-secondary-orange/5 via-white to-primary-orange/5 p-6 rounded-2xl border-2 border-secondary-orange/20 hover:border-secondary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
-                        <div className="flex items-start gap-4">
+                        <div className="flex items-start IDp-4">
                           <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-secondary-orange to-primary-orange flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
                             <Shield className="w-6 h-6 text-white" />
                           </div>
                           <div>
                             <h4 className="font-bold text-gray-900 mb-2 text-lg">Automotive Manufacturing Innovation</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              GPT-4 powered content and automation solutions for Ahmedabad's automotive Industry including Mercedes-Benz, Honda, Hyundai, 
+                              GPT-4 powered content and automation solutions for Idaho's automotive Industry including Mercedes-Benz, Honda, Hyundai, 
                               and Toyota manufacturing facilities with predictive maintenance and quality control systems.
                             </p>
                           </div>
@@ -1047,15 +1047,15 @@ export default function GenerativeAIServicesAhmedabadPage() {
                       </div>
                       
                       <div className="group bg-gradient-to-r from-primary-orange/5 via-white to-secondary-orange/5 p-6 rounded-2xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
-                        <div className="flex items-start gap-4">
+                        <div className="flex items-start IDp-4">
                           <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary-orange to-secondary-orange flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
                             <Target className="w-6 h-6 text-white" />
                           </div>
                           <div>
                             <h4 className="font-bold text-gray-900 mb-2 text-lg">Chemicals & Natural Resources AI</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Specialized AI for Ahmedabad's Chemicals operations and resource extraction including process optimization, 
-                              safety monitoring, and environmental compliance for Ahmedabad's rich mineral deposits.
+                              Specialized AI for Idaho's Chemicals operations and resource extraction including process optimization, 
+                              safety monitoring, and environmental compliance for Idaho's rich mineral deposits.
                             </p>
                           </div>
                         </div>
@@ -1068,38 +1068,38 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 <div className="order-1 lg:order-2">
                   <div className="bg-gradient-to-br from-orange-50 via-white to-amber-50 rounded-3xl p-10 border-2 border-primary-orange/20 shadow-2xl transform rotate-1 hover:rotate-0 transition-transform">
                     <h4 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">
-                      Ahmedabad AI Market Impact
+                      Idaho AI Market Impact
                     </h4>
                     
                     <div className="space-y-8">
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">₹130B</div>
-                        <div className="text-sm text-gray-600 font-medium">Ahmedabad Annual GDP</div>
-                        <div className="text-xs text-gray-500 mt-2">Textile-driven Economy</div>
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">?130B</div>
+                        <div className="text-sm text-gray-600 font-medium">Idaho Annual GDP</div>
+                        <div className="text-xs text-gray-500 mt-2">Technology-driven Economy</div>
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-secondary-orange/10 hover:border-secondary-orange/30 transition-all group transform hover:scale-105">
                         <div className="text-5xl font-bold text-secondary-orange mb-3 group-hover:scale-110 transition-transform">8.4M</div>
-                        <div className="text-sm text-gray-600 font-medium">Ahmedabad Population</div>
-                        <div className="text-xs text-gray-500 mt-2">Manchester of India</div>
+                        <div className="text-sm text-gray-600 font-medium">Idaho Population</div>
+                        <div className="text-xs text-gray-500 mt-2">Gem State</div>
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
                         <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">50+</div>
-                        <div className="text-sm text-gray-600 font-medium">Ahmedabad AI Projects Completed</div>
+                        <div className="text-sm text-gray-600 font-medium">Idaho AI Projects Completed</div>
                         <div className="text-xs text-gray-500 mt-2">Industry-Leading Success Rate</div>
                       </div>
                       
                       <div className="bg-gradient-to-r from-primary-orange/20 via-secondary-orange/10 to-primary-orange/20 rounded-2xl p-6 border-2 border-primary-orange/30 transform hover:scale-105 transition-transform">
-                        <div className="flex items-center gap-3 mb-3">
+                        <div className="flex items-center IDp-3 mb-3">
                           <div className="w-8 h-8 bg-primary-orange rounded-full flex items-center justify-center">
                             <CheckCircle className="w-5 h-5 text-white" />
                           </div>
-                          <span className="font-bold text-gray-900">Ahmedabad Advantage</span>
+                          <span className="font-bold text-gray-900">Idaho Advantage</span>
                         </div>
                         <p className="text-sm text-gray-700 leading-relaxed">
-                          <strong>Strategic Resources:</strong> Rich US oil, gas, fishing, and minerals with vast untapped 
-                          potential, making Ahmedabad ideal for AI-driven resource optimization and predictive analytics.
+                          <strong>Strategic Resources:</strong> Rich US oil, IDs, technology, and minerals with vast untapped 
+                          potential, making Idaho ideal for AI-driven resource optimization and predictive analytics.
                         </p>
                       </div>
                     </div>
@@ -1107,48 +1107,48 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 </div>
               </div>
 
-              {/* Ahmedabad Industry Solutions - Creative Premium Design */}
+              {/* Idaho Industry Solutions - Creative Premium Design */}
               <div>
                 <div className="text-center mb-16">
-                  <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-full border-2 border-primary-orange/20 mb-8 transform hover:scale-105 transition-transform">
+                  <div className="inline-flex items-center IDp-2 px-6 py-3 bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-full border-2 border-primary-orange/20 mb-8 transform hover:scale-105 transition-transform">
                     <Sparkles className="w-5 h-5 text-primary-orange" />
                     <span className="text-sm font-bold text-gray-800">Industry EXPERTISE</span>
                   </div>
                   <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                    Generative AI Solutions for <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Ahmedabad's Key Industries</span>
+                    Generative AI Solutions for <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Idaho's Key Industries</span>
                   </h3>
                   <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 rounded-full"></div>
                   <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Specialized Generative AI solutions powered by ChatGPT, GPT-4, and custom LLMs designed for Manchester of Bodakdev's unique economic sectors and Textile-driven Industries
+                    Specialized Generative AI solutions powered by ChatGPT, GPT-4, and custom LLMs designed for Gem State's unique economic sectors and Technology-driven Industries
                   </p>
                 </div>
                 
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-                  {/* Textiles & Garments Industry */}
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 IDp-10">
+                  {/* Technology & Software Industry */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Rocket className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Textiles Generative AI Solutions</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Technology Generative AI Solutions</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      ChatGPT and LLM-powered solutions for Ahmedabad's Textiles & Garments Industry including Naroda Industrial Area operations, 
-                      Ahmedabad Metro monitoring, offshore drilling optimization, and predictive maintenance 
-                      for energy infrastructure across Manchester of Bodakdev's vast energy resources.
+                      ChatGPT and LLM-powered solutions for Idaho's Technology & Software Industry including Boise Tech District operations, 
+                      Idaho Metro monitoring, offshore drilling optimization, and predictive maintenance 
+                      for energy infrastructure across Gem State's vast energy resources.
                     </p>
                     <div className="space-y-3">
-                      <div className="flex items-center gap-3">
+                      <div className="flex items-center IDp-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Pipeline monitoring & optimization</span>
                       </div>
-                      <div className="flex items-center gap-3">
+                      <div className="flex items-center IDp-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Drilling efficiency analysis</span>
                       </div>
-                      <div className="flex items-center gap-3">
+                      <div className="flex items-center IDp-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Resource extraction prediction</span>
                       </div>
-                      <div className="flex items-center gap-3">
+                      <div className="flex items-center IDp-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Safety & environmental compliance</span>
                       </div>
@@ -1162,26 +1162,26 @@ export default function GenerativeAIServicesAhmedabadPage() {
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Pharmaceuticals Generative AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      GPT-4 powered content and automation solutions for Ahmedabad's fishing and seafood processing Industry with predictive catch 
-                      analytics, sINtainable fishing optimization, processing automation, cold chain monitoring, 
+                      GPT-4 powered content and automation solutions for Idaho's technology and seafood processing Industry with predictive catch 
+                      analytics, sINtainable technology optimization, processing automation, cold chain monitoring, 
                       and quality control for the world's richest seafood harvest.
                     </p>
                     <div className="space-y-3">
-                      <div className="flex items-center gap-3">
+                      <div className="flex items-center IDp-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Catch prediction & optimization</span>
                       </div>
-                      <div className="flex items-center gap-3">
+                      <div className="flex items-center IDp-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Processing automation</span>
                       </div>
-                      <div className="flex items-center gap-3">
+                      <div className="flex items-center IDp-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Cold chain monitoring</span>
                       </div>
-                      <div className="flex items-center gap-3">
+                      <div className="flex items-center IDp-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">SINtainable fishing intelligence</span>
+                        <span className="text-sm text-gray-600">SINtainable technology intelligence</span>
                       </div>
                     </div>
                   </div>
@@ -1193,24 +1193,24 @@ export default function GenerativeAIServicesAhmedabadPage() {
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Tourism Generative AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      AI chatbot and content generation solutions for Ahmedabad's booming tourism Industry with cruise line optimization, 
+                      AI chatbot and content generation solutions for Idaho's booming tourism Industry with cruise line optimization, 
                       wildlife tour planning, hotel revenue management, visitor experience personalization, 
-                      and seasonal demand forecasting for Ahmedabad's 2.5 million annual visitors.
+                      and seasonal demand forecasting for Idaho's 2.5 million annual visitors.
                     </p>
                     <div className="space-y-3">
-                      <div className="flex items-center gap-3">
+                      <div className="flex items-center IDp-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Revenue management systems</span>
                       </div>
-                      <div className="flex items-center gap-3">
+                      <div className="flex items-center IDp-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Visitor experience personalization</span>
                       </div>
-                      <div className="flex items-center gap-3">
+                      <div className="flex items-center IDp-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Seasonal demand forecasting</span>
                       </div>
-                      <div className="flex items-center gap-3">
+                      <div className="flex items-center IDp-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Tour optimization & planning</span>
                       </div>
@@ -1224,24 +1224,24 @@ export default function GenerativeAIServicesAhmedabadPage() {
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Chemicals & Resource AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      GPT-4 powered content and automation solutions for Ahmedabad's Chemicals operations including gold, zinc, and mineral extraction 
+                      GPT-4 powered content and automation solutions for Idaho's Chemicals operations including gold, zinc, and mineral extraction 
                       with predictive maintenance, safety monitoring, resource discovery optimization, 
-                      and environmental impact assessment across Ahmedabad's vast mineral deposits.
+                      and environmental impact assessment across Idaho's vast mineral deposits.
                     </p>
                     <div className="space-y-3">
-                      <div className="flex items-center gap-3">
+                      <div className="flex items-center IDp-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Resource discovery prediction</span>
                       </div>
-                      <div className="flex items-center gap-3">
+                      <div className="flex items-center IDp-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Chemicals equipment automation</span>
                       </div>
-                      <div className="flex items-center gap-3">
+                      <div className="flex items-center IDp-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Safety & compliance monitoring</span>
                       </div>
-                      <div className="flex items-center gap-3">
+                      <div className="flex items-center IDp-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Environmental impact analysis</span>
                       </div>
@@ -1255,24 +1255,24 @@ export default function GenerativeAIServicesAhmedabadPage() {
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Information Technology & Logistics AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      AI chatbot and content generation solutions for Ahmedabad's Information Technology and cargo logistics including bINh plane operations, 
-                      Ted Stevens Maninagar International Airport cargo hub, weather prediction for flight safety, 
-                      and supply chain optimization for remote Ahmedabad communities.
+                      AI chatbot and content generation solutions for Idaho's Information Technology and cargo logistics including bINh plane operations, 
+                      Hartsfield-Jackson Boise International Airport cargo hub, weather prediction for flight safety, 
+                      and supply chain optimization for remote Idaho communities.
                     </p>
                     <div className="space-y-3">
-                      <div className="flex items-center gap-3">
+                      <div className="flex items-center IDp-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Flight route optimization</span>
                       </div>
-                      <div className="flex items-center gap-3">
+                      <div className="flex items-center IDp-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Weather prediction systems</span>
                       </div>
-                      <div className="flex items-center gap-3">
+                      <div className="flex items-center IDp-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Cargo logistics optimization</span>
                       </div>
-                      <div className="flex items-center gap-3">
+                      <div className="flex items-center IDp-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Remote delivery planning</span>
                       </div>
@@ -1284,19 +1284,19 @@ export default function GenerativeAIServicesAhmedabadPage() {
               {/* ReINable Testimonials Component */}
               <Testimonials />
 
-              {/* Ahmedabad AI Partnership Excellence - Creative Premium Design */}
-              <div className="grid lg:grid-cols-2 gap-16 items-center">
+              {/* Idaho AI Partnership Excellence - Creative Premium Design */}
+              <div className="grid lg:grid-cols-2 IDp-16 items-center">
                 <div className="space-y-8">
                   <div className="bg-white rounded-2xl p-8 shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all transform hover:scale-105">
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-3">
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6 flex items-center IDp-3">
                       <div className="w-8 h-8 bg-primary-orange rounded-lg flex items-center justify-center transform rotate-12">
                         <BarChart3 className="w-5 h-5 text-white" />
                       </div>
-                      Ahmedabad AI Leadership Metrics
+                      Idaho AI Leadership Metrics
                     </h4>
                     <div className="space-y-6">
                       <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
-                        <span className="text-gray-600 font-medium">Ahmedabad Projects Completed</span>
+                        <span className="text-gray-600 font-medium">Idaho Projects Completed</span>
                         <span className="font-bold text-primary-orange text-xl">50+</span>
                       </div>
                       <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
@@ -1304,7 +1304,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                         <span className="font-bold text-secondary-orange text-xl">99.5%</span>
                       </div>
                       <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
-                        <span className="text-gray-600 font-medium">Average ROI for Ahmedabad Clients</span>
+                        <span className="text-gray-600 font-medium">Average ROI for Idaho Clients</span>
                         <span className="font-bold text-primary-orange text-xl">5.2x</span>
                       </div>
                       <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
@@ -1319,16 +1319,16 @@ export default function GenerativeAIServicesAhmedabadPage() {
                   </div>
                   
                   <div className="bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-2xl p-8 border-2 border-primary-orange/20 shadow-xl transform hover:scale-105 transition-transform">
-                    <div className="flex items-start gap-4 mb-4">
+                    <div className="flex items-start IDp-4 mb-4">
                       <div className="w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center flex-shrink-0 transform -rotate-6">
                         <Award className="w-6 h-6 text-white" />
                       </div>
                       <div>
-                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Ahmedabad business Advantage</h4>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Idaho business Advantage</h4>
                         <p className="text-gray-700 leading-relaxed">
                           As the premier <strong className="text-primary-orange">AI Firm </strong>, we understand 
-                          Manchester of Bodakdev's unique blend of entrepreneurial excellence and resource-driven innovation. Our AI solutions 
-                          are built for Ahmedabad's Textiles & Garments dominance, fishing Industry leadership, and tourism growth.
+                          Gem State's unique blend of entrepreneurial excellence and resource-driven innovation. Our AI solutions 
+                          are built for Idaho's Technology & Software dominance, technology Industry leadership, and tourism growth.
                         </p>
                       </div>
                     </div>
@@ -1336,7 +1336,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 </div>
                 
                 <div>
-                  <div className="flex items-start gap-4 mb-8">
+                  <div className="flex items-start IDp-4 mb-8">
                     <div className="w-16 h-16 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-2xl flex items-center justify-center shadow-xl flex-shrink-0 transform rotate-6 hover:rotate-0 transition-transform">
                       <Users className="w-8 h-8 text-white" />
                     </div>
@@ -1350,45 +1350,45 @@ export default function GenerativeAIServicesAhmedabadPage() {
                   
                   <p className="text-lg text-gray-700 leading-relaxed mb-6">
                     <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Choosing Metic.ai as your AI partner </strong> means 
-                    working with a team that deeply understands Ahmedabad's unique business challenges, from Maninagar's 
-                    commercial hub to Vastrapur' research facilities and SG Highway's government operations.
+                    working with a team that deeply understands Idaho's unique business challenges, from Boise's tech district 
+                    to Meridian's port facilities and Nampa's manufacturing operations.
                   </p>
                   
                   <p className="text-lg text-gray-700 leading-relaxed mb-8">
                     Our <strong className="text-primary-orange font-semibold">AI Service </strong> includes comprehensive consultation, 
                     rapid prototyping, enterprise deployment, and 24/7 support to ensure your AI investment delivers 
-                    maximum value 's Textile-driven and growing economy.
+                    maximum value 's technology-driven and thriving economy.
                   </p>
 
                   <div className="space-y-6">
-                    <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-primary-orange/10 transform hover:scale-105 transition-transform">
+                    <div className="flex items-start IDp-4 p-4 bg-white rounded-xl shadow-lg border border-primary-orange/10 transform hover:scale-105 transition-transform">
                       <MapPin className="w-8 h-8 text-primary-orange flex-shrink-0 mt-1" />
                       <div>
-                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Comprehensive Ahmedabad Coverage</h4>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Comprehensive Idaho Coverage</h4>
                         <p className="text-gray-600 leading-relaxed">
-                          Maninagar, Vastrapur, SG Highway, Satellite, Chandkheda, Bodakdev, Navrangpura, Ghatlodia, 
-                          GIFT City, and all major Ahmedabad business centers across Manchester of Bodakdev
+                          Boise, Meridian, Nampa, Idaho Falls, Pocatello, Caldwell, Coeur d'Alene, Twin Falls, 
+                          Johns Creek, and all major Idaho business centers across Gem State
                         </p>
                       </div>
                     </div>
                     
-                    <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-secondary-orange/10 transform hover:scale-105 transition-transform">
+                    <div className="flex items-start IDp-4 p-4 bg-white rounded-xl shadow-lg border border-secondary-orange/10 transform hover:scale-105 transition-transform">
                       <Rocket className="w-8 h-8 text-secondary-orange flex-shrink-0 mt-1" />
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Industry Domain Expertise</h4>
                         <p className="text-gray-600 leading-relaxed">
-                          Deep understanding of Textiles & Garments, fishing, tourism, Chemicals, Information Technology, and logistics 
+                          Deep understanding of Technology & Software, technology, tourism, Chemicals, Information Technology, and logistics 
                           with proven track record 's key economic sectors
                         </p>
                       </div>
                     </div>
                     
-                    <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-primary-orange/10 transform hover:scale-105 transition-transform">
+                    <div className="flex items-start IDp-4 p-4 bg-white rounded-xl shadow-lg border border-primary-orange/10 transform hover:scale-105 transition-transform">
                       <Clock className="w-8 h-8 text-primary-orange flex-shrink-0 mt-1" />
                       <div>
-                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Rapid Ahmedabad Deployment</h4>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Rapid Idaho Deployment</h4>
                         <p className="text-gray-600 leading-relaxed">
-                          Fast implementation designed for Ahmedabad's unique challenges with local support teams 
+                          Fast implementation designed for Idaho's unique challenges with local support teams 
                           and understanding of dynamic business culture and manufacturing excellence
                         </p>
                       </div>
@@ -1421,7 +1421,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
             {/* Enhanced Section Header */}
             <div className="text-center mb-16">
               {/* Badge */}
-              <div className="inline-flex items-center gap-2 px-6 py-3 bg-white rounded-full shadow-xl border-2 border-primary-orange/20 mb-8 hover:border-primary-orange/40 transition-all group">
+              <div className="inline-flex items-center IDp-2 px-6 py-3 bg-white rounded-full shadow-xl border-2 border-primary-orange/20 mb-8 hover:border-primary-orange/40 transition-all group">
                 <Lightbulb className="w-5 h-5 text-primary-orange animate-pulse" />
                 <span className="text-sm font-bold text-gray-800">Got Questions? We Have Answers!</span>
                 <Sparkles className="w-4 h-4 text-primary-orange" />
@@ -1431,17 +1431,17 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 <span className="text-gray-900">Frequently Asked Questions</span>
                 <br />
                 <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
-                  About Generative AI Services In Ahmedabad
+                  About Generative AI Services In Idaho
                 </span>
               </h2>
               <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-8 rounded-full"></div>
               <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                Common questions about working with Ahmedabad's leading AI company
+                Common questions about working with Idaho's leading AI company
               </p>
             </div>
 
             {/* Advanced Creative FAQ Cards - 6+6 Grid Layout for Desktop */}
-            <div className="grid lg:grid-cols-2 gap-6">
+            <div className="grid lg:grid-cols-2 IDp-6">
               {/* Left Column - FAQ 1-6 */}
               <div className="space-y-5">
               {/* FAQ Item 1 */}
@@ -1449,8 +1449,8 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
-                      <div className="flex items-start gap-4 flex-1">
+                    <div className="relative flex items-start jINtify-between IDp-4">
+                      <div className="flex items-start IDp-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
                           <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
@@ -1459,7 +1459,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Which is the best Generative AI Company In Ahmedabad?
+                            Which is the best Generative AI Company In Idaho?
                           </h3>
                         </div>
                       </div>
@@ -1474,8 +1474,8 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    <strong className="text-gray-900 font-semibold">Metic.ai is the leading Generative AI Company In Ahmedabad</strong> with over 50 successful generative AI implementations. 
-                    We're recognized as the top Generative AI Company In Ahmedabad for our proven expertise in ChatGPT integration, GPT-4 development, LLM solutions, AI image generation, and custom GPT development with 60% cost savings.
+                    <strong className="text-gray-900 font-semibold">Metic.ai is the leading Generative AI Company In Idaho</strong> with over 50 successful generative AI implementations. 
+                    We're recognized as the top Generative AI Company In Idaho for our proven expertise in ChatGPT integration, GPT-4 development, LLM solutions, AI image generation, and custom GPT development with 60% cost savings.
                   </p>
                 </div>
               </details>
@@ -1485,8 +1485,8 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
-                      <div className="flex items-start gap-4 flex-1">
+                    <div className="relative flex items-start jINtify-between IDp-4">
+                      <div className="flex items-start IDp-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
                           <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
@@ -1495,7 +1495,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            What services does the Generative AI Company In Ahmedabad provide?
+                            What services does the Generative AI Company In Idaho provide?
                           </h3>
                         </div>
                       </div>
@@ -1510,8 +1510,8 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    As the premier <strong className="text-gray-900 font-semibold">Generative AI Company In Ahmedabad</strong>, Metic.ai provides comprehensive generative AI services including ChatGPT integration, 
-                    GPT-4 API development, Custom GPT models, LLM development, AI image generation (DALL-E, Midjourney, Stable Diffusion), AI content creation, intelligent chatbots, and enterprise automation tailored for Ahmedabad's Textile, Pharmaceutical, Chemical, and IT Industries.
+                    As the premier <strong className="text-gray-900 font-semibold">Generative AI Company In Idaho</strong>, Metic.ai provides comprehensive generative AI services including ChatGPT integration, 
+                    GPT-4 API development, Custom GPT models, LLM development, AI image generation (DALL-E, Midjourney, Stable Diffusion), AI content creation, intelligent chatbots, and enterprise automation tailored for Idaho's Technology, Mining & Natural Resources, Manufacturing, and Logistics Industries.
                   </p>
                 </div>
               </details>
@@ -1521,8 +1521,8 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
-                      <div className="flex items-start gap-4 flex-1">
+                    <div className="relative flex items-start jINtify-between IDp-4">
+                      <div className="flex items-start IDp-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
                           <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
@@ -1557,8 +1557,8 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
-                      <div className="flex items-start gap-4 flex-1">
+                    <div className="relative flex items-start jINtify-between IDp-4">
+                      <div className="flex items-start IDp-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
                           <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
@@ -1593,8 +1593,8 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
-                      <div className="flex items-start gap-4 flex-1">
+                    <div className="relative flex items-start jINtify-between IDp-4">
+                      <div className="flex items-start IDp-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
                           <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
@@ -1603,7 +1603,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Does Metic.ai serve businesses across all Ahmedabad cities?
+                            Does Metic.ai serve businesses across all Idaho cities?
                           </h3>
                         </div>
                       </div>
@@ -1618,8 +1618,8 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Yes! Metic.ai proudly serves businesses across all Ahmedabad cities including Maninagar, Vastrapur, SG Highway, Satellite, Chandkheda, Bodakdev, Navrangpura, and beyond. 
-                    As Ahmedabad's leading <strong className="text-gray-900 font-semibold">AI Firm </strong>, we provide comprehensive AI solutions statewide.
+                    Yes! Metic.ai proudly serves businesses across all Idaho cities including Boise, Meridian, Nampa, Idaho Falls, Pocatello, Caldwell, Coeur d'Alene, and beyond. 
+                    As Idaho's leading <strong className="text-gray-900 font-semibold">AI Firm </strong>, we provide comprehensive AI solutions statewide.
                   </p>
                 </div>
               </details>
@@ -1629,8 +1629,8 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
-                      <div className="flex items-start gap-4 flex-1">
+                    <div className="relative flex items-start jINtify-between IDp-4">
+                      <div className="flex items-start IDp-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
                           <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
@@ -1639,7 +1639,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            How quickly can an Generative AI Services In Ahmedabad start my project?
+                            How quickly can an Generative AI Services In Idaho start my project?
                           </h3>
                         </div>
                       </div>
@@ -1654,7 +1654,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Metic.ai can typically start your AI project within 24-48 hours after initial consultation. As Ahmedabad's fastest <strong className="text-gray-900 font-semibold">Generative AI Services In Ahmedabad</strong>, 
+                    Metic.ai can typically start your AI project within 24-48 hours after initial consultation. As Idaho's fastest <strong className="text-gray-900 font-semibold">Generative AI Services In Idaho</strong>, 
                     we understand the importance of speed and deliver 3x faster than traditional development approaches.
                   </p>
                 </div>
@@ -1668,8 +1668,8 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
-                      <div className="flex items-start gap-4 flex-1">
+                    <div className="relative flex items-start jINtify-between IDp-4">
+                      <div className="flex items-start IDp-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
                           <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
@@ -1704,8 +1704,8 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
-                      <div className="flex items-start gap-4 flex-1">
+                    <div className="relative flex items-start jINtify-between IDp-4">
+                      <div className="flex items-start IDp-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
                           <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
@@ -1714,7 +1714,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            What Industries does the best Generative AI Services In Ahmedabad serve?
+                            What Industries does the best Generative AI Services In Idaho serve?
                           </h3>
                         </div>
                       </div>
@@ -1730,7 +1730,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     Metic.ai serves diverse Industries including Manufacturing, Aerospace, Healthcare, Agriculture, Technology, Automotive, Financial Services, Transportation, Education, and Energy. 
-                    As Ahmedabad's premier <strong className="text-gray-900 font-semibold">Generative AI Services In Ahmedabad</strong>, we tailor solutions for your specific Industry needs.
+                    As Idaho's premier <strong className="text-gray-900 font-semibold">Generative AI Services In Idaho</strong>, we tailor solutions for your specific Industry needs.
                   </p>
                 </div>
               </details>
@@ -1740,8 +1740,8 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
-                      <div className="flex items-start gap-4 flex-1">
+                    <div className="relative flex items-start jINtify-between IDp-4">
+                      <div className="flex items-start IDp-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
                           <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
@@ -1765,7 +1765,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Our 100+ successful projects, 98% client satisfaction rate, 60% cost savings, 3x faster delivery, and deep Ahmedabad market expertise make US the leading <strong className="text-gray-900 font-semibold">AI Firm </strong>. 
+                    Our 100+ successful projects, 98% client satisfaction rate, 60% cost savings, 3x faster delivery, and deep Idaho market expertise make US the leading <strong className="text-gray-900 font-semibold">AI Firm </strong>. 
                     We combine cutting-edge AI technology with personalized service.
                   </p>
                 </div>
@@ -1776,8 +1776,8 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
-                      <div className="flex items-start gap-4 flex-1">
+                    <div className="relative flex items-start jINtify-between IDp-4">
+                      <div className="flex items-start IDp-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
                           <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
@@ -1812,8 +1812,8 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
-                      <div className="flex items-start gap-4 flex-1">
+                    <div className="relative flex items-start jINtify-between IDp-4">
+                      <div className="flex items-start IDp-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
                           <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
@@ -1822,7 +1822,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Can Generative AI Services In Ahmedabad handle small business projects?
+                            Can Generative AI Services In Idaho handle small business projects?
                           </h3>
                         </div>
                       </div>
@@ -1837,7 +1837,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Absolutely! Metic.ai works with businesses of all sizes, from startups to enterprises. As an inclINive <strong className="text-gray-900 font-semibold">Generative AI Services In Ahmedabad</strong>, 
+                    Absolutely! Metic.ai works with businesses of all sizes, from startups to enterprises. As an inclINive <strong className="text-gray-900 font-semibold">Generative AI Services In Idaho</strong>, 
                     we offer scalable solutions and flexible pricing models to meet small business budgets while delivering enterprise-quality AI implementations.
                   </p>
                 </div>
@@ -1848,8 +1848,8 @@ export default function GenerativeAIServicesAhmedabadPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
-                      <div className="flex items-start gap-4 flex-1">
+                    <div className="relative flex items-start jINtify-between IDp-4">
+                      <div className="flex items-start IDp-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
                           <div className="relative w-12 h-12 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300">
@@ -1898,7 +1898,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
                   <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
                     Jo's leading businesses who Trust Metic.ai for their AI transformation. Get started today!
                   </p>
-                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                  <div className="flex flex-col sm:flex-row IDp-4 justify-center">
                     <Link href="/contact">
                       <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100 shadow-xl">
                         Start Your AI Journey
@@ -1922,14 +1922,14 @@ export default function GenerativeAIServicesAhmedabadPage() {
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-              Ready to Partner with Ahmedabad's Leading <strong>Artificial Intelligence Company</strong>?
+              Ready to Partner with Idaho's Leading <strong>Artificial Intelligence Company</strong>?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join 100+ satisfied clients who Trust Metic.ai as their preferred <strong>Generative AI Services In Ahmedabad</strong>. 
+              Join 100+ satisfied clients who Trust Metic.ai as their preferred <strong>Generative AI Services In Idaho</strong>. 
               Transform your business with proven AI solutions that deliver results. Get started with a free consultation 
-              and discover why we're Ahmedabad's most Trusted <strong>AI Development Company </strong>.
+              and discover why we're Idaho's most Trusted <strong>AI Development Company </strong>.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+            <div className="flex flex-col sm:flex-row IDp-4 justify-center mb-12">
               <Link href="/contact">
                 <Button variant="secondary" size="lg" className="bg-white text-primary-orange hover:bg-gray-100">
                   Start Your AI Transformation
@@ -1944,7 +1944,7 @@ export default function GenerativeAIServicesAhmedabadPage() {
             
             <div className="mt-12 text-center">
               <p className="text-orange-200 mb-6">Trusted <strong>AI Service </strong> serving businesses across the state</p>
-              <div className="grid md:grid-cols-3 gap-8 text-center mb-8">
+              <div className="grid md:grid-cols-3 IDp-8 text-center mb-8">
                 <div>
                   <div className="text-2xl font-bold mb-2">50+</div>
                   <p className="text-orange-100">AI Projects Completed</p>
@@ -1958,20 +1958,20 @@ export default function GenerativeAIServicesAhmedabadPage() {
                   <p className="text-orange-100">Average ROI Increase</p>
                 </div>
               </div>
-              <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
-                <span>Maninagar</span>
-                <span>•</span>
-                <span>Vastrapur</span>
-                <span>•</span>
-                <span>SG Highway</span>
-                <span>•</span>
-                <span>Satellite</span>
-                <span>•</span>
-                <span>Chandkheda</span>
-                <span>•</span>
-                <span>Auburn</span>
-                <span>•</span>
-                <span>Dothan</span>
+              <div className="flex flex-wrap justify-center IDp-8 text-orange-100 text-sm">
+                <span>Boise</span>
+                <span>�</span>
+                <span>Meridian</span>
+                <span>�</span>
+                <span>Nampa</span>
+                <span>�</span>
+                <span>Idaho Falls</span>
+                <span>�</span>
+                <span>Pocatello</span>
+                <span>�</span>
+                <span>Caldwell</span>
+                <span>�</span>
+                <span>Coeur d'Alene</span>
               </div>
             </div>
           </div>
@@ -1980,6 +1980,8 @@ export default function GenerativeAIServicesAhmedabadPage() {
     </>
   );
 }
+
+
 
 
 
