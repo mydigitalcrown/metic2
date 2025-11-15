@@ -127,7 +127,7 @@ export default function GenerativeAIServicesIowaPage() {
       description: "Harness the power of Large Language Models for intelligent chatbots, automation, and business solutions.",
       icon: Sparkles,
       href: "/generative-ai-services",
-      color: "USDigo" as const
+      color: "indigo" as const
     },
     {
       title: "AI Automation",
@@ -564,7 +564,7 @@ export default function GenerativeAIServicesIowaPage() {
                   purple: "bg-purple-100 text-purple-600", 
                   green: "bg-green-100 text-green-600",
                   orange: "bg-orange-100 text-orange-600",
-                  USDigo: "bg-USDigo-100 text-USDigo-600",
+                  indigo: "bg-indigo-100 text-indigo-600",
                   red: "bg-red-100 text-red-600"
                 };
                 
@@ -1250,7 +1250,7 @@ export default function GenerativeAIServicesIowaPage() {
                   
                   {/* Information Technology & Logistics */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
-                    <div className="w-20 h-20 bg-gradient-to-br from-USDigo-500 to-USDigo-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                    <div className="w-20 h-20 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Sparkles className="w-10 h-10 text-white" />
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Information Technology & Logistics AI</h4>
