@@ -913,12 +913,12 @@ export default function GenerativeAIServicesMainePage() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Why Choose Metic.ai as Your <span className="text-primary-orange">AI Firm In Maine</span>
+                Why Choose Metic.ai as Your <span className="text-primary-orange">Generative AI Company In Maine</span>
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                As the premier <strong>AI Development Company In Maine</strong>, we're Trusted by businesses across Maine 
-                for our expertise, proven results, and commitment to client success in Manchester of USDia.
+                As the premier <strong>Generative AI Company In Maine</strong>, we're Trusted by businesses across Maine 
+                for our expertise, proven results, and commitment to client success throughout the Pine Tree State.
               </p>
             </div>
             
