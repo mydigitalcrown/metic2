@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Button } from "../components/ui/Button";
 import Testimonials from "../components/Testimonials";
 import { 
@@ -58,13 +58,13 @@ export const metadata = {
   openGraph: {
     title: "Generative AI Company In Hawaii | #1 Generative AI Services In Hawaii - Metic.ai",
     description: "Leading Generative AI Company In Hawaii with 50+ successful AI implementations. Expert AI services, Generative AI solutions & AI development for Hawaii businesses.",
-    url: "https://metic.ai/generative-ai-services-in-Hawaii/",
+    url: "https://metic.ai/generative-ai-services-in-hawaii/",
     type: "website",
     locale: "en_US",
     siteName: "Metic.ai - Generative AI Services In Hawaii",
     images: [
       {
-        url: "https://metic.ai/og-generative-ai-Hawaii.jpg",
+        url: "https://metic.ai/og-generative-ai-hawaii.jpg",
         width: 1200,
         height: 630,
         alt: "Generative AI Company In Hawaii - Metic.ai",
@@ -76,12 +76,12 @@ export const metadata = {
     card: "summary_large_image",
     title: "Generative AI Company In Hawaii | Generative AI Services In Hawaii",
     description: "Leading Generative AI Services In Hawaii delivering enterprise artificial intelligence solutions. Expert AI development, Generative AI & automation services with proven results.",
-    images: ["https://metic.ai/og-generative-ai-Hawaii.jpg"],
+    images: ["https://metic.ai/og-generative-ai-hawaii.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/generative-ai-services-in-Hawaii/",
+    canonical: "https://metic.ai/generative-ai-services-in-hawaii/",
   },
   verification: {
     google: "google-site-verification-code",
@@ -172,7 +172,7 @@ export default function GenerativeAIServicesHawaiiPage() {
             "name": "Metic.ai - Generative AI Company In Hawaii",
             "alternateName": ["Generative AI Services In Hawaii", "Metic AI", "AI Firm Hawaii"],
             "description": "Leading Generative AI Company In Hawaii providing enterprise AI solutions, Generative AI development, and Custom AI services for businesses across Hawaii.",
-            "url": "https://metic.ai/generative-ai-services-in-Hawaii/",
+            "url": "https://metic.ai/generative-ai-services-in-hawaii/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
@@ -355,7 +355,7 @@ export default function GenerativeAIServicesHawaiiPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/generative-ai-services-in-Hawaii/",
+            "mainEntityOfPage": "https://metic.ai/generative-ai-services-in-hawaii/",
             "keywords": "Generative AI Company In Hawaii, Generative AI Services In Hawaii, AI Service "
           })
         }}
@@ -385,7 +385,7 @@ export default function GenerativeAIServicesHawaiiPage() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Generative AI Company In Hawaii",
-                "item": "https://metic.ai/generative-ai-services-in-Hawaii/"
+                "item": "https://metic.ai/generative-ai-services-in-hawaii/"
               }
             ]
           })
@@ -417,7 +417,7 @@ export default function GenerativeAIServicesHawaiiPage() {
               "latitude": "21.3099",
               "longitude": "-157.8581"
             },
-            "url": "https://metic.ai/generative-ai-services-in-Hawaii/",
+            "url": "https://metic.ai/generative-ai-services-in-hawaii/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",

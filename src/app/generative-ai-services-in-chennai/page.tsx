@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Button } from "../components/ui/Button";
 import Testimonials from "../components/Testimonials";
 import { 
@@ -58,13 +58,13 @@ export const metadata = {
   openGraph: {
     title: "Generative AI Company In Chennai | #1 Generative AI Services In Chennai - Metic.ai",
     description: "Leading Generative AI Company In Chennai with 50+ successful AI implementations. Expert AI services, Generative AI solutions & AI development for Chennai businesses.",
-    url: "https://metic.ai/generative-ai-services-in-Chennai/",
+    url: "https://metic.ai/generative-ai-services-in-chennai/",
     type: "website",
     locale: "en_IN",
     siteName: "Metic.ai - Generative AI Services In Chennai",
     images: [
       {
-        url: "https://metic.ai/og-generative-ai-Chennai.jpg",
+        url: "https://metic.ai/og-generative-ai-chennai.jpg",
         width: 1200,
         height: 630,
         alt: "Generative AI Company In Chennai - Metic.ai",
@@ -76,12 +76,12 @@ export const metadata = {
     card: "summary_large_image",
     title: "Generative AI Company In Chennai | Generative AI Services In Chennai",
     description: "Leading Generative AI Services In Chennai delivering enterprise artificial intelligence solutions. Expert AI development, Generative AI & automation services with proven results.",
-    images: ["https://metic.ai/og-generative-ai-Chennai.jpg"],
+    images: ["https://metic.ai/og-generative-ai-chennai.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/generative-ai-services-in-Chennai/",
+    canonical: "https://metic.ai/generative-ai-services-in-chennai/",
   },
   verification: {
     google: "google-site-verification-code",
@@ -172,7 +172,7 @@ export default function GenerativeAIServicesChennaiPage() {
             "name": "Metic.ai - Generative AI Company In Chennai",
             "alternateName": ["Generative AI Services In Chennai", "Metic AI", "AI Firm Chennai"],
             "description": "Leading Generative AI Company In Chennai providing enterprise AI solutions, Generative AI development, and Custom AI services for businesses across Chennai.",
-            "url": "https://metic.ai/generative-ai-services-in-Chennai/",
+            "url": "https://metic.ai/generative-ai-services-in-chennai/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
@@ -355,7 +355,7 @@ export default function GenerativeAIServicesChennaiPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/generative-ai-services-in-Chennai/",
+            "mainEntityOfPage": "https://metic.ai/generative-ai-services-in-chennai/",
             "keywords": "Generative AI Company In Chennai, Generative AI Services In Chennai, AI Service "
           })
         }}
@@ -385,7 +385,7 @@ export default function GenerativeAIServicesChennaiPage() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Generative AI Company In Chennai",
-                "item": "https://metic.ai/generative-ai-services-in-Chennai/"
+                "item": "https://metic.ai/generative-ai-services-in-chennai/"
               }
             ]
           })
@@ -417,7 +417,7 @@ export default function GenerativeAIServicesChennaiPage() {
               "latitude": "43.0150",
               "longitude": "-85.5796"
             },
-            "url": "https://metic.ai/generative-ai-services-in-Chennai/",
+            "url": "https://metic.ai/generative-ai-services-in-chennai/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",

@@ -58,13 +58,13 @@ export const metadata = {
   openGraph: {
     title: "Generative AI Company In Bangalore | #1 Generative AI Services In Bangalore - Metic.ai",
     description: "Leading Generative AI Company In Bangalore with 50+ successful AI implementations. Expert AI services, Generative AI solutions & AI development for Bangalore businesses.",
-    url: "https://metic.ai/generative-ai-services-in-Bangalore/",
+    url: "https://metic.ai/generative-ai-services-in-bangalore/",
     type: "website",
     locale: "en_IN",
     siteName: "Metic.ai - Generative AI Services In Bangalore",
     images: [
       {
-        url: "https://metic.ai/og-generative-ai-Bangalore.jpg",
+        url: "https://metic.ai/og-generative-ai-bangalore.jpg",
         width: 1200,
         height: 630,
         alt: "Generative AI Company In Bangalore - Metic.ai",
@@ -76,12 +76,12 @@ export const metadata = {
     card: "summary_large_image",
     title: "Generative AI Company In Bangalore | Generative AI Services In Bangalore",
     description: "Leading Generative AI Services In Bangalore delivering enterprise artificial intelligence solutions. Expert AI development, Generative AI & automation services with proven results.",
-    images: ["https://metic.ai/og-generative-ai-Bangalore.jpg"],
+    images: ["https://metic.ai/og-generative-ai-bangalore.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/generative-ai-services-in-Bangalore/",
+    canonical: "https://metic.ai/generative-ai-services-in-bangalore/",
   },
   verification: {
     google: "google-site-verification-code",
@@ -172,7 +172,7 @@ export default function GenerativeAIServicesBangalorePage() {
             "name": "Metic.ai - Generative AI Company In Bangalore",
             "alternateName": ["Generative AI Services In Bangalore", "Metic AI", "AI Firm Bangalore"],
             "description": "Leading Generative AI Company In Bangalore providing enterprise AI solutions, Generative AI development, and Custom AI services for businesses across Bangalore.",
-            "url": "https://metic.ai/generative-ai-services-in-Bangalore/",
+            "url": "https://metic.ai/generative-ai-services-in-bangalore/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
@@ -355,7 +355,7 @@ export default function GenerativeAIServicesBangalorePage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/generative-ai-services-in-Bangalore/",
+            "mainEntityOfPage": "https://metic.ai/generative-ai-services-in-bangalore/",
             "keywords": "Generative AI Company In Bangalore, Generative AI Services In Bangalore, AI Service "
           })
         }}
@@ -385,7 +385,7 @@ export default function GenerativeAIServicesBangalorePage() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Generative AI Company In Bangalore",
-                "item": "https://metic.ai/generative-ai-services-in-Bangalore/"
+                "item": "https://metic.ai/generative-ai-services-in-bangalore/"
               }
             ]
           })
@@ -417,7 +417,7 @@ export default function GenerativeAIServicesBangalorePage() {
               "latitude": "32.3182",
               "longitude": "-86.9023"
             },
-            "url": "https://metic.ai/generative-ai-services-in-Bangalore/",
+            "url": "https://metic.ai/generative-ai-services-in-bangalore/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",

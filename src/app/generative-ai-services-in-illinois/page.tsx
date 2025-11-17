@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Button } from "../components/ui/Button";
 import Testimonials from "../components/Testimonials";
 import { 
@@ -58,13 +58,13 @@ export const metadata = {
   openGraph: {
     title: "Generative AI Company In Illinois | #1 Generative AI Services In Illinois - Metic.ai",
     description: "Leading Generative AI Company In Illinois with 50+ successful AI implementations. Expert AI services, Generative AI solutions & AI development for Illinois businesses.",
-    url: "https://metic.ai/generative-ai-services-in-Illinois/",
+    url: "https://metic.ai/generative-ai-services-in-illinois/",
     type: "website",
     locale: "en_US",
     siteName: "Metic.ai - Generative AI Services In Illinois",
     images: [
       {
-        url: "https://metic.ai/og-generative-ai-Illinois.jpg",
+        url: "https://metic.ai/og-generative-ai-illinois.jpg",
         width: 1200,
         height: 630,
         alt: "Generative AI Company In Illinois - Metic.ai",
@@ -76,12 +76,12 @@ export const metadata = {
     card: "summary_large_image",
     title: "Generative AI Company In Illinois | Generative AI Services In Illinois",
     description: "Leading Generative AI Services In Illinois delivering enterprise artificial intelligence solutions. Expert AI development, Generative AI & automation services with proven results.",
-    images: ["https://metic.ai/og-generative-ai-Illinois.jpg"],
+    images: ["https://metic.ai/og-generative-ai-illinois.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/generative-ai-services-in-Illinois/",
+    canonical: "https://metic.ai/generative-ai-services-in-illinois/",
   },
   verification: {
     google: "google-site-verification-code",
@@ -172,7 +172,7 @@ export default function GenerativeAIServicesIllinoisPage() {
             "name": "Metic.ai - Generative AI Company In Illinois",
             "alternateName": ["Generative AI Services In Illinois", "Metic AI", "AI Firm Illinois"],
             "description": "Leading Generative AI Company In Illinois providing enterprise AI solutions, Generative AI development, and Custom AI services for businesses across Illinois.",
-            "url": "https://metic.ai/generative-ai-services-in-Illinois/",
+            "url": "https://metic.ai/generative-ai-services-in-illinois/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
@@ -355,7 +355,7 @@ export default function GenerativeAIServicesIllinoisPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/generative-ai-services-in-Illinois/",
+            "mainEntityOfPage": "https://metic.ai/generative-ai-services-in-illinois/",
             "keywords": "Generative AI Company In Illinois, Generative AI Services In Illinois, AI Service "
           })
         }}
@@ -385,7 +385,7 @@ export default function GenerativeAIServicesIllinoisPage() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Generative AI Company In Illinois",
-                "item": "https://metic.ai/generative-ai-services-in-Illinois/"
+                "item": "https://metic.ai/generative-ai-services-in-illinois/"
               }
             ]
           })
@@ -417,7 +417,7 @@ export default function GenerativeAIServicesIllinoisPage() {
               "latitude": "41.8781",
               "longitude": "-87.6298"
             },
-            "url": "https://metic.ai/generative-ai-services-in-Illinois/",
+            "url": "https://metic.ai/generative-ai-services-in-illinois/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",

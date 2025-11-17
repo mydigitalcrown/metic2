@@ -58,13 +58,13 @@ export const metadata = {
   openGraph: {
     title: "Generative AI Company In Maryland | #1 Generative AI Services In Maryland - Metic.ai",
     description: "Leading Generative AI Company In Maryland with 50+ successful AI implementations. Expert AI services, Generative AI solutions & AI development for Maryland businesses.",
-    url: "https://metic.ai/generative-ai-services-in-Maryland/",
+    url: "https://metic.ai/generative-ai-services-in-maryland/",
     type: "website",
     locale: "en_US",
     siteName: "Metic.ai - Generative AI Services In Maryland",
     images: [
       {
-        url: "https://metic.ai/og-generative-ai-Maryland.jpg",
+        url: "https://metic.ai/og-generative-ai-maryland.jpg",
         width: 1200,
         height: 630,
         alt: "Generative AI Company In Maryland - Metic.ai",
@@ -76,12 +76,12 @@ export const metadata = {
     card: "summary_large_image",
     title: "Generative AI Company In Maryland | Generative AI Services In Maryland",
     description: "Leading Generative AI Services In Maryland delivering enterprise artificial intelligence solutions. Expert AI development, Generative AI & automation services with proven results.",
-    images: ["https://metic.ai/og-generative-ai-Maryland.jpg"],
+    images: ["https://metic.ai/og-generative-ai-maryland.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/generative-ai-services-in-Maryland/",
+    canonical: "https://metic.ai/generative-ai-services-in-maryland/",
   },
   verification: {
     google: "google-site-verification-code",
@@ -172,7 +172,7 @@ export default function GenerativeAIServicesMarylandPage() {
             "name": "Metic.ai - Generative AI Company In Maryland",
             "alternateName": ["Generative AI Services In Maryland", "Metic AI", "AI Firm Maryland"],
             "description": "Leading Generative AI Company In Maryland providing enterprise AI solutions, Generative AI development, and Custom AI services for businesses across Maryland.",
-            "url": "https://metic.ai/generative-ai-services-in-Maryland/",
+            "url": "https://metic.ai/generative-ai-services-in-maryland/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
@@ -355,7 +355,7 @@ export default function GenerativeAIServicesMarylandPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/generative-ai-services-in-Maryland/",
+            "mainEntityOfPage": "https://metic.ai/generative-ai-services-in-maryland/",
             "keywords": "Generative AI Company In Maryland, Generative AI Services In Maryland, AI Service "
           })
         }}
@@ -385,7 +385,7 @@ export default function GenerativeAIServicesMarylandPage() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Generative AI Company In Maryland",
-                "item": "https://metic.ai/generative-ai-services-in-Maryland/"
+                "item": "https://metic.ai/generative-ai-services-in-maryland/"
               }
             ]
           })
@@ -417,7 +417,7 @@ export default function GenerativeAIServicesMarylandPage() {
               "latitude": "32.3182",
               "longitude": "-86.9023"
             },
-            "url": "https://metic.ai/generative-ai-services-in-Maryland/",
+            "url": "https://metic.ai/generative-ai-services-in-maryland/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",

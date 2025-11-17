@@ -58,13 +58,13 @@ export const metadata = {
   openGraph: {
     title: "Generative AI Company In Arkansas | #1 Generative AI Services In Arkansas - Metic.ai",
     description: "Leading Generative AI Company In Arkansas with 50+ successful AI implementations. Expert AI services, Generative AI solutions & AI development for Arkansas businesses.",
-    url: "https://metic.ai/generative-ai-services-in-Arkansas/",
+    url: "https://metic.ai/generative-ai-services-in-arkansas/",
     type: "website",
     locale: "en_IN",
     siteName: "Metic.ai - Generative AI Services In Arkansas",
     images: [
       {
-        url: "https://metic.ai/og-generative-ai-Arkansas.jpg",
+        url: "https://metic.ai/og-generative-ai-arkansas.jpg",
         width: 1200,
         height: 630,
         alt: "Generative AI Company In Arkansas - Metic.ai",
@@ -76,12 +76,12 @@ export const metadata = {
     card: "summary_large_image",
     title: "Generative AI Company In Arkansas | Generative AI Services In Arkansas",
     description: "Leading Generative AI Services In Arkansas delivering enterprise artificial intelligence solutions. Expert AI development, Generative AI & automation services with proven results.",
-    images: ["https://metic.ai/og-generative-ai-Arkansas.jpg"],
+    images: ["https://metic.ai/og-generative-ai-arkansas.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/generative-ai-services-in-Arkansas/",
+    canonical: "https://metic.ai/generative-ai-services-in-arkansas/",
   },
   verification: {
     google: "google-site-verification-code",
@@ -172,7 +172,7 @@ export default function GenerativeAIServicesArkansasPage() {
             "name": "Metic.ai - Generative AI Company In Arkansas",
             "alternateName": ["Generative AI Services In Arkansas", "Metic AI", "AI Firm Arkansas"],
             "description": "Leading Generative AI Company In Arkansas providing enterprise AI solutions, Generative AI development, and Custom AI services for businesses across Arkansas.",
-            "url": "https://metic.ai/generative-ai-services-in-Arkansas/",
+            "url": "https://metic.ai/generative-ai-services-in-arkansas/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
@@ -355,7 +355,7 @@ export default function GenerativeAIServicesArkansasPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/generative-ai-services-in-Arkansas/",
+            "mainEntityOfPage": "https://metic.ai/generative-ai-services-in-arkansas/",
             "keywords": "Generative AI Company In Arkansas, Generative AI Services In Arkansas, AI Service "
           })
         }}
@@ -385,7 +385,7 @@ export default function GenerativeAIServicesArkansasPage() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Generative AI Company In Arkansas",
-                "item": "https://metic.ai/generative-ai-services-in-Arkansas/"
+                "item": "https://metic.ai/generative-ai-services-in-arkansas/"
               }
             ]
           })
@@ -417,7 +417,7 @@ export default function GenerativeAIServicesArkansasPage() {
               "latitude": "34.7465",
               "longitude": "-92.2896"
             },
-            "url": "https://metic.ai/generative-ai-services-in-Arkansas/",
+            "url": "https://metic.ai/generative-ai-services-in-arkansas/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",

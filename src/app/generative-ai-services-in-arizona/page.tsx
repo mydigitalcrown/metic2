@@ -58,13 +58,13 @@ export const metadata = {
   openGraph: {
     title: "Generative AI Company In Arizona | #1 Generative AI Services In Arizona - Metic.ai",
     description: "Leading Generative AI Company In Arizona with 50+ successful AI implementations. Expert AI services, Generative AI solutions & AI development for Arizona businesses.",
-    url: "https://metic.ai/generative-ai-services-in-Arizona/",
+    url: "https://metic.ai/generative-ai-services-in-arizona/",
     type: "website",
     locale: "en_IN",
     siteName: "Metic.ai - Generative AI Services In Arizona",
     images: [
       {
-        url: "https://metic.ai/og-generative-ai-Arizona.jpg",
+        url: "https://metic.ai/og-generative-ai-arizona.jpg",
         width: 1200,
         height: 630,
         alt: "Generative AI Company In Arizona - Metic.ai",
@@ -76,12 +76,12 @@ export const metadata = {
     card: "summary_large_image",
     title: "Generative AI Company In Arizona | Generative AI Services In Arizona",
     description: "Leading Generative AI Services In Arizona delivering enterprise artificial intelligence solutions. Expert AI development, Generative AI & automation services with proven results.",
-    images: ["https://metic.ai/og-generative-ai-Arizona.jpg"],
+    images: ["https://metic.ai/og-generative-ai-arizona.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/generative-ai-services-in-Arizona/",
+    canonical: "https://metic.ai/generative-ai-services-in-arizona/",
   },
   verification: {
     google: "google-site-verification-code",
@@ -172,7 +172,7 @@ export default function GenerativeAIServicesArizonaPage() {
             "name": "Metic.ai - Generative AI Company In Arizona",
             "alternateName": ["Generative AI Services In Arizona", "Metic AI", "AI Firm Arizona"],
             "description": "Leading Generative AI Company In Arizona providing enterprise AI solutions, Generative AI development, and Custom AI services for businesses across Arizona.",
-            "url": "https://metic.ai/generative-ai-services-in-Arizona/",
+            "url": "https://metic.ai/generative-ai-services-in-arizona/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
@@ -355,7 +355,7 @@ export default function GenerativeAIServicesArizonaPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/generative-ai-services-in-Arizona/",
+            "mainEntityOfPage": "https://metic.ai/generative-ai-services-in-arizona/",
             "keywords": "Generative AI Company In Arizona, Generative AI Services In Arizona, AI Service "
           })
         }}
@@ -385,7 +385,7 @@ export default function GenerativeAIServicesArizonaPage() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Generative AI Company In Arizona",
-                "item": "https://metic.ai/generative-ai-services-in-Arizona/"
+                "item": "https://metic.ai/generative-ai-services-in-arizona/"
               }
             ]
           })
@@ -417,7 +417,7 @@ export default function GenerativeAIServicesArizonaPage() {
               "latitude": "33.4484",
               "longitude": "-112.0740"
             },
-            "url": "https://metic.ai/generative-ai-services-in-Arizona/",
+            "url": "https://metic.ai/generative-ai-services-in-arizona/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",

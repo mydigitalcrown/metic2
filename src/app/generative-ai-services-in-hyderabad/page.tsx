@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Button } from "../components/ui/Button";
 import Testimonials from "../components/Testimonials";
 import { 
@@ -58,13 +58,13 @@ export const metadata = {
   openGraph: {
     title: "Generative AI Company In Hyderabad | #1 Generative AI Services In Hyderabad - Metic.ai",
     description: "Leading Generative AI Company In Hyderabad with 50+ successful Generative AI implementations. Expert AI services, Generative Generative AI solutions & Generative AI development for Hyderabad businesses.",
-    url: "https://metic.ai/generative-ai-services-in-Hyderabad/",
+    url: "https://metic.ai/generative-ai-services-in-hyderabad/",
     type: "website",
     locale: "en_IN",
     siteName: "Metic.ai - Generative AI Services In Hyderabad",
     images: [
       {
-        url: "https://metic.ai/og-generative-ai-Hyderabad.jpg",
+        url: "https://metic.ai/og-generative-ai-hyderabad.jpg",
         width: 1200,
         height: 630,
         alt: "Generative AI Company In Hyderabad - Metic.ai",
@@ -76,12 +76,12 @@ export const metadata = {
     card: "summary_large_image",
     title: "Generative AI Company In Hyderabad | Generative AI Services In Hyderabad",
     description: "Leading Generative AI Services In Hyderabad delivering enterprise artificial intelligence solutions. Expert Generative AI development, Generative AI & automation services with proven results.",
-    images: ["https://metic.ai/og-generative-ai-Hyderabad.jpg"],
+    images: ["https://metic.ai/og-generative-ai-hyderabad.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/generative-ai-services-in-Hyderabad/",
+    canonical: "https://metic.ai/generative-ai-services-in-hyderabad/",
   },
   verification: {
     google: "google-site-verification-code",
@@ -172,7 +172,7 @@ export default function GenerativeAIServicesHyderabadPage() {
             "name": "Metic.ai - Generative AI Company In Hyderabad",
             "alternateName": ["Generative AI Services In Hyderabad", "Metic AI", "AI Firm Hyderabad"],
             "description": "Leading Generative AI Company In Hyderabad providing enterprise Generative AI solutions, Generative Generative AI development, and Custom AI services for businesses across Hyderabad.",
-            "url": "https://metic.ai/generative-ai-services-in-Hyderabad/",
+            "url": "https://metic.ai/generative-ai-services-in-hyderabad/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
@@ -355,7 +355,7 @@ export default function GenerativeAIServicesHyderabadPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/generative-ai-services-in-Hyderabad/",
+            "mainEntityOfPage": "https://metic.ai/generative-ai-services-in-hyderabad/",
             "keywords": "Generative AI Company In Hyderabad, Generative AI Services In Hyderabad, AI Service "
           })
         }}
@@ -385,7 +385,7 @@ export default function GenerativeAIServicesHyderabadPage() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Generative AI Company In Hyderabad",
-                "item": "https://metic.ai/generative-ai-services-in-Hyderabad/"
+                "item": "https://metic.ai/generative-ai-services-in-hyderabad/"
               }
             ]
           })
@@ -417,7 +417,7 @@ export default function GenerativeAIServicesHyderabadPage() {
               "latitude": "32.3182",
               "longitude": "-86.9023"
             },
-            "url": "https://metic.ai/generative-ai-services-in-Hyderabad/",
+            "url": "https://metic.ai/generative-ai-services-in-hyderabad/",
             "priceRange": "????",
             "areaServed": {
               "@type": "State",
