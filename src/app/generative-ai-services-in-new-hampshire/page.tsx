@@ -58,13 +58,13 @@ export const metadata = {
   openGraph: {
     title: "Generative AI Company In New Hampshire | #1 Generative AI Services In New Hampshire - Metic.ai",
     description: "Leading Generative AI Company In New Hampshire with 50+ successful AI implementations. Expert AI services, Generative AI solutions & AI development for New Hampshire businesses.",
-    url: "https://metic.ai/generative-ai-services-in-New Hampshire/",
+    url: "https://metic.ai/generative-ai-services-in-new-hampshire/",
     type: "website",
     locale: "en_US",
     siteName: "Metic.ai - Generative AI Services In New Hampshire",
     images: [
       {
-        url: "https://metic.ai/og-generative-ai-New Hampshire.jpg",
+        url: "https://metic.ai/og-generative-ai-new-hampshire.jpg",
         width: 1200,
         height: 630,
         alt: "Generative AI Company In New Hampshire - Metic.ai",
@@ -76,12 +76,12 @@ export const metadata = {
     card: "summary_large_image",
     title: "Generative AI Company In New Hampshire | Generative AI Services In New Hampshire",
     description: "Leading Generative AI Services In New Hampshire delivering enterprise artificial intelligence solutions. Expert AI development, Generative AI & automation services with proven results.",
-    images: ["https://metic.ai/og-generative-ai-New Hampshire.jpg"],
+    images: ["https://metic.ai/og-generative-ai-new-hampshire.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/generative-ai-services-in-New Hampshire/",
+    canonical: "https://metic.ai/generative-ai-services-in-new-hampshire/",
   },
   verification: {
     google: "google-site-verification-code",
@@ -172,14 +172,14 @@ export default function GenerativeAIServicesNewHampshirePage() {
             "name": "Metic.ai - Generative AI Company In New Hampshire",
             "alternateName": ["Generative AI Services In New Hampshire", "Metic AI", "AI Firm New Hampshire"],
             "description": "Leading Generative AI Company In New Hampshire providing enterprise AI solutions, Generative AI development, and Custom AI services for businesses across New Hampshire.",
-            "url": "https://metic.ai/generative-ai-services-in-New Hampshire/",
+            "url": "https://metic.ai/generative-ai-services-in-new-hampshire/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
               "https://www.facebook.com/meticai"
             ],
             "logo": "https://metic.ai/logo.png",
-            "image": ["https://metic.ai/ai-company-New Hampshire.jpg"],
+            "image": ["https://metic.ai/ai-company-new-hampshire.jpg"],
             "telephone": "+91-789-251-8414",
             "email": "hello@matic.ai",
             "foundingDate": "2020",
@@ -355,7 +355,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/generative-ai-services-in-New Hampshire/",
+            "mainEntityOfPage": "https://metic.ai/generative-ai-services-in-new-hampshire/",
             "keywords": "Generative AI Company In New Hampshire, Generative AI Services In New Hampshire, AI Service "
           })
         }}
@@ -385,7 +385,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Generative AI Company In New Hampshire",
-                "item": "https://metic.ai/generative-ai-services-in-New Hampshire/"
+                "item": "https://metic.ai/generative-ai-services-in-new-hampshire/"
               }
             ]
           })
@@ -401,7 +401,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
             "@type": "LocalBusiness",
             "name": "Metic.ai - Generative AI Services In New Hampshire",
             "description": "Leading Artificial Intelligence Company providing AI services ",
-            "image": "https://metic.ai/ai-company-New Hampshire.jpg",
+            "image": "https://metic.ai/ai-company-new-hampshire.jpg",
             "telephone": "+91-789-251-8414",
             "email": "hello@matic.ai",
             "address": {
@@ -417,7 +417,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
               "latitude": "40.8136",
               "longitude": "-96.7026"
             },
-            "url": "https://metic.ai/generative-ai-services-in-New Hampshire/",
+            "url": "https://metic.ai/generative-ai-services-in-new-hampshire/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",

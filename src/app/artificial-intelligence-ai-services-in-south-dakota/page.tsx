@@ -58,13 +58,13 @@ export const metadata = {
   openGraph: {
     title: "Artificial Intelligence Company In South Dakota | #1 AI Company In South Dakota - Metic.ai",
     description: "Leading Artificial Intelligence Company In South Dakota with 50+ successful AI implementations. Expert AI services, machine learning solutions & AI development for South Dakota businesses.",
-    url: "https://metic.ai/artificial-intelligence-ai-services-in-South Dakota/",
+    url: "https://metic.ai/artificial-intelligence-ai-services-in-south-dakota/",
     type: "website",
     locale: "en_US",
     siteName: "Metic.ai - AI Company In South Dakota",
     images: [
       {
-        url: "https://metic.ai/og-ai-company-South Dakota.jpg",
+        url: "https://metic.ai/og-ai-company-south-dakota.jpg",
         width: 1200,
         height: 630,
         alt: "Artificial Intelligence Company In South Dakota - Metic.ai",
@@ -76,12 +76,12 @@ export const metadata = {
     card: "summary_large_image",
     title: "Artificial Intelligence Company In South Dakota | AI Company In South Dakota",
     description: "Leading AI Company In South Dakota delivering enterprise artificial intelligence solutions. Expert AI development, machine learning & automation services with proven results.",
-    images: ["https://metic.ai/og-ai-company-South Dakota.jpg"],
+    images: ["https://metic.ai/og-ai-company-south-dakota.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-South Dakota/",
+    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-south-dakota/",
   },
   verification: {
     google: "google-site-verification-code",
@@ -170,14 +170,14 @@ export default function AIServicesSouthDakotaPage() {
             "name": "Metic.ai - Artificial Intelligence Company In South Dakota",
             "alternateName": ["AI Company In South Dakota", "Metic AI", "AI Firm South Dakota"],
             "description": "Leading Artificial Intelligence Company In South Dakota providing enterprise AI solutions, machine learning development, and custom AI services for businesses across South Dakota.",
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-South Dakota/",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-south-dakota/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
               "https://www.facebook.com/meticai"
             ],
             "logo": "https://metic.ai/logo.png",
-            "image": ["https://metic.ai/ai-company-South Dakota.jpg"],
+            "image": ["https://metic.ai/ai-company-south-dakota.jpg"],
             "telephone": "+1-789-251-8414",
             "email": "hello@matic.ai",
             "foundingDate": "2020",
@@ -353,7 +353,7 @@ export default function AIServicesSouthDakotaPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-South Dakota/",
+            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-south-dakota/",
             "keywords": "Artificial Intelligence Company In South Dakota, AI Company In South Dakota, AI Service In South Dakota"
           })
         }}
@@ -383,7 +383,7 @@ export default function AIServicesSouthDakotaPage() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Artificial Intelligence Company In South Dakota",
-                "item": "https://metic.ai/artificial-intelligence-ai-services-in-South Dakota/"
+                "item": "https://metic.ai/artificial-intelligence-ai-services-in-south-dakota/"
               }
             ]
           })
@@ -399,7 +399,7 @@ export default function AIServicesSouthDakotaPage() {
             "@type": "LocalBusiness",
             "name": "Metic.ai - AI Company In South Dakota",
             "description": "Leading Artificial Intelligence Company providing AI services in South Dakota",
-            "image": "https://metic.ai/ai-company-South Dakota.jpg",
+            "image": "https://metic.ai/ai-company-south-dakota.jpg",
             "telephone": "+1-789-251-8414",
             "email": "hello@matic.ai",
             "address": {
@@ -415,7 +415,7 @@ export default function AIServicesSouthDakotaPage() {
               "latitude": "32.3182",
               "longitude": "-86.9023"
             },
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-South Dakota/",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-south-dakota/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",

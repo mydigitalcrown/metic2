@@ -58,13 +58,13 @@ export const metadata = {
   openGraph: {
     title: "Artificial Intelligence Company In New York | #1 AI Company In New York - Metic.ai",
     description: "Leading Artificial Intelligence Company In New York with 50+ successful AI implementations. Expert AI services, machine learning solutions & AI development for New York businesses.",
-    url: "https://metic.ai/artificial-intelligence-ai-services-in-New York/",
+    url: "https://metic.ai/artificial-intelligence-ai-services-in-new-york/",
     type: "website",
     locale: "en_US",
     siteName: "Metic.ai - AI Company In New York",
     images: [
       {
-        url: "https://metic.ai/og-ai-company-New York.jpg",
+        url: "https://metic.ai/og-ai-company-new-york.jpg",
         width: 1200,
         height: 630,
         alt: "Artificial Intelligence Company In New York - Metic.ai",
@@ -76,12 +76,12 @@ export const metadata = {
     card: "summary_large_image",
     title: "Artificial Intelligence Company In New York | AI Company In New York",
     description: "Leading AI Company In New York delivering enterprise artificial intelligence solutions. Expert AI development, machine learning & automation services with proven results.",
-    images: ["https://metic.ai/og-ai-company-New York.jpg"],
+    images: ["https://metic.ai/og-ai-company-new-york.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-New York/",
+    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-new-york/",
   },
   verification: {
     google: "google-site-verification-code",
@@ -170,14 +170,14 @@ export default function AIServicesNewYorkPage() {
             "name": "Metic.ai - Artificial Intelligence Company In New York",
             "alternateName": ["AI Company In New York", "Metic AI", "AI Firm New York"],
             "description": "Leading Artificial Intelligence Company In New York providing enterprise AI solutions, machine learning development, and custom AI services for businesses across New York.",
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-New York/",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-new-york/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
               "https://www.facebook.com/meticai"
             ],
             "logo": "https://metic.ai/logo.png",
-            "image": ["https://metic.ai/ai-company-New York.jpg"],
+            "image": ["https://metic.ai/ai-company-new-york.jpg"],
             "telephone": "+1-789-251-8414",
             "email": "hello@matic.ai",
             "foundingDate": "2020",
@@ -353,7 +353,7 @@ export default function AIServicesNewYorkPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-New York/",
+            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-new-york/",
             "keywords": "Artificial Intelligence Company In New York, AI Company In New York, AI Service In New York"
           })
         }}
@@ -383,7 +383,7 @@ export default function AIServicesNewYorkPage() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Artificial Intelligence Company In New York",
-                "item": "https://metic.ai/artificial-intelligence-ai-services-in-New York/"
+                "item": "https://metic.ai/artificial-intelligence-ai-services-in-new-york/"
               }
             ]
           })
@@ -399,7 +399,7 @@ export default function AIServicesNewYorkPage() {
             "@type": "LocalBusiness",
             "name": "Metic.ai - AI Company In New York",
             "description": "Leading Artificial Intelligence Company providing AI services in New York",
-            "image": "https://metic.ai/ai-company-New York.jpg",
+            "image": "https://metic.ai/ai-company-new-york.jpg",
             "telephone": "+1-789-251-8414",
             "email": "hello@matic.ai",
             "address": {
@@ -415,7 +415,7 @@ export default function AIServicesNewYorkPage() {
               "latitude": "32.3182",
               "longitude": "-86.9023"
             },
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-New York/",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-new-york/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",

@@ -58,13 +58,13 @@ export const metadata = {
   openGraph: {
     title: "Artificial Intelligence Company In South Carolina | #1 AI Company In South Carolina - Metic.ai",
     description: "Leading Artificial Intelligence Company In South Carolina with 50+ successful AI implementations. Expert AI services, machine learning solutions & AI development for South Carolina businesses.",
-    url: "https://metic.ai/artificial-intelligence-ai-services-in-South Carolina/",
+    url: "https://metic.ai/artificial-intelligence-ai-services-in-south-carolina/",
     type: "website",
     locale: "en_US",
     siteName: "Metic.ai - AI Company In South Carolina",
     images: [
       {
-        url: "https://metic.ai/og-ai-company-South Carolina.jpg",
+        url: "https://metic.ai/og-ai-company-south-carolina.jpg",
         width: 1200,
         height: 630,
         alt: "Artificial Intelligence Company In South Carolina - Metic.ai",
@@ -76,12 +76,12 @@ export const metadata = {
     card: "summary_large_image",
     title: "Artificial Intelligence Company In South Carolina | AI Company In South Carolina",
     description: "Leading AI Company In South Carolina delivering enterprise artificial intelligence solutions. Expert AI development, machine learning & automation services with proven results.",
-    images: ["https://metic.ai/og-ai-company-South Carolina.jpg"],
+    images: ["https://metic.ai/og-ai-company-south-carolina.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-South Carolina/",
+    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-south-carolina/",
   },
   verification: {
     google: "google-site-verification-code",
@@ -170,14 +170,14 @@ export default function AIServicesSouthCarolinaPage() {
             "name": "Metic.ai - Artificial Intelligence Company In South Carolina",
             "alternateName": ["AI Company In South Carolina", "Metic AI", "AI Firm South Carolina"],
             "description": "Leading Artificial Intelligence Company In South Carolina providing enterprise AI solutions, machine learning development, and custom AI services for businesses across South Carolina.",
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-South Carolina/",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-south-carolina/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
               "https://www.facebook.com/meticai"
             ],
             "logo": "https://metic.ai/logo.png",
-            "image": ["https://metic.ai/ai-company-South Carolina.jpg"],
+            "image": ["https://metic.ai/ai-company-south-carolina.jpg"],
             "telephone": "+1-789-251-8414",
             "email": "hello@matic.ai",
             "foundingDate": "2020",
@@ -353,7 +353,7 @@ export default function AIServicesSouthCarolinaPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-South Carolina/",
+            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-south-carolina/",
             "keywords": "Artificial Intelligence Company In South Carolina, AI Company In South Carolina, AI Service In South Carolina"
           })
         }}
@@ -383,7 +383,7 @@ export default function AIServicesSouthCarolinaPage() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Artificial Intelligence Company In South Carolina",
-                "item": "https://metic.ai/artificial-intelligence-ai-services-in-South Carolina/"
+                "item": "https://metic.ai/artificial-intelligence-ai-services-in-south-carolina/"
               }
             ]
           })
@@ -399,7 +399,7 @@ export default function AIServicesSouthCarolinaPage() {
             "@type": "LocalBusiness",
             "name": "Metic.ai - AI Company In South Carolina",
             "description": "Leading Artificial Intelligence Company providing AI services in South Carolina",
-            "image": "https://metic.ai/ai-company-South Carolina.jpg",
+            "image": "https://metic.ai/ai-company-south-carolina.jpg",
             "telephone": "+1-789-251-8414",
             "email": "hello@matic.ai",
             "address": {
@@ -415,7 +415,7 @@ export default function AIServicesSouthCarolinaPage() {
               "latitude": "32.3182",
               "longitude": "-86.9023"
             },
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-South Carolina/",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-south-carolina/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",

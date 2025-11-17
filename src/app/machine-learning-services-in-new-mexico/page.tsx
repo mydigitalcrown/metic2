@@ -58,13 +58,13 @@ export const metadata = {
   openGraph: {
     title: "Machine Learning Company In New Mexico | #1 ML Company In New Mexico - Metic.ai",
     description: "Leading Machine Learning Company In New Mexico with 50+ successful ML implementations. Expert ML services, machine learning solutions & ML Development for New Mexico businesses.",
-    url: "https://metic.ai/machine-learning-services-in-New Mexico/",
+    url: "https://metic.ai/machine-learning-services-in-new-mexico/",
     type: "website",
     locale: "en_US",
     siteName: "Metic.ai - ML Company In New Mexico",
     images: [
       {
-        url: "https://metic.ai/og-ml-company-New Mexico.jpg",
+        url: "https://metic.ai/og-ml-company-new-mexico.jpg",
         width: 1200,
         height: 630,
         alt: "Machine Learning Company In New Mexico - Metic.ai",
@@ -76,12 +76,12 @@ export const metadata = {
     card: "summary_large_image",
     title: "Machine Learning Company In New Mexico | ML Company In New Mexico",
     description: "Leading ML Company In New Mexico delivering enterprise Machine Learning solutions. Expert ML Development, machine learning & automation services with proven results.",
-    images: ["https://metic.ai/og-ml-company-New Mexico.jpg"],
+    images: ["https://metic.ai/og-ml-company-new-mexico.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/machine-learning-services-in-New Mexico/",
+    canonical: "https://metic.ai/machine-learning-services-in-new-mexico/",
   },
   verification: {
     google: "google-site-verification-code",
@@ -172,14 +172,14 @@ export default function MLServicesNewMexicoPage() {
             "name": "Metic.ai - Machine Learning Company In New Mexico",
             "alternateName": ["ML Company In New Mexico", "Metic AI", "ML Firm New Mexico"],
             "description": "Leading Machine Learning Company In New Mexico providing enterprise ML Solutions, machine learning development, and custom ML services for businesses across New Mexico.",
-            "url": "https://metic.ai/machine-learning-services-in-New Mexico/",
+            "url": "https://metic.ai/machine-learning-services-in-new-mexico/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
               "https://www.facebook.com/meticai"
             ],
             "logo": "https://metic.ai/logo.png",
-            "image": ["https://metic.ai/ml-company-New Mexico.jpg"],
+            "image": ["https://metic.ai/ml-company-new-mexico.jpg"],
             "telephone": "+1-789-251-8414",
             "email": "hello@matic.ai",
             "foundingDate": "2020",
@@ -355,7 +355,7 @@ export default function MLServicesNewMexicoPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/machine-learning-services-in-New Mexico/",
+            "mainEntityOfPage": "https://metic.ai/machine-learning-services-in-new-mexico/",
             "keywords": "Machine Learning Company In New Mexico, ML Company In New Mexico, ML Service In New Mexico"
           })
         }}
@@ -385,7 +385,7 @@ export default function MLServicesNewMexicoPage() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Machine Learning Company In New Mexico",
-                "item": "https://metic.ai/machine-learning-services-in-New Mexico/"
+                "item": "https://metic.ai/machine-learning-services-in-new-mexico/"
               }
             ]
           })
@@ -401,7 +401,7 @@ export default function MLServicesNewMexicoPage() {
             "@type": "LocalBusiness",
             "name": "Metic.ai - ML Company In New Mexico",
             "description": "Leading Machine Learning Company providing ML services In New Mexico",
-            "image": "https://metic.ai/ml-company-New Mexico.jpg",
+            "image": "https://metic.ai/ml-company-new-mexico.jpg",
             "telephone": "+1-789-251-8414",
             "email": "hello@matic.ai",
             "address": {
@@ -417,7 +417,7 @@ export default function MLServicesNewMexicoPage() {
               "latitude": "32.3182",
               "longitude": "-86.9023"
             },
-            "url": "https://metic.ai/machine-learning-services-in-New Mexico/",
+            "url": "https://metic.ai/machine-learning-services-in-new-mexico/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",

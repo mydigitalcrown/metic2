@@ -58,13 +58,13 @@ export const metadata = {
   openGraph: {
     title: "Machine Learning Company In New Hampshire | #1 ML Company In New Hampshire - Metic.ai",
     description: "Leading Machine Learning Company In New Hampshire with 50+ successful ML implementations. Expert ML services, machine learning solutions & ML Development for New Hampshire businesses.",
-    url: "https://metic.ai/machine-learning-services-in-New Hampshire/",
+    url: "https://metic.ai/machine-learning-services-in-new-hampshire/",
     type: "website",
     locale: "en_US",
     siteName: "Metic.ai - ML Company In New Hampshire",
     images: [
       {
-        url: "https://metic.ai/og-ml-company-New Hampshire.jpg",
+        url: "https://metic.ai/og-ml-company-new-hampshire.jpg",
         width: 1200,
         height: 630,
         alt: "Machine Learning Company In New Hampshire - Metic.ai",
@@ -76,12 +76,12 @@ export const metadata = {
     card: "summary_large_image",
     title: "Machine Learning Company In New Hampshire | ML Company In New Hampshire",
     description: "Leading ML Company In New Hampshire delivering enterprise Machine Learning solutions. Expert ML Development, machine learning & automation services with proven results.",
-    images: ["https://metic.ai/og-ml-company-New Hampshire.jpg"],
+    images: ["https://metic.ai/og-ml-company-new-hampshire.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/machine-learning-services-in-New Hampshire/",
+    canonical: "https://metic.ai/machine-learning-services-in-new-hampshire/",
   },
   verification: {
     google: "google-site-verification-code",
@@ -172,14 +172,14 @@ export default function MLServicesNewHampshirePage() {
             "name": "Metic.ai - Machine Learning Company In New Hampshire",
             "alternateName": ["ML Company In New Hampshire", "Metic AI", "ML Firm New Hampshire"],
             "description": "Leading Machine Learning Company In New Hampshire providing enterprise ML Solutions, machine learning development, and custom ML services for businesses across New Hampshire.",
-            "url": "https://metic.ai/machine-learning-services-in-New Hampshire/",
+            "url": "https://metic.ai/machine-learning-services-in-new-hampshire/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
               "https://www.facebook.com/meticai"
             ],
             "logo": "https://metic.ai/logo.png",
-            "image": ["https://metic.ai/ml-company-New Hampshire.jpg"],
+            "image": ["https://metic.ai/ml-company-new-hampshire.jpg"],
             "telephone": "+1-789-251-8414",
             "email": "hello@matic.ai",
             "foundingDate": "2020",
@@ -355,7 +355,7 @@ export default function MLServicesNewHampshirePage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/machine-learning-services-in-New Hampshire/",
+            "mainEntityOfPage": "https://metic.ai/machine-learning-services-in-new-hampshire/",
             "keywords": "Machine Learning Company In New Hampshire, ML Company In New Hampshire, ML Service In New Hampshire"
           })
         }}
@@ -385,7 +385,7 @@ export default function MLServicesNewHampshirePage() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Machine Learning Company In New Hampshire",
-                "item": "https://metic.ai/machine-learning-services-in-New Hampshire/"
+                "item": "https://metic.ai/machine-learning-services-in-new-hampshire/"
               }
             ]
           })
@@ -401,7 +401,7 @@ export default function MLServicesNewHampshirePage() {
             "@type": "LocalBusiness",
             "name": "Metic.ai - ML Company In New Hampshire",
             "description": "Leading Machine Learning Company providing ML services In New Hampshire",
-            "image": "https://metic.ai/ml-company-New Hampshire.jpg",
+            "image": "https://metic.ai/ml-company-new-hampshire.jpg",
             "telephone": "+1-789-251-8414",
             "email": "hello@matic.ai",
             "address": {
@@ -417,7 +417,7 @@ export default function MLServicesNewHampshirePage() {
               "latitude": "32.3182",
               "longitude": "-86.9023"
             },
-            "url": "https://metic.ai/machine-learning-services-in-New Hampshire/",
+            "url": "https://metic.ai/machine-learning-services-in-new-hampshire/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",

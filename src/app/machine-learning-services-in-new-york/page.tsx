@@ -58,13 +58,13 @@ export const metadata = {
   openGraph: {
     title: "Machine Learning Company In New York | #1 ML Company In New York - Metic.ai",
     description: "Leading Machine Learning Company In New York with 50+ successful ML implementations. Expert ML services, machine learning solutions & ML Development for New York businesses.",
-    url: "https://metic.ai/machine-learning-services-in-New York/",
+    url: "https://metic.ai/machine-learning-services-in-new-york/",
     type: "website",
     locale: "en_US",
     siteName: "Metic.ai - ML Company In New York",
     images: [
       {
-        url: "https://metic.ai/og-ml-company-New York.jpg",
+        url: "https://metic.ai/og-ml-company-new-york.jpg",
         width: 1200,
         height: 630,
         alt: "Machine Learning Company In New York - Metic.ai",
@@ -76,12 +76,12 @@ export const metadata = {
     card: "summary_large_image",
     title: "Machine Learning Company In New York | ML Company In New York",
     description: "Leading ML Company In New York delivering enterprise Machine Learning solutions. Expert ML Development, machine learning & automation services with proven results.",
-    images: ["https://metic.ai/og-ml-company-New York.jpg"],
+    images: ["https://metic.ai/og-ml-company-new-york.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/machine-learning-services-in-New York/",
+    canonical: "https://metic.ai/machine-learning-services-in-new-york/",
   },
   verification: {
     google: "google-site-verification-code",
@@ -172,14 +172,14 @@ export default function MLServicesNewYorkPage() {
             "name": "Metic.ai - Machine Learning Company In New York",
             "alternateName": ["ML Company In New York", "Metic AI", "ML Firm New York"],
             "description": "Leading Machine Learning Company In New York providing enterprise ML Solutions, machine learning development, and custom ML services for businesses across New York.",
-            "url": "https://metic.ai/machine-learning-services-in-New York/",
+            "url": "https://metic.ai/machine-learning-services-in-new-york/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
               "https://www.facebook.com/meticai"
             ],
             "logo": "https://metic.ai/logo.png",
-            "image": ["https://metic.ai/ml-company-New York.jpg"],
+            "image": ["https://metic.ai/ml-company-new-york.jpg"],
             "telephone": "+1-789-251-8414",
             "email": "hello@matic.ai",
             "foundingDate": "2020",
@@ -355,7 +355,7 @@ export default function MLServicesNewYorkPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/machine-learning-services-in-New York/",
+            "mainEntityOfPage": "https://metic.ai/machine-learning-services-in-new-york/",
             "keywords": "Machine Learning Company In New York, ML Company In New York, ML Service In New York"
           })
         }}
@@ -385,7 +385,7 @@ export default function MLServicesNewYorkPage() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Machine Learning Company In New York",
-                "item": "https://metic.ai/machine-learning-services-in-New York/"
+                "item": "https://metic.ai/machine-learning-services-in-new-york/"
               }
             ]
           })
@@ -401,7 +401,7 @@ export default function MLServicesNewYorkPage() {
             "@type": "LocalBusiness",
             "name": "Metic.ai - ML Company In New York",
             "description": "Leading Machine Learning Company providing ML services In New York",
-            "image": "https://metic.ai/ml-company-New York.jpg",
+            "image": "https://metic.ai/ml-company-new-york.jpg",
             "telephone": "+1-789-251-8414",
             "email": "hello@matic.ai",
             "address": {
@@ -417,7 +417,7 @@ export default function MLServicesNewYorkPage() {
               "latitude": "32.3182",
               "longitude": "-86.9023"
             },
-            "url": "https://metic.ai/machine-learning-services-in-New York/",
+            "url": "https://metic.ai/machine-learning-services-in-new-york/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",

@@ -58,13 +58,13 @@ export const metadata = {
   openGraph: {
     title: "Machine Learning Company In Rhode Island | #1 ML Company In Rhode Island - Metic.ai",
     description: "Leading Machine Learning Company In Rhode Island with 50+ successful ML implementations. Expert ML services, machine learning solutions & ML Development for Rhode Island businesses.",
-    url: "https://metic.ai/machine-learning-services-in-Rhode Island/",
+    url: "https://metic.ai/machine-learning-services-in-rhode-island/",
     type: "website",
     locale: "en_US",
     siteName: "Metic.ai - ML Company In Rhode Island",
     images: [
       {
-        url: "https://metic.ai/og-ml-company-Rhode Island.jpg",
+        url: "https://metic.ai/og-ml-company-rhode-island.jpg",
         width: 1200,
         height: 630,
         alt: "Machine Learning Company In Rhode Island - Metic.ai",
@@ -76,12 +76,12 @@ export const metadata = {
     card: "summary_large_image",
     title: "Machine Learning Company In Rhode Island | ML Company In Rhode Island",
     description: "Leading ML Company In Rhode Island delivering enterprise Machine Learning solutions. Expert ML Development, machine learning & automation services with proven results.",
-    images: ["https://metic.ai/og-ml-company-Rhode Island.jpg"],
+    images: ["https://metic.ai/og-ml-company-rhode-island.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/machine-learning-services-in-Rhode Island/",
+    canonical: "https://metic.ai/machine-learning-services-in-rhode-island/",
   },
   verification: {
     google: "google-site-verification-code",
@@ -172,14 +172,14 @@ export default function MLServicesRhodeIslandPage() {
             "name": "Metic.ai - Machine Learning Company In Rhode Island",
             "alternateName": ["ML Company In Rhode Island", "Metic AI", "ML Firm Rhode Island"],
             "description": "Leading Machine Learning Company In Rhode Island providing enterprise ML Solutions, machine learning development, and custom ML services for businesses across Rhode Island.",
-            "url": "https://metic.ai/machine-learning-services-in-Rhode Island/",
+            "url": "https://metic.ai/machine-learning-services-in-rhode-island/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
               "https://www.facebook.com/meticai"
             ],
             "logo": "https://metic.ai/logo.png",
-            "image": ["https://metic.ai/ml-company-Rhode Island.jpg"],
+            "image": ["https://metic.ai/ml-company-rhode-island.jpg"],
             "telephone": "+1-789-251-8414",
             "email": "hello@matic.ai",
             "foundingDate": "2020",
@@ -355,7 +355,7 @@ export default function MLServicesRhodeIslandPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/machine-learning-services-in-Rhode Island/",
+            "mainEntityOfPage": "https://metic.ai/machine-learning-services-in-rhode-island/",
             "keywords": "Machine Learning Company In Rhode Island, ML Company In Rhode Island, ML Service In Rhode Island"
           })
         }}
@@ -385,7 +385,7 @@ export default function MLServicesRhodeIslandPage() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Machine Learning Company In Rhode Island",
-                "item": "https://metic.ai/machine-learning-services-in-Rhode Island/"
+                "item": "https://metic.ai/machine-learning-services-in-rhode-island/"
               }
             ]
           })
@@ -401,7 +401,7 @@ export default function MLServicesRhodeIslandPage() {
             "@type": "LocalBusiness",
             "name": "Metic.ai - ML Company In Rhode Island",
             "description": "Leading Machine Learning Company providing ML services In Rhode Island",
-            "image": "https://metic.ai/ml-company-Rhode Island.jpg",
+            "image": "https://metic.ai/ml-company-rhode-island.jpg",
             "telephone": "+1-789-251-8414",
             "email": "hello@matic.ai",
             "address": {
@@ -417,7 +417,7 @@ export default function MLServicesRhodeIslandPage() {
               "latitude": "32.3182",
               "longitude": "-86.9023"
             },
-            "url": "https://metic.ai/machine-learning-services-in-Rhode Island/",
+            "url": "https://metic.ai/machine-learning-services-in-rhode-island/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",

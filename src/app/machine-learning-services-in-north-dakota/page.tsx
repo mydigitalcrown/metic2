@@ -58,13 +58,13 @@ export const metadata = {
   openGraph: {
     title: "Machine Learning Company In North Dakota | #1 ML Company In North Dakota - Metic.ai",
     description: "Leading Machine Learning Company In North Dakota with 50+ successful ML implementations. Expert ML services, machine learning solutions & ML Development for North Dakota businesses.",
-    url: "https://metic.ai/machine-learning-services-in-North Dakota/",
+    url: "https://metic.ai/machine-learning-services-in-north-dakota/",
     type: "website",
     locale: "en_US",
     siteName: "Metic.ai - ML Company In North Dakota",
     images: [
       {
-        url: "https://metic.ai/og-ml-company-North Dakota.jpg",
+        url: "https://metic.ai/og-ml-company-north-dakota.jpg",
         width: 1200,
         height: 630,
         alt: "Machine Learning Company In North Dakota - Metic.ai",
@@ -76,12 +76,12 @@ export const metadata = {
     card: "summary_large_image",
     title: "Machine Learning Company In North Dakota | ML Company In North Dakota",
     description: "Leading ML Company In North Dakota delivering enterprise Machine Learning solutions. Expert ML Development, machine learning & automation services with proven results.",
-    images: ["https://metic.ai/og-ml-company-North Dakota.jpg"],
+    images: ["https://metic.ai/og-ml-company-north-dakota.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/machine-learning-services-in-North Dakota/",
+    canonical: "https://metic.ai/machine-learning-services-in-north-dakota/",
   },
   verification: {
     google: "google-site-verification-code",
@@ -172,14 +172,14 @@ export default function MLServicesNorthDakotaPage() {
             "name": "Metic.ai - Machine Learning Company In North Dakota",
             "alternateName": ["ML Company In North Dakota", "Metic AI", "ML Firm North Dakota"],
             "description": "Leading Machine Learning Company In North Dakota providing enterprise ML Solutions, machine learning development, and custom ML services for businesses across North Dakota.",
-            "url": "https://metic.ai/machine-learning-services-in-North Dakota/",
+            "url": "https://metic.ai/machine-learning-services-in-north-dakota/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
               "https://www.facebook.com/meticai"
             ],
             "logo": "https://metic.ai/logo.png",
-            "image": ["https://metic.ai/ml-company-North Dakota.jpg"],
+            "image": ["https://metic.ai/ml-company-north-dakota.jpg"],
             "telephone": "+1-789-251-8414",
             "email": "hello@matic.ai",
             "foundingDate": "2020",
@@ -355,7 +355,7 @@ export default function MLServicesNorthDakotaPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/machine-learning-services-in-North Dakota/",
+            "mainEntityOfPage": "https://metic.ai/machine-learning-services-in-north-dakota/",
             "keywords": "Machine Learning Company In North Dakota, ML Company In North Dakota, ML Service In North Dakota"
           })
         }}
@@ -385,7 +385,7 @@ export default function MLServicesNorthDakotaPage() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Machine Learning Company In North Dakota",
-                "item": "https://metic.ai/machine-learning-services-in-North Dakota/"
+                "item": "https://metic.ai/machine-learning-services-in-north-dakota/"
               }
             ]
           })
@@ -401,7 +401,7 @@ export default function MLServicesNorthDakotaPage() {
             "@type": "LocalBusiness",
             "name": "Metic.ai - ML Company In North Dakota",
             "description": "Leading Machine Learning Company providing ML services In North Dakota",
-            "image": "https://metic.ai/ml-company-North Dakota.jpg",
+            "image": "https://metic.ai/ml-company-north-dakota.jpg",
             "telephone": "+1-789-251-8414",
             "email": "hello@matic.ai",
             "address": {
@@ -417,7 +417,7 @@ export default function MLServicesNorthDakotaPage() {
               "latitude": "32.3182",
               "longitude": "-86.9023"
             },
-            "url": "https://metic.ai/machine-learning-services-in-North Dakota/",
+            "url": "https://metic.ai/machine-learning-services-in-north-dakota/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",

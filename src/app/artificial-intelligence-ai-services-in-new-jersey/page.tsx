@@ -58,13 +58,13 @@ export const metadata = {
   openGraph: {
     title: "Artificial Intelligence Company In New Jersey | #1 AI Company In New Jersey - Metic.ai",
     description: "Leading Artificial Intelligence Company In New Jersey with 50+ successful AI implementations. Expert AI services, machine learning solutions & AI development for New Jersey businesses.",
-    url: "https://metic.ai/artificial-intelligence-ai-services-in-New Jersey/",
+    url: "https://metic.ai/artificial-intelligence-ai-services-in-new-jersey/",
     type: "website",
     locale: "en_US",
     siteName: "Metic.ai - AI Company In New Jersey",
     images: [
       {
-        url: "https://metic.ai/og-ai-company-New Jersey.jpg",
+        url: "https://metic.ai/og-ai-company-new-jersey.jpg",
         width: 1200,
         height: 630,
         alt: "Artificial Intelligence Company In New Jersey - Metic.ai",
@@ -76,12 +76,12 @@ export const metadata = {
     card: "summary_large_image",
     title: "Artificial Intelligence Company In New Jersey | AI Company In New Jersey",
     description: "Leading AI Company In New Jersey delivering enterprise artificial intelligence solutions. Expert AI development, machine learning & automation services with proven results.",
-    images: ["https://metic.ai/og-ai-company-New Jersey.jpg"],
+    images: ["https://metic.ai/og-ai-company-new-jersey.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-New Jersey/",
+    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-new-jersey/",
   },
   verification: {
     google: "google-site-verification-code",
@@ -170,14 +170,14 @@ export default function AIServicesNewJerseyPage() {
             "name": "Metic.ai - Artificial Intelligence Company In New Jersey",
             "alternateName": ["AI Company In New Jersey", "Metic AI", "AI Firm New Jersey"],
             "description": "Leading Artificial Intelligence Company In New Jersey providing enterprise AI solutions, machine learning development, and custom AI services for businesses across New Jersey.",
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-New Jersey/",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-new-jersey/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
               "https://www.facebook.com/meticai"
             ],
             "logo": "https://metic.ai/logo.png",
-            "image": ["https://metic.ai/ai-company-New Jersey.jpg"],
+            "image": ["https://metic.ai/ai-company-new-jersey.jpg"],
             "telephone": "+1-789-251-8414",
             "email": "hello@matic.ai",
             "foundingDate": "2020",
@@ -353,7 +353,7 @@ export default function AIServicesNewJerseyPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-New Jersey/",
+            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-new-jersey/",
             "keywords": "Artificial Intelligence Company In New Jersey, AI Company In New Jersey, AI Service In New Jersey"
           })
         }}
@@ -383,7 +383,7 @@ export default function AIServicesNewJerseyPage() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Artificial Intelligence Company In New Jersey",
-                "item": "https://metic.ai/artificial-intelligence-ai-services-in-New Jersey/"
+                "item": "https://metic.ai/artificial-intelligence-ai-services-in-new-jersey/"
               }
             ]
           })
@@ -399,7 +399,7 @@ export default function AIServicesNewJerseyPage() {
             "@type": "LocalBusiness",
             "name": "Metic.ai - AI Company In New Jersey",
             "description": "Leading Artificial Intelligence Company providing AI services in New Jersey",
-            "image": "https://metic.ai/ai-company-New Jersey.jpg",
+            "image": "https://metic.ai/ai-company-new-jersey.jpg",
             "telephone": "+1-789-251-8414",
             "email": "hello@matic.ai",
             "address": {
@@ -415,7 +415,7 @@ export default function AIServicesNewJerseyPage() {
               "latitude": "32.3182",
               "longitude": "-86.9023"
             },
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-New Jersey/",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-new-jersey/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",

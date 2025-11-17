@@ -58,13 +58,13 @@ export const metadata = {
   openGraph: {
     title: "Machine Learning Company In West Virginia | #1 ML Company In West Virginia - Metic.ai",
     description: "Leading Machine Learning Company In West Virginia with 50+ successful ML implementations. Expert ML services, machine learning solutions & ML Development for West Virginia businesses.",
-    url: "https://metic.ai/machine-learning-services-in-West Virginia/",
+    url: "https://metic.ai/machine-learning-services-in-west-virginia/",
     type: "website",
     locale: "en_US",
     siteName: "Metic.ai - ML Company In West Virginia",
     images: [
       {
-        url: "https://metic.ai/og-ml-company-West Virginia.jpg",
+        url: "https://metic.ai/og-ml-company-west-virginia.jpg",
         width: 1200,
         height: 630,
         alt: "Machine Learning Company In West Virginia - Metic.ai",
@@ -76,12 +76,12 @@ export const metadata = {
     card: "summary_large_image",
     title: "Machine Learning Company In West Virginia | ML Company In West Virginia",
     description: "Leading ML Company In West Virginia delivering enterprise Machine Learning solutions. Expert ML Development, machine learning & automation services with proven results.",
-    images: ["https://metic.ai/og-ml-company-West Virginia.jpg"],
+    images: ["https://metic.ai/og-ml-company-west-virginia.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/machine-learning-services-in-West Virginia/",
+    canonical: "https://metic.ai/machine-learning-services-in-west-virginia/",
   },
   verification: {
     google: "google-site-verification-code",
@@ -172,14 +172,14 @@ export default function MLServicesWestVirginiaPage() {
             "name": "Metic.ai - Machine Learning Company In West Virginia",
             "alternateName": ["ML Company In West Virginia", "Metic AI", "ML Firm West Virginia"],
             "description": "Leading Machine Learning Company In West Virginia providing enterprise ML Solutions, machine learning development, and custom ML services for businesses across West Virginia.",
-            "url": "https://metic.ai/machine-learning-services-in-West Virginia/",
+            "url": "https://metic.ai/machine-learning-services-in-west-virginia/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
               "https://www.facebook.com/meticai"
             ],
             "logo": "https://metic.ai/logo.png",
-            "image": ["https://metic.ai/ml-company-West Virginia.jpg"],
+            "image": ["https://metic.ai/ml-company-west-virginia.jpg"],
             "telephone": "+1-789-251-8414",
             "email": "hello@matic.ai",
             "foundingDate": "2020",
@@ -355,7 +355,7 @@ export default function MLServicesWestVirginiaPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/machine-learning-services-in-West Virginia/",
+            "mainEntityOfPage": "https://metic.ai/machine-learning-services-in-west-virginia/",
             "keywords": "Machine Learning Company In West Virginia, ML Company In West Virginia, ML Service In West Virginia"
           })
         }}
@@ -385,7 +385,7 @@ export default function MLServicesWestVirginiaPage() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Machine Learning Company In West Virginia",
-                "item": "https://metic.ai/machine-learning-services-in-West Virginia/"
+                "item": "https://metic.ai/machine-learning-services-in-west-virginia/"
               }
             ]
           })
@@ -401,7 +401,7 @@ export default function MLServicesWestVirginiaPage() {
             "@type": "LocalBusiness",
             "name": "Metic.ai - ML Company In West Virginia",
             "description": "Leading Machine Learning Company providing ML services In West Virginia",
-            "image": "https://metic.ai/ml-company-West Virginia.jpg",
+            "image": "https://metic.ai/ml-company-west-virginia.jpg",
             "telephone": "+1-789-251-8414",
             "email": "hello@matic.ai",
             "address": {
@@ -417,7 +417,7 @@ export default function MLServicesWestVirginiaPage() {
               "latitude": "32.3182",
               "longitude": "-86.9023"
             },
-            "url": "https://metic.ai/machine-learning-services-in-West Virginia/",
+            "url": "https://metic.ai/machine-learning-services-in-west-virginia/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",

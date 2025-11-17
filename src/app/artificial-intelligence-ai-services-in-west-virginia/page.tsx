@@ -58,13 +58,13 @@ export const metadata = {
   openGraph: {
     title: "Artificial Intelligence Company In West Virginia | #1 AI Company In West Virginia - Metic.ai",
     description: "Leading Artificial Intelligence Company In West Virginia with 50+ successful AI implementations. Expert AI services, machine learning solutions & AI development for West Virginia businesses.",
-    url: "https://metic.ai/artificial-intelligence-ai-services-in-West Virginia/",
+    url: "https://metic.ai/artificial-intelligence-ai-services-in-west-virginia/",
     type: "website",
     locale: "en_US",
     siteName: "Metic.ai - AI Company In West Virginia",
     images: [
       {
-        url: "https://metic.ai/og-ai-company-West Virginia.jpg",
+        url: "https://metic.ai/og-ai-company-west-virginia.jpg",
         width: 1200,
         height: 630,
         alt: "Artificial Intelligence Company In West Virginia - Metic.ai",
@@ -76,12 +76,12 @@ export const metadata = {
     card: "summary_large_image",
     title: "Artificial Intelligence Company In West Virginia | AI Company In West Virginia",
     description: "Leading AI Company In West Virginia delivering enterprise artificial intelligence solutions. Expert AI development, machine learning & automation services with proven results.",
-    images: ["https://metic.ai/og-ai-company-West Virginia.jpg"],
+    images: ["https://metic.ai/og-ai-company-west-virginia.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-West Virginia/",
+    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-west-virginia/",
   },
   verification: {
     google: "google-site-verification-code",
@@ -170,14 +170,14 @@ export default function AIServicesWestVirginiaPage() {
             "name": "Metic.ai - Artificial Intelligence Company In West Virginia",
             "alternateName": ["AI Company In West Virginia", "Metic AI", "AI Firm West Virginia"],
             "description": "Leading Artificial Intelligence Company In West Virginia providing enterprise AI solutions, machine learning development, and custom AI services for businesses across West Virginia.",
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-West Virginia/",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-west-virginia/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
               "https://www.facebook.com/meticai"
             ],
             "logo": "https://metic.ai/logo.png",
-            "image": ["https://metic.ai/ai-company-West Virginia.jpg"],
+            "image": ["https://metic.ai/ai-company-west-virginia.jpg"],
             "telephone": "+1-789-251-8414",
             "email": "hello@matic.ai",
             "foundingDate": "2020",
@@ -353,7 +353,7 @@ export default function AIServicesWestVirginiaPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-West Virginia/",
+            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-west-virginia/",
             "keywords": "Artificial Intelligence Company In West Virginia, AI Company In West Virginia, AI Service In West Virginia"
           })
         }}
@@ -383,7 +383,7 @@ export default function AIServicesWestVirginiaPage() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Artificial Intelligence Company In West Virginia",
-                "item": "https://metic.ai/artificial-intelligence-ai-services-in-West Virginia/"
+                "item": "https://metic.ai/artificial-intelligence-ai-services-in-west-virginia/"
               }
             ]
           })
@@ -399,7 +399,7 @@ export default function AIServicesWestVirginiaPage() {
             "@type": "LocalBusiness",
             "name": "Metic.ai - AI Company In West Virginia",
             "description": "Leading Artificial Intelligence Company providing AI services in West Virginia",
-            "image": "https://metic.ai/ai-company-West Virginia.jpg",
+            "image": "https://metic.ai/ai-company-west-virginia.jpg",
             "telephone": "+1-789-251-8414",
             "email": "hello@matic.ai",
             "address": {
@@ -415,7 +415,7 @@ export default function AIServicesWestVirginiaPage() {
               "latitude": "32.3182",
               "longitude": "-86.9023"
             },
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-West Virginia/",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-west-virginia/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",
