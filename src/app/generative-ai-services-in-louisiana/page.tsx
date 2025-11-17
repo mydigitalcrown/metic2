@@ -1,4 +1,4 @@
-import Link from "next/link";
+ï»¿import Link from "next/link";
 import { Button } from "../components/ui/Button";
 import Testimonials from "../components/Testimonials";
 import { 
@@ -27,7 +27,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Generative AI Company In Louisiana | #1 AI Company In Gujarat - Metic.ai",
+  title: "Generative AI Company In Louisiana | #1 AI Company In Louisiana - Metic.ai",
   description: "Leading Generative AI Company In Louisiana with 50+ successful AI implementations. Expert ChatGPT integration, GPT-4 services, LLM development & AI solutions. Transform your business with 60% cost savings & 3x faster delivery.",
   keywords: [
     "Generative AI Company In Louisiana",
@@ -60,7 +60,7 @@ export const metadata = {
     description: "Leading Generative AI Company In Louisiana with 50+ successful AI implementations. Expert AI services, Generative AI solutions & AI development for Louisiana businesses.",
     url: "https://metic.ai/generative-ai-services-in-louisiana/",
     type: "website",
-    locale: "en_IN",
+    locale: "en_US",
     siteName: "Metic.ai - Generative AI Services In Louisiana",
     images: [
       {
@@ -184,17 +184,17 @@ export default function GenerativeAIServicesLouisianaPage() {
             "email": "hello@metic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
-            "vatID": "IN123456789",
+            "vatID": "US-LA-123456789",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "Louisiana",
               "addressCountry": "US",
-              "postalCode": "35201"
+              "postalCode": "70112"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "32.7794",
-              "longitude": "-86.8287"
+              "latitude": "30.4515",
+              "longitude": "-90.0715"
             },
             "areaServed": [
               {
@@ -202,7 +202,7 @@ export default function GenerativeAIServicesLouisianaPage() {
                 "name": "Louisiana",
                 "containedInPlace": {
                   "@type": "Country", 
-                  "name": "Bodakdev"
+                  "name": "United States"
                 }
               }
             ],
@@ -210,10 +210,10 @@ export default function GenerativeAIServicesLouisianaPage() {
               "@type": "GeoCircle",
               "geoMidpoint": {
                 "@type": "GeoCoordinates",
-                "latitude": "32.7794",
-                "longitude": "-86.8287"
+                "latitude": "30.4515",
+                "longitude": "-90.0715"
               },
-              "geoRadiIN": "2380001"
+              "geoRadius": "500000"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
@@ -273,8 +273,8 @@ export default function GenerativeAIServicesLouisianaPage() {
             },
             "priceRange": "$$",
             "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer"],
-            "currenciesAccepted": "IND",
-            "open_INgHours": "Mo-Fr 09:00-18:00",
+            "currenciesAccepted": "USD",
+            "openingHours": "Mo-Fr 09:00-18:00",
             "contactPoint": {
               "@type": "ContactPoint",
               "telephone": "+91-789-251-8414",
@@ -323,7 +323,7 @@ export default function GenerativeAIServicesLouisianaPage() {
                 "name": "What makes Metic.ai the best Generative AI Company In Louisiana?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Metic.ai is the best Generative AI Company In Louisiana due to our proven expertise in ChatGPT integration, GPT-4 development, LLM solutions, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of Louisiana's Textile, Pharmaceutical, Chemical and IT Industries."
+                  "text": "Metic.ai is the best Generative AI Company In Louisiana due to our proven expertise in ChatGPT integration, GPT-4 development, LLM solutions, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of Louisiana's Petrochemical, Pharmaceutical, Chemical and IT Industries."
                 }
               }
             ]
@@ -406,16 +406,16 @@ export default function GenerativeAIServicesLouisianaPage() {
             "email": "hello@metic.ai",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "300 Quail Ridge Dr NE",
-              "addressLocality": "ADA",
-              "addressRegion": "MI",
-              "postalCode": "49301",
+              "streetAddress": "Canal Street",
+              "addressLocality": "New Orleans",
+              "addressRegion": "LA",
+              "postalCode": "70112",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "32.3182",
-              "longitude": "-86.9023"
+              "latitude": "29.9511",
+              "longitude": "-91.0544"
             },
             "url": "https://metic.ai/generative-ai-services-in-louisiana/",
             "priceRange": "$$$$",
@@ -430,7 +430,7 @@ export default function GenerativeAIServicesLouisianaPage() {
               "bestRating": "5",
               "worstRating": "1"
             },
-            "open_INgHours": "Mo-Fr 09:00-18:00",
+            "openingHours": "Mo-Fr 09:00-18:00",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai"
@@ -453,7 +453,7 @@ export default function GenerativeAIServicesLouisianaPage() {
             <div className="flex justify-center mb-6 md:mb-8">
               <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-white/10 backdrop-blur-sm rounded-full border border-primary-orange/30 shadow-xl">
                 <Award className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
-                <span className="text-xs md:text-sm font-bold text-white">? 100+ Successful AI Projects | 98% Client Satisfaction</span>
+                <span className="text-xs md:text-sm font-bold text-white">âœ“ 50+ Successful AI Projects | 99.5% Client Satisfaction</span>
               </div>
             </div>
 
@@ -622,12 +622,12 @@ export default function GenerativeAIServicesLouisianaPage() {
                 <p className="text-lg text-gray-700 mb-6">
                   Established as Louisiana's leading <strong>Generative AI Company In Louisiana</strong>, Metic.ai has been at the forefront of generative artificial intelligence 
                   innovation since 2020. We specialize in delivering enterprise-grade ChatGPT integration, GPT-4 development, LLM solutions, AI image generation, and custom AI services that transform businesses across Louisiana's 
-                  unique Industries including Textiles & Garments, Pharmaceuticals, Tourism & Hospitality, Chemicals, and Information Technology.
+                  unique Industries including Oil & Gas, Seafood Processing, Tourism & Hospitality, Chemicals, and Information Technology.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   Our expertise as the premier <strong>Generative AI Company In Louisiana</strong> encompasses Large Language Models (LLMs), ChatGPT Integration, 
                   GPT-4 API development, AI Image Generation (DALL-E, Midjourney, Stable Diffusion), Custom GPT development, AI content creation, and intelligent automation. We've successfully completed over 50 generative AI projects, making us the most 
-                  Trusted <strong>Generative AI Company In Louisiana</strong> from Maninagar to Vastrapur.
+                  Trusted <strong>Generative AI Company In Louisiana</strong> from Baton Rouge to Lafayette.
                 </p>
                 <div className="grid grid-cols-2 gap-6 mt-8">
                   <div className="text-center">
@@ -918,7 +918,7 @@ export default function GenerativeAIServicesLouisianaPage() {
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
                 As the premier <strong>AI Development Company </strong>, we're Trusted by businesses across Louisiana 
-                for our expertise, proven results, and commitment to client success US Manchester of Bodakdev.
+                for our expertise, proven results, and commitment to client success US Louisiana.
               </p>
             </div>
             
@@ -968,7 +968,7 @@ export default function GenerativeAIServicesLouisianaPage() {
               {/* Premium Badge with Animation */}
               <div className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-full shadow-2xl border-2 border-primary-orange/30 mb-10 hover:border-primary-orange/50 transition-all group">
                 <div className="w-3 h-3 bg-primary-orange rounded-full animate-pulse"></div>
-                <span className="text-sm font-bold text-gray-800 tracking-wide">Manchester of Bodakdev AI INNOVATION</span>
+                <span className="text-sm font-bold text-gray-800 tracking-wide">Louisiana AI INNOVATION</span>
                 <div className="w-3 h-3 bg-secondary-orange rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></div>
               </div>
 
@@ -980,7 +980,7 @@ export default function GenerativeAIServicesLouisianaPage() {
               </h2>
               <div className="w-40 h-2 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-10 rounded-full shadow-lg"></div>
               <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                Transforming 's Commercial Capital with cutting-edge AI solutions from Maninagar to Vastrapur, SG Highway to the Naroda Industrial Area
+                Transforming 's Commercial Capital with cutting-edge AI solutions from Baton Rouge to Lafayette, French Quarter to the Industrial Canal
               </p>
             </div>
 
@@ -1004,15 +1004,15 @@ export default function GenerativeAIServicesLouisianaPage() {
                     
             <p className="text-lg text-gray-700 leading-relaxed">
               As the leading <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Generative AI Company In Louisiana</strong>, 
-              Metic.ai serves Manchester of Bodakdev with enterprise-grade AI solutions tailored to Louisiana's unique economic 
-              landscape. From Maninagar's business hub to Vastrapur' research facilities, SG Highway's government sector to 
-              the Textile mills of the Naroda Industrial Area, we understand Louisiana's entrepreneurial excellence and Textile-driven Industries.
+              Metic.ai serves Louisiana with enterprise-grade AI solutions tailored to Louisiana's unique economic 
+              landscape. From Baton Rouge's business hub to Lafayette' research facilities, French Quarter's government sector to 
+              the Petrochemical mills of the Industrial Canal, we understand Louisiana's entrepreneurial excellence and Petrochemical-driven Industries.
             </p>
             
             <p className="text-lg text-gray-700 leading-relaxed">
               Our <strong className="text-primary-orange font-semibold">Generative AI Services In Louisiana</strong> combines deep understanding 
               of Louisiana's unique challenges with cutting-edge technology to deliver AI solutions that drive measurable 
-              results. We've successfully implemented AI across Louisiana's key sectors including Textiles & Garments, fishing, 
+              results. We've successfully implemented AI across Louisiana's key sectors including Oil & Gas, fishing, 
               tourism, Chemicals, Information Technology, and maritime Industries US 's largest state.
             </p>                    {/* Enhanced Feature Cards with Creative Design */}
                     <div className="grid gap-6 mt-10">
@@ -1022,10 +1022,10 @@ export default function GenerativeAIServicesLouisianaPage() {
                             <Rocket className="w-6 h-6 text-white" />
                           </div>
                           <div>
-                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Textiles Generative AI Excellence</h4>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Petrochemicals Generative AI Excellence</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Deep expertise with Louisiana's Naroda Industrial Area Textile operations including major Textile mills, 
-                              Louisiana Metro, and energy infrastructure across 's largest Textile-manufacturing state.
+                              Deep expertise with Louisiana's Industrial Canal Petrochemical operations including major Petrochemical mills, 
+                              Louisiana Metro, and energy infrastructure across 's largest Petrochemical-manufacturing state.
                             </p>
                           </div>
                         </div>
@@ -1075,13 +1075,13 @@ export default function GenerativeAIServicesLouisianaPage() {
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
                         <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">?130B</div>
                         <div className="text-sm text-gray-600 font-medium">Louisiana Annual GDP</div>
-                        <div className="text-xs text-gray-500 mt-2">Textile-driven Economy</div>
+                        <div className="text-xs text-gray-500 mt-2">Petrochemical-driven Economy</div>
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-secondary-orange/10 hover:border-secondary-orange/30 transition-all group transform hover:scale-105">
                         <div className="text-5xl font-bold text-secondary-orange mb-3 group-hover:scale-110 transition-transform">8.4M</div>
                         <div className="text-sm text-gray-600 font-medium">Louisiana Population</div>
-                        <div className="text-xs text-gray-500 mt-2">Manchester of India</div>
+                        <div className="text-xs text-gray-500 mt-2">Pelican State</div>
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
@@ -1119,21 +1119,21 @@ export default function GenerativeAIServicesLouisianaPage() {
                   </h3>
                   <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 rounded-full"></div>
                   <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Specialized Generative AI solutions powered by ChatGPT, GPT-4, and custom LLMs designed for Manchester of Bodakdev's unique economic sectors and Textile-driven Industries
+                    Specialized Generative AI solutions powered by ChatGPT, GPT-4, and custom LLMs designed for Louisiana's unique economic sectors and Petrochemical-driven Industries
                   </p>
                 </div>
                 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-                  {/* Textiles & Garments Industry */}
+                  {/* Oil & Gas Industry */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Rocket className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Textiles Generative AI Solutions</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Petrochemicals Generative AI Solutions</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      ChatGPT and LLM-powered solutions for Louisiana's Textiles & Garments Industry including Naroda Industrial Area operations, 
+                      ChatGPT and LLM-powered solutions for Louisiana's Oil & Gas Industry including Industrial Canal operations, 
                       Louisiana Metro monitoring, offshore drilling optimization, and predictive maintenance 
-                      for energy infrastructure across Manchester of Bodakdev's vast energy resources.
+                      for energy infrastructure across Louisiana's vast energy resources.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
@@ -1155,12 +1155,12 @@ export default function GenerativeAIServicesLouisianaPage() {
                     </div>
                   </div>
                   
-                  {/* Pharmaceuticals Industry */}
+                  {/* Seafood Processing Industry */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Shield className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Pharmaceuticals Generative AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Seafood Processing Generative AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
                       GPT-4 powered content and automation solutions for Louisiana's fishing and seafood processing Industry with predictive catch 
                       analytics, sINtainable fishing optimization, processing automation, cold chain monitoring, 
@@ -1256,7 +1256,7 @@ export default function GenerativeAIServicesLouisianaPage() {
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Information Technology & Logistics AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
                       AI chatbot and content generation solutions for Louisiana's Information Technology and cargo logistics including bINh plane operations, 
-                      Ted Stevens Maninagar International Airport cargo hub, weather prediction for flight safety, 
+                      Louis Armstrong New Orleans International Airport cargo hub, weather prediction for flight safety, 
                       and supply chain optimization for remote Louisiana communities.
                     </p>
                     <div className="space-y-3">
@@ -1327,8 +1327,8 @@ export default function GenerativeAIServicesLouisianaPage() {
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Louisiana business Advantage</h4>
                         <p className="text-gray-700 leading-relaxed">
                           As the premier <strong className="text-primary-orange">AI Firm </strong>, we understand 
-                          Manchester of Bodakdev's unique blend of entrepreneurial excellence and resource-driven innovation. Our AI solutions 
-                          are built for Louisiana's Textiles & Garments dominance, fishing Industry leadership, and tourism growth.
+                          Louisiana's unique blend of entrepreneurial excellence and resource-driven innovation. Our AI solutions 
+                          are built for Louisiana's Oil & Gas dominance, fishing Industry leadership, and tourism growth.
                         </p>
                       </div>
                     </div>
@@ -1350,14 +1350,14 @@ export default function GenerativeAIServicesLouisianaPage() {
                   
                   <p className="text-lg text-gray-700 leading-relaxed mb-6">
                     <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Choosing Metic.ai as your AI partner </strong> means 
-                    working with a team that deeply understands Louisiana's unique business challenges, from Maninagar's 
-                    commercial hub to Vastrapur' research facilities and SG Highway's government operations.
+                    working with a team that deeply understands Louisiana's unique business challenges, from Baton Rouge's 
+                    commercial hub to Lafayette' research facilities and French Quarter's government operations.
                   </p>
                   
                   <p className="text-lg text-gray-700 leading-relaxed mb-8">
                     Our <strong className="text-primary-orange font-semibold">AI Service </strong> includes comprehensive consultation, 
                     rapid prototyping, enterprise deployment, and 24/7 support to ensure your AI investment delivers 
-                    maximum value 's Textile-driven and growing economy.
+                    maximum value 's Petrochemical-driven and growing economy.
                   </p>
 
                   <div className="space-y-6">
@@ -1366,8 +1366,8 @@ export default function GenerativeAIServicesLouisianaPage() {
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Comprehensive Louisiana Coverage</h4>
                         <p className="text-gray-600 leading-relaxed">
-                          Maninagar, Vastrapur, SG Highway, Shreveport, Lake Charles, Bodakdev, Metairie, Kenner, 
-                          Port of South Louisiana, and all major Louisiana business centers across Manchester of Bodakdev
+                          Baton Rouge, Lafayette, French Quarter, Shreveport, Lake Charles, New Orleans, Metairie, Kenner, 
+                          Port of South Louisiana, and all major Louisiana business centers across Louisiana
                         </p>
                       </div>
                     </div>
@@ -1377,7 +1377,7 @@ export default function GenerativeAIServicesLouisianaPage() {
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Industry Domain Expertise</h4>
                         <p className="text-gray-600 leading-relaxed">
-                          Deep understanding of Textiles & Garments, fishing, tourism, Chemicals, Information Technology, and logistics 
+                          Deep understanding of Oil & Gas, fishing, tourism, Chemicals, Information Technology, and logistics 
                           with proven track record 's key economic sectors
                         </p>
                       </div>
@@ -1511,7 +1511,7 @@ export default function GenerativeAIServicesLouisianaPage() {
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     As the premier <strong className="text-gray-900 font-semibold">Generative AI Company In Louisiana</strong>, Metic.ai provides comprehensive generative AI services including ChatGPT integration, 
-                    GPT-4 API development, Custom GPT models, LLM development, AI image generation (DALL-E, Midjourney, Stable Diffusion), AI content creation, intelligent chatbots, and enterprise automation tailored for Louisiana's Textile, Pharmaceutical, Chemical, and IT Industries.
+                    GPT-4 API development, Custom GPT models, LLM development, AI image generation (DALL-E, Midjourney, Stable Diffusion), AI content creation, intelligent chatbots, and enterprise automation tailored for Louisiana's Petrochemical, Pharmaceutical, Chemical, and IT Industries.
                   </p>
                 </div>
               </details>
@@ -1618,7 +1618,7 @@ export default function GenerativeAIServicesLouisianaPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Yes! Metic.ai proudly serves businesses across all Louisiana cities including Maninagar, Vastrapur, SG Highway, Shreveport, Lake Charles, Bodakdev, Metairie, and beyond. 
+                    Yes! Metic.ai proudly serves businesses across all Louisiana cities including Baton Rouge, Lafayette, French Quarter, Shreveport, Lake Charles, New Orleans, Metairie, and beyond. 
                     As Louisiana's leading <strong className="text-gray-900 font-semibold">AI Firm </strong>, we provide comprehensive AI solutions statewide.
                   </p>
                 </div>
@@ -1959,18 +1959,18 @@ export default function GenerativeAIServicesLouisianaPage() {
                 </div>
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
-                <span>Maninagar</span>
-                <span>•</span>
-                <span>Vastrapur</span>
-                <span>•</span>
-                <span>SG Highway</span>
-                <span>•</span>
+                <span>Baton Rouge</span>
+                <span>ï¿½</span>
+                <span>Lafayette</span>
+                <span>ï¿½</span>
+                <span>French Quarter</span>
+                <span>ï¿½</span>
                 <span>Shreveport</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Lake Charles</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Auburn</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Dothan</span>
               </div>
             </div>
@@ -1980,6 +1980,17 @@ export default function GenerativeAIServicesLouisianaPage() {
     </>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
