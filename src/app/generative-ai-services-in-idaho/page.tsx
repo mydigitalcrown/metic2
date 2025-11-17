@@ -58,13 +58,13 @@ export const metadata = {
   openGraph: {
     title: "Generative AI Company In Idaho | #1 Generative AI Services In Idaho - Metic.ai",
     description: "Leading Generative AI Company In Idaho with 50+ successful AI implementations. Expert AI services, Generative AI solutions & AI development for Idaho businesses.",
-    url: "https://metic.ai/generative-ai-services-in-Idaho/",
+    url: "https://metic.ai/generative-ai-services-in-idaho/",
     type: "website",
     locale: "en_US",
     siteName: "Metic.ai - Generative AI Services In Idaho",
     images: [
       {
-        url: "https://metic.ai/og-generative-ai-Idaho.jpg",
+        url: "https://metic.ai/og-generative-ai-idaho.jpg",
         width: 1200,
         height: 630,
         alt: "Generative AI Company In Idaho - Metic.ai",
@@ -76,12 +76,12 @@ export const metadata = {
     card: "summary_large_image",
     title: "Generative AI Company In Idaho | Generative AI Services In Idaho",
     description: "Leading Generative AI Services In Idaho delivering enterprise artificial intelligence solutions. Expert AI development, Generative AI & automation services with proven results.",
-    images: ["https://metic.ai/og-generative-ai-Idaho.jpg"],
+    images: ["https://metic.ai/og-generative-ai-idaho.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/generative-ai-services-in-Idaho/",
+    canonical: "https://metic.ai/generative-ai-services-in-idaho/",
   },
   verification: {
     google: "google-site-verification-code",
