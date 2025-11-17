@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Button } from "../components/ui/Button";
 import Testimonials from "../components/Testimonials";
 import { 
@@ -27,7 +27,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Generative AI Company In Nevada | #1 AI Company In Nevada - Metic.ai",
+  title: "Generative AI Company In Nevada | #1 AI Company In Gujarat - Metic.ai",
   description: "Leading Generative AI Company In Nevada with 50+ successful AI implementations. Expert ChatGPT integration, GPT-4 services, LLM development & AI solutions. Transform your business with 60% cost savings & 3x faster delivery.",
   keywords: [
     "Generative AI Company In Nevada",
@@ -58,13 +58,13 @@ export const metadata = {
   openGraph: {
     title: "Generative AI Company In Nevada | #1 Generative AI Services In Nevada - Metic.ai",
     description: "Leading Generative AI Company In Nevada with 50+ successful AI implementations. Expert AI services, Generative AI solutions & AI development for Nevada businesses.",
-    url: "https://metic.ai/generative-ai-services-in-Nevada/",
+    url: "https://metic.ai/generative-ai-services-in-nevada/",
     type: "website",
-    locale: "en_US",
+    locale: "en_IN",
     siteName: "Metic.ai - Generative AI Services In Nevada",
     images: [
       {
-        url: "https://metic.ai/og-generative-ai-Nevada.jpg",
+        url: "https://metic.ai/og-generative-ai-nevada.jpg",
         width: 1200,
         height: 630,
         alt: "Generative AI Company In Nevada - Metic.ai",
@@ -76,12 +76,12 @@ export const metadata = {
     card: "summary_large_image",
     title: "Generative AI Company In Nevada | Generative AI Services In Nevada",
     description: "Leading Generative AI Services In Nevada delivering enterprise artificial intelligence solutions. Expert AI development, Generative AI & automation services with proven results.",
-    images: ["https://metic.ai/og-generative-ai-Nevada.jpg"],
+    images: ["https://metic.ai/og-generative-ai-nevada.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/generative-ai-services-in-Nevada/",
+    canonical: "https://metic.ai/generative-ai-services-in-nevada/",
   },
   verification: {
     google: "google-site-verification-code",
@@ -92,7 +92,7 @@ export const metadata = {
   classification: "business Services"
 };
 
-export default function GenerativeAIServicesNevadaPage() {
+export default function GenerativeAIServicesAhmedabadPage() {
   const services = [
     {
       title: "ChatGPT Integration",
@@ -105,7 +105,7 @@ export default function GenerativeAIServicesNevadaPage() {
       title: "Custom GPT Development",
       description: "Build custom GPT models and LLM solutions tailored for Nevada businesses and Industries.",
       icon: Brain,
-      href: "/machiNV-learning",
+      href: "/machine-learning",
       color: "purple" as const
     },
     {
@@ -139,22 +139,22 @@ export default function GenerativeAIServicesNevadaPage() {
   ];
 
   const Industries = [
-    "Gaming & Hospitality",
-    "Tourism & Entertainment",
-    "Mining & Natural Resources",
-    "Transportation & Logistics",
-    "Manufacturing",
-    "Healthcare",
-    "Technology & Data Centers",
-    "Renewable Energy",
-    "Education",
+    "Textiles & Garments",
+    "Pharmaceuticals",
+    "Chemicals",
+    "Information Technology",
+    "Automotive",
+    "Diamond & Jewelry",
+    "Food Processing",
     "Real Estate",
-    "Energy & Utilities",
-    "Retail"
+    "Healthcare",
+    "Education",
+    "Logistics",
+    "Manufacturing"
   ];
 
   const stats = [
-    { number: "50+", label: "Businesses Served" },
+    { number: "50+", label: "Projects Delivered" },
     { number: "99.5%", label: "Client Satisfaction" },
     { number: "5.2x", label: "Average ROI Increase" },
     { number: "24/7", label: "Support Available" }
@@ -172,29 +172,29 @@ export default function GenerativeAIServicesNevadaPage() {
             "name": "Metic.ai - Generative AI Company In Nevada",
             "alternateName": ["Generative AI Services In Nevada", "Metic AI", "AI Firm Nevada"],
             "description": "Leading Generative AI Company In Nevada providing enterprise AI solutions, Generative AI development, and Custom AI services for businesses across Nevada.",
-            "url": "https://metic.ai/generative-ai-services-in-Nevada/",
+            "url": "https://metic.ai/generative-ai-services-in-nevada/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
               "https://www.facebook.com/meticai"
             ],
             "logo": "https://metic.ai/logo.png",
-            "image": ["https://metic.ai/ai-company-Nevada.jpg"],
+            "image": ["https://metic.ai/ai-company-nevada.jpg"],
             "telephone": "+91-789-251-8414",
             "email": "hello@matic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
-            "vatID": "US-mt-123456789",
+            "vatID": "IN123456789",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "Nevada",
               "addressCountry": "US",
-              "postalCode": "89501"
+              "postalCode": "35201"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "39.1638",
-              "longitude": "-119.7674"
+              "latitude": "32.7794",
+              "longitude": "-86.8287"
             },
             "areaServed": [
               {
@@ -202,7 +202,7 @@ export default function GenerativeAIServicesNevadaPage() {
                 "name": "Nevada",
                 "containedInPlace": {
                   "@type": "Country", 
-                  "name": "Nevada"
+                  "name": "Bodakdev"
                 }
               }
             ],
@@ -210,10 +210,10 @@ export default function GenerativeAIServicesNevadaPage() {
               "@type": "GeoCircle",
               "geoMidpoint": {
                 "@type": "GeoCoordinates",
-                "latitude": "39.1638",
-                "longitude": "-119.7674"
+                "latitude": "32.7794",
+                "longitude": "-86.8287"
               },
-              "geoRadiUS": "50000"
+              "geoRadiIN": "2380001"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
@@ -274,7 +274,7 @@ export default function GenerativeAIServicesNevadaPage() {
             "priceRange": "$$",
             "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer"],
             "currenciesAccepted": "IND",
-            "open_USgHours": "Mo-Fr 09:00-18:00",
+            "open_INgHours": "Mo-Fr 09:00-18:00",
             "contactPoint": {
               "@type": "ContactPoint",
               "telephone": "+91-789-251-8414",
@@ -406,16 +406,16 @@ export default function GenerativeAIServicesNevadaPage() {
             "email": "hello@matic.ai",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "125 N Roberts St",
-              "addressLocality": "Carson City",
-              "addressRegion": "NE",
-              "postalCode": "89501",
+              "streetAddress": "300 Quail Ridge Dr NE",
+              "addressLocality": "ADA",
+              "addressRegion": "MI",
+              "postalCode": "49301",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "39.1638",
-              "longitude": "-119.7674"
+              "latitude": "32.3182",
+              "longitude": "-86.9023"
             },
             "url": "https://metic.ai/generative-ai-services-in-Nevada/",
             "priceRange": "$$$$",
@@ -430,7 +430,7 @@ export default function GenerativeAIServicesNevadaPage() {
               "bestRating": "5",
               "worstRating": "1"
             },
-            "open_USgHours": "Mo-Fr 09:00-18:00",
+            "open_INgHours": "Mo-Fr 09:00-18:00",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai"
@@ -451,7 +451,7 @@ export default function GenerativeAIServicesNevadaPage() {
           <div className="max-w-5xl mx-auto">
             {/* Trust Badge - Mobile Optimized */}
             <div className="flex justify-center mb-6 md:mb-8">
-              <div className="inliNV-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-white/10 backdrop-blur-sm rounded-full border border-primary-orange/30 shadow-xl">
+              <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-white/10 backdrop-blur-sm rounded-full border border-primary-orange/30 shadow-xl">
                 <Award className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
                 <span className="text-xs md:text-sm font-bold text-white">⭐ 100+ Successful AI Projects | 98% Client Satisfaction</span>
               </div>
@@ -537,7 +537,7 @@ export default function GenerativeAIServicesNevadaPage() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12 md:mb-16">
               {/* Section Badge */}
-              <div className="inliNV-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-primary-orange/10 rounded-full mb-6 md:mb-8">
+              <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-primary-orange/10 rounded-full mb-6 md:mb-8">
                 <Brain className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
                 <span className="text-xs md:text-sm font-bold text-primary-orange">COMPREHENSIVE AI SERVICES</span>
               </div>
@@ -586,7 +586,7 @@ export default function GenerativeAIServicesNevadaPage() {
                     
                     <Link 
                       href={service.href} 
-                      className="inliNV-flex items-center text-primary-orange hover:text-secondary-orange font-semibold text-sm md:text-base group-hover:gap-3 transition-all"
+                      className="inline-flex items-center text-primary-orange hover:text-secondary-orange font-semibold text-sm md:text-base group-hover:gap-3 transition-all"
                     >
                       Learn More
                       <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
@@ -622,12 +622,12 @@ export default function GenerativeAIServicesNevadaPage() {
                 <p className="text-lg text-gray-700 mb-6">
                   Established as Nevada's leading <strong>Generative AI Company In Nevada</strong>, Metic.ai has been at the forefront of generative artificial intelligence 
                   innovation since 2020. We specialize in delivering enterprise-grade ChatGPT integration, GPT-4 development, LLM solutions, AI image generation, and custom AI services that transform businesses across Nevada's 
-                  unique Industries including gaming and hospitality & Mining & Natural Resources, Healthcare, Tourism & Hospitality, Transportation, and Information Technology.
+                  unique Industries including Textiles & Garments, Pharmaceuticals, Tourism & Hospitality, Chemicals, and Information Technology.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   Our expertise as the premier <strong>Generative AI Company In Nevada</strong> encompasses Large Language Models (LLMs), ChatGPT Integration, 
                   GPT-4 API development, AI Image Generation (DALL-E, Midjourney, Stable Diffusion), Custom GPT development, AI content creation, and intelligent automation. We've successfully completed over 50 generative AI projects, making us the most 
-                  Trusted <strong>Generative AI Company In Nevada</strong> from Las Vegas to Carson City.
+                  Trusted <strong>Generative AI Company In Nevada</strong> from Maninagar to Vastrapur.
                 </p>
                 <div className="grid grid-cols-2 gap-6 mt-8">
                   <div className="text-center">
@@ -768,17 +768,17 @@ export default function GenerativeAIServicesNevadaPage() {
                 </div>
               </div>
 
-              {/* gaming and hospitality */}
+              {/* Agriculture */}
               <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=500&h=400&fit=crop" 
-                    alt="gaming and hospitality Industry AI Solutions"
+                    alt="Agriculture Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-4">
-                    <h3 className="font-bold text-white text-lg">gaming and hospitality</h3>
+                    <h3 className="font-bold text-white text-lg">Agriculture</h3>
                   </div>
                 </div>
               </div>
@@ -798,17 +798,17 @@ export default function GenerativeAIServicesNevadaPage() {
                 </div>
               </div>
 
-              {/* Renewable Energy */}
+              {/* Automotive */}
               <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=500&h=400&fit=crop" 
-                    alt="Renewable Energy Industry AI Solutions"
+                    alt="Automotive Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-4">
-                    <h3 className="font-bold text-white text-lg">Renewable Energy</h3>
+                    <h3 className="font-bold text-white text-lg">Automotive</h3>
                   </div>
                 </div>
               </div>
@@ -918,7 +918,7 @@ export default function GenerativeAIServicesNevadaPage() {
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
                 As the premier <strong>AI Development Company </strong>, we're Trusted by businesses across Nevada 
-                for our expertise, proven results, and commitment to client success across Silver State.
+                for our expertise, proven results, and commitment to client success US Manchester of Bodakdev.
               </p>
             </div>
             
@@ -966,9 +966,9 @@ export default function GenerativeAIServicesNevadaPage() {
             {/* Nevada Generative AI Leadership - Enhanced Creative Header */}
             <div className="text-center mb-20">
               {/* Premium Badge with Animation */}
-              <div className="inliNV-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-full shadow-2xl border-2 border-primary-orange/30 mb-10 hover:border-primary-orange/50 transition-all group">
+              <div className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-full shadow-2xl border-2 border-primary-orange/30 mb-10 hover:border-primary-orange/50 transition-all group">
                 <div className="w-3 h-3 bg-primary-orange rounded-full animate-pulse"></div>
-                <span className="text-sm font-bold text-gray-800 tracking-wide">Silver State AI INNOVATION</span>
+                <span className="text-sm font-bold text-gray-800 tracking-wide">Manchester of Bodakdev AI INNOVATION</span>
                 <div className="w-3 h-3 bg-secondary-orange rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></div>
               </div>
 
@@ -980,7 +980,7 @@ export default function GenerativeAIServicesNevadaPage() {
               </h2>
               <div className="w-40 h-2 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-10 rounded-full shadow-lg"></div>
               <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                Transforming 's Commercial Capital with cutting-edge AI solutions from Las Vegas to Carson City, Boulder City to the The Strip
+                Transforming 's Commercial Capital with cutting-edge AI solutions from Maninagar to Vastrapur, SG Highway to the Naroda Industrial Area
               </p>
             </div>
 
@@ -1004,16 +1004,16 @@ export default function GenerativeAIServicesNevadaPage() {
                     
             <p className="text-lg text-gray-700 leading-relaxed">
               As the leading <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Generative AI Company In Nevada</strong>, 
-              Metic.ai serves Silver State with enterprise-grade AI solutions tailored to Nevada's unique economic 
-              landscape. From Las Vegas' business hub to Carson City's tech sector, Henderson' manufacturing to 
-              Reno's innovation centers, we understand Nevada's diverse economy and resource-driven Industries.
+              Metic.ai serves Manchester of Bodakdev with enterprise-grade AI solutions tailored to Nevada's unique economic 
+              landscape. From Maninagar's business hub to Vastrapur' research facilities, SG Highway's government sector to 
+              the Textile mills of the Naroda Industrial Area, we understand Nevada's entrepreneurial excellence and Textile-driven Industries.
             </p>
             
             <p className="text-lg text-gray-700 leading-relaxed">
               Our <strong className="text-primary-orange font-semibold">Generative AI Services In Nevada</strong> combines deep understanding 
               of Nevada's unique challenges with cutting-edge technology to deliver AI solutions that drive measurable 
-              results. We've successfully implemented AI across Nevada's key sectors including gaming and hospitality, Mining & Natural Resources, 
-              Tourism, Forestry, and Energy serving 50+ businesses across Nevada.
+              results. We've successfully implemented AI across Nevada's key sectors including Textiles & Garments, fishing, 
+              tourism, Chemicals, Information Technology, and maritime Industries US 's largest state.
             </p>                    {/* Enhanced Feature Cards with Creative Design */}
                     <div className="grid gap-6 mt-10">
                       <div className="group bg-gradient-to-r from-primary-orange/5 via-white to-secondary-orange/5 p-6 rounded-2xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
@@ -1022,10 +1022,10 @@ export default function GenerativeAIServicesNevadaPage() {
                             <Rocket className="w-6 h-6 text-white" />
                           </div>
                           <div>
-                            <h4 className="font-bold text-gray-900 mb-2 text-lg">gaming and hospitality & tourism Excellence</h4>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Textiles Generative AI Excellence</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Deep expertise with Nevada's agricultural and Mining & Natural Resources operations including ranching, crop production, 
-                              mineral extraction, and resource management across Silver State's vast landscape.
+                              Deep expertise with Nevada's Naroda Industrial Area Textile operations including major Textile mills, 
+                              Nevada Metro, and energy infrastructure across 's largest Textile-manufacturing state.
                             </p>
                           </div>
                         </div>
@@ -1037,10 +1037,10 @@ export default function GenerativeAIServicesNevadaPage() {
                             <Shield className="w-6 h-6 text-white" />
                           </div>
                           <div>
-                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Mining & Natural Resources Innovation</h4>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Automotive Manufacturing Innovation</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              GPT-4 powered solutions for Nevada's tourism industry including major tourism companies operations, 
-                              ski resort management, guest experience optimization, and visitor analytics with predictive booking systems.
+                              GPT-4 powered content and automation solutions for Nevada's automotive Industry including Mercedes-Benz, Honda, Hyundai, 
+                              and Toyota manufacturing facilities with predictive maintenance and quality control systems.
                             </p>
                           </div>
                         </div>
@@ -1052,10 +1052,10 @@ export default function GenerativeAIServicesNevadaPage() {
                             <Target className="w-6 h-6 text-white" />
                           </div>
                           <div>
-                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Energy & Natural Resources AI</h4>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Chemicals & Natural Resources AI</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Specialized AI for Nevada's energy operations and resource extraction including process optimization, 
-                              safety monitoring, and environmental compliance for Nevada's rich oil, gas, and mineral deposits.
+                              Specialized AI for Nevada's Chemicals operations and resource extraction including process optimization, 
+                              safety monitoring, and environmental compliance for Nevada's rich mineral deposits.
                             </p>
                           </div>
                         </div>
@@ -1073,9 +1073,9 @@ export default function GenerativeAIServicesNevadaPage() {
                     
                     <div className="space-y-8">
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">\\$180B</div>
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">$180B</div>
                         <div className="text-sm text-gray-600 font-medium">Nevada Annual GDP</div>
-                        <div className="text-xs text-gray-500 mt-2">Resource-driven Economy</div>
+                        <div className="text-xs text-gray-500 mt-2">Gaming & Entertainment Economy</div>
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-secondary-orange/10 hover:border-secondary-orange/30 transition-all group transform hover:scale-105">
@@ -1086,7 +1086,7 @@ export default function GenerativeAIServicesNevadaPage() {
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
                         <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">50+</div>
-                        <div className="text-sm text-gray-600 font-medium">Businesses Served</div>
+                        <div className="text-sm text-gray-600 font-medium">Nevada Generative AI Projects</div>
                         <div className="text-xs text-gray-500 mt-2">ChatGPT & LLM Success Rate</div>
                       </div>
                       
@@ -1098,7 +1098,7 @@ export default function GenerativeAIServicesNevadaPage() {
                           <span className="font-bold text-gray-900">Nevada Advantage</span>
                         </div>
                         <p className="text-sm text-gray-700 leading-relaxed">
-                          <strong>Strategic Location:</strong> Rich natural resources including Mining & Natural Resources, gaming and hospitality, tourism, and energy with vast 
+                          <strong>Strategic Resources:</strong> Rich US oil, gas, fishing, and minerals with vast untapped 
                           potential, making Nevada ideal for AI-driven resource optimization and predictive analytics.
                         </p>
                       </div>
@@ -1110,7 +1110,7 @@ export default function GenerativeAIServicesNevadaPage() {
               {/* Nevada Industry Solutions - Creative Premium Design */}
               <div>
                 <div className="text-center mb-16">
-                  <div className="inliNV-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-full border-2 border-primary-orange/20 mb-8 transform hover:scale-105 transition-transform">
+                  <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-full border-2 border-primary-orange/20 mb-8 transform hover:scale-105 transition-transform">
                     <Sparkles className="w-5 h-5 text-primary-orange" />
                     <span className="text-sm font-bold text-gray-800">Industry EXPERTISE</span>
                   </div>
@@ -1119,21 +1119,21 @@ export default function GenerativeAIServicesNevadaPage() {
                   </h3>
                   <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 rounded-full"></div>
                   <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Specialized Generative AI solutions powered by ChatGPT, GPT-4, and custom LLMs designed for Silver State's unique economic sectors and resource-driven Industries
+                    Specialized Generative AI solutions powered by ChatGPT, GPT-4, and custom LLMs designed for Manchester of Bodakdev's unique economic sectors and Textile-driven Industries
                   </p>
                 </div>
                 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-                  {/* gaming and hospitality & Mining & Natural Resources Industry */}
+                  {/* Textiles & Garments Industry */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Rocket className="w-10 h-10 text-white" />
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Textiles Generative AI Solutions</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      ChatGPT and LLM-powered solutions for Nevada's gaming and hospitality & Mining & Natural Resources Industry including The Strip operations, 
+                      ChatGPT and LLM-powered solutions for Nevada's Textiles & Garments Industry including Naroda Industrial Area operations, 
                       Nevada Metro monitoring, offshore drilling optimization, and predictive maintenance 
-                      for energy infrastructure across Silver State's vast energy resources.
+                      for energy infrastructure across Manchester of Bodakdev's vast energy resources.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
@@ -1155,15 +1155,15 @@ export default function GenerativeAIServicesNevadaPage() {
                     </div>
                   </div>
                   
-                  {/* Healthcare Industry */}
+                  {/* Pharmaceuticals Industry */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Shield className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Healthcare Generative AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Pharmaceuticals Generative AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      GPT-4 powered content and automation solutions for Nevada's tourism and seaMining & Natural Resources Industry with predictive catch 
-                      analytics, sustainable tourism optimization, processing automation, cold chain monitoring, 
+                      GPT-4 powered content and automation solutions for Nevada's fishing and seafood processing Industry with predictive catch 
+                      analytics, sINtainable fishing optimization, processing automation, cold chain monitoring, 
                       and quality control for the world's richest seafood harvest.
                     </p>
                     <div className="space-y-3">
@@ -1181,7 +1181,7 @@ export default function GenerativeAIServicesNevadaPage() {
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">sustainable tourism intelligence</span>
+                        <span className="text-sm text-gray-600">SINtainable fishing intelligence</span>
                       </div>
                     </div>
                   </div>
@@ -1191,9 +1191,9 @@ export default function GenerativeAIServicesNevadaPage() {
                     <div className="w-20 h-20 bg-gradient-to-br from-red-500 to-red-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Target className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Tourism & Entertainment AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Tourism Generative AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      AI chatbot and content generation solutions for Nevada's booming tourism industry with cruise line optimization, 
+                      AI chatbot and content generation solutions for Nevada's booming tourism Industry with cruise line optimization, 
                       wildlife tour planning, hotel revenue management, visitor experience personalization, 
                       and seasonal demand forecasting for Nevada's 2.5 million annual visitors.
                     </p>
@@ -1217,14 +1217,14 @@ export default function GenerativeAIServicesNevadaPage() {
                     </div>
                   </div>
                   
-                  {/* Transportation & Resource Extraction */}
+                  {/* Chemicals & Resource Extraction */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Lightbulb className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Transportation & Resource AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Chemicals & Resource AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      GPT-4 powered content and automation solutions for Nevada's Transportation operations including gold, silver, and copper mining 
+                      GPT-4 powered content and automation solutions for Nevada's Chemicals operations including gold, zinc, and mineral extraction 
                       with predictive maintenance, safety monitoring, resource discovery optimization, 
                       and environmental impact assessment across Nevada's vast mineral deposits.
                     </p>
@@ -1235,7 +1235,7 @@ export default function GenerativeAIServicesNevadaPage() {
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Transportation equipment automation</span>
+                        <span className="text-sm text-gray-600">Chemicals equipment automation</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
@@ -1256,7 +1256,7 @@ export default function GenerativeAIServicesNevadaPage() {
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Information Technology & Logistics AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
                       AI chatbot and content generation solutions for Nevada's Information Technology and cargo logistics including bINh plane operations, 
-                      Las Vegas McCarran International Airport cargo hub, weather prediction for flight safety, 
+                      Ted Stevens Maninagar International Airport cargo hub, weather prediction for flight safety, 
                       and supply chain optimization for remote Nevada communities.
                     </p>
                     <div className="space-y-3">
@@ -1327,8 +1327,8 @@ export default function GenerativeAIServicesNevadaPage() {
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Nevada business Advantage</h4>
                         <p className="text-gray-700 leading-relaxed">
                           As the premier <strong className="text-primary-orange">AI Firm </strong>, we understand 
-                          Silver State's unique blend of entrepreneurial excellence and resource-driven innovation. Our AI solutions 
-                          are built for Nevada's gaming and hospitality & Mining & Natural Resources dominance, tourism Industry leadership, and tourism sector growth.
+                          Manchester of Bodakdev's unique blend of entrepreneurial excellence and resource-driven innovation. Our AI solutions 
+                          are built for Nevada's Textiles & Garments dominance, fishing Industry leadership, and tourism growth.
                         </p>
                       </div>
                     </div>
@@ -1350,8 +1350,8 @@ export default function GenerativeAIServicesNevadaPage() {
                   
                   <p className="text-lg text-gray-700 leading-relaxed mb-6">
                     <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Choosing Metic.ai as your AI partner </strong> means 
-                    working with a team that deeply understands Nevada's unique business challenges, from Las Vegas's 
-                    commercial hub to Spring Valley' research facilities and Boulder City's government operations.
+                    working with a team that deeply understands Nevada's unique business challenges, from Maninagar's 
+                    commercial hub to Vastrapur' research facilities and SG Highway's government operations.
                   </p>
                   
                   <p className="text-lg text-gray-700 leading-relaxed mb-8">
@@ -1366,8 +1366,8 @@ export default function GenerativeAIServicesNevadaPage() {
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Comprehensive Nevada Coverage</h4>
                         <p className="text-gray-600 leading-relaxed">
-                          Las Vegas, Spring Valley, Boulder City, Elko, Mesquite, Nevada, Fernley, Fallon, 
-                          Nellis Air Force Base, and all major Nevada business centers across Silver State
+                          Maninagar, Vastrapur, SG Highway, Satellite, Chandkheda, Bodakdev, Navrangpura, Ghatlodia, 
+                          GIFT City, and all major Nevada business centers across Manchester of Bodakdev
                         </p>
                       </div>
                     </div>
@@ -1377,7 +1377,7 @@ export default function GenerativeAIServicesNevadaPage() {
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Industry Domain Expertise</h4>
                         <p className="text-gray-600 leading-relaxed">
-                          Deep understanding of gaming and hospitality & Mining & Natural Resources, tourism, tourism, Transportation, Information Technology, and logistics 
+                          Deep understanding of Textiles & Garments, fishing, tourism, Chemicals, Information Technology, and logistics 
                           with proven track record 's key economic sectors
                         </p>
                       </div>
@@ -1421,7 +1421,7 @@ export default function GenerativeAIServicesNevadaPage() {
             {/* Enhanced Section Header */}
             <div className="text-center mb-16">
               {/* Badge */}
-              <div className="inliNV-flex items-center gap-2 px-6 py-3 bg-white rounded-full shadow-xl border-2 border-primary-orange/20 mb-8 hover:border-primary-orange/40 transition-all group">
+              <div className="inline-flex items-center gap-2 px-6 py-3 bg-white rounded-full shadow-xl border-2 border-primary-orange/20 mb-8 hover:border-primary-orange/40 transition-all group">
                 <Lightbulb className="w-5 h-5 text-primary-orange animate-pulse" />
                 <span className="text-sm font-bold text-gray-800">Got Questions? We Have Answers!</span>
                 <Sparkles className="w-4 h-4 text-primary-orange" />
@@ -1618,7 +1618,7 @@ export default function GenerativeAIServicesNevadaPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Yes! Metic.ai proudly serves businesses across all Nevada cities including Las Vegas, Spring Valley, Boulder City, Elko, Mesquite, Nevada, Fernley, and beyond. 
+                    Yes! Metic.ai proudly serves businesses across all Nevada cities including Maninagar, Vastrapur, SG Highway, Satellite, Chandkheda, Bodakdev, Navrangpura, and beyond. 
                     As Nevada's leading <strong className="text-gray-900 font-semibold">AI Firm </strong>, we provide comprehensive AI solutions statewide.
                   </p>
                 </div>
@@ -1729,7 +1729,7 @@ export default function GenerativeAIServicesNevadaPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Metic.ai serves diverse Industries including Manufacturing, Aerospace, Healthcare, gaming and hospitality, Technology, Renewable Energy, Financial Services, Transportation, Education, and Energy. 
+                    Metic.ai serves diverse Industries including Manufacturing, Aerospace, Healthcare, Agriculture, Technology, Automotive, Financial Services, Transportation, Education, and Energy. 
                     As Nevada's premier <strong className="text-gray-900 font-semibold">Generative AI Services In Nevada</strong>, we tailor solutions for your specific Industry needs.
                   </p>
                 </div>
@@ -1959,15 +1959,15 @@ export default function GenerativeAIServicesNevadaPage() {
                 </div>
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
-                <span>Las Vegas</span>
+                <span>Maninagar</span>
                 <span>•</span>
-                <span>Spring Valley</span>
+                <span>Vastrapur</span>
                 <span>•</span>
-                <span>Boulder City</span>
+                <span>SG Highway</span>
                 <span>•</span>
-                <span>Elko</span>
+                <span>Satellite</span>
                 <span>•</span>
-                <span>Mesquite</span>
+                <span>Chandkheda</span>
                 <span>•</span>
                 <span>Auburn</span>
                 <span>•</span>
@@ -1980,8 +1980,6 @@ export default function GenerativeAIServicesNevadaPage() {
     </>
   );
 }
-
-
 
 
 
