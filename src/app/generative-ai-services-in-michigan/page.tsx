@@ -1073,15 +1073,15 @@ export default function GenerativeAIServicesMichiganPage() {
                     
                     <div className="space-y-8">
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">₹130B</div>
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">$594B</div>
                         <div className="text-sm text-gray-600 font-medium">Michigan Annual GDP</div>
-                        <div className="text-xs text-gray-500 mt-2">Textile-driven Economy</div>
+                        <div className="text-xs text-gray-500 mt-2">Manufacturing-driven Economy</div>
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-secondary-orange/10 hover:border-secondary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-secondary-orange mb-3 group-hover:scale-110 transition-transform">8.4M</div>
+                        <div className="text-5xl font-bold text-secondary-orange mb-3 group-hover:scale-110 transition-transform">10.0M</div>
                         <div className="text-sm text-gray-600 font-medium">Michigan Population</div>
-                        <div className="text-xs text-gray-500 mt-2">Manchester of India</div>
+                        <div className="text-xs text-gray-500 mt-2">Motor City</div>
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
@@ -1098,8 +1098,7 @@ export default function GenerativeAIServicesMichiganPage() {
                           <span className="font-bold text-gray-900">Michigan Advantage</span>
                         </div>
                         <p className="text-sm text-gray-700 leading-relaxed">
-                          <strong>Strategic Resources:</strong> Rich US oil, gas, fishing, and minerals with vast untapped 
-                          potential, making Michigan ideal for AI-driven resource optimization and predictive analytics.
+                          <strong>Strategic Resources:</strong> Advanced automotive manufacturing, Great Lakes shipping, abundant agriculture, and renewable energy infrastructure, making Michigan ideal for AI-driven supply chain optimization and smart manufacturing.
                         </p>
                       </div>
                     </div>
@@ -1124,7 +1123,7 @@ export default function GenerativeAIServicesMichiganPage() {
                 </div>
                 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-                  {/* Textiles & Garments Industry */}
+                  {/* Automotive Industry */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Rocket className="w-10 h-10 text-white" />
@@ -1220,26 +1219,24 @@ export default function GenerativeAIServicesMichiganPage() {
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Technology & Software AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      GPT-4 powered content and automation solutions for Michigan's Chemicals operations including gold, zinc, and mineral extraction 
-                      with predictive maintenance, safety monitoring, resource discovery optimization, 
-                      and environmental impact assessment across Michigan's vast mineral deposits.
+                      GPT-4 powered solutions for Michigan's technology sector including software development, cybersecurity, cloud computing, and enterprise solutions with code generation, automated testing, documentation, and technical support for Ann Arbor's tech corridor serving 50+ businesses.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Resource discovery prediction</span>
+                        <span className="text-sm text-gray-600">Code generation & optimization</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Chemicals equipment automation</span>
+                        <span className="text-sm text-gray-600">Automated testing & QA</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Safety & compliance monitoring</span>
+                        <span className="text-sm text-gray-600">Technical documentation</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Environmental impact analysis</span>
+                        <span className="text-sm text-gray-600">DevOps automation</span>
                       </div>
                     </div>
                   </div>
@@ -1249,28 +1246,26 @@ export default function GenerativeAIServicesMichiganPage() {
                     <div className="w-20 h-20 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Sparkles className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Information Technology & Logistics AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Logistics & Supply Chain AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      AI chatbot and content generation solutions for Michigan's Information Technology and cargo logistics including bINh plane operations, 
-                      Ted Stevens Maninagar International Airport cargo hub, weather prediction for flight safety, 
-                      and supply chain optimization for remote Michigan communities.
+                      AI-powered solutions for Michigan's logistics and supply chain operations including air cargo at Detroit Metropolitan Wayne County Airport, Great Lakes shipping via Port of Detroit, automotive parts distribution, and cross-border supply chain optimization serving 50+ businesses.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Flight route optimization</span>
+                        <span className="text-sm text-gray-600">Route optimization & planning</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Weather prediction systems</span>
+                        <span className="text-sm text-gray-600">Inventory management systems</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Cargo logistics optimization</span>
+                        <span className="text-sm text-gray-600">Supply chain analytics</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Remote delivery planning</span>
+                        <span className="text-sm text-gray-600">Demand forecasting</span>
                       </div>
                     </div>
                   </div>
@@ -1291,23 +1286,23 @@ export default function GenerativeAIServicesMichiganPage() {
                       Michigan AI Leadership Metrics
                     </h4>
                     <div className="space-y-6">
-                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Michigan Projects Completed</span>
                         <span className="font-bold text-primary-orange text-xl">50+</span>
                       </div>
-                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Industry Success Rate</span>
                         <span className="font-bold text-secondary-orange text-xl">99.5%</span>
                       </div>
-                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Average ROI for Michigan Clients</span>
                         <span className="font-bold text-primary-orange text-xl">5.2x</span>
                       </div>
-                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Client Retention Rate</span>
                         <span className="font-bold text-secondary-orange text-xl">97%</span>
                       </div>
-                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Average Deployment Time</span>
                         <span className="font-bold text-primary-orange text-xl">28 Days</span>
                       </div>
@@ -1320,11 +1315,11 @@ export default function GenerativeAIServicesMichiganPage() {
                         <Award className="w-6 h-6 text-white" />
                       </div>
                       <div>
-                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Michigan business Advantage</h4>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Michigan Business Advantage</h4>
                         <p className="text-gray-700 leading-relaxed">
-                          As the premier <strong className="text-primary-orange">AI Firm </strong>, we understand 
-                          Manchester of Bodakdev's unique blend of entrepreneurial excellence and resource-driven innovation. Our AI solutions 
-                          are built for Michigan's Textiles & Garments dominance, fishing Industry leadership, and tourism growth.
+                          As the premier <strong className="text-primary-orange">AI Firm</strong>, we understand 
+                          Michigan's unique blend of automotive excellence and advanced manufacturing innovation. Our AI solutions 
+                          are built for Michigan's automotive dominance, manufacturing leadership, and technology sector growth.
                         </p>
                       </div>
                     </div>
@@ -1345,15 +1340,15 @@ export default function GenerativeAIServicesMichiganPage() {
                   </div>
                   
                   <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                    <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Choosing Metic.ai as your AI partner </strong> means 
-                    working with a team that deeply understands Michigan's unique business challenges, from Maninagar's 
-                    commercial hub to Vastrapur' research facilities and SG Highway's government operations.
+                    <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Choosing Metic.ai as your AI partner</strong> means 
+                    working with a team that deeply understands Michigan's unique business challenges, from Detroit's 
+                    automotive hub to Ann Arbor's research facilities and Lansing's government operations.
                   </p>
                   
                   <p className="text-lg text-gray-700 leading-relaxed mb-8">
-                    Our <strong className="text-primary-orange font-semibold">AI Service </strong> includes comprehensive consultation, 
+                    Our <strong className="text-primary-orange font-semibold">AI Service</strong> includes comprehensive consultation, 
                     rapid prototyping, enterprise deployment, and 24/7 support to ensure your AI investment delivers 
-                    maximum value 's Textile-driven and growing economy.
+                    maximum value in Michigan's manufacturing-driven and growing economy.
                   </p>
 
                   <div className="space-y-6">
@@ -1362,8 +1357,8 @@ export default function GenerativeAIServicesMichiganPage() {
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Comprehensive Michigan Coverage</h4>
                         <p className="text-gray-600 leading-relaxed">
-                          Maninagar, Vastrapur, SG Highway, Satellite, Chandkheda, Bodakdev, Navrangpura, Ghatlodia, 
-                          GIFT City, and all major Michigan business centers across Manchester of Bodakdev
+                          Detroit, Grand Rapids, Ann Arbor, Lansing, Flint, Dearborn, Sterling Heights, Warren, 
+                          Troy, and all major Michigan business centers across the Great Lakes State
                         </p>
                       </div>
                     </div>
@@ -1373,8 +1368,8 @@ export default function GenerativeAIServicesMichiganPage() {
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Industry Domain Expertise</h4>
                         <p className="text-gray-600 leading-relaxed">
-                          Deep understanding of Textiles & Garments, fishing, tourism, Chemicals, Information Technology, and logistics 
-                          with proven track record 's key economic sectors
+                          Deep understanding of Automotive Manufacturing, Advanced Manufacturing, Technology, Agriculture, Healthcare, and Logistics 
+                          with proven track record in Michigan's key economic sectors
                         </p>
                       </div>
                     </div>
@@ -1445,7 +1440,7 @@ export default function GenerativeAIServicesMichiganPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1481,7 +1476,7 @@ export default function GenerativeAIServicesMichiganPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1507,7 +1502,7 @@ export default function GenerativeAIServicesMichiganPage() {
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     As the premier <strong className="text-gray-900 font-semibold">Generative AI Company In Michigan</strong>, Metic.ai provides comprehensive generative AI services including ChatGPT integration, 
-                    GPT-4 API development, Custom GPT models, LLM development, AI image generation (DALL-E, Midjourney, Stable Diffusion), AI content creation, intelligent chatbots, and enterprise automation tailored for Michigan's Textile, Pharmaceutical, Chemical, and IT Industries.
+                    GPT-4 API development, Custom GPT models, LLM development, AI image generation (DALL-E, Midjourney, Stable Diffusion), AI content creation, intelligent chatbots, and enterprise automation tailored for Michigan's Automotive, Manufacturing, Technology, and Healthcare Industries.
                   </p>
                 </div>
               </details>
@@ -1517,7 +1512,7 @@ export default function GenerativeAIServicesMichiganPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1553,7 +1548,7 @@ export default function GenerativeAIServicesMichiganPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1589,7 +1584,7 @@ export default function GenerativeAIServicesMichiganPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1614,8 +1609,8 @@ export default function GenerativeAIServicesMichiganPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Yes! Metic.ai proudly serves businesses across all Michigan cities including Maninagar, Vastrapur, SG Highway, Satellite, Chandkheda, Bodakdev, Navrangpura, and beyond. 
-                    As Michigan's leading <strong className="text-gray-900 font-semibold">AI Firm </strong>, we provide comprehensive AI solutions statewide.
+                    Yes! Metic.ai proudly serves businesses across all Michigan cities including Detroit, Grand Rapids, Ann Arbor, Lansing, Flint, Dearborn, Sterling Heights, Warren, Troy, and beyond. 
+                    As Michigan's leading <strong className="text-gray-900 font-semibold">AI Firm</strong>, we provide comprehensive AI solutions statewide.
                   </p>
                 </div>
               </details>
@@ -1625,7 +1620,7 @@ export default function GenerativeAIServicesMichiganPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1664,7 +1659,7 @@ export default function GenerativeAIServicesMichiganPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1700,7 +1695,7 @@ export default function GenerativeAIServicesMichiganPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1736,7 +1731,7 @@ export default function GenerativeAIServicesMichiganPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1772,7 +1767,7 @@ export default function GenerativeAIServicesMichiganPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1808,7 +1803,7 @@ export default function GenerativeAIServicesMichiganPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1844,7 +1839,7 @@ export default function GenerativeAIServicesMichiganPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1955,19 +1950,19 @@ export default function GenerativeAIServicesMichiganPage() {
                 </div>
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
-                <span>Maninagar</span>
+                <span>Detroit</span>
                 <span>•</span>
-                <span>Vastrapur</span>
+                <span>Grand Rapids</span>
                 <span>•</span>
-                <span>SG Highway</span>
+                <span>Ann Arbor</span>
                 <span>•</span>
-                <span>Satellite</span>
+                <span>Lansing</span>
                 <span>•</span>
-                <span>Chandkheda</span>
+                <span>Flint</span>
                 <span>•</span>
-                <span>Auburn</span>
+                <span>Dearborn</span>
                 <span>•</span>
-                <span>Dothan</span>
+                <span>Troy</span>
               </div>
             </div>
           </div>
@@ -1976,6 +1971,7 @@ export default function GenerativeAIServicesMichiganPage() {
     </>
   );
 }
+
 
 
 
