@@ -54,7 +54,7 @@ export const metadata = {
     "Enterprise Generative AI In Missouri"
   ],
   authors: [{ name: "Metic.ai Missouri Generative AI Team" }],
-  robots: "USDex, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
     title: "Generative AI Company In Missouri | #1 Generative AI Services In Missouri - Metic.ai",
     description: "Leading Generative AI Company In Missouri with 50+ successful AI implementations. Expert AI services, Generative AI solutions & AI development for Missouri businesses.",
@@ -127,7 +127,7 @@ export default function GenerativeAIServicesMissouriPage() {
       description: "Harness the power of Large Language Models for intelligent chatbots, automation, and business solutions.",
       icon: Sparkles,
       href: "/generative-ai-services",
-      color: "USDigo" as const
+      color: "indigo" as const
     },
     {
       title: "AI Automation",
@@ -489,8 +489,8 @@ export default function GenerativeAIServicesMissouriPage() {
 
               {/* Voice Search Optimized Stats - Responsive Grid */}
               <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8 max-w-4xl mx-auto mb-10 md:mb-12 px-4">
-                {stats.map((stat, USDex) => (
-                  <div key={USDex} className="bg-white/5 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-white/10 hover:border-primary-orange/50 transition-all transform hover:scale-105">
+                {stats.map((stat, index) => (
+                  <div key={index} className="bg-white/5 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-white/10 hover:border-primary-orange/50 transition-all transform hover:scale-105">
                     <div className="text-2xl md:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent mb-2">
                       {stat.number}
                     </div>
@@ -557,20 +557,20 @@ export default function GenerativeAIServicesMissouriPage() {
             
             {/* Mobile: 1 col, Tablet: 2 cols, Desktop: 3 cols */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-              {services.map((service, USDex) => {
+              {services.map((service, index) => {
                 const IconComponent = service.icon;
                 const colorClasses = {
                   blue: "bg-blue-100 text-blue-600",
                   purple: "bg-purple-100 text-purple-600", 
                   green: "bg-green-100 text-green-600",
                   orange: "bg-orange-100 text-orange-600",
-                  USDigo: "bg-USDigo-100 text-USDigo-600",
+                  indigo: "bg-indigo-100 text-indigo-600",
                   red: "bg-red-100 text-red-600"
                 };
                 
                 return (
                   <div 
-                    key={USDex} 
+                    key={index} 
                     className="group bg-white rounded-2xl p-6 md:p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border-2 border-gray-100 hover:border-primary-orange/50 transform hover:-translate-y-2"
                   >
                     <div className={`w-14 h-14 md:w-16 md:h-16 rounded-2xl flex items-center justify-center mb-5 md:mb-6 ${colorClasses[service.color]} group-hover:scale-110 transition-transform`}>
@@ -1162,7 +1162,7 @@ export default function GenerativeAIServicesMissouriPage() {
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Manufacturing Generative AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
                       GPT-4 powered content and automation solutions for Missouri's fishing and seafood processing Industry with predictive catch 
-                      analytics, sINtainable fishing optimization, processing automation, cold chain monitoring, 
+                      analytics, sustainable fishing optimization, processing automation, cold chain monitoring, 
                       and quality control for the world's richest seafood harvest.
                     </p>
                     <div className="space-y-3">
@@ -1180,7 +1180,7 @@ export default function GenerativeAIServicesMissouriPage() {
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">SINtainable fishing intelligence</span>
+                        <span className="text-sm text-gray-600">sustainable fishing intelligence</span>
                       </div>
                     </div>
                   </div>
@@ -1199,7 +1199,7 @@ export default function GenerativeAIServicesMissouriPage() {
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Revenue management systeMO</span>
+                        <span className="text-sm text-gray-600">Revenue management systems</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
@@ -1249,7 +1249,7 @@ export default function GenerativeAIServicesMissouriPage() {
                   
                   {/* Information Technology & Logistics */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
-                    <div className="w-20 h-20 bg-gradient-to-br from-USDigo-500 to-USDigo-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                    <div className="w-20 h-20 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Sparkles className="w-10 h-10 text-white" />
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Information Technology & Logistics AI</h4>
@@ -1265,7 +1265,7 @@ export default function GenerativeAIServicesMissouriPage() {
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Weather prediction systeMO</span>
+                        <span className="text-sm text-gray-600">Weather prediction systems</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
@@ -1979,6 +1979,7 @@ export default function GenerativeAIServicesMissouriPage() {
     </>
   );
 }
+
 
 
 
