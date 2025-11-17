@@ -33,10 +33,13 @@ Allow: /artificial-intelligence-ai-services-in-kansas
 Allow: /artificial-intelligence-ai-services-in-kentucky
 Allow: /artificial-intelligence-ai-services-in-kolkata
 Allow: /artificial-intelligence-ai-services-in-louisiana
+Allow: /generative-ai-services-in-maine
+Allow: /generative-ai-services-in-louisiana
 
 # Allow all location-based AI services
 Allow: /artificial-intelligence-ai-services-in-*
 Allow: /machine-learning-services-in-*
+Allow: /generative-ai-services-in-*
 
 # Allow IndexNow API for faster search engine indexing
 Allow: /api/indexnow

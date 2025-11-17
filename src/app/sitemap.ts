@@ -171,8 +171,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'daily' as const,
       priority: 0.92, // Recently fixed and optimized
     },
+    {
+      url: `${baseUrl}/generative-ai-services-in-maine`,
+      lastModified,
+      changeFrequency: 'daily' as const,
+      priority: 0.92, // Recently rebuilt and optimized
+    },
     // Other high-priority US states
-    ...usStates.filter(state => state !== 'louisiana').map(state => ({
+    ...usStates.filter(state => state !== 'louisiana' && state !== 'maine').map(state => ({
       url: `${baseUrl}/generative-ai-services-in-${state}`,
       lastModified,
       changeFrequency: 'weekly' as const,
