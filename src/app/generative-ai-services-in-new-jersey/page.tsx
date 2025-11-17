@@ -27,61 +27,61 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Generative AI Company In New Hampshire | #1 AI Company In New Hampshire - Metic.ai",
-  description: "Leading Generative AI Company In New Hampshire with 50+ successful AI implementations. Expert ChatGPT integration, GPT-4 services, LLM development & AI solutions. Transform your business with 60% cost savings & 3x faster delivery.",
+  title: "Generative AI Company In New Jersey | #1 AI Company In New Jersey - Metic.ai",
+  description: "Leading Generative AI Company In New Jersey with 50+ successful AI implementations. Expert ChatGPT integration, GPT-4 services, LLM development & AI solutions. Transform your Business with 60% cost savings & 3x faster delivery.",
   keywords: [
-    "Generative AI Company In New Hampshire",
-    "Generative AI Services In New Hampshire", 
-    "ChatGPT Integration Services In New Hampshire",
-    "Custom GPT Development In New Hampshire",
-    "Large Language Model Company In New Hampshire",
-    "AI Content Creation Services In New Hampshire",
-    "GPT-4 Integration Company In New Hampshire",
-    "LLM Development Services In New Hampshire",
-    "AI Text Generation Solutions In New Hampshire",
-    "Generative AI Solutions In New Hampshire",
-    "AI Chatbot Development In New Hampshire",
-    "Custom AI Model Training In New Hampshire",
-    "OpenAI Integration Services In New Hampshire",
-    "AI Image Generation Services In New Hampshire",
-    "Midjourney AI Integration In New Hampshire",
-    "DALL-E Integration Services In New Hampshire",
-    "Stable Diffusion Solutions In New Hampshire",
-    "AI Code Generation Services In New Hampshire",
-    "GitHub Copilot Integration In New Hampshire",
-    "AI Marketing Automation In New Hampshire",
-    "AI Customer Service Solutions In New Hampshire",
-    "Enterprise Generative AI In New Hampshire"
+    "Generative AI Company In New Jersey",
+    "Generative AI Services In New Jersey", 
+    "ChatGPT Integration Services In New Jersey",
+    "Custom GPT Development In New Jersey",
+    "Large Language Model Company In New Jersey",
+    "AI Content Creation Services In New Jersey",
+    "GPT-4 Integration Company In New Jersey",
+    "LLM Development Services In New Jersey",
+    "AI Text Generation Solutions In New Jersey",
+    "Generative AI Solutions In New Jersey",
+    "AI Chatbot Development In New Jersey",
+    "Custom AI Model Training In New Jersey",
+    "OpenAI Integration Services In New Jersey",
+    "AI Image Generation Services In New Jersey",
+    "Midjourney AI Integration In New Jersey",
+    "DALL-E Integration Services In New Jersey",
+    "Stable Diffusion Solutions In New Jersey",
+    "AI Code Generation Services In New Jersey",
+    "GitHub Copilot Integration In New Jersey",
+    "AI Marketing Automation In New Jersey",
+    "AI Customer Service Solutions In New Jersey",
+    "Enterprise Generative AI In New Jersey"
   ],
-  authors: [{ name: "Metic.ai New Hampshire Generative AI Team" }],
+  authors: [{ name: "Metic.ai New Jersey Generative AI Team" }],
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
-    title: "Generative AI Company In New Hampshire | #1 Generative AI Services In New Hampshire - Metic.ai",
-    description: "Leading Generative AI Company In New Hampshire with 50+ successful AI implementations. Expert AI services, Generative AI solutions & AI development for New Hampshire businesses.",
-    url: "https://metic.ai/generative-ai-services-in-new-hampshire/",
+    title: "Generative AI Company In New Jersey | #1 Generative AI Services In New Jersey - Metic.ai",
+    description: "Leading Generative AI Company In New Jersey with 50+ successful AI implementations. Expert AI services, Generative AI solutions & AI development for New Jersey Businesses.",
+    url: "https://metic.ai/generative-ai-services-in-new-jersey/",
     type: "website",
     locale: "en_US",
-    siteName: "Metic.ai - Generative AI Services In New Hampshire",
+    siteName: "Metic.ai - Generative AI Services In New Jersey",
     images: [
       {
-        url: "https://metic.ai/og-generative-ai-new-hampshire.jpg",
+        url: "https://metic.ai/og-generative-ai-new-jersey.jpg",
         width: 1200,
         height: 630,
-        alt: "Generative AI Company In New Hampshire - Metic.ai",
+        alt: "Generative AI Company In New Jersey - Metic.ai",
         type: "image/jpeg"
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Generative AI Company In New Hampshire | Generative AI Services In New Hampshire",
-    description: "Leading Generative AI Services In New Hampshire delivering enterprise artificial intelligence solutions. Expert AI development, Generative AI & automation services with proven results.",
-    images: ["https://metic.ai/og-generative-ai-new-hampshire.jpg"],
+    title: "Generative AI Company In New Jersey | Generative AI Services In New Jersey",
+    description: "Leading Generative AI Services In New Jersey delivering enterprise artificial intelligence solutions. Expert AI development, Generative AI & automation services with proven results.",
+    images: ["https://metic.ai/og-generative-ai-new-jersey.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/generative-ai-services-in-new-hampshire/",
+    canonical: "https://metic.ai/generative-ai-services-in-new-jersey/",
   },
   verification: {
     google: "google-site-verification-code",
@@ -89,49 +89,49 @@ export const metadata = {
     yahoo: "yahoo-verification-code"
   },
   category: "Technology",
-  classification: "business Services"
+  classification: "Business Services"
 };
 
-export default function GenerativeAIServicesNewHampshirePage() {
+export default function GenerativeAIServicesNewJerseyPage() {
   const services = [
     {
       title: "ChatGPT Integration",
-      description: "Seamlessly integrate ChatGPT and GPT-4 into your New Hampshire business operations with enterprise-grade deployment strategies.",
+      description: "Seamlessly integrate ChatGPT and GPT-4 into your New Jersey Business operations with enterprise-grade deployment strategies.",
       icon: Zap,
       href: "/ai-integration-and-deployment",
       color: "blue" as const
     },
     {
       title: "Custom GPT Development",
-      description: "Build custom GPT models and LLM solutions tailored for New Hampshire businesses and Industries.",
+      description: "Build custom GPT models and LLM solutions tailored for New Jersey Businesses and Industries.",
       icon: Brain,
       href: "/machine-learning",
       color: "purple" as const
     },
     {
       title: "AI Image Generation",
-      description: "DALL-E, Midjourney, and Stable Diffusion integration designed specifically for your New Hampshire business creative needs.",
+      description: "DALL-E, Midjourney, and Stable Diffusion integration designed specifically for your New Jersey Business creative needs.",
       icon: Code,
       href: "/custom-ai-development",
       color: "green" as const
     },
     {
       title: "AI Content Creation",
-      description: "Transform your New Hampshire business content strategy with AI-powered writing, copywriting, and content generation.",
+      description: "Transform your New Jersey Business content strategy with AI-powered writing, copywriting, and content generation.",
       icon: BarChart3,
       href: "/data-insights",
       color: "orange" as const
     },
     {
       title: "LLM Development",
-      description: "Harness the power of Large Language Models for intelligent chatbots, automation, and business solutions.",
+      description: "Harness the power of Large Language Models for intelligent chatbots, automation, and Business solutions.",
       icon: Sparkles,
       href: "/generative-ai-services",
       color: "indigo" as const
     },
     {
       title: "AI Automation",
-      description: "Robust AI automation and intelligent workflows for New Hampshire enterprises and growing businesses.",
+      description: "Robust AI automation and intelligent workflows for New Jersey enterprises and growing Businesses.",
       icon: Database,
       href: "/data-engineering",
       color: "red" as const
@@ -139,22 +139,22 @@ export default function GenerativeAIServicesNewHampshirePage() {
   ];
 
   const Industries = [
-    "Technology & Software & Ranching",
-    "Manufacturing & Financial Services",
-    "Healthcare",
-    "Higher Education & Logistics",
-    "Manufacturing",
-    "Healthcare",
-    "IT & Technology",
+    "Pharmaceuticals",
+    "Technology & Software",
+    "Financial Services",
     "Telecommunications",
+    "Manufacturing",
+    "Biotechnology",
+    "Healthcare",
+    "Logistics & Transportation",
+    "Food Processing",
+    "Chemical Industry",
     "Education",
-    "Real Estate",
-    "Energy & Utilities",
     "Retail"
   ];
 
   const stats = [
-    { number: "50+", label: "Businesses Served" },
+    { number: "50+", label: "Projects Delivered" },
     { number: "99.5%", label: "Client Satisfaction" },
     { number: "5.2x", label: "Average ROI Increase" },
     { number: "24/7", label: "Support Available" }
@@ -169,40 +169,40 @@ export default function GenerativeAIServicesNewHampshirePage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": ["Organization", "TechnologyCompany", "LocalBusiness"],
-            "name": "Metic.ai - Generative AI Company In New Hampshire",
-            "alternateName": ["Generative AI Services In New Hampshire", "Metic AI", "AI Firm New Hampshire"],
-            "description": "Leading Generative AI Company In New Hampshire providing enterprise AI solutions, Generative AI development, and Custom AI services for businesses across New Hampshire.",
-            "url": "https://metic.ai/generative-ai-services-in-new-hampshire/",
+            "name": "Metic.ai - Generative AI Company In New Jersey",
+            "alternateName": ["Generative AI Services In New Jersey", "Metic AI", "AI Firm New Jersey"],
+            "description": "Leading Generative AI Company In New Jersey providing enterprise AI solutions, Generative AI development, and Custom AI services for Businesses across New Jersey.",
+            "url": "https://metic.ai/generative-ai-services-in-new jersey/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
               "https://www.facebook.com/meticai"
             ],
             "logo": "https://metic.ai/logo.png",
-            "image": ["https://metic.ai/ai-company-new-hampshire.jpg"],
+            "image": ["https://metic.ai/ai-company-New Jersey.jpg"],
             "telephone": "+91-789-251-8414",
             "email": "hello@matic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
-            "vatID": "US-mt-123456789",
+            "vatID": "US123456789",
             "address": {
               "@type": "PostalAddress",
-              "addressRegion": "New Hampshire",
+              "addressRegion": "New Jersey",
               "addressCountry": "US",
-              "postalCode": "68501"
+              "postalCode": "07102"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "40.8136",
-              "longitude": "-96.7026"
+              "latitude": "40.7357",
+              "longitude": "-74.1724"
             },
             "areaServed": [
               {
                 "@type": "State",
-                "name": "New Hampshire",
+                "name": "New Jersey",
                 "containedInPlace": {
                   "@type": "Country", 
-                  "name": "New Hampshire"
+                  "name": "Camden"
                 }
               }
             ],
@@ -210,10 +210,10 @@ export default function GenerativeAIServicesNewHampshirePage() {
               "@type": "GeoCircle",
               "geoMidpoint": {
                 "@type": "GeoCoordinates",
-                "latitude": "40.8136",
-                "longitude": "-96.7026"
+                "latitude": "40.7357",
+                "longitude": "-74.1724"
               },
-              "geoRadiUS": "50000"
+              "geoRadius": "2380001"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
@@ -224,7 +224,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
                   "itemOffered": {
                     "@type": "Service",
                     "name": "AI Development Services",
-                    "description": "Custom artificial intelligence development for New Hampshire businesses"
+                    "description": "Custom artificial intelligence development for New Jersey Businesses"
                   }
                 },
                 {
@@ -261,7 +261,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
               "AI Image Generation",
               "AI Automation",
               "Data Science",
-              "business Intelligence",
+              "Business Intelligence",
               "Predictive Analytics"
             ],
             "aggregateRating": {
@@ -273,8 +273,8 @@ export default function GenerativeAIServicesNewHampshirePage() {
             },
             "priceRange": "$$",
             "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer"],
-            "currenciesAccepted": "IND",
-            "open_USgHours": "Mo-Fr 09:00-18:00",
+            "currenciesAccepted": "USD",
+            "openingHours": "Mo-Fr 09:00-18:00",
             "contactPoint": {
               "@type": "ContactPoint",
               "telephone": "+91-789-251-8414",
@@ -296,34 +296,34 @@ export default function GenerativeAIServicesNewHampshirePage() {
             "mainEntity": [
               {
                 "@type": "Question",
-                "name": "Which is the best Generative AI Company In New Hampshire?",
+                "name": "Which is the best Generative AI Company In New Jersey?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Metic.ai is the leading Generative AI Company In New Hampshire with 50+ successful generative AI implementations. We provide comprehensive ChatGPT integration, GPT-4 development, LLM solutions, AI image generation, Custom GPT development, and enterprise AI automation with proven 60% cost savings and 3x faster delivery."
+                  "text": "Metic.ai is the leading Generative AI Company In New Jersey with 50+ successful generative AI implementations. We provide comprehensive ChatGPT integration, GPT-4 development, LLM solutions, AI image generation, Custom GPT development, and enterprise AI automation with proven 60% cost savings and 3x faster delivery."
                 }
               },
               {
                 "@type": "Question", 
-                "name": "What generative AI services does the Generative AI Company In New Hampshire provide?",
+                "name": "What generative AI services does the Generative AI Company In New Jersey provide?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "As the premier Generative AI Company In New Hampshire, Metic.ai provides ChatGPT integration, GPT-4 API development, Custom GPT models, LLM development, AI image generation (DALL-E, Midjourney, Stable Diffusion), AI content creation, intelligent chatbots, and enterprise automation for businesses across New Hampshire."
+                  "text": "As the premier Generative AI Company In New Jersey, Metic.ai provides ChatGPT integration, GPT-4 API development, Custom GPT models, LLM development, AI image generation (DALL-E, Midjourney, Stable Diffusion), AI content creation, intelligent chatbots, and enterprise automation for Businesses across New Jersey."
                 }
               },
               {
                 "@type": "Question",
-                "name": "How to choose the right Generative AI Company In New Hampshire?",
+                "name": "How to choose the right Generative AI Company In New Jersey?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Choose a Generative AI Company In New Hampshire with proven experience in ChatGPT integration, GPT-4 development, successful LLM implementations, Industry expertise, and local presence. Metic.ai offers all these with 50+ completed generative AI projects and deep understanding of New Hampshire's business landscape."
+                  "text": "Choose a Generative AI Company In New Jersey with proven experience in ChatGPT integration, GPT-4 development, successful LLM implementations, Industry expertise, and local presence. Metic.ai offers all these with 50+ completed generative AI projects and deep understanding of New Jersey's Business landscape."
                 }
               },
               {
                 "@type": "Question",
-                "name": "What makes Metic.ai the best Generative AI Company In New Hampshire?",
+                "name": "What makes Metic.ai the best Generative AI Company In New Jersey?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Metic.ai is the best Generative AI Company In New Hampshire due to our proven expertise in ChatGPT integration, GPT-4 development, LLM solutions, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of New Hampshire's Textile, Pharmaceutical, Chemical and IT Industries."
+                  "text": "Metic.ai is the best Generative AI Company In New Jersey due to our proven expertise in ChatGPT integration, GPT-4 development, LLM solutions, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of New Jersey's Pharmaceutical, Pharmaceutical, Chemical and IT Industries."
                 }
               }
             ]
@@ -338,9 +338,9 @@ export default function GenerativeAIServicesNewHampshirePage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Generative AI Company In New Hampshire - ChatGPT, GPT-4 & LLM Services",
-            "description": "Comprehensive guide to generative AI services by the leading Generative AI Company In New Hampshire. Expert ChatGPT integration, GPT-4 development, LLM solutions, and AI image generation implementation.",
-            "image": "https://metic.ai/generative-ai-company-New Hampshire-article.jpg",
+            "headline": "Generative AI Company In New Jersey - ChatGPT, GPT-4 & LLM Services",
+            "description": "Comprehensive guide to generative AI services by the leading Generative AI Company In New Jersey. Expert ChatGPT integration, GPT-4 development, LLM solutions, and AI image generation implementation.",
+            "image": "https://metic.ai/generative-ai-company-new jersey-article.jpg",
             "author": {
               "@type": "Organization",
               "name": "Metic.ai"
@@ -355,8 +355,8 @@ export default function GenerativeAIServicesNewHampshirePage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/generative-ai-services-in-new-hampshire/",
-            "keywords": "Generative AI Company In New Hampshire, Generative AI Services In New Hampshire, AI Service "
+            "mainEntityOfPage": "https://metic.ai/generative-ai-services-in-new jersey/",
+            "keywords": "Generative AI Company In New Jersey, Generative AI Services In New Jersey, AI Service "
           })
         }}
       />
@@ -384,8 +384,8 @@ export default function GenerativeAIServicesNewHampshirePage() {
               {
                 "@type": "ListItem",
                 "position": 3,
-                "name": "Generative AI Company In New Hampshire",
-                "item": "https://metic.ai/generative-ai-services-in-new-hampshire/"
+                "name": "Generative AI Company In New Jersey",
+                "item": "https://metic.ai/generative-ai-services-in-new jersey/"
               }
             ]
           })
@@ -399,29 +399,29 @@ export default function GenerativeAIServicesNewHampshirePage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Metic.ai - Generative AI Services In New Hampshire",
+            "name": "Metic.ai - Generative AI Services In New Jersey",
             "description": "Leading Artificial Intelligence Company providing AI services ",
-            "image": "https://metic.ai/ai-company-new-hampshire.jpg",
+            "image": "https://metic.ai/ai-company-New Jersey.jpg",
             "telephone": "+91-789-251-8414",
             "email": "hello@matic.ai",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "125 N Roberts St",
-              "addressLocality": "Concord",
-              "addressRegion": "NE",
-              "postalCode": "68501",
+              "streetAddress": "123 Main Street",
+              "addressLocality": "Newark",
+              "addressRegion": "NJ",
+              "postalCode": "07102",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "40.8136",
-              "longitude": "-96.7026"
+              "latitude": "40.7357",
+              "longitude": "-74.1724"
             },
-            "url": "https://metic.ai/generative-ai-services-in-new-hampshire/",
+            "url": "https://metic.ai/generative-ai-services-in-new jersey/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",
-              "name": "New Hampshire"
+              "name": "New Jersey"
             },
             "aggregateRating": {
               "@type": "AggregateRating",
@@ -430,7 +430,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
               "bestRating": "5",
               "worstRating": "1"
             },
-            "open_USgHours": "Mo-Fr 09:00-18:00",
+            "openingHours": "Mo-Fr 09:00-18:00",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai"
@@ -463,12 +463,12 @@ export default function GenerativeAIServicesNewHampshirePage() {
                   Generative AI Company
                 </span>
                 <br />
-                <span className="text-white">In New Hampshire</span>
+                <span className="text-white">In New Jersey</span>
               </h1>
               
               {/* VSO Optimized Description - Mobile Friendly */}
               <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 mb-6 md:mb-8 max-w-4xl mx-auto leading-relaxed px-4">
-                Looking for the <strong className="text-primary-orange">best Generative AI Company In New Hampshire</strong>? Metic.ai is the premier <strong className="text-white">Generative AI Company In New Hampshire</strong> delivering ChatGPT integration, GPT-4 services, LLM development & AI solutions with proven results.
+                Looking for the <strong className="text-primary-orange">best Generative AI Company In New Jersey</strong>? Metic.ai is the premier <strong className="text-white">Generative AI Company In New Jersey</strong> delivering ChatGPT integration, GPT-4 services, LLM development & AI solutions with proven results.
               </p>
 
               {/* Mobile-Optimized CTA Buttons */}
@@ -502,7 +502,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
               {/* VSO Keywords Section - Mobile Optimized */}
               <div className="text-center px-4">
                 <p className="text-gray-400 text-sm md:text-base mb-4">
-                  <strong className="text-white">Trusted as the top Generative AI Company In New Hampshire</strong> by leading businesses
+                  <strong className="text-white">Trusted as the top Generative AI Company In New Jersey</strong> by leading Businesses
                 </p>
                 <div className="flex flex-wrap justify-center gap-2 md:gap-3 text-xs md:text-sm">
                   <span className="bg-gradient-to-r from-primary-orange/20 to-secondary-orange/20 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-primary-orange/30 text-white hover:border-primary-orange transition-all">
@@ -545,13 +545,13 @@ export default function GenerativeAIServicesNewHampshirePage() {
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 leading-tight px-4">
                 <strong className="text-gray-900">Generative AI Services</strong> by Leading{" "}
                 <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">
-                  Generative AI Company In New Hampshire
+                  Generative AI Company In New Jersey
                 </span>
               </h2>
               <div className="w-20 md:w-24 h-1 md:h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 md:mb-8 rounded-full"></div>
               <p className="text-base md:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-4">
-                Comprehensive generative AI services from New Hampshire's most Trusted <strong className="text-gray-900">Generative AI Company In New Hampshire</strong>. 
-                Transforming businesses with ChatGPT, GPT-4, LLM development, and cutting-edge AI solutions tailored for New Hampshire's Industrial landscape.
+                Comprehensive generative AI services from New Jersey's most Trusted <strong className="text-gray-900">Generative AI Company In New Jersey</strong>. 
+                Transforming Businesses with ChatGPT, GPT-4, LLM development, and cutting-edge AI solutions tailored for New Jersey's Industrial landscape.
               </p>
             </div>
             
@@ -616,18 +616,18 @@ export default function GenerativeAIServicesNewHampshirePage() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                  About Metic.ai - Premier <span className="text-primary-orange">Generative AI Company In New Hampshire</span>
+                  About Metic.ai - Premier <span className="text-primary-orange">Generative AI Company In New Jersey</span>
                 </h2>
                 <div className="w-20 h-1 bg-primary-orange mb-8"></div>
                 <p className="text-lg text-gray-700 mb-6">
-                  Established as New Hampshire's leading <strong>Generative AI Company In New Hampshire</strong>, Metic.ai has been at the forefront of generative artificial intelligence 
-                  innovation since 2020. We specialize in delivering enterprise-grade ChatGPT integration, GPT-4 development, LLM solutions, AI image generation, and custom AI services that transform businesses across New Hampshire's 
-                  unique Industries including Technology & Software & Healthcare, Healthcare, Tourism & Hospitality, Higher Education, and Information Technology.
+                  Established as New Jersey's leading <strong>Generative AI Company In New Jersey</strong>, Metic.ai has been at the forefront of generative artificial intelligence 
+                  innovation since 2020. We specialize in delivering enterprise-grade ChatGPT integration, GPT-4 development, LLM solutions, AI image generation, and custom AI services that transform Businesses across New Jersey's 
+                  unique Industries including Pharmaceuticals & Garments, Pharmaceuticals, Technology & Hospitality, Financial Services, and Information Technology.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  Our expertise as the premier <strong>Generative AI Company In New Hampshire</strong> encompasses Large Language Models (LLMs), ChatGPT Integration, 
-                  GPT-4 API development, AI Image Generation (DALL-E, Midjourney, Stable Diffusion), Custom GPT development, AI content creation, and intelligent automation. We've successfully completed over 50 generative AI projects, making us the most 
-                  Trusted <strong>Generative AI Company In New Hampshire</strong> from Manchester to Concord.
+                  Our expertise as the premier <strong>Generative AI Company In New Jersey</strong> encompasses Large Language Models (LLMs), ChatGPT Integration, 
+                  GPT-4 API development, AI Image Generation (DALL-E, Midjourney, Stable Diffusion), Custom GPT development, AI content creation, and intelligent automation. We've successfully completed over 50 generative AI projects, making in the most 
+                  Trusted <strong>Generative AI Company In New Jersey</strong> from Newark to Jersey City.
                 </p>
                 <div className="grid grid-cols-2 gap-6 mt-8">
                   <div className="text-center">
@@ -668,7 +668,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
                     AI Consulting & Strategy
                   </h3>
                   <p className="text-gray-600">
-                    Expert AI consulting services to help New Hampshire businesses identify AI opportunities and develop comprehensive implementation strategies.
+                    Expert AI consulting services to help New Jersey Businesses identify AI opportunities and develop comprehensive implementation strategies.
                   </p>
                 </div>
                 
@@ -678,7 +678,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
                     Custom AI Development
                   </h3>
                   <p className="text-gray-600">
-                    Bespoke artificial intelligence solutions tailored to your specific business requirements and Industry challenges .
+                    Bespoke artificial intelligence solutions tailored to your specific Business requirements and Industry challenges .
                   </p>
                 </div>
                 
@@ -688,7 +688,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
                     Enterprise AI Integration
                   </h3>
                   <p className="text-gray-600">
-                    Seamless integration of AI technologies into existing business processes with minimal disruption and maximum efficiency gains.
+                    Seamless integration of AI technologies into existing Business processes with minimal disruption and maximum efficiency gains.
                   </p>
                 </div>
                 
@@ -717,7 +717,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Delivering specialized AI solutions across New Hampshire's key Industries and business sectors.
+                Delivering specialized AI solutions across New Jersey's key Industries and Business sectors.
               </p>
             </div>
             
@@ -768,17 +768,17 @@ export default function GenerativeAIServicesNewHampshirePage() {
                 </div>
               </div>
 
-              {/* Technology & Software */}
+              {/* Agriculture */}
               <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=500&h=400&fit=crop" 
-                    alt="Technology & Software Industry AI Solutions"
+                    alt="Agriculture Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-4">
-                    <h3 className="font-bold text-white text-lg">Technology & Software</h3>
+                    <h3 className="font-bold text-white text-lg">Agriculture</h3>
                   </div>
                 </div>
               </div>
@@ -828,17 +828,17 @@ export default function GenerativeAIServicesNewHampshirePage() {
                 </div>
               </div>
 
-              {/* Higher Education */}
+              {/* Transportation */}
               <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=500&h=400&fit=crop" 
-                    alt="Higher Education Industry AI Solutions"
+                    alt="Transportation Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-4">
-                    <h3 className="font-bold text-white text-lg">Higher Education</h3>
+                    <h3 className="font-bold text-white text-lg">Transportation</h3>
                   </div>
                 </div>
               </div>
@@ -907,18 +907,18 @@ export default function GenerativeAIServicesNewHampshirePage() {
         </div>
       </section>
 
-      {/* Why Choose US Section */}
+      {/* Why Choose in Section */}
       <section className="py-20 bg-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Why Choose Metic.ai as Your <span className="text-primary-orange">Generative AI Company In New Hampshire</span>
+                Why Choose Metic.ai as Your <span className="text-primary-orange">Generative AI Company In New Jersey</span>
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                As the premier <strong>AI Development Company </strong>, we're Trusted by businesses across New Hampshire 
-                for our expertise, proven results, and commitment to client success across Granite State.
+                As the premier <strong>AI Development Company </strong>, we're Trusted by Businesses across New Jersey 
+                for our expertise, proven results, and commitment to client success in Garden State.
               </p>
             </div>
             
@@ -928,7 +928,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
                   <Award className="w-8 h-8 text-blue-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Proven Expertise</h3>
-                <p className="text-gray-600">Years of experience delivering AI solutions for New Hampshire businesses across all Industries.</p>
+                <p className="text-gray-600">Years of experience delivering AI solutions for New Jersey Businesses across all Industries.</p>
               </div>
               
               <div className="text-center">
@@ -936,7 +936,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
                   <TrendingUp className="w-8 h-8 text-green-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Measurable Results</h3>
-                <p className="text-gray-600">Data-driven AI solutions that deliver concrete ROI and business growth for New Hampshire companies.</p>
+                <p className="text-gray-600">Data-driven AI solutions that deliver concrete ROI and Business growth for New Jersey companies.</p>
               </div>
               
               <div className="text-center">
@@ -944,7 +944,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
                   <Users className="w-8 h-8 text-purple-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Local Partnership</h3>
-                <p className="text-gray-600">Dedicated support and partnership with deep understanding of New Hampshire's unique business challenges and opportunities.</p>
+                <p className="text-gray-600">Dedicated support and partnership with deep understanding of New Jersey's unique Business challenges and opportunities.</p>
               </div>
               
               <div className="text-center">
@@ -952,40 +952,40 @@ export default function GenerativeAIServicesNewHampshirePage() {
                   <Shield className="w-8 h-8 text-orange-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Enterprise Security</h3>
-                <p className="text-gray-600">Bank-level security and compliance standards protecting your New Hampshire business data.</p>
+                <p className="text-gray-600">Bank-level security and compliance standards protecting your New Jersey Business data.</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Comprehensive AI Services New Hampshire Content - 100% SEO Optimized */}
+      {/* Comprehensive AI Services New Jersey Content - 100% SEO Optimized */}
       <section className="py-24 bg-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
-            {/* New Hampshire Generative AI Leadership - Enhanced Creative Header */}
+            {/* New Jersey Generative AI Leadership - Enhanced Creative Header */}
             <div className="text-center mb-20">
               {/* Premium Badge with Animation */}
               <div className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-full shadow-2xl border-2 border-primary-orange/30 mb-10 hover:border-primary-orange/50 transition-all group">
                 <div className="w-3 h-3 bg-primary-orange rounded-full animate-pulse"></div>
-                <span className="text-sm font-bold text-gray-800 tracking-wide">Granite State AI INNOVATION</span>
+                <span className="text-sm font-bold text-gray-800 tracking-wide">Garden State AI INNOVATION</span>
                 <div className="w-3 h-3 bg-secondary-orange rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></div>
               </div>
 
               <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight">
                 <span className="text-gray-900">Leading </span>
                 <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent animate-gradient">
-                  Generative AI Company In New Hampshire
+                  Generative AI Company In New Jersey
                 </span>
               </h2>
               <div className="w-40 h-2 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-10 rounded-full shadow-lg"></div>
               <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                Transforming 's Commercial Capital with cutting-edge AI solutions from Manchester to Concord, La Vista to the Aksarben Village
+                Transforming 's Commercial Capital with cutting-edge AI solutions from Newark to Jersey City, Trenton to the Newark Industrial Zone
               </p>
             </div>
 
             <div className="space-y-20">
-              {/* New Hampshire AI Innovation Hub - Premium Design */}
+              {/* New Jersey AI Innovation Hub - Premium Design */}
               <div className="grid lg:grid-cols-2 gap-16 items-center">
                 <div className="order-2 lg:order-1">
                   <div className="space-y-8">
@@ -996,24 +996,24 @@ export default function GenerativeAIServicesNewHampshirePage() {
                       </div>
                       <div>
                         <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
-                          New Hampshire's <span className="text-primary-orange">Premier AI Technology Pioneer</span>
+                          New Jersey's <span className="text-primary-orange">Premier AI Technology Pioneer</span>
                         </h3>
                         <div className="w-24 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange rounded-full"></div>
                       </div>
                     </div>
                     
             <p className="text-lg text-gray-700 leading-relaxed">
-              As the leading <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Generative AI Company In New Hampshire</strong>, 
-              Metic.ai serves Granite State with enterprise-grade AI solutions tailored to New Hampshire's unique economic 
-              landscape. From Manchester' business hub to Concord's tech sector, Nashua' manufacturing to 
-              Dover's innovation centers, we understand New Hampshire's diverse economy and resource-driven Industries.
+              As the leading <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Generative AI Company In New Jersey</strong>, 
+              Metic.ai serves Garden State with enterprise-grade AI solutions tailored to New Jersey's unique economic 
+              landscape. From Newark's Business hub to Jersey City' research facilities, Trenton's government sector to 
+              the Pharmaceutical mills of the Newark Industrial Zone, we understand New Jersey's entrepreneurial excellence and Pharmaceutical-driven Industries.
             </p>
             
             <p className="text-lg text-gray-700 leading-relaxed">
-              Our <strong className="text-primary-orange font-semibold">Generative AI Services In New Hampshire</strong> combines deep understanding 
-              of New Hampshire's unique challenges with cutting-edge technology to deliver AI solutions that drive measurable 
-              results. We've successfully implemented AI across New Hampshire's key sectors including Technology & Software, Healthcare, 
-              Tourism, Forestry, and Energy serving 50+ businesses across New Hampshire.
+              Our <strong className="text-primary-orange font-semibold">Generative AI Services In New Jersey</strong> combines deep understanding 
+              of New Jersey's unique challenges with cutting-edge technology to deliver AI solutions that drive measurable 
+              results. We've successfully implemented AI across New Jersey's key sectors including Pharmaceuticals & Garments, Biotechnology, 
+              Technology, Financial Services, Information Technology, and Logistics Industries in  (Garden State).
             </p>                    {/* Enhanced Feature Cards with Creative Design */}
                     <div className="grid gap-6 mt-10">
                       <div className="group bg-gradient-to-r from-primary-orange/5 via-white to-secondary-orange/5 p-6 rounded-2xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
@@ -1022,10 +1022,10 @@ export default function GenerativeAIServicesNewHampshirePage() {
                             <Rocket className="w-6 h-6 text-white" />
                           </div>
                           <div>
-                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Technology & Software & Manufacturing Excellence</h4>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Pharmaceuticals Generative AI Excellence</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Deep expertise with New Hampshire's agricultural and Healthcare operations including ranching, crop production, 
-                              mineral extraction, and resource management across Granite State's vast landscape.
+                              Deep expertise with New Jersey's Newark Industrial Zone Pharmaceutical operations including major Pharmaceutical mills, 
+                              Port Newark, and biotech R&D across 's largest Pharmaceutical-manufacturing state.
                             </p>
                           </div>
                         </div>
@@ -1037,10 +1037,10 @@ export default function GenerativeAIServicesNewHampshirePage() {
                             <Shield className="w-6 h-6 text-white" />
                           </div>
                           <div>
-                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Healthcare Innovation</h4>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Automotive Manufacturing Innovation</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              GPT-4 powered solutions for New Hampshire's Manufacturing industry including major Manufacturing companies operations, 
-                              ski resort management, guest experience optimization, and visitor analytics with predictive booking systems.
+                              GPT-4 powered content and automation solutions for New Jersey's automotive Industry including Mercedes-Benz, Honda, Hyundai, 
+                              and Toyota manufacturing facilities with predictive maintenance and quality control systems.
                             </p>
                           </div>
                         </div>
@@ -1052,10 +1052,10 @@ export default function GenerativeAIServicesNewHampshirePage() {
                             <Target className="w-6 h-6 text-white" />
                           </div>
                           <div>
-                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Energy & Natural Resources AI</h4>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Financial Services & Natural Resources AI</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Specialized AI for New Hampshire's energy operations and resource extraction including process optimization, 
-                              safety monitoring, and environmental compliance for New Hampshire's rich oil, gas, and mineral deposits.
+                              Specialized AI for New Jersey's Financial Services operations and resource extraction including process optimization, 
+                              safety monitoring, and environmental compliance for New Jersey's rich mineral deposits.
                             </p>
                           </div>
                         </div>
@@ -1068,25 +1068,25 @@ export default function GenerativeAIServicesNewHampshirePage() {
                 <div className="order-1 lg:order-2">
                   <div className="bg-gradient-to-br from-orange-50 via-white to-amber-50 rounded-3xl p-10 border-2 border-primary-orange/20 shadow-2xl transform rotate-1 hover:rotate-0 transition-transform">
                     <h4 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">
-                      New Hampshire Generative AI Impact
+                      New Jersey Generative AI Impact
                     </h4>
                     
                     <div className="space-y-8">
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">$95B</div>
-                        <div className="text-sm text-gray-600 font-medium">New Hampshire Annual GDP</div>
-                        <div className="text-xs text-gray-500 mt-2">Technology-driven Economy</div>
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">$625B</div>
+                        <div className="text-sm text-gray-600 font-medium">New Jersey Annual GDP</div>
+                        <div className="text-xs text-gray-500 mt-2">Pharmaceutical-driven Economy</div>
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-secondary-orange/10 hover:border-secondary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-secondary-orange mb-3 group-hover:scale-110 transition-transform">1.38M</div>
-                        <div className="text-sm text-gray-600 font-medium">New Hampshire Population</div>
-                        <div className="text-xs text-gray-500 mt-2">Granite State</div>
+                        <div className="text-5xl font-bold text-secondary-orange mb-3 group-hover:scale-110 transition-transform">9.3M</div>
+                        <div className="text-sm text-gray-600 font-medium">New Jersey Population</div>
+                        <div className="text-xs text-gray-500 mt-2">Garden State</div>
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
                         <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">50+</div>
-                        <div className="text-sm text-gray-600 font-medium">Businesses Served</div>
+                        <div className="text-sm text-gray-600 font-medium">New Jersey Generative AI Projects</div>
                         <div className="text-xs text-gray-500 mt-2">ChatGPT & LLM Success Rate</div>
                       </div>
                       
@@ -1095,12 +1095,12 @@ export default function GenerativeAIServicesNewHampshirePage() {
                           <div className="w-8 h-8 bg-primary-orange rounded-full flex items-center justify-center">
                             <CheckCircle className="w-5 h-5 text-white" />
                           </div>
-                          <span className="font-bold text-gray-900">New Hampshire Advantage</span>
+                          <span className="font-bold text-gray-900">New Jersey Advantage</span>
                         </div>
                         <p className="text-sm text-gray-700 leading-relaxed">
-                          <strong>Strategic Location:</strong> No state income tax, strong technology sector, thriving tourism industry, 
-                          and growing manufacturing base, making New Hampshire ideal for AI-driven business optimization, predictive analytics, 
-                          and innovative technology solutions for enterprises.
+                          <strong>Strategic Hub:</strong> Home to 18 of the world's top 20 pharmaceutical companies, leading biotech research, 
+                          major financial services, and technology innovation centers, making New Jersey ideal for AI-driven pharmaceutical 
+                          optimization, healthcare innovation, and business intelligence solutions.
                         </p>
                       </div>
                     </div>
@@ -1108,7 +1108,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
                 </div>
               </div>
 
-              {/* New Hampshire Industry Solutions - Creative Premium Design */}
+              {/* New Jersey Industry Solutions - Creative Premium Design */}
               <div>
                 <div className="text-center mb-16">
                   <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-full border-2 border-primary-orange/20 mb-8 transform hover:scale-105 transition-transform">
@@ -1116,25 +1116,25 @@ export default function GenerativeAIServicesNewHampshirePage() {
                     <span className="text-sm font-bold text-gray-800">Industry EXPERTISE</span>
                   </div>
                   <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                    Generative AI Solutions for <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">New Hampshire's Key Industries</span>
+                    Generative AI Solutions for <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">New Jersey's Key Industries</span>
                   </h3>
                   <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 rounded-full"></div>
                   <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Specialized Generative AI solutions powered by ChatGPT, GPT-4, and custom LLMs designed for Granite State's unique economic sectors and resource-driven Industries
+                    Specialized Generative AI solutions powered by ChatGPT, GPT-4, and custom LLMs designed for Garden State's unique economic sectors and Pharmaceutical-driven Industries
                   </p>
                 </div>
                 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-                  {/* Technology & Software & Healthcare Industry */}
+                  {/* Pharmaceuticals & Garments Industry */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Rocket className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Textiles Generative AI Solutions</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Pharmaceuticals Generative AI Solutions</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      ChatGPT and LLM-powered solutions for New Hampshire's Technology & Software & Healthcare Industry including Aksarben Village operations, 
-                      New Hampshire Metro monitoring, offshore drilling optimization, and predictive maintenance 
-                      for energy infrastructure across Granite State's vast energy resources.
+                      ChatGPT and LLM-powered solutions for New Jersey's Pharmaceuticals & Garments Industry including Newark Industrial Zone operations, 
+                      Port Newark monitoring, pharmaceutical manufacturing optimization, and predictive maintenance 
+                      for biotech R&D across Garden State's pharmaceutical industry.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
@@ -1156,15 +1156,15 @@ export default function GenerativeAIServicesNewHampshirePage() {
                     </div>
                   </div>
                   
-                  {/* Healthcare Industry */}
+                  {/* Pharmaceuticals Industry */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Shield className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Healthcare Generative AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Pharmaceuticals Generative AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      GPT-4 powered content and automation solutions for New Hampshire's Manufacturing and seaHealthcare Industry with predictive catch 
-                      analytics, sustainable Manufacturing optimization, processing automation, cold chain monitoring, 
+                      GPT-4 powered content and automation solutions for New Jersey's Biotechnology and seafood processing Industry with predictive catch 
+                      analytics, sustainable Biotechnology optimization, processing automation, cold chain monitoring, 
                       and quality control for the world's richest seafood harvest.
                     </p>
                     <div className="space-y-3">
@@ -1182,21 +1182,21 @@ export default function GenerativeAIServicesNewHampshirePage() {
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">sustainable Manufacturing intelligence</span>
+                        <span className="text-sm text-gray-600">sustainable Biotechnology intelligence</span>
                       </div>
                     </div>
                   </div>
                   
-                  {/* Tourism & Hospitality Industry */}
+                  {/* Technology & Hospitality Industry */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-red-500 to-red-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Target className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Manufacturing & Financial Services AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Technology Generative AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      AI chatbot and content generation solutions for New Hampshire's booming Manufacturing industry with cruise line optimization, 
-                      wildlife tour planning, hotel revenue management, visitor experience personalization, 
-                      and seasonal demand forecasting for New Hampshire's 2.5 million annual visitors.
+                      AI chatbot and content generation solutions for New Jersey's booming Technology Industry with logistics optimization, 
+                      transportation planning, corporate services, visitor experience personalization, 
+                      and seasonal demand forecasting for New Jersey's 50+ million annual travelers.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
@@ -1218,16 +1218,16 @@ export default function GenerativeAIServicesNewHampshirePage() {
                     </div>
                   </div>
                   
-                  {/* Higher Education & Resource Extraction */}
+                  {/* Financial Services & Resource Extraction */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Lightbulb className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Higher Education & Resource AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Financial Services & Resource AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      GPT-4 powered content and automation solutions for New Hampshire's Higher Education operations including corn, beef, and soybean production 
+                      GPT-4 powered content and automation solutions for New Jersey's Financial Services operations including gold, zinc, and mineral extraction 
                       with predictive maintenance, safety monitoring, resource discovery optimization, 
-                      and environmental impact assessment across New Hampshire's vast mineral deposits.
+                      and environmental impact assessment across New Jersey's vast mineral deposits.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
@@ -1236,7 +1236,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Higher Education equipment automation</span>
+                        <span className="text-sm text-gray-600">Financial Services equipment automation</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
@@ -1256,9 +1256,9 @@ export default function GenerativeAIServicesNewHampshirePage() {
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Information Technology & Logistics AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      AI chatbot and content generation solutions for New Hampshire's Information Technology and cargo logistics including bINh plane operations, 
-                      Manchester Eppley Airfield cargo hub, weather prediction for flight safety, 
-                      and supply chain optimization for remote New Hampshire communities.
+                      AI chatbot and content generation solutions for New Jersey's Information Technology and cargo logistics including cargo operations, 
+                      Newark Liberty International Airport cargo hub, weather prediction for flight safety, 
+                      and supply chain optimization for major metropolitan areas.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
@@ -1282,10 +1282,10 @@ export default function GenerativeAIServicesNewHampshirePage() {
                 </div>
               </div>
 
-              {/* ReINable Testimonials Component */}
+              {/* Reusable Testimonials Component */}
               <Testimonials />
 
-              {/* New Hampshire AI Partnership Excellence - Creative Premium Design */}
+              {/* New Jersey AI Partnership Excellence - Creative Premium Design */}
               <div className="grid lg:grid-cols-2 gap-16 items-center">
                 <div className="space-y-8">
                   <div className="bg-white rounded-2xl p-8 shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all transform hover:scale-105">
@@ -1293,26 +1293,26 @@ export default function GenerativeAIServicesNewHampshirePage() {
                       <div className="w-8 h-8 bg-primary-orange rounded-lg flex items-center justify-center transform rotate-12">
                         <BarChart3 className="w-5 h-5 text-white" />
                       </div>
-                      New Hampshire AI Leadership Metrics
+                      New Jersey AI Leadership Metrics
                     </h4>
                     <div className="space-y-6">
-                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
-                        <span className="text-gray-600 font-medium">New Hampshire Projects Completed</span>
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                        <span className="text-gray-600 font-medium">New Jersey Projects Completed</span>
                         <span className="font-bold text-primary-orange text-xl">50+</span>
                       </div>
-                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Industry Success Rate</span>
                         <span className="font-bold text-secondary-orange text-xl">99.5%</span>
                       </div>
-                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
-                        <span className="text-gray-600 font-medium">Average ROI for New Hampshire Clients</span>
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                        <span className="text-gray-600 font-medium">Average ROI for New Jersey Clients</span>
                         <span className="font-bold text-primary-orange text-xl">5.2x</span>
                       </div>
-                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Client Retention Rate</span>
                         <span className="font-bold text-secondary-orange text-xl">97%</span>
                       </div>
-                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Average Deployment Time</span>
                         <span className="font-bold text-primary-orange text-xl">28 Days</span>
                       </div>
@@ -1325,11 +1325,11 @@ export default function GenerativeAIServicesNewHampshirePage() {
                         <Award className="w-6 h-6 text-white" />
                       </div>
                       <div>
-                        <h4 className="font-bold text-gray-900 mb-2 text-lg">New Hampshire business Advantage</h4>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">New Jersey Business Advantage</h4>
                         <p className="text-gray-700 leading-relaxed">
                           As the premier <strong className="text-primary-orange">AI Firm </strong>, we understand 
-                          Granite State's unique blend of entrepreneurial excellence and resource-driven innovation. Our AI solutions 
-                          are built for New Hampshire's Technology & Software & Healthcare dominance, Manufacturing Industry leadership, and Manufacturing sector growth.
+                          Garden State's unique blend of entrepreneurial excellence and resource-driven innovation. Our AI solutions 
+                          are built for New Jersey's Pharmaceuticals & Garments dominance, Biotechnology Industry leadership, and Technology growth.
                         </p>
                       </div>
                     </div>
@@ -1351,24 +1351,24 @@ export default function GenerativeAIServicesNewHampshirePage() {
                   
                   <p className="text-lg text-gray-700 leading-relaxed mb-6">
                     <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Choosing Metic.ai as your AI partner </strong> means 
-                    working with a team that deeply understands New Hampshire's unique business challenges, from Manchester's 
-                    commercial hub to Papillion' research facilities and La Vista's government operations.
+                    working with a team that deeply understands New Jersey's unique Business challenges, from Newark's 
+                    commercial hub to Jersey City' research facilities and Trenton's government operations.
                   </p>
                   
                   <p className="text-lg text-gray-700 leading-relaxed mb-8">
                     Our <strong className="text-primary-orange font-semibold">AI Service </strong> includes comprehensive consultation, 
                     rapid prototyping, enterprise deployment, and 24/7 support to ensure your AI investment delivers 
-                    maximum value 's Textile-driven and growing economy.
+                    maximum value 's Pharmaceutical-driven and growing economy.
                   </p>
 
                   <div className="space-y-6">
                     <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-primary-orange/10 transform hover:scale-105 transition-transform">
                       <MapPin className="w-8 h-8 text-primary-orange flex-shrink-0 mt-1" />
                       <div>
-                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Comprehensive New Hampshire Coverage</h4>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Comprehensive New Jersey Coverage</h4>
                         <p className="text-gray-600 leading-relaxed">
-                          Manchester, Papillion, La Vista, Columbus, Scottsbluff, New Hampshire, North Platte, South Sioux City, 
-                          Offutt Air Force Base, and all major New Hampshire business centers across Granite State
+                          Newark, Jersey City, Trenton, Edison, Elizabeth, Camden, Paterson, Union City, 
+                          Jersey City Waterfront, and all major New Jersey Business centers across Garden State
                         </p>
                       </div>
                     </div>
@@ -1378,7 +1378,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Industry Domain Expertise</h4>
                         <p className="text-gray-600 leading-relaxed">
-                          Deep understanding of Technology & Software & Healthcare, Manufacturing, tourism, Higher Education, Information Technology, and logistics 
+                          Deep understanding of Pharmaceuticals & Garments, Biotechnology, Technology, Financial Services, Information Technology, and logistics 
                           with proven track record 's key economic sectors
                         </p>
                       </div>
@@ -1387,10 +1387,10 @@ export default function GenerativeAIServicesNewHampshirePage() {
                     <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-primary-orange/10 transform hover:scale-105 transition-transform">
                       <Clock className="w-8 h-8 text-primary-orange flex-shrink-0 mt-1" />
                       <div>
-                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Rapid New Hampshire Deployment</h4>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">Rapid New Jersey Deployment</h4>
                         <p className="text-gray-600 leading-relaxed">
-                          Fast implementation designed for New Hampshire's unique challenges with local support teams 
-                          and understanding of dynamic business culture and manufacturing excellence
+                          Fast implementation designed for New Jersey's unique challenges with local support teams 
+                          and understanding of dynamic Business culture and manufacturing excellence
                         </p>
                       </div>
                     </div>
@@ -1432,12 +1432,12 @@ export default function GenerativeAIServicesNewHampshirePage() {
                 <span className="text-gray-900">Frequently Asked Questions</span>
                 <br />
                 <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
-                  About Generative AI Services In New Hampshire
+                  About Generative AI Services In New Jersey
                 </span>
               </h2>
               <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-8 rounded-full"></div>
               <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                Common questions about working with New Hampshire's leading AI company
+                Common questions about working with New Jersey's leading AI company
               </p>
             </div>
 
@@ -1450,7 +1450,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1460,7 +1460,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Which is the best Generative AI Company In New Hampshire?
+                            Which is the best Generative AI Company In New Jersey?
                           </h3>
                         </div>
                       </div>
@@ -1475,8 +1475,8 @@ export default function GenerativeAIServicesNewHampshirePage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    <strong className="text-gray-900 font-semibold">Metic.ai is the leading Generative AI Company In New Hampshire</strong> with over 50 successful generative AI implementations. 
-                    We're recognized as the top Generative AI Company In New Hampshire for our proven expertise in ChatGPT integration, GPT-4 development, LLM solutions, AI image generation, and custom GPT development with 60% cost savings.
+                    <strong className="text-gray-900 font-semibold">Metic.ai is the leading Generative AI Company In New Jersey</strong> with over 50 successful generative AI implementations. 
+                    We're recognized as the top Generative AI Company In New Jersey for our proven expertise in ChatGPT integration, GPT-4 development, LLM solutions, AI image generation, and custom GPT development with 60% cost savings.
                   </p>
                 </div>
               </details>
@@ -1486,7 +1486,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1496,7 +1496,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            What services does the Generative AI Company In New Hampshire provide?
+                            What services does the Generative AI Company In New Jersey provide?
                           </h3>
                         </div>
                       </div>
@@ -1511,8 +1511,8 @@ export default function GenerativeAIServicesNewHampshirePage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    As the premier <strong className="text-gray-900 font-semibold">Generative AI Company In New Hampshire</strong>, Metic.ai provides comprehensive generative AI services including ChatGPT integration, 
-                    GPT-4 API development, Custom GPT models, LLM development, AI image generation (DALL-E, Midjourney, Stable Diffusion), AI content creation, intelligent chatbots, and enterprise automation tailored for New Hampshire's Textile, Pharmaceutical, Chemical, and IT Industries.
+                    As the premier <strong className="text-gray-900 font-semibold">Generative AI Company In New Jersey</strong>, Metic.ai provides comprehensive generative AI services including ChatGPT integration, 
+                    GPT-4 API development, Custom GPT models, LLM development, AI image generation (DALL-E, Midjourney, Stable Diffusion), AI content creation, intelligent chatbots, and enterprise automation tailored for New Jersey's Pharmaceutical, Pharmaceutical, Chemical, and IT Industries.
                   </p>
                 </div>
               </details>
@@ -1522,7 +1522,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1558,7 +1558,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1594,7 +1594,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1604,7 +1604,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Does Metic.ai serve businesses across all New Hampshire cities?
+                            Does Metic.ai serve Businesses across all New Jersey cities?
                           </h3>
                         </div>
                       </div>
@@ -1619,8 +1619,8 @@ export default function GenerativeAIServicesNewHampshirePage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Yes! Metic.ai proudly serves businesses across all New Hampshire cities including Manchester, Papillion, La Vista, Columbus, Scottsbluff, New Hampshire, North Platte, and beyond. 
-                    As New Hampshire's leading <strong className="text-gray-900 font-semibold">AI Firm </strong>, we provide comprehensive AI solutions statewide.
+                    Yes! Metic.ai proudly serves Businesses across all New Jersey cities including Newark, Jersey City, Trenton, Edison, Elizabeth, Camden, Paterson, and beyond. 
+                    As New Jersey's leading <strong className="text-gray-900 font-semibold">AI Firm </strong>, we provide comprehensive AI solutions statewide.
                   </p>
                 </div>
               </details>
@@ -1630,7 +1630,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1640,7 +1640,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            How quickly can an Generative AI Services In New Hampshire start my project?
+                            How quickly can an Generative AI Services In New Jersey start my project?
                           </h3>
                         </div>
                       </div>
@@ -1655,7 +1655,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Metic.ai can typically start your AI project within 24-48 hours after initial consultation. As New Hampshire's fastest <strong className="text-gray-900 font-semibold">Generative AI Services In New Hampshire</strong>, 
+                    Metic.ai can typically start your AI project within 24-48 hours after initial consultation. As New Jersey's fastest <strong className="text-gray-900 font-semibold">Generative AI Services In New Jersey</strong>, 
                     we understand the importance of speed and deliver 3x faster than traditional development approaches.
                   </p>
                 </div>
@@ -1669,7 +1669,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1705,7 +1705,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1715,7 +1715,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            What Industries does the best Generative AI Services In New Hampshire serve?
+                            What Industries does the best Generative AI Services In New Jersey serve?
                           </h3>
                         </div>
                       </div>
@@ -1730,8 +1730,8 @@ export default function GenerativeAIServicesNewHampshirePage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Metic.ai serves diverse Industries including Manufacturing, Aerospace, Healthcare, Technology & Software, Technology, Automotive, Financial Services, Higher Education, Education, and Energy. 
-                    As New Hampshire's premier <strong className="text-gray-900 font-semibold">Generative AI Services In New Hampshire</strong>, we tailor solutions for your specific Industry needs.
+                    Metic.ai serves diverse Industries including Manufacturing, Aerospace, Healthcare, Agriculture, Technology, Automotive, Financial Services, Transportation, Education, and Energy. 
+                    As New Jersey's premier <strong className="text-gray-900 font-semibold">Generative AI Services In New Jersey</strong>, we tailor solutions for your specific Industry needs.
                   </p>
                 </div>
               </details>
@@ -1741,7 +1741,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1766,7 +1766,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Our 100+ successful projects, 98% client satisfaction rate, 60% cost savings, 3x faster delivery, and deep New Hampshire market expertise make US the leading <strong className="text-gray-900 font-semibold">AI Firm </strong>. 
+                    Our 100+ successful projects, 98% client satisfaction rate, 60% cost savings, 3x faster delivery, and deep New Jersey market expertise make in the leading <strong className="text-gray-900 font-semibold">AI Firm </strong>. 
                     We combine cutting-edge AI technology with personalized service.
                   </p>
                 </div>
@@ -1777,7 +1777,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1802,8 +1802,8 @@ export default function GenerativeAIServicesNewHampshirePage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    No technical knowledge required! Metic.ai guides you through every step with clear communication. As a client-focINed <strong className="text-gray-900 font-semibold">AI Service </strong>, 
-                    we translate complex AI concepts into simple business terms and handle all technical aspects for you.
+                    No technical knowledge required! Metic.ai guides you through every step with clear communication. As a client-focused <strong className="text-gray-900 font-semibold">AI Service </strong>, 
+                    we translate complex AI concepts into simple Business terms and handle all technical aspects for you.
                   </p>
                 </div>
               </details>
@@ -1813,7 +1813,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1823,7 +1823,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            Can Generative AI Services In New Hampshire handle small business projects?
+                            Can Generative AI Services In New Jersey handle small Business projects?
                           </h3>
                         </div>
                       </div>
@@ -1838,8 +1838,8 @@ export default function GenerativeAIServicesNewHampshirePage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Absolutely! Metic.ai works with businesses of all sizes, from startups to enterprises. As an inclINive <strong className="text-gray-900 font-semibold">Generative AI Services In New Hampshire</strong>, 
-                    we offer scalable solutions and flexible pricing models to meet small business budgets while delivering enterprise-quality AI implementations.
+                    Absolutely! Metic.ai works with Businesses of all sizes, from startups to enterprises. As an inclusive <strong className="text-gray-900 font-semibold">Generative AI Services In New Jersey</strong>, 
+                    we offer scalable solutions and flexible pricing models to meet small Business budgets while delivering enterprise-quality AI implementations.
                   </p>
                 </div>
               </details>
@@ -1849,7 +1849,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1875,7 +1875,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     Metic.ai provides comprehensive 24/7 post-implementation support including maintenance, updates, training, troubleshooting, and optimization. 
-                    As your long-term partner, we ensure your AI solutions continue delivering maximum value and adapt to your evolving business needs.
+                    As your long-term partner, we ensure your AI solutions continue delivering maximum value and Newarkpt to your evolving Business needs.
                   </p>
                 </div>
               </details>
@@ -1895,9 +1895,9 @@ export default function GenerativeAIServicesNewHampshirePage() {
                       </div>
                     </div>
                   </div>
-                  <h3 className="text-3xl md:text-4xl font-bold mb-4">Ready to Transform Your business with AI?</h3>
+                  <h3 className="text-3xl md:text-4xl font-bold mb-4">Ready to Transform Your Business with AI?</h3>
                   <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-                    Jo's leading businesses who Trust Metic.ai for their AI transformation. Get started today!
+                    Join leading Businesses who Trust Metic.ai for their AI transformation. Get started today!
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <Link href="/contact">
@@ -1923,12 +1923,12 @@ export default function GenerativeAIServicesNewHampshirePage() {
         <div className="container px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-              Ready to Partner with New Hampshire's Leading <strong>Artificial Intelligence Company</strong>?
+              Ready to Partner with New Jersey's Leading <strong>Artificial Intelligence Company</strong>?
             </h2>
             <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Join 100+ satisfied clients who Trust Metic.ai as their preferred <strong>Generative AI Services In New Hampshire</strong>. 
-              Transform your business with proven AI solutions that deliver results. Get started with a free consultation 
-              and discover why we're New Hampshire's most Trusted <strong>AI Development Company </strong>.
+              Join 100+ satisfied clients who Trust Metic.ai as their preferred <strong>Generative AI Services In New Jersey</strong>. 
+              Transform your Business with proven AI solutions that deliver results. Get started with a free consultation 
+              and discover why we're New Jersey's most Trusted <strong>AI Development Company </strong>.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Link href="/contact">
@@ -1944,7 +1944,7 @@ export default function GenerativeAIServicesNewHampshirePage() {
             </div>
             
             <div className="mt-12 text-center">
-              <p className="text-orange-200 mb-6">Trusted <strong>AI Service </strong> serving businesses across the state</p>
+              <p className="text-orange-200 mb-6">Trusted <strong>AI Service </strong> serving Businesses across the state</p>
               <div className="grid md:grid-cols-3 gap-8 text-center mb-8">
                 <div>
                   <div className="text-2xl font-bold mb-2">50+</div>
@@ -1960,19 +1960,19 @@ export default function GenerativeAIServicesNewHampshirePage() {
                 </div>
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
-                <span>Manchester</span>
+                <span>Newark</span>
                 <span>•</span>
-                <span>Papillion</span>
+                <span>Jersey City</span>
                 <span>•</span>
-                <span>La Vista</span>
+                <span>Trenton</span>
                 <span>•</span>
-                <span>Columbus</span>
+                <span>Edison</span>
                 <span>•</span>
-                <span>Scottsbluff</span>
+                <span>Elizabeth</span>
                 <span>•</span>
-                <span>Auburn</span>
+                <span>Hoboken</span>
                 <span>•</span>
-                <span>Dothan</span>
+                <span>Atlantic City</span>
               </div>
             </div>
           </div>
@@ -1981,8 +1981,6 @@ export default function GenerativeAIServicesNewHampshirePage() {
     </>
   );
 }
-
-
 
 
 
