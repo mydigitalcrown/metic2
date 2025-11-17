@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 import { Button } from "../components/ui/Button";
 import Testimonials from "../components/Testimonials";
 import { 
@@ -184,7 +184,7 @@ export default function GenerativeAIServicesNebraskaPage() {
             "email": "hello@matic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
-            "vatID": "US-NE-123456789",
+            "vatID": "US-mt-123456789",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "Nebraska",
@@ -597,7 +597,7 @@ export default function GenerativeAIServicesNebraskaPage() {
             </div>
 
             {/* CTA Below Services */}
-            <div className="text-center NE-12 md:NE-16">
+            <div className="text-center mt-12 md:mt-16">
               <Link href="/contact">
                 <Button variant="primary" size="lg" className="px-8 md:px-10 py-4 text-base md:text-lg shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all">
                   <Sparkles className="w-5 h-5 mr-2" />
@@ -629,7 +629,7 @@ export default function GenerativeAIServicesNebraskaPage() {
                   GPT-4 API development, AI Image Generation (DALL-E, Midjourney, Stable Diffusion), Custom GPT development, AI content creation, and intelligent automation. We've successfully completed over 50 generative AI projects, making us the most 
                   Trusted <strong>Generative AI Company In Nebraska</strong> from Omaha to Lincoln.
                 </p>
-                <div className="grid grid-cols-2 gap-6 NE-8">
+                <div className="grid grid-cols-2 gap-6 mt-8">
                   <div className="text-center">
                     <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
                       <Award className="w-6 h-6 text-primary-orange" />
@@ -1015,7 +1015,7 @@ export default function GenerativeAIServicesNebraskaPage() {
               results. We've successfully implemented AI across Nebraska's key sectors including Agriculture, food processing, 
               Tourism, Forestry, and Energy serving 50+ businesses across Nebraska.
             </p>                    {/* Enhanced Feature Cards with Creative Design */}
-                    <div className="grid gap-6 NE-10">
+                    <div className="grid gap-6 mt-10">
                       <div className="group bg-gradient-to-r from-primary-orange/5 via-white to-secondary-orange/5 p-6 rounded-2xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
                         <div className="flex items-start gap-4">
                           <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary-orange to-secondary-orange flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
@@ -1075,19 +1075,19 @@ export default function GenerativeAIServicesNebraskaPage() {
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
                         <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">\$140B</div>
                         <div className="text-sm text-gray-600 font-medium">Nebraska Annual GDP</div>
-                        <div className="text-xs text-gray-500 NE-2">Resource-driven Economy</div>
+                        <div className="text-xs text-gray-500 mt-2">Resource-driven Economy</div>
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-secondary-orange/10 hover:border-secondary-orange/30 transition-all group transform hover:scale-105">
                         <div className="text-5xl font-bold text-secondary-orange mb-3 group-hover:scale-110 transition-transform">1.96M</div>
                         <div className="text-sm text-gray-600 font-medium">Nebraska Population</div>
-                        <div className="text-xs text-gray-500 NE-2">Cornhusker State</div>
+                        <div className="text-xs text-gray-500 mt-2">Cornhusker State</div>
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
                         <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">50+</div>
                         <div className="text-sm text-gray-600 font-medium">Businesses Served</div>
-                        <div className="text-xs text-gray-500 NE-2">ChatGPT & LLM Success Rate</div>
+                        <div className="text-xs text-gray-500 mt-2">ChatGPT & LLM Success Rate</div>
                       </div>
                       
                       <div className="bg-gradient-to-r from-primary-orange/20 via-secondary-orange/10 to-primary-orange/20 rounded-2xl p-6 border-2 border-primary-orange/30 transform hover:scale-105 transition-transform">
@@ -1362,7 +1362,7 @@ export default function GenerativeAIServicesNebraskaPage() {
 
                   <div className="space-y-6">
                     <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-primary-orange/10 transform hover:scale-105 transition-transform">
-                      <MapPin className="w-8 h-8 text-primary-orange flex-shrink-0 NE-1" />
+                      <MapPin className="w-8 h-8 text-primary-orange flex-shrink-0 mt-1" />
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Comprehensive Nebraska Coverage</h4>
                         <p className="text-gray-600 leading-relaxed">
@@ -1373,7 +1373,7 @@ export default function GenerativeAIServicesNebraskaPage() {
                     </div>
                     
                     <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-secondary-orange/10 transform hover:scale-105 transition-transform">
-                      <Rocket className="w-8 h-8 text-secondary-orange flex-shrink-0 NE-1" />
+                      <Rocket className="w-8 h-8 text-secondary-orange flex-shrink-0 mt-1" />
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Industry Domain Expertise</h4>
                         <p className="text-gray-600 leading-relaxed">
@@ -1384,7 +1384,7 @@ export default function GenerativeAIServicesNebraskaPage() {
                     </div>
                     
                     <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-primary-orange/10 transform hover:scale-105 transition-transform">
-                      <Clock className="w-8 h-8 text-primary-orange flex-shrink-0 NE-1" />
+                      <Clock className="w-8 h-8 text-primary-orange flex-shrink-0 mt-1" />
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Rapid Nebraska Deployment</h4>
                         <p className="text-gray-600 leading-relaxed">
@@ -1472,7 +1472,7 @@ export default function GenerativeAIServicesNebraskaPage() {
                     <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                <div className="NE-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     <strong className="text-gray-900 font-semibold">Metic.ai is the leading Generative AI Company In Nebraska</strong> with over 50 successful generative AI implementations. 
                     We're recognized as the top Generative AI Company In Nebraska for our proven expertise in ChatGPT integration, GPT-4 development, LLM solutions, AI image generation, and custom GPT development with 60% cost savings.
@@ -1508,7 +1508,7 @@ export default function GenerativeAIServicesNebraskaPage() {
                     <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                <div className="NE-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     As the premier <strong className="text-gray-900 font-semibold">Generative AI Company In Nebraska</strong>, Metic.ai provides comprehensive generative AI services including ChatGPT integration, 
                     GPT-4 API development, Custom GPT models, LLM development, AI image generation (DALL-E, Midjourney, Stable Diffusion), AI content creation, intelligent chatbots, and enterprise automation tailored for Nebraska's Textile, Pharmaceutical, Chemical, and IT Industries.
@@ -1544,7 +1544,7 @@ export default function GenerativeAIServicesNebraskaPage() {
                     <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                <div className="NE-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     When selecting an <strong className="text-gray-900 font-semibold">AI Development Company </strong>, look for proven experience, successful project portfolio, 
                     Industry expertise, and ongoing support. Metic.ai offers all these with 100+ completed projects, 98% client satisfaction, and 24/7 support.
@@ -1580,7 +1580,7 @@ export default function GenerativeAIServicesNebraskaPage() {
                     <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                <div className="NE-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     AI implementation costs vary based on complexity. As a leading <strong className="text-gray-900 font-semibold">AI Service </strong>, 
                     Metic.ai offers competitive pricing with transparent structures. Our clients typically save 60% compared to international AI development costs.
@@ -1616,7 +1616,7 @@ export default function GenerativeAIServicesNebraskaPage() {
                     <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                <div className="NE-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     Yes! Metic.ai proudly serves businesses across all Nebraska cities including Omaha, Papillion, La Vista, Columbus, Scottsbluff, Nebraska, North Platte, and beyond. 
                     As Nebraska's leading <strong className="text-gray-900 font-semibold">AI Firm </strong>, we provide comprehensive AI solutions statewide.
@@ -1652,7 +1652,7 @@ export default function GenerativeAIServicesNebraskaPage() {
                     <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                <div className="NE-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     Metic.ai can typically start your AI project within 24-48 hours after initial consultation. As Nebraska's fastest <strong className="text-gray-900 font-semibold">Generative AI Services In Nebraska</strong>, 
                     we understand the importance of speed and deliver 3x faster than traditional development approaches.
@@ -1691,7 +1691,7 @@ export default function GenerativeAIServicesNebraskaPage() {
                     <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                <div className="NE-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     Absolutely! Metic.ai implements enterprise-grade security protocols, encryption, and compliance measures. As a Trusted <strong className="text-gray-900 font-semibold">AI Development Company </strong>, 
                     we prioritize data security with ISO certifications and strict confidentiality agreements.
@@ -1727,7 +1727,7 @@ export default function GenerativeAIServicesNebraskaPage() {
                     <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                <div className="NE-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     Metic.ai serves diverse Industries including Manufacturing, Aerospace, Healthcare, Agriculture, Technology, Automotive, Financial Services, Transportation, Education, and Energy. 
                     As Nebraska's premier <strong className="text-gray-900 font-semibold">Generative AI Services In Nebraska</strong>, we tailor solutions for your specific Industry needs.
@@ -1763,7 +1763,7 @@ export default function GenerativeAIServicesNebraskaPage() {
                     <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                <div className="NE-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     Our 100+ successful projects, 98% client satisfaction rate, 60% cost savings, 3x faster delivery, and deep Nebraska market expertise make US the leading <strong className="text-gray-900 font-semibold">AI Firm </strong>. 
                     We combine cutting-edge AI technology with personalized service.
@@ -1799,7 +1799,7 @@ export default function GenerativeAIServicesNebraskaPage() {
                     <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                <div className="NE-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     No technical knowledge required! Metic.ai guides you through every step with clear communication. As a client-focINed <strong className="text-gray-900 font-semibold">AI Service </strong>, 
                     we translate complex AI concepts into simple business terms and handle all technical aspects for you.
@@ -1835,7 +1835,7 @@ export default function GenerativeAIServicesNebraskaPage() {
                     <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                <div className="NE-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     Absolutely! Metic.ai works with businesses of all sizes, from startups to enterprises. As an inclINive <strong className="text-gray-900 font-semibold">Generative AI Services In Nebraska</strong>, 
                     we offer scalable solutions and flexible pricing models to meet small business budgets while delivering enterprise-quality AI implementations.
@@ -1871,7 +1871,7 @@ export default function GenerativeAIServicesNebraskaPage() {
                     <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                   </div>
                 </summary>
-                <div className="NE-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
+                <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     Metic.ai provides comprehensive 24/7 post-implementation support including maintenance, updates, training, troubleshooting, and optimization. 
                     As your long-term partner, we ensure your AI solutions continue delivering maximum value and adapt to your evolving business needs.
@@ -1882,7 +1882,7 @@ export default function GenerativeAIServicesNebraskaPage() {
             </div>
 
             {/* Enhanced CTA at Bottom of FAQ */}
-            <div className="NE-16 text-center">
+            <div className="mt-16 text-center">
               <div className="bg-gradient-to-br from-primary-orange to-secondary-orange rounded-3xl p-12 text-white relative overflow-hidden">
                 <div className="absolute inset-0 bg-black/10"></div>
                 <div className="relative z-10">
@@ -1942,7 +1942,7 @@ export default function GenerativeAIServicesNebraskaPage() {
               </Link>
             </div>
             
-            <div className="NE-12 text-center">
+            <div className="mt-12 text-center">
               <p className="text-orange-200 mb-6">Trusted <strong>AI Service </strong> serving businesses across the state</p>
               <div className="grid md:grid-cols-3 gap-8 text-center mb-8">
                 <div>
