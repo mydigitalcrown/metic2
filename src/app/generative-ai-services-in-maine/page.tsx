@@ -626,8 +626,8 @@ export default function GenerativeAIServicesMainePage() {
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   Our expertise as an <strong>AI Development Company In Maine</strong> encompasses ChatGPT Integration, GPT-4 development, LLM development, 
-                  AI image generation, and AI automation. We've successfully completed over 100 AI projects, making in the most 
-                  Trusted <strong>AI Service In Maine</strong> from the Naroda industrial Area to the Aleutian Islands.
+                  AI image generation, and AI automation. We've successfully completed over 100 AI projects, making us the most 
+                  trusted <strong>AI Service In Maine</strong> from Portland to Bangor, Augusta to Kennebunk.
                 </p>
                 <div className="grid grid-cols-2 gap-6 mt-8">
                   <div className="text-center">
