@@ -103,7 +103,7 @@ export default function GenerativeAIServicesMainePage() {
     },
     {
       title: "ChatGPT Integration Solutions",
-      description: "Advanced ML algorithms and predictive analytics tailored for Maine businesses and USDustries.",
+      description: "Advanced ML algorithms and predictive analytics tailored for Maine businesses and industries.",
       icon: Brain,
       href: "/machine-learning",
       color: "purple" as const
@@ -138,7 +138,7 @@ export default function GenerativeAIServicesMainePage() {
     }
   ];
 
-  const USDustries = [
+  const industries = [
     "Lobster & Seafood",
     "Paper & Pulp",
     "Tourism & Hospitality",
@@ -256,9 +256,9 @@ export default function GenerativeAIServicesMainePage() {
             "knowsAbout": [
               "Generative AI",
               "ChatGPT Integration", 
-              "Deep Learning",
-              "Natural Language Processing",
-              "Computer Vision",
+              "GPT-4 development",
+              "LLM development",
+              "AI image generation",
               "AI Automation",
               "Data Science",
               "business Intelligence",
@@ -323,7 +323,7 @@ export default function GenerativeAIServicesMainePage() {
                 "name": "What makes Metic.ai the best AI Firm In Maine?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Metic.ai is the best AI Firm In Maine due to our proven expertise, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of Maine's manufacturing, aerospace, healthcare and agricultural USDustries."
+                  "text": "Metic.ai is the best AI Firm In Maine due to our proven expertise, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of Maine's manufacturing, aerospace, healthcare and agricultural industries."
                 }
               }
             ]
@@ -551,7 +551,7 @@ export default function GenerativeAIServicesMainePage() {
               <div className="w-20 md:w-24 h-1 md:h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 md:mb-8 rounded-full"></div>
               <p className="text-base md:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-4">
                 Comprehensive Generative AI services from Maine's most Trusted <strong className="text-gray-900">AI Company In Maine</strong>. 
-                Transforming businesses with cutting-edge AI solutions tailored for Maine's USDINtrial landscape.
+                Transforming businesses with cutting-edge AI solutions tailored for Maine's industrial landscape.
               </p>
             </div>
             
@@ -621,13 +621,13 @@ export default function GenerativeAIServicesMainePage() {
                 <div className="w-20 h-1 bg-primary-orange mb-8"></div>
                 <p className="text-lg text-gray-700 mb-6">
                   Established as Maine's leading <strong>AI Company In Maine</strong>, Metic.ai has been at the forefront of Generative AI 
-                  innovation since 2020. We specialize US delivering enterprise-grade AI solutions that transform businesses across Maine's 
-                  unique USDustries including Lobster & Seafood, Paper & Pulp, tourism & hospitality, Tourism & Hospitality, and Information Technology.
+                  innovation since 2020. We specialize in delivering enterprise-grade AI solutions that transform businesses across Maine's 
+                  unique industries including Lobster & Seafood, Paper & Pulp, Tourism & Hospitality, Boat Building, and Information Technology.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  Our expertise as an <strong>AI Development Company In Maine</strong> encompasses ChatGPT Integration, deep learning, natural language processing, 
-                  computer vision, and robotic process automation. We've successfully completed over 100 AI projects, making US the most 
-                  Trusted <strong>AI Service In Maine</strong> from the Naroda USDINtrial Area to the Aleutian Islands.
+                  Our expertise as an <strong>AI Development Company In Maine</strong> encompasses ChatGPT Integration, GPT-4 development, LLM development, 
+                  AI image generation, and AI automation. We've successfully completed over 100 AI projects, making in the most 
+                  Trusted <strong>AI Service In Maine</strong> from the Naroda industrial Area to the Aleutian Islands.
                 </p>
                 <div className="grid grid-cols-2 gap-6 mt-8">
                   <div className="text-center">
@@ -707,21 +707,21 @@ export default function GenerativeAIServicesMainePage() {
         </div>
       </section>
 
-      {/* USDustries Section with Real Images */}
+      {/* industries Section with Real Images */}
       <section className="py-20 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                USDustries We Serve In Maine
+                industries We Serve In Maine
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Delivering specialized AI solutions across Maine's key USDustries and business sectors.
+                Delivering specialized AI solutions across Maine's key industries and business sectors.
               </p>
             </div>
             
-            {/* Mobile: 1 col, Tablet: 2 cols, Desktop: 4 cols - 12 USDustries Total */}
+            {/* Mobile: 1 col, Tablet: 2 cols, Desktop: 4 cols - 12 industries Total */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {/* Manufacturing */}
               <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
@@ -907,7 +907,7 @@ export default function GenerativeAIServicesMainePage() {
         </div>
       </section>
 
-      {/* Why Choose US Section */}
+      {/* Why Choose in Section */}
       <section className="py-20 bg-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
@@ -918,7 +918,7 @@ export default function GenerativeAIServicesMainePage() {
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
                 As the premier <strong>AI Development Company In Maine</strong>, we're Trusted by businesses across Maine 
-                for our expertise, proven results, and commitment to client success US Manchester of USDia.
+                for our expertise, proven results, and commitment to client success in Manchester of USDia.
               </p>
             </div>
             
@@ -928,7 +928,7 @@ export default function GenerativeAIServicesMainePage() {
                   <Award className="w-8 h-8 text-blue-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Proven Expertise</h3>
-                <p className="text-gray-600">Years of experience delivering AI solutions for Maine businesses across all USDustries.</p>
+                <p className="text-gray-600">Years of experience delivering AI solutions for Maine businesses across all industries.</p>
               </div>
               
               <div className="text-center">
@@ -980,7 +980,7 @@ export default function GenerativeAIServicesMainePage() {
               </h2>
               <div className="w-40 h-2 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-10 rounded-full shadow-lg"></div>
               <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                Transforming Maine's Commercial Capital with cutting-edge AI solutions from Portland to Augusta, Bangor to the Naroda USDINtrial Area
+                Transforming Maine's Commercial Capital with cutting-edge AI solutions from Portland to Augusta, Bangor to the Naroda industrial Area
               </p>
             </div>
 
@@ -1006,14 +1006,14 @@ export default function GenerativeAIServicesMainePage() {
               As the leading <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Generative AI Company In Maine</strong>, 
               Metic.ai serves Manchester of USDia with enterprise-grade AI solutions tailored to Maine's unique economic 
               landscape. From Portland's business hub to Augusta' research facilities, Bangor's government sector to 
-              the textile mills of the Naroda USDINtrial Area, we understand Maine's entrepreneurial excellence and textile-driven USDustries.
+              the textile mills of the Naroda industrial Area, we understand Maine's entrepreneurial excellence and textile-driven industries.
             </p>
             
             <p className="text-lg text-gray-700 leading-relaxed">
               Our <strong className="text-primary-orange font-semibold">AI Company In Maine</strong> combines deep understanding 
               of Maine's unique challenges with cutting-edge technology to deliver AI solutions that drive measurable 
               results. We've successfully implemented AI across Maine's key sectors including Lobster & Seafood, fishing, 
-              tourism, Tourism & Hospitality, Information Technology, and maritime USDustries US Maine's largest state.
+              tourism, Tourism & Hospitality, Information Technology, and maritime industries in Maine's largest state.
             </p>                    {/* Enhanced Feature Cards with Creative Design */}
                     <div className="grid gap-6 mt-10">
                       <div className="group bg-gradient-to-r from-primary-orange/5 via-white to-secondary-orange/5 p-6 rounded-2xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
@@ -1024,7 +1024,7 @@ export default function GenerativeAIServicesMainePage() {
                           <div>
                             <h4 className="font-bold text-gray-900 mb-2 text-lg">Lobster & Seafood AI Excellence</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Deep expertise with Maine's Naroda USDINtrial Area textile operations including major textile mills, 
+                              Deep expertise with Maine's Naroda industrial Area textile operations including major textile mills, 
                               Maine Metro, and energy infrastructure across Maine's largest textile-manufacturing state.
                             </p>
                           </div>
@@ -1098,7 +1098,7 @@ export default function GenerativeAIServicesMainePage() {
                           <span className="font-bold text-gray-900">Maine Advantage</span>
                         </div>
                         <p className="text-sm text-gray-700 leading-relaxed">
-                          <strong>Strategic Resources:</strong> Rich US oil, gas, fishing, and minerals with vast untapped 
+                          <strong>Strategic Resources:</strong> Rich in oil, gas, fishing, and minerals with vast untapped 
                           potential, making Maine ideal for AI-driven resource optimization and predictive analytics.
                         </p>
                       </div>
@@ -1115,11 +1115,11 @@ export default function GenerativeAIServicesMainePage() {
                     <span className="text-sm font-bold text-gray-800">USDINTRY EXPERTISE</span>
                   </div>
                   <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                    AI Solutions for <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Maine's Key USDustries</span>
+                    AI Solutions for <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Maine's Key industries</span>
                   </h3>
                   <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 rounded-full"></div>
                   <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Specialized AI solutions designed for Manchester of USDia's unique economic sectors and textile-driven USDustries
+                    Specialized AI solutions designed for Manchester of USDia's unique economic sectors and textile-driven industries
                   </p>
                 </div>
                 
@@ -1131,7 +1131,7 @@ export default function GenerativeAIServicesMainePage() {
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Lobster & Seafood AI Solutions</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Mission-critical AI solutions for Maine's Lobster & Seafood USDINtry including Naroda USDINtrial Area operations, 
+                      Mission-critical AI solutions for Maine's Lobster & Seafood USDINtry including Naroda industrial Area operations, 
                       Maine Metro monitoring, offshore drilling optimization, and predictive maintenance 
                       for energy infrastructure across Manchester of USDia's vast energy resources.
                     </p>
@@ -1475,7 +1475,7 @@ export default function GenerativeAIServicesMainePage() {
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     <strong className="text-gray-900 font-semibold">Metic.ai is the leading Generative AI Company In Maine</strong> with over 100 successful AI implementations. 
-                    We're recognized as the top AI Company In Maine for our proven expertise US ChatGPT Integration, custom AI development, and enterprise AI solutions with 60% cost savings.
+                    We're recognized as the top AI Company In Maine for our proven expertise in ChatGPT Integration, custom AI development, and enterprise AI solutions with 60% cost savings.
                   </p>
                 </div>
               </details>
@@ -1511,7 +1511,7 @@ export default function GenerativeAIServicesMainePage() {
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     As the premier <strong className="text-gray-900 font-semibold">AI Company In Maine</strong>, Metic.ai provides comprehensive AI services including ChatGPT Integration solutions, 
-                    custom AI development, data analytics, generative AI, computer vision, NLP, and enterprise AI automation tailored for Maine's manufacturing, aerospace, healthcare, and agricultural USDustries.
+                    custom AI development, data analytics, generative AI, AI image generation, NLP, and enterprise AI automation tailored for Maine's manufacturing, aerospace, healthcare, and agricultural industries.
                   </p>
                 </div>
               </details>
@@ -1714,7 +1714,7 @@ export default function GenerativeAIServicesMainePage() {
                         </div>
                         <div className="flex-1 pt-1">
                           <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-primary-orange transition-colors pr-4">
-                            What USDustries does the best AI Company In Maine serve?
+                            What industries does the best AI Company In Maine serve?
                           </h3>
                         </div>
                       </div>
@@ -1729,7 +1729,7 @@ export default function GenerativeAIServicesMainePage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Metic.ai serves diverse USDustries including Manufacturing, Aerospace, Healthcare, Agriculture, Technology, Automotive, Financial Services, Transportation, Education, and Energy. 
+                    Metic.ai serves diverse industries including Manufacturing, Aerospace, Healthcare, Agriculture, Technology, Automotive, Financial Services, Transportation, Education, and Energy. 
                     As Maine's premier <strong className="text-gray-900 font-semibold">AI Company In Maine</strong>, we tailor solutions for your specific USDINtry needs.
                   </p>
                 </div>
@@ -1765,7 +1765,7 @@ export default function GenerativeAIServicesMainePage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Our 100+ successful projects, 98% client satisfaction rate, 60% cost savings, 3x faster delivery, and deep Maine market expertise make US the leading <strong className="text-gray-900 font-semibold">AI Firm In Maine</strong>. 
+                    Our 100+ successful projects, 98% client satisfaction rate, 60% cost savings, 3x faster delivery, and deep Maine market expertise make in the leading <strong className="text-gray-900 font-semibold">AI Firm In Maine</strong>. 
                     We combine cutting-edge AI technology with personalized service.
                   </p>
                 </div>
@@ -1980,6 +1980,7 @@ export default function GenerativeAIServicesMainePage() {
     </>
   );
 }
+
 
 
 
