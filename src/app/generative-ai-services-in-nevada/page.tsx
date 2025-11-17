@@ -798,17 +798,17 @@ export default function GenerativeAIServicesNevadaPage() {
                 </div>
               </div>
 
-              {/* Automotive */}
+              {/* Renewable Energy */}
               <div className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=500&h=400&fit=crop" 
-                    alt="Automotive Industry AI Solutions"
+                    alt="Renewable Energy Industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-4">
-                    <h3 className="font-bold text-white text-lg">Automotive</h3>
+                    <h3 className="font-bold text-white text-lg">Renewable Energy</h3>
                   </div>
                 </div>
               </div>
@@ -1729,7 +1729,7 @@ export default function GenerativeAIServicesNevadaPage() {
                 </summary>
                 <div className="NV-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Metic.ai serves diverse Industries including Manufacturing, Aerospace, Healthcare, gaming and hospitality, Technology, Automotive, Financial Services, Transportation, Education, and Energy. 
+                    Metic.ai serves diverse Industries including Manufacturing, Aerospace, Healthcare, gaming and hospitality, Technology, Renewable Energy, Financial Services, Transportation, Education, and Energy. 
                     As Nevada's premier <strong className="text-gray-900 font-semibold">Generative AI Services In Nevada</strong>, we tailor solutions for your specific Industry needs.
                   </p>
                 </div>
