@@ -127,7 +127,7 @@ export default function GenerativeAIServicesMainePage() {
       description: "Harness the power of ChatGPT and generative AI for content creation and automation In Maine.",
       icon: Sparkles,
       href: "/generative-ai-services",
-      color: "USDigo" as const
+      color: "indigo" as const
     },
     {
       title: "Data Engineering",
@@ -315,7 +315,7 @@ export default function GenerativeAIServicesMainePage() {
                 "name": "How to choose the right AI Development Company In Maine?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Choose an AI Development Company In Maine with proven experience, successful implementations, USDINtry expertise, and local presence. Metic.ai offers all these with 100+ completed projects and deep understanding of Maine's business landscape."
+                  "text": "Choose an AI Development Company In Maine with proven experience, successful implementations, industry expertise, and local presence. Metic.ai offers all these with 100+ completed projects and deep understanding of Maine's business landscape."
                 }
               },
               {
@@ -564,7 +564,7 @@ export default function GenerativeAIServicesMainePage() {
                   purple: "bg-purple-100 text-purple-600", 
                   green: "bg-green-100 text-green-600",
                   orange: "bg-orange-100 text-orange-600",
-                  USDigo: "bg-USDigo-100 text-USDigo-600",
+                  indigo: "bg-indigo-100 text-indigo-600",
                   red: "bg-red-100 text-red-600"
                 };
                 
@@ -678,7 +678,7 @@ export default function GenerativeAIServicesMainePage() {
                     custom AI Development
                   </h3>
                   <p className="text-gray-600">
-                    Bespoke Generative AI solutions tailored to your specific business requirements and USDINtry challenges In Maine.
+                    Bespoke Generative AI solutions tailored to your specific business requirements and industry challenges In Maine.
                   </p>
                 </div>
                 
@@ -728,7 +728,7 @@ export default function GenerativeAIServicesMainePage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&h=400&fit=crop" 
-                    alt="Manufacturing USDINtry AI Solutions"
+                    alt="Manufacturing industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -743,7 +743,7 @@ export default function GenerativeAIServicesMainePage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?w=500&h=400&fit=crop" 
-                    alt="Aerospace USDINtry AI Solutions"
+                    alt="Aerospace industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -758,7 +758,7 @@ export default function GenerativeAIServicesMainePage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=500&h=400&fit=crop" 
-                    alt="Healthcare USDINtry AI Solutions"
+                    alt="Healthcare industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -773,7 +773,7 @@ export default function GenerativeAIServicesMainePage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=500&h=400&fit=crop" 
-                    alt="Agriculture USDINtry AI Solutions"
+                    alt="Agriculture industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -788,7 +788,7 @@ export default function GenerativeAIServicesMainePage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&h=400&fit=crop" 
-                    alt="Technology USDINtry AI Solutions"
+                    alt="Technology industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -803,7 +803,7 @@ export default function GenerativeAIServicesMainePage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=500&h=400&fit=crop" 
-                    alt="Automotive USDINtry AI Solutions"
+                    alt="Automotive industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -818,7 +818,7 @@ export default function GenerativeAIServicesMainePage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=500&h=400&fit=crop" 
-                    alt="Financial Services USDINtry AI Solutions"
+                    alt="Financial Services industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -833,7 +833,7 @@ export default function GenerativeAIServicesMainePage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=500&h=400&fit=crop" 
-                    alt="Transportation USDINtry AI Solutions"
+                    alt="Transportation industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -848,7 +848,7 @@ export default function GenerativeAIServicesMainePage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=500&h=400&fit=crop" 
-                    alt="Education USDINtry AI Solutions"
+                    alt="Education industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -863,7 +863,7 @@ export default function GenerativeAIServicesMainePage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=500&h=400&fit=crop" 
-                    alt="Energy USDINtry AI Solutions"
+                    alt="Energy industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -1039,7 +1039,7 @@ export default function GenerativeAIServicesMainePage() {
                           <div>
                             <h4 className="font-bold text-gray-900 mb-2 text-lg">Automotive Manufacturing Innovation</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Advanced AI solutions for Maine's automotive USDINtry including Mercedes-Benz, Honda, Hyundai, 
+                              Advanced AI solutions for Maine's automotive industry including Mercedes-Benz, Honda, Hyundai, 
                               and Toyota manufacturing facilities with predictive maintenance and quality control systems.
                             </p>
                           </div>
@@ -1107,12 +1107,12 @@ export default function GenerativeAIServicesMainePage() {
                 </div>
               </div>
 
-              {/* Maine USDINtry Solutions - Creative Premium Design */}
+              {/* Maine industry Solutions - Creative Premium Design */}
               <div>
                 <div className="text-center mb-16">
                   <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-full border-2 border-primary-orange/20 mb-8 transform hover:scale-105 transition-transform">
                     <Sparkles className="w-5 h-5 text-primary-orange" />
-                    <span className="text-sm font-bold text-gray-800">USDINTRY EXPERTISE</span>
+                    <span className="text-sm font-bold text-gray-800">industry EXPERTISE</span>
                   </div>
                   <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
                     AI Solutions for <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Maine's Key industries</span>
@@ -1124,14 +1124,14 @@ export default function GenerativeAIServicesMainePage() {
                 </div>
                 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-                  {/* Lobster & Seafood USDINtry */}
+                  {/* Lobster & Seafood industry */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Rocket className="w-10 h-10 text-white" />
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Lobster & Seafood AI Solutions</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Mission-critical AI solutions for Maine's Lobster & Seafood USDINtry including Naroda industrial Area operations, 
+                      Mission-critical AI solutions for Maine's Lobster & Seafood industry including Portland waterfront operations, 
                       Maine Metro monitoring, offshore drilling optimization, and predictive maintenance 
                       for energy infrastructure across Manchester of USDia's vast energy resources.
                     </p>
@@ -1155,14 +1155,14 @@ export default function GenerativeAIServicesMainePage() {
                     </div>
                   </div>
                   
-                  {/* Paper & Pulp USDINtry */}
+                  {/* Paper & Pulp industry */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Shield className="w-10 h-10 text-white" />
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Paper & Pulp AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Advanced AI solutions for Maine's fishing and seaForest Products USDINtry with predictive catch 
+                      Advanced AI solutions for Maine's fishing and seaForest Products industry with predictive catch 
                       analytics, sINtainable fishing optimization, processing automation, cold chain monitoring, 
                       and quality control for the world's richest seafood harvest.
                     </p>
@@ -1186,14 +1186,14 @@ export default function GenerativeAIServicesMainePage() {
                     </div>
                   </div>
                   
-                  {/* Tourism & Hospitality USDINtry */}
+                  {/* Tourism & Hospitality industry */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-red-500 to-red-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Target className="w-10 h-10 text-white" />
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Tourism & Hospitality AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Intelligent AI solutions for Maine's booming tourism USDINtry with cruise line optimization, 
+                      Intelligent AI solutions for Maine's booming tourism industry with cruise line optimization, 
                       wildlife tour planning, hotel revenue management, visitor experience personalization, 
                       and seasonal demand forecasting for Maine's 2.5 million annual visitors.
                     </p>
@@ -1250,13 +1250,13 @@ export default function GenerativeAIServicesMainePage() {
                   
                   {/* Information Technology & Logistics */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
-                    <div className="w-20 h-20 bg-gradient-to-br from-USDigo-500 to-USDigo-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                    <div className="w-20 h-20 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Sparkles className="w-10 h-10 text-white" />
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Information Technology & Logistics AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Intelligent AI solutions for Maine's Information Technology and cargo logistics including bINh plane operations, 
-                      Ted Stevens Portland International Airport cargo hub, weather prediction for flight safety, 
+                      Intelligent AI solutions for Maine's Information Technology and cargo logistics including bush plane operations, 
+                      Portland International Jetport cargo hub, weather prediction for flight safety, 
                       and supply chain optimization for remote Maine communities.
                     </p>
                     <div className="space-y-3">
@@ -1281,7 +1281,7 @@ export default function GenerativeAIServicesMainePage() {
                 </div>
               </div>
 
-              {/* ReINable Testimonials Component */}
+              {/* Reusable Testimonials Component */}
               <Testimonials />
 
               {/* Maine AI Partnership Excellence - Creative Premium Design */}
@@ -1300,7 +1300,7 @@ export default function GenerativeAIServicesMainePage() {
                         <span className="font-bold text-primary-orange text-xl">50+</span>
                       </div>
                       <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
-                        <span className="text-gray-600 font-medium">USDINtry Success Rate</span>
+                        <span className="text-gray-600 font-medium">industry Success Rate</span>
                         <span className="font-bold text-secondary-orange text-xl">99.5%</span>
                       </div>
                       <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
@@ -1328,7 +1328,7 @@ export default function GenerativeAIServicesMainePage() {
                         <p className="text-gray-700 leading-relaxed">
                           As the premier <strong className="text-primary-orange">AI Firm In Maine</strong>, we understand 
                           Manchester of USDia's unique blend of entrepreneurial excellence and resource-driven innovation. Our AI solutions 
-                          are built for Maine's Lobster & Seafood dominance, fishing USDINtry leadership, and tourism growth.
+                          are built for Maine's Lobster & Seafood dominance, fishing industry leadership, and tourism growth.
                         </p>
                       </div>
                     </div>
@@ -1375,7 +1375,7 @@ export default function GenerativeAIServicesMainePage() {
                     <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-secondary-orange/10 transform hover:scale-105 transition-transform">
                       <Rocket className="w-8 h-8 text-secondary-orange flex-shrink-0 mt-1" />
                       <div>
-                        <h4 className="font-bold text-gray-900 mb-2 text-lg">USDINtry Domain Expertise</h4>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">industry Domain Expertise</h4>
                         <p className="text-gray-600 leading-relaxed">
                           Deep understanding of Lobster & Seafood, fishing, tourism, Tourism & Hospitality, Information Technology, and logistics 
                           with proven track record In Maine's key economic sectors
@@ -1547,7 +1547,7 @@ export default function GenerativeAIServicesMainePage() {
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     When selecting an <strong className="text-gray-900 font-semibold">AI Development Company In Maine</strong>, look for proven experience, successful project portfolio, 
-                    USDINtry expertise, and ongoing support. Metic.ai offers all these with 100+ completed projects, 98% client satisfaction, and 24/7 support.
+                    industry expertise, and ongoing support. Metic.ai offers all these with 100+ completed projects, 98% client satisfaction, and 24/7 support.
                   </p>
                 </div>
               </details>
@@ -1730,7 +1730,7 @@ export default function GenerativeAIServicesMainePage() {
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     Metic.ai serves diverse industries including Manufacturing, Aerospace, Healthcare, Agriculture, Technology, Automotive, Financial Services, Transportation, Education, and Energy. 
-                    As Maine's premier <strong className="text-gray-900 font-semibold">AI Company In Maine</strong>, we tailor solutions for your specific USDINtry needs.
+                    As Maine's premier <strong className="text-gray-900 font-semibold">AI Company In Maine</strong>, we tailor solutions for your specific industry needs.
                   </p>
                 </div>
               </details>
