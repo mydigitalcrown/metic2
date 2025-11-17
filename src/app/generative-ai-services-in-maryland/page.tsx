@@ -1,4 +1,4 @@
-import Link from "next/link";
+Ôªøimport Link from "next/link";
 import { Button } from "../components/ui/Button";
 import Testimonials from "../components/Testimonials";
 import { 
@@ -58,13 +58,13 @@ export const metadata = {
   openGraph: {
     title: "Generative AI Company In Maryland | #1 Generative AI Services In Maryland - Metic.ai",
     description: "Leading Generative AI Company In Maryland with 50+ successful AI implementations. Expert AI services, Generative AI solutions & AI development for Maryland businesses.",
-    url: "https://metic.ai/generative-ai-services-in-maryland/",
+    url: "https://metic.ai/generative-ai-services-in-Maryland/",
     type: "website",
     locale: "en_US",
     siteName: "Metic.ai - Generative AI Services In Maryland",
     images: [
       {
-        url: "https://metic.ai/og-generative-ai-maryland.jpg",
+        url: "https://metic.ai/og-generative-ai-Maryland.jpg",
         width: 1200,
         height: 630,
         alt: "Generative AI Company In Maryland - Metic.ai",
@@ -76,12 +76,12 @@ export const metadata = {
     card: "summary_large_image",
     title: "Generative AI Company In Maryland | Generative AI Services In Maryland",
     description: "Leading Generative AI Services In Maryland delivering enterprise artificial intelligence solutions. Expert AI development, Generative AI & automation services with proven results.",
-    images: ["https://metic.ai/og-generative-ai-maryland.jpg"],
+    images: ["https://metic.ai/og-generative-ai-Maryland.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/generative-ai-services-in-maryland/",
+    canonical: "https://metic.ai/generative-ai-services-in-Maryland/",
   },
   verification: {
     google: "google-site-verification-code",
@@ -147,10 +147,10 @@ export default function GenerativeAIServicesMarylandPage() {
     "Maritime & Port Logistics",
     "Healthcare & Medical Devices",
     "Real Estate",
-    "Financial Services",
+    "Healthcare",
     "Education",
-    "Manufacturing",
-    "Federal Government"
+    "Logistics",
+    "Manufacturing"
   ];
 
   const stats = [
@@ -172,7 +172,7 @@ export default function GenerativeAIServicesMarylandPage() {
             "name": "Metic.ai - Generative AI Company In Maryland",
             "alternateName": ["Generative AI Services In Maryland", "Metic AI", "AI Firm Maryland"],
             "description": "Leading Generative AI Company In Maryland providing enterprise AI solutions, Generative AI development, and Custom AI services for businesses across Maryland.",
-            "url": "https://metic.ai/generative-ai-services-in-maryland/",
+            "url": "https://metic.ai/generative-ai-services-in-Maryland/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
@@ -189,12 +189,12 @@ export default function GenerativeAIServicesMarylandPage() {
               "@type": "PostalAddress",
               "addressRegion": "Maryland",
               "addressCountry": "US",
-              "postalCode": "21201"
+              "postalCode": "35201"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "39.2904",
-              "longitude": "-76.6122"
+              "latitude": "32.7794",
+              "longitude": "-86.8287"
             },
             "areaServed": [
               {
@@ -202,7 +202,7 @@ export default function GenerativeAIServicesMarylandPage() {
                 "name": "Maryland",
                 "containedInPlace": {
                   "@type": "Country", 
-                  "name": "United States"
+                  "name": "Bethesda"
                 }
               }
             ],
@@ -210,10 +210,10 @@ export default function GenerativeAIServicesMarylandPage() {
               "@type": "GeoCircle",
               "geoMidpoint": {
                 "@type": "GeoCoordinates",
-                "latitude": "39.2904",
-                "longitude": "-76.6122"
+                "latitude": "32.7794",
+                "longitude": "-86.8287"
               },
-              "geoRadius": "200000"
+              "geoRadius": "221201"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
@@ -274,7 +274,7 @@ export default function GenerativeAIServicesMarylandPage() {
             "priceRange": "$$",
             "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer"],
             "currenciesAccepted": "USD",
-            "openingHours": "Mo-Fr 09:00-18:00",
+            "open_USgHours": "Mo-Fr 09:00-18:00",
             "contactPoint": {
               "@type": "ContactPoint",
               "telephone": "+91-789-251-8414",
@@ -323,7 +323,7 @@ export default function GenerativeAIServicesMarylandPage() {
                 "name": "What makes Metic.ai the best Generative AI Company In Maryland?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Metic.ai is the best Generative AI Company In Maryland due to our proven expertise in ChatGPT integration, GPT-4 development, LLM solutions, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of Maryland's Biotechnology, Cybersecurity, Aerospace, and Maritime industries."
+                  "text": "Metic.ai is the best Generative AI Company In Maryland due to our proven expertise in ChatGPT integration, GPT-4 development, LLM solutions, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of Maryland's Textile, Pharmaceutical, Chemical and IT Industries."
                 }
               }
             ]
@@ -340,7 +340,7 @@ export default function GenerativeAIServicesMarylandPage() {
             "@type": "Article",
             "headline": "Generative AI Company In Maryland - ChatGPT, GPT-4 & LLM Services",
             "description": "Comprehensive guide to generative AI services by the leading Generative AI Company In Maryland. Expert ChatGPT integration, GPT-4 development, LLM solutions, and AI image generation implementation.",
-            "image": "https://metic.ai/generative-ai-company-maryland-article.jpg",
+            "image": "https://metic.ai/generative-ai-company-Maryland-article.jpg",
             "author": {
               "@type": "Organization",
               "name": "Metic.ai"
@@ -355,7 +355,7 @@ export default function GenerativeAIServicesMarylandPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/generative-ai-services-in-maryland/",
+            "mainEntityOfPage": "https://metic.ai/generative-ai-services-in-Maryland/",
             "keywords": "Generative AI Company In Maryland, Generative AI Services In Maryland, AI Service "
           })
         }}
@@ -385,7 +385,7 @@ export default function GenerativeAIServicesMarylandPage() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Generative AI Company In Maryland",
-                "item": "https://metic.ai/generative-ai-services-in-maryland/"
+                "item": "https://metic.ai/generative-ai-services-in-Maryland/"
               }
             ]
           })
@@ -406,18 +406,18 @@ export default function GenerativeAIServicesMarylandPage() {
             "email": "hello@matic.ai",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "100 S Charles St",
-              "addressLocality": "Baltimore",
-              "addressRegion": "MD",
-              "postalCode": "21201",
+              "streetAddress": "300 Quail Ridge Dr NE",
+              "addressLocality": "ADA",
+              "addressRegion": "MI",
+              "postalCode": "49301",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "39.2904",
-              "longitude": "-76.6122"
+              "latitude": "32.3182",
+              "longitude": "-86.9023"
             },
-            "url": "https://metic.ai/generative-ai-services-in-maryland/",
+            "url": "https://metic.ai/generative-ai-services-in-Maryland/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",
@@ -430,7 +430,7 @@ export default function GenerativeAIServicesMarylandPage() {
               "bestRating": "5",
               "worstRating": "1"
             },
-            "openingHours": "Mo-Fr 09:00-18:00",
+            "open_USgHours": "Mo-Fr 09:00-18:00",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai"
@@ -453,7 +453,7 @@ export default function GenerativeAIServicesMarylandPage() {
             <div className="flex justify-center mb-6 md:mb-8">
               <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-white/10 backdrop-blur-sm rounded-full border border-primary-orange/30 shadow-xl">
                 <Award className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
-                <span className="text-xs md:text-sm font-bold text-white">? 100+ Successful AI Projects | 98% Client Satisfaction</span>
+                <span className="text-xs md:text-sm font-bold text-white">‚≠ê 100+ Successful AI Projects | 98% Client Satisfaction</span>
               </div>
             </div>
 
@@ -626,7 +626,7 @@ export default function GenerativeAIServicesMarylandPage() {
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   Our expertise as the premier <strong>Generative AI Company In Maryland</strong> encompasses Large Language Models (LLMs), ChatGPT Integration, 
-                  GPT-4 API development, AI Image Generation (DALL-E, Midjourney, Stable Diffusion), Custom GPT development, AI content creation, and intelligent automation. We've successfully completed over 50 generative AI projects, making in the most 
+                  GPT-4 API development, AI Image Generation (DALL-E, Midjourney, Stable Diffusion), Custom GPT development, AI content creation, and intelligent automation. We've successfully completed over 50 generative AI projects, making us the most 
                   Trusted <strong>Generative AI Company In Maryland</strong> from Baltimore to Annapolis.
                 </p>
                 <div className="grid grid-cols-2 gap-6 mt-8">
@@ -907,7 +907,7 @@ export default function GenerativeAIServicesMarylandPage() {
         </div>
       </section>
 
-      {/* Why Choose in Section */}
+      {/* Why Choose US Section */}
       <section className="py-20 bg-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
@@ -918,7 +918,7 @@ export default function GenerativeAIServicesMarylandPage() {
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
                 As the premier <strong>AI Development Company </strong>, we're Trusted by businesses across Maryland 
-                for our expertise, proven results, and commitment to client success in Free State.
+                for our expertise, proven results, and commitment to client success US Manchester of Bethesda.
               </p>
             </div>
             
@@ -968,7 +968,7 @@ export default function GenerativeAIServicesMarylandPage() {
               {/* Premium Badge with Animation */}
               <div className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-full shadow-2xl border-2 border-primary-orange/30 mb-10 hover:border-primary-orange/50 transition-all group">
                 <div className="w-3 h-3 bg-primary-orange rounded-full animate-pulse"></div>
-                <span className="text-sm font-bold text-gray-800 tracking-wide">Free State AI INNOVATION</span>
+                <span className="text-sm font-bold text-gray-800 tracking-wide">Manchester of Bethesda AI INNOVATION</span>
                 <div className="w-3 h-3 bg-secondary-orange rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></div>
               </div>
 
@@ -980,7 +980,7 @@ export default function GenerativeAIServicesMarylandPage() {
               </h2>
               <div className="w-40 h-2 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-10 rounded-full shadow-lg"></div>
               <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                Transforming Maryland's Capital with cutting-edge AI solutions from Baltimore to Annapolis, Rockville to the Baltimore Harbor
+                Transforming 's Commercial Capital with cutting-edge AI solutions from Baltimore to Annapolis, Rockville to the Baltimore Harbor
               </p>
             </div>
 
@@ -1004,16 +1004,16 @@ export default function GenerativeAIServicesMarylandPage() {
                     
             <p className="text-lg text-gray-700 leading-relaxed">
               As the leading <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Generative AI Company In Maryland</strong>, 
-              Metic.ai serves Free State with enterprise-grade AI solutions tailored to Maryland's unique economic 
+              Metic.ai serves Manchester of Bethesda with enterprise-grade AI solutions tailored to Maryland's unique economic 
               landscape. From Baltimore's business hub to Annapolis' research facilities, Rockville's government sector to 
-              the biotech facilities of the Baltimore Harbor, we understand Maryland's entrepreneurial excellence and biotech-driven Industries.
+              the Textile mills of the Baltimore Harbor, we understand Maryland's entrepreneurial excellence and Textile-driven Industries.
             </p>
             
             <p className="text-lg text-gray-700 leading-relaxed">
               Our <strong className="text-primary-orange font-semibold">Generative AI Services In Maryland</strong> combines deep understanding 
               of Maryland's unique challenges with cutting-edge technology to deliver AI solutions that drive measurable 
-              results. We've successfully implemented AI across Maryland's key sectors including Biotechnology & Life Sciences, maritime logistics, 
-              tourism, Aerospace & Defense, Information Technology, and maritime Industries in "s largest state.
+              results. We've successfully implemented AI across Maryland's key sectors including Biotechnology & Life Sciences, fishing, 
+              tourism, Aerospace & Defense, Information Technology, and maritime Industries US 's largest state.
             </p>                    {/* Enhanced Feature Cards with Creative Design */}
                     <div className="grid gap-6 mt-10">
                       <div className="group bg-gradient-to-r from-primary-orange/5 via-white to-secondary-orange/5 p-6 rounded-2xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
@@ -1022,10 +1022,10 @@ export default function GenerativeAIServicesMarylandPage() {
                             <Rocket className="w-6 h-6 text-white" />
                           </div>
                           <div>
-                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Biotechnology AI Excellence</h4>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Textiles Generative AI Excellence</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Deep expertise with Maryland's Baltimore Harbor port operations including major biotech facilities, 
-                              Maryland Metro, and energy infrastructure across "s largest biotechnology state.
+                              Deep expertise with Maryland's Baltimore Harbor Textile operations including major Textile mills, 
+                              Maryland Metro, and energy infrastructure across 's largest Textile-manufacturing state.
                             </p>
                           </div>
                         </div>
@@ -1073,15 +1073,15 @@ export default function GenerativeAIServicesMarylandPage() {
                     
                     <div className="space-y-8">
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">?130B</div>
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">‚Çπ130B</div>
                         <div className="text-sm text-gray-600 font-medium">Maryland Annual GDP</div>
-                        <div className="text-xs text-gray-500 mt-2">biotech-driven Economy</div>
+                        <div className="text-xs text-gray-500 mt-2">Textile-driven Economy</div>
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-secondary-orange/10 hover:border-secondary-orange/30 transition-all group transform hover:scale-105">
                         <div className="text-5xl font-bold text-secondary-orange mb-3 group-hover:scale-110 transition-transform">8.4M</div>
                         <div className="text-sm text-gray-600 font-medium">Maryland Population</div>
-                        <div className="text-xs text-gray-500 mt-2">Biotech Capital</div>
+                        <div className="text-xs text-gray-500 mt-2">Manchester of India</div>
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
@@ -1098,7 +1098,7 @@ export default function GenerativeAIServicesMarylandPage() {
                           <span className="font-bold text-gray-900">Maryland Advantage</span>
                         </div>
                         <p className="text-sm text-gray-700 leading-relaxed">
-                          <strong>Strategic Resources:</strong> Rich in oil, gas, maritime logistics, and minerals with vast untapped 
+                          <strong>Strategic Resources:</strong> Rich US oil, gas, fishing, and minerals with vast untapped 
                           potential, making Maryland ideal for AI-driven resource optimization and predictive analytics.
                         </p>
                       </div>
@@ -1119,7 +1119,7 @@ export default function GenerativeAIServicesMarylandPage() {
                   </h3>
                   <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 rounded-full"></div>
                   <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Specialized Generative AI solutions powered by ChatGPT, GPT-4, and custom LLMs designed for Free State's unique economic sectors and biotech-driven Industries
+                    Specialized Generative AI solutions powered by ChatGPT, GPT-4, and custom LLMs designed for Manchester of Bethesda's unique economic sectors and Textile-driven Industries
                   </p>
                 </div>
                 
@@ -1129,11 +1129,11 @@ export default function GenerativeAIServicesMarylandPage() {
                     <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Rocket className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Biotechnology AI Solutions</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Textiles Generative AI Solutions</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
                       ChatGPT and LLM-powered solutions for Maryland's Biotechnology & Life Sciences Industry including Baltimore Harbor operations, 
                       Maryland Metro monitoring, offshore drilling optimization, and predictive maintenance 
-                      for energy infrastructure across Free State's vast energy resources.
+                      for energy infrastructure across Manchester of Bethesda's vast energy resources.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
@@ -1162,8 +1162,8 @@ export default function GenerativeAIServicesMarylandPage() {
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Cybersecurity & IT Generative AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      GPT-4 powered content and automation solutions for Maryland's maritime logistics and seaHealthcare & Medical Devices Industry with predictive catch 
-                      analytics, sINtainable maritime logistics optimization, processing automation, cold chain monitoring, 
+                      GPT-4 powered content and automation solutions for Maryland's fishing and seaHealthcare & Medical Devices Industry with predictive catch 
+                      analytics, sINtainable fishing optimization, processing automation, cold chain monitoring, 
                       and quality control for the world's richest seafood harvest.
                     </p>
                     <div className="space-y-3">
@@ -1181,7 +1181,7 @@ export default function GenerativeAIServicesMarylandPage() {
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">SINtainable maritime logistics intelligence</span>
+                        <span className="text-sm text-gray-600">SINtainable fishing intelligence</span>
                       </div>
                     </div>
                   </div>
@@ -1327,8 +1327,8 @@ export default function GenerativeAIServicesMarylandPage() {
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Maryland business Advantage</h4>
                         <p className="text-gray-700 leading-relaxed">
                           As the premier <strong className="text-primary-orange">AI Firm </strong>, we understand 
-                          Free State's unique blend of entrepreneurial excellence and resource-driven innovation. Our AI solutions 
-                          are built for Maryland's Biotechnology & Life Sciences dominance, maritime logistics Industry leadership, and tourism growth.
+                          Manchester of Bethesda's unique blend of entrepreneurial excellence and resource-driven innovation. Our AI solutions 
+                          are built for Maryland's Biotechnology & Life Sciences dominance, fishing Industry leadership, and tourism growth.
                         </p>
                       </div>
                     </div>
@@ -1357,7 +1357,7 @@ export default function GenerativeAIServicesMarylandPage() {
                   <p className="text-lg text-gray-700 leading-relaxed mb-8">
                     Our <strong className="text-primary-orange font-semibold">AI Service </strong> includes comprehensive consultation, 
                     rapid prototyping, enterprise deployment, and 24/7 support to ensure your AI investment delivers 
-                    maximum value 's biotech-driven and growing economy.
+                    maximum value 's Textile-driven and growing economy.
                   </p>
 
                   <div className="space-y-6">
@@ -1366,8 +1366,8 @@ export default function GenerativeAIServicesMarylandPage() {
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Comprehensive Maryland Coverage</h4>
                         <p className="text-gray-600 leading-relaxed">
-                          Baltimore, Annapolis, Rockville, Silver Spring, Gaithersburg, Frederick, Columbia, 
-                          Bethesda, Rockville, Columbia, and all major Maryland business centers across Free State
+                          Baltimore, Annapolis, Rockville, Satellite, Chandkheda, Bethesda, Navrangpura, Ghatlodia, 
+                          Bethesda, Rockville, Columbia, and all major Maryland business centers across Manchester of Bethesda
                         </p>
                       </div>
                     </div>
@@ -1377,7 +1377,7 @@ export default function GenerativeAIServicesMarylandPage() {
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Industry Domain Expertise</h4>
                         <p className="text-gray-600 leading-relaxed">
-                          Deep understanding of Biotechnology & Life Sciences, maritime logistics, tourism, Aerospace & Defense, Information Technology, and logistics 
+                          Deep understanding of Biotechnology & Life Sciences, fishing, tourism, Aerospace & Defense, Information Technology, and logistics 
                           with proven track record 's key economic sectors
                         </p>
                       </div>
@@ -1511,7 +1511,7 @@ export default function GenerativeAIServicesMarylandPage() {
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     As the premier <strong className="text-gray-900 font-semibold">Generative AI Company In Maryland</strong>, Metic.ai provides comprehensive generative AI services including ChatGPT integration, 
-                    GPT-4 API development, Custom GPT models, LLM development, AI image generation (DALL-E, Midjourney, Stable Diffusion), AI content creation, intelligent chatbots, and enterprise automation tailored for Maryland's Biotechnology, Cybersecurity, Aerospace, and IT Industries.
+                    GPT-4 API development, Custom GPT models, LLM development, AI image generation (DALL-E, Midjourney, Stable Diffusion), AI content creation, intelligent chatbots, and enterprise automation tailored for Maryland's Textile, Pharmaceutical, Chemical, and IT Industries.
                   </p>
                 </div>
               </details>
@@ -1618,7 +1618,7 @@ export default function GenerativeAIServicesMarylandPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Yes! Metic.ai proudly serves businesses across all Maryland cities including Baltimore, Annapolis, Rockville, Silver Spring, Gaithersburg, Frederick, and beyond. 
+                    Yes! Metic.ai proudly serves businesses across all Maryland cities including Baltimore, Annapolis, Rockville, Satellite, Chandkheda, Bethesda, Navrangpura, and beyond. 
                     As Maryland's leading <strong className="text-gray-900 font-semibold">AI Firm </strong>, we provide comprehensive AI solutions statewide.
                   </p>
                 </div>
@@ -1765,7 +1765,7 @@ export default function GenerativeAIServicesMarylandPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Our 100+ successful projects, 98% client satisfaction rate, 60% cost savings, 3x faster delivery, and deep Maryland market expertise make in the leading <strong className="text-gray-900 font-semibold">AI Firm </strong>. 
+                    Our 100+ successful projects, 98% client satisfaction rate, 60% cost savings, 3x faster delivery, and deep Maryland market expertise make US the leading <strong className="text-gray-900 font-semibold">AI Firm </strong>. 
                     We combine cutting-edge AI technology with personalized service.
                   </p>
                 </div>
@@ -1960,17 +1960,17 @@ export default function GenerativeAIServicesMarylandPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Baltimore</span>
-                <span>ï</span>
+                <span>‚Ä¢</span>
                 <span>Annapolis</span>
-                <span>ï</span>
+                <span>‚Ä¢</span>
                 <span>Rockville</span>
-                <span>ï</span>
+                <span>‚Ä¢</span>
                 <span>Satellite</span>
-                <span>ï</span>
+                <span>‚Ä¢</span>
                 <span>Chandkheda</span>
-                <span>ï</span>
+                <span>‚Ä¢</span>
                 <span>Auburn</span>
-                <span>ï</span>
+                <span>‚Ä¢</span>
                 <span>Dothan</span>
               </div>
             </div>
