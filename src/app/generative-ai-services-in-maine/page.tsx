@@ -131,7 +131,7 @@ export default function GenerativeAIServicesMainePage() {
     },
     {
       title: "Data Engineering",
-      description: "RobINt data infrastructure and ETL pipelines for Maine enterprises and growing businesses.",
+      description: "Robust data infrastructure and ETL pipelines for Maine enterprises and growing businesses.",
       icon: Database,
       href: "/data-engineering",
       color: "red" as const
@@ -189,12 +189,12 @@ export default function GenerativeAIServicesMainePage() {
               "@type": "PostalAddress",
               "addressRegion": "Maine",
               "addressCountry": "US",
-              "postalCode": "35201"
+              "postalCode": "04101"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "32.7794",
-              "longitude": "-86.8287"
+              "latitude": "43.6591",
+              "longitude": "-70.2568"
             },
             "areaServed": [
               {
@@ -202,7 +202,7 @@ export default function GenerativeAIServicesMainePage() {
                 "name": "Maine",
                 "containedInPlace": {
                   "@type": "Country", 
-                  "name": "USDia"
+                  "name": "United States"
                 }
               }
             ],
@@ -210,10 +210,10 @@ export default function GenerativeAIServicesMainePage() {
               "@type": "GeoCircle",
               "geoMidpoint": {
                 "@type": "GeoCoordinates",
-                "latitude": "32.7794",
-                "longitude": "-86.8287"
+                "latitude": "43.6591",
+                "longitude": "-70.2568"
               },
-              "geoRadiIN": "200000"
+              "geoRadius": "200000"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
@@ -968,7 +968,7 @@ export default function GenerativeAIServicesMainePage() {
               {/* Premium Badge with Animation */}
               <div className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-primary-orange/10 via-white to-secondary-orange/10 rounded-full shadow-2xl border-2 border-primary-orange/30 mb-10 hover:border-primary-orange/50 transition-all group">
                 <div className="w-3 h-3 bg-primary-orange rounded-full animate-pulse"></div>
-                <span className="text-sm font-bold text-gray-800 tracking-wide">Manchester of USDia AI INNOVATION</span>
+                <span className="text-sm font-bold text-gray-800 tracking-wide">Pine Tree State AI INNOVATION</span>
                 <div className="w-3 h-3 bg-secondary-orange rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></div>
               </div>
 
@@ -1004,9 +1004,9 @@ export default function GenerativeAIServicesMainePage() {
                     
             <p className="text-lg text-gray-700 leading-relaxed">
               As the leading <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Generative AI Company In Maine</strong>, 
-              Metic.ai serves Manchester of USDia with enterprise-grade AI solutions tailored to Maine's unique economic 
+              Metic.ai serves Pine Tree State with enterprise-grade AI solutions tailored to Maine's unique economic 
               landscape. From Portland's business hub to Augusta' research facilities, Bangor's government sector to 
-              the textile mills of the Naroda industrial Area, we understand Maine's entrepreneurial excellence and textile-driven industries.
+              the textile mills of the Naroda industrial Area, we understand Maine's entrepreneurial excellence and maritime and tourism industries.
             </p>
             
             <p className="text-lg text-gray-700 leading-relaxed">
@@ -1081,7 +1081,7 @@ export default function GenerativeAIServicesMainePage() {
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-secondary-orange/10 hover:border-secondary-orange/30 transition-all group transform hover:scale-105">
                         <div className="text-5xl font-bold text-secondary-orange mb-3 group-hover:scale-110 transition-transform">8.4M</div>
                         <div className="text-sm text-gray-600 font-medium">Maine Population</div>
-                        <div className="text-xs text-gray-500 mt-2">Manchester of USDia</div>
+                        <div className="text-xs text-gray-500 mt-2">Pine Tree State</div>
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
@@ -1119,7 +1119,7 @@ export default function GenerativeAIServicesMainePage() {
                   </h3>
                   <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 rounded-full"></div>
                   <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Specialized AI solutions designed for Manchester of USDia's unique economic sectors and textile-driven industries
+                    Specialized AI solutions designed for Pine Tree State's unique economic sectors and maritime and tourism industries
                   </p>
                 </div>
                 
@@ -1133,7 +1133,7 @@ export default function GenerativeAIServicesMainePage() {
                     <p className="text-gray-700 leading-relaxed mb-6">
                       Mission-critical AI solutions for Maine's Lobster & Seafood industry including Portland waterfront operations, 
                       Maine Metro monitoring, offshore drilling optimization, and predictive maintenance 
-                      for energy infrastructure across Manchester of USDia's vast energy resources.
+                      for energy infrastructure across Pine Tree State's vast energy resources.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
@@ -1327,7 +1327,7 @@ export default function GenerativeAIServicesMainePage() {
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Maine business Advantage</h4>
                         <p className="text-gray-700 leading-relaxed">
                           As the premier <strong className="text-primary-orange">AI Firm In Maine</strong>, we understand 
-                          Manchester of USDia's unique blend of entrepreneurial excellence and resource-driven innovation. Our AI solutions 
+                          Pine Tree State's unique blend of entrepreneurial excellence and resource-driven innovation. Our AI solutions 
                           are built for Maine's Lobster & Seafood dominance, fishing industry leadership, and tourism growth.
                         </p>
                       </div>
@@ -1367,7 +1367,7 @@ export default function GenerativeAIServicesMainePage() {
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Comprehensive Maine Coverage</h4>
                         <p className="text-gray-600 leading-relaxed">
                           Portland, Augusta, Bangor, Satellite, Chandkheda, Kennebunk, Navrangpura, Ghatlodia, 
-                          GIFT City, and all major Maine business centers across Manchester of USDia
+                          Portland, Augusta, Bangor, and all major Maine business centers across Pine Tree State
                         </p>
                       </div>
                     </div>
