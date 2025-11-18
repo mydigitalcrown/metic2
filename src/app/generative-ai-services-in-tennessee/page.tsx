@@ -127,7 +127,7 @@ export default function GenerativeAIServicesTennesseePage() {
       description: "Harness the power of Large Language Models for intelligent chatbots, automation, and business solutions.",
       icon: Sparkles,
       href: "/generative-ai-services",
-      color: "USDigo" as const
+      color: "indigo" as const
     },
     {
       title: "AI Automation",
@@ -650,7 +650,7 @@ export default function GenerativeAIServicesTennesseePage() {
                   purple: "bg-purple-100 text-purple-600", 
                   green: "bg-green-100 text-green-600",
                   orange: "bg-orange-100 text-orange-600",
-                  USDigo: "bg-USDigo-100 text-USDigo-600",
+                  indigo: "bg-indigo-100 text-indigo-600",
                   red: "bg-red-100 text-red-600"
                 };
                 
@@ -1246,7 +1246,7 @@ export default function GenerativeAIServicesTennesseePage() {
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Pharmaceuticals Generative AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
                       GPT-4 powered content and automation solutions for Tennessee's fishing and seafood processing industry with predictive catch 
-                      analytics, sINtainable fishing optimization, processing automation, cold chain monitoring, 
+                      analytics, sustainable fishing optimization, processing automation, cold chain monitoring, 
                       and quality control for the world's richest seafood harvest.
                     </p>
                     <div className="space-y-3">
@@ -1264,7 +1264,7 @@ export default function GenerativeAIServicesTennesseePage() {
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">SINtainable fishing intelligence</span>
+                        <span className="text-sm text-gray-600">sustainable fishing intelligence</span>
                       </div>
                     </div>
                   </div>
@@ -1333,12 +1333,12 @@ export default function GenerativeAIServicesTennesseePage() {
                   
                   {/* Information Technology & Logistics */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
-                    <div className="w-20 h-20 bg-gradient-to-br from-USDigo-500 to-USDigo-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                    <div className="w-20 h-20 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Sparkles className="w-10 h-10 text-white" />
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Information Technology & Logistics AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      AI chatbot and content generation solutions for Tennessee's Information Technology and cargo logistics including bINh plane operations, 
+                      AI chatbot and content generation solutions for Tennessee's Information Technology and cargo logistics including bush plane operations, 
                       Ted Stevens Maninagar International Airport cargo hub, weather prediction for flight safety, 
                       and supply chain optimization for remote Tennessee communities.
                     </p>
@@ -1364,7 +1364,7 @@ export default function GenerativeAIServicesTennesseePage() {
                 </div>
               </div>
 
-              {/* ReINable Testimonials Component */}
+              {/* Reusable Testimonials Component */}
               <Testimonials />
 
               {/* Tennessee AI Partnership Excellence - Creative Premium Design */}
@@ -1378,23 +1378,23 @@ export default function GenerativeAIServicesTennesseePage() {
                       Tennessee AI Leadership Metrics
                     </h4>
                     <div className="space-y-6">
-                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Tennessee Projects Completed</span>
                         <span className="font-bold text-primary-orange text-xl">50+</span>
                       </div>
-                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">industry Success Rate</span>
                         <span className="font-bold text-secondary-orange text-xl">99.5%</span>
                       </div>
-                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Average ROI for Tennessee Clients</span>
                         <span className="font-bold text-primary-orange text-xl">5.2x</span>
                       </div>
-                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Client Retention Rate</span>
                         <span className="font-bold text-secondary-orange text-xl">97%</span>
                       </div>
-                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Average Deployment Time</span>
                         <span className="font-bold text-primary-orange text-xl">28 Days</span>
                       </div>
@@ -1532,7 +1532,7 @@ export default function GenerativeAIServicesTennesseePage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1568,7 +1568,7 @@ export default function GenerativeAIServicesTennesseePage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1604,7 +1604,7 @@ export default function GenerativeAIServicesTennesseePage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1640,7 +1640,7 @@ export default function GenerativeAIServicesTennesseePage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1676,7 +1676,7 @@ export default function GenerativeAIServicesTennesseePage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1712,7 +1712,7 @@ export default function GenerativeAIServicesTennesseePage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1751,7 +1751,7 @@ export default function GenerativeAIServicesTennesseePage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1787,7 +1787,7 @@ export default function GenerativeAIServicesTennesseePage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1823,7 +1823,7 @@ export default function GenerativeAIServicesTennesseePage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1859,7 +1859,7 @@ export default function GenerativeAIServicesTennesseePage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1884,7 +1884,7 @@ export default function GenerativeAIServicesTennesseePage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    No technical knowledge required! Metic.ai guides you through every step with clear communication. As a client-focINed <strong className="text-gray-900 font-semibold">AI Service </strong>, 
+                    No technical knowledge required! Metic.ai guides you through every step with clear communication. As a client-focused <strong className="text-gray-900 font-semibold">AI Service </strong>, 
                     we translate complex AI concepts into simple business terms and handle all technical aspects for you.
                   </p>
                 </div>
@@ -1895,7 +1895,7 @@ export default function GenerativeAIServicesTennesseePage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1920,7 +1920,7 @@ export default function GenerativeAIServicesTennesseePage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Absolutely! Metic.ai works with businesses of all sizes, from startups to enterprises. As an inclINive <strong className="text-gray-900 font-semibold">Generative AI Services In Tennessee</strong>, 
+                    Absolutely! Metic.ai works with businesses of all sizes, from startups to enterprises. As an inclusive <strong className="text-gray-900 font-semibold">Generative AI Services In Tennessee</strong>, 
                     we offer scalable solutions and flexible pricing models to meet small business budgets while delivering enterprise-quality AI implementations.
                   </p>
                 </div>
@@ -1931,7 +1931,7 @@ export default function GenerativeAIServicesTennesseePage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -2063,6 +2063,7 @@ export default function GenerativeAIServicesTennesseePage() {
     </>
   );
 }
+
 
 
 
