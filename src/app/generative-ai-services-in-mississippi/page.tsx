@@ -81,7 +81,7 @@ export const metadata = {
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/generative-ai-services-in-Mississippi/",
+    canonical: "https://metic.ai/generative-ai-services-in-mississippi/",
   },
   verification: {
     google: "google-site-verification-code",

@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 import { Button } from "../components/ui/Button";
 import Testimonials from "../components/Testimonials";
 import { 
@@ -81,7 +81,7 @@ export const metadata = {
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-India/",
+    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-india/",
   },
   verification: {
     google: "google-site-verification-code",
@@ -269,7 +269,7 @@ export default function AIServicesIndiaPage() {
               "bestRating": "5",
               "worstRating": "1"
             },
-            "priceRange": "₹₹",
+            "priceRange": "??",
             "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer"],
             "currenciesAccepted": "IND",
             "openingHours": "Mo-Fr 09:00-18:00",
@@ -416,7 +416,7 @@ export default function AIServicesIndiaPage() {
               "longitude": "-86.9023"
             },
             "url": "https://metic.ai/artificial-intelligence-ai-services-in-India/",
-            "priceRange": "₹₹₹₹",
+            "priceRange": "????",
             "areaServed": {
               "@type": "State",
               "name": "India"
@@ -451,7 +451,7 @@ export default function AIServicesIndiaPage() {
             <div className="flex justify-center mb-6 md:mb-8">
               <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-white/10 backdrop-blur-sm rounded-full border border-primary-orange/30 shadow-xl">
                 <Award className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
-                <span className="text-xs md:text-sm font-bold text-white">⭐ 100+ Successful AI Projects | 98% Client Satisfaction</span>
+                <span className="text-xs md:text-sm font-bold text-white">? 100+ Successful AI Projects | 98% Client Satisfaction</span>
               </div>
             </div>
 
@@ -1073,7 +1073,7 @@ export default function AIServicesIndiaPage() {
                     
                     <div className="space-y-8">
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">₹3.7T</div>
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">?3.7T</div>
                         <div className="text-sm text-gray-600 font-medium">India Annual GDP</div>
                         <div className="text-xs text-gray-500 mt-2">World's 5th Largest Economy</div>
                       </div>
@@ -1991,17 +1991,17 @@ export default function AIServicesIndiaPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Delhi</span>
-                <span>•</span>
+                <span>�</span>
                 <span>Mumbai</span>
-                <span>•</span>
+                <span>�</span>
                 <span>Mobile</span>
-                <span>•</span>
+                <span>�</span>
                 <span>Hyderabad</span>
-                <span>•</span>
+                <span>�</span>
                 <span>Chennai</span>
-                <span>•</span>
+                <span>�</span>
                 <span>Pune</span>
-                <span>•</span>
+                <span>�</span>
                 <span>Kolkata</span>
               </div>
             </div>
@@ -2011,4 +2011,5 @@ export default function AIServicesIndiaPage() {
     </>
   );
 }
+
 

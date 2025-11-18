@@ -81,7 +81,7 @@ export const metadata = {
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-ahmedabad/",
+    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-utah/",
   },
   verification: {
     google: "google-site-verification-code",
@@ -1980,6 +1980,8 @@ export default function AIServicesUtahPage() {
     </>
   );
 }
+
+
 
 
 

@@ -81,7 +81,7 @@ export const metadata = {
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-alabama/",
+    canonical: "https://metic.ai/artificial-intelligence-ai-services-in-california/",
   },
   verification: {
     google: "google-site-verification-code",
@@ -2011,4 +2011,6 @@ export default function AIServicesAlabamaPage() {
     </>
   );
 }
+
+
 

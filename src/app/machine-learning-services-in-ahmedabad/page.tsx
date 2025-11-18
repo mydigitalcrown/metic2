@@ -1,4 +1,4 @@
-Ôªøimport Link from "next/link";
+import Link from "next/link";
 import { Button } from "../components/ui/Button";
 import Testimonials from "../components/Testimonials";
 import { 
@@ -453,7 +453,7 @@ export default function MLServicesAhmedabadPage() {
             <div className="flex justify-center mb-6 md:mb-8">
               <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-white/10 backdrop-blur-sm rounded-full border border-primary-orange/30 shadow-xl">
                 <Award className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
-                <span className="text-xs md:text-sm font-bold text-white">‚≠ê 50+ Successful ML projects | 98% Client Satisfaction</span>
+                <span className="text-xs md:text-sm font-bold text-white">? 50+ Successful ML projects | 98% Client Satisfaction</span>
               </div>
             </div>
 
@@ -1073,7 +1073,7 @@ export default function MLServicesAhmedabadPage() {
                     
                     <div className="space-y-8">
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">‚Çπ4.6T</div>
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">?4.6T</div>
                         <div className="text-sm text-gray-600 font-medium">Ahmedabad Annual GDP</div>
                         <div className="text-xs text-gray-500 mt-2">textile-driven Economy</div>
                       </div>
@@ -1960,17 +1960,17 @@ export default function MLServicesAhmedabadPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Maninagar</span>
-                <span>‚Ä¢</span>
+                <span>ï</span>
                 <span>Vastrapur</span>
-                <span>‚Ä¢</span>
+                <span>ï</span>
                 <span>SG Highway</span>
-                <span>‚Ä¢</span>
+                <span>ï</span>
                 <span>Satellite</span>
-                <span>‚Ä¢</span>
+                <span>ï</span>
                 <span>Chandkheda</span>
-                <span>‚Ä¢</span>
+                <span>ï</span>
                 <span>Auburn</span>
-                <span>‚Ä¢</span>
+                <span>ï</span>
                 <span>Dothan</span>
               </div>
             </div>
@@ -1980,6 +1980,7 @@ export default function MLServicesAhmedabadPage() {
     </>
   );
 }
+
 
 
 

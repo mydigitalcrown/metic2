@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 import { Button } from "../components/ui/Button";
 import Testimonials from "../components/Testimonials";
 import { 
@@ -81,7 +81,7 @@ export const metadata = {
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/machine-learning-services-in-Vermont/",
+    canonical: "https://metic.ai/machine-learning-services-in-vermont/",
   },
   verification: {
     google: "google-site-verification-code",
@@ -453,7 +453,7 @@ export default function MLServicesVermontPage() {
             <div className="flex justify-center mb-6 md:mb-8">
               <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-white/10 backdrop-blur-sm rounded-full border border-primary-orange/30 shadow-xl">
                 <Award className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
-                <span className="text-xs md:text-sm font-bold text-white">â­ 50+ Successful ML projects | 98% Client Satisfaction</span>
+                <span className="text-xs md:text-sm font-bold text-white">⭐ 50+ Successful ML projects | 98% Client Satisfaction</span>
               </div>
             </div>
 
@@ -1960,17 +1960,17 @@ export default function MLServicesVermontPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Downtown Burlington</span>
-                <span>â€¢</span>
+                <span>•</span>
                 <span>South Burlington Center</span>
-                <span>â€¢</span>
+                <span>•</span>
                 <span>Rutland District</span>
-                <span>â€¢</span>
+                <span>•</span>
                 <span>Montpelier Area</span>
-                <span>â€¢</span>
+                <span>•</span>
                 <span>Chandkheda</span>
-                <span>â€¢</span>
+                <span>•</span>
                 <span>Auburn</span>
-                <span>â€¢</span>
+                <span>•</span>
                 <span>Dothan</span>
               </div>
             </div>
@@ -1980,6 +1980,7 @@ export default function MLServicesVermontPage() {
     </>
   );
 }
+
 
 
 

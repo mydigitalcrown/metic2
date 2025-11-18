@@ -81,7 +81,7 @@ export const metadata = {
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/generative-ai-services-in-ahmedabad/",
+    canonical: "https://metic.ai/generative-ai-services-in-south-dakota/",
   },
   verification: {
     google: "google-site-verification-code",

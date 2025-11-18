@@ -1,4 +1,4 @@
-Ôªøimport Link from "next/link";
+import Link from "next/link";
 import { Button } from "../components/ui/Button";
 import Testimonials from "../components/Testimonials";
 import { 
@@ -81,7 +81,7 @@ export const metadata = {
     creator: "@metic_ai"
   },
   alternates: {
-    canonical: "https://metic.ai/machine-learning-services-in-Virginia/",
+    canonical: "https://metic.ai/machine-learning-services-in-virginia/",
   },
   verification: {
     google: "google-site-verification-code",
@@ -453,7 +453,7 @@ export default function MLServicesVirginiaPage() {
             <div className="flex justify-center mb-6 md:mb-8">
               <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-white/10 backdrop-blur-sm rounded-full border border-primary-orange/30 shadow-xl">
                 <Award className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
-                <span className="text-xs md:text-sm font-bold text-white">‚≠ê 50+ Successful ML projects | 98% Client Satisfaction</span>
+                <span className="text-xs md:text-sm font-bold text-white">? 50+ Successful ML projects | 98% Client Satisfaction</span>
               </div>
             </div>
 
@@ -1960,17 +1960,17 @@ export default function MLServicesVirginiaPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Downtown Richmond</span>
-                <span>‚Ä¢</span>
+                <span>ï</span>
                 <span>Virginia Beach Center</span>
-                <span>‚Ä¢</span>
+                <span>ï</span>
                 <span>Norfolk District</span>
-                <span>‚Ä¢</span>
+                <span>ï</span>
                 <span>Arlington Area</span>
-                <span>‚Ä¢</span>
+                <span>ï</span>
                 <span>Chandkheda</span>
-                <span>‚Ä¢</span>
+                <span>ï</span>
                 <span>Auburn</span>
-                <span>‚Ä¢</span>
+                <span>ï</span>
                 <span>Dothan</span>
               </div>
             </div>
@@ -1980,6 +1980,7 @@ export default function MLServicesVirginiaPage() {
     </>
   );
 }
+
 
 
 
