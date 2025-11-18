@@ -92,7 +92,7 @@ export const metadata = {
   classification: "business Services"
 };
 
-export default function GenerativeAIServicesWest VirginiaPage() {
+export default function GenerativeAIServicesWestVirginiaPage() {
   const services = [
     {
       title: "ChatGPT Integration",
