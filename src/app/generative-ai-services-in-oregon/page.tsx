@@ -238,7 +238,7 @@ export default function GenerativeAIServicesOregonPage() {
             ],
             "logo": "https://metic.ai/logo.png",
             "image": ["https://metic.ai/ai-company-Oregon.jpg"],
-            "telephone": "+1-616-490-0955",
+            "telephone": "+91-789-251-8414",
             "email": "hello@matic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
@@ -335,7 +335,7 @@ export default function GenerativeAIServicesOregonPage() {
             "openingHours": "Mo-Fr 09:00-18:00",
             "contactPoint": {
               "@type": "ContactPoint",
-              "telephone": "+1-616-490-0955",
+              "telephone": "+91-789-251-8414",
               "contactType": "Customer Service",
               "areaServed": "US",
               "availableLanguage": ["English"]
@@ -460,7 +460,7 @@ export default function GenerativeAIServicesOregonPage() {
             "name": "Metic.ai - Generative AI Services In Oregon",
             "description": "Leading Artificial Intelligence Company providing AI services ",
             "image": "https://metic.ai/ai-company-Oregon.jpg",
-            "telephone": "+1-616-490-0955",
+            "telephone": "+91-789-251-8414",
             "email": "hello@matic.ai",
             "address": {
               "@type": "PostalAddress",
@@ -537,10 +537,10 @@ export default function GenerativeAIServicesOregonPage() {
                     Get Free AI Consultation
                   </Button>
                 </Link>
-                <Link href="tel:+16164900955" className="w-full sm:w-auto">
+                <Link href="tel:+917892518414" className="w-full sm:w-auto">
                   <Button variant="outline" size="lg" className="w-full sm:w-auto text-base md:text-lg px-6 md:px-8 py-3 md:py-4 border-2 border-primary-orange text-primary-orange hover:bg-primary-orange hover:text-white">
                     <Phone className="w-5 h-5 mr-2" />
-                    Call: +1-616-490-0955
+                    Call: +91-789-251-8414
                   </Button>
                 </Link>
               </div>
@@ -1962,9 +1962,9 @@ export default function GenerativeAIServicesOregonPage() {
                         Start Your AI Journey
                       </Button>
                     </Link>
-                    <Link href="tel:+16164900955">
+                    <Link href="tel:+917892518414">
                       <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                        Call Now: +1-616-490-0955
+                        Call Now: +91-789-251-8414
                       </Button>
                     </Link>
                   </div>
@@ -1993,9 +1993,9 @@ export default function GenerativeAIServicesOregonPage() {
                   Start Your AI Transformation
                 </Button>
               </Link>
-              <Link href="tel:+16164900955">
+              <Link href="tel:+917892518414">
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-orange">
-                  Call: +1-616-490-0955
+                  Call: +91-789-251-8414
                 </Button>
               </Link>
             </div>
