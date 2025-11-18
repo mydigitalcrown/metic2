@@ -93,6 +93,11 @@ export async function GET() {
     ...indianCities.map(city => `https://metic.ai/machine-learning-services-in-${city}`)
   ]
 
+  const generativeAIUrls = [
+    ...usStates.map(state => `https://metic.ai/generative-ai-services-in-${state}`),
+    ...indianCities.map(city => `https://metic.ai/generative-ai-services-in-${city}`)
+  ]
+
   // Core pages
   const coreUrls = [
     'https://metic.ai',
@@ -109,7 +114,7 @@ export async function GET() {
   ]
 
   // Combine all URLs
-  const allUrls = [...coreUrls, ...aiUrls, ...mlUrls]
+  const allUrls = [...coreUrls, ...aiUrls, ...mlUrls, ...generativeAIUrls]
 
   try {
     console.log(`🚀 Submitting ${allUrls.length} URLs to IndexNow API...`)
@@ -135,6 +140,7 @@ export async function GET() {
         corePages: coreUrls.length,
         aiPages: aiUrls.length,
         mlPages: mlUrls.length,
+        generativeAIPages: generativeAIUrls.length,
         message: `Successfully submitted all ${allUrls.length} pages to search engines via IndexNow` 
       })
     } else {
