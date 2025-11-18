@@ -1960,17 +1960,17 @@ export default function MLServicesVirginiaPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Downtown Richmond</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Virginia Beach Center</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Norfolk District</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Arlington Area</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Chandkheda</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Auburn</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Dothan</span>
               </div>
             </div>

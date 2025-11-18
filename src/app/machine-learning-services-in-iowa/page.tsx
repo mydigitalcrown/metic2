@@ -1960,17 +1960,17 @@ export default function MLServicesIowaPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>West Des Moines</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Iowa City</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Ames</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Waterloo</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Council Bluffs</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Marion</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Bettendorf</span>
               </div>
             </div>

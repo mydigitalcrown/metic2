@@ -1960,17 +1960,17 @@ export default function MLServicesMainePage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Auburn</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Biddeford</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Saco</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Westbrook</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Augusta</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Auburn</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Sanford</span>
               </div>
             </div>

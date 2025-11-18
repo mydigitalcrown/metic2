@@ -1960,17 +1960,17 @@ export default function MLServicesWestVirginiaPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Downtown Charleston</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Huntington Center</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Morgantown District</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Parkersburg Area</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Chandkheda</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Auburn</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Dothan</span>
               </div>
             </div>

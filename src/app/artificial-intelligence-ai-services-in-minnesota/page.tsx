@@ -1991,17 +1991,17 @@ export default function AIServicesMinnesotaPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Birmingham</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Montgomery</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Mobile</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Huntsville</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Tuscaloosa</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Auburn</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Dothan</span>
               </div>
             </div>

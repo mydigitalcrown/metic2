@@ -1960,17 +1960,17 @@ export default function MLServicesVizagPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>RK Beach Area</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Waltair District</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Gajuwaka Zone</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Madhurawada Area</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Chandkheda</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Auburn</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Dothan</span>
               </div>
             </div>

@@ -1960,17 +1960,17 @@ export default function MLServicesWashingtonPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Downtown Seattle</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Spokane Center</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Tacoma District</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Vancouver Area</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Bellevue</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Everett</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Kent</span>
               </div>
             </div>

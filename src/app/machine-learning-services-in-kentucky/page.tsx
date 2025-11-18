@@ -1960,17 +1960,17 @@ export default function MLServicesKentuckyPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Frankfort</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Covington</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Richmond</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Florence</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Georgetown</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Jeffersontown</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Paducah</span>
               </div>
             </div>

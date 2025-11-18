@@ -1960,17 +1960,17 @@ export default function MLServicesLouisianaPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Metairie</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Kenner</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Lake Charles</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Houma</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Hammond</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Thibodaux</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Ruston</span>
               </div>
             </div>

@@ -1960,17 +1960,17 @@ export default function MLServicesKansasPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Olathe</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Lawrence</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Shawnee</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Lenexa</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Manhattan</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Leawood</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Garden City</span>
               </div>
             </div>

@@ -1960,17 +1960,17 @@ export default function MLServicesMichiganPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Warren</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Sterling Heights</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Troy</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Dearborn</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Southfield</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Auburn</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Dothan</span>
               </div>
             </div>

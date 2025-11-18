@@ -1991,17 +1991,17 @@ export default function AIServicesIndiaPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Delhi</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Mumbai</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Mobile</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Hyderabad</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Chennai</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Pune</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Kolkata</span>
               </div>
             </div>

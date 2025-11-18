@@ -1960,17 +1960,17 @@ export default function MLServicesKolkataPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Salt Lake</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Park Street</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Rajarhat</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>New Town</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Ballygunge</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Barasat</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Barrackpore</span>
               </div>
             </div>

@@ -1960,17 +1960,17 @@ export default function MLServicesIndianaPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Carmel</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Fishers</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Bloomington</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Lafayette</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Muncie</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Kokomo</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Anderson</span>
               </div>
             </div>

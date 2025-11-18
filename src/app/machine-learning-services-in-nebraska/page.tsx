@@ -1960,17 +1960,17 @@ export default function MLServicesNebraskaPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Omaha</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Lincoln</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Bellevue</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Grand Island</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Chandkheda</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Auburn</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Dothan</span>
               </div>
             </div>

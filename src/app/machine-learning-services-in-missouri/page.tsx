@@ -1960,17 +1960,17 @@ export default function MLServicesMissouriPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Independence</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Lee's Summit</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>O'Fallon</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>St. Joseph</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Joplin</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Auburn</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Dothan</span>
               </div>
             </div>

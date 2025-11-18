@@ -1960,17 +1960,17 @@ export default function MLServicesMississippiPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Meridian</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Biloxi</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Tupelo</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Olive Branch</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Ridgeland</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Auburn</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Dothan</span>
               </div>
             </div>

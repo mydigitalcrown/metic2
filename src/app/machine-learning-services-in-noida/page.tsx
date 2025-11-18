@@ -1960,17 +1960,17 @@ export default function MLServicesNoidaPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Sector 18</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Sector 16</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Film City</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Sector 125</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Chandkheda</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Auburn</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Dothan</span>
               </div>
             </div>

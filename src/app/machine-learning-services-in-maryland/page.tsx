@@ -1960,17 +1960,17 @@ export default function MLServicesMarylandPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Rockville</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Frederick</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Gaithersburg</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Bowie</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Hagerstown</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Laurel</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Greenbelt</span>
               </div>
             </div>

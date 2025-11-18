@@ -1960,17 +1960,17 @@ export default function MLServicesMassachusettsPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Somerville</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Lowell</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Quincy</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Newton</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Lowell</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Auburn</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Dothan</span>
               </div>
             </div>

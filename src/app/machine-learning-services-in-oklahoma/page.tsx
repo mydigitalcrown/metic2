@@ -1960,17 +1960,17 @@ export default function MLServicesOklahomaPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Bricktown</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Midtown</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Downtown OKC</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Nichols Hills</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Chandkheda</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Auburn</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Dothan</span>
               </div>
             </div>

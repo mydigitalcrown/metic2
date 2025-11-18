@@ -1960,17 +1960,17 @@ export default function AIServicesTexasPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Maninagar</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Vastrapur</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>SG Highway</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Satellite</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Chandkheda</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Auburn</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Dothan</span>
               </div>
             </div>

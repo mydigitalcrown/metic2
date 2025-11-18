@@ -1960,17 +1960,17 @@ export default function MLServicesOhioPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Downtown Columbus</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>University Circle</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Over-the-Rhine</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Warehouse District</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Chandkheda</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Auburn</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Dothan</span>
               </div>
             </div>

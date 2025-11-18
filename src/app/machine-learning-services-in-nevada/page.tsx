@@ -1960,17 +1960,17 @@ export default function MLServicesNevadaPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Las Vegas Strip</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Downtown Reno</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Henderson</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>North Las Vegas</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Chandkheda</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Auburn</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Dothan</span>
               </div>
             </div>

@@ -1960,17 +1960,17 @@ export default function MLServicesNorthDakotaPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Downtown Fargo</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>West Fargo</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>West Acres</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>South Fargo</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Chandkheda</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Auburn</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Dothan</span>
               </div>
             </div>

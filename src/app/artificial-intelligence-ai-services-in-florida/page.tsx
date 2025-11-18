@@ -1960,17 +1960,17 @@ export default function AIServicesFloridaPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Tampa</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>South Beach</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>I-4 Corridor</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Coral Gables</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Jacksonville</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Auburn</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Dothan</span>
               </div>
             </div>

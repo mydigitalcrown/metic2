@@ -1960,17 +1960,17 @@ export default function AIServicesColoradoPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Denver</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Boulder</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>I-25 Corridor</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Capitol Hill</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Colorado Springs</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Auburn</span>
-                <span>•</span>
+                <span>ï¿½</span>
                 <span>Dothan</span>
               </div>
             </div>
