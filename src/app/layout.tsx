@@ -1,20 +1,8 @@
 import type { Metadata } from "next";
-import { Inter, JetBrains_Mono } from "next/font/google";
+import { inter, jetbrainsMono } from "@/lib/fonts";
 import { Header } from "./components/ui/Header";
 import { Footer } from "./components/ui/Footer";
 import "./globals.css";
-
-const inter = Inter({
-  variable: "--font-sans",
-  subsets: ["latin"],
-  display: "swap",
-});
-
-const jetbrainsMono = JetBrains_Mono({
-  variable: "--font-mono",
-  subsets: ["latin"],
-  display: "swap",
-});
 
 export const metadata: Metadata = {
   title: "Artificial Intelligence Company Near Me | Best AI Company - Metic.ai",
