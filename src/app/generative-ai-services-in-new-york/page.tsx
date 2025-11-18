@@ -229,9 +229,11 @@ export default function GenerativeAIServicesNewYorkPage() {
             "vatID": "US123456789",
             "address": {
               "@type": "PostalAddress",
-              "addressRegion": "New York",
+              "streetAddress": "300 Quail Ridge Dr NE",
+              "addressLocality": "ADA",
+              "addressRegion": "MI",
               "addressCountry": "US",
-              "postalCode": "10001"
+              "postalCode": "49301"
             },
             "geo": {
               "@type": "GeoCoordinates",
@@ -448,10 +450,10 @@ export default function GenerativeAIServicesNewYorkPage() {
             "email": "hello@metic.ai",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "123 Innovation Ave",
-              "addressLocality": "New York",
-              "addressRegion": "NY",
-              "postalCode": "10001",
+              "streetAddress": "300 Quail Ridge Dr NE",
+              "addressLocality": "ADA",
+              "addressRegion": "MI",
+              "postalCode": "49301",
               "addressCountry": "US"
             },
             "geo": {
