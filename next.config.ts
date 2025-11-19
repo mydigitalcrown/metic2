@@ -4,6 +4,9 @@ const nextConfig: NextConfig = {
   // Optimize performance for production
   poweredByHeader: false,
   
+  // Enable trailing slashes to match canonical URLs
+  trailingSlash: true,
+  
   // Enable compression
   compress: true,
   
