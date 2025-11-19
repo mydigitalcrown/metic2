@@ -27,7 +27,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Company In South Dakota | #1 Artificial Intelligence Company In South Dakota",
+  title: "#1 AI Company In South Dakota | AI Services",
   description: "Leading AI Company In South Dakota with 50+ successful AI projects. Expert Artificial Intelligence development, machine learning & automation services. 60% cost savings, 3x faster delivery. Call +1-789-251-8414",
   keywords: [
     "Artificial Intelligence Company In South Dakota",

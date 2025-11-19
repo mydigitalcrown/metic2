@@ -27,7 +27,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Company In West Virginia | #1 Artificial Intelligence Company In West Virginia",
+  title: "#1 AI Company In West Virginia | AI Services",
   description: "Leading AI Company In West Virginia with 50+ successful AI projects. Expert Artificial Intelligence development, machine learning & automation services. 60% cost savings, 3x faster delivery. Call +1-789-251-8414",
   keywords: [
     "Artificial Intelligence Company In West Virginia",

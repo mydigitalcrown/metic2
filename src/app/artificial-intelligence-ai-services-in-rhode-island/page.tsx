@@ -27,7 +27,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Company In Rhode Island | #1 Artificial Intelligence Company In Rhode Island",
+  title: "#1 AI Company In Rhode Island | AI Services",
   description: "Leading AI Company In Rhode Island with 100+ successful AI projects. Expert Artificial Intelligence development, machine learning & automation services. 60% cost savings, 3x faster delivery. Call +1-789-251-8414",
   keywords: [
     "Artificial Intelligence Company In Rhode Island",

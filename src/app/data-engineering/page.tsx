@@ -24,13 +24,13 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Data Engineering Services | ETL, Data Pipeline & Cloud Data Solutions - Metic.ai",
+  title: "Data Engineering Services | ETL & Cloud - Metic.ai",
   description: "Professional data engineering services including ETL pipelines, data warehousing, real-time data processing, cloud data architecture, and modern data stack implementation for scalable data infrastructure.",
   keywords: "data engineering, ETL pipelines, data warehousing, real-time data processing, cloud data architecture, data lakes, data integration, Apache Spark, Kafka, modern data stack, data infrastructure",
   authors: [{ name: "Metic.ai Data Engineering Team" }],
   robots: "index, follow",
   openGraph: {
-    title: "Data Engineering Services | ETL, Data Pipeline & Cloud Data Solutions - Metic.ai",
+    title: "Data Engineering Services | ETL & Cloud - Metic.ai",
     description: "Professional data engineering services including ETL pipelines, data warehousing, and cloud data architecture.",
     url: "https://metic.ai/data-engineering/",
     type: "website",

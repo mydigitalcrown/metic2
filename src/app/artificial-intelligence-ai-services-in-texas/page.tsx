@@ -27,7 +27,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Artificial Intelligence Company In Texas | #1 AI Company In Texas - Metic.ai",
+  title: "#1 AI Company In Texas | AI Services - Metic.ai",
   description: "Leading Artificial Intelligence Company In Texas with 50+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
   keywords: [
     "Artificial Intelligence Company In Texas",
@@ -56,7 +56,7 @@ export const metadata = {
   authors: [{ name: "Metic.ai Texas AI Team" }],
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
-    title: "Artificial Intelligence Company In Texas | #1 AI Company In Texas - Metic.ai",
+    title: "#1 AI Company In Texas | AI Services - Metic.ai",
     description: "Leading Artificial Intelligence Company In Texas with 50+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Texas businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-texas/",
     type: "website",
