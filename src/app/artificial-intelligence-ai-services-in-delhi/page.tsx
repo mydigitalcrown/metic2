@@ -152,7 +152,7 @@ export default function AIServicesDelhiPage() {
   ];
 
   const stats = [
-    { number: "200+", label: "Delhi Businesses Served" },
+    { number: "50+", label: "Businesses Served" },
     { number: "99%", label: "Client Satisfaction" },
     { number: "4.7x", label: "Average ROI Increase" },
     { number: "24/7", label: "Support Available" }

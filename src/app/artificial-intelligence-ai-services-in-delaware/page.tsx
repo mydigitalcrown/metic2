@@ -152,7 +152,7 @@ export default function AIServicesDelawarePage() {
   ];
 
   const stats = [
-    { number: "150+", label: "DE Businesses Served" },
+    { number: "50+", label: "Businesses Served" },
     { number: "98%", label: "Client Satisfaction" },
     { number: "4.8x", label: "Average ROI Increase" },
     { number: "24/7", label: "Support Available" }

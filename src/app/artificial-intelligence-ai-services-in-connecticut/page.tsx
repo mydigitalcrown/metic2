@@ -152,7 +152,7 @@ export default function AIServicesConnecticutPage() {
   ];
 
   const stats = [
-    { number: "300+", label: "CT Businesses Served" },
+    { number: "50+", label: "Businesses Served" },
     { number: "98%", label: "Client Satisfaction" },
     { number: "4.6x", label: "Average ROI Increase" },
     { number: "24/7", label: "Support Available" }
