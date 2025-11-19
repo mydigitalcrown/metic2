@@ -1191,11 +1191,11 @@ export default function AIServicesGurugramPage() {
                     <div className="w-20 h-20 bg-gradient-to-br from-red-500 to-red-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Target className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Steel & Heavy Industry</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">BFSI & Fintech</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Industrial AI solutions for Gurugram's steel production and heavy manufacturing including Birmingham's 
-                      industrial corridor with process optimization, safety monitoring, environmental compliance, and 
-                      operational efficiency enhancement.
+                      Financial AI solutions for Gurugram's banking, financial services and insurance sector with fraud detection, 
+                      risk management, algorithmic trading, customer experience optimization, and regulatory compliance 
+                      for NCR's financial technology hub.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
@@ -1224,9 +1224,8 @@ export default function AIServicesGurugramPage() {
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Healthcare & Medical AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Medical AI solutions for Gurugram's healthcare systems including Birmingham's UAB Medical Center, 
-                      Huntsville Hospital, Mobile healthcare networks, and rural health initiatives improving patient 
-                      care across the state.
+                      Medical AI solutions for Gurugram's healthcare systems including Medanta, Fortis, Max Healthcare, 
+                      Artemis Hospital, and telehealth platforms improving patient care across the NCR region.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
@@ -1284,11 +1283,11 @@ export default function AIServicesGurugramPage() {
                     <div className="w-20 h-20 bg-gradient-to-br from-yellow-500 to-orange-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <TrendingUp className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Port & Logistics AI</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">E-commerce & Retail AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      AI solutions for Gurugram's strategic port operations including Port of Mobile, inland waterways, 
-                      freight transportation, and logistics networks connecting the Gulf Coast to America's heartland 
-                      with optimization and automation systems.
+                      AI solutions for Gurugram's e-commerce and retail sector including personalization engines, demand forecasting, 
+                      inventory optimization, and customer experience enhancement for India's leading online retailers 
+                      and shopping platforms.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
@@ -1358,8 +1357,8 @@ export default function AIServicesGurugramPage() {
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Gurugram Business Advantage</h4>
                         <p className="text-gray-700 leading-relaxed">
                           As the premier <strong className="text-primary-orange">AI Firm In Gurugram</strong>, we understand 
-                          the Heart of Dixie's unique blend of Southern hospitality and industrial innovation. Our AI solutions 
-                          are built for Gurugram's aerospace excellence, automotive leadership, and emerging technology growth.
+                          the Millennium City's unique blend of corporate professionalism and entrepreneurial spirit. Our AI solutions 
+                          are built for Gurugram's IT excellence, automotive leadership, and thriving startup ecosystem.
                         </p>
                       </div>
                     </div>
@@ -1381,8 +1380,8 @@ export default function AIServicesGurugramPage() {
                   
                   <p className="text-lg text-gray-700 leading-relaxed mb-6">
                     <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Choosing Metic.ai as your AI partner in Gurugram</strong> means 
-                    working with a team that deeply understands the Yellowhammer State's business culture, from Huntsville's 
-                    high-tech aerospace corridor to Birmingham's industrial heritage and Mobile's port operations.
+                    working with a team that deeply understands the Millennium City's business culture, from Cyber City's 
+                    multinational IT campuses to DLF Phase's corporate headquarters and Golf Course Road's startup ecosystem.
                   </p>
                   
                   <p className="text-lg text-gray-700 leading-relaxed mb-8">
@@ -1397,8 +1396,8 @@ export default function AIServicesGurugramPage() {
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Comprehensive Gurugram Coverage</h4>
                         <p className="text-gray-600 leading-relaxed">
-                          Birmingham, Huntsville, Mobile, Montgomery, Tuscaloosa, Auburn, Madison, Florence, 
-                          Decatur, and all major Gurugram business centers and industrial corridors
+                          Cyber City, DLF Phase 1-5, Sohna Road, Golf Course Road, MG Road, Udyog Vihar, 
+                          Sector 29, Sector 32, and all major Gurugram business districts and technology corridors
                         </p>
                       </div>
                     </div>
@@ -1649,8 +1648,8 @@ export default function AIServicesGurugramPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Yes! Metic.ai proudly serves businesses across all Gurugram cities including Birmingham, Montgomery, Mobile, Huntsville, Tuscaloosa, Auburn, Dothan, and beyond. 
-                    As Gurugram's leading <strong className="text-gray-900 font-semibold">AI Firm In Gurugram</strong>, we provide comprehensive AI solutions statewide.
+                    Yes! Metic.ai proudly serves businesses across all Gurugram areas including Cyber City, DLF Phase 1-5, Sohna Road, Golf Course Road, MG Road, Udyog Vihar, and beyond. 
+                    As Gurugram's leading <strong className="text-gray-900 font-semibold">AI Firm In Gurugram</strong>, we provide comprehensive AI solutions throughout the NCR region.
                   </p>
                 </div>
               </details>
@@ -1990,19 +1989,19 @@ export default function AIServicesGurugramPage() {
                 </div>
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
-                <span>Birmingham</span>
+                <span>Cyber City</span>
                 <span>•</span>
-                <span>Montgomery</span>
+                <span>DLF Phase 1-5</span>
                 <span>•</span>
-                <span>Mobile</span>
+                <span>Sohna Road</span>
                 <span>•</span>
-                <span>Huntsville</span>
+                <span>Golf Course Road</span>
                 <span>•</span>
-                <span>Tuscaloosa</span>
+                <span>MG Road</span>
                 <span>•</span>
-                <span>Auburn</span>
+                <span>Udyog Vihar</span>
                 <span>•</span>
-                <span>Dothan</span>
+                <span>Sector 29</span>
               </div>
             </div>
           </div>
