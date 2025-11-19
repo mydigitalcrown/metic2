@@ -315,11 +315,7 @@ export default function ContactLeadForm({ className = '' }: ContactFormProps) {
 
         <div className="text-center">
           <p className="text-sm text-gray-500">
-            By submitting this form, you agree to our{' '}
-            <a href="/privacy-policy" className="text-primary-orange hover:underline">
-              Privacy Policy
-            </a>
-            . We'll respond within 24 hours.
+            We'll respond within 24 hours.
           </p>
         </div>
       </form>

@@ -49,6 +49,9 @@ Disallow: /admin/
 Disallow: /private/
 Disallow: /_next/static/
 Disallow: /*.json$
+Disallow: /privacy
+Disallow: /privacy-policy
+Disallow: /terms
 
 # Allow Google-specific crawlers
 User-agent: Googlebot
