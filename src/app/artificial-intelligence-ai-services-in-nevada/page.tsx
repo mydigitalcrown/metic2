@@ -58,13 +58,13 @@ export const metadata = {
   openGraph: {
     title: "Artificial Intelligence Company In Nevada | #1 AI Company In Nevada - Metic.ai",
     description: "Leading Artificial Intelligence Company In Nevada with 50+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Nevada businesses.",
-    url: "https://metic.ai/artificial-intelligence-ai-services-in-Nevada/",
+    url: "https://metic.ai/artificial-intelligence-ai-services-in-nevada/",
     type: "website",
     locale: "en_US",
     siteName: "Metic.ai - AI Company In Nevada",
     images: [
       {
-        url: "https://metic.ai/og-ai-company-Nevada.jpg",
+        url: "https://metic.ai/og-ai-company-nevada.jpg",
         width: 1200,
         height: 630,
         alt: "Artificial Intelligence Company In Nevada - Metic.ai",
@@ -76,7 +76,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Artificial Intelligence Company In Nevada | AI Company In Nevada",
     description: "Leading AI Company In Nevada delivering enterprise artificial intelligence solutions. Expert AI development, machine learning & automation services with proven results.",
-    images: ["https://metic.ai/og-ai-company-Nevada.jpg"],
+    images: ["https://metic.ai/og-ai-company-nevada.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
@@ -177,7 +177,7 @@ export default function AIServicesNevadaPage() {
               "https://www.facebook.com/meticai"
             ],
             "logo": "https://metic.ai/logo.png",
-            "image": ["https://metic.ai/ai-company-Nevada.jpg"],
+            "image": ["https://metic.ai/ai-company-nevada.jpg"],
             "telephone": "+1-789-251-8414",
             "email": "hello@matic.ai",
             "foundingDate": "2020",
@@ -338,7 +338,7 @@ export default function AIServicesNevadaPage() {
             "@type": "Article",
             "headline": "Artificial Intelligence Company In Nevada - AI Services & Solutions",
             "description": "Comprehensive guide to AI services in Nevada by the leading Artificial Intelligence Company. Expert AI development, machine learning solutions, and enterprise AI implementation.",
-            "image": "https://metic.ai/ai-company-Nevada-article.jpg",
+            "image": "https://metic.ai/ai-company-nevada-article.jpg",
             "author": {
               "@type": "Organization",
               "name": "Metic.ai"
@@ -353,7 +353,7 @@ export default function AIServicesNevadaPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-Nevada/",
+            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-nevada/",
             "keywords": "Artificial Intelligence Company In Nevada, AI Company In Nevada, AI Service In Nevada"
           })
         }}
@@ -383,7 +383,7 @@ export default function AIServicesNevadaPage() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Artificial Intelligence Company In Nevada",
-                "item": "https://metic.ai/artificial-intelligence-ai-services-in-Nevada/"
+                "item": "https://metic.ai/artificial-intelligence-ai-services-in-nevada/"
               }
             ]
           })
@@ -399,7 +399,7 @@ export default function AIServicesNevadaPage() {
             "@type": "LocalBusiness",
             "name": "Metic.ai - AI Company In Nevada",
             "description": "Leading Artificial Intelligence Company providing AI services in Nevada",
-            "image": "https://metic.ai/ai-company-Nevada.jpg",
+            "image": "https://metic.ai/ai-company-nevada.jpg",
             "telephone": "+1-789-251-8414",
             "email": "hello@matic.ai",
             "address": {
@@ -415,7 +415,7 @@ export default function AIServicesNevadaPage() {
               "latitude": "32.3182",
               "longitude": "-86.9023"
             },
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-Nevada/",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-nevada/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",

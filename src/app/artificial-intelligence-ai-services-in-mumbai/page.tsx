@@ -58,16 +58,16 @@ export const metadata = {
   openGraph: {
     title: "Artificial Intelligence Company In Mumbai | #1 AI Company In Mumbai - Metic.ai",
     description: "Leading Artificial Intelligence Company In Mumbai with 50+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Mumbai businesses.",
-    url: "https://metic.ai/artificial-intelligence-ai-services-in-Mumbai/",
+    url: "https://metic.ai/artificial-intelligence-ai-services-in-mumbai/",
     type: "website",
     locale: "en_US",
     siteName: "Metic.ai - AI Company In Mumbai",
     images: [
       {
-        url: "https://metic.ai/og-ai-company-Mumbai.jpg",
+        url: "https://metic.ai/og-ai-company-mumbai.jpg",
         width: 1200,
         height: 630,
-        alt: "Artificial Intelligence Company In Mumbai - Metic.ai",
+        alt: "Artificial Intelligence Company In mumbai - Metic.ai",
         type: "image/jpeg"
       },
     ],
@@ -76,7 +76,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Artificial Intelligence Company In Mumbai | AI Company In Mumbai",
     description: "Leading AI Company In Mumbai delivering enterprise artificial intelligence solutions. Expert AI development, machine learning & automation services with proven results.",
-    images: ["https://metic.ai/og-ai-company-Mumbai.jpg"],
+    images: ["https://metic.ai/og-ai-company-mumbai.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
@@ -170,14 +170,14 @@ export default function AIServicesMumbaiPage() {
             "name": "Metic.ai - Artificial Intelligence Company In Mumbai",
             "alternateName": ["AI Company In Mumbai", "Metic AI", "AI Firm Mumbai"],
             "description": "Leading Artificial Intelligence Company In Mumbai providing enterprise AI solutions, machine learning development, and custom AI services for businesses across Mumbai.",
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-Mumbai/",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-mumbai/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
               "https://www.facebook.com/meticai"
             ],
             "logo": "https://metic.ai/logo.png",
-            "image": ["https://metic.ai/ai-company-Mumbai.jpg"],
+            "image": ["https://metic.ai/ai-company-mumbai.jpg"],
             "telephone": "+1-789-251-8414",
             "email": "hello@matic.ai",
             "foundingDate": "2020",
@@ -338,7 +338,7 @@ export default function AIServicesMumbaiPage() {
             "@type": "Article",
             "headline": "Artificial Intelligence Company In Mumbai - AI Services & Solutions",
             "description": "Comprehensive guide to AI services in Mumbai by the leading Artificial Intelligence Company. Expert AI development, machine learning solutions, and enterprise AI implementation.",
-            "image": "https://metic.ai/ai-company-Mumbai-article.jpg",
+            "image": "https://metic.ai/ai-company-mumbai-article.jpg",
             "author": {
               "@type": "Organization",
               "name": "Metic.ai"
@@ -353,7 +353,7 @@ export default function AIServicesMumbaiPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-Mumbai/",
+            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-mumbai/",
             "keywords": "Artificial Intelligence Company In Mumbai, AI Company In Mumbai, AI Service In Mumbai"
           })
         }}
@@ -383,7 +383,7 @@ export default function AIServicesMumbaiPage() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Artificial Intelligence Company In Mumbai",
-                "item": "https://metic.ai/artificial-intelligence-ai-services-in-Mumbai/"
+                "item": "https://metic.ai/artificial-intelligence-ai-services-in-mumbai/"
               }
             ]
           })
@@ -399,7 +399,7 @@ export default function AIServicesMumbaiPage() {
             "@type": "LocalBusiness",
             "name": "Metic.ai - AI Company In Mumbai",
             "description": "Leading Artificial Intelligence Company providing AI services in Mumbai",
-            "image": "https://metic.ai/ai-company-Mumbai.jpg",
+            "image": "https://metic.ai/ai-company-mumbai.jpg",
             "telephone": "+1-789-251-8414",
             "email": "hello@matic.ai",
             "address": {
@@ -415,7 +415,7 @@ export default function AIServicesMumbaiPage() {
               "latitude": "32.3182",
               "longitude": "-86.9023"
             },
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-Mumbai/",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-mumbai/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",

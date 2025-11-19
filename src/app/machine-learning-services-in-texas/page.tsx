@@ -58,13 +58,13 @@ export const metadata = {
   openGraph: {
     title: "Machine Learning Company In Texas | #1 ML Company In Texas - Metic.ai",
     description: "Leading Machine Learning Company In Texas with 50+ successful ML implementations. Expert ML services, machine learning solutions & ML Development for Texas businesses.",
-    url: "https://metic.ai/machine-learning-services-in-Texas/",
+    url: "https://metic.ai/machine-learning-services-in-texas/",
     type: "website",
     locale: "en_US",
     siteName: "Metic.ai - ML Company In Texas",
     images: [
       {
-        url: "https://metic.ai/og-ml-company-Texas.jpg",
+        url: "https://metic.ai/og-ml-company-texas.jpg",
         width: 1200,
         height: 630,
         alt: "Machine Learning Company In Texas - Metic.ai",
@@ -76,7 +76,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Machine Learning Company In Texas | ML Company In Texas",
     description: "Leading ML Company In Texas delivering enterprise Machine Learning solutions. Expert ML Development, machine learning & automation services with proven results.",
-    images: ["https://metic.ai/og-ml-company-Texas.jpg"],
+    images: ["https://metic.ai/og-ml-company-texas.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
@@ -172,7 +172,7 @@ export default function MLServicesTexasPage() {
             "name": "Metic.ai - Machine Learning Company In Texas",
             "alternateName": ["ML Company In Texas", "Metic AI", "ML Firm Texas"],
             "description": "Leading Machine Learning Company In Texas providing enterprise ML Solutions, machine learning development, and custom ML services for businesses across Texas.",
-            "url": "https://metic.ai/machine-learning-services-in-Texas/",
+            "url": "https://metic.ai/machine-learning-services-in-texas/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
@@ -355,7 +355,7 @@ export default function MLServicesTexasPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/machine-learning-services-in-Texas/",
+            "mainEntityOfPage": "https://metic.ai/machine-learning-services-in-texas/",
             "keywords": "Machine Learning Company In Texas, ML Company In Texas, ML Service In Texas"
           })
         }}
@@ -385,7 +385,7 @@ export default function MLServicesTexasPage() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Machine Learning Company In Texas",
-                "item": "https://metic.ai/machine-learning-services-in-Texas/"
+                "item": "https://metic.ai/machine-learning-services-in-texas/"
               }
             ]
           })
@@ -417,7 +417,7 @@ export default function MLServicesTexasPage() {
               "latitude": "32.3182",
               "longitude": "-86.9023"
             },
-            "url": "https://metic.ai/machine-learning-services-in-Texas/",
+            "url": "https://metic.ai/machine-learning-services-in-texas/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",

@@ -58,13 +58,13 @@ export const metadata = {
   openGraph: {
     title: "Artificial Intelligence Company In Montana | #1 AI Company In Montana - Metic.ai",
     description: "Leading Artificial Intelligence Company In Montana with 100+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Montana businesses.",
-    url: "https://metic.ai/artificial-intelligence-ai-services-in-Montana/",
+    url: "https://metic.ai/artificial-intelligence-ai-services-in-montana/",
     type: "website",
     locale: "en_US",
     siteName: "Metic.ai - AI Company In Montana",
     images: [
       {
-        url: "https://metic.ai/og-ai-company-Montana.jpg",
+        url: "https://metic.ai/og-ai-company-montana.jpg",
         width: 1200,
         height: 630,
         alt: "Artificial Intelligence Company In Montana - Metic.ai",
@@ -76,7 +76,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Artificial Intelligence Company In Montana | AI Company In Montana",
     description: "Leading AI Company In Montana delivering enterprise artificial intelligence solutions. Expert AI development, machine learning & automation services with proven results.",
-    images: ["https://metic.ai/og-ai-company-Montana.jpg"],
+    images: ["https://metic.ai/og-ai-company-montana.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
@@ -170,14 +170,14 @@ export default function AIServicesMontanaPage() {
             "name": "Metic.ai - Artificial Intelligence Company In Montana",
             "alternateName": ["AI Company In Montana", "Metic AI", "AI Firm Montana"],
             "description": "Leading Artificial Intelligence Company In Montana providing enterprise AI solutions, machine learning development, and custom AI services for businesses across Montana.",
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-Montana/",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-montana/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
               "https://www.facebook.com/meticai"
             ],
             "logo": "https://metic.ai/logo.png",
-            "image": ["https://metic.ai/ai-company-Montana.jpg"],
+            "image": ["https://metic.ai/ai-company-montana.jpg"],
             "telephone": "+1-789-251-8414",
             "email": "hello@matic.ai",
             "foundingDate": "2020",
@@ -338,7 +338,7 @@ export default function AIServicesMontanaPage() {
             "@type": "Article",
             "headline": "Artificial Intelligence Company In Montana - AI Services & Solutions",
             "description": "Comprehensive guide to AI services in Montana by the leading Artificial Intelligence Company. Expert AI development, machine learning solutions, and enterprise AI implementation.",
-            "image": "https://metic.ai/ai-company-Montana-article.jpg",
+            "image": "https://metic.ai/ai-company-montana-article.jpg",
             "author": {
               "@type": "Organization",
               "name": "Metic.ai"
@@ -353,7 +353,7 @@ export default function AIServicesMontanaPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-Montana/",
+            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-montana/",
             "keywords": "Artificial Intelligence Company In Montana, AI Company In Montana, AI Service In Montana"
           })
         }}
@@ -383,7 +383,7 @@ export default function AIServicesMontanaPage() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Artificial Intelligence Company In Montana",
-                "item": "https://metic.ai/artificial-intelligence-ai-services-in-Montana/"
+                "item": "https://metic.ai/artificial-intelligence-ai-services-in-montana/"
               }
             ]
           })
@@ -399,7 +399,7 @@ export default function AIServicesMontanaPage() {
             "@type": "LocalBusiness",
             "name": "Metic.ai - AI Company In Montana",
             "description": "Leading Artificial Intelligence Company providing AI services in Montana",
-            "image": "https://metic.ai/ai-company-Montana.jpg",
+            "image": "https://metic.ai/ai-company-montana.jpg",
             "telephone": "+1-789-251-8414",
             "email": "hello@matic.ai",
             "address": {
@@ -415,7 +415,7 @@ export default function AIServicesMontanaPage() {
               "latitude": "32.3182",
               "longitude": "-86.9023"
             },
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-Montana/",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-montana/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",

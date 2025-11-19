@@ -58,13 +58,13 @@ export const metadata = {
   openGraph: {
     title: "Artificial Intelligence Company In Missouri | #1 AI Company In Missouri - Metic.ai",
     description: "Leading Artificial Intelligence Company In Missouri with 100+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Missouri businesses.",
-    url: "https://metic.ai/artificial-intelligence-ai-services-in-Missouri/",
+    url: "https://metic.ai/artificial-intelligence-ai-services-in-missouri/",
     type: "website",
     locale: "en_US",
     siteName: "Metic.ai - AI Company In Missouri",
     images: [
       {
-        url: "https://metic.ai/og-ai-company-Missouri.jpg",
+        url: "https://metic.ai/og-ai-company-missouri.jpg",
         width: 1200,
         height: 630,
         alt: "Artificial Intelligence Company In Missouri - Metic.ai",
@@ -76,7 +76,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Artificial Intelligence Company In Missouri | AI Company In Missouri",
     description: "Leading AI Company In Missouri delivering enterprise artificial intelligence solutions. Expert AI development, machine learning & automation services with proven results.",
-    images: ["https://metic.ai/og-ai-company-Missouri.jpg"],
+    images: ["https://metic.ai/og-ai-company-missouri.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
@@ -338,7 +338,7 @@ export default function AIServicesMissouriPage() {
             "@type": "Article",
             "headline": "Artificial Intelligence Company In Missouri - AI Services & Solutions",
             "description": "Comprehensive guide to AI services in Missouri by the leading Artificial Intelligence Company. Expert AI development, machine learning solutions, and enterprise AI implementation.",
-            "image": "https://metic.ai/ai-company-Missouri-article.jpg",
+            "image": "https://metic.ai/ai-company-missouri-article.jpg",
             "author": {
               "@type": "Organization",
               "name": "Metic.ai"
@@ -353,7 +353,7 @@ export default function AIServicesMissouriPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-Missouri/",
+            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-missouri/",
             "keywords": "Artificial Intelligence Company In Missouri, AI Company In Missouri, AI Service In Missouri"
           })
         }}
@@ -383,7 +383,7 @@ export default function AIServicesMissouriPage() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Artificial Intelligence Company In Missouri",
-                "item": "https://metic.ai/artificial-intelligence-ai-services-in-Missouri/"
+                "item": "https://metic.ai/artificial-intelligence-ai-services-in-missouri/"
               }
             ]
           })
@@ -399,7 +399,7 @@ export default function AIServicesMissouriPage() {
             "@type": "LocalBusiness",
             "name": "Metic.ai - AI Company In Missouri",
             "description": "Leading Artificial Intelligence Company providing AI services in Missouri",
-            "image": "https://metic.ai/ai-company-Missouri.jpg",
+            "image": "https://metic.ai/ai-company-missouri.jpg",
             "telephone": "+1-789-251-8414",
             "email": "hello@matic.ai",
             "address": {
@@ -415,7 +415,7 @@ export default function AIServicesMissouriPage() {
               "latitude": "32.3182",
               "longitude": "-86.9023"
             },
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-Missouri/",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-missouri/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",

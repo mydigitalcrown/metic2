@@ -58,13 +58,13 @@ export const metadata = {
   openGraph: {
     title: "Machine Learning Company In Ohio | #1 ML Company In Ohio - Metic.ai",
     description: "Leading Machine Learning Company In Ohio with 50+ successful ML implementations. Expert ML services, machine learning solutions & ML Development for Ohio businesses.",
-    url: "https://metic.ai/machine-learning-services-in-Ohio/",
+    url: "https://metic.ai/machine-learning-services-in-ohio/",
     type: "website",
     locale: "en_US",
     siteName: "Metic.ai - ML Company In Ohio",
     images: [
       {
-        url: "https://metic.ai/og-ml-company-Ohio.jpg",
+        url: "https://metic.ai/og-ml-company-ohio.jpg",
         width: 1200,
         height: 630,
         alt: "Machine Learning Company In Ohio - Metic.ai",
@@ -76,7 +76,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Machine Learning Company In Ohio | ML Company In Ohio",
     description: "Leading ML Company In Ohio delivering enterprise Machine Learning solutions. Expert ML Development, machine learning & automation services with proven results.",
-    images: ["https://metic.ai/og-ml-company-Ohio.jpg"],
+    images: ["https://metic.ai/og-ml-company-ohio.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
@@ -172,7 +172,7 @@ export default function MLServicesOhioPage() {
             "name": "Metic.ai - Machine Learning Company In Ohio",
             "alternateName": ["ML Company In Ohio", "Metic AI", "ML Firm Ohio"],
             "description": "Leading Machine Learning Company In Ohio providing enterprise ML Solutions, machine learning development, and custom ML services for businesses across Ohio.",
-            "url": "https://metic.ai/machine-learning-services-in-Ohio/",
+            "url": "https://metic.ai/machine-learning-services-in-ohio/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
@@ -355,7 +355,7 @@ export default function MLServicesOhioPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/machine-learning-services-in-Ohio/",
+            "mainEntityOfPage": "https://metic.ai/machine-learning-services-in-ohio/",
             "keywords": "Machine Learning Company In Ohio, ML Company In Ohio, ML Service In Ohio"
           })
         }}
@@ -385,7 +385,7 @@ export default function MLServicesOhioPage() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Machine Learning Company In Ohio",
-                "item": "https://metic.ai/machine-learning-services-in-Ohio/"
+                "item": "https://metic.ai/machine-learning-services-in-ohio/"
               }
             ]
           })
@@ -417,7 +417,7 @@ export default function MLServicesOhioPage() {
               "latitude": "32.3182",
               "longitude": "-86.9023"
             },
-            "url": "https://metic.ai/machine-learning-services-in-Ohio/",
+            "url": "https://metic.ai/machine-learning-services-in-ohio/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",

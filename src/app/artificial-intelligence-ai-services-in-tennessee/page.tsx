@@ -58,13 +58,13 @@ export const metadata = {
   openGraph: {
     title: "Artificial Intelligence Company In Tennessee | #1 AI Company In Tennessee - Metic.ai",
     description: "Leading Artificial Intelligence Company In Tennessee with 50+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Tennessee businesses.",
-    url: "https://metic.ai/artificial-intelligence-ai-services-in-Tennessee/",
+    url: "https://metic.ai/artificial-intelligence-ai-services-in-tennessee/",
     type: "website",
     locale: "en_US",
     siteName: "Metic.ai - AI Company In Tennessee",
     images: [
       {
-        url: "https://metic.ai/og-ai-company-Tennessee.jpg",
+        url: "https://metic.ai/og-ai-company-tennessee.jpg",
         width: 1200,
         height: 630,
         alt: "Artificial Intelligence Company In Tennessee - Metic.ai",
@@ -76,7 +76,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Artificial Intelligence Company In Tennessee | AI Company In Tennessee",
     description: "Leading AI Company In Tennessee delivering enterprise artificial intelligence solutions. Expert AI development, machine learning & automation services with proven results.",
-    images: ["https://metic.ai/og-ai-company-Tennessee.jpg"],
+    images: ["https://metic.ai/og-ai-company-tennessee.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
@@ -170,7 +170,7 @@ export default function AIServicesTennesseePage() {
             "name": "Metic.ai - Artificial Intelligence Company In Tennessee",
             "alternateName": ["AI Company In Tennessee", "Metic AI", "AI Firm Tennessee"],
             "description": "Leading Artificial Intelligence Company In Tennessee providing enterprise AI solutions, machine learning development, and custom AI services for businesses across Tennessee.",
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-Tennessee/",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-tennessee/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
@@ -353,7 +353,7 @@ export default function AIServicesTennesseePage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-Tennessee/",
+            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-tennessee/",
             "keywords": "Artificial Intelligence Company In Tennessee, AI Company In Tennessee, AI Service In Tennessee"
           })
         }}
@@ -383,7 +383,7 @@ export default function AIServicesTennesseePage() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Artificial Intelligence Company In Tennessee",
-                "item": "https://metic.ai/artificial-intelligence-ai-services-in-Tennessee/"
+                "item": "https://metic.ai/artificial-intelligence-ai-services-in-tennessee/"
               }
             ]
           })
@@ -415,7 +415,7 @@ export default function AIServicesTennesseePage() {
               "latitude": "32.3182",
               "longitude": "-86.9023"
             },
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-Tennessee/",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-tennessee/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",

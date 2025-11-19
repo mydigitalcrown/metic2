@@ -58,13 +58,13 @@ export const metadata = {
   openGraph: {
     title: "Machine Learning Company In Tennessee | #1 ML Company In Tennessee - Metic.ai",
     description: "Leading Machine Learning Company In Tennessee with 50+ successful ML implementations. Expert ML services, machine learning solutions & ML Development for Tennessee businesses.",
-    url: "https://metic.ai/machine-learning-services-in-Tennessee/",
+    url: "https://metic.ai/machine-learning-services-in-tennessee/",
     type: "website",
     locale: "en_US",
     siteName: "Metic.ai - ML Company In Tennessee",
     images: [
       {
-        url: "https://metic.ai/og-ml-company-Tennessee.jpg",
+        url: "https://metic.ai/og-ml-company-tennessee.jpg",
         width: 1200,
         height: 630,
         alt: "Machine Learning Company In Tennessee - Metic.ai",
@@ -76,7 +76,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Machine Learning Company In Tennessee | ML Company In Tennessee",
     description: "Leading ML Company In Tennessee delivering enterprise Machine Learning solutions. Expert ML Development, machine learning & automation services with proven results.",
-    images: ["https://metic.ai/og-ml-company-Tennessee.jpg"],
+    images: ["https://metic.ai/og-ml-company-tennessee.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
@@ -172,7 +172,7 @@ export default function MLServicesTennesseePage() {
             "name": "Metic.ai - Machine Learning Company In Tennessee",
             "alternateName": ["ML Company In Tennessee", "Metic AI", "ML Firm Tennessee"],
             "description": "Leading Machine Learning Company In Tennessee providing enterprise ML Solutions, machine learning development, and custom ML services for businesses across Tennessee.",
-            "url": "https://metic.ai/machine-learning-services-in-Tennessee/",
+            "url": "https://metic.ai/machine-learning-services-in-tennessee/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
@@ -355,7 +355,7 @@ export default function MLServicesTennesseePage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/machine-learning-services-in-Tennessee/",
+            "mainEntityOfPage": "https://metic.ai/machine-learning-services-in-tennessee/",
             "keywords": "Machine Learning Company In Tennessee, ML Company In Tennessee, ML Service In Tennessee"
           })
         }}
@@ -385,7 +385,7 @@ export default function MLServicesTennesseePage() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Machine Learning Company In Tennessee",
-                "item": "https://metic.ai/machine-learning-services-in-Tennessee/"
+                "item": "https://metic.ai/machine-learning-services-in-tennessee/"
               }
             ]
           })
@@ -417,7 +417,7 @@ export default function MLServicesTennesseePage() {
               "latitude": "32.3182",
               "longitude": "-86.9023"
             },
-            "url": "https://metic.ai/machine-learning-services-in-Tennessee/",
+            "url": "https://metic.ai/machine-learning-services-in-tennessee/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",

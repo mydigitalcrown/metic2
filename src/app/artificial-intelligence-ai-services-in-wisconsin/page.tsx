@@ -58,13 +58,13 @@ export const metadata = {
   openGraph: {
     title: "Artificial Intelligence Company In Wisconsin | #1 AI Company In Wisconsin - Metic.ai",
     description: "Leading Artificial Intelligence Company In Wisconsin with 50+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Wisconsin businesses.",
-    url: "https://metic.ai/artificial-intelligence-ai-services-in-Wisconsin/",
+    url: "https://metic.ai/artificial-intelligence-ai-services-in-wisconsin/",
     type: "website",
     locale: "en_US",
     siteName: "Metic.ai - AI Company In Wisconsin",
     images: [
       {
-        url: "https://metic.ai/og-ai-company-Wisconsin.jpg",
+        url: "https://metic.ai/og-ai-company-wisconsin.jpg",
         width: 1200,
         height: 630,
         alt: "Artificial Intelligence Company In Wisconsin - Metic.ai",
@@ -76,7 +76,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Artificial Intelligence Company In Wisconsin | AI Company In Wisconsin",
     description: "Leading AI Company In Wisconsin delivering enterprise artificial intelligence solutions. Expert AI development, machine learning & automation services with proven results.",
-    images: ["https://metic.ai/og-ai-company-Wisconsin.jpg"],
+    images: ["https://metic.ai/og-ai-company-wisconsin.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
@@ -170,7 +170,7 @@ export default function AIServicesWisconsinPage() {
             "name": "Metic.ai - Artificial Intelligence Company In Wisconsin",
             "alternateName": ["AI Company In Wisconsin", "Metic AI", "AI Firm Wisconsin"],
             "description": "Leading Artificial Intelligence Company In Wisconsin providing enterprise AI solutions, machine learning development, and custom AI services for businesses across Wisconsin.",
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-Wisconsin/",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-wisconsin/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
@@ -353,7 +353,7 @@ export default function AIServicesWisconsinPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-Wisconsin/",
+            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-wisconsin/",
             "keywords": "Artificial Intelligence Company In Wisconsin, AI Company In Wisconsin, AI Service In Wisconsin"
           })
         }}
@@ -383,7 +383,7 @@ export default function AIServicesWisconsinPage() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Artificial Intelligence Company In Wisconsin",
-                "item": "https://metic.ai/artificial-intelligence-ai-services-in-Wisconsin/"
+                "item": "https://metic.ai/artificial-intelligence-ai-services-in-wisconsin/"
               }
             ]
           })
@@ -415,7 +415,7 @@ export default function AIServicesWisconsinPage() {
               "latitude": "32.3182",
               "longitude": "-86.9023"
             },
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-Wisconsin/",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-wisconsin/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",

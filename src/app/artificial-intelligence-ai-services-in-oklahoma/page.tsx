@@ -58,13 +58,13 @@ export const metadata = {
   openGraph: {
     title: "Artificial Intelligence Company In Oklahoma | #1 AI Company In Oklahoma - Metic.ai",
     description: "Leading Artificial Intelligence Company In Oklahoma with 50+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Oklahoma businesses.",
-    url: "https://metic.ai/artificial-intelligence-ai-services-in-Oklahoma/",
+    url: "https://metic.ai/artificial-intelligence-ai-services-in-oklahoma/",
     type: "website",
     locale: "en_US",
     siteName: "Metic.ai - AI Company In Oklahoma",
     images: [
       {
-        url: "https://metic.ai/og-ai-company-Oklahoma.jpg",
+        url: "https://metic.ai/og-ai-company-oklahoma.jpg",
         width: 1200,
         height: 630,
         alt: "Artificial Intelligence Company In Oklahoma - Metic.ai",
@@ -76,7 +76,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Artificial Intelligence Company In Oklahoma | AI Company In Oklahoma",
     description: "Leading AI Company In Oklahoma delivering enterprise artificial intelligence solutions. Expert AI development, machine learning & automation services with proven results.",
-    images: ["https://metic.ai/og-ai-company-Oklahoma.jpg"],
+    images: ["https://metic.ai/og-ai-company-oklahoma.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
@@ -170,7 +170,7 @@ export default function AIServicesOklahomaPage() {
             "name": "Metic.ai - Artificial Intelligence Company In Oklahoma",
             "alternateName": ["AI Company In Oklahoma", "Metic AI", "AI Firm Oklahoma"],
             "description": "Leading Artificial Intelligence Company In Oklahoma providing enterprise AI solutions, machine learning development, and custom AI services for businesses across Oklahoma.",
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-Oklahoma/",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-oklahoma/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
@@ -353,7 +353,7 @@ export default function AIServicesOklahomaPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-Oklahoma/",
+            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-oklahoma/",
             "keywords": "Artificial Intelligence Company In Oklahoma, AI Company In Oklahoma, AI Service In Oklahoma"
           })
         }}
@@ -383,7 +383,7 @@ export default function AIServicesOklahomaPage() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Artificial Intelligence Company In Oklahoma",
-                "item": "https://metic.ai/artificial-intelligence-ai-services-in-Oklahoma/"
+                "item": "https://metic.ai/artificial-intelligence-ai-services-in-oklahoma/"
               }
             ]
           })
@@ -415,7 +415,7 @@ export default function AIServicesOklahomaPage() {
               "latitude": "32.3182",
               "longitude": "-86.9023"
             },
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-Oklahoma/",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-oklahoma/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",

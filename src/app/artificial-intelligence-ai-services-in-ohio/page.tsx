@@ -58,13 +58,13 @@ export const metadata = {
   openGraph: {
     title: "Artificial Intelligence Company In Ohio | #1 AI Company In Ohio - Metic.ai",
     description: "Leading Artificial Intelligence Company In Ohio with 50+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Ohio businesses.",
-    url: "https://metic.ai/artificial-intelligence-ai-services-in-Ohio/",
+    url: "https://metic.ai/artificial-intelligence-ai-services-in-ohio/",
     type: "website",
     locale: "en_US",
     siteName: "Metic.ai - AI Company In Ohio",
     images: [
       {
-        url: "https://metic.ai/og-ai-company-Ohio.jpg",
+        url: "https://metic.ai/og-ai-company-ohio.jpg",
         width: 1200,
         height: 630,
         alt: "Artificial Intelligence Company In Ohio - Metic.ai",
@@ -76,7 +76,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Artificial Intelligence Company In Ohio | AI Company In Ohio",
     description: "Leading AI Company In Ohio delivering enterprise artificial intelligence solutions. Expert AI development, machine learning & automation services with proven results.",
-    images: ["https://metic.ai/og-ai-company-Ohio.jpg"],
+    images: ["https://metic.ai/og-ai-company-ohio.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
@@ -170,7 +170,7 @@ export default function AIServicesOhioPage() {
             "name": "Metic.ai - Artificial Intelligence Company In Ohio",
             "alternateName": ["AI Company In Ohio", "Metic AI", "AI Firm Ohio"],
             "description": "Leading Artificial Intelligence Company In Ohio providing enterprise AI solutions, machine learning development, and custom AI services for businesses across Ohio.",
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-Ohio/",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-ohio/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
@@ -353,7 +353,7 @@ export default function AIServicesOhioPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-Ohio/",
+            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-ohio/",
             "keywords": "Artificial Intelligence Company In Ohio, AI Company In Ohio, AI Service In Ohio"
           })
         }}
@@ -383,7 +383,7 @@ export default function AIServicesOhioPage() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Artificial Intelligence Company In Ohio",
-                "item": "https://metic.ai/artificial-intelligence-ai-services-in-Ohio/"
+                "item": "https://metic.ai/artificial-intelligence-ai-services-in-ohio/"
               }
             ]
           })
@@ -415,7 +415,7 @@ export default function AIServicesOhioPage() {
               "latitude": "32.3182",
               "longitude": "-86.9023"
             },
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-Ohio/",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-ohio/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",

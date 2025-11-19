@@ -58,13 +58,13 @@ export const metadata = {
   openGraph: {
     title: "Artificial Intelligence Company In Oregon | #1 AI Company In Oregon - Metic.ai",
     description: "Leading Artificial Intelligence Company In Oregon with 50+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Oregon businesses.",
-    url: "https://metic.ai/artificial-intelligence-ai-services-in-Oregon/",
+    url: "https://metic.ai/artificial-intelligence-ai-services-in-oregon/",
     type: "website",
     locale: "en_US",
     siteName: "Metic.ai - AI Company In Oregon",
     images: [
       {
-        url: "https://metic.ai/og-ai-company-Oregon.jpg",
+        url: "https://metic.ai/og-ai-company-oregon.jpg",
         width: 1200,
         height: 630,
         alt: "Artificial Intelligence Company In Oregon - Metic.ai",
@@ -76,7 +76,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Artificial Intelligence Company In Oregon | AI Company In Oregon",
     description: "Leading AI Company In Oregon delivering enterprise artificial intelligence solutions. Expert AI development, machine learning & automation services with proven results.",
-    images: ["https://metic.ai/og-ai-company-Oregon.jpg"],
+    images: ["https://metic.ai/og-ai-company-oregon.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
@@ -170,7 +170,7 @@ export default function AIServicesOregonPage() {
             "name": "Metic.ai - Artificial Intelligence Company In Oregon",
             "alternateName": ["AI Company In Oregon", "Metic AI", "AI Firm Oregon"],
             "description": "Leading Artificial Intelligence Company In Oregon providing enterprise AI solutions, machine learning development, and custom AI services for businesses across Oregon.",
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-Oregon/",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-oregon/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
@@ -353,7 +353,7 @@ export default function AIServicesOregonPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-Oregon/",
+            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-oregon/",
             "keywords": "Artificial Intelligence Company In Oregon, AI Company In Oregon, AI Service In Oregon"
           })
         }}
@@ -383,7 +383,7 @@ export default function AIServicesOregonPage() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Artificial Intelligence Company In Oregon",
-                "item": "https://metic.ai/artificial-intelligence-ai-services-in-Oregon/"
+                "item": "https://metic.ai/artificial-intelligence-ai-services-in-oregon/"
               }
             ]
           })
@@ -415,7 +415,7 @@ export default function AIServicesOregonPage() {
               "latitude": "32.3182",
               "longitude": "-86.9023"
             },
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-Oregon/",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-oregon/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",

@@ -58,13 +58,13 @@ export const metadata = {
   openGraph: {
     title: "Artificial Intelligence Company In Texas | #1 AI Company In Texas - Metic.ai",
     description: "Leading Artificial Intelligence Company In Texas with 50+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Texas businesses.",
-    url: "https://metic.ai/artificial-intelligence-ai-services-in-Texas/",
+    url: "https://metic.ai/artificial-intelligence-ai-services-in-texas/",
     type: "website",
     locale: "en_IN",
     siteName: "Metic.ai - AI Company In Texas",
     images: [
       {
-        url: "https://metic.ai/og-ai-company-Texas.jpg",
+        url: "https://metic.ai/og-ai-company-texas.jpg",
         width: 1200,
         height: 630,
         alt: "Artificial Intelligence Company In Texas - Metic.ai",
@@ -76,7 +76,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Artificial Intelligence Company In Texas | AI Company In Texas",
     description: "Leading AI Company In Texas delivering enterprise artificial intelligence solutions. Expert AI development, machine learning & automation services with proven results.",
-    images: ["https://metic.ai/og-ai-company-Texas.jpg"],
+    images: ["https://metic.ai/og-ai-company-texas.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
@@ -172,7 +172,7 @@ export default function AIServicesTexasPage() {
             "name": "Metic.ai - Artificial Intelligence Company In Texas",
             "alternateName": ["AI Company In Texas", "Metic AI", "AI Firm Texas"],
             "description": "Leading Artificial Intelligence Company In Texas providing enterprise AI solutions, machine learning development, and custom AI services for businesses across Texas.",
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-Texas/",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-texas/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
@@ -355,7 +355,7 @@ export default function AIServicesTexasPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-Texas/",
+            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-texas/",
             "keywords": "Artificial Intelligence Company In Texas, AI Company In Texas, AI Service In Texas"
           })
         }}
@@ -385,7 +385,7 @@ export default function AIServicesTexasPage() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Artificial Intelligence Company In Texas",
-                "item": "https://metic.ai/artificial-intelligence-ai-services-in-Texas/"
+                "item": "https://metic.ai/artificial-intelligence-ai-services-in-texas/"
               }
             ]
           })
@@ -417,7 +417,7 @@ export default function AIServicesTexasPage() {
               "latitude": "32.3182",
               "longitude": "-86.9023"
             },
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-Texas/",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-texas/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",

@@ -58,13 +58,13 @@ export const metadata = {
   openGraph: {
     title: "Artificial Intelligence Company In Nebraska | #1 AI Company In Nebraska - Metic.ai",
     description: "Leading Artificial Intelligence Company In Nebraska with 50+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Nebraska businesses.",
-    url: "https://metic.ai/artificial-intelligence-ai-services-in-Nebraska/",
+    url: "https://metic.ai/artificial-intelligence-ai-services-in-nebraska/",
     type: "website",
     locale: "en_US",
     siteName: "Metic.ai - AI Company In Nebraska",
     images: [
       {
-        url: "https://metic.ai/og-ai-company-Nebraska.jpg",
+        url: "https://metic.ai/og-ai-company-nebraska.jpg",
         width: 1200,
         height: 630,
         alt: "Artificial Intelligence Company In Nebraska - Metic.ai",
@@ -76,7 +76,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Artificial Intelligence Company In Nebraska | AI Company In Nebraska",
     description: "Leading AI Company In Nebraska delivering enterprise artificial intelligence solutions. Expert AI development, machine learning & automation services with proven results.",
-    images: ["https://metic.ai/og-ai-company-Nebraska.jpg"],
+    images: ["https://metic.ai/og-ai-company-nebraska.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
   },
@@ -177,7 +177,7 @@ export default function AIServicesNebraskaPage() {
               "https://www.facebook.com/meticai"
             ],
             "logo": "https://metic.ai/logo.png",
-            "image": ["https://metic.ai/ai-company-Nebraska.jpg"],
+            "image": ["https://metic.ai/ai-company-nebraska.jpg"],
             "telephone": "+1-789-251-8414",
             "email": "hello@matic.ai",
             "foundingDate": "2020",
@@ -338,7 +338,7 @@ export default function AIServicesNebraskaPage() {
             "@type": "Article",
             "headline": "Artificial Intelligence Company In Nebraska - AI Services & Solutions",
             "description": "Comprehensive guide to AI services in Nebraska by the leading Artificial Intelligence Company. Expert AI development, machine learning solutions, and enterprise AI implementation.",
-            "image": "https://metic.ai/ai-company-Nebraska-article.jpg",
+            "image": "https://metic.ai/ai-company-nebraska-article.jpg",
             "author": {
               "@type": "Organization",
               "name": "Metic.ai"
@@ -353,7 +353,7 @@ export default function AIServicesNebraskaPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-Nebraska/",
+            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-nebraska/",
             "keywords": "Artificial Intelligence Company In Nebraska, AI Company In Nebraska, AI Service In Nebraska"
           })
         }}
@@ -383,7 +383,7 @@ export default function AIServicesNebraskaPage() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Artificial Intelligence Company In Nebraska",
-                "item": "https://metic.ai/artificial-intelligence-ai-services-in-Nebraska/"
+                "item": "https://metic.ai/artificial-intelligence-ai-services-in-nebraska/"
               }
             ]
           })
@@ -399,7 +399,7 @@ export default function AIServicesNebraskaPage() {
             "@type": "LocalBusiness",
             "name": "Metic.ai - AI Company In Nebraska",
             "description": "Leading Artificial Intelligence Company providing AI services in Nebraska",
-            "image": "https://metic.ai/ai-company-Nebraska.jpg",
+            "image": "https://metic.ai/ai-company-nebraska.jpg",
             "telephone": "+1-789-251-8414",
             "email": "hello@matic.ai",
             "address": {
@@ -415,7 +415,7 @@ export default function AIServicesNebraskaPage() {
               "latitude": "32.3182",
               "longitude": "-86.9023"
             },
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-Nebraska/",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-nebraska/",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "State",
