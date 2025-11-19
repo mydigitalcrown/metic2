@@ -27,7 +27,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Artificial Intelligence Company In Ahmedabad | #1 AI Company In Ahmedabad - Metic.ai",
+  title: "#1 AI Company In Ahmedabad | AI Services - Metic.ai",
   description: "Leading Artificial Intelligence Company In Ahmedabad with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
   keywords: [
     "Artificial Intelligence Company In Ahmedabad",

@@ -27,7 +27,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Company In North Carolina | #1 Artificial Intelligence Company In North Carolina",
+  title: "#1 AI Company In North Carolina | AI Services",
   description: "Leading AI Company In North Carolina with 50+ successful AI projects. Expert Artificial Intelligence development, machine learning & automation services. 60% cost savings, 3x faster delivery. Call +1-789-251-8414",
   keywords: [
     "Artificial Intelligence Company In North Carolina",

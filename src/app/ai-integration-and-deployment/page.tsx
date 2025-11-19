@@ -48,7 +48,7 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "AI Integration and Development Services Near Me | #1 Local AI Company - Metic.ai",
+  title: "AI Integration Services Near Me | #1 AI - Metic.ai",
   description: "Looking for AI Integration and development services near me? Metic.ai delivers enterprise-grade AI integration with 99% uptime, 200+ successful deployments. Local AI experts for seamless integration, deployment & scaling.",
   keywords: [
     "AI Integration and development services near me",
@@ -78,7 +78,7 @@ export const metadata: Metadata = {
     "AI solution architecture"
   ],
   openGraph: {
-    title: "AI Integration and Development Services Near Me | #1 Local AI Company - Metic.ai",
+    title: "AI Integration Services Near Me | #1 AI - Metic.ai",
     description: "Looking for AI Integration and development services near me? Enterprise-grade AI integration with 99% uptime and 200+ successful deployments.",
     type: "website",
     url: "https://metic.ai/ai-integration-and-deployment/",
@@ -92,7 +92,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Integration and Development Services Near Me | #1 Local AI Company - Metic.ai", 
+    title: "AI Integration Services Near Me | #1 AI - Metic.ai", 
     description: "Looking for AI Integration and development services near me? Enterprise-grade AI integration with 99% uptime and 200+ successful deployments.",
     images: ["https://metic.ai/og-ai-integration.jpg"]
   },

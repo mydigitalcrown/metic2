@@ -27,7 +27,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Artificial Intelligence Company In Colorado | #1 AI Company In Colorado - Metic.ai",
+  title: "#1 AI Company In Colorado | AI Services - Metic.ai",
   description: "Leading Artificial Intelligence Company In Colorado with 250+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
   keywords: [
     "Artificial Intelligence Company In Colorado",
@@ -56,7 +56,7 @@ export const metadata = {
   authors: [{ name: "Metic.ai Colorado AI Team" }],
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
-    title: "Artificial Intelligence Company In Colorado | #1 AI Company In Colorado - Metic.ai",
+    title: "#1 AI Company In Colorado | AI Services - Metic.ai",
     description: "Leading Artificial Intelligence Company In Colorado with 250+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Colorado businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-Colorado/",
     type: "website",

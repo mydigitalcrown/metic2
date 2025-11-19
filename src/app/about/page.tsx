@@ -35,7 +35,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "About Metic AI | Leading Artificial Intelligence Company - Our Story & Mission",
+  title: "About Metic AI | Leading AI Company - Our Story",
   description: "Discover Metic AI's journey as a leading artificial intelligence company. Learn about our mission to democratize AI, our expert team, core values, and 2100+ successful AI implementations worldwide. Founded by AI researchers committed to transforming businesses globally.",
   keywords: [
     "About Metic AI",
@@ -74,7 +74,7 @@ export const metadata = {
     },
   },
   openGraph: {
-    title: "About Metic AI | Leading Artificial Intelligence Company - Our Story & Mission",
+    title: "About Metic AI | Leading AI Company - Our Story",
     description: "Discover Metic AI's journey as a leading artificial intelligence company. Expert team, proven results, and commitment to AI innovation.",
     url: "https://metic.ai/about/",
     siteName: "Metic.ai - About Our AI Company",
