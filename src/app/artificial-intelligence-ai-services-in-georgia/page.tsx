@@ -23,7 +23,9 @@ import {
   Database,
   Sparkles,
   ChevronDown,
-  Rocket
+  Rocket,
+  Film,
+  Package
 } from "lucide-react";
 
 export const metadata = {
