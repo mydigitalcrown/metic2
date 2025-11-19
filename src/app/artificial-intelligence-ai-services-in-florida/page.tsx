@@ -58,13 +58,13 @@ export const metadata = {
   openGraph: {
     title: "Artificial Intelligence Company In Florida | #1 AI Company In Florida - Metic.ai",
     description: "Leading Artificial Intelligence Company In Florida with 700+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Florida businesses.",
-    url: "https://metic.ai/artificial-intelligence-ai-services-in-Florida/",
+    url: "https://metic.ai/artificial-intelligence-ai-services-in-florida/",
     type: "website",
     locale: "en_US",
     siteName: "Metic.ai - AI Company In Florida",
     images: [
       {
-        url: "https://metic.ai/og-ai-company-Florida.jpg",
+        url: "https://metic.ai/og-ai-company-florida.jpg",
         width: 1200,
         height: 630,
         alt: "Artificial Intelligence Company In Florida - Metic.ai",
@@ -172,7 +172,7 @@ export default function AIServicesFloridaPage() {
             "name": "Metic.ai - Artificial Intelligence Company In Florida",
             "alternateName": ["AI Company In Florida", "Metic AI", "AI Firm Florida"],
             "description": "Leading Artificial Intelligence Company In Florida providing enterprise AI solutions, machine learning development, and custom AI services for businesses across Florida.",
-            "url": "https://metic.ai/artificial-intelligence-ai-services-in-Florida/",
+            "url": "https://metic.ai/artificial-intelligence-ai-services-in-florida/",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai",
@@ -340,7 +340,7 @@ export default function AIServicesFloridaPage() {
             "@type": "Article",
             "headline": "Artificial Intelligence Company In Florida - AI Services & Solutions",
             "description": "Comprehensive guide to AI services In Florida by the leading Artificial Intelligence Company. Expert AI development, machine learning solutions, and enterprise AI implementation.",
-            "image": "https://metic.ai/ai-company-Florida-article.jpg",
+            "image": "https://metic.ai/ai-company-florida-article.jpg",
             "author": {
               "@type": "Organization",
               "name": "Metic.ai"
@@ -355,7 +355,7 @@ export default function AIServicesFloridaPage() {
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-10-30",
-            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-Florida/",
+            "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-florida/",
             "keywords": "Artificial Intelligence Company In Florida, AI Company In Florida, AI Service In Florida"
           })
         }}
@@ -385,7 +385,7 @@ export default function AIServicesFloridaPage() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Artificial Intelligence Company In Florida",
-                "item": "https://metic.ai/artificial-intelligence-ai-services-in-Florida/"
+                "item": "https://metic.ai/artificial-intelligence-ai-services-in-florida/"
               }
             ]
           })
@@ -401,7 +401,7 @@ export default function AIServicesFloridaPage() {
             "@type": "LocalBusiness",
             "name": "Metic.ai - AI Company In Florida",
             "description": "Leading Artificial Intelligence Company providing AI services In Florida",
-            "image": "https://metic.ai/ai-company-Florida.jpg",
+            "image": "https://metic.ai/ai-company-florida.jpg",
             "telephone": "+91-789-251-8414",
             "email": "hello@matic.ai",
             "address": {

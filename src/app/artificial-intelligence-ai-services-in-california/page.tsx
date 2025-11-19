@@ -154,7 +154,7 @@ export default function AIServicesCaliforniaPage() {
   const stats = [
     { number: "500+", label: "CA Businesses Served" },
     { number: "98%", label: "Client Satisfaction" },
-    { number: "4.1x", label: "Average ROI Increase" },
+    { number: "4.5x", label: "Average ROI Increase" },
     { number: "24/7", label: "Support Available" }
   ];
 
@@ -187,12 +187,12 @@ export default function AIServicesCaliforniaPage() {
               "@type": "PostalAddress",
               "addressRegion": "California",
               "addressCountry": "US",
-              "postalCode": "35201"
+              "postalCode": "90001"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "32.7794",
-              "longitude": "-86.8287"
+              "latitude": "36.7783",
+              "longitude": "-119.4179"
             },
             "areaServed": [
               {
@@ -208,10 +208,10 @@ export default function AIServicesCaliforniaPage() {
               "@type": "GeoCircle",
               "geoMidpoint": {
                 "@type": "GeoCoordinates",
-                "latitude": "32.7794",
-                "longitude": "-86.8287"
+                "latitude": "36.7783",
+                "longitude": "-119.4179"
               },
-              "geoRadius": "200000"
+              "geoRadius": "500000"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
@@ -321,7 +321,7 @@ export default function AIServicesCaliforniaPage() {
                 "name": "What makes Metic.ai the best AI Firm In California?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Metic.ai is the best AI Firm In California due to our proven expertise, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of California's technology, entertainment, agriculture, biotech, and fintech industries."
+                  "text": "Metic.ai is the best AI Firm In California due to our proven expertise, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of California's manufacturing, aerospace, healthcare and agricultural industries."
                 }
               }
             ]
@@ -934,7 +934,7 @@ export default function AIServicesCaliforniaPage() {
                   <TrendingUp className="w-8 h-8 text-green-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Measurable Results</h3>
-                <p className="text-gray-600">Data-driven AI solutions that deliver concrete ROI and business growth for California companies.</p>
+                <p className="text-gray-600">Data-driven AI solutions that deliver concrete ROI and business growth for AL companies.</p>
               </div>
               
               <div className="text-center">
@@ -978,7 +978,7 @@ export default function AIServicesCaliforniaPage() {
               </h2>
               <div className="w-40 h-2 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-10 rounded-full shadow-lg"></div>
               <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                Transforming the Golden State with cutting-edge AI solutions from Silicon Valley to Los Angeles, San Francisco to San Diego
+                Transforming the Golden State with cutting-edge AI solutions from Los Angeles to San Francisco, San Diego to Sacramento
               </p>
             </div>
 
@@ -1003,15 +1003,15 @@ export default function AIServicesCaliforniaPage() {
                     <p className="text-lg text-gray-700 leading-relaxed">
                       As the leading <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Artificial Intelligence Company In California</strong>, 
                       Metic.ai serves the Golden State with enterprise-grade AI solutions tailored to California's diverse economic 
-                      landscape. From Silicon Valley's tech giants to Los Angeles' entertainment industry, San Francisco's fintech corridor to 
-                      San Diego's biotech sector, we understand California's unique position as America's innovation capital.
+                      landscape. From Silicon Valley's tech ecosystem to Los Angeles' entertainment industry, San Diego's biotech sector to 
+                      San Francisco's financial district, we understand California's innovation leadership and entrepreneurial spirit.
                     </p>
                     
                     <p className="text-lg text-gray-700 leading-relaxed">
                       Our <strong className="text-primary-orange font-semibold">AI Company In California</strong> combines deep understanding 
-                      of California's entrepreneurial culture with cutting-edge technology to deliver AI solutions that drive measurable 
+                      of West Coast innovation culture with cutting-edge technology to deliver AI solutions that drive measurable 
                       results. We've successfully implemented AI across California's key sectors including technology, entertainment, 
-                      agriculture, healthcare, finance, and emerging clean energy industries.
+                      biotechnology, agriculture, aerospace, and renewable energy industries.
                     </p>
 
                     {/* Enhanced Feature Cards with Creative Design */}
@@ -1022,10 +1022,10 @@ export default function AIServicesCaliforniaPage() {
                             <Rocket className="w-6 h-6 text-white" />
                           </div>
                           <div>
-                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Technology & Innovation Hub</h4>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Silicon Valley Tech Innovation</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Deep expertise with Silicon Valley's tech ecosystem including Fortune 500 companies, 
-                              startups, venture capital firms, and research institutions driving global innovation.
+                              Deep expertise with California's world-leading technology sector including AI startups, enterprise software, 
+                              cloud computing, and emerging tech companies driving global innovation from Silicon Valley.
                             </p>
                           </div>
                         </div>
@@ -1039,8 +1039,8 @@ export default function AIServicesCaliforniaPage() {
                           <div>
                             <h4 className="font-bold text-gray-900 mb-2 text-lg">Entertainment & Media AI</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Advanced AI solutions for California's entertainment industry including Hollywood studios, 
-                              streaming platforms, gaming companies, and content creation with generative AI and automation.
+                              Advanced AI solutions for California's entertainment industry including Hollywood studios, streaming platforms, 
+                              gaming companies, and content creation with generative AI and predictive analytics.
                             </p>
                           </div>
                         </div>
@@ -1052,10 +1052,10 @@ export default function AIServicesCaliforniaPage() {
                             <Target className="w-6 h-6 text-white" />
                           </div>
                           <div>
-                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Agriculture & Sustainability AI</h4>
+                            <h4 className="font-bold text-gray-900 mb-2 text-lg">Biotech & Healthcare AI</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Specialized AI for California's Central Valley agriculture including precision farming, 
-                              water management, crop optimization, and sustainable resource allocation for world's food supply.
+                              Specialized AI for California's biotechnology and healthcare sector including drug discovery, 
+                              precision medicine, clinical research, and medical device innovation for San Diego's biotech hub.
                             </p>
                           </div>
                         </div>
@@ -1085,7 +1085,7 @@ export default function AIServicesCaliforniaPage() {
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">500+</div>
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">2100+</div>
                         <div className="text-sm text-gray-600 font-medium">California AI Projects Completed</div>
                         <div className="text-xs text-gray-500 mt-2">Industry-Leading Success Rate</div>
                       </div>
@@ -1098,8 +1098,8 @@ export default function AIServicesCaliforniaPage() {
                           <span className="font-bold text-gray-900">California Advantage</span>
                         </div>
                         <p className="text-sm text-gray-700 leading-relaxed">
-                          <strong>Innovation Capital:</strong> Silicon Valley's tech ecosystem with unparalleled access to 
-                          venture capital, talent, and cutting-edge AI infrastructure driving global innovation.
+                          <strong>Innovation Capital:</strong> Global tech hub with world-class technology, entertainment, 
+                          and biotechnology infrastructure making it the ultimate center for AI innovation and deployment.
                         </p>
                       </div>
                     </div>
@@ -1119,38 +1119,38 @@ export default function AIServicesCaliforniaPage() {
                   </h3>
                   <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 rounded-full"></div>
                   <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Specialized AI solutions designed for the Golden State's diverse economic sectors and innovation ecosystem
+                    Specialized AI solutions designed for the Golden State's diverse economic sectors and innovation leadership
                   </p>
                 </div>
                 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-                  {/* Technology & Software */}
+                  {/* Technology & SaaS */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Rocket className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Technology & Software</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Technology & SaaS AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Enterprise AI solutions for California's Silicon Valley tech giants, SaaS companies, cloud computing 
-                      platforms, and emerging startups with machine learning, automation, and intelligent systems 
-                      powering the digital economy.
+                      Advanced AI solutions for California's technology sector including Silicon Valley startups, enterprise SaaS, 
+                      cloud platforms, and emerging tech companies with ML infrastructure, intelligent automation, 
+                      and AI-powered product features.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Product intelligence AI</span>
+                        <span className="text-sm text-gray-600">AI product development</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">DevOps automation</span>
+                        <span className="text-sm text-gray-600">ML infrastructure scaling</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Customer analytics</span>
+                        <span className="text-sm text-gray-600">Predictive analytics systems</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Cloud optimization</span>
+                        <span className="text-sm text-gray-600">Intelligent automation</span>
                       </div>
                     </div>
                   </div>
@@ -1162,14 +1162,18 @@ export default function AIServicesCaliforniaPage() {
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Entertainment & Media</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Generative AI solutions for California's Hollywood studios, streaming platforms, gaming companies, 
-                      and content creators with AI-powered production, personalization, content moderation, 
-                      and audience engagement systems.
+                      AI innovation for California's entertainment industry including Hollywood studios, streaming services, 
+                      gaming companies, and content creators with generative AI, content recommendation, audience analytics, 
+                      and production optimization.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Content generation AI</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Audience prediction models</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
@@ -1179,23 +1183,81 @@ export default function AIServicesCaliforniaPage() {
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Visual effects automation</span>
                       </div>
-                      <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Audience analytics</span>
-                      </div>
                     </div>
                   </div>
                   
-                  {/* Agriculture & AgTech */}
+                  {/* Biotechnology & Healthcare */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-red-500 to-red-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Target className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Agriculture & AgTech</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Biotechnology & Healthcare</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Precision agriculture AI solutions for California's Central Valley farming including wine country, 
-                      almond orchards, dairy operations, and produce farms with crop monitoring, water management, 
-                      and sustainable farming practices.
+                      Cutting-edge AI for California's biotech sector including San Diego's biotech hub with drug discovery, 
+                      precision medicine, clinical research, genomics analysis, and medical device innovation 
+                      transforming healthcare outcomes.
+                    </p>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Drug discovery AI</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Safety monitoring AI</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Environmental compliance</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Energy efficiency optimization</span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Healthcare & Medical */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                      <Lightbulb className="w-10 h-10 text-white" />
+                    </div>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Healthcare & Medical AI</h4>
+                    <p className="text-gray-700 leading-relaxed mb-6">
+                      Medical AI solutions for California's healthcare systems including Stanford Health, UCLA Medical, 
+                      Cedars-Sinai, UCSF healthcare networks, and telehealth initiatives improving patient 
+                      care across the state.
+                    </p>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Medical imaging analysis</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Patient care optimization</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Drug discovery acceleration</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Rural healthcare support</span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Agriculture & Forestry */}
+                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div className="w-20 h-20 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
+                      <Sparkles className="w-10 h-10 text-white" />
+                    </div>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Agriculture & Forestry</h4>
+                    <p className="text-gray-700 leading-relaxed mb-6">
+                      Smart agriculture AI solutions for California's farming and forestry sectors including cotton, soybeans, 
+                      corn, peanuts, and timber production with precision farming, crop monitoring, and sustainable 
+                      resource management systems.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
@@ -1204,108 +1266,46 @@ export default function AIServicesCaliforniaPage() {
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Water management AI</span>
-                      </div>
-                      <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
                         <span className="text-sm text-gray-600">Crop health monitoring</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Yield optimization</span>
+                        <span className="text-sm text-gray-600">Weather prediction AI</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
+                        <span className="text-sm text-gray-600">Forestry management</span>
                       </div>
                     </div>
                   </div>
                   
-                  {/* Biotechnology & Life Sciences */}
-                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
-                    <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
-                      <Lightbulb className="w-10 h-10 text-white" />
-                    </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Biotechnology & Life Sciences</h4>
-                    <p className="text-gray-700 leading-relaxed mb-6">
-                      Advanced AI for California's biotech industry including San Diego and San Francisco research hubs, 
-                      pharmaceutical companies, genomics research, and medical device innovation with drug discovery 
-                      and clinical trial optimization.
-                    </p>
-                    <div className="space-y-3">
-                      <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Drug discovery AI</span>
-                      </div>
-                      <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Genomic analysis</span>
-                      </div>
-                      <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Clinical trial optimization</span>
-                      </div>
-                      <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Personalized medicine</span>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  {/* Financial Services & FinTech */}
-                  <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
-                    <div className="w-20 h-20 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
-                      <Sparkles className="w-10 h-10 text-white" />
-                    </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Financial Services & FinTech</h4>
-                    <p className="text-gray-700 leading-relaxed mb-6">
-                      AI solutions for California's fintech ecosystem including San Francisco's financial district, 
-                      payment processors, wealth management firms, and cryptocurrency platforms with fraud detection, 
-                      risk assessment, and algorithmic trading systems.
-                    </p>
-                    <div className="space-y-3">
-                      <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Fraud detection systems</span>
-                      </div>
-                      <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Risk assessment AI</span>
-                      </div>
-                      <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Algorithmic trading</span>
-                      </div>
-                      <div className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-primary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Customer personalization</span>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  {/* Clean Energy & Sustainability */}
+                  {/* Port & Logistics */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-yellow-500 to-orange-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <TrendingUp className="w-10 h-10 text-white" />
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Clean Energy & Sustainability</h4>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Port & Logistics AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      AI solutions for California's renewable energy sector including solar farms, wind energy, 
-                      electric vehicle infrastructure, and sustainability initiatives with grid optimization, 
-                      energy forecasting, and carbon footprint reduction.
+                      AI solutions for California's strategic port operations including Port of Los Angeles, Port of Oakland, 
+                      Port of Long Beach, freight transportation, and logistics networks connecting the Pacific Rim to America 
+                      with optimization and automation systems.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Smart grid optimization</span>
+                        <span className="text-sm text-gray-600">Port operations optimization</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Energy demand forecasting</span>
+                        <span className="text-sm text-gray-600">Freight route planning</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">EV charging optimization</span>
+                        <span className="text-sm text-gray-600">Cargo tracking systems</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">Carbon tracking systems</span>
+                        <span className="text-sm text-gray-600">Supply chain intelligence</span>
                       </div>
                     </div>
                   </div>
@@ -1328,14 +1328,14 @@ export default function AIServicesCaliforniaPage() {
                     <div className="space-y-6">
                       <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">California Projects Completed</span>
-                        <span className="font-bold text-primary-orange text-xl">500+</span>
+                        <span className="font-bold text-primary-orange text-xl">380+</span>
                       </div>
                       <div className="flex justify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Industry Success Rate</span>
                         <span className="font-bold text-secondary-orange text-xl">100%</span>
                       </div>
                       <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
-                        <span className="text-gray-600 font-medium">Average ROI for CA Clients</span>
+                        <span className="text-gray-600 font-medium">Average ROI for AL Clients</span>
                         <span className="font-bold text-primary-orange text-xl">5.2x</span>
                       </div>
                       <div className="flex justify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
@@ -1358,8 +1358,8 @@ export default function AIServicesCaliforniaPage() {
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">California Business Advantage</h4>
                         <p className="text-gray-700 leading-relaxed">
                           As the premier <strong className="text-primary-orange">AI Firm In California</strong>, we understand 
-                          the Heart of Dixie's unique blend of Southern hospitality and industrial innovation. Our AI solutions 
-                          are built for California's aerospace excellence, automotive leadership, and emerging technology growth.
+                          the Golden State's unique blend of innovation culture and entrepreneurial spirit. Our AI solutions 
+                          are built for California's technology leadership, entertainment excellence, and biotech innovation.
                         </p>
                       </div>
                     </div>
@@ -1381,8 +1381,8 @@ export default function AIServicesCaliforniaPage() {
                   
                   <p className="text-lg text-gray-700 leading-relaxed mb-6">
                     <strong className="text-gray-900 bg-primary-orange/10 px-2 py-1 rounded">Choosing Metic.ai as your AI partner in California</strong> means 
-                    working with a team that deeply understands the Yellowhammer State's business culture, from Huntsville's 
-                    high-tech aerospace corridor to Birmingham's industrial heritage and Mobile's port operations.
+                    working with a team that deeply understands the Golden State's business culture, from Silicon Valley's 
+                    innovation ecosystem to Los Angeles' entertainment industry and San Diego's biotech hub.
                   </p>
                   
                   <p className="text-lg text-gray-700 leading-relaxed mb-8">
@@ -1397,8 +1397,8 @@ export default function AIServicesCaliforniaPage() {
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Comprehensive California Coverage</h4>
                         <p className="text-gray-600 leading-relaxed">
-                          Birmingham, Huntsville, Mobile, Montgomery, Tuscaloosa, Auburn, Madison, Florence, 
-                          Decatur, and all major California business centers and industrial corridors
+                          Los Angeles, San Francisco, San Diego, San Jose, Sacramento, Fresno, Oakland, Bakersfield, 
+                          Anaheim, and all major California business centers and innovation hubs
                         </p>
                       </div>
                     </div>
@@ -1408,7 +1408,7 @@ export default function AIServicesCaliforniaPage() {
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Industry Domain Expertise</h4>
                         <p className="text-gray-600 leading-relaxed">
-                          Deep understanding of aerospace, automotive, steel, healthcare, agriculture, and port operations 
+                          Deep understanding of technology, entertainment, biotechnology, agriculture, renewable energy, and logistics 
                           with proven track record in California's key economic sectors
                         </p>
                       </div>
@@ -1649,7 +1649,7 @@ export default function AIServicesCaliforniaPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Yes! Metic.ai proudly serves businesses across all California cities including Birmingham, Montgomery, Mobile, Huntsville, Tuscaloosa, Auburn, Dothan, and beyond. 
+                    Yes! Metic.ai proudly serves businesses across all California cities including Los Angeles, San Francisco, San Diego, San Jose, Sacramento, Fresno, Oakland, and beyond. 
                     As California's leading <strong className="text-gray-900 font-semibold">AI Firm In California</strong>, we provide comprehensive AI solutions statewide.
                   </p>
                 </div>
@@ -1990,19 +1990,19 @@ export default function AIServicesCaliforniaPage() {
                 </div>
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
-                <span>Birmingham</span>
+                <span>Los Angeles</span>
                 <span>•</span>
-                <span>Montgomery</span>
+                <span>San Francisco</span>
                 <span>•</span>
-                <span>Mobile</span>
+                <span>San Diego</span>
                 <span>•</span>
-                <span>Huntsville</span>
+                <span>San Jose</span>
                 <span>•</span>
-                <span>Tuscaloosa</span>
+                <span>Sacramento</span>
                 <span>•</span>
-                <span>Auburn</span>
+                <span>Fresno</span>
                 <span>•</span>
-                <span>Dothan</span>
+                <span>Oakland</span>
               </div>
             </div>
           </div>

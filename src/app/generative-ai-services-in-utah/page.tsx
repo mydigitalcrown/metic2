@@ -265,7 +265,7 @@ export default function GenerativeAIServicesUtahPage() {
               "https://www.facebook.com/meticai"
             ],
             "logo": "https://metic.ai/logo.png",
-            "image": ["https://metic.ai/ai-company-Utah.jpg"],
+            "image": ["https://metic.ai/ai-company-utah.jpg"],
             "telephone": "+91-789-251-8414",
             "email": "hello@metic.ai",
             "foundingDate": "2020",
@@ -487,7 +487,7 @@ export default function GenerativeAIServicesUtahPage() {
             "@type": "LocalBusiness",
             "name": "Metic.ai - Generative AI Services In Utah",
             "description": "Leading Artificial Intelligence Company providing AI services ",
-            "image": "https://metic.ai/ai-company-Utah.jpg",
+            "image": "https://metic.ai/ai-company-utah.jpg",
             "telephone": "+91-789-251-8414",
             "email": "hello@metic.ai",
             "address": {

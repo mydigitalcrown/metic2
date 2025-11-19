@@ -58,7 +58,7 @@ export const metadata = {
   openGraph: {
     title: "Artificial Intelligence Company In Arizona | #1 AI Company In Arizona - Metic.ai",
     description: "Leading Artificial Intelligence Company In Arizona with 100+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Arizona businesses.",
-    url: "https://metic.ai/artificial-intelligence-ai-services-in-Arizona/",
+    url: "https://metic.ai/artificial-intelligence-ai-services-in-arizona/",
     type: "website",
     locale: "en_US",
     siteName: "Metic.ai - AI Company In Arizona",
