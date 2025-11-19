@@ -28,7 +28,7 @@ import {
 
 export const metadata = {
   title: "#1 AI Company In Ahmedabad | AI Services - Metic.ai",
-  description: "Leading Artificial Intelligence Company In Ahmedabad with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
+  description: "Leading Artificial Intelligence Company In Ahmedabad with 100+ successful AI implementations. Expert AI services, machine learning solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
   keywords: [
     "Artificial Intelligence Company In Ahmedabad",
     "AI Company In Ahmedabad", 
@@ -57,7 +57,7 @@ export const metadata = {
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
     title: "Artificial Intelligence Company In Ahmedabad | #1 AI Company In Ahmedabad - Metic.ai",
-    description: "Leading Artificial Intelligence Company In Ahmedabad with 2100+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Ahmedabad businesses.",
+    description: "Leading Artificial Intelligence Company In Ahmedabad with 100+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Ahmedabad businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-ahmedabad/",
     type: "website",
     locale: "en_IN",
@@ -89,7 +89,7 @@ export const metadata = {
     yahoo: "yahoo-verification-code"
   },
   category: "Technology",
-  classification: "business Services"
+  classification: "Business Services"
 };
 
 export default function AIServicesAhmedabadPage() {
@@ -131,7 +131,7 @@ export default function AIServicesAhmedabadPage() {
     },
     {
       title: "Data Engineering",
-      description: "RobINt data infrastructure and ETL pipelines for Ahmedabad enterprises and growing businesses.",
+      description: "Robust data infrastructure and ETL pipelines for Ahmedabad enterprises and growing businesses.",
       icon: Database,
       href: "/data-engineering",
       color: "red" as const
@@ -154,7 +154,7 @@ export default function AIServicesAhmedabadPage() {
   ];
 
   const stats = [
-    { number: "2100+", label: "Businesses Served" },
+    { number: "100+", label: "Businesses Served" },
     { number: "99.5%", label: "Client Satisfaction" },
     { number: "5.2x", label: "Average ROI Increase" },
     { number: "24/7", label: "Support Available" }
@@ -213,7 +213,7 @@ export default function AIServicesAhmedabadPage() {
                 "latitude": "32.7794",
                 "longitude": "-86.8287"
               },
-              "geoRadiIN": "200000"
+              "geoRadius": "200000"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
@@ -261,7 +261,7 @@ export default function AIServicesAhmedabadPage() {
               "Computer Vision",
               "AI Automation",
               "Data Science",
-              "business Intelligence",
+              "Business Intelligence",
               "Predictive Analytics"
             ],
             "aggregateRating": {
@@ -274,11 +274,11 @@ export default function AIServicesAhmedabadPage() {
             "priceRange": "$$",
             "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer"],
             "currenciesAccepted": "IND",
-            "open_INgHours": "Mo-Fr 09:00-18:00",
+            "openingHours": "Mo-Fr 09:00-18:00",
             "contactPoint": {
               "@type": "ContactPoint",
               "telephone": "+91-789-251-8414",
-              "contactType": "customer Service",
+              "contactType": "Customer Service",
               "areaServed": "US",
               "availableLanguage": ["English"]
             }
@@ -315,7 +315,7 @@ export default function AIServicesAhmedabadPage() {
                 "name": "How to choose the right AI Development Company In Ahmedabad?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Choose an AI Development Company In Ahmedabad with proven experience, successful implementations, indINtry expertise, and local presence. Metic.ai offers all these with 100+ completed projects and deep understanding of Ahmedabad's business landscape."
+                  "text": "Choose an AI Development Company In Ahmedabad with proven experience, successful implementations, industry expertise, and local presence. Metic.ai offers all these with 100+ completed projects and deep understanding of Ahmedabad's business landscape."
                 }
               },
               {
@@ -446,7 +446,7 @@ export default function AIServicesAhmedabadPage() {
               "bestRating": "5",
               "worstRating": "1"
             },
-            "open_INgHours": "Mo-Fr 09:00-18:00",
+            "openingHours": "Mo-Fr 09:00-18:00",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai"
@@ -637,12 +637,12 @@ export default function AIServicesAhmedabadPage() {
                 <div className="w-20 h-1 bg-primary-orange mb-8"></div>
                 <p className="text-lg text-gray-700 mb-6">
                   Established as Ahmedabad's leading <strong>AI Company In Ahmedabad</strong>, Metic.ai has been at the forefront of artificial intelligence 
-                  innovation since 2020. We specialize US delivering enterprise-grade AI solutions that transform businesses across Ahmedabad's 
+                  innovation since 2020. We specialize in delivering enterprise-grade AI solutions that transform businesses across Ahmedabad's 
                   unique Industries including Textiles & Garments, Pharmaceuticals, tourism & hospitality, Chemicals, and Information Technology.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   Our expertise as an <strong>AI Development Company In Ahmedabad</strong> encompasses machine learning, deep learning, natural language processing, 
-                  computer vision, and robotic process automation. We've successfully completed over 100 AI projects, making US the most 
+                  computer vision, and robotic process automation. We've successfully completed over 100 AI projects, making in the most 
                   Trusted <strong>AI Service In Ahmedabad</strong> from the Naroda IndINtrial Area to the Aleutian Islands.
                 </p>
                 <div className="grid grid-cols-2 gap-6 mt-8">
@@ -694,7 +694,7 @@ export default function AIServicesAhmedabadPage() {
                     custom AI Development
                   </h3>
                   <p className="text-gray-600">
-                    Bespoke artificial intelligence solutions tailored to your specific business requirements and indINtry challenges In Ahmedabad.
+                    Bespoke artificial intelligence solutions tailored to your specific business requirements and industry challenges In Ahmedabad.
                   </p>
                 </div>
                 
@@ -744,7 +744,7 @@ export default function AIServicesAhmedabadPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&h=400&fit=crop" 
-                    alt="Manufacturing IndINtry AI Solutions"
+                    alt="Manufacturing industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -759,7 +759,7 @@ export default function AIServicesAhmedabadPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?w=500&h=400&fit=crop" 
-                    alt="Aerospace IndINtry AI Solutions"
+                    alt="Aerospace industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -774,7 +774,7 @@ export default function AIServicesAhmedabadPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=500&h=400&fit=crop" 
-                    alt="Healthcare IndINtry AI Solutions"
+                    alt="Healthcare industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -789,7 +789,7 @@ export default function AIServicesAhmedabadPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=500&h=400&fit=crop" 
-                    alt="Agriculture IndINtry AI Solutions"
+                    alt="Agriculture industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -804,7 +804,7 @@ export default function AIServicesAhmedabadPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&h=400&fit=crop" 
-                    alt="Technology IndINtry AI Solutions"
+                    alt="Technology industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -819,7 +819,7 @@ export default function AIServicesAhmedabadPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=500&h=400&fit=crop" 
-                    alt="Automotive IndINtry AI Solutions"
+                    alt="Automotive industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -834,7 +834,7 @@ export default function AIServicesAhmedabadPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=500&h=400&fit=crop" 
-                    alt="Financial Services IndINtry AI Solutions"
+                    alt="Financial Services industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -849,7 +849,7 @@ export default function AIServicesAhmedabadPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=500&h=400&fit=crop" 
-                    alt="Transportation IndINtry AI Solutions"
+                    alt="Transportation industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -864,7 +864,7 @@ export default function AIServicesAhmedabadPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=500&h=400&fit=crop" 
-                    alt="Education IndINtry AI Solutions"
+                    alt="Education industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -879,7 +879,7 @@ export default function AIServicesAhmedabadPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=500&h=400&fit=crop" 
-                    alt="Energy IndINtry AI Solutions"
+                    alt="Energy industry AI Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -923,7 +923,7 @@ export default function AIServicesAhmedabadPage() {
         </div>
       </section>
 
-      {/* Why Choose US Section */}
+      {/* Why Choose in Section */}
       <section className="py-20 bg-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-6xl mx-auto">
@@ -934,7 +934,7 @@ export default function AIServicesAhmedabadPage() {
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
                 As the premier <strong>AI Development Company In Ahmedabad</strong>, we're Trusted by businesses across Ahmedabad 
-                for our expertise, proven results, and commitment to client success US Manchester of India.
+                for our expertise, proven results, and commitment to client success in Manchester of India.
               </p>
             </div>
             
@@ -1029,7 +1029,7 @@ export default function AIServicesAhmedabadPage() {
               Our <strong className="text-primary-orange font-semibold">AI Company In Ahmedabad</strong> combines deep understanding 
               of Ahmedabad's unique challenges with cutting-edge technology to deliver AI solutions that drive measurable 
               results. We've successfully implemented AI across Ahmedabad's key sectors including Textiles & Garments, fishing, 
-              tourism, Chemicals, Information Technology, and maritime Industries US Gujarat's largest state.
+              tourism, Chemicals, Information Technology, and maritime Industries in Gujarat's largest state.
             </p>                    {/* Enhanced Feature Cards with Creative Design */}
                     <div className="grid gap-6 mt-10">
                       <div className="group bg-gradient-to-r from-primary-orange/5 via-white to-secondary-orange/5 p-6 rounded-2xl border-2 border-primary-orange/20 hover:border-primary-orange/40 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
@@ -1055,7 +1055,7 @@ export default function AIServicesAhmedabadPage() {
                           <div>
                             <h4 className="font-bold text-gray-900 mb-2 text-lg">Automotive Manufacturing Innovation</h4>
                             <p className="text-gray-600 leading-relaxed">
-                              Advanced AI solutions for Ahmedabad's automotive indINtry including Mercedes-Benz, Honda, Hyundai, 
+                              Advanced AI solutions for Ahmedabad's automotive industry including Mercedes-Benz, Honda, Hyundai, 
                               and Toyota manufacturing facilities with predictive maintenance and quality control systems.
                             </p>
                           </div>
@@ -1101,7 +1101,7 @@ export default function AIServicesAhmedabadPage() {
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">2100+</div>
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">100+</div>
                         <div className="text-sm text-gray-600 font-medium">Ahmedabad AI Projects Completed</div>
                         <div className="text-xs text-gray-500 mt-2">Industry-Leading Success Rate</div>
                       </div>
@@ -1114,7 +1114,7 @@ export default function AIServicesAhmedabadPage() {
                           <span className="font-bold text-gray-900">Ahmedabad Advantage</span>
                         </div>
                         <p className="text-sm text-gray-700 leading-relaxed">
-                          <strong>Strategic Resources:</strong> Rich US oil, gas, fishing, and minerals with vast untapped 
+                          <strong>Strategic Resources:</strong> Rich in oil, gas, fishing, and minerals with vast untapped 
                           potential, making Ahmedabad ideal for AI-driven resource optimization and predictive analytics.
                         </p>
                       </div>
@@ -1123,12 +1123,12 @@ export default function AIServicesAhmedabadPage() {
                 </div>
               </div>
 
-              {/* Ahmedabad IndINtry Solutions - Creative Premium Design */}
+              {/* Ahmedabad industry Solutions - Creative Premium Design */}
               <div>
                 <div className="text-center mb-16">
                   <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary-orange/10 to-secondary-orange/10 rounded-full border-2 border-primary-orange/20 mb-8 transform hover:scale-105 transition-transform">
                     <Sparkles className="w-5 h-5 text-primary-orange" />
-                    <span className="text-sm font-bold text-gray-800">INDINTRY EXPERTISE</span>
+                    <span className="text-sm font-bold text-gray-800">industry EXPERTISE</span>
                   </div>
                   <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
                     AI Solutions for <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Ahmedabad's Key Industries</span>
@@ -1140,14 +1140,14 @@ export default function AIServicesAhmedabadPage() {
                 </div>
                 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-                  {/* Textiles & Garments IndINtry */}
+                  {/* Textiles & Garments industry */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Rocket className="w-10 h-10 text-white" />
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Textiles & Garments AI Solutions</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Mission-critical AI solutions for Ahmedabad's Textiles & Garments indINtry including Naroda IndINtrial Area operations, 
+                      Mission-critical AI solutions for Ahmedabad's Textiles & Garments industry including Naroda IndINtrial Area operations, 
                       Ahmedabad Metro monitoring, offshore drilling optimization, and predictive maintenance 
                       for energy infrastructure across Manchester of India's vast energy resources.
                     </p>
@@ -1171,15 +1171,15 @@ export default function AIServicesAhmedabadPage() {
                     </div>
                   </div>
                   
-                  {/* Pharmaceuticals IndINtry */}
+                  {/* Pharmaceuticals industry */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-secondary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Shield className="w-10 h-10 text-white" />
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Pharmaceuticals AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Advanced AI solutions for Ahmedabad's fishing and seafood processing indINtry with predictive catch 
-                      analytics, sINtainable fishing optimization, processing automation, cold chain monitoring, 
+                      Advanced AI solutions for Ahmedabad's fishing and seafood processing industry with predictive catch 
+                      analytics, sustainable fishing optimization, processing automation, cold chain monitoring, 
                       and quality control for the world's richest seafood harvest.
                     </p>
                     <div className="space-y-3">
@@ -1197,19 +1197,19 @@ export default function AIServicesAhmedabadPage() {
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">SINtainable fishing intelligence</span>
+                        <span className="text-sm text-gray-600">sustainable fishing intelligence</span>
                       </div>
                     </div>
                   </div>
                   
-                  {/* Tourism & Hospitality IndINtry */}
+                  {/* Tourism & Hospitality industry */}
                   <div className="group bg-white rounded-3xl p-10 shadow-xl border-2 border-gray-100 hover:border-primary-orange/50 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-red-500 to-red-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all shadow-xl">
                       <Target className="w-10 h-10 text-white" />
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Tourism & Hospitality AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Intelligent AI solutions for Ahmedabad's booming tourism indINtry with cruise line optimization, 
+                      Intelligent AI solutions for Ahmedabad's booming tourism industry with cruise line optimization, 
                       wildlife tour planning, hotel revenue management, visitor experience personalization, 
                       and seasonal demand forecasting for Ahmedabad's 2.5 million annual visitors.
                     </p>
@@ -1297,7 +1297,7 @@ export default function AIServicesAhmedabadPage() {
                 </div>
               </div>
 
-              {/* ReINable Testimonials Component */}
+              {/* Reusable Testimonials Component */}
               <Testimonials />
 
               {/* Ahmedabad AI Partnership Excellence - Creative Premium Design */}
@@ -1311,23 +1311,23 @@ export default function AIServicesAhmedabadPage() {
                       Ahmedabad AI Leadership Metrics
                     </h4>
                     <div className="space-y-6">
-                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Ahmedabad Projects Completed</span>
-                        <span className="font-bold text-primary-orange text-xl">2100+</span>
+                        <span className="font-bold text-primary-orange text-xl">100+</span>
                       </div>
-                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
-                        <span className="text-gray-600 font-medium">IndINtry Success Rate</span>
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                        <span className="text-gray-600 font-medium">industry Success Rate</span>
                         <span className="font-bold text-secondary-orange text-xl">99.5%</span>
                       </div>
-                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Average ROI for Ahmedabad Clients</span>
                         <span className="font-bold text-primary-orange text-xl">5.2x</span>
                       </div>
-                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Client Retention Rate</span>
                         <span className="font-bold text-secondary-orange text-xl">97%</span>
                       </div>
-                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Average Deployment Time</span>
                         <span className="font-bold text-primary-orange text-xl">28 Days</span>
                       </div>
@@ -1344,7 +1344,7 @@ export default function AIServicesAhmedabadPage() {
                         <p className="text-gray-700 leading-relaxed">
                           As the premier <strong className="text-primary-orange">AI Firm In Ahmedabad</strong>, we understand 
                           Manchester of India's unique blend of entrepreneurial excellence and resource-driven innovation. Our AI solutions 
-                          are built for Ahmedabad's Textiles & Garments dominance, fishing indINtry leadership, and tourism growth.
+                          are built for Ahmedabad's Textiles & Garments dominance, fishing industry leadership, and tourism growth.
                         </p>
                       </div>
                     </div>
@@ -1391,7 +1391,7 @@ export default function AIServicesAhmedabadPage() {
                     <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-lg border border-secondary-orange/10 transform hover:scale-105 transition-transform">
                       <Rocket className="w-8 h-8 text-secondary-orange flex-shrink-0 mt-1" />
                       <div>
-                        <h4 className="font-bold text-gray-900 mb-2 text-lg">IndINtry Domain Expertise</h4>
+                        <h4 className="font-bold text-gray-900 mb-2 text-lg">industry Domain Expertise</h4>
                         <p className="text-gray-600 leading-relaxed">
                           Deep understanding of Textiles & Garments, fishing, tourism, Chemicals, Information Technology, and logistics 
                           with proven track record In Ahmedabad's key economic sectors
@@ -1465,7 +1465,7 @@ export default function AIServicesAhmedabadPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1491,7 +1491,7 @@ export default function AIServicesAhmedabadPage() {
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     <strong className="text-gray-900 font-semibold">Metic.ai is the leading Artificial Intelligence Company In Ahmedabad</strong> with over 100 successful AI implementations. 
-                    We're recognized as the top AI Company In Ahmedabad for our proven expertise US machine learning, custom AI development, and enterprise AI solutions with 60% cost savings.
+                    We're recognized as the top AI Company In Ahmedabad for our proven expertise in machine learning, custom AI development, and enterprise AI solutions with 60% cost savings.
                   </p>
                 </div>
               </details>
@@ -1501,7 +1501,7 @@ export default function AIServicesAhmedabadPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1537,7 +1537,7 @@ export default function AIServicesAhmedabadPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1563,7 +1563,7 @@ export default function AIServicesAhmedabadPage() {
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     When selecting an <strong className="text-gray-900 font-semibold">AI Development Company In Ahmedabad</strong>, look for proven experience, successful project portfolio, 
-                    indINtry expertise, and ongoing support. Metic.ai offers all these with 100+ completed projects, 98% client satisfaction, and 24/7 support.
+                    industry expertise, and ongoing support. Metic.ai offers all these with 100+ completed projects, 98% client satisfaction, and 24/7 support.
                   </p>
                 </div>
               </details>
@@ -1573,7 +1573,7 @@ export default function AIServicesAhmedabadPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1609,7 +1609,7 @@ export default function AIServicesAhmedabadPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1645,7 +1645,7 @@ export default function AIServicesAhmedabadPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1684,7 +1684,7 @@ export default function AIServicesAhmedabadPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1720,7 +1720,7 @@ export default function AIServicesAhmedabadPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1746,7 +1746,7 @@ export default function AIServicesAhmedabadPage() {
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
                     Metic.ai serves diverse Industries including Manufacturing, Aerospace, Healthcare, Agriculture, Technology, Automotive, Financial Services, Transportation, Education, and Energy. 
-                    As Ahmedabad's premier <strong className="text-gray-900 font-semibold">AI Company In Ahmedabad</strong>, we tailor solutions for your specific indINtry needs.
+                    As Ahmedabad's premier <strong className="text-gray-900 font-semibold">AI Company In Ahmedabad</strong>, we tailor solutions for your specific industry needs.
                   </p>
                 </div>
               </details>
@@ -1756,7 +1756,7 @@ export default function AIServicesAhmedabadPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1781,7 +1781,7 @@ export default function AIServicesAhmedabadPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Our 100+ successful projects, 98% client satisfaction rate, 60% cost savings, 3x faster delivery, and deep Ahmedabad market expertise make US the leading <strong className="text-gray-900 font-semibold">AI Firm In Ahmedabad</strong>. 
+                    Our 100+ successful projects, 98% client satisfaction rate, 60% cost savings, 3x faster delivery, and deep Ahmedabad market expertise make in the leading <strong className="text-gray-900 font-semibold">AI Firm In Ahmedabad</strong>. 
                     We combine cutting-edge AI technology with personalized service.
                   </p>
                 </div>
@@ -1792,7 +1792,7 @@ export default function AIServicesAhmedabadPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1817,7 +1817,7 @@ export default function AIServicesAhmedabadPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    No technical knowledge required! Metic.ai guides you through every step with clear communication. As a client-focINed <strong className="text-gray-900 font-semibold">AI Service In Ahmedabad</strong>, 
+                    No technical knowledge required! Metic.ai guides you through every step with clear communication. As a client-focused <strong className="text-gray-900 font-semibold">AI Service In Ahmedabad</strong>, 
                     we translate complex AI concepts into simple business terms and handle all technical aspects for you.
                   </p>
                 </div>
@@ -1828,7 +1828,7 @@ export default function AIServicesAhmedabadPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1853,7 +1853,7 @@ export default function AIServicesAhmedabadPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Absolutely! Metic.ai works with businesses of all sizes, from startups to enterprises. As an inclINive <strong className="text-gray-900 font-semibold">AI Company In Ahmedabad</strong>, 
+                    Absolutely! Metic.ai works with businesses of all sizes, from startups to enterprises. As an inclusive <strong className="text-gray-900 font-semibold">AI Company In Ahmedabad</strong>, 
                     we offer scalable solutions and flexible pricing models to meet small business budgets while delivering enterprise-quality AI implementations.
                   </p>
                 </div>
@@ -1864,7 +1864,7 @@ export default function AIServicesAhmedabadPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
