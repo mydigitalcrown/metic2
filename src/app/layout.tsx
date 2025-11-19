@@ -54,9 +54,6 @@ export const metadata: Metadata = {
     telephone: false,
   },
   metadataBase: new URL('https://metic.ai'),
-  alternates: {
-    canonical: '/',
-  },
   icons: {
     icon: [
       { url: '/favicon.svg', type: 'image/svg+xml' },
@@ -132,10 +129,6 @@ export default function RootLayout({
           type="application/rss+xml" 
           title="Metic AI RSS Feed" 
           href="https://metic.ai/rss.xml" 
-        />
-        <link 
-          rel="canonical" 
-          href="https://metic.ai" 
         />
       </head>
       <body
