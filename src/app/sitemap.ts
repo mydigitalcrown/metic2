@@ -105,14 +105,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/artificial-intelligence-ai-services-in-${state}`,
       lastModified,
       changeFrequency: 'weekly' as const,
-      priority: state === 'california' || state === 'new-york' || state === 'texas' ? 0.75 : 0.7,
+      priority: state === 'california' || state === 'new-york' || state === 'texas' ? 0.85 : 0.80,
     })),
     // Other Indian cities
     ...indianCities.filter(city => city !== 'kolkata').map(city => ({
       url: `${baseUrl}/artificial-intelligence-ai-services-in-${city}`,
       lastModified,
-      changeFrequency: 'monthly' as const,
-      priority: city === 'bangalore' || city === 'mumbai' ? 0.72 : 0.68,
+      changeFrequency: 'weekly' as const,
+      priority: city === 'bangalore' || city === 'mumbai' ? 0.82 : 0.78,
     }))
   ]
 
@@ -151,14 +151,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/machine-learning-services-in-${state}`,
       lastModified,
       changeFrequency: 'weekly' as const,
-      priority: state === 'california' || state === 'new-york' || state === 'texas' ? 0.72 : 0.68,
+      priority: state === 'california' || state === 'new-york' || state === 'texas' ? 0.82 : 0.78,
     })),
     // Other Indian cities
     ...indianCities.filter(city => city !== 'kolkata').map(city => ({
       url: `${baseUrl}/machine-learning-services-in-${city}`,
       lastModified,
-      changeFrequency: 'monthly' as const,
-      priority: city === 'bangalore' || city === 'mumbai' ? 0.7 : 0.65,
+      changeFrequency: 'weekly' as const,
+      priority: city === 'bangalore' || city === 'mumbai' ? 0.80 : 0.75,
     }))
   ]
 
@@ -182,7 +182,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/generative-ai-services-in-${state}`,
       lastModified,
       changeFrequency: 'weekly' as const,
-      priority: state === 'california' || state === 'michigan' || state === 'new-york' || state === 'texas' || state === 'florida' || state === 'georgia' ? 0.80 : 0.75,
+      priority: state === 'california' || state === 'michigan' || state === 'new-york' || state === 'texas' || state === 'florida' || state === 'georgia' ? 0.85 : 0.80,
     })),
     // Indian cities for Generative AI - Prioritize Kolkata
     {
@@ -196,7 +196,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/generative-ai-services-in-${city}`,
       lastModified,
       changeFrequency: 'weekly' as const,
-      priority: city === 'bangalore' || city === 'hyderabad' || city === 'mumbai' || city === 'delhi' ? 0.78 : 0.73,
+      priority: city === 'bangalore' || city === 'hyderabad' || city === 'mumbai' || city === 'delhi' ? 0.82 : 0.78,
     }))
   ]
 
