@@ -325,6 +325,22 @@ export default function GenerativeAIServicesIndiaPage() {
                   "@type": "Answer",
                   "text": "Metic.ai is the best Generative AI Company In India due to our proven expertise in ChatGPT integration, GPT-4 development, LLM solutions, 98% client satisfaction, 4.5x average ROI increase, 24/7 support, and deep understanding of India's IT, BPO, Manufacturing, Pharmaceutical, and Financial Services Industries."
                 }
+              },
+              {
+                "@type": "Question",
+                "name": "How long does Generative AI implementation take with India GenAI company?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Generative AI implementation with our India GenAI company typically takes 4-12 weeks depending on project complexity. We offer rapid deployment with 3x faster delivery than traditional approaches, including proof-of-concept in 2-3 weeks and full production deployment within 8-12 weeks."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Why should I choose a local Generative AI company in India?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Choosing a local Generative AI company in India like Metic.ai provides benefits including on-site support, understanding of local business culture and regulations, faster communication in your timezone, and expertise in India's key industries like IT, Manufacturing, and Pharmaceuticals with proven local case studies."
+                }
               }
             ]
           })
