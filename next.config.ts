@@ -57,6 +57,18 @@ const nextConfig: NextConfig = {
         destination: '/',
         permanent: true,
       },
+      // Redirect www to non-www (if DNS ever gets configured)
+      {
+        source: '/:path*',
+        has: [
+          {
+            type: 'host',
+            value: 'www.metic.ai',
+          },
+        ],
+        destination: 'https://metic.ai/:path*',
+        permanent: true,
+      },
     ];
   },
 };
