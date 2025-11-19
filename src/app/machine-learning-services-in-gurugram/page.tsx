@@ -27,8 +27,8 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Machine Learning Company In Gurugram | #1 ML Company In Gurugram - Metic.ai",
-  description: "Leading Machine Learning Company In Gurugram with 50+ successful ML implementations. Expert ML services, machine learning solutions & ML Development. Transform your business with 60% cost savings & 3x faster delivery.",
+  title: "#1 ML Company In Gurugram | ML Services - Metic.ai",
+  description: "Leading ML Company In Gurugram with 50+ successful implementations. Expert machine learning services & solutions. 60% cost savings & 3x faster delivery.",
   keywords: [
     "Machine Learning Company In Gurugram",
     "ML Company In Gurugram", 
@@ -56,8 +56,8 @@ export const metadata = {
   authors: [{ name: "Metic.ai Gurugram ML Team" }],
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
-    title: "Machine Learning Company In Gurugram | #1 ML Company In Gurugram - Metic.ai",
-    description: "Leading Machine Learning Company In Gurugram with 50+ successful ML implementations. Expert ML services, machine learning solutions & ML Development for Gurugram businesses.",
+    title: "#1 ML Company In Gurugram | ML Services - Metic.ai",
+    description: "Leading ML Company In Gurugram with 50+ successful implementations. Expert machine learning services & solutions. 60% cost savings & 3x faster delivery.",
     url: "https://metic.ai/machine-learning-services-in-gurugram/",
     type: "website",
     locale: "en_IN",
@@ -74,8 +74,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Machine Learning Company In Gurugram | ML Company In Gurugram",
-    description: "Leading ML Company In Gurugram delivering enterprise Machine Learning solutions. Expert ML Development, machine learning & automation services with proven results.",
+    title: "#1 ML Company In Gurugram | ML Services - Metic.ai",
+    description: "Leading ML Company In Gurugram. Expert machine learning development & automation services with proven results. Transform your business with ML solutions.",
     images: ["https://metic.ai/og-ml-company-gurugram.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"

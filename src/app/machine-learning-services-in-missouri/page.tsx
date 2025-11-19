@@ -27,8 +27,8 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Machine Learning Company In Missouri | #1 ML Company In Missouri - Metic.ai",
-  description: "Leading Machine Learning Company In Missouri with 50+ successful ML implementations. Expert ML services, machine learning solutions & ML Development. Transform your business with 60% cost savings & 3x faster delivery.",
+  title: "#1 ML Company In Missouri | ML Services - Metic.ai",
+  description: "Leading ML Company In Missouri with 50+ successful implementations. Expert machine learning services & solutions. 60% cost savings & 3x faster delivery.",
   keywords: [
     "Machine Learning Company In Missouri",
     "ML Company In Missouri", 
@@ -56,8 +56,8 @@ export const metadata = {
   authors: [{ name: "Metic.ai Missouri ML Team" }],
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
-    title: "Machine Learning Company In Missouri | #1 ML Company In Missouri - Metic.ai",
-    description: "Leading Machine Learning Company In Missouri with 50+ successful ML implementations. Expert ML services, machine learning solutions & ML Development for Missouri businesses.",
+    title: "#1 ML Company In Missouri | ML Services - Metic.ai",
+    description: "Leading ML Company In Missouri with 50+ successful implementations. Expert machine learning services & solutions. 60% cost savings & 3x faster delivery.",
     url: "https://metic.ai/machine-learning-services-in-Missouri/",
     type: "website",
     locale: "en_US",
@@ -74,8 +74,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Machine Learning Company In Missouri | ML Company In Missouri",
-    description: "Leading ML Company In Missouri delivering enterprise Machine Learning solutions. Expert ML Development, machine learning & automation services with proven results.",
+    title: "#1 ML Company In Missouri | ML Services - Metic.ai",
+    description: "Leading ML Company In Missouri. Expert machine learning development & automation services with proven results. Transform your business with ML solutions.",
     images: ["https://metic.ai/og-ml-company-Missouri.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"

@@ -27,8 +27,8 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Machine Learning Company In Tennessee | #1 ML Company In Tennessee - Metic.ai",
-  description: "Leading Machine Learning Company In Tennessee with 50+ successful ML implementations. Expert ML services, machine learning solutions & ML Development. Transform your business with 60% cost savings & 3x faster delivery.",
+  title: "#1 ML Company In Tennessee | ML Services - Metic.ai",
+  description: "Leading ML Company In Tennessee with 50+ successful implementations. Expert machine learning services & solutions. 60% cost savings & 3x faster delivery.",
   keywords: [
     "Machine Learning Company In Tennessee",
     "ML Company In Tennessee", 
@@ -56,8 +56,8 @@ export const metadata = {
   authors: [{ name: "Metic.ai Tennessee ML Team" }],
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
-    title: "Machine Learning Company In Tennessee | #1 ML Company In Tennessee - Metic.ai",
-    description: "Leading Machine Learning Company In Tennessee with 50+ successful ML implementations. Expert ML services, machine learning solutions & ML Development for Tennessee businesses.",
+    title: "#1 ML Company In Tennessee | ML Services - Metic.ai",
+    description: "Leading ML Company In Tennessee with 50+ successful implementations. Expert machine learning services & solutions. 60% cost savings & 3x faster delivery.",
     url: "https://metic.ai/machine-learning-services-in-tennessee/",
     type: "website",
     locale: "en_US",
@@ -74,8 +74,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Machine Learning Company In Tennessee | ML Company In Tennessee",
-    description: "Leading ML Company In Tennessee delivering enterprise Machine Learning solutions. Expert ML Development, machine learning & automation services with proven results.",
+    title: "#1 ML Company In Tennessee | ML Services - Metic.ai",
+    description: "Leading ML Company In Tennessee. Expert machine learning development & automation services with proven results. Transform your business with ML solutions.",
     images: ["https://metic.ai/og-ml-company-tennessee.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"

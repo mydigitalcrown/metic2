@@ -27,8 +27,8 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Machine Learning Company In New Jersey | #1 ML Company In New Jersey - Metic.ai",
-  description: "Leading Machine Learning Company In New Jersey with 50+ successful ML implementations. Expert ML services, machine learning solutions & ML Development. Transform your business with 60% cost savings & 3x faster delivery.",
+  title: "#1 ML Company In New Jersey | ML Services - Metic.ai",
+  description: "Leading ML Company In New Jersey with 50+ successful implementations. Expert machine learning services & solutions. 60% cost savings & 3x faster delivery.",
   keywords: [
     "Machine Learning Company In New Jersey",
     "ML Company In New Jersey", 
@@ -56,8 +56,8 @@ export const metadata = {
   authors: [{ name: "Metic.ai New Jersey ML Team" }],
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
-    title: "Machine Learning Company In New Jersey | #1 ML Company In New Jersey - Metic.ai",
-    description: "Leading Machine Learning Company In New Jersey with 50+ successful ML implementations. Expert ML services, machine learning solutions & ML Development for New Jersey businesses.",
+    title: "#1 ML Company In New Jersey | ML Services - Metic.ai",
+    description: "Leading ML Company In New Jersey with 50+ successful implementations. Expert machine learning services & solutions. 60% cost savings & 3x faster delivery.",
     url: "https://metic.ai/machine-learning-services-in-new-jersey/",
     type: "website",
     locale: "en_US",
@@ -74,8 +74,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Machine Learning Company In New Jersey | ML Company In New Jersey",
-    description: "Leading ML Company In New Jersey delivering enterprise Machine Learning solutions. Expert ML Development, machine learning & automation services with proven results.",
+    title: "#1 ML Company In New Jersey | ML Services - Metic.ai",
+    description: "Leading ML Company In New Jersey. Expert machine learning development & automation services with proven results. Transform your business with ML solutions.",
     images: ["https://metic.ai/og-ml-company-new-jersey.jpg"],
     site: "@metic_ai",
     creator: "@metic_ai"
