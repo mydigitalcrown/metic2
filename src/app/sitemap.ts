@@ -7,37 +7,37 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Static pages with optimized priorities
   const staticPages = [
     {
-      url: baseUrl,
+      url: `${baseUrl}/`,
       lastModified,
       changeFrequency: 'daily' as const,
       priority: 1.0,
     },
     {
-      url: `${baseUrl}/about`,
-      lastModified,
-      changeFrequency: 'weekly' as const,
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/services`,
-      lastModified,
-      changeFrequency: 'weekly' as const,
-      priority: 0.95,
-    },
-    {
-      url: `${baseUrl}/custom-ai-development`,
-      lastModified,
-      changeFrequency: 'weekly' as const,
-      priority: 0.98,
-    },
-    {
-      url: `${baseUrl}/locations`,
+      url: `${baseUrl}/about/`,
       lastModified,
       changeFrequency: 'weekly' as const,
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/contact`,
+      url: `${baseUrl}/services/`,
+      lastModified,
+      changeFrequency: 'weekly' as const,
+      priority: 0.95,
+    },
+    {
+      url: `${baseUrl}/custom-ai-development/`,
+      lastModified,
+      changeFrequency: 'weekly' as const,
+      priority: 0.98,
+    },
+    {
+      url: `${baseUrl}/locations/`,
+      lastModified,
+      changeFrequency: 'weekly' as const,
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/contact/`,
       lastModified,
       changeFrequency: 'monthly' as const,
       priority: 0.85,
@@ -53,7 +53,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { slug: 'data-insights', priority: 0.8 },
     { slug: 'machine-learning', priority: 0.85 },
   ].map(page => ({
-    url: `${baseUrl}/${page.slug}`,
+    url: `${baseUrl}/${page.slug}/`,
     lastModified,
     changeFrequency: 'weekly' as const,
     priority: page.priority,
@@ -102,14 +102,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     // Other US states
     ...usStates.filter(state => state !== 'michigan').map(state => ({
-      url: `${baseUrl}/artificial-intelligence-ai-services-in-${state}`,
+      url: `${baseUrl}/artificial-intelligence-ai-services-in-${state}/`,
       lastModified,
       changeFrequency: 'weekly' as const,
       priority: state === 'california' || state === 'new-york' || state === 'texas' ? 0.85 : 0.80,
     })),
     // Other Indian cities
     ...indianCities.filter(city => city !== 'kolkata').map(city => ({
-      url: `${baseUrl}/artificial-intelligence-ai-services-in-${city}`,
+      url: `${baseUrl}/artificial-intelligence-ai-services-in-${city}/`,
       lastModified,
       changeFrequency: 'weekly' as const,
       priority: city === 'bangalore' || city === 'mumbai' ? 0.82 : 0.78,
@@ -120,42 +120,42 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const mlLocationPages = [
     // India gets highest priority (national market)
     {
-      url: `${baseUrl}/machine-learning-services-in-india`,
+      url: `${baseUrl}/machine-learning-services-in-india/`,
       lastModified,
       changeFrequency: 'daily' as const,
       priority: 0.98,
     },
     // Michigan gets high priority
     {
-      url: `${baseUrl}/machine-learning-services-in-michigan`,
+      url: `${baseUrl}/machine-learning-services-in-michigan/`,
       lastModified,
       changeFrequency: 'daily' as const,
       priority: 0.95,
     },
     // Florida gets high priority (recently optimized)
     {
-      url: `${baseUrl}/machine-learning-services-in-florida`,
+      url: `${baseUrl}/machine-learning-services-in-florida/`,
       lastModified,
       changeFrequency: 'weekly' as const,
       priority: 0.85,
     },
     // Kolkata - boost for indexing
     {
-      url: `${baseUrl}/machine-learning-services-in-kolkata`,
+      url: `${baseUrl}/machine-learning-services-in-kolkata/`,
       lastModified,
       changeFrequency: 'daily' as const,
       priority: 0.80,
     },
     // Other US states
     ...usStates.filter(state => state !== 'michigan' && state !== 'florida').map(state => ({
-      url: `${baseUrl}/machine-learning-services-in-${state}`,
+      url: `${baseUrl}/machine-learning-services-in-${state}/`,
       lastModified,
       changeFrequency: 'weekly' as const,
       priority: state === 'california' || state === 'new-york' || state === 'texas' ? 0.82 : 0.78,
     })),
     // Other Indian cities
     ...indianCities.filter(city => city !== 'kolkata').map(city => ({
-      url: `${baseUrl}/machine-learning-services-in-${city}`,
+      url: `${baseUrl}/machine-learning-services-in-${city}/`,
       lastModified,
       changeFrequency: 'weekly' as const,
       priority: city === 'bangalore' || city === 'mumbai' ? 0.80 : 0.75,
@@ -166,34 +166,34 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const generativeAILocationPages = [
     // US states for Generative AI - Prioritize recently optimized
     {
-      url: `${baseUrl}/generative-ai-services-in-louisiana`,
+      url: `${baseUrl}/generative-ai-services-in-louisiana/`,
       lastModified,
       changeFrequency: 'daily' as const,
       priority: 0.92, // Recently fixed and optimized
     },
     {
-      url: `${baseUrl}/generative-ai-services-in-maine`,
+      url: `${baseUrl}/generative-ai-services-in-maine/`,
       lastModified,
       changeFrequency: 'daily' as const,
       priority: 0.92, // Recently rebuilt and optimized
     },
     // Other high-priority US states
     ...usStates.filter(state => state !== 'louisiana' && state !== 'maine').map(state => ({
-      url: `${baseUrl}/generative-ai-services-in-${state}`,
+      url: `${baseUrl}/generative-ai-services-in-${state}/`,
       lastModified,
       changeFrequency: 'weekly' as const,
       priority: state === 'california' || state === 'michigan' || state === 'new-york' || state === 'texas' || state === 'florida' || state === 'georgia' ? 0.85 : 0.80,
     })),
     // Indian cities for Generative AI - Prioritize Kolkata
     {
-      url: `${baseUrl}/generative-ai-services-in-kolkata`,
+      url: `${baseUrl}/generative-ai-services-in-kolkata/`,
       lastModified,
       changeFrequency: 'daily' as const,
       priority: 0.85, // Boost Kolkata for indexing
     },
     // Other Indian cities
     ...indianCities.filter(city => city !== 'kolkata').map(city => ({
-      url: `${baseUrl}/generative-ai-services-in-${city}`,
+      url: `${baseUrl}/generative-ai-services-in-${city}/`,
       lastModified,
       changeFrequency: 'weekly' as const,
       priority: city === 'bangalore' || city === 'hyderabad' || city === 'mumbai' || city === 'delhi' ? 0.82 : 0.78,
