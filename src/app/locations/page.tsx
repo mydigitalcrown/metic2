@@ -4,20 +4,25 @@ import { MapPin, Building, Globe, Users, Star, ArrowRight } from "lucide-react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "AI & ML Services Locations Worldwide | 250+ Cities & States - Metic.ai",
-  description: "Discover Metic AI and Machine Learning services across 250+ locations worldwide. From US states to Indian cities, find expert artificial intelligence, ML, and generative AI solutions in your area. Global AI company serving 50+ countries.",
+  title: "AI, ML & GenAI Services Locations | 375+ Cities & States - Metic.ai",
+  description: "Discover Metic AI, Machine Learning, and Generative AI services across 375+ locations worldwide. From US states to Indian cities, find expert AI, ML, and GenAI solutions in your area. Global AI company serving 50+ countries.",
   keywords: [
     "AI Services Locations",
     "Machine Learning Services Locations",
+    "Generative AI Services Locations",
     "Artificial Intelligence Company Locations", 
     "AI Company Near Me",
     "ML Services Near Me",
+    "GenAI Services Near Me",
+    "ChatGPT Services Locations",
     "Machine Learning Services Worldwide",
     "Global AI Solutions",
     "AI Services USA",
     "AI Services India",
     "ML Services USA",
     "ML Services India",
+    "GenAI Services USA",
+    "GenAI Services India",
     "Local AI Company",
     "AI Consulting Locations",
     "Regional AI Services",
@@ -32,14 +37,16 @@ export const metadata: Metadata = {
     "Machine Learning Implementation Locations",
     "AI Innovation Services Worldwide",
     "Predictive Analytics Services Locations",
-    "Deep Learning Services Worldwide"
+    "Deep Learning Services Worldwide",
+    "Generative AI Solutions Global",
+    "LLM Services Worldwide"
   ],
   alternates: {
     canonical: "https://metic.ai/locations/"
   },
   openGraph: {
-    title: "AI & ML Services Locations Worldwide | 250+ Cities & States - Metic.ai",
-    description: "Discover Metic AI and Machine Learning services across 250+ locations worldwide. From US states to Indian cities, find expert artificial intelligence, ML, and generative AI solutions in your area.",
+    title: "AI, ML & GenAI Services Locations | 375+ Cities & States - Metic.ai",
+    description: "Discover Metic AI, Machine Learning, and Generative AI services across 375+ locations worldwide. From US states to Indian cities, find expert AI, ML, and GenAI solutions in your area.",
     url: "https://metic.ai/locations/",
     siteName: "Metic.ai - Global AI Services",
     type: "website",
@@ -136,12 +143,12 @@ export default function LocationsPage() {
             <div className="mb-8 animate-fade-in">
               <span className="px-6 py-3 bg-white rounded-full shadow-xl border-2 border-primary-orange/20 text-primary-orange text-sm font-bold inline-flex items-center gap-2">
                 <Globe className="w-4 h-4" />
-                250+ Service Locations
+                375+ Service Locations
               </span>
             </div>
             
             <h1 className="text-5xl font-bold tracking-tight sm:text-6xl md:text-7xl lg:text-8xl leading-tight mb-8">
-              <strong>AI & ML Services</strong>
+              <strong>AI, ML & GenAI Services</strong>
               <br />
               <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">
                 <strong>Worldwide</strong>
@@ -149,15 +156,15 @@ export default function LocationsPage() {
             </h1>
             
             <p className="max-w-3xl mx-auto text-xl md:text-2xl text-gray-700 leading-relaxed font-light mb-12">
-              Find <strong className="text-primary-orange">expert artificial intelligence and machine learning solutions</strong> in your location. 
+              Find <strong className="text-primary-orange">expert AI, machine learning, and generative AI solutions</strong> in your location. 
               Serving <strong className="text-primary-orange">50 US states</strong> and <strong className="text-primary-orange">12 major Indian cities</strong> 
-              with world-class AI, ML, and generative AI services.
+              with world-class AI, ML, GenAI, and ChatGPT integration services.
             </p>
 
             {/* Quick Stats */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary-orange mb-2">250+</div>
+                <div className="text-3xl font-bold text-primary-orange mb-2">375+</div>
                 <div className="text-sm text-gray-600">Service Locations</div>
               </div>
               <div className="text-center">
@@ -325,6 +332,80 @@ export default function LocationsPage() {
         </div>
       </section>
 
+      {/* Generative AI US States Section */}
+      <section className="py-20 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold mb-6">
+              <span className="text-gray-900">Generative AI Services in </span>
+              <span className="text-primary-orange">United States</span>
+            </h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              ChatGPT, GPT-4, and advanced generative AI solutions across all 50 US states
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+            {usStates.map((state) => (
+              <Link 
+                key={state.slug}
+                href={`/generative-ai-services-in-${state.slug}`}
+                className="group"
+              >
+                <div className="bg-white border border-gray-200 rounded-lg p-4 hover:border-purple-500/50 hover:shadow-lg transition-all duration-300 hover:scale-105">
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <div className="font-semibold text-gray-900 group-hover:text-purple-600 transition-colors">
+                        {state.name}
+                      </div>
+                      <div className="text-sm text-gray-500">GenAI Services</div>
+                    </div>
+                    <MapPin className="w-5 h-5 text-purple-600 group-hover:scale-110 transition-transform" />
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Generative AI Indian Cities Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold mb-6">
+              <span className="text-gray-900">Generative AI Services in </span>
+              <span className="text-primary-orange">India</span>
+            </h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              Advanced generative AI and LLM solutions in India's technology hubs
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            {indianCities.map((city) => (
+              <Link 
+                key={city.slug}
+                href={`/generative-ai-services-in-${city.slug}`}
+                className="group"
+              >
+                <div className="bg-white border border-gray-200 rounded-lg p-6 hover:border-purple-500/50 hover:shadow-lg transition-all duration-300 hover:scale-105">
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <div className="font-semibold text-lg text-gray-900 group-hover:text-purple-600 transition-colors">
+                        {city.name}
+                      </div>
+                      <div className="text-sm text-gray-500">GenAI Solutions</div>
+                    </div>
+                    <Building className="w-6 h-6 text-purple-600 group-hover:scale-110 transition-transform" />
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Service Types Section */}
       <section className="py-20 bg-white">
         <div className="container px-4 md:px-6">
@@ -334,11 +415,11 @@ export default function LocationsPage() {
               <span className="text-primary-orange">AI Services</span>
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Comprehensive AI and machine learning solutions available in all locations
+              Comprehensive AI, machine learning, and generative AI solutions available in all locations
             </p>
           </div>
           
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-gradient-to-br from-primary-orange/5 to-secondary-orange/5 rounded-xl p-8 border border-primary-orange/20">
               <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
                 <Star className="w-6 h-6 text-primary-orange" />
@@ -351,8 +432,8 @@ export default function LocationsPage() {
                 <li>• Custom AI Development</li>
                 <li>• AI Strategy Consulting</li>
                 <li>• AI Integration & Deployment</li>
-                <li>• Generative AI Solutions</li>
                 <li>• AI Automation Systems</li>
+                <li>• Computer Vision Solutions</li>
               </ul>
               <Link href="/services">
                 <Button className="bg-primary-orange hover:bg-secondary-orange">
@@ -373,12 +454,34 @@ export default function LocationsPage() {
                 <li>• Machine Learning Models</li>
                 <li>• Predictive Analytics</li>
                 <li>• Data Engineering</li>
-                <li>• Computer Vision</li>
+                <li>• Deep Learning</li>
                 <li>• Natural Language Processing</li>
               </ul>
               <Link href="/machine-learning">
                 <Button className="bg-secondary-orange hover:bg-primary-orange">
                   View ML Services <ArrowRight className="w-4 h-4 ml-2" />
+                </Button>
+              </Link>
+            </div>
+
+            <div className="bg-gradient-to-br from-purple-50 to-indigo-50 rounded-xl p-8 border border-purple-200">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+                <Globe className="w-6 h-6 text-purple-600" />
+                Generative AI Services
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Cutting-edge generative AI solutions including ChatGPT, GPT-4, and custom LLM integration.
+              </p>
+              <ul className="space-y-2 text-gray-600 mb-6">
+                <li>• ChatGPT Integration</li>
+                <li>• Custom LLM Development</li>
+                <li>• AI Content Generation</li>
+                <li>• Conversational AI</li>
+                <li>• AI-Powered Automation</li>
+              </ul>
+              <Link href="/generative-ai-services">
+                <Button className="bg-purple-600 hover:bg-purple-700 text-white">
+                  View GenAI Services <ArrowRight className="w-4 h-4 ml-2" />
                 </Button>
               </Link>
             </div>
