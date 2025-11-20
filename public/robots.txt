@@ -4,7 +4,6 @@
 # Allow all search engines with optimized crawling
 User-agent: *
 Allow: /
-Crawl-delay: 1
 
 # Priority discovery - Core business pages
 Allow: /about

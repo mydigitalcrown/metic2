@@ -73,7 +73,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Indian cities for AI services
   const indianCities = [
-    'mumbai', 'delhi', 'bangalore', 'hyderabad', 'ahmedabad', 'chennai', 'kolkata',
+    'india', 'mumbai', 'delhi', 'bangalore', 'hyderabad', 'ahmedabad', 'chennai', 'kolkata',
     'pune', 'noida', 'gurugram', 'coimbatore', 'vizag'
   ]
 
