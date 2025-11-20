@@ -27,7 +27,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Generative AI Company In Hyderabad | #1 AI Company In Telangana - Metic.ai",
+  title: "AI Company Hyderabad | #1 Gen AI - Metic.ai",
   description: "Leading Generative AI Company In Hyderabad with 50+ successful Generative AI implementations. Expert ChatGPT integration, GPT-4 services, LLM development & Generative AI solutions. Transform your business with 60% cost savings & 3x faster delivery.",
   keywords: [
     "Generative AI Company In Hyderabad",

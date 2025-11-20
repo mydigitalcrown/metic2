@@ -27,7 +27,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Generative AI Company In Gurugram | #1 AI Company In Haryana - Metic.ai",
+  title: "AI Company Gurugram | #1 Gen AI - Metic.ai",
   description: "Leading Generative AI Company In Gurugram with 50+ successful AI implementations. Expert ChatGPT integration, GPT-4 services, LLM development & AI solutions. Transform your business with 60% cost savings & 3x faster delivery.",
   keywords: [
     "Generative AI Company In Gurugram",
