@@ -388,21 +388,21 @@ export default function Home() {
             <div className="flex-1 space-y-8">
               {/* Enhanced H1 with Gradient Animation */}
               <h1 className="text-5xl font-bold tracking-tight sm:text-6xl md:text-7xl lg:text-8xl leading-tight">
-                <span className="block text-gray-900 mb-2"><strong>Artificial Intelligence</strong></span>
+                <span className="block text-gray-900 mb-2">Artificial Intelligence</span>
                 <span className="block bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">
-                  <strong>Company Near Me</strong>
+                  Company Near Me
                 </span>
-                <span className="block text-gray-900 mt-2">
-                  <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Find the Best AI Solutions</span>
+                <span className="block text-gray-900 mt-2 text-4xl sm:text-5xl md:text-6xl">
+                  Find the Best AI Solutions
                 </span>
               </h1>
               
               {/* Enhanced Description with Better Typography */}
               <p className="max-w-[650px] text-xl md:text-2xl text-gray-700 leading-relaxed font-light">
                 Looking for the best <strong className="text-gray-900 font-semibold">Artificial Intelligence Company Near Me</strong>? 
-                <strong className="text-primary-orange font-semibold">Metic.ai</strong> is your trusted AI partner with <strong className="text-primary-orange font-semibold">2100+ successful implementations</strong>.
-                We deliver cutting-edge <strong className="text-primary-orange font-semibold">AI solutions</strong>, <strong className="text-primary-orange font-semibold">machine learning services</strong>, and 
-                <strong className="text-primary-orange font-semibold"> custom AI development</strong> for businesses worldwide.
+                <strong className="text-primary-orange font-semibold">Metic.ai</strong> is your trusted AI partner. 
+                We have <strong className="text-primary-orange font-semibold">2100+ successful projects</strong>. 
+                We deliver cutting-edge <strong className="text-gray-900 font-semibold">AI solutions</strong> and <strong className="text-gray-900 font-semibold">machine learning services</strong> for businesses worldwide.
               </p>
 
               {/* Enhanced Trust Indicators with Icons */}
@@ -539,9 +539,9 @@ export default function Home() {
                     </div>
                     
                     <div className="space-y-3">
-                      <h3 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-gray-900 via-primary-orange to-gray-900 bg-clip-text text-transparent">
+                      <h2 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-gray-900 via-primary-orange to-gray-900 bg-clip-text text-transparent">
                         Global AI Innovation Hub
-                      </h3>
+                      </h2>
                       <p className="text-base md:text-lg text-gray-700 font-medium leading-relaxed">
                         Powering the Future of <span className="text-primary-orange font-bold">Businesses Worldwide</span> with <span className="text-primary-orange font-bold">Advanced AI Solutions</span>
                       </p>
@@ -595,11 +595,26 @@ export default function Home() {
               <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">AI Company</span>
             </h2>
             <div className="w-24 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-8 rounded-full"></div>
-            <p className="mt-6 text-gray-600 md:text-xl max-w-3xl mx-auto leading-relaxed">
-              As a <strong className="text-gray-900">leading artificial intelligence company near you</strong>, we specialize in delivering 
-              AI solutions that drive real business results for companies worldwide. From startups to enterprises, 
-              we're transforming how businesses leverage AI technology globally.
-            </p>
+            <div className="mt-6 text-gray-600 md:text-xl max-w-3xl mx-auto leading-relaxed">
+              <p className="mb-4">
+                As a <strong className="text-gray-900">leading artificial intelligence company near you</strong>, we specialize in delivering 
+                AI solutions that drive real business results.
+              </p>
+              <ul className="space-y-2 text-left inline-block">
+                <li className="flex items-start">
+                  <span className="text-primary-orange mr-2">✓</span>
+                  <span>Expert AI solutions for startups and enterprises</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-primary-orange mr-2">✓</span>
+                  <span>Transform your business with AI technology</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-primary-orange mr-2">✓</span>
+                  <span>Global reach with local expertise</span>
+                </li>
+              </ul>
+            </div>
           </div>
           
           {/* Advanced Service Cards with 3D Effect */}
