@@ -359,7 +359,6 @@ export default function GenerativeAIServicesTexasPage() {
             "priceRange": "$$",
             "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer"],
             "currenciesAccepted": "USD",
-            "open_USgHours": "Mo-Fr 09:00-18:00",
             "contactPoint": {
               "@type": "ContactPoint",
               "telephone": "+91-789-251-8414",
@@ -531,7 +530,6 @@ export default function GenerativeAIServicesTexasPage() {
               "bestRating": "5",
               "worstRating": "1"
             },
-            "open_USgHours": "Mo-Fr 09:00-18:00",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai"

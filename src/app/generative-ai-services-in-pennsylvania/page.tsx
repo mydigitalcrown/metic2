@@ -331,7 +331,6 @@ export default function GenerativeAIServicesPennsylvaniaPage() {
             "priceRange": "$$",
             "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer"],
             "currenciesAccepted": "USD",
-            "open_USgHours": "Mo-Fr 09:00-18:00",
             "contactPoint": {
               "@type": "ContactPoint",
               "telephone": "+1-789-251-8414",
@@ -503,7 +502,6 @@ export default function GenerativeAIServicesPennsylvaniaPage() {
               "bestRating": "5",
               "worstRating": "1"
             },
-            "open_USgHours": "Mo-Fr 09:00-18:00",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai"

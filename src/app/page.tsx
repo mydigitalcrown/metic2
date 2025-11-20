@@ -117,7 +117,7 @@ export default function Home() {
         }}
       />
 
-      {/* LocalBusiness Schema for Enhanced Local SEO */}
+      {/* LocalBusiness Schema for Enhanced Local SEO - US Location */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -127,36 +127,19 @@ export default function Home() {
             "name": "Metic.ai - Artificial Intelligence Company Near You",
             "image": "https://metic.ai/logo.png",
             "description": "Leading artificial intelligence company providing AI solutions, machine learning services, and intelligent automation for businesses worldwide. Find the best AI company near you with proven expertise and 2100+ successful implementations.",
-            "address": [
-              {
-                "@type": "PostalAddress",
-                "streetAddress": "300 Quail Ridge Dr NE",
-                "addressLocality": "Ada",
-                "addressRegion": "MI",
-                "postalCode": "49301",
-                "addressCountry": "US"
-              },
-              {
-                "@type": "PostalAddress",
-                "streetAddress": "Behind Manyata Tech Park, Hebbal",
-                "addressLocality": "Bangalore",
-                "addressRegion": "Karnataka",
-                "postalCode": "560077",
-                "addressCountry": "India"
-              }
-            ],
-            "geo": [
-              {
-                "@type": "GeoCoordinates",
-                "latitude": "42.9634",
-                "longitude": "-85.4681"
-              },
-              {
-                "@type": "GeoCoordinates",
-                "latitude": "13.0827",
-                "longitude": "77.5877"
-              }
-            ],
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "300 Quail Ridge Dr NE",
+              "addressLocality": "Ada",
+              "addressRegion": "MI",
+              "postalCode": "49301",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": "42.9634",
+              "longitude": "-85.4681"
+            },
             "url": "https://metic.ai",
             "telephone": "+91 7892518414",
             "priceRange": "$$$",
