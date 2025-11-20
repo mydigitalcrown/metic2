@@ -311,11 +311,13 @@ export default function GenerativeAIServicesPage() {
             "image": "https://metic.ai/generative-ai-services-article.jpg",
             "author": {
               "@type": "Organization",
-              "name": "Metic.ai"
+              "name": "Metic.ai",
+              "url": "https://metic.ai"
             },
             "publisher": {
-              "@type": "Organization", 
+              "@type": "Organization",
               "name": "Metic.ai",
+              "url": "https://metic.ai",
               "logo": {
                 "@type": "ImageObject",
                 "url": "https://metic.ai/logo.png"

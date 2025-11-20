@@ -404,9 +404,13 @@ export default function GenerativeAIServicesWyomingPage() {
             "image": "https://metic.ai/generative-ai-company-wyoming-article.jpg",
             "author": {
               "@type": "Organization",
-              "name": "Metic.ai", "url": "https://metic.ai" },
+              "name": "Metic.ai",
+              "url": "https://metic.ai"
+            },
             "publisher": {
-              "@type": "Organization", "name": "Metic.ai", "url": "https://metic.ai",
+              "@type": "Organization",
+              "name": "Metic.ai",
+              "url": "https://metic.ai",
               "logo": {
                 "@type": "ImageObject",
                 "url": "https://metic.ai/logo.png"

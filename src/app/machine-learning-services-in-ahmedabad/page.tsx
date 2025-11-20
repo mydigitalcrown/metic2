@@ -181,7 +181,7 @@ export default function MLServicesAhmedabadPage() {
             "logo": "https://metic.ai/logo.png",
             "image": ["https://metic.ai/ml-company-ahmedabad.jpg"],
             "telephone": "+91-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
             "vatID": "IN123456789",
@@ -359,11 +359,13 @@ export default function MLServicesAhmedabadPage() {
             "image": "https://metic.ai/ml-company-ahmedabad-article.jpg",
             "author": {
               "@type": "Organization",
-              "name": "Metic.ai"
+              "name": "Metic.ai",
+              "url": "https://metic.ai"
             },
             "publisher": {
-              "@type": "Organization", 
+              "@type": "Organization",
               "name": "Metic.ai",
+              "url": "https://metic.ai",
               "logo": {
                 "@type": "ImageObject",
                 "url": "https://metic.ai/logo.png"
@@ -419,7 +421,7 @@ export default function MLServicesAhmedabadPage() {
             "description": "Leading Machine Learning Company providing ML services In Ahmedabad",
             "image": "https://metic.ai/ml-company-ahmedabad.jpg",
             "telephone": "+91-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "300 Quail Ridge Dr NE",
@@ -446,7 +448,7 @@ export default function MLServicesAhmedabadPage() {
               "bestRating": "5",
               "worstRating": "1"
             },
-            "open_INgHours": "Mo-Fr 09:00-18:00",
+            "openingHours": "Mo-Fr 09:00-18:00",
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai"

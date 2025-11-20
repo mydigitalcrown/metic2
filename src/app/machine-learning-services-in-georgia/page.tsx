@@ -181,7 +181,7 @@ export default function MLServicesGeorgiaPage() {
             "logo": "https://metic.ai/logo.png",
             "image": ["https://metic.ai/ml-company-Georgia.jpg"],
             "telephone": "+1-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
             "vatID": "IN123456789",
@@ -359,11 +359,11 @@ export default function MLServicesGeorgiaPage() {
             "image": "https://metic.ai/ml-company-Georgia-article.jpg",
             "author": {
               "@type": "Organization",
-              "name": "Metic.ai"
+              "name": "Metic.ai", "url": "https://metic.ai"
             },
             "publisher": {
               "@type": "Organization", 
-              "name": "Metic.ai",
+              "name": "Metic.ai", "url": "https://metic.ai",
               "logo": {
                 "@type": "ImageObject",
                 "url": "https://metic.ai/logo.png"
@@ -419,7 +419,7 @@ export default function MLServicesGeorgiaPage() {
             "description": "Leading Machine Learning Company providing ML services In Georgia",
             "image": "https://metic.ai/ml-company-Georgia.jpg",
             "telephone": "+1-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "300 Quail Ridge Dr NE",
