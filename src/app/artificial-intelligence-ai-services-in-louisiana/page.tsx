@@ -574,8 +574,8 @@ export default function AIServicesLouisianaPage() {
               </h2>
               <div className="w-20 md:w-24 h-1 md:h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 md:mb-8 rounded-full"></div>
               <p className="text-base md:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-4">
-                Comprehensive artificial intelligence services from Louisiana's most trusted <strong className="text-gray-900">AI Company In Louisiana</strong>. 
-                We transform businesses with AI solutions for Louisiana's industrial landscape.
+                Full AI services from louisiana. We are the trusted <strong className="text-gray-900">AI Company In Louisiana</strong>. 
+                We help businesses with AI solutions for louisiana.
               </p>
             </div>
             

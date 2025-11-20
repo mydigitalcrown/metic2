@@ -574,8 +574,8 @@ export default function AIServicesIndianaPage() {
               </h2>
               <div className="w-20 md:w-24 h-1 md:h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 md:mb-8 rounded-full"></div>
               <p className="text-base md:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-4">
-                Comprehensive artificial intelligence services from Indiana's most trusted <strong className="text-gray-900">AI Company In Indiana</strong>. 
-                We transform businesses with AI solutions for Indiana's industrial landscape.
+                Full AI services from indiana. We are the trusted <strong className="text-gray-900">AI Company In Indiana</strong>. 
+                We help businesses with AI solutions for indiana.
               </p>
             </div>
             
