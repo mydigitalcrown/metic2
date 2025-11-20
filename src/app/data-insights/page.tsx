@@ -363,9 +363,9 @@ export default function DataInsightsPage() {
                 
                 <p className="text-xl md:text-2xl text-gray-300 leading-relaxed mb-12 max-w-2xl">
                   Looking for the <strong className="text-white">best data insight and analytics near me</strong>? 
-                  Metic.ai is the <strong className="text-primary-orange">premier local analytics company</strong> with 
-                  <strong className="text-secondary-orange"> 3000+ data insights delivered</strong>. Expert data analysis, 
-                  business intelligence & predictive analytics.
+                  Metic.ai is the premier local analytics company. 
+                  We have delivered 3000+ data insights. 
+                  Expert data analysis, business intelligence and predictive analytics.
                 </p>
                 
                 <div className="flex flex-col sm:flex-row gap-6 mb-16">

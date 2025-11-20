@@ -389,7 +389,9 @@ export default function GenerativeAIServicesPage() {
               
               {/* VSO Optimized Description - Mobile Friendly */}
               <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 mb-6 md:mb-8 max-w-4xl mx-auto leading-relaxed px-4">
-                Looking for <strong className="text-primary-orange">expert Generative AI Services</strong>? Metic.ai delivers enterprise-grade <strong className="text-white">ChatGPT integration, GPT-4 development, custom LLM solutions</strong>, and AI automation with proven results worldwide.
+                Looking for expert Generative AI Services? 
+                Metic.ai delivers enterprise-grade solutions. 
+                We offer ChatGPT integration, GPT-4 development, custom LLM solutions, and AI automation with proven results worldwide.
               </p>
 
               {/* Mobile-Optimized CTA Buttons */}

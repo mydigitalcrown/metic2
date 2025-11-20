@@ -307,10 +307,9 @@ export default function MachineLearningPage() {
               </h1>
 
               <p className="text-xl md:text-2xl mb-8 text-gray-300 max-w-4xl mx-auto leading-relaxed">
-                Looking for the best <strong>machine learning services near me</strong>? Metic.ai delivers enterprise-grade ML solutions with 
-                <span className="text-primary-orange font-semibold"> 95% accuracy rates</span> and 
-                <span className="text-primary-orange font-semibold"> 300+ successful deployments</span>. 
-                Transform your data into intelligent insights with our cutting-edge predictive analytics and deep learning models.
+                Looking for the best <strong>machine learning services near me</strong>? 
+                Metic.ai delivers enterprise-grade ML solutions with 95% accuracy rates and 300+ successful deployments. 
+                Transform your data into intelligent insights with our predictive analytics and deep learning models.
               </p>
 
               {/* Enhanced Stats Grid */}
