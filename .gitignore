@@ -39,3 +39,19 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Build artifacts and temporary files
+*.old
+*.tmp
+*.bak
+*.swp
+*~
+
+# Utility scripts (keep only in local dev)
+*.py
+*.ps1
+!.github/**/*.ps1
+
+# Log files
+*.log
+!.github/**/*.log
