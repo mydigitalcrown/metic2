@@ -575,7 +575,7 @@ export default function AIServicesMainePage() {
               <div className="w-20 md:w-24 h-1 md:h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 md:mb-8 rounded-full"></div>
               <p className="text-base md:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-4">
                 Comprehensive artificial intelligence services from Maine's most trusted <strong className="text-gray-900">AI Company In Maine</strong>. 
-                Transforming businesses with cutting-edge AI solutions tailored for Maine's industrial landscape.
+                We transform businesses with AI solutions for Maine's industrial landscape.
               </p>
             </div>
             
