@@ -313,9 +313,8 @@ export default function AIIntegrationPage() {
               </h1>
 
               <p className="text-xl md:text-2xl mb-8 text-gray-300 max-w-4xl mx-auto leading-relaxed">
-                Looking for the best <strong>AI Integration and development services near me</strong>? Metic.ai delivers enterprise-grade AI solutions with 
-                <span className="text-primary-orange font-semibold"> 99% uptime</span> and 
-                <span className="text-primary-orange font-semibold"> 200+ successful integrations</span>. 
+                Looking for the best <strong>AI Integration and development services near me</strong>? 
+                Metic.ai delivers enterprise-grade AI solutions with 99% uptime and 200+ successful integrations. 
                 Transform your business with seamless AI deployment and intelligent automation.
               </p>
 

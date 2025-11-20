@@ -492,7 +492,7 @@ export default function AIServicesChennaiPage() {
               
               {/* VSO Optimized Description - Anna Nagar Friendly */}
               <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 mb-6 md:mb-8 max-w-4xl mx-auto leading-relaxed px-4">
-                Looking for the <strong className="text-primary-orange">best AI Company In Chennai</strong>? Metic.ai is the premier <strong className="text-white">Artificial Intelligence Company In Chennai</strong> delivering enterprise AI solutions with proven results.
+                Looking for the <strong className="text-primary-orange">best AI Company In Chennai</strong>? Metic.ai is the premier Artificial Intelligence Company In Chennai. We deliver enterprise AI solutions with proven results.
               </p>
 
               {/* Anna Nagar-Optimized CTA Buttons */}
