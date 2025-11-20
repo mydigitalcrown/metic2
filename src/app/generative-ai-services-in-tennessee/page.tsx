@@ -54,7 +54,7 @@ export const metadata = {
     "Enterprise Generative AI In Tennessee"
   ],
   authors: [{ name: "Metic.ai Tennessee Generative AI Team" }],
-  robots: "USDex, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
     title: "Generative AI Company In Tennessee | #1 Generative AI Services In Tennessee - Metic.ai",
     description: "Leading Generative AI Company In Tennessee with 50+ successful AI implementations. Expert AI services, Generative AI solutions & AI development for Tennessee businesses.",

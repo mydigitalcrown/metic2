@@ -54,7 +54,7 @@ export const metadata = {
     "Enterprise Generative AI In Mississippi"
   ],
   authors: [{ name: "Metic.ai Mississippi Generative AI Team" }],
-  robots: "USDex, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
     title: "Generative AI Company In Mississippi | #1 Generative AI Services In Mississippi - Metic.ai",
     description: "Leading Generative AI Company In Mississippi with 50+ successful AI implementations. Expert AI services, Generative AI solutions & AI development for Mississippi businesses.",
