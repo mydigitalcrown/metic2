@@ -181,7 +181,7 @@ export default function GenerativeAIServicesMassachusettsPage() {
             "logo": "https://metic.ai/logo.png",
             "image": ["https://metic.ai/ai-company-Massachusetts.jpg"],
             "telephone": "+91-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
             "vatID": "US-MA-123456789",
@@ -419,7 +419,7 @@ export default function GenerativeAIServicesMassachusettsPage() {
             "description": "Leading Artificial Intelligence Company providing AI services ",
             "image": "https://metic.ai/ai-company-Massachusetts.jpg",
             "telephone": "+91-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "300 Quail Ridge Dr NE",

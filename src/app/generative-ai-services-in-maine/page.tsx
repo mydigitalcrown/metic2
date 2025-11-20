@@ -181,7 +181,7 @@ export default function GenerativeAIServicesMainePage() {
             "logo": "https://metic.ai/logo.png",
             "image": ["https://metic.ai/ai-company-Maine.jpg"],
             "telephone": "+91-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
             "vatID": "US-ME-123456789",
@@ -418,7 +418,7 @@ export default function GenerativeAIServicesMainePage() {
             "description": "Leading Generative AI Company providing AI services In Maine",
             "image": "https://metic.ai/ai-company-Maine.jpg",
             "telephone": "+91-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "300 Quail Ridge Dr NE",

@@ -223,7 +223,7 @@ export default function GenerativeAIServicesNewMexicoPage() {
             "logo": "https://metic.ai/logo.png",
             "image": ["https://metic.ai/ai-company-new-mexico.jpg"],
             "telephone": "+91-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
             "vatID": "IN123456789",

@@ -181,7 +181,7 @@ export default function GenerativeAIServicesMontanaPage() {
             "logo": "https://metic.ai/logo.png",
             "image": ["https://metic.ai/ai-company-Montana.jpg"],
             "telephone": "+91-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
             "vatID": "US-MT-123456789",
@@ -418,7 +418,7 @@ export default function GenerativeAIServicesMontanaPage() {
             "description": "Leading Artificial Intelligence Company providing AI services ",
             "image": "https://metic.ai/ai-company-Montana.jpg",
             "telephone": "+91-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "125 N Roberts St",

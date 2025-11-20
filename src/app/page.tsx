@@ -141,7 +141,8 @@ export default function Home() {
               "longitude": "-85.4681"
             },
             "url": "https://metic.ai",
-            "telephone": "+91 7892518414",
+            "telephone": "+1-789-251-8414",
+            "email": "hello@metic.ai",
             "priceRange": "$$$",
             "openingHoursSpecification": [
               {

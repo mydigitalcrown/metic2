@@ -227,7 +227,7 @@ export default function GenerativeAIServicesOhioPage() {
             "logo": "https://metic.ai/logo.png",
             "image": ["https://metic.ai/ai-company-ohio.jpg"],
             "telephone": "+1-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
             "vatID": "US123456789",
@@ -322,7 +322,7 @@ export default function GenerativeAIServicesOhioPage() {
             "priceRange": "$$",
             "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer"],
             "currenciesAccepted": "USD",
-            "open_INgHours": "Mo-Fr 09:00-18:00",
+            "openingHours": "Mo-Fr 09:00-18:00",
             "contactPoint": {
               "@type": "ContactPoint",
               "telephone": "+1-789-251-8414",
@@ -467,7 +467,7 @@ export default function GenerativeAIServicesOhioPage() {
             "description": "Leading Artificial Intelligence Company providing AI services ",
             "image": "https://metic.ai/ai-company-ohio.jpg",
             "telephone": "+1-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "300 Quail Ridge Dr NE",

@@ -419,7 +419,7 @@ export default function GenerativeAIServicesChennaiPage() {
             "description": "Leading Artificial Intelligence Company providing AI services ",
             "image": "https://metic.ai/ai-company-Chennai.jpg",
             "telephone": "+91-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "300 Quail Ridge Dr NE",

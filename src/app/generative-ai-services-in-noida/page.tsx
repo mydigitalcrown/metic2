@@ -223,7 +223,7 @@ export default function GenerativeAIServicesNoidaPage() {
             "logo": "https://metic.ai/logo.png",
             "image": ["https://metic.ai/ai-company-Noida.jpg"],
             "telephone": "+91-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
             "vatID": "IN123456789",
@@ -463,7 +463,7 @@ export default function GenerativeAIServicesNoidaPage() {
             "description": "Leading Artificial Intelligence Company providing AI services ",
             "image": "https://metic.ai/ai-company-Noida.jpg",
             "telephone": "+91-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "300 Quail Ridge Dr NE",
