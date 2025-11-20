@@ -184,7 +184,7 @@ export default function Home() {
                 "latitude": "39.8283",
                 "longitude": "-98.5795"
               },
-              "geoRadius": "20000000"
+              "geoRadius": 20000000
             },
             "aggregateRating": {
               "@type": "AggregateRating",
