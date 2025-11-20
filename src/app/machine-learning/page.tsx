@@ -435,12 +435,6 @@ export default function MachineLearningPage() {
                       <span className="text-sm font-medium text-gray-700">Risk Assessment</span>
                     </div>
                   </div>
-
-                  {/* CTA Button */}
-                  <Button className="w-full bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white font-semibold py-3 rounded-lg transition-all duration-300 group-hover:shadow-lg">
-                    Learn More
-                    <ArrowRight className="ml-2 h-4 w-4" />
-                  </Button>
                 </div>
               </div>
 
@@ -479,11 +473,6 @@ export default function MachineLearningPage() {
                       <span className="text-sm font-medium text-gray-700">Pattern Recognition</span>
                     </div>
                   </div>
-
-                  <Button className="w-full bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-semibold py-3 rounded-lg transition-all duration-300 group-hover:shadow-lg">
-                    Learn More
-                    <ArrowRight className="ml-2 h-4 w-4" />
-                  </Button>
                 </div>
               </div>
 
@@ -522,11 +511,6 @@ export default function MachineLearningPage() {
                       <span className="text-sm font-medium text-gray-700">CI/CD Integration</span>
                     </div>
                   </div>
-
-                  <Button className="w-full bg-gradient-to-r from-primary-orange to-secondary-orange hover:from-primary-orange/90 hover:to-secondary-orange/90 text-white font-semibold py-3 rounded-lg transition-all duration-300 group-hover:shadow-lg">
-                    Learn More
-                    <ArrowRight className="ml-2 h-4 w-4" />
-                  </Button>
                 </div>
               </div>
             </div>
