@@ -411,11 +411,9 @@ export default function GenerativeAIServicesPunePage() {
             "image": "https://metic.ai/generative-ai-company-pune-article.jpg",
             "author": {
               "@type": "Organization",
-              "name": "Metic.ai"
-            },
+              "name": "Metic.ai", "url": "https://metic.ai" },
             "publisher": {
-              "@type": "Organization", 
-              "name": "Metic.ai",
+              "@type": "Organization", "name": "Metic.ai", "url": "https://metic.ai",
               "logo": {
                 "@type": "ImageObject",
                 "url": "https://metic.ai/logo.png"

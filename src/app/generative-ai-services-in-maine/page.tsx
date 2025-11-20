@@ -358,11 +358,9 @@ export default function GenerativeAIServicesMainePage() {
             "image": "https://metic.ai/ai-company-Maine-article.jpg",
             "author": {
               "@type": "Organization",
-              "name": "Metic.ai"
-            },
+              "name": "Metic.ai", "url": "https://metic.ai" },
             "publisher": {
-              "@type": "Organization", 
-              "name": "Metic.ai",
+              "@type": "Organization", "name": "Metic.ai", "url": "https://metic.ai",
               "logo": {
                 "@type": "ImageObject",
                 "url": "https://metic.ai/logo.png"
