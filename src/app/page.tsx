@@ -605,7 +605,7 @@ export default function Home() {
           {/* Advanced Service Cards with 3D Effect */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
             {/* Card 1 - AI Consulting */}
-            <div className="group relative bg-white rounded-2xl border-2 border-gray-100 hover:border-primary-orange/50 shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden hover:-translate-y-3">
+            <Link href="/custom-ai-development/" className="group relative bg-white rounded-2xl border-2 border-gray-100 hover:border-primary-orange/50 shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden hover:-translate-y-3 block">
               {/* Gradient Overlay on Hover */}
               <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/5 to-secondary-orange/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               
@@ -637,10 +637,10 @@ export default function Home() {
               
               {/* Bottom Accent Line */}
               <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
-            </div>
+            </Link>
             
             {/* Card 2 - AI Data Analytics */}
-            <div className="group relative bg-white rounded-2xl border-2 border-gray-100 hover:border-primary-orange/50 shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden hover:-translate-y-3">
+            <Link href="/data-insights/" className="group relative bg-white rounded-2xl border-2 border-gray-100 hover:border-primary-orange/50 shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden hover:-translate-y-3 block">
               <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/5 to-secondary-orange/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               
               <div className="relative p-8">
@@ -666,10 +666,10 @@ export default function Home() {
               </div>
               
               <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
-            </div>
+            </Link>
             
             {/* Card 3 - Machine Learning */}
-            <div className="group relative bg-white rounded-2xl border-2 border-gray-100 hover:border-primary-orange/50 shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden hover:-translate-y-3">
+            <Link href="/machine-learning/" className="group relative bg-white rounded-2xl border-2 border-gray-100 hover:border-primary-orange/50 shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden hover:-translate-y-3 block">
               <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/5 to-secondary-orange/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               
               <div className="relative p-8">
@@ -695,10 +695,10 @@ export default function Home() {
               </div>
               
               <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
-            </div>
+            </Link>
             
             {/* Card 4 - AI Automation */}
-            <div className="group relative bg-white rounded-2xl border-2 border-gray-100 hover:border-primary-orange/50 shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden hover:-translate-y-3">
+            <Link href="/ai-integration-and-deployment/" className="group relative bg-white rounded-2xl border-2 border-gray-100 hover:border-primary-orange/50 shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden hover:-translate-y-3 block">
               <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/5 to-secondary-orange/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               
               <div className="relative p-8">
@@ -724,7 +724,7 @@ export default function Home() {
               </div>
               
               <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-primary-orange to-secondary-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
-            </div>
+            </Link>
           </div>
         </div>
       </section>
