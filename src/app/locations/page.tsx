@@ -161,7 +161,7 @@ export default function LocationsPage() {
                 <div className="text-sm text-gray-600">Service Locations</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary-orange mb-2">2100+</div>
+                <div className="text-3xl font-bold text-primary-orange mb-2">50+</div>
                 <div className="text-sm text-gray-600">Projects Completed</div>
               </div>
               <div className="text-center">
