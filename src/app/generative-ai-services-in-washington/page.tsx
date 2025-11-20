@@ -27,7 +27,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Company Washington | #1 Gen AI - Metic.ai",
+  title: "Generative AI Company In Washington | Generative AI Services - Metic.AI",
   description: "Leading Generative AI Company In Washington with 50+ successful AI implementations. Expert ChatGPT integration, GPT-4 services, LLM development & AI solutions. Transform your business with 60% cost savings & 3x faster delivery.",
   keywords: [
     "Generative AI Company In Washington",

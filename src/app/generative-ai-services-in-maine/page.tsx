@@ -27,7 +27,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "AI Company Maine | #1 Gen AI - Metic.ai",
+  title: "Generative AI Company In Maine | Generative AI Services - Metic.AI",
   description: "Leading Generative AI Company In Maine with 50+ successful AI implementations. Expert AI services, ChatGPT Integration solutions & AI development. Transform your business with 60% cost savings & 3x faster delivery.",
   keywords: [
     "Generative AI Company In Maine",
@@ -56,7 +56,7 @@ export const metadata = {
   authors: [{ name: "Metic.ai Maine AI Team" }],
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
-    title: "AI Company Maine | #1 Gen AI - Metic.ai",
+    title: "Generative AI Company In Maine | Generative AI Services - Metic.AI",
     description: "Leading Generative AI Company In Maine with 50+ successful AI implementations. Expert AI services, ChatGPT Integration solutions & AI development for Maine businesses.",
     url: "https://metic.ai/generative-ai-services-in-maine/",
     type: "website",
