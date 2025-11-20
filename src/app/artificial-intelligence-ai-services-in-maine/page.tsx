@@ -272,7 +272,12 @@ export default function AIServicesMainePage() {
             "priceRange": "$$",
             "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer"],
             "currenciesAccepted": "USD",
-            "openingHours": "Mo-Fr 09:00-18:00",
+            "openingHoursSpecification": [{
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+              "opens": "09:00",
+              "closes": "18:00"
+            }],
             "contactPoint": {
               "@type": "ContactPoint",
               "telephone": "+1-789-251-8414",
@@ -444,7 +449,12 @@ export default function AIServicesMainePage() {
               "bestRating": "5",
               "worstRating": "1"
             },
-            "openingHours": "Mo-Fr 09:00-18:00",
+            "openingHoursSpecification": [{
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+              "opens": "09:00",
+              "closes": "18:00"
+            }],
             "sameAs": [
               "https://www.linkedin.com/company/metic-ai",
               "https://twitter.com/metic_ai"
