@@ -463,10 +463,7 @@ export default function AIIntegrationPage() {
                 </div>
                 <h3 className="text-2xl font-bold mb-4">Cloud-based Deployment</h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Cloud-based deployment involves hosting AI solutions on cloud platforms. It offers 
-                  scalability, flexibility, and accessibility, allowing businesses to leverage AI 
-                  capabilities without investing in extensive infrastructure. Cloud providers offer 
-                  AI services, platforms, and infrastructure, reducing the complexity of deployment.
+                  We host AI solutions on cloud platforms. This gives you easy scaling and access. You don't need to buy servers. Cloud providers handle the setup for you.
                 </p>
                 <div className="space-y-2">
                   <div className="flex items-center">
@@ -491,10 +488,7 @@ export default function AIIntegrationPage() {
                 </div>
                 <h3 className="text-2xl font-bold mb-4">On-Premises Deployment</h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  On-premises deployment involves hosting AI solutions within the organization's 
-                  infrastructure. It provides more control over data, security, and customization. 
-                  On-premises deployment is suitable for businesses with specific compliance 
-                  requirements or those handling sensitive data.
+                  We host AI solutions on your own servers. This gives you full control of your data and security. Best for businesses with strict rules or sensitive data.
                 </p>
                 <div className="space-y-2">
                   <div className="flex items-center">

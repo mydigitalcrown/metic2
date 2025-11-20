@@ -544,7 +544,7 @@ export default function Home() {
                         Global AI Innovation Hub
                       </h2>
                       <p className="text-base md:text-lg text-gray-700 font-medium leading-relaxed">
-                        Powering the Future of <span className="text-primary-orange font-bold">Businesses Worldwide</span> with <span className="text-primary-orange font-bold">Advanced AI Solutions</span>
+                        We help <span className="text-primary-orange font-bold">businesses worldwide</span> with <span className="text-primary-orange font-bold">smart AI solutions</span>
                       </p>
                     </div>
                     
@@ -598,21 +598,20 @@ export default function Home() {
             <div className="w-24 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-8 rounded-full"></div>
             <div className="mt-6 text-gray-600 md:text-xl max-w-3xl mx-auto leading-relaxed">
               <p className="mb-4">
-                As a <strong className="text-gray-900">leading artificial intelligence company near you</strong>, we specialize in delivering 
-                AI solutions that drive real business results.
+                We are a <strong className="text-gray-900">top AI company near you</strong>. We help businesses grow with AI solutions.
               </p>
               <ul className="space-y-2 text-left inline-block">
                 <li className="flex items-start">
                   <span className="text-primary-orange mr-2">✓</span>
-                  <span>Expert AI solutions for startups and enterprises</span>
+                  <span>AI solutions for startups and big companies</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary-orange mr-2">✓</span>
-                  <span>Transform your business with AI technology</span>
+                  <span>Grow your business with AI tools</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary-orange mr-2">✓</span>
-                  <span>Global reach with local expertise</span>
+                  <span>We serve clients worldwide</span>
                 </li>
               </ul>
             </div>

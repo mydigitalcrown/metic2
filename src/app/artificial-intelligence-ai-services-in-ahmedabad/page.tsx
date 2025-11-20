@@ -578,8 +578,7 @@ export default function AIServicesAhmedabadPage() {
               </h2>
               <div className="w-20 md:w-24 h-1 md:h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 md:mb-8 rounded-full"></div>
               <p className="text-base md:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-4">
-                Comprehensive artificial intelligence services from Ahmedabad's most Trusted <strong className="text-gray-900">AI Company In Ahmedabad</strong>. 
-                Transforming businesses with cutting-edge AI solutions tailored for Ahmedabad's indINtrial landscape.
+                Full AI services from Ahmedabad. <strong className="text-gray-900">We are the trusted AI Company In Ahmedabad</strong>. We help businesses with AI solutions for Ahmedabad.
               </p>
             </div>
             
