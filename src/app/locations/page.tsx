@@ -4,16 +4,20 @@ import { MapPin, Building, Globe, Users, Star, ArrowRight } from "lucide-react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "AI Services Locations Worldwide | 125+ Cities & States - Metic.ai",
-  description: "Discover Metic AI services across 125+ locations worldwide. From US states to Indian cities, find expert artificial intelligence and machine learning solutions in your area. Global AI company serving 50+ countries.",
+  title: "AI & ML Services Locations Worldwide | 250+ Cities & States - Metic.ai",
+  description: "Discover Metic AI and Machine Learning services across 250+ locations worldwide. From US states to Indian cities, find expert artificial intelligence, ML, and generative AI solutions in your area. Global AI company serving 50+ countries.",
   keywords: [
     "AI Services Locations",
+    "Machine Learning Services Locations",
     "Artificial Intelligence Company Locations", 
     "AI Company Near Me",
+    "ML Services Near Me",
     "Machine Learning Services Worldwide",
     "Global AI Solutions",
     "AI Services USA",
     "AI Services India",
+    "ML Services USA",
+    "ML Services India",
     "Local AI Company",
     "AI Consulting Locations",
     "Regional AI Services",
@@ -26,14 +30,16 @@ export const metadata: Metadata = {
     "Custom AI Solutions Worldwide",
     "AI Strategy Consulting Global",
     "Machine Learning Implementation Locations",
-    "AI Innovation Services Worldwide"
+    "AI Innovation Services Worldwide",
+    "Predictive Analytics Services Locations",
+    "Deep Learning Services Worldwide"
   ],
   alternates: {
     canonical: "https://metic.ai/locations/"
   },
   openGraph: {
-    title: "AI Services Locations Worldwide | 125+ Cities & States - Metic.ai",
-    description: "Discover Metic AI services across 125+ locations worldwide. From US states to Indian cities, find expert artificial intelligence and machine learning solutions in your area.",
+    title: "AI & ML Services Locations Worldwide | 250+ Cities & States - Metic.ai",
+    description: "Discover Metic AI and Machine Learning services across 250+ locations worldwide. From US states to Indian cities, find expert artificial intelligence, ML, and generative AI solutions in your area.",
     url: "https://metic.ai/locations/",
     siteName: "Metic.ai - Global AI Services",
     type: "website",
@@ -130,12 +136,12 @@ export default function LocationsPage() {
             <div className="mb-8 animate-fade-in">
               <span className="px-6 py-3 bg-white rounded-full shadow-xl border-2 border-primary-orange/20 text-primary-orange text-sm font-bold inline-flex items-center gap-2">
                 <Globe className="w-4 h-4" />
-                125+ Service Locations
+                250+ Service Locations
               </span>
             </div>
             
             <h1 className="text-5xl font-bold tracking-tight sm:text-6xl md:text-7xl lg:text-8xl leading-tight mb-8">
-              <strong>AI Services</strong>
+              <strong>AI & ML Services</strong>
               <br />
               <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">
                 <strong>Worldwide</strong>
@@ -143,15 +149,15 @@ export default function LocationsPage() {
             </h1>
             
             <p className="max-w-3xl mx-auto text-xl md:text-2xl text-gray-700 leading-relaxed font-light mb-12">
-              Find <strong className="text-primary-orange">expert artificial intelligence solutions</strong> in your location. 
+              Find <strong className="text-primary-orange">expert artificial intelligence and machine learning solutions</strong> in your location. 
               Serving <strong className="text-primary-orange">50 US states</strong> and <strong className="text-primary-orange">12 major Indian cities</strong> 
-              with world-class AI services and machine learning expertise.
+              with world-class AI, ML, and generative AI services.
             </p>
 
             {/* Quick Stats */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary-orange mb-2">125+</div>
+                <div className="text-3xl font-bold text-primary-orange mb-2">250+</div>
                 <div className="text-sm text-gray-600">Service Locations</div>
               </div>
               <div className="text-center">
@@ -237,6 +243,80 @@ export default function LocationsPage() {
                       <div className="text-sm text-gray-500">AI Solutions</div>
                     </div>
                     <Building className="w-6 h-6 text-primary-orange group-hover:scale-110 transition-transform" />
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Machine Learning US States Section */}
+      <section className="py-20 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold mb-6">
+              <span className="text-gray-900">Machine Learning Services in </span>
+              <span className="text-primary-orange">United States</span>
+            </h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              Advanced machine learning and predictive analytics across all 50 US states
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+            {usStates.map((state) => (
+              <Link 
+                key={state.slug}
+                href={`/machine-learning-services-in-${state.slug}`}
+                className="group"
+              >
+                <div className="bg-white border border-gray-200 rounded-lg p-4 hover:border-secondary-orange/50 hover:shadow-lg transition-all duration-300 hover:scale-105">
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <div className="font-semibold text-gray-900 group-hover:text-secondary-orange transition-colors">
+                        {state.name}
+                      </div>
+                      <div className="text-sm text-gray-500">ML Services</div>
+                    </div>
+                    <MapPin className="w-5 h-5 text-secondary-orange group-hover:scale-110 transition-transform" />
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Machine Learning Indian Cities Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold mb-6">
+              <span className="text-gray-900">Machine Learning Services in </span>
+              <span className="text-primary-orange">India</span>
+            </h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              Expert machine learning solutions in India's major cities
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            {indianCities.map((city) => (
+              <Link 
+                key={city.slug}
+                href={`/machine-learning-services-in-${city.slug}`}
+                className="group"
+              >
+                <div className="bg-white border border-gray-200 rounded-lg p-6 hover:border-secondary-orange/50 hover:shadow-lg transition-all duration-300 hover:scale-105">
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <div className="font-semibold text-lg text-gray-900 group-hover:text-secondary-orange transition-colors">
+                        {city.name}
+                      </div>
+                      <div className="text-sm text-gray-500">ML Solutions</div>
+                    </div>
+                    <Building className="w-6 h-6 text-secondary-orange group-hover:scale-110 transition-transform" />
                   </div>
                 </div>
               </Link>
