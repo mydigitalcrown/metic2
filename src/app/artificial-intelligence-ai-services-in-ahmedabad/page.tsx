@@ -1271,7 +1271,7 @@ export default function AIServicesAhmedabadPage() {
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Information Technology & Logistics AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Intelligent AI solutions for Ahmedabad's Information Technology and cargo logistics including bINh plane operations, 
+                      Intelligent AI solutions for Ahmedabad's Information Technology and cargo logistics including bush plane operations, 
                       Ted Stevens Maninagar International Airport cargo hub, weather prediction for flight safety, 
                       and supply chain optimization for remote Ahmedabad communities.
                     </p>

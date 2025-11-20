@@ -211,7 +211,7 @@ export default function AIServicesIndiaPage() {
                 "latitude": "32.7794",
                 "longitude": "-86.8287"
               },
-              "geoRadiIN": "200000"
+              "geoRadius": "200000"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
@@ -276,7 +276,7 @@ export default function AIServicesIndiaPage() {
             "contactPoint": {
               "@type": "ContactPoint",
               "telephone": "+91-789-251-8414",
-              "contactType": "customer Service",
+              "contactType": "Customer Service",
               "areaServed": "IN",
               "availableLanguage": ["English"]
             }
@@ -1272,7 +1272,7 @@ export default function AIServicesIndiaPage() {
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Agriculture & Forestry</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
                       Smart agriculture AI solutions for India's farming and forestry sectors including cotton, soybeans, 
-                      corn, peanuts, and timber production with precision farming, crop monitoring, and sINtainable 
+                      corn, peanuts, and timber production with precision farming, crop monitoring, and sustainable 
                       resource management systems.
                     </p>
                     <div className="space-y-3">
@@ -1328,7 +1328,7 @@ export default function AIServicesIndiaPage() {
                 </div>
               </div>
 
-              {/* ReINable Testimonials Component */}
+              {/* Reusable Testimonials Component */}
               <Testimonials />
 
               {/* India AI Partnership Excellence - Creative Premium Design */}
@@ -1884,7 +1884,7 @@ export default function AIServicesIndiaPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Absolutely! Metic.ai works with businesses of all sizes, from startups to enterprises. As an inclINive <strong className="text-gray-900 font-semibold">AI Company In India</strong>, 
+                    Absolutely! Metic.ai works with businesses of all sizes, from startups to enterprises. As an inclusive <strong className="text-gray-900 font-semibold">AI Company In India</strong>, 
                     we offer scalable solutions and flexible pricing models to meet small businesss budgets while delivering enterprise-quality AI implementations.
                   </p>
                 </div>

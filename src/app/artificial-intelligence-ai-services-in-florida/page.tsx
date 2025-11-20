@@ -131,7 +131,7 @@ export default function AIServicesFloridaPage() {
     },
     {
       title: "Data Engineering",
-      description: "RobINt data infrastructure and ETL pipelines for Florida enterprises and growing businesses.",
+      description: "Robust data infrastructure and ETL pipelines for Florida enterprises and growing businesses.",
       icon: Database,
       href: "/data-engineering",
       color: "red" as const
@@ -213,7 +213,7 @@ export default function AIServicesFloridaPage() {
                 "latitude": "32.7794",
                 "longitude": "-86.8287"
               },
-              "geoRadiIN": "200000"
+              "geoRadius": "200000"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
@@ -261,7 +261,7 @@ export default function AIServicesFloridaPage() {
               "Computer Vision",
               "AI Automation",
               "Data Science",
-              "business Intelligence",
+              "Business Intelligence",
               "Predictive Analytics"
             ],
             "aggregateRating": {
@@ -278,7 +278,7 @@ export default function AIServicesFloridaPage() {
             "contactPoint": {
               "@type": "ContactPoint",
               "telephone": "+91-789-251-8414",
-              "contactType": "customer Service",
+              "contactType": "Customer Service",
               "areaServed": "US",
               "availableLanguage": ["English"]
             }
@@ -1179,7 +1179,7 @@ export default function AIServicesFloridaPage() {
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Pharmaceuticals AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
                       Advanced AI solutions for Florida's fishing and seafood processing Industry with predictive catch 
-                      analytics, sINtainable fishing optimization, processing automation, cold chain monitoring, 
+                      analytics, sustainable fishing optimization, processing automation, cold chain monitoring, 
                       and quality control for the world's richest seafood harvest.
                     </p>
                     <div className="space-y-3">
@@ -1197,7 +1197,7 @@ export default function AIServicesFloridaPage() {
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-secondary-orange flex-shrink-0" />
-                        <span className="text-sm text-gray-600">SINtainable fishing intelligence</span>
+                        <span className="text-sm text-gray-600">sustainable fishing intelligence</span>
                       </div>
                     </div>
                   </div>
@@ -1271,7 +1271,7 @@ export default function AIServicesFloridaPage() {
                     </div>
                     <h4 className="text-2xl font-bold text-gray-900 mb-6">Information Technology & Logistics AI</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Intelligent AI solutions for Florida's Information Technology and cargo logistics including bINh plane operations, 
+                      Intelligent AI solutions for Florida's Information Technology and cargo logistics including bush plane operations, 
                       Ted Stevens Tampa International Airport cargo hub, weather prediction for flight safety, 
                       and supply chain optimization for remote Florida communities.
                     </p>
@@ -1297,7 +1297,7 @@ export default function AIServicesFloridaPage() {
                 </div>
               </div>
 
-              {/* ReINable Testimonials Component */}
+              {/* Reusable Testimonials Component */}
               <Testimonials />
 
               {/* Florida AI Partnership Excellence - Creative Premium Design */}
@@ -1311,23 +1311,23 @@ export default function AIServicesFloridaPage() {
                       Florida AI Leadership Metrics
                     </h4>
                     <div className="space-y-6">
-                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Florida Projects Completed</span>
                         <span className="font-bold text-primary-orange text-xl">700+</span>
                       </div>
-                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Industry Success Rate</span>
                         <span className="font-bold text-secondary-orange text-xl">99.5%</span>
                       </div>
-                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Average ROI for Florida Clients</span>
                         <span className="font-bold text-primary-orange text-xl">5.2x</span>
                       </div>
-                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Client Retention Rate</span>
                         <span className="font-bold text-secondary-orange text-xl">97%</span>
                       </div>
-                      <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Average Deployment Time</span>
                         <span className="font-bold text-primary-orange text-xl">28 Days</span>
                       </div>
@@ -1465,7 +1465,7 @@ export default function AIServicesFloridaPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1501,7 +1501,7 @@ export default function AIServicesFloridaPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1537,7 +1537,7 @@ export default function AIServicesFloridaPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1573,7 +1573,7 @@ export default function AIServicesFloridaPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1609,7 +1609,7 @@ export default function AIServicesFloridaPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1645,7 +1645,7 @@ export default function AIServicesFloridaPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1684,7 +1684,7 @@ export default function AIServicesFloridaPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1720,7 +1720,7 @@ export default function AIServicesFloridaPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1756,7 +1756,7 @@ export default function AIServicesFloridaPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1792,7 +1792,7 @@ export default function AIServicesFloridaPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1817,7 +1817,7 @@ export default function AIServicesFloridaPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    No technical knowledge required! Metic.ai guides you through every step with clear communication. As a client-focINed <strong className="text-gray-900 font-semibold">AI Service In Florida</strong>, 
+                    No technical knowledge required! Metic.ai guides you through every step with clear communication. As a client-focused <strong className="text-gray-900 font-semibold">AI Service In Florida</strong>, 
                     we translate complex AI concepts into simple business terms and handle all technical aspects for you.
                   </p>
                 </div>
@@ -1828,7 +1828,7 @@ export default function AIServicesFloridaPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
@@ -1853,7 +1853,7 @@ export default function AIServicesFloridaPage() {
                 </summary>
                 <div className="mt-3 bg-white rounded-2xl p-6 shadow-lg border-2 border-primary-orange/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Absolutely! Metic.ai works with businesses of all sizes, from startups to enterprises. As an inclINive <strong className="text-gray-900 font-semibold">AI Company In Florida</strong>, 
+                    Absolutely! Metic.ai works with businesses of all sizes, from startups to enterprises. As an inclusive <strong className="text-gray-900 font-semibold">AI Company In Florida</strong>, 
                     we offer scalable solutions and flexible pricing models to meet small business budgets while delivering enterprise-quality AI implementations.
                   </p>
                 </div>
@@ -1864,7 +1864,7 @@ export default function AIServicesFloridaPage() {
                 <summary className="list-none cursor-pointer">
                   <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl border-2 border-gray-100 hover:border-primary-orange/50 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-orange/0 to-secondary-orange/0 group-hover:from-primary-orange/5 group-hover:to-secondary-orange/5 transition-all duration-500"></div>
-                    <div className="relative flex items-start jINtify-between gap-4">
+                    <div className="relative flex items-start justify-between gap-4">
                       <div className="flex items-start gap-4 flex-1">
                         <div className="relative flex-shrink-0">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary-orange to-secondary-orange rounded-xl blur-lg opacity-0 group-hover:opacity-40 transition-opacity"></div>
