@@ -238,7 +238,8 @@ export default function Home() {
               "@type": "Review",
               "itemReviewed": {
                 "@type": "LocalBusiness",
-                "name": "Metic AI"
+                "name": "Metic AI",
+                "url": "https://metic.ai"
               },
               "author": {
                 "@type": "Person",
@@ -257,7 +258,8 @@ export default function Home() {
               "@type": "Review",
               "itemReviewed": {
                 "@type": "LocalBusiness",
-                "name": "Metic AI"
+                "name": "Metic AI",
+                "url": "https://metic.ai"
               },
               "author": {
                 "@type": "Person",
@@ -276,7 +278,8 @@ export default function Home() {
               "@type": "Review",
               "itemReviewed": {
                 "@type": "LocalBusiness",
-                "name": "Metic AI"
+                "name": "Metic AI",
+                "url": "https://metic.ai"
               },
               "author": {
                 "@type": "Person",

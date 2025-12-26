@@ -152,7 +152,7 @@ export default function AIServicesDelawarePage() {
   ];
 
   const stats = [
-    { number: "50+", label: "Businesses Served" },
+    { number: "100+", label: "Businesses Served" },
     { number: "98%", label: "Client Satisfaction" },
     { number: "4.8x", label: "Average ROI Increase" },
     { number: "24/7", label: "Support Available" }
@@ -665,7 +665,7 @@ export default function AIServicesDelawarePage() {
                     <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
                       <Users className="w-6 h-6 text-primary-orange" />
                     </div>
-                    <div className="font-bold text-xl text-gray-900">50+</div>
+                    <div className="font-bold text-xl text-gray-900">100+</div>
                     <div className="text-gray-600 text-sm">AI Experts Team</div>
                   </div>
                   <div className="text-center">

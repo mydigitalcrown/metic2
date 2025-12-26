@@ -655,7 +655,7 @@ export default function AIServicesFloridaPage() {
                     <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
                       <Users className="w-6 h-6 text-primary-orange" />
                     </div>
-                    <div className="font-bold text-xl text-gray-900">50+</div>
+                    <div className="font-bold text-xl text-gray-900">100+</div>
                     <div className="text-gray-600 text-sm">AI Experts Team</div>
                   </div>
                   <div className="text-center">

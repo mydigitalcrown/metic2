@@ -60,7 +60,7 @@ export const metadata = {
     description: "Leading Artificial Intelligence Company In Kolkata with 100+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Kolkata businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-Kolkata/",
     type: "website",
-    locale: "en_US",
+    locale: "en_IN",
     siteName: "Metic.ai - AI Company In Kolkata",
     images: [
       {
@@ -152,7 +152,7 @@ export default function AIServicesKolkataPage() {
   ];
 
   const stats = [
-    { number: "50+", label: "AL Businesses Served" },
+    { number: "100+", label: "AL Businesses Served" },
     { number: "98%", label: "Client Satisfaction" },
     { number: "4.1x", label: "Average ROI Increase" },
     { number: "24/7", label: "Support Available" }
@@ -665,7 +665,7 @@ export default function AIServicesKolkataPage() {
                     <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
                       <Users className="w-6 h-6 text-primary-orange" />
                     </div>
-                    <div className="font-bold text-xl text-gray-900">50+</div>
+                    <div className="font-bold text-xl text-gray-900">100+</div>
                     <div className="text-gray-600 text-sm">AI Experts Team</div>
                   </div>
                   <div className="text-center">

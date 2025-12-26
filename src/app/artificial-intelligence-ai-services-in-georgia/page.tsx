@@ -154,7 +154,7 @@ export default function AIServicesGeorgiaPage() {
   ];
 
   const stats = [
-    { number: "50+", label: "Businesses Served" },
+    { number: "100+", label: "Businesses Served" },
     { number: "98%", label: "Client Satisfaction" },
     { number: "4.3x", label: "Average ROI Increase" },
     { number: "24/7", label: "Support Available" }
@@ -667,7 +667,7 @@ export default function AIServicesGeorgiaPage() {
                     <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
                       <Users className="w-6 h-6 text-primary-orange" />
                     </div>
-                    <div className="font-bold text-xl text-gray-900">50+</div>
+                    <div className="font-bold text-xl text-gray-900">100+</div>
                     <div className="text-gray-600 text-sm">AI Experts Team</div>
                   </div>
                   <div className="text-center">
@@ -1113,7 +1113,7 @@ export default function AIServicesGeorgiaPage() {
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">850+</div>
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">8100+</div>
                         <div className="text-sm text-gray-600 font-medium">Georgia AI Projects Completed</div>
                         <div className="text-xs text-gray-500 mt-2">Industry-Leading Success Rate</div>
                       </div>
@@ -1356,7 +1356,7 @@ export default function AIServicesGeorgiaPage() {
                     <div className="space-y-6">
                       <div className="flex justify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Georgia Projects Completed</span>
-                        <span className="font-bold text-primary-orange text-xl">850+</span>
+                        <span className="font-bold text-primary-orange text-xl">8100+</span>
                       </div>
                       <div className="flex justify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Industry Success Rate</span>

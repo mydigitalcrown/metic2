@@ -60,7 +60,7 @@ export const metadata = {
     description: "Leading Artificial Intelligence Company In Coimbatore with 100+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Coimbatore businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-coimbatore/",
     type: "website",
-    locale: "en_US",
+    locale: "en_IN",
     siteName: "Metic.ai - AI Company In Coimbatore",
     images: [
       {
@@ -665,7 +665,7 @@ export default function AIServicesCoimbatorePage() {
                     <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
                       <Users className="w-6 h-6 text-primary-orange" />
                     </div>
-                    <div className="font-bold text-xl text-gray-900">50+</div>
+                    <div className="font-bold text-xl text-gray-900">100+</div>
                     <div className="text-gray-600 text-sm">AI Experts Team</div>
                   </div>
                   <div className="text-center">

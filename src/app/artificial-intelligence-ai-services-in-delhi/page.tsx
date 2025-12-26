@@ -60,7 +60,7 @@ export const metadata = {
     description: "Leading Artificial Intelligence Company In Delhi with 100+ successful AI implementations. Expert AI services, machine learning solutions & AI development for Delhi businesses.",
     url: "https://metic.ai/artificial-intelligence-ai-services-in-delhi/",
     type: "website",
-    locale: "en_US",
+    locale: "en_IN",
     siteName: "Metic.ai - AI Company In Delhi",
     images: [
       {
@@ -152,7 +152,7 @@ export default function AIServicesDelhiPage() {
   ];
 
   const stats = [
-    { number: "50+", label: "Businesses Served" },
+    { number: "100+", label: "Businesses Served" },
     { number: "99%", label: "Client Satisfaction" },
     { number: "4.7x", label: "Average ROI Increase" },
     { number: "24/7", label: "Support Available" }
@@ -665,7 +665,7 @@ export default function AIServicesDelhiPage() {
                     <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
                       <Users className="w-6 h-6 text-primary-orange" />
                     </div>
-                    <div className="font-bold text-xl text-gray-900">50+</div>
+                    <div className="font-bold text-xl text-gray-900">100+</div>
                     <div className="text-gray-600 text-sm">AI Experts Team</div>
                   </div>
                   <div className="text-center">
@@ -1111,7 +1111,7 @@ export default function AIServicesDelhiPage() {
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">650+</div>
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">6100+</div>
                         <div className="text-sm text-gray-600 font-medium">Delhi AI Projects Completed</div>
                         <div className="text-xs text-gray-500 mt-2">Industry-Leading Success Rate</div>
                       </div>

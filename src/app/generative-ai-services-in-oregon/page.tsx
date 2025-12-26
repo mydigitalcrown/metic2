@@ -28,7 +28,7 @@ import {
 
 export const metadata = {
   title: "Gen AI Company Oregon | AI Services - Metic.AI",
-  description: "Leading Generative AI Company In Oregon with 50+ successful AI implementations. Expert ChatGPT integration, GPT-4 services, LLM development & AI solutions. Transform your business with 60% cost savings & 3x faster delivery.",
+  description: "Leading Generative AI Company In Oregon with 100+ successful AI implementations. Expert ChatGPT integration, GPT-4 services, LLM development & AI solutions. Transform your business with 60% cost savings & 3x faster delivery.",
   keywords: [
     "Generative AI Company In Oregon",
     "Generative AI Services In Oregon", 
@@ -57,7 +57,7 @@ export const metadata = {
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
     title: "Generative AI Company In Oregon | #1 Generative AI Services In Oregon - Metic.ai",
-    description: "Leading Generative AI Company In Oregon with 50+ successful AI implementations. Expert AI services, Generative AI solutions & AI development for Oregon businesses.",
+    description: "Leading Generative AI Company In Oregon with 100+ successful AI implementations. Expert AI services, Generative AI solutions & AI development for Oregon businesses.",
     url: "https://metic.ai/generative-ai-services-in-oregon/",
     type: "website",
     locale: "en_IN",
@@ -212,7 +212,7 @@ export default function GenerativeAIServicesOregonPage() {
   ];
 
   const stats = [
-    { number: "50+", label: "Projects Delivered" },
+    { number: "100+", label: "Projects Delivered" },
     { number: "99.5%", label: "Client Satisfaction" },
     { number: "5.2x", label: "Average ROI Increase" },
     { number: "24/7", label: "Support Available" }
@@ -357,7 +357,7 @@ export default function GenerativeAIServicesOregonPage() {
                 "name": "Which is the best Generative AI Company In Oregon?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Metic.ai is the leading Generative AI Company In Oregon with 50+ successful generative AI implementations. We provide comprehensive ChatGPT integration, GPT-4 development, LLM solutions, AI image generation, Custom GPT development, and enterprise AI automation with proven 60% cost savings and 3x faster delivery."
+                  "text": "Metic.ai is the leading Generative AI Company In Oregon with 100+ successful generative AI implementations. We provide comprehensive ChatGPT integration, GPT-4 development, LLM solutions, AI image generation, Custom GPT development, and enterprise AI automation with proven 60% cost savings and 3x faster delivery."
                 }
               },
               {
@@ -373,7 +373,7 @@ export default function GenerativeAIServicesOregonPage() {
                 "name": "How to choose the right Generative AI Company In Oregon?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Choose a Generative AI Company In Oregon with proven experience in ChatGPT integration, GPT-4 development, successful LLM implementations, Industry expertise, and local presence. Metic.ai offers all these with 50+ completed generative AI projects and deep understanding of Oregon's business landscape."
+                  "text": "Choose a Generative AI Company In Oregon with proven experience in ChatGPT integration, GPT-4 development, successful LLM implementations, Industry expertise, and local presence. Metic.ai offers all these with 100+ completed generative AI projects and deep understanding of Oregon's business landscape."
                 }
               },
               {
@@ -713,7 +713,7 @@ export default function GenerativeAIServicesOregonPage() {
                     <div className="w-12 h-12 bg-primary-orange/10 rounded-full flex items-center justify-center mx-auto mb-3">
                       <Users className="w-6 h-6 text-primary-orange" />
                     </div>
-                    <div className="font-bold text-xl text-gray-900">50+</div>
+                    <div className="font-bold text-xl text-gray-900">100+</div>
                     <div className="text-gray-600 text-sm">AI Experts Team</div>
                   </div>
                   <div className="text-center">
@@ -1157,7 +1157,7 @@ export default function GenerativeAIServicesOregonPage() {
                       </div>
                       
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">50+</div>
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">100+</div>
                         <div className="text-sm text-gray-600 font-medium">Oregon Generative AI Projects</div>
                         <div className="text-xs text-gray-500 mt-2">ChatGPT & LLM Success Rate</div>
                       </div>
@@ -1369,7 +1369,7 @@ export default function GenerativeAIServicesOregonPage() {
                     <div className="space-y-6">
                       <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-primary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Oregon Projects Completed</span>
-                        <span className="font-bold text-primary-orange text-xl">50+</span>
+                        <span className="font-bold text-primary-orange text-xl">100+</span>
                       </div>
                       <div className="flex jINtify-between items-center p-4 bg-gradient-to-r from-secondary-orange/5 to-transparent rounded-lg transform hover:scale-105 transition-transform">
                         <span className="text-gray-600 font-medium">Industry Success Rate</span>
@@ -2018,7 +2018,7 @@ export default function GenerativeAIServicesOregonPage() {
               <p className="text-orange-200 mb-6">Trusted <strong>AI Service </strong> serving businesses across the state</p>
               <div className="grid md:grid-cols-3 gap-8 text-center mb-8">
                 <div>
-                  <div className="text-2xl font-bold mb-2">50+</div>
+                  <div className="text-2xl font-bold mb-2">100+</div>
                   <p className="text-orange-100">AI Projects Completed</p>
                 </div>
                 <div>
