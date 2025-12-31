@@ -57,11 +57,6 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://metic.ai',
   },
-  icons: {
-    icon: '/favicon-32x32.png',
-    shortcut: '/favicon-32x32.png',
-    apple: '/favicon-32x32.png',
-  },
   manifest: '/site.webmanifest',
   openGraph: {
     title: "Artificial Intelligence Company Near Me | Best AI Company - Metic.ai",
