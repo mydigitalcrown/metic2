@@ -28,7 +28,7 @@ import {
 
 export const metadata = {
   title: "Gen AI Company North Dakota | AI Services - Metic.AI",
-  description: "Leading Generative AI Company In North Dakota with 100+ successful AI implementations. Expert ChatGPT integration, GPT-4 services, LLM development & AI solutions. Transform your business with 60% cost savings & 3x faster delivery.",
+  description: "#1 Generative AI Company In North Dakota with 100+ successful AI implementations. Expert ChatGPT integration, GPT-4 services, LLM development & AI solutions. Transform your business with 60% cost savings & 3x faster delivery. Get free consultation today!",
   keywords: [
     "Generative AI Company In North Dakota",
     "Generative AI Services In North Dakota", 
@@ -58,7 +58,7 @@ export const metadata = {
   openGraph: {
     title: "Generative AI Company In North Dakota | #1 Generative AI Services In North Dakota - Metic.ai",
     description: "Leading Generative AI Company In North Dakota with 100+ successful AI implementations. Expert AI services, Generative AI solutions & AI development for North Dakota businesses.",
-    url: "https://metic.ai/generative-ai-services-in-North Dakota/",
+    url: "https://metic.ai/generative-ai-services-in-north-dakota/",
     type: "website",
     locale: "en_US",
     siteName: "Metic.ai - Generative AI Services In North Dakota",
@@ -89,7 +89,7 @@ export const metadata = {
     yahoo: "yahoo-verification-code"
   },
   category: "Technology",
-  classification: "business Services"
+  classification: "Business Services"
 };
 
 export default function GenerativeAIServicesNorthDakotaPage() {
@@ -414,9 +414,92 @@ export default function GenerativeAIServicesNorthDakotaPage() {
               }
             },
             "datePublished": "2024-01-15",
-            "dateModified": "2024-10-30",
+            "dateModified": "2025-12-31",
             "mainEntityOfPage": "https://metic.ai/generative-ai-services-in-north-dakota/",
-            "keywords": "Generative AI Company In North Dakota, Generative AI Services In North Dakota, AI Service "
+            "keywords": "Generative AI Company In North Dakota, Generative AI Services In North Dakota, ChatGPT Integration, GPT-4 Services, LLM Development",
+            "articleSection": "Generative AI Services",
+            "wordCount": 9254,
+            "speakable": {
+              "@type": "SpeakableSpecification",
+              "cssSelector": ["h1", "h2", ".hero-description"]
+            }
+          })
+        }}
+      />
+
+      {/* HowTo Schema for Voice Search Optimization */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "HowTo",
+            "name": "How to Implement Generative AI Solutions in North Dakota",
+            "description": "Step-by-step guide to implementing generative AI, ChatGPT, and LLM solutions for North Dakota businesses",
+            "totalTime": "PT45M",
+            "estimatedCost": {
+              "@type": "MonetaryAmount",
+              "currency": "USD",
+              "value": "0"
+            },
+            "step": [
+              {
+                "@type": "HowToStep",
+                "position": 1,
+                "name": "Assess Your Generative AI Needs",
+                "text": "Identify specific use cases for generative AI such as content creation, customer service automation, code generation, or image generation. Determine which AI models (ChatGPT, GPT-4, DALL-E, etc.) best fit your needs.",
+                "url": "https://metic.ai/generative-ai-services-in-north-dakota/#assess"
+              },
+              {
+                "@type": "HowToStep",
+                "position": 2,
+                "name": "Choose the Right Generative AI Company",
+                "text": "Select a generative AI company in North Dakota with proven experience in LLM development, ChatGPT integration, and enterprise AI solutions. Review their portfolio and client testimonials.",
+                "url": "https://metic.ai/generative-ai-services-in-north-dakota/#choose"
+              },
+              {
+                "@type": "HowToStep",
+                "position": 3,
+                "name": "Schedule Free Consultation",
+                "text": "Contact Metic.ai for a free consultation to discuss your generative AI requirements, expected outcomes, and implementation timeline. Get expert guidance on the best approach.",
+                "url": "https://metic.ai/contact"
+              },
+              {
+                "@type": "HowToStep",
+                "position": 4,
+                "name": "Start with Proof of Concept",
+                "text": "Begin with a small pilot project to test ChatGPT integration or custom GPT development. Validate the AI solution's effectiveness and ROI before full-scale deployment.",
+                "url": "https://metic.ai/generative-ai-services-in-north-dakota/#poc"
+              },
+              {
+                "@type": "HowToStep",
+                "position": 5,
+                "name": "Scale and Optimize",
+                "text": "After successful POC, deploy generative AI solutions to production with ongoing optimization, fine-tuning, and support. Monitor performance and refine based on results.",
+                "url": "https://metic.ai/generative-ai-services-in-north-dakota/#scale"
+              }
+            ]
+          })
+        }}
+      />
+
+      {/* ImageObject Schema for Better Image SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "contentUrl": "https://metic.ai/og-generative-ai-north-dakota.jpg",
+            "url": "https://metic.ai/og-generative-ai-north-dakota.jpg",
+            "name": "Generative AI Company In North Dakota - Metic.ai",
+            "description": "Leading Generative AI Company In North Dakota providing ChatGPT integration, GPT-4 services, LLM development and AI solutions",
+            "width": 1200,
+            "height": 630,
+            "author": {
+              "@type": "Organization",
+              "name": "Metic.ai"
+            }
           })
         }}
       />
@@ -519,15 +602,16 @@ export default function GenerativeAIServicesNorthDakotaPage() {
 
             <div className="text-center">  
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight mb-4 md:mb-6 leading-tight">
+                <span className="text-white">Leading </span>
                 <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
                   Generative AI Company
                 </span>
                 <br />
-                <span className="text-white">In North Dakota</span>
+                <span className="text-white">In North Dakota | #1 AI Services</span>
               </h1>
               
               {/* VSO Optimized Description - Mobile Friendly */}
-              <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 mb-6 md:mb-8 max-w-4xl mx-auto leading-relaxed px-4">
+              <p className="hero-description text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 mb-6 md:mb-8 max-w-4xl mx-auto leading-relaxed px-4">
                 Looking for the <strong className="text-primary-orange">best Generative AI Company In North Dakota</strong>? Metic.ai is the premier <strong className="text-white">Generative AI Company In North Dakota</strong> delivering ChatGPT integration, GPT-4 services, LLM development & AI solutions with proven results.
               </p>
 
@@ -676,7 +760,7 @@ export default function GenerativeAIServicesNorthDakotaPage() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                  About Metic.ai - Premier <span className="text-primary-orange">Generative AI Company In North Dakota</span>
+                  Why Is Metic.ai the <span className="text-primary-orange">Best Generative AI Company In North Dakota</span>?
                 </h2>
                 <div className="w-20 h-1 bg-primary-orange mb-8"></div>
                 <p className="text-lg text-gray-700 mb-6">
@@ -773,7 +857,7 @@ export default function GenerativeAIServicesNorthDakotaPage() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
-                Industries We Serve 
+                Which Industries Benefit From Our <span className="text-primary-orange">Generative AI Services In North Dakota</span>?
               </h2>
               <div className="w-20 h-1 bg-primary-orange mx-auto mb-8"></div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
