@@ -322,6 +322,101 @@ export default function Home() {
         }}
       />
 
+      {/* Article Schema for SEO & Content Discovery */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "Artificial Intelligence Company Near Me | Find the Best AI Solutions",
+            "description": "Comprehensive guide to finding the best Artificial Intelligence Company Near You. Expert AI services, machine learning solutions, and intelligent automation for businesses worldwide.",
+            "image": "https://metic.ai/og-image.jpg",
+            "author": {
+              "@type": "Organization",
+              "name": "Metic.ai",
+              "url": "https://metic.ai"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Metic.ai",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://metic.ai/logo.png"
+              }
+            },
+            "datePublished": "2025-01-01",
+            "dateModified": "2025-12-31",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://metic.ai"
+            },
+            "articleSection": "Artificial Intelligence Services",
+            "keywords": "Artificial Intelligence Company Near Me, AI Company Near Me, Best AI Company, Machine Learning Services, AI Solutions",
+            "speakable": {
+              "@type": "SpeakableSpecification",
+              "cssSelector": ["h1", ".hero-description", ".faq-section"]
+            }
+          })
+        }}
+      />
+
+      {/* HowTo Schema for Voice Search & Featured Snippets */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "HowTo",
+            "name": "How to Choose the Best Artificial Intelligence Company Near You",
+            "description": "Step-by-step guide to selecting the right AI company for your business needs",
+            "totalTime": "PT30M",
+            "estimatedCost": {
+              "@type": "MonetaryAmount",
+              "currency": "USD",
+              "value": "0"
+            },
+            "step": [
+              {
+                "@type": "HowToStep",
+                "position": 1,
+                "name": "Assess Your AI Needs",
+                "text": "Identify specific business challenges and opportunities where AI can provide value. Consider areas like automation, predictive analytics, customer experience, or operational efficiency.",
+                "url": "https://metic.ai#assess-needs"
+              },
+              {
+                "@type": "HowToStep",
+                "position": 2,
+                "name": "Research AI Companies Near You",
+                "text": "Look for AI companies with proven track records, client testimonials, and comprehensive service offerings. Check their portfolio of successful implementations and industry expertise.",
+                "url": "https://metic.ai#research"
+              },
+              {
+                "@type": "HowToStep",
+                "position": 3,
+                "name": "Schedule Free Consultations",
+                "text": "Contact top AI companies for free consultations. Discuss your requirements, ask about their approach, and evaluate their understanding of your business needs.",
+                "url": "https://metic.ai/contact"
+              },
+              {
+                "@type": "HowToStep",
+                "position": 4,
+                "name": "Start with a Proof of Concept",
+                "text": "Begin with a small pilot project or POC to test the AI company's capabilities, communication, and delivery quality before committing to larger implementations.",
+                "url": "https://metic.ai#poc"
+              },
+              {
+                "@type": "HowToStep",
+                "position": 5,
+                "name": "Scale Your AI Solutions",
+                "text": "After successful pilots, scale your AI solutions to production with ongoing support and optimization. Establish clear KPIs and success metrics.",
+                "url": "https://metic.ai#scale"
+              }
+            ]
+          })
+        }}
+      />
+
       {/* Breadcrumb Navigation */}
       <nav className="bg-white border-b border-gray-200" aria-label="Breadcrumb">
         <div className="container px-4 md:px-6 py-3">
@@ -402,7 +497,7 @@ export default function Home() {
               </h1>
               
               {/* Enhanced Description with Better Typography */}
-              <p className="max-w-[650px] text-xl md:text-2xl text-gray-700 leading-relaxed font-light">
+              <p className="hero-description max-w-[650px] text-xl md:text-2xl text-gray-700 leading-relaxed font-light">
                 Looking for the best <strong className="text-gray-900 font-semibold">Artificial Intelligence Company Near Me</strong>? 
                 <strong className="text-primary-orange font-semibold">Metic.ai</strong> is your trusted AI partner. 
                 We have <strong className="text-primary-orange font-semibold">2100+ successful projects</strong>. 
@@ -595,8 +690,9 @@ export default function Home() {
               </span>
             </div>
             <h2 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl mb-6">
-              <span className="text-gray-900">World's Most Trusted </span>
-              <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">AI Company</span>
+              <span className="text-gray-900">What Services Does the Best </span>
+              <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">AI Company Near Me</span>
+              <span className="text-gray-900"> Provide?</span>
             </h2>
             <div className="w-24 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-8 rounded-full"></div>
             <div className="mt-6 text-gray-600 md:text-xl max-w-3xl mx-auto leading-relaxed">
@@ -752,8 +848,9 @@ export default function Home() {
         <div className="container px-4 md:px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">
-              <span className="text-gray-900">AI Services </span>
-              <span className="text-primary-orange">Worldwide</span>
+              <span className="text-gray-900">Where Can I Find </span>
+              <span className="text-primary-orange">AI Services Near Me</span>
+              <span className="text-gray-900">?</span>
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               Proudly serving businesses globally with world-class AI solutions
@@ -781,9 +878,9 @@ export default function Home() {
             {/* Main SEO Heading */}
             <div className="text-center mb-16">
               <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                <span className="text-gray-900">Why Choose Metic AI as Your </span>
+                <span className="text-gray-900">Why Should I Choose Metic AI as My </span>
                 <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">
-                  Artificial Intelligence Company Near Me
+                  Artificial Intelligence Company Near Me?
                 </span>
               </h2>
               <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-8 rounded-full"></div>
@@ -1049,7 +1146,7 @@ export default function Home() {
         <div className="container px-4 md:px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
-              What Global Businesses Say About Us
+              What Do Businesses Say About Our AI Company?
             </h2>
             <p className="mt-4 text-gray-600 md:text-lg max-w-2xl mx-auto">
               See why companies worldwide trust Metic AI for their artificial intelligence needs
@@ -1624,11 +1721,10 @@ export default function Home() {
                 <Sparkles className="w-4 h-4 text-primary-orange" />
               </div>
               
-              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-                <span className="text-gray-900">Frequently Asked Questions</span>
-                <br />
+              <h2 className="faq-section text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+                <span className="text-gray-900">How Do I Choose the Best </span>
                 <span className="bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange bg-clip-text text-transparent">
-                  About AI Services Near You
+                  AI Company Near Me?
                 </span>
               </h2>
               <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange via-secondary-orange to-primary-orange mx-auto mb-8 rounded-full"></div>

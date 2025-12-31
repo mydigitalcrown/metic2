@@ -54,6 +54,9 @@ export const metadata: Metadata = {
     telephone: false,
   },
   metadataBase: new URL('https://metic.ai'),
+  alternates: {
+    canonical: 'https://metic.ai',
+  },
   icons: {
     icon: [
       { url: '/favicon.ico', sizes: 'any' },
@@ -68,10 +71,10 @@ export const metadata: Metadata = {
   },
   manifest: '/site.webmanifest',
   openGraph: {
-    title: "AI Company in Michigan | Metic AI - Leading Michigan AI Solutions",
-    description: "Michigan's most trusted AI company. Expert artificial intelligence solutions, machine learning, and automation services for Michigan businesses.",
+    title: "Artificial Intelligence Company Near Me | Best AI Company - Metic.ai",
+    description: "Looking for the best Artificial Intelligence Company Near Me? Metic.ai is your trusted AI partner with 2100+ successful implementations. Expert AI services worldwide.",
     url: 'https://metic.ai',
-    siteName: 'Metic AI',
+    siteName: 'Metic.ai - Leading AI Company',
     locale: 'en_US',
     type: 'website',
     images: [
@@ -85,8 +88,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "AI Company in Michigan | Metic AI",
-    description: "Michigan's premier AI company providing cutting-edge artificial intelligence solutions.",
+    title: "Artificial Intelligence Company Near Me | Best AI Company - Metic.ai",
+    description: "Looking for the best AI Company Near Me? 2100+ successful projects. Expert AI services, machine learning solutions & automation worldwide.",
     creator: '@metic_ai',
     images: ['/twitter-image.jpg'],
   },
@@ -102,9 +105,9 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: 'ABC123XYZ...',
+    google: 'your-google-verification-code-here',
     other: {
-      'msvalidate.01': 'DEF456UVW...',
+      'msvalidate.01': 'your-bing-verification-code-here',
     },
   },
   category: 'technology',
