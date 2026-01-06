@@ -1392,15 +1392,24 @@ export default function CustomAIDevelopmentPage() {
               <h3 className="text-2xl font-bold mb-8 text-white/90">Custom AI Development Services Available In:</h3>
               <div className="flex flex-wrap gap-4 justify-center">
                 {[
-                  "United States", "India", "United Kingdom", "Canada", "Australia",
-                  "Germany", "France", "Singapore", "UAE", "Netherlands"
+                  { name: "California", href: "/artificial-intelligence-ai-services-in-california" },
+                  { name: "Texas", href: "/artificial-intelligence-ai-services-in-texas" },
+                  { name: "New York", href: "/artificial-intelligence-ai-services-in-new-york" },
+                  { name: "Alabama", href: "/artificial-intelligence-ai-services-in-alabama" },
+                  { name: "Alaska", href: "/artificial-intelligence-ai-services-in-alaska" },
+                  { name: "Hawaii", href: "/artificial-intelligence-ai-services-in-hawaii" },
+                  { name: "Arkansas", href: "/artificial-intelligence-ai-services-in-arkansas" },
+                  { name: "Colorado", href: "/artificial-intelligence-ai-services-in-colorado" },
+                  { name: "Kansas", href: "/artificial-intelligence-ai-services-in-kansas" },
+                  { name: "Virginia", href: "/artificial-intelligence-ai-services-in-virginia" }
                 ].map((location) => (
-                  <span
-                    key={location}
-                    className="px-6 py-3 bg-white/20 backdrop-blur-sm text-white text-sm font-medium rounded-full border border-white/30 shadow-lg hover:shadow-xl transition-all duration-300 hover:bg-white/30"
+                  <Link
+                    key={location.name}
+                    href={location.href}
+                    className="px-6 py-3 bg-white/20 backdrop-blur-sm text-white text-sm font-medium rounded-full border border-white/30 shadow-lg hover:shadow-xl hover:bg-white/30 transition-all duration-300"
                   >
-                    {location}
-                  </span>
+                    {location.name}
+                  </Link>
                 ))}
               </div>
             </div>
