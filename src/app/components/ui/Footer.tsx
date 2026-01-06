@@ -38,6 +38,11 @@ export function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/locations" className="hover:text-primary-orange transition-colors">
+                  Locations
+                </Link>
+              </li>
+              <li>
                 <Link href="/contact" className="hover:text-primary-orange transition-colors">
                   Contact Us
                 </Link>
@@ -49,23 +54,23 @@ export function Footer() {
             <h3 className="text-lg font-medium mb-4">Services</h3>
             <ul className="space-y-2 text-gray-400">
               <li>
-                <Link href="/services" className="hover:text-primary-orange transition-colors">
-                  AI Consulting
+                <Link href="/custom-ai-development" className="hover:text-primary-orange transition-colors">
+                  Custom AI Development
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="hover:text-primary-orange transition-colors">
+                <Link href="/machine-learning" className="hover:text-primary-orange transition-colors">
                   Machine Learning
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="hover:text-primary-orange transition-colors">
+                <Link href="/data-insights" className="hover:text-primary-orange transition-colors">
                   Data Analytics
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="hover:text-primary-orange transition-colors">
-                  Automation
+                <Link href="/ai-integration-and-deployment" className="hover:text-primary-orange transition-colors">
+                  AI Integration
                 </Link>
               </li>
             </ul>
