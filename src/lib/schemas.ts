@@ -31,7 +31,7 @@ export const organizationSchema = {
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+91 7892518414",
-    "email": "hello@matic.ai",
+    "email": "hello@metic.ai",
     "contactType": "customer service"
   },
   "sameAs": [
