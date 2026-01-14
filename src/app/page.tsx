@@ -2753,142 +2753,23 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Featured Locations Section - SEO Internal Linking */}
-      <section className="py-20 bg-gradient-to-b from-white to-gray-50">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-7xl mx-auto">
-            <div className="text-center mb-16">
-              <div className="inline-flex items-center gap-2 px-6 py-3 bg-primary-orange/10 rounded-full mb-6">
-                <MapPin className="w-5 h-5 text-primary-orange" />
-                <span className="text-sm font-bold text-primary-orange">SERVING WORLDWIDE</span>
-              </div>
-              <h2 className="text-3xl md:text-5xl font-bold mb-6">
-                <span className="text-gray-900">AI Services</span>{" "}
-                <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">
-                  Near You
-                </span>
-              </h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Expert AI and Machine Learning services across the United States and India. Find your local AI company.
-              </p>
-            </div>
-
-            {/* US States - AI Services */}
-            <div className="mb-16">
-              <h3 className="text-2xl font-bold text-gray-900 mb-8 flex items-center gap-3">
-                <span className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center">
-                  🇺🇸
-                </span>
-                United States - AI Services
-              </h3>
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                {[
-                  { state: 'Michigan', slug: 'michigan', icon: '🏭' },
-                  { state: 'California', slug: 'california', icon: '🌴' },
-                  { state: 'New York', slug: 'new-york', icon: '🗽' },
-                  { state: 'Texas', slug: 'texas', icon: '🤠' },
-                  { state: 'Florida', slug: 'florida', icon: '🌊' },
-                  { state: 'Illinois', slug: 'illinois', icon: '🏙️' },
-                  { state: 'Ohio', slug: 'ohio', icon: '🌰' },
-                  { state: 'Pennsylvania', slug: 'pennsylvania', icon: '🔔' },
-                  { state: 'Georgia', slug: 'georgia', icon: '🍑' },
-                  { state: 'Washington', slug: 'washington', icon: '🌲' },
-                  { state: 'Arizona', slug: 'arizona', icon: '🌵' },
-                  { state: 'Massachusetts', slug: 'massachusetts', icon: '🎓' },
-                ].map((location) => (
-                  <Link
-                    key={location.slug}
-                    href={`/artificial-intelligence-ai-services-in-${location.slug}`}
-                    className="group bg-white rounded-xl p-5 shadow-md hover:shadow-xl transition-all border-2 border-gray-100 hover:border-primary-orange/50 transform hover:-translate-y-1"
-                  >
-                    <div className="flex items-center gap-3 mb-2">
-                      <span className="text-2xl">{location.icon}</span>
-                      <h4 className="font-bold text-gray-900 group-hover:text-primary-orange transition-colors">
-                        {location.state}
-                      </h4>
-                    </div>
-                    <p className="text-sm text-gray-600">AI Company in {location.state}</p>
-                    <div className="mt-3 flex items-center text-primary-orange text-sm font-semibold">
-                      <span>View AI Services</span>
-                      <ArrowRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
-                    </div>
-                  </Link>
-                ))}
-              </div>
-            </div>
-
-            {/* Indian Cities - AI Services */}
-            <div className="mb-16">
-              <h3 className="text-2xl font-bold text-gray-900 mb-8 flex items-center gap-3">
-                <span className="w-12 h-12 bg-orange-100 rounded-xl flex items-center justify-center">
-                  🇮🇳
-                </span>
-                India - AI Services
-              </h3>
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                {[
-                  { city: 'Bangalore', slug: 'bangalore', icon: '💼' },
-                  { city: 'Mumbai', slug: 'mumbai', icon: '🌆' },
-                  { city: 'Delhi', slug: 'delhi', icon: '🏛️' },
-                  { city: 'Hyderabad', slug: 'hyderabad', icon: '💎' },
-                  { city: 'Ahmedabad', slug: 'ahmedabad', icon: '🏗️' },
-                  { city: 'Chennai', slug: 'chennai', icon: '🏖️' },
-                  { city: 'Pune', slug: 'pune', icon: '🎓' },
-                  { city: 'Kolkata', slug: 'kolkata', icon: '📚' },
-                ].map((location) => (
-                  <Link
-                    key={location.slug}
-                    href={`/artificial-intelligence-ai-services-in-${location.slug}`}
-                    className="group bg-white rounded-xl p-5 shadow-md hover:shadow-xl transition-all border-2 border-gray-100 hover:border-primary-orange/50 transform hover:-translate-y-1"
-                  >
-                    <div className="flex items-center gap-3 mb-2">
-                      <span className="text-2xl">{location.icon}</span>
-                      <h4 className="font-bold text-gray-900 group-hover:text-primary-orange transition-colors">
-                        {location.city}
-                      </h4>
-                    </div>
-                    <p className="text-sm text-gray-600">AI Company in {location.city}</p>
-                    <div className="mt-3 flex items-center text-primary-orange text-sm font-semibold">
-                      <span>View AI Services</span>
-                      <ArrowRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
-                    </div>
-                  </Link>
-                ))}
-              </div>
-            </div>
-
-            {/* View All Locations CTA */}
-            <div className="text-center">
-              <Link href="/locations">
-                <Button variant="primary" size="lg" className="shadow-xl">
-                  <MapPin className="w-5 h-5 mr-2" />
-                  View All 143+ Locations
-                  <ArrowRight className="w-5 h-5 ml-2" />
-                </Button>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Location Pages Grid - Internal Linking */}
+      {/* All Service Locations - Three Service Types */}
       <section className="py-20 bg-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-7xl mx-auto">
-            {/* Section Header */}
             <div className="text-center mb-16">
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-                Our <span className="text-primary-orange">AI Services</span> by Location
+                Our <span className="text-primary-orange">Services</span> by Location
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Expert artificial intelligence and machine learning services across major cities and states
+                Artificial Intelligence, Machine Learning, and Generative AI services across major cities and states
               </p>
             </div>
 
             {/* US States Grid */}
             <div className="mb-20">
               <h3 className="text-2xl font-bold text-gray-900 mb-8">United States</h3>
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {[
                   'Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware',
                   'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas',
@@ -2900,20 +2781,32 @@ export default function Home() {
                 ].map((state) => {
                   const slug = state.toLowerCase().replace(/\s+/g, '-');
                   return (
-                    <Link
-                      key={state}
-                      href={`/artificial-intelligence-ai-services-in-${slug}`}
-                      className="group p-4 bg-white border-2 border-gray-200 rounded-lg hover:border-primary-orange hover:shadow-lg transition-all duration-300"
-                    >
-                      <h4 className="font-semibold text-gray-900 group-hover:text-primary-orange transition-colors">
-                        {state}
-                      </h4>
-                      <p className="text-sm text-gray-600 mt-1">Artificial Intelligence Company</p>
-                      <div className="flex items-center text-primary-orange text-sm font-semibold mt-2 opacity-0 group-hover:opacity-100 transition-opacity">
-                        <span>Learn More</span>
-                        <ArrowRight className="w-3 h-3 ml-1" />
+                    <div key={state} className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-primary-orange hover:shadow-lg transition-all duration-300">
+                      <h4 className="font-bold text-gray-900 text-lg mb-4">{state}</h4>
+                      <div className="space-y-3">
+                        <Link
+                          href={`/artificial-intelligence-ai-services-in-${slug}`}
+                          className="flex items-start gap-2 group text-sm text-gray-700 hover:text-primary-orange transition-colors"
+                        >
+                          <span className="text-primary-orange font-bold">→</span>
+                          <span className="group-hover:underline">Artificial Intelligence Company in {state}</span>
+                        </Link>
+                        <Link
+                          href={`/machine-learning-services-in-${slug}`}
+                          className="flex items-start gap-2 group text-sm text-gray-700 hover:text-primary-orange transition-colors"
+                        >
+                          <span className="text-primary-orange font-bold">→</span>
+                          <span className="group-hover:underline">Machine Learning Services in {state}</span>
+                        </Link>
+                        <Link
+                          href={`/generative-ai-services-in-${slug}`}
+                          className="flex items-start gap-2 group text-sm text-gray-700 hover:text-primary-orange transition-colors"
+                        >
+                          <span className="text-primary-orange font-bold">→</span>
+                          <span className="group-hover:underline">Generative AI Services in {state}</span>
+                        </Link>
                       </div>
-                    </Link>
+                    </div>
                   );
                 })}
               </div>
@@ -2922,27 +2815,39 @@ export default function Home() {
             {/* India Cities Grid */}
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-8">India</h3>
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {[
                   'Ahmedabad', 'Bangalore', 'Chennai', 'Coimbatore', 'Delhi', 'Gurugram', 'Hyderabad',
                   'Kolkata', 'Mumbai', 'Noida', 'Pune', 'Vizag'
                 ].map((city) => {
                   const slug = city.toLowerCase().replace(/\s+/g, '-');
                   return (
-                    <Link
-                      key={city}
-                      href={`/artificial-intelligence-ai-services-in-${slug}`}
-                      className="group p-4 bg-white border-2 border-gray-200 rounded-lg hover:border-primary-orange hover:shadow-lg transition-all duration-300"
-                    >
-                      <h4 className="font-semibold text-gray-900 group-hover:text-primary-orange transition-colors">
-                        {city}
-                      </h4>
-                      <p className="text-sm text-gray-600 mt-1">Artificial Intelligence Company</p>
-                      <div className="flex items-center text-primary-orange text-sm font-semibold mt-2 opacity-0 group-hover:opacity-100 transition-opacity">
-                        <span>Learn More</span>
-                        <ArrowRight className="w-3 h-3 ml-1" />
+                    <div key={city} className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-primary-orange hover:shadow-lg transition-all duration-300">
+                      <h4 className="font-bold text-gray-900 text-lg mb-4">{city}</h4>
+                      <div className="space-y-3">
+                        <Link
+                          href={`/artificial-intelligence-ai-services-in-${slug}`}
+                          className="flex items-start gap-2 group text-sm text-gray-700 hover:text-primary-orange transition-colors"
+                        >
+                          <span className="text-primary-orange font-bold">→</span>
+                          <span className="group-hover:underline">Artificial Intelligence Company in {city}</span>
+                        </Link>
+                        <Link
+                          href={`/machine-learning-services-in-${slug}`}
+                          className="flex items-start gap-2 group text-sm text-gray-700 hover:text-primary-orange transition-colors"
+                        >
+                          <span className="text-primary-orange font-bold">→</span>
+                          <span className="group-hover:underline">Machine Learning Services in {city}</span>
+                        </Link>
+                        <Link
+                          href={`/generative-ai-services-in-${slug}`}
+                          className="flex items-start gap-2 group text-sm text-gray-700 hover:text-primary-orange transition-colors"
+                        >
+                          <span className="text-primary-orange font-bold">→</span>
+                          <span className="group-hover:underline">Generative AI Services in {city}</span>
+                        </Link>
                       </div>
-                    </Link>
+                    </div>
                   );
                 })}
               </div>
