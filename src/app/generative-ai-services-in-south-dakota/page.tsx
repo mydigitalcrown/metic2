@@ -1381,7 +1381,7 @@ export default function GenerativeAIServicesSouthDakotaPage() {
               </div>
 
               {/* Reusable Testimonials Component */}
-              <Testimonials />
+              <Testimonials serviceType="generative-ai" />
 
               {/* South Dakota AI Partnership Excellence - Creative Premium Design */}
               <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -2081,6 +2081,7 @@ export default function GenerativeAIServicesSouthDakotaPage() {
     </>
   );
 }
+
 
 
 

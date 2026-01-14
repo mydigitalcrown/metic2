@@ -1302,7 +1302,7 @@ export default function AIServicesArizonaPage() {
               </div>
 
               {/* Reusable Testimonials Component */}
-              <Testimonials />
+              <Testimonials serviceType="ai" />
 
               {/* Arizona AI Partnership Excellence - Creative Premium Design */}
               <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -2002,6 +2002,7 @@ export default function AIServicesArizonaPage() {
     </>
   );
 }
+
 
 
 

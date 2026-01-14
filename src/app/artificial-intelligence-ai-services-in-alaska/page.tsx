@@ -1302,7 +1302,7 @@ export default function AIServicesAlaskaPage() {
               </div>
 
               {/* Reusable Testimonials Component */}
-              <Testimonials />
+              <Testimonials serviceType="ai" />
 
               {/* Alaska AI Partnership Excellence - Creative Premium Design */}
               <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -2002,6 +2002,7 @@ export default function AIServicesAlaskaPage() {
     </>
   );
 }
+
 
 
 

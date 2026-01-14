@@ -1339,7 +1339,7 @@ export default function AIServicesNebraskaPage() {
               </div>
 
               {/* Reusable Testimonials Component */}
-              <Testimonials />
+              <Testimonials serviceType="ai" />
 
               {/* Nebraska AI Partnership Excellence - Creative Premium Design */}
               <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -2039,6 +2039,7 @@ export default function AIServicesNebraskaPage() {
     </>
   );
 }
+
 
 
 

@@ -1295,7 +1295,7 @@ export default function GenerativeAIServicesIndiaPage() {
               </div>
 
               {/* ReINable Testimonials Component */}
-              <Testimonials />
+              <Testimonials serviceType="generative-ai" />
 
               {/* India AI Partnership Excellence - Creative Premium Design */}
               <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -1995,6 +1995,7 @@ export default function GenerativeAIServicesIndiaPage() {
     </>
   );
 }
+
 
 
 

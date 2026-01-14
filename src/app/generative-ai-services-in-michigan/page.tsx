@@ -1287,7 +1287,7 @@ export default function GenerativeAIServicesMichiganPage() {
               </div>
 
               {/* ReINable Testimonials Component */}
-              <Testimonials />
+              <Testimonials serviceType="generative-ai" />
 
               {/* Michigan AI Partnership Excellence - Creative Premium Design */}
               <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -1987,6 +1987,7 @@ export default function GenerativeAIServicesMichiganPage() {
     </>
   );
 }
+
 
 
 

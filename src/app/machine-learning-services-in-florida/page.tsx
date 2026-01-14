@@ -1298,7 +1298,7 @@ export default function MLServicesFloridaPage() {
               </div>
 
               {/* ReINable Testimonials Component */}
-              <Testimonials />
+              <Testimonials serviceType="ml" />
 
               {/* Florida ML Partnership Excellence - Creative Premium Design */}
               <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -1998,6 +1998,7 @@ export default function MLServicesFloridaPage() {
     </>
   );
 }
+
 
 
 

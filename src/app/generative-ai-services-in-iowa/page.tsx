@@ -1294,7 +1294,7 @@ export default function GenerativeAIServicesIowaPage() {
               </div>
 
               {/* ReINable Testimonials Component */}
-              <Testimonials />
+              <Testimonials serviceType="generative-ai" />
 
               {/* Iowa AI Partnership Excellence - Creative PreIAum Design */}
               <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -1994,6 +1994,7 @@ export default function GenerativeAIServicesIowaPage() {
     </>
   );
 }
+
 
 
 

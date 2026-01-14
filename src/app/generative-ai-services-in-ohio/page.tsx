@@ -1344,7 +1344,7 @@ export default function GenerativeAIServicesOhioPage() {
               </div>
 
               {/* ReINable Testimonials Component */}
-              <Testimonials />
+              <Testimonials serviceType="generative-ai" />
 
               {/* Ohio AI Partnership Excellence - Creative Premium Design */}
               <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -2044,6 +2044,7 @@ export default function GenerativeAIServicesOhioPage() {
     </>
   );
 }
+
 
 
 

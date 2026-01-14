@@ -1340,7 +1340,7 @@ export default function AIServicesMumbaiPage() {
               </div>
 
               {/* Reusable Testimonials Component */}
-              <Testimonials />
+              <Testimonials serviceType="ai" />
 
               {/* Mumbai AI Partnership Excellence - Creative Premium Design */}
               <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -2040,6 +2040,7 @@ export default function AIServicesMumbaiPage() {
     </>
   );
 }
+
 
 
 

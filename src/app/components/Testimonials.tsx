@@ -88,7 +88,28 @@ const testimonials: Testimonial[] = [
   }
 ];
 
-export default function Testimonials() {
+interface TestimonialsProps {
+  serviceType?: 'ai' | 'ml' | 'generative-ai';
+}
+
+const serviceTypeText = {
+  'ai': {
+    title: 'Artificial Intelligence Implementation',
+    description: 'Real results from businesses that transformed their operations with Metic.ai\'s Artificial Intelligence solutions'
+  },
+  'ml': {
+    title: 'Machine Learning Implementation',
+    description: 'Real results from businesses that transformed their operations with Metic.ai\'s Machine Learning solutions'
+  },
+  'generative-ai': {
+    title: 'Generative AI Implementation',
+    description: 'Real results from businesses that transformed their operations with Metic.ai\'s Generative AI solutions'
+  }
+};
+
+export default function Testimonials({ serviceType = 'generative-ai' }: TestimonialsProps) {
+  const textConfig = serviceTypeText[serviceType];
+  
   return (
     <div className="bg-gradient-to-br from-orange-50 via-white to-amber-50 rounded-3xl p-12 md:p-16 border-2 border-primary-orange/20 shadow-2xl transform -rotate-1 hover:rotate-0 transition-transform">
       <div className="text-center mb-16">
@@ -98,11 +119,11 @@ export default function Testimonials() {
           <Star className="w-5 h-5 text-primary-orange" />
         </div>
         <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-          Generative AI Implementation <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Success Stories</span>
+          {textConfig.title} <span className="bg-gradient-to-r from-primary-orange to-secondary-orange bg-clip-text text-transparent">Success Stories</span>
         </h3>
         <div className="w-32 h-1.5 bg-gradient-to-r from-primary-orange to-secondary-orange mx-auto mb-6 rounded-full"></div>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-          Real results from businesses that transformed their operations with Metic.ai's Generative AI solutions
+          {textConfig.description}
         </p>
       </div>
       

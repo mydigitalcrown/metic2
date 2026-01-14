@@ -1338,7 +1338,7 @@ export default function AIServicesGurugramPage() {
               </div>
 
               {/* Reusable Testimonials Component */}
-              <Testimonials />
+              <Testimonials serviceType="ai" />
 
               {/* Gurugram AI Partnership Excellence - Creative Premium Design */}
               <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -2038,6 +2038,7 @@ export default function AIServicesGurugramPage() {
     </>
   );
 }
+
 
 
 
