@@ -1,7 +1,8 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Button } from "../components/ui/Button";
 import Testimonials from "../components/Testimonials";
 import { 
+import { LocationsGrid } from "../components/LocationsGrid";
   Brain, 
   Zap, 
   TrendingUp, 
@@ -477,7 +478,7 @@ export default function AIServicesDelawarePage() {
             <div className="flex justify-center mb-6 md:mb-8">
               <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-white/10 backdrop-blur-sm rounded-full border border-primary-orange/30 shadow-xl">
                 <Award className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
-                <span className="text-xs md:text-sm font-bold text-white">⭐ 100+ Successful AI Projects | 98% Client Satisfaction</span>
+                <span className="text-xs md:text-sm font-bold text-white">â­ 100+ Successful AI Projects | 98% Client Satisfaction</span>
               </div>
             </div>
 
@@ -1973,6 +1974,8 @@ export default function AIServicesDelawarePage() {
         </div>
       </section>
 
+      {/* All Services by Location */}
+      <LocationsGrid />
       {/* CTA Section */}
       <section className="py-20 bg-primary-orange text-white">
         <div className="container px-4 md:px-6">
@@ -2016,17 +2019,17 @@ export default function AIServicesDelawarePage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Wilmington</span>
-                <span>•</span>
+                <span>â€¢</span>
                 <span>Dover</span>
-                <span>•</span>
+                <span>â€¢</span>
                 <span>Newark</span>
-                <span>•</span>
+                <span>â€¢</span>
                 <span>Middletown</span>
-                <span>•</span>
+                <span>â€¢</span>
                 <span>Smyrna</span>
-                <span>•</span>
+                <span>â€¢</span>
                 <span>Milford</span>
-                <span>•</span>
+                <span>â€¢</span>
                 <span>Seaford</span>
               </div>
             </div>
@@ -2036,6 +2039,7 @@ export default function AIServicesDelawarePage() {
     </>
   );
 }
+
 
 
 

@@ -1,7 +1,8 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Button } from "../components/ui/Button";
 import Testimonials from "../components/Testimonials";
 import { 
+import { LocationsGrid } from "../components/LocationsGrid";
   Brain, 
   Zap, 
   TrendingUp, 
@@ -1972,6 +1973,8 @@ export default function AIServicesIndiaPage() {
         </div>
       </section>
 
+      {/* All Services by Location */}
+      <LocationsGrid />
       {/* CTA Section */}
       <section className="py-20 bg-primary-orange text-white">
         <div className="container px-4 md:px-6">
@@ -2015,17 +2018,17 @@ export default function AIServicesIndiaPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Delhi</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Mumbai</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Mobile</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Hyderabad</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Chennai</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Pune</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Kolkata</span>
               </div>
             </div>
@@ -2035,6 +2038,7 @@ export default function AIServicesIndiaPage() {
     </>
   );
 }
+
 
 
 

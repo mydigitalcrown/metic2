@@ -1,7 +1,8 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Button } from "../components/ui/Button";
 import Testimonials from "../components/Testimonials";
 import { 
+import { LocationsGrid } from "../components/LocationsGrid";
   Brain, 
   Zap, 
   TrendingUp, 
@@ -2016,6 +2017,8 @@ export default function GenerativeAIServicesUtahPage() {
         </div>
       </section>
 
+      {/* All Services by Location */}
+      <LocationsGrid />
       {/* CTA Section */}
       <section className="py-20 bg-primary-orange text-white">
         <div className="container px-4 md:px-6">
@@ -2059,17 +2062,17 @@ export default function GenerativeAIServicesUtahPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Salt Lake City</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Provo</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>I-15 Corridor</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Ogden</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Orem</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>St. George</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Layton</span>
               </div>
             </div>
@@ -2079,6 +2082,7 @@ export default function GenerativeAIServicesUtahPage() {
     </>
   );
 }
+
 
 
 

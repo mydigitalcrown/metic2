@@ -1,7 +1,8 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Button } from "../components/ui/Button";
 import Testimonials from "../components/Testimonials";
 import { 
+import { LocationsGrid } from "../components/LocationsGrid";
   Brain, 
   Zap, 
   TrendingUp, 
@@ -511,7 +512,7 @@ export default function GenerativeAIServicesNoidaPage() {
             <div className="flex justify-center mb-6 md:mb-8">
               <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-white/10 backdrop-blur-sm rounded-full border border-primary-orange/30 shadow-xl">
                 <Award className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
-                <span className="text-xs md:text-sm font-bold text-white">⭐ 100+ Successful AI Projects | 98% Client Satisfaction</span>
+                <span className="text-xs md:text-sm font-bold text-white">â­ 100+ Successful AI Projects | 98% Client Satisfaction</span>
               </div>
             </div>
 
@@ -1130,7 +1131,7 @@ export default function GenerativeAIServicesNoidaPage() {
                     
                     <div className="space-y-8">
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">₹450B</div>
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">â‚¹450B</div>
                         <div className="text-sm text-gray-600 font-medium">Noida Annual GDP</div>
                         <div className="text-xs text-gray-500 mt-2">IT & Tech-driven Economy</div>
                       </div>
@@ -1974,6 +1975,8 @@ export default function GenerativeAIServicesNoidaPage() {
         </div>
       </section>
 
+      {/* All Services by Location */}
+      <LocationsGrid />
       {/* CTA Section */}
       <section className="py-20 bg-primary-orange text-white">
         <div className="container px-4 md:px-6">
@@ -2017,17 +2020,17 @@ export default function GenerativeAIServicesNoidaPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Sector 62</span>
-                <span>•</span>
+                <span>â€¢</span>
                 <span>Sector 18</span>
-                <span>•</span>
+                <span>â€¢</span>
                 <span>Sector 16</span>
-                <span>•</span>
+                <span>â€¢</span>
                 <span>Sector 15</span>
-                <span>•</span>
+                <span>â€¢</span>
                 <span>Greater Noida</span>
-                <span>•</span>
+                <span>â€¢</span>
                 <span>Noida Extension</span>
-                <span>•</span>
+                <span>â€¢</span>
                 <span>Film City</span>
               </div>
             </div>
@@ -2037,6 +2040,7 @@ export default function GenerativeAIServicesNoidaPage() {
     </>
   );
 }
+
 
 
 

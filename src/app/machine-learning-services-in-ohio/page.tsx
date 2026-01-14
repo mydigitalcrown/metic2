@@ -1,7 +1,8 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Button } from "../components/ui/Button";
 import Testimonials from "../components/Testimonials";
 import { 
+import { LocationsGrid } from "../components/LocationsGrid";
   Brain, 
   Zap, 
   TrendingUp, 
@@ -1932,6 +1933,8 @@ export default function MLServicesOhioPage() {
         </div>
       </section>
 
+      {/* All Services by Location */}
+      <LocationsGrid />
       {/* CTA Section */}
       <section className="py-20 bg-primary-orange text-white">
         <div className="container px-4 md:px-6">
@@ -1975,17 +1978,17 @@ export default function MLServicesOhioPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Downtown Columbus</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>University Circle</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Over-the-Rhine</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Warehouse District</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Chandkheda</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Auburn</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Dothan</span>
               </div>
             </div>
@@ -1995,6 +1998,7 @@ export default function MLServicesOhioPage() {
     </>
   );
 }
+
 
 
 

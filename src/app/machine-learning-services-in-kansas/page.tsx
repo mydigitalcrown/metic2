@@ -1,7 +1,8 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Button } from "../components/ui/Button";
 import Testimonials from "../components/Testimonials";
 import { 
+import { LocationsGrid } from "../components/LocationsGrid";
   Brain, 
   Zap, 
   TrendingUp, 
@@ -1932,6 +1933,8 @@ export default function MLServicesKansasPage() {
         </div>
       </section>
 
+      {/* All Services by Location */}
+      <LocationsGrid />
       {/* CTA Section */}
       <section className="py-20 bg-primary-orange text-white">
         <div className="container px-4 md:px-6">
@@ -1975,17 +1978,17 @@ export default function MLServicesKansasPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Olathe</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Lawrence</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Shawnee</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Lenexa</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Manhattan</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Leawood</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Garden City</span>
               </div>
             </div>
@@ -1995,6 +1998,7 @@ export default function MLServicesKansasPage() {
     </>
   );
 }
+
 
 
 

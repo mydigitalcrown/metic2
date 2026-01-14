@@ -1,7 +1,8 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Button } from "../components/ui/Button";
 import Testimonials from "../components/Testimonials";
 import { 
+import { LocationsGrid } from "../components/LocationsGrid";
   Brain, 
   Zap, 
   TrendingUp, 
@@ -1972,6 +1973,8 @@ export default function GenerativeAIServicesNewMexicoPage() {
         </div>
       </section>
 
+      {/* All Services by Location */}
+      <LocationsGrid />
       {/* CTA Section */}
       <section className="py-20 bg-primary-orange text-white">
         <div className="container px-4 md:px-6">
@@ -2015,17 +2018,17 @@ export default function GenerativeAIServicesNewMexicoPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Albuquerque</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Santa Fe</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Las Cruces</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Rio Rancho</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Roswell</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Farmington</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Clovis</span>
               </div>
             </div>
@@ -2035,6 +2038,7 @@ export default function GenerativeAIServicesNewMexicoPage() {
     </>
   );
 }
+
 
 
 

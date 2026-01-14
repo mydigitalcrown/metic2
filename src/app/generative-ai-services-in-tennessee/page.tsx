@@ -1,7 +1,8 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Button } from "../components/ui/Button";
 import Testimonials from "../components/Testimonials";
 import { 
+import { LocationsGrid } from "../components/LocationsGrid";
   Brain, 
   Zap, 
   TrendingUp, 
@@ -2013,6 +2014,8 @@ export default function GenerativeAIServicesTennesseePage() {
         </div>
       </section>
 
+      {/* All Services by Location */}
+      <LocationsGrid />
       {/* CTA Section */}
       <section className="py-20 bg-primary-orange text-white">
         <div className="container px-4 md:px-6">
@@ -2056,17 +2059,17 @@ export default function GenerativeAIServicesTennesseePage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Maninagar</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Vastrapur</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>SG Highway</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Chattanooga</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Clarksville</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Johnson City</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Jackson</span>
               </div>
             </div>
@@ -2076,6 +2079,7 @@ export default function GenerativeAIServicesTennesseePage() {
     </>
   );
 }
+
 
 
 

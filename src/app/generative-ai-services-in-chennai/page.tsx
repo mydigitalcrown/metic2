@@ -1,7 +1,8 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Button } from "../components/ui/Button";
 import Testimonials from "../components/Testimonials";
 import { 
+import { LocationsGrid } from "../components/LocationsGrid";
   Brain, 
   Zap, 
   TrendingUp, 
@@ -1086,7 +1087,7 @@ export default function GenerativeAIServicesChennaiPage() {
                     
                     <div className="space-y-8">
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">₹980B</div>
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">â‚¹980B</div>
                         <div className="text-sm text-gray-600 font-medium">Chennai Annual GDP</div>
                         <div className="text-xs text-gray-500 mt-2">Detroit of Asia</div>
                       </div>
@@ -1930,6 +1931,8 @@ export default function GenerativeAIServicesChennaiPage() {
         </div>
       </section>
 
+      {/* All Services by Location */}
+      <LocationsGrid />
       {/* CTA Section */}
       <section className="py-20 bg-primary-orange text-white">
         <div className="container px-4 md:px-6">
@@ -1973,17 +1976,17 @@ export default function GenerativeAIServicesChennaiPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>T. Nagar</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Anna Nagar</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Adyar</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Velachery</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Guindy</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Tambaram</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Perungudi</span>
               </div>
             </div>
@@ -1993,6 +1996,7 @@ export default function GenerativeAIServicesChennaiPage() {
     </>
   );
 }
+
 
 
 

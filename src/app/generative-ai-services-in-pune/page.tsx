@@ -1,7 +1,8 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Button } from "../components/ui/Button";
 import Testimonials from "../components/Testimonials";
 import { 
+import { LocationsGrid } from "../components/LocationsGrid";
   Brain, 
   Zap, 
   TrendingUp, 
@@ -1982,6 +1983,8 @@ export default function GenerativeAIServicesPunePage() {
         </div>
       </section>
 
+      {/* All Services by Location */}
+      <LocationsGrid />
       {/* CTA Section */}
       <section className="py-20 bg-primary-orange text-white">
         <div className="container px-4 md:px-6">
@@ -2025,17 +2028,17 @@ export default function GenerativeAIServicesPunePage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Kothrud</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Hinjewadi</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Pune-Mumbai Highway</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Wakad</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Baner</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Koregaon Park</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Hadapsar</span>
               </div>
             </div>
@@ -2045,6 +2048,7 @@ export default function GenerativeAIServicesPunePage() {
     </>
   );
 }
+
 
 
 

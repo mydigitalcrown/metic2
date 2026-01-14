@@ -1,7 +1,8 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Button } from "../components/ui/Button";
 import Testimonials from "../components/Testimonials";
 import { 
+import { LocationsGrid } from "../components/LocationsGrid";
   Brain, 
   Zap, 
   TrendingUp, 
@@ -1087,7 +1088,7 @@ export default function GenerativeAIServicesMumbaiPage() {
                     
                     <div className="space-y-8">
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">₹310B</div>
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">â‚¹310B</div>
                         <div className="text-sm text-gray-600 font-medium">Mumbai Annual GDP</div>
                         <div className="text-xs text-gray-500 mt-2">Financial Capital of India</div>
                       </div>
@@ -1931,6 +1932,8 @@ export default function GenerativeAIServicesMumbaiPage() {
         </div>
       </section>
 
+      {/* All Services by Location */}
+      <LocationsGrid />
       {/* CTA Section */}
       <section className="py-20 bg-primary-orange text-white">
         <div className="container px-4 md:px-6">
@@ -1974,17 +1977,17 @@ export default function GenerativeAIServicesMumbaiPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Maninagar</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Vastrapur</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>SG Highway</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Goregaon</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Malad</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Auburn</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Dothan</span>
               </div>
             </div>
@@ -1994,6 +1997,7 @@ export default function GenerativeAIServicesMumbaiPage() {
     </>
   );
 }
+
 
 
 

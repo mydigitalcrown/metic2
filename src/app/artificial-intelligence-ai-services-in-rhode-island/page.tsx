@@ -1,7 +1,8 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Button } from "../components/ui/Button";
 import Testimonials from "../components/Testimonials";
 import { 
+import { LocationsGrid } from "../components/LocationsGrid";
   Brain, 
   Zap, 
   TrendingUp, 
@@ -1973,6 +1974,8 @@ export default function AIServicesRhodeIslandPage() {
         </div>
       </section>
 
+      {/* All Services by Location */}
+      <LocationsGrid />
       {/* CTA Section */}
       <section className="py-20 bg-primary-orange text-white">
         <div className="container px-4 md:px-6">
@@ -2016,17 +2019,17 @@ export default function AIServicesRhodeIslandPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Providence</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Warwick</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Cranston</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Pawtucket</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Newport</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Woonsocket</span>
-                <span>�</span>
+                <span>ï¿½</span>
                 <span>Bristol</span>
               </div>
             </div>
@@ -2036,6 +2039,7 @@ export default function AIServicesRhodeIslandPage() {
     </>
   );
 }
+
 
 
 
