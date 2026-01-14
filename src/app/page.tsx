@@ -2871,6 +2871,86 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Location Pages Grid - Internal Linking */}
+      <section className="py-20 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-7xl mx-auto">
+            {/* Section Header */}
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+                Our <span className="text-primary-orange">AI Services</span> by Location
+              </h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Expert artificial intelligence and machine learning services across major cities and states
+              </p>
+            </div>
+
+            {/* US States Grid */}
+            <div className="mb-20">
+              <h3 className="text-2xl font-bold text-gray-900 mb-8">United States</h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                {[
+                  'Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware',
+                  'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas',
+                  'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi',
+                  'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York',
+                  'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina',
+                  'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington', 'West Virginia',
+                  'Wisconsin', 'Wyoming'
+                ].map((state) => {
+                  const slug = state.toLowerCase().replace(/\s+/g, '-');
+                  return (
+                    <Link
+                      key={state}
+                      href={`/artificial-intelligence-ai-services-in-${slug}`}
+                      className="group p-4 bg-white border-2 border-gray-200 rounded-lg hover:border-primary-orange hover:shadow-lg transition-all duration-300"
+                    >
+                      <h4 className="font-semibold text-gray-900 group-hover:text-primary-orange transition-colors">
+                        {state}
+                      </h4>
+                      <p className="text-sm text-gray-600 mt-1">Artificial Intelligence Company</p>
+                      <div className="flex items-center text-primary-orange text-sm font-semibold mt-2 opacity-0 group-hover:opacity-100 transition-opacity">
+                        <span>Learn More</span>
+                        <ArrowRight className="w-3 h-3 ml-1" />
+                      </div>
+                    </Link>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* India Cities Grid */}
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-8">India</h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                {[
+                  'Ahmedabad', 'Bangalore', 'Chennai', 'Coimbatore', 'Delhi', 'Gurugram', 'Hyderabad',
+                  'Kolkata', 'Mumbai', 'Noida', 'Pune', 'Vizag'
+                ].map((city) => {
+                  const slug = city.toLowerCase().replace(/\s+/g, '-');
+                  return (
+                    <Link
+                      key={city}
+                      href={`/artificial-intelligence-ai-services-in-${slug}`}
+                      className="group p-4 bg-white border-2 border-gray-200 rounded-lg hover:border-primary-orange hover:shadow-lg transition-all duration-300"
+                    >
+                      <h4 className="font-semibold text-gray-900 group-hover:text-primary-orange transition-colors">
+                        {city}
+                      </h4>
+                      <p className="text-sm text-gray-600 mt-1">Artificial Intelligence Company</p>
+                      <div className="flex items-center text-primary-orange text-sm font-semibold mt-2 opacity-0 group-hover:opacity-100 transition-opacity">
+                        <span>Learn More</span>
+                        <ArrowRight className="w-3 h-3 ml-1" />
+                      </div>
+                    </Link>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Final CTA - Conversion Optimized */}
       <section className="py-20 bg-gradient-to-br from-primary-orange via-secondary-orange to-primary-orange text-white relative overflow-hidden">
         {/* Animated Background */}
