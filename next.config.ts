@@ -10,19 +10,22 @@ const nextConfig: NextConfig = {
   // Enable compression
   compress: true,
   
-  // Optimize images
+  // Optimize images for Core Web Vitals (LCP optimization)
   images: {
     formats: ['image/webp', 'image/avif'],
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+    // Optimize for mobile (CLS - Cumulative Layout Shift)
+    dangerouslyAllowSVG: true,
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
   
-  // Enable experimental features for better performance
+  // Enable experimental features for better performance (INP optimization)
   experimental: {
     scrollRestoration: true,
   },
   
-  // Security headers
+  // Security headers for SEO credibility
   async headers() {
     return [
       {
@@ -43,6 +46,31 @@ const nextConfig: NextConfig = {
           {
             key: 'X-XSS-Protection',
             value: '1; mode=block'
+          },
+          // Cache headers for performance optimization
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=86400, must-revalidate'
+          }
+        ]
+      },
+      // Static assets caching (1 week)
+      {
+        source: '/static/(.*)',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=604800, immutable'
+          }
+        ]
+      },
+      // Images caching (30 days)
+      {
+        source: '/images/(.*)',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=2592000, immutable'
           }
         ]
       }

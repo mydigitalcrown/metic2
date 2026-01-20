@@ -20,17 +20,27 @@ export const metadata: Metadata = {
   title: "Artificial Intelligence Company Near Me | Best AI Company - Metic.ai",
   description: "Looking for the best Artificial Intelligence Company Near Me? Metic.ai is your trusted AI partner with 2100+ successful implementations. Expert AI services, machine learning solutions & custom AI development. Get your free consultation today!",
   keywords: [
+    // Core Keywords
     "Artificial Intelligence Company Near Me",
     "AI Company Near Me", 
     "Best AI Company Near Me",
     "Artificial Intelligence Company Nearby",
     "Local AI Company",
+    // VSO Keywords - Voice Search Optimized
+    "How do I find an AI company near me",
+    "Where can I get AI services nearby",
+    "AI solutions for my business",
+    "Hire AI development company",
+    "Best machine learning company",
+    "AI consulting services near me",
+    // Service-Based Keywords
     "AI Services Near Me",
     "Machine Learning Company Near Me",
     "AI Development Company Near Me",
     "AI Consulting Near Me",
     "Top AI Company Near Me",
     "Custom AI Solutions Near Me",
+    // Long-Tail Keywords
     "AI Implementation Services",
     "Enterprise AI Solutions",
     "AI Strategy Consulting",
@@ -43,7 +53,12 @@ export const metadata: Metadata = {
     "Generative AI Solutions",
     "Computer Vision Services",
     "Natural Language Processing",
-    "AI Integration Services"
+    "AI Integration Services",
+    // Question-Based Keywords for VSO
+    "What is AI consulting",
+    "How to implement AI",
+    "Benefits of machine learning",
+    "AI solutions for business"
   ],
   authors: [{ name: "Metic AI" }],
   creator: "Metic AI",

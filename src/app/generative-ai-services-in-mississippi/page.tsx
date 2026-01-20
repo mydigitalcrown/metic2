@@ -467,7 +467,7 @@ export default function GenerativeAIServicesMississippiPage() {
             <div className="flex justify-center mb-6 md:mb-8">
               <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-white/10 backdrop-blur-sm rounded-full border border-primary-orange/30 shadow-xl">
                 <Award className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
-                <span className="text-xs md:text-sm font-bold text-white">â­ 100+ Successful AI Projects | 98% Client Satisfaction</span>
+                <span className="text-xs md:text-sm font-bold text-white">₹­ 100+ Successful AI Projects | 98% Client Satisfaction</span>
               </div>
             </div>
 
@@ -1975,17 +1975,17 @@ export default function GenerativeAIServicesMississippiPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Jackson</span>
-                <span>â€¢</span>
+                <span>₹€¢</span>
                 <span>Gulfport</span>
-                <span>â€¢</span>
+                <span>₹€¢</span>
                 <span>Biloxi</span>
-                <span>â€¢</span>
+                <span>₹€¢</span>
                 <span>Hattiesburg</span>
-                <span>â€¢</span>
+                <span>₹€¢</span>
                 <span>Tupelo</span>
-                <span>â€¢</span>
+                <span>₹€¢</span>
                 <span>Auburn</span>
-                <span>â€¢</span>
+                <span>₹€¢</span>
                 <span>Dothan</span>
               </div>
             </div>
@@ -1995,6 +1995,7 @@ export default function GenerativeAIServicesMississippiPage() {
     </>
   );
 }
+
 
 
 

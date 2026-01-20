@@ -468,7 +468,7 @@ export default function GenerativeAIServicesKolkataPage() {
             <div className="flex justify-center mb-6 md:mb-8">
               <div className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-white/10 backdrop-blur-sm rounded-full border border-primary-orange/30 shadow-xl">
                 <Award className="w-4 h-4 md:w-5 md:h-5 text-primary-orange" />
-                <span className="text-xs md:text-sm font-bold text-white">âœ“ 100+ Successful AI Projects | 99.5% Client Satisfaction</span>
+                <span className="text-xs md:text-sm font-bold text-white">₹œ“ 100+ Successful AI Projects | 99.5% Client Satisfaction</span>
               </div>
             </div>
 
@@ -1087,7 +1087,7 @@ export default function GenerativeAIServicesKolkataPage() {
                     
                     <div className="space-y-8">
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">â‚¹150B</div>
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">₹‚¹150B</div>
                         <div className="text-sm text-gray-600 font-medium">Kolkata Annual GDP</div>
                         <div className="text-xs text-gray-500 mt-2">IT & Services Economy</div>
                       </div>
@@ -1976,17 +1976,17 @@ export default function GenerativeAIServicesKolkataPage() {
               </div>
               <div className="flex flex-wrap justify-center gap-8 text-orange-100 text-sm">
                 <span>Salt Lake</span>
-                <span>â€¢</span>
+                <span>₹€¢</span>
                 <span>Howrah</span>
-                <span>â€¢</span>
+                <span>₹€¢</span>
                 <span>Park Street</span>
-                <span>â€¢</span>
+                <span>₹€¢</span>
                 <span>Bantala</span>
-                <span>â€¢</span>
+                <span>₹€¢</span>
                 <span>New Town</span>
-                <span>â€¢</span>
+                <span>₹€¢</span>
                 <span>Rajarhat</span>
-                <span>â€¢</span>
+                <span>₹€¢</span>
                 <span>Esplanade</span>
               </div>
             </div>
@@ -1996,6 +1996,7 @@ export default function GenerativeAIServicesKolkataPage() {
     </>
   );
 }
+
 
 
 

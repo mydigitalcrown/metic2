@@ -1096,7 +1096,7 @@ export default function MLServicesAhmedabadPage() {
                     
                     <div className="space-y-8">
                       <div className="text-center p-8 bg-white rounded-2xl shadow-xl border border-primary-orange/10 hover:border-primary-orange/30 transition-all group transform hover:scale-105">
-                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">?4.6T</div>
+                        <div className="text-5xl font-bold text-primary-orange mb-3 group-hover:scale-110 transition-transform">₹4.6T</div>
                         <div className="text-sm text-gray-600 font-medium">Ahmedabad Annual GDP</div>
                         <div className="text-xs text-gray-500 mt-2">textile-driven Economy</div>
                       </div>
