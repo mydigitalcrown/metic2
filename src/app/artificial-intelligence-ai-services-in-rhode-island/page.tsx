@@ -180,12 +180,14 @@ export default function AIServicesRhodeIslandPage() {
             "logo": "https://metic.ai/logo.png",
             "image": ["https://metic.ai/ai-company-rhode-island.jpg"],
             "telephone": "+1-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
             "vatID": "US123456789",
             "address": {
               "@type": "PostalAddress",
+              "streetAddress": "Providence",
+              "addressLocality": "Providence",
               "addressRegion": "Rhode Island",
               "addressCountry": "US",
               "postalCode": "02903"
@@ -374,7 +376,7 @@ export default function AIServicesRhodeIslandPage() {
               }
             },
             "datePublished": "2024-01-15",
-            "dateModified": "2024-10-30",
+            "dateModified": "2026-01-27",
             "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-rhode-island/",
             "keywords": "Artificial Intelligence Company In Rhode Island, AI Company In Rhode Island, AI Service In Rhode Island"
           })
@@ -423,7 +425,7 @@ export default function AIServicesRhodeIslandPage() {
             "description": "Leading Artificial Intelligence Company providing AI services in Rhode Island",
             "image": "https://metic.ai/ai-company-rhode-island.jpg",
             "telephone": "+1-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "Downtown",

@@ -180,20 +180,22 @@ export default function AIServicesHyderabadPage() {
             "logo": "https://metic.ai/logo.png",
             "image": ["https://metic.ai/ai-company-Hyderabad.jpg"],
             "telephone": "+1-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
             "vatID": "US123456789",
             "address": {
               "@type": "PostalAddress",
-              "addressRegion": "Hyderabad",
-              "addressCountry": "US",
-              "postalCode": "35201"
+              "streetAddress": "Hyderabad",
+              "addressLocality": "Hyderabad",
+              "addressRegion": "Telangana",
+              "addressCountry": "IN",
+              "postalCode": "500001"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "32.7794",
-              "longitude": "-86.8287"
+              "latitude": "17.3850",
+              "longitude": "78.4867"
             },
             "areaServed": [
               {
@@ -209,10 +211,10 @@ export default function AIServicesHyderabadPage() {
               "@type": "GeoCircle",
               "geoMidpoint": {
                 "@type": "GeoCoordinates",
-                "latitude": "32.7794",
-                "longitude": "-86.8287"
+                "latitude": "17.3850",
+                "longitude": "78.4867"
               },
-              "geoRadius": "200000"
+              "geoRadius": "50000"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
@@ -283,8 +285,8 @@ export default function AIServicesHyderabadPage() {
               "@type": "ContactPoint",
               "telephone": "+1-789-251-8414",
               "contactType": "Customer Service",
-              "areaServed": "US",
-              "availableLanguage": ["English"]
+              "areaServed": "IN",
+              "availableLanguage": ["English", "Telugu"]
             }
           })
         }}
@@ -374,7 +376,7 @@ export default function AIServicesHyderabadPage() {
               }
             },
             "datePublished": "2024-01-15",
-            "dateModified": "2024-10-30",
+            "dateModified": "2026-01-27",
             "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-Hyderabad/",
             "keywords": "Artificial Intelligence Company In Hyderabad, AI Company In Hyderabad, AI Service In Hyderabad"
           })
@@ -423,7 +425,7 @@ export default function AIServicesHyderabadPage() {
             "description": "Leading Artificial Intelligence Company providing AI services in Hyderabad",
             "image": "https://metic.ai/ai-company-Hyderabad.jpg",
             "telephone": "+1-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "300 Quail Ridge Dr NE",

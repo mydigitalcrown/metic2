@@ -180,20 +180,22 @@ export default function AIServicesWyomingPage() {
             "logo": "https://metic.ai/logo.png",
             "image": ["https://metic.ai/ai-company-wyoming.jpg"],
             "telephone": "+1-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
             "vatID": "US123456789",
             "address": {
               "@type": "PostalAddress",
+              "streetAddress": "Cheyenne",
+              "addressLocality": "Cheyenne",
               "addressRegion": "Wyoming",
               "addressCountry": "US",
-              "postalCode": "35201"
+              "postalCode": "82001"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "32.7794",
-              "longitude": "-86.8287"
+              "latitude": "41.1400",
+              "longitude": "-104.8202"
             },
             "areaServed": [
               {
@@ -209,10 +211,10 @@ export default function AIServicesWyomingPage() {
               "@type": "GeoCircle",
               "geoMidpoint": {
                 "@type": "GeoCoordinates",
-                "latitude": "32.7794",
-                "longitude": "-86.8287"
+                "latitude": "41.1400",
+                "longitude": "-104.8202"
               },
-              "geoRadius": "200000"
+              "geoRadius": "50000"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
@@ -374,7 +376,7 @@ export default function AIServicesWyomingPage() {
               }
             },
             "datePublished": "2024-01-15",
-            "dateModified": "2024-10-30",
+            "dateModified": "2026-01-27",
             "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-wyoming/",
             "keywords": "Artificial Intelligence Company In Wyoming, AI Company In Wyoming, AI Service In Wyoming"
           })
@@ -423,7 +425,7 @@ export default function AIServicesWyomingPage() {
             "description": "Leading Artificial Intelligence Company providing AI services in Wyoming",
             "image": "https://metic.ai/ai-company-wyoming.jpg",
             "telephone": "+1-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "300 Quail Ridge Dr NE",

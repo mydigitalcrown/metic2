@@ -180,12 +180,14 @@ export default function AIServicesBangalorePage() {
             "logo": "https://metic.ai/logo.png",
             "image": ["https://metic.ai/ai-company-bangalore.jpg"],
             "telephone": "+1-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
             "vatID": "US123456789",
             "address": {
               "@type": "PostalAddress",
+              "streetAddress": "Bangalore",
+              "addressLocality": "Bangalore",
               "addressRegion": "Karnataka",
               "addressCountry": "IN",
               "postalCode": "560001"
@@ -212,7 +214,7 @@ export default function AIServicesBangalorePage() {
                 "latitude": "12.9716",
                 "longitude": "77.5946"
               },
-              "geoRadius": "200000"
+              "geoRadius": "50000"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
@@ -284,7 +286,7 @@ export default function AIServicesBangalorePage() {
               "telephone": "+1-789-251-8414",
               "contactType": "Customer Service",
               "areaServed": "IN",
-              "availableLanguage": ["English", "Kannada", "Hindi"]
+              "availableLanguage": ["English", "Kannada"]
             }
           })
         }}
@@ -374,7 +376,7 @@ export default function AIServicesBangalorePage() {
               }
             },
             "datePublished": "2024-01-15",
-            "dateModified": "2024-10-30",
+            "dateModified": "2026-01-27",
             "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-bangalore/",
             "keywords": "Artificial Intelligence Company In Bangalore, AI Company In Bangalore, AI Service In Bangalore"
           })
@@ -423,7 +425,7 @@ export default function AIServicesBangalorePage() {
             "description": "Leading Artificial Intelligence Company providing AI services in Bangalore",
             "image": "https://metic.ai/ai-company-bangalore.jpg",
             "telephone": "+1-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "Koramangala",

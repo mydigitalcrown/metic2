@@ -180,12 +180,14 @@ export default function AIServicesArkansasPage() {
             "logo": "https://metic.ai/logo.png",
             "image": ["https://metic.ai/ai-company-arkansas.jpg"],
             "telephone": "+1-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
             "vatID": "US123456789",
             "address": {
               "@type": "PostalAddress",
+              "streetAddress": "Little Rock",
+              "addressLocality": "Little Rock",
               "addressRegion": "Arkansas",
               "addressCountry": "US",
               "postalCode": "72201"
@@ -212,7 +214,7 @@ export default function AIServicesArkansasPage() {
                 "latitude": "34.7465",
                 "longitude": "-92.2896"
               },
-              "geoRadius": "200000"
+              "geoRadius": "50000"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
@@ -374,7 +376,7 @@ export default function AIServicesArkansasPage() {
               }
             },
             "datePublished": "2024-01-15",
-            "dateModified": "2024-10-30",
+            "dateModified": "2026-01-27",
             "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-arkansas/",
             "keywords": "Artificial Intelligence Company In Arkansas, AI Company In Arkansas, AI Service In Arkansas"
           })
@@ -423,7 +425,7 @@ export default function AIServicesArkansasPage() {
             "description": "Leading Artificial Intelligence Company providing AI services in Arkansas",
             "image": "https://metic.ai/ai-company-arkansas.jpg",
             "telephone": "+1-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "300 Quail Ridge Dr NE",

@@ -180,12 +180,14 @@ export default function AIServicesGurugramPage() {
             "logo": "https://metic.ai/logo.png",
             "image": ["https://metic.ai/ai-company-gurugram.jpg"],
             "telephone": "+1-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
             "vatID": "US123456789",
             "address": {
               "@type": "PostalAddress",
+              "streetAddress": "Gurugram",
+              "addressLocality": "Gurugram",
               "addressRegion": "Haryana",
               "addressCountry": "IN",
               "postalCode": "122001"
@@ -374,7 +376,7 @@ export default function AIServicesGurugramPage() {
               }
             },
             "datePublished": "2024-01-15",
-            "dateModified": "2024-10-30",
+            "dateModified": "2026-01-27",
             "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-gurugram/",
             "keywords": "Artificial Intelligence Company In Gurugram, AI Company In Gurugram, AI Service In Gurugram"
           })
@@ -423,7 +425,7 @@ export default function AIServicesGurugramPage() {
             "description": "Leading Artificial Intelligence Company providing AI services in Gurugram",
             "image": "https://metic.ai/ai-company-gurugram.jpg",
             "telephone": "+1-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "Cyber City",

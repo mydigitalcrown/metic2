@@ -180,20 +180,21 @@ export default function AIServicesVizagPage() {
             "logo": "https://metic.ai/logo.png",
             "image": ["https://metic.ai/ai-company-Visakhapatnam.jpg"],
             "telephone": "+1-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
             "vatID": "US123456789",
             "address": {
               "@type": "PostalAddress",
+              "streetAddress": "Visakhapatnam",
+              "addressLocality": "Visakhapatnam",
               "addressRegion": "Andhra Pradesh",
               "addressCountry": "IN",
               "postalCode": "530001"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "17.6869",
-              "longitude": "83.2185"
+              "latitude": "17.6869", "longitude": "83.2185"
             },
             "areaServed": [
               {
@@ -209,8 +210,7 @@ export default function AIServicesVizagPage() {
               "@type": "GeoCircle",
               "geoMidpoint": {
                 "@type": "GeoCoordinates",
-                "latitude": "17.6869",
-                "longitude": "83.2185"
+                "latitude": "17.6869", "longitude": "83.2185"
               },
               "geoRadius": "200000"
             },
@@ -283,8 +283,8 @@ export default function AIServicesVizagPage() {
               "@type": "ContactPoint",
               "telephone": "+1-789-251-8414",
               "contactType": "Customer Service",
-              "areaServed": "US",
-              "availableLanguage": ["English"]
+              "areaServed": "IN",
+              "availableLanguage": ["English", "Telugu"]
             }
           })
         }}
@@ -374,7 +374,7 @@ export default function AIServicesVizagPage() {
               }
             },
             "datePublished": "2024-01-15",
-            "dateModified": "2024-10-30",
+            "dateModified": "2026-01-27",
             "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-vizag/",
             "keywords": "Artificial Intelligence Company In Vizag, AI Company In Vizag, AI Service In Vizag"
           })
@@ -423,19 +423,18 @@ export default function AIServicesVizagPage() {
             "description": "Leading Artificial Intelligence Company providing AI services In Vizag",
             "image": "https://metic.ai/ai-company-Visakhapatnam.jpg",
             "telephone": "+1-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "300 Quail Ridge Dr NE",
               "addressLocality": "ADA",
               "addressRegion": "MI",
               "postalCode": "49301",
-              "addressCountry": "US"
+              "addressCountry": "IN"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "32.3182",
-              "longitude": "-86.9023"
+              "latitude": "17.6869", "longitude": "83.2185"
             },
             "url": "https://metic.ai/artificial-intelligence-ai-services-in-vizag/",
             "priceRange": "$$$$",

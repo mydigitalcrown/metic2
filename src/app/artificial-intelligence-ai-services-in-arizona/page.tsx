@@ -177,20 +177,22 @@ export default function AIServicesArizonaPage() {
             "logo": "https://metic.ai/logo.png",
             "image": ["https://metic.ai/ai-company-arizona.jpg"],
             "telephone": "+1-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
             "vatID": "US123456789",
             "address": {
               "@type": "PostalAddress",
+              "streetAddress": "Phoenix",
+              "addressLocality": "Phoenix",
               "addressRegion": "Arizona",
               "addressCountry": "US",
-              "postalCode": "35201"
+              "postalCode": "85001"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "32.7794",
-              "longitude": "-86.8287"
+              "latitude": "33.4484",
+              "longitude": "-112.0742"
             },
             "areaServed": [
               {
@@ -206,10 +208,10 @@ export default function AIServicesArizonaPage() {
               "@type": "GeoCircle",
               "geoMidpoint": {
                 "@type": "GeoCoordinates",
-                "latitude": "32.7794",
-                "longitude": "-86.8287"
+                "latitude": "33.4484",
+                "longitude": "-112.0742"
               },
-              "geoRadius": "200000"
+              "geoRadius": "50000"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
@@ -371,7 +373,7 @@ export default function AIServicesArizonaPage() {
               }
             },
             "datePublished": "2024-01-15",
-            "dateModified": "2024-10-30",
+            "dateModified": "2026-01-27",
             "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-Arizona/",
             "keywords": "Artificial Intelligence Company In Arizona, AI Company In Arizona, AI Service In Arizona"
           })
@@ -420,7 +422,7 @@ export default function AIServicesArizonaPage() {
             "description": "Leading Artificial Intelligence Company providing AI services in Arizona",
             "image": "https://metic.ai/ai-company-Arizona.jpg",
             "telephone": "+1-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "300 Quail Ridge Dr NE",

@@ -182,20 +182,22 @@ export default function AIServicesTexasPage() {
             "logo": "https://metic.ai/logo.png",
             "image": ["https://metic.ai/ai-company-Texas.jpg"],
             "telephone": "+91-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
             "vatID": "IN123456789",
             "address": {
               "@type": "PostalAddress",
+              "streetAddress": "Houston",
+              "addressLocality": "Houston",
               "addressRegion": "Texas",
               "addressCountry": "US",
-              "postalCode": "35201"
+              "postalCode": "77001"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "32.7794",
-              "longitude": "-86.8287"
+              "latitude": "29.7604",
+              "longitude": "-95.3698"
             },
             "areaServed": [
               {
@@ -211,10 +213,10 @@ export default function AIServicesTexasPage() {
               "@type": "GeoCircle",
               "geoMidpoint": {
                 "@type": "GeoCoordinates",
-                "latitude": "32.7794",
-                "longitude": "-86.8287"
+                "latitude": "29.7604",
+                "longitude": "-95.3698"
               },
-              "geoRadius": "200000"
+              "geoRadius": "50000"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
@@ -376,7 +378,7 @@ export default function AIServicesTexasPage() {
               }
             },
             "datePublished": "2024-01-15",
-            "dateModified": "2024-10-30",
+            "dateModified": "2026-01-27",
             "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-texas/",
             "keywords": "Artificial Intelligence Company In Texas, AI Company In Texas, AI Service In Texas"
           })
@@ -425,7 +427,7 @@ export default function AIServicesTexasPage() {
             "description": "Leading Artificial Intelligence Company providing AI services In Texas",
             "image": "https://metic.ai/ai-company-Texas.jpg",
             "telephone": "+91-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "300 Quail Ridge Dr NE",

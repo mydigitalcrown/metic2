@@ -182,20 +182,22 @@ export default function AIServicesUtahPage() {
             "logo": "https://metic.ai/logo.png",
             "image": ["https://metic.ai/ai-company-Utah.jpg"],
             "telephone": "+91-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
             "vatID": "IN123456789",
             "address": {
               "@type": "PostalAddress",
+              "streetAddress": "Salt Lake City",
+              "addressLocality": "Salt Lake City",
               "addressRegion": "Utah",
               "addressCountry": "US",
-              "postalCode": "35201"
+              "postalCode": "84101"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "32.7794",
-              "longitude": "-86.8287"
+              "latitude": "40.7608",
+              "longitude": "-111.8910"
             },
             "areaServed": [
               {
@@ -211,10 +213,10 @@ export default function AIServicesUtahPage() {
               "@type": "GeoCircle",
               "geoMidpoint": {
                 "@type": "GeoCoordinates",
-                "latitude": "32.7794",
-                "longitude": "-86.8287"
+                "latitude": "40.7608",
+                "longitude": "-111.8910"
               },
-              "geoRadius": "200000"
+              "geoRadius": "50000"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
@@ -376,7 +378,7 @@ export default function AIServicesUtahPage() {
               }
             },
             "datePublished": "2024-01-15",
-            "dateModified": "2024-10-30",
+            "dateModified": "2026-01-27",
             "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-ahmedabad/",
             "keywords": "Artificial Intelligence Company In Utah, AI Company In Utah, AI Service In Utah"
           })
@@ -425,7 +427,7 @@ export default function AIServicesUtahPage() {
             "description": "Leading Artificial Intelligence Company providing AI services In Utah",
             "image": "https://metic.ai/ai-company-Utah.jpg",
             "telephone": "+91-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "300 Quail Ridge Dr NE",

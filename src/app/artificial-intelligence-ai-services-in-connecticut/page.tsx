@@ -180,20 +180,22 @@ export default function AIServicesConnecticutPage() {
             "logo": "https://metic.ai/logo.png",
             "image": ["https://metic.ai/ai-company-connecticut.jpg"],
             "telephone": "+1-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
             "vatID": "US123456789",
             "address": {
               "@type": "PostalAddress",
+              "streetAddress": "Hartford",
+              "addressLocality": "Hartford",
               "addressRegion": "Connecticut",
               "addressCountry": "US",
               "postalCode": "06101"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "41.6032",
-              "longitude": "-73.0877"
+              "latitude": "41.7658",
+              "longitude": "-72.6734"
             },
             "areaServed": [
               {
@@ -209,10 +211,10 @@ export default function AIServicesConnecticutPage() {
               "@type": "GeoCircle",
               "geoMidpoint": {
                 "@type": "GeoCoordinates",
-                "latitude": "41.6032",
-                "longitude": "-73.0877"
+                "latitude": "41.7658",
+                "longitude": "-72.6734"
               },
-              "geoRadius": "100000"
+              "geoRadius": "50000"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
@@ -374,7 +376,7 @@ export default function AIServicesConnecticutPage() {
               }
             },
             "datePublished": "2024-01-15",
-            "dateModified": "2024-10-30",
+            "dateModified": "2026-01-27",
             "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-connecticut/",
             "keywords": "Artificial Intelligence Company In Connecticut, AI Company In Connecticut, AI Service In Connecticut"
           })
@@ -423,7 +425,7 @@ export default function AIServicesConnecticutPage() {
             "description": "Leading Artificial Intelligence Company providing AI services in Connecticut",
             "image": "https://metic.ai/ai-company-connecticut.jpg",
             "telephone": "+1-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "300 Quail Ridge Dr NE",

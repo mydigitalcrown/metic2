@@ -180,20 +180,22 @@ export default function AIServicesMissouriPage() {
             "logo": "https://metic.ai/logo.png",
             "image": ["https://metic.ai/ai-company-Missouri.jpg"],
             "telephone": "+1-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
             "vatID": "US123456789",
             "address": {
               "@type": "PostalAddress",
+              "streetAddress": "St. Louis",
+              "addressLocality": "St. Louis",
               "addressRegion": "Missouri",
               "addressCountry": "US",
-              "postalCode": "35201"
+              "postalCode": "63101"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "32.7794",
-              "longitude": "-86.8287"
+              "latitude": "38.6270",
+              "longitude": "-90.1994"
             },
             "areaServed": [
               {
@@ -209,10 +211,10 @@ export default function AIServicesMissouriPage() {
               "@type": "GeoCircle",
               "geoMidpoint": {
                 "@type": "GeoCoordinates",
-                "latitude": "32.7794",
-                "longitude": "-86.8287"
+                "latitude": "38.6270",
+                "longitude": "-90.1994"
               },
-              "geoRadius": "200000"
+              "geoRadius": "50000"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
@@ -374,7 +376,7 @@ export default function AIServicesMissouriPage() {
               }
             },
             "datePublished": "2024-01-15",
-            "dateModified": "2024-10-30",
+            "dateModified": "2026-01-27",
             "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-missouri/",
             "keywords": "Artificial Intelligence Company In Missouri, AI Company In Missouri, AI Service In Missouri"
           })
@@ -423,7 +425,7 @@ export default function AIServicesMissouriPage() {
             "description": "Leading Artificial Intelligence Company providing AI services in Missouri",
             "image": "https://metic.ai/ai-company-missouri.jpg",
             "telephone": "+1-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "300 Quail Ridge Dr NE",

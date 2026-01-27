@@ -180,20 +180,22 @@ export default function AIServicesOhioPage() {
             "logo": "https://metic.ai/logo.png",
             "image": ["https://metic.ai/ai-company-Ohio.jpg"],
             "telephone": "+1-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
             "vatID": "US123456789",
             "address": {
               "@type": "PostalAddress",
+              "streetAddress": "Columbus",
+              "addressLocality": "Columbus",
               "addressRegion": "Ohio",
               "addressCountry": "US",
-              "postalCode": "35201"
+              "postalCode": "43085"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "32.7794",
-              "longitude": "-86.8287"
+              "latitude": "39.9612",
+              "longitude": "-82.9988"
             },
             "areaServed": [
               {
@@ -209,10 +211,10 @@ export default function AIServicesOhioPage() {
               "@type": "GeoCircle",
               "geoMidpoint": {
                 "@type": "GeoCoordinates",
-                "latitude": "32.7794",
-                "longitude": "-86.8287"
+                "latitude": "39.9612",
+                "longitude": "-82.9988"
               },
-              "geoRadius": "200000"
+              "geoRadius": "50000"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
@@ -374,7 +376,7 @@ export default function AIServicesOhioPage() {
               }
             },
             "datePublished": "2024-01-15",
-            "dateModified": "2024-10-30",
+            "dateModified": "2026-01-27",
             "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-ohio/",
             "keywords": "Artificial Intelligence Company In Ohio, AI Company In Ohio, AI Service In Ohio"
           })
@@ -423,7 +425,7 @@ export default function AIServicesOhioPage() {
             "description": "Leading Artificial Intelligence Company providing AI services in Ohio",
             "image": "https://metic.ai/ai-company-Ohio.jpg",
             "telephone": "+1-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "300 Quail Ridge Dr NE",

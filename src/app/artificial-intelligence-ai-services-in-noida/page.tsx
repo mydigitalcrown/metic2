@@ -180,20 +180,21 @@ export default function AIServicesNoidaPage() {
             "logo": "https://metic.ai/logo.png",
             "image": ["https://metic.ai/ai-company-Noida.jpg"],
             "telephone": "+1-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
             "vatID": "US123456789",
             "address": {
               "@type": "PostalAddress",
-              "addressRegion": "Noida",
-              "addressCountry": "US",
-              "postalCode": "35201"
+              "streetAddress": "Noida",
+              "addressLocality": "Noida",
+              "addressRegion": "Uttar Pradesh",
+              "addressCountry": "IN",
+              "postalCode": "201301"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "32.7794",
-              "longitude": "-86.8287"
+              "latitude": "28.5355", "longitude": "77.3910"
             },
             "areaServed": [
               {
@@ -201,7 +202,7 @@ export default function AIServicesNoidaPage() {
                 "name": "Noida",
                 "containedInPlace": {
                   "@type": "Country", 
-                  "name": "United States"
+                  "name": "India"
                 }
               }
             ],
@@ -209,8 +210,7 @@ export default function AIServicesNoidaPage() {
               "@type": "GeoCircle",
               "geoMidpoint": {
                 "@type": "GeoCoordinates",
-                "latitude": "32.7794",
-                "longitude": "-86.8287"
+                "latitude": "28.5355", "longitude": "77.3910"
               },
               "geoRadius": "200000"
             },
@@ -283,8 +283,8 @@ export default function AIServicesNoidaPage() {
               "@type": "ContactPoint",
               "telephone": "+1-789-251-8414",
               "contactType": "Customer Service",
-              "areaServed": "US",
-              "availableLanguage": ["English"]
+              "areaServed": "IN",
+              "availableLanguage": ["English", "Hindi"]
             }
           })
         }}
@@ -374,7 +374,7 @@ export default function AIServicesNoidaPage() {
               }
             },
             "datePublished": "2024-01-15",
-            "dateModified": "2024-10-30",
+            "dateModified": "2026-01-27",
             "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-Noida/",
             "keywords": "Artificial Intelligence Company In Noida, AI Company In Noida, AI Service In Noida"
           })
@@ -423,19 +423,18 @@ export default function AIServicesNoidaPage() {
             "description": "Leading Artificial Intelligence Company providing AI services in Noida",
             "image": "https://metic.ai/ai-company-Noida.jpg",
             "telephone": "+1-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "300 Quail Ridge Dr NE",
               "addressLocality": "ADA",
               "addressRegion": "MI",
               "postalCode": "49301",
-              "addressCountry": "US"
+              "addressCountry": "IN"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "32.3182",
-              "longitude": "-86.9023"
+              "latitude": "28.5355", "longitude": "77.3910"
             },
             "url": "https://metic.ai/artificial-intelligence-ai-services-in-Noida/",
             "priceRange": "$$$$",

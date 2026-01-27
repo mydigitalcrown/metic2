@@ -180,20 +180,22 @@ export default function AIServicesMinnesotaPage() {
             "logo": "https://metic.ai/logo.png",
             "image": ["https://metic.ai/ai-company-Minnesota.jpg"],
             "telephone": "+1-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
             "vatID": "US123456789",
             "address": {
               "@type": "PostalAddress",
+              "streetAddress": "Minneapolis",
+              "addressLocality": "Minneapolis",
               "addressRegion": "Minnesota",
               "addressCountry": "US",
-              "postalCode": "35201"
+              "postalCode": "55401"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "32.7794",
-              "longitude": "-86.8287"
+              "latitude": "44.9778",
+              "longitude": "-93.2650"
             },
             "areaServed": [
               {
@@ -209,10 +211,10 @@ export default function AIServicesMinnesotaPage() {
               "@type": "GeoCircle",
               "geoMidpoint": {
                 "@type": "GeoCoordinates",
-                "latitude": "32.7794",
-                "longitude": "-86.8287"
+                "latitude": "44.9778",
+                "longitude": "-93.2650"
               },
-              "geoRadius": "200000"
+              "geoRadius": "50000"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
@@ -374,7 +376,7 @@ export default function AIServicesMinnesotaPage() {
               }
             },
             "datePublished": "2024-01-15",
-            "dateModified": "2024-10-30",
+            "dateModified": "2026-01-27",
             "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-Minnesota/",
             "keywords": "Artificial Intelligence Company In Minnesota, AI Company In Minnesota, AI Service In Minnesota"
           })
@@ -423,7 +425,7 @@ export default function AIServicesMinnesotaPage() {
             "description": "Leading Artificial Intelligence Company providing AI services in Minnesota",
             "image": "https://metic.ai/ai-company-Minnesota.jpg",
             "telephone": "+1-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "300 Quail Ridge Dr NE",

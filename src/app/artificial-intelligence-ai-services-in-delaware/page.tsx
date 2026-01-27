@@ -180,20 +180,22 @@ export default function AIServicesDelawarePage() {
             "logo": "https://metic.ai/logo.png",
             "image": ["https://metic.ai/ai-company-delaware.jpg"],
             "telephone": "+1-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
             "vatID": "US123456789",
             "address": {
               "@type": "PostalAddress",
+              "streetAddress": "Wilmington",
+              "addressLocality": "Wilmington",
               "addressRegion": "Delaware",
               "addressCountry": "US",
               "postalCode": "19801"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "39.7391",
-              "longitude": "-75.5398"
+              "latitude": "39.1582",
+              "longitude": "-75.5244"
             },
             "areaServed": [
               {
@@ -209,10 +211,10 @@ export default function AIServicesDelawarePage() {
               "@type": "GeoCircle",
               "geoMidpoint": {
                 "@type": "GeoCoordinates",
-                "latitude": "39.7391",
-                "longitude": "-75.5398"
+                "latitude": "39.1582",
+                "longitude": "-75.5244"
               },
-              "geoRadius": "80000"
+              "geoRadius": "50000"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
@@ -374,7 +376,7 @@ export default function AIServicesDelawarePage() {
               }
             },
             "datePublished": "2024-01-15",
-            "dateModified": "2024-10-30",
+            "dateModified": "2026-01-27",
             "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-delaware/",
             "keywords": "Artificial Intelligence Company In Delaware, AI Company In Delaware, AI Service In Delaware"
           })
@@ -423,7 +425,7 @@ export default function AIServicesDelawarePage() {
             "description": "Leading Artificial Intelligence Company providing AI services in Delaware",
             "image": "https://metic.ai/ai-company-delaware.jpg",
             "telephone": "+1-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "300 Quail Ridge Dr NE",

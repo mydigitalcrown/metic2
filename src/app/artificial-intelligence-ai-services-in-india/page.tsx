@@ -180,20 +180,22 @@ export default function AIServicesIndiaPage() {
             "logo": "https://metic.ai/logo.png",
             "image": ["https://metic.ai/ai-company-India.jpg"],
             "telephone": "+91-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
             "vatID": "IN123456789",
             "address": {
               "@type": "PostalAddress",
+              "streetAddress": "India",
+              "addressLocality": "India",
               "addressRegion": "India",
               "addressCountry": "IN",
-              "postalCode": "35201"
+              "postalCode": "110001"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "32.7794",
-              "longitude": "-86.8287"
+              "latitude": "20.5937",
+              "longitude": "78.9629"
             },
             "areaServed": [
               {
@@ -209,10 +211,10 @@ export default function AIServicesIndiaPage() {
               "@type": "GeoCircle",
               "geoMidpoint": {
                 "@type": "GeoCoordinates",
-                "latitude": "32.7794",
-                "longitude": "-86.8287"
+                "latitude": "20.5937",
+                "longitude": "78.9629"
               },
-              "geoRadius": "200000"
+              "geoRadius": "500000"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
@@ -284,7 +286,7 @@ export default function AIServicesIndiaPage() {
               "telephone": "+91-789-251-8414",
               "contactType": "Customer Service",
               "areaServed": "IN",
-              "availableLanguage": ["English"]
+              "availableLanguage": ["English", "Hindi"]
             }
           })
         }}
@@ -374,7 +376,7 @@ export default function AIServicesIndiaPage() {
               }
             },
             "datePublished": "2024-01-15",
-            "dateModified": "2024-10-30",
+            "dateModified": "2026-01-27",
             "mausentityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-India/",
             "keywords": "Artificial Intelligence Company In India, AI Company In India, AI Service In India"
           })
@@ -423,7 +425,7 @@ export default function AIServicesIndiaPage() {
             "description": "Leading Artificial Intelligence Company providing AI services in India",
             "image": "https://metic.ai/ai-company-India.jpg",
             "telephone": "+91-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "300 Quail Ridge Dr NE",

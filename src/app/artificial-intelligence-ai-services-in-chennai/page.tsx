@@ -180,12 +180,14 @@ export default function AIServicesChennaiPage() {
             "logo": "https://metic.ai/logo.png",
             "image": ["https://metic.ai/ai-company-chennai.jpg"],
             "telephone": "+1-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "foundingDate": "2020",
             "numberOfEmployees": "50-100",
             "vatID": "IN123456789",
             "address": {
               "@type": "PostalAddress",
+              "streetAddress": "Chennai",
+              "addressLocality": "Chennai",
               "addressRegion": "Tamil Nadu",
               "addressCountry": "IN",
               "postalCode": "600001"
@@ -212,7 +214,7 @@ export default function AIServicesChennaiPage() {
                 "latitude": "13.0827",
                 "longitude": "80.2707"
               },
-              "geoRadius": "100000"
+              "geoRadius": "50000"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
@@ -284,7 +286,7 @@ export default function AIServicesChennaiPage() {
               "telephone": "+1-789-251-8414",
               "contactType": "Customer Service",
               "areaServed": "IN",
-              "availableLanguage": ["English", "Tamil", "Hindi"]
+              "availableLanguage": ["English", "Tamil"]
             }
           })
         }}
@@ -374,7 +376,7 @@ export default function AIServicesChennaiPage() {
               }
             },
             "datePublished": "2024-01-15",
-            "dateModified": "2024-10-30",
+            "dateModified": "2026-01-27",
             "mainEntityOfPage": "https://metic.ai/artificial-intelligence-ai-services-in-chennai/",
             "keywords": "Artificial Intelligence Company In Chennai, AI Company In Chennai, AI Service In Chennai"
           })
@@ -423,7 +425,7 @@ export default function AIServicesChennaiPage() {
             "description": "Leading Artificial Intelligence Company providing AI services in Chennai",
             "image": "https://metic.ai/ai-company-chennai.jpg",
             "telephone": "+1-789-251-8414",
-            "email": "hello@matic.ai",
+            "email": "hello@metic.ai",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "Anna Salai",
